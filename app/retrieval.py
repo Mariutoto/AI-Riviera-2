@@ -45,6 +45,16 @@ def is_broad_legislature_query(query: str, query_tokens: Counter) -> bool:
     return bool(broad_terms.intersection(query_tokens)) or "derniere legislature" in normalized
 
 
+def is_council_vote_query(query: str) -> bool:
+    normalized = strip_accents(query).lower()
+    has_vote = any(term in normalized for term in ["vote", "votee", "voter", "votes", "votation"])
+    has_popular_vote = any(
+        term in normalized
+        for term in ["referendum", "scrutin", "initiative", "vote populaire", "citoyen", "citoyenne"]
+    )
+    return has_vote and not has_popular_vote
+
+
 @lru_cache(maxsize=1)
 def load_chunks() -> list[dict]:
     if not CHUNKS_PATH.exists():
@@ -66,6 +76,7 @@ def search(query: str, limit: int = 6) -> list[dict]:
         return []
 
     broad_legislature_query = is_broad_legislature_query(query, query_tokens)
+    council_vote_query = is_council_vote_query(query)
     if broad_legislature_query:
         query_tokens.update(
             [
@@ -87,6 +98,24 @@ def search(query: str, limit: int = 6) -> list[dict]:
                 "communication",
                 "objet",
                 "divers",
+            ]
+        )
+    if council_vote_query:
+        query_tokens.update(
+            [
+                "vote",
+                "conseil",
+                "communal",
+                "preavis",
+                "proces",
+                "verbal",
+                "seance",
+                "adopte",
+                "accepte",
+                "refuse",
+                "conclusions",
+                "decision",
+                "amendement",
             ]
         )
 

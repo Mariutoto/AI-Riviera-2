@@ -199,6 +199,12 @@ def search_sqlite(query: str, tokens: list[str], limit: int = 6) -> list[dict]:
                 score += count * 8
             if token in text_lower:
                 score += count * 0.8
+        category = str(metadata.get("category", ""))
+        if "vote" in query_counts:
+            if category in {"proces-verbaux", "preavis-municipaux", "ordres-du-jour"}:
+                score += 10
+            if str(metadata.get("year", "")) in query_counts:
+                score += 6
         results.append(
             {
                 "id": row["id"],
