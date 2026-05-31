@@ -12,6 +12,7 @@ import requests
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from app.document_categories import category_for_political_type, infer_political_document_type
 from app.text_cleaning import clean_french_text
 
 
@@ -66,17 +67,23 @@ def clean_html_text(raw_html: str) -> str:
 
 def document_type(title: str, filename: str) -> str:
     haystack = f"{title} {filename}".lower()
-    if "motion" in haystack:
-        return "motion"
-    if "postulat" in haystack:
-        return "postulat"
-    if "interpellation" in haystack:
-        return "interpellation"
     if "reponse" in haystack or "réponse" in haystack:
-        return "reponse_interpellation"
+        object_type = infer_political_document_type(title, filename)
+        return f"reponse_{object_type}" if object_type else "reponse"
+    object_type = infer_political_document_type(title, filename)
+    if object_type:
+        return object_type
     if "question" in haystack:
         return "question"
     return "motion_postulat_interpellation"
+
+
+def document_category(item_type: str, title: str, filename: str) -> str:
+    if item_type.startswith("reponse_"):
+        item_type = item_type.replace("reponse_", "", 1)
+    return category_for_political_type(item_type) or category_for_political_type(
+        infer_political_document_type(title, filename)
+    ) or "autres"
 
 
 def status_from_title(title: str) -> str | None:
@@ -128,13 +135,14 @@ def collect_items() -> list[dict]:
             title = clean_html_text(title_match.group(1)) if title_match else Path(unquote(urlparse(pdf_url).path)).stem
             summary = clean_html_text(summary_match.group(1)) if summary_match else ""
             filename = safe_filename(pdf_url)
+            item_type = document_type(title, filename)
 
             items_by_url[pdf_url] = {
                 "commune": "La Tour-de-Peilz",
-                "type": document_type(title, filename),
+                "type": item_type,
                 "year": pdf_year,
                 "listing_year": year,
-                "category": "motions-postulats",
+                "category": document_category(item_type, title, filename),
                 "legislature": "2021-2026",
                 "title": title,
                 "summary": summary,
@@ -155,7 +163,7 @@ def extract_pdf_text(pdf_path: Path) -> str:
 def download_and_extract(item: dict) -> dict:
     year = item["year"]
     filename = item["filename"]
-    target_dir = OUTPUT_ROOT / year / "motions-postulats"
+    target_dir = OUTPUT_ROOT / year / item["category"]
     target_dir.mkdir(parents=True, exist_ok=True)
 
     pdf_path = target_dir / filename

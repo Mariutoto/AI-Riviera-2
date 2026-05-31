@@ -9,6 +9,7 @@ import fitz
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from app.document_categories import normalize_document_category
 from app.text_cleaning import clean_french_text
 
 
@@ -97,6 +98,9 @@ def year_from_url(pdf_url: str) -> str | None:
 
 def category_from_url(pdf_url: str) -> str:
     path = unquote(urlparse(pdf_url).path).lower()
+    filename = Path(unquote(urlparse(pdf_url).path)).name
+    if "/motions-postulats/" in path:
+        return normalize_document_category("motions-postulats", filename, pdf_url)
     for category in PAGES:
         if category in path:
             return category

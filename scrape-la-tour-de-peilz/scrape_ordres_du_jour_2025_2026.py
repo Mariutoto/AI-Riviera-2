@@ -11,6 +11,7 @@ import requests
 import fitz
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from app.document_categories import normalize_document_category
 from app.text_cleaning import clean_french_text
 
 
@@ -164,8 +165,9 @@ def infer_year_from_pdf_url(pdf_url: str, fallback_year: str) -> str:
 
 def category_from_pdf_url(pdf_url: str) -> str:
     path = unquote(urlparse(pdf_url).path).lower()
-    if "motions-postulats" in path:
-        return "motions-postulats"
+    if "/motions-postulats/" in path:
+        filename = Path(unquote(urlparse(pdf_url).path)).name
+        return normalize_document_category("motions-postulats", filename, pdf_url)
     if "proces-verbaux" in path:
         return "proces-verbaux"
     if "preavis" in path:

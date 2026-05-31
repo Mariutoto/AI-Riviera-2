@@ -51,7 +51,7 @@ Couverture actuelle:
 - Conseil communal, rubriques institutionnelles: admissions, bureau du conseil communal, compétences, liste des membres par parti, règlement du Conseil communal.
 - Ordres du jour, législature 2021-2026: séances du 15 septembre 2021 au 6 mai 2026, soit 34 séances indexées.
 - Procès-verbaux, législature 2021-2026: PV01 du 16 juin 2021 à PV34 du 25 mars 2026.
-- Motions, postulats, interpellations et réponses: rubrique officielle `motions-postulats`, années 2021 à 2026, soit 99 PDF indexés depuis la page dédiée.
+- Motions, postulats, interpellations et réponses: rubrique officielle `motions-postulats`, années 2021 à 2026, avec catégories de documents séparées (`motions`, `postulats`, `interpellations`).
 - Objets divers: rubrique officielle affichée comme `Objets divers` sur le site, avec l'URL technique `informations-diverses.php`, années 2021 à 2026, soit 32 PDF indexés depuis la page dédiée.
 - Préavis municipaux: rubrique officielle `preavis-municipaux`, années 2021 à 2026, soit 150 PDF indexés depuis la page dédiée.
 - Rapports de gestion: exercices 2021 à 2024, avec rapport de la commission de gestion et réponse de la Municipalité, soit 4 gros rapports indexés depuis `rapport-comptes-budget.php`.
@@ -59,13 +59,13 @@ Couverture actuelle:
 - Budgets communaux: exercices 2021 à 2026, soit 6 gros rapports budgétaires indexés depuis `rapport-comptes-budget.php`.
 - Infos de la Municipalité: décisions mensuelles publiées dans la rubrique officielle `infos-muni`, de septembre 2021 à mars 2026, soit 55 pages HTML indexées.
 - Documents liés depuis les ordres du jour 2021-2026: préavis, rapports, communications municipales, motions, postulats, interpellations et réponses lorsque les PDF sont liés depuis les séances.
-- Collecte directe 2025-2026: motions/postulats/interpellations, préavis municipaux, communications municipales, informations diverses, budgets, ordres du jour et procès-verbaux.
+- Collecte directe 2025-2026: motions, postulats, interpellations, préavis municipaux, communications municipales, informations diverses, budgets, ordres du jour et procès-verbaux.
 
 Limites volontaires:
 
 - La séance du 24 juin 2026 n'est pas indexée, car elle est future au moment de la collecte du 29 mai 2026.
 - La séance du 30 juin 2021 n'est pas incluse dans les ordres du jour 2021-2026, car elle apparaît dans l'onglet `Législature 2016-2021`.
-- La page `motions-postulats.php` est structurée par années et non par onglets de législature; l'import prend les rubriques 2021 à 2026. Certains PDF peuvent avoir une année de fichier différente de l'année affichée sur la page, par exemple lorsqu'une réponse est publiée l'année suivante.
+- La page `motions-postulats.php` est structurée par années et non par onglets de législature; l'import prend les rubriques 2021 à 2026 puis sépare les documents en `motions`, `postulats` et `interpellations`. Certains PDF peuvent avoir une année de fichier différente de l'année affichée sur la page, par exemple lorsqu'une réponse est publiée l'année suivante.
 - La page des `Objets divers` utilise l'URL technique `informations-diverses.php` et est aussi structurée par années; l'import prend les rubriques 2021 à 2026.
 - Les PDF ne sont pas versionnés dans Git pour éviter un dépôt trop lourd. Le dépôt garde les textes extraits et les métadonnées JSON.
 

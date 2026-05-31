@@ -8,6 +8,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from app.document_categories import normalize_document_category, political_type_for_category
 from app.text_cleaning import clean_french_text
 
 
@@ -62,6 +63,9 @@ def infer_object_type(title: str, category: str = "") -> str:
             return object_type
 
     category_haystack = category.lower()
+    category_type = political_type_for_category(category_haystack)
+    if category_type:
+        return category_type
     for marker, object_type in POLITICAL_TYPES:
         if marker in category_haystack and category_haystack != "motions-postulats":
             return object_type
@@ -113,7 +117,12 @@ def extract_authors(title: str) -> list[str]:
 def flatten_document(item: dict, session: dict, linked_document: dict) -> dict:
     local = linked_document.get("local_document", {}) or {}
     title = linked_document.get("title") or item.get("title", "")
-    category = local.get("category", "")
+    category = normalize_document_category(
+        local.get("category", ""),
+        title,
+        linked_document.get("filename", ""),
+        linked_document.get("pdf_url", ""),
+    )
     return {
         "commune": session.get("commune", "La Tour-de-Peilz"),
         "session_date": session.get("session_date", ""),

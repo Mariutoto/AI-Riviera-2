@@ -22,6 +22,9 @@ STOPWORDS = {
 BROAD_LEGISLATURE_CATEGORIES = {
     "ordres-du-jour",
     "proces-verbaux",
+    "motions",
+    "postulats",
+    "interpellations",
     "motions-postulats",
     "preavis-municipaux",
     "communications-municipales",
