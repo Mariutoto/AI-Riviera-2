@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "index": {
+      "knn": true,
+      "number_of_shards": 1,
+      "number_of_replicas": 0
+    }
+  },
+  "mappings": {
+    "properties": {
+      "chunk_id": { "type": "keyword" },
+      "document_id": { "type": "keyword" },
+      "city": { "type": "keyword" },
+      "doc_type": { "type": "keyword" },
+      "title": {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword", "ignore_above": 512 } }
+      },
+      "date": { "type": "date", "format": "strict_date_optional_time||yyyy-MM-dd" },
+      "source_url": { "type": "keyword" },
+      "content": { "type": "text" },
+      "document_hash": { "type": "keyword" },
+      "content_hash": { "type": "keyword" },
+      "chunk_index": { "type": "integer" },
+      "fetch_date": { "type": "date" },
+      "last_processed_at": { "type": "date" },
+      "embedding": {
+        "type": "knn_vector",
+        "dimension": 1536,
+        "method": {
+          "name": "hnsw",
+          "space_type": "cosinesimil",
+          "engine": "nmslib"
+        }
+      }
+    }
+  }
+}

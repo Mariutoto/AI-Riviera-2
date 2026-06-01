@@ -2,7 +2,7 @@
 
 Prototype de chatbot pour interroger les documents communaux de La Tour-de-Peilz.
 
-Cette version est l'étape 2 du prototype: elle garde les mêmes données publiques que AI Riviera, mais ajoute une base SQLite locale avec recherche plein texte FTS5. Le JSON reste disponible comme format simple de reconstruction/export, tandis que SQLite sert à accélérer la recherche dans l'app.
+Cette version utilise Postgres comme stockage principal, puis indexe les chunks dans OpenSearch pour une recherche hybride BM25 + vectorielle. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
 
 ## Lancer le chatbot
 
@@ -14,10 +14,22 @@ python -m streamlit run app/ui.py
 
 L'application répond avec les passages les plus pertinents et leurs sources. Si une clé Mistral ou OpenAI est configurée, elle génère aussi une synthèse en français à partir des extraits retrouvés.
 
-`python -m app.ingest` génère deux index locaux:
+Pour relancer l'ingestion manuellement ou via un job planifié:
 
-- `data/index/chunks.jsonl`: index JSON lisible et facile à reconstruire;
-- `data/index/ai_riviera.sqlite`: base SQLite utilisée en priorité par la recherche.
+```powershell
+python -m app.ingestion_pipeline --trigger-name scheduled
+```
+
+`python -m app.ingest` alimente Postgres et OpenSearch:
+
+- Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
+- OpenSearch: indexe les chunks pour la recherche hybride et les filtres.
+
+Pour reconstruire l'ancien index JSON/SQLite explicitement:
+
+```powershell
+python -m app.ingest --legacy-json
+```
 
 ## Options LLM
 
@@ -89,14 +101,13 @@ data/structured/la-tour-de-peilz/
 data/index/
 ```
 
-Les index locaux sont créés ici:
+Les statistiques d'indexation locales sont créées ici:
 
 ```text
-data/index/chunks.jsonl
-data/index/ai_riviera.sqlite
+data/index/stats.json
 ```
 
-Le dossier `data/index/` est généré localement et n'est pas versionné dans Git.
+Le dossier `data/index/` est généré localement et n'est pas versionné dans Git. Les anciens fichiers `chunks.jsonl` et `ai_riviera.sqlite` ne sont recréés que si l'option `--legacy-json` est utilisée.
 
 ## Scrapers utiles
 
@@ -131,9 +142,9 @@ Cette couche permet de répondre sans deviner à des questions calculables comme
 
 ## Prochaines étapes
 
-- Consolider la couche SQLite: ajouter plus de tables métier, des vues par séance, par objet politique et par document, puis garder le JSON uniquement comme format d'import/export.
+- Consolider la couche Postgres: ajouter plus de vues métier par séance, par objet politique et par document, puis garder le JSON uniquement comme format d'import/export.
 - Rendre le webscraping plus robuste: automatiser la mise à jour des nouvelles séances, détecter les nouveaux PDF, éviter les doublons, garder un journal des imports et vérifier quand une page officielle change de structure.
-- Passer ensuite vers PostgreSQL pour une version plus solide en production, ou PostgreSQL avec `pgvector` si on ajoute une recherche sémantique par embeddings.
+- Évaluer ensuite `pgvector` dans Postgres si on veut rapatrier la recherche vectorielle directement dans SQL.
 - Garder des résultats rapides et fluides: pré-indexer les documents, mettre en cache les recherches fréquentes, séparer les métadonnées structurées des passages de texte, et limiter ce qui est envoyé au LLM à ce qui est vraiment pertinent.
 - Ajouter éventuellement un login: accès public pour les documents déjà publics, puis espace privé pour les élus ou l'administration avec des droits plus fins, historique de questions, favoris, annotations et documents internes si la commune veut les ajouter.
 - Préparer une version multi-communes Riviera: même structure de données, mais avec un champ `commune` clair pour comparer ou filtrer entre La Tour-de-Peilz, Vevey, Montreux, etc.

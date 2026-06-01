@@ -4,7 +4,9 @@ import re
 from collections import Counter
 from functools import lru_cache
 
-from app.config import CHUNKS_PATH
+from app.config import CHUNKS_PATH, ENABLE_LEGACY_JSON_FALLBACK, STORAGE_BACKEND
+from app.hybrid_search import search_hybrid
+from app.postgres_store import search_chunks as search_postgres_chunks
 from app.sqlite_index import search_sqlite, sqlite_ready
 from app.text_cleaning import strip_accents
 
@@ -73,7 +75,7 @@ def load_chunks() -> list[dict]:
     return chunks
 
 
-def search(query: str, limit: int = 6) -> list[dict]:
+def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict]:
     query_tokens = Counter(tokenize(query))
     if not query_tokens:
         return []
@@ -122,10 +124,25 @@ def search(query: str, limit: int = 6) -> list[dict]:
             ]
         )
 
-    if sqlite_ready():
-        sqlite_results = search_sqlite(query, list(query_tokens.elements()), limit=limit)
-        if sqlite_results:
-            return sqlite_results
+    if STORAGE_BACKEND in {"sql", "hybrid", "postgres", "opensearch"}:
+        hybrid_results = search_hybrid(query, limit=limit, filters=filters)
+        if hybrid_results:
+            return hybrid_results
+
+        postgres_results = search_postgres_chunks(query, list(query_tokens.elements()), limit=limit, filters=filters)
+        if postgres_results:
+            return postgres_results
+
+        if not ENABLE_LEGACY_JSON_FALLBACK:
+            return []
+
+    if STORAGE_BACKEND in {"json", "sqlite", "legacy"} or ENABLE_LEGACY_JSON_FALLBACK:
+        if sqlite_ready():
+            sqlite_results = search_sqlite(query, list(query_tokens.elements()), limit=limit)
+            if sqlite_results:
+                return sqlite_results
+    else:
+        return []
 
     chunks = load_chunks()
     total_chunks = max(len(chunks), 1)

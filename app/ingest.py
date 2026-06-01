@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from app.config import CHUNKS_PATH, DOCUMENTS_ROOT, INDEX_DIR
+from app.ingestion_pipeline import ingest_documents
 from app.sqlite_index import build_sqlite_index
 from app.text_cleaning import clean_french_text
 
@@ -79,7 +80,7 @@ def iter_text_files(root: Path):
             yield path
 
 
-def build_index(documents_root: Path = DOCUMENTS_ROOT, chunks_path: Path = CHUNKS_PATH) -> dict:
+def build_legacy_json_index(documents_root: Path = DOCUMENTS_ROOT, chunks_path: Path = CHUNKS_PATH) -> dict:
     INDEX_DIR.mkdir(parents=True, exist_ok=True)
 
     document_count = 0
@@ -118,6 +119,26 @@ def build_index(documents_root: Path = DOCUMENTS_ROOT, chunks_path: Path = CHUNK
     except Exception as exc:
         stats["sqlite_error"] = str(exc)
 
+    try:
+        postgres_stats = ingest_documents(documents_root=documents_root, trigger_name="build_index")
+        stats["postgres"] = postgres_stats
+    except Exception as exc:
+        stats["postgres_error"] = str(exc)
+
+    (INDEX_DIR / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
+    return stats
+
+
+def build_index(
+    documents_root: Path = DOCUMENTS_ROOT,
+    chunks_path: Path = CHUNKS_PATH,
+    include_legacy_json: bool = False,
+) -> dict:
+    if include_legacy_json:
+        return build_legacy_json_index(documents_root=documents_root, chunks_path=chunks_path)
+
+    stats = ingest_documents(documents_root=documents_root, trigger_name="build_index")
+    INDEX_DIR.mkdir(parents=True, exist_ok=True)
     (INDEX_DIR / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
     return stats
 
@@ -125,9 +146,14 @@ def build_index(documents_root: Path = DOCUMENTS_ROOT, chunks_path: Path = CHUNK
 def main() -> None:
     parser = argparse.ArgumentParser(description="Index AI Riviera text documents.")
     parser.add_argument("--documents-root", type=Path, default=DOCUMENTS_ROOT)
+    parser.add_argument(
+        "--legacy-json",
+        action="store_true",
+        help="Also rebuild the old chunks.jsonl and SQLite indexes before ingesting SQL.",
+    )
     args = parser.parse_args()
 
-    stats = build_index(args.documents_root)
+    stats = build_index(args.documents_root, include_legacy_json=args.legacy_json)
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 

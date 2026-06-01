@@ -3,10 +3,6 @@ import os
 import requests
 
 
-MAX_CONTEXT_DOCUMENTS = 6
-MAX_PASSAGES_PER_DOCUMENT = 2
-MAX_PASSAGE_CHARS = 1200
-
 SYSTEM_PROMPT = """Tu es AI Riviera, un assistant civique.
 Réponds uniquement avec les extraits fournis. Si les sources ne permettent pas de répondre, dis-le clairement.
 Pour une question générale ou de synthèse, utilise les extraits comme échantillon documentaire: donne une réponse utile, mentionne les grandes catégories observées, et précise les limites au lieu de répondre seulement que c'est impossible.
@@ -35,7 +31,11 @@ def get_secret(name: str, default: str | None = None) -> str | None:
 def document_key(result: dict) -> str:
     metadata = result.get("metadata", {})
     return (
-        metadata.get("pdf_url")
+        metadata.get("document_hash")
+        or result.get("document_hash")
+        or result.get("source_url")
+        or metadata.get("source_url")
+        or metadata.get("pdf_url")
         or metadata.get("text_path")
         or result.get("relative_text_path")
         or metadata.get("filename")
@@ -47,9 +47,17 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
     grouped = {}
     for result in results:
         key = document_key(result)
+        metadata = result.get("metadata") or {
+            "city": result.get("city", ""),
+            "doc_type": result.get("doc_type", ""),
+            "title": result.get("title", ""),
+            "date": result.get("date", ""),
+            "source_url": result.get("source_url", ""),
+            "document_hash": result.get("document_hash", ""),
+        }
         if key not in grouped:
             grouped[key] = {
-                "metadata": result.get("metadata", {}),
+                "metadata": metadata,
                 "relative_text_path": result.get("relative_text_path", ""),
                 "score": result.get("score", 0),
                 "passages": [],
@@ -61,15 +69,15 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
 
 def build_context(results: list[dict]) -> str:
     blocks = []
-    for index, source in enumerate(group_results_by_document(results)[:MAX_CONTEXT_DOCUMENTS], start=1):
+    for index, source in enumerate(group_results_by_document(results), start=1):
         metadata = source["metadata"]
-        title = metadata.get("filename", source.get("relative_text_path", "document"))
-        year = metadata.get("year", "")
-        category = metadata.get("category", "")
-        url = metadata.get("pdf_url") or metadata.get("url") or ""
+        title = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+        year = metadata.get("year") or metadata.get("date", "")
+        category = metadata.get("category") or metadata.get("doc_type", "")
+        url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
         passages = "\n\n".join(
-            f"Passage {passage_index}:\n{passage['text'][:MAX_PASSAGE_CHARS]}"
-            for passage_index, passage in enumerate(source["passages"][:MAX_PASSAGES_PER_DOCUMENT], start=1)
+            f"Passage {passage_index}:\n{passage.get('text') or passage.get('content', '')}"
+            for passage_index, passage in enumerate(source["passages"], start=1)
         )
         blocks.append(
             f"[Source {index}] {title} | {year} | {category} | {url}\n"
@@ -216,20 +224,39 @@ def llm_status() -> dict:
 def answer_from_sources(question: str, results: list[dict]) -> str:
     ai_answer = answer_with_llm(question, results)
     if ai_answer:
-        return ai_answer
+        return f"{ai_answer}\n\n{_sources_section(results)}" if results else ai_answer
 
     if not results:
-        return "Je n'ai pas trouvé de passage pertinent dans les documents indexés."
+        return "Je ne sais pas: je n'ai pas trouvé de source suffisamment pertinente dans les documents indexés."
 
     lines = [
         "J'ai trouvé ces passages pertinents. Ajoute une clé Mistral ou OpenAI plus tard si tu veux une synthèse rédigée automatiquement.",
         "",
     ]
-    for index, result in enumerate(results[:3], start=1):
+    for index, result in enumerate(results, start=1):
         metadata = result["metadata"]
-        filename = metadata.get("filename", result.get("relative_text_path", "document"))
-        year = metadata.get("year", "")
-        excerpt = result["text"][:650].strip().replace("\n", " ")
+        filename = metadata.get("filename") or metadata.get("title") or result.get("relative_text_path", "document")
+        year = metadata.get("year") or metadata.get("date", "")
+        excerpt = (result.get("text") or result.get("content", "")).strip().replace("\n", " ")
         lines.append(f"{index}. {filename} ({year})")
-        lines.append(f"   {excerpt}...")
+        lines.append(f"   {excerpt}")
+    lines.append("")
+    lines.append(_sources_section(results))
+    return "\n".join(lines)
+
+
+def _sources_section(results: list[dict]) -> str:
+    grouped = group_results_by_document(results)
+    if not grouped:
+        return "Sources utilisées: aucune source disponible."
+
+    lines = ["Sources utilisées:"]
+    for index, source in enumerate(grouped, start=1):
+        metadata = source["metadata"]
+        title = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+        source_url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
+        label = f"{index}. {title}"
+        if source_url:
+            label = f"{label} - {source_url}"
+        lines.append(label)
     return "\n".join(lines)

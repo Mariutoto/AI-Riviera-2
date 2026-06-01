@@ -9,9 +9,11 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.answer import answer_from_sources
-from app.config import CHUNKS_PATH, DOCUMENTS_ROOT, SQLITE_PATH
+from app.config import STORAGE_BACKEND
 from app.ingest import build_index
-from app.retrieval import load_chunks, search
+from app.opensearch_store import ready as opensearch_ready
+from app.postgres_store import ready as postgres_ready
+from app.retrieval import search
 from app.structured import answer_structured_question
 
 
@@ -24,38 +26,71 @@ st.caption(
     "nicht gewinnorientiertes Projekt"
 )
 
+with st.sidebar:
+    st.header("Indexation")
+    st.caption(f"Mode stockage: {STORAGE_BACKEND}")
+    if st.button("Indexer Riviera 2"):
+        with st.spinner("Indexation SQL/OpenSearch en cours..."):
+            try:
+                stats = build_index()
+                st.success(
+                    f"Indexation terminée: {stats.get('documents_indexed', 0)} documents, "
+                    f"{stats.get('chunks_indexed', 0)} passages."
+                )
+            except Exception as exc:
+                st.error(f"Indexation impossible: {exc}")
 
-def documents_changed_after_index() -> bool:
-    if not CHUNKS_PATH.exists() or not SQLITE_PATH.exists():
+    st.header("Filtres")
+    city_filter = st.text_input("Ville", value="La Tour-de-Peilz")
+    doc_type_filter = st.text_input("Type de document", value="")
+    date_from_filter = st.text_input("Date de début (YYYY-MM-DD)", value="")
+    date_to_filter = st.text_input("Date de fin (YYYY-MM-DD)", value="")
+
+
+def current_filters() -> dict | None:
+    filters = {}
+    if city_filter.strip():
+        filters["city"] = city_filter.strip()
+    if doc_type_filter.strip():
+        filters["doc_type"] = doc_type_filter.strip()
+    if date_from_filter.strip():
+        filters["date_from"] = date_from_filter.strip()
+    if date_to_filter.strip():
+        filters["date_to"] = date_to_filter.strip()
+    return filters or None
+
+
+def ensure_index_ready() -> bool:
+    if opensearch_ready() or postgres_ready():
         return True
-
-    index_mtime = min(CHUNKS_PATH.stat().st_mtime, SQLITE_PATH.stat().st_mtime)
-    for path in DOCUMENTS_ROOT.rglob("*.txt"):
-        if path.stat().st_mtime > index_mtime:
-            return True
-    for path in DOCUMENTS_ROOT.rglob("*.json"):
-        if path.stat().st_mtime > index_mtime:
-            return True
+    st.warning(
+        "La base Riviera 2 n'est pas encore prête. Clique sur 'Indexer Riviera 2' dans la barre latérale, "
+        "ou démarre Postgres/OpenSearch puis relance l'indexation."
+    )
     return False
-
-
-def ensure_index_ready() -> None:
-    if documents_changed_after_index():
-        with st.spinner("Mise à jour de l'index des documents..."):
-            build_index()
-            load_chunks.cache_clear()
 
 
 def group_results_by_document(results: list[dict]) -> list[dict]:
     grouped = {}
     for result in results:
-        metadata = result["metadata"]
+        metadata = result.get("metadata") or {
+            "city": result.get("city", ""),
+            "doc_type": result.get("doc_type", ""),
+            "title": result.get("title", ""),
+            "date": result.get("date", ""),
+            "source_url": result.get("source_url", ""),
+            "document_hash": result.get("document_hash", ""),
+        }
         document_key = (
-            metadata.get("pdf_url")
+            metadata.get("document_hash")
+            or result.get("document_hash")
+            or result.get("source_url")
+            or metadata.get("source_url")
+            or metadata.get("pdf_url")
             or metadata.get("text_path")
             or result.get("relative_text_path")
             or metadata.get("filename")
-            or result["id"].split("#", 1)[0]
+            or str(result.get("id", "")).split("#", 1)[0]
         )
         if document_key not in grouped:
             grouped[document_key] = {
@@ -70,7 +105,7 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
 
 
 def source_link(metadata: dict, label: str) -> str:
-    url = metadata.get("pdf_url") or metadata.get("url") or ""
+    url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
     if not url:
         return label
     return f"[{label}]({url})"
@@ -101,9 +136,9 @@ def render_sources(results: list[dict], message_index: int) -> None:
     source_lines = []
     for index, source in enumerate(grouped_sources, start=1):
         metadata = source["metadata"]
-        filename = metadata.get("filename", source.get("relative_text_path", "document"))
-        year = metadata.get("year", "")
-        category = metadata.get("category", "")
+        filename = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+        year = metadata.get("year") or metadata.get("date", "")
+        category = metadata.get("category") or metadata.get("doc_type", "")
         source_lines.append(
             f'<span id="source-{message_index}-{index}"></span>'
             f"{index}. {source_link(metadata, filename)} - {year} / {category}"
@@ -113,14 +148,14 @@ def render_sources(results: list[dict], message_index: int) -> None:
     with st.expander("Voir les passages retrouvés"):
         for index, source in enumerate(grouped_sources, start=1):
             metadata = source["metadata"]
-            filename = metadata.get("filename", source.get("relative_text_path", "document"))
+            filename = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
             passages = source["passages"]
             passage_label = "passage" if len(passages) == 1 else "passages"
             st.markdown(f"**Source {index}. {filename}** ({len(passages)} {passage_label})")
             for passage_index, passage in enumerate(passages[:3], start=1):
                 if len(passages) > 1:
                     st.caption(f"Passage {passage_index}")
-                st.code(passage["text"][:1800], language="text")
+                st.code((passage.get("text") or passage.get("content") or "")[:1800], language="text")
 
 
 chat_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
@@ -148,13 +183,15 @@ with chat_tab:
     if question:
         st.session_state.messages.append({"role": "user", "content": question})
 
-        ensure_index_ready()
         structured_answer = answer_structured_question(question)
         if structured_answer:
             results = []
             answer = structured_answer
+        elif not ensure_index_ready():
+            results = []
+            answer = "La base Riviera 2 n'est pas encore indexée. Lance l'indexation SQL depuis la barre latérale."
         else:
-            results = search(question, limit=10)
+            results = search(question, limit=20, filters=current_filters())
             answer = answer_from_sources(question, results)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
@@ -180,16 +217,15 @@ with about_tab:
 
     st.subheader("Comment ça répond ?")
     st.write(
-        "Les documents sont transformés en textes propres, découpés en passages et indexés. Quand "
-        "une question est posée, l'application cherche les passages les plus pertinents, puis le "
-        "modèle de langage rédige une réponse en s'appuyant sur ces extraits. Les sources restent "
-        "affichées pour pouvoir vérifier."
+        "Les documents sont transformés en textes propres, découpés en passages, stockés dans Postgres "
+        "et indexés dans OpenSearch. Quand une question est posée, l'application cherche les passages "
+        "les plus pertinents, puis le modèle de langage rédige une réponse en s'appuyant sur ces extraits. "
+        "Les sources restent affichées pour pouvoir vérifier."
     )
     st.write(
-        "Pour éviter d'envoyer trop de texte au modèle, l'application ne transmet qu'une petite "
-        "sélection de passages utiles. Cela réduit le nombre de tokens, donc les coûts et le temps "
-        "de réponse. Le prototype utilise actuellement Mistral, mais d'autres modèles pourraient "
-        "être testés, y compris des solutions open source selon les besoins."
+        "Riviera 2 utilise une recherche hybride SQL/OpenSearch. Le mode JSON de la première version "
+        "reste disponible seulement comme export ou fallback explicite. Le prototype utilise actuellement "
+        "Mistral, mais d'autres modèles pourraient être testés, y compris des solutions open source selon les besoins."
     )
 
     st.info(
@@ -203,7 +239,7 @@ with next_tab:
         """
 - Mettre en place un web scraping continu pour détecter automatiquement les nouvelles séances, pages et PDF.
 - Étendre la collecte aux autres communes de la Riviera, par exemple Vevey, Montreux, Blonay-Saint-Légier, Veytaux et les communes voisines.
-- Passer d'un index JSON de prototype à une base plus robuste, par exemple PostgreSQL, avec une recherche sémantique plus rapide.
+- Consolider Postgres/OpenSearch comme base principale, avec une recherche sémantique plus rapide et mieux observable.
 - Ajouter un vrai RAG avec embeddings pour mieux comprendre les questions formulées avec des mots différents de ceux des documents.
 - Créer un espace privé avec login pour les élus ou l'administration, si des documents internes doivent être ajoutés.
 - Améliorer les réponses chiffrées avec des tables structurées pour les budgets, comptes, préavis et décisions financières.
@@ -231,16 +267,15 @@ with about_de_tab:
 
     st.subheader("Wie entstehen die Antworten?")
     st.write(
-        "Die Dokumente werden in bereinigten Text umgewandelt, in kleinere Abschnitte geteilt und "
-        "indexiert. Bei einer Frage sucht die Anwendung zuerst die relevantesten Textstellen. Danach "
-        "formuliert das Sprachmodell eine Antwort auf Basis dieser Auszüge. Die Quellen bleiben "
-        "sichtbar, damit die Antwort überprüft werden kann."
+        "Die Dokumente werden in bereinigten Text umgewandelt, in kleinere Abschnitte geteilt, in "
+        "Postgres gespeichert und in OpenSearch indexiert. Bei einer Frage sucht die Anwendung zuerst "
+        "die relevantesten Textstellen. Danach formuliert das Sprachmodell eine Antwort auf Basis dieser "
+        "Auszüge. Die Quellen bleiben sichtbar, damit die Antwort überprüft werden kann."
     )
     st.write(
-        "Um nicht zu viel Text an das Sprachmodell zu senden, übermittelt die Anwendung nur eine "
-        "kleine Auswahl relevanter Passagen. Das reduziert die Anzahl Tokens, die Kosten und die "
-        "Antwortzeit. Der Prototyp nutzt derzeit Mistral, andere Modelle oder Open-Source-Lösungen "
-        "könnten je nach Bedarf ebenfalls geprüft werden."
+        "Riviera 2 nutzt eine hybride SQL/OpenSearch-Suche. Der JSON-Modus der ersten Version bleibt "
+        "nur als Export oder expliziter Fallback verfügbar. Der Prototyp nutzt derzeit Mistral, andere "
+        "Modelle oder Open-Source-Lösungen könnten je nach Bedarf ebenfalls geprüft werden."
     )
 
     st.info(
@@ -254,7 +289,7 @@ with next_de_tab:
         """
 - Kontinuierliches Web Scraping einrichten, um neue Sitzungen, Seiten und PDF-Dokumente automatisch zu erkennen.
 - Die Sammlung auf weitere Gemeinden der Riviera ausweiten, zum Beispiel Vevey, Montreux, Blonay-Saint-Légier, Veytaux und Nachbargemeinden.
-- Vom einfachen JSON-Prototyp zu einer robusteren Datenbank wechseln, zum Beispiel PostgreSQL, mit schnellerer semantischer Suche.
+- Postgres/OpenSearch als Hauptbasis konsolidieren, mit schnellerer und besser beobachtbarer semantischer Suche.
 - Ein echtes RAG-System mit Embeddings hinzufügen, damit Fragen auch dann besser verstanden werden, wenn andere Wörter als in den Dokumenten verwendet werden.
 - Einen privaten Bereich mit Login für gewählte Behördenmitglieder oder die Verwaltung schaffen, falls interne Dokumente ergänzt werden sollen.
 - Antworten zu Zahlen mit strukturierten Tabellen für Budgets, Rechnungen, Vorlagen und finanzielle Entscheide verbessern.
