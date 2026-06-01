@@ -1,0 +1,126 @@
+{
+  "document_ref": {
+    "filename": "Budget_2021_LTDP.pdf",
+    "doc_type": "budget",
+    "financial_document_type": "budget",
+    "fiscal_year": "2021",
+    "city": "La Tour-de-Peilz"
+  },
+  "table_type": "financial_account_lines",
+  "table_id": "budget-2021-compte-fonctionnement-service-5",
+  "title": "Compte de fonctionnement par services (avec commentaires)",
+  "service_code": "5",
+  "service_name": "Instruction publique et cultes",
+  "currency": "CHF",
+  "pdf_page": 68,
+  "printed_page": 65,
+  "comparison_columns": [
+    "budget_2021_charges",
+    "budget_2021_revenues",
+    "budget_2020_charges",
+    "budget_2020_revenues",
+    "accounts_2019_charges",
+    "accounts_2019_revenues"
+  ],
+  "service_totals": {
+    "budget_2021_charges": 4494679,
+    "budget_2021_revenues": 1532280,
+    "budget_2020_charges": 3565869,
+    "budget_2020_revenues": 568800,
+    "accounts_2019_charges": 3244208.1,
+    "accounts_2019_revenues": 551319.71
+  },
+  "groups": [
+    {
+      "group_code": "50",
+      "group_name": "Administration des ecoles",
+      "budget_2021_charges": 3340220,
+      "budget_2021_revenues": 1380580,
+      "budget_2020_charges": 2571160,
+      "budget_2020_revenues": 418800,
+      "accounts_2019_charges": 2393932.98,
+      "accounts_2019_revenues": 374565.11
+    },
+    {
+      "group_code": "500",
+      "group_name": "Administration des ecoles",
+      "department": "ECO/SDOM",
+      "budget_2021_charges": 196800,
+      "budget_2021_revenues": 240400,
+      "budget_2020_charges": 241100,
+      "budget_2020_revenues": 133100,
+      "accounts_2019_charges": 196025.29,
+      "accounts_2019_revenues": 135240.1
+    },
+    {
+      "group_code": "501",
+      "group_name": "Batiments scolaires",
+      "department": "SDOM",
+      "budget_2021_charges": 2731020,
+      "budget_2021_revenues": 1072080,
+      "budget_2020_charges": 1858760,
+      "budget_2020_revenues": 207600,
+      "accounts_2019_charges": 1772216.34,
+      "accounts_2019_revenues": 200977.61
+    }
+  ],
+  "lines": [
+    {
+      "department": "ECO",
+      "account_number": "500.3003.00",
+      "account_label": "Conseil d'etablissement",
+      "budget_2021_charges": 3000,
+      "budget_2020_charges": 3000,
+      "accounts_2019_charges": 1860
+    },
+    {
+      "department": "ECO",
+      "account_number": "500.3011.00",
+      "account_label": "Traitements",
+      "budget_2021_charges": 74800,
+      "budget_2020_charges": 72200,
+      "accounts_2019_charges": 71861.4
+    },
+    {
+      "department": "ECO",
+      "account_number": "500.3133.00",
+      "account_label": "Achats de materiel Covid-19",
+      "budget_2021_charges": 20000
+    },
+    {
+      "department": "ECO",
+      "account_number": "500.4520.00",
+      "account_label": "Retrocession de l'Etat",
+      "budget_2021_revenues": 83100,
+      "budget_2020_revenues": 83100,
+      "accounts_2019_revenues": 89389.1
+    },
+    {
+      "department": "ECO",
+      "account_number": "500.4522.00",
+      "account_label": "Finances d'ecolage",
+      "budget_2021_revenues": 157300,
+      "budget_2020_revenues": 50000,
+      "accounts_2019_revenues": 45851
+    },
+    {
+      "department": "SDOM",
+      "account_number": "501.3011.00",
+      "account_label": "Traitements",
+      "budget_2021_charges": 866300,
+      "budget_2020_charges": 835900,
+      "accounts_2019_charges": 859132.2
+    },
+    {
+      "department": "SDOM",
+      "account_number": "501.3114.00",
+      "account_label": "Achats de mach., mat. expl. et d'entretien",
+      "budget_2021_charges": 29600,
+      "budget_2020_charges": 44500,
+      "accounts_2019_charges": 12867.27
+    }
+  ],
+  "line_sample_note": "Only a representative subset of page 68 lines is included for metadata-audit. A production extractor should capture every account line on the page and preserve blank charge/revenue cells as null.",
+  "extraction_status": "manual_test",
+  "confidence": "medium_high"
+}

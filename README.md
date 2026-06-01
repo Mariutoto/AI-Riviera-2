@@ -23,12 +23,19 @@ python -m app.ingestion_pipeline --trigger-name scheduled
 `python -m app.ingest` alimente Postgres et OpenSearch:
 
 - Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
+- Postgres: extrait aussi une couche financiere structuree pour les budgets communaux (`financial_summary_tables`, `financial_summary_rows`, `financial_account_lines`).
 - OpenSearch: indexe les chunks pour la recherche hybride et les filtres.
 
 Pour reconstruire l'ancien index JSON/SQLite explicitement:
 
 ```powershell
 python -m app.ingest --legacy-json
+```
+
+Pour relancer uniquement l'extraction financiere des budgets deja ingeres:
+
+```powershell
+python -m app.financial_extraction
 ```
 
 ## Options LLM

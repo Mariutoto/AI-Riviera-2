@@ -1,0 +1,45 @@
+{
+  "city": "La Tour-de-Peilz",
+  "doc_type": "budget",
+  "financial_document_type": "budget",
+  "fiscal_year": "2021",
+  "year": "2021",
+  "title": "Budget communal 2021",
+  "summary": "Budget communal de La Tour-de-Peilz pour l'exercice 2021, avec preavis municipal, tableaux de fonctionnement, revenus, charges, investissements et comparaisons avec le budget 2020 et les comptes 2019.",
+  "filename": "Budget_2021_LTDP.pdf",
+  "source_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2021_LTDP.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
+  "language": "fr",
+  "currency": "CHF",
+  "content_kind": "financial_document",
+  "contains_financial_summary_tables": true,
+  "contains_financial_account_lines": true,
+  "contains_charts": true,
+  "contains_comments": true,
+  "comparison_years": [
+    "2020",
+    "2019"
+  ],
+  "source_document_metadata": {
+    "commune": "La Tour-de-Peilz",
+    "type": "budget",
+    "document_type": "budget_communal",
+    "category": "budget",
+    "legislature": "2021-2026",
+    "characters_extracted": 196282
+  },
+  "hash_policy": {
+    "content_hash": "sha256(normalized full extracted text)",
+    "document_hash": "sha256(city + doc_type + fiscal_year + filename + source_url + content_hash)",
+    "chunk_hash": "sha256(normalized chunk text)",
+    "exclude_from_hash": [
+      "summary",
+      "pdf_path",
+      "text_path",
+      "characters_extracted",
+      "fetch_date",
+      "last_processed_at",
+      "embedding"
+    ]
+  }
+}

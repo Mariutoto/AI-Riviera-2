@@ -122,6 +122,12 @@ def build_legacy_json_index(documents_root: Path = DOCUMENTS_ROOT, chunks_path: 
     try:
         postgres_stats = ingest_documents(documents_root=documents_root, trigger_name="build_index")
         stats["postgres"] = postgres_stats
+        try:
+            from app.financial_extraction import ingest_financial_budget_data
+
+            stats["financial"] = ingest_financial_budget_data(documents_root=documents_root)
+        except Exception as exc:
+            stats["financial_error"] = str(exc)
     except Exception as exc:
         stats["postgres_error"] = str(exc)
 
@@ -138,6 +144,12 @@ def build_index(
         return build_legacy_json_index(documents_root=documents_root, chunks_path=chunks_path)
 
     stats = ingest_documents(documents_root=documents_root, trigger_name="build_index")
+    try:
+        from app.financial_extraction import ingest_financial_budget_data
+
+        stats["financial"] = ingest_financial_budget_data(documents_root=documents_root)
+    except Exception as exc:
+        stats["financial_error"] = str(exc)
     INDEX_DIR.mkdir(parents=True, exist_ok=True)
     (INDEX_DIR / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
     return stats

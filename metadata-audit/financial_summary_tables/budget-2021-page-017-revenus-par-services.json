@@ -1,0 +1,118 @@
+{
+  "document_ref": {
+    "filename": "Budget_2021_LTDP.pdf",
+    "doc_type": "budget",
+    "financial_document_type": "budget",
+    "fiscal_year": "2021",
+    "city": "La Tour-de-Peilz"
+  },
+  "table_type": "financial_summary_table",
+  "table_id": "budget-2021-revenus-par-services",
+  "title": "Revenus par services, evolution, analyse",
+  "section": "3.5",
+  "metric": "revenues",
+  "currency": "CHF",
+  "pdf_page": 17,
+  "printed_page": 15,
+  "source_text_hint": "REVENUS B21 (v1) B20 (v2) Ecart (Fr) Ecart (%) B21/Total (%) B20/Total (%)",
+  "columns": [
+    "service_code",
+    "service_name",
+    "budget_2021",
+    "budget_2020",
+    "delta_amount",
+    "delta_percent",
+    "budget_2021_total_percent",
+    "budget_2020_total_percent"
+  ],
+  "rows": [
+    {
+      "service_code": "1",
+      "service_name": "Administration generale",
+      "budget_2021": 2671779,
+      "budget_2020": 1104818,
+      "delta_amount": 1566961,
+      "delta_percent": 141.83,
+      "budget_2021_total_percent": 3.52,
+      "budget_2020_total_percent": 1.52
+    },
+    {
+      "service_code": "2",
+      "service_name": "Finances",
+      "budget_2021": 60477200,
+      "budget_2020": 60448300,
+      "delta_amount": 28900,
+      "delta_percent": 0.05,
+      "budget_2021_total_percent": 79.75,
+      "budget_2020_total_percent": 83.18
+    },
+    {
+      "service_code": "3",
+      "service_name": "Domaines et batiments",
+      "budget_2021": 3197148,
+      "budget_2020": 3012949,
+      "delta_amount": 184199,
+      "delta_percent": 6.11,
+      "budget_2021_total_percent": 4.22,
+      "budget_2020_total_percent": 4.15
+    },
+    {
+      "service_code": "4",
+      "service_name": "Urbanisme et travaux publics",
+      "budget_2021": 3406230,
+      "budget_2020": 2946020,
+      "delta_amount": 460210,
+      "delta_percent": 15.62,
+      "budget_2021_total_percent": 4.49,
+      "budget_2020_total_percent": 4.05
+    },
+    {
+      "service_code": "5",
+      "service_name": "Instruction publique et cultes",
+      "budget_2021": 1532280,
+      "budget_2020": 568800,
+      "delta_amount": 963480,
+      "delta_percent": 169.39,
+      "budget_2021_total_percent": 2.02,
+      "budget_2020_total_percent": 0.78
+    },
+    {
+      "service_code": "6",
+      "service_name": "Securite - population - feu",
+      "budget_2021": 213000,
+      "budget_2020": 208000,
+      "delta_amount": 5000,
+      "delta_percent": 2.4,
+      "budget_2021_total_percent": 0.28,
+      "budget_2020_total_percent": 0.29
+    },
+    {
+      "service_code": "7",
+      "service_name": "Famille, jeunesse et sport",
+      "budget_2021": 4338391,
+      "budget_2020": 4379100,
+      "delta_amount": -40709,
+      "delta_percent": -0.93,
+      "budget_2021_total_percent": 5.72,
+      "budget_2020_total_percent": 6.03
+    }
+  ],
+  "totals": {
+    "budget_2021": 75836027,
+    "budget_2020": 72667987,
+    "delta_amount": 3168040,
+    "delta_percent": 4.36
+  },
+  "chart_notes": [
+    {
+      "figure_type": "pie_chart",
+      "description": "Pie chart immediately above the table shows service share distribution. The values are also represented in the table, so table values should be trusted first."
+    },
+    {
+      "figure_type": "pie_chart",
+      "description": "Pie chart below the table shows B21 revenue shares by service. Values match the B21/Total column."
+    }
+  ],
+  "extraction_status": "manual_test",
+  "confidence": "high"
+}

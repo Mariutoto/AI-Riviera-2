@@ -77,3 +77,65 @@ CREATE TABLE IF NOT EXISTS ingestion_logs (
 
 CREATE INDEX IF NOT EXISTS idx_ingestion_logs_run_id ON ingestion_logs(run_id);
 CREATE INDEX IF NOT EXISTS idx_ingestion_logs_level ON ingestion_logs(level);
+
+CREATE TABLE IF NOT EXISTS financial_summary_tables (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    table_key TEXT NOT NULL UNIQUE,
+    fiscal_year INTEGER NOT NULL,
+    title TEXT NOT NULL DEFAULT '',
+    metric TEXT NOT NULL DEFAULT '',
+    currency TEXT NOT NULL DEFAULT 'CHF',
+    source_path TEXT NOT NULL DEFAULT '',
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_document_id ON financial_summary_tables(document_id);
+CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_city_year ON financial_summary_tables(city_id, fiscal_year);
+CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_metric ON financial_summary_tables(metric);
+
+CREATE TABLE IF NOT EXISTS financial_summary_rows (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    table_id UUID NOT NULL REFERENCES financial_summary_tables(id) ON DELETE CASCADE,
+    row_order INTEGER NOT NULL DEFAULT 0,
+    service_code TEXT NOT NULL DEFAULT '',
+    service_name TEXT NOT NULL DEFAULT '',
+    values JSONB NOT NULL DEFAULT '{}'::jsonb,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (table_id, row_order, service_code, service_name)
+);
+
+CREATE INDEX IF NOT EXISTS idx_financial_summary_rows_table_id ON financial_summary_rows(table_id);
+CREATE INDEX IF NOT EXISTS idx_financial_summary_rows_service_code ON financial_summary_rows(service_code);
+
+CREATE TABLE IF NOT EXISTS financial_account_lines (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    line_key TEXT NOT NULL UNIQUE,
+    fiscal_year INTEGER NOT NULL,
+    service_code TEXT NOT NULL DEFAULT '',
+    service_name TEXT NOT NULL DEFAULT '',
+    group_code TEXT NOT NULL DEFAULT '',
+    group_name TEXT NOT NULL DEFAULT '',
+    department TEXT NOT NULL DEFAULT '',
+    account_number TEXT NOT NULL DEFAULT '',
+    account_label TEXT NOT NULL DEFAULT '',
+    currency TEXT NOT NULL DEFAULT 'CHF',
+    values JSONB NOT NULL DEFAULT '{}'::jsonb,
+    source_path TEXT NOT NULL DEFAULT '',
+    line_number INTEGER,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_financial_account_lines_document_id ON financial_account_lines(document_id);
+CREATE INDEX IF NOT EXISTS idx_financial_account_lines_city_year ON financial_account_lines(city_id, fiscal_year);
+CREATE INDEX IF NOT EXISTS idx_financial_account_lines_account_number ON financial_account_lines(account_number);
+CREATE INDEX IF NOT EXISTS idx_financial_account_lines_service_code ON financial_account_lines(service_code);
