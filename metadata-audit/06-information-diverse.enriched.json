@@ -1,0 +1,71 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "06-information-diverse.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "informations-diverses",
+  "content_kind": "council_calendar",
+  "language": "fr",
+  "year": 2021,
+  "filename": "12.1.Planif-Agenda_2021-2022.pdf",
+  "title": "Agenda du Conseil communal 2021-2022",
+  "summary": "Calendrier des seances du Conseil communal et echeances administratives pour la periode 2021-2022.",
+  "calendar": {
+    "body": "Conseil communal",
+    "period": "2021-2022",
+    "contains_session_schedule": true,
+    "contains_election_dates": true,
+    "contains_administrative_deadlines": true,
+    "session_dates": [
+      "2021-09-15",
+      "2021-11-03",
+      "2021-12-08",
+      "2021-12-15",
+      "2022-02-09",
+      "2022-03-23",
+      "2022-05-11",
+      "2022-06-29"
+    ]
+  },
+  "key_deadlines": [
+    {
+      "topic": "Rapport de gestion",
+      "deadline": "2022-05-31"
+    },
+    {
+      "topic": "Comptes a la prefecture",
+      "deadline": "2022-07-15"
+    },
+    {
+      "topic": "Arrete d'imposition",
+      "deadline": "2021-10-30"
+    },
+    {
+      "topic": "Budget - vote",
+      "deadline": "2021-12-15"
+    }
+  ],
+  "search_facets": [
+    "agenda",
+    "calendrier",
+    "conseil_communal",
+    "seances",
+    "echeances",
+    "budget",
+    "comptes"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "calendar period",
+      "session dates",
+      "deadlines",
+      "election dates",
+      "document submission dates"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "council_calendar_events",
+      "administrative_deadlines"
+    ]
+  }
+}

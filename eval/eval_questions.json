@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q001",
+    "question": "Combien y a-t-il de motions en 2026 ?",
+    "expected_answer": "1 motion en 2026.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/motions/Motion-Roethlisberger-Frais-garde.json"
+    ],
+    "tags": ["structured", "motions", "2026"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q002",
+    "question": "Quel postulat de 2026 concerne le quai Roussy ?",
+    "expected_answer": "Le postulat de Viviane Huber et Gabriel Chervet: Pour un quai Roussy plus sur pour les familles.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/postulats/Postulat-Huber-Chervet-Quai-roussy.json"
+    ],
+    "tags": ["postulats", "2026", "location", "metadata"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q003",
+    "question": "Qui a depose l'interpellation sur l'affichage politique en 2026 ?",
+    "expected_answer": "Michel Tobler (PLR).",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/interpellations/Interpellation-Tobler-Affichage-politique.json"
+    ],
+    "tags": ["interpellations", "2026", "person", "metadata"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "q004",
+    "question": "Quelle motion de 2026 parle des frais de garde pour les membres du Conseil communal ?",
+    "expected_answer": "La motion Roethlisberger/Negro de 2026 sur l'indemnite pour le remboursement des frais de garde.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/motions/Motion-Roethlisberger-Frais-garde.json"
+    ],
+    "tags": ["motions", "2026", "semantic", "topic"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q005",
+    "question": "Quels etaient les couts budgetes pour les charges de personnel dans le budget 2021 ?",
+    "expected_answer": "La reponse doit citer le Budget 2021 et retrouver les lignes ou tableaux budgetaires lies aux charges de personnel.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2021/budget/Budget_2021_LTDP.json"
+    ],
+    "tags": ["budget", "2021", "financial", "semantic"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q006",
+    "question": "Quelle motion de 2026 a ete renvoyee a la Municipalite ?",
+    "expected_answer": "La motion de 2026 sur l'indemnite pour le remboursement des frais de garde.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/motions/Motion-Roethlisberger-Frais-garde.json"
+    ],
+    "tags": ["motions", "postulats", "interpellations", "2026", "status"],
+    "difficulty": "medium"
+  }
+]

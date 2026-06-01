@@ -1,0 +1,70 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "05-communication-municipale.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "communications-municipales",
+  "content_kind": "municipal_communication",
+  "language": "fr",
+  "year": 2021,
+  "filename": "9-1-Communication-municipale-19_2021-Commission-culturelle.pdf",
+  "title": "Communication municipale no 19/2021 - Commission culturelle, composition 2021-2026",
+  "summary": "Communication de la Municipalite annoncant la composition de la Commission culturelle pour la legislature 2021-2026.",
+  "communication": {
+    "number": "19/2021",
+    "topic": "Commission culturelle - Composition 2021-2026",
+    "document_date": "2021-09-15",
+    "adopted_by_municipality_date": "2021-08-30",
+    "legislature": "2021-2026"
+  },
+  "institutional_context": {
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "related_institution": "Commission culturelle"
+  },
+  "people_entities": {
+    "contains_person_names": true,
+    "contains_membership_list": true,
+    "president": "Vincent Bonvin",
+    "members_sample": [
+      "Kurt Egli",
+      "Philippe Neyroud",
+      "Nina Hauri",
+      "Maria Luceron",
+      "Dan Ziehli",
+      "Alice Gavillet",
+      "Gerald Gay",
+      "Jean-Luc Willommet",
+      "Susanne Sinclair",
+      "Vanessa Borghini",
+      "Anne-Marie Grangier",
+      "Marc Ducret",
+      "Yoann Provenzano",
+      "Vanessa Costanzo"
+    ]
+  },
+  "search_facets": [
+    "communication_municipale",
+    "municipalite",
+    "commission_culturelle",
+    "composition",
+    "legislature",
+    "personnes"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "communication number",
+      "topic",
+      "issuing body",
+      "dates",
+      "commission name",
+      "people names",
+      "roles"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "people_mentions",
+      "commission_memberships"
+    ]
+  }
+}

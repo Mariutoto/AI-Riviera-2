@@ -3,7 +3,15 @@ import re
 import unicodedata
 
 
-MOJIBAKE_MARKERS = ("Ã", "â€", "â€™", "â€“", "â€œ", "â€", "ï¿½", "\ufffd")
+MOJIBAKE_MARKERS = (
+    "\u00c3",
+    "\u00c2",
+    "\u00e2\u20ac",
+    "\u00c5\u201c",
+    "\u00c5\u2019",
+    "\u00ef\u00bf\u00bd",
+    "\ufffd",
+)
 
 
 def _badness(text: str) -> int:
@@ -21,6 +29,13 @@ def fix_mojibake(text: str) -> str:
     """Repair common UTF-8 French text accidentally decoded as latin-1/cp1252."""
     if not text:
         return text
+
+    try:
+        from ftfy import fix_text
+
+        return fix_text(text)
+    except Exception:
+        pass
 
     candidates = [text]
     for encoding in ("latin1", "cp1252"):

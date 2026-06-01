@@ -138,6 +138,7 @@ def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = 
     with psycopg.connect(POSTGRES_URL, row_factory=dict_row) as connection:
         run = start_ingestion_run(connection, trigger_name=trigger_name)
         run_id = str(run["id"])
+        connection.commit()
         try:
             log_ingestion_event(connection, run_id, "info", "Ingestion started", {"documents_root": str(documents_root)})
 
@@ -249,6 +250,7 @@ def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = 
             connection.commit()
             return stats
         except Exception as exc:
+            connection.rollback()
             finish_ingestion_run(connection, run_id, "failed", {**stats, "error": str(exc)})
             connection.commit()
             raise

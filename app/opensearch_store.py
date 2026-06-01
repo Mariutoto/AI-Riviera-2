@@ -4,7 +4,10 @@ import json
 from functools import lru_cache
 from typing import Any
 
-from app.config import EMBEDDING_DIMENSIONS, OPENSEARCH_INDEX, OPENSEARCH_MAPPING_PATH, OPENSEARCH_URL
+from app.config import EMBEDDING_DIMENSIONS, OPENSEARCH_INDEX, OPENSEARCH_MAPPING_PATH, OPENSEARCH_TIMEOUT, OPENSEARCH_URL
+
+
+_OPENSEARCH_UNAVAILABLE = False
 
 
 @lru_cache(maxsize=1)
@@ -12,7 +15,12 @@ def get_client():
     try:
         from opensearchpy import OpenSearch
 
-        return OpenSearch(OPENSEARCH_URL)
+        return OpenSearch(
+            OPENSEARCH_URL,
+            timeout=OPENSEARCH_TIMEOUT,
+            max_retries=0,
+            retry_on_timeout=False,
+        )
     except Exception:
         return None
 
@@ -24,8 +32,13 @@ def load_index_body() -> dict[str, Any]:
 
 
 def ensure_index() -> bool:
+    global _OPENSEARCH_UNAVAILABLE
+    if _OPENSEARCH_UNAVAILABLE:
+        return False
+
     client = get_client()
     if client is None:
+        _OPENSEARCH_UNAVAILABLE = True
         return False
 
     try:
@@ -35,14 +48,19 @@ def ensure_index() -> bool:
         client.indices.create(index=OPENSEARCH_INDEX, body=load_index_body())
         return True
     except Exception:
+        _OPENSEARCH_UNAVAILABLE = True
         return False
 
 
 def ready() -> bool:
+    global _OPENSEARCH_UNAVAILABLE
+    if _OPENSEARCH_UNAVAILABLE:
+        return False
     client = get_client()
     try:
         return bool(client and client.ping() and ensure_index())
     except Exception:
+        _OPENSEARCH_UNAVAILABLE = True
         return False
 
 
@@ -53,12 +71,15 @@ def delete_document(document_id: str) -> None:
 
     if not ensure_index():
         return
-    client.delete_by_query(
-        index=OPENSEARCH_INDEX,
-        body={"query": {"term": {"document_id": document_id}}},
-        refresh=True,
-        conflicts="proceed",
-    )
+    try:
+        client.delete_by_query(
+            index=OPENSEARCH_INDEX,
+            body={"query": {"term": {"document_id": document_id}}},
+            conflicts="proceed",
+            request_timeout=OPENSEARCH_TIMEOUT,
+        )
+    except Exception:
+        return
 
 
 def index_chunks(chunks: list[dict[str, Any]]) -> None:
@@ -72,7 +93,10 @@ def index_chunks(chunks: list[dict[str, Any]]) -> None:
     for chunk in chunks:
         operations.append({"index": {"_index": OPENSEARCH_INDEX, "_id": chunk["chunk_id"]}})
         operations.append(chunk)
-    client.bulk(body=operations, refresh=True)
+    try:
+        client.bulk(body=operations, refresh=False, request_timeout=OPENSEARCH_TIMEOUT)
+    except Exception:
+        return
 
 
 def _filters_to_query(filters: dict[str, Any] | None) -> list[dict[str, Any]]:
@@ -121,6 +145,7 @@ def keyword_search(query: str, filters: dict[str, Any] | None = None, size: int 
                 }
             },
         },
+        request_timeout=OPENSEARCH_TIMEOUT,
     )
     return [_normalize_hit(hit, "keyword") for hit in response.get("hits", {}).get("hits", [])]
 
@@ -148,6 +173,7 @@ def knn_search(vector: list[float], filters: dict[str, Any] | None = None, size:
                 }
             },
         },
+        request_timeout=OPENSEARCH_TIMEOUT,
     )
     return [_normalize_hit(hit, "vector") for hit in response.get("hits", {}).get("hits", [])]
 

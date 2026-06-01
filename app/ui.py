@@ -10,11 +10,13 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from app.answer import answer_from_sources
 from app.config import STORAGE_BACKEND
+from app.eval_set import load_eval_questions, retrieval_hit
 from app.ingest import build_index
 from app.opensearch_store import ready as opensearch_ready
 from app.postgres_store import ready as postgres_ready
 from app.retrieval import search
 from app.structured import answer_structured_question
+from app.text_cleaning import fix_mojibake
 
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
@@ -105,6 +107,7 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
 
 
 def source_link(metadata: dict, label: str) -> str:
+    label = fix_mojibake(label)
     url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
     if not url:
         return label
@@ -136,7 +139,7 @@ def render_sources(results: list[dict], message_index: int) -> None:
     source_lines = []
     for index, source in enumerate(grouped_sources, start=1):
         metadata = source["metadata"]
-        filename = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+        filename = fix_mojibake(metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document"))
         year = metadata.get("year") or metadata.get("date", "")
         category = metadata.get("category") or metadata.get("doc_type", "")
         source_lines.append(
@@ -148,19 +151,29 @@ def render_sources(results: list[dict], message_index: int) -> None:
     with st.expander("Voir les passages retrouvés"):
         for index, source in enumerate(grouped_sources, start=1):
             metadata = source["metadata"]
-            filename = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+            filename = fix_mojibake(metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document"))
             passages = source["passages"]
             passage_label = "passage" if len(passages) == 1 else "passages"
             st.markdown(f"**Source {index}. {filename}** ({len(passages)} {passage_label})")
             for passage_index, passage in enumerate(passages[:3], start=1):
                 if len(passages) > 1:
                     st.caption(f"Passage {passage_index}")
-                st.code((passage.get("text") or passage.get("content") or "")[:1800], language="text")
+                st.code(fix_mojibake(passage.get("text") or passage.get("content") or "")[:1800], language="text")
 
 
-chat_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
-    ["Assistant", "À propos", "Prochaines étapes", "Über das Projekt", "Nächste Schritte"]
+chat_tab, eval_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
+    ["Assistant", "Eval", "À propos", "Prochaines étapes", "Über das Projekt", "Nächste Schritte"]
 )
+
+
+def answer_question(question: str) -> tuple[str, list[dict], bool]:
+    structured_answer = answer_structured_question(question)
+    if structured_answer:
+        return structured_answer, [], True
+    if not ensure_index_ready():
+        return "La base Riviera 2 n'est pas encore indexée. Lance l'indexation SQL depuis la barre latérale.", [], False
+    results = search(question, limit=20, filters=current_filters())
+    return answer_from_sources(question, results), results, False
 
 with chat_tab:
     st.markdown(
@@ -175,7 +188,7 @@ with chat_tab:
         with st.chat_message(message["role"]):
             results = message.get("results", [])
             source_count = len(group_results_by_document(results)) if results else 0
-            st.markdown(link_source_mentions(message["content"], message_index, source_count))
+            st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
             if message["role"] == "assistant":
                 render_sources(results, message_index)
 
@@ -183,19 +196,78 @@ with chat_tab:
     if question:
         st.session_state.messages.append({"role": "user", "content": question})
 
-        structured_answer = answer_structured_question(question)
-        if structured_answer:
-            results = []
-            answer = structured_answer
-        elif not ensure_index_ready():
-            results = []
-            answer = "La base Riviera 2 n'est pas encore indexée. Lance l'indexation SQL depuis la barre latérale."
-        else:
-            results = search(question, limit=20, filters=current_filters())
-            answer = answer_from_sources(question, results)
+        answer, results, _ = answer_question(question)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
         st.rerun()
+
+with eval_tab:
+    st.markdown(
+        "Questions fixes pour vérifier si les changements de données, metadata, embeddings ou recherche "
+        "améliorent vraiment les réponses."
+    )
+
+    eval_questions = load_eval_questions()
+    if "eval_runs" not in st.session_state:
+        st.session_state.eval_runs = []
+
+    eval_rows = [
+        {
+            "id": item["id"],
+            "question": item["question"],
+            "difficulty": item.get("difficulty", ""),
+            "tags": ", ".join(item.get("tags", [])),
+        }
+        for item in eval_questions
+    ]
+    st.dataframe(eval_rows, use_container_width=True, hide_index=True)
+
+    def run_eval_question(item: dict) -> None:
+        answer, results, structured = answer_question(item["question"])
+        st.session_state.eval_runs.insert(
+            0,
+            {
+                "id": item["id"],
+                "question": item["question"],
+                "expected_answer": item.get("expected_answer", ""),
+                "expected_sources": item.get("expected_sources", []),
+                "answer": answer,
+                "results": results,
+                "structured": structured,
+                "retrieval_ok": structured or retrieval_hit(results, item.get("expected_sources", [])),
+            },
+        )
+
+    col_run_all, col_clear = st.columns([1, 1])
+    with col_run_all:
+        if st.button("Lancer les 6 questions"):
+            for eval_question in eval_questions:
+                run_eval_question(eval_question)
+            st.rerun()
+    with col_clear:
+        if st.button("Vider l'historique eval"):
+            st.session_state.eval_runs = []
+            st.rerun()
+
+    st.subheader("Lancer une question")
+    for item in eval_questions:
+        if st.button(f"{item['id']} - {item['question']}", key=f"run-{item['id']}"):
+            run_eval_question(item)
+            st.rerun()
+
+    st.subheader("Historique")
+    if not st.session_state.eval_runs:
+        st.caption("Aucun run pour l'instant.")
+    for run_index, run in enumerate(st.session_state.eval_runs):
+        status = "OK" if run["retrieval_ok"] else "A vérifier"
+        with st.expander(f"{run['id']} - {status} - {run['question']}"):
+            st.markdown("**Réponse attendue**")
+            st.write(run["expected_answer"])
+            st.markdown("**Réponse obtenue**")
+            st.write(fix_mojibake(run["answer"]))
+            st.markdown("**Sources attendues**")
+            st.code("\n".join(run["expected_sources"]) or "Aucune source attendue définie", language="text")
+            render_sources(run.get("results", []), 1000 + run_index)
 
 with about_tab:
     st.subheader("Qu'est-ce que c'est ?")

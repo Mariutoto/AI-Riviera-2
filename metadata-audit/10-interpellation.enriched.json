@@ -1,0 +1,82 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "10-interpellation.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "interpellations",
+  "content_kind": "political_interpellation",
+  "language": "fr",
+  "year": 2026,
+  "listing_year": 2026,
+  "legislature": "2021-2026",
+  "filename": "Interpellation-Tobler-Affichage-politique.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Tobler-Affichage-politique.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "title": "Interpellation - Affichage publicitaire et politique sur le territoire de la commune",
+  "summary": "Interpellation demandant une reponse ecrite de la Municipalite sur les conditions d'autorisation de l'affichage politique sur domaine prive et visible ou non visible du domaine public.",
+  "political_object": {
+    "type": "interpellation",
+    "status": null,
+    "document_date": "2026-05-06",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "written_answer",
+    "legal_basis_in_document": "art. 95 Reglement communal",
+    "contains_questions": true,
+    "question_count": 3,
+    "expects_municipal_answer": true
+  },
+  "authors": [
+    {
+      "name": "Michel Tobler",
+      "party": "PLR"
+    }
+  ],
+  "policy_details": {
+    "topic_domain": "political_advertising",
+    "topic": "Affichage publicitaire et politique",
+    "related_municipal_rule_date": "2025-11-17",
+    "legal_references": [
+      "Loi vaudoise sur les procedes de reclame (LPR)",
+      "Reglement d'application de la LPR (RLPR)",
+      "Prescriptions municipales relatives a l'affichage politique"
+    ],
+    "question_topics": [
+      "affichage sur batiment prive non visible du domaine public",
+      "affichage sur batiment prive visible du domaine public",
+      "procedes de reclame dans les cas d'exception LPR/RLPR"
+    ]
+  },
+  "text_extraction_status": {
+    "characters_extracted": 2521,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "search_facets": [
+    "interpellation",
+    "municipalite",
+    "affichage_politique",
+    "affichage_publicitaire",
+    "LPR",
+    "RLPR",
+    "questions",
+    "reponse_ecrite"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "object type",
+      "author and party",
+      "document date",
+      "target body",
+      "legal basis",
+      "question count",
+      "question topics",
+      "expected written answer",
+      "related municipal rule date"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_linking": [
+      "Link interpellation to the corresponding municipal response document when available."
+    ]
+  }
+}

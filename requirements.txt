@@ -4,3 +4,4 @@ requests>=2.32
 pymupdf>=1.27
 opensearch-py>=2.6
 psycopg[binary]>=3.2
+ftfy>=6.3

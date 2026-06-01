@@ -1,0 +1,55 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "02-preavis-municipal.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "preavis-municipaux",
+  "content_kind": "commission_report_on_preavis",
+  "language": "fr",
+  "year": 2021,
+  "filename": "10-1-Rapport_17_2021-Arrete-imposition-2022-2023.pdf",
+  "title": "Rapport de la Commission des finances sur le preavis municipal N\u00b017/2021",
+  "summary": "Rapport de commission recommandant l'adoption de l'arrete d'imposition 2022-2023, avec un taux communal de 64%.",
+  "political_object": {
+    "type": "preavis_municipal",
+    "number": "17/2021",
+    "object_title": "Arrete d'imposition pour les annees 2022 a 2023",
+    "decision_area": "taxation",
+    "contains_financial_decision": true,
+    "tax_rate_percent": 64,
+    "tax_rate_period": "2022-2023"
+  },
+  "institutional_context": {
+    "body": "Conseil communal",
+    "commission": "Commission des finances",
+    "rapporteur": "Nicolas Fardel",
+    "meeting_date": "2021-09-21",
+    "document_date": "2021-10-04"
+  },
+  "decision_signals": {
+    "recommendation": "accept",
+    "vote_result": "unanimous",
+    "contains_vote": true,
+    "contains_minorite_report": false
+  },
+  "search_facets": [
+    "preavis",
+    "commission_finances",
+    "impots",
+    "arrete_imposition",
+    "taux_communal",
+    "vote"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "preavis number",
+      "commission",
+      "rapporteur",
+      "recommendation",
+      "vote result",
+      "tax rate",
+      "decision period"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true
+  }
+}

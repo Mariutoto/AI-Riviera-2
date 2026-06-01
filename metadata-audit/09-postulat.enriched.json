@@ -1,0 +1,78 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "09-postulat.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "postulats",
+  "content_kind": "political_postulate",
+  "language": "fr",
+  "year": 2026,
+  "listing_year": 2026,
+  "legislature": "2021-2026",
+  "filename": "Postulat-Huber-Chervet-Quai-roussy.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "title": "Postulat - Pour un quai Roussy plus sur pour les familles",
+  "summary": "Postulat demandant a la Municipalite d'etudier une pietonnisation saisonniere du quai Roussy, d'avril a octobre, avec itineraire de contournement pour les cyclistes.",
+  "political_object": {
+    "type": "postulat",
+    "status": "Non soutenu par le Conseil",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "requested_action": "Etudier une pietonnisation saisonniere du quai Roussy et presenter un rapport.",
+    "request_type": "study_and_report",
+    "direct_referral_requested": true,
+    "contains_budget_impact": false
+  },
+  "authors": [
+    {
+      "name": "Viviane Huber",
+      "party": null
+    },
+    {
+      "name": "Gabriel Chervet",
+      "party": null
+    }
+  ],
+  "policy_details": {
+    "topic_domain": "mobility_and_public_space",
+    "location": "quai Roussy",
+    "seasonal_period": "avril a octobre",
+    "problem": "Cohabitation difficile entre pietons, enfants et velos en transit.",
+    "proposed_measure": "Pietonnisation saisonniere avec itineraire de contournement adapte pour les cyclistes.",
+    "target_users": [
+      "familles",
+      "enfants",
+      "pietons",
+      "cyclistes"
+    ]
+  },
+  "text_extraction_status": {
+    "characters_extracted": 1308,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "search_facets": [
+    "postulat",
+    "municipalite",
+    "quai_roussy",
+    "mobilite",
+    "pietonnisation",
+    "familles",
+    "securite",
+    "cyclistes"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "object type",
+      "authors",
+      "status",
+      "requested study",
+      "target body",
+      "location",
+      "seasonal period",
+      "whether a report is requested"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true
+  }
+}

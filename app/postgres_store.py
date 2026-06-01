@@ -121,6 +121,15 @@ def upsert_document(connection, record: DocumentRecord) -> dict[str, Any]:
     with connection.cursor() as cursor:
         cursor.execute(
             """
+            DELETE FROM documents
+            WHERE city_id = %s
+              AND source_path = %s
+              AND source_url <> %s
+            """,
+            (record.city_id, record.source_path, record.source_url),
+        )
+        cursor.execute(
+            """
             INSERT INTO documents (
                 city_id, source_url, source_path, doc_type, title, document_date,
                 fetch_date, last_processed_at, document_hash, content_hash, status, metadata
@@ -204,9 +213,9 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
     for token in searchable_tokens:
         pattern = f"%{token}%"
         token_clauses.append(
-            "(LOWER(dc.content) LIKE %s OR LOWER(dc.title) LIKE %s OR LOWER(dc.doc_type) LIKE %s OR LOWER(dc.source_url) LIKE %s)"
+            "(LOWER(dc.content) LIKE %s OR LOWER(dc.title) LIKE %s OR LOWER(dc.doc_type) LIKE %s OR LOWER(dc.source_url) LIKE %s OR LOWER(dc.metadata::text) LIKE %s)"
         )
-        params.extend([pattern, pattern, pattern, pattern])
+        params.extend([pattern, pattern, pattern, pattern, pattern])
     where.append("(" + " OR ".join(token_clauses) + ")")
 
     if filters.get("city"):
@@ -215,6 +224,9 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
     if filters.get("doc_type"):
         where.append("LOWER(dc.doc_type) = LOWER(%s)")
         params.append(filters["doc_type"])
+    if filters.get("year"):
+        where.append("(dc.metadata->>'year' = %s OR d.source_path LIKE %s)")
+        params.extend([str(filters["year"]), f"%/{filters['year']}/%"])
     if filters.get("date_from"):
         where.append("dc.document_date >= %s")
         params.append(filters["date_from"])
@@ -265,12 +277,14 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
             "title": title.lower(),
             "doc_type": doc_type.lower(),
             "source_url": str(row["source_url"] or "").lower(),
+            "metadata": json.dumps(row["metadata"] or {}, ensure_ascii=False).lower(),
         }
         for token in searchable_tokens:
             score += haystacks["content"].count(token) * 1.0
             score += haystacks["title"].count(token) * 8.0
             score += haystacks["doc_type"].count(token) * 4.0
             score += haystacks["source_url"].count(token) * 2.0
+            score += haystacks["metadata"].count(token) * 3.0
         if query_lower and query_lower in haystacks["content"]:
             score += 12.0
 

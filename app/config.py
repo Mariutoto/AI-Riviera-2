@@ -16,5 +16,6 @@ ENABLE_LEGACY_JSON_FALLBACK = os.getenv("ENABLE_LEGACY_JSON_FALLBACK", "0").lowe
 POSTGRES_URL = os.getenv("POSTGRES_URL", "postgresql://localhost:5432/ai_riviera")
 OPENSEARCH_URL = os.getenv("OPENSEARCH_URL", "http://localhost:9200")
 OPENSEARCH_INDEX = os.getenv("OPENSEARCH_INDEX", "ai_riviera_chunks")
+OPENSEARCH_TIMEOUT = float(os.getenv("OPENSEARCH_TIMEOUT", "2"))
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 EMBEDDING_DIMENSIONS = int(os.getenv("EMBEDDING_DIMENSIONS", "1536"))

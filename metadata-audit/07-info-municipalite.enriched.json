@@ -1,0 +1,88 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "07-info-municipalite.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "infos-municipalite",
+  "content_kind": "municipal_decisions_digest",
+  "language": "fr",
+  "year": 2021,
+  "filename": "info-13092021.pdf",
+  "title": "Infos de la Municipalite - Aout 2021",
+  "summary": "Synthese des decisions prises par la Municipalite pendant le mois d'aout 2021, incluant autorisations, soutiens financiers et adjudications.",
+  "digest": {
+    "issuing_body": "Municipalite",
+    "covered_period": "2021-08",
+    "publication_date": "2021-09-13",
+    "municipality_session_dates": [
+      "2021-08-16",
+      "2021-08-23",
+      "2021-08-30"
+    ]
+  },
+  "content_signals": {
+    "contains_decisions": true,
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": true,
+    "contains_public_works_awards": true,
+    "contains_subsidies": true
+  },
+  "sample_financial_amounts": [
+    {
+      "amount": 1000,
+      "currency": "CHF",
+      "topic": "Soutien au Defi Velo"
+    },
+    {
+      "amount": 1000,
+      "currency": "CHF",
+      "topic": "Aide financiere au FabLab"
+    },
+    {
+      "amount": 40000,
+      "currency": "CHF",
+      "topic": "Adjudication de travaux de marquage routier"
+    },
+    {
+      "amount": 145000,
+      "currency": "CHF",
+      "topic": "Maintenance et depannage des installations lumineuses de trafic"
+    },
+    {
+      "amount": 72500,
+      "currency": "CHF",
+      "topic": "Entretien lourd et assainissement de troncons de routes"
+    },
+    {
+      "amount": 68000,
+      "currency": "CHF",
+      "topic": "Fouilles archeologiques du chateau"
+    }
+  ],
+  "search_facets": [
+    "infos_municipalite",
+    "decisions_municipales",
+    "autorisations",
+    "subventions",
+    "adjudications",
+    "travaux_publics",
+    "montants"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "publication date",
+      "covered month",
+      "decision dates",
+      "decision topics",
+      "financial amounts",
+      "beneficiaries",
+      "contracts and suppliers"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "municipal_decisions",
+      "financial_amount_mentions",
+      "event_authorizations"
+    ]
+  }
+}

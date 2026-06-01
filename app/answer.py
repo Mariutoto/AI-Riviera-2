@@ -2,6 +2,8 @@ import os
 
 import requests
 
+from app.text_cleaning import fix_mojibake
+
 
 SYSTEM_PROMPT = """Tu es AI Riviera, un assistant civique.
 Réponds uniquement avec les extraits fournis. Si les sources ne permettent pas de répondre, dis-le clairement.
@@ -224,20 +226,20 @@ def llm_status() -> dict:
 def answer_from_sources(question: str, results: list[dict]) -> str:
     ai_answer = answer_with_llm(question, results)
     if ai_answer:
-        return f"{ai_answer}\n\n{_sources_section(results)}" if results else ai_answer
+        return f"{fix_mojibake(ai_answer)}\n\n{_sources_section(results)}" if results else fix_mojibake(ai_answer)
 
     if not results:
         return "Je ne sais pas: je n'ai pas trouvé de source suffisamment pertinente dans les documents indexés."
 
     lines = [
-        "J'ai trouvé ces passages pertinents. Ajoute une clé Mistral ou OpenAI plus tard si tu veux une synthèse rédigée automatiquement.",
+        "Je n'ai pas de clé Mistral/OpenAI active, donc j'affiche seulement les meilleurs passages retrouvés. Vérifie les sources avant de considérer la réponse comme correcte.",
         "",
     ]
     for index, result in enumerate(results, start=1):
         metadata = result["metadata"]
-        filename = metadata.get("filename") or metadata.get("title") or result.get("relative_text_path", "document")
+        filename = fix_mojibake(metadata.get("filename") or metadata.get("title") or result.get("relative_text_path", "document"))
         year = metadata.get("year") or metadata.get("date", "")
-        excerpt = (result.get("text") or result.get("content", "")).strip().replace("\n", " ")
+        excerpt = fix_mojibake((result.get("text") or result.get("content", "")).strip().replace("\n", " "))
         lines.append(f"{index}. {filename} ({year})")
         lines.append(f"   {excerpt}")
     lines.append("")

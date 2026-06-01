@@ -1,0 +1,95 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "08-motion.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "motions",
+  "content_kind": "political_motion",
+  "language": "fr",
+  "year": 2026,
+  "listing_year": 2026,
+  "legislature": "2021-2026",
+  "filename": "Motion-Roethlisberger-Frais-garde.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "title": "Motion - Indemnite pour le remboursement des frais de garde",
+  "summary": "Motion demandant l'introduction d'une indemnite pour couvrir les frais de garde des membres du Conseil communal lors des seances officielles.",
+  "political_object": {
+    "type": "motion",
+    "status": "Renvoye directement a la Municipalite",
+    "document_date": "2026-04-06",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "requested_action": "Introduire une indemnite pour les frais de garde lors des seances officielles du Conseil communal, des commissions et du bureau.",
+    "implementation_target_date": "2027-07-01",
+    "requires_preavis": true,
+    "requires_regulation_or_directive": true,
+    "contains_budget_impact": true
+  },
+  "authors": [
+    {
+      "name": "Manon Roethlisberger",
+      "party": "LCIVL"
+    },
+    {
+      "name": "Anouk Dandrieu",
+      "party": "LV"
+    },
+    {
+      "name": "Alice Gavillet",
+      "party": "LTDPL"
+    },
+    {
+      "name": "Gabriel Ranzato",
+      "party": "UDC"
+    },
+    {
+      "name": "Piero Negro",
+      "party": "PSDG"
+    }
+  ],
+  "policy_details": {
+    "topic_domain": "political_participation",
+    "beneficiaries": "Membres du Conseil communal avec enfants de moins de 12 ans",
+    "covered_activities": [
+      "seances plenieres du Conseil communal",
+      "seances de commissions permanentes ou ad hoc",
+      "seances du Bureau",
+      "autres activites officielles definies par le reglement communal"
+    ],
+    "excluded_activities": [
+      "seances de preparation de groupe"
+    ],
+    "payment_timing": "Annuellement, en principe avec les jetons de presence",
+    "reference_tariff": "Tarif de reference reconnu, par exemple Croix-Rouge"
+  },
+  "text_extraction_status": {
+    "characters_extracted": 3622,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "search_facets": [
+    "motion",
+    "conseil_communal",
+    "municipalite",
+    "frais_de_garde",
+    "egalite_acces",
+    "participation_politique",
+    "budget",
+    "preavis"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "object type",
+      "authors and parties",
+      "status",
+      "document date",
+      "requested action",
+      "target body",
+      "implementation date",
+      "budget impact",
+      "whether a preavis is requested"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true
+  }
+}

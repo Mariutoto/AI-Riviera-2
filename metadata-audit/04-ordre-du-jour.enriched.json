@@ -1,0 +1,61 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "04-ordre-du-jour.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "ordres-du-jour",
+  "content_kind": "council_agenda",
+  "language": "fr",
+  "year": 2021,
+  "filename": "O-J_15.09.2021.pdf",
+  "title": "Ordre du jour de la seance du Conseil communal du 15 septembre 2021",
+  "summary": "Ordre du jour public listant les objets traites par le Conseil communal et les documents lies a la seance.",
+  "session": {
+    "body": "Conseil communal",
+    "legislature": "2021-2026",
+    "date": "2021-09-15",
+    "time": "20:15",
+    "place": "Salle des Remparts",
+    "public_session": true
+  },
+  "linked_documents": {
+    "linked_documents_count": 33,
+    "contains_linked_documents": true,
+    "should_link_to_documents_table": true
+  },
+  "agenda_structure": {
+    "contains_numbered_items": true,
+    "estimated_item_count": 13,
+    "main_sections": [
+      "proces-verbal",
+      "assermentations",
+      "communications",
+      "motions et postulats",
+      "preavis municipaux",
+      "rapports",
+      "divers"
+    ]
+  },
+  "search_facets": [
+    "ordre_du_jour",
+    "conseil_communal",
+    "seance",
+    "documents_lies",
+    "preavis",
+    "motions"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "session date",
+      "agenda item numbers",
+      "linked document ids",
+      "related object titles",
+      "public access notes"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "council_session_items",
+      "document_links"
+    ]
+  }
+}

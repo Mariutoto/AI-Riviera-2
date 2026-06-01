@@ -1,0 +1,66 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "03-proces-verbal.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "proces-verbaux",
+  "content_kind": "council_minutes",
+  "language": "fr",
+  "year": 2021,
+  "filename": "Proces-verbal_2_15.09.2021.pdf",
+  "title": "Proces-verbal no 2 du Conseil communal du 15 septembre 2021",
+  "summary": "Proces-verbal d'une seance du Conseil communal avec ordre du jour, communications, objets politiques, rapports de commissions et decisions.",
+  "session": {
+    "body": "Conseil communal",
+    "pv_number": 2,
+    "legislature": "2021-2026",
+    "date": "2021-09-15",
+    "time": "20:15",
+    "place": "Salle des Remparts",
+    "president": "Ludovic Tirelli"
+  },
+  "content_signals": {
+    "contains_agenda": true,
+    "contains_votes": true,
+    "contains_attendance": true,
+    "contains_person_names": true,
+    "contains_political_objects": true
+  },
+  "agenda_topics": [
+    "adoption du proces-verbal",
+    "assermentations",
+    "communications du bureau",
+    "communications municipales",
+    "motions, postulats et interpellations",
+    "reponses municipales",
+    "preavis municipaux",
+    "rapports de commissions",
+    "divers"
+  ],
+  "search_facets": [
+    "proces_verbal",
+    "conseil_communal",
+    "seance",
+    "votes",
+    "preavis",
+    "motions",
+    "communications"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "session date",
+      "pv number",
+      "president",
+      "agenda items",
+      "vote outcomes",
+      "speakers",
+      "related preavis or motions"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "council_session_items",
+      "council_votes",
+      "speaker_interventions"
+    ]
+  }
+}

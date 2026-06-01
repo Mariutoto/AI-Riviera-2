@@ -1,0 +1,58 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "12-institutionnel.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "institutionnel",
+  "content_kind": "council_regulation",
+  "language": "fr",
+  "year": 2017,
+  "filename": "Reglement-du-Conseil-communal-2017.pdf",
+  "title": "Reglement du Conseil communal de La Tour-de-Peilz",
+  "summary": "Reglement institutionnel fixant l'organisation, les competences et le fonctionnement du Conseil communal.",
+  "legal_document": {
+    "type": "regulation",
+    "institutional_category": "reglement_conseil_communal",
+    "effective_year": 2017,
+    "body": "Conseil communal",
+    "contains_articles": true,
+    "contains_chapters": true
+  },
+  "main_topics": [
+    "formation du Conseil communal",
+    "installation",
+    "organisation",
+    "attributions",
+    "bureau du Conseil",
+    "presidence",
+    "scrutateurs",
+    "commissions",
+    "debats",
+    "votes",
+    "referendum communal"
+  ],
+  "search_facets": [
+    "reglement",
+    "conseil_communal",
+    "institutionnel",
+    "articles",
+    "commissions",
+    "votes",
+    "referendum",
+    "competences"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "article numbers",
+      "chapter titles",
+      "legal definitions",
+      "procedure rules",
+      "roles and competences"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "legal_articles",
+      "regulation_chapters"
+    ]
+  }
+}

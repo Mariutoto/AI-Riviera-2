@@ -1,6 +1,6 @@
 # Metadata Audit Samples
 
-Ten representative JSON metadata files copied from `documents/la-tour-de-peilz/`.
+Twelve representative JSON metadata files copied from `documents/la-tour-de-peilz/`.
 
 Use these samples to decide which fields are canonical, which fields should stay in
 flexible metadata, and which fields should participate in document/chunk hashing.
@@ -14,9 +14,11 @@ Suggested review order:
 5. `05-communication-municipale.json`
 6. `06-information-diverse.json`
 7. `07-info-municipalite.json`
-8. `08-motion-postulat.json`
-9. `09-rapport-gestion.json`
-10. `10-institutionnel.json`
+8. `08-motion.json`
+9. `09-postulat.json`
+10. `10-interpellation.json`
+11. `11-rapport-gestion.json`
+12. `12-institutionnel.json`
 
 For each file, decide:
 
@@ -27,3 +29,8 @@ For each file, decide:
 - whether `title` is good enough
 - whether `summary` is useful
 - which fields are stable enough for hashes
+
+Enhanced files (`*.enriched.json`) are proposed target shapes for richer metadata.
+They are examples for review first; they are not wired into ingestion yet.
+Keep them in `metadata-audit/` until the ingestion schema is intentionally updated;
+do not copy these enriched examples into the yearly `documents/` folders as source data.

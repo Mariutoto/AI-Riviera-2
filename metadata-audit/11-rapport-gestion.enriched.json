@@ -1,0 +1,69 @@
+{
+  "metadata_version": "metadata-audit-v1",
+  "source_sample": "11-rapport-gestion.json",
+  "commune": "La Tour-de-Peilz",
+  "category": "rapport-gestion",
+  "content_kind": "annual_management_report",
+  "language": "fr",
+  "year": 2021,
+  "filename": "rapport-gestion-2021.pdf",
+  "title": "Rapport de gestion 2021",
+  "summary": "Rapport annuel de gestion couvrant l'activite municipale, administrative, financiere et institutionnelle de l'annee 2021.",
+  "report": {
+    "fiscal_year": 2021,
+    "report_scope": "municipal_activity",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "large_document": true,
+    "contains_table_of_contents": true,
+    "contains_commission_report": true,
+    "contains_municipal_response": true
+  },
+  "main_sections": [
+    "Conseil communal",
+    "Votations et elections",
+    "Municipalite",
+    "Administration generale",
+    "Greffe municipal",
+    "Ressources humaines",
+    "Communication",
+    "Affaires culturelles",
+    "Finances",
+    "Domaines et batiments",
+    "Urbanisme",
+    "Famille, jeunesse et sport",
+    "Etablissement scolaire"
+  ],
+  "legal_basis": [
+    "Loi sur les communes du 28 fevrier 1956",
+    "Arrete du Conseil d'Etat du 14 decembre 1979 sur la comptabilite des communes",
+    "Reglement du Conseil communal du 1er juillet 2017"
+  ],
+  "search_facets": [
+    "rapport_gestion",
+    "rapport_annuel",
+    "municipalite",
+    "finances",
+    "urbanisme",
+    "administration",
+    "culture",
+    "ecoles"
+  ],
+  "extraction_notes": {
+    "important_for_rag": [
+      "fiscal year",
+      "department sections",
+      "key indicators",
+      "commission recommendations",
+      "municipal response",
+      "financial summaries"
+    ],
+    "store_in_metadata": true,
+    "store_full_text_in_chunks": true,
+    "future_structured_tables": [
+      "annual_report_sections",
+      "department_activity_summaries",
+      "annual_indicators"
+    ]
+  }
+}

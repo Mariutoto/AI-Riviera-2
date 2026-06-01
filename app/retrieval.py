@@ -80,6 +80,20 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
     if not query_tokens:
         return []
 
+    filters = dict(filters or {})
+    normalized_query = strip_accents(query).lower()
+    if not filters.get("doc_type"):
+        if "interpellation" in normalized_query:
+            filters["doc_type"] = "interpellations"
+        elif "postulat" in normalized_query:
+            filters["doc_type"] = "postulats"
+        elif "motion" in normalized_query:
+            filters["doc_type"] = "motions"
+    if not filters.get("year"):
+        year_match = re.search(r"\b(20\d{2})\b", normalized_query)
+        if year_match:
+            filters["year"] = year_match.group(1)
+
     broad_legislature_query = is_broad_legislature_query(query, query_tokens)
     council_vote_query = is_council_vote_query(query)
     if broad_legislature_query:
