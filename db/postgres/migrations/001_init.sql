@@ -47,15 +47,28 @@ CREATE TABLE IF NOT EXISTS document_chunks (
     document_hash TEXT NOT NULL,
     content_hash TEXT NOT NULL,
     embedding JSONB NOT NULL DEFAULT '[]'::jsonb,
+    search_vector TSVECTOR NOT NULL DEFAULT ''::tsvector,
     metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+ALTER TABLE document_chunks
+ADD COLUMN IF NOT EXISTS search_vector TSVECTOR NOT NULL DEFAULT ''::tsvector;
+
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_id ON document_chunks(document_id);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_city_id ON document_chunks(city_id);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_doc_type ON document_chunks(doc_type);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_date ON document_chunks(document_date);
+CREATE INDEX IF NOT EXISTS idx_document_chunks_search_vector ON document_chunks USING GIN(search_vector);
+
+UPDATE document_chunks
+SET search_vector =
+    setweight(to_tsvector('french', coalesce(title, '')), 'A') ||
+    setweight(to_tsvector('french', coalesce(doc_type, '')), 'B') ||
+    setweight(to_tsvector('french', coalesce(content, '')), 'C') ||
+    setweight(to_tsvector('french', coalesce(metadata::text, '')), 'D')
+WHERE search_vector = ''::tsvector;
 
 CREATE TABLE IF NOT EXISTS ingestion_runs (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

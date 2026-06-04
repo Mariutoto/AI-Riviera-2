@@ -197,81 +197,14 @@ def ready() -> bool:
         return False
 
 
-def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[str, Any] | None = None) -> list[dict[str, Any]]:
-    if not tokens:
-        return []
-
-    filters = filters or {}
-    raw_tokens = re.findall(r"[a-zA-ZÀ-ÿ0-9]{3,}", query.lower())
-    searchable_tokens = [token for token in dict.fromkeys([*tokens, *raw_tokens]) if len(token) >= 3][:16]
-    if not searchable_tokens:
-        return []
-
-    where = []
-    params: list[Any] = []
-    token_clauses = []
-    for token in searchable_tokens:
-        pattern = f"%{token}%"
-        token_clauses.append(
-            "(LOWER(dc.content) LIKE %s OR LOWER(dc.title) LIKE %s OR LOWER(dc.doc_type) LIKE %s OR LOWER(dc.source_url) LIKE %s OR LOWER(dc.metadata::text) LIKE %s)"
-        )
-        params.extend([pattern, pattern, pattern, pattern, pattern])
-    where.append("(" + " OR ".join(token_clauses) + ")")
-
-    if filters.get("city"):
-        where.append("LOWER(c.name) = LOWER(%s)")
-        params.append(filters["city"])
-    if filters.get("doc_type"):
-        where.append("LOWER(dc.doc_type) = LOWER(%s)")
-        params.append(filters["doc_type"])
-    if filters.get("year"):
-        where.append("(dc.metadata->>'year' = %s OR d.source_path LIKE %s)")
-        params.extend([str(filters["year"]), f"%/{filters['year']}/%"])
-    if filters.get("date_from"):
-        where.append("dc.document_date >= %s")
-        params.append(filters["date_from"])
-    if filters.get("date_to"):
-        where.append("dc.document_date <= %s")
-        params.append(filters["date_to"])
-
-    params.append(max(limit * 8, 50))
-    sql = f"""
-        SELECT
-            dc.chunk_id,
-            dc.content,
-            dc.chunk_index,
-            dc.doc_type,
-            dc.title,
-            dc.document_date,
-            dc.source_url,
-            dc.document_hash,
-            dc.content_hash,
-            dc.metadata,
-            c.name AS city,
-            d.source_path
-        FROM document_chunks dc
-        JOIN documents d ON d.id = dc.document_id
-        JOIN cities c ON c.id = dc.city_id
-        WHERE {" AND ".join(where)}
-        ORDER BY dc.updated_at DESC
-        LIMIT %s
-    """
-
-    try:
-        with _connect() as connection:
-            with connection.cursor() as cursor:
-                cursor.execute(sql, params)
-                rows = cursor.fetchall()
-    except Exception:
-        return []
-
+def _normalize_search_rows(rows: list[dict[str, Any]], searchable_tokens: list[str], query: str) -> list[dict[str, Any]]:
     query_lower = query.lower()
     results = []
     for row in rows:
         content = row["content"] or ""
         title = row["title"] or ""
         doc_type = row["doc_type"] or ""
-        score = 0.0
+        score = float(row.get("score") or 0.0)
         haystacks = {
             "content": content.lower(),
             "title": title.lower(),
@@ -315,7 +248,122 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
             }
         )
 
-    return sorted(results, key=lambda item: item["score"], reverse=True)[:limit]
+    return sorted(results, key=lambda item: item["score"], reverse=True)
+
+
+def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[str, Any] | None = None) -> list[dict[str, Any]]:
+    if not tokens:
+        return []
+
+    filters = filters or {}
+    raw_tokens = re.findall(r"[a-zA-ZÀ-ÿ0-9]{3,}", query.lower())
+    searchable_tokens = [token for token in dict.fromkeys([*tokens, *raw_tokens]) if len(token) >= 3][:16]
+    if not searchable_tokens:
+        return []
+
+    filter_where = []
+    filter_params: list[Any] = []
+    if filters.get("city"):
+        filter_where.append("LOWER(c.name) = LOWER(%s)")
+        filter_params.append(filters["city"])
+    if filters.get("doc_type"):
+        filter_where.append("LOWER(dc.doc_type) = LOWER(%s)")
+        filter_params.append(filters["doc_type"])
+    if filters.get("year"):
+        filter_where.append("(dc.metadata->>'year' = %s OR d.source_path LIKE %s)")
+        filter_params.extend([str(filters["year"]), f"%/{filters['year']}/%"])
+    if filters.get("date_from"):
+        filter_where.append("dc.document_date >= %s")
+        filter_params.append(filters["date_from"])
+    if filters.get("date_to"):
+        filter_where.append("dc.document_date <= %s")
+        filter_params.append(filters["date_to"])
+
+    filters_sql = f" AND {' AND '.join(filter_where)}" if filter_where else ""
+    fts_params: list[Any] = [query, *filter_params, max(limit * 8, 50)]
+    fts_sql = f"""
+        WITH search_query AS (
+            SELECT websearch_to_tsquery('french', %s) AS query
+        )
+        SELECT
+            dc.chunk_id,
+            dc.content,
+            dc.chunk_index,
+            dc.doc_type,
+            dc.title,
+            dc.document_date,
+            dc.source_url,
+            dc.document_hash,
+            dc.content_hash,
+            dc.metadata,
+            c.name AS city,
+            d.source_path,
+            ts_rank_cd(dc.search_vector, search_query.query) * 100 AS score
+        FROM document_chunks dc
+        JOIN documents d ON d.id = dc.document_id
+        JOIN cities c ON c.id = dc.city_id
+        CROSS JOIN search_query
+        WHERE dc.search_vector @@ search_query.query
+        {filters_sql}
+        ORDER BY score DESC, dc.updated_at DESC
+        LIMIT %s
+    """
+
+    try:
+        with _connect() as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(fts_sql, fts_params)
+                fts_rows = cursor.fetchall()
+        if fts_rows:
+            return _normalize_search_rows(fts_rows, searchable_tokens, query)[:limit]
+    except Exception:
+        pass
+
+    like_where = []
+    like_params: list[Any] = []
+    token_clauses = []
+    for token in searchable_tokens:
+        pattern = f"%{token}%"
+        token_clauses.append(
+            "(LOWER(dc.content) LIKE %s OR LOWER(dc.title) LIKE %s OR LOWER(dc.doc_type) LIKE %s OR LOWER(dc.source_url) LIKE %s OR LOWER(dc.metadata::text) LIKE %s)"
+        )
+        like_params.extend([pattern, pattern, pattern, pattern, pattern])
+    like_where.append("(" + " OR ".join(token_clauses) + ")")
+    like_where.extend(filter_where)
+
+    like_params.extend(filter_params)
+    like_params.append(max(limit * 8, 50))
+    sql = f"""
+        SELECT
+            dc.chunk_id,
+            dc.content,
+            dc.chunk_index,
+            dc.doc_type,
+            dc.title,
+            dc.document_date,
+            dc.source_url,
+            dc.document_hash,
+            dc.content_hash,
+            dc.metadata,
+            c.name AS city,
+            d.source_path
+        FROM document_chunks dc
+        JOIN documents d ON d.id = dc.document_id
+        JOIN cities c ON c.id = dc.city_id
+        WHERE {" AND ".join(like_where)}
+        ORDER BY dc.updated_at DESC
+        LIMIT %s
+    """
+
+    try:
+        with _connect() as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(sql, like_params)
+                rows = cursor.fetchall()
+    except Exception:
+        return []
+
+    return _normalize_search_rows(rows, searchable_tokens, query)[:limit]
 
 
 def insert_chunks(connection, rows: list[dict[str, Any]]) -> None:
@@ -328,11 +376,16 @@ def insert_chunks(connection, rows: list[dict[str, Any]]) -> None:
             INSERT INTO document_chunks (
                 chunk_id, document_id, city_id, chunk_index, doc_type, title,
                 document_date, source_url, content, document_hash, content_hash,
-                embedding, metadata
+                embedding, metadata, search_vector
             ) VALUES (
                 %(chunk_id)s, %(document_id)s, %(city_id)s, %(chunk_index)s, %(doc_type)s, %(title)s,
                 %(document_date)s, %(source_url)s, %(content)s, %(document_hash)s, %(content_hash)s,
-                %(embedding)s::jsonb, %(metadata)s::jsonb
+                %(embedding)s::jsonb,
+                %(metadata)s::jsonb,
+                setweight(to_tsvector('french', coalesce(%(title)s, '')), 'A') ||
+                setweight(to_tsvector('french', coalesce(%(doc_type)s, '')), 'B') ||
+                setweight(to_tsvector('french', coalesce(%(content)s, '')), 'C') ||
+                setweight(to_tsvector('french', coalesce(%(metadata)s, '')), 'D')
             )
             ON CONFLICT (chunk_id) DO UPDATE
             SET
@@ -348,6 +401,7 @@ def insert_chunks(connection, rows: list[dict[str, Any]]) -> None:
                 content_hash = EXCLUDED.content_hash,
                 embedding = EXCLUDED.embedding,
                 metadata = EXCLUDED.metadata,
+                search_vector = EXCLUDED.search_vector,
                 updated_at = NOW()
             """,
             [
