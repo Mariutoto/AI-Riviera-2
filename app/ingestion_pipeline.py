@@ -7,6 +7,7 @@ from typing import Any
 
 from app.config import DOCUMENTS_ROOT, POSTGRES_URL
 from app.embeddings import embed_texts
+from app.metadata_enrichment import enrich_metadata
 from app.opensearch_store import delete_document, index_chunks
 from app.postgres_store import (
     DocumentRecord,
@@ -61,11 +62,12 @@ def load_metadata(text_path: Path) -> dict[str, Any]:
     metadata_path = text_path.with_suffix(".json")
     if metadata_path.exists():
         try:
-            return json.loads(metadata_path.read_text(encoding="utf-8-sig"))
+            metadata = json.loads(metadata_path.read_text(encoding="utf-8-sig"))
+            return enrich_metadata(metadata, text_path=text_path)
         except json.JSONDecodeError:
             pass
 
-    return {
+    return enrich_metadata({
         "commune": "La Tour-de-Peilz",
         "year": text_path.parts[-3] if len(text_path.parts) >= 3 else "",
         "category": text_path.parts[-2] if len(text_path.parts) >= 2 else "",
@@ -73,7 +75,7 @@ def load_metadata(text_path: Path) -> dict[str, Any]:
         "pdf_url": "",
         "source_page": "",
         "text_path": str(text_path),
-    }
+    }, text_path=text_path)
 
 
 def iter_text_files(root: Path):
@@ -112,9 +114,26 @@ def _searchable_text(metadata: dict[str, Any], chunk: str) -> str:
         f"Year: {metadata.get('year', '')}",
         f"Category: {metadata.get('category', '')}",
         f"Title: {metadata.get('title', '')}",
+        f"Summary: {metadata.get('summary', '')}",
+        f"Content kind: {metadata.get('content_kind', '')}",
+        f"Search facets: {', '.join(metadata.get('search_facets') or [])}",
         f"Filename: {metadata.get('filename', '')}",
         f"Source URL: {metadata.get('pdf_url') or metadata.get('url') or metadata.get('source_page') or ''}",
     ]
+    authors = metadata.get("authors") or []
+    if authors:
+        author_text = ", ".join(
+            f"{author.get('name', '')} ({author.get('party', '')})".strip()
+            for author in authors
+            if isinstance(author, dict) and author.get("name")
+        )
+        if author_text:
+            parts.append(f"Authors: {author_text}")
+    political_object = metadata.get("political_object") or {}
+    if isinstance(political_object, dict):
+        status = political_object.get("status")
+        if status:
+            parts.append(f"Status: {status}")
     if metadata.get("session_date"):
         parts.append(f"Date: {metadata['session_date']}")
     prefix = "\n".join(part for part in parts if part.split(": ", 1)[-1])
