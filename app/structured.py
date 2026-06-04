@@ -325,20 +325,12 @@ def answer_deposits_by_year(question: str) -> str | None:
     if not wants_deposit_count(question):
         return None
 
-    data = load_structured_data()
     year = extract_year(question)
     if not year:
         return None
 
     object_types = requested_object_types(question)
-    postgres_deposits = search_deposit_documents_from_postgres(year, object_types)
-    deposits = postgres_deposits or [
-        item
-        for item in data["political_objects"]
-        if str(item.get("year", "")) == year
-        and item.get("object_type") in object_types
-        and item.get("status") == "depot"
-    ]
+    deposits = search_deposit_documents_from_postgres(year, object_types)
     deposits = sorted(
         deposits,
         key=lambda item: (item.get("session_date", ""), item.get("agenda_item_number", ""), item.get("title", "")),
