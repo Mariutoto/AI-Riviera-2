@@ -353,7 +353,6 @@ def answer_deposits_by_year(question: str) -> str | None:
 
     for index, item in enumerate(deposits, start=1):
         title = item.get("title", "")
-        object_type = object_label(item.get("object_type", ""))
         number = item.get("agenda_item_number", "")
         session_date = item.get("session_date", "")
         pdf_url = item.get("pdf_url", "")
@@ -362,11 +361,11 @@ def answer_deposits_by_year(question: str) -> str | None:
         status = item.get("status", "")
         source = f" [PDF]({pdf_url})" if pdf_url else ""
         if session_date and number:
-            prefix = f"{index}. {session_date} - {number} - {object_type}: "
+            prefix = f"{index}. {session_date} - {number} - "
         elif session_date:
-            prefix = f"{index}. {session_date} - {object_type}: "
+            prefix = f"{index}. {session_date} - "
         else:
-            prefix = f"{index}. {object_type}: "
+            prefix = f"{index}. "
         details = []
         if authors:
             details.append(f"depose par {', '.join(authors)}")
