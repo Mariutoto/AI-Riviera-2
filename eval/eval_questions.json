@@ -58,5 +58,19 @@
     ],
     "tags": ["motions", "postulats", "interpellations", "2026", "status"],
     "difficulty": "medium"
+  },
+  {
+    "id": "q007",
+    "question": "Combien d'interpellations ont ete deposees en 2025 ?",
+    "expected_answer": "5 interpellations deposees en 2025, en comptant les interpellations dont la reponse est incluse dans le meme document.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2025/interpellations/Interpellation-Ansermet-30-kmh-Rep.json",
+      "documents/la-tour-de-peilz/2025/interpellations/Interpellation-Ansermet-30kmh-phonoabsorbant.json",
+      "documents/la-tour-de-peilz/2025/interpellations/Interpellation-Heller-Refectoires-Rep.json",
+      "documents/la-tour-de-peilz/2025/interpellations/Interpellation-Heller-Refectoires.json",
+      "documents/la-tour-de-peilz/2025/interpellations/Interpellation-Urech-Zone-30-Rep.json"
+    ],
+    "tags": ["structured", "interpellations", "2025", "status"],
+    "difficulty": "medium"
   }
 ]

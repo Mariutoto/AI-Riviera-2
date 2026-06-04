@@ -2,12 +2,23 @@ import json
 import re
 from collections import Counter
 from functools import lru_cache
+from typing import Any
 
 from app.config import STRUCTURED_DATA_DIR
 from app.text_cleaning import strip_accents
 
 
 DEPOSIT_TYPES = {"motion", "postulat", "interpellation"}
+DEPOSIT_CATEGORY_BY_TYPE = {
+    "motion": "motions",
+    "postulat": "postulats",
+    "interpellation": "interpellations",
+}
+DEPOSIT_PREFIX_BY_TYPE = {
+    "motion": "Motion",
+    "postulat": "Postulat",
+    "interpellation": "Interpellation",
+}
 YEAR_PATTERN = re.compile(r"\b(20\d{2})\b")
 MOST_PATTERN = re.compile(r"\b(qui|quel|quelle|quels|quelles)\b.*\b(plus|maximum|le plus)\b")
 
@@ -84,6 +95,135 @@ def object_label(object_type: str) -> str:
     return labels.get(object_type, object_type)
 
 
+def infer_status_from_document(title: str, filename: str) -> str:
+    haystack = normalize(f"{title} {filename}")
+    if "renvoye directement" in haystack or "renvoye a la municipalite" in haystack:
+        return "renvoye_municipalite"
+    if "retire par le postulant" in haystack or "retiree par le postulant" in haystack:
+        return "retire"
+    if "+ reponse" in haystack or (
+        filename.lower().startswith(("interpellation-", "motion-", "postulat-")) and "-rep" in filename.lower()
+    ):
+        return "depot_avec_reponse"
+    return "depot"
+
+
+def extract_author_party_pairs(title: str) -> list[dict[str, str]]:
+    title = str(title or "")
+    if not title:
+        return []
+
+    intro = re.split(r"\s+[–—-]\s+|\s+«", title, maxsplit=1)[0]
+    intro = re.sub(r"^(Motion|Postulat|Interpellation)\s+(de|du|des)\s+", "", intro, flags=re.IGNORECASE).strip()
+    intro = re.sub(r"\s+\+\s+R[ée]ponse.*$", "", intro, flags=re.IGNORECASE).strip()
+    matches = re.findall(
+        r"\b(?:Mme|M\.|MM\.|Mmes)\s+([^()]+?)\s*\(([A-ZÀ-Ÿ0-9/-]{2,})\)",
+        intro,
+        flags=re.IGNORECASE,
+    )
+    pairs = []
+    for raw_name, party in matches:
+        name = display_name(raw_name)
+        if name:
+            pairs.append({"name": name, "party": party})
+    if pairs:
+        return pairs
+
+    group_match = re.search(r"\bgroupe\s+([A-ZÀ-Ÿ0-9/-]{2,})\b", intro, flags=re.IGNORECASE)
+    if group_match:
+        party = group_match.group(1)
+        return [{"name": f"groupe {party}", "party": party}]
+    return []
+
+
+def authors_from_title(title: str) -> list[str]:
+    return [pair["name"] for pair in extract_author_party_pairs(title)]
+
+
+def party_from_title(title: str) -> str | None:
+    pairs = extract_author_party_pairs(title)
+    parties = [pair["party"] for pair in pairs if pair.get("party")]
+    return parties[0] if parties else None
+
+
+def search_deposit_documents_from_postgres(year: str, object_types: set[str]) -> list[dict[str, Any]]:
+    try:
+        from app.postgres_store import _connect
+    except Exception:
+        return []
+
+    rows = []
+    try:
+        with _connect() as connection:
+            with connection.cursor() as cursor:
+                for object_type in sorted(object_types):
+                    category = DEPOSIT_CATEGORY_BY_TYPE.get(object_type)
+                    prefix = DEPOSIT_PREFIX_BY_TYPE.get(object_type)
+                    if not category or not prefix:
+                        continue
+                    cursor.execute(
+                        """
+                        SELECT title, source_url, source_path, doc_type, metadata
+                        FROM documents
+                        WHERE (metadata->>'year' = %s OR source_path LIKE %s)
+                          AND doc_type = %s
+                          AND (title ILIKE %s OR metadata->>'filename' ILIKE %s)
+                          AND COALESCE(metadata->>'filename', '') NOT ILIKE 'Reponse-%%'
+                          AND COALESCE(metadata->>'filename', '') NOT ILIKE '%%-Rapp%%'
+                        ORDER BY title, source_url
+                        """,
+                        (year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
+                    )
+                    rows.extend(cursor.fetchall())
+    except Exception:
+        return []
+
+    deposits = []
+    seen = set()
+    for row in rows:
+        metadata = row.get("metadata") or {}
+        if not isinstance(metadata, dict):
+            metadata = {}
+        filename = str(metadata.get("filename") or row.get("source_path") or "")
+        title = str(row.get("title") or metadata.get("title") or filename)
+        source_url = str(row.get("source_url") or metadata.get("pdf_url") or "")
+        key = source_url or filename or title
+        if not key or key in seen:
+            continue
+        seen.add(key)
+
+        object_type = next(
+            (
+                candidate
+                for candidate, prefix in DEPOSIT_PREFIX_BY_TYPE.items()
+                if title.lower().startswith(prefix.lower()) or filename.lower().startswith(prefix.lower())
+            ),
+            "",
+        )
+        if object_type not in object_types:
+            continue
+
+        pairs = extract_author_party_pairs(title)
+        deposits.append(
+            {
+                "commune": metadata.get("commune", "La Tour-de-Peilz"),
+                "session_date": metadata.get("session_date", ""),
+                "agenda_item_number": "",
+                "object_type": object_type,
+                "status": infer_status_from_document(title, filename),
+                "title": title,
+                "document_title": title,
+                "filename": filename,
+                "pdf_url": source_url,
+                "category": row.get("doc_type") or metadata.get("category", ""),
+                "year": year,
+                "authors": [pair["name"] for pair in pairs],
+                "party": pairs[0]["party"] if pairs else None,
+            }
+        )
+    return sorted(deposits, key=lambda item: (item.get("object_type", ""), item.get("title", ""), item.get("filename", "")))
+
+
 def count_by_type(objects: list[dict]) -> dict[str, int]:
     counts = {"motion": 0, "postulat": 0, "interpellation": 0}
     for item in objects:
@@ -102,6 +242,10 @@ def display_name(raw_name: str) -> str:
 
 
 def authors_for_item(item: dict) -> list[str]:
+    title_authors = authors_from_title(str(item.get("title") or item.get("document_title") or ""))
+    if title_authors:
+        return title_authors
+
     title = str(item.get("title") or item.get("document_title") or "")
     raw_authors = title
     if raw_authors:
@@ -187,7 +331,8 @@ def answer_deposits_by_year(question: str) -> str | None:
         return None
 
     object_types = requested_object_types(question)
-    deposits = [
+    postgres_deposits = search_deposit_documents_from_postgres(year, object_types)
+    deposits = postgres_deposits or [
         item
         for item in data["political_objects"]
         if str(item.get("year", "")) == year
@@ -220,9 +365,25 @@ def answer_deposits_by_year(question: str) -> str | None:
         number = item.get("agenda_item_number", "")
         session_date = item.get("session_date", "")
         pdf_url = item.get("pdf_url", "")
+        authors = item.get("authors") or authors_from_title(title)
+        party = item.get("party") or party_from_title(title)
+        status = item.get("status", "")
         source = f" [PDF]({pdf_url})" if pdf_url else ""
-        prefix = f"{index}. {session_date} - {number} - {object_type}: " if number else f"{index}. {session_date} - {object_type}: "
-        lines.append(f"{prefix}{title}{source}")
+        if session_date and number:
+            prefix = f"{index}. {session_date} - {number} - {object_type}: "
+        elif session_date:
+            prefix = f"{index}. {session_date} - {object_type}: "
+        else:
+            prefix = f"{index}. {object_type}: "
+        details = []
+        if authors:
+            details.append(f"depose par {', '.join(authors)}")
+        if party:
+            details.append(party)
+        if status and status != "depot":
+            details.append(status.replace("_", " "))
+        detail_text = f" ({'; '.join(details)})" if details else ""
+        lines.append(f"{prefix}{title}{detail_text}{source}")
 
     source_urls = sorted({item.get("session_source_url", "") for item in deposits if item.get("session_source_url")})
     if source_urls:
