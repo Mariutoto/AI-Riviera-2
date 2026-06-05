@@ -295,7 +295,7 @@ STOPWORD_FACETS = {
     "quels", "quelle", "quelles", "qui", "renvoye", "sans", "ses",
     "son", "sont", "sur", "tous", "tout", "toute", "toutes", "une",
     "vers", "votre", "commune", "communal", "communale", "communaux",
-    "conseil", "municipalite", "seances",
+    "conseil", "municipalite", "seances", "chf",
 }
 
 CANONICAL_FACET_PHRASES = {
@@ -687,6 +687,7 @@ def enrich_category_specific_fields(enriched: dict[str, Any], category: str, con
 
     if category in {"budget", "budgets"}:
         fiscal_year = str(enriched.get("year") or extract_number(r"\bBudget[_ -]?(20\d{2})\b", filename) or "")
+        enriched.pop("currency", None)
         enriched.setdefault("financial_document_type", "budget")
         enriched.setdefault("fiscal_year", fiscal_year)
         enriched.setdefault("financial_document", {
