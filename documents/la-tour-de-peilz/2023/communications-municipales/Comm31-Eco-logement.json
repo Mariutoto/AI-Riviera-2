@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2023",
   "category": "communications-municipales",
@@ -7,5 +7,38 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=99",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm31-Eco-logement.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm31-Eco-logement.txt",
-  "characters_extracted": 2886
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_communication",
+  "listing_year": "2023",
+  "title": "Comm31-Eco-logement.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "communications_municipale",
+    "communication_municipale",
+    "conseil_communal",
+    "comm31",
+    "logement",
+    "communication",
+    "municipale",
+    "dge",
+    "led",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 2886,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "communication": {
+    "number": "31/2023",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "document_date": "2002-03-10"
+  },
+  "content_signals": {
+    "contains_person_names": true,
+    "contains_financial_amounts": true,
+    "contains_public_works": false
+  },
+  "document_date": "2002-03-10"
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "proces_verbal",
   "year": "2025",
@@ -11,5 +11,41 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/proces-verbaux.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV28-14-05-2025.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV28-14-05-2025.txt",
-  "characters_extracted": 37532
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "council_minutes",
+  "listing_year": "2025",
+  "title": "PV28-14-05-2025.pdf",
+  "search_facets": [
+    "proces_verbaux",
+    "proces_verbal",
+    "conseil_communal",
+    "seance",
+    "pv28",
+    "proces",
+    "verbal",
+    "ordre",
+    "jour",
+    "ciehl",
+    "ltdpl",
+    "srgza",
+    "psdg",
+    "climaxion"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 37532,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "session": {
+    "body": "Conseil communal",
+    "pv_number": 28,
+    "date": "2025-05-14",
+    "legislature": "2021-2026"
+  },
+  "content_signals": {
+    "contains_agenda": true,
+    "contains_votes": false,
+    "contains_attendance": true,
+    "contains_political_objects": true
+  }
 }

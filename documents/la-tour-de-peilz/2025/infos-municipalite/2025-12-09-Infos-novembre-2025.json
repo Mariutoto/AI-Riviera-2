@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "info_municipalite",
   "document_type": "info_municipalite",
@@ -13,5 +13,39 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos novembre 2025",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\infos-municipalite\\2025-12-09-Infos-novembre-2025.txt",
-  "characters_extracted": 7774
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2025",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "novembre",
+    "fsg",
+    "ammt",
+    "asr",
+    "ttc",
+    "rpga",
+    "lpdp",
+    "dge",
+    "ocm"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 7774,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2025-11-03",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": true,
+    "contains_subsidies": false
+  },
+  "document_date": "2025-11-03"
 }

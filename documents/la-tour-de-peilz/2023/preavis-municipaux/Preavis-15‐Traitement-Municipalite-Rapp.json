@@ -7,5 +7,44 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=100",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-15‐Traitement-Municipalite-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-15‐Traitement-Municipalite-Rapp.txt",
-  "characters_extracted": 15410
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_preavis",
+  "listing_year": "2023",
+  "title": "Preavis-15‐Traitement-Municipalite-Rapp.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis",
+    "conseil_communal",
+    "decision",
+    "rapport",
+    "traitement",
+    "rapp",
+    "plr",
+    "psdg",
+    "lcivl",
+    "ltdpl",
+    "udc",
+    "chf",
+    "avs"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 15410,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "15/2023",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": true
+  },
+  "decision_signals": {
+    "contains_vote": false,
+    "contains_commission_report": true,
+    "contains_decision": false,
+    "contains_minority_report": false
+  },
+  "document_date": "2002-03-10"
 }

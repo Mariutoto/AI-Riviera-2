@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2023",
   "category": "preavis-municipaux",
@@ -7,5 +7,44 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=99",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Rapport-Preavis-14-Reglement_personnel.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Rapport-Preavis-14-Reglement_personnel.txt",
-  "characters_extracted": 83818
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_preavis",
+  "listing_year": "2023",
+  "title": "Rapport-Preavis-14-Reglement_personnel.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis",
+    "conseil_communal",
+    "decision",
+    "rapport",
+    "reglement",
+    "personnel",
+    "plr",
+    "psdg",
+    "udc",
+    "lcivl",
+    "apg",
+    "lapg",
+    "chf"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 83818,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "14/2023",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": true
+  },
+  "decision_signals": {
+    "contains_vote": false,
+    "contains_commission_report": true,
+    "contains_decision": false,
+    "contains_minority_report": false
+  },
+  "document_date": "2023-09-14"
 }

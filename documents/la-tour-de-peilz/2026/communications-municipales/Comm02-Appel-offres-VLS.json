@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2026",
   "category": "communications-municipales",
@@ -7,5 +7,39 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm02-Appel-offres-VLS.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm02-Appel-offres-VLS.txt",
-  "characters_extracted": 2741
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_communication",
+  "listing_year": "2026",
+  "title": "Comm02-Appel-offres-VLS.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "communications_municipale",
+    "communication_municipale",
+    "conseil_communal",
+    "comm02",
+    "appel",
+    "offres",
+    "communication",
+    "municipale",
+    "vls",
+    "copil",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 2741,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "communication": {
+    "number": "2/2026",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "document_date": "2002-03-10"
+  },
+  "content_signals": {
+    "contains_person_names": true,
+    "contains_financial_amounts": false,
+    "contains_public_works": false
+  },
+  "document_date": "2002-03-10"
 }

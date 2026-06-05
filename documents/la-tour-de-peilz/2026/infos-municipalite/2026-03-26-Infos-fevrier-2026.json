@@ -13,5 +13,37 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos février 2026",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\infos-municipalite\\2026-03-26-Infos-fevrier-2026.txt",
-  "characters_extracted": 4759
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2026",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "fevrier",
+    "ttc",
+    "sia",
+    "sps",
+    "vmcv",
+    "simap",
+    "fsg"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 4759,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2026-04-20",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": true,
+    "contains_subsidies": false
+  },
+  "document_date": "2026-04-20"
 }

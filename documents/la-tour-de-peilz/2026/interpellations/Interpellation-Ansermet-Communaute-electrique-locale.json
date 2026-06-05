@@ -7,5 +7,48 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=117",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Ansermet-Communaute-electrique-locale.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Ansermet-Communaute-electrique-locale.txt",
-  "characters_extracted": 3373
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "listing_year": "2026",
+  "title": "Interpellation-Ansermet-Communaute-electrique-locale.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "transition_energetique",
+    "communaute",
+    "electrique",
+    "locale",
+    "cel",
+    "sig"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 3373,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Véronique Ansermet",
+      "party": "LV"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "depot",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "written_answer",
+    "contains_budget_impact": false,
+    "contains_questions": true,
+    "question_count": 4,
+    "expects_municipal_answer": true
+  },
+  "policy_details": {
+    "question_topics": [
+      "La Municipalité a-t-elle analysé les impacts des modifications législatives de janvier 2026 concernant la mise en œuvre d'une communauté d'électrique locale (CEL) ?",
+      "Existe-t-il un potentiel identifié pour développer une CEL pour la commune (bâtiments publics, maison de commune, piscine, musée du Jeu, Escale, structures d'accueil parascolaire, etc.) ?",
+      "Une stratégie ou feuille de route est-elle prévue afin de saisir ces opportunités ?"
+    ]
+  }
 }

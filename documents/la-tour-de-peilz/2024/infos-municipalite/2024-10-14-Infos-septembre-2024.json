@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "info_municipalite",
   "document_type": "info_municipalite",
@@ -13,5 +13,40 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos septembre 2024",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\infos-municipalite\\2024-10-14-Infos-septembre-2024.txt",
-  "characters_extracted": 8487
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2024",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "septembre",
+    "ttc",
+    "fsat",
+    "arpr",
+    "asante",
+    "sana",
+    "rshl",
+    "sos",
+    "asr",
+    "rlat"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 8487,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2024-09-02",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": true,
+    "contains_subsidies": false
+  },
+  "document_date": "2024-09-02"
 }

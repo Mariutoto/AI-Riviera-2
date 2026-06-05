@@ -11,7 +11,6 @@ from app.config import POSTGRES_SCHEMA_PATH, POSTGRES_URL
 
 @dataclass
 class DocumentRecord:
-    city_id: str
     city: str
     source_url: str
     source_path: str
@@ -37,21 +36,8 @@ def ensure_schema() -> None:
     schema_sql = POSTGRES_SCHEMA_PATH.read_text(encoding="utf-8")
     with _connect() as connection:
         with connection.cursor() as cursor:
-            for statement in schema_sql.split(";"):
-                statement = statement.strip()
-                if statement:
-                    cursor.execute(statement)
+            cursor.execute(schema_sql)
         connection.commit()
-
-
-def slugify(value: str) -> str:
-    normalized = []
-    for char in value.lower().strip():
-        if char.isalnum():
-            normalized.append(char)
-        elif normalized and normalized[-1] != "-":
-            normalized.append("-")
-    return "".join(normalized).strip("-") or "unknown-city"
 
 
 def sha256_text(value: str) -> str:
@@ -98,40 +84,21 @@ def build_document_hash(metadata: dict[str, Any], content: str) -> tuple[str, st
     return sha256_text(payload), content_hash
 
 
-def get_or_create_city(connection, city_name: str, canton: str = "", country: str = "CH") -> dict[str, Any]:
-    city_slug = slugify(city_name)
-    with connection.cursor() as cursor:
-        cursor.execute(
-            """
-            INSERT INTO cities (slug, name, canton, country)
-            VALUES (%s, %s, %s, %s)
-            ON CONFLICT (slug) DO UPDATE
-            SET name = EXCLUDED.name,
-                canton = EXCLUDED.canton,
-                country = EXCLUDED.country,
-                updated_at = NOW()
-            RETURNING id, slug, name
-            """,
-            (city_slug, city_name, canton, country),
-        )
-        return cursor.fetchone()
-
-
 def upsert_document(connection, record: DocumentRecord) -> dict[str, Any]:
     with connection.cursor() as cursor:
         cursor.execute(
             """
             DELETE FROM documents
-            WHERE city_id = %s
+            WHERE city = %s
               AND source_path = %s
               AND source_url <> %s
             """,
-            (record.city_id, record.source_path, record.source_url),
+            (record.city, record.source_path, record.source_url),
         )
         cursor.execute(
             """
             INSERT INTO documents (
-                city_id, source_url, source_path, doc_type, title, document_date,
+                city, source_url, source_path, doc_type, title, document_date,
                 fetch_date, last_processed_at, document_hash, content_hash, status, metadata
             )
             VALUES (
@@ -140,7 +107,7 @@ def upsert_document(connection, record: DocumentRecord) -> dict[str, Any]:
             )
             ON CONFLICT (source_url) DO UPDATE
             SET
-                city_id = EXCLUDED.city_id,
+                city = EXCLUDED.city,
                 source_path = EXCLUDED.source_path,
                 doc_type = EXCLUDED.doc_type,
                 title = EXCLUDED.title,
@@ -155,7 +122,7 @@ def upsert_document(connection, record: DocumentRecord) -> dict[str, Any]:
             RETURNING id, document_hash, content_hash, status
             """,
             (
-                record.city_id,
+                record.city,
                 record.source_url,
                 record.source_path,
                 record.doc_type,
@@ -176,9 +143,8 @@ def get_document_by_source_url(connection, source_url: str) -> dict[str, Any] | 
     with connection.cursor() as cursor:
         cursor.execute(
             """
-            SELECT d.*, c.slug AS city_slug, c.name AS city_name
+            SELECT d.*
             FROM documents d
-            JOIN cities c ON c.id = d.city_id
             WHERE d.source_url = %s
             """,
             (source_url,),
@@ -264,7 +230,7 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
     filter_where = []
     filter_params: list[Any] = []
     if filters.get("city"):
-        filter_where.append("LOWER(c.name) = LOWER(%s)")
+        filter_where.append("LOWER(dc.city) = LOWER(%s)")
         filter_params.append(filters["city"])
     if filters.get("doc_type"):
         filter_where.append("LOWER(dc.doc_type) = LOWER(%s)")
@@ -296,12 +262,11 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
             dc.document_hash,
             dc.content_hash,
             dc.metadata,
-            c.name AS city,
+            dc.city,
             d.source_path,
             ts_rank_cd(dc.search_vector, search_query.query) * 100 AS score
         FROM document_chunks dc
         JOIN documents d ON d.id = dc.document_id
-        JOIN cities c ON c.id = dc.city_id
         CROSS JOIN search_query
         WHERE dc.search_vector @@ search_query.query
         {filters_sql}
@@ -345,11 +310,10 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
             dc.document_hash,
             dc.content_hash,
             dc.metadata,
-            c.name AS city,
+            dc.city,
             d.source_path
         FROM document_chunks dc
         JOIN documents d ON d.id = dc.document_id
-        JOIN cities c ON c.id = dc.city_id
         WHERE {" AND ".join(like_where)}
         ORDER BY dc.updated_at DESC
         LIMIT %s
@@ -374,23 +338,23 @@ def insert_chunks(connection, rows: list[dict[str, Any]]) -> None:
         cursor.executemany(
             """
             INSERT INTO document_chunks (
-                chunk_id, document_id, city_id, chunk_index, doc_type, title,
+                chunk_id, document_id, city, chunk_index, doc_type, title,
                 document_date, source_url, content, document_hash, content_hash,
                 embedding, metadata, search_vector
             ) VALUES (
-                %(chunk_id)s, %(document_id)s, %(city_id)s, %(chunk_index)s, %(doc_type)s, %(title)s,
+                %(chunk_id)s, %(document_id)s, %(city)s, %(chunk_index)s, %(doc_type)s, %(title)s,
                 %(document_date)s, %(source_url)s, %(content)s, %(document_hash)s, %(content_hash)s,
                 %(embedding)s::jsonb,
                 %(metadata)s::jsonb,
                 setweight(to_tsvector('french', coalesce(%(title)s, '')), 'A') ||
                 setweight(to_tsvector('french', coalesce(%(doc_type)s, '')), 'B') ||
                 setweight(to_tsvector('french', coalesce(%(content)s, '')), 'C') ||
-                setweight(to_tsvector('french', coalesce(%(metadata)s, '')), 'D')
+                setweight(to_tsvector('french', coalesce(%(metadata_text)s, '')), 'D')
             )
             ON CONFLICT (chunk_id) DO UPDATE
             SET
                 document_id = EXCLUDED.document_id,
-                city_id = EXCLUDED.city_id,
+                city = EXCLUDED.city,
                 chunk_index = EXCLUDED.chunk_index,
                 doc_type = EXCLUDED.doc_type,
                 title = EXCLUDED.title,
@@ -409,6 +373,7 @@ def insert_chunks(connection, rows: list[dict[str, Any]]) -> None:
                     **row,
                     "embedding": json.dumps(row["embedding"], ensure_ascii=False),
                     "metadata": json.dumps(row["metadata"], ensure_ascii=False),
+                    "metadata_text": json.dumps(row["metadata"], ensure_ascii=False),
                 }
                 for row in rows
             ],

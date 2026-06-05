@@ -13,5 +13,33 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Costa-Poubelles.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Costa-Poubelles.txt",
-  "characters_extracted": 1654
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_postulate",
+  "search_facets": [
+    "postulat",
+    "conseil_communal",
+    "plr",
+    "poubelle",
+    "incinerable",
+    "pet"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 1654,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "François Costa",
+      "party": "PLR"
+    }
+  ],
+  "political_object": {
+    "type": "postulat",
+    "status": "Renvoyé directement à la Municipalité",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "study",
+    "contains_budget_impact": false
+  }
 }

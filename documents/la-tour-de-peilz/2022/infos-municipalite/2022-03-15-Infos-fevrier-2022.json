@@ -13,5 +13,32 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos février 2022",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\infos-municipalite\\2022-03-15-Infos-fevrier-2022.txt",
-  "characters_extracted": 5095
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2022",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "zone_30",
+    "infos",
+    "fevrier",
+    "afia"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 5095,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": null,
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": true,
+    "contains_subsidies": true
+  }
 }

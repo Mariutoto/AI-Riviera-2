@@ -13,5 +13,54 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Vallotton-Rapprochement-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Vallotton-Rapprochement-Rep.txt",
-  "characters_extracted": 4973
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "reponse",
+    "gouvernance",
+    "riviera",
+    "etude",
+    "rapprochement",
+    "communes",
+    "montreux",
+    "tour",
+    "peilz",
+    "vevey",
+    "municipale"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 4973,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Jacques Vallotton",
+      "party": "PS"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2021-06-30",
+    "request_type": "answer",
+    "contains_budget_impact": false,
+    "contains_questions": true,
+    "question_count": 3,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2021-06-30",
+  "policy_details": {
+    "question_topics": [
+      "Peut-on continuer de bien gouverner la Riviera dans une telle configuration ?",
+      "promise par les syndics de la Riviera en avril 2016 ?",
+      "La Tour-de-Peilz et Vevey doit-il être étudié en réponse à la fusion de Blonay-St-Légier ?",
+      "Où en est la mise en place d'une gouvernance régionale de la Riviera promise par les syndics de la Riviera en avril 2016 ?",
+      "réponse à la fusion de Blonay-St-Légier ?"
+    ]
+  }
 }

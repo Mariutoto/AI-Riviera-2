@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2021",
   "category": "preavis-municipaux",
@@ -7,5 +7,51 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=83",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Rapport_10_2021-CIEHL-Gestion-Comptes-2020.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Rapport_10_2021-CIEHL-Gestion-Comptes-2020.txt",
-  "characters_extracted": 24547
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "annual_management_report",
+  "listing_year": "2021",
+  "title": "Rapport_10_2021-CIEHL-Gestion-Comptes-2020.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis",
+    "conseil_communal",
+    "decision",
+    "rapport",
+    "ciehl",
+    "gestion",
+    "comptes",
+    "2020",
+    "intercommunale",
+    "haut",
+    "commission",
+    "intercommunales",
+    "examen"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 24547,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "10/2021",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": true
+  },
+  "decision_signals": {
+    "contains_vote": false,
+    "contains_commission_report": true,
+    "contains_decision": false,
+    "contains_minority_report": false
+  },
+  "document_date": "2019-12-31",
+  "report": {
+    "fiscal_year": "2021",
+    "report_scope": "municipal_activity",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "large_document": true
+  }
 }

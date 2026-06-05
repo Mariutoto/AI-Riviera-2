@@ -13,5 +13,44 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Jung-Terasses-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Jung-Terasses-Rep.txt",
-  "characters_extracted": 2890
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "reponse_ecrite",
+    "udc",
+    "reponse",
+    "terrasses",
+    "ouvertes",
+    "ofsp",
+    "chf",
+    "municipale",
+    "asr",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 2890,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Guillaume Jung",
+      "party": "UDC"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2021-06-30",
+    "request_type": "written_answer",
+    "contains_budget_impact": true,
+    "contains_questions": false,
+    "question_count": 0,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2021-06-30"
 }

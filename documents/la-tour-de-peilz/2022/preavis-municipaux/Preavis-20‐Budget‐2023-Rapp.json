@@ -7,5 +7,44 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=92",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-20‐Budget‐2023-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-20‐Budget‐2023-Rapp.txt",
-  "characters_extracted": 80294
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_preavis",
+  "listing_year": "2022",
+  "title": "Preavis-20‐Budget‐2023-Rapp.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis",
+    "conseil_communal",
+    "decision",
+    "rapport",
+    "budget",
+    "rapp",
+    "cofin",
+    "plr",
+    "udc",
+    "psdg",
+    "verts",
+    "chf",
+    "rffa"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 80294,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "20/2022",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": true
+  },
+  "decision_signals": {
+    "contains_vote": false,
+    "contains_commission_report": true,
+    "contains_decision": true,
+    "contains_minority_report": false
+  },
+  "document_date": "2022-12-31"
 }

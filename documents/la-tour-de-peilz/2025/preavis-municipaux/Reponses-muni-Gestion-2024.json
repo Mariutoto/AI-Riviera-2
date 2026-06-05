@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "preavis-municipaux",
@@ -7,5 +7,44 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=114",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Reponses-muni-Gestion-2024.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Reponses-muni-Gestion-2024.txt",
-  "characters_extracted": 3539
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_preavis",
+  "listing_year": "2025",
+  "title": "Reponses-muni-Gestion-2024.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis",
+    "conseil_communal",
+    "zone_30",
+    "transition_energetique",
+    "decision",
+    "rapport",
+    "reponses",
+    "muni",
+    "gestion",
+    "municipale",
+    "pga",
+    "cogest",
+    "vmcv"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 3539,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "10/2019",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": false
+  },
+  "decision_signals": {
+    "contains_vote": false,
+    "contains_commission_report": true,
+    "contains_decision": false,
+    "contains_minority_report": false
+  },
+  "document_date": "2002-03-10"
 }

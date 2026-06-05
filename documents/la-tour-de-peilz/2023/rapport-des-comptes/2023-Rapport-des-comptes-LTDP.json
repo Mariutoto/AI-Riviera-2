@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "rapport_des_comptes",
   "document_type": "rapport_des_comptes",
@@ -11,5 +11,39 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\rapport-des-comptes\\2023-Rapport-des-comptes-LTDP.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\rapport-des-comptes\\2023-Rapport-des-comptes-LTDP.txt",
-  "characters_extracted": 266357
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "annual_accounts_report",
+  "listing_year": "2023",
+  "search_facets": [
+    "rapport_des_compte",
+    "rapport_des_comptes",
+    "rapport_comptes",
+    "comptes",
+    "finances",
+    "conseil_communal",
+    "accueil_de_jour",
+    "rapport",
+    "table",
+    "municipal",
+    "ltdp",
+    "lac",
+    "nom",
+    "vmcv"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 266357,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "report": {
+    "fiscal_year": "2023",
+    "report_scope": "annual_accounts",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "large_document": true,
+    "contains_table_of_contents": true,
+    "contains_commission_report": false,
+    "contains_municipal_response": false
+  },
+  "document_date": "2002-03-10"
 }

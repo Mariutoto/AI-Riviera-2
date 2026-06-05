@@ -13,5 +13,50 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Faraz-Parcelle-928-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Faraz-Parcelle-928-Rep.txt",
-  "characters_extracted": 5388
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "psdg",
+    "reponse",
+    "parcelle",
+    "faraz",
+    "transaction",
+    "interroge",
+    "municipale",
+    "chf"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 5388,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Jean-Yves Schmidhauser",
+      "party": "PSDG"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2021-12-15",
+    "request_type": "answer",
+    "contains_budget_impact": true,
+    "contains_questions": false,
+    "question_count": 0,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2021-12-15",
+  "policy_details": {
+    "question_topics": [
+      "2. Quelles sont les conditions exactes de cette cession, notamment (mais pas exclusivement) financières ?",
+      "3. Quel est l'intérêt communal à céder cette partie de terrain à un propriétaire privé ?",
+      "une telle transaction ?",
+      "les conditions ayant justifié une telle cession ?"
+    ]
+  }
 }

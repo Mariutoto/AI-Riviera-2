@@ -13,5 +13,42 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.txt",
-  "characters_extracted": 8498
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_motion",
+  "search_facets": [
+    "motion",
+    "conseil_communal",
+    "psdg",
+    "consorts",
+    "rapport",
+    "decision",
+    "chateau",
+    "programme",
+    "plr"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 8498,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Geneviève Pasche",
+      "party": "LV"
+    },
+    {
+      "name": "Etienne Balestra",
+      "party": "PSDG"
+    }
+  ],
+  "political_object": {
+    "type": "motion",
+    "status": "Rapport/décision inclus",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2022-05-30",
+    "request_type": "binding_request",
+    "contains_budget_impact": false
+  },
+  "document_date": "2022-05-30"
 }

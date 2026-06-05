@@ -13,5 +13,42 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.txt",
-  "characters_extracted": 8815
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "zone_30",
+    "plr",
+    "reponse",
+    "zone",
+    "stop",
+    "dgmr",
+    "municipale",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 8815,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Roger Urech",
+      "party": "PLR"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2024-06-26",
+    "request_type": "written_answer",
+    "contains_budget_impact": true,
+    "contains_questions": true,
+    "question_count": 7,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2024-06-26"
 }

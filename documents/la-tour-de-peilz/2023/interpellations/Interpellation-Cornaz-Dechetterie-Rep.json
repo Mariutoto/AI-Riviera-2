@@ -13,5 +13,55 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.txt",
-  "characters_extracted": 5831
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "reponse_ecrite",
+    "lcivl",
+    "reponse",
+    "quelque",
+    "chose",
+    "revoir",
+    "organisation",
+    "dechetterie",
+    "ressourcerie",
+    "municipale",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 5831,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Mireille Cornaz",
+      "party": "LCIVL"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2023-06-08",
+    "request_type": "written_answer",
+    "contains_budget_impact": false,
+    "contains_questions": true,
+    "question_count": 3,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2023-06-08",
+  "policy_details": {
+    "question_topics": [
+      "décheterie et de la ressourcerie ?",
+      "viennent ont-ils les cartes d'accès requises ?",
+      "ce qui se passe à la décheterie et si elle en est saƟsfaite ?",
+      "dans l'organisation de la déchetterie et de la ressourcerie ?",
+      "chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+      "La Municipalité est-elle au courant de ce qui se passe à la déchetterie et en est-elle satisfaite ?"
+    ]
+  }
 }

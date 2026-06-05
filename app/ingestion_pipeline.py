@@ -19,7 +19,6 @@ from app.postgres_store import (
     ensure_schema,
     finish_ingestion_run,
     get_document_by_source_url,
-    get_or_create_city,
     insert_chunks,
     log_ingestion_event,
     sha256_text,
@@ -58,12 +57,12 @@ def chunk_text(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) 
     return chunks
 
 
-def load_metadata(text_path: Path) -> dict[str, Any]:
+def load_metadata(text_path: Path, content: str | None = None) -> dict[str, Any]:
     metadata_path = text_path.with_suffix(".json")
     if metadata_path.exists():
         try:
             metadata = json.loads(metadata_path.read_text(encoding="utf-8-sig"))
-            return enrich_metadata(metadata, text_path=text_path)
+            return enrich_metadata(metadata, text_path=text_path, content=content)
         except json.JSONDecodeError:
             pass
 
@@ -75,7 +74,7 @@ def load_metadata(text_path: Path) -> dict[str, Any]:
         "pdf_url": "",
         "source_page": "",
         "text_path": str(text_path),
-    }, text_path=text_path)
+    }, text_path=text_path, content=content)
 
 
 def iter_text_files(root: Path):
@@ -140,8 +139,13 @@ def _searchable_text(metadata: dict[str, Any], chunk: str) -> str:
     return f"{prefix}\n\n{chunk}".strip()
 
 
-def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = "manual") -> dict[str, Any]:
+def ingest_documents(
+    documents_root: Path = DOCUMENTS_ROOT,
+    trigger_name: str = "manual",
+    force_categories: set[str] | None = None,
+) -> dict[str, Any]:
     ensure_schema()
+    force_categories = force_categories or set()
 
     import psycopg
     from psycopg.rows import dict_row
@@ -163,13 +167,13 @@ def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = 
 
             for text_path in iter_text_files(documents_root):
                 stats["documents_seen"] += 1
-                metadata = load_metadata(text_path)
                 content = text_path.read_text(encoding="utf-8", errors="ignore")
+                metadata = load_metadata(text_path, content=content)
                 payload = _document_payload(text_path, metadata, content)
-                city = get_or_create_city(connection, payload["city"])
 
                 existing = get_document_by_source_url(connection, payload["source_url"])
-                if existing and existing["document_hash"] == payload["document_hash"]:
+                force_document = str(metadata.get("category") or "") in force_categories
+                if existing and existing["document_hash"] == payload["document_hash"] and not force_document:
                     with connection.cursor() as cursor:
                         cursor.execute(
                             """
@@ -185,7 +189,6 @@ def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = 
                 document_row = upsert_document(
                     connection,
                     DocumentRecord(
-                        city_id=str(city["id"]),
                         city=payload["city"],
                         source_url=payload["source_url"],
                         source_path=payload["source_path"],
@@ -220,7 +223,7 @@ def ingest_documents(documents_root: Path = DOCUMENTS_ROOT, trigger_name: str = 
                         {
                             "chunk_id": chunk_id,
                             "document_id": document_id,
-                            "city_id": str(city["id"]),
+                            "city": payload["city"],
                             "chunk_index": index,
                             "doc_type": payload["doc_type"],
                             "title": payload["title"],
@@ -281,9 +284,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run the AI Riviera ingestion pipeline.")
     parser.add_argument("--documents-root", type=Path, default=DOCUMENTS_ROOT)
     parser.add_argument("--trigger-name", type=str, default="manual")
+    parser.add_argument("--force-category", action="append", default=[], help="Force reindex documents in this category.")
     args = parser.parse_args()
 
-    stats = ingest_documents(documents_root=args.documents_root, trigger_name=args.trigger_name)
+    stats = ingest_documents(
+        documents_root=args.documents_root,
+        trigger_name=args.trigger_name,
+        force_categories=set(args.force_category),
+    )
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 

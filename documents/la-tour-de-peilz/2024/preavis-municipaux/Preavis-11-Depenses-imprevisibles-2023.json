@@ -14,5 +14,41 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-11-Depenses-imprevisibles-2023.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-11-Depenses-imprevisibles-2023.txt",
-  "characters_extracted": 1877
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_preavis",
+  "search_facets": [
+    "preavis_municipaux",
+    "preavis_municipal",
+    "preavis",
+    "conseil_communal",
+    "accueil_de_jour",
+    "decision",
+    "rapport",
+    "municipal",
+    "depenses",
+    "imprevisibles",
+    "exceptionnelles",
+    "ltdp",
+    "lac",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 1877,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "municipal_document": {
+    "type": "preavis_municipal",
+    "number": "11/2024",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "contains_financial_decision": true
+  },
+  "decision_signals": {
+    "contains_vote": true,
+    "contains_commission_report": true,
+    "contains_decision": false,
+    "contains_minority_report": false
+  },
+  "document_date": "2002-03-10"
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "institutionnel",
   "category": "conseil-communal",
@@ -7,5 +7,37 @@
   "filename": "liste-des-membres-par-parti.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/membres-conseil-communal.php",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\institutionnel\\conseil-communal\\liste-des-membres-par-parti.txt",
-  "characters_extracted": 2659
+  "structured_data_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\data\\institutionnel\\la-tour-de-peilz\\conseil_communal_members.json",
+  "members_count": 85,
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "institutional_document",
+  "listing_year": "institutionnel",
+  "search_facets": [
+    "conseil_communal",
+    "institutionnel",
+    "reglement",
+    "developpement_durable",
+    "liste",
+    "membres",
+    "parti",
+    "plr",
+    "psdg",
+    "lcivl",
+    "ltdpl",
+    "urbains",
+    "offres",
+    "emploi"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 5269,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "institutional_document": {
+    "body": "Conseil communal",
+    "institutional_category": "liste-des-membres-par-parti",
+    "contains_council_members": true,
+    "members_count": 85,
+    "contains_regulation": false
+  }
 }

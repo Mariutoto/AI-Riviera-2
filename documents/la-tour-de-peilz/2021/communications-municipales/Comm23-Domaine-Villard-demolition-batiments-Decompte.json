@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2021",
   "category": "communications-municipales",
@@ -7,5 +7,42 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=86",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm23-Domaine-Villard-demolition-batiments-Decompte.txt",
-  "characters_extracted": 1064
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_communication",
+  "listing_year": "2021",
+  "title": "Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "communications_municipale",
+    "communication_municipale",
+    "conseil_communal",
+    "comm23",
+    "domaine",
+    "villard",
+    "demolition",
+    "batiments",
+    "decompte",
+    "communication",
+    "municipale",
+    "eca",
+    "pad",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 1064,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "communication": {
+    "number": "23/2021",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "document_date": "2021-10-25"
+  },
+  "content_signals": {
+    "contains_person_names": true,
+    "contains_financial_amounts": true,
+    "contains_public_works": true
+  },
+  "document_date": "2021-10-25"
 }

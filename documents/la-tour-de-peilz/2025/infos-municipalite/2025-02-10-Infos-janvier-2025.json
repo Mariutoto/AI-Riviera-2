@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "info_municipalite",
   "document_type": "info_municipalite",
@@ -13,5 +13,35 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos janvier 2025",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\infos-municipalite\\2025-02-10-Infos-janvier-2025.txt",
-  "characters_extracted": 4248
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2025",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "janvier",
+    "non",
+    "eca",
+    "ttc",
+    "sia"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 4248,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2025-01-13",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": false,
+    "contains_subsidies": false
+  },
+  "document_date": "2025-01-13"
 }

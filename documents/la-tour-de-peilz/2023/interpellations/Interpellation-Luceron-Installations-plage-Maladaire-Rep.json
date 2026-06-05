@@ -13,5 +13,42 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.txt",
-  "characters_extracted": 3793
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "lcivl",
+    "reponse",
+    "renouvellement",
+    "installations",
+    "plage",
+    "maladaire",
+    "municipale",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 3793,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Maria Luceron",
+      "party": "LCIVL"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2023-10-02",
+    "request_type": "answer",
+    "contains_budget_impact": false,
+    "contains_questions": false,
+    "question_count": 0,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2023-10-02"
 }

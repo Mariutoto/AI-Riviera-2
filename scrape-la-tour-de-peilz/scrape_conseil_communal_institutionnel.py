@@ -2,6 +2,7 @@ import json
 import re
 import sys
 from html.parser import HTMLParser
+from html import unescape
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urljoin, urlparse
 
@@ -26,6 +27,15 @@ DOCUMENTS_ROOT = PROJECT_ROOT / "documents" / "la-tour-de-peilz"
 DATA_ROOT = PROJECT_ROOT / "data" / "institutionnel" / "la-tour-de-peilz"
 CATEGORY = "conseil-communal"
 YEAR = "institutionnel"
+
+PARTY_ABBREVIATIONS = {
+    "PLR.Les Libéraux Radicaux (PLR)": "PLR",
+    "Parti Socialiste et Divers de Gauche (PSDG)": "PSDG",
+    "Les Vert·e·s (LV)": "LV",
+    "Le Centre + Indépendants plus vert´libéraux (LCIVL)": "LCIVL",
+    "La Tour-de-Peilz Libre (LTDPL)": "LTDPL",
+    "Hors parti": "Hors parti",
+}
 
 
 class TextParser(HTMLParser):
@@ -98,6 +108,61 @@ def extract_accordion_blocks(page_html: str) -> list[dict]:
         if title and body:
             blocks.append({"title": title, "text": body})
     return blocks
+
+
+def party_abbreviation(label: str) -> str:
+    label = clean_text(label)
+    if label in PARTY_ABBREVIATIONS:
+        return PARTY_ABBREVIATIONS[label]
+    match = re.search(r"\(([A-Z0-9]+)\)\s*$", label)
+    return match.group(1) if match else label
+
+
+def extract_council_members(page_html: str) -> list[dict]:
+    members: list[dict] = []
+    pattern = re.compile(
+        r"""<div class="question[^"]*"[^>]*>\s*<div class="title[^"]*"[^>]*>.*?</i>(?P<party>.*?)</div>\s*<div class="answer"[^>]*>(?P<body>.*?)</div>\s*</div>""",
+        flags=re.I | re.S,
+    )
+    row_pattern = re.compile(
+        r"""<li class="prestation row table-striped"[^>]*>\s*<div[^>]*>(?P<last>.*?)</div>\s*<div[^>]*>(?P<first>.*?)</div>""",
+        flags=re.I | re.S,
+    )
+    for block in pattern.finditer(page_html):
+        party_label = html_to_text(block.group("party"))
+        party = party_abbreviation(party_label)
+        if party not in {"PLR", "PSDG", "LV", "LCIVL", "LTDPL", "Hors parti"}:
+            continue
+        for row in row_pattern.finditer(block.group("body")):
+            last_name = clean_text(re.sub(r"<[^>]+>", " ", unescape(row.group("last"))))
+            first_name = clean_text(re.sub(r"<[^>]+>", " ", unescape(row.group("first"))))
+            if not last_name or not first_name:
+                continue
+            members.append(
+                {
+                    "name": f"{first_name} {last_name}",
+                    "first_name": first_name,
+                    "last_name": last_name,
+                    "party": party,
+                    "party_label": party_label,
+                }
+            )
+    return members
+
+
+def write_council_members_data(members: list[dict]) -> Path:
+    DATA_ROOT.mkdir(parents=True, exist_ok=True)
+    path = DATA_ROOT / "conseil_communal_members.json"
+    payload = {
+        "commune": "La Tour-de-Peilz",
+        "source_page": MEMBERS_URL,
+        "legislature": "2021-2026",
+        "party_abbreviations": PARTY_ABBREVIATIONS,
+        "members_count": len(members),
+        "members": members,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
 
 
 def extract_members_text() -> str:
@@ -197,13 +262,23 @@ def main() -> None:
             if title.casefold() == block["title"].casefold():
                 records.append(write_document(slug, title, block["text"], MAIN_URL))
 
-    members_text = extract_members_text()
+    members_html = fetch_text(MEMBERS_URL)
+    members = extract_council_members(members_html)
+    members_data_path = write_council_members_data(members)
+    members_text = html_to_text(members_html)
+    start = members_text.find("Liste des membres")
+    if start == -1:
+        start = members_text.find("Liste des membres pour")
+    if start == -1:
+        start = 0
+    members_text = clean_text(members_text[start:])
     records.append(
         write_document(
             "liste-des-membres-par-parti",
             "Liste des membres par parti",
             members_text,
             MEMBERS_URL,
+            {"structured_data_path": str(members_data_path), "members_count": len(members)},
         )
     )
     records.append(write_reglement())

@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "budget",
   "document_type": "budget_communal",
@@ -11,5 +11,38 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\budget\\Budget_2021_LTDP.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\budget\\Budget_2021_LTDP.txt",
-  "characters_extracted": 196282
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_budget",
+  "listing_year": "2021",
+  "search_facets": [
+    "budget",
+    "finances",
+    "conseil_communal",
+    "chf",
+    "table",
+    "municipal",
+    "pad",
+    "ltp",
+    "scl",
+    "fao",
+    "ncc",
+    "rffa",
+    "vmcv",
+    "covid"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 196282,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "document_date": "2020-11-02",
+  "financial_document_type": "budget",
+  "fiscal_year": "2021",
+  "financial_document": {
+    "type": "budget",
+    "fiscal_year": "2021",
+    "contains_financial_summary_tables": true,
+    "contains_financial_account_lines": true,
+    "contains_amounts": true
+  }
 }

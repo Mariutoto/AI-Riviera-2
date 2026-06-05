@@ -13,5 +13,45 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
-  "characters_extracted": 14336
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_interpellation",
+  "search_facets": [
+    "interpellation",
+    "conseil_communal",
+    "reponse",
+    "contient",
+    "assiette",
+    "cantines",
+    "subventionnees",
+    "mnt",
+    "uape",
+    "municipale",
+    "ssn",
+    "osav",
+    "fsat"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 14336,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Gabrielle Heller",
+      "party": "LV"
+    }
+  ],
+  "political_object": {
+    "type": "interpellation",
+    "status": "Réponse incluse",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2025-04-13",
+    "request_type": "answer",
+    "contains_budget_impact": true,
+    "contains_questions": true,
+    "question_count": 8,
+    "expects_municipal_answer": true
+  },
+  "document_date": "2025-04-13"
 }

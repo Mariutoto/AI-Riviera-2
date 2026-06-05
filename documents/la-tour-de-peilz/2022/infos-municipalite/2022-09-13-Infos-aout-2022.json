@@ -13,5 +13,35 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos août 2022",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\infos-municipalite\\2022-09-13-Infos-aout-2022.txt",
-  "characters_extracted": 6855
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2022",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "aout",
+    "asr",
+    "cvvt",
+    "plr",
+    "tdc"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 6855,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2022-09-10",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": true,
+    "contains_public_works_awards": true,
+    "contains_subsidies": true
+  },
+  "document_date": "2022-09-10"
 }

@@ -94,9 +94,8 @@ def get_document(connection, metadata: dict[str, Any], metadata_path: Path) -> d
     with connection.cursor() as cursor:
         cursor.execute(
             """
-            SELECT d.id, d.city_id, d.source_url, d.source_path, c.name AS city
+            SELECT d.id, d.city, d.source_url, d.source_path
             FROM documents d
-            JOIN cities c ON c.id = d.city_id
             WHERE d.source_url = %s
             """,
             (source_url,),
@@ -319,14 +318,14 @@ def upsert_financial_data(connection, document: dict[str, Any], tables: list[dic
             cursor.execute(
                 """
                 INSERT INTO financial_summary_tables (
-                    document_id, city_id, table_key, fiscal_year, title, metric,
+                    document_id, city, table_key, fiscal_year, title, metric,
                     currency, source_path, metadata
                 ) VALUES (%s, %s, %s, %s, %s, %s, 'CHF', %s, %s::jsonb)
                 RETURNING id
                 """,
                 (
                     document["id"],
-                    document["city_id"],
+                    document["city"],
                     table["table_key"],
                     table["fiscal_year"],
                     table["title"],
@@ -357,7 +356,7 @@ def upsert_financial_data(connection, document: dict[str, Any], tables: list[dic
             cursor.execute(
                 """
                 INSERT INTO financial_account_lines (
-                    document_id, city_id, line_key, fiscal_year, service_code, service_name,
+                    document_id, city, line_key, fiscal_year, service_code, service_name,
                     group_code, group_name, department, account_number, account_label,
                     currency, values, source_path, line_number, metadata
                 ) VALUES (
@@ -368,7 +367,7 @@ def upsert_financial_data(connection, document: dict[str, Any], tables: list[dic
                 """,
                 (
                     document["id"],
-                    document["city_id"],
+                    document["city"],
                     line["line_key"],
                     line["fiscal_year"],
                     line["service_code"],

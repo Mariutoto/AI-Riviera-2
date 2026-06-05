@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "ordres-du-jour",
@@ -8,5 +8,46 @@
   "time": "19:00",
   "place": "Maison Hugonin, Salle du Conseil communal",
   "linked_documents_count": 20,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-06-25-ordre-du-jour.txt"
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-06-25-ordre-du-jour.txt",
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "council_agenda",
+  "listing_year": "2025",
+  "title": "2025-06-25-ordre-du-jour.txt",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "ordres_du_jour",
+    "ordre_du_jour",
+    "conseil_communal",
+    "seance",
+    "mobilite_douce",
+    "ordre",
+    "jour",
+    "tour",
+    "peilz",
+    "plr",
+    "fcr",
+    "ciehl",
+    "cogest",
+    "ltdpl"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 4547,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "session": {
+    "body": "Conseil communal",
+    "date": "2025-06-25",
+    "legislature": "2021-2026",
+    "public_session": true
+  },
+  "linked_documents": {
+    "linked_documents_count": 20,
+    "contains_linked_documents": true,
+    "should_link_to_documents_table": true
+  },
+  "agenda_structure": {
+    "contains_numbered_items": true,
+    "contains_political_objects": true
+  }
 }

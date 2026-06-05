@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "info_municipalite",
   "document_type": "info_municipalite",
@@ -13,5 +13,40 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos juin 2023",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\infos-municipalite\\2023-07-11-Infos-juin-2023.txt",
-  "characters_extracted": 13544
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2023",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "juin",
+    "mob",
+    "vmcv",
+    "cmvr",
+    "asr",
+    "eca",
+    "cgn",
+    "bpa",
+    "ucv",
+    "ail"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 13544,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2023-06-05",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": true,
+    "contains_public_works_awards": false,
+    "contains_subsidies": false
+  },
+  "document_date": "2023-06-05"
 }

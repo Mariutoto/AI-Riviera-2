@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "info_municipalite",
   "document_type": "info_municipalite",
@@ -13,5 +13,40 @@
   "source_page": "https://www.la-tour-de-peilz.ch/infos-muni/",
   "detail_title": "Infos avril 2023",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\infos-municipalite\\2023-06-19-Infos-avril-2023.txt",
-  "characters_extracted": 9503
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipality_news",
+  "listing_year": "2023",
+  "search_facets": [
+    "infos_municipalite",
+    "info_municipalite",
+    "conseil_communal",
+    "infos",
+    "avril",
+    "ucv",
+    "cvvt",
+    "sai",
+    "asante",
+    "sana",
+    "bcv",
+    "aus",
+    "eca",
+    "lac"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 9503,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "digest": {
+    "issuing_body": "Municipalite",
+    "publication_date": "2023-04-03",
+    "contains_decisions": true
+  },
+  "content_signals": {
+    "contains_financial_amounts": true,
+    "contains_event_authorizations": false,
+    "contains_public_works_awards": true,
+    "contains_subsidies": false
+  },
+  "document_date": "2023-04-03"
 }

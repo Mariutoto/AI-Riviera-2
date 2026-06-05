@@ -1,18 +1,67 @@
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
-CREATE TABLE IF NOT EXISTS cities (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    slug TEXT NOT NULL UNIQUE,
-    name TEXT NOT NULL,
-    canton TEXT DEFAULT '',
-    country TEXT DEFAULT 'CH',
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
-);
+DO $$
+BEGIN
+    IF to_regclass('public.documents') IS NOT NULL THEN
+        ALTER TABLE documents ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';
+        IF EXISTS (
+            SELECT 1 FROM information_schema.columns
+            WHERE table_schema = 'public' AND table_name = 'documents' AND column_name = 'city_id'
+        ) AND to_regclass('public.cities') IS NOT NULL THEN
+            UPDATE documents d
+            SET city = c.name
+            FROM cities c
+            WHERE d.city_id = c.id AND COALESCE(d.city, '') = '';
+        END IF;
+        UPDATE documents SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz');
+    END IF;
+
+    IF to_regclass('public.document_chunks') IS NOT NULL THEN
+        ALTER TABLE document_chunks ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';
+        IF EXISTS (
+            SELECT 1 FROM information_schema.columns
+            WHERE table_schema = 'public' AND table_name = 'document_chunks' AND column_name = 'city_id'
+        ) AND to_regclass('public.cities') IS NOT NULL THEN
+            UPDATE document_chunks dc
+            SET city = c.name
+            FROM cities c
+            WHERE dc.city_id = c.id AND COALESCE(dc.city, '') = '';
+        END IF;
+        UPDATE document_chunks SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz');
+    END IF;
+
+    IF to_regclass('public.financial_summary_tables') IS NOT NULL THEN
+        ALTER TABLE financial_summary_tables ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';
+        IF EXISTS (
+            SELECT 1 FROM information_schema.columns
+            WHERE table_schema = 'public' AND table_name = 'financial_summary_tables' AND column_name = 'city_id'
+        ) AND to_regclass('public.cities') IS NOT NULL THEN
+            UPDATE financial_summary_tables fst
+            SET city = c.name
+            FROM cities c
+            WHERE fst.city_id = c.id AND COALESCE(fst.city, '') = '';
+        END IF;
+        UPDATE financial_summary_tables SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz');
+    END IF;
+
+    IF to_regclass('public.financial_account_lines') IS NOT NULL THEN
+        ALTER TABLE financial_account_lines ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';
+        IF EXISTS (
+            SELECT 1 FROM information_schema.columns
+            WHERE table_schema = 'public' AND table_name = 'financial_account_lines' AND column_name = 'city_id'
+        ) AND to_regclass('public.cities') IS NOT NULL THEN
+            UPDATE financial_account_lines fal
+            SET city = c.name
+            FROM cities c
+            WHERE fal.city_id = c.id AND COALESCE(fal.city, '') = '';
+        END IF;
+        UPDATE financial_account_lines SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz');
+    END IF;
+END $$;
 
 CREATE TABLE IF NOT EXISTS documents (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    city TEXT NOT NULL DEFAULT '',
     source_url TEXT NOT NULL UNIQUE,
     source_path TEXT NOT NULL DEFAULT '',
     doc_type TEXT NOT NULL DEFAULT '',
@@ -26,10 +75,10 @@ CREATE TABLE IF NOT EXISTS documents (
     metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    UNIQUE (city_id, source_path)
+    UNIQUE (city, source_path)
 );
 
-CREATE INDEX IF NOT EXISTS idx_documents_city_id ON documents(city_id);
+CREATE INDEX IF NOT EXISTS idx_documents_city ON documents(city);
 CREATE INDEX IF NOT EXISTS idx_documents_doc_type ON documents(doc_type);
 CREATE INDEX IF NOT EXISTS idx_documents_document_date ON documents(document_date);
 CREATE INDEX IF NOT EXISTS idx_documents_status ON documents(status);
@@ -37,7 +86,7 @@ CREATE INDEX IF NOT EXISTS idx_documents_status ON documents(status);
 CREATE TABLE IF NOT EXISTS document_chunks (
     chunk_id TEXT PRIMARY KEY,
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
-    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    city TEXT NOT NULL DEFAULT '',
     chunk_index INTEGER NOT NULL,
     doc_type TEXT NOT NULL DEFAULT '',
     title TEXT NOT NULL DEFAULT '',
@@ -57,7 +106,7 @@ ALTER TABLE document_chunks
 ADD COLUMN IF NOT EXISTS search_vector TSVECTOR NOT NULL DEFAULT ''::tsvector;
 
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_id ON document_chunks(document_id);
-CREATE INDEX IF NOT EXISTS idx_document_chunks_city_id ON document_chunks(city_id);
+CREATE INDEX IF NOT EXISTS idx_document_chunks_city ON document_chunks(city);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_doc_type ON document_chunks(doc_type);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_date ON document_chunks(document_date);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_search_vector ON document_chunks USING GIN(search_vector);
@@ -94,7 +143,7 @@ CREATE INDEX IF NOT EXISTS idx_ingestion_logs_level ON ingestion_logs(level);
 CREATE TABLE IF NOT EXISTS financial_summary_tables (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
-    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    city TEXT NOT NULL DEFAULT '',
     table_key TEXT NOT NULL UNIQUE,
     fiscal_year INTEGER NOT NULL,
     title TEXT NOT NULL DEFAULT '',
@@ -107,7 +156,7 @@ CREATE TABLE IF NOT EXISTS financial_summary_tables (
 );
 
 CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_document_id ON financial_summary_tables(document_id);
-CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_city_year ON financial_summary_tables(city_id, fiscal_year);
+CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_city_year ON financial_summary_tables(city, fiscal_year);
 CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_metric ON financial_summary_tables(metric);
 
 CREATE TABLE IF NOT EXISTS financial_summary_rows (
@@ -129,7 +178,7 @@ CREATE INDEX IF NOT EXISTS idx_financial_summary_rows_service_code ON financial_
 CREATE TABLE IF NOT EXISTS financial_account_lines (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
-    city_id UUID NOT NULL REFERENCES cities(id) ON DELETE CASCADE,
+    city TEXT NOT NULL DEFAULT '',
     line_key TEXT NOT NULL UNIQUE,
     fiscal_year INTEGER NOT NULL,
     service_code TEXT NOT NULL DEFAULT '',
@@ -149,6 +198,63 @@ CREATE TABLE IF NOT EXISTS financial_account_lines (
 );
 
 CREATE INDEX IF NOT EXISTS idx_financial_account_lines_document_id ON financial_account_lines(document_id);
-CREATE INDEX IF NOT EXISTS idx_financial_account_lines_city_year ON financial_account_lines(city_id, fiscal_year);
+CREATE INDEX IF NOT EXISTS idx_financial_account_lines_city_year ON financial_account_lines(city, fiscal_year);
 CREATE INDEX IF NOT EXISTS idx_financial_account_lines_account_number ON financial_account_lines(account_number);
 CREATE INDEX IF NOT EXISTS idx_financial_account_lines_service_code ON financial_account_lines(service_code);
+
+DO $$
+DECLARE
+    constraint_name TEXT;
+BEGIN
+    DROP INDEX IF EXISTS idx_documents_city_id;
+    DROP INDEX IF EXISTS idx_document_chunks_city_id;
+    DROP INDEX IF EXISTS idx_financial_summary_tables_city_year;
+    DROP INDEX IF EXISTS idx_financial_account_lines_city_year;
+
+    IF EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_schema = 'public' AND table_name = 'documents' AND column_name = 'city_id'
+    ) THEN
+        FOR constraint_name IN
+            SELECT conname
+            FROM pg_constraint
+            WHERE conrelid = 'public.documents'::regclass
+              AND conname IN ('documents_city_id_fkey', 'documents_city_id_source_path_key')
+        LOOP
+            EXECUTE format('ALTER TABLE documents DROP CONSTRAINT IF EXISTS %I', constraint_name);
+        END LOOP;
+        ALTER TABLE documents DROP COLUMN city_id;
+    END IF;
+
+    IF EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_schema = 'public' AND table_name = 'document_chunks' AND column_name = 'city_id'
+    ) THEN
+        ALTER TABLE document_chunks DROP CONSTRAINT IF EXISTS document_chunks_city_id_fkey;
+        ALTER TABLE document_chunks DROP COLUMN city_id;
+    END IF;
+
+    IF EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_schema = 'public' AND table_name = 'financial_summary_tables' AND column_name = 'city_id'
+    ) THEN
+        ALTER TABLE financial_summary_tables DROP CONSTRAINT IF EXISTS financial_summary_tables_city_id_fkey;
+        ALTER TABLE financial_summary_tables DROP COLUMN city_id;
+    END IF;
+
+    IF EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_schema = 'public' AND table_name = 'financial_account_lines' AND column_name = 'city_id'
+    ) THEN
+        ALTER TABLE financial_account_lines DROP CONSTRAINT IF EXISTS financial_account_lines_city_id_fkey;
+        ALTER TABLE financial_account_lines DROP COLUMN city_id;
+    END IF;
+
+    ALTER TABLE documents DROP CONSTRAINT IF EXISTS documents_city_source_path_key;
+    ALTER TABLE documents ADD CONSTRAINT documents_city_source_path_key UNIQUE (city, source_path);
+    CREATE INDEX IF NOT EXISTS idx_documents_city ON documents(city);
+    CREATE INDEX IF NOT EXISTS idx_document_chunks_city ON document_chunks(city);
+    CREATE INDEX IF NOT EXISTS idx_financial_summary_tables_city_year ON financial_summary_tables(city, fiscal_year);
+    CREATE INDEX IF NOT EXISTS idx_financial_account_lines_city_year ON financial_account_lines(city, fiscal_year);
+    DROP TABLE IF EXISTS cities;
+END $$;

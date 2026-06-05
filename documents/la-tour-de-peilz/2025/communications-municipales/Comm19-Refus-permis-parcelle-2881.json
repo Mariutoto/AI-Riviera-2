@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "communications-municipales",
@@ -7,5 +7,40 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=115",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm19-Refus-permis-parcelle-2881.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm19-Refus-permis-parcelle-2881.txt",
-  "characters_extracted": 2109
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_communication",
+  "listing_year": "2025",
+  "title": "Comm19-Refus-permis-parcelle-2881.pdf",
+  "legislature": "2021-2026",
+  "search_facets": [
+    "communications_municipale",
+    "communication_municipale",
+    "conseil_communal",
+    "comm19",
+    "refus",
+    "permis",
+    "parcelle",
+    "2881",
+    "communication",
+    "municipale",
+    "latc",
+    "nom"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 2109,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "communication": {
+    "number": "19/2025",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "document_date": "2002-03-10"
+  },
+  "content_signals": {
+    "contains_person_names": true,
+    "contains_financial_amounts": false,
+    "contains_public_works": false
+  },
+  "document_date": "2002-03-10"
 }

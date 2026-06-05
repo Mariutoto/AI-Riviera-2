@@ -13,5 +13,45 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.txt",
-  "characters_extracted": 3622
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "political_motion",
+  "search_facets": [
+    "motion",
+    "conseil_communal",
+    "frais_de_garde",
+    "lcivl",
+    "psdg",
+    "indemnite",
+    "remboursement",
+    "frais",
+    "garde",
+    "commissions",
+    "bureau",
+    "ltdpl"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 3622,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "authors": [
+    {
+      "name": "Manon Roethlisberger",
+      "party": "LCIVL"
+    },
+    {
+      "name": "Piero Negro",
+      "party": "PSDG"
+    }
+  ],
+  "political_object": {
+    "type": "motion",
+    "status": "Renvoyé directement à la Municipalité",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "document_date": "2026-04-06",
+    "request_type": "binding_request",
+    "contains_budget_impact": true
+  },
+  "document_date": "2026-04-06"
 }

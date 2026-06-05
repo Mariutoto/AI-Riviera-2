@@ -1,4 +1,4 @@
-﻿{
+{
   "commune": "La Tour-de-Peilz",
   "type": "budget",
   "document_type": "budget_communal",
@@ -11,5 +11,38 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\budget\\Budget_2022_LTDP.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\budget\\Budget_2022_LTDP.txt",
-  "characters_extracted": 198062
+  "metadata_version": "metadata-audit-v1",
+  "content_kind": "municipal_budget",
+  "listing_year": "2022",
+  "search_facets": [
+    "budget",
+    "finances",
+    "conseil_communal",
+    "chf",
+    "table",
+    "municipal",
+    "pad",
+    "ltdp",
+    "dgaic",
+    "fao",
+    "ncc",
+    "rffa",
+    "vmcv",
+    "covid"
+  ],
+  "text_extraction_status": {
+    "characters_extracted": 198062,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "financial_document_type": "budget",
+  "fiscal_year": "2022",
+  "currency": "CHF",
+  "financial_document": {
+    "type": "budget",
+    "fiscal_year": "2022",
+    "contains_financial_summary_tables": true,
+    "contains_financial_account_lines": true,
+    "contains_amounts": true
+  }
 }

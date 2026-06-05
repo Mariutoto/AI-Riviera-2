@@ -425,3 +425,135 @@ ADRESSES UTILES
 CONTACTS
 
 MENTIONS LÉGALES
+
+© Equateur...
+
+Pour nous contacter
+
+Un changement d'adresse, un permis de séjour, un document d'identité ou l'inscription d'un chien : 
+
+021 977 01 50
+
+La police des constructions, les espaces verts, la voirie ou la déchèterie : 
+
+021 977 01 60
+
+Les locations, la cave communale, les subventions liées à l'énergie ou une réservation de salle :
+
+021 977 01 70
+
+Pour toute autre demande : 
+
+021 977 01 11
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-17546552-1');
+
+// Cookie Bar initialization
+$(function() {
+$.cookieBar({
+privacy: 'bs_modal',
+privacyContent: '#privacyModal'
+});
+});
+
+// Just example purpose
+var style = 1;
+var styles = [
+'top',
+'bottom',
+'bottom-left',
+'bottom-right'
+];
+
+$(function() {
+$('#reload-cookies').on('click', function() {
+if($.cookieBar('getCookie', 'cookies-state') === 'accepted') {
+$.cookieBar('setCookie', 'cookies-state', '', 0);
+$.cookieBar('displayBar');
+}
+});
+
+$('#toggle-style').on('click', function() {
+$('#cookie-bar').remove();
+
+$.cookieBar({
+style: styles[style],
+privacy: 'bs_modal',
+privacyContent: '#privacyModal'
+});
+
+style++;
+
+if ( style >= styles.length ) {
+style = 0;
+}
+});
+});
+
+/******************************************
+- PREPARE PLACEHOLDER FOR SLIDER -
+******************************************/
+
+var revapi;
+jQuery(document).ready(function() {
+revapi = jQuery("#rev_slider").revolution({
+sliderType: "standard",
+sliderLayout: "auto",
+delay: 9000,
+navigation: {
+arrows: {
+enable: false
+}
+},
+gridwidth: 1230,
+gridheight:370
+});
+
+}); /*ready*/
+
+jQuery(window).load(function() {
+var retina = window.devicePixelRatio > 1 ? true : false;
+if (retina) {
+var retinaEl = jQuery("#logo img");
+var retinaLogoW = retinaEl.width();
+var retinaLogoH = retinaEl.height();
+retinaEl.attr("src", "images/logo-retina.png").width(retinaLogoW).height(retinaLogoH)
+}
+});
+
+jQuery(document).ready(function ($) {
+/* jQuery activation and setting options for first tabs, enabling multiline*/
+$("#tabbed-nav").zozoTabs({
+position: "top-compact",
+multiline: true,
+theme: "white",
+shadows: true,
+orientation: "horizontal",
+size: "medium",
+animation: {
+easing: "easeInOutExpo",
+duration: 500,
+effects: "slideH"
+}
+});
+
+/* jQuery activation and setting options for second tabs, enabling multiline*/
+
+});
+
+$(document).ready(function(){
+$(window).resize(function() {
+
+ellipses1 = $("#bc1 :nth-child(2)")
+if ($("#bc1 a:hidden").length >0) {ellipses1.show()} else {ellipses1.hide()}
+
+ellipses2 = $("#bc2 :nth-child(2)")
+if ($("#bc2 a:hidden").length >0) {ellipses2.show()} else {ellipses2.hide()}
+
+})
+
+});
