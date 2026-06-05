@@ -1,54 +1,46 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2021",
   "listing_year": "2021",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal + rapport + décision | Nr. 22 | 2021",
-  "summary": "Budget 2022 de la Commune de La Tour-de-Peilz",
-  "preavis_number": 22,
+  "preavis_number": "22/2021",
+  "official_listing_label": "Préavis municipal + rapport + décision | Nr. 22 | 2021",
+  "object_title": "Budget 2022 de la Commune de La Tour-de-Peilz",
+  "listing_status": "with_report_and_decision",
+  "listing_contains_report": true,
+  "listing_contains_decision": true,
   "filename": "Preavis_22_2021-Budget_2022-rapp-dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_22_2021-Budget_2022-rapp-dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal + rapport + décision | Nr. 22 | 2021",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 22/2021"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 18,
+      "title": "Décision du Conseil communal"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-11-03",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_22_2021-Budget_2022-rapp-dec.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_22_2021-Budget_2022-rapp-dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "decision",
-    "rapport",
-    "municipal",
-    "budget",
-    "tour",
-    "peilz",
-    "pad",
-    "ltdp",
-    "dgaic",
-    "fao"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 74156,
+    "characters_extracted": 74114,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "22/2021",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2022-12-31"
+  "metadata_version": "metadata-audit-v2"
 }

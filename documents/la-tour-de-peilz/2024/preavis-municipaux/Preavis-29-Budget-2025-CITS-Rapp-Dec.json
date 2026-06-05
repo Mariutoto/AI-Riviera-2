@@ -1,54 +1,46 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2024",
   "listing_year": "2024",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal + rapport + décision | Nr. 29 | 2024",
-  "summary": "Budget 2025 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve (CITS)",
-  "preavis_number": 29,
+  "preavis_number": "29/2024",
+  "official_listing_label": "Préavis municipal + rapport + décision | Nr. 29 | 2024",
+  "object_title": "Budget 2025 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve (CITS)",
+  "listing_status": "with_report_and_decision",
+  "listing_contains_report": true,
+  "listing_contains_decision": true,
   "filename": "Preavis-29-Budget-2025-CITS-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-29-Budget-2025-CITS-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal + rapport + décision | Nr. 29 | 2024",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 29/2024"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 4,
+      "title": "Décision du Conseil communal"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2024-10-30",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-29-Budget-2025-CITS-Rapp-Dec.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-29-Budget-2025-CITS-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "decision",
-    "rapport",
-    "municipal",
-    "budget",
-    "entente",
-    "intercommunale",
-    "taxe",
-    "sejour",
-    "residences",
-    "secondaires"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 23331,
+    "characters_extracted": 23297,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "29/2024",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2002-03-10"
+  "metadata_version": "metadata-audit-v2"
 }

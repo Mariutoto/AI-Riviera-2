@@ -1,54 +1,46 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2021",
   "listing_year": "2021",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal | Nr. 11 | 2021",
-  "summary": "Dépenses imprévisibles et exceptionnelles",
-  "preavis_number": 11,
+  "preavis_number": "11/2021",
+  "official_listing_label": "Préavis municipal | Nr. 11 | 2021",
+  "object_title": "Dépenses imprévisibles et exceptionnelles",
+  "listing_status": null,
+  "listing_contains_report": false,
+  "listing_contains_decision": false,
   "filename": "Preavis_11-Depenses-imprevisibles-2020.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_11-Depenses-imprevisibles-2020.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal | Nr. 11 | 2021",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 11/2021"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 2,
+      "title": "Décision du Conseil communal"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": false,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-05-05",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_11-Depenses-imprevisibles-2020.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_11-Depenses-imprevisibles-2020.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "decision",
-    "rapport",
-    "municipal",
-    "depenses",
-    "imprevisibles",
-    "exceptionnelles",
-    "pad",
-    "sadm",
-    "brh",
-    "sfin"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 2594,
+    "characters_extracted": 2592,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "11/2021",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": true,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2020-12-09"
+  "metadata_version": "metadata-audit-v2"
 }

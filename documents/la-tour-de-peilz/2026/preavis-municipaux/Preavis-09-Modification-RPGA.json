@@ -1,54 +1,46 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2026",
   "listing_year": "2026",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal | Nr. 9 | 2026",
-  "summary": "Adoption du projet de modification du Règlement du Plan général d'affectation et de police des constructions du 15 mai 2019, et réponse aux postulats « Infiltration d'eau : une aubaine en ville » de M. Diego Pasquali (LV) et « Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels » de Mme Véronique Ansermet (LV) et consorts",
-  "preavis_number": 9,
+  "preavis_number": "9/2026",
+  "official_listing_label": "Préavis municipal | Nr. 9 | 2026",
+  "object_title": "Adoption du projet de modification du Règlement du Plan général d'affectation et de police des constructions du 15 mai 2019, et réponse aux postulats « Infiltration d'eau : une aubaine en ville » de M. Diego Pasquali (LV) et « Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels » de Mme Véronique Ansermet (LV) et consorts",
+  "listing_status": null,
+  "listing_contains_report": false,
+  "listing_contains_decision": false,
   "filename": "Preavis-09-Modification-RPGA.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-09-Modification-RPGA.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal | Nr. 9 | 2026",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 9/2026"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 99,
+      "title": "Décision du Conseil communal"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": false,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2026-05-06",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-09-Modification-RPGA.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-09-Modification-RPGA.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "municipal",
-    "adoption",
-    "projet",
-    "modification",
-    "reglement",
-    "plan",
-    "general",
-    "affectation",
-    "police",
-    "constructions"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 459443,
+    "characters_extracted": 458978,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "9/2026",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": false,
-    "contains_decision": false,
-    "contains_minority_report": false
-  },
-  "document_date": "2002-03-10"
+  "metadata_version": "metadata-audit-v2"
 }

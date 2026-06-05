@@ -1,54 +1,46 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2025",
   "listing_year": "2025",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal + rapport + décision | Nr. 21 | 2025",
-  "summary": "Réponse au postulat de M. Alessio Grutta (PLR) « Soutenons nos étudiants boélands ! »",
-  "preavis_number": 21,
+  "preavis_number": "21/2025",
+  "official_listing_label": "Préavis municipal + rapport + décision | Nr. 21 | 2025",
+  "object_title": "Réponse au postulat de M. Alessio Grutta (PLR) « Soutenons nos étudiants boélands ! »",
+  "listing_status": "with_report_and_decision",
+  "listing_contains_report": true,
+  "listing_contains_decision": true,
   "filename": "Preavis-21-Reponse-Postulat-Grutta-Etudiants-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-21-Reponse-Postulat-Grutta-Etudiants-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal + rapport + décision | Nr. 21 | 2025",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 21/2025"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 3,
+      "title": "Décision du Conseil communal"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2025-06-25",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Grutta-Etudiants-Rapp-Dec.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Grutta-Etudiants-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "decision",
-    "rapport",
-    "municipal",
-    "reponse",
-    "postulat",
-    "alessio",
-    "grutta",
-    "soutenons",
-    "etudiants",
-    "boelands"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 22416,
+    "characters_extracted": 22386,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "21/2025",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2002-03-10"
+  "metadata_version": "metadata-audit-v2"
 }

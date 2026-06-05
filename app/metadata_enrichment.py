@@ -700,19 +700,30 @@ def enrich_category_specific_fields(enriched: dict[str, Any], category: str, con
         enriched["search_facets"] = merge_unique(enriched.get("search_facets"), ["budget", "finances"])
 
     elif category == "preavis-municipaux":
-        preavis_number = extract_number(r"\bpr[ée]avis(?:\s+municipal)?\s*(?:n[°o]\s*)?([0-9]+/[0-9]{4}|[0-9]+)\b", content) or extract_number(r"\bPreavis[-_ ]?([0-9]+)", filename)
-        enriched.setdefault("municipal_document", {
-            "type": "preavis_municipal",
+        preavis_number = (
+            enriched.get("preavis_number")
+            or extract_number(r"\bpr[ée]avis(?:\s+municipal)?\s*(?:n[°o]\s*)?([0-9]+/[0-9]{4}|[0-9]+)\b", content)
+            or extract_number(r"\bPreavis[-_ ]?([0-9]+)", filename)
+        )
+        document_role = enriched.get("document_role") or "municipal_preavis"
+        enriched.setdefault("preavis_reference", {
             "number": preavis_number,
-            "issuing_body": "Municipalite",
-            "target_body": "Conseil communal",
-            "contains_financial_decision": has_money(content),
+            "object_title": enriched.get("object_title"),
+            "official_listing_label": enriched.get("official_listing_label"),
         })
+        if document_role in {"municipal_preavis", "combined_preavis_report_decision"} or enriched.get("contains_preavis"):
+            enriched.setdefault("municipal_document", {
+                "type": "preavis_municipal",
+                "number": preavis_number,
+                "issuing_body": "Municipalite",
+                "target_body": "Conseil communal",
+                "contains_financial_decision": has_money(content),
+            })
         enriched.setdefault("decision_signals", {
             "contains_vote": "vote" in normalized or "adopte" in normalized or "refuse" in normalized,
-            "contains_commission_report": "rapport" in normalized or filename.lower().endswith("-rapp.pdf"),
-            "contains_decision": "decision" in normalized or filename.lower().endswith("-dec.pdf"),
-            "contains_minority_report": "minorite" in normalized,
+            "contains_commission_report": bool(enriched.get("contains_report")) or "rapport" in normalized or filename.lower().endswith("-rapp.pdf"),
+            "contains_decision": bool(enriched.get("contains_decision")) or "decision" in normalized or filename.lower().endswith("-dec.pdf"),
+            "contains_minority_report": bool(enriched.get("contains_minority_report")) or "minorite" in normalized,
         })
         enriched["search_facets"] = merge_unique(enriched.get("search_facets"), ["preavis", "decision", "rapport"] if "rapport" in normalized else ["preavis"])
 

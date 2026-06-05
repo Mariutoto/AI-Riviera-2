@@ -1,54 +1,42 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2022",
   "listing_year": "2022",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal + décision | Nr. 7 | 2022",
-  "summary": "Gestion et comptes 2021 de la Commune de La Tour-de-Peilz",
-  "preavis_number": 7,
+  "preavis_number": "7/2022",
+  "official_listing_label": "Préavis municipal + décision | Nr. 7 | 2022",
+  "object_title": "Gestion et comptes 2021 de la Commune de La Tour-de-Peilz",
+  "listing_status": "with_decision",
+  "listing_contains_report": false,
+  "listing_contains_decision": true,
   "filename": "COGEST-Rapport-Comptes-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/COGEST-Rapport-Comptes-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "• ouï le rapport de la Commission de Gestion de l'année 2021 ;",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 18,
+      "title": "Préavis municipal N° 7/2022 relatif à la gestion et aux comptes de la Commune pour l'exercice 2021"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": true,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-04-11",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\COGEST-Rapport-Comptes-Rapp-Dec.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\COGEST-Rapport-Comptes-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "developpement_durable",
-    "decision",
-    "rapport",
-    "municipal",
-    "gestion",
-    "comptes",
-    "tour",
-    "peilz",
-    "preambule",
-    "cogest"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 39786,
+    "characters_extracted": 39752,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "7/2022",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2021-12-31"
+  "metadata_version": "metadata-audit-v2"
 }

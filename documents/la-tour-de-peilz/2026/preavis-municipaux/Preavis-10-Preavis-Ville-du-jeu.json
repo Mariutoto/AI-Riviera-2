@@ -1,54 +1,41 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2026",
   "listing_year": "2026",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal | Nr. 10 | 2026",
-  "summary": "Demande d'un crédit de réalisation de Fr. 461'000.-, dont Fr. 191'000.- à la charge de la Commune, pour la mise en place et la réalisation du plan d'action « La Tour-de-Peilz, Ville du Jeu »",
-  "preavis_number": 10,
+  "preavis_number": "10/2026",
+  "official_listing_label": "Préavis municipal | Nr. 10 | 2026",
+  "object_title": "Demande d'un crédit de réalisation de Fr. 461'000.-, dont Fr. 191'000.- à la charge de la Commune, pour la mise en place et la réalisation du plan d'action « La Tour-de-Peilz, Ville du Jeu »",
+  "listing_status": null,
+  "listing_contains_report": false,
+  "listing_contains_decision": false,
   "filename": "Preavis-10-Preavis-Ville-du-jeu.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-10-Preavis-Ville-du-jeu.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "PRÉAVIS MUNICIPAL N° 10/2026",
+  "document_role": "municipal_preavis",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 10/2026"
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": false,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2026-05-06",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-10-Preavis-Ville-du-jeu.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-10-Preavis-Ville-du-jeu.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "municipal",
-    "demande",
-    "credit",
-    "realisation",
-    "dont",
-    "charge",
-    "mise",
-    "place",
-    "plan",
-    "action"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 105602,
+    "characters_extracted": 105668,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "10/2026",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": false,
-    "contains_decision": false,
-    "contains_minority_report": false
-  },
-  "document_date": "2002-03-10"
+  "metadata_version": "metadata-audit-v2"
 }

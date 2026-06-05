@@ -1,54 +1,52 @@
 {
   "commune": "La Tour-de-Peilz",
-  "type": "preavis_municipal",
-  "document_type": "preavis_municipal",
   "year": "2026",
   "listing_year": "2026",
   "category": "preavis-municipaux",
   "legislature": "2021-2026",
-  "title": "Préavis municipal - Retiré par la Municipalité | Nr. 3 | 2026",
-  "summary": "Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
-  "preavis_number": 3,
+  "preavis_number": "3/2026",
+  "official_listing_label": "Préavis municipal - Retiré par la Municipalité | Nr. 3 | 2026",
+  "object_title": "Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
+  "listing_status": "withdrawn_by_municipality",
+  "listing_contains_report": false,
+  "listing_contains_decision": false,
   "filename": "Preavis-03-Campagne-Rossier.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-03-Campagne-Rossier.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "source_kind": "preavis_municipaux_page",
+  "canonical_family_source": "https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php",
+  "title": "Préavis municipal - Retiré par la Municipalité | Nr. 3 | 2026",
+  "document_role": "combined_preavis_report_decision",
+  "document_components": [
+    {
+      "role": "municipal_preavis",
+      "start_page": 1,
+      "title": "PRÉAVIS MUNICIPAL N° 3/2026"
+    },
+    {
+      "role": "council_decision",
+      "start_page": 2,
+      "title": "sollicite, par le biais du présent préavis, une décision du Conseil communal."
+    },
+    {
+      "role": "commission_report",
+      "start_page": 92,
+      "report_type": "minority_report",
+      "title": "2025, p.5; rapport de minorité du1,4 février 2024, p.3)."
+    }
+  ],
+  "contains_preavis": true,
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": true,
+  "document_date": "2026-02-11",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-03-Campagne-Rossier.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-03-Campagne-Rossier.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "municipal_preavis",
-  "search_facets": [
-    "preavis_municipaux",
-    "preavis_municipal",
-    "preavis",
-    "conseil_communal",
-    "decision",
-    "rapport",
-    "municipal",
-    "retire",
-    "secteur",
-    "campagne",
-    "rossier",
-    "projet",
-    "intention",
-    "proprietaires"
-  ],
   "text_extraction_status": {
-    "characters_extracted": 210153,
+    "characters_extracted": 209770,
     "text_available": true,
     "needs_ocr": false
   },
-  "municipal_document": {
-    "type": "preavis_municipal",
-    "number": "3/2026",
-    "issuing_body": "Municipalite",
-    "target_body": "Conseil communal",
-    "contains_financial_decision": true
-  },
-  "decision_signals": {
-    "contains_vote": false,
-    "contains_commission_report": true,
-    "contains_decision": true,
-    "contains_minority_report": false
-  },
-  "document_date": "2002-03-10"
+  "metadata_version": "metadata-audit-v2"
 }

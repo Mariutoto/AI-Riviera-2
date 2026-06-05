@@ -12,7 +12,7 @@ import requests
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from app.text_cleaning import clean_french_text
+from app.text_cleaning import clean_french_text, strip_accents
 
 
 BASE_URL = "https://www.la-tour-de-peilz.ch/"
@@ -21,6 +21,24 @@ YEARS = {str(year) for year in range(2021, 2027)}
 OUTPUT_ROOT = PROJECT_ROOT / "documents" / "la-tour-de-peilz"
 DATA_ROOT = PROJECT_ROOT / "data" / "preavis-municipaux" / "la-tour-de-peilz"
 HEADERS = {"User-Agent": "AI-Riviera preavis municipaux importer"}
+
+MONTHS_FR = {
+    "janvier": "01",
+    "fevrier": "02",
+    "février": "02",
+    "mars": "03",
+    "avril": "04",
+    "mai": "05",
+    "juin": "06",
+    "juillet": "07",
+    "aout": "08",
+    "août": "08",
+    "septembre": "09",
+    "octobre": "10",
+    "novembre": "11",
+    "decembre": "12",
+    "décembre": "12",
+}
 
 
 def fetch_text(url: str) -> str:
@@ -64,9 +82,146 @@ def clean_html_text(raw_html: str) -> str:
     return clean_french_text(re.sub(r"\s+", " ", text)).strip()
 
 
-def preavis_number(title: str, filename: str) -> int | None:
-    match = re.search(r"(?:Préavis|Preavis)[^\d]*(\d{1,2})", f"{title} {filename}", flags=re.I)
-    return int(match.group(1)) if match else None
+def clean_pdf_text(text: str) -> str:
+    text = re.sub(r"[\uf000-\uf8ff]", " ", text)
+    return clean_french_text(text)
+
+
+def normalize(text: str) -> str:
+    return strip_accents(text).casefold()
+
+
+def parse_preavis_number(label: str, filename: str, object_title: str = "") -> str | None:
+    haystack = f"{label} {filename} {object_title}"
+    match = re.search(r"\bNr\.\s*(\d{1,2})\s*\|\s*(20\d{2})\b", haystack, flags=re.I)
+    if match:
+        return f"{int(match.group(1))}/{match.group(2)}"
+    match = re.search(r"\bpr[ée]avis(?:\s+municipal)?\s*(?:n[°o]\s*)?(\d{1,2})/(20\d{2})\b", haystack, flags=re.I)
+    if match:
+        return f"{int(match.group(1))}/{match.group(2)}"
+    match = re.search(r"\bPreavis[-_ ]?(\d{1,2})(?:[-_/]|$)", filename, flags=re.I)
+    if match:
+        year_match = re.search(r"(20\d{2})", haystack)
+        if year_match:
+            return f"{int(match.group(1))}/{year_match.group(1)}"
+    return None
+
+
+def parse_listing_status(label: str) -> str | None:
+    normalized = normalize(label)
+    if "retire" in normalized:
+        return "withdrawn_by_municipality"
+    if "rapport" in normalized and "decision" in normalized:
+        return "with_report_and_decision"
+    if "rapport" in normalized:
+        return "with_report"
+    if "decision" in normalized:
+        return "with_decision"
+    return None
+
+
+def parse_french_date(text: str) -> str | None:
+    match = re.search(
+        r"\b(?:le\s+)?(\d{1,2}|1er)\s+"
+        r"(janvier|f[eé]vrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[eé]cembre)"
+        r"\s+(20\d{2})\b",
+        text,
+        flags=re.I,
+    )
+    if not match:
+        return None
+    day_raw, month_raw, year = match.groups()
+    day = 1 if day_raw == "1er" else int(day_raw)
+    month = MONTHS_FR.get(month_raw.lower())
+    if not month:
+        return None
+    return f"{year}-{month}-{day:02d}"
+
+
+def first_matching_line(text: str, pattern: str) -> str | None:
+    for line in text.splitlines():
+        line = re.sub(r"\s+", " ", line).strip()
+        if re.search(pattern, line, flags=re.I):
+            return line
+    return None
+
+
+def infer_document_components(text: str) -> list[dict]:
+    components = []
+    seen = set()
+    for page_number, page_text in enumerate(text.split("\f"), start=1):
+        page_norm = normalize(page_text)
+        candidates = [
+            ("municipal_preavis", None, r"\bpr[ée]avis municipal\s+n[°o]\s*\d{1,2}/20\d{2}\b"),
+            ("commission_report", "majority_report", r"\brapport de majorit[ée]\b"),
+            ("commission_report", "minority_report", r"\brapport de minorit[ée]\b"),
+            ("council_decision", None, r"\bd[ée]cision du conseil communal\b|\ble conseil communal\b[\s\S]{0,400}\bd[ée]cide\b"),
+        ]
+        for role, report_type, pattern in candidates:
+            key = (role, report_type)
+            if key in seen or not re.search(pattern, page_norm, flags=re.I):
+                continue
+            title = title_for_component(page_text, role, report_type)
+            component = {"role": role, "start_page": page_number}
+            if report_type:
+                component["report_type"] = report_type
+            if title:
+                component["title"] = title
+            components.append(component)
+            seen.add(key)
+    return components
+
+
+def title_for_component(text: str, role: str, report_type: str | None = None) -> str | None:
+    if role == "commission_report" and report_type == "majority_report":
+        return first_matching_line(text, r"\brapport de majorit[ée]\b")
+    if role == "commission_report" and report_type == "minority_report":
+        return first_matching_line(text, r"\brapport de minorit[ée]\b")
+    if role == "commission_report":
+        return first_matching_line(text, r"\brapport de la commission\b")
+    if role == "municipal_preavis":
+        return first_matching_line(text, r"\bpr[ée]avis municipal\s+n[°o]\s*\d{1,2}/20\d{2}\b")
+    if role == "council_decision":
+        return first_matching_line(text, r"\bd[ée]cision du conseil communal\b") or "Décision du Conseil communal"
+    return None
+
+
+def infer_document_role(label: str, filename: str, text: str, components: list[dict]) -> tuple[str, str | None]:
+    normalized_label = normalize(label)
+    normalized_filename = normalize(filename)
+    normalized_text = normalize(text[:4000])
+
+    if "rapport de majorite" in normalized_text or "rapp-maj" in normalized_filename:
+        return "commission_report", "majority_report"
+    if "rapport de minorite" in normalized_text or "rapp-min" in normalized_filename:
+        return "commission_report", "minority_report"
+    if "rapport" in normalized_filename and "preavis municipal" not in normalized_text[:500]:
+        return "commission_report", "standard_report"
+    if "decision" in normalized_filename and "preavis municipal" not in normalized_text[:500]:
+        return "council_decision", None
+
+    roles = {component.get("role") for component in components}
+    if len(roles) > 1 or "rapport" in normalized_label or "decision" in normalized_label or "rapp-dec" in normalized_filename:
+        return "combined_preavis_report_decision", None
+    return "municipal_preavis", None
+
+
+def infer_title(item: dict, text: str, role: str, report_type: str | None, components: list[dict]) -> str:
+    if role == "commission_report":
+        component_title = title_for_component(text, role, report_type)
+        if component_title:
+            return component_title
+    if role == "municipal_preavis":
+        component_title = title_for_component(text, role)
+        if component_title:
+            return component_title
+    if role == "council_decision":
+        component_title = title_for_component(text, role)
+        if component_title:
+            return component_title
+    if role == "combined_preavis_report_decision":
+        return item["official_listing_label"]
+    return item["filename"]
 
 
 def collect_items() -> list[dict]:
@@ -104,32 +259,37 @@ def collect_items() -> list[dict]:
             title_match = re.search(r"<span[^>]*font-weight:\s*bold;[^>]*>([\s\S]*?)</span>", li, flags=re.I)
             summary_match = re.search(r'<div[^>]*class="txt-14"[^>]*>([\s\S]*?)</div>', li, flags=re.I)
 
-            title = clean_html_text(title_match.group(1)) if title_match else Path(unquote(urlparse(pdf_url).path)).stem
-            summary = clean_html_text(summary_match.group(1)) if summary_match else ""
+            label = clean_html_text(title_match.group(1)) if title_match else Path(unquote(urlparse(pdf_url).path)).stem
+            object_title = clean_html_text(summary_match.group(1)) if summary_match else ""
             filename = safe_filename(pdf_url)
+            preavis_number = parse_preavis_number(label, filename, object_title)
 
             items_by_url[pdf_url] = {
                 "commune": "La Tour-de-Peilz",
-                "type": "preavis_municipal",
-                "document_type": "preavis_municipal",
                 "year": pdf_year,
                 "listing_year": listing_year,
                 "category": "preavis-municipaux",
                 "legislature": "2021-2026",
-                "title": title,
-                "summary": summary,
-                "preavis_number": preavis_number(title, filename),
+                "preavis_number": preavis_number,
+                "official_listing_label": label,
+                "object_title": object_title,
+                "listing_status": parse_listing_status(label),
+                "listing_contains_report": "rapport" in normalize(label),
+                "listing_contains_decision": "decision" in normalize(label),
                 "filename": filename,
                 "pdf_url": pdf_url,
                 "source_page": SOURCE_PAGE,
+                "source_kind": "preavis_municipaux_page",
+                "canonical_family_source": SOURCE_PAGE,
             }
 
-    return list(sorted(items_by_url.values(), key=lambda item: (item["listing_year"], item.get("preavis_number") or 999, item["filename"])))
+    return list(sorted(items_by_url.values(), key=lambda item: (item["listing_year"], item.get("preavis_number") or "99/9999", item["filename"])))
 
 
-def extract_pdf_text(pdf_path: Path) -> str:
+def extract_pdf_text(pdf_path: Path) -> tuple[str, str]:
     document = fitz.open(pdf_path)
-    return clean_french_text("\n".join(page.get_text() for page in document))
+    page_texts = [clean_pdf_text(page.get_text()) for page in document]
+    return "\n".join(page_texts), "\f".join(page_texts)
 
 
 def download_and_extract(item: dict) -> dict:
@@ -147,15 +307,40 @@ def download_and_extract(item: dict) -> dict:
         response.raise_for_status()
         pdf_path.write_bytes(response.content)
 
-    text = extract_pdf_text(pdf_path)
+    text, paged_text = extract_pdf_text(pdf_path)
+    components = infer_document_components(paged_text)
+    role, report_type = infer_document_role(item["official_listing_label"], filename, text, components)
+    title = infer_title(item, text, role, report_type, components)
+    document_date = parse_french_date(text[:2500])
+
     txt_path.write_text(text + "\n", encoding="utf-8")
 
     metadata = {
         **item,
+        "title": title,
+        "document_role": role,
+        "report_type": report_type,
+        "document_components": components,
+        "contains_preavis": any(component.get("role") == "municipal_preavis" for component in components) or role == "municipal_preavis",
+        "contains_report": item["listing_contains_report"] or any(component.get("role") == "commission_report" for component in components) or role == "commission_report",
+        "contains_decision": any(component.get("role") == "council_decision" for component in components) or role == "council_decision",
+        "contains_majority_report": any(component.get("report_type") == "majority_report" for component in components) or report_type == "majority_report",
+        "contains_minority_report": any(component.get("report_type") == "minority_report" for component in components) or report_type == "minority_report",
+        "document_date": document_date,
         "pdf_path": str(pdf_path),
         "text_path": str(txt_path),
-        "characters_extracted": len(text),
+        "text_extraction_status": {
+            "characters_extracted": len(text),
+            "text_available": bool(text.strip()),
+            "needs_ocr": False,
+        },
+        "metadata_version": "metadata-audit-v2",
     }
+    if report_type is None:
+        metadata.pop("report_type")
+    if document_date is None:
+        metadata.pop("document_date")
+
     json_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return metadata
 
@@ -166,7 +351,7 @@ def main() -> None:
 
     DATA_ROOT.mkdir(parents=True, exist_ok=True)
     items = collect_items()
-    print(f"Found {len(items)} preavis municipaux for years 2021-2026.")
+    print(f"Found {len(items)} canonical preavis documents for years 2021-2026.")
 
     results = []
     failures = []
@@ -182,7 +367,8 @@ def main() -> None:
         "commune": "La Tour-de-Peilz",
         "legislature": "2021-2026",
         "source_page": SOURCE_PAGE,
-        "scope_note": "Préavis municipaux des rubriques 2021 à 2026 de la page officielle preavis-municipaux.php.",
+        "source_kind": "preavis_municipaux_page",
+        "scope_note": "Canonical scrape of the official preavis-municipaux.php page for legislature 2021-2026. Agenda pages are not used as title sources.",
         "years": sorted(YEARS),
         "documents_downloaded": len(results),
         "failures": failures,
