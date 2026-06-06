@@ -47,5 +47,363 @@
     "contains_votes": true,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle des Remparts",
+    "start_time": "20:15",
+    "president": "Ludovic Tirelli",
+    "signature_president": "Ludovic Tirelli",
+    "secretary": "Carole Dind"
+  },
+  "president": "Ludovic Tirelli",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 73,
+    "elected_count": 85,
+    "excused": [
+      "Sophie Blank Barbezat",
+      "Philippe Burkhalter",
+      "Pierre Cavin",
+      "José Espinosa",
+      "Léa Glardon",
+      "François Grognuz",
+      "Lyonel Kaufmann",
+      "Noa Morand",
+      "Julien Neveu",
+      "Salvatore Noto",
+      "Fran- çois Vodoz"
+    ],
+    "absent": [
+      "Antoine Favrod"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 3 de la séance du 3 novembre 2021"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentations de nouveaux membres du Conseil en remplacement de Mmes Rachel Descloux (PSDG) et Elisabeth Leimgruber (LV)"
+    },
+    {
+      "number": "5",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "6",
+      "title": "Dépôt et développement des motions, postulats et interpellations :"
+    },
+    {
+      "number": "6.1",
+      "title": "Postulat de La Tour-de-Peilz Libre - Vote électronique au conseil communal"
+    },
+    {
+      "number": "6.2",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Affichage politique et responsable, remettons le sujet sur la table"
+    },
+    {
+      "number": "6.3",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay - La Tour-de-Peilz (-Vevey)"
+    },
+    {
+      "number": "6.4",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) - Des casiers pour éviter des vols"
+    },
+    {
+      "number": "6.5",
+      "title": "Motion de M. Marc Wüthrich (LTDPL) - Adaptation du Règlement du conseil communal"
+    },
+    {
+      "number": "6.6",
+      "title": "Postulat de M. Julien Neveu (LV) - Une déchèterie, pas un grand écopoint"
+    },
+    {
+      "number": "7",
+      "title": "Réponses aux interpellations"
+    },
+    {
+      "number": "7.1",
+      "title": "Réponse municipale N° 12bis/2021 - Interpellation du groupe PLR - Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?"
+    },
+    {
+      "number": "7.2",
+      "title": "Réponse municipale N° 14/2021 - Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) - Mobbing - impunité ou réactivité ?"
+    },
+    {
+      "number": "8",
+      "title": "Préavis"
+    },
+    {
+      "number": "9",
+      "title": "Rapports"
+    },
+    {
+      "number": "9.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2021 - Budget 2022 de la CIEHL"
+    },
+    {
+      "number": "9.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2021 - Budget 2022 du Fonds culturel Riviera"
+    },
+    {
+      "number": "9.3",
+      "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 22/2021 Budget 2022 de la Commune de La Tour-de-Peilz"
+    },
+    {
+      "number": "9.4",
+      "title": "Rapport de la commission chargée d'étudier le complément au préavis municipal N° 1/2021 Cheminement piétonnier des rives du Lac « secteur Ouest » - Approbation des plans et adoption des propositions de réponses aux oppositions"
+    },
+    {
+      "number": "9.5",
+      "title": "Rapport modifié de la Commission des finances chargée d'étudier le préavis municipal N° 18/2021 - Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 5'000'000.- par cas"
+    },
+    {
+      "number": "9.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 23/2021 - Modifications du Règlement sur la taxe communale spécifique pour l'encouragement aux énergies renouvelables du 1er décembre 2009 et réponses à la motion de M. Jean-Yves Schmidhauser (PS) « Vélo électrique : Pour que le courant passe enfin » ainsi qu'au postulat de M. Vincent Bonvin (LV) « Un pas de géant pour l'énergie solaire à La Tour-de-Peilz »"
+    },
+    {
+      "number": "10",
+      "title": "Communications municipales :"
+    },
+    {
+      "number": "10.1",
+      "title": "Communication municipale N° 23/2021 - Travaux de démolition des bâtiments ECA N° 1177, B162, B163 ainsi que de protection et consolidation de la grange et la démolition partielle du bâtiment ECA N° 1178 sur le domaine de Villard - Décompte final"
+    },
+    {
+      "number": "10.2",
+      "title": "Communication municipale N° 24/2021 - Rénovation du Château - Marchés publics"
+    },
+    {
+      "number": "10.3",
+      "title": "Communication municipale N° 25/2021 - Rénovation du Château - Question de Monsieur le député Jérôme Christen"
+    },
+    {
+      "number": "10.4",
+      "title": "Communication municipale N° 26/2021 - Distribution des envois du Conseil communal par la société Vélocité"
+    },
+    {
+      "number": "10.5",
+      "title": "Communication municipale N° 27/2021 - Projet de construction d'un immeuble d'habitation à l'avenue de la Cressire 12 - Traitement d'une pétition"
+    },
+    {
+      "number": "10.6",
+      "title": "Communication municipale N° 28/2021 - Information concernant le postulat de Mme Nicole Rivet (PS) « Pour la réalisation commune à Villeneuve, Veytaux, Montreux, La Tour-de-Peilz et Vevey d'une voie cycliste sûre continue et fluide le long du lac »"
+    },
+    {
+      "number": "10.7",
+      "title": "Communication municipale N° 29/2021 - Question de M. Marc Wüthrich (LTDPL) - Horaires d'ouverture de la cave communale"
+    },
+    {
+      "number": "10.8",
+      "title": "Communication municipale N° 30/2021 - Question de Mme Geneviève Pasche (LV) - Réponse à son postulat « Un plan climat pour répondre à l'urgence climatique »"
+    },
+    {
+      "number": "10.9",
+      "title": "Communication municipale N° 31/2021 - Commission consultative d'urbanisme - Refonte et nouveaux membres"
+    },
+    {
+      "number": "10.10",
+      "title": "Communication municipale N° 32/2021 - Réaménagement et sécurisation du chemin du Cèdre"
+    },
+    {
+      "number": "11",
+      "title": "Propositions individuelles et divers"
+    }
+  ],
+  "previous_minutes": [
+    {
+      "pv_number": 3,
+      "session_date_label": "3 novembre 2021",
+      "decision": "adopted",
+      "vote_result": "unanimous"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "1",
+      "object": "Adoption de l'ordre du jour",
+      "decision_text": "Au vote, il est adopté à l'unanimité tel que modifié.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 3 de la séance du 3 novembre 2021",
+      "decision_text": "Au vote, le procès-verbal N° 3 de la séance du 3 novembre 2021 est adopté à l'unanimité tel que corrigé, avec remerciements à la secrétaire.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "6.6",
+      "object": "Postulat de M. Julien Neveu (LV) - Une déchèterie, pas un grand écopoint",
+      "decision_text": "Au vote, il est adopté à l'unanimité tel que modifié.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "8",
+      "object": "Préavis",
+      "decision_text": "Au vote, l'amendement de la commission est accepté à une très large majorité (4 abstentions).",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "6.1",
+      "type": "postulat",
+      "title": "Postulat de La Tour-de-Peilz Libre - Vote électronique au conseil communal"
+    },
+    {
+      "agenda_item": "6.2",
+      "type": "postulat",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Affichage politique et responsable, remettons le sujet sur la table",
+      "author": "Marc Wüthrich",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "6.3",
+      "type": "postulat",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay - La Tour-de-Peilz (-Vevey)",
+      "author": "Marc Wüthrich",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "6.4",
+      "type": "postulat",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) - Des casiers pour éviter des vols",
+      "author": "Viviane Huber",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "6.5",
+      "type": "motion",
+      "title": "Motion de M. Marc Wüthrich (LTDPL) - Adaptation du Règlement du conseil communal",
+      "author": "Marc Wüthrich",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "6.6",
+      "type": "postulat",
+      "title": "Postulat de M. Julien Neveu (LV) - Une déchèterie, pas un grand écopoint",
+      "author": "Julien Neveu",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "7.1",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 12bis/2021 - Interpellation du groupe PLR - Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?"
+    },
+    {
+      "agenda_item": "7.2",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 14/2021 - Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) - Mobbing - impunité ou réactivité ?"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2021 - Budget 2022 de la CIEHL",
+      "number": "20/2021"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2021 - Budget 2022 du Fonds culturel Riviera",
+      "number": "21/2021"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "preavis",
+      "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 22/2021 Budget 2022 de la Commune de La Tour-de-Peilz",
+      "number": "22/2021"
+    },
+    {
+      "agenda_item": "9.4",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le complément au préavis municipal N° 1/2021 Cheminement piétonnier des rives du Lac « secteur Ouest » - Approbation des plans et adoption des propositions de réponses aux oppositions",
+      "number": "1/2021"
+    },
+    {
+      "agenda_item": "9.5",
+      "type": "preavis",
+      "title": "Rapport modifié de la Commission des finances chargée d'étudier le préavis municipal N° 18/2021 - Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 5'000'000.- par cas",
+      "number": "18/2021"
+    },
+    {
+      "agenda_item": "9.6",
+      "type": "motion",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 23/2021 - Modifications du Règlement sur la taxe communale spécifique pour l'encouragement aux énergies renouvelables du 1er décembre 2009 et réponses à la motion de M. Jean-Yves Schmidhauser (PS) « Vélo électrique : Pour que le courant passe enfin » ainsi qu'au postulat de M. Vincent Bonvin (LV) « Un pas de géant pour l'énergie solaire à La Tour-de-Peilz »"
+    },
+    {
+      "agenda_item": "10.1",
+      "type": "communication",
+      "title": "Communication municipale N° 23/2021 - Travaux de démolition des bâtiments ECA N° 1177, B162, B163 ainsi que de protection et consolidation de la grange et la démolition partielle du bâtiment ECA N° 1178 sur le domaine de Villard - Décompte final",
+      "number": "23/2021"
+    },
+    {
+      "agenda_item": "10.2",
+      "type": "communication",
+      "title": "Communication municipale N° 24/2021 - Rénovation du Château - Marchés publics",
+      "number": "24/2021"
+    },
+    {
+      "agenda_item": "10.3",
+      "type": "communication",
+      "title": "Communication municipale N° 25/2021 - Rénovation du Château - Question de Monsieur le député Jérôme Christen",
+      "number": "25/2021"
+    },
+    {
+      "agenda_item": "10.4",
+      "type": "communication",
+      "title": "Communication municipale N° 26/2021 - Distribution des envois du Conseil communal par la société Vélocité",
+      "number": "26/2021"
+    },
+    {
+      "agenda_item": "10.5",
+      "type": "communication",
+      "title": "Communication municipale N° 27/2021 - Projet de construction d'un immeuble d'habitation à l'avenue de la Cressire 12 - Traitement d'une pétition",
+      "number": "27/2021"
+    },
+    {
+      "agenda_item": "10.6",
+      "type": "postulat",
+      "title": "Communication municipale N° 28/2021 - Information concernant le postulat de Mme Nicole Rivet (PS) « Pour la réalisation commune à Villeneuve, Veytaux, Montreux, La Tour-de-Peilz et Vevey d'une voie cycliste sûre continue et fluide le long du lac »"
+    },
+    {
+      "agenda_item": "10.7",
+      "type": "communication",
+      "title": "Communication municipale N° 29/2021 - Question de M. Marc Wüthrich (LTDPL) - Horaires d'ouverture de la cave communale",
+      "number": "29/2021",
+      "author": "Marc Wüthrich",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "10.8",
+      "type": "postulat",
+      "title": "Communication municipale N° 30/2021 - Question de Mme Geneviève Pasche (LV) - Réponse à son postulat « Un plan climat pour répondre à l'urgence climatique »",
+      "author": "Geneviève Pasche",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "10.9",
+      "type": "communication",
+      "title": "Communication municipale N° 31/2021 - Commission consultative d'urbanisme - Refonte et nouveaux membres",
+      "number": "31/2021"
+    },
+    {
+      "agenda_item": "10.10",
+      "type": "communication",
+      "title": "Communication municipale N° 32/2021 - Réaménagement et sécurisation du chemin du Cèdre",
+      "number": "32/2021"
+    }
+  ]
 }

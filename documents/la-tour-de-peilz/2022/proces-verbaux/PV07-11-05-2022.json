@@ -47,5 +47,314 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle du Conseil communal, Maison Hugonin",
+    "start_time": "20:15",
+    "president": "Ludovic Tirelli",
+    "signature_president": "Ludovic Tirelli",
+    "secretary": "Carole Dind"
+  },
+  "president": "Ludovic Tirelli",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 60,
+    "elected_count": 85,
+    "excused": [
+      "Florian Abbet",
+      "Etienne Balestra",
+      "Sophie Blank Barbezat",
+      "Julie Cavin",
+      "Pierre Cavin",
+      "Mireille Cornaz",
+      "François Costa",
+      "Julien Costanzo",
+      "Maya Daeppen",
+      "José Espinosa",
+      "Brigitte Fahrni Chiusano",
+      "Léa Glardon",
+      "Sébastian Grob",
+      "François Grognuz",
+      "Nina Hauri",
+      "Natasa Ilic",
+      "Guillaume Jung",
+      "Maria Luceron",
+      "Piero Negro",
+      "Philippe Neyroud",
+      "Niklas Tiemann",
+      "Dominique Vaucoret",
+      "François Vodoz",
+      "Marc Wüthrich"
+    ],
+    "absent": [
+      "Maria Patrizia Sparti"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 6 de la séance du 23 mars 2022"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentation d'un nouveau membre du Conseil en remplacement de M. Philippe Burkhalter (PSDG)"
+    },
+    {
+      "number": "5",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "6",
+      "title": "Dépôt et développement des motions, postulats et interpellations"
+    },
+    {
+      "number": "6.1",
+      "title": "Interpellation de M. Alessio Grutta (PLR) - La Tour-de-Peilz sur le chemin de la fusion ou engagée pour les Boélandes et les Boélands"
+    },
+    {
+      "number": "6.2",
+      "title": "Interpellation de MM. François Grognuz et Yvan Kraehenbuehl (PLR) - Nouveau collège Courbet - Mettre en avant et honorer les personnes qui font et ont fait rayonner notre commune dans le monde"
+    },
+    {
+      "number": "6.3",
+      "title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts - Un engagement pour la Faraz"
+    },
+    {
+      "number": "6.4",
+      "title": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château, un programme pour toutes et tous"
+    },
+    {
+      "number": "7",
+      "title": "Réponses aux interpellations"
+    },
+    {
+      "number": "7.1",
+      "title": "Réponse municipale N° 3/2022 – Interpellation de Mme Geneviève Pasche (LV) - Réseau LAC, anciennement REVE"
+    },
+    {
+      "number": "8",
+      "title": "Préavis"
+    },
+    {
+      "number": "8.1",
+      "title": "Préavis municipal N° 4/2022 – Gestion et comptes 2021 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)"
+    },
+    {
+      "number": "8.2",
+      "title": "Préavis municipal N° 5/2022 – Gestion et comptes 2021 du Fonds culturel Riviera (FCR)"
+    },
+    {
+      "number": "8.3",
+      "title": "Préavis municipal N° 6/2022 – Dépenses imprévisibles et exceptionnelles de l'exercice 2021"
+    },
+    {
+      "number": "8.4",
+      "title": "Préavis municipal N° 7/2022 – Gestion et comptes 2021 de la Commune de La Tour-de-Peilz"
+    },
+    {
+      "number": "8.5",
+      "title": "Préavis municipal N° 8/2022 – Demande de crédit d'étude et de réalisation d'un montant de Fr. 1'980'000.- pour le remplacement des chaudières de la centrale de chauffe des Mousquetaires"
+    },
+    {
+      "number": "8.6",
+      "title": "Préavis municipal N° 9/2022 – Demande d'un crédit de Fr. 250'000.- pour le remplacement du transporteur multifonctions du secteur voirie"
+    },
+    {
+      "number": "8.7",
+      "title": "Préavis municipal N° 10/2022 – Demande d'un crédit de Fr. 904'000.- pour le réaménagement et la sécurisation du chemin du Gregnolet"
+    },
+    {
+      "number": "8.8",
+      "title": "Préavis municipal N° 11/2022 – Plan d'affectation « Le Petit Sully »"
+    },
+    {
+      "number": "9",
+      "title": "Rapports"
+    },
+    {
+      "number": "9.1",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Diego Pasquali (LV) - Infiltration d'eau : une aubaine en ville"
+    },
+    {
+      "number": "9.2",
+      "title": "Rapports de majorité et de minorité de la commission chargée d'étudier la prise en considération du postulat de Mme Marion Savoy (LV) - Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier"
+    },
+    {
+      "number": "9.3",
+      "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 2/2022 Fixation des plafonds d'endettement et de cautionnements pour la législature 2021-2026"
+    },
+    {
+      "number": "9.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2022 - Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée"
+    },
+    {
+      "number": "10",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "10",
+      "title": "1 Communication municipale N° 17/2022 - Travaux d'aménagement des berges de l'Oyonnaz Secteur Bd d'Arcangier - Malègue - Décompte final"
+    },
+    {
+      "number": "11",
+      "title": "Propositions individuelles et divers"
+    }
+  ],
+  "previous_minutes": [
+    {
+      "pv_number": 6,
+      "session_date_label": "23 mars 2022",
+      "decision": "adopted",
+      "vote_result": "unanimous"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "1",
+      "object": "Adoption de l'ordre du jour",
+      "decision_text": "Au vote, il est adopté à l'unanimité tel que complété.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 6 de la séance du 23 mars 2022",
+      "decision_text": "Au vote, le procès-verbal N° 6 de la séance du 23 mars 2022 est adopté à une très large majorité (cinq abstentions), avec remerciements à la secrétaire.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "8",
+      "object": "Préavis",
+      "decision_text": "Au vote, le report de la votation à la prochaine séance n'obtient pas le cinquième des voix nécessaires."
+    },
+    {
+      "agenda_item": "9",
+      "object": "Rapports",
+      "decision_text": "Au vote, et après une légère hésitation sur la nécessité ou non de voter sur le rapport de minorité, les conclusions du rapport de majorité de la com- mission sont adoptées par 32 oui, 24 non, 1 abstention.",
+      "vote_result": "majority",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "6.1",
+      "type": "interpellation",
+      "title": "Interpellation de M. Alessio Grutta (PLR) - La Tour-de-Peilz sur le chemin de la fusion ou engagée pour les Boélandes et les Boélands",
+      "author": "Alessio Grutta",
+      "party": "PLR"
+    },
+    {
+      "agenda_item": "6.2",
+      "type": "interpellation",
+      "title": "Interpellation de MM. François Grognuz et Yvan Kraehenbuehl (PLR) - Nouveau collège Courbet - Mettre en avant et honorer les personnes qui font et ont fait rayonner notre commune dans le monde"
+    },
+    {
+      "agenda_item": "6.3",
+      "type": "motion",
+      "title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts - Un engagement pour la Faraz",
+      "author": "Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts"
+    },
+    {
+      "agenda_item": "6.4",
+      "type": "motion",
+      "title": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château, un programme pour toutes et tous",
+      "author": "Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts"
+    },
+    {
+      "agenda_item": "7.1",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 3/2022 – Interpellation de Mme Geneviève Pasche (LV) - Réseau LAC, anciennement REVE",
+      "author": "Geneviève Pasche",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "8.1",
+      "type": "preavis",
+      "title": "Préavis municipal N° 4/2022 – Gestion et comptes 2021 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "number": "4/2022"
+    },
+    {
+      "agenda_item": "8.2",
+      "type": "preavis",
+      "title": "Préavis municipal N° 5/2022 – Gestion et comptes 2021 du Fonds culturel Riviera (FCR)",
+      "number": "5/2022"
+    },
+    {
+      "agenda_item": "8.3",
+      "type": "preavis",
+      "title": "Préavis municipal N° 6/2022 – Dépenses imprévisibles et exceptionnelles de l'exercice 2021",
+      "number": "6/2022"
+    },
+    {
+      "agenda_item": "8.4",
+      "type": "preavis",
+      "title": "Préavis municipal N° 7/2022 – Gestion et comptes 2021 de la Commune de La Tour-de-Peilz",
+      "number": "7/2022"
+    },
+    {
+      "agenda_item": "8.5",
+      "type": "preavis",
+      "title": "Préavis municipal N° 8/2022 – Demande de crédit d'étude et de réalisation d'un montant de Fr. 1'980'000.- pour le remplacement des chaudières de la centrale de chauffe des Mousquetaires",
+      "number": "8/2022"
+    },
+    {
+      "agenda_item": "8.6",
+      "type": "preavis",
+      "title": "Préavis municipal N° 9/2022 – Demande d'un crédit de Fr. 250'000.- pour le remplacement du transporteur multifonctions du secteur voirie",
+      "number": "9/2022"
+    },
+    {
+      "agenda_item": "8.7",
+      "type": "preavis",
+      "title": "Préavis municipal N° 10/2022 – Demande d'un crédit de Fr. 904'000.- pour le réaménagement et la sécurisation du chemin du Gregnolet",
+      "number": "10/2022"
+    },
+    {
+      "agenda_item": "8.8",
+      "type": "preavis",
+      "title": "Préavis municipal N° 11/2022 – Plan d'affectation « Le Petit Sully »",
+      "number": "11/2022"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "postulat",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Diego Pasquali (LV) - Infiltration d'eau : une aubaine en ville",
+      "author": "Diego Pasquali",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "postulat",
+      "title": "Rapports de majorité et de minorité de la commission chargée d'étudier la prise en considération du postulat de Mme Marion Savoy (LV) - Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "author": "Marion Savoy",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "preavis",
+      "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 2/2022 Fixation des plafonds d'endettement et de cautionnements pour la législature 2021-2026",
+      "number": "2/2022"
+    },
+    {
+      "agenda_item": "9.4",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2022 - Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée",
+      "number": "3/2022"
+    },
+    {
+      "agenda_item": "10",
+      "type": "communication",
+      "title": "1 Communication municipale N° 17/2022 - Travaux d'aménagement des berges de l'Oyonnaz Secteur Bd d'Arcangier - Malègue - Décompte final",
+      "number": "17/2022"
+    }
+  ]
 }

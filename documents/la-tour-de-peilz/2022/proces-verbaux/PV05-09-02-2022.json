@@ -47,5 +47,170 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle des Remparts",
+    "start_time": "20:15",
+    "president": "Ludovic Tirelli",
+    "signature_president": "Ludovic Tirelli",
+    "secretary": "Carole Dind"
+  },
+  "president": "Ludovic Tirelli",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 69,
+    "elected_count": 85,
+    "excused": [
+      "Kamiar Aminian",
+      "Philippe Burkhalter",
+      "Paul Castelain",
+      "Thomas Castelain",
+      "Romain Cornut",
+      "François Costa",
+      "Maya Daeppen",
+      "Antoine Favrod",
+      "Sébastian Grob",
+      "Hugo Huart",
+      "Viviane Huber",
+      "Guillaume Jung",
+      "Philippe Neyroud",
+      "Isabel Prata",
+      "Niklas Tiemann",
+      "Dominique Vaucoret"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 4 de la séance du 8 décembre 2021"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentation de nouveaux membres du Conseil en remplacement de Mmes Noa Morand (PLR) et Fanny Limat (LCIVL)"
+    },
+    {
+      "number": "5",
+      "title": "Election d'un nouveau membre au sein des commissions des finances et de recours en matière d'impôts en remplacement de Mme Fanny Limat (LCIVL)"
+    },
+    {
+      "number": "6",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "7",
+      "title": "Dépôt et développement des motions, postulats et interpellations"
+    },
+    {
+      "number": "7.1",
+      "title": "Postulat de M. Julien Neveu (LV) - Une déchèterie, pas un grand écopoint"
+    },
+    {
+      "number": "7.2",
+      "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Un label pour donner confiance à la population"
+    },
+    {
+      "number": "7.3",
+      "title": "Interpellation de M. Marc Wüthrich (LTDPL) - Antennes 5G sur le territoire communal"
+    },
+    {
+      "number": "8",
+      "title": "Préavis"
+    },
+    {
+      "number": "8.1",
+      "title": "Préavis municipal N° 1/2022 - Réponse à la motion de M. Daniel Krähenbühl - Année de la Famille - Centre familial de plein air (prise en considération le 29 juin 1994)"
+    },
+    {
+      "number": "9",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "9.1",
+      "title": "Communication municipale N° 1/2022 - Etat des motions et postulats en suspens au 31 décembre 2021"
+    },
+    {
+      "number": "9.2",
+      "title": "Communication municipale N° 2/2022 - Réponse à la question de Mme Marianne Adank (PLR) Commission sur le cheminement piétonnier en rives du lac"
+    },
+    {
+      "number": "9.3",
+      "title": "Communication municipale N° 3/2022 - Réponse à la question de Mme Marianne Adank (PLR) - Bon d'achats : informations reçues lors de l'utilisation des bons, quid de la protection des données ?"
+    },
+    {
+      "number": "10",
+      "title": "Propositions individuelles et divers"
+    }
+  ],
+  "previous_minutes": [
+    {
+      "pv_number": 4,
+      "session_date_label": "8 décembre 2021",
+      "decision": "adopted",
+      "vote_result": "unanimous"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 4 de la séance du 8 décembre 2021",
+      "decision_text": "Au vote, le procès-verbal N° 4 de la séance du 8 décembre 2021 est adopté, sous réserve de la modification à apporter en page 80, à la quasi-unanimité (une abstention), avec remerciements à la secrétaire.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "7.1",
+      "type": "postulat",
+      "title": "Postulat de M. Julien Neveu (LV) - Une déchèterie, pas un grand écopoint",
+      "author": "Julien Neveu",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "7.2",
+      "type": "postulat",
+      "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Un label pour donner confiance à la population"
+    },
+    {
+      "agenda_item": "7.3",
+      "type": "interpellation",
+      "title": "Interpellation de M. Marc Wüthrich (LTDPL) - Antennes 5G sur le territoire communal",
+      "author": "Marc Wüthrich",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "8.1",
+      "type": "motion",
+      "title": "Préavis municipal N° 1/2022 - Réponse à la motion de M. Daniel Krähenbühl - Année de la Famille - Centre familial de plein air (prise en considération le 29 juin 1994)",
+      "author": "Daniel Krähenbühl"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "communication",
+      "title": "Communication municipale N° 1/2022 - Etat des motions et postulats en suspens au 31 décembre 2021",
+      "number": "1/2022"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "communication",
+      "title": "Communication municipale N° 2/2022 - Réponse à la question de Mme Marianne Adank (PLR) Commission sur le cheminement piétonnier en rives du lac",
+      "number": "2/2022"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "communication",
+      "title": "Communication municipale N° 3/2022 - Réponse à la question de Mme Marianne Adank (PLR) - Bon d'achats : informations reçues lors de l'utilisation des bons, quid de la protection des données ?",
+      "number": "3/2022",
+      "author": "Marianne Adank",
+      "party": "PLR"
+    }
+  ]
 }

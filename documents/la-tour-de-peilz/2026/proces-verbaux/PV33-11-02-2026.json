@@ -47,5 +47,193 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle du Conseil communal, Maison Hugonin",
+    "start_time": "20:15",
+    "president": "Yvan Kraehenbuehl",
+    "signature_president": "Yvan Kraehenbuehl",
+    "secretary": "Carole Dind"
+  },
+  "president": "Yvan Kraehenbuehl",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 68,
+    "elected_count": 84,
+    "excused": [
+      "Margaux Couttet",
+      "Anouk Dandrieu",
+      "Nathalie Demarta",
+      "Pierre Fontana",
+      "Maude Froidevaux",
+      "François Grognuz",
+      "Christine Hausherr-de Maddalena",
+      "Hugo Huart",
+      "Natasa Ilic",
+      "Emanuelle Jaques",
+      "Guillaume Jung",
+      "Aude Lerch",
+      "Maria Luceron",
+      "Bernadette Menétrey"
+    ],
+    "absent": [
+      "Claude Althaus",
+      "Emina Ibrahimovic"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 32 de la séance du 10 décembre 2025"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentations de nouveaux membres du Conseil en remplacement de M. Marc Wüthrich (LTDPL) et Mme Myriam Michel (LV)"
+    },
+    {
+      "number": "5",
+      "title": "Élections - Nominations"
+    },
+    {
+      "number": "5.1",
+      "title": "Nomination d'un membre suppléant à la délégation variable du Conseil intercommunal du SIGE en remplacement de M. Marc Wüthrich (LTDPL)"
+    },
+    {
+      "number": "5.2",
+      "title": "Nomination d'un membre à la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) en remplacement de Mme Myriam Michel (LV)"
+    },
+    {
+      "number": "6",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "7",
+      "title": "Dépôt et développement des motions, postulats et interpellations"
+    },
+    {
+      "number": "8",
+      "title": "Réponses aux interpellations"
+    },
+    {
+      "number": "8.1",
+      "title": "Réponse municipale N° 1/2026 - Interpellation de M. Piero Negro (PSDG) intitulée « Pour une mobilité et des accès au bus accessible à Toutes et Tous »"
+    },
+    {
+      "number": "8.2",
+      "title": "Réponse municipale N° 2/2026 - Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) intitulée « Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ? »"
+    },
+    {
+      "number": "9",
+      "title": "Préavis"
+    },
+    {
+      "number": "9.1",
+      "title": "Préavis municipal N° 1/2026 - Rapport du bureau du Conseil communal - Fixation des indemnités aux membres du Conseil communal et du Bureau, à la secrétaire du Conseil et à l'huissier pour la législature 2026-2031"
+    },
+    {
+      "number": "9.2",
+      "title": "Préavis municipal N° 2/2026 - Création d'une servitude de passage public à pied reliant le chemin des Deux-Collines au chemin du Gregnolet au travers des parcelles Nos 559, 2796 et 2797"
+    },
+    {
+      "number": "9.3",
+      "title": "Préavis municipal N° 3/2026 - Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023"
+    },
+    {
+      "number": "10",
+      "title": "Rapports"
+    },
+    {
+      "number": "11",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "11.1",
+      "title": "Communication municipale N° 1/2026 - État des motions et postulats en suspens au 31 décembre 2025"
+    },
+    {
+      "number": "11.2",
+      "title": "Communication municipale N° 2/2026 - Réseau de vélos en libre-service (VLS) - Riviera et Haut-Lac"
+    },
+    {
+      "number": "11.3",
+      "title": "Communication municipale N° 3/2026 - Plan de financement des investissements"
+    },
+    {
+      "number": "12",
+      "title": "Questions, propositions individuelles et divers"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "1",
+      "object": "Adoption de l'ordre du jour",
+      "decision_text": "Au vote, il est adopté à une large majorité (une abstention), tel qu'amendé.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 32 de la séance du 10 décembre 2025",
+      "decision_text": "Au vote, le procès-verbal N° 32 de la séance du 10 décembre 2025 est adopté à une large majorité (une abstention), avec remerciements à la secrétaire.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "8.1",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 1/2026 - Interpellation de M. Piero Negro (PSDG) intitulée « Pour une mobilité et des accès au bus accessible à Toutes et Tous »"
+    },
+    {
+      "agenda_item": "8.2",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 2/2026 - Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) intitulée « Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ? »",
+      "author": "Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) intitulée « Personne ne doit dormir dehors"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "preavis",
+      "title": "Préavis municipal N° 1/2026 - Rapport du bureau du Conseil communal - Fixation des indemnités aux membres du Conseil communal et du Bureau, à la secrétaire du Conseil et à l'huissier pour la législature 2026-2031",
+      "number": "1/2026"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "preavis",
+      "title": "Préavis municipal N° 2/2026 - Création d'une servitude de passage public à pied reliant le chemin des Deux-Collines au chemin du Gregnolet au travers des parcelles Nos 559, 2796 et 2797",
+      "number": "2/2026"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "preavis",
+      "title": "Préavis municipal N° 3/2026 - Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
+      "number": "3/2026"
+    },
+    {
+      "agenda_item": "11.1",
+      "type": "communication",
+      "title": "Communication municipale N° 1/2026 - État des motions et postulats en suspens au 31 décembre 2025",
+      "number": "1/2026"
+    },
+    {
+      "agenda_item": "11.2",
+      "type": "communication",
+      "title": "Communication municipale N° 2/2026 - Réseau de vélos en libre-service (VLS) - Riviera et Haut-Lac",
+      "number": "2/2026"
+    },
+    {
+      "agenda_item": "11.3",
+      "type": "communication",
+      "title": "Communication municipale N° 3/2026 - Plan de financement des investissements",
+      "number": "3/2026"
+    }
+  ]
 }

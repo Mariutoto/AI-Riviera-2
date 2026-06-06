@@ -47,5 +47,84 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": false
-  }
+  },
+  "session_details": {
+    "location": "Salle des Remparts",
+    "start_time": "16:30",
+    "president": "Préfet Roland Berdoz",
+    "signature_president": "Ludovic Tirelli",
+    "secretary": "Carole Dind"
+  },
+  "president": "Préfet Roland Berdoz",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 73,
+    "elected_count": 85,
+    "excused": [
+      "Michel Bloch",
+      "Julie Cavin",
+      "Romain Cornut",
+      "Nathalie Demarta",
+      "Nicolas Fardel",
+      "Antoine Favrod",
+      "Pierre Fontana",
+      "François Grognuz",
+      "Nina Hauri",
+      "Elisabeth Leimgruber",
+      "Noa Morand"
+    ],
+    "absent": [
+      "Paloma Lopez"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Ouverture de la séance par Monsieur le Préfet"
+    },
+    {
+      "number": "2",
+      "title": "Installation du Conseil communal par Monsieur le Préfet"
+    },
+    {
+      "number": "3",
+      "title": "Installation de la Municipalité par Monsieur le Préfet"
+    },
+    {
+      "number": "4",
+      "title": "Allocution de Monsieur le Préfet"
+    },
+    {
+      "number": "5",
+      "title": "Allocution de Madame la Syndique Installation du Conseil communal"
+    },
+    {
+      "number": "6",
+      "title": "Élections - Président du Conseil communal - Secrétaire du Conseil communal"
+    },
+    {
+      "number": "7",
+      "title": "Allocution du nouveau Président du Conseil communal Départ de Monsieur le Préfet"
+    },
+    {
+      "number": "8",
+      "title": "Élections du bureau du Conseil - Premier vice-président - Deuxième vice-président - Deux scrutateurs - Deux scrutateurs suppléants"
+    },
+    {
+      "number": "9",
+      "title": "Nomination de l'huissier du Conseil et de son remplaçant"
+    },
+    {
+      "number": "10",
+      "title": "Désignation des délégués (pour la durée de la législature) - cinq délégués et cinq suppléants (électeurs dans la commune) à la délégation variable du Conseil intercommunal du Service intercommunal de gestion (SIGE) - un délégué à la délégation fixe et sept délégués (électeurs dans la commune) à la délégation variable du Conseil intercommunal Sécurité Riviera - deux délégués et un suppléant (conseillers communaux) à la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) - deux délégués et un suppléant (conseillers communaux) à la Commission intercommunale de gestion du Fonds culturel Riviera - trois représentants (conseillers communaux) au Conseil d'Établissement scolaire"
+    },
+    {
+      "number": "11",
+      "title": "Nomination des commissions (pour la durée de la législature) - Commission des finances - Commission de gestion - Commission de recours en matière d'impôts"
+    },
+    {
+      "number": "12",
+      "title": "Clôture de la séance"
+    }
+  ]
 }

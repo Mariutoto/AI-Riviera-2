@@ -47,5 +47,262 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle des Remparts",
+    "start_time": "19:00",
+    "president": "Yvan Kraehenbuehl",
+    "signature_president": "Yvan Kraehenbuehl",
+    "secretary": "Carole Dind"
+  },
+  "president": "Yvan Kraehenbuehl",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 71,
+    "elected_count": 85,
+    "excused": [
+      "Pierre Cavin",
+      "Romain Cornut",
+      "Margaux Couttet",
+      "Nathalie Demarta",
+      "François Grognuz",
+      "Emina Ibrahimovic",
+      "Guillaume Jung",
+      "Maëlle Le Boudec",
+      "Ingrid Mamin",
+      "Myriam Michel",
+      "Salvatore Noto",
+      "Diego Pasquali",
+      "Marie Schmidhauser",
+      "Jimmy Suro"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 31 de la séance du 29 octobre 2025"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentations"
+    },
+    {
+      "number": "5",
+      "title": "Elections - Nominations"
+    },
+    {
+      "number": "6",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "7",
+      "title": "Dépôt et développement des motions, postulats et interpellation"
+    },
+    {
+      "number": "8",
+      "title": "Réponses aux interpellations"
+    },
+    {
+      "number": "8.1",
+      "title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »"
+    },
+    {
+      "number": "9",
+      "title": "Préavis"
+    },
+    {
+      "number": "9.1",
+      "title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-dechaussée du corps de logis et d'un édicule de service sur l'esplanade"
+    },
+    {
+      "number": "10",
+      "title": "Rapports"
+    },
+    {
+      "number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
+    },
+    {
+      "number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve"
+    },
+    {
+      "number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)"
+    },
+    {
+      "number": "10.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera"
+    },
+    {
+      "number": "10.5",
+      "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz"
+    },
+    {
+      "number": "10.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne"
+    },
+    {
+      "number": "10.7",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32"
+    },
+    {
+      "number": "10.8",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs"
+    },
+    {
+      "number": "11",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "11.1",
+      "title": "Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final"
+    },
+    {
+      "number": "11.2",
+      "title": "Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final"
+    },
+    {
+      "number": "11.3",
+      "title": "Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final"
+    },
+    {
+      "number": "11.4",
+      "title": "Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final"
+    },
+    {
+      "number": "11.5",
+      "title": "Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final"
+    },
+    {
+      "number": "12",
+      "title": "Questions, propositions individuelles et divers"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "1",
+      "object": "Adoption de l'ordre du jour",
+      "decision_text": "Au vote, il est adopté à l'unanimité, tel qu'amendé.",
+      "vote_result": "unanimous",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 31 de la séance du 29 octobre 2025",
+      "decision_text": "Au vote, le procès-verbal N° 31 de la séance du 29 octobre 2025 est adopté à une large majorité (quatre abstentions), avec remerciements à la secrétaire.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "9",
+      "object": "Préavis",
+      "decision_text": "Au vote, l'amendement de la commission est accepté à une large majorité (cinq abstentions).",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "7",
+      "type": "interpellation",
+      "title": "Dépôt et développement des motions, postulats et interpellation"
+    },
+    {
+      "agenda_item": "8.1",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "preavis",
+      "title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-dechaussée du corps de logis et d'un édicule de service sur l'esplanade",
+      "number": "34/2025"
+    },
+    {
+      "agenda_item": "10.1",
+      "type": "postulat",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
+    },
+    {
+      "agenda_item": "10.2",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "number": "27/2025"
+    },
+    {
+      "agenda_item": "10.3",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "number": "28/2025"
+    },
+    {
+      "agenda_item": "10.4",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
+      "number": "29/2025"
+    },
+    {
+      "agenda_item": "10.5",
+      "type": "preavis",
+      "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
+      "number": "30/2025"
+    },
+    {
+      "agenda_item": "10.6",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
+      "number": "31/2025"
+    },
+    {
+      "agenda_item": "10.7",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32",
+      "number": "32/2025"
+    },
+    {
+      "agenda_item": "10.8",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
+      "number": "33/2025"
+    },
+    {
+      "agenda_item": "11.1",
+      "type": "communication",
+      "title": "Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final",
+      "number": "20/2025"
+    },
+    {
+      "agenda_item": "11.2",
+      "type": "communication",
+      "title": "Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final",
+      "number": "21/2025"
+    },
+    {
+      "agenda_item": "11.3",
+      "type": "communication",
+      "title": "Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final",
+      "number": "22/2025"
+    },
+    {
+      "agenda_item": "11.4",
+      "type": "communication",
+      "title": "Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final",
+      "number": "23/2025"
+    },
+    {
+      "agenda_item": "11.5",
+      "type": "communication",
+      "title": "Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final",
+      "number": "24/2025"
+    }
+  ]
 }

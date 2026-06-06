@@ -47,5 +47,242 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle des Remparts",
+    "start_time": "19:00",
+    "president": "Julien Costanzo",
+    "signature_president": "Julien Costanzo",
+    "secretary": "Carole Dind"
+  },
+  "president": "Julien Costanzo",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 76,
+    "elected_count": 85,
+    "excused": [
+      "François Grognuz",
+      "Hugo Huart",
+      "Viviane Huber",
+      "Guillaume Jung",
+      "Andrea Krenger",
+      "Myriam Michel",
+      "Marie Schmidhauser",
+      "Jimmy Suro",
+      "François Vodoz"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 17 de la séance du 1er novembre 2023"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentation de nouveaux membres du Conseil en remplacement de M. Kamiar Aminian (LV) et Mme Maria Patrizia Sparti (PSDG)"
+    },
+    {
+      "number": "5",
+      "title": "Election d'un membre à la délégation variable du Conseil intercommunal de l'Association Sécurité Riviera en remplacement de M. Jean-Etienne Holzeisen (LTDPL)"
+    },
+    {
+      "number": "6",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "7",
+      "title": "Dépôt et développement des motions, postulats et interpellations"
+    },
+    {
+      "number": "7.1",
+      "title": "Postulat du groupe PLR intitulé « Une autre façon de lutter contre les îlots de chaleur »"
+    },
+    {
+      "number": "7.2",
+      "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) « Communication Municipale 29/2023 Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring"
+    },
+    {
+      "number": "7.3",
+      "title": "Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? »"
+    },
+    {
+      "number": "8",
+      "title": "Préavis"
+    },
+    {
+      "number": "8.1",
+      "title": "Préavis municipal N° 21/2023 – Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts - « Quel avenir pour Campagne Rossier ? »"
+    },
+    {
+      "number": "9",
+      "title": "Rapports"
+    },
+    {
+      "number": "9.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2023 – Indexation du traitement des membres de la Municipalité"
+    },
+    {
+      "number": "9.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2023 – Budget 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)"
+    },
+    {
+      "number": "9.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2023 – Budget 2024 du Fonds culturel Riviera"
+    },
+    {
+      "number": "9.4",
+      "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 18/2023 – Budget de la Commune pour l'exercice 2024"
+    },
+    {
+      "number": "9.5",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 19/2023 – Demande d'un crédit d'études de Fr. 185'000.- pour le réaménagement du jardin Roussy, de la place du Four et de leurs abords, ainsi que pour la création d'un plan de gestion du jardin Roussy"
+    },
+    {
+      "number": "9.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2023 – Demande de crédit d'étude d'un montant de Fr. 232'000.- pour l'assainissement énergétique des bâtiments raccordés sur le réseau des Mousquetaires et pour le changement de la production de chaleur de la centrale"
+    },
+    {
+      "number": "10",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "10.1",
+      "title": "Communication municipale N° 34/2023 – Amendement au préavis municipal N° 12/2023 – Demande de crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques – Avis de la Préfecture"
+    },
+    {
+      "number": "10.2",
+      "title": "Communication municipale N° 35/2023 – Affichage public – Nouvel appel d'offres"
+    },
+    {
+      "number": "10.3",
+      "title": "Communication municipale N° 36/2023 – Chemins des Bulesses, des Vignes, du Crotton, de Béranges et du Gregnolet – Mise à l'enquête publique du projet de création d'une zone 30 km/h et de réaménagement"
+    },
+    {
+      "number": "10.4",
+      "title": "Communication municipale N° 37/2023 – Effondrement partiel d'un mur de soutènement au Château de La Tour-de-Peilz"
+    },
+    {
+      "number": "10.5",
+      "title": "Communication municipale N° 38/2023 – Lancement de la nouvelle prestation en ligne eDéménagementCH"
+    },
+    {
+      "number": "11",
+      "title": "Propositions individuelles et divers"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "1",
+      "object": "Adoption de l'ordre du jour",
+      "decision_text": "Au vote, il est adopté tel que présenté à la quasi-una- nimité (deux abstentions)."
+    },
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 17 de la séance du 1er novembre 2023",
+      "decision_text": "Au vote, le procès-verbal N° 17 de la séance du 1er novembre 2023 est adopté à une très large majorité (trois abstentions), avec remerciements à la secrétaire.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "8",
+      "object": "Préavis",
+      "decision_text": "Au vote, le premier amendement de la com- mission est accepté par 49 voix contre 3 (21 abstentions)."
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "7.1",
+      "type": "postulat",
+      "title": "Postulat du groupe PLR intitulé « Une autre façon de lutter contre les îlots de chaleur »"
+    },
+    {
+      "agenda_item": "7.2",
+      "type": "interpellation",
+      "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) « Communication Municipale 29/2023 Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring"
+    },
+    {
+      "agenda_item": "7.3",
+      "type": "interpellation",
+      "title": "Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? »"
+    },
+    {
+      "agenda_item": "8.1",
+      "type": "postulat",
+      "title": "Préavis municipal N° 21/2023 – Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts - « Quel avenir pour Campagne Rossier ? »"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2023 – Indexation du traitement des membres de la Municipalité",
+      "number": "15/2023"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2023 – Budget 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "number": "16/2023"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2023 – Budget 2024 du Fonds culturel Riviera",
+      "number": "17/2023"
+    },
+    {
+      "agenda_item": "9.4",
+      "type": "preavis",
+      "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 18/2023 – Budget de la Commune pour l'exercice 2024",
+      "number": "18/2023"
+    },
+    {
+      "agenda_item": "9.5",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 19/2023 – Demande d'un crédit d'études de Fr. 185'000.- pour le réaménagement du jardin Roussy, de la place du Four et de leurs abords, ainsi que pour la création d'un plan de gestion du jardin Roussy",
+      "number": "19/2023"
+    },
+    {
+      "agenda_item": "9.6",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2023 – Demande de crédit d'étude d'un montant de Fr. 232'000.- pour l'assainissement énergétique des bâtiments raccordés sur le réseau des Mousquetaires et pour le changement de la production de chaleur de la centrale",
+      "number": "20/2023"
+    },
+    {
+      "agenda_item": "10.1",
+      "type": "preavis",
+      "title": "Communication municipale N° 34/2023 – Amendement au préavis municipal N° 12/2023 – Demande de crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques – Avis de la Préfecture",
+      "number": "12/2023"
+    },
+    {
+      "agenda_item": "10.2",
+      "type": "communication",
+      "title": "Communication municipale N° 35/2023 – Affichage public – Nouvel appel d'offres",
+      "number": "35/2023"
+    },
+    {
+      "agenda_item": "10.3",
+      "type": "communication",
+      "title": "Communication municipale N° 36/2023 – Chemins des Bulesses, des Vignes, du Crotton, de Béranges et du Gregnolet – Mise à l'enquête publique du projet de création d'une zone 30 km/h et de réaménagement",
+      "number": "36/2023"
+    },
+    {
+      "agenda_item": "10.4",
+      "type": "communication",
+      "title": "Communication municipale N° 37/2023 – Effondrement partiel d'un mur de soutènement au Château de La Tour-de-Peilz",
+      "number": "37/2023"
+    },
+    {
+      "agenda_item": "10.5",
+      "type": "communication",
+      "title": "Communication municipale N° 38/2023 – Lancement de la nouvelle prestation en ligne eDéménagementCH",
+      "number": "38/2023"
+    }
+  ]
 }

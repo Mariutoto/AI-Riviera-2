@@ -47,5 +47,316 @@
     "contains_votes": false,
     "contains_attendance": true,
     "contains_political_objects": true
-  }
+  },
+  "session_details": {
+    "location": "Salle du Conseil communal, Maison Hugonin",
+    "start_time": "20:15",
+    "president": "Manon Roethlisberger",
+    "signature_president": "Manon Roethlisberger",
+    "secretary": "Carole Dind"
+  },
+  "president": "Manon Roethlisberger",
+  "secretary": "Carole Dind",
+  "attendance": {
+    "present_count": 64,
+    "elected_count": 84,
+    "excused": [
+      "Claude Althaus",
+      "Loris Berthier",
+      "Sophie Blank Barbezat",
+      "Yann Boulben",
+      "Pierre Cavin",
+      "Nathalie Demarta",
+      "Anna Fenini",
+      "Pierre Fontana",
+      "Léa Glardon",
+      "André Gruaz",
+      "Aude Lerch",
+      "Manuel Lisboa",
+      "Ingrid Mamin",
+      "Claudio Manco",
+      "Philippe Neyroud",
+      "Salvatore Noto",
+      "Walter Steiner",
+      "Ziva Tavcar",
+      "François Vodoz",
+      "Marc Wüthrich"
+    ]
+  },
+  "agenda": [
+    {
+      "number": "1",
+      "title": "Adoption de l'ordre du jour"
+    },
+    {
+      "number": "2",
+      "title": "Adoption du procès-verbal N° 22 de la séance du 26 juin 2024"
+    },
+    {
+      "number": "3",
+      "title": "Communications du bureau du Conseil communal"
+    },
+    {
+      "number": "4",
+      "title": "Assermentations de nouveaux membres du Conseil en remplacement de MM. Nicolas Fardel (UDC) et Alessio Grutta (PLR)"
+    },
+    {
+      "number": "5",
+      "title": "Elections - Nominations"
+    },
+    {
+      "number": "5.1",
+      "title": "d'un membre à la Commission de gestion en remplacement de Mme Mireille Cornaz (LCIVL)"
+    },
+    {
+      "number": "5.2",
+      "title": "d'un membre à la Commission des finances en remplacement de M. Nicolas Fardel (UDC)"
+    },
+    {
+      "number": "5.3",
+      "title": "d'un membre à la Commission de recours en matière d'impôts en remplacement de M. Alessio Grutta (PLR)"
+    },
+    {
+      "number": "5.4",
+      "title": "à la vice-présidence du bureau du Conseil communal en remplacement de M. Alessio Grutta (PLR)"
+    },
+    {
+      "number": "6",
+      "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
+    },
+    {
+      "number": "7",
+      "title": "Dépôt et développement des motions, postulats et interpellations"
+    },
+    {
+      "number": "7.1",
+      "title": "Projet de modification du règlement sur le stationnement de La Tour-de-Peilz de M. Jean-Etienne Holzeisen (LTDPL) et consorts"
+    },
+    {
+      "number": "7.2",
+      "title": "Interpellation de Mme Véronique Ansermet (LV) - Les arbres ont-ils encore feuille au chapitre ?"
+    },
+    {
+      "number": "7.3",
+      "title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts - Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz"
+    },
+    {
+      "number": "8",
+      "title": "Réponses aux interpellations"
+    },
+    {
+      "number": "8.1",
+      "title": "Réponse municipale N° 5/2024 - Interpellation de Mme Arnaud (hors parti) - Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?"
+    },
+    {
+      "number": "9",
+      "title": "Préavis"
+    },
+    {
+      "number": "9.1",
+      "title": "Préavis municipal N° 23/2024 - Arrêté d'imposition pour la période 2025-2026"
+    },
+    {
+      "number": "9.2",
+      "title": "Préavis municipal N° 24/2024 - Demande d'un crédit de construction de Fr. 4'500'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116"
+    },
+    {
+      "number": "9.3",
+      "title": "Préavis municipal N° 25/2024 - Demande d'un crédit construction de Fr. 140'000.- pour l'installation de tableaux et écrans interactifs dans les classes du collège des Marronniers"
+    },
+    {
+      "number": "9.4",
+      "title": "Préavis municipal N° 26/2024 - Demande d'un crédit de réalisation de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle"
+    },
+    {
+      "number": "9.5",
+      "title": "Préavis municipal N° 27/2024 - Demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collège des Mousquetaires"
+    },
+    {
+      "number": "10",
+      "title": "Rapports"
+    },
+    {
+      "number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération de la motion de M. Héraclès Dellas (UDC) & consorts - Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
+    },
+    {
+      "number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 18/2024 - Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard"
+    },
+    {
+      "number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 19/2024 - Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal"
+    },
+    {
+      "number": "10.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2024 - Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »"
+    },
+    {
+      "number": "10.5",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2024 - Réponse au postulat de M. Yann Boulben Meyer (LTDPL) - Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz"
+    },
+    {
+      "number": "10.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 22/2024 - Réponse au postulat de M. Alessio Grutta (PLR) - Soutenons nos étudiants boélands"
+    },
+    {
+      "number": "11",
+      "title": "Communications municipales"
+    },
+    {
+      "number": "11.1",
+      "title": "Communication municipale N° 21/2024 - Quai Roussy - Mise au concours des emplacements de kiosques saisonniers"
+    },
+    {
+      "number": "11.2",
+      "title": "Communication municipale N° 22/2024 - Camping de la Maladaire - Achat des parcelles Nos 499 et 500 à La Tour-de-Peilz"
+    },
+    {
+      "number": "12",
+      "title": "Questions, propositions individuelles et divers Avant de débuter la séance, Mme la Présidente procède, selon les dispositions réglementaires, à la prestation de serment de M. Alessio Grutta, élu municipal en remplacement de M. Alain Grangier, démissionnaire."
+    }
+  ],
+  "previous_minutes": [
+    {
+      "pv_number": 22,
+      "session_date_label": "30 octobre 2024",
+      "decision": "adopted"
+    },
+    {
+      "pv_number": 22,
+      "session_date_label": "26 juin 2024",
+      "decision": "adopted"
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_item": "2",
+      "object": "Adoption du procès-verbal N° 22 de la séance du 26 juin 2024",
+      "decision_text": "Au vote, le procès-verbal N° 22 de la séance du 26 juin 2024 est adopté à une très large majorité (quatre abstentions), avec remerciements à la secrétaire.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "9",
+      "object": "Préavis",
+      "decision_text": "Au vote, un cinquième au moins des membres présents (27 voix pour 13 nécessaires) soutient la demande de renvoi à une commission de prise en considération."
+    },
+    {
+      "agenda_item": "10",
+      "object": "Rapports",
+      "decision_text": "Au vote, les conclusions du rapport de la commission sont adoptées à une large majorité (six avis contraires), comme suit : LE CONSEIL COMMUNAL DE LA TOUR-DE-PEILZ • vu la motion de M.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    },
+    {
+      "agenda_item": "10.1",
+      "object": "Rapport de la commission chargée d'étudier la prise en considération de la motion de M. Héraclès Dellas (UDC) & consorts - Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "decision_text": "Au vote, les conclusions du rapport de la commission sont adoptées à une large majorité (six avis contraires), comme suit : LE CONSEIL COMMUNAL DE LA TOUR-DE-PEILZ • vu la motion de M.",
+      "vote_result": "large_majority",
+      "decision": "adopted"
+    }
+  ],
+  "political_objects_discussed": [
+    {
+      "agenda_item": "7.2",
+      "type": "interpellation",
+      "title": "Interpellation de Mme Véronique Ansermet (LV) - Les arbres ont-ils encore feuille au chapitre ?",
+      "author": "Véronique Ansermet",
+      "party": "LV"
+    },
+    {
+      "agenda_item": "7.3",
+      "type": "motion",
+      "title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts - Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+      "author": "Jérôme Bonvin (LCIVL) et consorts"
+    },
+    {
+      "agenda_item": "8.1",
+      "type": "interpellation",
+      "title": "Réponse municipale N° 5/2024 - Interpellation de Mme Arnaud (hors parti) - Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+      "author": "Arnaud",
+      "party": "hors parti"
+    },
+    {
+      "agenda_item": "9.1",
+      "type": "preavis",
+      "title": "Préavis municipal N° 23/2024 - Arrêté d'imposition pour la période 2025-2026",
+      "number": "23/2024"
+    },
+    {
+      "agenda_item": "9.2",
+      "type": "preavis",
+      "title": "Préavis municipal N° 24/2024 - Demande d'un crédit de construction de Fr. 4'500'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116",
+      "number": "24/2024"
+    },
+    {
+      "agenda_item": "9.3",
+      "type": "preavis",
+      "title": "Préavis municipal N° 25/2024 - Demande d'un crédit construction de Fr. 140'000.- pour l'installation de tableaux et écrans interactifs dans les classes du collège des Marronniers",
+      "number": "25/2024"
+    },
+    {
+      "agenda_item": "9.4",
+      "type": "preavis",
+      "title": "Préavis municipal N° 26/2024 - Demande d'un crédit de réalisation de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle",
+      "number": "26/2024"
+    },
+    {
+      "agenda_item": "9.5",
+      "type": "preavis",
+      "title": "Préavis municipal N° 27/2024 - Demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collège des Mousquetaires",
+      "number": "27/2024"
+    },
+    {
+      "agenda_item": "10.1",
+      "type": "motion",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération de la motion de M. Héraclès Dellas (UDC) & consorts - Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "author": "Héraclès Dellas (UDC) & consorts"
+    },
+    {
+      "agenda_item": "10.2",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 18/2024 - Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard",
+      "number": "18/2024"
+    },
+    {
+      "agenda_item": "10.3",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 19/2024 - Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal",
+      "number": "19/2024"
+    },
+    {
+      "agenda_item": "10.4",
+      "type": "preavis",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2024 - Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »",
+      "number": "20/2024"
+    },
+    {
+      "agenda_item": "10.5",
+      "type": "postulat",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2024 - Réponse au postulat de M. Yann Boulben Meyer (LTDPL) - Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "author": "Yann Boulben Meyer",
+      "party": "LTDPL"
+    },
+    {
+      "agenda_item": "10.6",
+      "type": "postulat",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 22/2024 - Réponse au postulat de M. Alessio Grutta (PLR) - Soutenons nos étudiants boélands",
+      "author": "Alessio Grutta",
+      "party": "PLR"
+    },
+    {
+      "agenda_item": "11.1",
+      "type": "communication",
+      "title": "Communication municipale N° 21/2024 - Quai Roussy - Mise au concours des emplacements de kiosques saisonniers",
+      "number": "21/2024"
+    },
+    {
+      "agenda_item": "11.2",
+      "type": "communication",
+      "title": "Communication municipale N° 22/2024 - Camping de la Maladaire - Achat des parcelles Nos 499 et 500 à La Tour-de-Peilz",
+      "number": "22/2024"
+    }
+  ]
 }
