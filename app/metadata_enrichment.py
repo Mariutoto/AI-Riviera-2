@@ -546,7 +546,7 @@ def clean_search_facets(metadata: dict[str, Any], content: str | None = None, li
     content = content or ""
     title = str(metadata.get("title") or "")
     summary = str(metadata.get("summary") or "")
-    category = str(metadata.get("category") or "")
+    category = str(metadata.get("category") or metadata.get("doc_type") or "")
     object_type = str(metadata.get("type") or "")
     authors = metadata.get("authors")
     author_tokens = author_name_tokens(authors)
@@ -856,7 +856,8 @@ def enrich_metadata(metadata: dict[str, Any], text_path: Path | None = None, con
     enriched.setdefault("metadata_version", "metadata-audit-v1")
     enriched.setdefault("metadata_template", CATEGORY_TEMPLATE_SOURCE.get(category))
     enriched.setdefault("commune", "La Tour-de-Peilz")
-    enriched.setdefault("category", category)
+    if not enriched.get("doc_type"):
+        enriched.setdefault("category", category)
     enriched.setdefault("content_kind", content_kind)
     enriched.setdefault("language", "fr")
     enriched.setdefault("year", str(year) if year != "" else "")

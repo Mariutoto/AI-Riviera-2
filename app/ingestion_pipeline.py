@@ -111,7 +111,7 @@ def _searchable_text(metadata: dict[str, Any], chunk: str) -> str:
     parts = [
         f"City: {metadata.get('commune', '')}",
         f"Year: {metadata.get('year', '')}",
-        f"Category: {metadata.get('category', '')}",
+        f"Document type: {metadata.get('doc_type') or metadata.get('category', '')}",
         f"Title: {metadata.get('title', '')}",
         f"Summary: {metadata.get('summary', '')}",
         f"Content kind: {metadata.get('content_kind', '')}",
@@ -172,7 +172,7 @@ def ingest_documents(
                 payload = _document_payload(text_path, metadata, content)
 
                 existing = get_document_by_source_url(connection, payload["source_url"])
-                force_document = str(metadata.get("category") or "") in force_categories
+                force_document = str(metadata.get("doc_type") or metadata.get("category") or "") in force_categories
                 if existing and existing["document_hash"] == payload["document_hash"] and not force_document:
                     with connection.cursor() as cursor:
                         cursor.execute(

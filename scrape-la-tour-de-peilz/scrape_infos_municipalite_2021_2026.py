@@ -82,10 +82,8 @@ def collect_items() -> list[dict]:
 
         items_by_id[item_id] = {
             "commune": "La Tour-de-Peilz",
-            "type": "info_municipalite",
-            "document_type": "info_municipalite",
+            "doc_type": "infos-municipalite",
             "year": year,
-            "category": "infos-municipalite",
             "legislature": "2021-2026",
             "title": title,
             "publication_date": publication_date,
