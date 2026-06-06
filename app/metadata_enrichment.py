@@ -779,11 +779,12 @@ def enrich_category_specific_fields(enriched: dict[str, Any], category: str, con
         })
 
     elif category == "informations-diverses":
-        enriched.setdefault("misc_information", {
-            "contains_calendar": any(term in normalized for term in ["agenda", "calendrier", "seance", "echeance"]),
-            "contains_linked_documents": count_pdf_links(content) > 0,
-            "contains_financial_amounts": has_money(content),
-        })
+        if enriched.get("metadata_version") != "metadata-audit-v2":
+            enriched.setdefault("misc_information", {
+                "contains_calendar": any(term in normalized for term in ["agenda", "calendrier", "seance", "echeance"]),
+                "contains_linked_documents": count_pdf_links(content) > 0,
+                "contains_financial_amounts": has_money(content),
+            })
 
     elif category == "infos-municipalite":
         publication_date = enriched.get("date") or enriched.get("document_date") or (dates[0] if dates else None)
