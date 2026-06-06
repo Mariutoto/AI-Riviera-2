@@ -1,43 +1,50 @@
 {
+  "metadata_version": "metadata-audit-v2",
   "commune": "La Tour-de-Peilz",
-  "type": "information_diverse",
+  "category": "informations-diverses",
+  "content_kind": "activity_report",
+  "language": "fr",
   "year": "2021",
   "listing_year": "2021",
-  "category": "informations-diverses",
   "legislature": "2021-2026",
+  "filename": "REVE-Rapport-Annuel-2020.pdf",
   "title": "Réseau REVE",
   "summary": "Rapport d'activités 2020",
-  "filename": "REVE-Rapport-Annuel-2020.pdf",
-  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2021/REVE-Rapport-Annuel-2020.pdf",
-  "source_page": "https://www.la-tour-de-peilz.ch/politique/informations-diverses.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\REVE-Rapport-Annuel-2020.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\REVE-Rapport-Annuel-2020.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "misc_information",
-  "search_facets": [
-    "informations_diverse",
-    "information_diverse",
-    "accueil_de_jour",
-    "reseau",
-    "reve",
-    "rapport",
-    "activites",
-    "2020",
-    "uap",
-    "annuel",
-    "djefs",
-    "faje",
-    "fraje",
-    "fsae"
+  "issuing_body": "Reseau REVE",
+  "covered_period": "2020",
+  "reporting_year": 2020,
+  "topic_tags": [
+    "reseau_reve",
+    "enfance",
+    "intercommunal",
+    "rapport_annuel"
   ],
+  "search_facets": [
+    "reseau_reve",
+    "enfance",
+    "intercommunal",
+    "rapport_annuel",
+    "activity_report",
+    "conseil_communal"
+  ],
+  "contains_calendar": false,
+  "contains_financial_amounts": false,
+  "contains_accounts": false,
+  "contains_decision": false,
+  "activity_report": {
+    "organization": "Reseau REVE",
+    "reporting_year": 2020,
+    "contains_accounts": false,
+    "contains_governance_info": true
+  },
   "text_extraction_status": {
     "characters_extracted": 10275,
     "text_available": true,
     "needs_ocr": false
   },
-  "misc_information": {
-    "contains_calendar": true,
-    "contains_linked_documents": false,
-    "contains_financial_amounts": true
-  }
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2021/REVE-Rapport-Annuel-2020.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/informations-diverses.php",
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\REVE-Rapport-Annuel-2020.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\REVE-Rapport-Annuel-2020.txt",
+  "type": "information_diverse"
 }

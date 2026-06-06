@@ -1,43 +1,54 @@
 {
+  "metadata_version": "metadata-audit-v2",
   "commune": "La Tour-de-Peilz",
-  "type": "information_diverse",
+  "category": "informations-diverses",
+  "content_kind": "indemnity_decision",
+  "language": "fr",
   "year": "2021",
   "listing_year": "2021",
-  "category": "informations-diverses",
   "legislature": "2021-2026",
+  "filename": "Rapport-IndemnitesCC-2021-2026-Dec.pdf",
   "title": "Jetons et indémnités du Conseil communal",
   "summary": "Jetons et indemnités diverses des membres du Conseil communal et de son bureau pour la législature 2021-2026",
-  "filename": "Rapport-IndemnitesCC-2021-2026-Dec.pdf",
-  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2021/Rapport-IndemnitesCC-2021-2026-Dec.pdf",
-  "source_page": "https://www.la-tour-de-peilz.ch/politique/informations-diverses.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\Rapport-IndemnitesCC-2021-2026-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\Rapport-IndemnitesCC-2021-2026-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "misc_information",
-  "search_facets": [
-    "informations_diverse",
-    "information_diverse",
-    "conseil_communal",
-    "jetons",
+  "document_date": "2026-06-30",
+  "issuing_body": "Conseil communal",
+  "covered_period": "2021-2026",
+  "decision_status": "decided",
+  "topic_tags": [
     "indemnites",
-    "diverses",
-    "membres",
+    "jetons_presence",
+    "conseil_communal",
+    "bureau",
+    "legislature"
+  ],
+  "search_facets": [
+    "indemnites",
+    "jetons_presence",
+    "conseil_communal",
     "bureau",
     "legislature",
-    "rapport",
-    "cogest",
-    "ciehl",
-    "sige"
+    "indemnity_decision"
   ],
+  "contains_calendar": false,
+  "contains_financial_amounts": true,
+  "contains_accounts": false,
+  "contains_decision": true,
+  "compensation": {
+    "body": "Conseil communal",
+    "period": "2021-2026",
+    "concerns": [
+      "membres du Conseil communal",
+      "bureau du Conseil communal"
+    ]
+  },
   "text_extraction_status": {
     "characters_extracted": 8879,
     "text_available": true,
     "needs_ocr": false
   },
-  "misc_information": {
-    "contains_calendar": true,
-    "contains_linked_documents": false,
-    "contains_financial_amounts": true
-  },
-  "document_date": "2026-06-30"
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2021/Rapport-IndemnitesCC-2021-2026-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/informations-diverses.php",
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\Rapport-IndemnitesCC-2021-2026-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\informations-diverses\\Rapport-IndemnitesCC-2021-2026-Dec.txt",
+  "type": "information_diverse"
 }

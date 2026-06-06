@@ -1,30 +1,48 @@
 {
+  "metadata_version": "metadata-audit-v2",
   "commune": "La Tour-de-Peilz",
-  "year": "2023",
   "category": "informations-diverses",
-  "filename": "Promove-RA-2022.pdf",
-  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2023/Promove-RA-2022.pdf",
-  "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=97",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Promove-RA-2022.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Promove-RA-2022.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "misc_information",
+  "content_kind": "activity_report",
+  "language": "fr",
+  "year": "2023",
   "listing_year": "2023",
-  "title": "Promove-RA-2022.pdf",
   "legislature": "2021-2026",
-  "search_facets": [
-    "informations_diverse",
-    "information_diverse",
-    "promove"
+  "filename": "Promove-RA-2022.pdf",
+  "title": "Promove-RA-2022.pdf",
+  "issuing_body": "Promove",
+  "covered_period": "2022",
+  "reporting_year": 2022,
+  "topic_tags": [
+    "promove",
+    "promotion_economique",
+    "riviera",
+    "rapport_annuel"
   ],
+  "search_facets": [
+    "promove",
+    "promotion_economique",
+    "riviera",
+    "rapport_annuel",
+    "activity_report",
+    "conseil_communal"
+  ],
+  "contains_calendar": false,
+  "contains_financial_amounts": false,
+  "contains_accounts": false,
+  "contains_decision": false,
+  "activity_report": {
+    "organization": "Promove",
+    "reporting_year": 2022,
+    "contains_accounts": false,
+    "contains_governance_info": true
+  },
   "text_extraction_status": {
     "characters_extracted": 0,
     "text_available": false,
     "needs_ocr": false
   },
-  "misc_information": {
-    "contains_calendar": false,
-    "contains_linked_documents": false,
-    "contains_financial_amounts": false
-  }
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2023/Promove-RA-2022.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=97",
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Promove-RA-2022.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Promove-RA-2022.txt"
 }

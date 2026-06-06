@@ -131,11 +131,19 @@ def parse_french_date(text: str) -> str | None:
     if not match:
         return None
     day_raw, month_raw, year = match.groups()
-    day = 1 if day_raw == "1er" else int(day_raw)
+    day = 1 if day_raw.lower() == "1er" else int(day_raw)
     month = MONTHS_FR.get(month_raw.lower())
     if not month:
         return None
     return f"{year}-{month}-{day:02d}"
+
+
+def parse_signature_date(text: str) -> str | None:
+    for match in re.finditer(r"La Tour-de-Peilz,\s*(?:le\s+)?(.{0,80})", text, flags=re.I):
+        parsed = parse_french_date(match.group(1))
+        if parsed:
+            return parsed
+    return None
 
 
 def first_matching_line(text: str, pattern: str) -> str | None:
@@ -144,6 +152,10 @@ def first_matching_line(text: str, pattern: str) -> str | None:
         if re.search(pattern, line, flags=re.I):
             return line
     return None
+
+
+def page_has_line(text: str, pattern: str) -> bool:
+    return first_matching_line(text, pattern) is not None
 
 
 def infer_document_components(text: str) -> list[dict]:
@@ -222,6 +234,114 @@ def infer_title(item: dict, text: str, role: str, report_type: str | None, compo
     if role == "combined_preavis_report_decision":
         return item["official_listing_label"]
     return item["filename"]
+
+
+def date_after_pattern(text: str, pattern: str, window_size: int = 500) -> str | None:
+    for match in re.finditer(pattern, text, flags=re.I):
+        window = text[match.start() : match.end() + window_size]
+        parsed = parse_french_date(window)
+        if parsed:
+            return parsed
+    return None
+
+
+def extract_preavis_date(text: str, preavis_number: str | None) -> str | None:
+    expected_number = None
+    expected_year = None
+    if preavis_number:
+        expected_number, expected_year = preavis_number.split("/", 1)
+
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        normalized_line = normalize(line).strip()
+        if "preavis municipal" not in normalized_line:
+            continue
+        if expected_number and expected_year:
+            if f"{int(expected_number)}/{expected_year}" not in normalized_line and f"0{int(expected_number)}/{expected_year}" not in normalized_line:
+                continue
+        window = "\n".join(lines[index : index + 6])
+        parsed = parse_french_date(window)
+        if parsed:
+            return parsed
+
+    return date_after_pattern(text, r"pr[Ã©eée]avis municipal\s+n[Â°o]\s*\d{1,2}/20\d{2}")
+
+
+def extract_section_date(text: str, start_pattern: str, stop_pattern: str | None = None) -> str | None:
+    match = re.search(start_pattern, text, flags=re.I)
+    if not match:
+        return None
+    section_end = len(text)
+    if stop_pattern:
+        stop_match = re.search(stop_pattern, text[match.end() :], flags=re.I)
+        if stop_match:
+            section_end = match.end() + stop_match.start()
+    section = text[match.start() : section_end]
+    return parse_signature_date(section) or parse_french_date(section[:2500])
+
+
+def extract_report_date(text: str) -> str | None:
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        normalized_line = normalize(line).strip()
+        if not (
+            normalized_line.startswith("rapport de la commission")
+            or normalized_line.startswith("rapport de majorite")
+            or normalized_line.startswith("rapport de minorite")
+        ):
+            continue
+        section_lines = []
+        for section_line in lines[index:]:
+            normalized_section_line = normalize(section_line).strip()
+            if section_lines and normalized_section_line.startswith("preavis municipal"):
+                break
+            section_lines.append(section_line)
+        section = "\n".join(section_lines)
+        parsed = parse_signature_date(section) or parse_french_date(section[:2500])
+        if parsed:
+            return parsed
+    return None
+
+
+def extract_decision_date(text: str) -> str | None:
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        normalized_line = normalize(line).strip()
+        if "decision du conseil communal" not in normalized_line and normalized_line != "extrait":
+            continue
+        section = "\n".join(lines[index : index + 80])
+        if normalized_line == "extrait" and "conseil communal" not in normalize(section):
+            continue
+        parsed = parse_signature_date(section) or parse_french_date(section[:2500])
+        if parsed:
+            return parsed
+    return None
+
+
+def extract_component_dates(text: str, role: str, preavis_number: str | None) -> dict[str, str]:
+    preavis_date = extract_preavis_date(text, preavis_number)
+    report_date = extract_report_date(text)
+    decision_date = extract_decision_date(text)
+
+    dates = {}
+    if preavis_date:
+        dates["preavis_date"] = preavis_date
+    if report_date:
+        dates["report_date"] = report_date
+    if decision_date:
+        dates["decision_date"] = decision_date
+
+    if preavis_date:
+        dates["document_date"] = preavis_date
+    elif role == "commission_report" and report_date:
+        dates["document_date"] = report_date
+    elif role == "council_decision" and decision_date:
+        dates["document_date"] = decision_date
+    else:
+        fallback = parse_signature_date(text) or parse_french_date(text[:2500])
+        if fallback:
+            dates["document_date"] = fallback
+    return dates
 
 
 def collect_items() -> list[dict]:
@@ -311,7 +431,8 @@ def download_and_extract(item: dict) -> dict:
     components = infer_document_components(paged_text)
     role, report_type = infer_document_role(item["official_listing_label"], filename, text, components)
     title = infer_title(item, text, role, report_type, components)
-    document_date = parse_french_date(text[:2500])
+    component_dates = extract_component_dates(text, role, item.get("preavis_number"))
+    document_date = component_dates.get("document_date")
 
     txt_path.write_text(text + "\n", encoding="utf-8")
 
@@ -327,6 +448,7 @@ def download_and_extract(item: dict) -> dict:
         "contains_majority_report": any(component.get("report_type") == "majority_report" for component in components) or report_type == "majority_report",
         "contains_minority_report": any(component.get("report_type") == "minority_report" for component in components) or report_type == "minority_report",
         "document_date": document_date,
+        **component_dates,
         "pdf_path": str(pdf_path),
         "text_path": str(txt_path),
         "text_extraction_status": {

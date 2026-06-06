@@ -1,42 +1,58 @@
 {
+  "metadata_version": "metadata-audit-v2",
   "commune": "La Tour-de-Peilz",
-  "year": "2023",
   "category": "informations-diverses",
-  "filename": "Petition-desengagement-ASR-Rapp.pdf",
-  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2023/Petition-desengagement-ASR-Rapp.pdf",
-  "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=101",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Petition-desengagement-ASR-Rapp.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Petition-desengagement-ASR-Rapp.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "misc_information",
+  "content_kind": "petition_report",
+  "language": "fr",
+  "year": "2023",
   "listing_year": "2023",
-  "title": "Petition-desengagement-ASR-Rapp.pdf",
   "legislature": "2021-2026",
-  "search_facets": [
-    "informations_diverse",
-    "information_diverse",
-    "conseil_communal",
-    "mobilite_douce",
+  "filename": "Petition-desengagement-ASR-Rapp.pdf",
+  "title": "Petition-desengagement-ASR-Rapp.pdf",
+  "document_date": "2023-11-01",
+  "issuing_body": "Conseil communal",
+  "related_body": "Police Riviera / ASR",
+  "topic_tags": [
     "petition",
-    "desengagement",
-    "rapp",
-    "plr",
-    "psdg",
-    "lcivl",
-    "udc",
+    "police",
     "asr",
-    "sdis",
-    "chf"
+    "police_riviera",
+    "securite",
+    "proximite",
+    "corps_communal"
   ],
+  "search_facets": [
+    "petition",
+    "police",
+    "asr",
+    "police_riviera",
+    "securite",
+    "proximite",
+    "corps_communal",
+    "petition_report",
+    "conseil_communal",
+    "police_riviera_asr"
+  ],
+  "contains_calendar": true,
+  "contains_financial_amounts": true,
+  "contains_accounts": false,
+  "contains_decision": false,
+  "petition": {
+    "subject": "Desengagement de la commune de Police Riviera et demande d'un corps de police communal de proximite",
+    "target_body": "Conseil communal",
+    "related_services": [
+      "ASR",
+      "Police Riviera"
+    ],
+    "outcome": "reported"
+  },
   "text_extraction_status": {
     "characters_extracted": 56973,
     "text_available": true,
     "needs_ocr": false
   },
-  "misc_information": {
-    "contains_calendar": true,
-    "contains_linked_documents": false,
-    "contains_financial_amounts": true
-  },
-  "document_date": "2023-11-01"
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/informations-diverses/2023/Petition-desengagement-ASR-Rapp.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=101",
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Petition-desengagement-ASR-Rapp.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\informations-diverses\\Petition-desengagement-ASR-Rapp.txt"
 }
