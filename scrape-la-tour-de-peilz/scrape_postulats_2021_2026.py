@@ -463,7 +463,7 @@ def mark_agenda_linked_postulat_documents(canonical_results: list[dict]) -> list
                 "filename": related["filename"],
                 "pdf_url": related["pdf_url"],
             }
-            if not metadata.get("authors") and related.get("authors"):
+            if related.get("authors"):
                 metadata["authors"] = related["authors"]
             if not metadata.get("object_title") and (related.get("object_title") or related.get("summary")):
                 metadata["object_title"] = related.get("object_title") or related.get("summary")
