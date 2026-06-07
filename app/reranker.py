@@ -5,6 +5,18 @@ from collections import Counter
 from app.embeddings import cosine_similarity, embed_text
 
 
+def canonical_priority(metadata: dict) -> float:
+    if metadata.get("canonical_object") is False:
+        return -1.25
+    if str(metadata.get("source_collection", "")) == "ordre-du-jour-linked-document":
+        return -1.25
+    if metadata.get("canonical_object") is True:
+        return 1.5
+    if str(metadata.get("source_collection", "")) == "motions-postulats":
+        return 1.0
+    return 0.0
+
+
 def rerank_chunks(query: str, chunks: list[dict], limit: int = 12) -> list[dict]:
     if not chunks:
         return []
@@ -16,9 +28,13 @@ def rerank_chunks(query: str, chunks: list[dict], limit: int = 12) -> list[dict]
     for position, chunk in enumerate(chunks):
         content = str(chunk.get("content", ""))
         title = str(chunk.get("title", ""))
+        metadata = chunk.get("metadata") or {}
+        if not isinstance(metadata, dict):
+            metadata = {}
         combined_text = f"{title} {content}".lower()
         score = float(chunk.get("_score", 0.0))
         score += cosine_similarity(query_embedding, chunk.get("embedding", [])) * 2.0
+        score += canonical_priority(metadata)
         for token, count in query_tokens.items():
             if token in combined_text:
                 score += count * 0.25

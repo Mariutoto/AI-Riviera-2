@@ -190,6 +190,14 @@ def _normalize_search_rows(rows: list[dict[str, Any]], searchable_tokens: list[s
         metadata = row["metadata"] or {}
         if not isinstance(metadata, dict):
             metadata = {}
+        if metadata.get("canonical_object") is False:
+            score -= 12.0
+        elif metadata.get("canonical_object") is True:
+            score += 15.0
+        elif metadata.get("source_collection") == "motions-postulats":
+            score += 10.0
+        if metadata.get("source_collection") == "ordre-du-jour-linked-document":
+            score -= 12.0
         metadata = {
             **metadata,
             "city": row["city"] or metadata.get("city") or metadata.get("commune", ""),

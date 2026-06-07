@@ -11,6 +11,8 @@ Pour une question générale ou de synthèse, utilise les extraits comme échant
 Réponds dans la langue de la question, de façon concise, et cite les numéros de sources pertinents.
 Dans ce contexte communal, "vote", "voté" ou "votation" désignent par défaut les votes/décisions du Conseil communal ou de ses commissions. Ne les interprète comme référendum, scrutin populaire ou vote citoyen que si la question le demande explicitement.
 Les sources sont numérotées par document unique: plusieurs passages sous la même source ne sont pas des doublons."""
+SYSTEM_PROMPT += """
+Quand une source est marquée "source canonique", utilise-la en priorité pour identifier l'objet politique, son statut, ses auteurs et ses dates. Les sources marquées "document lié" servent seulement à compléter avec des détails de rapport, de commission ou de décision."""
 
 
 def get_secret(name: str, default: str | None = None) -> str | None:
@@ -77,12 +79,17 @@ def build_context(results: list[dict]) -> str:
         year = metadata.get("year") or metadata.get("date", "")
         category = metadata.get("category") or metadata.get("doc_type", "")
         url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
+        source_kind = ""
+        if metadata.get("canonical_object") is True:
+            source_kind = " | source canonique"
+        elif metadata.get("canonical_object") is False:
+            source_kind = " | document lié"
         passages = "\n\n".join(
             f"Passage {passage_index}:\n{passage.get('text') or passage.get('content', '')}"
             for passage_index, passage in enumerate(source["passages"], start=1)
         )
         blocks.append(
-            f"[Source {index}] {title} | {year} | {category} | {url}\n"
+            f"[Source {index}] {title} | {year} | {category}{source_kind} | {url}\n"
             f"{passages}"
         )
     return "\n\n---\n\n".join(blocks)
