@@ -97,9 +97,11 @@ def normalize(text: str) -> str:
 
 def clean_person_name(name: str) -> str:
     name = re.sub(r"\s+", " ", name).strip(" ,")
+    name = re.sub(r"\s*\([^)]+\)\s*$", "", name).strip(" ,")
     name = re.sub(r"\b(?:etant|étant)\s+excus[ée]e?\b.*$", "", name, flags=re.I).strip(" ,")
     for raw, fixed in OCR_NAME_FIXES.items():
         name = name.replace(raw, fixed)
+    name = " ".join(part.capitalize() if part.isupper() else part for part in name.split())
     return name
 
 
@@ -201,7 +203,7 @@ def merge_people(*groups: list[dict]) -> list[dict]:
             key = (name.casefold(), party)
             if key in seen:
                 continue
-            name_key = name.casefold()
+            name_key = strip_accents(name).casefold()
             if name_key in index_by_name:
                 existing_index = index_by_name[name_key]
                 existing_party = str(merged[existing_index].get("party") or "").strip()
@@ -248,6 +250,36 @@ def extract_motionnaire_people(text: str) -> list[dict]:
     return merge_people(people)
 
 
+def extract_people_with_parties(text: str) -> list[dict]:
+    text = re.sub(r"\s+", " ", text)
+    people = []
+    for match in re.finditer(r"([A-ZÉÈÀÂÄÇ][A-Za-zÀ-ÖØ-öø-ÿ' -]+?)\s*\(([A-Z0-9/-]{2,})\)", text):
+        name, party = match.groups()
+        name = re.sub(r"\b(?:et|,)\s*$", "", name, flags=re.I)
+        people.append({"name": clean_person_name(name), "party": party.strip()})
+    return merge_people(people)
+
+
+def extract_leading_motion_authors(text: str) -> list[dict]:
+    head = text[:1800]
+    motion_match = re.search(r"\bMotion\s*:\s*.*?(?:\n|$)([\s\S]{0,450}?)(?:On parle|Une majorit|Monsieur|Consid[ée]rant|Objectif|Un contexte|Par cette motion|La Tour-de-Peilz)", head, flags=re.I)
+    if not motion_match:
+        return []
+    return extract_people_with_parties(motion_match.group(1))
+
+
+def extract_group_respective_authors(text: str) -> list[dict]:
+    match = re.search(r"Pour leurs groupes respectifs\s*:\s*([^\n]+)", text, flags=re.I)
+    if not match:
+        return []
+    people = []
+    for raw_name in re.split(r"\s*,\s*", match.group(1)):
+        name = clean_person_name(raw_name)
+        if len(name.split()) >= 2:
+            people.append({"name": name})
+    return merge_people(people)
+
+
 def parse_authors_from_listing(label: str) -> list[dict]:
     head = re.sub(r"^\s*Motion\s+de\s+", "", label, flags=re.I)
     head = re.split(r"\s[-–]\s|\s\+\s", head, maxsplit=1)[0]
@@ -269,7 +301,12 @@ def parse_authors_from_listing(label: str) -> list[dict]:
 
 def extract_motion_authors(text: str, listing_authors: list[dict]) -> list[dict]:
     match = re.search(r"Motionnaires\s*:\s*([\s\S]{0,700}?)(?:La Tour-de-Peilz|Motion\s*:|Objectif|Monsieur|Madame)", text, flags=re.I)
-    authors = merge_people(listing_authors, extract_motionnaire_people(text))
+    authors = merge_people(
+        listing_authors,
+        extract_motionnaire_people(text),
+        extract_leading_motion_authors(text),
+        extract_group_respective_authors(text),
+    )
     if match:
         authors = merge_people(authors, extract_people(match.group(1)))
 
