@@ -34,7 +34,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Héraclès Dellas",
+      "civility": "M.",
+      "party": "UDC"
+    }
+  ],
   "political_object": {
     "type": "motion",
     "status": "depot",
@@ -57,7 +63,16 @@
   "related_canonical_motion": {
     "political_object_id": "motion-2024-pour-une-gouvernance-de-la-tour-de-peilz-a-7-conseillers-municipaux",
     "title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+    "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+    "authors": [
+      {
+        "name": "Héraclès Dellas",
+        "civility": "M.",
+        "party": "UDC"
+      }
+    ],
     "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf"
-  }
+  },
+  "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
 }

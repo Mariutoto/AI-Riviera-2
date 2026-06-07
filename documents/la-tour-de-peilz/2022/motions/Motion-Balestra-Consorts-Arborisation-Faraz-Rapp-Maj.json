@@ -33,7 +33,18 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Etienne Balestra",
+      "civility": "M.",
+      "party": "PSDG"
+    },
+    {
+      "name": "Geneviève Pasche",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "motion",
     "status": "depot",
@@ -56,7 +67,21 @@
   "related_canonical_motion": {
     "political_object_id": "motion-2022-un-engagement-pour-la-faraz",
     "title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+    "object_title": "Un engagement pour la Faraz",
+    "authors": [
+      {
+        "name": "Etienne Balestra",
+        "civility": "M.",
+        "party": "PSDG"
+      },
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
     "filename": "Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf"
-  }
+  },
+  "object_title": "Un engagement pour la Faraz"
 }

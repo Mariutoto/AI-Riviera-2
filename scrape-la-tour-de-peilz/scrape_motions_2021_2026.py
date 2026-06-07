@@ -188,6 +188,66 @@ def extract_people(text: str) -> list[dict]:
     return people
 
 
+def merge_people(*groups: list[dict]) -> list[dict]:
+    merged = []
+    seen = set()
+    index_by_name = {}
+    for group in groups:
+        for person in group or []:
+            name = clean_person_name(str(person.get("name") or ""))
+            if len(name.split()) < 2:
+                continue
+            party = str(person.get("party") or "").strip()
+            key = (name.casefold(), party)
+            if key in seen:
+                continue
+            name_key = name.casefold()
+            if name_key in index_by_name:
+                existing_index = index_by_name[name_key]
+                existing_party = str(merged[existing_index].get("party") or "").strip()
+                if existing_party or not party:
+                    continue
+                merged[existing_index] = {**person, "name": name, "party": party}
+                seen.add(key)
+                continue
+            seen.add(key)
+            cleaned = {**person, "name": name}
+            if party:
+                cleaned["party"] = party
+            index_by_name[name_key] = len(merged)
+            merged.append(cleaned)
+    return merged
+
+
+def extract_motionnaire_people(text: str) -> list[dict]:
+    match = re.search(r"Motionnaires\s*:\s*([\s\S]{0,900}?)(?:La Tour-de-Peilz|Motion\s*:|Objectif|Monsieur|Madame)", text, flags=re.I)
+    if not match:
+        return []
+
+    people = []
+    for raw_line in match.group(1).splitlines():
+        line = re.sub(r"\s+", " ", raw_line).strip(" ,-")
+        if not line:
+            continue
+
+        group_match = re.search(r"Pour le groupe\s+([A-Z0-9/-]{2,})\s*,?\s*(.+)", line, flags=re.I)
+        if group_match:
+            party, name = group_match.groups()
+            people.append({"name": clean_person_name(name), "party": party.upper(), "role": "group_representative"})
+            continue
+
+        party_match = re.search(r"(.+?)\s*\(([A-Z0-9/-]{2,})\)\s*$", line)
+        if party_match:
+            name, party = party_match.groups()
+            people.append({"name": clean_person_name(name), "party": party.strip()})
+            continue
+
+        if re.match(r"^[A-ZÉÈÀÂÄÇ][A-Za-zÀ-ÖØ-öø-ÿ' -]+ [A-ZÉÈÀÂÄÇ][A-Za-zÀ-ÖØ-öø-ÿ' -]+$", line):
+            people.append({"name": clean_person_name(line)})
+
+    return merge_people(people)
+
+
 def parse_authors_from_listing(label: str) -> list[dict]:
     head = re.sub(r"^\s*Motion\s+de\s+", "", label, flags=re.I)
     head = re.split(r"\s[-–]\s|\s\+\s", head, maxsplit=1)[0]
@@ -209,20 +269,27 @@ def parse_authors_from_listing(label: str) -> list[dict]:
 
 def extract_motion_authors(text: str, listing_authors: list[dict]) -> list[dict]:
     match = re.search(r"Motionnaires\s*:\s*([\s\S]{0,700}?)(?:La Tour-de-Peilz|Motion\s*:|Objectif|Monsieur|Madame)", text, flags=re.I)
-    authors = listing_authors[:]
+    authors = merge_people(listing_authors, extract_motionnaire_people(text))
     if match:
-        authors = extract_people(match.group(1)) or authors
+        authors = merge_people(authors, extract_people(match.group(1)))
 
     footer_match = re.search(r"Au nom des motionnaires,\s*([\s\S]{0,500})", text, flags=re.I)
     if footer_match:
-        by_footer = extract_people(footer_match.group(1))
-        seen = {(p["name"].casefold(), p.get("party", "")) for p in authors}
-        for person in by_footer:
-            key = (person["name"].casefold(), person.get("party", ""))
-            if key not in seen:
-                authors.append(person)
-                seen.add(key)
+        footer_people = extract_people(footer_match.group(1))
+        if not footer_people:
+            footer_name = re.split(r"\n|Au Conseil|Madame|Monsieur", footer_match.group(1), maxsplit=1)[0]
+            footer_name = clean_person_name(footer_name)
+            footer_people = [{"name": footer_name}] if len(footer_name.split()) >= 2 else []
+        authors = merge_people(authors, footer_people)
     return authors
+
+
+def extract_motion_object_title(text: str) -> str | None:
+    match = re.search(r"\bMotion\s*:\s*([\s\S]{0,260}?)(?:\n\s*\n|Un contexte|Au cours|En consid[ée]ration|$)", text, flags=re.I)
+    if not match:
+        return None
+    title = clean_french_text(re.sub(r"\s+", " ", match.group(1))).strip(" .:-")
+    return title or None
 
 
 def extract_commission_section(text: str) -> str | None:
@@ -502,6 +569,7 @@ def enrich_motion_metadata(item: dict, text: str) -> dict:
         or parse_french_date(text[:2500], default_year=item["listing_year"])
     )
     authors = extract_motion_authors(text, item["authors"])
+    object_title = extract_motion_object_title(text) or item.get("summary") or None
     search_facets = [
         "motion",
         "conseil_communal",
@@ -527,6 +595,8 @@ def enrich_motion_metadata(item: dict, text: str) -> dict:
         "source_subject": item["site_subject"],
         "canonical_source": SOURCE_PAGE,
     }
+    if object_title:
+        political_object["object_title"] = object_title
     if document_date:
         political_object["document_date"] = document_date
     if council_decision and council_decision.get("outcome"):
@@ -535,6 +605,7 @@ def enrich_motion_metadata(item: dict, text: str) -> dict:
     metadata = {
         **item,
         "authors": authors,
+        "object_title": object_title,
         "document_role": role,
         "report_type": report_type,
         "document_components": extract_document_components(text, role, report_type),
@@ -629,6 +700,12 @@ def mark_agenda_linked_motion_documents(canonical_results: list[dict]) -> list[d
             continue
 
         related = find_related_motion(metadata, canonical_results)
+        text = ""
+        text_path = Path(str(metadata.get("text_path") or json_path.with_suffix(".txt")))
+        if text_path.exists():
+            text = text_path.read_text(encoding="utf-8", errors="ignore")
+        extracted_authors = extract_motion_authors(text, metadata.get("authors") or []) if text else []
+        object_title = extract_motion_object_title(text) if text else None
         metadata["canonical_object"] = False
         metadata["source_collection"] = "ordre-du-jour-linked-document"
         metadata["linked_to_session"] = True
@@ -640,14 +717,27 @@ def mark_agenda_linked_motion_documents(canonical_results: list[dict]) -> list[d
             "source_page": source_page,
             "role": metadata.get("document_role") or metadata.get("type") or "motion_related_document",
         }
+        if extracted_authors:
+            metadata["authors"] = extracted_authors
+        if object_title:
+            metadata["object_title"] = object_title
+            metadata.setdefault("summary", object_title)
+            if isinstance(metadata.get("political_object"), dict):
+                metadata["political_object"]["object_title"] = object_title
         if related:
             metadata["related_political_object_id"] = related["political_object_id"]
             metadata["related_canonical_motion"] = {
                 "political_object_id": related["political_object_id"],
                 "title": related["site_listing_title"],
+                "object_title": related.get("object_title") or related.get("summary"),
+                "authors": related.get("authors") or [],
                 "filename": related["filename"],
                 "pdf_url": related["pdf_url"],
             }
+            if not metadata.get("authors") and related.get("authors"):
+                metadata["authors"] = related["authors"]
+            if not metadata.get("object_title") and (related.get("object_title") or related.get("summary")):
+                metadata["object_title"] = related.get("object_title") or related.get("summary")
         json_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         updated.append({"path": str(json_path), "related_political_object_id": metadata.get("related_political_object_id")})
     return updated

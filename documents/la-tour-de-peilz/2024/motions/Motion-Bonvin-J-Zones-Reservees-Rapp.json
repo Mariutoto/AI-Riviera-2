@@ -38,6 +38,23 @@
     {
       "name": "Jérôme Bonvin",
       "party": "LCIVL"
+    },
+    {
+      "name": "Véronique Ansermet",
+      "party": "LV"
+    },
+    {
+      "name": "Michel Bloch",
+      "party": "PSDG"
+    },
+    {
+      "name": "Guillaume Jung",
+      "party": "UDC"
+    },
+    {
+      "name": "Viviane Huber",
+      "party": "LTDPL",
+      "role": "group_representative"
     }
   ],
   "political_object": {
@@ -47,7 +64,8 @@
     "decision_body": "Conseil communal",
     "document_date": "2022-08-30",
     "request_type": "binding_request",
-    "contains_budget_impact": false
+    "contains_budget_impact": false,
+    "object_title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz"
   },
   "document_date": "2022-08-30",
   "canonical_object": false,
@@ -62,7 +80,34 @@
   "related_canonical_motion": {
     "political_object_id": "motion-2024-freiner-les-constructions-et-preserver-le-patrimoine-dans-la-commune-de-la-tour-de-peilz",
     "title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+    "object_title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+    "authors": [
+      {
+        "name": "Jérôme Bonvin",
+        "civility": "M.",
+        "party": "LCIVL"
+      },
+      {
+        "name": "Véronique Ansermet",
+        "party": "LV"
+      },
+      {
+        "name": "Michel Bloch",
+        "party": "PSDG"
+      },
+      {
+        "name": "Guillaume Jung",
+        "party": "UDC"
+      },
+      {
+        "name": "Viviane Huber",
+        "party": "LTDPL",
+        "role": "group_representative"
+      }
+    ],
     "filename": "Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf"
-  }
+  },
+  "object_title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+  "summary": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz"
 }

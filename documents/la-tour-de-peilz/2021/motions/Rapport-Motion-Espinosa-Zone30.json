@@ -30,7 +30,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "José Espinosa",
+      "civility": "M.",
+      "party": "hors parti"
+    }
+  ],
   "political_object": {
     "type": "motion",
     "status": "depot",
@@ -53,7 +59,16 @@
   "related_canonical_motion": {
     "political_object_id": "motion-2021-zone-51-non-zone-30-la-tour-de-peilz",
     "title": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+    "object_title": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+    "authors": [
+      {
+        "name": "José Espinosa",
+        "civility": "M.",
+        "party": "hors parti"
+      }
+    ],
     "filename": "Motion-Espinosa-Zone30-Rapp-Dec.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf"
-  }
+  },
+  "object_title": "Zone 51 ? Non, zone 30 La Tour-de-Peilz"
 }
