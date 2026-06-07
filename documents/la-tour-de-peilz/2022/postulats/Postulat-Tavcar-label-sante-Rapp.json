@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-Tavcar-label-sante-Rapp.pdf",
@@ -30,7 +30,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Ziva Tavcar",
+      "civility": "Mme",
+      "party": "PSDG"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -40,5 +46,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": true
   },
-  "document_date": "2022-09-22"
+  "document_date": "2022-09-22",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=93",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+    "title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+    "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+    "authors": [
+      {
+        "name": "Ziva Tavcar",
+        "civility": "Mme",
+        "party": "PSDG"
+      }
+    ],
+    "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf"
+  },
+  "object_title": "Promouvoir et développer le bien-être des Boéland·es"
 }

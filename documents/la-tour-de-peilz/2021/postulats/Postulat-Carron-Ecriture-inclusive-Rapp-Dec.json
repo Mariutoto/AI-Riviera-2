@@ -1,54 +1,106 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2021",
   "listing_year": "2021",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Célia Carron (PS) + rapport + décision",
   "summary": "Cent femmes et un chien sont revenus contents de la plage.",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Carron-Ecriture-inclusive-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "rapport",
-    "decision",
-    "cent",
-    "femmes",
-    "chien",
-    "revenus",
-    "contents",
-    "plage",
-    "plr",
-    "udc",
-    "pdc"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 12159,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-cent-femmes-et-un-chien-sont-revenus-contents-de-la-plage",
+  "site_listing_title": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+  "site_subject": "Cent femmes et un chien sont revenus contents de la plage.",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Célia Carron",
+      "civility": "Mme",
       "party": "PS"
     }
   ],
+  "object_title": "Cent femmes et un chien sont revenus contents de la plage.",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2020-10-15",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-cent-femmes-et-un-chien-sont-revenus-contents-de-la-plage",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+    "source_subject": "Cent femmes et un chien sont revenus contents de la plage.",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Cent femmes et un chien sont revenus contents de la plage.",
     "document_date": "2020-10-15",
-    "request_type": "study_and_report",
-    "contains_budget_impact": false
+    "decision_status": "adopted"
   },
-  "document_date": "2020-10-15"
+  "search_facets": [
+    "cent",
+    "chien",
+    "commission_report",
+    "conseil_communal",
+    "contents",
+    "femmes",
+    "municipalite",
+    "plage",
+    "postulat",
+    "ps",
+    "report_and_decision_available",
+    "revenus",
+    "sont",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 12150,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "jeudi 18 mars 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Célia Carron (PS)",
+      "date": "2021-03-18",
+      "time": "19:30"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2021-05-05",
+    "decision_date": "2021-05-06",
+    "outcome": "adopted",
+    "vote": {
+      "raw": "adopté à une très large majorité (15 avis contraires et trois abstentions).",
+      "result": "large_majority",
+      "contrary_votes_raw": "15 avis contraires et trois abstentions"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Carron-Ecriture-inclusive-Rapp-Dec.txt"
 }

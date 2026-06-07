@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-Neveu-Decheterie-Rapp.pdf",
@@ -39,7 +39,33 @@
     "decision_body": "Conseil communal",
     "document_date": "2022-02-14",
     "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "contains_budget_impact": true,
+    "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les"
   },
-  "document_date": "2022-02-14"
+  "document_date": "2022-02-14",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=88",
+    "role": "postulat"
+  },
+  "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+  "summary": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+  "related_political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+    "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+    "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+    "authors": [
+      {
+        "name": "Julien Neveu",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf"
+  }
 }

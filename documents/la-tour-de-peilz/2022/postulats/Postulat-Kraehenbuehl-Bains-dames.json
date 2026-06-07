@@ -1,53 +1,80 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2022",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
   "summary": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
-  "status": "Renvoyé directement à la Municipalité",
   "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+  "site_listing_title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+  "site_subject": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+  "site_status_raw": "Renvoyé directement à la Municipalité",
+  "status": "Renvoyé directement à la Municipalité",
+  "status_normalized": "referred_directly_to_municipality",
+  "authors": [
+    {
+      "name": "Yvan Krähenbühl",
+      "civility": "M.",
+      "party": "PLR"
+    }
+  ],
+  "object_title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+  "document_role": "postulat_text",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-02-28",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+    "status_raw": "Renvoyé directement à la Municipalité",
+    "status_normalized": "referred_directly_to_municipality",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+    "source_subject": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+    "document_date": "2022-02-28"
+  },
   "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "plr",
     "bain",
+    "conseil_communal",
     "dames",
     "endroit",
     "magnifique",
     "merite",
+    "municipalite",
+    "plr",
+    "postulat",
+    "postulat_text",
     "quelques",
-    "reflexions",
-    "bpa",
-    "riviera"
+    "referred_directly_to_municipality",
+    "reflexions"
   ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
-    "characters_extracted": 6779,
+    "characters_extracted": 6774,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [
-    {
-      "name": "Yvan Krähenbühl",
-      "party": "PLR"
-    }
-  ],
-  "political_object": {
-    "type": "postulat",
-    "status": "Renvoyé directement à la Municipalité",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2022-02-28",
-    "request_type": "study_and_report",
-    "contains_budget_impact": false
-  },
-  "document_date": "2022-02-28"
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt"
 }

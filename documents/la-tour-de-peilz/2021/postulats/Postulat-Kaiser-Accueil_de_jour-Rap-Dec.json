@@ -1,55 +1,97 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2021",
   "listing_year": "2021",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
   "summary": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Kaiser-Accueil_de_jour-Rap-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "mobilite_douce",
-    "accueil_de_jour",
-    "rapport",
-    "decision",
-    "accueil",
-    "jour",
-    "enfants",
-    "adaptes",
-    "besoins",
-    "actuels",
-    "futurs",
-    "reve"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 15903,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs",
+  "site_listing_title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+  "site_subject": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Elise Kaiser",
+      "civility": "Mme",
       "party": "LV"
     }
   ],
+  "object_title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-03-03",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-02-10",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+    "source_subject": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+    "document_date": "2021-03-03",
+    "decision_status": "referred_to_municipality"
   },
-  "document_date": "2021-02-10"
+  "search_facets": [
+    "accueil",
+    "actuels",
+    "adaptes",
+    "besoins",
+    "commission_report",
+    "conseil_communal",
+    "enfants",
+    "futurs",
+    "jour",
+    "lv",
+    "municipalite",
+    "postulat",
+    "pour",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 15883,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2021-03-24",
+    "decision_date": "2021-03-25",
+    "outcome": "referred_to_municipality"
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Kaiser-Accueil_de_jour-Rap-Dec.txt"
 }

@@ -1,53 +1,97 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2023",
   "listing_year": "2023",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
   "summary": "GastroVert pour tous les ménages à la Tour-de-Peilz",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "plr",
-    "rapport",
-    "decision",
-    "gastrovert",
-    "menages",
-    "tour",
-    "peilz",
-    "ofev",
-    "chf",
-    "extrait"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 11288,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2023-gastrovert-pour-tous-les-menages-a-la-tour-de-peilz",
+  "site_listing_title": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+  "site_subject": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Christine Hausherr-de Maddalena",
+      "civility": "Mme",
       "party": "PLR"
     }
   ],
+  "object_title": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2023-06-05",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2023-gastrovert-pour-tous-les-menages-a-la-tour-de-peilz",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+    "source_subject": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "GastroVert pour tous les ménages à la Tour-de-Peilz",
     "document_date": "2023-06-05",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "decision_status": "adopted"
   },
-  "document_date": "2023-06-05"
+  "search_facets": [
+    "commission_report",
+    "conseil_communal",
+    "gastrovert",
+    "menages",
+    "municipalite",
+    "peilz",
+    "plr",
+    "postulat",
+    "pour",
+    "report_and_decision_available",
+    "standard_report",
+    "tour",
+    "tous"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 11278,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2023-09-13",
+    "decision_date": "2023-09-13",
+    "outcome": "adopted",
+    "vote": {
+      "raw": "adopté à une large majorité (six avis contraires et sept abstentions).",
+      "result": "large_majority",
+      "contrary_votes_raw": "six avis contraires et sept abstentions"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.txt"
 }

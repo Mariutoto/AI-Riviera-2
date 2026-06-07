@@ -1,47 +1,75 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2024",
   "listing_year": "2024",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
   "summary": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
-  "status": null,
   "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "ltdpl",
-    "gouvernance",
-    "excellence",
-    "renforcement",
-    "formation",
-    "conseillers"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 4629,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+  "site_listing_title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+  "site_subject": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+  "status_normalized": "unknown",
   "authors": [
     {
       "name": "Yann Boulben Meyer",
+      "civility": "M.",
       "party": "LTDPL"
     }
   ],
+  "object_title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+  "document_role": "council_decision",
+  "document_components": [
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
   "political_object": {
     "type": "postulat",
-    "status": "depot",
+    "object_type": "postulat",
+    "object_id": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+    "status_normalized": "unknown",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "request_type": "study_and_report",
-    "contains_budget_impact": false
-  }
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+    "source_subject": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux"
+  },
+  "search_facets": [
+    "communaux",
+    "conseil_communal",
+    "conseillers",
+    "council_decision",
+    "excellence",
+    "formation",
+    "gouvernance",
+    "ltdpl",
+    "municipalite",
+    "postulat",
+    "pour",
+    "renforcement",
+    "unknown"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 4627,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt"
 }

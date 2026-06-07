@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-Neveu-Decheterie.pdf",
@@ -24,7 +24,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Julien Neveu",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -32,5 +38,29 @@
     "decision_body": "Conseil communal",
     "request_type": "study",
     "contains_budget_impact": true
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=87",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+    "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+    "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+    "authors": [
+      {
+        "name": "Julien Neveu",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf"
+  },
+  "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les"
 }

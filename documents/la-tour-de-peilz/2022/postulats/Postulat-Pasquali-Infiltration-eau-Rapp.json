@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-Pasquali-Infiltration-eau-Rapp.pdf",
@@ -41,7 +41,33 @@
     "decision_body": "Conseil communal",
     "document_date": "2022-03-29",
     "request_type": "study_and_report",
-    "contains_budget_impact": false
+    "contains_budget_impact": false,
+    "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement"
   },
-  "document_date": "2022-03-29"
+  "document_date": "2022-03-29",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=89",
+    "role": "postulat"
+  },
+  "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+  "summary": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+  "related_political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+    "title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+    "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+    "authors": [
+      {
+        "name": "Diego Pasquali",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf"
+  }
 }

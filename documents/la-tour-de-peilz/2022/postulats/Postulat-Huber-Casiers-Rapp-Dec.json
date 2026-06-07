@@ -1,53 +1,103 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2021",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
   "summary": "Des casiers pour éviter des vols",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "ltdpl",
-    "rapport",
-    "decision",
-    "casiers",
-    "eviter",
-    "vols",
-    "usb",
-    "plr",
-    "lcivl",
-    "udc"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 9237,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+  "site_listing_title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+  "site_subject": "Des casiers pour éviter des vols",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Viviane Huber",
+      "civility": "Mme",
       "party": "LTDPL"
     }
   ],
+  "object_title": "Des casiers pour éviter des vols",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-11-14",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-12-08",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+    "source_subject": "Des casiers pour éviter des vols",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Des casiers pour éviter des vols",
+    "document_date": "2021-11-14",
+    "decision_status": "referred_to_municipality"
   },
-  "document_date": "2021-12-08"
+  "search_facets": [
+    "casiers",
+    "commission_report",
+    "conseil_communal",
+    "eviter",
+    "ltdpl",
+    "municipalite",
+    "postulat",
+    "pour",
+    "report_and_decision_available",
+    "standard_report",
+    "vols"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 9229,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "jeudi 20 janvier 2022 à 19h30 en salle 2 de la maison de commune",
+      "date": "2022-01-20",
+      "time": "19:30"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-03-23",
+    "decision_date": "2022-03-24",
+    "outcome": "referred_to_municipality",
+    "vote": {
+      "raw": "adopté à une large majorité (onze avis contraires et treize abstentions).",
+      "result": "large_majority",
+      "contrary_votes_raw": "onze avis contraires et treize abstentions"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt"
 }

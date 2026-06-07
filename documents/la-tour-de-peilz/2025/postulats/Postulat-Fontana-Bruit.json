@@ -1,55 +1,75 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2025",
   "listing_year": "2025",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
   "summary": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
-  "status": "Retiré par le postulant",
   "filename": "Postulat-Fontana-Bruit.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "zone_30",
-    "retire",
-    "postulant",
-    "souffle",
-    "casse",
-    "oreilles",
-    "pousse",
-    "agir",
-    "luttons",
-    "contre",
-    "bruit",
-    "meilleur"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 10157,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+  "site_listing_title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+  "site_subject": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+  "status_normalized": "unknown",
   "authors": [
     {
       "name": "Pierre Fontana",
+      "civility": "M.",
       "party": "LV"
     }
   ],
+  "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+  "document_role": "postulat_text",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
   "political_object": {
     "type": "postulat",
-    "status": "Retiré par le postulant",
+    "object_type": "postulat",
+    "object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+    "status_normalized": "unknown",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2024-05-22",
-    "request_type": "study",
-    "contains_budget_impact": false
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+    "source_subject": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble"
   },
-  "document_date": "2024-05-22"
+  "search_facets": [
+    "agir",
+    "casse",
+    "conseil_communal",
+    "lv",
+    "municipalite",
+    "nous",
+    "oreilles",
+    "postulat",
+    "postulat_text",
+    "pousse",
+    "quand",
+    "souffle",
+    "unknown"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 10197,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt"
 }

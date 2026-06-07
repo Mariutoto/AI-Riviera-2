@@ -1,48 +1,107 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2021",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
   "summary": "Vote électronique au conseil communal",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "tour",
-    "peilz",
-    "libre",
-    "rapport",
-    "decision",
-    "vote",
-    "electronique",
-    "jho",
-    "odj",
-    "bases"
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+  "site_listing_title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+  "site_subject": "Vote électronique au conseil communal",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "La Tour-de-Peilz Libre",
+      "party": "LTDPL",
+      "role": "group"
+    }
   ],
+  "object_title": "Vote électronique au conseil communal",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-03-08",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+    "source_subject": "Vote électronique au conseil communal",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Vote électronique au conseil communal",
+    "document_date": "2022-03-08",
+    "decision_status": "referred_to_municipality"
+  },
+  "search_facets": [
+    "commission_report",
+    "communal",
+    "conseil",
+    "conseil_communal",
+    "electronique",
+    "ltdpl",
+    "municipalite",
+    "postulat",
+    "report_and_decision_available",
+    "standard_report",
+    "vote"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
-    "characters_extracted": 8808,
+    "characters_extracted": 8785,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
-  "political_object": {
-    "type": "postulat",
-    "status": "Rapport/décision inclus",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2021-11-09",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+  "commission": {
+    "meeting": {
+      "raw": "lundi 7 mars 2022 afin d'étudier le postulat cité en titre",
+      "date": "2022-03-07"
+    },
+    "recommendation": {
+      "recommendation": "support_motion",
+      "vote": {
+        "raw": "à l'unanimité moins une abstention",
+        "unanimous": true,
+        "exceptions": "une abstention"
+      }
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
   },
-  "document_date": "2021-11-09"
+  "decision": {
+    "session_date": "2022-03-23",
+    "decision_date": "2022-03-24",
+    "outcome": "referred_to_municipality",
+    "vote": {
+      "raw": "adopté à une large majorité (douze avis contraires et quatre abstentions).",
+      "result": "large_majority",
+      "contrary_votes_raw": "douze avis contraires et quatre abstentions"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt"
 }

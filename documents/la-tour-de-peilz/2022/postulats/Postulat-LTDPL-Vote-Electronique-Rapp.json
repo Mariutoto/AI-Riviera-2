@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-LTDPL-Vote-Electronique-Rapp.pdf",
@@ -32,7 +32,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "La Tour-de-Peilz Libre",
+      "party": "LTDPL",
+      "role": "group"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -42,5 +48,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": true
   },
-  "document_date": "2021-11-09"
+  "document_date": "2021-11-09",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=88",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+    "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+    "object_title": "Vote électronique au conseil communal",
+    "authors": [
+      {
+        "name": "La Tour-de-Peilz Libre",
+        "party": "LTDPL",
+        "role": "group"
+      }
+    ],
+    "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf"
+  },
+  "object_title": "Vote électronique au conseil communal"
 }

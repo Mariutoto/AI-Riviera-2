@@ -1,45 +1,74 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2023",
   "listing_year": "2023",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Florian Abbet (LV)",
   "summary": "Une salle du Conseil à la hauteur des défis de notre commune",
-  "status": null,
   "filename": "Postulat-Abbet-Salle-Conseil.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "salle",
-    "hauteur",
-    "defis",
-    "notre"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 3256,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+  "site_listing_title": "Postulat de M. Florian Abbet (LV)",
+  "site_subject": "Une salle du Conseil à la hauteur des défis de notre commune",
+  "status_normalized": "unknown",
   "authors": [
     {
       "name": "Florian Abbet",
+      "civility": "M.",
       "party": "LV"
     }
   ],
+  "object_title": "Une salle du Conseil à la hauteur des défis de notre commune",
+  "document_role": "council_decision",
+  "document_components": [
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
   "political_object": {
     "type": "postulat",
-    "status": "depot",
+    "object_type": "postulat",
+    "object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+    "status_normalized": "unknown",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "request_type": "study",
-    "contains_budget_impact": false
-  }
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Florian Abbet (LV)",
+    "source_subject": "Une salle du Conseil à la hauteur des défis de notre commune",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Une salle du Conseil à la hauteur des défis de notre commune"
+  },
+  "search_facets": [
+    "commune",
+    "conseil",
+    "conseil_communal",
+    "council_decision",
+    "defis",
+    "hauteur",
+    "lv",
+    "municipalite",
+    "notre",
+    "postulat",
+    "salle",
+    "unknown"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 3254,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt"
 }

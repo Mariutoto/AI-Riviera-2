@@ -1,54 +1,106 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2024",
   "listing_year": "2024",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
   "summary": "La durabilité – un défi qui nous concerne tous",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "developpement_durable",
-    "plr",
-    "rapport",
-    "decision",
-    "durabilite",
-    "defi",
-    "concerne",
-    "pecc",
-    "ltdpl",
-    "udc",
-    "lcivl"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 11334,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous",
+  "site_listing_title": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+  "site_subject": "La durabilité – un défi qui nous concerne tous",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
-      "name": "Janina Rioux et M. Michel Chappuis",
+      "name": "Janina Rioux",
+      "civility": "Mme",
+      "party": "PLR"
+    },
+    {
+      "name": "Michel Chappuis",
+      "civility": "M.",
       "party": "PLR"
     }
   ],
+  "object_title": "La durabilité - un défi qui nous concerne tous",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2024-12-11",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2024-10-30",
-    "request_type": "study_and_report",
-    "contains_budget_impact": false
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+    "source_subject": "La durabilité – un défi qui nous concerne tous",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "La durabilité - un défi qui nous concerne tous",
+    "document_date": "2024-12-11",
+    "decision_status": "adopted"
   },
-  "document_date": "2024-10-30"
+  "search_facets": [
+    "commission_report",
+    "concerne",
+    "conseil_communal",
+    "defi",
+    "durabilite",
+    "municipalite",
+    "nous",
+    "plr",
+    "postulat",
+    "report_and_decision_available",
+    "standard_report",
+    "tous"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 11305,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "lundi 18 novembre 2024, à 19h30, en Salle 1 de la Maison de Commune : Elle était composée de :",
+      "date": "2024-11-18",
+      "time": "19:30"
+    },
+    "rapporteur": "Viviane Huber",
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2024-12-11",
+    "decision_date": "2024-12-11",
+    "outcome": "adopted",
+    "vote": {
+      "raw": "adopté à la majorité (quatre avis contraires et deux abstentions).",
+      "contrary_votes_raw": "quatre avis contraires et deux abstentions"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp-Dec.txt"
 }

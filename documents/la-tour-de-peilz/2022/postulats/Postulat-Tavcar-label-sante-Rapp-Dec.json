@@ -1,53 +1,95 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2022",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
   "summary": "Promouvoir et développer le bien-être des Boéland·es",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "psdg",
-    "rapport",
-    "decision",
-    "promouvoir",
-    "developper",
-    "bien",
-    "boeland",
-    "plr",
-    "lcivl",
-    "udc"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 8867,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+  "site_listing_title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+  "site_subject": "Promouvoir et développer le bien-être des Boéland·es",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Ziva Tavcar",
+      "civility": "Mme",
       "party": "PSDG"
     }
   ],
+  "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-10-02",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-09-22",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+    "source_subject": "Promouvoir et développer le bien-être des Boéland·es",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+    "document_date": "2022-10-02",
+    "decision_status": "adopted"
   },
-  "document_date": "2022-09-22"
+  "search_facets": [
+    "bien",
+    "boeland",
+    "commission_report",
+    "conseil_communal",
+    "developper",
+    "etre",
+    "municipalite",
+    "postulat",
+    "promouvoir",
+    "psdg",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 8861,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "22 septembre 2022 et était composée comme suit : Mesdames Gabrielle Heller (LV), présidente",
+      "date": "2022-09-22"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-11-02",
+    "decision_date": "2022-11-03",
+    "outcome": "adopted"
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.txt"
 }

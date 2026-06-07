@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2023",
   "title": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf",
@@ -34,7 +34,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Niklas Tiemann",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -44,5 +50,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": true
   },
-  "document_date": "2023-02-21"
+  "document_date": "2023-02-21",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=95",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+    "title": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+    "object_title": "Pour des subventions mobilité répandues et efficaces",
+    "authors": [
+      {
+        "name": "Niklas Tiemann",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf"
+  },
+  "object_title": "Pour des subventions mobilité répandues et efficaces"
 }

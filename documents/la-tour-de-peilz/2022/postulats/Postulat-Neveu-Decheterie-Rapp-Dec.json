@@ -1,51 +1,96 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2022",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
   "summary": "Une déchèterie, pas un grand écopoint",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "rapport",
-    "decision",
-    "decheterie",
-    "grand",
-    "ecopoint",
-    "ept",
-    "pet",
-    "extrait"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 10312,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+  "site_listing_title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+  "site_subject": "Une déchèterie, pas un grand écopoint",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Julien Neveu",
+      "civility": "M.",
       "party": "LV"
     }
   ],
+  "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-02-28",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-02-14",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+    "source_subject": "Une déchèterie, pas un grand écopoint",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+    "document_date": "2022-02-28",
+    "decision_status": "referred_to_municipality"
   },
-  "document_date": "2022-02-14"
+  "search_facets": [
+    "commission_report",
+    "conseil_communal",
+    "decheterie",
+    "ecopoint",
+    "grand",
+    "lv",
+    "municipalite",
+    "postulat",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 10304,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "14 février 2022",
+      "date": "2022-02-14"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-03-23",
+    "decision_date": "2022-03-24",
+    "outcome": "referred_to_municipality"
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt"
 }

@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Rioux-Durabilite-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2024",
   "title": "Postulat-Rioux-Durabilite-Rapp.pdf",
@@ -31,7 +31,18 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Janina Rioux",
+      "civility": "Mme",
+      "party": "PLR"
+    },
+    {
+      "name": "M. Michel Chappuis",
+      "civility": "Mme",
+      "party": "PLR"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -39,7 +50,38 @@
     "decision_body": "Conseil communal",
     "document_date": "2024-11-18",
     "request_type": "study_and_report",
-    "contains_budget_impact": false
+    "contains_budget_impact": false,
+    "object_title": "La durabilité - un défi qui nous concerne tous"
   },
-  "document_date": "2024-11-18"
+  "document_date": "2024-11-18",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=110",
+    "role": "postulat"
+  },
+  "object_title": "La durabilité - un défi qui nous concerne tous",
+  "summary": "La durabilité - un défi qui nous concerne tous",
+  "related_political_object_id": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous",
+    "title": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+    "object_title": "La durabilité - un défi qui nous concerne tous",
+    "authors": [
+      {
+        "name": "Janina Rioux",
+        "civility": "Mme",
+        "party": "PLR"
+      },
+      {
+        "name": "Michel Chappuis",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "filename": "Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf"
+  }
 }

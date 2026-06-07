@@ -1,54 +1,104 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "postulat",
+  "document_type": "postulat",
   "year": "2022",
   "listing_year": "2022",
   "category": "postulats",
   "legislature": "2021-2026",
   "title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
   "summary": "Infiltration d'eau : une aubaine en ville",
-  "status": "Rapport/décision inclus",
   "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_postulate",
-  "search_facets": [
-    "postulat",
-    "conseil_communal",
-    "rapport",
-    "decision",
-    "infiltration",
-    "aubaine",
-    "ville",
-    "pga",
-    "sutp",
-    "chocat",
-    "insa",
-    "cos",
-    "extrait"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 7963,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+  "site_listing_title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+  "site_subject": "Infiltration d'eau : une aubaine en ville",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
   "authors": [
     {
       "name": "Diego Pasquali",
+      "civility": "M.",
       "party": "LV"
     }
   ],
+  "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+  "document_role": "commission_report",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-03-31",
   "political_object": {
     "type": "postulat",
-    "status": "Rapport/décision inclus",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-01-31",
-    "request_type": "study_and_report",
-    "contains_budget_impact": true
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+    "source_subject": "Infiltration d'eau : une aubaine en ville",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+    "document_date": "2022-03-31",
+    "decision_status": "adopted"
   },
-  "document_date": "2022-01-31"
+  "search_facets": [
+    "aubaine",
+    "commission_report",
+    "conseil_communal",
+    "infiltration",
+    "lv",
+    "municipalite",
+    "postulat",
+    "report_and_decision_available",
+    "standard_report",
+    "ville"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 7957,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "29 mars 2022",
+      "date": "2022-03-29"
+    },
+    "recommendation": {
+      "recommendation": "support_motion",
+      "vote": {
+        "raw": "à l'unanimité",
+        "unanimous": true
+      }
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-05-11",
+    "decision_date": "2022-05-12",
+    "outcome": "adopted",
+    "vote": {
+      "raw": "adopté à une large majorité (quatre abstentions).",
+      "result": "large_majority"
+    }
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.txt"
 }

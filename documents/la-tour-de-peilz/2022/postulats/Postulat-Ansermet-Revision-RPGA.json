@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2022",
   "title": "Postulat-Ansermet-Revision-RPGA.pdf",
@@ -48,5 +48,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": false
   },
-  "document_date": "2022-11-02"
+  "document_date": "2022-11-02",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=93",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+    "title": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+    "object_title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf"
+  },
+  "object_title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels"
 }

@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2025",
   "title": "Postulat-Fontana-Bruit-Rapp.pdf",
@@ -34,7 +34,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Pierre Fontana",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -44,5 +50,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": false
   },
-  "document_date": "2025-11-11"
+  "document_date": "2025-11-11",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=118",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+    "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+    "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+    "authors": [
+      {
+        "name": "Pierre Fontana",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Fontana-Bruit.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf"
+  },
+  "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble"
 }

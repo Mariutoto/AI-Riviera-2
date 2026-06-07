@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Rapport-Postulat-Abbet-Salle-Conseil.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Rapport-Postulat-Abbet-Salle-Conseil.txt",
   "type": "postulat",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_postulate",
   "listing_year": "2023",
   "title": "Rapport-Postulat-Abbet-Salle-Conseil.pdf",
@@ -32,7 +32,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Florian Abbet",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "postulat",
     "status": "depot",
@@ -42,5 +48,29 @@
     "request_type": "study_and_report",
     "contains_budget_impact": true
   },
-  "document_date": "2023-10-02"
+  "document_date": "2023-10-02",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "postulat",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=99",
+    "role": "postulat"
+  },
+  "related_political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+  "related_canonical_postulat": {
+    "political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+    "title": "Postulat de M. Florian Abbet (LV)",
+    "object_title": "Une salle du Conseil à la hauteur des défis de notre commune",
+    "authors": [
+      {
+        "name": "Florian Abbet",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf"
+  },
+  "object_title": "Une salle du Conseil à la hauteur des défis de notre commune"
 }
