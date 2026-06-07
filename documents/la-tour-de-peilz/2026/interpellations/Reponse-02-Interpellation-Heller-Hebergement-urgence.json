@@ -7,7 +7,7 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-02-Interpellation-Heller-Hebergement-urgence.txt",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2026",
   "title": "Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf",
@@ -30,7 +30,18 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Gabrielle Heller",
+      "civility": "Mme",
+      "party": "LV"
+    },
+    {
+      "name": "Alexandre Davel",
+      "civility": "M.",
+      "party": "PSDG"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -43,5 +54,37 @@
     "question_count": 0,
     "expects_municipal_answer": true
   },
-  "document_date": "2026-02-11"
+  "document_date": "2026-02-11",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "type": "interpellation",
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2025-personne-ne-doit-dormir-dehors-quel-hebergement-d-urgence-pour-les-sans-abris-de-l-est-vau",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2025-personne-ne-doit-dormir-dehors-quel-hebergement-d-urgence-pour-les-sans-abris-de-l-est-vau",
+    "title": "Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) + Réponse",
+    "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?",
+    "authors": [
+      {
+        "name": "Gabrielle Heller",
+        "civility": "Mme",
+        "party": "LV"
+      },
+      {
+        "name": "Alexandre Davel",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "filename": "Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Heller-Hebergement-urgence-Rep.pdf"
+  },
+  "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?"
 }

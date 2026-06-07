@@ -1,67 +1,81 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2024",
   "listing_year": "2024",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti)",
   "summary": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
-  "status": null,
   "filename": "Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Arnaud-Camping-cars-Bourg-Quai.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2024-que-faire-des-camping-cars-en-ville-specialement-dans-le-bourg-et-le-long-du-quai",
+  "site_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti)",
+  "site_subject": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+  "status_normalized": "filed",
+  "authors": [
+    {
+      "name": "Anne-Marie Arnaud",
+      "civility": "Mme",
+      "party": "hors parti"
+    }
+  ],
+  "object_title": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2024-06-26",
+  "political_object": {
+    "type": "interpellation",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2024-que-faire-des-camping-cars-en-ville-specialement-dans-le-bourg-et-le-long-du-quai",
+    "status_normalized": "filed",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti)",
+    "source_subject": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+    "document_date": "2024-06-26"
+  },
   "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "anne",
-    "marie",
-    "arnaud",
-    "hors",
-    "parti",
+    "bourg",
     "camping",
     "cars",
-    "ville",
-    "specialement",
-    "bourg",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "dans",
+    "faire",
+    "filed",
+    "hors_parti",
+    "interpellation",
     "long",
-    "quai"
+    "municipalite",
+    "reponse",
+    "specialement",
+    "ville"
   ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
     "characters_extracted": 1959,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [
-    {
-      "name": "Blank Barbezat m'a autorisée à intervenir au sujet de ce document si cela me paraissait",
-      "party": null
-    }
-  ],
-  "political_object": {
-    "type": "interpellation",
-    "status": "depot",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2024-06-26",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 5,
-    "expects_municipal_answer": true
-  },
-  "document_date": "2024-06-26",
-  "policy_details": {
-    "question_topics": [
-      "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
-      "commerciales du centre-ville ?",
-      "Peut-on avoir des précisions ?",
-      "Serait-il possible d'appliquer ce règlement aux véhicules utilitaires aménagés ?",
-      "en périphérie de la ville, réservés aux CAMPING-CARS et aux véhicules utilitaires ?"
-    ]
-  }
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Arnaud-Camping-cars-Bourg-Quai.txt"
 }

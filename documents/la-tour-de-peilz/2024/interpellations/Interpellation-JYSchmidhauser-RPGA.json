@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-JYSchmidhauser-RPGA.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-JYSchmidhauser-RPGA.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2024",
   "title": "Interpellation-JYSchmidhauser-RPGA.pdf",
@@ -52,5 +52,15 @@
       "o Comment la Municipalité entend-elle intégrer dans la réglementation actuelle les objectifs de protection de la biodiversité et lutte contre le réchauffement climatique ?",
       "o Quelle est la vision municipale quant à la densification à terme du territoire communal et quant aux mesures à prendre pour maintenir un cadre de vie de qualité aux boéland-e-s ?"
     ]
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=106",
+    "role": "interpellation_text"
   }
 }

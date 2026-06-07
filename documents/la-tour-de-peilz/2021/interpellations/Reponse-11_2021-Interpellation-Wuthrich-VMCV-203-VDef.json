@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-11_2021-Interpellation-Wuthrich-VMCV-203-VDef.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-11_2021-Interpellation-Wuthrich-VMCV-203-VDef.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2021",
   "title": "Reponse-11_2021-Interpellation-Wuthrich-VMCV-203-VDef.pdf",
@@ -30,7 +30,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Marc Wüthrich",
+      "civility": "M.",
+      "party": "LTDPL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -43,5 +49,31 @@
     "question_count": 0,
     "expects_municipal_answer": true
   },
-  "document_date": "2021-11-03"
+  "document_date": "2021-11-03",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=85",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2021-reintroduction-d-une-offre-competitive-et-incitative-sur-la-ligne-vmcv-203",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2021-reintroduction-d-une-offre-competitive-et-incitative-sur-la-ligne-vmcv-203",
+    "title": "Interpellation de M. Marc Wüthrich (LTDPL) + réponse",
+    "object_title": "Réintroduction d'une offre compétitive et incitative sur la ligne VMCV 203",
+    "authors": [
+      {
+        "name": "Marc Wüthrich",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "filename": "Interpellation-Wuthrich-VMCV-203-VDef-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Wuthrich-VMCV-203-VDef-Rep.pdf"
+  },
+  "object_title": "Réintroduction d'une offre compétitive et incitative sur la ligne VMCV 203"
 }

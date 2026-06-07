@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-01-Interpellation-Urech-Zone-30.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-01-Interpellation-Urech-Zone-30.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2025",
   "title": "Reponse-01-Interpellation-Urech-Zone-30.pdf",
@@ -31,7 +31,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Roger Urech",
+      "civility": "M.",
+      "party": "PLR"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -42,7 +48,35 @@
     "contains_budget_impact": true,
     "contains_questions": false,
     "question_count": 0,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_title": "Zone 50 ? Oui, dans une zone 30 km/h"
   },
-  "document_date": "2025-03-19"
+  "document_date": "2025-03-19",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=109",
+    "role": "combined_interpellation_response"
+  },
+  "object_title": "Zone 50 ? Oui, dans une zone 30 km/h",
+  "summary": "Zone 50 ? Oui, dans une zone 30 km/h",
+  "related_political_object_id": "interpellation-2025-zone-50-oui-dans-une-zone-30-km-h",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2025-zone-50-oui-dans-une-zone-30-km-h",
+    "title": "Interpellation de M. Roger Urech (PLR) + Réponse",
+    "object_title": "Zone 50 ? Oui, dans une zone 30 km/h",
+    "authors": [
+      {
+        "name": "Roger Urech",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "filename": "Interpellation-Urech-Zone-30-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Urech-Zone-30-Rep.pdf"
+  }
 }

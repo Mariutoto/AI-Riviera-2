@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-08-Interpellation-Holzeisen-VMCV-pilote.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf",
@@ -31,7 +31,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
+      "party": "LTDPL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -56,5 +62,31 @@
       "son opinion sur l'éventuelle création d'une telle commission thématique ?",
       "sujets de mobilité actuellement en gestation, une création en 2023 serait-elle envisageable ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=98",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+    "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "object_title": "VMCV – Le pilote connait-il la bonne route ?",
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "filename": "Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf"
+  },
+  "object_title": "VMCV – Le pilote connait-il la bonne route ?"
 }

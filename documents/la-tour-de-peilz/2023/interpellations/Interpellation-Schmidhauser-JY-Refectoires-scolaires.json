@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Schmidhauser-JY-Refectoires-scolaires.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Schmidhauser-JY-Refectoires-scolaires.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Schmidhauser-JY-Refectoires-scolaires.pdf",
@@ -50,5 +50,15 @@
       "o Si la capacité effective des réfectoires scolaires ne correspond pas à leur capacité maximum, pour quelle raison cette réserve de capacité n'a pas été mise à disposition de notre population pour réduire, voire faire disparaitre toute liste d'attente ?",
       "Je remercie d'avance la Municipalité pour ses réponses précises et écrites Jean-Yves Schmidhauser conseiller communal"
     ]
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=97",
+    "role": "combined_interpellation_response"
   }
 }

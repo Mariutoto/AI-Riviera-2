@@ -1,63 +1,79 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2023",
   "listing_year": "2022",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
   "summary": "Antennes 5G : un peu de friture sur la ligne ?",
-  "status": "Réponse incluse",
   "filename": "Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "ltdpl",
-    "reponse",
-    "antennes",
-    "friture",
-    "ligne",
-    "jho",
-    "rcc",
-    "dge",
-    "camac",
-    "rpga",
-    "ofcom",
-    "orni"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 31727,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2022-antennes-5g-un-peu-de-friture-sur-la-ligne",
+  "site_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+  "site_subject": "Antennes 5G : un peu de friture sur la ligne ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
       "party": "LTDPL"
     }
   ],
+  "object_title": "Antennes 5G : un peu de friture sur la ligne ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2022-01-17",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2022-antennes-5g-un-peu-de-friture-sur-la-ligne",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-02-09",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 1,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_subject": "Antennes 5G : un peu de friture sur la ligne ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Antennes 5G : un peu de friture sur la ligne ?",
+    "document_date": "2022-01-17"
   },
-  "document_date": "2022-02-09",
-  "policy_details": {
-    "question_topics": [
-      "Interpellation - antennes 5G : un peu de friture sur la ligne ?"
-    ]
-  }
+  "search_facets": [
+    "antennes",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "friture",
+    "interpellation",
+    "ligne",
+    "ltdpl",
+    "municipalite",
+    "reponse",
+    "response_available"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 31689,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.txt"
 }

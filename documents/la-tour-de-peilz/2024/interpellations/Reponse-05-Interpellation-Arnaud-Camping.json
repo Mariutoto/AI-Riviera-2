@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-05-Interpellation-Arnaud-Camping.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-05-Interpellation-Arnaud-Camping.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2024",
   "title": "Reponse-05-Interpellation-Arnaud-Camping.pdf",
@@ -32,8 +32,9 @@
   },
   "authors": [
     {
-      "name": "Blank Barbezat m'a autorisée à intervenir au sujet de ce document si cela me paraissait",
-      "party": null
+      "name": "Anne-Marie Arnaud",
+      "civility": "Mme",
+      "party": "hors parti"
     }
   ],
   "political_object": {
@@ -60,5 +61,31 @@
       "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
       "commerciales du centre-ville ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=107",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2024-que-faire-des-camping-cars-en-ville-specialement-dans-le-bourg-et-le-long-du-quai",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2024-que-faire-des-camping-cars-en-ville-specialement-dans-le-bourg-et-le-long-du-quai",
+    "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti)",
+    "object_title": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?",
+    "authors": [
+      {
+        "name": "Anne-Marie Arnaud",
+        "civility": "Mme",
+        "party": "hors parti"
+      }
+    ],
+    "filename": "Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Arnaud-Camping-cars-Bourg-Quai.pdf"
+  },
+  "object_title": "Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?"
 }

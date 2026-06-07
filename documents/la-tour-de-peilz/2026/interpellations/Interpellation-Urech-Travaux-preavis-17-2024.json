@@ -1,56 +1,75 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2026",
   "listing_year": "2026",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Roger Urech (PLR)",
   "summary": "Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
-  "status": null,
   "filename": "Interpellation-Urech-Travaux-preavis-17-2024.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Urech-Travaux-preavis-17-2024.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Urech-Travaux-preavis-17-2024.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Urech-Travaux-preavis-17-2024.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "zone_30",
-    "plr",
-    "diverses",
-    "modifications",
-    "routieres",
-    "suite",
-    "realisation",
-    "preavis",
-    "zone",
-    "chemins",
-    "bulesses",
-    "crotton"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 4709,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2026-sur-diverses-modifications-routieres-suite-a-la-realisation-du-preavis-17-2024-zone-30-km",
+  "site_listing_title": "Interpellation de M. Roger Urech (PLR)",
+  "site_subject": "Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
+  "status_normalized": "filed",
   "authors": [
     {
       "name": "Roger Urech",
+      "civility": "M.",
       "party": "PLR"
     }
   ],
+  "object_title": "Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
+  "document_role": "interpellation_text",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    }
+  ],
+  "contains_response": false,
   "political_object": {
     "type": "interpellation",
-    "status": "depot",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2026-sur-diverses-modifications-routieres-suite-a-la-realisation-du-preavis-17-2024-zone-30-km",
+    "status_normalized": "filed",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 9,
-    "expects_municipal_answer": true
-  }
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": false,
+    "source_listing_title": "Interpellation de M. Roger Urech (PLR)",
+    "source_subject": "Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet"
+  },
+  "search_facets": [
+    "chemins",
+    "conseil_communal",
+    "diverses",
+    "filed",
+    "interpellation",
+    "interpellation_text",
+    "modifications",
+    "municipalite",
+    "plr",
+    "preavis",
+    "realisation",
+    "routieres",
+    "suite",
+    "zone"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 4712,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Urech-Travaux-preavis-17-2024.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Urech-Travaux-preavis-17-2024.txt"
 }

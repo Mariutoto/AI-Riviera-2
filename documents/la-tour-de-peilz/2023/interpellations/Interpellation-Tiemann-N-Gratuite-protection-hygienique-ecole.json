@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf",
@@ -28,7 +28,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Niklas Tiemann",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -41,5 +47,31 @@
     "question_count": 3,
     "expects_municipal_answer": true
   },
-  "document_date": "2023-03-22"
+  "document_date": "2023-03-22",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=95",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-gratuite-des-protections-hygieniques-a-l-ecole",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-gratuite-des-protections-hygieniques-a-l-ecole",
+    "title": "Interpellation de M. Niklas Tiemann (LV) + réponse",
+    "object_title": "Gratuité des protections hygiéniques à l'école",
+    "authors": [
+      {
+        "name": "Niklas Tiemann",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf"
+  },
+  "object_title": "Gratuité des protections hygiéniques à l'école"
 }

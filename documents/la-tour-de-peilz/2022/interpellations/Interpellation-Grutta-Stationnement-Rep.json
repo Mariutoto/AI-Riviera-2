@@ -1,68 +1,80 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2022",
   "listing_year": "2022",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
   "summary": "Mieux vaut tard que jamais !",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse_ecrite",
-    "plr",
-    "reponse",
-    "mieux",
-    "vaut",
-    "tard",
-    "jamais",
-    "xxxi",
-    "municipale",
-    "cff",
-    "asr"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 14771,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+  "site_listing_title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+  "site_subject": "Mieux vaut tard que jamais !",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Alessio Grutta",
+      "civility": "M.",
       "party": "PLR"
     }
   ],
+  "object_title": "Mieux vaut tard que jamais !",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2022-10-10",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-10-10",
-    "request_type": "written_answer",
-    "contains_budget_impact": true,
-    "contains_questions": false,
-    "question_count": 0,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+    "source_subject": "Mieux vaut tard que jamais !",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Mieux vaut tard que jamais !",
+    "document_date": "2022-10-10"
   },
-  "document_date": "2022-10-10",
-  "policy_details": {
-    "question_topics": [
-      "transports publics, à pied ou à vélo ?",
-      "modifier le régime actuel en prévoyant la « gratuité » pour les dimanches et jours fériés ?",
-      "(par ex. 1 x 100 fr./an) ?",
-      "faveur du Nestlé Shop7, et ainsi avantager un commerce plutôt qu'un autre ?",
-      "03.02-2211-Reponse-10-Interpellation-Grutta-Stationnement.docx Au Conseil communal de 1814 La Tour-de-Peilz Monsieur le Président, Mesdames et Messieurs, La Municipalité répond ci-dessous à l'interpellation de M. Alessio Grutta (PLR) intitulée « Mieux vaut tard que jamais ! » déposée lors de la séance du Conseil communal du 2 novembre 2022 et y répond comme suit Réponses de la Municipalité Afin de réellement encourager la mobilité douce, ne serait-il pas judicieux de revoir la politique d'octroi du macaron de stationnement A1 afin d'offrir effectivement la possibilité aux personnes résidant au sud des voies de chemin de fer de se rendre au travail en transports publics, à pied ou à vélo ?",
-      "dimanches et jours fériés ?",
-      "et ainsi avantager un commerce plutôt qu'un autre ?"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "jamais",
+    "mieux",
+    "municipalite",
+    "plr",
+    "reponse",
+    "response_available",
+    "tard",
+    "vaut"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 14753,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt"
 }

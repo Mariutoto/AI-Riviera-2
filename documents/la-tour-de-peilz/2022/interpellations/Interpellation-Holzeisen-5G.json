@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Holzeisen-5G.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Holzeisen-5G.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2022",
   "title": "Interpellation-Holzeisen-5G.pdf",
@@ -50,5 +50,15 @@
     "question_topics": [
       "Interpellation - antennes 5G : un peu de friture sur la ligne ?"
     ]
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=92",
+    "role": "combined_interpellation_response"
   }
 }

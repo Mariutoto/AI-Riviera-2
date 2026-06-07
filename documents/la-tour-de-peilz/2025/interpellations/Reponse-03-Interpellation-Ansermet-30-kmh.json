@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2025",
   "title": "Reponse-03-Interpellation-Ansermet-30-kmh.pdf",
@@ -49,7 +49,8 @@
     "contains_budget_impact": false,
     "contains_questions": false,
     "question_count": 0,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?"
   },
   "document_date": "2025-12-10",
   "policy_details": {
@@ -59,5 +60,17 @@
       "commande d'études estimant de potentiels reports de trafic ?",
       "l'Association des Communes Suisses et/ou de l'Union des Villes suisses ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=118",
+    "role": "combined_interpellation_response"
+  },
+  "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+  "summary": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?"
 }

@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2021",
   "title": "Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf",
@@ -25,7 +25,16 @@
     "text_available": false,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Yves Schmidhauser",
+      "party": "LTDPL"
+    },
+    {
+      "name": "Marc Wüthrich",
+      "party": "LTDPL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -36,5 +45,34 @@
     "contains_questions": false,
     "question_count": 0,
     "expects_municipal_answer": true
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=85",
+    "role": "interpellation_text"
+  },
+  "related_political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+    "title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+    "object_title": "Mobbing – impunité ou réactivité ?",
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "party": "LTDPL"
+      },
+      {
+        "name": "Marc Wüthrich",
+        "party": "LTDPL"
+      }
+    ],
+    "filename": "Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf"
+  },
+  "object_title": "Mobbing – impunité ou réactivité ?"
 }

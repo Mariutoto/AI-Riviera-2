@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-11-Interpellation-JYSchmidhauser-Refectoires.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-11-Interpellation-JYSchmidhauser-Refectoires.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Reponse-11-Interpellation-JYSchmidhauser-Refectoires.pdf",
@@ -31,7 +31,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Yves Schmidhauser",
+      "civility": "M.",
+      "party": "PSDG"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -56,5 +62,31 @@
       "Comme vous le savez, la population de notre ville est en forte croissance, en raison principalement des nouvelles constructions qui fleurissent sur le territoire de notre commune, vu les densifications autorisées par notre nouveau PGA",
       "L'augmentation de la population pose de nombreux défis, notamment en terme d'infrastructures, et en particulier d'infrastructures parascolaires qui n'arrivent plus à répondre à l'augmentation des demandes. C'est notamment le cas, à la connaissance du soussigné, des réfectoires scolaires, pour lesquels il y une liste d'attente qui ne cesse d'augmenter"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=99",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-les-refectoires-laissent-ils-les-enfants-sur-leur-faim",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-les-refectoires-laissent-ils-les-enfants-sur-leur-faim",
+    "title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
+    "object_title": "Les réfectoires laissent-ils les enfants sur leur faim ?",
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "filename": "Interpellation-JYSchmidhauser-Refectoires-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-JYSchmidhauser-Refectoires-Rep.pdf"
+  },
+  "object_title": "Les réfectoires laissent-ils les enfants sur leur faim ?"
 }

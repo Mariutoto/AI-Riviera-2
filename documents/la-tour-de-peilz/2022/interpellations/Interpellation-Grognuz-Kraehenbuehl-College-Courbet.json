@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grognuz-Kraehenbuehl-College-Courbet.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grognuz-Kraehenbuehl-College-Courbet.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2022",
   "title": "Interpellation-Grognuz-Kraehenbuehl-College-Courbet.pdf",
@@ -29,7 +29,16 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "François Grognuz",
+      "party": "PLR"
+    },
+    {
+      "name": "Yvan Krähenbühl",
+      "party": "PLR"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -42,5 +51,34 @@
     "question_count": 0,
     "expects_municipal_answer": true
   },
-  "document_date": "2022-04-13"
+  "document_date": "2022-04-13",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=89",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2022-nouveau-college-courbet-mettre-en-avant-et-honorer-les-personnes-qui-font-et-ont-fait-rayo",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2022-nouveau-college-courbet-mettre-en-avant-et-honorer-les-personnes-qui-font-et-ont-fait-rayo",
+    "title": "Interpellation de MM. François Grognuz et Yvan Krähenbühl (PLR) + réponse",
+    "object_title": "Nouveau collège Courbet - Mettre en avant et honorer les personnes qui font et ont fait rayonner notre commune dans le monde",
+    "authors": [
+      {
+        "name": "François Grognuz",
+        "party": "PLR"
+      },
+      {
+        "name": "Yvan Krähenbühl",
+        "party": "PLR"
+      }
+    ],
+    "filename": "Interpellation-Grognuz-Kraehenbuehl-College-Courbet-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grognuz-Kraehenbuehl-College-Courbet-Rep.pdf"
+  },
+  "object_title": "Nouveau collège Courbet - Mettre en avant et honorer les personnes qui font et ont fait rayonner notre commune dans le monde"
 }

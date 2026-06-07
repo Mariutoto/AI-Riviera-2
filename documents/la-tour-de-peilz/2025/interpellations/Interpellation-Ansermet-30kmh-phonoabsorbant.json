@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30kmh-phonoabsorbant.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30kmh-phonoabsorbant.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2025",
   "title": "Interpellation-Ansermet-30kmh-phonoabsorbant.pdf",
@@ -47,7 +47,8 @@
     "contains_budget_impact": false,
     "contains_questions": true,
     "question_count": 3,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?"
   },
   "document_date": "2025-10-05",
   "policy_details": {
@@ -56,5 +57,17 @@
       "La Municipalité a-t-elle estimé les frais supplémentaires occasionnés par la pose obligatoire de revêtement phonoabsorbant lors de rénovation ou de construction de routes ? Quid des autres coûts potentiellement occasionnés et à charge de la collectivité, tells que l'isolation sonore des fenêtres en cas de fort dépassement du bruit ou la commande d'études estimant de potentiels reports de trafic ?",
       "La Municipalité a-t-elle l'intention d'interpeller l'Union des communes Vaudoises afin de relayer des préoccupations en matière de restriction à l'autonomie communale auprès de l'Association des Communes Suisses et/ou de l'Union des Villes suisses ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=115",
+    "role": "interpellation_text"
+  },
+  "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+  "summary": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?"
 }

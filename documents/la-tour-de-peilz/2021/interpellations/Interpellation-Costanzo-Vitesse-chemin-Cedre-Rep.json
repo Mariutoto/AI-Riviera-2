@@ -1,68 +1,81 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2021",
   "listing_year": "2021",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Julien Costanzo (PS) + réponse",
   "summary": "Pour une limitation de vitesse au chemin du Cèdre",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse",
-    "limitation",
-    "vitesse",
-    "chemin",
-    "cedre",
-    "municipale",
-    "psdg",
-    "pdm",
-    "asr",
-    "nom"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 6734,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2021-pour-une-limitation-de-vitesse-au-chemin-du-cedre",
+  "site_listing_title": "Interpellation de M. Julien Costanzo (PS) + réponse",
+  "site_subject": "Pour une limitation de vitesse au chemin du Cèdre",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Julien Costanzo",
+      "civility": "M.",
       "party": "PS"
     }
   ],
+  "object_title": "Pour une limitation de vitesse au Chemin des Cèdre",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-06-29",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2021-pour-une-limitation-de-vitesse-au-chemin-du-cedre",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-06-29",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 6,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Julien Costanzo (PS) + réponse",
+    "source_subject": "Pour une limitation de vitesse au chemin du Cèdre",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Pour une limitation de vitesse au Chemin des Cèdre",
+    "document_date": "2021-06-29"
   },
-  "document_date": "2021-06-29",
-  "policy_details": {
-    "question_topics": [
-      "au chemin des Cèdres et dans la zone alentours du gymnase de Burier ?",
-      "Si oui, quelle est l'appréciation de la situation par la Municipalité ?",
-      "mandater Sécurité Riviera pour procéder à de telles mesures ?",
-      "le quartier ?",
-      "situation ?",
-      "03-2108-Reponse-10_2021-Interpellation-Costanzo-Vitesse-chemin-Cedre.docx Au Conseil communal de 1814 La Tour-de-Peilz Monsieur le Président, Mesdames et Messieurs, La Municipalité répond ci-dessous à l'interpellation de M. Julien Costanzo (PSDG) « Pour une limitation de vitesse au chemin du Cèdre » déposée lors de la séance du Conseil communal du 30 juin 2021 Celle-ci partage le but de l'interpellant visant à sécuriser la circulation sur les voies publiques. Cet aspect est bien entendu intégré dans tout projet incluant un réaménagement de la chaussée, comme par exemple les travaux en cours sur la rue d'Entre-deux-Villes ou au chemin des Bulesses. Elle s'appuie sur divers plans directeurs et outils de planification, dont un Plan directeur de la mobilité (PDM) qui sera prochainement établi Par ailleurs, lorsque des riverains ou autres utilisateurs signalent des problèmes de vitesse ou de sécurité, le Service de l'urbanisme et des travaux publics, en lien avec l'Office de la mobilité de l'ASR, traite ceux-ci en effectuant des mesures de vitesses sur les tronçons concernés et en réalisant, si le problème est avéré, des aménagements visant à limiter cette vitesse. Une analyse des risques d'accidents du tronçon est également prise en considération Le chemin du Cèdre, ainsi que le chemin du Vallon, tous deux situés, comme relevé par l'interpellant, dans l'aire d'évolution des gymnasiens de Burier, est un secteur où un trafic de type « mobilité douce » est particulièrement adéquat Réponses de la Municipalité La Municipalité dispose-t-elle de mesures récentes concernant les vitesses au chemin du Cèdre et dans la zone alentours du gymnase de Burier ?",
-      "à de telles mesures ?",
-      "La Municipalité partage-t-elle les inquiétudes des habitants du quartier ?"
-    ]
-  }
+  "search_facets": [
+    "cedre",
+    "chemin",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "limitation",
+    "municipalite",
+    "pour",
+    "ps",
+    "reponse",
+    "response_available",
+    "vitesse"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 6720,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Costanzo-Vitesse-chemin-Cedre-Rep.txt"
 }

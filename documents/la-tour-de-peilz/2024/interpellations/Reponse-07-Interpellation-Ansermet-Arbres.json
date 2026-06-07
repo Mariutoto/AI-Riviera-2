@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-07-Interpellation-Ansermet-Arbres.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-07-Interpellation-Ansermet-Arbres.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2024",
   "title": "Reponse-07-Interpellation-Ansermet-Arbres.pdf",
@@ -34,7 +34,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Véronique Ansermet",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -58,5 +64,31 @@
       "Ce projet, qui soulève la question de l'abattage massif d'arbres en pleine crise climatique, met en évidence l'urgence de protéger et aussi d'accroître notre patrimoine arboré. Dans ce contexte, de nombreuses villes ont adopté un plan canopée ou un plan d'arborisation pour augmenter la couverture végétale avec des objectifs chiffrés o La Tour-de-Peilz dispose-t-elle d'un tel plan, et si oui, serait-il possible de le rendre accessible au Conseil communal ?",
       "Si ce n'est pas le cas, est-il prévu d'en élaborer un et si oui, dans quel délai ? Chaque"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=108",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2024-les-arbres-ont-ils-encore-feuille-au-chapitre",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2024-les-arbres-ont-ils-encore-feuille-au-chapitre",
+    "title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
+    "object_title": "Les arbres ont-ils encore feuille au chapitre ?",
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Ansermet-Arbres-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Ansermet-Arbres-Rep.pdf"
+  },
+  "object_title": "Les arbres ont-ils encore feuille au chapitre ?"
 }

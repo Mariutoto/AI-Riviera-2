@@ -1,55 +1,84 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2022",
   "listing_year": "2022",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
   "summary": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "lcivl",
-    "reponse",
-    "endroit",
-    "tres",
-    "dangereux",
-    "petits",
-    "enfants",
-    "tour",
-    "peilz"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 5908,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2022-un-endroit-tres-dangereux-pour-les-petits-enfants-a-la-tour-de-peilz",
+  "site_listing_title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+  "site_subject": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Mireille Cornaz",
+      "civility": "Mme",
       "party": "LCIVL"
     }
   ],
+  "object_title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2022-02-09",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2022-un-endroit-tres-dangereux-pour-les-petits-enfants-a-la-tour-de-peilz",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-02-09",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 3,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+    "source_subject": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+    "document_date": "2022-02-09"
   },
-  "document_date": "2022-02-09"
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "dangereux",
+    "endroit",
+    "enfants",
+    "interpellation",
+    "lcivl",
+    "municipalite",
+    "peilz",
+    "petits",
+    "pour",
+    "reponse",
+    "response_available",
+    "tour",
+    "tres"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 5896,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt"
 }

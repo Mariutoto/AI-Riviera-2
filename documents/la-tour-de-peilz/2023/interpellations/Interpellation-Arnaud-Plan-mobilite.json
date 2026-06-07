@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-mobilite.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-mobilite.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Arnaud-Plan-mobilite.pdf",
@@ -29,7 +29,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Anne-Marie Arnaud",
+      "civility": "Mme",
+      "party": "hors parti"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -54,5 +60,31 @@
       "Stationnements courts et très courts au centre-ville…Et au bord du lac ?",
       "N'est-ce pas aux services sociaux de s'occuper de ces problèmes ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=100",
+    "role": "interpellation_text"
+  },
+  "related_political_object_id": "interpellation-2023-communication-municipale-29-2023-plan-directeur-de-la-mobilite-tous-a-velo-et-les-seniors",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-communication-municipale-29-2023-plan-directeur-de-la-mobilite-tous-a-velo-et-les-seniors",
+    "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + Réponse",
+    "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+    "authors": [
+      {
+        "name": "Anne-Marie Arnaud",
+        "civility": "Mme",
+        "party": "hors parti"
+      }
+    ],
+    "filename": "Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf"
+  },
+  "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring"
 }

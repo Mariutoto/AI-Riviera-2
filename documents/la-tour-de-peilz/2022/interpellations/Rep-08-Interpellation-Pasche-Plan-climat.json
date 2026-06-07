@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Rep-08-Interpellation-Pasche-Plan-climat.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Rep-08-Interpellation-Pasche-Plan-climat.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2022",
   "title": "Rep-08-Interpellation-Pasche-Plan-climat.pdf",
@@ -31,7 +31,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Geneviève Pasche",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -56,5 +62,31 @@
       "résultats) sera réalisé ?",
       "j'attends toujours. Que se passe-t-il ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=92",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+    "title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+    "object_title": "Interpellation sur le postulat «plan climat»",
+    "authors": [
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf"
+  },
+  "object_title": "Interpellation sur le postulat «plan climat»"
 }

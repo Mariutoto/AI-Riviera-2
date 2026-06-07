@@ -7,7 +7,7 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-01-Interpellation-Negro-Arret-bus-Lhand.txt",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2026",
   "title": "Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf",
@@ -32,7 +32,8 @@
   },
   "authors": [
     {
-      "name": "Conseiller communal",
+      "name": "Piero Negro",
+      "civility": "M.",
       "party": "PSDG"
     }
   ],
@@ -58,5 +59,32 @@
       "La Municipalité a-t-elle sollicité ou envisage-t-elle de solliciter les subventions cantonales annoncées en décembre 2024 ?",
       "Une collaboration avec les associations locales de personnes en situation de handicap est-elle prévue pour prioriser les arrêts à adapter ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "type": "interpellation",
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2025-pour-une-mobilite-et-des-acces-au-bus-accessible-a-toutes-et-tous",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2025-pour-une-mobilite-et-des-acces-au-bus-accessible-a-toutes-et-tous",
+    "title": "Interpellation de M. Piero Negro (PSDG) + Réponse",
+    "object_title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous",
+    "authors": [
+      {
+        "name": "Piero Negro",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "filename": "Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Negro-Arret-bus-Lhand-Rep.pdf"
+  },
+  "object_title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous"
 }

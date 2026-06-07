@@ -1,51 +1,79 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2024",
   "listing_year": "2024",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
   "summary": "Une maison de la Sécurité, à TOUT prix ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "genevieve",
-    "pasche",
-    "consorts",
-    "reponse",
-    "maison",
-    "securite",
-    "prix",
-    "municipale",
-    "asr",
-    "nom"
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2024-une-maison-de-la-securite-a-tout-prix",
+  "site_listing_title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
+  "site_subject": "Une maison de la Sécurité, à TOUT prix ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
+  "authors": [
+    {
+      "name": "Geneviève Pasche",
+      "party": "LV"
+    }
   ],
+  "object_title": "Une maison de la Sécurité, à TOUT prix ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2024-03-20",
+  "political_object": {
+    "type": "interpellation",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2024-une-maison-de-la-securite-a-tout-prix",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
+    "source_subject": "Une maison de la Sécurité, à TOUT prix ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Une maison de la Sécurité, à TOUT prix ?",
+    "document_date": "2024-03-20"
+  },
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "lv",
+    "maison",
+    "municipalite",
+    "prix",
+    "reponse",
+    "response_available",
+    "securite",
+    "tout"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
-    "characters_extracted": 8650,
+    "characters_extracted": 8636,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
-  "political_object": {
-    "type": "interpellation",
-    "status": "Réponse incluse",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2024-03-20",
-    "request_type": "written_answer",
-    "contains_budget_impact": true,
-    "contains_questions": false,
-    "question_count": 0,
-    "expects_municipal_answer": true
-  },
-  "document_date": "2024-03-20"
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt"
 }

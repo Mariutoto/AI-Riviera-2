@@ -1,63 +1,77 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2024",
   "listing_year": "2024",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Piero Negro (PSDG)",
   "summary": "Que prévoit la Poste pour « Notre Poste » ?",
-  "status": null,
   "filename": "Interpellation-Negro-Office-Poste.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Negro-Office-Poste.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Negro-Office-Poste.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Negro-Office-Poste.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "psdg",
-    "prevoit",
-    "poste",
-    "notre",
-    "tour",
-    "peilz"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 2914,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2024-que-prevoit-la-poste-pour-notre-poste",
+  "site_listing_title": "Interpellation de M. Piero Negro (PSDG)",
+  "site_subject": "Que prévoit la Poste pour « Notre Poste » ?",
+  "status_normalized": "filed",
   "authors": [
     {
       "name": "Piero Negro",
+      "civility": "M.",
       "party": "PSDG"
     }
   ],
+  "object_title": "Que prévoit la Poste pour « Notre Poste » ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2024-06-26",
   "political_object": {
     "type": "interpellation",
-    "status": "depot",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2024-que-prevoit-la-poste-pour-notre-poste",
+    "status_normalized": "filed",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2024-06-26",
-    "request_type": "answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 7,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Piero Negro (PSDG)",
+    "source_subject": "Que prévoit la Poste pour « Notre Poste » ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Que prévoit la Poste pour « Notre Poste » ?",
+    "document_date": "2024-06-26"
   },
-  "document_date": "2024-06-26",
-  "policy_details": {
-    "question_topics": [
-      "éventuelle fermeture ?",
-      "quand ?",
-      "de notre office de poste ?",
-      "Poste ?",
-      "nécessité ?",
-      "des services postaux dans son administration ? La Municipalité serait-elle prête",
-      "à analyser cette opportunité ?"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "filed",
+    "interpellation",
+    "municipalite",
+    "notre",
+    "poste",
+    "pour",
+    "prevoit",
+    "psdg",
+    "reponse"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 2912,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Negro-Office-Poste.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Negro-Office-Poste.txt"
 }

@@ -1,67 +1,79 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2022",
   "listing_year": "2022",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
   "summary": "Interpellation sur le postulat «plan climat»",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse",
-    "postulat",
-    "plan",
-    "climat",
-    "pdb",
-    "municipale",
-    "pdc",
-    "pbd",
-    "covid"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 7337,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+  "site_listing_title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+  "site_subject": "Interpellation sur le postulat «plan climat»",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Geneviève Pasche",
+      "civility": "Mme",
       "party": "LV"
     }
   ],
+  "object_title": "Interpellation sur le postulat «plan climat»",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2022-11-02",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-11-02",
-    "request_type": "answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 9,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+    "source_subject": "Interpellation sur le postulat «plan climat»",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Interpellation sur le postulat «plan climat»",
+    "document_date": "2022-11-02"
   },
-  "document_date": "2022-11-02",
-  "policy_details": {
-    "question_topics": [
-      "j'attends toujours. Que se passe-t-il ?",
-      "des chefs de service ?",
-      "Quelles sont les raisons du retard de la réponse à mon postulat ?",
-      "même un plan climat ?",
-      "Si le plan a été réalisé à l'interne, de quelles compétences dispose-t-elle ?",
-      "Quels sont les domaines dans lesquels la Municipalité a prévu de mettre en place des mesures ?",
-      "A-t-elle prévu des mesures pour chaque dicastère ?",
-      "la réalisation des mesures possèdent-ils les compétences ?"
-    ]
-  }
+  "search_facets": [
+    "climat",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "lv",
+    "municipalite",
+    "plan",
+    "postulat",
+    "reponse",
+    "response_available"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 7325,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt"
 }

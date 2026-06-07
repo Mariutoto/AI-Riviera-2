@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Grutta-Stationnement.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Grutta-Stationnement.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Grutta-Stationnement.pdf",
@@ -26,7 +26,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Alessio Grutta",
+      "civility": "M.",
+      "party": "PLR"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -47,5 +53,31 @@
       "Avez-vous mandaté un bureau d'étude pour la modification des Prescriptions LTP ? Si oui, pourrait-on connaître le montant des honoraires engagés ?",
       "J'aimerais une réponse écrite à la présente interpellation (art. 96 al. 1 du Règlement du Conseil communal) Alessio Grutta Conseiller communal PLR Annexe"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=100",
+    "role": "interpellation_text"
+  },
+  "related_political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+    "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+    "object_title": "Mieux vaut tard que jamais !",
+    "authors": [
+      {
+        "name": "Alessio Grutta",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf"
+  },
+  "object_title": "Mieux vaut tard que jamais !"
 }

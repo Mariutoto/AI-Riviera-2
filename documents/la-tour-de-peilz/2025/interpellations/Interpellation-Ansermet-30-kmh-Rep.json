@@ -1,65 +1,84 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2025",
   "listing_year": "2025",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
   "summary": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Ansermet-30-kmh-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Ansermet-30-kmh-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30-kmh-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30-kmh-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "revetement_phonoabsorbant",
-    "zone_30",
-    "mobilite_douce",
-    "reponse",
-    "modifications",
-    "ordonnances",
-    "federales",
-    "matiere",
-    "limitation",
-    "vitesse",
-    "effets",
-    "projets"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 19162,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2025-modifications-d-ordonnances-federales-en-matiere-de-limitation-de-vitesse-quels-effets-sur",
+  "site_listing_title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
+  "site_subject": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Véronique Ansermet",
+      "civility": "Mme",
       "party": "LV"
     }
   ],
+  "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2025-10-05",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2025-modifications-d-ordonnances-federales-en-matiere-de-limitation-de-vitesse-quels-effets-sur",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2025-10-05",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 3,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
+    "source_subject": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+    "document_date": "2025-10-05"
   },
-  "document_date": "2025-10-05",
-  "policy_details": {
-    "question_topics": [
-      "La Municipalité estime-t-elle que les propositions de modifications des ordonnances fédérales impactent ses projets passés, actuels ou futurs en matière de baisses de limites de vitesse ?",
-      "La Municipalité a-t-elle estimé les frais supplémentaires occasionnés par la pose obligatoire de revêtement phonoabsorbant lors de rénovation ou de construction de routes ? Quid des autres coûts potentiellement occasionnés et à charge de la collectivité, tells que l'isolation sonore des fenêtres en cas de fort dépassement du bruit ou la commande d'études estimant de potentiels reports de trafic ?",
-      "La Municipalité a-t-elle l'intention d'interpeller l'Union des communes Vaudoises afin de relayer des préoccupations en matière de restriction à l'autonomie communale auprès de l'Association des Communes Suisses et/ou de l'Union des Villes suisses ?"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "effets",
+    "federales",
+    "interpellation",
+    "limitation",
+    "lv",
+    "matiere",
+    "modifications",
+    "municipalite",
+    "ordonnances",
+    "quels",
+    "reponse",
+    "response_available",
+    "vitesse"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 19140,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30-kmh-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30-kmh-Rep.txt"
 }

@@ -1,65 +1,84 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2023",
   "listing_year": "2023",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + Réponse",
   "summary": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "mobilite_douce",
-    "anne",
-    "marie",
-    "arnaud",
-    "hors",
-    "parti",
-    "reponse",
-    "communication",
-    "municipale",
-    "plan",
-    "directeur",
-    "mobilite"
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2023-communication-municipale-29-2023-plan-directeur-de-la-mobilite-tous-a-velo-et-les-seniors",
+  "site_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + Réponse",
+  "site_subject": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
+  "authors": [
+    {
+      "name": "Anne-Marie Arnaud",
+      "civility": "Mme",
+      "party": "hors parti"
+    }
   ],
+  "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2023-12-13",
+  "political_object": {
+    "type": "interpellation",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2023-communication-municipale-29-2023-plan-directeur-de-la-mobilite-tous-a-velo-et-les-seniors",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + Réponse",
+    "source_subject": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+    "document_date": "2023-12-13"
+  },
+  "search_facets": [
+    "combined_interpellation_response",
+    "communication",
+    "conseil_communal",
+    "directeur",
+    "hors_parti",
+    "interpellation",
+    "mobilite",
+    "municipale",
+    "municipalite",
+    "plan",
+    "reponse",
+    "response_available",
+    "seniors",
+    "tous",
+    "velo"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
-    "characters_extracted": 8955,
+    "characters_extracted": 8941,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
-  "political_object": {
-    "type": "interpellation",
-    "status": "Réponse incluse",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2023-12-13",
-    "request_type": "answer",
-    "contains_budget_impact": true,
-    "contains_questions": true,
-    "question_count": 17,
-    "expects_municipal_answer": true
-  },
-  "document_date": "2023-12-13",
-  "policy_details": {
-    "question_topics": [
-      "Quel est le coût de l'étude fournie par le bureau de Berne ?",
-      "Quels ont été les représentants du Conseil Communal ?",
-      "Qui a consulté la population par sondage. Quels sont les résultats ?",
-      "Que veut dire « projet d'agglomération de 5ème génération » ?",
-      "Mobilité scolaire, mandat déjà adjugé. Quel coût, quelle entreprise ?",
-      "—à 1'500. —frs par place couvertes Confort pour faire du vélo très cher Quelles répercussions pour le paysage au bord du lac et ailleurs dans notre commune ?",
-      "Stationnements courts et très courts au centre-ville…Et au bord du lac ?",
-      "N'est-ce pas aux services sociaux de s'occuper de ces problèmes ?"
-    ]
-  }
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.txt"
 }

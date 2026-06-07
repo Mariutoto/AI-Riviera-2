@@ -1,57 +1,84 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2021",
   "listing_year": "2021",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation du groupe PLR + réponses",
   "summary": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponses",
-    "degre",
-    "preparation",
-    "tour",
-    "peilz",
-    "face",
-    "cyberattaques",
-    "municipale",
-    "cfc",
-    "tic",
-    "ept"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 8186,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2021-quel-degre-de-preparation-de-la-commune-de-la-tour-de-peilz-face-aux-cyberattaques",
+  "site_listing_title": "Interpellation du groupe PLR + réponses",
+  "site_subject": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "groupe PLR",
-      "party": "PLR"
+      "party": "PLR",
+      "role": "group"
     }
   ],
+  "object_title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-11-03",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2021-quel-degre-de-preparation-de-la-commune-de-la-tour-de-peilz-face-aux-cyberattaques",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-11-03",
-    "request_type": "answer",
-    "contains_budget_impact": true,
-    "contains_questions": false,
-    "question_count": 0,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation du groupe PLR + réponses",
+    "source_subject": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+    "document_date": "2021-11-03"
   },
-  "document_date": "2021-11-03"
+  "search_facets": [
+    "combined_interpellation_response",
+    "commune",
+    "conseil_communal",
+    "cyberattaques",
+    "degre",
+    "face",
+    "interpellation",
+    "municipalite",
+    "peilz",
+    "plr",
+    "preparation",
+    "quel",
+    "reponse",
+    "response_available",
+    "tour"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 8165,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.txt"
 }

@@ -1,67 +1,82 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2021",
   "listing_year": "2021",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
   "summary": "Mobbing – impunité ou réactivité ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "psdg",
-    "marc",
-    "wuthrich",
-    "ltdpl",
-    "reponse",
-    "mobbing",
-    "impunite",
-    "reactivite",
-    "municipale"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 9044,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+  "site_listing_title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+  "site_subject": "Mobbing – impunité ou réactivité ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Yves Schmidhauser",
-      "party": "PSDG"
+      "party": "LTDPL"
+    },
+    {
+      "name": "Marc Wüthrich",
+      "party": "LTDPL"
     }
   ],
+  "object_title": "Mobbing – impunité ou réactivité ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-12-08",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-12-08",
-    "request_type": "answer",
-    "contains_budget_impact": true,
-    "contains_questions": false,
-    "question_count": 0,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+    "source_subject": "Mobbing – impunité ou réactivité ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Mobbing – impunité ou réactivité ?",
+    "document_date": "2021-12-08"
   },
-  "document_date": "2021-12-08",
-  "policy_details": {
-    "question_topics": [
-      "Mobbing – impunité ou réactivité ?",
-      "Wüthrich (LTDPL) « Mobbing – impunité ou réactivité ?",
-      "les propres frais d'avocats de la Municipalité ?",
-      "durant cette période d'incapacité de travail (charges employeur comprises) ?",
-      "l'affirmative, à concurrence de quel montant ?",
-      "disciplinaire a-t-elle été prise à l'encontre du Chef de service ?",
-      "Si non, pour quelle raison ?",
-      "5. Les capacités managériales du chef de service concerné ont-elles été (ré)évaluées ?"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "impunite",
+    "interpellation",
+    "ltdpl",
+    "mobbing",
+    "municipalite",
+    "reactivite",
+    "reponse",
+    "response_available"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 9032,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.txt"
 }

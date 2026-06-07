@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-05-Interpellation-Holzeisen-Kiosques-Roussy.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-05-Interpellation-Holzeisen-Kiosques-Roussy.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Reponse-05-Interpellation-Holzeisen-Kiosques-Roussy.pdf",
@@ -30,7 +30,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
+      "party": "LTDPL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -53,5 +59,31 @@
       "3) La fréquences des mises au concours ?",
       "Interpellation – Kiosques sur le quai Roussy : Condition d'attribution et de reconduction ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=96",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-kiosques-sur-le-quai-roussy-condition-d-attribution-et-de-reconduction",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-kiosques-sur-le-quai-roussy-condition-d-attribution-et-de-reconduction",
+    "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "object_title": "Kiosques sur le quai Roussy : Condition d'attribution et de reconduction ?",
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "filename": "Interpellation-Holzeisen-Kiosques-Roussy-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Kiosques-Roussy-Rep.pdf"
+  },
+  "object_title": "Kiosques sur le quai Roussy : Condition d'attribution et de reconduction ?"
 }

@@ -1,57 +1,80 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2025",
   "listing_year": "2025",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
   "summary": "Que contient l'assiette de nos cantines subventionnées ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse",
-    "contient",
-    "assiette",
-    "cantines",
-    "subventionnees",
-    "mnt",
-    "uape",
-    "municipale",
-    "ssn",
-    "osav",
-    "fsat"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 14336,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+  "site_listing_title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+  "site_subject": "Que contient l'assiette de nos cantines subventionnées ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Gabrielle Heller",
+      "civility": "Mme",
       "party": "LV"
     }
   ],
+  "object_title": "Que contient l'assiette de nos cantines subventionnées",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2025-04-13",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2025-04-13",
-    "request_type": "answer",
-    "contains_budget_impact": true,
-    "contains_questions": true,
-    "question_count": 8,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+    "source_subject": "Que contient l'assiette de nos cantines subventionnées ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Que contient l'assiette de nos cantines subventionnées",
+    "document_date": "2025-04-13"
   },
-  "document_date": "2025-04-13"
+  "search_facets": [
+    "assiette",
+    "cantines",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "contient",
+    "interpellation",
+    "lv",
+    "municipalite",
+    "reponse",
+    "response_available",
+    "subventionnees"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 14316,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt"
 }

@@ -1,67 +1,81 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2023",
   "listing_year": "2023",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
   "summary": "Les réfectoires laissent-ils les enfants sur leur faim ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-JYSchmidhauser-Refectoires-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-JYSchmidhauser-Refectoires-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-JYSchmidhauser-Refectoires-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-JYSchmidhauser-Refectoires-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "psdg",
-    "reponse",
-    "refectoires",
-    "laissent",
-    "enfants",
-    "faim",
-    "municipale",
-    "uape",
-    "nom"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 10551,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2023-les-refectoires-laissent-ils-les-enfants-sur-leur-faim",
+  "site_listing_title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
+  "site_subject": "Les réfectoires laissent-ils les enfants sur leur faim ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Yves Schmidhauser",
+      "civility": "M.",
       "party": "PSDG"
     }
   ],
+  "object_title": "Les réfectoires laissent-ils les enfants sur leur faim ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2023-11-01",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2023-les-refectoires-laissent-ils-les-enfants-sur-leur-faim",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2023-10-16",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": false,
-    "question_count": 0,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
+    "source_subject": "Les réfectoires laissent-ils les enfants sur leur faim ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Les réfectoires laissent-ils les enfants sur leur faim ?",
+    "document_date": "2023-11-01"
   },
-  "document_date": "2023-10-16",
-  "policy_details": {
-    "question_topics": [
-      "Quelle est la capacité actuelle d'accueil effective des réfectoires scolaires, selon l'état des inscriptions admises au premier semestre 2023 ?",
-      "Cette capacité d'accueil est-elle suffisante pour traiter toutes les demandes d'inscription ? Si non, quel est le nombre d'enfants sur liste d'attente ?",
-      "possibilité d'accroissement de cette capacité sans investissement majeur ?",
-      "les 5 prochaines années ?",
-      "toute liste d'attente ?",
-      "la liste d'attente reflète la situation au 13.10.2023. Les enfants en attente seront intégrés dans les réfectoires dès novembre 2023 en fonction des places disponibles. Cette ligne tient compte uniquement des dossiers complets et des situations qui correspondent à notre règlement (le ou les parents travaillent ou sont en formation) Liste d'attente 2022-2023 (mai 2023) Liste d'attente 2022-2023 (mai 2023) Liste d'attente 2022-2023 (mai 2023) Liste d'attente 2022-2023 (mai 2023) Liste d'attente 2022-2023 (mai 2023) le Réf Vassin Classes accueillies/ niveaux: 9-11P Noms des collèges : Bel-Air et Cadet-Rousselle Classes accueillies/ niveaux: 1P-4P Nom collège : Courbet Classes accueillies/ niveaux: 1P-6P Nom collège : Les Marronniers Classes accueillies/ niveau: 7P Nom collège : Les Mousquetaires Bel-Air Cantoch Marmitons Mousquetaires Classes accueillies/ niveaux: 5P-6P Liste d'attente 2022-2023 (mai 2023) Interpellation de Jean-Yves SCHMIDHAUSER au Conseil communal du 28 juin 2023 Les réfectoires scolaires laissent-ils nos enfants sur leur faim ?",
-      "Comme vous le savez, la population de notre ville est en forte croissance, en raison principalement des nouvelles constructions qui fleurissent sur le territoire de notre commune, vu les densifications autorisées par notre nouveau PGA",
-      "L'augmentation de la population pose de nombreux défis, notamment en terme d'infrastructures, et en particulier d'infrastructures parascolaires qui n'arrivent plus à répondre à l'augmentation des demandes. C'est notamment le cas, à la connaissance du soussigné, des réfectoires scolaires, pour lesquels il y une liste d'attente qui ne cesse d'augmenter"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "enfants",
+    "faim",
+    "interpellation",
+    "laissent",
+    "leur",
+    "municipalite",
+    "psdg",
+    "refectoires",
+    "reponse",
+    "response_available"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 10538,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-JYSchmidhauser-Refectoires-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-JYSchmidhauser-Refectoires-Rep.txt"
 }

@@ -1,61 +1,78 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2026",
   "listing_year": "2026",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Michel Tobler (PLR)",
   "summary": "Affichage publicitaire et politique sur le territoire de la commune",
-  "status": null,
   "filename": "Interpellation-Tobler-Affichage-politique.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Tobler-Affichage-politique.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Tobler-Affichage-politique.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Tobler-Affichage-politique.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse_ecrite",
-    "affichage_politique",
-    "affichage_publicitaire",
-    "plr",
-    "affichage",
-    "publicitaire",
-    "politique",
-    "territoire",
-    "lpr",
-    "rlpr"
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2026-affichage-publicitaire-et-politique-sur-le-territoire-de-la-commune",
+  "site_listing_title": "Interpellation de M. Michel Tobler (PLR)",
+  "site_subject": "Affichage publicitaire et politique sur le territoire de la commune",
+  "status_normalized": "filed",
+  "authors": [
+    {
+      "name": "Michel Tobler",
+      "civility": "M.",
+      "party": "PLR"
+    }
   ],
+  "object_title": "Affichage publicitaire et politique sur le territoire de la commune",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2026-05-06",
+  "political_object": {
+    "type": "interpellation",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2026-affichage-publicitaire-et-politique-sur-le-territoire-de-la-commune",
+    "status_normalized": "filed",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Michel Tobler (PLR)",
+    "source_subject": "Affichage publicitaire et politique sur le territoire de la commune",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Affichage publicitaire et politique sur le territoire de la commune",
+    "document_date": "2026-05-06"
+  },
+  "search_facets": [
+    "affichage",
+    "combined_interpellation_response",
+    "commune",
+    "conseil_communal",
+    "filed",
+    "interpellation",
+    "municipalite",
+    "plr",
+    "politique",
+    "publicitaire",
+    "reponse",
+    "territoire"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
     "characters_extracted": 2521,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [
-    {
-      "name": "Michel Tobler",
-      "party": "PLR"
-    }
-  ],
-  "political_object": {
-    "type": "interpellation",
-    "status": "depot",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2026-05-06",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 1,
-    "expects_municipal_answer": true
-  },
-  "document_date": "2026-05-06",
-  "policy_details": {
-    "question_topics": [
-      "reviendront sur le domaine de la commune dans le futur"
-    ]
-  }
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Tobler-Affichage-politique.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Tobler-Affichage-politique.txt"
 }

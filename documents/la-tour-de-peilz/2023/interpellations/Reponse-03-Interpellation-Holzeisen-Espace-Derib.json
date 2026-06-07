@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-03-Interpellation-Holzeisen-Espace-Derib.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-03-Interpellation-Holzeisen-Espace-Derib.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Reponse-03-Interpellation-Holzeisen-Espace-Derib.pdf",
@@ -30,7 +30,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
+      "party": "LTDPL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -55,5 +61,31 @@
       "02.2023 – JHO Interpellation – Etude Espace Derib : Un tour de manège et puis s'en va ?",
       "2019( ?), a même été annoncée dans la presse romande (https://www.24heures.ch/un-espace-derib"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=96",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+    "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "filename": "Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib-Rep.pdf"
+  },
+  "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?"
 }

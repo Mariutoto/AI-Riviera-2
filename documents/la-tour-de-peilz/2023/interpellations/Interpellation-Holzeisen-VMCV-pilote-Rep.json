@@ -1,68 +1,79 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2023",
   "listing_year": "2023",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
   "summary": "VMCV – Le pilote connait-il la bonne route ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "ltdpl",
-    "reponse",
-    "vmcv",
-    "pilote",
-    "connait",
-    "bonne",
-    "route",
-    "jho",
-    "sutp",
-    "plr"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 28186,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+  "site_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+  "site_subject": "VMCV – Le pilote connait-il la bonne route ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
       "party": "LTDPL"
     }
   ],
+  "object_title": "VMCV – Le pilote connait-il la bonne route ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2022-11-21",
-    "request_type": "written_answer",
-    "contains_budget_impact": true,
-    "contains_questions": true,
-    "question_count": 1,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_subject": "VMCV – Le pilote connait-il la bonne route ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "VMCV – Le pilote connait-il la bonne route ?"
   },
-  "document_date": "2022-11-21",
-  "policy_details": {
-    "question_topics": [
-      "Interpellation - VMCV – Le pilote connait-il la bonne route ?",
-      "transports publics en Suisse ?",
-      "avait pris par le passé ?",
-      "aux besoins de la population ?",
-      "plus tard dès l'horaire 2025 ?",
-      "Pourriez-vous nous renseigner à ce sujet ?",
-      "Une telle décision est-elle réellement prévue et si oui pour quelle année ?",
-      "201 et 203 dans les tranches-horaires mentionnées précédemment ?"
-    ]
-  }
+  "search_facets": [
+    "bonne",
+    "combined_interpellation_response",
+    "connait",
+    "conseil_communal",
+    "interpellation",
+    "ltdpl",
+    "municipalite",
+    "pilote",
+    "reponse",
+    "response_available",
+    "route",
+    "vmcv"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 28162,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.txt"
 }

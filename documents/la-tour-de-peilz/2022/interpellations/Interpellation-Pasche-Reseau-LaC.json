@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LaC.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LaC.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2022",
   "title": "Interpellation-Pasche-Reseau-LaC.pdf",
@@ -28,7 +28,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Geneviève Pasche",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -53,5 +59,31 @@
       "Comment les autres partenaires du réseau LaC participeront-ils au processus de définition du nouveau réseau ou non aux prises de décision ?",
       "y aura-t-il une démarche participative avant la mise en place du nouveau réseau en 2024? Si oui, quels seront les acteurs interrogés (parents, communes, associations,…) ? Comment les besoins des parents et leurs préférences (pour des garderies plutôt que de l'accueil familial) seront-ils pris en compte ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=88",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2022-reseau-lac-anciennement-reve",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2022-reseau-lac-anciennement-reve",
+    "title": "Interpellation de Mme Geneviève Pasche (LV) + réponse",
+    "object_title": "Réseau LaC, anciennement REVE",
+    "authors": [
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf"
+  },
+  "object_title": "Réseau LaC, anciennement REVE"
 }

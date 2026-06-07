@@ -1,53 +1,84 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2022",
   "listing_year": "2022",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + réponse",
   "summary": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Arnaud-Grill-Roussy-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Arnaud-Grill-Roussy-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Arnaud-Grill-Roussy-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Arnaud-Grill-Roussy-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "anne",
-    "marie",
-    "arnaud",
-    "hors",
-    "parti",
-    "reponse",
-    "nouvelle",
-    "atteinte",
-    "patrimoine",
-    "notre",
-    "ville",
-    "jardin"
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2022-nouvelle-atteinte-au-patrimoine-de-notre-ville-le-jardin-roussy-est-historique-et-ne-doit",
+  "site_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + réponse",
+  "site_subject": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
+  "authors": [
+    {
+      "name": "Anne-Marie Arnaud",
+      "civility": "Mme",
+      "party": "hors parti"
+    }
   ],
+  "object_title": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2022-05-11",
+  "political_object": {
+    "type": "interpellation",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2022-nouvelle-atteinte-au-patrimoine-de-notre-ville-le-jardin-roussy-est-historique-et-ne-doit",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + réponse",
+    "source_subject": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
+    "document_date": "2022-05-11"
+  },
+  "search_facets": [
+    "atteinte",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "historique",
+    "hors_parti",
+    "interpellation",
+    "jardin",
+    "municipalite",
+    "notre",
+    "nouvelle",
+    "patrimoine",
+    "reponse",
+    "response_available",
+    "roussy",
+    "ville"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
-    "characters_extracted": 6430,
+    "characters_extracted": 6418,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
-  "political_object": {
-    "type": "interpellation",
-    "status": "Réponse incluse",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2022-05-11",
-    "request_type": "written_answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 3,
-    "expects_municipal_answer": true
-  },
-  "document_date": "2022-05-11"
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Arnaud-Grill-Roussy-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Arnaud-Grill-Roussy-Rep.txt"
 }

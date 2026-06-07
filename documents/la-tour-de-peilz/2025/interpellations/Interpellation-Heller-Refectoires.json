@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2025",
   "title": "Interpellation-Heller-Refectoires.pdf",
@@ -26,7 +26,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Gabrielle Heller",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -37,7 +43,35 @@
     "contains_budget_impact": true,
     "contains_questions": true,
     "question_count": 8,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_title": "Que contient l'assiette de nos cantines subventionnées"
   },
-  "document_date": "2025-04-13"
+  "document_date": "2025-04-13",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=112",
+    "role": "combined_interpellation_response"
+  },
+  "object_title": "Que contient l'assiette de nos cantines subventionnées",
+  "summary": "Que contient l'assiette de nos cantines subventionnées",
+  "related_political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+    "title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+    "object_title": "Que contient l'assiette de nos cantines subventionnées",
+    "authors": [
+      {
+        "name": "Gabrielle Heller",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf"
+  }
 }

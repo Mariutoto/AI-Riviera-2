@@ -1,68 +1,87 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2021",
   "listing_year": "2021",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de Mme Sophie Blank Barbezat (PLR) + réponse",
   "summary": "Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Blank-Barbezat-Camping-sauvage-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Blank-Barbezat-Camping-sauvage-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Blank-Barbezat-Camping-sauvage-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Blank-Barbezat-Camping-sauvage-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "plr",
-    "reponse",
-    "stop",
-    "camping",
-    "sauvage",
-    "avenue",
-    "chateau",
-    "quai",
-    "roussy",
-    "municipale"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 6482,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2021-stop-au-camping-sauvage-sur-l-avenue-du-lac-la-rue-du-chateau-et-le-quai-roussy",
+  "site_listing_title": "Interpellation de Mme Sophie Blank Barbezat (PLR) + réponse",
+  "site_subject": "Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Sophie Blank Barbezat",
+      "civility": "Mme",
+      "party": "PLR"
+    },
+    {
+      "name": "Sophie Blank-Barbezat",
       "party": "PLR"
     }
   ],
+  "object_title": "Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-06-30",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2021-stop-au-camping-sauvage-sur-l-avenue-du-lac-la-rue-du-chateau-et-le-quai-roussy",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-06-30",
-    "request_type": "answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 6,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de Mme Sophie Blank Barbezat (PLR) + réponse",
+    "source_subject": "Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy",
+    "document_date": "2021-06-30"
   },
-  "document_date": "2021-06-30",
-  "policy_details": {
-    "question_topics": [
-      "Existe-t-il un règlement communal concernant l'autorisation/non autorisation de passer une nuitée sur un parking public ou dans un lieu public sur le territoire de la commune ?",
-      "Si oui, qui est chargé de faire respecter son application ?",
-      "Si tel n'est pas le cas, qu'est-ce qui peut être mis en place afin de limiter les accès aux camping-cars et véhicules utilitaires transformés sur l'Avenue du Lac, la Rue du Château et le Quai Roussy afin d'éviter le camping sauvage ?",
-      "Quelles sont les alternatives de stationnement sur des parkings à la périphérie de la ville ?",
-      "Qu'en est-il de la taxe de séjour lors de nuitée(s) dans des camping cars/véhicules utilitaires transformés en camping-car sur un parking/lieu public sachant que les infrastructures publiques sont utilisées ?",
-      "03-2106-Reponse-08_2021-Interpellation-Blank-Barbezat-Camping-sauvage.docx Au Conseil communal de 1814 La Tour-de-Peilz Monsieur le Président, Mesdames et Messieurs, La Municipalité répond ci-dessous à l'interpellation de Mme Sophie Blank-Barbezat (PLR) « Stop au camping sauvage sur l'Avenue du Lac, la Rue du Château et le Quai Roussy » déposée lors de la séance du Conseil communal du 5 mai 2021 Réponses de la Municipalité Existe-t-il un règlement communal concernant l'autorisation/non autorisation de passer une nuitée sur un parking public ou dans un lieu public sur le territoire de la commune ?",
-      "utilitaires transformés sur l'avenue du Lac, la rue du Château et le quai Roussy afin d'éviter le camping sauvage ?",
-      "camping-car sur un parking/lieu public sachant que les infrastructures publiques sont utilisées ?"
-    ]
-  }
+  "search_facets": [
+    "avenue",
+    "camping",
+    "chateau",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "municipalite",
+    "plr",
+    "quai",
+    "reponse",
+    "response_available",
+    "roussy",
+    "sauvage",
+    "stop"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 6470,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Blank-Barbezat-Camping-sauvage-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Blank-Barbezat-Camping-sauvage-Rep.txt"
 }

@@ -1,65 +1,78 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2021",
   "listing_year": "2021",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Jean-Yves Schmidhauser (PS) + réponse",
   "summary": "Arrogance ou usurpation ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Schmidhauser-Arrogance-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Arrogance-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Arrogance-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Arrogance-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse",
-    "arrogance",
-    "usurpation",
-    "aminian",
-    "lpap",
-    "municipale",
-    "nom"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 11308,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2021-arrogance-ou-usurpation",
+  "site_listing_title": "Interpellation de M. Jean-Yves Schmidhauser (PS) + réponse",
+  "site_subject": "Arrogance ou usurpation ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Yves Schmidhauser",
+      "civility": "M.",
       "party": "PS"
     }
   ],
+  "object_title": "Arrogance ou usurpation ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-03-01",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2021-arrogance-ou-usurpation",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-03-24",
-    "request_type": "answer",
-    "contains_budget_impact": false,
-    "contains_questions": true,
-    "question_count": 11,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Jean-Yves Schmidhauser (PS) + réponse",
+    "source_subject": "Arrogance ou usurpation ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Arrogance ou usurpation ?",
+    "document_date": "2021-03-01"
   },
-  "document_date": "2021-03-24",
-  "policy_details": {
-    "question_topics": [
-      "Arrogance ou usurpation?",
-      "notre Municipale Taraneh AMINIAN ?",
-      "signe qu'elle aurait été démise de ses fonctions?",
-      "Était-elle toujours en vie ?",
-      "commune et ses armoiries appartenaient désormais à cette organisation ?",
-      "légales que tout municipal digne de ce nom ne peut ignorer?",
-      "de la Municipalité de La Tour-de-Peilz?",
-      "bienséance qui devrait être de mise au sein d'une Municipalité ?"
-    ]
-  }
+  "search_facets": [
+    "arrogance",
+    "combined_interpellation_response",
+    "conseil_communal",
+    "interpellation",
+    "municipalite",
+    "ps",
+    "reponse",
+    "response_available",
+    "usurpation"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 11288,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Arrogance-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Arrogance-Rep.txt"
 }

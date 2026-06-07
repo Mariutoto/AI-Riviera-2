@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf",
@@ -30,7 +30,12 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Jean-Etienne Holzeisen",
+      "civility": "M."
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "reponse",
@@ -43,5 +48,30 @@
     "question_count": 0,
     "expects_municipal_answer": true
   },
-  "document_date": "2023-09-13"
+  "document_date": "2023-09-13",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=98",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-chateau-et-musee-une-demarche-participative-vraiment-en-marche",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-chateau-et-musee-une-demarche-participative-vraiment-en-marche",
+    "title": "Interpellation La Tour-de-Peilz Libre (LTDPL) + réponse",
+    "object_title": "Château et Musée - Une démarche participative vraiment en marche ?",
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M."
+      }
+    ],
+    "filename": "Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf"
+  },
+  "object_title": "Château et Musée - Une démarche participative vraiment en marche ?"
 }

@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Rep-09-Interpellation-Castelain-Isolation.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Rep-09-Interpellation-Castelain-Isolation.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2022",
   "title": "Rep-09-Interpellation-Castelain-Isolation.pdf",
@@ -29,7 +29,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Paul Castelain",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -50,5 +56,31 @@
       "rénovation thermique de son parc locatif ?",
       "à bon standard énergétique ?"
     ]
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=92",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2022-augmentation-des-prix-de-l-energie-la-commune-un-proprietaire-responsable",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2022-augmentation-des-prix-de-l-energie-la-commune-un-proprietaire-responsable",
+    "title": "Interpellation de M. Paul Castelain (LV) + Réponse",
+    "object_title": "Augmentation des prix de l'énergie ; la commune, un propriétaire responsable ?",
+    "authors": [
+      {
+        "name": "Paul Castelain",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Castelain-Isolation-Rep.pdf"
+  },
+  "object_title": "Augmentation des prix de l'énergie ; la commune, un propriétaire responsable ?"
 }

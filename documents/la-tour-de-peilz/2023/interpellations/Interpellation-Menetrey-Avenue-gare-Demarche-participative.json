@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf",
@@ -27,7 +27,13 @@
     "text_available": false,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Bernadette Menétrey",
+      "civility": "Mme",
+      "party": "PLR"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -38,5 +44,31 @@
     "contains_questions": false,
     "question_count": 0,
     "expects_municipal_answer": true
-  }
+  },
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "interpellation_text",
+  "contains_response": false,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=97",
+    "role": "interpellation_text"
+  },
+  "related_political_object_id": "interpellation-2023-reamenagement-de-l-avenue-de-la-gare-demarche-participative-a-quel-prix",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-reamenagement-de-l-avenue-de-la-gare-demarche-participative-a-quel-prix",
+    "title": "Interpellation de Mme Bernadette Menétrey (PLR) + réponse",
+    "object_title": "Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+    "authors": [
+      {
+        "name": "Bernadette Menétrey",
+        "civility": "Mme",
+        "party": "PLR"
+      }
+    ],
+    "filename": "Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf"
+  },
+  "object_title": "Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?"
 }

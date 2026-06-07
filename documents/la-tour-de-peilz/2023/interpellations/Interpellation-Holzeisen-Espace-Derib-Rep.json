@@ -1,66 +1,82 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "interpellation",
+  "document_type": "interpellation",
   "year": "2023",
   "listing_year": "2023",
   "category": "interpellations",
   "legislature": "2021-2026",
   "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
   "summary": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
-  "status": "Réponse incluse",
   "filename": "Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_interpellation",
-  "search_facets": [
-    "interpellation",
-    "conseil_communal",
-    "reponse_ecrite",
-    "ltdpl",
-    "reponse",
-    "etude",
-    "espace",
-    "derib",
-    "tour",
-    "manege",
-    "puis",
-    "jho"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 7464,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+  "site_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+  "site_subject": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+  "site_status_raw": "Reponse incluse",
+  "status": "Reponse incluse",
+  "status_normalized": "response_available",
   "authors": [
     {
       "name": "Jean-Etienne Holzeisen",
+      "civility": "M.",
       "party": "LTDPL"
     }
   ],
+  "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+  "document_role": "combined_interpellation_response",
+  "document_components": [
+    {
+      "role": "interpellation_text"
+    },
+    {
+      "role": "municipal_response"
+    }
+  ],
+  "contains_response": true,
+  "document_date": "2021-06-20",
   "political_object": {
     "type": "interpellation",
-    "status": "Réponse incluse",
+    "object_type": "interpellation",
+    "object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+    "status_raw": "Reponse incluse",
+    "status_normalized": "response_available",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2021-06-20",
-    "request_type": "written_answer",
-    "contains_budget_impact": true,
-    "contains_questions": true,
-    "question_count": 7,
-    "expects_municipal_answer": true
+    "request_type": "question_request",
+    "expects_municipal_answer": true,
+    "contains_response": true,
+    "source_listing_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_subject": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+    "document_date": "2021-06-20"
   },
-  "document_date": "2021-06-20",
-  "policy_details": {
-    "question_topics": [
-      "Quel est le résultat de l'étude ?",
-      "Est-ce que travail réalisé par la société Go2Play est terminé ?",
-      "Est-il possible d'obtenir les conclusions de leur étude ?",
-      "Lors de l'établissement du Budget 2023, quel était l'avancement de celle-ci ?",
-      "Est-ce qu'un projet culturel lié à Derib est toujours prévu sur notre territoire communal ?",
-      "La Municipalité a-t-elle envisagé d'autres projets/affectations pour les parcelles communales à proximité du Manège de Villars ?"
-    ]
-  }
+  "search_facets": [
+    "combined_interpellation_response",
+    "conseil_communal",
+    "derib",
+    "espace",
+    "etude",
+    "interpellation",
+    "ltdpl",
+    "manege",
+    "municipalite",
+    "puis",
+    "reponse",
+    "response_available",
+    "tour"
+  ],
+  "content_kind": "political_interpellation",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 7444,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.txt"
 }

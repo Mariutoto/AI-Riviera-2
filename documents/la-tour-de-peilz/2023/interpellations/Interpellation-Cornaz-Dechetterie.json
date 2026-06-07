@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie.txt",
   "type": "interpellation",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_interpellation",
   "listing_year": "2023",
   "title": "Interpellation-Cornaz-Dechetterie.pdf",
@@ -26,7 +26,13 @@
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Mireille Cornaz",
+      "civility": "Mme",
+      "party": "LCIVL"
+    }
+  ],
   "political_object": {
     "type": "interpellation",
     "status": "depot",
@@ -39,5 +45,31 @@
     "question_count": 3,
     "expects_municipal_answer": true
   },
-  "document_date": "2023-06-08"
+  "document_date": "2023-06-08",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "interpellation",
+  "document_role": "combined_interpellation_response",
+  "contains_response": true,
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=97",
+    "role": "combined_interpellation_response"
+  },
+  "related_political_object_id": "interpellation-2023-n-y-a-t-il-pas-quelque-chose-a-revoir-dans-l-organisation-de-la-dechetterie-et-de-la-resso",
+  "related_canonical_interpellation": {
+    "political_object_id": "interpellation-2023-n-y-a-t-il-pas-quelque-chose-a-revoir-dans-l-organisation-de-la-dechetterie-et-de-la-resso",
+    "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+    "object_title": "N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+    "authors": [
+      {
+        "name": "Mireille Cornaz",
+        "civility": "Mme",
+        "party": "LCIVL"
+      }
+    ],
+    "filename": "Interpellation-Cornaz-Dechetterie-Rep.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Cornaz-Dechetterie-Rep.pdf"
+  },
+  "object_title": "N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?"
 }
