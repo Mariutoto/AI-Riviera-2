@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Bonvin-J-Zones-Reservees.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Bonvin-J-Zones-Reservees.txt",
   "type": "motion",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_motion",
   "listing_year": "2024",
   "title": "Motion-Bonvin-J-Zones-Reservees.pdf",
@@ -44,5 +44,20 @@
     "request_type": "binding_request",
     "contains_budget_impact": false
   },
-  "document_date": "2022-08-30"
+  "document_date": "2022-08-30",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "motion",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=107",
+    "role": "motion"
+  },
+  "related_political_object_id": "motion-2024-freiner-les-constructions-et-preserver-le-patrimoine-dans-la-commune-de-la-tour-de-peilz",
+  "related_canonical_motion": {
+    "political_object_id": "motion-2024-freiner-les-constructions-et-preserver-le-patrimoine-dans-la-commune-de-la-tour-de-peilz",
+    "title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+    "filename": "Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf"
+  }
 }

@@ -1,57 +1,85 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "motion",
+  "document_type": "motion",
   "year": "2026",
   "listing_year": "2026",
   "category": "motions",
   "legislature": "2021-2026",
   "title": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
   "summary": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
-  "status": "Renvoyé directement à la Municipalité",
   "filename": "Motion-Roethlisberger-Frais-garde.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_motion",
-  "search_facets": [
-    "motion",
-    "conseil_communal",
-    "frais_de_garde",
-    "lcivl",
-    "psdg",
-    "indemnite",
-    "remboursement",
-    "frais",
-    "garde",
-    "commissions",
-    "bureau",
-    "ltdpl"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 3622,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2026-indemnite-pour-le-remboursement-des-frais-de-garde-lors-des-seances-du-conseil-communal-de",
+  "site_listing_title": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
+  "site_subject": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+  "site_status_raw": "Renvoyé directement à la Municipalité",
+  "status": "Renvoyé directement à la Municipalité",
+  "status_normalized": "referred_directly_to_municipality",
   "authors": [
     {
       "name": "Manon Roethlisberger",
+      "civility": "Mme",
       "party": "LCIVL"
     },
     {
       "name": "Piero Negro",
+      "civility": "M.",
       "party": "PSDG"
     }
   ],
+  "document_role": "motion_text",
+  "document_components": [
+    {
+      "role": "motion_text"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2026-04-06",
   "political_object": {
     "type": "motion",
-    "status": "Renvoyé directement à la Municipalité",
+    "object_type": "motion",
+    "object_id": "motion-2026-indemnite-pour-le-remboursement-des-frais-de-garde-lors-des-seances-du-conseil-communal-de",
+    "status_raw": "Renvoyé directement à la Municipalité",
+    "status_normalized": "referred_directly_to_municipality",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
-    "document_date": "2026-04-06",
     "request_type": "binding_request",
-    "contains_budget_impact": true
+    "source_listing_title": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
+    "source_subject": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "document_date": "2026-04-06"
   },
-  "document_date": "2026-04-06"
+  "search_facets": [
+    "conseil",
+    "conseil_communal",
+    "frais",
+    "garde",
+    "indemnite",
+    "lcivl",
+    "lors",
+    "motion",
+    "motion_text",
+    "municipalite",
+    "pour",
+    "psdg",
+    "referred_directly_to_municipality",
+    "remboursement",
+    "seances"
+  ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 3620,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\motions\\Motion-Roethlisberger-Frais-garde.txt"
 }

@@ -168,6 +168,7 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                         WHERE (metadata->>'year' = %s OR source_path LIKE %s)
                           AND doc_type = %s
                           AND (title ILIKE %s OR metadata->>'filename' ILIKE %s)
+                          AND COALESCE(metadata->>'canonical_object', 'true') <> 'false'
                           AND COALESCE(metadata->>'filename', '') NOT ILIKE 'Reponse-%%'
                           AND COALESCE(metadata->>'filename', '') NOT ILIKE '%%-Rapp%%'
                         ORDER BY title, source_url

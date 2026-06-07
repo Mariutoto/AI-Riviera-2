@@ -1,48 +1,88 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "motion",
+  "document_type": "motion",
   "year": "2021",
   "listing_year": "2021",
   "category": "motions",
   "legislature": "2021-2026",
   "title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
   "summary": "Adaptation du Règlement du conseil communal",
-  "status": "Renvoyé directement à la Municipalité",
   "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_motion",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2021-adaptation-du-reglement-du-conseil-communal",
+  "site_listing_title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+  "site_subject": "Adaptation du Règlement du conseil communal",
+  "site_status_raw": "Renvoyé directement à la Municipalité",
+  "status": "Renvoyé directement à la Municipalité",
+  "status_normalized": "referred_directly_to_municipality",
+  "authors": [
+    {
+      "name": "Marc Wüthrich",
+      "civility": "M.",
+      "party": "LTDPL"
+    }
+  ],
+  "document_role": "combined_motion_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "motion_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-11-15",
+  "political_object": {
+    "type": "motion",
+    "object_type": "motion",
+    "object_id": "motion-2021-adaptation-du-reglement-du-conseil-communal",
+    "status_raw": "Renvoyé directement à la Municipalité",
+    "status_normalized": "referred_directly_to_municipality",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "binding_request",
+    "source_listing_title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+    "source_subject": "Adaptation du Règlement du conseil communal",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "document_date": "2021-11-15"
+  },
   "search_facets": [
-    "motion",
+    "adaptation",
+    "combined_motion_report_decision",
+    "communal",
+    "conseil",
     "conseil_communal",
     "ltdpl",
-    "adaptation",
+    "motion",
+    "municipalite",
+    "referred_directly_to_municipality",
     "reglement",
-    "cofin",
-    "rcc"
+    "standard_report"
   ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
   "text_extraction_status": {
     "characters_extracted": 1548,
     "text_available": true,
     "needs_ocr": false
   },
-  "authors": [
-    {
-      "name": "Marc Wüthrich",
-      "party": "LTDPL"
-    }
-  ],
-  "political_object": {
-    "type": "motion",
-    "status": "Renvoyé directement à la Municipalité",
-    "target_body": "Municipalite",
-    "decision_body": "Conseil communal",
-    "document_date": "2021-12-08",
-    "request_type": "binding_request",
-    "contains_budget_impact": false
+  "commission": {
+    "contains_majority_report": false,
+    "contains_minority_report": false
   },
-  "document_date": "2021-12-08"
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt"
 }

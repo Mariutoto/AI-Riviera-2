@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Rapport-Motion-Espinosa-Zone30.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Rapport-Motion-Espinosa-Zone30.txt",
   "type": "motion",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_motion",
   "listing_year": "2021",
   "title": "Rapport-Motion-Espinosa-Zone30.pdf",
@@ -40,5 +40,20 @@
     "request_type": "binding_request",
     "contains_budget_impact": false
   },
-  "document_date": "2021-08-25"
+  "document_date": "2021-08-25",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "motion",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=83",
+    "role": "motion"
+  },
+  "related_political_object_id": "motion-2021-zone-51-non-zone-30-la-tour-de-peilz",
+  "related_canonical_motion": {
+    "political_object_id": "motion-2021-zone-51-non-zone-30-la-tour-de-peilz",
+    "title": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+    "filename": "Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf"
+  }
 }

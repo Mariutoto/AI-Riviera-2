@@ -8,7 +8,7 @@
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Pasche-Consorts-Chateau-participatif-Rapp.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Pasche-Consorts-Chateau-participatif-Rapp.txt",
   "type": "motion",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "political_motion",
   "listing_year": "2022",
   "title": "Motion-Pasche-Consorts-Chateau-participatif-Rapp.pdf",
@@ -39,5 +39,20 @@
     "request_type": "binding_request",
     "contains_budget_impact": false
   },
-  "document_date": "2022-05-30"
+  "document_date": "2022-05-30",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_type": "motion",
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=90",
+    "role": "motion"
+  },
+  "related_political_object_id": "motion-2022-le-chateau-un-programme-pour-toutes-et-tous",
+  "related_canonical_motion": {
+    "political_object_id": "motion-2022-le-chateau-un-programme-pour-toutes-et-tous",
+    "title": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts + rapport + décision",
+    "filename": "Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf"
+  }
 }

@@ -1,45 +1,74 @@
 {
   "commune": "La Tour-de-Peilz",
   "type": "motion",
+  "document_type": "motion",
   "year": "2021",
   "listing_year": "2021",
   "category": "motions",
   "legislature": "2021-2026",
   "title": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
   "summary": "Du matériel sportif accessible pour tous",
-  "status": "Renvoyé directement à la Municipalité",
   "filename": "7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\7-1-Motion-Kraehenbuhl-Materiel-sportif.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "political_motion",
-  "search_facets": [
-    "motion",
-    "conseil_communal",
-    "plr",
-    "materiel",
-    "sportif",
-    "accessible"
-  ],
-  "text_extraction_status": {
-    "characters_extracted": 0,
-    "text_available": false,
-    "needs_ocr": false
-  },
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2021-du-materiel-sportif-accessible-pour-tous",
+  "site_listing_title": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+  "site_subject": "Du matériel sportif accessible pour tous",
+  "site_status_raw": "Renvoyé directement à la Municipalité",
+  "status": "Renvoyé directement à la Municipalité",
+  "status_normalized": "referred_directly_to_municipality",
   "authors": [
     {
       "name": "Yvan Kraehenbuehl",
+      "civility": "M.",
       "party": "PLR"
     }
   ],
+  "document_role": "motion_text",
+  "document_components": [
+    {
+      "role": "motion_text"
+    }
+  ],
+  "contains_report": false,
+  "contains_decision": false,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
   "political_object": {
     "type": "motion",
-    "status": "Renvoyé directement à la Municipalité",
+    "object_type": "motion",
+    "object_id": "motion-2021-du-materiel-sportif-accessible-pour-tous",
+    "status_raw": "Renvoyé directement à la Municipalité",
+    "status_normalized": "referred_directly_to_municipality",
     "target_body": "Municipalite",
     "decision_body": "Conseil communal",
     "request_type": "binding_request",
-    "contains_budget_impact": false
-  }
+    "source_listing_title": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+    "source_subject": "Du matériel sportif accessible pour tous",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php"
+  },
+  "search_facets": [
+    "accessible",
+    "conseil_communal",
+    "materiel",
+    "motion",
+    "motion_text",
+    "municipalite",
+    "plr",
+    "pour",
+    "referred_directly_to_municipality",
+    "sportif",
+    "tous"
+  ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 1,
+    "text_available": false,
+    "needs_ocr": true
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\7-1-Motion-Kraehenbuhl-Materiel-sportif.txt"
 }
