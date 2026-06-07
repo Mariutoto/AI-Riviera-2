@@ -265,6 +265,7 @@ def ingest_documents(
                             "fetch_date": payload["fetch_date"],
                             "last_processed_at": payload["last_processed_at"],
                             "embedding": embedding,
+                            "metadata": payload["metadata"],
                         }
                     )
 

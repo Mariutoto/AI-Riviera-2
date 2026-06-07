@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from app.config import POSTGRES_SCHEMA_PATH, POSTGRES_URL
+from app.text_cleaning import strip_accents
 
 
 @dataclass
@@ -164,21 +165,31 @@ def ready() -> bool:
 
 
 def _normalize_search_rows(rows: list[dict[str, Any]], searchable_tokens: list[str], query: str) -> list[dict[str, Any]]:
-    query_lower = query.lower()
+    query_lower = strip_accents(query).lower()
+    regulation_query = (
+        "reglement" in query_lower
+        or "rcc" in query_lower
+        or ("article" in query_lower and ("conseil" in query_lower or "communal" in query_lower))
+    )
+    president_election_query = any(term in query_lower for term in ["election", "president", "nomination"])
     results = []
     for row in rows:
         content = row["content"] or ""
         title = row["title"] or ""
         doc_type = row["doc_type"] or ""
         score = float(row.get("score") or 0.0)
+        metadata = row["metadata"] or {}
+        if not isinstance(metadata, dict):
+            metadata = {}
         haystacks = {
-            "content": content.lower(),
-            "title": title.lower(),
-            "doc_type": doc_type.lower(),
-            "source_url": str(row["source_url"] or "").lower(),
-            "metadata": json.dumps(row["metadata"] or {}, ensure_ascii=False).lower(),
+            "content": strip_accents(content).lower(),
+            "title": strip_accents(title).lower(),
+            "doc_type": strip_accents(doc_type).lower(),
+            "source_url": strip_accents(str(row["source_url"] or "")).lower(),
+            "metadata": strip_accents(json.dumps(metadata, ensure_ascii=False)).lower(),
         }
         for token in searchable_tokens:
+            token = strip_accents(token).lower()
             score += haystacks["content"].count(token) * 1.0
             score += haystacks["title"].count(token) * 8.0
             score += haystacks["doc_type"].count(token) * 4.0
@@ -187,9 +198,22 @@ def _normalize_search_rows(rows: list[dict[str, Any]], searchable_tokens: list[s
         if query_lower and query_lower in haystacks["content"]:
             score += 12.0
 
-        metadata = row["metadata"] or {}
-        if not isinstance(metadata, dict):
-            metadata = {}
+        is_regulation = str(doc_type).lower() == "reglement-conseil-communal"
+        is_regulation_article = metadata.get("content_kind") == "regulation_article" or bool(metadata.get("article_number"))
+        if regulation_query:
+            if is_regulation:
+                score += 45.0
+            if is_regulation_article:
+                score += 35.0
+            if any(
+                token in haystacks["title"] or token in haystacks["metadata"]
+                for token in ["election", "president", "nomination", "bureau"]
+            ):
+                score += 18.0
+            if president_election_query and str(metadata.get("article_number")) in {"11", "12"}:
+                score += 45.0
+            if str(doc_type).lower() in {"ordres-du-jour", "rapport-gestion", "rapports-gestion"}:
+                score -= 30.0
         if metadata.get("canonical_object") is False:
             score -= 12.0
         elif metadata.get("canonical_object") is True:
@@ -243,6 +267,9 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
     if filters.get("doc_type"):
         filter_where.append("LOWER(dc.doc_type) = LOWER(%s)")
         filter_params.append(filters["doc_type"])
+    if filters.get("content_kind"):
+        filter_where.append("dc.metadata->>'content_kind' = %s")
+        filter_params.append(filters["content_kind"])
     if filters.get("year"):
         filter_where.append("(dc.metadata->>'year' = %s OR d.source_path LIKE %s)")
         filter_params.extend([str(filters["year"]), f"%/{filters['year']}/%"])

@@ -108,6 +108,8 @@ def _filters_to_query(filters: dict[str, Any] | None) -> list[dict[str, Any]]:
         query_filters.append({"term": {"city": filters["city"]}})
     if filters.get("doc_type"):
         query_filters.append({"term": {"doc_type": filters["doc_type"]}})
+    if filters.get("content_kind"):
+        query_filters.append({"term": {"metadata.content_kind": filters["content_kind"]}})
     if filters.get("date_from") or filters.get("date_to"):
         date_filter: dict[str, Any] = {}
         if filters.get("date_from"):

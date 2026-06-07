@@ -60,6 +60,14 @@ def is_council_vote_query(query: str) -> bool:
     return has_vote and not has_popular_vote
 
 
+def is_council_regulation_query(query: str) -> bool:
+    normalized = strip_accents(query).lower()
+    has_regulation = any(term in normalized for term in ["reglement", "rcc"])
+    has_article = any(term in normalized for term in ["article", "articles"])
+    has_council = "conseil" in normalized or "communal" in normalized
+    return has_regulation or (has_article and has_council)
+
+
 @lru_cache(maxsize=1)
 def load_chunks() -> list[dict]:
     if not CHUNKS_PATH.exists():
@@ -82,13 +90,25 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
 
     filters = dict(filters or {})
     normalized_query = strip_accents(query).lower()
+    council_regulation_query = is_council_regulation_query(query)
     if not filters.get("doc_type"):
-        if "interpellation" in normalized_query:
+        if council_regulation_query:
+            filters["doc_type"] = "reglement-conseil-communal"
+            if "article" in normalized_query:
+                filters["content_kind"] = "regulation_article"
+        elif "interpellation" in normalized_query:
             filters["doc_type"] = "interpellations"
         elif "postulat" in normalized_query:
             filters["doc_type"] = "postulats"
         elif "motion" in normalized_query:
             filters["doc_type"] = "motions"
+    if (
+        council_regulation_query
+        and filters.get("doc_type") == "reglement-conseil-communal"
+        and "article" in normalized_query
+        and not filters.get("content_kind")
+    ):
+        filters["content_kind"] = "regulation_article"
     if not filters.get("year"):
         year_match = re.search(r"\b(20\d{2})\b", normalized_query)
         if year_match:
@@ -96,6 +116,10 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
 
     broad_legislature_query = is_broad_legislature_query(query, query_tokens)
     council_vote_query = is_council_vote_query(query)
+    if council_regulation_query:
+        query_tokens.update(["reglement", "rcc", "article", "articles", "conseil", "communal"])
+        if any(term in normalized_query for term in ["election", "president", "nomination"]):
+            query_tokens.update(["election", "president", "nomination", "bureau"])
     if broad_legislature_query:
         query_tokens.update(
             [
