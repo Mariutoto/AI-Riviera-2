@@ -57,6 +57,13 @@ def chunk_text(text: str, size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) 
     return chunks
 
 
+def chunks_for_document(content: str, metadata: dict[str, Any]) -> list[str]:
+    if metadata.get("content_kind") == "regulation_article" or metadata.get("article_number"):
+        text = clean_french_text(content).strip()
+        return [text] if text else []
+    return chunk_text(content)
+
+
 def load_metadata(text_path: Path, content: str | None = None) -> dict[str, Any]:
     metadata_path = text_path.with_suffix(".json")
     if metadata_path.exists():
@@ -135,6 +142,12 @@ def _searchable_text(metadata: dict[str, Any], chunk: str) -> str:
             parts.append(f"Status: {status}")
     if metadata.get("session_date"):
         parts.append(f"Date: {metadata['session_date']}")
+    if metadata.get("article_number"):
+        parts.append(f"Article: {metadata.get('article_number')}")
+    if metadata.get("article_title"):
+        parts.append(f"Article title: {metadata.get('article_title')}")
+    if metadata.get("title_path"):
+        parts.append(f"Regulation path: {metadata.get('title_path')}")
     prefix = "\n".join(part for part in parts if part.split(": ", 1)[-1])
     return f"{prefix}\n\n{chunk}".strip()
 
@@ -208,7 +221,7 @@ def ingest_documents(
                 delete_chunks_for_document(connection, document_id)
                 delete_document(document_id)
 
-                chunks = chunk_text(content)
+                chunks = chunks_for_document(content, metadata)
                 if not chunks:
                     continue
 
