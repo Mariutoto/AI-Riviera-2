@@ -2,52 +2,617 @@
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2025-06-25",
   "filename": "2025-06-25-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=114",
   "session_date": "2025-06-25",
+  "document_date": "2025-06-25",
   "time": "19:00",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 20,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-06-25-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2025",
-  "title": "2025-06-25-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "mobilite_douce",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "plr",
-    "fcr",
-    "ciehl",
-    "cogest",
-    "ltdpl"
+  "agenda_items": [
+    {
+      "number": "4.1",
+      "item_number": "4.1",
+      "title": "Présidence",
+      "raw_title": "Présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.2",
+      "item_number": "4.2",
+      "title": "1re vice-présidence",
+      "raw_title": "1re vice-présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.3",
+      "item_number": "4.3",
+      "title": "2e vice-présidence",
+      "raw_title": "2e vice-présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.4",
+      "item_number": "4.4",
+      "title": "Scrutateurs et scrutateurs-suppléants Assermentations Elections – Nominations Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "raw_title": "Scrutateurs et scrutateurs-suppléants Assermentations Elections – Nominations Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Réponse municipale N° 2/2025 – Interpellation de Mme Gabrielle Heller (LV) – Que contient l'assiette de nos cantines subventionnées ?",
+      "raw_title": "Réponse municipale N° 2/2025 – Interpellation de Mme Gabrielle Heller (LV) – Que contient l'assiette de nos cantines subventionnées ?",
+      "object_type": "interpellation",
+      "object_number": "2/2025",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 2/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
+          "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2025",
+            "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2025",
+            "title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+            "object_title": "Que contient l'assiette de nos cantines subventionnées",
+            "political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
+            "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "9.1",
+            "link_title": "Réponse municipale N° 2/2025"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2025",
+          "title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+          "object_title": "Que contient l'assiette de nos cantines subventionnées",
+          "political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
+          "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "9.1",
+          "link_title": "Réponse municipale N° 2/2025"
+        }
+      ]
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Préavis municipal N° 18/2025 – Approbation d'un nouveau plan concernant la sécurisation de la mobilité douce au chemin de Béranges",
+      "raw_title": "Préavis municipal N° 18/2025 – Approbation d'un nouveau plan concernant la sécurisation de la mobilité douce au chemin de Béranges",
+      "object_type": "preavis",
+      "object_number": "18/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 18/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-18-Amenagement-pietons-Berange-Poneyre.pdf",
+          "filename": "Preavis-18-Amenagement-pietons-Berange-Poneyre.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-18-Amenagement-pietons-Berange-Poneyre.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-18-Amenagement-pietons-Berange-Poneyre.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-18-Amenagement-pietons-Berange-Poneyre.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-18-Amenagement-pietons-Berange-Poneyre.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Préavis municipal N° 19/2025 – Réponse au postulat de Mme Sophie Blank Barbezat (PLR) « Un accès à la baignade au lac pour tous »",
+      "raw_title": "Préavis municipal N° 19/2025 – Réponse au postulat de Mme Sophie Blank Barbezat (PLR) « Un accès à la baignade au lac pour tous »",
+      "object_type": "preavis",
+      "object_number": "19/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 19/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-19-Postulat-Blank-Baignade-pour-tous.pdf",
+          "filename": "Preavis-19-Postulat-Blank-Baignade-pour-tous.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-19-Postulat-Blank-Baignade-pour-tous.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-19-Postulat-Blank-Baignade-pour-tous.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-19-Postulat-Blank-Baignade-pour-tous.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-19-Postulat-Blank-Baignade-pour-tous.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Préavis municipal N° 20/2025 – Stratégie de végétalisation des espaces publics, demande de crédit de Fr. 62'000.- pour la réalisation d'une microforêt au cimetière de Vassin et réponse au postulat du groupe PLR « Une autre façon de lutter contre les îlots de chaleur »",
+      "raw_title": "Préavis municipal N° 20/2025 – Stratégie de végétalisation des espaces publics, demande de crédit de Fr. 62'000.- pour la réalisation d'une microforêt au cimetière de Vassin et réponse au postulat du groupe PLR « Une autre façon de lutter contre les îlots de chaleur »",
+      "object_type": "preavis",
+      "object_number": "20/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 20/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.pdf",
+          "filename": "Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Préavis municipal N° 21/2025 – Réponse au postulat de M. Alessio Grutta (PLR) « Soutenons nos étudiants boélands ! »",
+      "raw_title": "Préavis municipal N° 21/2025 – Réponse au postulat de M. Alessio Grutta (PLR) « Soutenons nos étudiants boélands ! »",
+      "object_type": "preavis",
+      "object_number": "21/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 21/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-21-Reponse-Postulat-Grutta-Etudiants.pdf",
+          "filename": "Preavis-21-Reponse-Postulat-Grutta-Etudiants.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-21-Reponse-Postulat-Grutta-Etudiants.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Grutta-Etudiants.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Grutta-Etudiants.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Grutta-Etudiants.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.5",
+      "item_number": "10.5",
+      "title": "Préavis municipal N° 22/2025 – Indemnité de remplacement lors d'absences de longue durée au sein de la Municipalité pour la législature 2021-2026",
+      "raw_title": "Préavis municipal N° 22/2025 – Indemnité de remplacement lors d'absences de longue durée au sein de la Municipalité pour la législature 2021-2026",
+      "object_type": "preavis",
+      "object_number": "22/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 22/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.pdf",
+          "filename": "Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.pdf",
+          "agenda_item_number": "10.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-22-Indemnite-remplacements-longue-duree-Municipalite.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.6",
+      "item_number": "10.6",
+      "title": "Préavis municipal N° 23/2025 – Fixation du traitement des membres de la Municipalité pour la législature 2026-2031",
+      "raw_title": "Préavis municipal N° 23/2025 – Fixation du traitement des membres de la Municipalité pour la législature 2026-2031",
+      "object_type": "preavis",
+      "object_number": "23/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 23/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-23-Traitement-Municipalite.pdf",
+          "filename": "Preavis-23-Traitement-Municipalite.pdf",
+          "agenda_item_number": "10.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-23-Traitement-Municipalite.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-23-Traitement-Municipalite.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-23-Traitement-Municipalite.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-23-Traitement-Municipalite.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 5/2025 – Gestion et comptes 2024 du Fonds culturel Riviera (FCR)",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 5/2025 – Gestion et comptes 2024 du Fonds culturel Riviera (FCR)",
+      "object_type": "preavis",
+      "object_number": "5/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 5/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-05-FCR-Comptes-2024-Rapp.pdf",
+          "filename": "Preavis-05-FCR-Comptes-2024-Rapp.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-05-FCR-Comptes-2024-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-05-FCR-Comptes-2024-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-05-FCR-Comptes-2024-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-05-FCR-Comptes-2024-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 6/2025 – Gestion et comptes 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 6/2025 – Gestion et comptes 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "object_type": "preavis",
+      "object_number": "6/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 6/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-06-CIEHL-Comptes-2024-Rapp.pdf",
+          "filename": "Preavis-06-CIEHL-Comptes-2024-Rapp.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-06-CIEHL-Comptes-2024-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-06-CIEHL-Comptes-2024-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-06-CIEHL-Comptes-2024-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-06-CIEHL-Comptes-2024-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.3",
+      "item_number": "11.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 7/2025 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 7/2025 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)",
+      "object_type": "preavis",
+      "object_number": "7/2025",
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.4",
+      "item_number": "11.4",
+      "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2024 et réponses de la Municipalité aux observations et aux vœux de la commission",
+      "raw_title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2024 et réponses de la Municipalité aux observations et aux vœux de la commission",
+      "object_type": "preavis",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la Commission de gestion",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Rapport-COGEST-24.pdf",
+          "filename": "Rapport-COGEST-24.pdf",
+          "agenda_item_number": "11.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Rapport-COGEST-24.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Rapport-COGEST-24.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Rapport-COGEST-24.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Rapport-COGEST-24.pdf"
+          },
+          "canonical_object": null
+        },
+        {
+          "title": "réponses de la Municipalité aux observations et aux vœux de la commission",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Reponses-muni-Gestion-2024.pdf",
+          "filename": "Reponses-muni-Gestion-2024.pdf",
+          "agenda_item_number": "11.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Reponses-muni-Gestion-2024.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Reponses-muni-Gestion-2024.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Reponses-muni-Gestion-2024.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Reponses-muni-Gestion-2024.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.5",
+      "item_number": "11.5",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2025 – Réponse au postulat de Mme Viviane Huber (LTDPL) « Un Noël différent »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2025 – Réponse au postulat de Mme Viviane Huber (LTDPL) « Un Noël différent »",
+      "object_type": "preavis",
+      "object_number": "9/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-09-Reponse-postulat-Huber-Noel-Rapp.pdf",
+          "filename": "Preavis-09-Reponse-postulat-Huber-Noel-Rapp.pdf",
+          "agenda_item_number": "11.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-09-Reponse-postulat-Huber-Noel-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-09-Reponse-postulat-Huber-Noel-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-09-Reponse-postulat-Huber-Noel-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-09-Reponse-postulat-Huber-Noel-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.6",
+      "item_number": "11.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2025 – Demande de crédit de Fr. 96'500.- pour le renouvellement du parc d'horodateurs",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2025 – Demande de crédit de Fr. 96'500.- pour le renouvellement du parc d'horodateurs",
+      "object_type": "preavis",
+      "object_number": "12/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-12-Achat-horodateurs-Rapp.pdf",
+          "filename": "Preavis-12-Achat-horodateurs-Rapp.pdf",
+          "agenda_item_number": "11.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-12-Achat-horodateurs-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-12-Achat-horodateurs-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-12-Achat-horodateurs-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-12-Achat-horodateurs-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.7",
+      "item_number": "11.7",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2025 – Projet de modification du règlement sur le stationnement de La Tour-de-Peilz de M. Jean-Etienne Holzeisen (LTDPL) et consorts",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2025 – Projet de modification du règlement sur le stationnement de La Tour-de-Peilz de M. Jean-Etienne Holzeisen (LTDPL) et consorts",
+      "object_type": "preavis",
+      "object_number": "13/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-13-Modification-reglement-stationnement-Rapp.pdf",
+          "filename": "Preavis-13-Modification-reglement-stationnement-Rapp.pdf",
+          "agenda_item_number": "11.7",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-13-Modification-reglement-stationnement-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-13-Modification-reglement-stationnement-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-13-Modification-reglement-stationnement-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-13-Modification-reglement-stationnement-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.8",
+      "item_number": "11.8",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2025 – Demande d'un crédit de Fr. 1'850'000.- pour le réaménagement et la mise en séparatif du chemin des Bulesses du N° 2a au N° 16 ainsi que la mise en séparatif et le remplacement des équipements d'éclairage public de l'avenue des Baumes, du chemin de Muraz et du chemin du Levant",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2025 – Demande d'un crédit de Fr. 1'850'000.- pour le réaménagement et la mise en séparatif du chemin des Bulesses du N° 2a au N° 16 ainsi que la mise en séparatif et le remplacement des équipements d'éclairage public de l'avenue des Baumes, du chemin de Muraz et du chemin du Levant",
+      "object_type": "preavis",
+      "object_number": "14/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-14-Bulesses-inf-Baumes-Rapp.pdf",
+          "filename": "Preavis-14-Bulesses-inf-Baumes-Rapp.pdf",
+          "agenda_item_number": "11.8",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-14-Bulesses-inf-Baumes-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-14-Bulesses-inf-Baumes-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-14-Bulesses-inf-Baumes-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-14-Bulesses-inf-Baumes-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.9",
+      "item_number": "11.9",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2025 – Réponse aux postulats de Mme Geneviève Pasche (LV) et consorts « Un plan climat pour répondre à l'urgence climatique » et de M. Nicolas Bastard (PS) « Déclarer l'urgence climatique et agir à La Tour-de-Peilz » et demande d'un crédit de réalisation de Fr. 120'000.- pour le développement et la mise en place de la plateforme participative CLIMAXION",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2025 – Réponse aux postulats de Mme Geneviève Pasche (LV) et consorts « Un plan climat pour répondre à l'urgence climatique » et de M. Nicolas Bastard (PS) « Déclarer l'urgence climatique et agir à La Tour-de-Peilz » et demande d'un crédit de réalisation de Fr. 120'000.- pour le développement et la mise en place de la plateforme participative CLIMAXION",
+      "object_type": "preavis",
+      "object_number": "15/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-15-Reponses-postulats-plans-climat-Rapp.pdf",
+          "filename": "Preavis-15-Reponses-postulats-plans-climat-Rapp.pdf",
+          "agenda_item_number": "11.9",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-15-Reponses-postulats-plans-climat-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-15-Reponses-postulats-plans-climat-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-15-Reponses-postulats-plans-climat-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-15-Reponses-postulats-plans-climat-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.10",
+      "item_number": "11.10",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2025 – Demande d'un crédit de construction de Fr. 256'000.- destiné à l'entretien préventif et curatif pour la conservation des vestiges du donjon médiéval au Château de La Tour-de-Peilz",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2025 – Demande d'un crédit de construction de Fr. 256'000.- destiné à l'entretien préventif et curatif pour la conservation des vestiges du donjon médiéval au Château de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "16/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-16-credit-mur-vestiges-Rapp.pdf",
+          "filename": "Preavis-16-credit-mur-vestiges-Rapp.pdf",
+          "agenda_item_number": "11.10",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-16-credit-mur-vestiges-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-16-credit-mur-vestiges-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-16-credit-mur-vestiges-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-16-credit-mur-vestiges-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.11",
+      "item_number": "11.11",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2025 – Comptes 2024 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2025 – Comptes 2024 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "object_type": "preavis",
+      "object_number": "17/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-17-CITS-Comptes-2024-Rapp.pdf",
+          "filename": "Preavis-17-CITS-Comptes-2024-Rapp.pdf",
+          "agenda_item_number": "11.11",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-17-CITS-Comptes-2024-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-17-CITS-Comptes-2024-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-17-CITS-Comptes-2024-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-17-CITS-Comptes-2024-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "12.1",
+      "item_number": "12.1",
+      "title": "Communication municipale N° 10/2025 –",
+      "raw_title": "Communication municipale N° 10/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "10/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 10/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm10-Anciens-Fosses-decompte-final.pdf",
+          "filename": "Comm10-Anciens-Fosses-decompte-final.pdf",
+          "agenda_item_number": "12.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm10-Anciens-Fosses-decompte-final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm10-Anciens-Fosses-decompte-final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm10-Anciens-Fosses-decompte-final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm10-Anciens-Fosses-decompte-final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 4547,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 20,
+  "linked_canonical_objects": [
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2025",
+      "title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+      "object_title": "Que contient l'assiette de nos cantines subventionnées",
+      "political_object_id": "interpellation-2025-que-contient-l-assiette-de-nos-cantines-subventionnees",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
+      "filename": "Interpellation-Heller-Refectoires-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Heller-Refectoires-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "9.1",
+      "link_title": "Réponse municipale N° 2/2025"
+    }
+  ],
+  "linked_canonical_objects_count": 1,
   "session": {
-    "body": "Conseil communal",
-    "date": "2025-06-25",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2025-06-25",
+    "time": "19:00",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 23,
     "linked_documents_count": 20,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 1
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-06-25-ordre-du-jour.txt"
 }

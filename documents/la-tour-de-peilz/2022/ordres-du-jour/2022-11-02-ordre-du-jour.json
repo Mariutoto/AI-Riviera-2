@@ -2,52 +2,1000 @@
   "commune": "La Tour-de-Peilz",
   "year": "2022",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2022-11-02",
   "filename": "2022-11-02-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=93",
   "session_date": "2022-11-02",
+  "document_date": "2022-11-02",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 23,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-11-02-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2022",
-  "title": "2022-11-02-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "ltdpl",
-    "plr",
-    "udc",
-    "cgn",
-    "rpga",
-    "lcvil"
+  "agenda_items": [
+    {
+      "number": "5.1",
+      "item_number": "5.1",
+      "title": "Remplacement de M. José Espinosa (UDC) au sein de la commission de gestion",
+      "raw_title": "Remplacement de M. José Espinosa (UDC) au sein de la commission de gestion",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "5.2",
+      "item_number": "5.2",
+      "title": "Remplacement de M. François Costa (PLR) en qualité de scrutateur suppléant du bureau Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations :",
+      "raw_title": "Remplacement de M. François Costa (PLR) en qualité de scrutateur suppléant du bureau Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations :",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Postulat de La Tour-de-Peilz Libre (LTDPL) – Avec la CGN, accostons à La Tour, sans détours",
+      "raw_title": "Postulat de La Tour-de-Peilz Libre (LTDPL) – Avec la CGN, accostons à La Tour, sans détours",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de La Tour-de-Peilz Libre (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+          "filename": "Postulat-LTDPL-CGN.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-LTDPL-CGN.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+            "object_title": "Avec la CGN, accostons à La Tour, sans détours",
+            "political_object_id": "postulat-2022-avec-la-cgn-accostons-a-la-tour-sans-detours",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+            "filename": "Postulat-LTDPL-CGN.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Postulat de La Tour-de-Peilz Libre (LTDPL)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+          "object_title": "Avec la CGN, accostons à La Tour, sans détours",
+          "political_object_id": "postulat-2022-avec-la-cgn-accostons-a-la-tour-sans-detours",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+          "filename": "Postulat-LTDPL-CGN.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Postulat de La Tour-de-Peilz Libre (LTDPL)"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Interpellation de M. Alessio Grutta (PLR) – Mieux vaut tard que jamais",
+      "raw_title": "Interpellation de M. Alessio Grutta (PLR) – Mieux vaut tard que jamais",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de M. Alessio Grutta (PLR)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement.pdf",
+          "filename": "Interpellation-Grutta-Stationnement.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Grutta-Stationnement.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+            "object_title": "Mieux vaut tard que jamais !",
+            "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+            "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Interpellation de M. Alessio Grutta (PLR)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+          "object_title": "Mieux vaut tard que jamais !",
+          "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+          "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Interpellation de M. Alessio Grutta (PLR)"
+        }
+      ]
+    },
+    {
+      "number": "7.3",
+      "item_number": "7.3",
+      "title": "Postulat de Mme Véronique Ansermet (LV) et consorts – Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+      "raw_title": "Postulat de Mme Véronique Ansermet (LV) et consorts – Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Véronique Ansermet (LV) et consorts",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA.pdf",
+          "filename": "Postulat-Ansermet-Revision-RPGA.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Ansermet-Revision-RPGA.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+            "object_title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+            "political_object_id": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+            "filename": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.3",
+            "link_title": "Postulat de Mme Véronique Ansermet (LV) et consorts"
+          }
+        },
+        {
+          "title": "Postulat de Mme Véronique Ansermet (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout.pdf",
+          "filename": "Postulat-Ansermet-1aout.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Ansermet-1aout.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+            "object_title": "Quand notre cœur fait boum",
+            "political_object_id": "postulat-2022-quand-notre-c-ur-fait-boum",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+            "filename": "Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.3",
+            "link_title": "Postulat de Mme Véronique Ansermet (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+          "object_title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+          "political_object_id": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "filename": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.3",
+          "link_title": "Postulat de Mme Véronique Ansermet (LV) et consorts"
+        },
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+          "object_title": "Quand notre cœur fait boum",
+          "political_object_id": "postulat-2022-quand-notre-c-ur-fait-boum",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "filename": "Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.3",
+          "link_title": "Postulat de Mme Véronique Ansermet (LV)"
+        }
+      ]
+    },
+    {
+      "number": "7.4",
+      "item_number": "7.4",
+      "title": "Postulat de Mme Véronique Ansermet (LV) – Quand notre cœur fait boum",
+      "raw_title": "Postulat de Mme Véronique Ansermet (LV) – Quand notre cœur fait boum",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Réponse municipale N° 7/2022 – Interpellation de Mme Mireille Cornaz (LCVIL) – Une meilleure information aux habitants sur les mises à l'enquête publique à La Tour-de-Peilz",
+      "raw_title": "Réponse municipale N° 7/2022 – Interpellation de Mme Mireille Cornaz (LCVIL) – Une meilleure information aux habitants sur les mises à l'enquête publique à La Tour-de-Peilz",
+      "object_type": "interpellation",
+      "object_number": "7/2022",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 7/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Permis-construire-Rep.pdf",
+          "filename": "Interpellation-Cornaz-Permis-construire-Rep.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Cornaz-Permis-construire-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + Réponse",
+            "object_title": "Une meilleure information sur les mises à l'enquête publique à la Tour -de -Peilz.",
+            "political_object_id": "interpellation-2022-une-meilleure-information-sur-les-mises-a-l-enquete-publique-a-la-tour-de-peilz",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Permis-construire-Rep.pdf",
+            "filename": "Interpellation-Cornaz-Permis-construire-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Réponse municipale N° 7/2022"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + Réponse",
+          "object_title": "Une meilleure information sur les mises à l'enquête publique à la Tour -de -Peilz.",
+          "political_object_id": "interpellation-2022-une-meilleure-information-sur-les-mises-a-l-enquete-publique-a-la-tour-de-peilz",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Permis-construire-Rep.pdf",
+          "filename": "Interpellation-Cornaz-Permis-construire-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Réponse municipale N° 7/2022"
+        }
+      ]
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Réponse municipale N° 8/2022 – Interpellation de Mme Geneviève Pasche (LV) - Plan Climat",
+      "raw_title": "Réponse municipale N° 8/2022 – Interpellation de Mme Geneviève Pasche (LV) - Plan Climat",
+      "object_type": "interpellation",
+      "object_number": "8/2022",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 8/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
+          "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+            "object_title": "Interpellation sur le postulat «plan climat»",
+            "political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
+            "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.2",
+            "link_title": "Réponse municipale N° 8/2022"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+          "object_title": "Interpellation sur le postulat «plan climat»",
+          "political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
+          "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.2",
+          "link_title": "Réponse municipale N° 8/2022"
+        }
+      ]
+    },
+    {
+      "number": "8.3",
+      "item_number": "8.3",
+      "title": "Réponse municipale N° 9/2022 – Interpellation de M. Paul Castelain (LV) – Augmentation des prix de l'énergie, la commune un propriétaire responsable ?",
+      "raw_title": "Réponse municipale N° 9/2022 – Interpellation de M. Paul Castelain (LV) – Augmentation des prix de l'énergie, la commune un propriétaire responsable ?",
+      "object_type": "interpellation",
+      "object_number": "9/2022",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 9/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Castelain-Isolation-Rep.pdf",
+          "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+          "agenda_item_number": "8.3",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de M. Paul Castelain (LV) + Réponse",
+            "object_title": "Augmentation des prix de l'énergie ; la commune, un propriétaire responsable ?",
+            "political_object_id": "interpellation-2022-augmentation-des-prix-de-l-energie-la-commune-un-proprietaire-responsable",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Castelain-Isolation-Rep.pdf",
+            "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.3",
+            "link_title": "Réponse municipale N° 9/2022"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de M. Paul Castelain (LV) + Réponse",
+          "object_title": "Augmentation des prix de l'énergie ; la commune, un propriétaire responsable ?",
+          "political_object_id": "interpellation-2022-augmentation-des-prix-de-l-energie-la-commune-un-proprietaire-responsable",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Castelain-Isolation-Rep.pdf",
+          "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.3",
+          "link_title": "Réponse municipale N° 9/2022"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 18/2022 – Budget 2023 de la CIEHL",
+      "raw_title": "Préavis municipal N° 18/2022 – Budget 2023 de la CIEHL",
+      "object_type": "preavis",
+      "object_number": "18/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 18/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-18-Budget-2023-CIEHL.pdf",
+          "filename": "Preavis-18-Budget-2023-CIEHL.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-18-Budget-2023-CIEHL.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-18-Budget-2023-CIEHL.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-18-Budget-2023-CIEHL.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-18-Budget-2023-CIEHL.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Préavis municipal N° 19/2022 – Budget 2023 du Fonds culturel Riviera",
+      "raw_title": "Préavis municipal N° 19/2022 – Budget 2023 du Fonds culturel Riviera",
+      "object_type": "preavis",
+      "object_number": "19/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 19/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-19-Budget-2023-FCR.pdf",
+          "filename": "Preavis-19-Budget-2023-FCR.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-19-Budget-2023-FCR.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-19-Budget-2023-FCR.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-19-Budget-2023-FCR.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-19-Budget-2023-FCR.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Préavis municipal N° 20/2022 – Budget 2023 de la commune de La Tour-de-Peilz",
+      "raw_title": "Préavis municipal N° 20/2022 – Budget 2023 de la commune de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "20/2022",
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Préavis municipal N° 21/2022 – Réponse aux postulats de Mme Viviane Huber (LTDPL) « Augmentation de l'offre pour le tri sélectif » et de M. François Costa (PLR) « Tout va dans la poubelle incinérable »",
+      "raw_title": "Préavis municipal N° 21/2022 – Réponse aux postulats de Mme Viviane Huber (LTDPL) « Augmentation de l'offre pour le tri sélectif » et de M. François Costa (PLR) « Tout va dans la poubelle incinérable »",
+      "object_type": "preavis",
+      "object_number": "21/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 21/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-21-Postulats-Huber-Costa-tri-selectif.pdf",
+          "filename": "Preavis-21-Postulats-Huber-Costa-tri-selectif.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-21-Postulats-Huber-Costa-tri-selectif.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-21-Postulats-Huber-Costa-tri-selectif.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-21-Postulats-Huber-Costa-tri-selectif.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-21-Postulats-Huber-Costa-tri-selectif.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.5",
+      "item_number": "9.5",
+      "title": "Préavis municipal N° 22/2022 – Réponse à la motion de M. Philippe Eugster (PLR) « Accélérons les travaux d'assainissement énergétique du parc immobilier communal » et demande d'un crédit de Fr. 9'680'000.- pour la rénovation et l'assainissement énergétique et technique des immeubles communaux",
+      "raw_title": "Préavis municipal N° 22/2022 – Réponse à la motion de M. Philippe Eugster (PLR) « Accélérons les travaux d'assainissement énergétique du parc immobilier communal » et demande d'un crédit de Fr. 9'680'000.- pour la rénovation et l'assainissement énergétique et technique des immeubles communaux",
+      "object_type": "preavis",
+      "object_number": "22/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 22/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.pdf",
+          "filename": "Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.pdf",
+          "agenda_item_number": "9.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-22-Motion-Eugster-Assainissement-batiments-communaux.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.6",
+      "item_number": "9.6",
+      "title": "Préavis municipal N° 23/2022 – Demande d'un crédit de Fr. 179'000.- pour financer l'aménagement des pavillons sis rue du Collège pour la création de 54 places supplémentaires pour l'accueil parascolaire",
+      "raw_title": "Préavis municipal N° 23/2022 – Demande d'un crédit de Fr. 179'000.- pour financer l'aménagement des pavillons sis rue du Collège pour la création de 54 places supplémentaires pour l'accueil parascolaire",
+      "object_type": "preavis",
+      "object_number": "23/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 23/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-23-Amenagement-UAPE-rue-College.pdf",
+          "filename": "Preavis-23-Amenagement-UAPE-rue-College.pdf",
+          "agenda_item_number": "9.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-23-Amenagement-UAPE-rue-College.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-23-Amenagement-UAPE-rue-College.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-23-Amenagement-UAPE-rue-College.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-23-Amenagement-UAPE-rue-College.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG) – Promouvoir et développer le bien-être des Boéland·es",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG) – Promouvoir et développer le bien-être des Boéland·es",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp.pdf",
+          "filename": "Postulat-Tavcar-label-sante-Rapp.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Tavcar-label-sante-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+            "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+            "political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+            "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "10.1",
+            "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+          "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+          "political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "10.1",
+          "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG)"
+        }
+      ]
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Maria Luceron (LCIVL) – Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Maria Luceron (LCIVL) – Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Maria Luceron (LCIVL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.pdf",
+          "filename": "Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "motions",
+            "year": "2022",
+            "filename": "Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Luceron-Agrandissement-greve-Maladaire-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2022 – Réponse à la motion de M. Guy Chervet (PLR) « La propriété est aussi une responsabilité »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2022 – Réponse à la motion de M. Guy Chervet (PLR) « La propriété est aussi une responsabilité »",
+      "object_type": "preavis",
+      "object_number": "13/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.pdf",
+          "filename": "Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-13-Motion-Chervet-Patrimoine-communal-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2022 – Modification du règlement de la taxe intercommunale de séjour et de la taxe intercommunale sur les résidences secondaires",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2022 – Modification du règlement de la taxe intercommunale de séjour et de la taxe intercommunale sur les résidences secondaires",
+      "object_type": "preavis",
+      "object_number": "14/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.pdf",
+          "filename": "Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.5",
+      "item_number": "10.5",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2022 – Octroi d'un cautionnement de Fr. 500'000.- pour la trésorerie de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz et environs",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2022 – Octroi d'un cautionnement de Fr. 500'000.- pour la trésorerie de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz et environs",
+      "object_type": "preavis",
+      "object_number": "15/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-15-Cautionnement-FSAT-SIGE-Rapp.pdf",
+          "filename": "Preavis-15-Cautionnement-FSAT-SIGE-Rapp.pdf",
+          "agenda_item_number": "10.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-15-Cautionnement-FSAT-SIGE-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-15-Cautionnement-FSAT-SIGE-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-15-Cautionnement-FSAT-SIGE-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-15-Cautionnement-FSAT-SIGE-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.6",
+      "item_number": "10.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2022 – Demande d'un crédit d'études de Fr. 315'000.- pour financer l'organisation de mandats d'études parallèles pour la requalification de l'av. de la Gare",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2022 – Demande d'un crédit d'études de Fr. 315'000.- pour financer l'organisation de mandats d'études parallèles pour la requalification de l'av. de la Gare",
+      "object_type": "preavis",
+      "object_number": "16/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf",
+          "filename": "Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf",
+          "agenda_item_number": "10.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-16-Credit-etude-Avenue-gare-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-16-Credit-etude-Avenue-gare-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.7",
+      "item_number": "10.7",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2022 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 10'000'000.- par cas – NOUVELLE VERSION",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2022 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 10'000'000.- par cas – NOUVELLE VERSION",
+      "object_type": "preavis",
+      "object_number": "17/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 17/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+          "filename": "Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+          "agenda_item_number": "10.7",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 29/2022 – Demande d'un crédit de construction de Fr. 260'000.- pour la participation communale aux travaux de réfection d'un tronçon du ruisseau de la Maladaire – Décompte final",
+      "raw_title": "Communication municipale N° 29/2022 – Demande d'un crédit de construction de Fr. 260'000.- pour la participation communale aux travaux de réfection d'un tronçon du ruisseau de la Maladaire – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "29/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 29/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm29-Refection-ruisseau-Maladaire-decompte.pdf",
+          "filename": "Comm29-Refection-ruisseau-Maladaire-decompte.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm29-Refection-ruisseau-Maladaire-decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm29-Refection-ruisseau-Maladaire-decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm29-Refection-ruisseau-Maladaire-decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm29-Refection-ruisseau-Maladaire-decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Communication municipale N° 30/2022 – Avenue du Clos-d'Aubonne – Procédures en cours et planification des travaux",
+      "raw_title": "Communication municipale N° 30/2022 – Avenue du Clos-d'Aubonne – Procédures en cours et planification des travaux",
+      "object_type": "communication_municipale",
+      "object_number": "30/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 30/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm30-Travaux-Clos-aubonne.pdf",
+          "filename": "Comm30-Travaux-Clos-aubonne.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm30-Travaux-Clos-aubonne.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm30-Travaux-Clos-aubonne.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm30-Travaux-Clos-aubonne.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm30-Travaux-Clos-aubonne.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.3",
+      "item_number": "11.3",
+      "title": "Communication municipale N° 31/2022 – Réfection de la route de St-Maurice (RC 780) - Réaménagement du parking de la plage de la Maladaire Propositions individuelles et divers",
+      "raw_title": "Communication municipale N° 31/2022 – Réfection de la route de St-Maurice (RC 780) - Réaménagement du parking de la plage de la Maladaire Propositions individuelles et divers",
+      "object_type": "communication_municipale",
+      "object_number": "31/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 31/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm31-Parking-Maladaire.pdf",
+          "filename": "Comm31-Parking-Maladaire.pdf",
+          "agenda_item_number": "11.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm31-Parking-Maladaire.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm31-Parking-Maladaire.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm31-Parking-Maladaire.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm31-Parking-Maladaire.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 4746,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 23,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+      "object_title": "Avec la CGN, accostons à La Tour, sans détours",
+      "political_object_id": "postulat-2022-avec-la-cgn-accostons-a-la-tour-sans-detours",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+      "filename": "Postulat-LTDPL-CGN.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-CGN.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Postulat de La Tour-de-Peilz Libre (LTDPL)"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+      "object_title": "Mieux vaut tard que jamais !",
+      "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+      "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Interpellation de M. Alessio Grutta (PLR)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+      "object_title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+      "political_object_id": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+      "filename": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-Revision-RPGA-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.3",
+      "link_title": "Postulat de Mme Véronique Ansermet (LV) et consorts"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+      "object_title": "Quand notre cœur fait boum",
+      "political_object_id": "postulat-2022-quand-notre-c-ur-fait-boum",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+      "filename": "Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Ansermet-1aout-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.3",
+      "link_title": "Postulat de Mme Véronique Ansermet (LV)"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + Réponse",
+      "object_title": "Une meilleure information sur les mises à l'enquête publique à la Tour -de -Peilz.",
+      "political_object_id": "interpellation-2022-une-meilleure-information-sur-les-mises-a-l-enquete-publique-a-la-tour-de-peilz",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Permis-construire-Rep.pdf",
+      "filename": "Interpellation-Cornaz-Permis-construire-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Permis-construire-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Réponse municipale N° 7/2022"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+      "object_title": "Interpellation sur le postulat «plan climat»",
+      "political_object_id": "interpellation-2022-interpellation-sur-le-postulat-plan-climat",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
+      "filename": "Interpellation-Pasche-Plan-climat-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Plan-climat-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.2",
+      "link_title": "Réponse municipale N° 8/2022"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de M. Paul Castelain (LV) + Réponse",
+      "object_title": "Augmentation des prix de l'énergie ; la commune, un propriétaire responsable ?",
+      "political_object_id": "interpellation-2022-augmentation-des-prix-de-l-energie-la-commune-un-proprietaire-responsable",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Castelain-Isolation-Rep.pdf",
+      "filename": "Interpellation-Castelain-Isolation-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Castelain-Isolation-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.3",
+      "link_title": "Réponse municipale N° 9/2022"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+      "object_title": "Promouvoir et développer le bien-être des Boéland·es",
+      "political_object_id": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+      "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Tavcar-label-sante-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "10.1",
+      "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Ziva Tavcar (PSDG)"
+    }
+  ],
+  "linked_canonical_objects_count": 8,
   "session": {
-    "body": "Conseil communal",
-    "date": "2022-11-02",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2022-11-02",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 25,
     "linked_documents_count": 23,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 8
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-11-02-ordre-du-jour.txt"
 }

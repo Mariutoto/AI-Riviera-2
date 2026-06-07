@@ -2,52 +2,948 @@
   "commune": "La Tour-de-Peilz",
   "year": "2022",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2022-03-23",
   "filename": "2022-03-23-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=88",
   "session_date": "2022-03-23",
+  "document_date": "2022-03-23",
   "time": "20:15",
   "place": "Salle des Remparts",
-  "linked_documents_count": 22,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-03-23-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2022",
-  "title": "2022-03-23-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "developpement_durable",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "psdg",
-    "plr",
-    "reve",
-    "lcivl",
-    "ltdpl"
+  "agenda_items": [
+    {
+      "number": "6.1",
+      "item_number": "6.1",
+      "title": "Postulat de M. Diego Pasquali (LV) – Infiltration d'eau : une aubaine en ville",
+      "raw_title": "Postulat de M. Diego Pasquali (LV) – Infiltration d'eau : une aubaine en ville",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Diego Pasquali (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau.pdf",
+          "filename": "Postulat-Pasquali-Infiltration-eau.pdf",
+          "agenda_item_number": "6.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Pasquali-Infiltration-eau.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+            "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+            "political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+            "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.1",
+            "link_title": "Postulat de M. Diego Pasquali (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+          "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+          "political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.1",
+          "link_title": "Postulat de M. Diego Pasquali (LV)"
+        }
+      ]
+    },
+    {
+      "number": "6.2",
+      "item_number": "6.2",
+      "title": "Postulat de Mme Marion Savoy (LV) – Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "raw_title": "Postulat de Mme Marion Savoy (LV) – Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Marion Savoy (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers.pdf",
+          "filename": "Postulat-Savoy-assemblees-quartiers.pdf",
+          "agenda_item_number": "6.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Savoy-assemblees-quartiers.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+            "object_title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+            "political_object_id": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+            "filename": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.2",
+            "link_title": "Postulat de Mme Marion Savoy (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+          "object_title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+          "political_object_id": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "filename": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.2",
+          "link_title": "Postulat de Mme Marion Savoy (LV)"
+        }
+      ]
+    },
+    {
+      "number": "6.3",
+      "item_number": "6.3",
+      "title": "Postulat de M. Yvan Krähenbühl (PLR) – Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+      "raw_title": "Postulat de M. Yvan Krähenbühl (PLR) – Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Yvan Krähenbühl (PLR)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "agenda_item_number": "6.3",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+            "object_title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+            "political_object_id": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+            "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.3",
+            "link_title": "Postulat de M. Yvan Krähenbühl (PLR)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+          "object_title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+          "political_object_id": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.3",
+          "link_title": "Postulat de M. Yvan Krähenbühl (PLR)"
+        }
+      ]
+    },
+    {
+      "number": "6.4",
+      "item_number": "6.4",
+      "title": "Interpellation de Mme Geneviève Pasche (LV) – Réseau LaC, anciennement REVE",
+      "raw_title": "Interpellation de Mme Geneviève Pasche (LV) – Réseau LaC, anciennement REVE",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de Mme Geneviève Pasche (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Reseau-LaC.pdf",
+          "filename": "Interpellation-Pasche-Reseau-LaC.pdf",
+          "agenda_item_number": "6.4",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Pasche-Reseau-LaC.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LaC.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LaC.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LaC.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de Mme Geneviève Pasche (LV) + réponse",
+            "object_title": "Réseau LaC, anciennement REVE",
+            "political_object_id": "interpellation-2022-reseau-lac-anciennement-reve",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+            "filename": "Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.4",
+            "link_title": "Interpellation de Mme Geneviève Pasche (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de Mme Geneviève Pasche (LV) + réponse",
+          "object_title": "Réseau LaC, anciennement REVE",
+          "political_object_id": "interpellation-2022-reseau-lac-anciennement-reve",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+          "filename": "Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.4",
+          "link_title": "Interpellation de Mme Geneviève Pasche (LV)"
+        }
+      ]
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Réponse municipale N° 1/2022 – Interpellation de Mme Mireille Cornaz (LCIVL) – Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+      "raw_title": "Réponse municipale N° 1/2022 – Interpellation de Mme Mireille Cornaz (LCIVL) – Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+      "object_type": "interpellation",
+      "object_number": "1/2022",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 1/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+          "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+            "object_title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+            "political_object_id": "interpellation-2022-un-endroit-tres-dangereux-pour-les-petits-enfants-a-la-tour-de-peilz",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+            "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Réponse municipale N° 1/2022"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+          "object_title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+          "political_object_id": "interpellation-2022-un-endroit-tres-dangereux-pour-les-petits-enfants-a-la-tour-de-peilz",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+          "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Réponse municipale N° 1/2022"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Réponse municipale N° 2/2022 - Interpellation de M. Marc Wüthrich (LTDPL) – Antennes 5G sur le territoire communal – Point de situation",
+      "raw_title": "Réponse municipale N° 2/2022 - Interpellation de M. Marc Wüthrich (LTDPL) – Antennes 5G sur le territoire communal – Point de situation",
+      "object_type": "interpellation",
+      "object_number": "2/2022",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 2/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G-Rep.pdf",
+          "filename": "Interpellation-Wuthrich-5G-Rep.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Wuthrich-5G-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de M. Marc Wüthrich (LTDPL) + réponse",
+            "object_title": "Antennes 5G sur le territoire communal",
+            "political_object_id": "interpellation-2022-antennes-5g-sur-le-territoire-communal",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G-Rep.pdf",
+            "filename": "Interpellation-Wuthrich-5G-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Réponse municipale N° 2/2022"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de M. Marc Wüthrich (LTDPL) + réponse",
+          "object_title": "Antennes 5G sur le territoire communal",
+          "political_object_id": "interpellation-2022-antennes-5g-sur-le-territoire-communal",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G-Rep.pdf",
+          "filename": "Interpellation-Wuthrich-5G-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Réponse municipale N° 2/2022"
+        }
+      ]
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Préavis municipal N° 2/2022 – Fixation des plafonds d'endettement et de cautionnements pour la législature 2021 – 2026",
+      "raw_title": "Préavis municipal N° 2/2022 – Fixation des plafonds d'endettement et de cautionnements pour la législature 2021 – 2026",
+      "object_type": "preavis",
+      "object_number": "2/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 2/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-02-Plafonds-endettement-cautionnements.pdf",
+          "filename": "Preavis-02-Plafonds-endettement-cautionnements.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-02-Plafonds-endettement-cautionnements.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-02-Plafonds-endettement-cautionnements.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-02-Plafonds-endettement-cautionnements.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-02-Plafonds-endettement-cautionnements.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Préavis municipal N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée",
+      "raw_title": "Préavis municipal N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée",
+      "object_type": "preavis",
+      "object_number": "3/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 3/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-03-Assainissement-av-Clos-daubonne.pdf",
+          "filename": "Preavis-03-Assainissement-av-Clos-daubonne.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-03-Assainissement-av-Clos-daubonne.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-03-Assainissement-av-Clos-daubonne.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-03-Assainissement-av-Clos-daubonne.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-03-Assainissement-av-Clos-daubonne.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre – Vote électronique au conseil communal",
+      "raw_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre – Vote électronique au conseil communal",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp.pdf",
+          "filename": "Postulat-LTDPL-Vote-Electronique-Rapp.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-LTDPL-Vote-Electronique-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+            "object_title": "Vote électronique au conseil communal",
+            "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+            "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "9.1",
+            "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+          "object_title": "Vote électronique au conseil communal",
+          "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "9.1",
+          "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre"
+        }
+      ]
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL) – « Des casiers pour éviter des vols »",
+      "raw_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL) – « Des casiers pour éviter des vols »",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp.pdf",
+          "filename": "Postulat-Huber-Casiers-Rapp.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Huber-Casiers-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+            "object_title": "Des casiers pour éviter des vols",
+            "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+            "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "9.2",
+            "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+          "object_title": "Des casiers pour éviter des vols",
+          "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "9.2",
+          "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL)"
+        }
+      ]
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "raw_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp.pdf",
+          "filename": "Postulat-Neveu-Decheterie-Rapp.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Neveu-Decheterie-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+            "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+            "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "9.3",
+            "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "9.3",
+          "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV)"
+        }
+      ]
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2022 – Réponse à la motion de M. Daniel Krähenbühl – « Année de la Famille – Centre familial de plein air »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2022 – Réponse à la motion de M. Daniel Krähenbühl – « Année de la Famille – Centre familial de plein air »",
+      "object_type": "preavis",
+      "object_number": "1/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.pdf",
+          "filename": "Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Communication municipale N° 9/2022 – Assainissement du chemin de Gérénaz et remplacement de l'éclairage public – Décompte final",
+      "raw_title": "Communication municipale N° 9/2022 – Assainissement du chemin de Gérénaz et remplacement de l'éclairage public – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "9/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 9/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm09-Assainissement_Gerenaz-Decompte.pdf",
+          "filename": "Comm09-Assainissement_Gerenaz-Decompte.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm09-Assainissement_Gerenaz-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm09-Assainissement_Gerenaz-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm09-Assainissement_Gerenaz-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm09-Assainissement_Gerenaz-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Communication municipale N° 10/2022 – Plan partiel d'affectation « Le Petit Sully » – Présentation publique (diffusée précédemment)",
+      "raw_title": "Communication municipale N° 10/2022 – Plan partiel d'affectation « Le Petit Sully » – Présentation publique (diffusée précédemment)",
+      "object_type": "communication_municipale",
+      "object_number": "10/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 10/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm10-Presentation-PPA-Petit-Sully.pdf",
+          "filename": "Comm10-Presentation-PPA-Petit-Sully.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm10-Presentation-PPA-Petit-Sully.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm10-Presentation-PPA-Petit-Sully.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm10-Presentation-PPA-Petit-Sully.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm10-Presentation-PPA-Petit-Sully.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Communication municipale N° 11/2022 – Mise à disposition des subventions pour l'énergie et le développement durable",
+      "raw_title": "Communication municipale N° 11/2022 – Mise à disposition des subventions pour l'énergie et le développement durable",
+      "object_type": "communication_municipale",
+      "object_number": "11/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 11/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm11-Subventions-Developpement-durable.pdf",
+          "filename": "Comm11-Subventions-Developpement-durable.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm11-Subventions-Developpement-durable.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm11-Subventions-Developpement-durable.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm11-Subventions-Developpement-durable.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm11-Subventions-Developpement-durable.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Communication municipale N° 12/2022 – Remplacement des ascenseurs des immeubles locatifs de l'avenue des Baumes 22 & 24 – Décompte final",
+      "raw_title": "Communication municipale N° 12/2022 – Remplacement des ascenseurs des immeubles locatifs de l'avenue des Baumes 22 & 24 – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "12/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 12/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm12-Ascenseurs-Baumes-Decompte.pdf",
+          "filename": "Comm12-Ascenseurs-Baumes-Decompte.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm12-Ascenseurs-Baumes-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm12-Ascenseurs-Baumes-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm12-Ascenseurs-Baumes-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm12-Ascenseurs-Baumes-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.5",
+      "item_number": "10.5",
+      "title": "Communication municipale N° 13/2022 – Point de situation sur les états financiers de Domaine du Manoir de Ban SA",
+      "raw_title": "Communication municipale N° 13/2022 – Point de situation sur les états financiers de Domaine du Manoir de Ban SA",
+      "object_type": "communication_municipale",
+      "object_number": "13/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 13/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm13-Manoir-de-Ban-Situation-financiere.pdf",
+          "filename": "Comm13-Manoir-de-Ban-Situation-financiere.pdf",
+          "agenda_item_number": "10.5",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm13-Manoir-de-Ban-Situation-financiere.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm13-Manoir-de-Ban-Situation-financiere.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm13-Manoir-de-Ban-Situation-financiere.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm13-Manoir-de-Ban-Situation-financiere.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.6",
+      "item_number": "10.6",
+      "title": "Communication municipale N° 14/2022 – Tri sélectif – Test 2022",
+      "raw_title": "Communication municipale N° 14/2022 – Tri sélectif – Test 2022",
+      "object_type": "communication_municipale",
+      "object_number": "14/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 14/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm14-tri-selectif-test_2022.pdf",
+          "filename": "Comm14-tri-selectif-test_2022.pdf",
+          "agenda_item_number": "10.6",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm14-tri-selectif-test_2022.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm14-tri-selectif-test_2022.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm14-tri-selectif-test_2022.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm14-tri-selectif-test_2022.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.7",
+      "item_number": "10.7",
+      "title": "Communication municipale N° 15/2022 – Développement de places d'accueil pour la petite enfance",
+      "raw_title": "Communication municipale N° 15/2022 – Développement de places d'accueil pour la petite enfance",
+      "object_type": "communication_municipale",
+      "object_number": "15/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 15/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm15-Developpement-Accueil-jour.pdf",
+          "filename": "Comm15-Developpement-Accueil-jour.pdf",
+          "agenda_item_number": "10.7",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm15-Developpement-Accueil-jour.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm15-Developpement-Accueil-jour.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm15-Developpement-Accueil-jour.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm15-Developpement-Accueil-jour.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.8",
+      "item_number": "10.8",
+      "title": "Communication municipale N° 16/2022 – Château et Musée, suite (sera diffusée utérieurement) Propositions individuelles et divers",
+      "raw_title": "Communication municipale N° 16/2022 – Château et Musée, suite (sera diffusée utérieurement) Propositions individuelles et divers",
+      "object_type": "communication_municipale",
+      "object_number": "16/2022",
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 3518,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 22,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+      "object_title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+      "political_object_id": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+      "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Pasquali-Infiltration-eau-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.1",
+      "link_title": "Postulat de M. Diego Pasquali (LV)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+      "object_title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "political_object_id": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+      "filename": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Savoy-assemblees-quartiers-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.2",
+      "link_title": "Postulat de Mme Marion Savoy (LV)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+      "object_title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+      "political_object_id": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+      "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Kraehenbuehl-Bains-dames.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.3",
+      "link_title": "Postulat de M. Yvan Krähenbühl (PLR)"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de Mme Geneviève Pasche (LV) + réponse",
+      "object_title": "Réseau LaC, anciennement REVE",
+      "political_object_id": "interpellation-2022-reseau-lac-anciennement-reve",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+      "filename": "Interpellation-Pasche-Reseau-LAC-Reve-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Pasche-Reseau-LAC-Reve-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.4",
+      "link_title": "Interpellation de Mme Geneviève Pasche (LV)"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+      "object_title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+      "political_object_id": "interpellation-2022-un-endroit-tres-dangereux-pour-les-petits-enfants-a-la-tour-de-peilz",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+      "filename": "Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Réponse municipale N° 1/2022"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de M. Marc Wüthrich (LTDPL) + réponse",
+      "object_title": "Antennes 5G sur le territoire communal",
+      "political_object_id": "interpellation-2022-antennes-5g-sur-le-territoire-communal",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G-Rep.pdf",
+      "filename": "Interpellation-Wuthrich-5G-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Réponse municipale N° 2/2022"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+      "object_title": "Vote électronique au conseil communal",
+      "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+      "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "9.1",
+      "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de La Tour-de-Peilz Libre"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+      "object_title": "Des casiers pour éviter des vols",
+      "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+      "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "9.2",
+      "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de Mme Viviane Huber (LTDPL)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+      "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+      "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "9.3",
+      "link_title": "Rapport de la commission ad hoc chargée d'étudier le postulat de M. Julien Neveu (LV)"
+    }
+  ],
+  "linked_canonical_objects_count": 9,
   "session": {
-    "body": "Conseil communal",
-    "date": "2022-03-23",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2022-03-23",
+    "time": "20:15",
+    "place": "Salle des Remparts",
+    "agenda_items_count": 20,
     "linked_documents_count": 22,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 9
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-03-23-ordre-du-jour.txt"
 }

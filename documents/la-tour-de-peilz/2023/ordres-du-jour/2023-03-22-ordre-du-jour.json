@@ -2,50 +2,475 @@
   "commune": "La Tour-de-Peilz",
   "year": "2023",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2023-03-22",
   "filename": "2023-03-22-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=95",
   "session_date": "2023-03-22",
+  "document_date": "2023-03-22",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 13,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\ordres-du-jour\\2023-03-22-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2023",
-  "title": "2023-03-22-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "psdg",
-    "ltdpl",
-    "plr",
-    "pru"
+  "agenda_items": [
+    {
+      "number": "6.1",
+      "item_number": "6.1",
+      "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »",
+      "raw_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib.pdf",
+          "filename": "Interpellation-Holzeisen-Espace-Derib.pdf",
+          "agenda_item_number": "6.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Interpellation-Holzeisen-Espace-Derib.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+            "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+            "political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+            "filename": "Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.1",
+            "link_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+          "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+          "political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+          "filename": "Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.1",
+          "link_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »"
+        }
+      ]
+    },
+    {
+      "number": "6.2",
+      "item_number": "6.2",
+      "title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »",
+      "raw_title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf",
+          "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf",
+          "agenda_item_number": "6.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de M. Niklas Tiemann (LV) + réponse",
+            "object_title": "Gratuité des protections hygiéniques à l'école",
+            "political_object_id": "interpellation-2023-gratuite-des-protections-hygieniques-a-l-ecole",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+            "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.2",
+            "link_title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de M. Niklas Tiemann (LV) + réponse",
+          "object_title": "Gratuité des protections hygiéniques à l'école",
+          "political_object_id": "interpellation-2023-gratuite-des-protections-hygieniques-a-l-ecole",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+          "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.2",
+          "link_title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »"
+        }
+      ]
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Préavis municipal N° 3/2023 – Réponse au postulat de M. Yvan Krähenbühl (PLR) « Le bain des dames, un endroit magnifique qui mérite quelques réflexions »",
+      "raw_title": "Préavis municipal N° 3/2023 – Réponse au postulat de M. Yvan Krähenbühl (PLR) « Le bain des dames, un endroit magnifique qui mérite quelques réflexions »",
+      "object_type": "preavis",
+      "object_number": "3/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 3/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-03-Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "filename": "Preavis-03-Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-03-Postulat-Kraehenbuehl-Bains-dames.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-03-Postulat-Kraehenbuehl-Bains-dames.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-03-Postulat-Kraehenbuehl-Bains-dames.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-03-Postulat-Kraehenbuehl-Bains-dames.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Préavis municipal N° 4/2023 – Demande d'un crédit de Fr. 320'000.- pour le renouvellement de la place de jeux du Château",
+      "raw_title": "Préavis municipal N° 4/2023 – Demande d'un crédit de Fr. 320'000.- pour le renouvellement de la place de jeux du Château",
+      "object_type": "preavis",
+      "object_number": "4/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 4/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-04-Place-de-jeux-Chateau.pdf",
+          "filename": "Preavis-04-Place-de-jeux-Chateau.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-04-Place-de-jeux-Chateau.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-04-Place-de-jeux-Chateau.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-04-Place-de-jeux-Chateau.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-04-Place-de-jeux-Chateau.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.3",
+      "item_number": "7.3",
+      "title": "Préavis municipal N° 5/2023 – Réponse à la motion de M. Yvan Krähenbühl (PLR) « Du matériel sportif accessible pour tous » Préavis et rapport",
+      "raw_title": "Préavis municipal N° 5/2023 – Réponse à la motion de M. Yvan Krähenbühl (PLR) « Du matériel sportif accessible pour tous » Préavis et rapport",
+      "object_type": "preavis",
+      "object_number": "5/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 5/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+          "filename": "Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-05-Motion-Kraehenbuhl-Materiel-sportif.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Préavis municipal urgent N° 2/2023 et rapport de la commission – Demande pour un crédit de construction d'un montant de Fr. 483'000.- destiné à l'entretien et la rénovation du mur de soutènement nord et des murs de courtines du château de La Tour-de-Peilz",
+      "raw_title": "Préavis municipal urgent N° 2/2023 et rapport de la commission – Demande pour un crédit de construction d'un montant de Fr. 483'000.- destiné à l'entretien et la rénovation du mur de soutènement nord et des murs de courtines du château de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "2/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal urgent N° 2/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-02-urgent-credit-mur-courtines.pdf",
+          "filename": "Preavis-02-urgent-credit-mur-courtines.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-02-urgent-credit-mur-courtines.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines.pdf"
+          },
+          "canonical_object": null
+        },
+        {
+          "title": "rapport de la commission",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-02-urgent-credit-mur-courtines-rapp.pdf",
+          "filename": "Preavis-02-urgent-credit-mur-courtines-rapp.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-02-urgent-credit-mur-courtines-rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines-rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines-rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-02-urgent-credit-mur-courtines-rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2023 – Réponse au postulat de MM. François Costa et Yvan Krähenbühl (PLR) « Un label pour donner confiance à la population »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2023 – Réponse au postulat de MM. François Costa et Yvan Krähenbühl (PLR) « Un label pour donner confiance à la population »",
+      "object_type": "preavis",
+      "object_number": "1/2023",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-01-Postulat-label-cybersecurite-rapp.pdf",
+          "filename": "Preavis-01-Postulat-label-cybersecurite-rapp.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-01-Postulat-label-cybersecurite-rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-01-Postulat-label-cybersecurite-rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-01-Postulat-label-cybersecurite-rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-01-Postulat-label-cybersecurite-rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts – Pour des subventions mobilité répandues et efficaces",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts – Pour des subventions mobilité répandues et efficaces",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf",
+          "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2023",
+            "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2023",
+            "title": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+            "object_title": "Pour des subventions mobilité répandues et efficaces",
+            "political_object_id": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+            "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "9.2",
+            "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2023",
+          "title": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+          "object_title": "Pour des subventions mobilité répandues et efficaces",
+          "political_object_id": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "9.2",
+          "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts"
+        }
+      ]
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Communication municipale N° 10/2023 – Postulat de Mme Viviane Huber (LTDPL) « Des casiers pour éviter des vols » - Installation de casiers au Bain des Dames à titre d'essai pour la saison 2023",
+      "raw_title": "Communication municipale N° 10/2023 – Postulat de Mme Viviane Huber (LTDPL) « Des casiers pour éviter des vols » - Installation de casiers au Bain des Dames à titre d'essai pour la saison 2023",
+      "object_type": "postulat",
+      "object_number": "10/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 10/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm10-Postulat-Huber-Casiers.pdf",
+          "filename": "Comm10-Postulat-Huber-Casiers.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm10-Postulat-Huber-Casiers.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm10-Postulat-Huber-Casiers.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm10-Postulat-Huber-Casiers.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm10-Postulat-Huber-Casiers.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Communication municipale N° 11/2023 – Points de rencontre d'urgence (PRU) à La Tour-de-Peilz",
+      "raw_title": "Communication municipale N° 11/2023 – Points de rencontre d'urgence (PRU) à La Tour-de-Peilz",
+      "object_type": "communication_municipale",
+      "object_number": "11/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 11/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm11-PRU.pdf",
+          "filename": "Comm11-PRU.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm11-PRU.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm11-PRU.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm11-PRU.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm11-PRU.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Communication municipale N° 12/2023 – Réponse à la question de Mme Sophie Blank-Barbezat (PLR) « Tour à Tour / Spectacles des Remparts, Pourquoi cette différence dans les subventions ? » Propositions individuelles et divers",
+      "raw_title": "Communication municipale N° 12/2023 – Réponse à la question de Mme Sophie Blank-Barbezat (PLR) « Tour à Tour / Spectacles des Remparts, Pourquoi cette différence dans les subventions ? » Propositions individuelles et divers",
+      "object_type": "communication_municipale",
+      "object_number": "12/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 12/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm12-Question-Blank-Barbezat-Subventions.pdf",
+          "filename": "Comm12-Question-Blank-Barbezat-Subventions.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm12-Question-Blank-Barbezat-Subventions.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm12-Question-Blank-Barbezat-Subventions.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm12-Question-Blank-Barbezat-Subventions.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm12-Question-Blank-Barbezat-Subventions.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 2474,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 13,
+  "linked_canonical_objects": [
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+      "object_title": "Etude Espace Derib : Un tour de manège et puis s'en va ?",
+      "political_object_id": "interpellation-2023-etude-espace-derib-un-tour-de-manege-et-puis-s-en-va",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+      "filename": "Interpellation-Holzeisen-Espace-Derib-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-Espace-Derib-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.1",
+      "link_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – « Etude Espace Derib : Un tour de manège et puis s'en va ? »"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de M. Niklas Tiemann (LV) + réponse",
+      "object_title": "Gratuité des protections hygiéniques à l'école",
+      "political_object_id": "interpellation-2023-gratuite-des-protections-hygieniques-a-l-ecole",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+      "filename": "Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.2",
+      "link_title": "Interpellation de M. Niklas Tiemann (LV) – « Gratuité des protections hygiéniques à l'école »"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2023",
+      "title": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+      "object_title": "Pour des subventions mobilité répandues et efficaces",
+      "political_object_id": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+      "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "9.2",
+      "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Niklas Tiemann (LV) et consorts"
+    }
+  ],
+  "linked_canonical_objects_count": 3,
   "session": {
-    "body": "Conseil communal",
-    "date": "2023-03-22",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2023-03-22",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 11,
     "linked_documents_count": 13,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 3
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\ordres-du-jour\\2023-03-22-ordre-du-jour.txt"
 }

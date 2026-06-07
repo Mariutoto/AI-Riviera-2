@@ -9,27 +9,51 @@
   "agenda_items": [
     {
       "number": "4.1",
+      "item_number": "4.1",
       "title": "Présidence",
-      "linked_documents": []
+      "raw_title": "Présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
     },
     {
       "number": "4.2",
+      "item_number": "4.2",
       "title": "1ère vice-présidence",
-      "linked_documents": []
+      "raw_title": "1ère vice-présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
     },
     {
       "number": "4.3",
+      "item_number": "4.3",
       "title": "2e vice-présidence",
-      "linked_documents": []
+      "raw_title": "2e vice-présidence",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
     },
     {
       "number": "4.4",
+      "item_number": "4.4",
       "title": "Scrutateurs et scrutateurs-suppléants Assermentations Elections - Nominations Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
-      "linked_documents": []
+      "raw_title": "Scrutateurs et scrutateurs-suppléants Assermentations Elections - Nominations Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
     },
     {
       "number": "8.1",
+      "item_number": "8.1",
       "title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "raw_title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "object_type": "motion",
+      "object_number": null,
       "linked_documents": [
         {
           "title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
@@ -43,13 +67,49 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.pdf"
+          },
+          "canonical_object": {
+            "category": "motions",
+            "doc_type": "motions",
+            "year": "2024",
+            "title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+            "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+            "political_object_id": "motion-2024-pour-une-gouvernance-de-la-tour-de-peilz-a-7-conseillers-municipaux",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+            "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
           }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "motions",
+          "doc_type": "motions",
+          "year": "2024",
+          "title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+          "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+          "political_object_id": "motion-2024-pour-une-gouvernance-de-la-tour-de-peilz-a-7-conseillers-municipaux",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+          "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
         }
       ]
     },
     {
       "number": "8.2",
+      "item_number": "8.2",
       "title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+      "raw_title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+      "object_type": "postulat",
+      "object_number": null,
       "linked_documents": [
         {
           "title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
@@ -63,13 +123,49 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2024",
+            "title": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+            "object_title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+            "political_object_id": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+            "filename": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.2",
+            "link_title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
           }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2024",
+          "title": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+          "object_title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+          "political_object_id": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "filename": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.2",
+          "link_title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
         }
       ]
     },
     {
       "number": "10.1",
+      "item_number": "10.1",
       "title": "Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard",
+      "raw_title": "Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard",
+      "object_type": "preavis",
+      "object_number": "18/2024",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 18/2024",
@@ -83,13 +179,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.2",
+      "item_number": "10.2",
       "title": "Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal",
+      "raw_title": "Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal",
+      "object_type": "preavis",
+      "object_number": "19/2024",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 19/2024",
@@ -103,13 +205,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.3",
+      "item_number": "10.3",
       "title": "Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »",
+      "raw_title": "Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »",
+      "object_type": "preavis",
+      "object_number": "20/2024",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 20/2024",
@@ -123,13 +231,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.4",
+      "item_number": "10.4",
       "title": "Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "raw_title": "Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "21/2024",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 21/2024",
@@ -143,13 +257,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.5",
+      "item_number": "10.5",
       "title": "Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) –Soutenons nos étudiants boélands",
+      "raw_title": "Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) –Soutenons nos étudiants boélands",
+      "object_type": "preavis",
+      "object_number": "22/2024",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 22/2024",
@@ -163,13 +283,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.1",
+      "item_number": "11.1",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera",
+      "object_type": "preavis",
+      "object_number": "9/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024",
@@ -183,13 +309,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.2",
+      "item_number": "11.2",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "object_type": "preavis",
+      "object_number": "10/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024",
@@ -203,18 +335,29 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.3",
+      "item_number": "11.3",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)",
-      "linked_documents": []
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)",
+      "object_type": "preavis",
+      "object_number": "11/2024",
+      "linked_documents": [],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.4",
+      "item_number": "11.4",
       "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission",
+      "raw_title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission",
+      "object_type": "preavis",
+      "object_number": null,
       "linked_documents": [
         {
           "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023",
@@ -228,7 +371,8 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.pdf"
-          }
+          },
+          "canonical_object": null
         },
         {
           "title": "réponses de la Municipalité aux observations et aux vœux de la commission",
@@ -242,13 +386,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.5",
+      "item_number": "11.5",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »",
+      "object_type": "preavis",
+      "object_number": "13/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024",
@@ -262,13 +412,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.6",
+      "item_number": "11.6",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale",
+      "object_type": "preavis",
+      "object_number": "14/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024",
@@ -282,13 +438,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.7",
+      "item_number": "11.7",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet",
+      "object_type": "preavis",
+      "object_number": "15/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024",
@@ -302,13 +464,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.8",
+      "item_number": "11.8",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "16/2024",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024",
@@ -322,42 +490,20 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.9",
+      "item_number": "11.9",
       "title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
+      "raw_title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
+      "object_type": "preavis",
+      "object_number": "17/2024",
       "linked_documents": [
-        {
-          "title": "majorité",
-          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf",
-          "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf",
-          "agenda_item_number": "11.9",
-          "local_document": {
-            "category": "preavis-municipaux",
-            "year": "2024",
-            "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf",
-            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.json",
-            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.txt",
-            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf"
-          }
-        },
-        {
-          "title": "minorité",
-          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf",
-          "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf",
-          "agenda_item_number": "11.9",
-          "local_document": {
-            "category": "preavis-municipaux",
-            "year": "2024",
-            "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf",
-            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.json",
-            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.txt",
-            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf"
-          }
-        },
         {
           "title": "préavis municipal N° 17/2024",
           "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.pdf",
@@ -370,13 +516,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "12.1",
+      "item_number": "12.1",
       "title": "Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024",
+      "raw_title": "Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024",
+      "object_type": "communication_municipale",
+      "object_number": "15/2024",
       "linked_documents": [
         {
           "title": "Communication municipale N° 15/2024",
@@ -390,13 +542,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "12.2",
+      "item_number": "12.2",
       "title": "Communication municipale N° 16/2024 –",
+      "raw_title": "Communication municipale N° 16/2024 –",
+      "object_type": "communication_municipale",
+      "object_number": "16/2024",
       "linked_documents": [
         {
           "title": "Communication municipale N° 16/2024",
@@ -410,13 +568,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "12.3",
+      "item_number": "12.3",
       "title": "Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » – Prolongation du délai de réponse",
+      "raw_title": "Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » – Prolongation du délai de réponse",
+      "object_type": "interpellation",
+      "object_number": "17/2024",
       "linked_documents": [
         {
           "title": "Communication municipale N° 17/2024",
@@ -430,13 +594,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "12.4",
+      "item_number": "12.4",
       "title": "Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire",
+      "raw_title": "Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire",
+      "object_type": "communication_municipale",
+      "object_number": "18/2024",
       "linked_documents": [
         {
           "title": "Communication municipale N° 18/2024",
@@ -450,13 +620,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "12.5",
+      "item_number": "12.5",
       "title": "Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier",
+      "raw_title": "Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier",
+      "object_type": "communication_municipale",
+      "object_number": "19/2024",
       "linked_documents": [
         {
           "title": "Communication municipale N° 19/2024",
@@ -470,9 +646,11 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     }
   ],
   "linked_documents": [
@@ -488,7 +666,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV21-15-05-2024.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV21-15-05-2024.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV21-15-05-2024.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
@@ -502,6 +681,21 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Dellas-7-Municipaux-2026-2031.pdf"
+      },
+      "canonical_object": {
+        "category": "motions",
+        "doc_type": "motions",
+        "year": "2024",
+        "title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+        "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+        "political_object_id": "motion-2024-pour-une-gouvernance-de-la-tour-de-peilz-a-7-conseillers-municipaux",
+        "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+        "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+        "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.json",
+        "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.txt",
+        "canonical_object": true,
+        "agenda_item_number": "8.1",
+        "link_title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
       }
     },
     {
@@ -516,6 +710,21 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.pdf"
+      },
+      "canonical_object": {
+        "category": "postulats",
+        "doc_type": "postulats",
+        "year": "2024",
+        "title": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+        "object_title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+        "political_object_id": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure",
+        "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+        "filename": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+        "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
+        "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
+        "canonical_object": true,
+        "agenda_item_number": "8.2",
+        "link_title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
       }
     },
     {
@@ -530,7 +739,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-18-Etude-reamenagement-avenue-Gare.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Préavis municipal N° 19/2024",
@@ -544,7 +754,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-19-Assainissement-bruit-routier-communal.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Préavis municipal N° 20/2024",
@@ -558,7 +769,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-20-Etude-Ville-du-Jeu.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Préavis municipal N° 21/2024",
@@ -572,7 +784,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-21-Reponse-Postulat-Boulben-Jobs-ete.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Préavis municipal N° 22/2024",
@@ -586,7 +799,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-22-Reponse-Postulat-Grutta-Etudiants.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024",
@@ -600,7 +814,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-09-FCR-Comptes-2023-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024",
@@ -614,7 +829,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-10-CIEHL-Comptes-2023-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023",
@@ -628,7 +844,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Rapport-COGEST-23.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "réponses de la Municipalité aux observations et aux vœux de la commission",
@@ -642,7 +859,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Reponses-muni-Gestion-2023.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024",
@@ -656,7 +874,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-13-Reponse-postulat-Champier-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024",
@@ -670,7 +889,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-14-Renovation-Charlemagne-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024",
@@ -684,7 +904,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-15-Depollution-Gregnolet-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024",
@@ -698,13 +919,14 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-16-Chateau-murs-escarpe-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "majorité",
       "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf",
       "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf",
-      "agenda_item_number": "11.9",
+      "agenda_item_number": null,
       "local_document": {
         "category": "preavis-municipaux",
         "year": "2024",
@@ -712,13 +934,14 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Maj.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "minorité",
       "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf",
       "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf",
-      "agenda_item_number": "11.9",
+      "agenda_item_number": null,
       "local_document": {
         "category": "preavis-municipaux",
         "year": "2024",
@@ -726,7 +949,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-Min.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "préavis municipal N° 17/2024",
@@ -740,7 +964,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 15/2024",
@@ -754,7 +979,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm15-Affichage-public.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 16/2024",
@@ -768,7 +994,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm16-Gregnolet-Decompte-final.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 17/2024",
@@ -782,7 +1009,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm17-Interpellation-JYSchmidhauser-RPGA.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 18/2024",
@@ -796,7 +1024,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm18-Zones-baignade-Maladaire-Becque.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 19/2024",
@@ -810,352 +1039,41 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm19-Allee-Francoise-Siegfried-Meier.pdf"
-      }
+      },
+      "canonical_object": null
     }
   ],
-  "text": "COMMUNE DE LA-TOUR-DE-PEILZ\n\nLes membres du Conseil communal sont convoqués en séance publique le\n\nmercredi 26 juin 2024 à 19:00 \n\nMaison Hugonin, Salle du Conseil communal\n\nOrdre du jour\n\nAdoption de l'ordre du jour\n\nAdoption du procès-verbal N° 21 de la séance du 15 mai 2024\n\nCommunications du bureau du Conseil communal\n\nElections du bureau 2024-2025\n4.1. Présidence\n4.2. 1ère vice-présidence\n4.3. 2e vice-présidence\n4.4. Scrutateurs et scrutateurs-suppléants\n\nAssermentations\n\nElections - Nominations\n\nInformation au Conseil communal par ses représentants au sein des organismes intercommunaux\n\nDépôt et développement des motions, postulats et interpellations\n8.1. Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux\n8.2. Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure\n\nRéponses aux interpellations\n\nPréavis\n10.1. Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard\n10.2. Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal\n10.3. Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »\n10.4. Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz\n10.5. Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) –Soutenons nos étudiants boélands\n\nRapports\n11.1. Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera\n11.2. Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)\n11.3. Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)\n11.4. Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission\n11.5. Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »\n11.6. Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale\n11.7. Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet\n11.8. Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz\n11.9. Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet\n\nCommunications municipales\n12.1. Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024\n12.2. Communication municipale N° 16/2024 – Préavis N° 10/2022 – Réaménagement et sécurisation du chemin du Gregnolet – Décompte final\n12.3. Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » – Prolongation du délai de réponse\n12.4. Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire\n12.5. Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier\n\nQuestions, propositions individuelles et divers\n\nLe Président : J.Costanzo",
-  "proces_verbal": {
-    "commune": "La Tour-de-Peilz",
-    "type": "proces_verbal",
-    "pv_number": 22,
-    "session_date": "2024-06-26",
-    "year": "2024",
-    "filename": "PV22-26-06-2024.pdf",
-    "category": "proces-verbaux",
-    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV22-26-06-2024.pdf",
-    "source_page": "https://www.la-tour-de-peilz.ch/politique/proces-verbaux.php",
-    "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV22-26-06-2024.json",
-    "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV22-26-06-2024.txt",
-    "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\proces-verbaux\\PV22-26-06-2024.pdf",
-    "session_details": {
-      "location": "Salle du Conseil communal, Maison Hugonin",
-      "start_time": "19:00",
-      "president": "Julien Costanzo",
-      "signature_president": "Julien Costanzo",
-      "secretary": "Carole Dind"
+  "linked_canonical_objects": [
+    {
+      "category": "motions",
+      "doc_type": "motions",
+      "year": "2024",
+      "title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+      "object_title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "political_object_id": "motion-2024-pour-une-gouvernance-de-la-tour-de-peilz-a-7-conseillers-municipaux",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+      "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\motions\\Motion-Heracles-7-Municipaux-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
     },
-    "attendance": {
-      "present_count": 71,
-      "elected_count": 85,
-      "excused": [
-        "Margareta Brüssow",
-        "Pierre Cavin",
-        "Mireille Cornaz",
-        "Nathalie Demarta",
-        "Brigitte Fahrni Chiusano",
-        "Léa Glardon",
-        "Guillaume Jung",
-        "Manuel Lisboa",
-        "Myriam Michel",
-        "Michael Rohrer",
-        "Marie Schmidhauser",
-        "François Vodoz"
-      ],
-      "absent": [
-        "Claude Althaus",
-        "Anna Fenini"
-      ]
-    },
-    "agenda": [
-      {
-        "number": "1",
-        "title": "Adoption de l'ordre du jour"
-      },
-      {
-        "number": "2",
-        "title": "Adoption du procès-verbal N° 21 de la séance du 15 mai 2024"
-      },
-      {
-        "number": "3",
-        "title": "Communications du bureau du Conseil communal"
-      },
-      {
-        "number": "4",
-        "title": "Elections du bureau 2024-2025"
-      },
-      {
-        "number": "4.1",
-        "title": "Présidence"
-      },
-      {
-        "number": "4.2",
-        "title": "1ère vice-présidence"
-      },
-      {
-        "number": "4.3",
-        "title": "2e vice-présidence"
-      },
-      {
-        "number": "4.4",
-        "title": "Scrutateurs et scrutateurs-suppléants"
-      },
-      {
-        "number": "5",
-        "title": "Assermentations"
-      },
-      {
-        "number": "6",
-        "title": "Elections - Nominations"
-      },
-      {
-        "number": "7",
-        "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
-      },
-      {
-        "number": "8",
-        "title": "Dépôt et développement des motions, postulats et interpellations"
-      },
-      {
-        "number": "8.1",
-        "title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux"
-      },
-      {
-        "number": "8.2",
-        "title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
-      },
-      {
-        "number": "9",
-        "title": "Réponses aux interpellations"
-      },
-      {
-        "number": "10",
-        "title": "Préavis"
-      },
-      {
-        "number": "10.1",
-        "title": "Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard"
-      },
-      {
-        "number": "10.2",
-        "title": "Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal"
-      },
-      {
-        "number": "10.3",
-        "title": "Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »"
-      },
-      {
-        "number": "10.4",
-        "title": "Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tourde-Peilz"
-      },
-      {
-        "number": "10.5",
-        "title": "Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) – Soutenons nos étudiants boélands"
-      },
-      {
-        "number": "11",
-        "title": "Rapports"
-      },
-      {
-        "number": "11.1",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera"
-      },
-      {
-        "number": "11.2",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)"
-      },
-      {
-        "number": "11.3",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)"
-      },
-      {
-        "number": "11.4",
-        "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission"
-      },
-      {
-        "number": "11.5",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »"
-      },
-      {
-        "number": "11.6",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale"
-      },
-      {
-        "number": "11.7",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet"
-      },
-      {
-        "number": "11.8",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz"
-      },
-      {
-        "number": "11.9",
-        "title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet"
-      },
-      {
-        "number": "12",
-        "title": "Communications municipales"
-      },
-      {
-        "number": "12.1",
-        "title": "Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024"
-      },
-      {
-        "number": "12.2",
-        "title": "Communication municipale N° 16/2024 – Préavis N° 10/2022 – Réaménagement et sécurisation du chemin du Gregnolet – Décompte final"
-      },
-      {
-        "number": "12.3",
-        "title": "Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne vas pas » – Prolongation du délai de réponse"
-      },
-      {
-        "number": "12.4",
-        "title": "Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire"
-      },
-      {
-        "number": "12.5",
-        "title": "Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier"
-      },
-      {
-        "number": "13",
-        "title": "Questions, propositions individuelles et divers"
-      }
-    ],
-    "previous_minutes": [
-      {
-        "pv_number": 21,
-        "session_date_label": "15 mai 2024",
-        "decision": "adopted",
-        "vote_result": "unanimous"
-      }
-    ],
-    "decisions": [
-      {
-        "agenda_item": "2",
-        "object": "Adoption du procès-verbal N° 21 de la séance du 15 mai 2024",
-        "decision_text": "Au vote, le procès-verbal N° 21 de la séance du 15 mai 2024 est adopté à une très large majorité (cinq abstentions), avec remerciements à la secrétaire.",
-        "vote_result": "large_majority",
-        "decision": "adopted"
-      }
-    ],
-    "political_objects_discussed": [
-      {
-        "agenda_item": "8.1",
-        "type": "motion",
-        "title": "Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
-        "author": "Héraclès Dellas (UDC) & consorts"
-      },
-      {
-        "agenda_item": "8.2",
-        "type": "postulat",
-        "title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
-      },
-      {
-        "agenda_item": "10.1",
-        "type": "preavis",
-        "title": "Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard",
-        "number": "18/2024"
-      },
-      {
-        "agenda_item": "10.2",
-        "type": "preavis",
-        "title": "Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal",
-        "number": "19/2024"
-      },
-      {
-        "agenda_item": "10.3",
-        "type": "preavis",
-        "title": "Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »",
-        "number": "20/2024"
-      },
-      {
-        "agenda_item": "10.4",
-        "type": "postulat",
-        "title": "Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tourde-Peilz",
-        "author": "Yann Boulben Meyer",
-        "party": "LTDPL"
-      },
-      {
-        "agenda_item": "10.5",
-        "type": "postulat",
-        "title": "Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) – Soutenons nos étudiants boélands",
-        "author": "Alessio Grutta",
-        "party": "PLR"
-      },
-      {
-        "agenda_item": "11.1",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera",
-        "number": "9/2024"
-      },
-      {
-        "agenda_item": "11.2",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
-        "number": "10/2024"
-      },
-      {
-        "agenda_item": "11.3",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)",
-        "number": "11/2024"
-      },
-      {
-        "agenda_item": "11.4",
-        "type": "report",
-        "title": "Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission"
-      },
-      {
-        "agenda_item": "11.5",
-        "type": "postulat",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »"
-      },
-      {
-        "agenda_item": "11.6",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale",
-        "number": "14/2024"
-      },
-      {
-        "agenda_item": "11.7",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet",
-        "number": "15/2024"
-      },
-      {
-        "agenda_item": "11.8",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz",
-        "number": "16/2024"
-      },
-      {
-        "agenda_item": "11.9",
-        "type": "preavis",
-        "title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet",
-        "number": "17/2024"
-      },
-      {
-        "agenda_item": "12.1",
-        "type": "communication",
-        "title": "Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024",
-        "number": "15/2024"
-      },
-      {
-        "agenda_item": "12.2",
-        "type": "communication",
-        "title": "Communication municipale N° 16/2024 – Préavis N° 10/2022 – Réaménagement et sécurisation du chemin du Gregnolet – Décompte final",
-        "number": "16/2024"
-      },
-      {
-        "agenda_item": "12.3",
-        "type": "interpellation",
-        "title": "Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne vas pas » – Prolongation du délai de réponse"
-      },
-      {
-        "agenda_item": "12.4",
-        "type": "communication",
-        "title": "Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire",
-        "number": "18/2024",
-        "author": "André Gruaz",
-        "party": "PSDG"
-      },
-      {
-        "agenda_item": "12.5",
-        "type": "communication",
-        "title": "Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier",
-        "number": "19/2024"
-      }
-    ],
-    "president": "Julien Costanzo",
-    "secretary": "Carole Dind"
-  }
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2024",
+      "title": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+      "object_title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+      "political_object_id": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+      "filename": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-LTDPL-Giratoire-Murs-blancs.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.2",
+      "link_title": "Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
+    }
+  ],
+  "text": "COMMUNE DE LA-TOUR-DE-PEILZ\n\nLes membres du Conseil communal sont convoqués en séance publique le\n\nmercredi 26 juin 2024 à 19:00 \n\nMaison Hugonin, Salle du Conseil communal\n\nOrdre du jour\n\nAdoption de l'ordre du jour\n\nAdoption du procès-verbal N° 21 de la séance du 15 mai 2024\n\nCommunications du bureau du Conseil communal\n\nElections du bureau 2024-2025\n4.1. Présidence\n4.2. 1ère vice-présidence\n4.3. 2e vice-présidence\n4.4. Scrutateurs et scrutateurs-suppléants\n\nAssermentations\n\nElections - Nominations\n\nInformation au Conseil communal par ses représentants au sein des organismes intercommunaux\n\nDépôt et développement des motions, postulats et interpellations\n8.1. Motion de M. Héraclès Dellas (UDC) & consorts – Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux\n8.2. Postulat La Tour-de-Peilz Libre – Murs-Blancs : un petit coin de nature contre un rond-point de bon augure\n\nRéponses aux interpellations\n\nPréavis\n10.1. Préavis municipal N° 18/2024 – Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard\n10.2. Préavis municipal N° 19/2024 – Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal\n10.3. Préavis municipal N° 20/2024 – Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu »\n10.4. Préavis municipal N° 21/2024 – Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz\n10.5. Préavis municipal N° 22/2024 – Réponse au postulat de M. Alessio Grutta (PLR) –Soutenons nos étudiants boélands\n\nRapports\n11.1. Rapport de la commission chargée d'étudier le préavis municipal N° 9/2024 – Gestion et comptes 2023 du Fonds culturel Riviera\n11.2. Rapport de la commission chargée d'étudier le préavis municipal N° 10/2024 – Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)\n11.3. Rapport de la commission chargée d'étudier le préavis municipal N° 11/2024 – Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST)\n11.4. Rapport de la Commission de gestion chargée d'étudier le préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission\n11.5. Rapport de la commission chargée d'étudier le préavis municipal N° 13/2024 – Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »\n11.6. Rapport de la commission chargée d'étudier le préavis municipal N° 14/2024 – Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale\n11.7. Rapport de la commission chargée d'étudier le préavis municipal N° 15/2024 – Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet\n11.8. Rapport de la commission chargée d'étudier le préavis municipal N° 16/2024 – Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz\n11.9. Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 17/2024 – Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet\n\nCommunications municipales\n12.1. Communication municipale N° 15/2024 – Affichage public – Nouveau concessionnaire dès le 1er juillet 2024\n12.2. Communication municipale N° 16/2024 – Préavis N° 10/2022 – Réaménagement et sécurisation du chemin du Gregnolet – Décompte final\n12.3. Communication municipale N° 17/2024 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » – Prolongation du délai de réponse\n12.4. Communication municipale N° 18/2024 – Réponse à la question de M. André Gruaz (PSDG) – Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire\n12.5. Communication municipale N° 19/2024 – Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier\n\nQuestions, propositions individuelles et divers\n\nLe Président : J.Costanzo"
 }

@@ -2,50 +2,312 @@
   "commune": "La Tour-de-Peilz",
   "year": "2022",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2022-02-09",
   "filename": "2022-02-09-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=87",
   "session_date": "2022-02-09",
+  "document_date": "2022-02-09",
   "time": "20:15",
   "place": "Salle des Remparts\n\nPour le public, certificat COVID et port du masque obligatoires",
-  "linked_documents_count": 9,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-02-09-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2022",
-  "title": "2022-02-09-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "covid",
-    "plr",
-    "lcivl",
-    "ltdpl"
+  "agenda_items": [
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "raw_title": "Postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Julien Neveu (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie.pdf",
+          "filename": "Postulat-Neveu-Decheterie.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Neveu-Decheterie.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+            "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+            "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Postulat de M. Julien Neveu (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Postulat de M. Julien Neveu (LV)"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) – Un label pour donner confiance à la population",
+      "raw_title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) – Un label pour donner confiance à la population",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2022",
+            "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+            "object_title": "Un label pour donner confiance à la population",
+            "political_object_id": "postulat-2022-un-label-pour-donner-confiance-a-la-population",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+            "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "object_title": "Un label pour donner confiance à la population",
+          "political_object_id": "postulat-2022-un-label-pour-donner-confiance-a-la-population",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR)"
+        }
+      ]
+    },
+    {
+      "number": "7.3",
+      "item_number": "7.3",
+      "title": "Interpellation de M. Marc Wüthrich (LTDPL) – Antennes 5G sur le territoire communal",
+      "raw_title": "Interpellation de M. Marc Wüthrich (LTDPL) – Antennes 5G sur le territoire communal",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de M. Marc Wüthrich (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G.pdf",
+          "filename": "Interpellation-Wuthrich-5G.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2022",
+            "filename": "Interpellation-Wuthrich-5G.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Wuthrich-5G.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Préavis municipal N° 1/2022 – Réponse à la motion de M. Daniel Krähenbühl – « Année de la Famille – Centre familial de plein air » (prise en considération le 29 juin 1994)",
+      "raw_title": "Préavis municipal N° 1/2022 – Réponse à la motion de M. Daniel Krähenbühl – « Année de la Famille – Centre familial de plein air » (prise en considération le 29 juin 1994)",
+      "object_type": "preavis",
+      "object_number": "1/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 1/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-01-Motion-Krahenbuhl-Centre-familial.pdf",
+          "filename": "Preavis-01-Motion-Krahenbuhl-Centre-familial.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-01-Motion-Krahenbuhl-Centre-familial.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-Motion-Krahenbuhl-Centre-familial.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-Motion-Krahenbuhl-Centre-familial.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-01-Motion-Krahenbuhl-Centre-familial.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Communication municipale N° 1/2022 – Etat des motions et postulats en suspens au 31 décembre 2021",
+      "raw_title": "Communication municipale N° 1/2022 – Etat des motions et postulats en suspens au 31 décembre 2021",
+      "object_type": "motion",
+      "object_number": "1/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 1/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm01-Motions-postulats.pdf",
+          "filename": "Comm01-Motions-postulats.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm01-Motions-postulats.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm01-Motions-postulats.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm01-Motions-postulats.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm01-Motions-postulats.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Communication municipale N° 2/2022 – Réponse à la question de Mme Marianne Adank (PLR) – Commission sur le cheminement piétonnier en rives du lac",
+      "raw_title": "Communication municipale N° 2/2022 – Réponse à la question de Mme Marianne Adank (PLR) – Commission sur le cheminement piétonnier en rives du lac",
+      "object_type": "communication_municipale",
+      "object_number": "2/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 2/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm02-Questions-Adank-Rives-du-Lac.pdf",
+          "filename": "Comm02-Questions-Adank-Rives-du-Lac.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm02-Questions-Adank-Rives-du-Lac.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm02-Questions-Adank-Rives-du-Lac.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm02-Questions-Adank-Rives-du-Lac.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm02-Questions-Adank-Rives-du-Lac.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Communication municipale N° 3/2022 – Réponse à la question de Mme Marianne Adank (PLR) – Bon d'achats : informations reçues lors de l'utilisation des bons, quid de la protection des données ? Propositions individuelles et divers",
+      "raw_title": "Communication municipale N° 3/2022 – Réponse à la question de Mme Marianne Adank (PLR) – Bon d'achats : informations reçues lors de l'utilisation des bons, quid de la protection des données ? Propositions individuelles et divers",
+      "object_type": "communication_municipale",
+      "object_number": "3/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 3/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2022/Comm03-Questions-Adank-Bons.pdf",
+          "filename": "Comm03-Questions-Adank-Bons.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2022",
+            "filename": "Comm03-Questions-Adank-Bons.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm03-Questions-Adank-Bons.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm03-Questions-Adank-Bons.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\communications-municipales\\Comm03-Questions-Adank-Bons.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 1855,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 9,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+      "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+      "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Postulat de M. Julien Neveu (LV)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+      "object_title": "Un label pour donner confiance à la population",
+      "political_object_id": "postulat-2022-un-label-pour-donner-confiance-a-la-population",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+      "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Costa-Kraehenbuehl-Label-cybersecurite.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR)"
+    }
+  ],
+  "linked_canonical_objects_count": 2,
   "session": {
-    "body": "Conseil communal",
-    "date": "2022-02-09",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2022-02-09",
+    "time": "20:15",
+    "place": "Salle des Remparts\n\nPour le public, certificat COVID et port du masque obligatoires",
+    "agenda_items_count": 7,
     "linked_documents_count": 9,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 2
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-02-09-ordre-du-jour.txt"
 }

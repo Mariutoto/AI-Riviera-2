@@ -2,52 +2,484 @@
   "commune": "La Tour-de-Peilz",
   "year": "2022",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2022-09-14",
   "filename": "2022-09-14-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=91",
   "session_date": "2022-09-14",
+  "document_date": "2022-09-14",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 19,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-09-14-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2022",
-  "title": "2022-09-14-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "udc",
-    "ltdpl",
-    "psdg",
-    "lcivl",
-    "plr",
-    "nouvelle"
+  "agenda_items": [
+    {
+      "number": "4.1",
+      "item_number": "4.1",
+      "title": "Remplacement de M. José Espinosa (UDC) et Mme Geneviève Pasche (LV) au sein de la commission de gestion",
+      "raw_title": "Remplacement de M. José Espinosa (UDC) et Mme Geneviève Pasche (LV) au sein de la commission de gestion",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.2",
+      "item_number": "4.2",
+      "title": "Remplacement de M. Paul Castelain (LV) au sein de la commission des finances",
+      "raw_title": "Remplacement de M. Paul Castelain (LV) au sein de la commission des finances",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.3",
+      "item_number": "4.3",
+      "title": "Remplacement de MM. José Espinosa (UDC) et Miguel Gambino (LTDPL) au Conseil intercommunal de l'Association sécurité Riviera Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "raw_title": "Remplacement de MM. José Espinosa (UDC) et Miguel Gambino (LTDPL) au Conseil intercommunal de l'Association sécurité Riviera Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "6.1",
+      "item_number": "6.1",
+      "title": "Postulat de Mme Ziva Tavcar (PSDG) – Promouvoir et développer le bien-être des Boéland·es",
+      "raw_title": "Postulat de Mme Ziva Tavcar (PSDG) – Promouvoir et développer le bien-être des Boéland·es",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Ziva Tavcar (PSDG) – Promouvoir et développer le bien-être des Boéland·es",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/6.1.Postulat-Tavcar-Label-Sante.pdf",
+          "filename": "6.1.Postulat-Tavcar-Label-Sante.pdf",
+          "agenda_item_number": "6.1",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "6.1.Postulat-Tavcar-Label-Sante.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.1.Postulat-Tavcar-Label-Sante.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.1.Postulat-Tavcar-Label-Sante.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.1.Postulat-Tavcar-Label-Sante.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "6.2",
+      "item_number": "6.2",
+      "title": "Postulat de Mme Maria Luceron (LCIVL) – Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "raw_title": "Postulat de Mme Maria Luceron (LCIVL) – Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Maria Luceron (LCIVL) – Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.pdf",
+          "filename": "6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.pdf",
+          "agenda_item_number": "6.2",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.2.Postulat-Luceron-Agrandissement-greve-Maladaire.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "6.3",
+      "item_number": "6.3",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) – Un Noël différent",
+      "raw_title": "Postulat de Mme Viviane Huber (LTDPL) – Un Noël différent",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Viviane Huber (LTDPL) – Un Noël différent",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/6.3.Postulat-Huber-Noel.pdf",
+          "filename": "6.3.Postulat-Huber-Noel.pdf",
+          "agenda_item_number": "6.3",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "6.3.Postulat-Huber-Noel.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.3.Postulat-Huber-Noel.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.3.Postulat-Huber-Noel.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.3.Postulat-Huber-Noel.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "6.4",
+      "item_number": "6.4",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) – Des lettres pour se faire un nom",
+      "raw_title": "Postulat de Mme Viviane Huber (LTDPL) – Des lettres pour se faire un nom",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Viviane Huber (LTDPL) – Des lettres pour se faire un nom",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/6.4.Postulat-Huber-hashtag-LTDP.pdf",
+          "filename": "6.4.Postulat-Huber-hashtag-LTDP.pdf",
+          "agenda_item_number": "6.4",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "6.4.Postulat-Huber-hashtag-LTDP.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.4.Postulat-Huber-hashtag-LTDP.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.4.Postulat-Huber-hashtag-LTDP.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\6.4.Postulat-Huber-hashtag-LTDP.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Préavis municipal N° 13/2022 – Réponse à la motion de M. Guy Chervet (PLR) « La propriété est aussi une responsabilité »",
+      "raw_title": "Préavis municipal N° 13/2022 – Réponse à la motion de M. Guy Chervet (PLR) « La propriété est aussi une responsabilité »",
+      "object_type": "preavis",
+      "object_number": "13/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 13/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.pdf",
+          "filename": "7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.1.Preavis-13-Motion-Chervet-Patrimoine-communal.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Préavis municipal N° 14/2022 – Modification du règlement de la taxe intercommunale de séjour et de la taxe intercommunale sur les résidences secondaires",
+      "raw_title": "Préavis municipal N° 14/2022 – Modification du règlement de la taxe intercommunale de séjour et de la taxe intercommunale sur les résidences secondaires",
+      "object_type": "preavis",
+      "object_number": "14/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 14/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-14-Modification-regl-taxe-sejour-CITS.pdf",
+          "filename": "Preavis-14-Modification-regl-taxe-sejour-CITS.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Preavis-14-Modification-regl-taxe-sejour-CITS.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Preavis-14-Modification-regl-taxe-sejour-CITS.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.3",
+      "item_number": "7.3",
+      "title": "Préavis municipal N° 15/2022 – Octroi d'un cautionnement de Fr. 500'000.- pour la trésorerie de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz et environs",
+      "raw_title": "Préavis municipal N° 15/2022 – Octroi d'un cautionnement de Fr. 500'000.- pour la trésorerie de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz et environs",
+      "object_type": "preavis",
+      "object_number": "15/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 15/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/7.3.Preavis-15-Cautionnement-FSAT-SIGE.pdf",
+          "filename": "7.3.Preavis-15-Cautionnement-FSAT-SIGE.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "7.3.Preavis-15-Cautionnement-FSAT-SIGE.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.3.Preavis-15-Cautionnement-FSAT-SIGE.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.3.Preavis-15-Cautionnement-FSAT-SIGE.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.3.Preavis-15-Cautionnement-FSAT-SIGE.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.4",
+      "item_number": "7.4",
+      "title": "Préavis municipal N° 16/2022 – Demande d'un crédit d'études de Fr. 315'000.- pour financer l'organisation de mandats d'études parallèles pour la requalification de l'av. de la Gare",
+      "raw_title": "Préavis municipal N° 16/2022 – Demande d'un crédit d'études de Fr. 315'000.- pour financer l'organisation de mandats d'études parallèles pour la requalification de l'av. de la Gare",
+      "object_type": "preavis",
+      "object_number": "16/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 16/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/7.4.Preavis-16-Credit-etude-Avenue-gare.pdf",
+          "filename": "7.4.Preavis-16-Credit-etude-Avenue-gare.pdf",
+          "agenda_item_number": "7.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "7.4.Preavis-16-Credit-etude-Avenue-gare.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.4.Preavis-16-Credit-etude-Avenue-gare.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.4.Preavis-16-Credit-etude-Avenue-gare.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.4.Preavis-16-Credit-etude-Avenue-gare.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.5",
+      "item_number": "7.5",
+      "title": "Préavis municipal N° 17/2022 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 10'000'000.- par cas – NOUVELLE VERSION",
+      "raw_title": "Préavis municipal N° 17/2022 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 10'000'000.- par cas – NOUVELLE VERSION",
+      "object_type": "preavis",
+      "object_number": "17/2022",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 17/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.pdf",
+          "filename": "7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.pdf",
+          "agenda_item_number": "7.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\7.5.Preavis-17-Acquisition-immeubles-Preemption-V2.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Rapports de majorité et de minorité de la commission chargée d'étudier la prise en considération de la motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts – Un engagement pour la Faraz",
+      "raw_title": "Rapports de majorité et de minorité de la commission chargée d'étudier la prise en considération de la motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts – Un engagement pour la Faraz",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2022 – Demande d'un crédit de construction de Fr. 487'500.- pour la participation communale aux travaux de réfection d'un tronçon du ruisseau de Sully",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2022 – Demande d'un crédit de construction de Fr. 487'500.- pour la participation communale aux travaux de réfection d'un tronçon du ruisseau de Sully",
+      "object_type": "preavis",
+      "object_number": "12/2022",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 12/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Rapport-12-Refection-ruisseau-Sully.pdf",
+          "filename": "Rapport-12-Refection-ruisseau-Sully.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2022",
+            "filename": "Rapport-12-Refection-ruisseau-Sully.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Rapport-12-Refection-ruisseau-Sully.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Rapport-12-Refection-ruisseau-Sully.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\preavis-municipaux\\Rapport-12-Refection-ruisseau-Sully.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Communication municipale N° 22/2022 – Réaménagement du chemin des Boulingrins et construction d'un giratoire sur la Route de Blonay – Décompte final",
+      "raw_title": "Communication municipale N° 22/2022 – Réaménagement du chemin des Boulingrins et construction d'un giratoire sur la Route de Blonay – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "22/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 22/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.pdf",
+          "filename": "9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.1.Comm22-Reamenagement-Boulingrins-rte-Blonay-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Communication municipale N° 23/2022 – Travaux de l'assainissement des chaufferies du collège et du pavillon de Bel-Air – Décompte final",
+      "raw_title": "Communication municipale N° 23/2022 – Travaux de l'assainissement des chaufferies du collège et du pavillon de Bel-Air – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "23/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 23/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/9.2.Comm23-Chaufferie-Bel-Air-Decompte.pdf",
+          "filename": "9.2.Comm23-Chaufferie-Bel-Air-Decompte.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "9.2.Comm23-Chaufferie-Bel-Air-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.2.Comm23-Chaufferie-Bel-Air-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.2.Comm23-Chaufferie-Bel-Air-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.2.Comm23-Chaufferie-Bel-Air-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Communication municipale N° 24/2022 – Réponse aux questions de Mme Geneviève Pasche (LV) concernant le préavis N°8/2022 relatif au remplacement des chaudières de la centrale de chauffe des Mousquetaires",
+      "raw_title": "Communication municipale N° 24/2022 – Réponse aux questions de Mme Geneviève Pasche (LV) concernant le préavis N°8/2022 relatif au remplacement des chaudières de la centrale de chauffe des Mousquetaires",
+      "object_type": "preavis",
+      "object_number": "24/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 24/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/9.3.Comm24-Questions-Pasche.pdf",
+          "filename": "9.3.Comm24-Questions-Pasche.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "9.3.Comm24-Questions-Pasche.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.3.Comm24-Questions-Pasche.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.3.Comm24-Questions-Pasche.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.3.Comm24-Questions-Pasche.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Communication municipale N° 25/2022 – Réponse à la question de M. Julien Costanzo (PSDG) posée lors de la séance du 29 juin 2022 concernant les restrictions d'eau durant les périodes de sécheresse",
+      "raw_title": "Communication municipale N° 25/2022 – Réponse à la question de M. Julien Costanzo (PSDG) posée lors de la séance du 29 juin 2022 concernant les restrictions d'eau durant les périodes de sécheresse",
+      "object_type": "communication_municipale",
+      "object_number": "25/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 25/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/9.4.Comm25-Questions-Costanzo-Restrictions-eau.pdf",
+          "filename": "9.4.Comm25-Questions-Costanzo-Restrictions-eau.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "9.4.Comm25-Questions-Costanzo-Restrictions-eau.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.4.Comm25-Questions-Costanzo-Restrictions-eau.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.4.Comm25-Questions-Costanzo-Restrictions-eau.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.4.Comm25-Questions-Costanzo-Restrictions-eau.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.5",
+      "item_number": "9.5",
+      "title": "Communication municipale N° 26/2022 – Réorganisation des Secteurs voirie et parcs et jardins Propositions individuelles et divers",
+      "raw_title": "Communication municipale N° 26/2022 – Réorganisation des Secteurs voirie et parcs et jardins Propositions individuelles et divers",
+      "object_type": "communication_municipale",
+      "object_number": "26/2022",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 26/2022",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/Documents/Documents/2022/OJ_09_2022/9.5.Comm26-Secteur-espaces-publics.pdf",
+          "filename": "9.5.Comm26-Secteur-espaces-publics.pdf",
+          "agenda_item_number": "9.5",
+          "local_document": {
+            "category": "autres",
+            "year": "2022",
+            "filename": "9.5.Comm26-Secteur-espaces-publics.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.5.Comm26-Secteur-espaces-publics.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.5.Comm26-Secteur-espaces-publics.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\autres\\9.5.Comm26-Secteur-espaces-publics.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 3493,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 19,
+  "linked_canonical_objects": [
+    {
+      "category": "motions",
+      "doc_type": "motions",
+      "year": "2022",
+      "title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+      "object_title": "Un engagement pour la Faraz",
+      "political_object_id": "motion-2022-un-engagement-pour-la-faraz",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+      "filename": "Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\motions\\Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": null,
+      "link_title": "majorité"
+    }
+  ],
+  "linked_canonical_objects_count": 1,
   "session": {
-    "body": "Conseil communal",
-    "date": "2022-09-14",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2022-09-14",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 19,
     "linked_documents_count": 19,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 1
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\ordres-du-jour\\2022-09-14-ordre-du-jour.txt"
 }

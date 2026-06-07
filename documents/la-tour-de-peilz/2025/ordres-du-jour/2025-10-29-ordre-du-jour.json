@@ -2,49 +2,459 @@
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2025-10-29",
   "filename": "2025-10-29-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=115",
   "session_date": "2025-10-29",
+  "document_date": "2025-10-29",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 17,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-10-29-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2025",
-  "title": "2025-10-29-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "ltdpl",
-    "udc",
-    "ciehl"
+  "agenda_items": [
+    {
+      "number": "5.1",
+      "item_number": "5.1",
+      "title": "Election d'un membre à la Commission de gestion en remplacement de M. Jean-Etienne Holzeisen (LTDPL, siégeant pour l'UDC), démissionnaire Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations :",
+      "raw_title": "Election d'un membre à la Commission de gestion en remplacement de M. Jean-Etienne Holzeisen (LTDPL, siégeant pour l'UDC), démissionnaire Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations :",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »",
+      "raw_title": "Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Ansermet-30kmh-phonoabsorbant.pdf",
+          "filename": "Interpellation-Ansermet-30kmh-phonoabsorbant.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2025",
+            "filename": "Interpellation-Ansermet-30kmh-phonoabsorbant.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30kmh-phonoabsorbant.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30kmh-phonoabsorbant.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Ansermet-30kmh-phonoabsorbant.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »",
+      "raw_title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "filename": "Postulat-Fontana-Bruit.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2025",
+            "filename": "Postulat-Fontana-Bruit.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2025",
+            "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+            "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+            "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+            "filename": "Postulat-Fontana-Bruit.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2025",
+          "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+          "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "filename": "Postulat-Fontana-Bruit.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
+        }
+      ]
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "raw_title": "Préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "object_type": "preavis",
+      "object_number": "27/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 27/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-27-Budget-2026-CITS.pdf",
+          "filename": "Preavis-27-Budget-2026-CITS.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-27-Budget-2026-CITS.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "raw_title": "Préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "object_type": "preavis",
+      "object_number": "28/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 28/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-28-Budget-2026-CIEHL.pdf",
+          "filename": "Preavis-28-Budget-2026-CIEHL.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-28-Budget-2026-CIEHL.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.3",
+      "item_number": "8.3",
+      "title": "Préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
+      "raw_title": "Préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
+      "object_type": "preavis",
+      "object_number": "29/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 29/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-29-Budget-2026-FCR.pdf",
+          "filename": "Preavis-29-Budget-2026-FCR.pdf",
+          "agenda_item_number": "8.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-29-Budget-2026-FCR.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.4",
+      "item_number": "8.4",
+      "title": "Préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
+      "raw_title": "Préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "30/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 30/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-30-Budget-2026-LTDP.pdf",
+          "filename": "Preavis-30-Budget-2026-LTDP.pdf",
+          "agenda_item_number": "8.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-30-Budget-2026-LTDP.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30-Budget-2026-LTDP.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30-Budget-2026-LTDP.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30-Budget-2026-LTDP.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.5",
+      "item_number": "8.5",
+      "title": "Préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
+      "raw_title": "Préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
+      "object_type": "preavis",
+      "object_number": "31/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 31/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-31-reamenagement-avenue-Gare.pdf",
+          "filename": "Preavis-31-reamenagement-avenue-Gare.pdf",
+          "agenda_item_number": "8.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-31-reamenagement-avenue-Gare.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.6",
+      "item_number": "8.6",
+      "title": "Préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N°",
+      "raw_title": "Préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N°",
+      "object_type": "preavis",
+      "object_number": "32/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 32/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-32-Murs-Blancs-Vassin.pdf",
+          "filename": "Preavis-32-Murs-Blancs-Vassin.pdf",
+          "agenda_item_number": "8.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-32-Murs-Blancs-Vassin.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.7",
+      "item_number": "8.7",
+      "title": "Préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
+      "raw_title": "Préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
+      "object_type": "preavis",
+      "object_number": "33/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 33/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-33-Maladaire-plage.pdf",
+          "filename": "Preavis-33-Maladaire-plage.pdf",
+          "agenda_item_number": "8.7",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-33-Maladaire-plage.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 24/2025 – Octroi d'un cautionnement en garantie d'un emprunt unique de Fr. 465'000.- pour la Société coopérative du Manège de Villard destiné aux travaux de modernisation de ses installations",
+      "raw_title": "Rapports de majorité et minorité de la commission chargée d'étudier le préavis municipal N° 24/2025 – Octroi d'un cautionnement en garantie d'un emprunt unique de Fr. 465'000.- pour la Société coopérative du Manège de Villard destiné aux travaux de modernisation de ses installations",
+      "object_type": "preavis",
+      "object_number": "24/2025",
+      "linked_documents": [
+        {
+          "title": "préavis municipal N° 24/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-24-Cautionnement-Manege-Villard.pdf",
+          "filename": "Preavis-24-Cautionnement-Manege-Villard.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-24-Cautionnement-Manege-Villard.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-24-Cautionnement-Manege-Villard.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-24-Cautionnement-Manege-Villard.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-24-Cautionnement-Manege-Villard.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 25/2025 – Demande d'un crédit d'étude de Fr. 300'000.- destiné à l'organisation d'un concours d'architecture pour le développement d'une Maison des Aînés à la rue du Collège",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 25/2025 – Demande d'un crédit d'étude de Fr. 300'000.- destiné à l'organisation d'un concours d'architecture pour le développement d'une Maison des Aînés à la rue du Collège",
+      "object_type": "preavis",
+      "object_number": "25/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 25/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-25-Maison-aines-credit-etude-concours-Rapp.pdf",
+          "filename": "Preavis-25-Maison-aines-credit-etude-concours-Rapp.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-25-Maison-aines-credit-etude-concours-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-25-Maison-aines-credit-etude-concours-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-25-Maison-aines-credit-etude-concours-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-25-Maison-aines-credit-etude-concours-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 26/2025 – Demande d'un crédit de Fr. 765'000.- pour la modernisation du parc d'éclairage public et l'assainissement des systèmes lumineux obsolètes sur le territoire communal",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 26/2025 – Demande d'un crédit de Fr. 765'000.- pour la modernisation du parc d'éclairage public et l'assainissement des systèmes lumineux obsolètes sur le territoire communal",
+      "object_type": "preavis",
+      "object_number": "26/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 26/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-26-Modernisation-eclairage-Rapp.pdf",
+          "filename": "Preavis-26-Modernisation-eclairage-Rapp.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-26-Modernisation-eclairage-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-26-Modernisation-eclairage-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-26-Modernisation-eclairage-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-26-Modernisation-eclairage-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Communication municipale N° 18/2025 –",
+      "raw_title": "Communication municipale N° 18/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "18/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 18/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm18-Balayeuse-Decompte-final.pdf",
+          "filename": "Comm18-Balayeuse-Decompte-final.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm18-Balayeuse-Decompte-final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm18-Balayeuse-Decompte-final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm18-Balayeuse-Decompte-final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm18-Balayeuse-Decompte-final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Communication municipale N° 19/2025 – Refus de la délivrance d'un permis de construire pour 8 villas individuelles au chemin du Gregnolet – parcelle N° 2881",
+      "raw_title": "Communication municipale N° 19/2025 – Refus de la délivrance d'un permis de construire pour 8 villas individuelles au chemin du Gregnolet – parcelle N° 2881",
+      "object_type": "communication_municipale",
+      "object_number": "19/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 19/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm19-Refus-permis-parcelle-2881.pdf",
+          "filename": "Comm19-Refus-permis-parcelle-2881.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm19-Refus-permis-parcelle-2881.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm19-Refus-permis-parcelle-2881.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm19-Refus-permis-parcelle-2881.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm19-Refus-permis-parcelle-2881.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 3649,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 17,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2025",
+      "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+      "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+      "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+      "filename": "Postulat-Fontana-Bruit.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
+    }
+  ],
+  "linked_canonical_objects_count": 1,
   "session": {
-    "body": "Conseil communal",
-    "date": "2025-10-29",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2025-10-29",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 15,
     "linked_documents_count": 17,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 1
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-10-29-ordre-du-jour.txt"
 }

@@ -2,49 +2,364 @@
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2025-02-05",
   "filename": "2025-02-05-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=111",
   "session_date": "2025-02-05",
+  "document_date": "2025-02-05",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 12,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-02-05-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2025",
-  "title": "2025-02-05-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "lcivl",
-    "plr",
-    "vmcv"
+  "agenda_items": [
+    {
+      "number": "4.1",
+      "item_number": "4.1",
+      "title": "Nomination d'un membre au Conseil intercommunal de l'Association sécurité Riviera en remplacement de M. Jean-Pierre Schwab",
+      "raw_title": "Nomination d'un membre au Conseil intercommunal de l'Association sécurité Riviera en remplacement de M. Jean-Pierre Schwab",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "4.2",
+      "item_number": "4.2",
+      "title": "Nomination d'un membre à la délégation à la Commission intercommunale de gestion du Fonds culturel Riviera en remplacement de M. François Vodoz (PLR) Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "raw_title": "Nomination d'un membre à la délégation à la Commission intercommunale de gestion du Fonds culturel Riviera en remplacement de M. François Vodoz (PLR) Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+      "raw_title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+          "filename": "Postulat-Python-Numerisation.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2025",
+            "filename": "Postulat-Python-Numerisation.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2025",
+            "title": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+            "object_title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+            "political_object_id": "postulat-2025-prevenir-le-coup-de-soleil-numerique-pour-une-strategie-communale-de-bon-usage-des-nouveau",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+            "filename": "Postulat-Python-Numerisation.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2025",
+          "title": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+          "object_title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "political_object_id": "postulat-2025-prevenir-le-coup-de-soleil-numerique-pour-une-strategie-communale-de-bon-usage-des-nouveau",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+          "filename": "Postulat-Python-Numerisation.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 1/2025 – Restructuration du réseau centre et ouest des VMCV",
+      "raw_title": "Préavis municipal N° 1/2025 – Restructuration du réseau centre et ouest des VMCV",
+      "object_type": "preavis",
+      "object_number": "1/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 1/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-01-Reorganisation-VMCV.pdf",
+          "filename": "Preavis-01-Reorganisation-VMCV.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-01-Reorganisation-VMCV.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Préavis municipal N° 2/2025 – Demande de crédit extrabudgétaire de Fr. 187'000.- pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste dessinateur architecte à 60 % au sein du Service domaines & bâtiments",
+      "raw_title": "Préavis municipal N° 2/2025 – Demande de crédit extrabudgétaire de Fr. 187'000.- pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste dessinateur architecte à 60 % au sein du Service domaines & bâtiments",
+      "object_type": "preavis",
+      "object_number": "2/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 2/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-02-Nouveaux-postes-SDOM-2025.pdf",
+          "filename": "Preavis-02-Nouveaux-postes-SDOM-2025.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-02-Nouveaux-postes-SDOM-2025.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Préavis municipal N° 3/2025 – Ediction d'un règlement communal sur la protection du patrimoine arboré",
+      "raw_title": "Préavis municipal N° 3/2025 – Ediction d'un règlement communal sur la protection du patrimoine arboré",
+      "object_type": "preavis",
+      "object_number": "3/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 3/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-03-Reglement-protection-arbres.pdf",
+          "filename": "Preavis-03-Reglement-protection-arbres.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-03-Reglement-protection-arbres.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 36/2024 – Achat d'une balayeuse électrique pour le Secteur espaces publics",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 36/2024 – Achat d'une balayeuse électrique pour le Secteur espaces publics",
+      "object_type": "preavis",
+      "object_number": "36/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 36/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-36-Balayeuse-Rapp.pdf",
+          "filename": "Preavis-36-Balayeuse-Rapp.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-36-Balayeuse-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-36-Balayeuse-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-36-Balayeuse-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-36-Balayeuse-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 37/2024 – Demande de crédit de réalisation de Fr. 650'000.- pour le remplacement de l'éclairage des bâtiments scolaires",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 37/2024 – Demande de crédit de réalisation de Fr. 650'000.- pour le remplacement de l'éclairage des bâtiments scolaires",
+      "object_type": "preavis",
+      "object_number": "37/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 37/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-37-Eclairage-batiments-scolaires-Rapp.pdf",
+          "filename": "Preavis-37-Eclairage-batiments-scolaires-Rapp.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-37-Eclairage-batiments-scolaires-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-37-Eclairage-batiments-scolaires-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-37-Eclairage-batiments-scolaires-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-37-Eclairage-batiments-scolaires-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 38/2024 – Demande d'un crédit de réalisation de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 38/2024 – Demande d'un crédit de réalisation de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet",
+      "object_type": "preavis",
+      "object_number": "38/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 38/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.pdf",
+          "filename": "Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 39/2024 – Parcelle N° 897 – Droit de superficie en faveur de la Fondation du centre œcuménique de Vassin – retour des constructions à la Commune avant échéance",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 39/2024 – Parcelle N° 897 – Droit de superficie en faveur de la Fondation du centre œcuménique de Vassin – retour des constructions à la Commune avant échéance",
+      "object_type": "preavis",
+      "object_number": "39/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 39/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-39-Retour-construction-Vassin-Rapp.pdf",
+          "filename": "Preavis-39-Retour-construction-Vassin-Rapp.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-39-Retour-construction-Vassin-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-39-Retour-construction-Vassin-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-39-Retour-construction-Vassin-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-39-Retour-construction-Vassin-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 1/2025 – Etat des motions et postulats en suspens au 31 décembre 2024",
+      "raw_title": "Communication municipale N° 1/2025 – Etat des motions et postulats en suspens au 31 décembre 2024",
+      "object_type": "motion",
+      "object_number": "1/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 1/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm01-Motions-postulats.pdf",
+          "filename": "Comm01-Motions-postulats.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm01-Motions-postulats.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm01-Motions-postulats.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm01-Motions-postulats.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm01-Motions-postulats.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Communication municipale N° 2/2025 – Mise à l'enquête publique du projet de réaménagement du tronçon inférieur du chemin des Bulesses (N° 2a à 16)",
+      "raw_title": "Communication municipale N° 2/2025 – Mise à l'enquête publique du projet de réaménagement du tronçon inférieur du chemin des Bulesses (N° 2a à 16)",
+      "object_type": "communication_municipale",
+      "object_number": "2/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 2/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm02-Reamenagement-Bulesses.pdf",
+          "filename": "Comm02-Reamenagement-Bulesses.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm02-Reamenagement-Bulesses.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm02-Reamenagement-Bulesses.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm02-Reamenagement-Bulesses.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm02-Reamenagement-Bulesses.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 2761,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 12,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2025",
+      "title": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+      "object_title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+      "political_object_id": "postulat-2025-prevenir-le-coup-de-soleil-numerique-pour-une-strategie-communale-de-bon-usage-des-nouveau",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+      "filename": "Postulat-Python-Numerisation.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Python-Numerisation.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Postulat de Mme Valentine Python (LV) - Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques"
+    }
+  ],
+  "linked_canonical_objects_count": 1,
   "session": {
-    "body": "Conseil communal",
-    "date": "2025-02-05",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2025-02-05",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 12,
     "linked_documents_count": 12,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 1
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-02-05-ordre-du-jour.txt"
 }

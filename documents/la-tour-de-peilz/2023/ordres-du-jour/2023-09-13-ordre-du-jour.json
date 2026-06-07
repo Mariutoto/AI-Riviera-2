@@ -2,52 +2,842 @@
   "commune": "La Tour-de-Peilz",
   "year": "2023",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2023-09-13",
   "filename": "2023-09-13-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=98",
   "session_date": "2023-09-13",
+  "document_date": "2023-09-13",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 19,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\ordres-du-jour\\2023-09-13-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2023",
-  "title": "2023-09-13-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "ltdpl",
-    "psdg",
-    "udc",
-    "plr",
-    "lcivl",
-    "vmcv"
+  "agenda_items": [
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune",
+      "raw_title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+          "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2023",
+            "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2023",
+            "title": "Postulat de M. Florian Abbet (LV)",
+            "object_title": "Une salle du Conseil à la hauteur des défis de notre commune",
+            "political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+            "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2023",
+          "title": "Postulat de M. Florian Abbet (LV)",
+          "object_title": "Une salle du Conseil à la hauteur des défis de notre commune",
+          "political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+          "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous",
+      "raw_title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2023",
+            "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2023",
+            "title": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+            "object_title": "Un accès à la baignade au lac pour tous",
+            "political_object_id": "postulat-2023-un-acces-a-la-baignade-au-lac-pour-tous",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+            "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2023",
+          "title": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+          "object_title": "Un accès à la baignade au lac pour tous",
+          "political_object_id": "postulat-2023-un-acces-a-la-baignade-au-lac-pour-tous",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous"
+        }
+      ]
+    },
+    {
+      "number": "7.3",
+      "item_number": "7.3",
+      "title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire",
+      "raw_title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire",
+      "object_type": "interpellation",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Luceron-Installations-Plage-Maladaire.pdf",
+          "filename": "Interpellation-Luceron-Installations-Plage-Maladaire.pdf",
+          "agenda_item_number": "7.3",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Interpellation-Luceron-Installations-Plage-Maladaire.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-Plage-Maladaire.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-Plage-Maladaire.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-Plage-Maladaire.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de Mme Maria Luceron (LCIVL) + réponse",
+            "object_title": "Pour quand le renouvellement des installations à la plage de la Maladaire",
+            "political_object_id": "interpellation-2023-pour-quand-le-renouvellement-des-installations-a-la-plage-de-la-maladaire",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+            "filename": "Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.3",
+            "link_title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de Mme Maria Luceron (LCIVL) + réponse",
+          "object_title": "Pour quand le renouvellement des installations à la plage de la Maladaire",
+          "political_object_id": "interpellation-2023-pour-quand-le-renouvellement-des-installations-a-la-plage-de-la-maladaire",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+          "filename": "Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.3",
+          "link_title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire"
+        }
+      ]
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Réponse municipale N° 7/2023 – Interpellation de Mme Bernadette Menétrey (PLR) – Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+      "raw_title": "Réponse municipale N° 7/2023 – Interpellation de Mme Bernadette Menétrey (PLR) – Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+      "object_type": "interpellation",
+      "object_number": "7/2023",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 7/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf",
+          "filename": "Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-07-Interpellation-Menetrey-Avenue-gare-Demarche-participative.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de Mme Bernadette Menétrey (PLR) + réponse",
+            "object_title": "Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+            "political_object_id": "interpellation-2023-reamenagement-de-l-avenue-de-la-gare-demarche-participative-a-quel-prix",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+            "filename": "Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Réponse municipale N° 7/2023"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de Mme Bernadette Menétrey (PLR) + réponse",
+          "object_title": "Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+          "political_object_id": "interpellation-2023-reamenagement-de-l-avenue-de-la-gare-demarche-participative-a-quel-prix",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+          "filename": "Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Réponse municipale N° 7/2023"
+        }
+      ]
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Réponse municipale N° 8/2023 – Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – VMCV – Le pilote connait-il la bonne route ?",
+      "raw_title": "Réponse municipale N° 8/2023 – Interpellation de M. Jean-Etienne Holzeisen (LTDPL) – VMCV – Le pilote connait-il la bonne route ?",
+      "object_type": "interpellation",
+      "object_number": "8/2023",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 8/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf",
+          "filename": "Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-08-Interpellation-Holzeisen-VMCV-pilote.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-08-Interpellation-Holzeisen-VMCV-pilote.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-08-Interpellation-Holzeisen-VMCV-pilote.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+            "object_title": "VMCV – Le pilote connait-il la bonne route ?",
+            "political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+            "filename": "Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.2",
+            "link_title": "Réponse municipale N° 8/2023"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+          "object_title": "VMCV – Le pilote connait-il la bonne route ?",
+          "political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+          "filename": "Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.2",
+          "link_title": "Réponse municipale N° 8/2023"
+        }
+      ]
+    },
+    {
+      "number": "8.3",
+      "item_number": "8.3",
+      "title": "Réponse municipale N° 9/2023 – Interpellation La Tour-de-Peilz Libre (LTDPL) – Château et Musée - Une démarche participative vraiment en marche ?",
+      "raw_title": "Réponse municipale N° 9/2023 – Interpellation La Tour-de-Peilz Libre (LTDPL) – Château et Musée - Une démarche participative vraiment en marche ?",
+      "object_type": "interpellation",
+      "object_number": "9/2023",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 9/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf",
+          "filename": "Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf",
+          "agenda_item_number": "8.3",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-09-Interpellation-LTDPL-Demarche-participative-Chateau.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation La Tour-de-Peilz Libre (LTDPL) + réponse",
+            "object_title": "Château et Musée - Une démarche participative vraiment en marche ?",
+            "political_object_id": "interpellation-2023-chateau-et-musee-une-demarche-participative-vraiment-en-marche",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+            "filename": "Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.3",
+            "link_title": "Réponse municipale N° 9/2023"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation La Tour-de-Peilz Libre (LTDPL) + réponse",
+          "object_title": "Château et Musée - Une démarche participative vraiment en marche ?",
+          "political_object_id": "interpellation-2023-chateau-et-musee-une-demarche-participative-vraiment-en-marche",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+          "filename": "Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.3",
+          "link_title": "Réponse municipale N° 9/2023"
+        }
+      ]
+    },
+    {
+      "number": "8.4",
+      "item_number": "8.4",
+      "title": "Réponse municipale N° 10/2023 – Interpellation de Mme Mireille Cornaz (LCIVL) – N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+      "raw_title": "Réponse municipale N° 10/2023 – Interpellation de Mme Mireille Cornaz (LCIVL) – N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+      "object_type": "interpellation",
+      "object_number": "10/2023",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 10/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-10-Interpellation-Cornaz-Dechetterie.pdf",
+          "filename": "Reponse-10-Interpellation-Cornaz-Dechetterie.pdf",
+          "agenda_item_number": "8.4",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2023",
+            "filename": "Reponse-10-Interpellation-Cornaz-Dechetterie.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-10-Interpellation-Cornaz-Dechetterie.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-10-Interpellation-Cornaz-Dechetterie.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-10-Interpellation-Cornaz-Dechetterie.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2023",
+            "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+            "object_title": "N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+            "political_object_id": "interpellation-2023-n-y-a-t-il-pas-quelque-chose-a-revoir-dans-l-organisation-de-la-dechetterie-et-de-la-resso",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Cornaz-Dechetterie-Rep.pdf",
+            "filename": "Interpellation-Cornaz-Dechetterie-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.4",
+            "link_title": "Réponse municipale N° 10/2023"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2023",
+          "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+          "object_title": "N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+          "political_object_id": "interpellation-2023-n-y-a-t-il-pas-quelque-chose-a-revoir-dans-l-organisation-de-la-dechetterie-et-de-la-resso",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Cornaz-Dechetterie-Rep.pdf",
+          "filename": "Interpellation-Cornaz-Dechetterie-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.4",
+          "link_title": "Réponse municipale N° 10/2023"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 11/2023 – Arrêté d'imposition pour les années 2024 et 2025",
+      "raw_title": "Préavis municipal N° 11/2023 – Arrêté d'imposition pour les années 2024 et 2025",
+      "object_type": "preavis",
+      "object_number": "11/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 11/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-11-arrete-imposition-2024-2025.pdf",
+          "filename": "Preavis-11-arrete-imposition-2024-2025.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-11-arrete-imposition-2024-2025.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-11-arrete-imposition-2024-2025.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-11-arrete-imposition-2024-2025.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-11-arrete-imposition-2024-2025.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Préavis municipal N° 12/2023 – Demande de crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques sur les toitures des immeubles locatifs à l'av. des Baumes 22-24 au ch. de Béranges 74",
+      "raw_title": "Préavis municipal N° 12/2023 – Demande de crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques sur les toitures des immeubles locatifs à l'av. des Baumes 22-24 au ch. de Béranges 74",
+      "object_type": "preavis",
+      "object_number": "12/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 12/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.pdf",
+          "filename": "Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Préavis municipal N° 13/2023 – Demande d'un crédit d'étude de Fr. 380'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116",
+      "raw_title": "Préavis municipal N° 13/2023 – Demande d'un crédit d'étude de Fr. 380'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116",
+      "object_type": "preavis",
+      "object_number": "13/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 13/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-13-Garderie-Gregnolet.pdf",
+          "filename": "Preavis-13-Garderie-Gregnolet.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-13-Garderie-Gregnolet.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-13-Garderie-Gregnolet.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-13-Garderie-Gregnolet.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-13-Garderie-Gregnolet.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Préavis municipal N° 14/2023 – Révision du statut du personnel communal – Adoption du nouveau règlement",
+      "raw_title": "Préavis municipal N° 14/2023 – Révision du statut du personnel communal – Adoption du nouveau règlement",
+      "object_type": "preavis",
+      "object_number": "14/2023",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 14/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-14-Revision-statut-personnel-VPRESSE.pdf",
+          "filename": "Preavis-14-Revision-statut-personnel-VPRESSE.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-14-Revision-statut-personnel-VPRESSE.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-14-Revision-statut-personnel-VPRESSE.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-14-Revision-statut-personnel-VPRESSE.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-14-Revision-statut-personnel-VPRESSE.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Jean-Yves Schmidhauser (PSDG) et consorts – Quel avenir pour campagne Rossier ?",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Jean-Yves Schmidhauser (PSDG) et consorts – Quel avenir pour campagne Rossier ?",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Christine Hausherr-de Maddalena (PLR) – GastroVert pour tous les ménages à La Tour-de-Peilz",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de Mme Christine Hausherr-de Maddalena (PLR) – GastroVert pour tous les ménages à La Tour-de-Peilz",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 21/2023 – Vente des pavillons situés sur la place des Terreaux et fin de location à la rue du Collège",
+      "raw_title": "Communication municipale N° 21/2023 – Vente des pavillons situés sur la place des Terreaux et fin de location à la rue du Collège",
+      "object_type": "communication_municipale",
+      "object_number": "21/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 21/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm21-Pavillons-scolaires.pdf",
+          "filename": "Comm21-Pavillons-scolaires.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm21-Pavillons-scolaires.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm21-Pavillons-scolaires.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm21-Pavillons-scolaires.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm21-Pavillons-scolaires.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Communication municipale N° 22/2023 –",
+      "raw_title": "Communication municipale N° 22/2023 –",
+      "object_type": "communication_municipale",
+      "object_number": "22/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 22/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm22-Camion-voirie-Decompte.pdf",
+          "filename": "Comm22-Camion-voirie-Decompte.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm22-Camion-voirie-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm22-Camion-voirie-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm22-Camion-voirie-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm22-Camion-voirie-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.3",
+      "item_number": "11.3",
+      "title": "Communication municipale N° 23/2023 –",
+      "raw_title": "Communication municipale N° 23/2023 –",
+      "object_type": "communication_municipale",
+      "object_number": "23/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 23/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm23-Assainissement-Adolphe-Burnat-Decompte-final.pdf",
+          "filename": "Comm23-Assainissement-Adolphe-Burnat-Decompte-final.pdf",
+          "agenda_item_number": "11.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm23-Assainissement-Adolphe-Burnat-Decompte-final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm23-Assainissement-Adolphe-Burnat-Decompte-final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm23-Assainissement-Adolphe-Burnat-Decompte-final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm23-Assainissement-Adolphe-Burnat-Decompte-final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.4",
+      "item_number": "11.4",
+      "title": "Communication municipale N° 24/2023 –",
+      "raw_title": "Communication municipale N° 24/2023 –",
+      "object_type": "communication_municipale",
+      "object_number": "24/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 24/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm24-Trottoir-Rte-Chailly-Decompte-final.pdf",
+          "filename": "Comm24-Trottoir-Rte-Chailly-Decompte-final.pdf",
+          "agenda_item_number": "11.4",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm24-Trottoir-Rte-Chailly-Decompte-final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm24-Trottoir-Rte-Chailly-Decompte-final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm24-Trottoir-Rte-Chailly-Decompte-final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm24-Trottoir-Rte-Chailly-Decompte-final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.5",
+      "item_number": "11.5",
+      "title": "Communication municipale N° 25/2023 –",
+      "raw_title": "Communication municipale N° 25/2023 –",
+      "object_type": "communication_municipale",
+      "object_number": "25/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 25/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm25-Assainissement-Mousquetaires-Decompte-final.pdf",
+          "filename": "Comm25-Assainissement-Mousquetaires-Decompte-final.pdf",
+          "agenda_item_number": "11.5",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm25-Assainissement-Mousquetaires-Decompte-final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm25-Assainissement-Mousquetaires-Decompte-final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm25-Assainissement-Mousquetaires-Decompte-final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm25-Assainissement-Mousquetaires-Decompte-final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.6",
+      "item_number": "11.6",
+      "title": "Communication municipale N° 26/2023 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) – Les réfectoires laissent-ils les enfants sur leur faim ? - Prolongation du délai de réponse",
+      "raw_title": "Communication municipale N° 26/2023 – Interpellation de M. Jean-Yves Schmidhauser (PSDG) – Les réfectoires laissent-ils les enfants sur leur faim ? - Prolongation du délai de réponse",
+      "object_type": "interpellation",
+      "object_number": "26/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 26/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm26-Interpellation-JYSchmidhauser-Refectoires.pdf",
+          "filename": "Comm26-Interpellation-JYSchmidhauser-Refectoires.pdf",
+          "agenda_item_number": "11.6",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm26-Interpellation-JYSchmidhauser-Refectoires.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm26-Interpellation-JYSchmidhauser-Refectoires.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm26-Interpellation-JYSchmidhauser-Refectoires.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm26-Interpellation-JYSchmidhauser-Refectoires.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.7",
+      "item_number": "11.7",
+      "title": "Communication municipale N° 27/2023 –",
+      "raw_title": "Communication municipale N° 27/2023 –",
+      "object_type": "communication_municipale",
+      "object_number": "27/2023",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 27/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2023/Comm27-Pavillons_provisoires-Decompte_final.pdf",
+          "filename": "Comm27-Pavillons_provisoires-Decompte_final.pdf",
+          "agenda_item_number": "11.7",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2023",
+            "filename": "Comm27-Pavillons_provisoires-Decompte_final.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm27-Pavillons_provisoires-Decompte_final.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm27-Pavillons_provisoires-Decompte_final.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\communications-municipales\\Comm27-Pavillons_provisoires-Decompte_final.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 4014,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 19,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2023",
+      "title": "Postulat de M. Florian Abbet (LV)",
+      "object_title": "Une salle du Conseil à la hauteur des défis de notre commune",
+      "political_object_id": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+      "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Abbet-Salle-Conseil.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Postulat de M. Florian Abbet (LV) – Une salle du Conseil à la hauteur des défis de notre commune"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2023",
+      "title": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+      "object_title": "Un accès à la baignade au lac pour tous",
+      "political_object_id": "postulat-2023-un-acces-a-la-baignade-au-lac-pour-tous",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+      "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\postulats\\Postulat-Blank-Barbezat-Baignade-pour-tous.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Postulat de Mme Sophie Blank-Barbezat (PLR) – Un accès à la baignade au lac pour tous"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de Mme Maria Luceron (LCIVL) + réponse",
+      "object_title": "Pour quand le renouvellement des installations à la plage de la Maladaire",
+      "political_object_id": "interpellation-2023-pour-quand-le-renouvellement-des-installations-a-la-plage-de-la-maladaire",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+      "filename": "Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Luceron-Installations-plage-Maladaire-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.3",
+      "link_title": "Interpellation de Mme Maria Luceron (LCIVL) – Pour quand le renouvellement des installations à la plage de la Maladaire"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de Mme Bernadette Menétrey (PLR) + réponse",
+      "object_title": "Réaménagement de l'avenue de la Gare, démarche participative, à quel prix ?",
+      "political_object_id": "interpellation-2023-reamenagement-de-l-avenue-de-la-gare-demarche-participative-a-quel-prix",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+      "filename": "Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Réponse municipale N° 7/2023"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+      "object_title": "VMCV – Le pilote connait-il la bonne route ?",
+      "political_object_id": "interpellation-2023-vmcv-le-pilote-connait-il-la-bonne-route",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+      "filename": "Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Holzeisen-VMCV-pilote-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.2",
+      "link_title": "Réponse municipale N° 8/2023"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation La Tour-de-Peilz Libre (LTDPL) + réponse",
+      "object_title": "Château et Musée - Une démarche participative vraiment en marche ?",
+      "political_object_id": "interpellation-2023-chateau-et-musee-une-demarche-participative-vraiment-en-marche",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+      "filename": "Interpellation-LTDPL-Demarche-participative-Chateau-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-LTDPL-Demarche-participative-Chateau-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.3",
+      "link_title": "Réponse municipale N° 9/2023"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2023",
+      "title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+      "object_title": "N'y a-t-il pas quelque chose à revoir dans l'organisation de la déchetterie et de la ressourcerie ?",
+      "political_object_id": "interpellation-2023-n-y-a-t-il-pas-quelque-chose-a-revoir-dans-l-organisation-de-la-dechetterie-et-de-la-resso",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Cornaz-Dechetterie-Rep.pdf",
+      "filename": "Interpellation-Cornaz-Dechetterie-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Interpellation-Cornaz-Dechetterie-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.4",
+      "link_title": "Réponse municipale N° 10/2023"
+    }
+  ],
+  "linked_canonical_objects_count": 7,
   "session": {
-    "body": "Conseil communal",
-    "date": "2023-09-13",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2023-09-13",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 20,
     "linked_documents_count": 19,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 7
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\ordres-du-jour\\2023-09-13-ordre-du-jour.txt"
 }

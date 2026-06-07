@@ -9,7 +9,11 @@
   "agenda_items": [
     {
       "number": "8.1",
+      "item_number": "8.1",
       "title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »",
+      "raw_title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »",
+      "object_type": "interpellation",
+      "object_number": "3/2025",
       "linked_documents": [
         {
           "title": "Réponse municipale N° 3/2025",
@@ -23,13 +27,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "9.1",
+      "item_number": "9.1",
       "title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-de-chaussée du corps de logis et d'un édicule de service sur l'esplanade",
+      "raw_title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-de-chaussée du corps de logis et d'un édicule de service sur l'esplanade",
+      "object_type": "preavis",
+      "object_number": "34/2025",
       "linked_documents": [
         {
           "title": "Préavis municipal N° 34/2025",
@@ -43,13 +53,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.1",
+      "item_number": "10.1",
       "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »",
+      "raw_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »",
+      "object_type": "postulat",
+      "object_number": null,
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)",
@@ -63,13 +79,49 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2025",
+            "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+            "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+            "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+            "filename": "Postulat-Fontana-Bruit.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+            "canonical_object": true,
+            "agenda_item_number": "10.1",
+            "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)"
           }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2025",
+          "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+          "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "filename": "Postulat-Fontana-Bruit.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+          "canonical_object": true,
+          "agenda_item_number": "10.1",
+          "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)"
         }
       ]
     },
     {
       "number": "10.2",
+      "item_number": "10.2",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+      "object_type": "preavis",
+      "object_number": "27/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025",
@@ -83,13 +135,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.3",
+      "item_number": "10.3",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+      "object_type": "preavis",
+      "object_number": "28/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025",
@@ -103,13 +161,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.4",
+      "item_number": "10.4",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
+      "object_type": "preavis",
+      "object_number": "29/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025",
@@ -123,13 +187,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.5",
+      "item_number": "10.5",
       "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
+      "raw_title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "30/2025",
       "linked_documents": [
         {
           "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025",
@@ -143,13 +213,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.6",
+      "item_number": "10.6",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
+      "object_type": "preavis",
+      "object_number": "31/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025",
@@ -163,13 +239,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.7",
+      "item_number": "10.7",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32",
+      "object_type": "preavis",
+      "object_number": "32/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025",
@@ -183,13 +265,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "10.8",
+      "item_number": "10.8",
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
+      "object_type": "preavis",
+      "object_number": "33/2025",
       "linked_documents": [
         {
           "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025",
@@ -203,13 +291,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.1",
+      "item_number": "11.1",
       "title": "Communication municipale N° 20/2025 –",
+      "raw_title": "Communication municipale N° 20/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "20/2025",
       "linked_documents": [
         {
           "title": "Communication municipale N° 20/2025",
@@ -223,13 +317,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.2",
+      "item_number": "11.2",
       "title": "Communication municipale N° 21/2025 –",
+      "raw_title": "Communication municipale N° 21/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "21/2025",
       "linked_documents": [
         {
           "title": "Communication municipale N° 21/2025",
@@ -243,13 +343,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.3",
+      "item_number": "11.3",
       "title": "Communication municipale N° 22/2025 –",
+      "raw_title": "Communication municipale N° 22/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "22/2025",
       "linked_documents": [
         {
           "title": "Communication municipale N° 22/2025",
@@ -263,13 +369,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.4",
+      "item_number": "11.4",
       "title": "Communication municipale N° 23/2025 –",
+      "raw_title": "Communication municipale N° 23/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "23/2025",
       "linked_documents": [
         {
           "title": "Communication municipale N° 23/2025",
@@ -283,13 +395,19 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     },
     {
       "number": "11.5",
+      "item_number": "11.5",
       "title": "Communication municipale N° 24/2025 –",
+      "raw_title": "Communication municipale N° 24/2025 –",
+      "object_type": "communication_municipale",
+      "object_number": "24/2025",
       "linked_documents": [
         {
           "title": "Communication municipale N° 24/2025",
@@ -303,9 +421,11 @@
             "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.json",
             "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.txt",
             "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.pdf"
-          }
+          },
+          "canonical_object": null
         }
-      ]
+      ],
+      "linked_canonical_objects": []
     }
   ],
   "linked_documents": [
@@ -321,7 +441,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV31-29-10-2025.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV31-29-10-2025.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV31-29-10-2025.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Réponse municipale N° 3/2025",
@@ -335,7 +456,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-03-Interpellation-Ansermet-30-kmh.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Préavis municipal N° 34/2025",
@@ -349,7 +471,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-34-Credit-construction-chateau-complet.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)",
@@ -363,6 +486,21 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit-Rapp.pdf"
+      },
+      "canonical_object": {
+        "category": "postulats",
+        "doc_type": "postulats",
+        "year": "2025",
+        "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+        "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+        "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+        "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+        "filename": "Postulat-Fontana-Bruit.pdf",
+        "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+        "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+        "canonical_object": true,
+        "agenda_item_number": "10.1",
+        "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)"
       }
     },
     {
@@ -377,7 +515,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-27-Budget-2026-CITS-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025",
@@ -391,7 +530,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-28-Budget-2026-CIEHL-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025",
@@ -405,7 +545,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-29-Budget-2026-FCR-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025",
@@ -419,7 +560,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-30‐Budget‐2026-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025",
@@ -433,7 +575,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-31-reamenagement-avenue-Gare-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025",
@@ -447,7 +590,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-32-Murs-Blancs-Vassin-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025",
@@ -461,7 +605,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-33-Maladaire-plage-Rapp.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 20/2025",
@@ -475,7 +620,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm20-Assainissement-av-Clos-daubonne-Decompte-final.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 21/2025",
@@ -489,7 +635,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm21-Place-de-jeux-Parc-Fesquet.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 22/2025",
@@ -503,7 +650,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm22-Assainissement-Entre-deux-villes-Maladaire-Decompte-final.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 23/2025",
@@ -517,7 +665,8 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm23-Assainissement-bruit-routier-communal-Decompte-final.pdf"
-      }
+      },
+      "canonical_object": null
     },
     {
       "title": "Communication municipale N° 24/2025",
@@ -531,279 +680,26 @@
         "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.json",
         "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.txt",
         "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm24-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Decompte-final.pdf"
-      }
+      },
+      "canonical_object": null
     }
   ],
-  "text": "COMMUNE DE LA-TOUR-DE-PEILZ\n\nLes membres du Conseil communal sont convoqués en séance publique le\n\nmercredi 10 décembre 2025 à 20:15 \n\nSalle des Remparts\n\nOrdre du jour\n\nAdoption de l'ordre du jour\n\nAdoption du procès-verbal N° 31 de la séance du 29 octobre 2025\n\nCommunications du bureau du Conseil communal\n\nAssermentations\n\nElections - Nominations\n\nInformation au Conseil communal par ses représentants au sein des organismes intercommunaux\n\nDépôt et développement des motions, postulats et interpellations\n\nRéponses aux interpellations\n8.1. Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »\n\nPréavis\n9.1. Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-de-chaussée du corps de logis et d'un édicule de service sur l'esplanade\n\nRapports\n10.1. Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »\n10.2. Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve\n10.3. Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)\n10.4. Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera\n10.5. Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz\n10.6. Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne\n10.7. Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32\n10.8. Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs\n\nCommunications municipales\n11.1. Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final\n11.2. Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final\n11.3. Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final\n11.4. Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final\n11.5. Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aména-gement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final\n\nQuestions, propositions individuelles et divers\n\nLe Président : Yvan Krähenbühl\nLa Secrétaire : Carole Dind",
-  "proces_verbal": {
-    "commune": "La Tour-de-Peilz",
-    "type": "proces_verbal",
-    "pv_number": 32,
-    "session_date": "2025-12-10",
-    "year": "2025",
-    "filename": "PV32-10-12-2025.pdf",
-    "category": "proces-verbaux",
-    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV32-10-12-2025.pdf",
-    "source_page": "https://www.la-tour-de-peilz.ch/politique/proces-verbaux.php",
-    "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV32-10-12-2025.json",
-    "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV32-10-12-2025.txt",
-    "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\proces-verbaux\\PV32-10-12-2025.pdf",
-    "session_details": {
-      "location": "Salle des Remparts",
-      "start_time": "19:00",
-      "president": "Yvan Kraehenbuehl",
-      "signature_president": "Yvan Kraehenbuehl",
-      "secretary": "Carole Dind"
-    },
-    "attendance": {
-      "present_count": 71,
-      "elected_count": 85,
-      "excused": [
-        "Pierre Cavin",
-        "Romain Cornut",
-        "Margaux Couttet",
-        "Nathalie Demarta",
-        "François Grognuz",
-        "Emina Ibrahimovic",
-        "Guillaume Jung",
-        "Maëlle Le Boudec",
-        "Ingrid Mamin",
-        "Myriam Michel",
-        "Salvatore Noto",
-        "Diego Pasquali",
-        "Marie Schmidhauser",
-        "Jimmy Suro"
-      ]
-    },
-    "agenda": [
-      {
-        "number": "1",
-        "title": "Adoption de l'ordre du jour"
-      },
-      {
-        "number": "2",
-        "title": "Adoption du procès-verbal N° 31 de la séance du 29 octobre 2025"
-      },
-      {
-        "number": "3",
-        "title": "Communications du bureau du Conseil communal"
-      },
-      {
-        "number": "4",
-        "title": "Assermentations"
-      },
-      {
-        "number": "5",
-        "title": "Elections - Nominations"
-      },
-      {
-        "number": "6",
-        "title": "Information au Conseil communal par ses représentants au sein des organismes intercommunaux"
-      },
-      {
-        "number": "7",
-        "title": "Dépôt et développement des motions, postulats et interpellation"
-      },
-      {
-        "number": "8",
-        "title": "Réponses aux interpellations"
-      },
-      {
-        "number": "8.1",
-        "title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »"
-      },
-      {
-        "number": "9",
-        "title": "Préavis"
-      },
-      {
-        "number": "9.1",
-        "title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-dechaussée du corps de logis et d'un édicule de service sur l'esplanade"
-      },
-      {
-        "number": "10",
-        "title": "Rapports"
-      },
-      {
-        "number": "10.1",
-        "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
-      },
-      {
-        "number": "10.2",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve"
-      },
-      {
-        "number": "10.3",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)"
-      },
-      {
-        "number": "10.4",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera"
-      },
-      {
-        "number": "10.5",
-        "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz"
-      },
-      {
-        "number": "10.6",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne"
-      },
-      {
-        "number": "10.7",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32"
-      },
-      {
-        "number": "10.8",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs"
-      },
-      {
-        "number": "11",
-        "title": "Communications municipales"
-      },
-      {
-        "number": "11.1",
-        "title": "Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final"
-      },
-      {
-        "number": "11.2",
-        "title": "Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final"
-      },
-      {
-        "number": "11.3",
-        "title": "Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final"
-      },
-      {
-        "number": "11.4",
-        "title": "Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final"
-      },
-      {
-        "number": "11.5",
-        "title": "Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final"
-      },
-      {
-        "number": "12",
-        "title": "Questions, propositions individuelles et divers"
-      }
-    ],
-    "decisions": [
-      {
-        "agenda_item": "1",
-        "object": "Adoption de l'ordre du jour",
-        "decision_text": "Au vote, il est adopté à l'unanimité, tel qu'amendé.",
-        "vote_result": "unanimous",
-        "decision": "adopted"
-      },
-      {
-        "agenda_item": "2",
-        "object": "Adoption du procès-verbal N° 31 de la séance du 29 octobre 2025",
-        "decision_text": "Au vote, le procès-verbal N° 31 de la séance du 29 octobre 2025 est adopté à une large majorité (quatre abstentions), avec remerciements à la secrétaire.",
-        "vote_result": "large_majority",
-        "decision": "adopted"
-      },
-      {
-        "agenda_item": "9",
-        "object": "Préavis",
-        "decision_text": "Au vote, l'amendement de la commission est accepté à une large majorité (cinq abstentions).",
-        "vote_result": "large_majority",
-        "decision": "adopted"
-      }
-    ],
-    "political_objects_discussed": [
-      {
-        "agenda_item": "7",
-        "type": "interpellation",
-        "title": "Dépôt et développement des motions, postulats et interpellation"
-      },
-      {
-        "agenda_item": "8.1",
-        "type": "interpellation",
-        "title": "Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »"
-      },
-      {
-        "agenda_item": "9.1",
-        "type": "preavis",
-        "title": "Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-dechaussée du corps de logis et d'un édicule de service sur l'esplanade",
-        "number": "34/2025"
-      },
-      {
-        "agenda_item": "10.1",
-        "type": "postulat",
-        "title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »"
-      },
-      {
-        "agenda_item": "10.2",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
-        "number": "27/2025"
-      },
-      {
-        "agenda_item": "10.3",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
-        "number": "28/2025"
-      },
-      {
-        "agenda_item": "10.4",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera",
-        "number": "29/2025"
-      },
-      {
-        "agenda_item": "10.5",
-        "type": "preavis",
-        "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz",
-        "number": "30/2025"
-      },
-      {
-        "agenda_item": "10.6",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne",
-        "number": "31/2025"
-      },
-      {
-        "agenda_item": "10.7",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32",
-        "number": "32/2025"
-      },
-      {
-        "agenda_item": "10.8",
-        "type": "preavis",
-        "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs",
-        "number": "33/2025"
-      },
-      {
-        "agenda_item": "11.1",
-        "type": "communication",
-        "title": "Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final",
-        "number": "20/2025"
-      },
-      {
-        "agenda_item": "11.2",
-        "type": "communication",
-        "title": "Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final",
-        "number": "21/2025"
-      },
-      {
-        "agenda_item": "11.3",
-        "type": "communication",
-        "title": "Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final",
-        "number": "22/2025"
-      },
-      {
-        "agenda_item": "11.4",
-        "type": "communication",
-        "title": "Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final",
-        "number": "23/2025"
-      },
-      {
-        "agenda_item": "11.5",
-        "type": "communication",
-        "title": "Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final",
-        "number": "24/2025"
-      }
-    ],
-    "president": "Yvan Kraehenbuehl",
-    "secretary": "Carole Dind"
-  }
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2025",
+      "title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+      "object_title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+      "political_object_id": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+      "filename": "Postulat-Fontana-Bruit.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\postulats\\Postulat-Fontana-Bruit.txt",
+      "canonical_object": true,
+      "agenda_item_number": "10.1",
+      "link_title": "Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV)"
+    }
+  ],
+  "text": "COMMUNE DE LA-TOUR-DE-PEILZ\n\nLes membres du Conseil communal sont convoqués en séance publique le\n\nmercredi 10 décembre 2025 à 20:15 \n\nSalle des Remparts\n\nOrdre du jour\n\nAdoption de l'ordre du jour\n\nAdoption du procès-verbal N° 31 de la séance du 29 octobre 2025\n\nCommunications du bureau du Conseil communal\n\nAssermentations\n\nElections - Nominations\n\nInformation au Conseil communal par ses représentants au sein des organismes intercommunaux\n\nDépôt et développement des motions, postulats et interpellations\n\nRéponses aux interpellations\n8.1. Réponse municipale N° 3/2025 – Interpellation de Mme Véronique Ansermet (LV) « Modifications d'ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ? »\n\nPréavis\n9.1. Préavis municipal N° 34/2025 – Demande d'un crédit de construction de Fr. 8'900'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz, l'installation d'un restaurant au rez-de-chaussée du corps de logis et d'un édicule de service sur l'esplanade\n\nRapports\n10.1. Rapport de la commission chargée d'étudier la prise en considération du postulat de M. Pierre Fontana (LV) « Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble »\n10.2. Rapport de la commission chargée d'étudier le préavis municipal N° 27/2025 – Budget 2026 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve\n10.3. Rapport de la commission chargée d'étudier le préavis municipal N° 28/2025 – Budget 2026 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)\n10.4. Rapport de la commission chargée d'étudier le préavis municipal N° 29/2025 – Budget 2026 du Fonds culturel Riviera\n10.5. Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 30/2025 – Budget 2026 de la Commune de La Tour-de-Peilz\n10.6. Rapport de la commission chargée d'étudier le préavis municipal N° 31/2025 – Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude Montet Girard et d'une partie des avenues de Traménaz et du Clos-d'Aubonne\n10.7. Rapport de la commission chargée d'étudier le préavis municipal N° 32/2025 – Demande d'un crédit de Fr. 3'660'000.- pour le réaménagement, le remplacement des équipements d'éclairage public et la réfection de collecteurs aux chemins des Murs-Blancs et de Vassin, ainsi qu'à l'avenue de la Perrausaz du N° 2a au N° 32\n10.8. Rapport de la commission chargée d'étudier le préavis municipal N° 33/2025 – Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'aménagements extérieurs\n\nCommunications municipales\n11.1. Communication municipale N° 20/2025 – Préavis N° 3/2022 – Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et le renouvellement de la chaussée – Décompte final\n11.2. Communication municipale N° 21/2025 – Préavis N° 38/2024 – Demande d'un crédit de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet – Décompte final\n11.3. Communication municipale N° 22/2025 – Préavis N° 8/2020 – Demande d'un crédit de Fr. 4'210'000.- pour l'assainissement de la rue d'Entre-deux-Villes et la route de St-Maurice (Maladaire) ainsi que le remplacement des équipements d'éclairage public et la remise à niveaux des feux de signalisation – Décompte final\n11.4. Communication municipale N° 23/2025 – Préavis N° 19/2024 – Demande d'un crédit de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal – Décompte final\n11.5. Communication municipale N° 24/2025 – Préavis N° 26/2024 – Demande d'un crédit de Fr. 52'000.- pour l'aména-gement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle – Décompte final\n\nQuestions, propositions individuelles et divers\n\nLe Président : Yvan Krähenbühl\nLa Secrétaire : Carole Dind"
 }

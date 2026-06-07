@@ -2,51 +2,357 @@
   "commune": "La Tour-de-Peilz",
   "year": "2026",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2026-02-11",
   "filename": "2026-02-11-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=119",
   "session_date": "2026-02-11",
+  "document_date": "2026-02-11",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 10,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\ordres-du-jour\\2026-02-11-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2026",
-  "title": "2026-02-11-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "ltdpl",
-    "sige",
-    "ciehl",
-    "psdg",
-    "vls"
+  "agenda_items": [
+    {
+      "number": "5.1",
+      "item_number": "5.1",
+      "title": "Nomination d'un membre suppléant à la délégation variable du Conseil intercommunal du SIGE en remplacement de M. Marc Wüthrich (LTDPL)",
+      "raw_title": "Nomination d'un membre suppléant à la délégation variable du Conseil intercommunal du SIGE en remplacement de M. Marc Wüthrich (LTDPL)",
+      "object_type": null,
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "5.2",
+      "item_number": "5.2",
+      "title": "Nomination d'un membre à la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) en remplacement de Mme Myriam Michel (LV) Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "raw_title": "Nomination d'un membre à la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) en remplacement de Mme Myriam Michel (LV) Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Réponse municipale N° 1/2026 – Interpellation de M. Piero Negro (PSDG) intitulée « Pour une mobilité et des accès au bus accessible à Toutes et Tous »",
+      "raw_title": "Réponse municipale N° 1/2026 – Interpellation de M. Piero Negro (PSDG) intitulée « Pour une mobilité et des accès au bus accessible à Toutes et Tous »",
+      "object_type": "interpellation",
+      "object_number": "1/2026",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 1/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf",
+          "filename": "Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2026",
+            "filename": "Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-01-Interpellation-Negro-Arret-bus-Lhand.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-01-Interpellation-Negro-Arret-bus-Lhand.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-01-Interpellation-Negro-Arret-bus-Lhand.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2026",
+            "title": "Interpellation de M. Piero Negro (PSDG) + Réponse",
+            "object_title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous",
+            "political_object_id": "interpellation-2025-pour-une-mobilite-et-des-acces-au-bus-accessible-a-toutes-et-tous",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+            "filename": "Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Réponse municipale N° 1/2026"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2026",
+          "title": "Interpellation de M. Piero Negro (PSDG) + Réponse",
+          "object_title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous",
+          "political_object_id": "interpellation-2025-pour-une-mobilite-et-des-acces-au-bus-accessible-a-toutes-et-tous",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+          "filename": "Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Réponse municipale N° 1/2026"
+        }
+      ]
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Réponse municipale N° 2/2026 – Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) intitulée « Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ? »",
+      "raw_title": "Réponse municipale N° 2/2026 – Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) intitulée « Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ? »",
+      "object_type": "interpellation",
+      "object_number": "2/2026",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 2/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf",
+          "filename": "Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2026",
+            "filename": "Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-02-Interpellation-Heller-Hebergement-urgence.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-02-Interpellation-Heller-Hebergement-urgence.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Reponse-02-Interpellation-Heller-Hebergement-urgence.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2026",
+            "title": "Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) + Réponse",
+            "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?",
+            "political_object_id": "interpellation-2025-personne-ne-doit-dormir-dehors-quel-hebergement-d-urgence-pour-les-sans-abris-de-l-est-vau",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+            "filename": "Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.2",
+            "link_title": "Réponse municipale N° 2/2026"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2026",
+          "title": "Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) + Réponse",
+          "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?",
+          "political_object_id": "interpellation-2025-personne-ne-doit-dormir-dehors-quel-hebergement-d-urgence-pour-les-sans-abris-de-l-est-vau",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+          "filename": "Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.2",
+          "link_title": "Réponse municipale N° 2/2026"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 1/2026 – Rapport du bureau du Conseil communal – Fixation des indemnités aux membres du Conseil communal et du Bureau, à la secrétaire du Conseil et à l'huissier pour la législature 2026-2031",
+      "raw_title": "Préavis municipal N° 1/2026 – Rapport du bureau du Conseil communal – Fixation des indemnités aux membres du Conseil communal et du Bureau, à la secrétaire du Conseil et à l'huissier pour la législature 2026-2031",
+      "object_type": "preavis",
+      "object_number": "1/2026",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 1/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-01-Indemnites-Conseil-communal.pdf",
+          "filename": "Preavis-01-Indemnites-Conseil-communal.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2026",
+            "filename": "Preavis-01-Indemnites-Conseil-communal.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-01-Indemnites-Conseil-communal.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-01-Indemnites-Conseil-communal.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-01-Indemnites-Conseil-communal.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Préavis municipal N° 2/2026 – Création d'une servitude de passage public à pied reliant le chemin des Deux-Collines au chemin du Gregnolet au travers des parcelles Nos 559, 2796 et 2797",
+      "raw_title": "Préavis municipal N° 2/2026 – Création d'une servitude de passage public à pied reliant le chemin des Deux-Collines au chemin du Gregnolet au travers des parcelles Nos 559, 2796 et 2797",
+      "object_type": "preavis",
+      "object_number": "2/2026",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 2/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.pdf",
+          "filename": "Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2026",
+            "filename": "Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-02-Preavis-Servitude-Gregnolet-2-Collines.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Préavis municipal N° 3/2026 – Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N°21/2023",
+      "raw_title": "Préavis municipal N° 3/2026 – Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N°21/2023",
+      "object_type": "preavis",
+      "object_number": "3/2026",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 3/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-03-Campagne-Rossier.pdf",
+          "filename": "Preavis-03-Campagne-Rossier.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2026",
+            "filename": "Preavis-03-Campagne-Rossier.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-03-Campagne-Rossier.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-03-Campagne-Rossier.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\preavis-municipaux\\Preavis-03-Campagne-Rossier.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 1/2026 – État des motions et postulats en suspens au 31 décembre 2025",
+      "raw_title": "Communication municipale N° 1/2026 – État des motions et postulats en suspens au 31 décembre 2025",
+      "object_type": "motion",
+      "object_number": "1/2026",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 1/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2026/Comm01-Motions-postulats.pdf",
+          "filename": "Comm01-Motions-postulats.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2026",
+            "filename": "Comm01-Motions-postulats.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm01-Motions-postulats.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm01-Motions-postulats.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm01-Motions-postulats.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Communication municipale N° 2/2026 – Réseau de vélos en libre-service (VLS) – Riviera et Haut-Lac",
+      "raw_title": "Communication municipale N° 2/2026 – Réseau de vélos en libre-service (VLS) – Riviera et Haut-Lac",
+      "object_type": "communication_municipale",
+      "object_number": "2/2026",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 2/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2026/Comm02-Appel-offres-VLS.pdf",
+          "filename": "Comm02-Appel-offres-VLS.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2026",
+            "filename": "Comm02-Appel-offres-VLS.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm02-Appel-offres-VLS.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm02-Appel-offres-VLS.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm02-Appel-offres-VLS.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.3",
+      "item_number": "11.3",
+      "title": "Communication municipale N° 3/2026 – Plan de financement des investissements (diffusée ultérieurement)",
+      "raw_title": "Communication municipale N° 3/2026 – Plan de financement des investissements (diffusée ultérieurement)",
+      "object_type": "communication_municipale",
+      "object_number": "3/2026",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 3/2026",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2026/Comm03-Financement-investissements.pdf",
+          "filename": "Comm03-Financement-investissements.pdf",
+          "agenda_item_number": "11.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2026",
+            "filename": "Comm03-Financement-investissements.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm03-Financement-investissements.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm03-Financement-investissements.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\communications-municipales\\Comm03-Financement-investissements.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 2512,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 10,
+  "linked_canonical_objects": [
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2026",
+      "title": "Interpellation de M. Piero Negro (PSDG) + Réponse",
+      "object_title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous",
+      "political_object_id": "interpellation-2025-pour-une-mobilite-et-des-acces-au-bus-accessible-a-toutes-et-tous",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+      "filename": "Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Negro-Arret-bus-Lhand-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Réponse municipale N° 1/2026"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2026",
+      "title": "Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) + Réponse",
+      "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?",
+      "political_object_id": "interpellation-2025-personne-ne-doit-dormir-dehors-quel-hebergement-d-urgence-pour-les-sans-abris-de-l-est-vau",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+      "filename": "Interpellation-Heller-Hebergement-urgence-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\interpellations\\Interpellation-Heller-Hebergement-urgence-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.2",
+      "link_title": "Réponse municipale N° 2/2026"
+    }
+  ],
+  "linked_canonical_objects_count": 2,
   "session": {
-    "body": "Conseil communal",
-    "date": "2026-02-11",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2026-02-11",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 10,
     "linked_documents_count": 10,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 2
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2026\\ordres-du-jour\\2026-02-11-ordre-du-jour.txt"
 }

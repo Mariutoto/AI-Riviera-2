@@ -2,52 +2,1022 @@
   "commune": "La Tour-de-Peilz",
   "year": "2021",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2021-12-08",
   "filename": "2021-12-08-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=86",
   "session_date": "2021-12-08",
+  "document_date": "2021-12-08",
   "time": "20:15",
   "place": "Salle des Remparts\n\nPour le public, certificat COVID et port du masque obligatoires",
-  "linked_documents_count": 25,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\ordres-du-jour\\2021-12-08-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2021",
-  "title": "2021-12-08-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "affichage_politique",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "covid",
-    "psdg",
-    "ltdpl",
-    "plr",
-    "ciehl"
+  "agenda_items": [
+    {
+      "number": "6.1",
+      "item_number": "6.1",
+      "title": "Postulat de La Tour-de-Peilz Libre – Vote électronique au conseil communal",
+      "raw_title": "Postulat de La Tour-de-Peilz Libre – Vote électronique au conseil communal",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de La Tour-de-Peilz Libre",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-LTDPL-Vote-electronique-conseil.pdf",
+          "filename": "Postulat-LTDPL-Vote-electronique-conseil.pdf",
+          "agenda_item_number": "6.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2021",
+            "filename": "Postulat-LTDPL-Vote-electronique-conseil.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-LTDPL-Vote-electronique-conseil.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-LTDPL-Vote-electronique-conseil.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-LTDPL-Vote-electronique-conseil.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+            "object_title": "Vote électronique au conseil communal",
+            "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+            "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.1",
+            "link_title": "Postulat de La Tour-de-Peilz Libre"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+          "object_title": "Vote électronique au conseil communal",
+          "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.1",
+          "link_title": "Postulat de La Tour-de-Peilz Libre"
+        }
+      ]
+    },
+    {
+      "number": "6.2",
+      "item_number": "6.2",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) – Affichage politique et responsable, remettons le sujet sur la table",
+      "raw_title": "Postulat de M. Marc Wüthrich (LTDPL) – Affichage politique et responsable, remettons le sujet sur la table",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Marc Wüthrich (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+          "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+          "agenda_item_number": "6.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2021",
+            "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2021",
+            "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+            "object_title": "Affichage politique et responsable, remettons le sujet sur la table",
+            "political_object_id": "postulat-2021-affichage-politique-et-responsable-remettons-le-sujet-sur-la-table",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+            "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.2",
+            "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+          }
+        },
+        {
+          "title": "Postulat de M. Marc Wüthrich (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "agenda_item_number": "6.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2021",
+            "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2021",
+            "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+            "object_title": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+            "political_object_id": "postulat-2021-mettons-les-gaz-naturel-pour-une-nouvelle-ligne-de-bus-regionale-directe-blonay-la-tour-de",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+            "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.2",
+            "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2021",
+          "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "object_title": "Affichage politique et responsable, remettons le sujet sur la table",
+          "political_object_id": "postulat-2021-affichage-politique-et-responsable-remettons-le-sujet-sur-la-table",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+          "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.2",
+          "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+        },
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2021",
+          "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "object_title": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+          "political_object_id": "postulat-2021-mettons-les-gaz-naturel-pour-une-nouvelle-ligne-de-bus-regionale-directe-blonay-la-tour-de",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.2",
+          "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+        }
+      ]
+    },
+    {
+      "number": "6.3",
+      "item_number": "6.3",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) – Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+      "raw_title": "Postulat de M. Marc Wüthrich (LTDPL) – Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "6.4",
+      "item_number": "6.4",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) – Des casiers pour éviter des vols",
+      "raw_title": "Postulat de Mme Viviane Huber (LTDPL) – Des casiers pour éviter des vols",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de Mme Viviane Huber (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Huber-Casiers.pdf",
+          "filename": "Postulat-Huber-Casiers.pdf",
+          "agenda_item_number": "6.4",
+          "local_document": {
+            "category": "postulats",
+            "year": "2021",
+            "filename": "Postulat-Huber-Casiers.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Huber-Casiers.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Huber-Casiers.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Huber-Casiers.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+            "object_title": "Des casiers pour éviter des vols",
+            "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+            "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.4",
+            "link_title": "Postulat de Mme Viviane Huber (LTDPL)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+          "object_title": "Des casiers pour éviter des vols",
+          "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.4",
+          "link_title": "Postulat de Mme Viviane Huber (LTDPL)"
+        }
+      ]
+    },
+    {
+      "number": "6.5",
+      "item_number": "6.5",
+      "title": "Motion de M. Marc Wüthrich (LTDPL) – Adaptation du Règlement du conseil communal",
+      "raw_title": "Motion de M. Marc Wüthrich (LTDPL) – Adaptation du Règlement du conseil communal",
+      "object_type": "motion",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Motion de M. Marc Wüthrich (LTDPL)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "agenda_item_number": "6.5",
+          "local_document": {
+            "category": "motions",
+            "year": "2021",
+            "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf"
+          },
+          "canonical_object": {
+            "category": "motions",
+            "doc_type": "motions",
+            "year": "2021",
+            "title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+            "object_title": "Adaptation du Règlement du conseil communal",
+            "political_object_id": "motion-2021-adaptation-du-reglement-du-conseil-communal",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+            "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.5",
+            "link_title": "Motion de M. Marc Wüthrich (LTDPL)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "motions",
+          "doc_type": "motions",
+          "year": "2021",
+          "title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+          "object_title": "Adaptation du Règlement du conseil communal",
+          "political_object_id": "motion-2021-adaptation-du-reglement-du-conseil-communal",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.5",
+          "link_title": "Motion de M. Marc Wüthrich (LTDPL)"
+        }
+      ]
+    },
+    {
+      "number": "6.6",
+      "item_number": "6.6",
+      "title": "Postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "raw_title": "Postulat de M. Julien Neveu (LV) – Une déchèterie, pas un grand écopoint",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Julien Neveu (LV)",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Neveu-Decheterie.pdf",
+          "filename": "Postulat-Neveu-Decheterie.pdf",
+          "agenda_item_number": "6.6",
+          "local_document": {
+            "category": "postulats",
+            "year": "2021",
+            "filename": "Postulat-Neveu-Decheterie.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Neveu-Decheterie.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Neveu-Decheterie.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Neveu-Decheterie.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2022",
+            "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+            "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+            "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+            "canonical_object": true,
+            "agenda_item_number": "6.6",
+            "link_title": "Postulat de M. Julien Neveu (LV)"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2022",
+          "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+          "canonical_object": true,
+          "agenda_item_number": "6.6",
+          "link_title": "Postulat de M. Julien Neveu (LV)"
+        }
+      ]
+    },
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Réponse municipale N° 12bis/2021 – Interpellation du groupe PLR – Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+      "raw_title": "Réponse municipale N° 12bis/2021 – Interpellation du groupe PLR – Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+      "object_type": "interpellation",
+      "object_number": "12",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 12bis/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.pdf",
+          "filename": "Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2021",
+            "filename": "Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-12bis_2021-Interpellation-PLR-Costa-Cybersecurite-compl.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2021",
+            "title": "Interpellation du groupe PLR + réponses",
+            "object_title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+            "political_object_id": "interpellation-2021-quel-degre-de-preparation-de-la-commune-de-la-tour-de-peilz-face-aux-cyberattaques",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+            "filename": "Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Réponse municipale N° 12bis/2021"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2021",
+          "title": "Interpellation du groupe PLR + réponses",
+          "object_title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+          "political_object_id": "interpellation-2021-quel-degre-de-preparation-de-la-commune-de-la-tour-de-peilz-face-aux-cyberattaques",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+          "filename": "Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Réponse municipale N° 12bis/2021"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Réponse municipale N° 14/2021 – Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) – Mobbing – impunité ou réactivité ?",
+      "raw_title": "Réponse municipale N° 14/2021 – Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) – Mobbing – impunité ou réactivité ?",
+      "object_type": "interpellation",
+      "object_number": "14/2021",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 14/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf",
+          "filename": "Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2021",
+            "filename": "Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Reponse-14_2021-Interpellation-Schmidhauser-Wuthrich-Mobbing.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2021",
+            "title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+            "object_title": "Mobbing – impunité ou réactivité ?",
+            "political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+            "filename": "Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Réponse municipale N° 14/2021"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2021",
+          "title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+          "object_title": "Mobbing – impunité ou réactivité ?",
+          "political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+          "filename": "Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Réponse municipale N° 14/2021"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2021 – Budget 2022 de la CIEHL",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2021 – Budget 2022 de la CIEHL",
+      "object_type": "preavis",
+      "object_number": "20/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 20/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_20_2021-Budget-2022-CIEHL-Rapp.pdf",
+          "filename": "Preavis_20_2021-Budget-2022-CIEHL-Rapp.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_20_2021-Budget-2022-CIEHL-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_20_2021-Budget-2022-CIEHL-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_20_2021-Budget-2022-CIEHL-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_20_2021-Budget-2022-CIEHL-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2021 – Budget 2022 du Fonds culturel Riviera",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2021 – Budget 2022 du Fonds culturel Riviera",
+      "object_type": "preavis",
+      "object_number": "21/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 21/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_21_2021-Budget-2022-FCR-Rapp.pdf",
+          "filename": "Preavis_21_2021-Budget-2022-FCR-Rapp.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_21_2021-Budget-2022-FCR-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_21_2021-Budget-2022-FCR-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_21_2021-Budget-2022-FCR-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_21_2021-Budget-2022-FCR-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 22/2021 – Budget 2022 de la Commune de La Tour-de-Peilz",
+      "raw_title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 22/2021 – Budget 2022 de la Commune de La Tour-de-Peilz",
+      "object_type": "preavis",
+      "object_number": "22/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 22/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_22_2021-Budget_2022-rapp.pdf",
+          "filename": "Preavis_22_2021-Budget_2022-rapp.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_22_2021-Budget_2022-rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_22_2021-Budget_2022-rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_22_2021-Budget_2022-rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_22_2021-Budget_2022-rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Rapport de la commission chargée d'étudier le complément au préavis municipal N° 1/2021 – Cheminement piétonnier des rives du Lac « secteur Ouest » - Approbation des plans et adoption des propositions de réponses aux oppositions",
+      "raw_title": "Rapport de la commission chargée d'étudier le complément au préavis municipal N° 1/2021 – Cheminement piétonnier des rives du Lac « secteur Ouest » - Approbation des plans et adoption des propositions de réponses aux oppositions",
+      "object_type": "preavis",
+      "object_number": "1/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le complément au préavis municipal N° 1/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.pdf",
+          "filename": "Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_Compl-Preavis_01_2021-approb-plans-reponses-oppositions-Rives-lac-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.5",
+      "item_number": "9.5",
+      "title": "Rapport modifié de la Commission des finances chargée d'étudier le préavis municipal N° 18/2021 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 5'000'000.- par cas",
+      "raw_title": "Rapport modifié de la Commission des finances chargée d'étudier le préavis municipal N° 18/2021 – Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum de Fr. 5'000'000.- par cas",
+      "object_type": "preavis",
+      "object_number": "18/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport modifié de la Commission des finances chargée d'étudier le préavis municipal N° 18/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+          "filename": "Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+          "agenda_item_number": "9.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.6",
+      "item_number": "9.6",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 23/2021 – Modifications du Règlement sur la taxe communale spécifique pour l'encouragement aux énergies renouvelables du 1er décembre 2009 et réponses à la motion de M. Jean-Yves Schmidhauser (PS) « Vélo électrique : Pour que le courant passe enfin » ainsi qu'au postulat de M. Vincent Bonvin (LV) « Un pas de géant pour l'énergie solaire à La Tour-de-Peilz »",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 23/2021 – Modifications du Règlement sur la taxe communale spécifique pour l'encouragement aux énergies renouvelables du 1er décembre 2009 et réponses à la motion de M. Jean-Yves Schmidhauser (PS) « Vélo électrique : Pour que le courant passe enfin » ainsi qu'au postulat de M. Vincent Bonvin (LV) « Un pas de géant pour l'énergie solaire à La Tour-de-Peilz »",
+      "object_type": "preavis",
+      "object_number": "23/2021",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 23/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.pdf",
+          "filename": "Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.pdf",
+          "agenda_item_number": "9.6",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2021",
+            "filename": "Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\preavis-municipaux\\Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Communication municipale N° 23/2021 – Travaux de démolition des bâtiments ECA N° 1177, B162, B163 ainsi que de protection et consolidation de la grange et la démolition partielle du bâtiment ECA N° 1178 sur le domaine de Villard – Décompte final",
+      "raw_title": "Communication municipale N° 23/2021 – Travaux de démolition des bâtiments ECA N° 1177, B162, B163 ainsi que de protection et consolidation de la grange et la démolition partielle du bâtiment ECA N° 1178 sur le domaine de Villard – Décompte final",
+      "object_type": "communication_municipale",
+      "object_number": "23/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 23/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf",
+          "filename": "Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm23-Domaine-Villard-demolition-batiments-Decompte.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm23-Domaine-Villard-demolition-batiments-Decompte.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm23-Domaine-Villard-demolition-batiments-Decompte.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Communication municipale N° 24/2021 – Rénovation du Château – Marchés publics",
+      "raw_title": "Communication municipale N° 24/2021 – Rénovation du Château – Marchés publics",
+      "object_type": "communication_municipale",
+      "object_number": "24/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 24/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm24-Renovation-Marches_publics.pdf",
+          "filename": "Comm24-Renovation-Marches_publics.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm24-Renovation-Marches_publics.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm24-Renovation-Marches_publics.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm24-Renovation-Marches_publics.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm24-Renovation-Marches_publics.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Communication municipale N° 25/2021 – Rénovation du Château – Question de Monsieur le député Jérôme Christen",
+      "raw_title": "Communication municipale N° 25/2021 – Rénovation du Château – Question de Monsieur le député Jérôme Christen",
+      "object_type": "communication_municipale",
+      "object_number": "25/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 25/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm25-Question_Christen.pdf",
+          "filename": "Comm25-Question_Christen.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm25-Question_Christen.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm25-Question_Christen.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm25-Question_Christen.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm25-Question_Christen.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Communication municipale N° 26/2021 – Distribution des envois du Conseil communal par la société Vélocité",
+      "raw_title": "Communication municipale N° 26/2021 – Distribution des envois du Conseil communal par la société Vélocité",
+      "object_type": "communication_municipale",
+      "object_number": "26/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 26/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm26-Velocite-Distribution-envois-CC.pdf",
+          "filename": "Comm26-Velocite-Distribution-envois-CC.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm26-Velocite-Distribution-envois-CC.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm26-Velocite-Distribution-envois-CC.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm26-Velocite-Distribution-envois-CC.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm26-Velocite-Distribution-envois-CC.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.5",
+      "item_number": "10.5",
+      "title": "Communication municipale N° 27/2021 – Projet de construction d'un immeuble d'habitation à l'avenue de la Cressire 12 – Traitement d'une pétition",
+      "raw_title": "Communication municipale N° 27/2021 – Projet de construction d'un immeuble d'habitation à l'avenue de la Cressire 12 – Traitement d'une pétition",
+      "object_type": "communication_municipale",
+      "object_number": "27/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 27/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm27-Petition-Cressire.pdf",
+          "filename": "Comm27-Petition-Cressire.pdf",
+          "agenda_item_number": "10.5",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm27-Petition-Cressire.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm27-Petition-Cressire.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm27-Petition-Cressire.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm27-Petition-Cressire.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.6",
+      "item_number": "10.6",
+      "title": "Communication municipale N° 28/2021 – Information concernant le postulat de Mme Nicole Rivet (PS) « Pour la réalisation commune à Villeneuve, Veytaux, Montreux, La Tour-de-Peilz et Vevey d'une voie cycliste sûre continue et fluide le long du lac »",
+      "raw_title": "Communication municipale N° 28/2021 – Information concernant le postulat de Mme Nicole Rivet (PS) « Pour la réalisation commune à Villeneuve, Veytaux, Montreux, La Tour-de-Peilz et Vevey d'une voie cycliste sûre continue et fluide le long du lac »",
+      "object_type": "postulat",
+      "object_number": "28/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 28/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm28-Postulat-Rivet-Voie-cycliste.pdf",
+          "filename": "Comm28-Postulat-Rivet-Voie-cycliste.pdf",
+          "agenda_item_number": "10.6",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm28-Postulat-Rivet-Voie-cycliste.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm28-Postulat-Rivet-Voie-cycliste.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm28-Postulat-Rivet-Voie-cycliste.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm28-Postulat-Rivet-Voie-cycliste.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.7",
+      "item_number": "10.7",
+      "title": "Communication municipale N° 29/2021 – Question de M. Marc Wüthrich (LTDPL) – Horaires d'ouverture de la cave communale",
+      "raw_title": "Communication municipale N° 29/2021 – Question de M. Marc Wüthrich (LTDPL) – Horaires d'ouverture de la cave communale",
+      "object_type": "communication_municipale",
+      "object_number": "29/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 29/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm29-Question_Wuthrich-Cave_communale.pdf",
+          "filename": "Comm29-Question_Wuthrich-Cave_communale.pdf",
+          "agenda_item_number": "10.7",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm29-Question_Wuthrich-Cave_communale.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm29-Question_Wuthrich-Cave_communale.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm29-Question_Wuthrich-Cave_communale.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm29-Question_Wuthrich-Cave_communale.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.8",
+      "item_number": "10.8",
+      "title": "Communication municipale N° 30/2021 – Question de Mme Geneviève Pasche (LV) – Réponse à son postulat « Un plan climat pour répondre à l'urgence climatique »",
+      "raw_title": "Communication municipale N° 30/2021 – Question de Mme Geneviève Pasche (LV) – Réponse à son postulat « Un plan climat pour répondre à l'urgence climatique »",
+      "object_type": "postulat",
+      "object_number": "30/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 30/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm30-Question_Pasche-Postulat_climat.pdf",
+          "filename": "Comm30-Question_Pasche-Postulat_climat.pdf",
+          "agenda_item_number": "10.8",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm30-Question_Pasche-Postulat_climat.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm30-Question_Pasche-Postulat_climat.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm30-Question_Pasche-Postulat_climat.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm30-Question_Pasche-Postulat_climat.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.9",
+      "item_number": "10.9",
+      "title": "Communication municipale N° 31/2021 – Commission consultative d'urbanisme – Refonte et nouveaux membres",
+      "raw_title": "Communication municipale N° 31/2021 – Commission consultative d'urbanisme – Refonte et nouveaux membres",
+      "object_type": "communication_municipale",
+      "object_number": "31/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 31/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm31-Commission-urbanisme.pdf",
+          "filename": "Comm31-Commission-urbanisme.pdf",
+          "agenda_item_number": "10.9",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm31-Commission-urbanisme.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm31-Commission-urbanisme.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm31-Commission-urbanisme.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm31-Commission-urbanisme.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.10",
+      "item_number": "10.10",
+      "title": "Communication municipale N° 32/2021 – Réaménagement et sécurisation du chemin du Cèdre Propositions individuelles et divers.",
+      "raw_title": "Communication municipale N° 32/2021 – Réaménagement et sécurisation du chemin du Cèdre Propositions individuelles et divers.",
+      "object_type": "communication_municipale",
+      "object_number": "32/2021",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 32/2021",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2021/Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.pdf",
+          "filename": "Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.pdf",
+          "agenda_item_number": "10.10",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2021",
+            "filename": "Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\communications-municipales\\Comm32-Interpellation-Costanzo-Vitesse-chemin-cedre.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 4524,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 25,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+      "object_title": "Vote électronique au conseil communal",
+      "political_object_id": "postulat-2021-vote-electronique-au-conseil-communal",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+      "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-LTDPL-Vote-Electronique-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.1",
+      "link_title": "Postulat de La Tour-de-Peilz Libre"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2021",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+      "object_title": "Affichage politique et responsable, remettons le sujet sur la table",
+      "political_object_id": "postulat-2021-affichage-politique-et-responsable-remettons-le-sujet-sur-la-table",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+      "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Affichage-politique.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.2",
+      "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2021",
+      "title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+      "object_title": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+      "political_object_id": "postulat-2021-mettons-les-gaz-naturel-pour-une-nouvelle-ligne-de-bus-regionale-directe-blonay-la-tour-de",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+      "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\postulats\\Postulat-Wuthrich-Nouvelle-ligne-VMCV.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.2",
+      "link_title": "Postulat de M. Marc Wüthrich (LTDPL)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+      "object_title": "Des casiers pour éviter des vols",
+      "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+      "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Huber-Casiers-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.4",
+      "link_title": "Postulat de Mme Viviane Huber (LTDPL)"
+    },
+    {
+      "category": "motions",
+      "doc_type": "motions",
+      "year": "2021",
+      "title": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+      "object_title": "Adaptation du Règlement du conseil communal",
+      "political_object_id": "motion-2021-adaptation-du-reglement-du-conseil-communal",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+      "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\motions\\Motion-Wuthrich-Adaptation-Reglement-Cofin.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.5",
+      "link_title": "Motion de M. Marc Wüthrich (LTDPL)"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2022",
+      "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+      "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+      "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\postulats\\Postulat-Neveu-Decheterie-Rapp-Dec.txt",
+      "canonical_object": true,
+      "agenda_item_number": "6.6",
+      "link_title": "Postulat de M. Julien Neveu (LV)"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2021",
+      "title": "Interpellation du groupe PLR + réponses",
+      "object_title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+      "political_object_id": "interpellation-2021-quel-degre-de-preparation-de-la-commune-de-la-tour-de-peilz-face-aux-cyberattaques",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+      "filename": "Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Réponse municipale N° 12bis/2021"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2021",
+      "title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+      "object_title": "Mobbing – impunité ou réactivité ?",
+      "political_object_id": "interpellation-2021-mobbing-impunite-ou-reactivite",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+      "filename": "Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\interpellations\\Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Réponse municipale N° 14/2021"
+    }
+  ],
+  "linked_canonical_objects_count": 8,
   "session": {
-    "body": "Conseil communal",
-    "date": "2021-12-08",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2021-12-08",
+    "time": "20:15",
+    "place": "Salle des Remparts\n\nPour le public, certificat COVID et port du masque obligatoires",
+    "agenda_items_count": 24,
     "linked_documents_count": 25,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 8
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "motion",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2021\\ordres-du-jour\\2021-12-08-ordre-du-jour.txt"
 }

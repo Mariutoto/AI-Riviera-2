@@ -2,52 +2,654 @@
   "commune": "La Tour-de-Peilz",
   "year": "2024",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2024-03-20",
   "filename": "2024-03-20-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=102",
   "session_date": "2024-03-20",
+  "document_date": "2024-03-20",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 18,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\ordres-du-jour\\2024-03-20-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2024",
-  "title": "2024-03-20-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "sige",
-    "ltdpl",
-    "plr",
-    "psdg",
-    "cits",
-    "corat"
+  "agenda_items": [
+    {
+      "number": "7.1",
+      "item_number": "7.1",
+      "title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »",
+      "raw_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "agenda_item_number": "7.1",
+          "local_document": {
+            "category": "postulats",
+            "year": "2024",
+            "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2024",
+            "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+            "object_title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+            "political_object_id": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+            "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.1",
+            "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2024",
+          "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "object_title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+          "political_object_id": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.1",
+          "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »"
+        }
+      ]
+    },
+    {
+      "number": "7.2",
+      "item_number": "7.2",
+      "title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »",
+      "raw_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »",
+      "object_type": "postulat",
+      "object_number": null,
+      "linked_documents": [
+        {
+          "title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "agenda_item_number": "7.2",
+          "local_document": {
+            "category": "postulats",
+            "year": "2024",
+            "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.pdf"
+          },
+          "canonical_object": {
+            "category": "postulats",
+            "doc_type": "postulats",
+            "year": "2024",
+            "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+            "object_title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+            "political_object_id": "postulat-2024-vers-une-dynamisation-estivale-elargissons-les-opportunites-de-jobs-d-ete-pour-les-jeunes",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+            "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.txt",
+            "canonical_object": true,
+            "agenda_item_number": "7.2",
+            "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "postulats",
+          "doc_type": "postulats",
+          "year": "2024",
+          "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "object_title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+          "political_object_id": "postulat-2024-vers-une-dynamisation-estivale-elargissons-les-opportunites-de-jobs-d-ete-pour-les-jeunes",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.txt",
+          "canonical_object": true,
+          "agenda_item_number": "7.2",
+          "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »"
+        }
+      ]
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Réponse municipale N° 2/2024 – Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? »",
+      "raw_title": "Réponse municipale N° 2/2024 – Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? »",
+      "object_type": "interpellation",
+      "object_number": "2/2024",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 2/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Reponse-02-Interpellation-Grutta-Stationnement.pdf",
+          "filename": "Reponse-02-Interpellation-Grutta-Stationnement.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2024",
+            "filename": "Reponse-02-Interpellation-Grutta-Stationnement.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-02-Interpellation-Grutta-Stationnement.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-02-Interpellation-Grutta-Stationnement.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Reponse-02-Interpellation-Grutta-Stationnement.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2022",
+            "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+            "object_title": "Mieux vaut tard que jamais !",
+            "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+            "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Réponse municipale N° 2/2024"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2022",
+          "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+          "object_title": "Mieux vaut tard que jamais !",
+          "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+          "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Réponse municipale N° 2/2024"
+        }
+      ]
+    },
+    {
+      "number": "8.2",
+      "item_number": "8.2",
+      "title": "Réponse municipale N° 3/2024 – Interpellation de M. Jean-Etienne Holzeisen (LTDPL) « Moteur de recherche politique – Un outil qui cherche et qui trouve ? »",
+      "raw_title": "Réponse municipale N° 3/2024 – Interpellation de M. Jean-Etienne Holzeisen (LTDPL) « Moteur de recherche politique – Un outil qui cherche et qui trouve ? »",
+      "object_type": "interpellation",
+      "object_number": "3/2024",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 3/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Holzeisen-Site_internet-Rep.pdf",
+          "filename": "Interpellation-Holzeisen-Site_internet-Rep.pdf",
+          "agenda_item_number": "8.2",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2024",
+            "filename": "Interpellation-Holzeisen-Site_internet-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2024",
+            "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + Réponse",
+            "object_title": "Moteur de recherche politique – Un outil qui cherche et qui trouve ?",
+            "political_object_id": "interpellation-2024-moteur-de-recherche-politique-un-outil-qui-cherche-et-qui-trouve",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Holzeisen-Site_internet-Rep.pdf",
+            "filename": "Interpellation-Holzeisen-Site_internet-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.2",
+            "link_title": "Réponse municipale N° 3/2024"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2024",
+          "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + Réponse",
+          "object_title": "Moteur de recherche politique – Un outil qui cherche et qui trouve ?",
+          "political_object_id": "interpellation-2024-moteur-de-recherche-politique-un-outil-qui-cherche-et-qui-trouve",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Holzeisen-Site_internet-Rep.pdf",
+          "filename": "Interpellation-Holzeisen-Site_internet-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.2",
+          "link_title": "Réponse municipale N° 3/2024"
+        }
+      ]
+    },
+    {
+      "number": "8.3",
+      "item_number": "8.3",
+      "title": "Réponse municipale N° 4/2024 – Interpellation de Mme Geneviève Pasche & consorts « Une maison de la Sécurité, à TOUT prix ? »",
+      "raw_title": "Réponse municipale N° 4/2024 – Interpellation de Mme Geneviève Pasche & consorts « Une maison de la Sécurité, à TOUT prix ? »",
+      "object_type": "interpellation",
+      "object_number": "4/2024",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 4/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+          "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+          "agenda_item_number": "8.3",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2024",
+            "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2024",
+            "title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
+            "object_title": "Une maison de la Sécurité, à TOUT prix ?",
+            "political_object_id": "interpellation-2024-une-maison-de-la-securite-a-tout-prix",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+            "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.3",
+            "link_title": "Réponse municipale N° 4/2024"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2024",
+          "title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
+          "object_title": "Une maison de la Sécurité, à TOUT prix ?",
+          "political_object_id": "interpellation-2024-une-maison-de-la-securite-a-tout-prix",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+          "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.3",
+          "link_title": "Réponse municipale N° 4/2024"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 4/2024 – Demande d'un crédit de Fr. 215'000.- pour le réaménagement du boulevard d'Arcangier",
+      "raw_title": "Préavis municipal N° 4/2024 – Demande d'un crédit de Fr. 215'000.- pour le réaménagement du boulevard d'Arcangier",
+      "object_type": "preavis",
+      "object_number": "4/2024",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 4/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-04-Reamenagement-Arcangier.pdf",
+          "filename": "Preavis-04-Reamenagement-Arcangier.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-04-Reamenagement-Arcangier.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-04-Reamenagement-Arcangier.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-04-Reamenagement-Arcangier.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-04-Reamenagement-Arcangier.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.2",
+      "item_number": "9.2",
+      "title": "Préavis municipal N° 5/2024 – Fixation des indemnités de la secrétaire du Conseil communal pour le reste de la législature 2021-2026",
+      "raw_title": "Préavis municipal N° 5/2024 – Fixation des indemnités de la secrétaire du Conseil communal pour le reste de la législature 2021-2026",
+      "object_type": "preavis",
+      "object_number": "5/2024",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 5/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-05-Indemnites-secretaire-CC.pdf",
+          "filename": "Preavis-05-Indemnites-secretaire-CC.pdf",
+          "agenda_item_number": "9.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-05-Indemnites-secretaire-CC.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-05-Indemnites-secretaire-CC.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-05-Indemnites-secretaire-CC.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-05-Indemnites-secretaire-CC.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.3",
+      "item_number": "9.3",
+      "title": "Préavis municipal N° 6/2024 – Réponse à la motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château un programme pour toutes et tous",
+      "raw_title": "Préavis municipal N° 6/2024 – Réponse à la motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château un programme pour toutes et tous",
+      "object_type": "preavis",
+      "object_number": "6/2024",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 6/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.pdf",
+          "filename": "Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.pdf",
+          "agenda_item_number": "9.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-06-Reponse-Motion-Pasche-Balestra-Chateau.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.4",
+      "item_number": "9.4",
+      "title": "Préavis municipal N° 7/2024 – Réponse au postulat de M. Niklas Tiemann (LV) et consorts - Pour des subventions mobilité répandues et efficaces",
+      "raw_title": "Préavis municipal N° 7/2024 – Réponse au postulat de M. Niklas Tiemann (LV) et consorts - Pour des subventions mobilité répandues et efficaces",
+      "object_type": "preavis",
+      "object_number": "7/2024",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 7/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.pdf",
+          "filename": "Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.pdf",
+          "agenda_item_number": "9.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-07-Reponse-Postulat-Tiemann-N-Subventions-mobilite-FEDD.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "9.5",
+      "item_number": "9.5",
+      "title": "Préavis municipal N° 8/2024 – Demande d'un crédit de Fr. 130'000.- pour l'étude du réaménagement de la place du Four et l'amélioration du quai et du jardin Roussy ainsi que la création d'un plan des plantations pour renouveler à court terme le patrimoine arboré du jardin Roussy",
+      "raw_title": "Préavis municipal N° 8/2024 – Demande d'un crédit de Fr. 130'000.- pour l'étude du réaménagement de la place du Four et l'amélioration du quai et du jardin Roussy ainsi que la création d'un plan des plantations pour renouveler à court terme le patrimoine arboré du jardin Roussy",
+      "object_type": "preavis",
+      "object_number": "8/2024",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 8/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-08-Etude-Place-Four.pdf",
+          "filename": "Preavis-08-Etude-Place-Four.pdf",
+          "agenda_item_number": "9.5",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-08-Etude-Place-Four.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-08-Etude-Place-Four.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-08-Etude-Place-Four.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-08-Etude-Place-Four.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Rapport de majorité et de minorité de la commission chargée d'étudier le préavis municipal N° 21/2023 – Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts « Quel avenir pour Campagne Rossier ? »",
+      "raw_title": "Rapport de majorité et de minorité de la commission chargée d'étudier le préavis municipal N° 21/2023 – Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts « Quel avenir pour Campagne Rossier ? »",
+      "object_type": "preavis",
+      "object_number": "21/2023",
+      "linked_documents": [
+        {
+          "title": "préavis municipal N° 21/2023",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.pdf",
+          "filename": "Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2023",
+            "filename": "Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\preavis-municipaux\\Preavis-21-Postulat-Schmidhauser-Campagne-Rossier.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 1/2024 – Budget 2024 de l'Entente intercommunale de la taxe de séjour et de la taxe sur les résidences secondaires Riviera – Villeneuve (CITS)",
+      "raw_title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 1/2024 – Budget 2024 de l'Entente intercommunale de la taxe de séjour et de la taxe sur les résidences secondaires Riviera – Villeneuve (CITS)",
+      "object_type": "preavis",
+      "object_number": "1/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission des finances chargée d'étudier le préavis municipal N° 1/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-01-Budget-2024-CITS-Rapp.pdf",
+          "filename": "Preavis-01-Budget-2024-CITS-Rapp.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-01-Budget-2024-CITS-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-01-Budget-2024-CITS-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-01-Budget-2024-CITS-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-01-Budget-2024-CITS-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2024 – Demande de crédit de construction de Fr. 142'000.- pour l'aménagement de vestiaires séparés hommes et femmes à Béranges 111",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2024 – Demande de crédit de construction de Fr. 142'000.- pour l'aménagement de vestiaires séparés hommes et femmes à Béranges 111",
+      "object_type": "preavis",
+      "object_number": "2/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-02-Vestaires-Beranges-Rapp.pdf",
+          "filename": "Preavis-02-Vestaires-Beranges-Rapp.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-02-Vestaires-Beranges-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-02-Vestaires-Beranges-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-02-Vestaires-Beranges-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-02-Vestaires-Beranges-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.4",
+      "item_number": "10.4",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2024 – Demande de crédit de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2024 – Demande de crédit de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires",
+      "object_type": "preavis",
+      "object_number": "3/2024",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-03-Mise-en-passe-Mousquetaires-Rapp.pdf",
+          "filename": "Preavis-03-Mise-en-passe-Mousquetaires-Rapp.pdf",
+          "agenda_item_number": "10.4",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2024",
+            "filename": "Preavis-03-Mise-en-passe-Mousquetaires-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-03-Mise-en-passe-Mousquetaires-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-03-Mise-en-passe-Mousquetaires-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\preavis-municipaux\\Preavis-03-Mise-en-passe-Mousquetaires-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 8/2024 – Projet solaire intercommunal « Group-IT Région Riviera » destiné aux propriétaires",
+      "raw_title": "Communication municipale N° 8/2024 – Projet solaire intercommunal « Group-IT Région Riviera » destiné aux propriétaires",
+      "object_type": "communication_municipale",
+      "object_number": "8/2024",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 8/2024",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2024/Comm08-Seance-information-solaire-Groupe-IT.pdf",
+          "filename": "Comm08-Seance-information-solaire-Groupe-IT.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2024",
+            "filename": "Comm08-Seance-information-solaire-Groupe-IT.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm08-Seance-information-solaire-Groupe-IT.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm08-Seance-information-solaire-Groupe-IT.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\communications-municipales\\Comm08-Seance-information-solaire-Groupe-IT.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 3512,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 18,
+  "linked_canonical_objects": [
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2024",
+      "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+      "object_title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+      "political_object_id": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+      "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Formations-CC.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.1",
+      "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »"
+    },
+    {
+      "category": "postulats",
+      "doc_type": "postulats",
+      "year": "2024",
+      "title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+      "object_title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "political_object_id": "postulat-2024-vers-une-dynamisation-estivale-elargissons-les-opportunites-de-jobs-d-ete-pour-les-jeunes",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+      "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\postulats\\Postulat-Boulben-Meyer-Jobs-ete.txt",
+      "canonical_object": true,
+      "agenda_item_number": "7.2",
+      "link_title": "Postulat de M. Yann Boulben Meyer (LTDPL) « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz »"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2022",
+      "title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+      "object_title": "Mieux vaut tard que jamais !",
+      "political_object_id": "interpellation-2022-mieux-vaut-tard-que-jamais",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+      "filename": "Interpellation-Grutta-Stationnement-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2022\\interpellations\\Interpellation-Grutta-Stationnement-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Réponse municipale N° 2/2024"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2024",
+      "title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + Réponse",
+      "object_title": "Moteur de recherche politique – Un outil qui cherche et qui trouve ?",
+      "political_object_id": "interpellation-2024-moteur-de-recherche-politique-un-outil-qui-cherche-et-qui-trouve",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Holzeisen-Site_internet-Rep.pdf",
+      "filename": "Interpellation-Holzeisen-Site_internet-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Holzeisen-Site_internet-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.2",
+      "link_title": "Réponse municipale N° 3/2024"
+    },
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2024",
+      "title": "Interpellation de Mme Geneviève Pasche & consorts + Réponse",
+      "object_title": "Une maison de la Sécurité, à TOUT prix ?",
+      "political_object_id": "interpellation-2024-une-maison-de-la-securite-a-tout-prix",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+      "filename": "Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\interpellations\\Interpellation-Pasche-et-consorts-ASR-maison-securite-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.3",
+      "link_title": "Réponse municipale N° 4/2024"
+    }
+  ],
+  "linked_canonical_objects_count": 5,
   "session": {
-    "body": "Conseil communal",
-    "date": "2024-03-20",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2024-03-20",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 15,
     "linked_documents_count": 18,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 5
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "ordre_du_jour",
+    "postulat",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\ordres-du-jour\\2024-03-20-ordre-du-jour.txt"
 }

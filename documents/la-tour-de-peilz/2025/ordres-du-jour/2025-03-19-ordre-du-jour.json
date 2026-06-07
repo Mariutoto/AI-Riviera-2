@@ -2,52 +2,301 @@
   "commune": "La Tour-de-Peilz",
   "year": "2025",
   "category": "ordres-du-jour",
+  "doc_type": "ordres-du-jour",
+  "content_kind": "session_agenda",
+  "title": "Ordre du jour du Conseil communal du 2025-03-19",
   "filename": "2025-03-19-ordre-du-jour.txt",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=109",
   "session_date": "2025-03-19",
+  "document_date": "2025-03-19",
   "time": "20:15",
   "place": "Maison Hugonin, Salle du Conseil communal",
-  "linked_documents_count": 11,
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-03-19-ordre-du-jour.txt",
-  "metadata_version": "metadata-audit-v1",
-  "content_kind": "council_agenda",
-  "listing_year": "2025",
-  "title": "2025-03-19-ordre-du-jour.txt",
-  "legislature": "2021-2026",
-  "search_facets": [
-    "ordres_du_jour",
-    "ordre_du_jour",
-    "conseil_communal",
-    "seance",
-    "zone_30",
-    "ordre",
-    "jour",
-    "tour",
-    "peilz",
-    "srgza",
-    "plr",
-    "ltdpl",
-    "vmcv",
-    "corat"
+  "agenda_items": [
+    {
+      "number": "5.1",
+      "item_number": "5.1",
+      "title": "Commission pour l'étude du préavis portant sur l'adoption du volet stratégique de la Stratégie régionale de gestion des zones d'activités (SRGZA) Communication N° 4/2025 Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "raw_title": "Commission pour l'étude du préavis portant sur l'adoption du volet stratégique de la Stratégie régionale de gestion des zones d'activités (SRGZA) Communication N° 4/2025 Information au Conseil communal par ses représentants au sein des organismes intercommunaux Dépôt et développement des motions, postulats et interpellations",
+      "object_type": "preavis",
+      "object_number": "4/2025",
+      "linked_documents": [],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "8.1",
+      "item_number": "8.1",
+      "title": "Réponse municipale N° 1/2025 – Interpellation de M. Roger Urech (PLR) – Zone 50 ? Oui, dans une zone 30 km/h !",
+      "raw_title": "Réponse municipale N° 1/2025 – Interpellation de M. Roger Urech (PLR) – Zone 50 ? Oui, dans une zone 30 km/h !",
+      "object_type": "interpellation",
+      "object_number": "1/2025",
+      "linked_documents": [
+        {
+          "title": "Réponse municipale N° 1/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Reponse-01-Interpellation-Urech-Zone-30.pdf",
+          "filename": "Reponse-01-Interpellation-Urech-Zone-30.pdf",
+          "agenda_item_number": "8.1",
+          "local_document": {
+            "category": "interpellations",
+            "year": "2025",
+            "filename": "Reponse-01-Interpellation-Urech-Zone-30.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-01-Interpellation-Urech-Zone-30.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-01-Interpellation-Urech-Zone-30.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Reponse-01-Interpellation-Urech-Zone-30.pdf"
+          },
+          "canonical_object": {
+            "category": "interpellations",
+            "doc_type": "interpellations",
+            "year": "2025",
+            "title": "Interpellation de M. Roger Urech (PLR) + Réponse",
+            "object_title": "Zone 50 ? Oui, dans une zone 30 km/h",
+            "political_object_id": "interpellation-2025-zone-50-oui-dans-une-zone-30-km-h",
+            "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Urech-Zone-30-Rep.pdf",
+            "filename": "Interpellation-Urech-Zone-30-Rep.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.txt",
+            "canonical_object": true,
+            "agenda_item_number": "8.1",
+            "link_title": "Réponse municipale N° 1/2025"
+          }
+        }
+      ],
+      "linked_canonical_objects": [
+        {
+          "category": "interpellations",
+          "doc_type": "interpellations",
+          "year": "2025",
+          "title": "Interpellation de M. Roger Urech (PLR) + Réponse",
+          "object_title": "Zone 50 ? Oui, dans une zone 30 km/h",
+          "political_object_id": "interpellation-2025-zone-50-oui-dans-une-zone-30-km-h",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Urech-Zone-30-Rep.pdf",
+          "filename": "Interpellation-Urech-Zone-30-Rep.pdf",
+          "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.json",
+          "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.txt",
+          "canonical_object": true,
+          "agenda_item_number": "8.1",
+          "link_title": "Réponse municipale N° 1/2025"
+        }
+      ]
+    },
+    {
+      "number": "9.1",
+      "item_number": "9.1",
+      "title": "Préavis municipal N° 4/2025 – Réponse au postulat de Mme Viviane Huber (LTDPL) « Des casiers pour éviter des vols »",
+      "raw_title": "Préavis municipal N° 4/2025 – Réponse au postulat de Mme Viviane Huber (LTDPL) « Des casiers pour éviter des vols »",
+      "object_type": "preavis",
+      "object_number": "4/2025",
+      "linked_documents": [
+        {
+          "title": "Préavis municipal N° 4/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-04-Reponse-postulat-Huber-Casiers.pdf",
+          "filename": "Preavis-04-Reponse-postulat-Huber-Casiers.pdf",
+          "agenda_item_number": "9.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-04-Reponse-postulat-Huber-Casiers.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-04-Reponse-postulat-Huber-Casiers.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-04-Reponse-postulat-Huber-Casiers.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-04-Reponse-postulat-Huber-Casiers.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.1",
+      "item_number": "10.1",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2025 – Restructuration du réseau centre et ouest des VMCV",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2025 – Restructuration du réseau centre et ouest des VMCV",
+      "object_type": "preavis",
+      "object_number": "1/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 1/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-01-Reorganisation-VMCV-Rapp.pdf",
+          "filename": "Preavis-01-Reorganisation-VMCV-Rapp.pdf",
+          "agenda_item_number": "10.1",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-01-Reorganisation-VMCV-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-01-Reorganisation-VMCV-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.2",
+      "item_number": "10.2",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2025 – Demande de crédit extrabudgétaire de Fr. 187'000.- pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste de dessinateur architecte à 60 % au sein du Service domaines & bâtiments",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2025 – Demande de crédit extrabudgétaire de Fr. 187'000.- pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste de dessinateur architecte à 60 % au sein du Service domaines & bâtiments",
+      "object_type": "preavis",
+      "object_number": "2/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 2/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.pdf",
+          "filename": "Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.pdf",
+          "agenda_item_number": "10.2",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-02-Nouveaux-postes-SDOM-2025-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "10.3",
+      "item_number": "10.3",
+      "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2025 – Édiction d'un règlement communal sur la protection du patrimoine arboré",
+      "raw_title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2025 – Édiction d'un règlement communal sur la protection du patrimoine arboré",
+      "object_type": "preavis",
+      "object_number": "3/2025",
+      "linked_documents": [
+        {
+          "title": "Rapport de la commission chargée d'étudier le préavis municipal N° 3/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-03-Reglement-protection-arbres-Rapp.pdf",
+          "filename": "Preavis-03-Reglement-protection-arbres-Rapp.pdf",
+          "agenda_item_number": "10.3",
+          "local_document": {
+            "category": "preavis-municipaux",
+            "year": "2025",
+            "filename": "Preavis-03-Reglement-protection-arbres-Rapp.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres-Rapp.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres-Rapp.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\preavis-municipaux\\Preavis-03-Reglement-protection-arbres-Rapp.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.1",
+      "item_number": "11.1",
+      "title": "Communication municipale N° 3/2025 – Projet de modification du Règlement sur le stationnement déposé par M. Jean Etienne Holzeisen (LTDPL) – Délai de dépôt d'un préavis municipal",
+      "raw_title": "Communication municipale N° 3/2025 – Projet de modification du Règlement sur le stationnement déposé par M. Jean Etienne Holzeisen (LTDPL) – Délai de dépôt d'un préavis municipal",
+      "object_type": "preavis",
+      "object_number": "3/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 3/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm03-Modification-reglement-stationnement.pdf",
+          "filename": "Comm03-Modification-reglement-stationnement.pdf",
+          "agenda_item_number": "11.1",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm03-Modification-reglement-stationnement.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm03-Modification-reglement-stationnement.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm03-Modification-reglement-stationnement.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm03-Modification-reglement-stationnement.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.2",
+      "item_number": "11.2",
+      "title": "Communication municipale N° 4/2025 – Agglomération Rivelac – Stratégie régionale de gestion des zones d'activité (SRGZA) - Calendrier d'adoption par le Conseil communal",
+      "raw_title": "Communication municipale N° 4/2025 – Agglomération Rivelac – Stratégie régionale de gestion des zones d'activité (SRGZA) - Calendrier d'adoption par le Conseil communal",
+      "object_type": "communication_municipale",
+      "object_number": "4/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 4/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm04-SRGZA-Processus-adoption.pdf",
+          "filename": "Comm04-SRGZA-Processus-adoption.pdf",
+          "agenda_item_number": "11.2",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm04-SRGZA-Processus-adoption.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm04-SRGZA-Processus-adoption.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm04-SRGZA-Processus-adoption.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm04-SRGZA-Processus-adoption.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    },
+    {
+      "number": "11.3",
+      "item_number": "11.3",
+      "title": "Communication municipale N° 5/2025 – Collège Courbet – Dégât d'eau et inondation au sous-sol en 2022, poursuite des interventions",
+      "raw_title": "Communication municipale N° 5/2025 – Collège Courbet – Dégât d'eau et inondation au sous-sol en 2022, poursuite des interventions",
+      "object_type": "communication_municipale",
+      "object_number": "5/2025",
+      "linked_documents": [
+        {
+          "title": "Communication municipale N° 5/2025",
+          "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/communications-municipales/2025/Comm05-Courbet-inondation-suite.pdf",
+          "filename": "Comm05-Courbet-inondation-suite.pdf",
+          "agenda_item_number": "11.3",
+          "local_document": {
+            "category": "communications-municipales",
+            "year": "2025",
+            "filename": "Comm05-Courbet-inondation-suite.pdf",
+            "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm05-Courbet-inondation-suite.json",
+            "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm05-Courbet-inondation-suite.txt",
+            "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\communications-municipales\\Comm05-Courbet-inondation-suite.pdf"
+          },
+          "canonical_object": null
+        }
+      ],
+      "linked_canonical_objects": []
+    }
   ],
-  "text_extraction_status": {
-    "characters_extracted": 2365,
-    "text_available": true,
-    "needs_ocr": false
-  },
+  "linked_documents_count": 11,
+  "linked_canonical_objects": [
+    {
+      "category": "interpellations",
+      "doc_type": "interpellations",
+      "year": "2025",
+      "title": "Interpellation de M. Roger Urech (PLR) + Réponse",
+      "object_title": "Zone 50 ? Oui, dans une zone 30 km/h",
+      "political_object_id": "interpellation-2025-zone-50-oui-dans-une-zone-30-km-h",
+      "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Urech-Zone-30-Rep.pdf",
+      "filename": "Interpellation-Urech-Zone-30-Rep.pdf",
+      "metadata_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.json",
+      "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\interpellations\\Interpellation-Urech-Zone-30-Rep.txt",
+      "canonical_object": true,
+      "agenda_item_number": "8.1",
+      "link_title": "Réponse municipale N° 1/2025"
+    }
+  ],
+  "linked_canonical_objects_count": 1,
   "session": {
-    "body": "Conseil communal",
-    "date": "2025-03-19",
-    "legislature": "2021-2026",
-    "public_session": true
-  },
-  "linked_documents": {
+    "type": "conseil_communal_session",
+    "session_date": "2025-03-19",
+    "time": "20:15",
+    "place": "Maison Hugonin, Salle du Conseil communal",
+    "agenda_items_count": 9,
     "linked_documents_count": 11,
-    "contains_linked_documents": true,
-    "should_link_to_documents_table": true
+    "linked_canonical_objects_count": 1
   },
-  "agenda_structure": {
-    "contains_numbered_items": true,
-    "contains_political_objects": true
-  }
+  "search_facets": [
+    "communication-municipale",
+    "conseil_communal",
+    "interpellation",
+    "ordre_du_jour",
+    "preavis",
+    "session"
+  ],
+  "metadata_version": "metadata-audit-v2",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2025\\ordres-du-jour\\2025-03-19-ordre-du-jour.txt"
 }
