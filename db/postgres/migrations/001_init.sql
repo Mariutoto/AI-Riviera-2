@@ -13,7 +13,9 @@ BEGIN
             FROM cities c
             WHERE d.city_id = c.id AND COALESCE(d.city, '') = '';
         END IF;
-        UPDATE documents SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz');
+        UPDATE documents
+        SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz')
+        WHERE COALESCE(city, '') = '';
     END IF;
 
     IF to_regclass('public.document_chunks') IS NOT NULL THEN
@@ -27,7 +29,9 @@ BEGIN
             FROM cities c
             WHERE dc.city_id = c.id AND COALESCE(dc.city, '') = '';
         END IF;
-        UPDATE document_chunks SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz');
+        UPDATE document_chunks
+        SET city = COALESCE(NULLIF(city, ''), metadata->>'commune', 'La Tour-de-Peilz')
+        WHERE COALESCE(city, '') = '';
     END IF;
 
     IF to_regclass('public.financial_summary_tables') IS NOT NULL THEN
@@ -41,7 +45,9 @@ BEGIN
             FROM cities c
             WHERE fst.city_id = c.id AND COALESCE(fst.city, '') = '';
         END IF;
-        UPDATE financial_summary_tables SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz');
+        UPDATE financial_summary_tables
+        SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz')
+        WHERE COALESCE(city, '') = '';
     END IF;
 
     IF to_regclass('public.financial_account_lines') IS NOT NULL THEN
@@ -55,7 +61,9 @@ BEGIN
             FROM cities c
             WHERE fal.city_id = c.id AND COALESCE(fal.city, '') = '';
         END IF;
-        UPDATE financial_account_lines SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz');
+        UPDATE financial_account_lines
+        SET city = COALESCE(NULLIF(city, ''), 'La Tour-de-Peilz')
+        WHERE COALESCE(city, '') = '';
     END IF;
 END $$;
 
