@@ -3,47 +3,207 @@
   "type": "rapport_de_gestion",
   "document_type": "rapport_de_gestion_commission_reponse_municipalite",
   "year": "2024",
+  "management_year": "2024",
+  "period_start": "2024-01-01",
+  "period_end": "2024-12-31",
+  "fiscal_year": "2024",
   "category": "rapport-de-gestion",
   "legislature": "2021-2026",
-  "title": "2024 + Rapport de la commission de gestion + Réponse de la Municipalité",
+  "title": "Rapport de gestion 2024 + rapport de la commission de gestion + reponse de la Municipalite + decision",
+  "object_title": "Rapport de gestion 2024 de la Municipalite",
   "filename": "2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
   "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
   "source_page": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
-  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP-Rapp-Dec.txt",
-  "metadata_version": "metadata-audit-v1",
+  "source_collection": "rapport-comptes-budget",
+  "canonical_object": true,
+  "political_object_id": "rapport-gestion-2024",
+  "summary": "Rapport annuel de gestion de la Municipalite pour l'exercice 2024, avec rapport de la Commission de gestion, reponse de la Municipalite et decision du Conseil communal.",
+  "document_date": "2025-06-25",
+  "document_role": "combined_management_report_commission_response_decision",
+  "document_components": [
+    {
+      "role": "annual_management_report",
+      "issuing_body": "Municipalite"
+    },
+    {
+      "role": "commission_report",
+      "issuing_body": "Commission de gestion"
+    },
+    {
+      "role": "municipality_response",
+      "issuing_body": "Municipalite"
+    },
+    {
+      "role": "council_decision",
+      "issuing_body": "Conseil communal"
+    }
+  ],
+  "report_sections": [
+    {
+      "title": "CONSEIL COMMUNAL",
+      "facet": "conseil_communal"
+    },
+    {
+      "title": "VOTATIONS ET ÉLECTIONS",
+      "facet": "votations_et_elections"
+    },
+    {
+      "title": "MUNICIPALITÉ",
+      "facet": "municipalite"
+    },
+    {
+      "title": "ADMINISTRATION GÉNÉRALE",
+      "facet": "administration_generale"
+    },
+    {
+      "title": "FINANCES",
+      "facet": "finances"
+    },
+    {
+      "title": "DOMAINES ET BÂTIMENTS",
+      "facet": "domaines_et_batiments"
+    },
+    {
+      "title": "URBANISME ET TRAVAUX PUBLICS",
+      "facet": "urbanisme_et_travaux_publics"
+    },
+    {
+      "title": "FAMILLE, JEUNESSE, SPORT ET CULTURE",
+      "facet": "famille_jeunesse_sport_et_culture"
+    },
+    {
+      "title": "Conseiller école famille",
+      "facet": "conseiller_ecole_famille"
+    },
+    {
+      "title": "ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE",
+      "facet": "etablissement_primaire_et_secondaire"
+    }
+  ],
+  "contains_budget_data": true,
+  "contains_staffing_data": true,
+  "contains_investments": true,
+  "contains_commission_report": true,
+  "contains_municipal_response": true,
+  "contains_council_decision": true,
   "content_kind": "annual_management_report",
-  "listing_year": "2024",
+  "metadata_version": "metadata-audit-v2",
   "search_facets": [
+    "administration_generale",
+    "cogest",
+    "commission_de_gestion",
+    "conseil_communal",
+    "conseiller_ecole_famille",
+    "decision_conseil",
+    "domaines_et_batiments",
+    "etablissement_primaire_et_secondaire",
+    "famille_jeunesse_sport_et_culture",
+    "finances",
+    "gestion_municipale",
+    "municipalite",
+    "rapport_annuel",
     "rapport_de_gestion",
     "rapport_gestion",
-    "rapport_annuel",
-    "conseil_communal",
-    "rapport",
-    "commission",
-    "gestion",
-    "reponse",
-    "votations",
-    "administration",
-    "finances",
-    "domaines",
-    "urbanisme",
-    "travaux"
+    "reponse_municipalite",
+    "urbanisme_et_travaux_publics",
+    "votations_et_elections"
   ],
-  "text_extraction_status": {
-    "characters_extracted": 388679,
-    "text_available": true,
-    "needs_ocr": false
+  "political_object": {
+    "type": "rapport_de_gestion",
+    "object_type": "annual_management_report",
+    "object_id": "rapport-gestion-2024",
+    "object_title": "Rapport de gestion 2024 de la Municipalite",
+    "management_year": "2024",
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "commission_body": "Commission de gestion",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/rapport-comptes-budget.php",
+    "status_normalized": "approved",
+    "decision": {
+      "body": "Conseil communal",
+      "outcome": "approved_management_report",
+      "session_date": "2025-06-25",
+      "decision_date": "2025-06-25",
+      "vote": {
+        "unanimous": true,
+        "raw": "Ainsi adopte a l'unanimite."
+      },
+      "includes_municipality_discharge": true
+    }
   },
   "report": {
     "fiscal_year": "2024",
+    "management_year": "2024",
     "report_scope": "municipal_activity",
     "issuing_body": "Municipalite",
     "target_body": "Conseil communal",
     "large_document": true,
     "contains_table_of_contents": true,
     "contains_commission_report": true,
-    "contains_municipal_response": true
+    "contains_municipal_response": true,
+    "contains_council_decision": true
   },
-  "document_date": "2024-12-31"
+  "text_extraction_status": {
+    "characters_extracted": 388687,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "characters_extracted": 388687,
+  "commission": {
+    "members": [
+      {
+        "name": "Volker Tiemann",
+        "party": "PLR",
+        "role": "member"
+      },
+      {
+        "name": "Marisa Pralong",
+        "party": "PSDG",
+        "role": "member"
+      },
+      {
+        "name": "Emanuelle Jaques",
+        "party": "LV",
+        "role": "member"
+      },
+      {
+        "name": "Florian Abbet",
+        "party": "LV",
+        "role": "member"
+      },
+      {
+        "name": "Jean Wilfrid Fils-Aimé",
+        "party": "LCIVL",
+        "role": "member"
+      }
+    ],
+    "contains_observations": true,
+    "contains_wishes": false,
+    "meeting": {
+      "raw": "10 février 2025 à 19h30, afin d'obtenir les réponses à différentes questions relatives aux véhicules et aux aspects de",
+      "date": "2025-02-10"
+    },
+    "recommendation": {
+      "outcome": "approve_management_report",
+      "vote": {
+        "unanimous": true
+      }
+    },
+    "rapporteur": "Roger Urech, Président"
+  },
+  "decision": {
+    "body": "Conseil communal",
+    "outcome": "approved_management_report",
+    "session_date": "2025-06-25",
+    "decision_date": "2025-06-25",
+    "vote": {
+      "unanimous": true,
+      "raw": "Ainsi adopte a l'unanimite."
+    },
+    "includes_municipality_discharge": true
+  },
+  "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP-Rapp-Dec.txt"
 }

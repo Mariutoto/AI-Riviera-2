@@ -7,7 +7,7 @@
   "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=112",
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP.pdf",
   "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2024\\rapport-de-gestion\\2024-Rapport-de-gestion-LTDP.txt",
-  "metadata_version": "metadata-audit-v1",
+  "metadata_version": "metadata-audit-v2",
   "content_kind": "annual_management_report",
   "listing_year": "2024",
   "title": "2024-Rapport-de-gestion-LTDP.pdf",
@@ -29,7 +29,7 @@
     "publics"
   ],
   "text_extraction_status": {
-    "characters_extracted": 303579,
+    "characters_extracted": 302624,
     "text_available": true,
     "needs_ocr": false
   },
@@ -43,5 +43,46 @@
     "contains_commission_report": true,
     "contains_municipal_response": false
   },
-  "document_date": "2024-12-31"
+  "document_date": "2024-12-31",
+  "type": "rapport_de_gestion",
+  "document_type": "rapport_de_gestion",
+  "management_year": "2024",
+  "period_start": "2024-01-01",
+  "period_end": "2024-12-31",
+  "fiscal_year": "2024",
+  "object_title": "Rapport de gestion 2024 de la Municipalite",
+  "canonical_object": false,
+  "source_collection": "ordre-du-jour-linked-document",
+  "linked_to_session": true,
+  "document_role": "annual_management_report",
+  "document_components": [
+    {
+      "role": "annual_management_report",
+      "issuing_body": "Municipalite"
+    }
+  ],
+  "agenda_linked_document": {
+    "source_page": "https://www.la-tour-de-peilz.ch/politique/apercu_ordre-du-jour.php?id=112",
+    "role": "annual_management_report_linked_from_agenda"
+  },
+  "related_political_object_id": "rapport-gestion-2024",
+  "related_canonical_report": {
+    "political_object_id": "rapport-gestion-2024",
+    "title": "Rapport de gestion 2024 + rapport de la commission de gestion + reponse de la Municipalite + decision",
+    "object_title": "Rapport de gestion 2024 de la Municipalite",
+    "filename": "2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+    "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf"
+  },
+  "political_object": {
+    "type": "rapport_de_gestion",
+    "object_type": "annual_management_report_linked_document",
+    "object_id": "rapport-gestion-2024-linked-agenda",
+    "object_title": "Rapport de gestion 2024 de la Municipalite",
+    "management_year": "2024",
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "issuing_body": "Municipalite",
+    "target_body": "Conseil communal",
+    "canonical_object": false
+  }
 }
