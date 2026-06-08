@@ -217,6 +217,29 @@ CREATE INDEX IF NOT EXISTS idx_political_object_people_person_id ON political_ob
 CREATE INDEX IF NOT EXISTS idx_political_object_people_role ON political_object_people(role);
 CREATE INDEX IF NOT EXISTS idx_political_object_people_party ON political_object_people(party_at_time);
 
+CREATE TABLE IF NOT EXISTS political_object_documents (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    object_id TEXT NOT NULL REFERENCES political_objects(object_id) ON DELETE CASCADE,
+    document_id UUID REFERENCES documents(id) ON DELETE SET NULL,
+    relation_type TEXT NOT NULL DEFAULT '',
+    source_url TEXT NOT NULL DEFAULT '',
+    source_path TEXT NOT NULL DEFAULT '',
+    title TEXT NOT NULL DEFAULT '',
+    filename TEXT NOT NULL DEFAULT '',
+    document_date DATE,
+    order_index INTEGER NOT NULL DEFAULT 0,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (object_id, source_url, source_path, relation_type)
+);
+
+CREATE INDEX IF NOT EXISTS idx_political_object_documents_object_id ON political_object_documents(object_id);
+CREATE INDEX IF NOT EXISTS idx_political_object_documents_document_id ON political_object_documents(document_id);
+CREATE INDEX IF NOT EXISTS idx_political_object_documents_relation_type ON political_object_documents(relation_type);
+CREATE INDEX IF NOT EXISTS idx_political_object_documents_source_url ON political_object_documents(source_url);
+CREATE INDEX IF NOT EXISTS idx_political_object_documents_document_date ON political_object_documents(document_date);
+
 CREATE TABLE IF NOT EXISTS financial_summary_tables (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
