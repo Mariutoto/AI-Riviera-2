@@ -27,6 +27,40 @@ def normalize(text: str) -> str:
     return strip_accents(text).lower()
 
 
+def compact_spaces(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def postgres_rows(sql: str, params: tuple = ()) -> list[dict[str, Any]]:
+    try:
+        from app.postgres_store import _connect
+
+        with _connect() as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(sql, params)
+                return list(cursor.fetchall())
+    except Exception:
+        return []
+
+
+def structured_tables_ready() -> bool:
+    rows = postgres_rows(
+        """
+        SELECT to_regclass('public.people') AS people,
+               to_regclass('public.political_objects') AS political_objects,
+               to_regclass('public.political_object_people') AS political_object_people,
+               to_regclass('public.political_object_documents') AS political_object_documents
+        """
+    )
+    return bool(
+        rows
+        and rows[0].get("people")
+        and rows[0].get("political_objects")
+        and rows[0].get("political_object_people")
+        and rows[0].get("political_object_documents")
+    )
+
+
 @lru_cache(maxsize=1)
 def load_structured_data() -> dict:
     def read(name: str) -> list[dict]:
@@ -76,6 +110,368 @@ def requested_object_types(question: str) -> set[str]:
     if any(term in normalized for term in ["motion", "motions"]):
         requested.add("motion")
     return requested or set(DEPOSIT_TYPES)
+
+
+def object_type_label(object_type: str) -> str:
+    return {
+        "motion": "motion",
+        "postulat": "postulat",
+        "interpellation": "interpellation",
+    }.get(object_type, object_type)
+
+
+def source_markdown(source_url: str, label: str = "source") -> str:
+    if not source_url:
+        return ""
+    return f" [{label}]({source_url})"
+
+
+def format_date(value: Any) -> str:
+    return str(value)[:10] if value else ""
+
+
+def find_person_in_question(question: str) -> dict[str, Any] | None:
+    normalized_question = normalize(question)
+    rows = postgres_rows(
+        """
+        SELECT person_id, canonical_name, normalized_name, party_current, variants
+        FROM people
+        ORDER BY length(normalized_name) DESC
+        """
+    )
+    for row in rows:
+        names = [str(row.get("normalized_name") or "")]
+        names.extend(normalize(str(variant)) for variant in row.get("variants") or [])
+        for name in names:
+            name = compact_spaces(name)
+            if name and name in normalized_question:
+                return row
+    return None
+
+
+def sources_for_object_ids(object_ids: list[str], limit_per_object: int = 2) -> dict[str, list[dict[str, Any]]]:
+    if not object_ids:
+        return {}
+    rows = postgres_rows(
+        """
+        SELECT
+            pod.object_id,
+            pod.relation_type,
+            pod.source_url,
+            pod.filename,
+            pod.title,
+            pod.order_index,
+            d.source_url AS document_source_url,
+            d.title AS document_title
+        FROM political_object_documents pod
+        LEFT JOIN documents d ON d.id = pod.document_id
+        WHERE pod.object_id = ANY(%s)
+        ORDER BY
+            pod.object_id,
+            CASE WHEN pod.relation_type LIKE 'canonical%%' THEN 0 ELSE 1 END,
+            pod.order_index,
+            pod.relation_type
+        """,
+        (object_ids,),
+    )
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for row in rows:
+        grouped.setdefault(row["object_id"], [])
+        if len(grouped[row["object_id"]]) < limit_per_object:
+            grouped[row["object_id"]].append(row)
+    return grouped
+
+
+def object_source_suffix(object_id: str, sources_by_object: dict[str, list[dict[str, Any]]]) -> str:
+    sources = sources_by_object.get(object_id) or []
+    if not sources:
+        return ""
+    links = []
+    for index, source in enumerate(sources, start=1):
+        url = source.get("document_source_url") or source.get("source_url") or ""
+        label = "source canonique" if str(source.get("relation_type", "")).startswith("canonical") else "document lié"
+        if url:
+            links.append(f"[{label} {index}]({url})")
+    return f" ({', '.join(links)})" if links else ""
+
+
+def object_summary(row: dict[str, Any]) -> str:
+    parts = [object_type_label(str(row.get("object_type") or ""))]
+    if row.get("year"):
+        parts.append(str(row["year"]))
+    if row.get("status_stage"):
+        parts.append(str(row["status_stage"]))
+    if row.get("status_decision"):
+        parts.append(str(row["status_decision"]).replace("_", " "))
+    dates = []
+    if row.get("deposit_date"):
+        dates.append(f"dépôt {format_date(row['deposit_date'])}")
+    if row.get("decision_date"):
+        dates.append(f"décision {format_date(row['decision_date'])}")
+    if row.get("response_date"):
+        dates.append(f"réponse {format_date(row['response_date'])}")
+    if dates:
+        parts.append(", ".join(dates))
+    return "; ".join(part for part in parts if part)
+
+
+def wants_person_deposits(question: str) -> bool:
+    normalized = normalize(question)
+    return any(
+        term in normalized
+        for term in [
+            "qu a depose",
+            "qu a-t-il depose",
+            "qu a-t-elle depose",
+            "a depose",
+            "depose par",
+            "deposes par",
+            "objets deposes",
+        ]
+    )
+
+
+def answer_person_deposits_db(question: str) -> str | None:
+    if not wants_person_deposits(question):
+        return None
+    person = find_person_in_question(question)
+    if not person:
+        return None
+    object_types = requested_object_types(question)
+    year = extract_year(question)
+    params: list[Any] = [person["person_id"], sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND po.year = %s"
+        params.append(year)
+    rows = postgres_rows(
+        f"""
+        SELECT DISTINCT
+            po.object_id, po.object_type, po.year, po.object_title,
+            po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+            pop.role, pop.party_at_time
+        FROM political_object_people pop
+        JOIN political_objects po ON po.object_id = pop.object_id
+        WHERE pop.person_id = %s
+          AND po.object_type = ANY(%s)
+          {year_filter}
+        ORDER BY po.year DESC, po.deposit_date DESC NULLS LAST, po.object_title
+        """,
+        tuple(params),
+    )
+    if not rows:
+        return f"Je ne trouve aucun objet politique déposé par **{person['canonical_name']}** dans les tables structurées."
+
+    sources = sources_for_object_ids([row["object_id"] for row in rows])
+    lines = [
+        f"Dans la base structurée, **{person['canonical_name']}** est lié à **{len(rows)} objet(s)** comme auteur ou représentant.",
+        "",
+    ]
+    for index, row in enumerate(rows, start=1):
+        source_suffix = object_source_suffix(row["object_id"], sources)
+        lines.append(
+            f"{index}. **{row['object_title']}** - {object_summary(row)}"
+            f"; rôle `{row['role']}`; parti `{row['party_at_time']}`{source_suffix}"
+        )
+    return "\n".join(lines)
+
+
+def wants_coauthors(question: str) -> bool:
+    normalized = normalize(question)
+    return any(term in normalized for term in ["avec qui", "co auteur", "coauteur", "co-auteur", "depose avec", "souvent avec"])
+
+
+def answer_coauthors_db(question: str) -> str | None:
+    if not wants_coauthors(question):
+        return None
+    person = find_person_in_question(question)
+    if not person:
+        return None
+    object_types = requested_object_types(question)
+    rows = postgres_rows(
+        """
+        SELECT
+            p2.person_id,
+            p2.canonical_name,
+            p2.party_current,
+            COUNT(DISTINCT p2rel.object_id) AS count,
+            jsonb_agg(DISTINCT jsonb_build_object(
+                'object_id', po.object_id,
+                'object_type', po.object_type,
+                'year', po.year,
+                'title', po.object_title
+            )) AS objects
+        FROM political_object_people p1
+        JOIN political_object_people p2rel ON p2rel.object_id = p1.object_id
+        JOIN people p2 ON p2.person_id = p2rel.person_id
+        JOIN political_objects po ON po.object_id = p1.object_id
+        WHERE p1.person_id = %s
+          AND p2.person_id <> p1.person_id
+          AND po.object_type = ANY(%s)
+        GROUP BY p2.person_id, p2.canonical_name, p2.party_current
+        ORDER BY count DESC, p2.canonical_name
+        LIMIT 12
+        """,
+        (person["person_id"], sorted(object_types)),
+    )
+    if not rows:
+        return f"Je ne trouve pas de co-auteur récurrent avec **{person['canonical_name']}** dans les objets structurés."
+    lines = [f"Co-auteurs ou co-signataires trouvés avec **{person['canonical_name']}** :", ""]
+    for row in rows:
+        objects = row.get("objects") or []
+        examples = ", ".join(str(item.get("title", "")) for item in objects[:2])
+        detail = f" Exemple: {examples}." if examples else ""
+        lines.append(f"- **{row['canonical_name']}** ({row['party_current']}): **{row['count']}** objet(s).{detail}")
+    return "\n".join(lines)
+
+
+def wants_count_by_party(question: str) -> bool:
+    normalized = normalize(question)
+    return "par parti" in normalized and any(term in normalized for term in ["combien", "nombre", "compte", "repartition"])
+
+
+def answer_count_by_party_db(question: str) -> str | None:
+    if not wants_count_by_party(question):
+        return None
+    object_types = requested_object_types(question)
+    year = extract_year(question)
+    params: list[Any] = [sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND po.year = %s"
+        params.append(year)
+    rows = postgres_rows(
+        f"""
+        SELECT pop.party_at_time, COUNT(DISTINCT pop.object_id) AS count
+        FROM political_object_people pop
+        JOIN political_objects po ON po.object_id = pop.object_id
+        WHERE po.object_type = ANY(%s)
+          {year_filter}
+        GROUP BY pop.party_at_time
+        ORDER BY count DESC, pop.party_at_time
+        """,
+        tuple(params),
+    )
+    if not rows:
+        return None
+    type_text = ", ".join(sorted(object_types))
+    year_text = f" en **{year}**" if year else ""
+    total = sum(int(row["count"]) for row in rows)
+    lines = [f"Répartition par parti pour **{type_text}**{year_text}: **{total} lien(s) parti-objet**.", ""]
+    for row in rows:
+        lines.append(f"- **{row['party_at_time']}**: {row['count']}")
+    return "\n".join(lines)
+
+
+def status_filter_from_question(question: str) -> tuple[str, Any] | None:
+    normalized = normalize(question)
+    if any(term in normalized for term in ["ouvert", "ouvertes", "ouverts", "encore en cours", "pas final", "non final"]):
+        return "po.status_is_final = FALSE", None
+    if any(term in normalized for term in ["attente de reponse", "sans reponse", "awaiting response"]):
+        return "po.status_decision = 'awaiting_response'", None
+    if any(term in normalized for term in ["attente municipalite", "municipalite", "renvoye", "renvoyee"]):
+        return "po.status_stage = 'referred'", None
+    if any(term in normalized for term in ["decide", "decidee", "decides", "decision"]):
+        return "po.status_stage = 'decided'", None
+    if any(term in normalized for term in ["retire", "retiree"]):
+        return "po.status_decision = 'withdrawn'", None
+    if any(term in normalized for term in ["non soutenu", "pas soutenu"]):
+        return "po.status_decision = 'not_supported'", None
+    if any(term in normalized for term in ["reponse disponible", "avec reponse", "repondu", "repondue"]):
+        return "po.status_stage = 'answered'", None
+    return None
+
+
+def wants_objects_by_status(question: str) -> bool:
+    return status_filter_from_question(question) is not None and any(
+        term in normalize(question)
+        for term in ["quel", "quelle", "quels", "quelles", "liste", "combien", "motion", "postulat", "interpellation", "objet"]
+    )
+
+
+def answer_objects_by_status_db(question: str) -> str | None:
+    if not wants_objects_by_status(question):
+        return None
+    status_filter = status_filter_from_question(question)
+    if not status_filter:
+        return None
+    object_types = requested_object_types(question)
+    year = extract_year(question)
+    params: list[Any] = [sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND po.year = %s"
+        params.append(year)
+    rows = postgres_rows(
+        f"""
+        SELECT po.object_id, po.object_type, po.year, po.object_title,
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date
+        FROM political_objects po
+        WHERE po.object_type = ANY(%s)
+          AND {status_filter[0]}
+          {year_filter}
+        ORDER BY po.last_event_date DESC NULLS LAST, po.year DESC, po.object_title
+        LIMIT 30
+        """,
+        tuple(params),
+    )
+    if not rows:
+        return "Je ne trouve aucun objet correspondant dans les tables structurées."
+    sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+    lines = [f"Je trouve **{len(rows)} objet(s)** correspondant(s) dans la base structurée:", ""]
+    for index, row in enumerate(rows, start=1):
+        lines.append(f"{index}. **{row['object_title']}** - {object_summary(row)}{object_source_suffix(row['object_id'], sources)}")
+    return "\n".join(lines)
+
+
+def wants_objects_by_year_db(question: str) -> bool:
+    normalized = normalize(question)
+    return bool(extract_year(question)) and any(term in normalized for term in ["liste", "quels", "quelles", "combien", "objets", "deposes", "depose"])
+
+
+def answer_objects_by_year_db(question: str) -> str | None:
+    if not wants_objects_by_year_db(question):
+        return None
+    year = extract_year(question)
+    if not year:
+        return None
+    object_types = requested_object_types(question)
+    rows = postgres_rows(
+        """
+        SELECT po.object_id, po.object_type, po.year, po.object_title,
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date
+        FROM political_objects po
+        WHERE po.object_type = ANY(%s)
+          AND po.year = %s
+        ORDER BY po.deposit_date ASC NULLS LAST, po.object_type, po.object_title
+        LIMIT 60
+        """,
+        (sorted(object_types), year),
+    )
+    if not rows:
+        return None
+    counts = Counter(str(row["object_type"]) for row in rows)
+    sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+    lines = [
+        f"En **{year}**, je trouve **{len(rows)} objet(s)** dans les tables structurées: "
+        + ", ".join(f"{count} {object_type_label(object_type)}(s)" for object_type, count in sorted(counts.items())),
+        "",
+    ]
+    for index, row in enumerate(rows, start=1):
+        lines.append(f"{index}. **{row['object_title']}** - {object_summary(row)}{object_source_suffix(row['object_id'], sources)}")
+    return "\n".join(lines)
+
+
+def answer_database_first(question: str) -> str | None:
+    if not structured_tables_ready():
+        return None
+    return (
+        answer_person_deposits_db(question)
+        or answer_coauthors_db(question)
+        or answer_count_by_party_db(question)
+        or answer_objects_by_status_db(question)
+        or answer_objects_by_year_db(question)
+    )
 
 
 def wants_most_deposits(question: str) -> bool:
@@ -436,4 +832,9 @@ def answer_latest_deposits(question: str) -> str | None:
 
 
 def answer_structured_question(question: str) -> str | None:
-    return answer_most_deposits(question) or answer_deposits_by_year(question) or answer_latest_deposits(question)
+    return (
+        answer_database_first(question)
+        or answer_most_deposits(question)
+        or answer_deposits_by_year(question)
+        or answer_latest_deposits(question)
+    )
