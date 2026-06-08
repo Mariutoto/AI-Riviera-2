@@ -87,6 +87,8 @@ def relation_rows() -> list[dict[str, Any]]:
                         "contains_report": bool(document.get("contains_report")),
                         "contains_decision": bool(document.get("contains_decision")),
                         "contains_response": bool(document.get("contains_response")),
+                        "commission": document.get("commission") or {},
+                        "decision": document.get("decision") or {},
                         "canonical_source": "political_objects.documents",
                     },
                 }

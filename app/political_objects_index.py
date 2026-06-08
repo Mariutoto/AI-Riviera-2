@@ -181,6 +181,8 @@ def document_record(metadata: dict[str, Any], path: Path, document_id_by_source_
         "contains_report": bool(metadata.get("contains_report")),
         "contains_decision": bool(metadata.get("contains_decision")),
         "contains_response": bool(metadata.get("contains_response")),
+        "commission": metadata.get("commission") or {},
+        "decision": metadata.get("decision") or {},
     }
 
 
