@@ -10,6 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from app.answer import answer_from_sources
 from app.config import STORAGE_BACKEND
+from app.diagnostics import recent_diagnostics
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.ingest import build_index
 from app.opensearch_store import ready as opensearch_ready
@@ -47,6 +48,20 @@ with st.sidebar:
     doc_type_filter = st.text_input("Type de document", value="")
     date_from_filter = st.text_input("Date de début (YYYY-MM-DD)", value="")
     date_to_filter = st.text_input("Date de fin (YYYY-MM-DD)", value="")
+
+    st.header("Diagnostics")
+    if st.checkbox("Afficher les erreurs techniques", value=False):
+        diagnostics = recent_diagnostics()
+        if not diagnostics:
+            st.caption("Aucun incident DB/Search enregistrÃ© dans cette session.")
+        else:
+            for event in reversed(diagnostics[-10:]):
+                with st.expander(f"{event['time']} - {event['area']}"):
+                    st.write(event["message"])
+                    if event.get("error"):
+                        st.code(event["error"])
+                    if event.get("context"):
+                        st.json(event["context"])
 
 
 def current_filters() -> dict | None:

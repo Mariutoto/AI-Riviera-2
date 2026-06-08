@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from app.config import POSTGRES_SCHEMA_PATH, POSTGRES_URL
+from app.diagnostics import record_diagnostic
 from app.text_cleaning import strip_accents
 
 
@@ -160,7 +161,8 @@ def ready() -> bool:
                 cursor.execute("SELECT COUNT(*) AS count FROM document_chunks")
                 row = cursor.fetchone()
         return bool(row and row["count"] > 0)
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("postgres", "Postgres readiness check failed", exc)
         return False
 
 
@@ -316,8 +318,14 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
                 fts_rows = cursor.fetchall()
         if fts_rows:
             return _normalize_search_rows(fts_rows, searchable_tokens, query)[:limit]
-    except Exception:
-        pass
+    except Exception as exc:
+        record_diagnostic(
+            "postgres",
+            "Postgres full-text search failed; falling back to LIKE search",
+            exc,
+            filters=filters,
+            query=query[:300],
+        )
 
     like_where = []
     like_params: list[Any] = []
@@ -359,7 +367,14 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
             with connection.cursor() as cursor:
                 cursor.execute(sql, like_params)
                 rows = cursor.fetchall()
-    except Exception:
+    except Exception as exc:
+        record_diagnostic(
+            "postgres",
+            "Postgres LIKE search failed",
+            exc,
+            filters=filters,
+            query=query[:300],
+        )
         return []
 
     return _normalize_search_rows(rows, searchable_tokens, query)[:limit]

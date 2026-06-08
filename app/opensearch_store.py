@@ -5,6 +5,7 @@ from functools import lru_cache
 from typing import Any
 
 from app.config import EMBEDDING_DIMENSIONS, OPENSEARCH_INDEX, OPENSEARCH_MAPPING_PATH, OPENSEARCH_TIMEOUT, OPENSEARCH_URL
+from app.diagnostics import record_diagnostic
 
 
 _OPENSEARCH_UNAVAILABLE = False
@@ -21,7 +22,8 @@ def get_client():
             max_retries=0,
             retry_on_timeout=False,
         )
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch client creation failed", exc, url=OPENSEARCH_URL)
         return None
 
 
@@ -47,7 +49,8 @@ def ensure_index() -> bool:
 
         client.indices.create(index=OPENSEARCH_INDEX, body=load_index_body())
         return True
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch index ensure failed", exc, index=OPENSEARCH_INDEX)
         _OPENSEARCH_UNAVAILABLE = True
         return False
 
@@ -59,7 +62,8 @@ def ready() -> bool:
     client = get_client()
     try:
         return bool(client and client.ping() and ensure_index())
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch readiness check failed", exc, index=OPENSEARCH_INDEX)
         _OPENSEARCH_UNAVAILABLE = True
         return False
 
@@ -78,7 +82,8 @@ def delete_document(document_id: str) -> None:
             conflicts="proceed",
             request_timeout=OPENSEARCH_TIMEOUT,
         )
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch delete document failed", exc, document_id=document_id)
         return
 
 
@@ -95,7 +100,8 @@ def index_chunks(chunks: list[dict[str, Any]]) -> None:
         operations.append(chunk)
     try:
         client.bulk(body=operations, refresh=False, request_timeout=OPENSEARCH_TIMEOUT)
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch bulk index failed", exc, chunks=len(chunks), index=OPENSEARCH_INDEX)
         return
 
 

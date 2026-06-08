@@ -5,6 +5,7 @@ from functools import lru_cache
 from typing import Any
 
 from app.config import STRUCTURED_DATA_DIR
+from app.diagnostics import record_diagnostic
 from app.text_cleaning import strip_accents
 
 
@@ -31,7 +32,7 @@ def compact_spaces(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def postgres_rows(sql: str, params: tuple = ()) -> list[dict[str, Any]]:
+def postgres_rows(sql: str, params: tuple = (), operation: str = "structured_query") -> list[dict[str, Any]] | None:
     try:
         from app.postgres_store import _connect
 
@@ -39,8 +40,15 @@ def postgres_rows(sql: str, params: tuple = ()) -> list[dict[str, Any]]:
             with connection.cursor() as cursor:
                 cursor.execute(sql, params)
                 return list(cursor.fetchall())
-    except Exception:
-        return []
+    except Exception as exc:
+        record_diagnostic(
+            "structured",
+            "Structured SQL query failed",
+            exc,
+            operation=operation,
+            params=repr(params)[:500],
+        )
+        return None
 
 
 def structured_tables_ready() -> bool:
@@ -51,6 +59,8 @@ def structured_tables_ready() -> bool:
                to_regclass('public.political_object_people') AS political_object_people,
                to_regclass('public.political_object_documents') AS political_object_documents
         """
+        ,
+        operation="structured_tables_ready",
     )
     return bool(
         rows
@@ -137,8 +147,11 @@ def find_person_in_question(question: str) -> dict[str, Any] | None:
         SELECT person_id, canonical_name, normalized_name, party_current, variants
         FROM people
         ORDER BY length(normalized_name) DESC
-        """
+        """,
+        operation="find_person_in_question",
     )
+    if rows is None:
+        return None
     for row in rows:
         names = [str(row.get("normalized_name") or "")]
         names.extend(normalize(str(variant)) for variant in row.get("variants") or [])
@@ -173,7 +186,10 @@ def sources_for_object_ids(object_ids: list[str], limit_per_object: int = 2) -> 
             pod.relation_type
         """,
         (object_ids,),
+        operation="sources_for_object_ids",
     )
+    if rows is None:
+        return {}
     grouped: dict[str, list[dict[str, Any]]] = {}
     for row in rows:
         grouped.setdefault(row["object_id"], [])
@@ -258,7 +274,10 @@ def answer_person_deposits_db(question: str) -> str | None:
         ORDER BY po.year DESC, po.deposit_date DESC NULLS LAST, po.object_title
         """,
         tuple(params),
+        operation="answer_person_deposits",
     )
+    if rows is None:
+        return None
     if not rows:
         return f"Je ne trouve aucun objet politique déposé par **{person['canonical_name']}** dans les tables structurées."
 
@@ -313,7 +332,10 @@ def answer_coauthors_db(question: str) -> str | None:
         LIMIT 12
         """,
         (person["person_id"], sorted(object_types)),
+        operation="answer_coauthors",
     )
+    if rows is None:
+        return None
     if not rows:
         return f"Je ne trouve pas de co-auteur récurrent avec **{person['canonical_name']}** dans les objets structurés."
     lines = [f"Co-auteurs ou co-signataires trouvés avec **{person['canonical_name']}** :", ""]
@@ -351,7 +373,10 @@ def answer_count_by_party_db(question: str) -> str | None:
         ORDER BY count DESC, pop.party_at_time
         """,
         tuple(params),
+        operation="answer_count_by_party",
     )
+    if rows is None:
+        return None
     if not rows:
         return None
     type_text = ", ".join(sorted(object_types))
@@ -414,7 +439,10 @@ def answer_objects_by_status_db(question: str) -> str | None:
         LIMIT 30
         """,
         tuple(params),
+        operation="answer_objects_by_status",
     )
+    if rows is None:
+        return None
     if not rows:
         return "Je ne trouve aucun objet correspondant dans les tables structurées."
     sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
@@ -447,7 +475,10 @@ def answer_objects_by_year_db(question: str) -> str | None:
         LIMIT 60
         """,
         (sorted(object_types), year),
+        operation="answer_objects_by_year",
     )
+    if rows is None:
+        return None
     if not rows:
         return None
     counts = Counter(str(row["object_type"]) for row in rows)
@@ -545,7 +576,13 @@ def party_from_title(title: str) -> str | None:
 def search_deposit_documents_from_postgres(year: str, object_types: set[str]) -> list[dict[str, Any]]:
     try:
         from app.postgres_store import _connect
-    except Exception:
+    except Exception as exc:
+        record_diagnostic(
+            "structured",
+            "Structured legacy Postgres import failed",
+            exc,
+            operation="search_deposit_documents_import",
+        )
         return []
 
     rows = []
@@ -572,7 +609,15 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                         (year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
                     )
                     rows.extend(cursor.fetchall())
-    except Exception:
+    except Exception as exc:
+        record_diagnostic(
+            "structured",
+            "Structured legacy deposit document search failed",
+            exc,
+            operation="search_deposit_documents",
+            year=year,
+            object_types=sorted(object_types),
+        )
         return []
 
     deposits = []
