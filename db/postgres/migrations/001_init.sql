@@ -148,6 +148,28 @@ CREATE TABLE IF NOT EXISTS ingestion_logs (
 CREATE INDEX IF NOT EXISTS idx_ingestion_logs_run_id ON ingestion_logs(run_id);
 CREATE INDEX IF NOT EXISTS idx_ingestion_logs_level ON ingestion_logs(level);
 
+CREATE TABLE IF NOT EXISTS people (
+    person_id TEXT PRIMARY KEY,
+    city TEXT NOT NULL DEFAULT '',
+    canonical_name TEXT NOT NULL DEFAULT '',
+    normalized_name TEXT NOT NULL DEFAULT '',
+    party_current TEXT NOT NULL DEFAULT '',
+    parties JSONB NOT NULL DEFAULT '[]'::jsonb,
+    variants JSONB NOT NULL DEFAULT '[]'::jsonb,
+    roles JSONB NOT NULL DEFAULT '[]'::jsonb,
+    years JSONB NOT NULL DEFAULT '[]'::jsonb,
+    objects JSONB NOT NULL DEFAULT '[]'::jsonb,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_people_city ON people(city);
+CREATE INDEX IF NOT EXISTS idx_people_normalized_name ON people(normalized_name);
+CREATE INDEX IF NOT EXISTS idx_people_party_current ON people(party_current);
+CREATE INDEX IF NOT EXISTS idx_people_parties ON people USING GIN(parties);
+CREATE INDEX IF NOT EXISTS idx_people_objects ON people USING GIN(objects);
+
 CREATE TABLE IF NOT EXISTS financial_summary_tables (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
