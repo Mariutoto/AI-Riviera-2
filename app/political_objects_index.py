@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from app.config import DOCUMENTS_ROOT
-from app.people_index import display_name, is_person_name, normalize_name, person_key, slugify
+from app.people_index import display_name, is_person_name, normalize_name, person_key, slugify, split_person_names
 from app.postgres_store import _connect, ensure_schema
 from app.text_cleaning import clean_french_text, strip_accents
 
@@ -107,7 +107,7 @@ def infer_object_id(metadata: dict[str, Any], path: Path) -> str:
     return f"{object_type}-{year}-{slugify(object_title_from_metadata(metadata) or path.stem)}"
 
 
-def normalize_author(raw_author: Any) -> dict[str, Any] | None:
+def normalize_author(raw_author: Any) -> list[dict[str, Any]]:
     if isinstance(raw_author, dict):
         raw_name = str(raw_author.get("name") or "").strip()
         party = str(raw_author.get("party") or "").strip()
@@ -118,46 +118,49 @@ def normalize_author(raw_author: Any) -> dict[str, Any] | None:
         party = ""
         role = "author"
         civility = ""
-    if not raw_name or not is_person_name(raw_name):
-        return None
-    name = display_name(raw_name)
-    person_id = slugify(normalize_name(name))
-    if not person_id:
-        return None
-    return {
-        "person_id": person_id,
-        "name": name,
-        "normalized_name": normalize_name(name),
-        "party": party,
-        "role": role,
-        "civility": civility,
-        "alias_key": person_key(name),
-    }
+    authors = []
+    for split_name in split_person_names(raw_name):
+        if not split_name or not is_person_name(split_name):
+            continue
+        name = display_name(split_name)
+        person_id = slugify(normalize_name(name))
+        if not person_id:
+            continue
+        authors.append(
+            {
+                "person_id": person_id,
+                "name": name,
+                "normalized_name": normalize_name(name),
+                "party": party,
+                "role": role,
+                "civility": civility,
+                "alias_key": person_key(name),
+            }
+        )
+    return authors
 
 
 def merge_authors(accumulator: PoliticalObjectAccumulator, metadata: dict[str, Any]) -> None:
     for raw_author in metadata.get("authors") or []:
-        author = normalize_author(raw_author)
-        if not author:
-            continue
-        key = author["alias_key"]
-        existing = accumulator.authors.get(key)
-        if existing is None:
-            accumulator.authors[key] = {
-                "person_id": author["person_id"],
-                "name": author["name"],
-                "normalized_name": author["normalized_name"],
-                "parties": [],
-                "roles": [],
-                "variants": [],
-            }
-            existing = accumulator.authors[key]
-        if author["party"] and author["party"] not in existing["parties"]:
-            existing["parties"].append(author["party"])
-        if author["role"] and author["role"] not in existing["roles"]:
-            existing["roles"].append(author["role"])
-        if author["name"] and author["name"] not in existing["variants"]:
-            existing["variants"].append(author["name"])
+        for author in normalize_author(raw_author):
+            key = author["alias_key"]
+            existing = accumulator.authors.get(key)
+            if existing is None:
+                accumulator.authors[key] = {
+                    "person_id": author["person_id"],
+                    "name": author["name"],
+                    "normalized_name": author["normalized_name"],
+                    "parties": [],
+                    "roles": [],
+                    "variants": [],
+                }
+                existing = accumulator.authors[key]
+            if author["party"] and author["party"] not in existing["parties"]:
+                existing["parties"].append(author["party"])
+            if author["role"] and author["role"] not in existing["roles"]:
+                existing["roles"].append(author["role"])
+            if author["name"] and author["name"] not in existing["variants"]:
+                existing["variants"].append(author["name"])
 
 
 def document_record(metadata: dict[str, Any], path: Path, document_id_by_source_url: dict[str, str]) -> dict[str, Any]:
@@ -316,18 +319,15 @@ def build_political_objects(documents_root: Path = DOCUMENTS_ROOT) -> dict[str, 
 def political_object_rows(objects: dict[str, PoliticalObjectAccumulator]) -> list[dict[str, Any]]:
     rows = []
     for item in sorted(objects.values(), key=lambda value: (value.year, value.object_type, value.object_title)):
-        authors = sorted(
-            (
-                {
-                    **author,
-                    "parties": sorted(author.get("parties") or []),
-                    "roles": sorted(author.get("roles") or []),
-                    "variants": sorted(author.get("variants") or []),
-                }
-                for author in item.authors.values()
-            ),
-            key=lambda author: author.get("name", ""),
-        )
+        authors = [
+            {
+                **author,
+                "parties": sorted(author.get("parties") or []),
+                "roles": sorted(author.get("roles") or []),
+                "variants": sorted(author.get("variants") or []),
+            }
+            for author in item.authors.values()
+        ]
         documents = sorted(
             item.documents.values(),
             key=lambda document: (

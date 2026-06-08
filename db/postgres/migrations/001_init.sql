@@ -199,6 +199,24 @@ CREATE INDEX IF NOT EXISTS idx_political_objects_status ON political_objects(sta
 CREATE INDEX IF NOT EXISTS idx_political_objects_authors ON political_objects USING GIN(authors);
 CREATE INDEX IF NOT EXISTS idx_political_objects_documents ON political_objects USING GIN(documents);
 
+CREATE TABLE IF NOT EXISTS political_object_people (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    object_id TEXT NOT NULL REFERENCES political_objects(object_id) ON DELETE CASCADE,
+    person_id TEXT NOT NULL REFERENCES people(person_id) ON DELETE CASCADE,
+    role TEXT NOT NULL DEFAULT 'author',
+    party_at_time TEXT NOT NULL DEFAULT '',
+    order_index INTEGER NOT NULL DEFAULT 0,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (object_id, person_id, role)
+);
+
+CREATE INDEX IF NOT EXISTS idx_political_object_people_object_id ON political_object_people(object_id);
+CREATE INDEX IF NOT EXISTS idx_political_object_people_person_id ON political_object_people(person_id);
+CREATE INDEX IF NOT EXISTS idx_political_object_people_role ON political_object_people(role);
+CREATE INDEX IF NOT EXISTS idx_political_object_people_party ON political_object_people(party_at_time);
+
 CREATE TABLE IF NOT EXISTS financial_summary_tables (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
