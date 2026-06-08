@@ -258,8 +258,8 @@ def answer_person_deposits_db(question: str) -> str | None:
     params: list[Any] = [person["person_id"], sorted(object_types)]
     year_filter = ""
     if year:
-        year_filter = "AND po.year = %s"
-        params.append(year)
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
     rows = postgres_rows(
         f"""
         SELECT DISTINCT
@@ -360,8 +360,8 @@ def answer_count_by_party_db(question: str) -> str | None:
     params: list[Any] = [sorted(object_types)]
     year_filter = ""
     if year:
-        year_filter = "AND po.year = %s"
-        params.append(year)
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
     rows = postgres_rows(
         f"""
         SELECT pop.party_at_time, COUNT(DISTINCT pop.object_id) AS count
@@ -425,8 +425,8 @@ def answer_objects_by_status_db(question: str) -> str | None:
     params: list[Any] = [sorted(object_types)]
     year_filter = ""
     if year:
-        year_filter = "AND po.year = %s"
-        params.append(year)
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
     rows = postgres_rows(
         f"""
         SELECT po.object_id, po.object_type, po.year, po.object_title,
@@ -470,11 +470,11 @@ def answer_objects_by_year_db(question: str) -> str | None:
                po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date
         FROM political_objects po
         WHERE po.object_type = ANY(%s)
-          AND po.year = %s
+          AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)
         ORDER BY po.deposit_date ASC NULLS LAST, po.object_type, po.object_title
         LIMIT 60
         """,
-        (sorted(object_types), year),
+        (sorted(object_types), year, year, f"%-{year}-%"),
         operation="answer_objects_by_year",
     )
     if rows is None:
@@ -598,7 +598,7 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                         """
                         SELECT title, source_url, source_path, doc_type, metadata
                         FROM documents
-                        WHERE (metadata->>'year' = %s OR source_path LIKE %s)
+                        WHERE (metadata->>'year' = %s OR metadata->>'listing_year' = %s OR source_path LIKE %s)
                           AND doc_type = %s
                           AND (title ILIKE %s OR metadata->>'filename' ILIKE %s)
                           AND COALESCE(metadata->>'canonical_object', 'true') <> 'false'
@@ -606,7 +606,7 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                           AND COALESCE(metadata->>'filename', '') NOT ILIKE '%%-Rapp%%'
                         ORDER BY title, source_url
                         """,
-                        (year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
+                        (year, year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
                     )
                     rows.extend(cursor.fetchall())
     except Exception as exc:

@@ -2,6 +2,14 @@ CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 DO $$
 BEGIN
+    CREATE EXTENSION IF NOT EXISTS vector;
+EXCEPTION
+    WHEN undefined_file OR insufficient_privilege OR feature_not_supported THEN
+        RAISE NOTICE 'pgvector extension is not available or not permitted; vector search will stay disabled.';
+END $$;
+
+DO $$
+BEGIN
     IF to_regclass('public.documents') IS NOT NULL THEN
         ALTER TABLE documents ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';
         IF EXISTS (
@@ -113,11 +121,51 @@ CREATE TABLE IF NOT EXISTS document_chunks (
 ALTER TABLE document_chunks
 ADD COLUMN IF NOT EXISTS search_vector TSVECTOR NOT NULL DEFAULT ''::tsvector;
 
+DO $$
+BEGIN
+    IF EXISTS (SELECT 1 FROM pg_extension WHERE extname = 'vector') THEN
+        EXECUTE 'ALTER TABLE document_chunks ADD COLUMN IF NOT EXISTS embedding_vector vector(1536)';
+
+        EXECUTE $sql$
+            UPDATE document_chunks dc
+            SET embedding_vector = vector_payload.embedding_vector
+            FROM (
+                SELECT
+                    chunk_id,
+                    ('[' || string_agg(value, ',' ORDER BY ordinality) || ']')::vector(1536) AS embedding_vector
+                FROM document_chunks,
+                     jsonb_array_elements_text(embedding) WITH ORDINALITY AS item(value, ordinality)
+                WHERE embedding_vector IS NULL
+                  AND jsonb_typeof(embedding) = 'array'
+                  AND jsonb_array_length(embedding) = 1536
+                GROUP BY chunk_id
+            ) AS vector_payload
+            WHERE dc.chunk_id = vector_payload.chunk_id
+        $sql$;
+    END IF;
+END $$;
+
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_id ON document_chunks(document_id);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_city ON document_chunks(city);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_doc_type ON document_chunks(doc_type);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_document_date ON document_chunks(document_date);
 CREATE INDEX IF NOT EXISTS idx_document_chunks_search_vector ON document_chunks USING GIN(search_vector);
+
+DO $$
+BEGIN
+    IF EXISTS (SELECT 1 FROM pg_extension WHERE extname = 'vector')
+       AND EXISTS (
+            SELECT 1 FROM information_schema.columns
+            WHERE table_schema = 'public'
+              AND table_name = 'document_chunks'
+              AND column_name = 'embedding_vector'
+       ) THEN
+        EXECUTE 'CREATE INDEX IF NOT EXISTS idx_document_chunks_embedding_vector_hnsw ON document_chunks USING hnsw (embedding_vector vector_cosine_ops)';
+    END IF;
+EXCEPTION
+    WHEN undefined_object OR feature_not_supported THEN
+        RAISE NOTICE 'pgvector HNSW index could not be created; vector search can still run without the ANN index.';
+END $$;
 
 UPDATE document_chunks
 SET search_vector =

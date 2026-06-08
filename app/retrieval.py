@@ -5,8 +5,11 @@ from collections import Counter
 from functools import lru_cache
 
 from app.config import CHUNKS_PATH, ENABLE_LEGACY_JSON_FALLBACK, STORAGE_BACKEND
+from app.embeddings import embed_text
 from app.hybrid_search import search_hybrid
 from app.postgres_store import search_chunks as search_postgres_chunks
+from app.postgres_store import search_vector_chunks as search_postgres_vector_chunks
+from app.reranker import rerank_chunks
 from app.sqlite_index import search_sqlite, sqlite_ready
 from app.text_cleaning import strip_accents
 
@@ -167,9 +170,21 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
         if hybrid_results:
             return hybrid_results
 
-        postgres_results = search_postgres_chunks(query, list(query_tokens.elements()), limit=limit, filters=filters)
+        token_list = list(query_tokens.elements())
+        postgres_keyword_results = search_postgres_chunks(query, token_list, limit=max(limit * 3, 18), filters=filters)
+        query_embedding = embed_text(query)
+        postgres_vector_results = search_postgres_vector_chunks(
+            query,
+            query_embedding,
+            token_list,
+            limit=max(limit * 3, 18),
+            filters=filters,
+        )
+        postgres_results = merge_postgres_results(postgres_keyword_results, postgres_vector_results)
+        if postgres_results and postgres_vector_results:
+            postgres_results = rerank_chunks(query, postgres_results, limit=max(limit * 3, 18))
         if postgres_results:
-            return postgres_results
+            return postgres_results[:limit]
 
         if not ENABLE_LEGACY_JSON_FALLBACK:
             return []
@@ -238,3 +253,29 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
         result["score"] = round(score, 3)
         results.append(result)
     return results
+
+
+def merge_postgres_results(keyword_hits: list[dict], vector_hits: list[dict]) -> list[dict]:
+    combined: dict[str, dict] = {}
+    for source, hits in [("keyword", keyword_hits), ("vector", vector_hits)]:
+        for position, hit in enumerate(hits):
+            chunk_id = str(hit.get("chunk_id") or hit.get("id") or "")
+            if not chunk_id:
+                continue
+            score = float(hit.get("score") or hit.get("_score") or 0.0)
+            if source == "keyword":
+                score += max(0, 20 - position) * 0.05
+            else:
+                score += 6.0 + max(0, 20 - position) * 0.08
+            existing = combined.get(chunk_id)
+            if existing is None:
+                item = dict(hit)
+                item["_score"] = score
+                item["_search_source"] = source
+                combined[chunk_id] = item
+            else:
+                existing["_score"] = max(float(existing.get("_score") or 0.0), score)
+                existing["_search_source"] = "hybrid"
+                if not existing.get("embedding") and hit.get("embedding"):
+                    existing["embedding"] = hit["embedding"]
+    return sorted(combined.values(), key=lambda item: float(item.get("_score") or item.get("score") or 0.0), reverse=True)
