@@ -170,6 +170,35 @@ CREATE INDEX IF NOT EXISTS idx_people_party_current ON people(party_current);
 CREATE INDEX IF NOT EXISTS idx_people_parties ON people USING GIN(parties);
 CREATE INDEX IF NOT EXISTS idx_people_objects ON people USING GIN(objects);
 
+CREATE TABLE IF NOT EXISTS political_objects (
+    object_id TEXT PRIMARY KEY,
+    city TEXT NOT NULL DEFAULT '',
+    legislature TEXT NOT NULL DEFAULT '',
+    object_type TEXT NOT NULL DEFAULT '',
+    object_title TEXT NOT NULL DEFAULT '',
+    status_raw TEXT NOT NULL DEFAULT '',
+    status_normalized TEXT NOT NULL DEFAULT '',
+    deposit_date DATE,
+    decision_date DATE,
+    year TEXT NOT NULL DEFAULT '',
+    canonical_source_url TEXT NOT NULL DEFAULT '',
+    canonical_document_source_url TEXT NOT NULL DEFAULT '',
+    canonical_document_path TEXT NOT NULL DEFAULT '',
+    authors JSONB NOT NULL DEFAULT '[]'::jsonb,
+    documents JSONB NOT NULL DEFAULT '[]'::jsonb,
+    scheduled_sessions JSONB NOT NULL DEFAULT '[]'::jsonb,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_political_objects_city ON political_objects(city);
+CREATE INDEX IF NOT EXISTS idx_political_objects_type ON political_objects(object_type);
+CREATE INDEX IF NOT EXISTS idx_political_objects_year ON political_objects(year);
+CREATE INDEX IF NOT EXISTS idx_political_objects_status ON political_objects(status_normalized);
+CREATE INDEX IF NOT EXISTS idx_political_objects_authors ON political_objects USING GIN(authors);
+CREATE INDEX IF NOT EXISTS idx_political_objects_documents ON political_objects USING GIN(documents);
+
 CREATE TABLE IF NOT EXISTS financial_summary_tables (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
