@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from app.text_cleaning import strip_accents
+from app.year_metadata import normalize_year_metadata
 
 
 POLITICAL_TYPES = {
@@ -929,4 +930,4 @@ def enrich_metadata(metadata: dict[str, Any], text_path: Path | None = None, con
 
     enriched["search_facets"] = clean_search_facets(enriched, content)
     enriched = clean_final_metadata(enriched)
-    return enriched
+    return normalize_year_metadata(enriched, text_path.with_suffix(".json") if text_path else None)

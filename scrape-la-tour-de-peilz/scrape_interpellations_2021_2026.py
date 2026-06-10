@@ -14,6 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.text_cleaning import clean_french_text
+from app.year_metadata import normalize_year_metadata
 
 
 MOTIONS_SCRAPER_PATH = Path(__file__).with_name("scrape_motions_2021_2026.py")
@@ -386,6 +387,7 @@ def download_and_extract(item: dict) -> dict:
     metadata = enrich_interpellation_metadata(item, text)
     metadata["pdf_path"] = str(pdf_path)
     metadata["text_path"] = str(txt_path)
+    metadata = normalize_year_metadata(metadata, json_path)
     json_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return metadata
 

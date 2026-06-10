@@ -50,7 +50,10 @@
     "contains_budget_impact": true,
     "contains_questions": false,
     "question_count": 0,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_year": "2023",
+    "pdf_storage_year": "2024",
+    "document_year": "2024"
   },
   "document_date": "2024-02-07",
   "policy_details": {
@@ -90,5 +93,9 @@
     "filename": "Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf"
   },
-  "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring"
+  "object_title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+  "pdf_storage_year": "2024",
+  "document_year": "2024",
+  "object_year": "2023",
+  "year_mismatch_reason": "pdf_published_or_updated_after_political_year"
 }

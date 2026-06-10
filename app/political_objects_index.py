@@ -103,7 +103,7 @@ def infer_object_id(metadata: dict[str, Any], path: Path) -> str:
     if value:
         return str(value)
     object_type = object_type_from_metadata(metadata) or str(metadata.get("category") or "political-object")
-    year = str(metadata.get("listing_year") or metadata.get("year") or path.parent.parent.name or "")
+    year = str(metadata.get("object_year") or metadata.get("listing_year") or metadata.get("year") or path.parent.parent.name or "")
     return f"{object_type}-{year}-{slugify(object_title_from_metadata(metadata) or path.stem)}"
 
 
@@ -176,6 +176,10 @@ def document_record(metadata: dict[str, Any], path: Path, document_id_by_source_
         "document_role": str(metadata.get("document_role") or ""),
         "document_components": metadata.get("document_components") or [],
         "document_date": str(metadata.get("document_date") or "")[:10],
+        "object_year": str(metadata.get("object_year") or ""),
+        "pdf_storage_year": str(metadata.get("pdf_storage_year") or ""),
+        "document_year": str(metadata.get("document_year") or ""),
+        "publication_date": str(metadata.get("publication_date") or ""),
         "canonical_object": bool(metadata.get("canonical_object")),
         "source_collection": str(metadata.get("source_collection") or ""),
         "contains_report": bool(metadata.get("contains_report")),
@@ -247,7 +251,11 @@ def merge_metadata(
         str(metadata.get("status_normalized") or political_object.get("status_normalized") or ""),
         is_canonical,
     )
-    accumulator.year = choose_text(accumulator.year, str(metadata.get("listing_year") or metadata.get("year") or ""), is_canonical)
+    accumulator.year = choose_text(
+        accumulator.year,
+        str(metadata.get("object_year") or metadata.get("listing_year") or metadata.get("year") or ""),
+        is_canonical,
+    )
     accumulator.canonical_source_url = choose_text(
         accumulator.canonical_source_url,
         str(political_object.get("canonical_source") or metadata.get("source_page") or ""),

@@ -598,7 +598,7 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                         """
                         SELECT title, source_url, source_path, doc_type, metadata
                         FROM documents
-                        WHERE (metadata->>'year' = %s OR metadata->>'listing_year' = %s OR source_path LIKE %s)
+                        WHERE (metadata->>'object_year' = %s OR metadata->>'year' = %s OR metadata->>'listing_year' = %s OR source_path LIKE %s)
                           AND doc_type = %s
                           AND (title ILIKE %s OR metadata->>'filename' ILIKE %s)
                           AND COALESCE(metadata->>'canonical_object', 'true') <> 'false'
@@ -606,7 +606,7 @@ def search_deposit_documents_from_postgres(year: str, object_types: set[str]) ->
                           AND COALESCE(metadata->>'filename', '') NOT ILIKE '%%-Rapp%%'
                         ORDER BY title, source_url
                         """,
-                        (year, year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
+                        (year, year, year, f"%/{year}/%", category, f"{prefix}%", f"{prefix}%"),
                     )
                     rows.extend(cursor.fetchall())
     except Exception as exc:

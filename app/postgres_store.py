@@ -295,8 +295,10 @@ def _filter_sql(filters: dict[str, Any], alias: str = "dc") -> tuple[str, list[A
         filter_where.append(f"{alias}.metadata->>'content_kind' = %s")
         filter_params.append(filters["content_kind"])
     if filters.get("year"):
-        filter_where.append(f"({alias}.metadata->>'year' = %s OR {alias}.metadata->>'listing_year' = %s OR d.source_path LIKE %s)")
-        filter_params.extend([str(filters["year"]), str(filters["year"]), f"%/{filters['year']}/%"])
+        filter_where.append(
+            f"({alias}.metadata->>'object_year' = %s OR {alias}.metadata->>'year' = %s OR {alias}.metadata->>'listing_year' = %s OR d.source_path LIKE %s)"
+        )
+        filter_params.extend([str(filters["year"]), str(filters["year"]), str(filters["year"]), f"%/{filters['year']}/%"])
     if filters.get("date_from"):
         filter_where.append(f"{alias}.document_date >= %s")
         filter_params.append(filters["date_from"])

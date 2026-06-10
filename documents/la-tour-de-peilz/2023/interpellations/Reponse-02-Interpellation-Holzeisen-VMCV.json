@@ -53,7 +53,10 @@
     "source_subject": "Y a-t-il un pilote dans le bus communal ?",
     "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
     "object_title": "Y a-t-il un pilote dans le bus communal ?",
-    "document_date": "2021-09-15"
+    "document_date": "2021-09-15",
+    "object_year": "2022",
+    "pdf_storage_year": "2023",
+    "document_year": "2021"
   },
   "search_facets": [
     "combined_interpellation_response",
@@ -75,5 +78,9 @@
     "needs_ocr": false
   },
   "pdf_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-02-Interpellation-Holzeisen-VMCV.pdf",
-  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-02-Interpellation-Holzeisen-VMCV.txt"
+  "text_path": "C:\\Users\\yannb\\Documents\\AI Riviera 2\\documents\\la-tour-de-peilz\\2023\\interpellations\\Reponse-02-Interpellation-Holzeisen-VMCV.txt",
+  "pdf_storage_year": "2023",
+  "document_year": "2021",
+  "object_year": "2022",
+  "year_mismatch_reason": "pdf_published_or_updated_after_political_year"
 }

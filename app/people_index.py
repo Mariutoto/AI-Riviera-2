@@ -159,7 +159,7 @@ def object_record(metadata: dict[str, Any], path: Path, role: str) -> dict[str, 
         "object_type": str(metadata.get("type") or political_object.get("type") or metadata.get("document_type") or ""),
         "object_title": str(metadata.get("object_title") or political_object.get("object_title") or metadata.get("summary") or ""),
         "status": str(metadata.get("status_normalized") or political_object.get("status_normalized") or metadata.get("status") or ""),
-        "year": str(metadata.get("year") or metadata.get("listing_year") or ""),
+        "year": str(metadata.get("object_year") or metadata.get("year") or metadata.get("listing_year") or ""),
         "document_date": str(metadata.get("document_date") or political_object.get("document_date") or "")[:10],
         "document_title": str(metadata.get("title") or ""),
         "document_role": str(metadata.get("document_role") or ""),
@@ -219,7 +219,7 @@ def build_people(documents_root: Path = DOCUMENTS_ROOT) -> dict[str, PersonAccum
             if party:
                 person.parties[party] += 1
             person.roles.add(role)
-            year = str(metadata.get("year") or metadata.get("listing_year") or "")
+            year = str(metadata.get("object_year") or metadata.get("year") or metadata.get("listing_year") or "")
             if year:
                 person.years.add(year)
             record = object_record(metadata, path, role)

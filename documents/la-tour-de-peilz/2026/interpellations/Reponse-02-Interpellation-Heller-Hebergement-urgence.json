@@ -52,7 +52,10 @@
     "contains_budget_impact": false,
     "contains_questions": false,
     "question_count": 0,
-    "expects_municipal_answer": true
+    "expects_municipal_answer": true,
+    "object_year": "2025",
+    "pdf_storage_year": "2026",
+    "document_year": "2026"
   },
   "document_date": "2026-02-11",
   "canonical_object": false,
@@ -86,5 +89,9 @@
     "filename": "Interpellation-Heller-Hebergement-urgence-Rep.pdf",
     "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Heller-Hebergement-urgence-Rep.pdf"
   },
-  "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?"
+  "object_title": "Personne ne doit dormir dehors - Quel hébergement d'urgence pour les sans-abris de l'est vaudois ?",
+  "pdf_storage_year": "2026",
+  "document_year": "2026",
+  "object_year": "2025",
+  "year_mismatch_reason": "pdf_published_or_updated_after_political_year"
 }
