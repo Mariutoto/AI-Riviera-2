@@ -9,10 +9,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.answer import answer_from_sources
-from app.config import STORAGE_BACKEND
-from app.diagnostics import recent_diagnostics
 from app.eval_set import load_eval_questions, retrieval_hit
-from app.ingest import build_index
 from app.opensearch_store import ready as opensearch_ready
 from app.postgres_store import ready as postgres_ready
 from app.retrieval import search
@@ -29,60 +26,95 @@ st.caption(
     "nicht gewinnorientiertes Projekt"
 )
 
-with st.sidebar:
-    st.header("Indexation")
-    st.caption(f"Mode stockage: {STORAGE_BACKEND}")
-    if st.button("Indexer Riviera 2"):
-        with st.spinner("Indexation SQL/OpenSearch en cours..."):
-            try:
-                stats = build_index()
-                st.success(
-                    f"Indexation terminée: {stats.get('documents_indexed', 0)} documents, "
-                    f"{stats.get('chunks_indexed', 0)} passages."
-                )
-            except Exception as exc:
-                st.error(f"Indexation impossible: {exc}")
+st.markdown(
+    """
+    <style>
+    [data-testid="stSidebar"], [data-testid="collapsedControl"] {
+        display: none;
+    }
 
-    st.header("Filtres")
-    city_filter = st.text_input("Ville", value="La Tour-de-Peilz")
-    doc_type_filter = st.text_input("Type de document", value="")
-    date_from_filter = st.text_input("Date de début (YYYY-MM-DD)", value="")
-    date_to_filter = st.text_input("Date de fin (YYYY-MM-DD)", value="")
+    .air-loading {
+        align-items: center;
+        background: #f3f6fa;
+        border: 1px solid #e2e7ef;
+        border-radius: 0.45rem;
+        color: #3f4652;
+        display: flex;
+        gap: 0.75rem;
+        justify-content: flex-start;
+        margin: 0.75rem 0 0;
+        min-height: 3.6rem;
+        padding: 0.72rem 1.45rem;
+        width: 100%;
+    }
 
-    st.header("Diagnostics")
-    if st.checkbox("Afficher les erreurs techniques", value=False):
-        diagnostics = recent_diagnostics()
-        if not diagnostics:
-            st.caption("Aucun incident DB/Search enregistrÃ© dans cette session.")
-        else:
-            for event in reversed(diagnostics[-10:]):
-                with st.expander(f"{event['time']} - {event['area']}"):
-                    st.write(event["message"])
-                    if event.get("error"):
-                        st.code(event["error"])
-                    if event.get("context"):
-                        st.json(event["context"])
+    .air-loading-docs {
+        flex: 0 0 auto;
+        height: 2rem;
+        position: relative;
+        width: 2.2rem;
+    }
 
+    .air-loading-page {
+        background: #ffffff;
+        border: 2px solid #3a8f6b;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.12rem 0.3rem rgba(31, 41, 51, 0.08);
+        height: 1.6rem;
+        left: 0.18rem;
+        position: absolute;
+        top: 0.12rem;
+        width: 1.35rem;
+    }
+
+    .air-loading-page:nth-child(1) {
+        animation: airPageFlip 1.45s ease-in-out infinite;
+        z-index: 3;
+    }
+
+    .air-loading-page:nth-child(2) {
+        left: 0.55rem;
+        opacity: 0.74;
+        top: 0.35rem;
+        z-index: 2;
+    }
+
+    .air-loading-page:nth-child(3) {
+        left: 0.9rem;
+        opacity: 0.46;
+        top: 0.58rem;
+        z-index: 1;
+    }
+
+    .air-loading-text {
+        font-size: 0.92rem;
+        font-weight: 650;
+        line-height: 1.2;
+    }
+
+    @keyframes airPageFlip {
+        0%, 100% {
+            transform: translateX(0) rotate(0);
+        }
+        50% {
+            transform: translateX(0.55rem) rotate(6deg);
+        }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 def current_filters() -> dict | None:
-    filters = {}
-    if city_filter.strip():
-        filters["city"] = city_filter.strip()
-    if doc_type_filter.strip():
-        filters["doc_type"] = doc_type_filter.strip()
-    if date_from_filter.strip():
-        filters["date_from"] = date_from_filter.strip()
-    if date_to_filter.strip():
-        filters["date_to"] = date_to_filter.strip()
-    return filters or None
+    return {"city": "La Tour-de-Peilz"}
 
 
 def ensure_index_ready() -> bool:
     if opensearch_ready() or postgres_ready():
         return True
     st.warning(
-        "La base Riviera 2 n'est pas encore prête. Clique sur 'Indexer Riviera 2' dans la barre latérale, "
-        "ou démarre Postgres/OpenSearch puis relance l'indexation."
+        "La base Riviera 2 n'est pas encore prête. Démarre Postgres/OpenSearch ou relance l'indexation "
+        "depuis l'environnement d'administration."
     )
     return False
 
@@ -186,7 +218,7 @@ def answer_question(question: str) -> tuple[str, list[dict], bool]:
     if structured_answer:
         return structured_answer, [], True
     if not ensure_index_ready():
-        return "La base Riviera 2 n'est pas encore indexée. Lance l'indexation SQL depuis la barre latérale.", [], False
+        return "La base Riviera 2 n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
     results = search(question, limit=20, filters=current_filters())
     return answer_from_sources(question, results), results, False
 
@@ -198,6 +230,8 @@ with chat_tab:
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
+    if "pending_question" not in st.session_state:
+        st.session_state.pending_question = None
 
     for message_index, message in enumerate(st.session_state.messages):
         with st.chat_message(message["role"]):
@@ -207,13 +241,39 @@ with chat_tab:
             if message["role"] == "assistant":
                 render_sources(results, message_index)
 
-    question = st.chat_input("Pose une question sur les documents...")
-    if question:
-        st.session_state.messages.append({"role": "user", "content": question})
+    is_answering = st.session_state.pending_question is not None
+    question = None
+    if not is_answering:
+        question = st.chat_input("Pose une question sur les documents...")
 
-        answer, results, _ = answer_question(question)
+    if question and not is_answering:
+        st.session_state.messages.append({"role": "user", "content": question})
+        st.session_state.pending_question = question
+        st.rerun()
+
+    if st.session_state.pending_question:
+        pending_question = st.session_state.pending_question
+        st.markdown(
+            """
+            <div class="air-loading" aria-live="polite" aria-label="Recherche en cours">
+                <span class="air-loading-docs" aria-hidden="true">
+                    <span class="air-loading-page"></span>
+                    <span class="air-loading-page"></span>
+                    <span class="air-loading-page"></span>
+                </span>
+                <span class="air-loading-text">Lecture des sources...</span>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        try:
+            answer, results, _ = answer_question(pending_question)
+        except Exception as exc:
+            answer = f"Une erreur est survenue pendant la recherche: {exc}"
+            results = []
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
+        st.session_state.pending_question = None
         st.rerun()
 
 with eval_tab:
