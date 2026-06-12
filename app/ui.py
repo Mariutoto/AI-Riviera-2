@@ -260,15 +260,6 @@ with chat_tab:
     if "pending_question" not in st.session_state:
         st.session_state.pending_question = None
 
-    is_answering = st.session_state.pending_question is not None
-    question = None
-    if not is_answering:
-        question = st.chat_input("Pose une question sur les documents...")
-
-    if question and not is_answering:
-        queue_question(question)
-        st.rerun()
-
     suggestions_slot = st.empty()
     if not st.session_state.messages and st.session_state.pending_question is None:
         with suggestions_slot.container():
@@ -320,6 +311,11 @@ with chat_tab:
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
         st.session_state.pending_question = None
+        st.rerun()
+
+    question = st.chat_input("Pose une question sur les documents...", disabled=st.session_state.pending_question is not None)
+    if question and st.session_state.pending_question is None:
+        queue_question(question)
         st.rerun()
 
 with eval_tab:
