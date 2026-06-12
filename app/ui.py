@@ -19,7 +19,7 @@ from app.text_cleaning import fix_mojibake
 SUGGESTED_QUESTIONS = [
     "Quelles interpellations ont reçu une réponse en 2025 ?",
     "Quelle motion de 2026 a été renvoyée à la Municipalité ?",
-    "Quels objets politiques parlent de mobilité ou de bus ?",
+    "Quels objets politiques parlent de mobilité ou de bus dans cette législature ?",
     "Quels postulats ont été déposés en 2024 ?",
 ]
 
