@@ -1,6 +1,7 @@
 import sys
 from pathlib import Path
 import re
+import time
 
 import streamlit as st
 
@@ -9,6 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.answer import answer_from_sources
+from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.opensearch_store import ready as opensearch_ready
 from app.postgres_store import ready as postgres_ready
@@ -22,6 +24,11 @@ SUGGESTED_QUESTIONS = [
     "Quels objets politiques parlent de mobilité ou de bus dans cette législature ?",
     "Quels postulats ont été déposés en 2024 ?",
 ]
+
+USER_ERROR_MESSAGE = (
+    "Désolé, la recherche a rencontré un problème technique. "
+    "La question a été journalisée pour diagnostic; tu peux réessayer dans un instant."
+)
 
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
@@ -131,6 +138,10 @@ def current_filters() -> dict | None:
     return {"city": "La Tour-de-Peilz"}
 
 
+def cacheable_filters(filters: dict | None) -> tuple[tuple[str, str], ...]:
+    return tuple(sorted((str(key), str(value)) for key, value in (filters or {}).items()))
+
+
 def ensure_index_ready() -> bool:
     if opensearch_ready() or postgres_ready():
         return True
@@ -235,14 +246,39 @@ chat_tab, eval_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
 )
 
 
-def answer_question(question: str) -> tuple[str, list[dict], bool]:
+@st.cache_data(ttl=900, max_entries=128, show_spinner=False)
+def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], bool]:
     structured_answer = answer_structured_question(question)
     if structured_answer:
         return structured_answer, [], True
+    if not (opensearch_ready() or postgres_ready()):
+        return "La base Riviera 2 n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
+    results = search(question, limit=20, filters=dict(filters_key))
+    return answer_from_sources(question, results), results, False
+
+
+def answer_question(question: str) -> tuple[str, list[dict], bool]:
     if not ensure_index_ready():
         return "La base Riviera 2 n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
-    results = search(question, limit=20, filters=current_filters())
-    return answer_from_sources(question, results), results, False
+
+    started_at = time.perf_counter()
+    try:
+        answer, results, structured = cached_answer_question(question, cacheable_filters(current_filters()))
+        duration_ms = int((time.perf_counter() - started_at) * 1000)
+        record_interaction(
+            question,
+            status="ok",
+            duration_ms=duration_ms,
+            structured=structured,
+            source_count=len(group_results_by_document(results)) if results else 0,
+            answer_chars=len(answer),
+        )
+        return answer, results, structured
+    except Exception as exc:
+        duration_ms = int((time.perf_counter() - started_at) * 1000)
+        record_diagnostic("ui", "Question answering failed", exc, question=question[:300])
+        record_interaction(question, status="error", duration_ms=duration_ms, error=repr(exc))
+        return USER_ERROR_MESSAGE, [], False
 
 
 def queue_question(question: str) -> None:
@@ -303,11 +339,7 @@ with chat_tab:
             """,
             unsafe_allow_html=True,
         )
-        try:
-            answer, results, _ = answer_question(pending_question)
-        except Exception as exc:
-            answer = f"Une erreur est survenue pendant la recherche: {exc}"
-            results = []
+        answer, results, _ = answer_question(pending_question)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
         st.session_state.pending_question = None
@@ -339,6 +371,15 @@ with eval_tab:
     ]
     st.dataframe(eval_rows, width="stretch", hide_index=True)
 
+    if st.session_state.eval_runs:
+        recent_runs = st.session_state.eval_runs[: len(eval_questions)]
+        ok_count = sum(1 for run in recent_runs if run.get("retrieval_ok"))
+        avg_sources = sum(len(group_results_by_document(run.get("results", []))) for run in recent_runs) / max(len(recent_runs), 1)
+        col_ok, col_total, col_sources = st.columns(3)
+        col_ok.metric("Derniers runs OK", f"{ok_count}/{len(recent_runs)}")
+        col_total.metric("Runs en mémoire", str(len(st.session_state.eval_runs)))
+        col_sources.metric("Sources moyennes", f"{avg_sources:.1f}")
+
     def run_eval_question(item: dict) -> None:
         answer, results, structured = answer_question(item["question"])
         st.session_state.eval_runs.insert(
@@ -355,15 +396,19 @@ with eval_tab:
             },
         )
 
-    col_run_all, col_clear = st.columns([1, 1])
+    col_run_all, col_clear, col_cache = st.columns([1, 1, 1])
     with col_run_all:
-        if st.button("Lancer les 6 questions"):
+        if st.button(f"Lancer les {len(eval_questions)} questions"):
             for eval_question in eval_questions:
                 run_eval_question(eval_question)
             st.rerun()
     with col_clear:
         if st.button("Vider l'historique eval"):
             st.session_state.eval_runs = []
+            st.rerun()
+    with col_cache:
+        if st.button("Vider le cache"):
+            st.cache_data.clear()
             st.rerun()
 
     st.subheader("Lancer une question")
@@ -385,6 +430,18 @@ with eval_tab:
             st.markdown("**Sources attendues**")
             st.code("\n".join(run["expected_sources"]) or "Aucune source attendue définie", language="text")
             render_sources(run.get("results", []), 1000 + run_index)
+
+    st.subheader("Diagnostics")
+    interactions = list(reversed(recent_interactions(12)))
+    if interactions:
+        st.dataframe(interactions, width="stretch", hide_index=True)
+    else:
+        st.caption("Aucune question journalisée pour l'instant.")
+
+    diagnostics = list(reversed(recent_diagnostics(8)))
+    if diagnostics:
+        with st.expander("Dernières erreurs techniques"):
+            st.dataframe(diagnostics, width="stretch", hide_index=True)
 
 with about_tab:
     st.subheader("Qu'est-ce que c'est ?")

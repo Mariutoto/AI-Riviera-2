@@ -72,5 +72,40 @@
     ],
     "tags": ["structured", "interpellations", "2025", "status"],
     "difficulty": "medium"
+  },
+  {
+    "id": "q008",
+    "question": "Quels objets politiques parlent de mobilite ou de bus dans cette legislature ?",
+    "expected_answer": "La reponse doit lister des objets politiques pertinents sur la mobilite, les bus, la VMCV ou les arrets de bus, sans objets hors sujet.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2026/interpellations/Interpellation-Negro-Arret-bus-Lhand-Rep.json",
+      "documents/la-tour-de-peilz/2023/interpellations/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.json",
+      "documents/la-tour-de-peilz/2023/postulats/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.json"
+    ],
+    "tags": ["structured", "theme", "mobilite", "bus"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q009",
+    "question": "Quels documents parlent de stationnement ?",
+    "expected_answer": "La reponse doit retrouver des documents lies au stationnement, aux macarons ou aux mesures de stationnement.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2024/autres/Projet-modification-reglement-stationnement.json",
+      "documents/la-tour-de-peilz/2024/communications-municipales/Comm03-Macarons-A1.json",
+      "documents/la-tour-de-peilz/2022/interpellations/Interpellation-Grutta-Mobilite-Rep.json"
+    ],
+    "tags": ["retrieval", "theme", "stationnement"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "q010",
+    "question": "Resume ce qui a ete dit sur la mobilite en 2023.",
+    "expected_answer": "La reponse doit citer des sources 2023 liees a la mobilite, notamment le plan directeur de la mobilite ou la VMCV.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2023/interpellations/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.json",
+      "documents/la-tour-de-peilz/2023/interpellations/Interpellation-Holzeisen-VMCV-pilote-Rep.json"
+    ],
+    "tags": ["retrieval", "summary", "mobilite", "2023"],
+    "difficulty": "hard"
   }
 ]
