@@ -8,6 +8,7 @@ Cette version utilise Postgres comme stockage principal, puis indexe les chunks 
 
 ```powershell
 python -m pip install -r requirements.txt
+docker compose -f docker-compose.opensearch.yml up -d
 python -m app.ingest
 python -m streamlit run app/ui.py
 ```
@@ -25,6 +26,12 @@ python -m app.ingestion_pipeline --trigger-name scheduled
 - Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
 - Postgres: extrait aussi une couche financiere structuree pour les budgets communaux (`financial_summary_tables`, `financial_summary_rows`, `financial_account_lines`).
 - OpenSearch: indexe les chunks pour la recherche hybride et les filtres.
+
+Pour vérifier OpenSearch en local:
+
+```powershell
+curl http://localhost:9200
+```
 
 Pour reconstruire l'ancien index JSON/SQLite explicitement:
 

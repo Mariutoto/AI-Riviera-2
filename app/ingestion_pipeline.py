@@ -229,6 +229,12 @@ def ingest_documents(
                 embeddings = embed_texts(searchable_chunks)
                 chunk_rows = []
                 opensearch_rows = []
+                political_object_id = (
+                    metadata.get("political_object_id")
+                    or metadata.get("related_political_object_id")
+                    or (metadata.get("political_object") or {}).get("object_id")
+                    or (metadata.get("related_canonical_interpellation") or {}).get("political_object_id")
+                )
                 for index, (chunk, embedding) in enumerate(zip(searchable_chunks, embeddings)):
                     chunk_id = f"{text_path.relative_to(documents_root).as_posix()}#{index}"
                     chunk_hash = sha256_text(chunk)
@@ -264,6 +270,10 @@ def ingest_documents(
                             "chunk_index": index,
                             "fetch_date": payload["fetch_date"],
                             "last_processed_at": payload["last_processed_at"],
+                            "political_object_id": political_object_id,
+                            "political_object_type": metadata.get("document_type") or metadata.get("type"),
+                            "object_year": metadata.get("object_year") or metadata.get("year"),
+                            "legislature": metadata.get("legislature"),
                             "embedding": embedding,
                             "metadata": payload["metadata"],
                         }

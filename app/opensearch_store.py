@@ -9,6 +9,7 @@ from app.diagnostics import record_diagnostic
 
 
 _OPENSEARCH_UNAVAILABLE = False
+_OPENSEARCH_MAPPING_UPDATED = False
 
 
 @lru_cache(maxsize=1)
@@ -45,14 +46,37 @@ def ensure_index() -> bool:
 
     try:
         if client.indices.exists(index=OPENSEARCH_INDEX):
+            ensure_runtime_mapping(client)
             return True
 
         client.indices.create(index=OPENSEARCH_INDEX, body=load_index_body())
+        ensure_runtime_mapping(client)
         return True
     except Exception as exc:
         record_diagnostic("opensearch", "OpenSearch index ensure failed", exc, index=OPENSEARCH_INDEX)
         _OPENSEARCH_UNAVAILABLE = True
         return False
+
+
+def ensure_runtime_mapping(client) -> None:
+    global _OPENSEARCH_MAPPING_UPDATED
+    if _OPENSEARCH_MAPPING_UPDATED:
+        return
+    try:
+        client.indices.put_mapping(
+            index=OPENSEARCH_INDEX,
+            body={
+                "properties": {
+                    "political_object_id": {"type": "keyword"},
+                    "political_object_type": {"type": "keyword"},
+                    "object_year": {"type": "keyword"},
+                    "legislature": {"type": "keyword"},
+                }
+            },
+        )
+        _OPENSEARCH_MAPPING_UPDATED = True
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch mapping update failed", exc, index=OPENSEARCH_INDEX)
 
 
 def ready() -> bool:
@@ -113,9 +137,31 @@ def _filters_to_query(filters: dict[str, Any] | None) -> list[dict[str, Any]]:
     if filters.get("city"):
         query_filters.append({"term": {"city": filters["city"]}})
     if filters.get("doc_type"):
-        query_filters.append({"term": {"doc_type": filters["doc_type"]}})
+        doc_type = filters["doc_type"]
+        if isinstance(doc_type, (list, tuple, set)):
+            query_filters.append({"terms": {"doc_type": list(doc_type)}})
+        else:
+            query_filters.append({"term": {"doc_type": doc_type}})
     if filters.get("content_kind"):
         query_filters.append({"term": {"metadata.content_kind": filters["content_kind"]}})
+    if filters.get("year"):
+        year = str(filters["year"])
+        query_filters.append(
+            {
+                "bool": {
+                    "should": [
+                        {"term": {"metadata.object_year": year}},
+                        {"term": {"metadata.object_year.keyword": year}},
+                        {"term": {"metadata.year": year}},
+                        {"term": {"metadata.year.keyword": year}},
+                        {"term": {"metadata.listing_year": year}},
+                        {"term": {"metadata.listing_year.keyword": year}},
+                        {"term": {"object_year": year}},
+                    ],
+                    "minimum_should_match": 1,
+                }
+            }
+        )
     if filters.get("date_from") or filters.get("date_to"):
         date_filter: dict[str, Any] = {}
         if filters.get("date_from"):

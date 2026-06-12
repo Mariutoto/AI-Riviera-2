@@ -557,8 +557,12 @@ THEME_QUERY_TERMS = [
 
 THEME_STOPWORDS = {
     "annee",
+    "actuelle",
     "avec",
     "bus",
+    "cette",
+    "dans",
+    "legislature",
     "communal",
     "communale",
     "commune",
@@ -613,14 +617,77 @@ def theme_tokens(question: str) -> list[str]:
     return list(dict.fromkeys(cleaned))[:10]
 
 
-def answer_themed_objects_db(question: str) -> str | None:
-    if not wants_themed_political_objects(question):
-        return None
-    tokens = theme_tokens(question)
-    if not tokens:
-        return None
-    year = extract_year(question)
-    object_types = requested_object_types(question)
+def object_id_from_search_hit(hit: dict[str, Any]) -> str | None:
+    metadata = hit.get("metadata") or {}
+    political_object = metadata.get("political_object") or {}
+    related_canonical = metadata.get("related_canonical_interpellation") or {}
+    candidates = [
+        hit.get("political_object_id"),
+        metadata.get("political_object_id"),
+        metadata.get("related_political_object_id"),
+        political_object.get("object_id") if isinstance(political_object, dict) else None,
+        related_canonical.get("political_object_id") if isinstance(related_canonical, dict) else None,
+    ]
+    for candidate in candidates:
+        if candidate:
+            return str(candidate)
+    return None
+
+
+def rows_for_object_ids(object_ids: list[str], object_types: set[str], year: str | None) -> list[dict[str, Any]] | None:
+    if not object_ids:
+        return []
+    params: list[Any] = [object_ids, sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
+    params.append(object_ids)
+    return postgres_rows(
+        f"""
+        SELECT po.object_id, po.object_type, po.year, po.object_title,
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+               po.authors
+        FROM political_objects po
+        WHERE po.object_id = ANY(%s)
+          AND po.object_type = ANY(%s)
+          {year_filter}
+        ORDER BY array_position(%s::text[], po.object_id), po.deposit_date ASC NULLS LAST
+        LIMIT 20
+        """,
+        tuple(params),
+        operation="rows_for_object_ids",
+    )
+
+
+def opensearch_themed_object_rows(
+    question: str,
+    tokens: list[str],
+    object_types: set[str],
+    year: str | None,
+) -> list[dict[str, Any]]:
+    try:
+        from app.hybrid_search import search_hybrid
+    except Exception:
+        return []
+
+    doc_types = [DEPOSIT_CATEGORY_BY_TYPE[object_type] for object_type in sorted(object_types)]
+    filters: dict[str, Any] = {"doc_type": doc_types}
+    if year:
+        filters["year"] = year
+    enhanced_query = f"{question} {' '.join(tokens)}"
+    hits = search_hybrid(enhanced_query, limit=30, filters=filters)
+    object_ids = []
+    for hit in hits:
+        object_id = object_id_from_search_hit(hit)
+        if object_id:
+            object_ids.append(object_id)
+    ordered_ids = list(dict.fromkeys(object_ids))
+    rows = rows_for_object_ids(ordered_ids, object_types, year)
+    return rows or []
+
+
+def postgres_title_themed_object_rows(tokens: list[str], object_types: set[str], year: str | None) -> list[dict[str, Any]] | None:
     patterns = [f"%{token}%" for token in tokens]
     params: list[Any] = [sorted(object_types)]
     year_filter = ""
@@ -649,6 +716,30 @@ def answer_themed_objects_db(question: str) -> str | None:
         tuple(params),
         operation="answer_themed_objects",
     )
+    return rows
+
+
+def merge_object_rows(*row_groups: list[dict[str, Any]] | None) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for rows in row_groups:
+        for row in rows or []:
+            object_id = str(row.get("object_id") or "")
+            if object_id and object_id not in merged:
+                merged[object_id] = row
+    return list(merged.values())
+
+
+def answer_themed_objects_db(question: str) -> str | None:
+    if not wants_themed_political_objects(question):
+        return None
+    tokens = theme_tokens(question)
+    if not tokens:
+        return None
+    year = extract_year(question)
+    object_types = requested_object_types(question)
+    opensearch_rows = opensearch_themed_object_rows(question, tokens, object_types, year)
+    title_rows = postgres_title_themed_object_rows(tokens, object_types, year)
+    rows = merge_object_rows(opensearch_rows, title_rows)
     if rows is None:
         return None
     if not rows:
