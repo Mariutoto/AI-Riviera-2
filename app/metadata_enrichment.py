@@ -19,7 +19,9 @@ POLITICAL_TYPES = {
 }
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+METADATA_TEMPLATE_DIR = PROJECT_ROOT / "app" / "metadata_templates"
 COUNCIL_MEMBERS_PATH = PROJECT_ROOT / "data" / "institutionnel" / "la-tour-de-peilz" / "conseil_communal_members.json"
+LEGACY_METADATA_AUDIT_V2 = "metadata-audit-v2"
 PARTY_ALIASES = {
     "plr": "PLR",
     "plr les liberaux radicaux": "PLR",
@@ -73,24 +75,28 @@ FUTURE_TABLES_BY_CATEGORY = {
     "autres": ["document_links", "misc_information"],
 }
 
+def metadata_template_source(filename: str) -> str:
+    return (METADATA_TEMPLATE_DIR / filename).relative_to(PROJECT_ROOT).as_posix()
+
+
 CATEGORY_TEMPLATE_SOURCE = {
-    "budget": "01-budget.enriched.json",
-    "budgets": "01-budget.enriched.json",
-    "preavis-municipaux": "02-preavis-municipal.enriched.json",
-    "proces-verbaux": "03-proces-verbal.enriched.json",
-    "ordres-du-jour": "04-ordre-du-jour.enriched.json",
-    "communications-municipales": "05-communication-municipale.enriched.json",
-    "informations-diverses": "06-information-diverse.enriched.json",
-    "infos-municipalite": "07-info-municipalite.enriched.json",
-    "motions": "08-motion.enriched.json",
-    "postulats": "09-postulat.enriched.json",
-    "interpellations": "10-interpellation.enriched.json",
-    "rapport-de-gestion": "11-rapport-gestion.enriched.json",
-    "rapport-gestion": "11-rapport-gestion.enriched.json",
-    "rapport-des-comptes": "11-rapport-gestion.enriched.json",
-    "conseil-communal": "12-institutionnel.enriched.json",
-    "institutionnel": "12-institutionnel.enriched.json",
-    "autres": "12-institutionnel.enriched.json",
+    "budget": metadata_template_source("01-budget.enriched.json"),
+    "budgets": metadata_template_source("01-budget.enriched.json"),
+    "preavis-municipaux": metadata_template_source("02-preavis-municipal.enriched.json"),
+    "proces-verbaux": metadata_template_source("03-proces-verbal.enriched.json"),
+    "ordres-du-jour": metadata_template_source("04-ordre-du-jour.enriched.json"),
+    "communications-municipales": metadata_template_source("05-communication-municipale.enriched.json"),
+    "informations-diverses": metadata_template_source("06-information-diverse.enriched.json"),
+    "infos-municipalite": metadata_template_source("07-info-municipalite.enriched.json"),
+    "motions": metadata_template_source("08-motion.enriched.json"),
+    "postulats": metadata_template_source("09-postulat.enriched.json"),
+    "interpellations": metadata_template_source("10-interpellation.enriched.json"),
+    "rapport-de-gestion": metadata_template_source("11-rapport-gestion.enriched.json"),
+    "rapport-gestion": metadata_template_source("11-rapport-gestion.enriched.json"),
+    "rapport-des-comptes": metadata_template_source("11-rapport-gestion.enriched.json"),
+    "conseil-communal": metadata_template_source("12-institutionnel.enriched.json"),
+    "institutionnel": metadata_template_source("12-institutionnel.enriched.json"),
+    "autres": metadata_template_source("12-institutionnel.enriched.json"),
 }
 
 CATEGORY_SEARCH_FACETS = {
@@ -780,7 +786,7 @@ def enrich_category_specific_fields(enriched: dict[str, Any], category: str, con
         })
 
     elif category == "informations-diverses":
-        if enriched.get("metadata_version") != "metadata-audit-v2":
+        if enriched.get("metadata_version") != LEGACY_METADATA_AUDIT_V2:
             enriched.setdefault("misc_information", {
                 "contains_calendar": any(term in normalized for term in ["agenda", "calendrier", "seance", "echeance"]),
                 "contains_linked_documents": count_pdf_links(content) > 0,
@@ -854,7 +860,7 @@ def enrich_metadata(metadata: dict[str, Any], text_path: Path | None = None, con
     year = enriched.get("year") or (text_path.parts[-3] if text_path and len(text_path.parts) >= 3 else "")
     content_kind = infer_content_kind(enriched, category)
 
-    enriched.setdefault("metadata_version", "metadata-audit-v1")
+    enriched.setdefault("metadata_version", "metadata-template-v1")
     enriched.setdefault("metadata_template", CATEGORY_TEMPLATE_SOURCE.get(category))
     enriched.setdefault("commune", "La Tour-de-Peilz")
     if not enriched.get("doc_type"):

@@ -6,7 +6,7 @@ from typing import Any
 
 from app.config import STRUCTURED_DATA_DIR
 from app.diagnostics import record_diagnostic
-from app.text_cleaning import strip_accents
+from app.text_cleaning import fix_mojibake, strip_accents
 
 
 DEPOSIT_TYPES = {"motion", "postulat", "interpellation"}
@@ -124,10 +124,17 @@ def requested_object_types(question: str) -> set[str]:
 
 def object_type_label(object_type: str) -> str:
     return {
-        "motion": "motion",
-        "postulat": "postulat",
-        "interpellation": "interpellation",
+        "motion": "Motion",
+        "postulat": "Postulat",
+        "interpellation": "Interpellation",
     }.get(object_type, object_type)
+
+
+def object_type_count_label(object_type: str, count: int) -> str:
+    label = object_type_label(object_type).lower()
+    if count > 1:
+        label = f"{label}s"
+    return f"{count} {label}"
 
 
 def source_markdown(source_url: str, label: str = "source") -> str:
@@ -137,7 +144,71 @@ def source_markdown(source_url: str, label: str = "source") -> str:
 
 
 def format_date(value: Any) -> str:
-    return str(value)[:10] if value else ""
+    raw = str(value)[:10] if value else ""
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not match:
+        return raw
+    year, month, day = match.groups()
+    months = {
+        "01": "janvier",
+        "02": "février",
+        "03": "mars",
+        "04": "avril",
+        "05": "mai",
+        "06": "juin",
+        "07": "juillet",
+        "08": "août",
+        "09": "septembre",
+        "10": "octobre",
+        "11": "novembre",
+        "12": "décembre",
+    }
+    return f"{int(day)} {months.get(month, month)} {year}"
+
+
+def status_stage_label(status_stage: Any) -> str:
+    return {
+        "referred": "Renvoyée à la Municipalité",
+        "pending": "En attente",
+        "answered": "Réponse publiée",
+        "closed": "Clos",
+    }.get(str(status_stage or ""), str(status_stage or "").replace("_", " "))
+
+
+def status_decision_label(status_decision: Any) -> str:
+    return {
+        "pending_municipality": "En attente de traitement par la Municipalité",
+        "referred_directly_to_municipality": "Renvoyée directement à la Municipalité",
+        "accepted": "Accepté",
+        "refused": "Refusé",
+    }.get(str(status_decision or ""), str(status_decision or "").replace("_", " "))
+
+
+def author_names(row: dict[str, Any]) -> list[str]:
+    authors = row.get("authors") or []
+    if not isinstance(authors, list):
+        return []
+    names = []
+    for author in authors:
+        if isinstance(author, dict):
+            name = fix_mojibake(str(author.get("name") or "")).strip()
+            party = fix_mojibake(str(author.get("party") or "")).strip()
+            if name and party:
+                names.append(f"{name} ({party})")
+            elif name:
+                names.append(name)
+        elif str(author).strip():
+            names.append(fix_mojibake(str(author)).strip())
+    return list(dict.fromkeys(names))
+
+
+def compact_author_text(row: dict[str, Any]) -> str:
+    names = author_names(row)
+    if not names:
+        return ""
+    if len(names) <= 2:
+        return ", ".join(names)
+    return f"{', '.join(names[:2])} et {len(names) - 2} autres"
 
 
 def find_person_in_question(question: str) -> dict[str, Any] | None:
@@ -205,30 +276,25 @@ def object_source_suffix(object_id: str, sources_by_object: dict[str, list[dict[
     links = []
     for index, source in enumerate(sources, start=1):
         url = source.get("document_source_url") or source.get("source_url") or ""
-        label = "source canonique" if str(source.get("relation_type", "")).startswith("canonical") else "document lié"
+        label = "PDF" if str(source.get("relation_type", "")).startswith("canonical") else "Document lié"
+        suffix = f" {index}" if len(sources) > 1 else ""
         if url:
-            links.append(f"[{label} {index}]({url})")
-    return f" ({', '.join(links)})" if links else ""
+            links.append(f"[{label}{suffix}]({url})")
+    return f" · {', '.join(links)}" if links else ""
 
 
 def object_summary(row: dict[str, Any]) -> str:
     parts = [object_type_label(str(row.get("object_type") or ""))]
-    if row.get("year"):
-        parts.append(str(row["year"]))
-    if row.get("status_stage"):
-        parts.append(str(row["status_stage"]))
-    if row.get("status_decision"):
-        parts.append(str(row["status_decision"]).replace("_", " "))
-    dates = []
+    author_text = compact_author_text(row)
+    if author_text:
+        parts.append(author_text)
     if row.get("deposit_date"):
-        dates.append(f"dépôt {format_date(row['deposit_date'])}")
-    if row.get("decision_date"):
-        dates.append(f"décision {format_date(row['decision_date'])}")
-    if row.get("response_date"):
-        dates.append(f"réponse {format_date(row['response_date'])}")
-    if dates:
-        parts.append(", ".join(dates))
-    return "; ".join(part for part in parts if part)
+        parts.append(f"déposée le {format_date(row['deposit_date'])}")
+    if row.get("status_stage"):
+        parts.append(status_stage_label(row["status_stage"]))
+    elif row.get("status_decision"):
+        parts.append(status_decision_label(row["status_decision"]))
+    return " · ".join(part for part in parts if part)
 
 
 def wants_person_deposits(question: str) -> bool:
@@ -430,7 +496,8 @@ def answer_objects_by_status_db(question: str) -> str | None:
     rows = postgres_rows(
         f"""
         SELECT po.object_id, po.object_type, po.year, po.object_title,
-               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+               po.authors
         FROM political_objects po
         WHERE po.object_type = ANY(%s)
           AND {status_filter[0]}
@@ -446,9 +513,13 @@ def answer_objects_by_status_db(question: str) -> str | None:
     if not rows:
         return "Je ne trouve aucun objet correspondant dans les tables structurées."
     sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
-    lines = [f"Je trouve **{len(rows)} objet(s)** correspondant(s) dans la base structurée:", ""]
+    object_label = "objet" if len(rows) == 1 else "objets"
+    lines = [f"J'ai trouvé **{len(rows)} {object_label}** correspondant:", ""]
     for index, row in enumerate(rows, start=1):
-        lines.append(f"{index}. **{row['object_title']}** - {object_summary(row)}{object_source_suffix(row['object_id'], sources)}")
+        lines.append(
+            f"{index}. **{row['object_title']}**  \n"
+            f"   {object_summary(row)}{object_source_suffix(row['object_id'], sources)}"
+        )
     return "\n".join(lines)
 
 
@@ -467,7 +538,8 @@ def answer_objects_by_year_db(question: str) -> str | None:
     rows = postgres_rows(
         """
         SELECT po.object_id, po.object_type, po.year, po.object_title,
-               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+               po.authors
         FROM political_objects po
         WHERE po.object_type = ANY(%s)
           AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)
@@ -483,13 +555,18 @@ def answer_objects_by_year_db(question: str) -> str | None:
         return None
     counts = Counter(str(row["object_type"]) for row in rows)
     sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+    count_text = ", ".join(object_type_count_label(object_type, count) for object_type, count in sorted(counts.items()))
     lines = [
-        f"En **{year}**, je trouve **{len(rows)} objet(s)** dans les tables structurées: "
-        + ", ".join(f"{count} {object_type_label(object_type)}(s)" for object_type, count in sorted(counts.items())),
+        f"En **{year}**, j'ai trouvé **{len(rows)} objet(s)**: "
+        + ", ".join(object_type_count_label(object_type, count) for object_type, count in sorted(counts.items())),
         "",
     ]
+    lines = [f"En **{year}**, j'ai trouvé **{count_text}**.", ""]
     for index, row in enumerate(rows, start=1):
-        lines.append(f"{index}. **{row['object_title']}** - {object_summary(row)}{object_source_suffix(row['object_id'], sources)}")
+        lines.append(
+            f"{index}. **{row['object_title']}**  \n"
+            f"   {object_summary(row)}{object_source_suffix(row['object_id'], sources)}"
+        )
     return "\n".join(lines)
 
 

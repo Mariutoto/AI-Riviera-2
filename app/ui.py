@@ -234,7 +234,8 @@ with chat_tab:
         st.session_state.pending_question = None
 
     for message_index, message in enumerate(st.session_state.messages):
-        with st.chat_message(message["role"]):
+        avatar = ":material/person:" if message["role"] == "user" else ":material/find_in_page:"
+        with st.chat_message(message["role"], avatar=avatar):
             results = message.get("results", [])
             source_count = len(group_results_by_document(results)) if results else 0
             st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
