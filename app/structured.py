@@ -170,6 +170,8 @@ def status_stage_label(status_stage: Any) -> str:
     return {
         "referred": "Renvoyée à la Municipalité",
         "pending": "En attente",
+        "submitted": "Déposé",
+        "decided": "Traité",
         "answered": "Réponse publiée",
         "closed": "Clos",
     }.get(str(status_stage or ""), str(status_stage or "").replace("_", " "))
@@ -179,8 +181,14 @@ def status_decision_label(status_decision: Any) -> str:
     return {
         "pending_municipality": "En attente de traitement par la Municipalité",
         "referred_directly_to_municipality": "Renvoyée directement à la Municipalité",
+        "pending": "En attente",
+        "awaiting_response": "En attente de réponse",
+        "response_available": "Réponse disponible",
+        "decision_available": "Décision disponible",
         "accepted": "Accepté",
         "refused": "Refusé",
+        "withdrawn": "Retiré",
+        "not_supported": "Non soutenu",
     }.get(str(status_decision or ""), str(status_decision or "").replace("_", " "))
 
 
@@ -525,7 +533,139 @@ def answer_objects_by_status_db(question: str) -> str | None:
 
 def wants_objects_by_year_db(question: str) -> bool:
     normalized = normalize(question)
+    if wants_themed_political_objects(question):
+        return False
     return bool(extract_year(question)) and any(term in normalized for term in ["liste", "quels", "quelles", "combien", "objets", "deposes", "depose"])
+
+
+THEME_QUERY_TERMS = [
+    "parle",
+    "parlent",
+    "mentionne",
+    "mentionnent",
+    "concerne",
+    "concernent",
+    "sujet",
+    "theme",
+    "themes",
+    "lie a",
+    "lies a",
+    "relative",
+    "relatifs",
+    "sur ",
+]
+
+THEME_STOPWORDS = {
+    "annee",
+    "avec",
+    "bus",
+    "communal",
+    "communale",
+    "commune",
+    "conseil",
+    "document",
+    "documents",
+    "interpellation",
+    "interpellations",
+    "mentionne",
+    "mentionnent",
+    "mobilite",
+    "objet",
+    "objets",
+    "parle",
+    "parlent",
+    "politique",
+    "politiques",
+    "postulat",
+    "postulats",
+    "motion",
+    "motions",
+    "quelle",
+    "quelles",
+    "quels",
+    "sujet",
+    "theme",
+    "themes",
+}
+
+
+def wants_themed_political_objects(question: str) -> bool:
+    normalized = normalize(question)
+    has_object_scope = any(term in normalized for term in ["objet", "objets", "motion", "postulat", "interpellation"])
+    has_theme_marker = any(term in normalized for term in THEME_QUERY_TERMS)
+    return has_object_scope and has_theme_marker
+
+
+def theme_tokens(question: str) -> list[str]:
+    normalized = normalize(question)
+    tokens = re.findall(r"[a-z0-9]{3,}", normalized)
+    cleaned = []
+    for token in tokens:
+        if token in THEME_STOPWORDS or re.fullmatch(r"20\d{2}", token):
+            continue
+        cleaned.append(token)
+        if len(token) > 5 and token.endswith("e"):
+            cleaned.append(token[:-1])
+    if "mobilite" in tokens:
+        cleaned.extend(["mobilite", "mobilit", "transport", "transports", "vmcv"])
+    if "bus" in tokens:
+        cleaned.extend(["bus", "arret", "arrets", "vmcv"])
+    return list(dict.fromkeys(cleaned))[:10]
+
+
+def answer_themed_objects_db(question: str) -> str | None:
+    if not wants_themed_political_objects(question):
+        return None
+    tokens = theme_tokens(question)
+    if not tokens:
+        return None
+    year = extract_year(question)
+    object_types = requested_object_types(question)
+    patterns = [f"%{token}%" for token in tokens]
+    params: list[Any] = [sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
+    params.extend([patterns, patterns, patterns])
+    rows = postgres_rows(
+        f"""
+        SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+               po.authors
+        FROM political_objects po
+        LEFT JOIN political_object_documents pod ON pod.object_id = po.object_id
+        LEFT JOIN documents d ON d.id = pod.document_id
+        WHERE po.object_type = ANY(%s)
+          {year_filter}
+          AND (
+              po.object_title ILIKE ANY(%s)
+              OR d.title ILIKE ANY(%s)
+              OR d.source_path ILIKE ANY(%s)
+          )
+        ORDER BY po.deposit_date ASC NULLS LAST, po.object_type, po.object_title
+        LIMIT 20
+        """,
+        tuple(params),
+        operation="answer_themed_objects",
+    )
+    if rows is None:
+        return None
+    if not rows:
+        year_text = f" en **{year}**" if year else ""
+        return f"Je ne trouve aucun objet politique correspondant à ce thème{year_text} dans les tables structurées."
+
+    counts = Counter(str(row["object_type"]) for row in rows)
+    sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+    count_text = ", ".join(object_type_count_label(object_type, count) for object_type, count in sorted(counts.items()))
+    year_text = f" en **{year}**" if year else ""
+    lines = [f"Pour ce thème{year_text}, j'ai trouvé **{count_text}**.", ""]
+    for index, row in enumerate(rows, start=1):
+        lines.append(
+            f"{index}. **{row['object_title']}**  \n"
+            f"   {object_summary(row)}{object_source_suffix(row['object_id'], sources)}"
+        )
+    return "\n".join(lines)
 
 
 def answer_objects_by_year_db(question: str) -> str | None:
@@ -577,6 +717,7 @@ def answer_database_first(question: str) -> str | None:
         answer_person_deposits_db(question)
         or answer_coauthors_db(question)
         or answer_count_by_party_db(question)
+        or answer_themed_objects_db(question)
         or answer_objects_by_status_db(question)
         or answer_objects_by_year_db(question)
     )

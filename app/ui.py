@@ -16,13 +16,21 @@ from app.retrieval import search
 from app.structured import answer_structured_question
 from app.text_cleaning import fix_mojibake
 
+SUGGESTED_QUESTIONS = [
+    "Quelles interpellations ont reçu une réponse en 2025 ?",
+    "Quelle motion de 2026 a été renvoyée à la Municipalité ?",
+    "Quels objets politiques parlent de mobilité ou de bus ?",
+    "Quels postulats ont été déposés en 2024 ?",
+]
+
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
-st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz - projet à but non lucratif")
+st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
 st.caption(
-    "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz - "
+    "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
+    "(Legislatur 2021-2026) - "
     "nicht gewinnorientiertes Projekt"
 )
 
@@ -31,6 +39,20 @@ st.markdown(
     <style>
     [data-testid="stSidebar"], [data-testid="collapsedControl"] {
         display: none;
+    }
+
+    div[data-testid="stButton"] > button {
+        background: #f3f7fd;
+        border: 1px solid #c9d8ef;
+        color: #253247;
+        min-height: 3rem;
+        text-align: left;
+    }
+
+    div[data-testid="stButton"] > button:hover {
+        background: #e8f1ff;
+        border-color: #8eb0df;
+        color: #1f2d42;
     }
 
     .air-loading {
@@ -222,6 +244,11 @@ def answer_question(question: str) -> tuple[str, list[dict], bool]:
     results = search(question, limit=20, filters=current_filters())
     return answer_from_sources(question, results), results, False
 
+
+def queue_question(question: str) -> None:
+    st.session_state.messages.append({"role": "user", "content": question})
+    st.session_state.pending_question = question
+
 with chat_tab:
     st.markdown(
         "Pose une question en langage naturel. L'assistant cherche dans les documents publics "
@@ -233,6 +260,33 @@ with chat_tab:
     if "pending_question" not in st.session_state:
         st.session_state.pending_question = None
 
+    is_answering = st.session_state.pending_question is not None
+    question = None
+    if not is_answering:
+        question = st.chat_input("Pose une question sur les documents...")
+
+    if question and not is_answering:
+        queue_question(question)
+        st.rerun()
+
+    suggestions_slot = st.empty()
+    if not st.session_state.messages and st.session_state.pending_question is None:
+        with suggestions_slot.container():
+            st.markdown("**Questions pour commencer**")
+            for row_start in range(0, len(SUGGESTED_QUESTIONS), 2):
+                columns = st.columns(2)
+                for offset, question_example in enumerate(SUGGESTED_QUESTIONS[row_start : row_start + 2]):
+                    with columns[offset]:
+                        st.button(
+                            question_example,
+                            key=f"suggested-question-{row_start + offset}",
+                            on_click=queue_question,
+                            args=(question_example,),
+                            width="stretch",
+                        )
+    else:
+        suggestions_slot.empty()
+
     for message_index, message in enumerate(st.session_state.messages):
         avatar = ":material/person:" if message["role"] == "user" else ":material/find_in_page:"
         with st.chat_message(message["role"], avatar=avatar):
@@ -242,17 +296,8 @@ with chat_tab:
             if message["role"] == "assistant":
                 render_sources(results, message_index)
 
-    is_answering = st.session_state.pending_question is not None
-    question = None
-    if not is_answering:
-        question = st.chat_input("Pose une question sur les documents...")
-
-    if question and not is_answering:
-        st.session_state.messages.append({"role": "user", "content": question})
-        st.session_state.pending_question = question
-        st.rerun()
-
     if st.session_state.pending_question:
+        suggestions_slot.empty()
         pending_question = st.session_state.pending_question
         st.markdown(
             """
@@ -296,7 +341,7 @@ with eval_tab:
         }
         for item in eval_questions
     ]
-    st.dataframe(eval_rows, use_container_width=True, hide_index=True)
+    st.dataframe(eval_rows, width="stretch", hide_index=True)
 
     def run_eval_question(item: dict) -> None:
         answer, results, structured = answer_question(item["question"])
