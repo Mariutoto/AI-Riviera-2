@@ -179,28 +179,32 @@ def keyword_search(query: str, filters: dict[str, Any] | None = None, size: int 
 
     if not ensure_index():
         return []
-    response = client.search(
-        index=OPENSEARCH_INDEX,
-        body={
-            "size": size,
-            "query": {
-                "bool": {
-                    "should": [
-                        {
-                            "multi_match": {
-                                "query": query,
-                                "fields": ["content^3", "title^2", "doc_type^1.5", "city^1.5", "source_url"],
-                                "type": "best_fields",
+    try:
+        response = client.search(
+            index=OPENSEARCH_INDEX,
+            body={
+                "size": size,
+                "query": {
+                    "bool": {
+                        "should": [
+                            {
+                                "multi_match": {
+                                    "query": query,
+                                    "fields": ["content^3", "title^2", "doc_type^1.5", "city^1.5", "source_url"],
+                                    "type": "best_fields",
+                                }
                             }
-                        }
-                    ],
-                    "minimum_should_match": 1,
-                    "filter": _filters_to_query(filters),
-                }
+                        ],
+                        "minimum_should_match": 1,
+                        "filter": _filters_to_query(filters),
+                    }
+                },
             },
-        },
-        request_timeout=OPENSEARCH_TIMEOUT,
-    )
+            request_timeout=OPENSEARCH_TIMEOUT,
+        )
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch keyword search failed", exc, query=query[:300], filters=filters)
+        return []
     return [_normalize_hit(hit, "keyword") for hit in response.get("hits", {}).get("hits", [])]
 
 
@@ -208,27 +212,30 @@ def knn_search(vector: list[float], filters: dict[str, Any] | None = None, size:
     client = get_client()
     if client is None or not vector:
         return []
+    if filters:
+        return []
 
     if not ensure_index():
         return []
-    response = client.search(
-        index=OPENSEARCH_INDEX,
-        body={
-            "size": size,
-            "query": {
-                "bool": {
-                    "filter": _filters_to_query(filters),
-                }
+    try:
+        response = client.search(
+            index=OPENSEARCH_INDEX,
+            body={
+                "size": size,
+                "query": {
+                    "knn": {
+                        "embedding": {
+                            "vector": vector,
+                            "k": size,
+                        }
+                    }
+                },
             },
-            "knn": {
-                "embedding": {
-                    "vector": vector,
-                    "k": size,
-                }
-            },
-        },
-        request_timeout=OPENSEARCH_TIMEOUT,
-    )
+            request_timeout=OPENSEARCH_TIMEOUT,
+        )
+    except Exception as exc:
+        record_diagnostic("opensearch", "OpenSearch vector search failed", exc, filters=filters)
+        return []
     return [_normalize_hit(hit, "vector") for hit in response.get("hits", {}).get("hits", [])]
 
 

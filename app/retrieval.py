@@ -41,7 +41,7 @@ BROAD_LEGISLATURE_CATEGORIES = {
 
 def tokenize(text: str) -> list[str]:
     text = strip_accents(text)
-    tokens = re.findall(r"[a-zA-ZÀ-ÿ0-9]{3,}", text.lower())
+    tokens = re.findall(r"(?:[^\W_]|[0-9]){3,}", text.lower(), flags=re.UNICODE)
     return [token for token in tokens if token not in STOPWORDS]
 
 

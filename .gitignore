@@ -9,6 +9,8 @@ data/index/
 *.sqlite3
 documents/**/*.pdf
 pdf-test/output/
+streamlit-*.log
+streamlit-*.err.log
 
 # OS/editor noise
 .DS_Store

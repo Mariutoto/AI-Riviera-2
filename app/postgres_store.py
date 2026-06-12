@@ -314,7 +314,7 @@ def search_chunks(query: str, tokens: list[str], limit: int = 10, filters: dict[
         return []
 
     filters = filters or {}
-    raw_tokens = re.findall(r"[a-zA-ZÀ-ÿ0-9]{3,}", query.lower())
+    raw_tokens = re.findall(r"(?:[^\W_]|[0-9]){3,}", query.lower(), flags=re.UNICODE)
     searchable_tokens = [token for token in dict.fromkeys([*tokens, *raw_tokens]) if len(token) >= 3][:16]
     if not searchable_tokens:
         return []
@@ -431,7 +431,7 @@ def search_vector_chunks(
         return []
 
     filters = filters or {}
-    raw_tokens = re.findall(r"[a-zA-ZÃ€-Ã¿0-9]{3,}", query.lower())
+    raw_tokens = re.findall(r"(?:[^\W_]|[0-9]){3,}", query.lower(), flags=re.UNICODE)
     searchable_tokens = [token for token in dict.fromkeys([*tokens, *raw_tokens]) if len(token) >= 3][:16]
     filters_sql, filter_params = _filter_sql(filters)
     vector_literal = _vector_literal(query_embedding)
