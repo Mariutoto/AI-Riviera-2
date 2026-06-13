@@ -287,7 +287,7 @@ def queue_question(question: str) -> None:
 
 with chat_tab:
     st.markdown(
-        "Pose une question en langage naturel. L'assistant cherche dans les documents publics "
+        "Pose une question et l'assistant cherche dans les documents publics "
         "indexés, puis répond avec les sources utilisées."
     )
 
