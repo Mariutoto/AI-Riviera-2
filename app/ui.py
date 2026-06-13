@@ -9,6 +9,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+ASSETS_DIR = PROJECT_ROOT / "assets"
+MAP_IMAGE_PATH = ASSETS_DIR / "la-tour-de-peilz-map.png"
+LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
+
 from app.answer import answer_from_sources
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
@@ -33,13 +37,19 @@ USER_ERROR_MESSAGE = (
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
-st.title("AI Riviera")
-st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
-st.caption(
-    "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
-    "(Legislatur 2021-2026) - "
-    "nicht gewinnorientiertes Projekt"
-)
+header_text_col, header_image_col = st.columns([0.78, 0.22])
+with header_text_col:
+    st.title("AI Riviera")
+    st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
+    st.caption(
+        "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
+        "(Legislatur 2021-2026) - "
+        "nicht gewinnorientiertes Projekt"
+    )
+
+with header_image_col:
+    if MAP_IMAGE_PATH.exists():
+        st.image(str(MAP_IMAGE_PATH), width=150)
 
 st.markdown(
     """
@@ -451,6 +461,8 @@ with about_tab:
         "un outil d'intérêt public. L'objectif est simple : poser une question comme on la formulerait "
         "à un collègue, puis obtenir une réponse avec les documents sources."
     )
+    if LANDSCAPE_IMAGE_PATH.exists():
+        st.image(str(LANDSCAPE_IMAGE_PATH), caption="La Riviera vaudoise", width="stretch")
 
     st.subheader("Ce qui est déjà dans la base")
     st.write(
@@ -503,6 +515,8 @@ with about_de_tab:
         "Projekt im öffentlichen Interesse. Man stellt eine Frage in normaler Sprache und erhält "
         "eine Antwort mit den verwendeten Quellen."
     )
+    if LANDSCAPE_IMAGE_PATH.exists():
+        st.image(str(LANDSCAPE_IMAGE_PATH), caption="Die Waadtländer Riviera", width="stretch")
 
     st.subheader("Was ist bereits in der Datenbasis?")
     st.write(
