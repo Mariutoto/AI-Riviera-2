@@ -146,7 +146,7 @@ def ensure_index_ready() -> bool:
     if opensearch_ready() or postgres_ready():
         return True
     st.warning(
-        "La base Riviera 2 n'est pas encore prête. Démarre Postgres/OpenSearch ou relance l'indexation "
+        "La base AI Riviera n'est pas encore prête. Relance l'indexation "
         "depuis l'environnement d'administration."
     )
     return False
@@ -252,14 +252,14 @@ def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ..
     if structured_answer:
         return structured_answer, [], True
     if not (opensearch_ready() or postgres_ready()):
-        return "La base Riviera 2 n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
     results = search(question, limit=20, filters=dict(filters_key))
     return answer_from_sources(question, results), results, False
 
 
 def answer_question(question: str) -> tuple[str, list[dict], bool]:
     if not ensure_index_ready():
-        return "La base Riviera 2 n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
 
     started_at = time.perf_counter()
     try:
@@ -464,14 +464,16 @@ with about_tab:
     st.subheader("Comment ça répond ?")
     st.write(
         "Les documents sont transformés en textes propres, découpés en passages, stockés dans Postgres "
-        "et indexés dans OpenSearch. Quand une question est posée, l'application cherche les passages "
-        "les plus pertinents, puis le modèle de langage rédige une réponse en s'appuyant sur ces extraits. "
-        "Les sources restent affichées pour pouvoir vérifier."
+        "avec leurs métadonnées. Quand une question est posée, l'application commence par vérifier si elle "
+        "peut répondre avec les données structurées, puis cherche les passages pertinents dans les documents. "
+        "Le modèle de langage rédige ensuite une réponse en s'appuyant sur ces extraits. Les sources restent "
+        "affichées pour pouvoir vérifier."
     )
     st.write(
-        "Riviera 2 utilise une recherche hybride SQL/OpenSearch. Le mode JSON de la première version "
-        "reste disponible seulement comme export ou fallback explicite. Le prototype utilise actuellement "
-        "Mistral, mais d'autres modèles pourraient être testés, y compris des solutions open source selon les besoins."
+        "La version publiée d'AI Riviera s'appuie principalement sur Postgres et sur une couche de données "
+        "structurées pour les objets politiques. OpenSearch reste une piste de test locale pour améliorer "
+        "certaines recherches thématiques, mais il n'est pas nécessaire au fonctionnement public du prototype. "
+        "Le prototype utilise actuellement Mistral, mais d'autres modèles pourraient être testés selon les besoins."
     )
 
     st.info(
@@ -485,8 +487,8 @@ with next_tab:
         """
 - Mettre en place un web scraping continu pour détecter automatiquement les nouvelles séances, pages et PDF.
 - Étendre la collecte aux autres communes de la Riviera, par exemple Vevey, Montreux, Blonay-Saint-Légier, Veytaux et les communes voisines.
-- Consolider Postgres/OpenSearch comme base principale, avec une recherche sémantique plus rapide et mieux observable.
-- Ajouter un vrai RAG avec embeddings pour mieux comprendre les questions formulées avec des mots différents de ceux des documents.
+- Consolider Postgres comme base principale, avec des données structurées plus complètes et mieux observables.
+- Améliorer la recherche thématique, éventuellement avec embeddings ou OpenSearch si les tests montrent un vrai gain.
 - Créer un espace privé avec login pour les élus ou l'administration, si des documents internes doivent être ajoutés.
 - Améliorer les réponses chiffrées avec des tables structurées pour les budgets, comptes, préavis et décisions financières.
 - Ajouter des filtres simples par commune, année, séance, type de document ou thème.
@@ -514,14 +516,16 @@ with about_de_tab:
     st.subheader("Wie entstehen die Antworten?")
     st.write(
         "Die Dokumente werden in bereinigten Text umgewandelt, in kleinere Abschnitte geteilt, in "
-        "Postgres gespeichert und in OpenSearch indexiert. Bei einer Frage sucht die Anwendung zuerst "
-        "die relevantesten Textstellen. Danach formuliert das Sprachmodell eine Antwort auf Basis dieser "
-        "Auszüge. Die Quellen bleiben sichtbar, damit die Antwort überprüft werden kann."
+        "Postgres mit ihren Metadaten gespeichert. Bei einer Frage prüft die Anwendung zuerst, ob sie mit "
+        "strukturierten Daten antworten kann, und sucht danach passende Textstellen in den Dokumenten. "
+        "Danach formuliert das Sprachmodell eine Antwort auf Basis dieser Auszüge. Die Quellen bleiben "
+        "sichtbar, damit die Antwort überprüft werden kann."
     )
     st.write(
-        "Riviera 2 nutzt eine hybride SQL/OpenSearch-Suche. Der JSON-Modus der ersten Version bleibt "
-        "nur als Export oder expliziter Fallback verfügbar. Der Prototyp nutzt derzeit Mistral, andere "
-        "Modelle oder Open-Source-Lösungen könnten je nach Bedarf ebenfalls geprüft werden."
+        "Die veröffentlichte Version von AI Riviera stützt sich hauptsächlich auf Postgres und auf eine "
+        "strukturierte Datenschicht für politische Objekte. OpenSearch bleibt eine lokale Testoption, um "
+        "bestimmte thematische Suchen zu verbessern, ist aber für den öffentlichen Prototyp nicht erforderlich. "
+        "Der Prototyp nutzt derzeit Mistral; andere Modelle könnten je nach Bedarf ebenfalls geprüft werden."
     )
 
     st.info(
@@ -535,8 +539,8 @@ with next_de_tab:
         """
 - Kontinuierliches Web Scraping einrichten, um neue Sitzungen, Seiten und PDF-Dokumente automatisch zu erkennen.
 - Die Sammlung auf weitere Gemeinden der Riviera ausweiten, zum Beispiel Vevey, Montreux, Blonay-Saint-Légier, Veytaux und Nachbargemeinden.
-- Postgres/OpenSearch als Hauptbasis konsolidieren, mit schnellerer und besser beobachtbarer semantischer Suche.
-- Ein echtes RAG-System mit Embeddings hinzufügen, damit Fragen auch dann besser verstanden werden, wenn andere Wörter als in den Dokumenten verwendet werden.
+- Postgres als Hauptbasis konsolidieren, mit vollständigeren strukturierten Daten und besserer Beobachtbarkeit.
+- Die thematische Suche verbessern, eventuell mit Embeddings oder OpenSearch, falls Tests einen klaren Nutzen zeigen.
 - Einen privaten Bereich mit Login für gewählte Behördenmitglieder oder die Verwaltung schaffen, falls interne Dokumente ergänzt werden sollen.
 - Antworten zu Zahlen mit strukturierten Tabellen für Budgets, Rechnungen, Vorlagen und finanzielle Entscheide verbessern.
 - Einfache Filter nach Gemeinde, Jahr, Sitzung, Dokumenttyp oder Thema hinzufügen.
