@@ -462,6 +462,271 @@ def answer_count_by_party_db(question: str) -> str | None:
     return "\n".join(lines)
 
 
+def money_label(value: Any, currency: str = "CHF") -> str:
+    if value in (None, ""):
+        return ""
+    try:
+        amount = float(value)
+    except (TypeError, ValueError):
+        return str(value)
+    return f"{amount:,.0f} {currency}".replace(",", "'")
+
+
+FINANCIAL_STOPWORDS = {
+    "budget",
+    "budgets",
+    "compte",
+    "comptes",
+    "cout",
+    "couts",
+    "coût",
+    "coûts",
+    "depense",
+    "depenses",
+    "dépense",
+    "dépenses",
+    "charge",
+    "charges",
+    "revenu",
+    "revenus",
+    "montant",
+    "montants",
+    "quel",
+    "quelle",
+    "quels",
+    "quelles",
+    "combien",
+    "dans",
+    "pour",
+    "les",
+    "des",
+    "aux",
+    "avec",
+    "etaient",
+    "étaient",
+}
+
+
+def wants_financial_question(question: str) -> bool:
+    normalized = normalize(question)
+    return any(
+        term in normalized
+        for term in [
+            "budget",
+            "budgets",
+            "compte",
+            "comptes",
+            "charges",
+            "revenus",
+            "depense",
+            "depenses",
+            "cout",
+            "couts",
+            "montant",
+            "financier",
+            "financiere",
+            "personnel",
+        ]
+    )
+
+
+def financial_terms(question: str) -> list[str]:
+    normalized = normalize(question)
+    tokens = re.findall(r"[a-z0-9]{3,}", normalized)
+    terms = [token for token in tokens if token not in FINANCIAL_STOPWORDS and not re.fullmatch(r"20\d{2}", token)]
+    if "personnel" in tokens:
+        terms.extend(["personnel", "traitement", "traitements", "salaire", "salaires", "sociales"])
+    if any(token in tokens for token in ["investissement", "investissements"]):
+        terms.extend(["investissement", "investissements", "credit", "credits"])
+    return list(dict.fromkeys(terms))[:12]
+
+
+def answer_financial_db(question: str) -> str | None:
+    if not wants_financial_question(question):
+        return None
+    year = extract_year(question)
+    if not year:
+        return None
+    terms = financial_terms(question)
+    patterns = [f"%{term}%" for term in terms]
+
+    rows: list[dict[str, Any]] | None
+    if patterns:
+        rows = postgres_rows(
+            """
+            SELECT fal.fiscal_year, fal.service_name, fal.group_name, fal.account_number,
+                   fal.account_label, fal.currency, fal.values, d.source_url, d.title
+            FROM financial_account_lines fal
+            JOIN documents d ON d.id = fal.document_id
+            WHERE fal.fiscal_year = %s
+              AND (
+                fal.service_name ILIKE ANY(%s)
+                OR fal.group_name ILIKE ANY(%s)
+                OR fal.account_label ILIKE ANY(%s)
+                OR fal.account_number ILIKE ANY(%s)
+              )
+            ORDER BY fal.service_name, fal.account_number
+            LIMIT 10
+            """,
+            (int(year), patterns, patterns, patterns, patterns),
+            operation="answer_financial_lines",
+        )
+    else:
+        rows = []
+
+    if rows is None:
+        return None
+    if rows:
+        lines = [f"Dans les lignes financières du budget **{year}**, j'ai trouvé:", ""]
+        for index, row in enumerate(rows, start=1):
+            values = row.get("values") or {}
+            amount = values.get("budget_current")
+            if amount is None:
+                amounts = values.get("amounts_sequence") or []
+                amount = amounts[0] if amounts else None
+            amount_text = money_label(amount, row.get("currency") or "CHF")
+            amount_suffix = f" - **{amount_text}**" if amount_text else ""
+            source = source_markdown(row.get("source_url") or "", "PDF")
+            lines.append(
+                f"{index}. **{row['account_label']}** ({row['account_number']}) - "
+                f"{row['service_name']} / {row['group_name']}{amount_suffix}{source}"
+            )
+        return "\n".join(lines)
+
+    summary_rows = postgres_rows(
+        """
+        SELECT fst.fiscal_year, fst.title, fst.metric, fsr.service_code, fsr.service_name,
+               fsr.values, fst.currency, d.source_url
+        FROM financial_summary_rows fsr
+        JOIN financial_summary_tables fst ON fst.id = fsr.table_id
+        JOIN documents d ON d.id = fst.document_id
+        WHERE fst.fiscal_year = %s
+        ORDER BY fst.metric, fsr.row_order
+        LIMIT 12
+        """,
+        (int(year),),
+        operation="answer_financial_summary",
+    )
+    if summary_rows is None:
+        return None
+    if not summary_rows:
+        return None
+    lines = [f"Pour le budget **{year}**, voici les lignes de synthèse disponibles:", ""]
+    for index, row in enumerate(summary_rows, start=1):
+        values = row.get("values") or {}
+        amount = values.get("budget_current")
+        amount_text = money_label(amount, row.get("currency") or "CHF")
+        amount_suffix = f" - **{amount_text}**" if amount_text else ""
+        source = source_markdown(row.get("source_url") or "", "PDF")
+        lines.append(f"{index}. **{row['service_name']}** ({row['metric']}){amount_suffix}{source}")
+    return "\n".join(lines)
+
+
+REGULATION_STOPWORDS = {
+    "article",
+    "articles",
+    "reglement",
+    "règlement",
+    "conseil",
+    "communal",
+    "commune",
+    "dit",
+    "les",
+    "selon",
+    "quoi",
+    "que",
+    "quel",
+    "quelle",
+    "quels",
+    "quelles",
+    "comment",
+    "peut",
+    "peuvent",
+    "doit",
+    "doivent",
+    "sur",
+}
+
+
+def wants_regulation_question(question: str) -> bool:
+    normalized = normalize(question)
+    return any(term in normalized for term in ["reglement", "rcc", "article", "loi", "legal", "legale"]) and any(
+        term in normalized for term in ["conseil", "communal", "article", "reglement", "rcc"]
+    )
+
+
+def regulation_terms(question: str) -> list[str]:
+    normalized = normalize(question)
+    tokens = re.findall(r"[a-z0-9]{3,}", normalized)
+    terms = []
+    for token in tokens:
+        if token in REGULATION_STOPWORDS or re.fullmatch(r"\d{1,3}", token):
+            continue
+        terms.append(token)
+        if len(token) > 4 and token.endswith("s"):
+            terms.append(token[:-1])
+    return list(dict.fromkeys(terms))[:10]
+
+
+def answer_regulation_db(question: str) -> str | None:
+    if not wants_regulation_question(question):
+        return None
+    normalized = normalize(question)
+    article_match = re.search(r"\b(?:article|art\.?|art)\s*(\d{1,3}(?:bis|ter)?)\b", normalized)
+    if article_match:
+        article_number = article_match.group(1)
+        rows = postgres_rows(
+            """
+            SELECT title, source_url, metadata
+            FROM documents
+            WHERE doc_type = 'reglement-conseil-communal'
+              AND metadata->>'content_kind' = 'regulation_article'
+              AND metadata->>'article_number' = %s
+            LIMIT 1
+            """,
+            (article_number,),
+            operation="answer_regulation_article",
+        )
+    else:
+        terms = regulation_terms(question)
+        if not terms:
+            return None
+        patterns = [f"%{term}%" for term in terms]
+        rows = postgres_rows(
+            """
+            SELECT title, source_url, metadata
+            FROM documents
+            WHERE doc_type = 'reglement-conseil-communal'
+              AND metadata->>'content_kind' = 'regulation_article'
+              AND (
+                metadata->>'article_title' ILIKE ANY(%s)
+                OR metadata->>'article_text' ILIKE ANY(%s)
+                OR title ILIKE ANY(%s)
+              )
+            ORDER BY metadata->>'article_number'
+            LIMIT 6
+            """,
+            (patterns, patterns, patterns),
+            operation="answer_regulation_topic",
+        )
+    if rows is None:
+        return None
+    if not rows:
+        return "Je ne trouve pas d'article correspondant dans le règlement indexé."
+
+    lines = ["Dans le **Règlement du Conseil communal**, j'ai trouvé:", ""]
+    for index, row in enumerate(rows, start=1):
+        metadata = row.get("metadata") or {}
+        number = metadata.get("article_number") or "?"
+        title = fix_mojibake(str(metadata.get("article_title") or row.get("title") or ""))
+        text = compact_spaces(fix_mojibake(str(metadata.get("article_text") or "")))
+        if len(text) > 650:
+            text = text[:650].rsplit(" ", 1)[0] + "..."
+        source = source_markdown(row.get("source_url") or metadata.get("pdf_url") or "", "PDF")
+        lines.append(f"{index}. **Article {number} - {title}**{source}  \n   {text}")
+    return "\n".join(lines)
+
+
 def status_filter_from_question(question: str) -> tuple[str, Any] | None:
     normalized = normalize(question)
     if any(term in normalized for term in ["ouvert", "ouvertes", "ouverts", "encore en cours", "pas final", "non final"]):
@@ -808,6 +1073,8 @@ def answer_database_first(question: str) -> str | None:
         answer_person_deposits_db(question)
         or answer_coauthors_db(question)
         or answer_count_by_party_db(question)
+        or answer_financial_db(question)
+        or answer_regulation_db(question)
         or answer_themed_objects_db(question)
         or answer_objects_by_status_db(question)
         or answer_objects_by_year_db(question)

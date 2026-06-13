@@ -107,5 +107,25 @@
     ],
     "tags": ["retrieval", "summary", "mobilite", "2023"],
     "difficulty": "hard"
+  },
+  {
+    "id": "q011",
+    "question": "Quels etaient les couts budgetes pour les charges de personnel dans le budget 2021 ?",
+    "expected_answer": "La reponse doit utiliser les lignes financieres structurees du budget 2021 et citer le PDF du budget.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/2021/budget/Budget_2021_LTDP.json"
+    ],
+    "tags": ["structured", "budget", "financial", "2021"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "q012",
+    "question": "Que dit l article 96 du reglement du Conseil communal ?",
+    "expected_answer": "La reponse doit citer l'article 96 du Reglement du Conseil communal, intitule Reponse.",
+    "expected_sources": [
+      "documents/la-tour-de-peilz/institutionnel/reglements/reglement-conseil-communal/art-96.json"
+    ],
+    "tags": ["structured", "reglement", "article"],
+    "difficulty": "medium"
   }
 ]
