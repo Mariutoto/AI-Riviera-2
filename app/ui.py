@@ -10,7 +10,6 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 ASSETS_DIR = PROJECT_ROOT / "assets"
-MAP_IMAGE_PATH = ASSETS_DIR / "la-tour-de-peilz-map.png"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
 from app.answer import answer_from_sources
@@ -37,19 +36,13 @@ USER_ERROR_MESSAGE = (
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
-header_text_col, header_image_col = st.columns([0.78, 0.22])
-with header_text_col:
-    st.title("AI Riviera")
-    st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
-    st.caption(
-        "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
-        "(Legislatur 2021-2026) - "
-        "nicht gewinnorientiertes Projekt"
-    )
-
-with header_image_col:
-    if MAP_IMAGE_PATH.exists():
-        st.image(str(MAP_IMAGE_PATH), width=150)
+st.title("AI Riviera")
+st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
+st.caption(
+    "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
+    "(Legislatur 2021-2026) - "
+    "nicht gewinnorientiertes Projekt"
+)
 
 st.markdown(
     """
