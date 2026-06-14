@@ -258,27 +258,6 @@ def rewrite_query_with_llm(question: str) -> str | None:
     return rewritten
 
 
-def heuristic_intent_route(question: str) -> str | None:
-    normalized = fix_mojibake(question).lower()
-    rag_markers = [
-        "tu penses",
-        "redondant",
-        "redondante",
-        "redondance",
-        "par rapport",
-        "compare",
-        "comparer",
-        "similaire",
-        "similaires",
-        "doublon",
-        "doublons",
-        "pourquoi",
-    ]
-    if any(marker in normalized for marker in rag_markers):
-        return "rag"
-    return None
-
-
 def route_intent_with_openai(question: str) -> str | None:
     return short_openai_completion(INTENT_ROUTER_PROMPT, question, "OPENAI_ROUTER_MODEL", max_tokens=8)
 
@@ -288,10 +267,6 @@ def route_intent_with_mistral(question: str) -> str | None:
 
 
 def route_intent_with_llm(question: str) -> str | None:
-    heuristic = heuristic_intent_route(question)
-    if heuristic:
-        return heuristic
-
     provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
     if provider in {"none", "off", "extracts"}:
         return None
