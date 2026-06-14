@@ -1,3 +1,4 @@
+import json
 import os
 
 import requests
@@ -29,6 +30,18 @@ structured = question factuelle simple sur une donnée structurée: qui a dépos
 rag = question d'analyse, comparaison, redondance, synthèse, jugement, explication, contexte, similarité entre documents, ou question demandant de lire plusieurs extraits.
 
 Si la question demande "tu penses", "redondant", "par rapport à", "comparer", "similaire", "doublon", "pourquoi", réponds rag."""
+
+LLM_RERANK_PROMPT = """Tu rerankes des extraits documentaires pour AI Riviera.
+Choisis les extraits les plus utiles pour répondre précisément à la question.
+Privilégie:
+- le document exact cité dans la question;
+- les sources canoniques et les documents au titre directement lié;
+- les extraits qui contiennent des faits vérifiables;
+- la diversité de documents quand la question demande comparaison ou synthèse.
+Écarte les documents seulement vaguement liés.
+
+Retourne uniquement un tableau JSON d'identifiants, par ordre de pertinence, par exemple: ["1", "4", "2"].
+Ne retourne aucun texte hors JSON."""
 
 
 def get_secret(name: str, default: str | None = None) -> str | None:
@@ -286,6 +299,103 @@ def route_intent_with_llm(question: str) -> str | None:
     if "structured" in route:
         return "structured"
     return None
+
+
+def result_rerank_candidate(result: dict, candidate_id: str) -> dict:
+    metadata = result.get("metadata") or {}
+    title = metadata.get("filename") or metadata.get("title") or result.get("title") or result.get("relative_text_path", "")
+    year = metadata.get("year") or metadata.get("date") or result.get("date") or ""
+    category = metadata.get("category") or metadata.get("doc_type") or result.get("doc_type") or ""
+    source_kind = ""
+    if metadata.get("canonical_object") is True:
+        source_kind = "source canonique"
+    elif metadata.get("canonical_object") is False:
+        source_kind = "document lié"
+    text = fix_mojibake(str(result.get("text") or result.get("content") or "")).strip()
+    text = " ".join(text.split())[:900]
+    return {
+        "id": candidate_id,
+        "title": fix_mojibake(str(title)),
+        "year": str(year),
+        "category": str(category),
+        "source_kind": source_kind,
+        "excerpt": text,
+    }
+
+
+def parse_rerank_ids(content: str, allowed_ids: set[str]) -> list[str]:
+    content = content.strip()
+    if content.startswith("```"):
+        content = content.strip("`").strip()
+        if content.lower().startswith("json"):
+            content = content[4:].strip()
+    start = content.find("[")
+    end = content.rfind("]")
+    if start >= 0 and end > start:
+        content = content[start : end + 1]
+    try:
+        raw_ids = json.loads(content)
+    except json.JSONDecodeError:
+        return []
+    if not isinstance(raw_ids, list):
+        return []
+    ids = []
+    for raw_id in raw_ids:
+        candidate_id = str(raw_id).strip()
+        if candidate_id in allowed_ids and candidate_id not in ids:
+            ids.append(candidate_id)
+    return ids
+
+
+def rerank_results_with_llm(
+    question: str,
+    results: list[dict],
+    keep: int = 20,
+    max_candidates: int = 30,
+) -> list[dict]:
+    if len(results) <= 1:
+        return results
+
+    provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
+    if provider in {"none", "off", "extracts"}:
+        return results[:keep]
+
+    candidates = results[:max_candidates]
+    candidate_by_id = {str(index): result for index, result in enumerate(candidates, start=1)}
+    payload = {
+        "question": question,
+        "candidates": [
+            result_rerank_candidate(result, candidate_id)
+            for candidate_id, result in candidate_by_id.items()
+        ],
+    }
+    user_content = json.dumps(payload, ensure_ascii=False)
+
+    if provider == "mistral":
+        content = short_mistral_completion(LLM_RERANK_PROMPT, user_content, "MISTRAL_RERANK_MODEL", max_tokens=180)
+    elif provider == "openai":
+        content = short_openai_completion(LLM_RERANK_PROMPT, user_content, "OPENAI_RERANK_MODEL", max_tokens=180)
+    else:
+        content = (
+            short_mistral_completion(LLM_RERANK_PROMPT, user_content, "MISTRAL_RERANK_MODEL", max_tokens=180)
+            or short_openai_completion(LLM_RERANK_PROMPT, user_content, "OPENAI_RERANK_MODEL", max_tokens=180)
+        )
+    if not content:
+        return results[:keep]
+
+    selected_ids = parse_rerank_ids(content, set(candidate_by_id))
+    if not selected_ids:
+        return results[:keep]
+
+    selected = [candidate_by_id[candidate_id] for candidate_id in selected_ids]
+    selected_keys = {id(result) for result in selected}
+    for result in results:
+        if len(selected) >= keep:
+            break
+        if id(result) not in selected_keys:
+            selected.append(result)
+            selected_keys.add(id(result))
+    return selected[:keep]
 
 
 def test_mistral_connection() -> tuple[bool, str]:

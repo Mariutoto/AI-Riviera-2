@@ -13,7 +13,7 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
-from app.answer import answer_from_sources, rewrite_query_with_llm, route_intent_with_llm
+from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm, route_intent_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.opensearch_store import ready as opensearch_ready
@@ -338,7 +338,8 @@ def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ..
     if not (opensearch_ready() or postgres_ready()):
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
     retrieval_question = rewrite_query_with_llm(question) or question
-    results = search(retrieval_question, limit=20, filters=dict(filters_key))
+    candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
+    results = rerank_results_with_llm(question, candidates, keep=20, max_candidates=30)
     return answer_from_sources(question, results), results, False
 
 
