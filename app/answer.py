@@ -14,6 +14,14 @@ Les sources sont numérotées par document unique: plusieurs passages sous la m�
 SYSTEM_PROMPT += """
 Quand une source est marquée "source canonique", utilise-la en priorité pour identifier l'objet politique, son statut, ses auteurs et ses dates. Les sources marquées "document lié" servent seulement à compléter avec des détails de rapport, de commission ou de décision."""
 
+QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
+Les règles structurées de l'application n'ont pas su répondre directement.
+Reformule la question en une seule requête de recherche autonome, en français.
+Garde les noms propres, dates, années, types de documents et mots-clés importants.
+Supprime les mots vagues ou conversationnels.
+Ne réponds pas à la question.
+Retourne seulement la requête reformulée, sans guillemets ni explication."""
+
 
 def get_secret(name: str, default: str | None = None) -> str | None:
     value = os.getenv(name)
@@ -156,6 +164,82 @@ def answer_with_mistral(question: str, results: list[dict]) -> str | None:
         return data["choices"][0]["message"]["content"]
     except Exception as exc:
         return f"Je n'ai pas pu appeler Mistral pour générer une synthèse: {exc}"
+
+
+def rewrite_query_with_openai(question: str) -> str | None:
+    api_key = get_secret("OPENAI_API_KEY")
+    if not api_key:
+        return None
+
+    try:
+        from openai import OpenAI
+
+        client = OpenAI(api_key=api_key)
+        response = client.responses.create(
+            model=get_secret("OPENAI_REWRITE_MODEL", get_secret("OPENAI_MODEL", "gpt-4.1-mini")),
+            input=[
+                {"role": "system", "content": QUERY_REWRITE_PROMPT},
+                {"role": "user", "content": question},
+            ],
+            temperature=0,
+            max_output_tokens=120,
+        )
+        rewritten = response.output_text.strip()
+        return rewritten or None
+    except Exception:
+        return None
+
+
+def rewrite_query_with_mistral(question: str) -> str | None:
+    api_key = get_secret("MISTRAL_API_KEY")
+    if not api_key:
+        return None
+
+    try:
+        model = get_secret("MISTRAL_REWRITE_MODEL", get_secret("MISTRAL_MODEL", "mistral-small-latest"))
+        response = requests.post(
+            "https://api.mistral.ai/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": QUERY_REWRITE_PROMPT},
+                    {"role": "user", "content": question},
+                ],
+                "max_tokens": 120,
+                "temperature": 0,
+            },
+            timeout=20,
+        )
+        response.raise_for_status()
+        data = response.json()
+        rewritten = data["choices"][0]["message"]["content"].strip()
+        return rewritten or None
+    except Exception:
+        return None
+
+
+def rewrite_query_with_llm(question: str) -> str | None:
+    provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
+    if provider in {"none", "off", "extracts"}:
+        return None
+
+    if provider == "mistral":
+        rewritten = rewrite_query_with_mistral(question)
+    elif provider == "openai":
+        rewritten = rewrite_query_with_openai(question)
+    else:
+        rewritten = rewrite_query_with_mistral(question) or rewrite_query_with_openai(question)
+
+    if not rewritten:
+        return None
+    rewritten = " ".join(rewritten.split())
+    if not rewritten or len(rewritten) > 500:
+        return None
+    return rewritten
 
 
 def test_mistral_connection() -> tuple[bool, str]:
