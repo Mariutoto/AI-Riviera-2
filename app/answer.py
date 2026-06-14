@@ -22,6 +22,14 @@ Supprime les mots vagues ou conversationnels.
 Ne réponds pas à la question.
 Retourne seulement la requête reformulée, sans guillemets ni explication."""
 
+INTENT_ROUTER_PROMPT = """Tu routes une question pour AI Riviera.
+Réponds uniquement par un seul mot: structured ou rag.
+
+structured = question factuelle simple sur une donnée structurée: qui a déposé, date de dépôt, statut, combien, liste par année/type, article précis du règlement, montant budgétaire précis.
+rag = question d'analyse, comparaison, redondance, synthèse, jugement, explication, contexte, similarité entre documents, ou question demandant de lire plusieurs extraits.
+
+Si la question demande "tu penses", "redondant", "par rapport à", "comparer", "similaire", "doublon", "pourquoi", réponds rag."""
+
 
 def get_secret(name: str, default: str | None = None) -> str | None:
     value = os.getenv(name)
@@ -166,7 +174,7 @@ def answer_with_mistral(question: str, results: list[dict]) -> str | None:
         return f"Je n'ai pas pu appeler Mistral pour générer une synthèse: {exc}"
 
 
-def rewrite_query_with_openai(question: str) -> str | None:
+def short_openai_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
     api_key = get_secret("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -176,27 +184,27 @@ def rewrite_query_with_openai(question: str) -> str | None:
 
         client = OpenAI(api_key=api_key)
         response = client.responses.create(
-            model=get_secret("OPENAI_REWRITE_MODEL", get_secret("OPENAI_MODEL", "gpt-4.1-mini")),
+            model=get_secret(model_env, get_secret("OPENAI_MODEL", "gpt-4.1-mini")),
             input=[
-                {"role": "system", "content": QUERY_REWRITE_PROMPT},
-                {"role": "user", "content": question},
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content},
             ],
             temperature=0,
-            max_output_tokens=120,
+            max_output_tokens=max_tokens,
         )
-        rewritten = response.output_text.strip()
-        return rewritten or None
+        content = response.output_text.strip()
+        return content or None
     except Exception:
         return None
 
 
-def rewrite_query_with_mistral(question: str) -> str | None:
+def short_mistral_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
     api_key = get_secret("MISTRAL_API_KEY")
     if not api_key:
         return None
 
     try:
-        model = get_secret("MISTRAL_REWRITE_MODEL", get_secret("MISTRAL_MODEL", "mistral-small-latest"))
+        model = get_secret(model_env, get_secret("MISTRAL_MODEL", "mistral-small-latest"))
         response = requests.post(
             "https://api.mistral.ai/v1/chat/completions",
             headers={
@@ -206,20 +214,28 @@ def rewrite_query_with_mistral(question: str) -> str | None:
             json={
                 "model": model,
                 "messages": [
-                    {"role": "system", "content": QUERY_REWRITE_PROMPT},
-                    {"role": "user", "content": question},
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_content},
                 ],
-                "max_tokens": 120,
+                "max_tokens": max_tokens,
                 "temperature": 0,
             },
             timeout=20,
         )
         response.raise_for_status()
         data = response.json()
-        rewritten = data["choices"][0]["message"]["content"].strip()
-        return rewritten or None
+        content = data["choices"][0]["message"]["content"].strip()
+        return content or None
     except Exception:
         return None
+
+
+def rewrite_query_with_openai(question: str) -> str | None:
+    return short_openai_completion(QUERY_REWRITE_PROMPT, question, "OPENAI_REWRITE_MODEL", max_tokens=120)
+
+
+def rewrite_query_with_mistral(question: str) -> str | None:
+    return short_mistral_completion(QUERY_REWRITE_PROMPT, question, "MISTRAL_REWRITE_MODEL", max_tokens=120)
 
 
 def rewrite_query_with_llm(question: str) -> str | None:
@@ -240,6 +256,61 @@ def rewrite_query_with_llm(question: str) -> str | None:
     if not rewritten or len(rewritten) > 500:
         return None
     return rewritten
+
+
+def heuristic_intent_route(question: str) -> str | None:
+    normalized = fix_mojibake(question).lower()
+    rag_markers = [
+        "tu penses",
+        "redondant",
+        "redondante",
+        "redondance",
+        "par rapport",
+        "compare",
+        "comparer",
+        "similaire",
+        "similaires",
+        "doublon",
+        "doublons",
+        "pourquoi",
+    ]
+    if any(marker in normalized for marker in rag_markers):
+        return "rag"
+    return None
+
+
+def route_intent_with_openai(question: str) -> str | None:
+    return short_openai_completion(INTENT_ROUTER_PROMPT, question, "OPENAI_ROUTER_MODEL", max_tokens=8)
+
+
+def route_intent_with_mistral(question: str) -> str | None:
+    return short_mistral_completion(INTENT_ROUTER_PROMPT, question, "MISTRAL_ROUTER_MODEL", max_tokens=8)
+
+
+def route_intent_with_llm(question: str) -> str | None:
+    heuristic = heuristic_intent_route(question)
+    if heuristic:
+        return heuristic
+
+    provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
+    if provider in {"none", "off", "extracts"}:
+        return None
+
+    if provider == "mistral":
+        route = route_intent_with_mistral(question)
+    elif provider == "openai":
+        route = route_intent_with_openai(question)
+    else:
+        route = route_intent_with_mistral(question) or route_intent_with_openai(question)
+
+    if not route:
+        return None
+    route = route.strip().lower()
+    if "rag" in route:
+        return "rag"
+    if "structured" in route:
+        return "structured"
+    return None
 
 
 def test_mistral_connection() -> tuple[bool, str]:

@@ -13,7 +13,7 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
-from app.answer import answer_from_sources, rewrite_query_with_llm
+from app.answer import answer_from_sources, rewrite_query_with_llm, route_intent_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.opensearch_store import ready as opensearch_ready
@@ -330,9 +330,11 @@ else:
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
 def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], bool]:
-    structured_answer = answer_structured_question(question)
-    if structured_answer:
-        return structured_answer, [], True
+    intent_route = route_intent_with_llm(question)
+    if intent_route != "rag":
+        structured_answer = answer_structured_question(question)
+        if structured_answer:
+            return structured_answer, [], True
     if not (opensearch_ready() or postgres_ready()):
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
     retrieval_question = rewrite_query_with_llm(question) or question
