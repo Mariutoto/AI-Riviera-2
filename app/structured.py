@@ -130,6 +130,14 @@ def object_type_label(object_type: str) -> str:
     }.get(object_type, object_type)
 
 
+def object_type_with_article(object_type: str) -> str:
+    return {
+        "motion": "La motion",
+        "postulat": "Le postulat",
+        "interpellation": "L'interpellation",
+    }.get(object_type, object_type_label(object_type))
+
+
 def object_type_count_label(object_type: str, count: int) -> str:
     label = object_type_label(object_type).lower()
     if count > 1:
@@ -305,6 +313,122 @@ def object_summary(row: dict[str, Any]) -> str:
     elif row.get("status_decision"):
         parts.append(status_decision_label(row["status_decision"]))
     return " · ".join(part for part in parts if part)
+
+
+OBJECT_LOOKUP_STOPWORDS = {
+    "auteur",
+    "auteure",
+    "auteurs",
+    "autrice",
+    "autrices",
+    "communal",
+    "communale",
+    "commune",
+    "conseil",
+    "depose",
+    "deposee",
+    "deposes",
+    "depot",
+    "interpellation",
+    "interpellations",
+    "motion",
+    "motions",
+    "objet",
+    "objets",
+    "par",
+    "politique",
+    "politiques",
+    "pos",
+    "postulat",
+    "postulats",
+    "qui",
+    "sur",
+    "une",
+}
+
+
+def wants_object_author_question(question: str) -> bool:
+    normalized = normalize(question)
+    asks_who = any(term in normalized for term in ["qui", "quel auteur", "quelle auteure", "auteur", "autrice"])
+    asks_deposit = any(term in normalized for term in ["depose", "deposee", "deposes", "depot", "d?pos", "auteur", "autrice"])
+    has_object_type = bool(requested_object_types(question))
+    return asks_who and has_object_type and (asks_deposit or bool(object_lookup_tokens(question)))
+
+
+def object_lookup_tokens(question: str) -> list[str]:
+    normalized = normalize(question)
+    tokens = re.findall(r"[a-z0-9]{3,}", normalized)
+    cleaned = []
+    for token in tokens:
+        if token in OBJECT_LOOKUP_STOPWORDS or re.fullmatch(r"20\d{2}", token):
+            continue
+        cleaned.append(token)
+    return list(dict.fromkeys(cleaned))[:6]
+
+
+def answer_object_author_db(question: str) -> str | None:
+    if not wants_object_author_question(question):
+        return None
+    tokens = object_lookup_tokens(question)
+    if not tokens:
+        return None
+    year = extract_year(question)
+    object_types = requested_object_types(question)
+    patterns = [f"%{token}%" for token in tokens]
+    params: list[Any] = [sorted(object_types)]
+    year_filter = ""
+    if year:
+        year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
+        params.extend([year, year, f"%-{year}-%"])
+    params.extend([patterns, patterns, patterns])
+    rows = postgres_rows(
+        f"""
+        SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
+               po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+               po.authors
+        FROM political_objects po
+        LEFT JOIN political_object_documents pod ON pod.object_id = po.object_id
+        LEFT JOIN documents d ON d.id = pod.document_id
+        WHERE po.object_type = ANY(%s)
+          {year_filter}
+          AND (
+              po.object_title ILIKE ALL(%s)
+              OR d.title ILIKE ALL(%s)
+              OR d.source_path ILIKE ALL(%s)
+          )
+        ORDER BY po.deposit_date DESC NULLS LAST, po.object_title
+        LIMIT 6
+        """,
+        tuple(params),
+        operation="answer_object_author",
+    )
+    if rows is None:
+        return None
+    if not rows:
+        return None
+
+    sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+    if len(rows) == 1:
+        row = rows[0]
+        authors = author_names(row)
+        if not authors:
+            return None
+        date_text = f" le **{format_date(row['deposit_date'])}**" if row.get("deposit_date") else ""
+        return (
+            f"{object_type_with_article(str(row['object_type']))} **{row['object_title']}** "
+            f"a été déposée{date_text} par **{', '.join(authors)}**"
+            f"{object_source_suffix(row['object_id'], sources)}."
+        )
+
+    lines = ["J'ai trouvé plusieurs objets possibles; voici leurs auteurs:", ""]
+    for index, row in enumerate(rows, start=1):
+        authors = author_names(row)
+        author_text = ", ".join(authors) if authors else "auteur non identifié"
+        lines.append(
+            f"{index}. **{row['object_title']}** - **{author_text}**"
+            f"{object_source_suffix(row['object_id'], sources)}"
+        )
+    return "\n".join(lines)
 
 
 def wants_person_deposits(question: str) -> bool:
@@ -1094,7 +1218,8 @@ def answer_database_first(question: str) -> str | None:
     if not structured_tables_ready():
         return None
     return (
-        answer_person_deposits_db(question)
+        answer_object_author_db(question)
+        or answer_person_deposits_db(question)
         or answer_coauthors_db(question)
         or answer_count_by_party_db(question)
         or answer_financial_db(question)
