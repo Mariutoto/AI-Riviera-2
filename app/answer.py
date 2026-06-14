@@ -8,7 +8,7 @@ from app.text_cleaning import fix_mojibake
 SYSTEM_PROMPT = """Tu es AI Riviera, un assistant civique.
 Réponds uniquement avec les extraits fournis. Si les sources ne permettent pas de répondre, dis-le clairement.
 Pour une question générale ou de synthèse, utilise les extraits comme échantillon documentaire: donne une réponse utile, mentionne les grandes catégories observées, et précise les limites au lieu de répondre seulement que c'est impossible.
-Réponds dans la langue de la question, de façon concise, et cite les numéros de sources pertinents.
+Réponds dans la langue de la question, de façon concise, et cite les sources pertinentes avec le marqueur "(PDF)" en fin de phrase.
 Dans ce contexte communal, "vote", "voté" ou "votation" désignent par défaut les votes/décisions du Conseil communal ou de ses commissions. Ne les interprète comme référendum, scrutin populaire ou vote citoyen que si la question le demande explicitement.
 Les sources sont numérotées par document unique: plusieurs passages sous la même source ne sont pas des doublons."""
 SYSTEM_PROMPT += """
@@ -266,6 +266,6 @@ def _sources_section(results: list[dict]) -> str:
         source_url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
         label = f"{index}. {title}"
         if source_url:
-            label = f"{label} - {source_url}"
+            label = f"{label} - {source_url} (PDF)"
         lines.append(label)
     return "\n".join(lines)

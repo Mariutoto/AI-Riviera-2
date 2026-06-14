@@ -140,7 +140,9 @@ def object_type_count_label(object_type: str, count: int) -> str:
 def source_markdown(source_url: str, label: str = "source") -> str:
     if not source_url:
         return ""
-    return f" [{label}]({source_url})"
+    if label.strip().lower() == "pdf":
+        return f" ([{label}]({source_url}))"
+    return f" [{label}]({source_url}) (PDF)"
 
 
 def format_date(value: Any) -> str:
@@ -541,6 +543,11 @@ def financial_terms(question: str) -> list[str]:
     return list(dict.fromkeys(terms))[:12]
 
 
+def wants_total(question: str) -> bool:
+    normalized = normalize(question)
+    return any(term in normalized for term in ["total", "somme", "additionne", "additionner", "combien au total"])
+
+
 def answer_financial_db(question: str) -> str | None:
     if not wants_financial_question(question):
         return None
@@ -578,18 +585,35 @@ def answer_financial_db(question: str) -> str | None:
         return None
     if rows:
         lines = [f"Dans les lignes financières du budget **{year}**, j'ai trouvé:", ""]
+        total = 0.0
+        total_count = 0
+        currency = "CHF"
         for index, row in enumerate(rows, start=1):
             values = row.get("values") or {}
             amount = values.get("budget_current")
             if amount is None:
                 amounts = values.get("amounts_sequence") or []
                 amount = amounts[0] if amounts else None
+            try:
+                if amount is not None:
+                    total += float(amount)
+                    total_count += 1
+                    currency = row.get("currency") or currency
+            except (TypeError, ValueError):
+                pass
             amount_text = money_label(amount, row.get("currency") or "CHF")
             amount_suffix = f" - **{amount_text}**" if amount_text else ""
             source = source_markdown(row.get("source_url") or "", "PDF")
             lines.append(
                 f"{index}. **{row['account_label']}** ({row['account_number']}) - "
                 f"{row['service_name']} / {row['group_name']}{amount_suffix}{source}"
+            )
+        if wants_total(question) and total_count:
+            lines.extend(
+                [
+                    "",
+                    f"**Total des {total_count} lignes listées: {money_label(total, currency)}.**",
+                ]
             )
         return "\n".join(lines)
 
