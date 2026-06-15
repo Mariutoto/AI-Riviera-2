@@ -621,6 +621,10 @@ with about_tab:
             "Le projet est à but non lucratif. Son rôle n'est pas de remplacer les documents officiels, "
             "mais de rendre leur consultation plus simple, plus rapide et plus vérifiable."
         )
+        st.markdown(
+            "Le code est open source et consultable sur "
+            "[GitHub](https://github.com/Mariutoto/AI-Riviera-2)."
+        )
     with image_col:
         if LANDSCAPE_IMAGE_PATH.exists():
             st.image(str(LANDSCAPE_IMAGE_PATH), caption="La Riviera vaudoise", width=320)
