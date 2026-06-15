@@ -1722,7 +1722,8 @@ def answer_latest_deposits(question: str) -> str | None:
 
 def answer_structured_question(question: str) -> str | None:
     return (
-        answer_database_first(question)
+        answer_regulation_db(question)
+        or answer_database_first(question)
         or answer_most_deposits(question)
         or answer_deposits_by_year(question)
         or answer_latest_deposits(question)

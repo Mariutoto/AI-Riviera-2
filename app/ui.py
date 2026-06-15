@@ -345,6 +345,10 @@ else:
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
 def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], bool]:
+    structured_answer = answer_structured_question(question)
+    if structured_answer:
+        return structured_answer, [], True
+
     intent_route = route_intent_with_llm(question)
     if intent_route != "rag":
         structured_answer = answer_structured_question(question)
