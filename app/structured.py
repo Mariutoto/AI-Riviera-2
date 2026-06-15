@@ -380,7 +380,7 @@ def answer_object_author_db(question: str) -> str | None:
     if year:
         year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
         params.extend([year, year, f"%-{year}-%"])
-    params.extend([patterns, patterns, patterns])
+    params.extend([patterns, patterns, patterns, patterns])
     rows = postgres_rows(
         f"""
         SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
@@ -392,7 +392,8 @@ def answer_object_author_db(question: str) -> str | None:
         WHERE po.object_type = ANY(%s)
           {year_filter}
           AND (
-              po.object_title ILIKE ALL(%s)
+              po.object_id ILIKE ALL(%s)
+              OR po.object_title ILIKE ALL(%s)
               OR d.title ILIKE ALL(%s)
               OR d.source_path ILIKE ALL(%s)
           )
@@ -1107,7 +1108,7 @@ def postgres_title_themed_object_rows(tokens: list[str], object_types: set[str],
     if year:
         year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
         params.extend([year, year, f"%-{year}-%"])
-    params.extend([patterns, patterns, patterns])
+    params.extend([patterns, patterns, patterns, patterns])
     rows = postgres_rows(
         f"""
         SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
@@ -1119,7 +1120,8 @@ def postgres_title_themed_object_rows(tokens: list[str], object_types: set[str],
         WHERE po.object_type = ANY(%s)
           {year_filter}
           AND (
-              po.object_title ILIKE ANY(%s)
+              po.object_id ILIKE ANY(%s)
+              OR po.object_title ILIKE ANY(%s)
               OR d.title ILIKE ANY(%s)
               OR d.source_path ILIKE ANY(%s)
           )
