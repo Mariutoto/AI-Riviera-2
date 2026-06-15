@@ -1,19 +1,29 @@
 # AI Riviera 2
 
-Prototype de chatbot pour interroger les documents communaux de La Tour-de-Peilz.
+Prototype open source de chatbot pour interroger les documents publics de La Tour-de-Peilz.
 
-Cette version utilise Postgres comme stockage principal, puis indexe les chunks dans OpenSearch pour une recherche hybride BM25 + vectorielle. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
+AI Riviera est un projet à but non lucratif. L'objectif est d'aider les citoyennes, citoyens, élus et personnes intéressées à retrouver plus facilement des informations dans les documents publics communaux, tout en gardant les sources visibles pour vérification.
+
+Code source: https://github.com/Mariutoto/AI-Riviera-2
+
+La version actuelle utilise Postgres comme base principale: documents, passages, métadonnées, données structurées, articles du règlement, objets politiques et données financières. La recherche documentaire peut utiliser les capacités de Postgres, avec OpenSearch comme option locale ou expérimentale pour tester une recherche hybride BM25 + vectorielle. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
 
 ## Lancer le chatbot
 
 ```powershell
 python -m pip install -r requirements.txt
-docker compose -f docker-compose.opensearch.yml up -d
 python -m app.ingest
 python -m streamlit run app/ui.py
 ```
 
 L'application répond avec les passages les plus pertinents et leurs sources. Si une clé Mistral ou OpenAI est configurée, elle génère aussi une synthèse en français à partir des extraits retrouvés.
+
+Pour utiliser OpenSearch en local pendant les tests:
+
+```powershell
+docker compose -f docker-compose.opensearch.yml up -d
+python -m app.ingest
+```
 
 Pour relancer l'ingestion manuellement ou via un job planifié:
 
@@ -21,11 +31,11 @@ Pour relancer l'ingestion manuellement ou via un job planifié:
 python -m app.ingestion_pipeline --trigger-name scheduled
 ```
 
-`python -m app.ingest` alimente Postgres et OpenSearch:
+`python -m app.ingest` alimente Postgres, et OpenSearch seulement s'il est configuré:
 
 - Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
 - Postgres: extrait aussi une couche financiere structuree pour les budgets communaux (`financial_summary_tables`, `financial_summary_rows`, `financial_account_lines`).
-- OpenSearch: indexe les chunks pour la recherche hybride et les filtres.
+- OpenSearch, si disponible: indexe les chunks pour tester la recherche hybride et les filtres.
 
 Pour vérifier OpenSearch en local:
 
@@ -67,6 +77,17 @@ python -m streamlit run app/ui.py
 ```
 
 Avec `LLM_PROVIDER="auto"`, l'app essaie Mistral si `MISTRAL_API_KEY` existe, puis OpenAI si `OPENAI_API_KEY` existe.
+
+## Déploiement Streamlit Cloud
+
+En cloud, les secrets peuvent être fournis comme variables d'environnement ou dans les secrets Streamlit. Les plus importants sont:
+
+- `POSTGRES_URL`: URL de la base Postgres, par exemple Aiven.
+- `LLM_PROVIDER`: `mistral`, `openai` ou `auto`.
+- `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: clé du fournisseur LLM choisi.
+- `OPENAI_API_KEY`: aussi utilisée si des embeddings OpenAI sont activés.
+
+Important: `localhost:9200` désigne uniquement la machine locale. Si OpenSearch tourne sur votre ordinateur, Streamlit Cloud ne peut pas y accéder. Pour le cloud, il faut soit s'appuyer sur Postgres/Aiven, soit configurer un OpenSearch hébergé accessible depuis internet.
 
 ## Données intégrées
 
