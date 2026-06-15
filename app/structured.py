@@ -366,6 +366,21 @@ def object_lookup_tokens(question: str) -> list[str]:
     return list(dict.fromkeys(cleaned))[:6]
 
 
+def quoted_title_patterns(question: str) -> tuple[list[str], list[str]]:
+    phrases = re.findall(r"[\"«“](.+?)[\"»”]", question)
+    title_patterns: list[str] = []
+    slug_patterns: list[str] = []
+    for phrase in phrases:
+        phrase = compact_spaces(phrase)
+        if len(phrase) < 4:
+            continue
+        title_patterns.append(f"%{phrase}%")
+        normalized_tokens = re.findall(r"[a-z0-9]{3,}", normalize(phrase))
+        if normalized_tokens:
+            slug_patterns.append("%" + "%".join(normalized_tokens) + "%")
+    return list(dict.fromkeys(title_patterns)), list(dict.fromkeys(slug_patterns))
+
+
 def answer_object_author_db(question: str) -> str | None:
     if not wants_object_author_question(question):
         return None
@@ -380,6 +395,65 @@ def answer_object_author_db(question: str) -> str | None:
     if year:
         year_filter = "AND (po.year = %s OR EXTRACT(YEAR FROM po.deposit_date)::text = %s OR po.object_id LIKE %s)"
         params.extend([year, year, f"%-{year}-%"])
+    quoted_patterns, quoted_slug_patterns = quoted_title_patterns(question)
+    if quoted_patterns or quoted_slug_patterns:
+        quoted_params: list[Any] = [sorted(object_types)]
+        if year:
+            quoted_params.extend([year, year, f"%-{year}-%"])
+        quoted_params.extend(
+            [
+                quoted_slug_patterns or ["__NO_QUOTED_SLUG__"],
+                quoted_patterns or ["__NO_QUOTED_TITLE__"],
+                quoted_patterns or ["__NO_QUOTED_TITLE__"],
+                quoted_patterns or ["__NO_QUOTED_TITLE__"],
+            ]
+        )
+        rows = postgres_rows(
+            f"""
+            SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
+                   po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+                   po.authors
+            FROM political_objects po
+            LEFT JOIN political_object_documents pod ON pod.object_id = po.object_id
+            LEFT JOIN documents d ON d.id = pod.document_id
+            WHERE po.object_type = ANY(%s)
+              {year_filter}
+              AND (
+                  po.object_id ILIKE ANY(%s)
+                  OR po.object_title ILIKE ANY(%s)
+                  OR d.title ILIKE ANY(%s)
+                  OR d.source_path ILIKE ANY(%s)
+              )
+            ORDER BY po.deposit_date DESC NULLS LAST, po.object_title
+            LIMIT 6
+            """,
+            tuple(quoted_params),
+            operation="answer_object_author_quoted_title",
+        )
+        if rows:
+            sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
+            if len(rows) == 1:
+                row = rows[0]
+                authors = author_names(row)
+                if not authors:
+                    return None
+                date_text = f" le **{format_date(row['deposit_date'])}**" if row.get("deposit_date") else ""
+                return (
+                    f"{object_type_with_article(str(row['object_type']))} **{row['object_title']}** "
+                    f"a Ã©tÃ© dÃ©posÃ©e{date_text} par **{', '.join(authors)}**"
+                    f"{object_source_suffix(row['object_id'], sources)}."
+                )
+
+            lines = ["J'ai trouvÃ© plusieurs objets possibles; voici leurs auteurs:", ""]
+            for index, row in enumerate(rows, start=1):
+                authors = author_names(row)
+                author_text = ", ".join(authors) if authors else "auteur non identifiÃ©"
+                lines.append(
+                    f"{index}. **{row['object_title']}** - **{author_text}**"
+                    f"{object_source_suffix(row['object_id'], sources)}"
+                )
+            return "\n".join(lines)
+
     params.extend([patterns, patterns, patterns, patterns])
     rows = postgres_rows(
         f"""

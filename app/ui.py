@@ -155,6 +155,21 @@ st.markdown(
         line-height: 1.2;
     }
 
+    .air-guide {
+        background: #f7f8fa;
+        border: 1px solid #e2e6ec;
+        border-radius: 0.45rem;
+        color: #3e4652;
+        font-size: 0.92rem;
+        line-height: 1.55;
+        margin: 0.5rem 0 1rem;
+        padding: 0.75rem 0.95rem;
+    }
+
+    .air-guide strong {
+        color: #253247;
+    }
+
     @keyframes airPageFlip {
         0%, 100% {
             transform: translateX(0) rotate(0);
@@ -376,6 +391,21 @@ with chat_tab:
     st.markdown(
         "Pose une question et l'assistant cherche dans les documents publics "
         "indexés, puis répond avec les sources utilisées."
+    )
+
+    st.markdown(
+        """
+        <div class="air-guide">
+            <strong>Conseils rapides</strong>:
+            mettez les titres exacts entre guillemets,
+            ajoutez l'ann&eacute;e si vous la connaissez,
+            et pr&eacute;cisez le type d'objet quand c'est utile
+            (motion, postulat, interpellation, pr&eacute;avis, article).
+            Exemple: Qui a d&eacute;pos&eacute; l'interpellation
+            "Que pr&eacute;voit la Poste pour Notre Poste" en 2024 ?
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
     if "messages" not in st.session_state:
