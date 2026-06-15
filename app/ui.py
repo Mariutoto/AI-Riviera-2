@@ -69,11 +69,6 @@ st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
 st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
-st.caption(
-    "Rechercheassistent für öffentliche Dokumente der Gemeinde La Tour-de-Peilz "
-    "(Legislatur 2021-2026) - "
-    "nicht gewinnorientiertes Projekt"
-)
 
 st.markdown(
     """
@@ -168,6 +163,58 @@ st.markdown(
 
     .air-guide strong {
         color: #253247;
+    }
+
+    .air-about-diagram {
+        align-items: stretch;
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin: 1rem 0 1.25rem;
+    }
+
+    .air-about-step {
+        background: #f7f8fa;
+        border: 1px solid #dfe5ec;
+        border-radius: 0.45rem;
+        color: #303846;
+        min-height: 7.2rem;
+        padding: 0.85rem;
+    }
+
+    .air-about-step strong {
+        color: #1f2d42;
+        display: block;
+        font-size: 0.98rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .air-about-step span {
+        color: #566171;
+        display: block;
+        font-size: 0.9rem;
+        line-height: 1.45;
+    }
+
+    .air-about-note {
+        background: #fff8ea;
+        border: 1px solid #ead7a9;
+        border-radius: 0.45rem;
+        color: #4a3b1d;
+        margin-top: 1rem;
+        padding: 0.8rem 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+        .air-about-diagram {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 560px) {
+        .air-about-diagram {
+            grid-template-columns: 1fr;
+        }
     }
 
     @keyframes airPageFlip {
@@ -333,13 +380,9 @@ def render_sources(results: list[dict], message_index: int) -> None:
 
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
-    chat_tab, eval_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
-        ["Assistant", "Eval", "À propos", "Prochaines étapes", "Über das Projekt", "Nächste Schritte"]
-    )
+    chat_tab, eval_tab, about_tab = st.tabs(["Assistant", "Eval", "À propos"])
 else:
-    chat_tab, about_tab, next_tab, about_de_tab, next_de_tab = st.tabs(
-        ["Assistant", "À propos", "Prochaines étapes", "Über das Projekt", "Nächste Schritte"]
-    )
+    chat_tab, about_tab = st.tabs(["Assistant", "À propos"])
     eval_tab = None
 
 
@@ -566,109 +609,71 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
                 st.dataframe(diagnostics, width="stretch", hide_index=True)
     
 with about_tab:
-    st.subheader("Qu'est-ce que c'est ?")
-    st.write(
-        "AI Riviera est un prototype de chatbot qui aide à retrouver rapidement des informations "
-        "dans les documents publics d'une commune. C'est un projet à but non lucratif, pensé comme "
-        "un outil d'intérêt public. L'objectif est simple : poser une question comme on la formulerait "
-        "à un collègue, puis obtenir une réponse avec les documents sources."
-    )
-    if LANDSCAPE_IMAGE_PATH.exists():
-        st.image(str(LANDSCAPE_IMAGE_PATH), caption="La Riviera vaudoise", width="stretch")
+    st.subheader("À quoi sert AI Riviera ?")
+    intro_col, image_col = st.columns([1.8, 1])
+    with intro_col:
+        st.write(
+            "AI Riviera aide à retrouver plus vite des informations dans les documents publics "
+            "de La Tour-de-Peilz. On peut poser une question en langage normal, par exemple sur "
+            "une interpellation, un article du règlement, un préavis ou un thème discuté au Conseil communal."
+        )
+        st.write(
+            "Le projet est à but non lucratif. Son rôle n'est pas de remplacer les documents officiels, "
+            "mais de rendre leur consultation plus simple, plus rapide et plus vérifiable."
+        )
+    with image_col:
+        if LANDSCAPE_IMAGE_PATH.exists():
+            st.image(str(LANDSCAPE_IMAGE_PATH), caption="La Riviera vaudoise", width=320)
 
-    st.subheader("Ce qui est déjà dans la base")
-    st.write(
-        "Pour La Tour-de-Peilz, le prototype contient déjà une partie importante de la législature "
-        "2021-2026 : ordres du jour, procès-verbaux, motions, postulats, interpellations, réponses, "
-        "préavis municipaux, objets divers, communications municipales, infos de la Municipalité, "
-        "budgets, rapports des comptes, rapports de gestion et rubriques institutionnelles du "
-        "Conseil communal."
-    )
-
-    st.subheader("Comment ça répond ?")
-    st.write(
-        "Les documents sont transformés en textes propres, découpés en passages, stockés dans Postgres "
-        "avec leurs métadonnées. Quand une question est posée, l'application commence par vérifier si elle "
-        "peut répondre avec les données structurées, puis cherche les passages pertinents dans les documents. "
-        "Le modèle de langage rédige ensuite une réponse en s'appuyant sur ces extraits. Les sources restent "
-        "affichées pour pouvoir vérifier."
-    )
-    st.write(
-        "La version publiée d'AI Riviera s'appuie principalement sur Postgres et sur une couche de données "
-        "structurées pour les objets politiques. OpenSearch reste une piste de test locale pour améliorer "
-        "certaines recherches thématiques, mais il n'est pas nécessaire au fonctionnement public du prototype. "
-        "Le prototype utilise actuellement Mistral, mais d'autres modèles pourraient être testés selon les besoins."
-    )
-
-    st.info(
-        "Ce prototype ne remplace pas les documents officiels. Il sert à gagner du temps pour "
-        "chercher, comparer et préparer une première lecture."
-    )
-
-with next_tab:
-    st.subheader("Idées pour une version plus solide")
+    st.subheader("Comment ça marche ?")
     st.markdown(
         """
-- Mettre en place un web scraping continu pour détecter automatiquement les nouvelles séances, pages et PDF.
-- Étendre la collecte aux autres communes de la Riviera, par exemple Vevey, Montreux, Blonay-Saint-Légier, Veytaux et les communes voisines.
-- Consolider Postgres comme base principale, avec des données structurées plus complètes et mieux observables.
-- Améliorer la recherche thématique, éventuellement avec embeddings ou OpenSearch si les tests montrent un vrai gain.
-- Créer un espace privé avec login pour les élus ou l'administration, si des documents internes doivent être ajoutés.
-- Améliorer les réponses chiffrées avec des tables structurées pour les budgets, comptes, préavis et décisions financières.
-- Ajouter des filtres simples par commune, année, séance, type de document ou thème.
+        <div class="air-about-diagram">
+            <div class="air-about-step">
+                <strong>1. Question</strong>
+                <span>Vous écrivez une question simple, avec un titre ou une date si vous les connaissez.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>2. Vérification</strong>
+                <span>L'application regarde d'abord les données fiables: articles, auteurs, dates, objets politiques.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>3. Recherche</strong>
+                <span>Si besoin, elle cherche ensuite les passages utiles dans les PDF et textes indexés.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>4. Réponse</strong>
+                <span>Elle rédige une réponse courte et affiche les sources pour pouvoir contrôler.</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.subheader("Ce que contient la base")
+    st.write(
+        "La base couvre la législature 2021-2026 avec des documents publics comme les ordres du jour, "
+        "procès-verbaux, motions, postulats, interpellations, réponses, préavis municipaux, budgets, "
+        "comptes et rapports de gestion."
+    )
+
+    st.subheader("Ce que l'outil sait bien faire")
+    st.markdown(
+        """
+- retrouver ce que dit un article du règlement;
+- identifier qui a déposé une motion, un postulat ou une interpellation;
+- retrouver l'année, le titre et les sources d'un objet politique;
+- chercher des passages sur un thème comme la mobilité, les finances ou les travaux.
 """
     )
 
-with about_de_tab:
-    st.subheader("Was ist das?")
-    st.write(
-        "AI Riviera ist ein Chatbot-Prototyp, der dabei hilft, Informationen in öffentlichen "
-        "Gemeindedokumenten schneller zu finden. Es handelt sich um ein nicht gewinnorientiertes "
-        "Projekt im öffentlichen Interesse. Man stellt eine Frage in normaler Sprache und erhält "
-        "eine Antwort mit den verwendeten Quellen."
-    )
-    if LANDSCAPE_IMAGE_PATH.exists():
-        st.image(str(LANDSCAPE_IMAGE_PATH), caption="Die Waadtländer Riviera", width="stretch")
-
-    st.subheader("Was ist bereits in der Datenbasis?")
-    st.write(
-        "Für La Tour-de-Peilz enthält der Prototyp bereits einen grossen Teil der Legislatur "
-        "2021-2026: Traktandenlisten, Protokolle, Motionen, Postulate, Interpellationen, Antworten, "
-        "kommunale Vorlagen, verschiedene Objekte, Mitteilungen der Municipalité, Informationen der "
-        "Municipalité, Budgets, Rechnungsberichte, Geschäftsberichte und institutionelle Rubriken "
-        "des Conseil communal."
-    )
-
-    st.subheader("Wie entstehen die Antworten?")
-    st.write(
-        "Die Dokumente werden in bereinigten Text umgewandelt, in kleinere Abschnitte geteilt, in "
-        "Postgres mit ihren Metadaten gespeichert. Bei einer Frage prüft die Anwendung zuerst, ob sie mit "
-        "strukturierten Daten antworten kann, und sucht danach passende Textstellen in den Dokumenten. "
-        "Danach formuliert das Sprachmodell eine Antwort auf Basis dieser Auszüge. Die Quellen bleiben "
-        "sichtbar, damit die Antwort überprüft werden kann."
-    )
-    st.write(
-        "Die veröffentlichte Version von AI Riviera stützt sich hauptsächlich auf Postgres und auf eine "
-        "strukturierte Datenschicht für politische Objekte. OpenSearch bleibt eine lokale Testoption, um "
-        "bestimmte thematische Suchen zu verbessern, ist aber für den öffentlichen Prototyp nicht erforderlich. "
-        "Der Prototyp nutzt derzeit Mistral; andere Modelle könnten je nach Bedarf ebenfalls geprüft werden."
-    )
-
-    st.info(
-        "Dieser Prototyp ersetzt keine offiziellen Dokumente. Er soll helfen, schneller zu suchen, "
-        "zu vergleichen und eine erste Einschätzung vorzubereiten."
-    )
-
-with next_de_tab:
-    st.subheader("Ideen für eine robustere Version")
     st.markdown(
         """
-- Kontinuierliches Web Scraping einrichten, um neue Sitzungen, Seiten und PDF-Dokumente automatisch zu erkennen.
-- Die Sammlung auf weitere Gemeinden der Riviera ausweiten, zum Beispiel Vevey, Montreux, Blonay-Saint-Légier, Veytaux und Nachbargemeinden.
-- Postgres als Hauptbasis konsolidieren, mit vollständigeren strukturierten Daten und besserer Beobachtbarkeit.
-- Die thematische Suche verbessern, eventuell mit Embeddings oder OpenSearch, falls Tests einen klaren Nutzen zeigen.
-- Einen privaten Bereich mit Login für gewählte Behördenmitglieder oder die Verwaltung schaffen, falls interne Dokumente ergänzt werden sollen.
-- Antworten zu Zahlen mit strukturierten Tabellen für Budgets, Rechnungen, Vorlagen und finanzielle Entscheide verbessern.
-- Einfache Filter nach Gemeinde, Jahr, Sitzung, Dokumenttyp oder Thema hinzufügen.
-"""
+        <div class="air-about-note">
+            <strong>À garder en tête:</strong> AI Riviera est une aide à la recherche.
+            Pour une décision, une citation officielle ou une interprétation juridique,
+            il faut toujours vérifier le PDF source affiché dans la réponse.
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
