@@ -406,7 +406,50 @@ def answer_object_author_db(question: str) -> str | None:
     if rows is None:
         return None
     if not rows:
-        return None
+        if not year:
+            return None
+        rows_without_year = postgres_rows(
+            """
+            SELECT DISTINCT po.object_id, po.object_type, po.year, po.object_title,
+                   po.status_stage, po.status_decision, po.deposit_date, po.decision_date, po.response_date,
+                   po.authors
+            FROM political_objects po
+            LEFT JOIN political_object_documents pod ON pod.object_id = po.object_id
+            LEFT JOIN documents d ON d.id = pod.document_id
+            WHERE po.object_type = ANY(%s)
+              AND (
+                  po.object_id ILIKE ALL(%s)
+                  OR po.object_title ILIKE ALL(%s)
+                  OR d.title ILIKE ALL(%s)
+                  OR d.source_path ILIKE ALL(%s)
+              )
+            ORDER BY po.deposit_date DESC NULLS LAST, po.object_title
+            LIMIT 6
+            """,
+            (sorted(object_types), patterns, patterns, patterns, patterns),
+            operation="answer_object_author_without_year",
+        )
+        if rows_without_year is None:
+            return None
+        if not rows_without_year:
+            return f"Je ne trouve pas cette {', '.join(sorted(object_types))} en **{year}** dans les objets politiques structurés."
+
+        sources = sources_for_object_ids([row["object_id"] for row in rows_without_year], limit_per_object=1)
+        lines = [
+            f"Je ne trouve pas cet objet en **{year}**. L'objet correspondant existe dans une autre année:",
+            "",
+        ]
+        for index, row in enumerate(rows_without_year, start=1):
+            authors = author_names(row)
+            author_text = f" par **{', '.join(authors)}**" if authors else ""
+            object_year = row.get("year") or (str(row.get("deposit_date") or "")[:4])
+            date_text = f" le **{format_date(row['deposit_date'])}**" if row.get("deposit_date") else ""
+            lines.append(
+                f"{index}. **{row['object_title']}** ({object_year}) - "
+                f"{object_type_label(str(row['object_type']))} déposée{date_text}{author_text}"
+                f"{object_source_suffix(row['object_id'], sources)}"
+            )
+        return "\n".join(lines)
 
     sources = sources_for_object_ids([row["object_id"] for row in rows], limit_per_object=1)
     if len(rows) == 1:
