@@ -10,6 +10,28 @@ from app.text_cleaning import fix_mojibake, strip_accents
 
 
 DEPOSIT_TYPES = {"motion", "postulat", "interpellation"}
+OBJECT_TYPE_QUERY_ALIASES = {
+    "motion": ("motion", "motions"),
+    "postulat": (
+        "postulat",
+        "postulats",
+        "postulation",
+        "postulations",
+        "posutal",
+        "posutals",
+        "postualt",
+        "postualts",
+    ),
+    "interpellation": (
+        "interpellation",
+        "interpellations",
+        "interpelation",
+        "interpelations",
+        "interppelation",
+        "interppelations",
+        "interpelltion",
+    ),
+}
 DEPOSIT_CATEGORY_BY_TYPE = {
     "motion": "motions",
     "postulat": "postulats",
@@ -112,14 +134,21 @@ def extract_year(question: str) -> str | None:
 
 def requested_object_types(question: str) -> set[str]:
     normalized = normalize(question)
-    requested = set()
-    if any(term in normalized for term in ["interpellation", "interpellations"]):
-        requested.add("interpellation")
-    if any(term in normalized for term in ["postulat", "postulats"]):
-        requested.add("postulat")
-    if any(term in normalized for term in ["motion", "motions"]):
-        requested.add("motion")
+    requested = {
+        object_type
+        for object_type, aliases in OBJECT_TYPE_QUERY_ALIASES.items()
+        if any(alias in normalized for alias in aliases)
+    }
     return requested or set(DEPOSIT_TYPES)
+
+
+def mentions_political_object_type(question: str) -> bool:
+    normalized = normalize(question)
+    return any(
+        alias in normalized
+        for aliases in OBJECT_TYPE_QUERY_ALIASES.values()
+        for alias in aliases
+    )
 
 
 def object_type_label(object_type: str) -> str:
@@ -995,28 +1024,117 @@ def answer_regulation_db(question: str) -> str | None:
 
 def status_filter_from_question(question: str) -> tuple[str, Any] | None:
     normalized = normalize(question)
-    if any(term in normalized for term in ["ouvert", "ouvertes", "ouverts", "encore en cours", "pas final", "non final"]):
+
+    # "En suspens" est le terme employe par le reglement communal pour les
+    # motions et postulats qui ne sont pas encore termines. Les formulations
+    # plus courantes sont volontairement ramenees au meme filtre.
+    if any(
+        term in normalized
+        for term in [
+            "en suspens",
+            "suspendu",
+            "suspendue",
+            "suspendus",
+            "suspendues",
+            "pending",
+            "ouvert",
+            "ouverte",
+            "ouverts",
+            "ouvertes",
+            "encore en cours",
+            "toujours en cours",
+            "pas encore traite",
+            "pas encore traitee",
+            "pas final",
+            "non final",
+        ]
+    ):
         return "po.status_is_final = FALSE", None
-    if any(term in normalized for term in ["attente de reponse", "sans reponse", "awaiting response"]):
-        return "po.status_decision = 'awaiting_response'", None
-    if any(term in normalized for term in ["attente municipalite", "municipalite", "renvoye", "renvoyee"]):
-        return "po.status_stage = 'referred'", None
+
+    if any(
+        term in normalized
+        for term in [
+            "attente de reponse",
+            "attente d une reponse",
+            "sans reponse",
+            "pas de reponse",
+            "non repondu",
+            "non repondue",
+            "awaiting response",
+        ]
+    ):
+        return """(
+            (po.object_type = 'interpellation' AND po.status_decision = 'awaiting_response')
+            OR
+            (po.object_type IN ('motion', 'postulat')
+             AND (po.status_stage IN ('referred', 'pending_municipality_response')
+                  OR po.status_decision = 'pending_municipality'))
+        )""", None
+
+    if any(
+        term in normalized
+        for term in [
+            "attente de la municipalite",
+            "attente municipalite",
+            "attend la municipalite",
+            "attendent la municipalite",
+            "renvoye a la municipalite",
+            "renvoyee a la municipalite",
+            "renvoyes a la municipalite",
+            "renvoyees a la municipalite",
+        ]
+    ):
+        return """(
+            po.status_stage IN ('referred', 'pending_municipality_response')
+            OR po.status_decision = 'pending_municipality'
+        )""", None
+
+    if any(term in normalized for term in ["en examen au conseil", "attente du conseil", "examen du conseil"]):
+        return "po.status_stage IN ('pending_council_review', 'submitted')", None
+
     if any(term in normalized for term in ["decide", "decidee", "decides", "decision"]):
-        return "po.status_stage = 'decided'", None
+        return "po.status_stage IN ('decided', 'closed')", None
     if any(term in normalized for term in ["retire", "retiree"]):
         return "po.status_decision = 'withdrawn'", None
-    if any(term in normalized for term in ["non soutenu", "pas soutenu"]):
+    if any(term in normalized for term in ["non soutenu", "non soutenue", "pas soutenu", "pas soutenue"]):
         return "po.status_decision = 'not_supported'", None
-    if any(term in normalized for term in ["reponse disponible", "avec reponse", "repondu", "repondue"]):
-        return "po.status_stage = 'answered'", None
+    if any(term in normalized for term in ["irrecevable", "non recevable"]):
+        return "po.status_decision = 'inadmissible'", None
+    if any(term in normalized for term in ["rapport disponible", "avec rapport", "rapport publie"]):
+        return """(
+            po.status_stage IN ('reported', 'response_available')
+            OR po.status_decision = 'report_available'
+        )""", None
+    if any(
+        term in normalized
+        for term in [
+            "reponse disponible",
+            "reponse publiee",
+            "avec reponse",
+            "ont recu une reponse",
+            "a recu une reponse",
+            "repondu",
+            "repondue",
+            "repondus",
+            "repondues",
+        ]
+    ):
+        return """(
+            po.status_stage IN ('answered', 'reported', 'response_available')
+            OR po.status_decision IN ('response_available', 'report_available')
+        )""", None
+    if any(term in normalized for term in ["clos", "close", "closes", "termine", "terminee", "termines", "terminees"]):
+        return "po.status_is_final = TRUE", None
     return None
 
 
 def wants_objects_by_status(question: str) -> bool:
-    return status_filter_from_question(question) is not None and any(
-        term in normalize(question)
-        for term in ["quel", "quelle", "quels", "quelles", "liste", "combien", "motion", "postulat", "interpellation", "objet"]
-    )
+    normalized = normalize(question)
+    asks_for_objects = any(
+        term in normalized
+        for term in ["quel", "quelle", "quels", "quelles", "liste", "combien", "objet"]
+    ) or mentions_political_object_type(question)
+    return status_filter_from_question(question) is not None and asks_for_objects
 
 
 def answer_objects_by_status_db(question: str) -> str | None:
