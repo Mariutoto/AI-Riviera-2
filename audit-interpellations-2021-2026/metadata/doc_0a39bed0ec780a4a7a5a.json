@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_0a39bed0ec780a4a7a5a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Prenons garde aux conséquences des feux de forêts",
+    "source_title": "Interpellation de M. Alois Raemy (PDC+I) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Raemy-Feux-forets-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-06-30",
+    "content_hash": "74ffd5dc9db431223ac61582ff2a22bc1be441fab581b425fd034f310da0e92f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Alois Raemy",
+        "civility": "M.",
+        "party": "PDC+I"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-05-05",
+    "responses": [
+      {
+        "response_number": "6/2021",
+        "response_date": "2021-06-30",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-06-07"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5879,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1019,
+      "clean_words": 986,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 986
+    }
+  }
+}

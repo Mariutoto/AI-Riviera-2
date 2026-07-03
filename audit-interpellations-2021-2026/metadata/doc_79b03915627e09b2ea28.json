@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_79b03915627e09b2ea28",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "VMCV – Le pilote connait-il la bonne route ?",
+    "source_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-VMCV-pilote-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-13",
+    "content_hash": "d038b9ebaffb045f60d38e569c3a5bd0289ea6f6e7dc4f2acfa250cf7ee08d7b",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-06-28",
+    "responses": [
+      {
+        "response_number": "8/2023",
+        "response_date": "2023-09-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-08-21"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 28557,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4549,
+      "clean_words": 4469,
+      "removed_blocks": 17
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 4483
+    }
+  }
+}

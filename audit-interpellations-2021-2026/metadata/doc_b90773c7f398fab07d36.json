@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b90773c7f398fab07d36",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Ne favorisons pas le culte du secret, soyons transparents avec la population",
+    "source_title": "Interpellation de M. Guillaume Jung (UDC) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Jung-Transparence-Rep.pdf.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-03-24",
+    "content_hash": "1f55c448136eda2d0458f7e4ba8a087c65fcca99d2415d3827268568213698cb",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Guillaume Jung",
+        "civility": "M.",
+        "party": "UDC"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-02-10",
+    "responses": [
+      {
+        "response_number": "4/2021",
+        "response_date": "2021-03-24",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-03-08"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5281,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 925,
+      "clean_words": 879,
+      "removed_blocks": 12
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 879
+    }
+  }
+}

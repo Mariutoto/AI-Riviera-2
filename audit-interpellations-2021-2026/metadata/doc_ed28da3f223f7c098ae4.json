@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ed28da3f223f7c098ae4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Gratuité des protections hygiéniques à l’école",
+    "source_title": "Interpellation de M. Niklas Tiemann (LV) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Tiemann-N-Gratuite-protection-hygienique-ecole-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-10",
+    "content_hash": "0b44e4d72bfaa34aa733ad9640ca6c6f45a6a92459da7f801a1d258cf28bfb0b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Niklas Tiemann",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-02-27",
+    "responses": [
+      {
+        "response_number": "4/2023",
+        "response_date": "2023-05-10",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-04-24"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 12364,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2071,
+      "clean_words": 2001,
+      "removed_blocks": 12
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2001
+    }
+  }
+}

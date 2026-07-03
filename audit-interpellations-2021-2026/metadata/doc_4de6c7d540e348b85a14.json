@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4de6c7d540e348b85a14",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Modifications d’ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?",
+    "source_title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Ansermet-30-kmh-Rep.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-10",
+    "content_hash": "89d1e015ec10ef87b70cff56b48e2d46daa7176448513e8413a25898bf7f4470",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-10-30",
+    "responses": [
+      {
+        "response_number": "3/2025",
+        "response_date": "2025-12-10",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2025-11-24"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18106,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3031,
+      "clean_words": 2895,
+      "removed_blocks": 17
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2895
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_0d44ecb70006765893e3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Nouvelle atteinte au Patrimoine de notre ville - Le jardin Roussy est historique et ne doit pas devenir un camping",
+    "source_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Arnaud-Grill-Roussy-Rep.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-29",
+    "content_hash": "edc4735b7a2a0217ad164e16f8d6266a1e1b33a80cf960926ce09d4ddd0e47b9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anne-Marie Arnaud",
+        "civility": "Mme",
+        "party": "hors parti"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-05-11",
+    "responses": [
+      {
+        "response_number": "6/2022",
+        "response_date": "2022-06-29",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2022-05-30"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6142,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1020,
+      "clean_words": 986,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 986
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "document_id": "doc_d4a5f75278e2f345ab9c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Mieux vaut tard que jamais !",
+    "source_title": "Interpellation de M. Alessio Grutta (PLR) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Grutta-Stationnement-Rep.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-12-07",
+    "content_hash": "71aca74571aa971e3fc3da5238b7137f1a05eca917db1fbf67a22c5a6710d0ba",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Alessio Grutta",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-11-02",
+    "responses": [
+      {
+        "response_number": "5/2022",
+        "response_date": null,
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      },
+      {
+        "response_number": "10/2022",
+        "response_date": "2022-12-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2022-11-21"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 30334,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2394,
+      "clean_words": 2312,
+      "removed_blocks": 19
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 4517
+    }
+  }
+}

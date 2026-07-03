@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_315404ee5fff16ecc431",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Mobbing – impunité ou réactivité ?",
+    "source_title": "Interpellation de MM. Jean-Yves Schmidhauser (PSDG) et Marc Wüthrich (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Wuthrich-Mobbing-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-08",
+    "content_hash": "0d3145dbc7b11caca9d36fe15e7f9d3b3f09a30f03f65c0d6e97f1f085141194",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "party": "LTDPL"
+      },
+      {
+        "name": "Marc Wüthrich",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-11-03",
+    "responses": [
+      {
+        "response_number": "14/2021",
+        "response_date": "2021-12-08",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-11-22"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 14955,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1450,
+      "clean_words": 1402,
+      "removed_blocks": 13
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 2349
+    }
+  }
+}

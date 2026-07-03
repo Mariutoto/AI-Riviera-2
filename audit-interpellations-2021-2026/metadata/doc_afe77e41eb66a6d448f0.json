@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_afe77e41eb66a6d448f0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Affichage publicitaire et politique sur le territoire de la commune",
+    "source_title": "Interpellation de M. Michel Tobler (PLR) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Tobler-Affichage-politique-Rep.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-24",
+    "content_hash": "c22fab9c3f439a0f7b0b3cfca03cc687e4a8138afbbea4e7de6417d44e562b33",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Michel Tobler",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-05-06",
+    "responses": [
+      {
+        "response_number": "4/2026",
+        "response_date": "2026-06-24",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2026-06-01"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 7061,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1179,
+      "clean_words": 1155,
+      "removed_blocks": 9
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1155
+    }
+  }
+}

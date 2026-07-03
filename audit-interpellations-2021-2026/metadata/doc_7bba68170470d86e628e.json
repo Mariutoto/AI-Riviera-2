@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7bba68170470d86e628e",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Antennes 5G sur le territoire communal",
+    "source_title": "Interpellation de M. Marc Wüthrich (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Wuthrich-5G-Rep.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-23",
+    "content_hash": "c1edfda8c4ba80b311d150eb4d7fac47752937ead0fd9689a39bfd143453d41c",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Marc Wüthrich",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-01-17",
+    "responses": [
+      {
+        "response_number": "2/2022",
+        "response_date": "2022-03-23",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2022-03-07"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 7085,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1217,
+      "clean_words": 1147,
+      "removed_blocks": 8
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1147
+    }
+  }
+}

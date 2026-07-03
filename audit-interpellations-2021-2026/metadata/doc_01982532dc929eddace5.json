@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_01982532dc929eddace5",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Kiosques sur le quai Roussy : Condition d’attribution et de reconduction ?",
+    "source_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Holzeisen-Kiosques-Roussy-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-10",
+    "content_hash": "8d5cac4fcd2c05a6edef0af4e80fa3826f9501f954ea432ba488f1cc16192f9a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-03-22",
+    "responses": [
+      {
+        "response_number": "5/2023",
+        "response_date": "2023-05-10",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-04-24"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4258,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 701,
+      "clean_words": 654,
+      "removed_blocks": 12
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 654
+    }
+  }
+}

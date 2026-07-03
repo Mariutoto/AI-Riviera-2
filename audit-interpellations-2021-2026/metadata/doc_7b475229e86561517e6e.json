@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7b475229e86561517e6e",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "En marge du Château, passage dans le mur d’enceinte",
+    "source_title": "Interpellation de M. Alois Raemy (PDC+I) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Raemy-Passage-Chateau-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-05",
+    "content_hash": "32731a5dd107ad7d7f3c5855b8a87914062aa7902163eb9d58747283ef338589",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Alois Raemy",
+        "civility": "M.",
+        "party": "PDC+I"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-03-24",
+    "responses": [
+      {
+        "response_number": "5/2021",
+        "response_date": "2021-05-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-05-03"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2709,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 471,
+      "clean_words": 453,
+      "removed_blocks": 5
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 453
+    }
+  }
+}

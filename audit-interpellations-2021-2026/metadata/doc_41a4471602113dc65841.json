@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_41a4471602113dc65841",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "N’y a-t-il pas quelque chose à revoir dans l’organisation de la déchetterie et de la ressourcerie ?",
+    "source_title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Cornaz-Dechetterie-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-13",
+    "content_hash": "5e84471f2c6fdde36ca903d13d7b8f23796ecc834498f13293c9be60622c8cd1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Mireille Cornaz",
+        "civility": "Mme",
+        "party": "LCIVL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-06-28",
+    "responses": [
+      {
+        "response_number": "10/2023",
+        "response_date": "2023-09-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-08-21"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5536,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 970,
+      "clean_words": 936,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 936
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Downloaded source PDFs are reproducible from their official URLs.
+pdfs/
+
+# Raw Mistral responses are reproducible and larger than the retained Markdown.
+ocr_overrides/*.json
+
+# Local credentials never belong in this audit folder.
+.env

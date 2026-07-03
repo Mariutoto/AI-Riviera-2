@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_77c3707c0c30b4127450",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Les arbres ont-ils encore feuille au chapitre ?",
+    "source_title": "Interpellation de Mme Véronique Ansermet (LV) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Ansermet-Arbres-Rep.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "content_hash": "3fcc3787c667889ce3e64e8e33c68f87aaab0115f4273d26588bebfc8d9a115c",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-09-11",
+    "responses": [
+      {
+        "response_number": "7/2024",
+        "response_date": "2024-10-30",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2024-09-30"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13539,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2355,
+      "clean_words": 2174,
+      "removed_blocks": 22
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2174
+    }
+  }
+}

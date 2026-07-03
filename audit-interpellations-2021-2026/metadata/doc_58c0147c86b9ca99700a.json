@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_58c0147c86b9ca99700a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Gouvernance de la Riviera et l’étude d’un rapprochement des communes de Montreux, La Tour-de-Peilz et Vevey",
+    "source_title": "Interpellation de M. Jacques Vallotton (PS) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Vallotton-Rapprochement-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-06-30",
+    "content_hash": "faa4904dce9da754d7e8a1119c7ea721213af0869e1f32318f64627bdaaa4547",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jacques Vallotton",
+        "civility": "M.",
+        "party": "PS"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-05-04",
+    "responses": [
+      {
+        "response_number": "7/2021",
+        "response_date": "2021-06-30",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-06-14"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4790,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 809,
+      "clean_words": 791,
+      "removed_blocks": 5
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 791
+    }
+  }
+}

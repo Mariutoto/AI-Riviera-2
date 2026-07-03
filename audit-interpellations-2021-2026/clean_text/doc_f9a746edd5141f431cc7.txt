@@ -1,0 +1,105 @@
+# RÉPONSE MUNICIPALE N° 11/2023
+
+le 1er novembre 2023
+
+Réponse à l'interpellation de M. Jean-Yves Schmidhauser (PSDG) – « Les réfectoires scolaires laissent-ils nos enfants sur leur faim ? »
+
+33.01-2310-interpellation-Schmidhauser-Refectorie.docx
+
+Au Conseil communal de
+1814 La Tour-de-Peilz
+
+Monsieur le Président,
+Mesdames et Messieurs,
+
+Dans une interpellation déposée lors de la séance de juin dernier, M. Jean-Yves Schmidhauser (PSDG) demandait à la Municipalité, de répondre par écrit aux questions suivantes :
+
+1. Quelle est la capacité actuelle d'accueil effective des réfectoires scolaires, selon l'état des inscriptions admises au premier semestre 2023 ?
+
+Comme convenu entre l'interpellant et la Municipalité, le point de situation est fait en lien avec la rentrée scolaire 2023-2024 et la situation avec chaque réfectoire communal, au nombre de 6 actuellement.
+
+Le tableau annexé résume l'état de situation de chaque réfectoire. En fonction des jours ou des collèges concernés, la réponse n'est pas tout à fait identique et les besoins différents.
+
+La capacité des réfectoires est liée à la taille des locaux, à l'âge des élèves, notamment à l'amplitude entre les plus petits et les plus grands.
+
+La gestion actuelle des réfectoires se base sur une répartition des élèves en fonction des classes d'âge et des collèges. Bel-Air (30 places) pour les 1P-4P de Bel-Air et de Cadet-Rousselle, Vassin (32 places) pour les 5P-6P de Bel-Air, La Cantoch' (30 places) pour les 1P-6P de Courbet, Les Marmitons (36 places) pour tous les 7P, Le Ref' (36 places) pour tous les 8P, Les Mousquetaires (72 places) pour les 9S-12S. A préciser qu'une salle de pique-nique est également proposée dans le hall du collège des Mousquetaires 4 jours de la semaine (capacité environ 30 places).
+
+2. Cette capacité d'accueil est-elle suffisante pour traiter toutes les demandes d'inscription ? Si non, quel est le nombre d'enfants sur liste d'attente ?
+
+Les enfants en liste d'attente sont également traités dans le tableau annexé, ce qui permet un récapitulatif par jour et par réfectoire. La liste d'attente se présente en deux phases, d'une part l'ensemble des demandes et de l'autre les enfants avec un dossier complet et/ou respectant le règlement communal. Certains de ces enfants ont été accueillis courant octobre 2023.
+
+La grande majorité des familles en attente le sont par une situation professionnelle en inadéquation avec le règlement communal.
+
+En résumé, l'on peut dire que les personnes en attente le sont parce qu'elles ne travaillent pas et ne sont pas nécessairement en recherche d'emploi, donc non inscrite à la caisse cantonale de chômage. Les réfectoires de Vassin et des Mousquetaires permettent encore un accueil de quelques élèves, mais les autres structures approchent la saturation, tout en accueillant la demande.
+
+3. La capacité effective des réfectoires scolaires correspond-elle à la capacité maximale ou existe-t-il encore une possibilité d'accroissement de cette capacité sans investissement majeur ?
+
+La capacité des réfectoires correspond à une évaluation quant à un bon ratio en lien avec les ressources du réfectoire, la surface à disposition, le temps que les enfants y passent et leur âge. Une qualité d'accueil est nécessaire, d'autant plus que certains enfants sont fréquemment sur place (3-4 jours/semaine). Il n'existe pas de réel taux d'encadrement pour les réfectoires scolaires, à contrario des UAPE. Afin de garantir un accueil de qualité et une situation acceptable pour l'ensemble des présents sur la pause de midi (enfants et collaborateurs), une capacité maximale a été définie (voir tableau annexé). L'accueil dans les réfectoires primaires se base sur les directives cantonales de l'accueil collectif de jour parascolaire qui mentionnent notamment le taux d'encadrement éducatif minimal des enfants accueillis. Pour les réfectoires du secondaire (Mousquetaires) il n'y a pas de directive cantonale.
+
+4. Si la capacité effective des réfectoires scolaires correspond à la capacité maximale, quelles sont les intentions de la Municipalité en matière d'ouverture de structures complémentaires à celles existantes pour mieux répondre aux besoins de la population, au vu notamment de l'accroissement prévisible de cette dernière sur les 5 prochaines années ?
+
+La situation actuelle est en adéquation avec les besoins puisque nous répondons, en très grande majorité, à l'ensemble de la demande.
+
+L'organisation de l'accueil des enfants en réfectoire est en optimisation permanente afin de concilier le bien-être des enfants et des réalités scolaires ou périscolaires.
+
+Une ouverture en août 2022 du réfectoire pour les 8es (Le Réf') a permis de désengorger la demande pour les 7-8P. Aujourd'hui, la Commune propose un réfectoire par niveau scolaire, Le Ref' pour les 8P et Les Marmitons pour les 7P. L'ouverture d'une UAPE en août 2023 a également permis de mieux répondre à la demande.
+
+De plus, la Municipalité a commandé une étude pour définir les besoins scolaires futurs et saisira l'occasion d'y englober les besoins périscolaires.
+
+5. Si la capacité effective des réfectoires scolaires ne correspond pas à leur capacité maximale, pour quelle raison cette réserve de capacité n'a pas été mise à disposition de notre population pour réduire, voire faire disparaître toute liste d'attente ?
+
+Ce n'est pas le cas actuellement.
+
+AU NOM DE LA MUNICIPALITÉ
+
+La syndique : Le secrétaire :
+
+Annexe : Tableau récapitulatif des réfectoires
+Adopté par la Municipalité : le 16 octobre 2023
+
+## le Réf
+
+[tbl-0.md](tbl-0.md)
+
+## Vassin
+
+[tbl-1.md](tbl-1.md)
+
+## Bel-Air
+
+[tbl-2.md](tbl-2.md)
+
+## Cantoch
+
+[tbl-3.md](tbl-3.md)
+
+## Marmitons
+
+[tbl-4.md](tbl-4.md)
+
+## Mousquetaires
+
+[tbl-5.md](tbl-5.md)
+
+* la liste d'attente reflète la situation au 13.10.2023. Les enfants en attente seront intégrés dans les réfectoires dès novembre 2023 en fonction des places disponibles. Cette ligne tient compte uniquement des dossiers complets et des situations qui correspondent à notre règlement (le ou les parents travaillent ou sont en formation)
+
+# Interpellation de Jean-Yves SCHMIDHAUSER au Conseil communal du 28 juin 2023
+
+# Les réfectoires scolaires laissent-ils nos enfants sur leur faim ?
+
+1. Comme vous le savez, la population de notre ville est en forte croissance, en raison principalement des nouvelles constructions qui fleurissent sur le territoire de notre commune, vu les densifications autorisées par notre nouveau PGA.
+2. L'augmentation de la population pose de nombreux défis, notamment en terme d'infrastructures, et en particulier d'infrastructures parascolaires qui n'arrivent plus à répondre à l'augmentation des demandes. C'est notamment le cas, à la connaissance du soussigné, des réfectoires scolaires, pour lesquels il y a une liste d'attente qui ne cesse d'augmenter.
+3. Se pose ainsi la question des réelles capacités de cette organisation parascolaire et des mesures à envisager pour les utiliser pleinement ou, si nécessaire, de les accroître pour mieux répondre aux besoins.
+
+Au vu de cette situation, le soussigné demande à notre Municipalité, par la voie de l'interpellation (art. 94 RC), de répondre par écrit aux questions suivantes :
+
+○ Quelle est la capacité actuelle d'accueil effective des réfectoires scolaires, selon l'état des inscriptions admises au premier semestre 2023 ?
+○ Cette capacité d'accueil est-elle suffisante pour traiter toutes les demandes d'inscription ? Si non, quel est le nombre d'enfants sur liste d'attente ?
+○ La capacité effective des réfectoires scolaires correspond-t-elle à la capacité maximum ou existe-t-il encore une possibilité d'accroissement de cette capacité sans investissement majeur ?
+○ Si la capacité effective des réfectoires scolaires correspond à la capacité maximum, quelles sont les intentions de la Municipalité en matière d'ouverture de structures complémentaires à celles existantes pour mieux répondre aux besoins de la population, au vu notamment de l'accroissement prévisible de cette dernière sur les 5 prochaines années ?
+○ Si la capacité effective des réfectoires scolaires ne correspond pas à leur capacité maximum, pour quelle raison cette réserve de capacité n'a pas été mise à disposition de notre population pour réduire, voire faire disparaître toute liste d'attente ?
+
+Je remercie d'avance la Municipalité pour ses réponses précises et écrites.
+
+Jean-Yves Schmidhauser
+conseiller communal

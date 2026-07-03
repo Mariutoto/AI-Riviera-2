@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_49f8396cb73bec409b46",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Communication Municipale 29/2023 - Plan directeur de la mobilité – Tous à vélo et les séniors en dring-dring",
+    "source_title": "Interpellation de Mme Anne-Marie Arnaud (hors parti) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Arnaud-Plan-directeur-Mobilite-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-07",
+    "content_hash": "f668b803343dd56ad082972dac7551fb9f30fbb0c15452e7a5dcd5c4dbeb61e2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anne-Marie Arnaud",
+        "civility": "Mme",
+        "party": "hors parti"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-12-13",
+    "responses": [
+      {
+        "response_number": "1/2024",
+        "response_date": "2024-02-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2024-01-08"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8669,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1411,
+      "clean_words": 1379,
+      "removed_blocks": 12
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1379
+    }
+  }
+}

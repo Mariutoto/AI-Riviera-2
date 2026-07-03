@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "document_id": "doc_95ed848a3144e56bbe45",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Antennes 5G : un peu de friture sur la ligne ?",
+    "source_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-01-Interpellation-Holzeisen-Wuthrich-5G.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-08",
+    "content_hash": "b65bf2ce7abac5fcda43aa9af44f5708b792d23908e50ddd7ccec7aff473da3d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-02-09",
+    "responses": [
+      {
+        "response_number": "2/2022",
+        "response_date": "2022-03-23",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      },
+      {
+        "response_number": "1/2023",
+        "response_date": "2023-02-08",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-01-09"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 30555,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5120,
+      "clean_words": 4964,
+      "removed_blocks": 28
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4964
+    }
+  }
+}

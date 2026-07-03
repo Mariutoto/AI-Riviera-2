@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e715b820e081ba4d485a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Pour une mobilité et des accès au bus accessible à Toutes et Tous",
+    "source_title": "Interpellation de M. Piero Negro (PSDG) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Interpellation-Negro-Arret-bus-Lhand-Rep.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-11",
+    "content_hash": "fde737ff416d0f61d16fbf29b9adbe1077037a279b060e7ba934ddf587fef511",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Piero Negro",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-12-10",
+    "responses": [
+      {
+        "response_number": "1/2026",
+        "response_date": "2026-02-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2026-01-12"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8077,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1357,
+      "clean_words": 1319,
+      "removed_blocks": 10
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1319
+    }
+  }
+}

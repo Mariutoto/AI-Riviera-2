@@ -1,0 +1,47 @@
+{
+  "document_metadata": {
+    "document_id": "doc_82ba9060c75ae14cd339",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Que prévoit la Poste pour « Notre Poste » ?",
+    "source_title": "Interpellation de M. Piero Negro (PSDG)",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Negro-Office-Poste.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06",
+    "content_hash": "91930d109b542be06b4d879849e8dbdf9c8fc548a86b9c45187c9916d3677937",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Piero Negro",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2024-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2866,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 481,
+      "clean_words": 474,
+      "removed_blocks": 1
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 474
+    }
+  }
+}

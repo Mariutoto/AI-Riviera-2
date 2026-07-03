@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_75a43dc2c7d461c0fa81",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Restaurant du Château : une vue par la fenêtre de la désinformation",
+    "source_title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Chateau-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-03",
+    "content_hash": "d70a0816806e1174555fa8087d92dc8ac4bc4bb864233c7e908398da286f16d4",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-11-03",
+    "responses": [
+      {
+        "response_number": "15/2021",
+        "response_date": "2021-11-03",
+        "response_type": "oral_response",
+        "municipal_adoption_date": "2021-11-02"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 9196,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 972,
+      "clean_words": 939,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 1457
+    }
+  }
+}

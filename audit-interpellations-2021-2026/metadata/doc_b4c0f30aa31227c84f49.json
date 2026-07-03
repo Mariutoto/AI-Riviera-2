@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b4c0f30aa31227c84f49",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "La nouvelle gare CFF : prévention et sécurité",
+    "source_title": "Interpellation de Mme Nathalie Demarta (UDC) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Reponse-13_2021-Interpellation-Demarta-Gare-CFF.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-03",
+    "content_hash": "4a5dc35ed2dd4d1f77b3529a3d87268788c6990a72594e4468c79096b37e14a5",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Nathalie Demarta",
+        "civility": "Mme",
+        "party": "UDC"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-09-15",
+    "responses": [
+      {
+        "response_number": "13/2021",
+        "response_date": "2021-11-03",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-10-11"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5221,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 886,
+      "clean_words": 832,
+      "removed_blocks": 13
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 832
+    }
+  }
+}

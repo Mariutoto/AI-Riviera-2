@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c582dae998a0a181770d",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Moteur de recherche politique – Un outil qui cherche et qui trouve ?",
+    "source_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Holzeisen-Site_internet-Rep.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-20",
+    "content_hash": "b33ff9a27d0bff5122d857e813bcf2b87d7b501304b883253118ae1cae5deafb",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-02-07",
+    "responses": [
+      {
+        "response_number": "3/2024",
+        "response_date": "2024-03-20",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2024-01-19"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 17037,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1431,
+      "clean_words": 1385,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 2560
+    }
+  }
+}

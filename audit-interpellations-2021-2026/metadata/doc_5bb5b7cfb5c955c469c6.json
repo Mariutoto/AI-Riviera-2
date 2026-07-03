@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5bb5b7cfb5c955c469c6",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Y a-t-il un pilote dans le bus communal ?",
+    "source_title": "Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Reponse-02-Interpellation-Holzeisen-VMCV.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-08",
+    "content_hash": "a896e7fadb098fa664dea666074407340ebd7602904e10abf66e580d61946056",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Etienne Holzeisen",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-12-07",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-11-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      },
+      {
+        "response_number": "2/2023",
+        "response_date": "2023-02-08",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-01-09"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 22118,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3654,
+      "clean_words": 3595,
+      "removed_blocks": 14
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3595
+    }
+  }
+}

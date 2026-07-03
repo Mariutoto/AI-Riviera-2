@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3a8d8495cf63ee639fb6",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Parcelle de la Faraz : une transaction qui interroge",
+    "source_title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-Schmidhauser-Faraz-Parcelle-928-Rep.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-15",
+    "content_hash": "fd8afb2eec7515b56138cfb2cc7b5571fda561e3485688db2d2c9e89b5777bf5",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-12-08",
+    "responses": [
+      {
+        "response_number": "15/2021",
+        "response_date": "2021-12-15",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2021-12-13"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10975,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 880,
+      "clean_words": 847,
+      "removed_blocks": 9
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 1764
+    }
+  }
+}

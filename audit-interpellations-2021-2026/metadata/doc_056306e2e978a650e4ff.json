@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_056306e2e978a650e4ff",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Quel degré de préparation de la commune de La Tour-de-Peilz face aux cyberattaques ?",
+    "source_title": "Interpellation du groupe PLR + réponses",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Interpellation-PLR-Costa-Cybersecurite-Rep-Rep-Bis.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-08",
+    "content_hash": "8c0711dce3dd80e3523c4b2c91506058b0241ea64b0a7ea490e4e0118e4bbb00",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "groupe PLR",
+        "party": "PLR",
+        "role": "group"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-08-25",
+    "responses": [
+      {
+        "response_number": "12/2021",
+        "response_date": "2021-11-03",
+        "response_type": "municipal_response"
+      },
+      {
+        "response_number": "12bis/2021",
+        "response_date": "2021-12-08",
+        "response_type": "supplemental_response"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 9421,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1196,
+      "clean_words": 1130,
+      "removed_blocks": 22
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 1386
+    }
+  }
+}

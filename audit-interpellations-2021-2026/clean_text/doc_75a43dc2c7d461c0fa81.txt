@@ -1,0 +1,84 @@
+# Restaurant du Château : une vue par la fenêtre de la désinformation
+
+1. Dans son édition du 27 octobre 2021, le Journal Riviera Chablais nous apprenait que l'Office fédéral de la Culture (OFC), qui visiblement avait été consulté par rapport au projet de création du restaurant dans les ruines de l'ancien donjon, n'avait été approché que très tardivement par la Municipalité, soit alors que le projet avait déjà été mis à l'enquête depuis longtemps (visiblement sans consultation préalable de cet office) et que le préavis était déjà dans les mains de la commission ad hoc chargée de préviser à son sujet.
+2. Pire encore, nous apprenons que l'existence d'une intervention de l'OFC, qui visiblement exige des modifications du projet (notamment une réduction sensible de la taille de la future (et eventuelle) baie vitrée qui est prévue) n'a pas été portée à la connaissance de la commission, du moins si j'en crois les déclarations de la présente de cette-ci, déclaration qui m'ont été confirmées par d'autres membres.
+3. On comprend également, malgré les prises de position publiques du chef de service (quicherche visiblement à minimiser cette problématique), que si certes l'OFC n'a pas exercé un droit de veto sur le projet, ses exigences ne seront pas simples à appliquer. Car réduire la taille de la baie vitrée (exigées visiblement pour des questions de protection du patrimoine) aura des conséquences sur l'éclairage de la pierce, ce qui pourrait entrainer la nécessité de déroger à d'autres lois, à supposer toute fois que cela soit possible.
+
+Cela signifie en clair que le futur restaurant panoramique annoncé risque fort de se transformer en carnotzet
+
+4. Ce qui est grave, c'est que tout cela a été caché à la commission ad hoc en charge d'examiner ce projet d'envergure, dont nous connaissons l'importance et la sensibilité. Il s'agit ni plus ni moins, d'un cas typique et de rétention d'information par l'administration communale.
+
+5. Et que l'on ne nous dise pas qu'il s'agissait d'un point de détail. En effet, il n'appartient pas à l'administration de décider, en lieu et place de la commission, ce qui est important ou non, ce qui doit être discuté ou non. Dans tous les cas, la Commission doit être informée, à charge pour elle d'analyser l'information et rendre ses préavis en tout connaissance de cause.
+
+Au vu de cette situation, le soussigné demande à notre Municipalité, par la voie de l'interpellation (art. 94 RC), de répondre immédiatement aux questions suivantes :
+
+1. A quelle date l'OFC a été approchée dans le cadre de ce dossier par rapport au projet de construction du futur restaurant dans le Donjon ?
+
+2. Pour quelle raison une telle consultation n'a été organisée que si tardivement ?
+
+3. Pour quelle raison l'existence d'une réunion avec l'OFC en mars 2021, puis la prise de position de cet office, n'ont pas été communiquées à la Commission ad hoc en charge de préaviser sur ce projet, et que ce n'est que par la presse que ces éléments ont été révélés ?
+
+4. La Municipalité estime-t-elle que cette absence de communication est conforme à ses obligations vis- à-vis de la Commission ad hoc et, plus généralement, du Conseil communal ?
+
+5. La Municipalité peut-elle communiquer à l'interpellateur, respectivement aux membres du Conseil communal, une copie complète des échanges avec l'OFC, en particulier ceux ayant trait aux exigences de modification du projet posées par l'OFC dans son email du 1er avril 2021 ?
+
+Eu égard à l'importance du projet et l'urgence, je demande une réponse immédiate qui soit ténorisée dans le procès-verbal.
+
+Jean-Yves Schmidhauser  
+conseiller communal
+
+# RÉPONSE MUNICIPALE ORALE
+
+le 3 novembre 2021
+
+Réponse à l'interpellation de M. Jean-Yves Schmidhauser (PSDG) – Restaurant du Château : Une vue par la fenêtre de la désinformation ».
+
+10.03-2111-Reponse-15_2021-Interpellation_Schmidhauser-Chateau.docx
+
+Au Conseil communal de
+1814 La Tour-de-Peilz
+
+Monsieur le Président,
+Mesdames et Messieurs,
+
+En préambule la Municipalité précise que les projets auxquels le Département fédéral de l'intérieur alloue une aide financière bénéficient d'une protection fédérale. Dans la pratique, les cantons ne sollicitaient que rarement une autorisation formelle de la part de la Confédération. Le 1er janvier 2021, celle-ci a toutefois publié une procédure administrative clarifiant le mode d'approbation des projets par l'Office fédéral de la culture (OFC), conduisant de fait à une modification de la pratique et à une demande d'approbation formelle des projets via le Canton.
+
+Compte tenu de ce qui précède, la Municipalité répond comme suit aux questions de l'interpellateur :
+
+1. A quelle date l'OFC a été approchée dans le cadre de ce dossier par rapport au projet de construction du futur restaurant dans le donjon ?
+Conformément à la procédure, c'est le Canton qui communique les dossiers à l'OFC et pas la Commune. Le Canton a transmis un dossier complet pour demande d'examen à l'OFC une première fois le 4 janvier 2021 – comme indiqué dans le rapport de la commission – soit immédiatement après la mise en vigueur de la procédure précitée. Faute de réponse de la part de l'OFC, un même dossier a été renvoyé le 8 mars 2021 par le Canton.
+2. Pour quelle raison une telle consultation n'a été organisée que si tardivement ?
+Le premier envoi date du 4 janvier, si bien que l'on peut estimer, au contraire, que le Canton a agi avec diligence.
+3. Pour quelle raison l'existence d'une réunion avec l'OFC en mars 2021, puis la prise de position de cet office, n'ont pas été communiquées à la Commission ad hoc en charge de préaviser sur ce projet, et que ce n'est que par la presse que ces éléments ont été révélés ?
+Si cet objet n'a pas été abordé clairement ou discuté en commission, la Municipalité ne peut que le regretter. En tout état de cause, les représentants de la Municipalité n'avaient aucune volonté ni intérêt à dissimuler volontairement les résultats d'une rencontre avec l'OFC et une décision qui est, par ailleurs, favorable, au projet.
+4. La Municipalité estime-t-elle que cette absence de communication est conforme à ses obligations vis-à-vis de la commission ad hoc et, plus généralement, du Conseil communal.
+La Municipalité renvoie à la réponse à la question N° 3.
+
+5. La Municipalité peut-elle communiquer à l'interpellateur, respectivement aux membres du Conseil communal, une copie complète des échanges avec l'OFC, en particulier ceux ayant trait aux exigences de modification du projet posées par l'OFC dans son e-mail du 1er avril 2021.
+
+Il n'existe aucun échange écrit entre la Commune et l'OFC, le Canton étant le seul interlocuteur de ce dernier. La réponse suivante est parvenue au conservateur cantonal qui l'a fait suivre à la Commune le 1er avril 2021 :
+
+« L'octroi d'une aide financière de la Confédération s'accompagne d'une restriction de droit public à la propriété, l'objet subventionné étant placé sous protection fédérale. Toute modification de l'état de l'objet subventionné nécessite dès lors une autorisation de l'Office fédéral de la culture OFC.
+
+Par courriel du 08.03.2021 et du 29.03.2021, vous avez transmis à l'OFC la documentation relative au permis de construire susmentionné, conformément à la procédure administrative portant sur les objets placés sous protection fédérale du 1er janvier 2021. Après examen des documents transmis et suite à une réunion in situ en date du 24.03.2021, l'OFC sur la base des articles 13 et 24a LPN, ainsi que 7 OPN octroie par ce courriel son autorisation formelle sous conditions :
+
+- L'ouverture planifiée dans le mur du donjon à l'endroit de la fenêtre bernoise doit être réduite de taille.
+- La hauteur de la couverture de béton (surélévation du mur historique du donjon) doit être redimensionnée afin de s'harmoniser davantage avec la taille de l'ouverture définitive susmentionnée.
+
+L'OFC souhaite être tenu informé de l'évolution du projet. »
+
+Pour comprendre avec le plus de précision possible la position ainsi communiquée, le conservateur cantonal a été contacté et a pu confirmer que le projet était autorisé moyennant les ajustements demandés et que ceux-ci ne nécessiteraient pas de remise à l'enquête.
+
+En concertation avec le conservateur cantonal, il a été décidé d'évaluer les adaptations nécessaires pour répondre aux conditions posées par l'OFC dans le cadre des études de détails du projet d'exécution. Or, cette phase de projet va démarrer avec l'octroi du crédit de construction actuellement soumis à référendum.
+
+Une fois définis, les ajustements proposés seront naturellement soumis à l'OFC pour approbation définitive.
+
+La Municipalité précise encore que le respect des conditions mentionnées ci-dessus ne transformera pas la baie vitrée de 11 m² en meurtrière. L'OFC et le Canton sont parfaitement conscients de l'affectation du donjon en restaurant et donc de la nécessité de conserver son attrait et un éclairage naturel suffisant. Comme c'est le cas dans ce type de réalisations, le développement du projet détaillé permettra de répondre aux attentes de toutes les parties.
+
+AU NOM DE LA MUNICIPALITÉ
+
+La syndique : Le secrétaire :
+
+Sandra Glardon Pierre-A. Dupertuis
+
+Adopté par la Municipalité : le 2 novembre 2021

@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9d24b66ef805dcd3f58b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz",
+    "source_title": "Interpellation de Mme Mireille Cornaz (LCIVL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Cornaz-Securisation-Bourg-Dessous-Temple-Rep.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-23",
+    "content_hash": "8f5a83f4651ff35acf1fa4983f86b307324357518457aca80f05246604f2eb4d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Mireille Cornaz",
+        "civility": "Mme",
+        "party": "LCIVL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-02-09",
+    "responses": [
+      {
+        "response_number": "1/2022",
+        "response_date": "2022-03-23",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2022-03-07"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5577,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 950,
+      "clean_words": 916,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 916
+    }
+  }
+}

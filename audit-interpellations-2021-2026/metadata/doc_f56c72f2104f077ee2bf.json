@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f56c72f2104f077ee2bf",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Quand la construction va à tout va, tout ne va pas",
+    "source_title": "Interpellation de M. Jean-Yves Schmidhauser (PSDG) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Interpellation-Schmidhauser-construction-Rep.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "content_hash": "49c21bf5e7b2a7ba0804d5f105bf856408a6e944528c2d882d1da7c6935e0c8b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-05-15",
+    "responses": [
+      {
+        "response_number": "6/2024",
+        "response_date": "2024-10-30",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2024-10-07"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18181,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2903,
+      "clean_words": 2866,
+      "removed_blocks": 10
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2866
+    }
+  }
+}

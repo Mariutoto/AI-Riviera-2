@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_cc17db29f7bedaf20c36",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation sur le postulat «plan climat»",
+    "source_title": "Interpellation de Mme Geneviève Pasche (LV) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Interpellation-Pasche-Plan-climat-Rep.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-02",
+    "content_hash": "d5bef30f3670088f5935b503b27b42197302fd2fd4f99a30802e3a111f657d5c",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2020-03",
+    "responses": [
+      {
+        "response_number": "8/2022",
+        "response_date": "2022-11-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2022-10-10"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 7049,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1135,
+      "clean_words": 1101,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1101
+    }
+  }
+}

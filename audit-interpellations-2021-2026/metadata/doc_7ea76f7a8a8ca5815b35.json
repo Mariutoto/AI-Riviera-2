@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7ea76f7a8a8ca5815b35",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Réaménagement de l’avenue de la Gare, démarche participative, à quel prix ?",
+    "source_title": "Interpellation de Mme Bernadette Menétrey (PLR) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Menetrey-Avenue-gare-Demarche-participative-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-13",
+    "content_hash": "73175701a94dd5981de4c5ee747bd008ff6d7c38d3c474d5899384c19ae75905",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Bernadette Menétrey",
+        "civility": "Mme",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-06-28",
+    "responses": [
+      {
+        "response_number": "7/2023",
+        "response_date": "2023-09-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-08-21"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 7402,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 941,
+      "clean_words": 907,
+      "removed_blocks": 11
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 1120
+    }
+  }
+}

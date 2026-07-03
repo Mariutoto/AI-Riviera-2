@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8957e21135c68491a76d",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Que contient l’assiette de nos cantines subventionnées ?",
+    "source_title": "Interpellation de Mme Gabrielle Heller (LV) + Réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Interpellation-Heller-Refectoires-Rep.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-25",
+    "content_hash": "15701f9a03b01a46fe981c1749db75b90ad8179ee4f576f570d1481989e6d8a2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Gabrielle Heller",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-05-14",
+    "responses": [
+      {
+        "response_number": "2/2025",
+        "response_date": "2025-06-25",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2025-06-10"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13978,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2218,
+      "clean_words": 2184,
+      "removed_blocks": 13
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2184
+    }
+  }
+}

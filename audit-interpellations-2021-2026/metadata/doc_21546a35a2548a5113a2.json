@@ -1,0 +1,54 @@
+{
+  "document_metadata": {
+    "document_id": "doc_21546a35a2548a5113a2",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Pour quand le renouvellement des installations à la plage de la Maladaire",
+    "source_title": "Interpellation de Mme Maria Luceron (LCIVL) + réponse",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Interpellation-Luceron-Installations-plage-Maladaire-Rep.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-01",
+    "content_hash": "68cb8f0adfdf54439000a02993a84d122a4842d3d106a490ee9a2263e2d2b2ae",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Maria Luceron",
+        "civility": "Mme",
+        "party": "LCIVL"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-08",
+    "responses": [
+      {
+        "response_number": "12/2023",
+        "response_date": "2023-11-01",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": "2023-10-02"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4998,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 565,
+      "clean_words": 526,
+      "removed_blocks": 12
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 723
+    }
+  }
+}
