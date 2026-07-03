@@ -6,7 +6,7 @@ AI Riviera est un projet à but non lucratif. L'objectif est d'aider les citoyen
 
 Code source: https://github.com/Mariutoto/AI-Riviera-2
 
-La version actuelle utilise Postgres comme base principale: documents, passages, métadonnées, données structurées, articles du règlement, objets politiques et données financières. La recherche documentaire peut utiliser les capacités de Postgres, avec OpenSearch comme option locale ou expérimentale pour tester une recherche hybride BM25 + vectorielle. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
+La version actuelle utilise Postgres comme base principale: documents, passages, métadonnées, données structurées, articles du règlement, objets politiques et données financières. OpenSearch reste une intégration optionnelle pour tester une recherche hybride BM25 + vectorielle avec un service hébergé. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
 
 ## Lancer le chatbot
 
@@ -18,13 +18,6 @@ python -m streamlit run app/ui.py
 
 L'application répond avec les passages les plus pertinents et leurs sources. Si une clé Mistral ou OpenAI est configurée, elle génère aussi une synthèse en français à partir des extraits retrouvés.
 
-Pour utiliser OpenSearch en local pendant les tests:
-
-```powershell
-docker compose -f docker-compose.opensearch.yml up -d
-python -m app.ingest
-```
-
 Pour relancer l'ingestion manuellement ou via un job planifié:
 
 ```powershell
@@ -35,13 +28,7 @@ python -m app.ingestion_pipeline --trigger-name scheduled
 
 - Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
 - Postgres: extrait aussi une couche financiere structuree pour les budgets communaux (`financial_summary_tables`, `financial_summary_rows`, `financial_account_lines`).
-- OpenSearch, si disponible: indexe les chunks pour tester la recherche hybride et les filtres.
-
-Pour vérifier OpenSearch en local:
-
-```powershell
-curl http://localhost:9200
-```
+- OpenSearch, si un service hébergé est configuré: indexe les chunks pour tester la recherche hybride et les filtres.
 
 Pour reconstruire l'ancien index JSON/SQLite explicitement:
 
@@ -87,7 +74,7 @@ En cloud, les secrets peuvent être fournis comme variables d'environnement ou d
 - `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: clé du fournisseur LLM choisi.
 - `OPENAI_API_KEY`: aussi utilisée si des embeddings OpenAI sont activés.
 
-Important: `localhost:9200` désigne uniquement la machine locale. Si OpenSearch tourne sur votre ordinateur, Streamlit Cloud ne peut pas y accéder. Pour le cloud, il faut soit s'appuyer sur Postgres/Aiven, soit configurer un OpenSearch hébergé accessible depuis internet.
+Pour garder le déploiement simple, Postgres/Aiven suffit. OpenSearch ne doit être configuré que si vous disposez d'un service hébergé accessible depuis Streamlit Cloud.
 
 ## Données intégrées
 
@@ -149,7 +136,9 @@ Le dossier `data/index/` est généré localement et n'est pas versionné dans G
 ```powershell
 python scrape-la-tour-de-peilz/scrape_ordres_du_jour_2025_2026.py
 python scrape-la-tour-de-peilz/scrape_proces_verbaux_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_motions_postulats_2021_2026.py
+python scrape-la-tour-de-peilz/scrape_motions_2021_2026.py
+python scrape-la-tour-de-peilz/scrape_postulats_2021_2026.py
+python scrape-la-tour-de-peilz/scrape_interpellations_2021_2026.py
 python scrape-la-tour-de-peilz/scrape_informations_diverses_2021_2026.py
 python scrape-la-tour-de-peilz/scrape_preavis_municipaux_2021_2026.py
 python scrape-la-tour-de-peilz/scrape_rapport_gestion_2021_2024.py
@@ -157,8 +146,8 @@ python scrape-la-tour-de-peilz/scrape_rapport_comptes_2021_2024.py
 python scrape-la-tour-de-peilz/scrape_budgets_2021_2026.py
 python scrape-la-tour-de-peilz/scrape_infos_municipalite_2021_2026.py
 python scrape-la-tour-de-peilz/scrape_conseil_communal_institutionnel.py
+python scrape-la-tour-de-peilz/maintenance/clean_existing_text_data.py
 python scrape-la-tour-de-peilz/build_structured_data.py
-python scrape-la-tour-de-peilz/clean_existing_text_data.py
 python -m app.ingest
 ```
 

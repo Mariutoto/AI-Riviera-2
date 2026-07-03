@@ -156,6 +156,20 @@ def get_document_by_source_url(connection, source_url: str) -> dict[str, Any] | 
         return cursor.fetchone()
 
 
+def count_chunks_for_document(connection, document_id: str) -> int:
+    with connection.cursor() as cursor:
+        cursor.execute(
+            """
+            SELECT COUNT(*) AS count
+            FROM document_chunks
+            WHERE document_id = %s
+            """,
+            (document_id,),
+        )
+        row = cursor.fetchone()
+    return int(row["count"] if row else 0)
+
+
 def ready() -> bool:
     try:
         with _connect() as connection:

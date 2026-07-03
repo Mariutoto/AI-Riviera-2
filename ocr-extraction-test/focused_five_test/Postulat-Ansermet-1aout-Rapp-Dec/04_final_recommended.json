@@ -1,0 +1,95 @@
+{
+  "document": {
+    "document_id": "postulat-2022-quand-notre-c-ur-fait-boum:Postulat-Ansermet-1aout-Rapp-Dec",
+    "commune": "La Tour-de-Peilz",
+    "category": "postulats",
+    "title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+    "summary": "Quand notre cœur fait boum",
+    "listing_year": "2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+    "filename": "Postulat-Ansermet-1aout-Rapp-Dec.pdf"
+  },
+  "processing": {
+    "selected_extraction": "native_pdf",
+    "native_words": 1262,
+    "ocr_words": 1231,
+    "ocr_model": null,
+    "reason": "Native extraction appears complete"
+  },
+  "specific_metadata": {
+    "title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+    "summary": "Quand notre cœur fait boum",
+    "category": "postulats",
+    "status_normalized": "report_and_decision_available",
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "object_title": "Quand notre cœur fait boum",
+    "document_role": "commission_report",
+    "document_components": [
+      {
+        "role": "commission_report",
+        "report_type": "standard_report"
+      }
+    ],
+    "document_date": "2022-11-15",
+    "report_type": "standard_report",
+    "contains_report": true,
+    "contains_decision": true,
+    "decision": {
+      "session_date": "2022-12-07",
+      "decision_date": "2022-12-07",
+      "outcome": "adopted"
+    },
+    "commission": {
+      "recommendation": {
+        "recommendation": "reject_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "content_kind": "political_postulat",
+    "political_object": {
+      "type": "postulat",
+      "object_type": "postulat",
+      "object_id": "postulat-2022-quand-notre-c-ur-fait-boum",
+      "status_raw": "Rapport et décision disponibles",
+      "status_normalized": "report_and_decision_available",
+      "target_body": "Municipalite",
+      "decision_body": "Conseil communal",
+      "request_type": "non_binding_request",
+      "source_listing_title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+      "source_subject": "Quand notre cœur fait boum",
+      "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+      "object_title": "Quand notre cœur fait boum",
+      "document_date": "2022-11-15",
+      "decision_status": "adopted"
+    },
+    "search_facets": [
+      "boum",
+      "commission_report",
+      "conseil_communal",
+      "fait",
+      "lv",
+      "municipalite",
+      "notre",
+      "postulat",
+      "quand",
+      "report_and_decision_available",
+      "standard_report"
+    ]
+  },
+  "storage": {
+    "raw_pdf": "document.pdf",
+    "native_text": "native.txt",
+    "ocr_text": "ocr.md",
+    "scraped_listing": "01_scraped_listing.json",
+    "native_metadata": "02_metadata_from_native.json",
+    "ocr_metadata": "03_metadata_from_ocr.json"
+  }
+}

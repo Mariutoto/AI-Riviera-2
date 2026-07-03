@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+results/
+**/*.pdf
+**/ocr_raw.json
+corpus_inventory_temp.json

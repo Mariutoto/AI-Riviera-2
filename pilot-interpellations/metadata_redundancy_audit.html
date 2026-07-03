@@ -1,0 +1,594 @@
+<!doctype html><html lang='fr'><head><meta charset='utf-8'><title>Audit redondance metadata</title>
+<style>body{font:14px/1.45 system-ui;margin:24px;color:#172033}.note{background:#eef5ff;border-left:4px solid #2477d4;padding:13px}.proposal{display:grid;grid-template-columns:1fr 1fr;gap:18px}table{border-collapse:collapse;width:100%;margin-top:18px}th,td{border:1px solid #d9dfeb;padding:8px;vertical-align:top}th{background:#edf1f7}pre{white-space:pre-wrap;word-break:break-word;background:#f8fafc;padding:9px;font:12px/1.4 ui-monospace,monospace}summary{cursor:pointer;font-weight:650}</style></head><body>
+<h1>Audit de redondance des métadonnées</h1><p class='note'>Aucune donnée n'a été supprimée. Cet audit compare la base document_metadata aux métadonnées additionnelles actuelles des 12 interpellations.</p>
+<div class='proposal'><section><h2>Résultat global</h2><p>Comparaisons identiques : <strong>82</strong><br>Conflits ou sens différents : <strong>25</strong><br>Champs absents : <strong>1</strong></p></section><section><h2>Proposition minimale</h2><pre>{
+  &quot;authors&quot;: [
+    {
+      &quot;name&quot;: &quot;...&quot;,
+      &quot;party&quot;: &quot;...&quot;
+    }
+  ],
+  &quot;political_status&quot;: &quot;response_available&quot;
+}</pre></section></div>
+<table><thead><tr><th>Document</th><th>Champs dupliqués</th><th>Conflits</th><th>Classement des autres champs</th></tr></thead><tbody><tr><td>Zone 50 ? Oui, dans une zone 30 km/h !</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Zone 50 ? Oui, dans une zone 30 km/h !&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de M. Roger Urech (PLR) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2025,
+    &quot;additional_value&quot;: &quot;2025&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Modifications d&#x27;ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Modifications d&#x27;ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la commune ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Véronique Ansermet (LV) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2025,
+    &quot;additional_value&quot;: &quot;2025&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Les arbres ont-ils encore feuille au chapitre ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Les arbres ont-ils encore feuille au chapitre ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Véronique Ansermet (LV) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2024,
+    &quot;additional_value&quot;: &quot;2024&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Que contient l&#x27;assiette de nos cantines subventionnées ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Que contient l&#x27;assiette de nos cantines subventionnées ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Gabrielle Heller (LV) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2025,
+    &quot;additional_value&quot;: &quot;2025&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Personne ne doit dormir dehors - Quel hébergement d&#x27;urgence pour les sans-abris de l&#x27;est vaudois ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Personne ne doit dormir dehors - Quel hébergement d&#x27;urgence pour les sans-abris de l&#x27;est vaudois ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Gabrielle Heller (LV) et M. Alexandre Davel (PSDG) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2025,
+    &quot;additional_value&quot;: &quot;2025&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Modification de la loi sur l&#x27;électricité au 1er janvier 2026 : opportunités pour la commune via une Communautés Électrique locale (CEL)</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Modification de la loi sur l&#x27;électricité au 1er janvier 2026 : opportunités pour la commune via une Communautés Électrique locale (CEL)&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Véronique Ansermet (LV) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2026,
+    &quot;additional_value&quot;: &quot;2026&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Affichage publicitaire et politique sur le territoire de la commune</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Affichage publicitaire et politique sur le territoire de la commune&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de M. Michel Tobler (PLR) + réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2026,
+    &quot;additional_value&quot;: &quot;2026&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Moteur de recherche politique – Un outil qui cherche et qui trouve ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Moteur de recherche politique – Un outil qui cherche et qui trouve ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de M. Jean-Etienne Holzeisen (LTDPL) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2024,
+    &quot;additional_value&quot;: &quot;2024&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet</td><td>6<br>commune, category, document_role, site_listing_title, source_page, pdf_url</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Sur diverses modifications routières suite à la réalisation du préavis 17/2024, zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de M. Roger Urech (PLR) + réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2026,
+    &quot;additional_value&quot;: &quot;2026&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Une maison de la Sécurité, à TOUT prix ?</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Une maison de la Sécurité, à TOUT prix ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Geneviève Pasche &amp; consorts + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2024,
+    &quot;additional_value&quot;: &quot;2024&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Pour une mobilité et des accès au bus accessible à Toutes et Tous</td><td>7<br>commune, category, document_role, site_listing_title, source_page, pdf_url, document_date</td><td>2<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Pour une mobilité et des accès au bus accessible à Toutes et Tous&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de M. Piero Negro (PSDG) + Réponse&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2025,
+    &quot;additional_value&quot;: &quot;2025&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr><tr><td>Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?</td><td>6<br>commune, category, site_listing_title, source_page, pdf_url, document_date</td><td>3<details><summary>Voir</summary><pre>[
+  {
+    &quot;base_field&quot;: &quot;document_role&quot;,
+    &quot;additional_field&quot;: &quot;document_role&quot;,
+    &quot;base_value&quot;: &quot;interpellation_text&quot;,
+    &quot;additional_value&quot;: &quot;combined_interpellation_response&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;title&quot;,
+    &quot;additional_field&quot;: &quot;title&quot;,
+    &quot;base_value&quot;: &quot;Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?&quot;,
+    &quot;additional_value&quot;: &quot;Interpellation de Mme Anne-Marie Arnaud (hors parti)&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  },
+  {
+    &quot;base_field&quot;: &quot;listing_year&quot;,
+    &quot;additional_field&quot;: &quot;listing_year&quot;,
+    &quot;base_value&quot;: 2024,
+    &quot;additional_value&quot;: &quot;2024&quot;,
+    &quot;status&quot;: &quot;conflict_or_different_semantics&quot;
+  }
+]</pre></details></td><td><pre>{
+  &quot;keep_interpellation_metadata&quot;: [
+    &quot;authors&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;move_relationships&quot;: [
+    &quot;political_object_id&quot;
+  ],
+  &quot;move_processing&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;keep_source_snapshot&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_collection&quot;
+  ],
+  &quot;review_or_remove&quot;: [
+    &quot;contains_response&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_components&quot;,
+    &quot;document_type&quot;,
+    &quot;filename&quot;,
+    &quot;legislature&quot;,
+    &quot;object_title&quot;,
+    &quot;political_object&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ]
+}</pre></td></tr></tbody></table></body></html>

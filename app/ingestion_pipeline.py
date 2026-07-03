@@ -15,6 +15,7 @@ from app.postgres_store import (
     canonical_document_date,
     canonical_fetch_date,
     canonical_source_url,
+    count_chunks_for_document,
     delete_chunks_for_document,
     ensure_schema,
     finish_ingestion_run,
@@ -167,6 +168,7 @@ def ingest_documents(
         "documents_root": str(documents_root),
         "documents_seen": 0,
         "documents_indexed": 0,
+        "documents_repaired": 0,
         "documents_skipped": 0,
         "chunks_indexed": 0,
     }
@@ -187,17 +189,20 @@ def ingest_documents(
                 existing = get_document_by_source_url(connection, payload["source_url"])
                 force_document = str(metadata.get("doc_type") or metadata.get("category") or "") in force_categories
                 if existing and existing["document_hash"] == payload["document_hash"] and not force_document:
-                    with connection.cursor() as cursor:
-                        cursor.execute(
-                            """
-                            UPDATE documents
-                            SET last_processed_at = NOW(), status = 'unchanged', updated_at = NOW()
-                            WHERE id = %s
-                            """,
-                            (existing["id"],),
-                        )
-                    stats["documents_skipped"] += 1
-                    continue
+                    existing_chunk_count = count_chunks_for_document(connection, str(existing["id"]))
+                    if existing_chunk_count > 0:
+                        with connection.cursor() as cursor:
+                            cursor.execute(
+                                """
+                                UPDATE documents
+                                SET last_processed_at = NOW(), status = 'unchanged', updated_at = NOW()
+                                WHERE id = %s
+                                """,
+                                (existing["id"],),
+                            )
+                        stats["documents_skipped"] += 1
+                        continue
+                    stats["documents_repaired"] += 1
 
                 document_row = upsert_document(
                     connection,
