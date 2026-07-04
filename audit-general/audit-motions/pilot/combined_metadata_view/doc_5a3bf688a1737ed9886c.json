@@ -1,0 +1,66 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5a3bf688a1737ed9886c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+    "source_title": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-06",
+    "content_hash": "965440932e9270ac4ea0eac44d595598d008e99da8851c9e5f2c4bff326543f0",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Manon Roethlisberger",
+        "civility": "Mme",
+        "party": "LCIVL"
+      },
+      {
+        "name": "Piero Negro",
+        "civility": "M.",
+        "party": "PSDG"
+      },
+      {
+        "name": "Anouk Dandrieu",
+        "party": "LV"
+      },
+      {
+        "name": "Alice Gavillet",
+        "party": "LTDPL"
+      },
+      {
+        "name": "Gabriel Ranzato",
+        "party": "UDC"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3620,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 540,
+      "clean_words": 540,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 514
+    }
+  }
+}

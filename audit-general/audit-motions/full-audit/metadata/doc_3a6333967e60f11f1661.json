@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3a6333967e60f11f1661",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "combined_motion_report_decision",
+    "title": "Un engagement pour la Faraz",
+    "source_title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-07-17",
+    "content_hash": "3b69b334bc4728daf4a14f53db0646d74be010c9861dea92d0bd7d0540a95837",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Etienne Balestra",
+        "civility": "M.",
+        "party": "PSDG"
+      },
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      },
+      {
+        "name": "Michel Bloch",
+        "party": "PSDG"
+      },
+      {
+        "name": "Marion Savoy",
+        "party": "LV"
+      },
+      {
+        "name": "Margareta Brüssow",
+        "party": "LCIVL"
+      },
+      {
+        "name": "Jose Espinosa",
+        "party": "UDC"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "majority_and_minority_reports",
+    "contains_majority_report": true,
+    "contains_minority_report": true,
+    "decision_date": "2022-09-15",
+    "commission": {
+      "members": [
+        {
+          "name": "Nathalie Demarta",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "jeudi 30 juin",
+        "date": "2022-06-30"
+      },
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": true,
+      "contains_minority_report": true
+    },
+    "decision": {
+      "session_date": "2022-09-14",
+      "decision_date": "2022-09-15",
+      "outcome": "adopted"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18082,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2912,
+      "clean_words": 2912,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2784
+    }
+  }
+}

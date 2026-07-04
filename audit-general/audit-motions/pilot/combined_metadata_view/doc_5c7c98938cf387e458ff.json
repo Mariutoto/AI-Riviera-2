@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5c7c98938cf387e458ff",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "combined_motion_report_decision",
+    "title": "Le château, un programme pour toutes et tous",
+    "source_title": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-01",
+    "content_hash": "843f3cb7341a4a8fcdcbe0c16ee0c2300b3f6888f0c1ae1a05aa43268a5d9ac3",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Geneviève Pasche",
+        "civility": "Mme",
+        "party": "LV"
+      },
+      {
+        "name": "Etienne Balestra",
+        "civility": "M.",
+        "party": "PSDG"
+      },
+      {
+        "name": "Michel Bloch",
+        "party": "PSDG"
+      },
+      {
+        "name": "Véronique Ansermet",
+        "party": "LV"
+      },
+      {
+        "name": "Jose Espinosa",
+        "party": "PLR"
+      },
+      {
+        "name": "Salvatore Noto",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-06-30",
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "lundi 30 mai 2022 en compagnie de M",
+        "date": "2022-05-30"
+      },
+      "recommendation": {
+        "recommendation": "support_motion",
+        "vote": {
+          "raw": "à l'unanimité",
+          "unanimous": true
+        }
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-06-29",
+      "decision_date": "2022-06-30",
+      "outcome": "referred_to_municipality",
+      "vote": {
+        "raw": "adopté à une très large majorité (18 avis contraires et 3 abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "18 avis contraires et 3 abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8492,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1370,
+      "clean_words": 1370,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1314
+    }
+  }
+}

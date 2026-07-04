@@ -1,0 +1,71 @@
+{
+  "document_metadata": {
+    "document_id": "doc_d6386b1a49b46ad058f8",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "commission_report",
+    "title": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+    "source_title": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-08-30",
+    "content_hash": "11e689aa7e4e4e227a10fba962f112b601bf516dc9047a510141fe0a6be14d0e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "José Espinosa",
+        "civility": "M.",
+        "party": "hors parti"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2021-09-15",
+    "commission": {
+      "meeting": {
+        "raw": "mercredi 25 août 2021, à 19h30, à la salle 2 de la Maison de Commune, en présence de : • Madame Elise Kaiser, Municipale, et • Monsieur Christophe Authier, Chef de service",
+        "date": "2021-08-25",
+        "time": "19:30",
+        "place": "la salle 2 de la Maison de Commune, en présence de : • Madame Elise Kaiser, Municipale, et • Monsieur Christophe Authier, Chef de service"
+      },
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2021-09-15",
+      "decision_date": "2021-09-15",
+      "outcome": "referred_to_municipality",
+      "vote": {
+        "raw": "adopté à une très large majorité (10 abstentions).",
+        "result": "large_majority"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 9482,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1502,
+      "clean_words": 1502,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1451
+    }
+  }
+}

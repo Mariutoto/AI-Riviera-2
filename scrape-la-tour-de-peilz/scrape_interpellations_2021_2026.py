@@ -228,7 +228,7 @@ def extract_document_components(role: str) -> list[dict]:
     return components
 
 
-def collect_items() -> list[dict]:
+def collect_items_legacy_page() -> list[dict]:
     page_html = fetch_text(SOURCE_PAGE)
     items_by_url = {}
     for year_match in re.finditer(
@@ -293,6 +293,14 @@ def collect_items() -> list[dict]:
                 "authors": parse_authors_from_listing(listing_title),
             }
     return list(sorted(items_by_url.values(), key=lambda item: (item["listing_year"], item["filename"])))
+
+
+def collect_items() -> list[dict]:
+    """Collect canonical interpellations from the faceted JSON endpoint."""
+    from scrape_interpellations_search_json_2021_2026 import collect_items as collect_json_items
+
+    items, _ = collect_json_items()
+    return items
 
 
 def extract_pdf_text(pdf_path: Path) -> str:

@@ -1,0 +1,132 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "motion",
+  "document_type": "motion",
+  "year": "2024",
+  "listing_year": "2024",
+  "category": "motions",
+  "legislature": "2021-2026",
+  "title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+  "summary": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+  "filename": "Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2024-freiner-les-constructions-et-preserver-le-patrimoine-dans-la-commune-de-la-tour-de-peilz",
+  "site_listing_title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+  "site_subject": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Jérôme Bonvin",
+      "civility": "M.",
+      "party": "LCIVL"
+    },
+    {
+      "name": "Véronique Ansermet",
+      "party": "LV"
+    },
+    {
+      "name": "Michel Bloch",
+      "party": "PSDG"
+    },
+    {
+      "name": "Guillaume Jung",
+      "party": "UDC"
+    },
+    {
+      "name": "Viviane Huber",
+      "party": "LTDPL",
+      "role": "group_representative"
+    }
+  ],
+  "object_title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+  "document_role": "combined_motion_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "motion_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2024-08-30",
+  "political_object": {
+    "type": "motion",
+    "object_type": "motion",
+    "object_id": "motion-2024-freiner-les-constructions-et-preserver-le-patrimoine-dans-la-commune-de-la-tour-de-peilz",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "binding_request",
+    "source_listing_title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+    "source_subject": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+    "document_date": "2024-08-30"
+  },
+  "search_facets": [
+    "combined_motion_report_decision",
+    "commune",
+    "conseil_communal",
+    "constructions",
+    "dans",
+    "freiner",
+    "lcivl",
+    "ltdpl",
+    "lv",
+    "motion",
+    "municipalite",
+    "patrimoine",
+    "peilz",
+    "preserver",
+    "psdg",
+    "report_and_decision_available",
+    "standard_report",
+    "tour",
+    "udc"
+  ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 18084,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "mardi 24 septembre 2024, à 19h30 en Salle 2 de la Maison de commune : Elle était composée de :",
+      "date": "2024-09-24",
+      "time": "19:30"
+    },
+    "invited_people": [
+      {
+        "name": "Maximilien Walter",
+        "civility": "M."
+      }
+    ],
+    "rapporteur": "Michel Bloch",
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2024-10-30",
+    "decision_date": "2024-10-30"
+  }
+}

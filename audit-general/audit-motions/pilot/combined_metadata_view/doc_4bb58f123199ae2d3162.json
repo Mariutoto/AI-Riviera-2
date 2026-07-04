@@ -1,0 +1,135 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4bb58f123199ae2d3162",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "combined_motion_report_decision",
+    "title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+    "source_title": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-07-12",
+    "content_hash": "e234d21dfd293c640f2e34f32c16666e8d501ce540881d2ba7158728eeb1495a",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Héraclès Dellas",
+        "civility": "M.",
+        "party": "UDC"
+      },
+      {
+        "name": "Viviane Huber"
+      },
+      {
+        "name": "Jean-Etienne Holzeisen"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2024-09-11",
+    "commission": {
+      "members": [
+        {
+          "name": "Marianne Adank",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Aloïs Raemy",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Heraclès Dellas",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "lundi 1er juillet à 19h.30 à la Maison de commune (salle 2)",
+        "date": "2024-07-01",
+        "time": "19:30",
+        "place": "la Maison de commune (salle 2)"
+      },
+      "rapporteur": "Geneviève Pasche",
+      "recommendation": {
+        "recommendation": "reject_motion",
+        "vote": {
+          "raw": "à l'unanimité moins une voix vous recommandent",
+          "unanimous": true,
+          "exceptions": "une voix vous recommandent"
+        }
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2024-09-11",
+      "decision_date": "2024-09-11",
+      "outcome": "rejected_not_referred",
+      "vote": {
+        "raw": "Adopté à une large majorité (six avis contraires).",
+        "result": "large_majority",
+        "contrary_votes_raw": "six avis contraires"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13230,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2142,
+      "clean_words": 2142,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2014
+    }
+  }
+}

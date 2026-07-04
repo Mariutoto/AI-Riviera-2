@@ -1,0 +1,589 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_0c60d2d69c599dade0df",
+      "title": "Aidons nos commerçants oui, mais aidons aussi nos sociétés locales",
+      "year": 2021,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Aidons-nos-commercants.pdf",
+      "base_missing": [
+        "document_date"
+      ],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 1455,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 232,
+          "clean_words": 232,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 228
+        },
+        "manual_review": {
+          "status": "corrected",
+          "reason": "source_listing_incorrect"
+        }
+      },
+      "dates": {
+        "document_date": null,
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [
+          "document_date"
+        ],
+        "missing_motion_fields": [],
+        "warnings": [
+          "document_date_missing"
+        ],
+        "valid": false
+      },
+      "text_words": 226,
+      "raw_words": 232,
+      "removed_words": 0,
+      "chunks": 1,
+      "chunk_counts": {
+        "green": 1,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_32c17eaaa14c2fb1dbf2",
+      "title": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+      "year": 2021,
+      "role": "combined_motion_report_decision",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 15876,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 2502,
+          "clean_words": 2502,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 2396
+        },
+        "manual_review": {
+          "status": "corrected",
+          "reason": "document_components_manually_verified"
+        }
+      },
+      "dates": {
+        "document_date": "2021-05-31",
+        "decision_date": "2021-07-01",
+        "commission_date": "2021-05-31"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 2415,
+      "raw_words": 2502,
+      "removed_words": 0,
+      "chunks": 7,
+      "chunk_counts": {
+        "green": 7,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_3a6333967e60f11f1661",
+      "title": "Un engagement pour la Faraz",
+      "year": 2022,
+      "role": "combined_motion_report_decision",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 18082,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 2912,
+          "clean_words": 2912,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 2784
+        }
+      },
+      "dates": {
+        "document_date": "2022-07-17",
+        "decision_date": "2022-09-15",
+        "commission_date": "2022-06-30"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 2828,
+      "raw_words": 2912,
+      "removed_words": 0,
+      "chunks": 9,
+      "chunk_counts": {
+        "green": 9,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_4bb58f123199ae2d3162",
+      "title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "year": 2024,
+      "role": "combined_motion_report_decision",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 13230,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 2142,
+          "clean_words": 2142,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 2014
+        }
+      },
+      "dates": {
+        "document_date": "2024-07-12",
+        "decision_date": "2024-09-11",
+        "commission_date": "2024-07-01"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 2041,
+      "raw_words": 2142,
+      "removed_words": 0,
+      "chunks": 7,
+      "chunk_counts": {
+        "green": 7,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_5a3bf688a1737ed9886c",
+      "title": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+      "year": 2026,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 3620,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 540,
+          "clean_words": 540,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 514
+        }
+      },
+      "dates": {
+        "document_date": "2026-04-06",
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 521,
+      "raw_words": 540,
+      "removed_words": 0,
+      "chunks": 3,
+      "chunk_counts": {
+        "green": 3,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_5c7c98938cf387e458ff",
+      "title": "Le château, un programme pour toutes et tous",
+      "year": 2022,
+      "role": "combined_motion_report_decision",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 8492,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 1370,
+          "clean_words": 1370,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 1314
+        }
+      },
+      "dates": {
+        "document_date": "2022-06-01",
+        "decision_date": "2022-06-30",
+        "commission_date": "2022-05-30"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 1335,
+      "raw_words": 1370,
+      "removed_words": 0,
+      "chunks": 5,
+      "chunk_counts": {
+        "green": 5,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_bf85621221fdfe857d49",
+      "title": "Du matériel sportif accessible pour tous",
+      "year": 2021,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 0,
+          "text_available": false,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 0,
+          "clean_words": 0,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "ignored_non_text_image",
+          "words": 0
+        },
+        "manual_review": {
+          "status": "corrected",
+          "reason": "non_text_image_ignored"
+        }
+      },
+      "dates": {
+        "document_date": "2021-08-12",
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 0,
+      "raw_words": 0,
+      "removed_words": 0,
+      "chunks": 0,
+      "chunk_counts": {
+        "green": 0,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_d6386b1a49b46ad058f8",
+      "title": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+      "year": 2021,
+      "role": "commission_report",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 9482,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 1502,
+          "clean_words": 1502,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 1451
+        }
+      },
+      "dates": {
+        "document_date": "2021-08-30",
+        "decision_date": "2021-09-15",
+        "commission_date": "2021-08-25"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 1514,
+      "raw_words": 1502,
+      "removed_words": 0,
+      "chunks": 5,
+      "chunk_counts": {
+        "green": 5,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_e0435aa502e3b0584076",
+      "title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+      "year": 2024,
+      "role": "combined_motion_report_decision",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 18084,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 2828,
+          "clean_words": 2828,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 2738
+        }
+      },
+      "dates": {
+        "document_date": "2024-08-30",
+        "decision_date": "2024-10-30",
+        "commission_date": "2024-09-24"
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 2773,
+      "raw_words": 2828,
+      "removed_words": 0,
+      "chunks": 9,
+      "chunk_counts": {
+        "green": 9,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_e2c64d73e3bfd16009ed",
+      "title": "Adaptation du règlement du Conseil communal",
+      "year": 2021,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-reglement-conseil.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 3978,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 628,
+          "clean_words": 628,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 628
+        },
+        "manual_review": {
+          "status": "corrected",
+          "reason": "document_date_manually_verified"
+        }
+      },
+      "dates": {
+        "document_date": "2021-09-06",
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 614,
+      "raw_words": 628,
+      "removed_words": 0,
+      "chunks": 2,
+      "chunk_counts": {
+        "green": 2,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_edbcd95e5b6ccaa9a4c7",
+      "title": "Adaptation du Règlement du conseil communal",
+      "year": 2021,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+      "base_missing": [],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 1548,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 267,
+          "clean_words": 267,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 260
+        }
+      },
+      "dates": {
+        "document_date": "2021-11-15",
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [],
+        "missing_motion_fields": [],
+        "warnings": [],
+        "valid": true
+      },
+      "text_words": 258,
+      "raw_words": 267,
+      "removed_words": 0,
+      "chunks": 1,
+      "chunk_counts": {
+        "green": 1,
+        "yellow": 0,
+        "red": 0
+      }
+    },
+    {
+      "document_id": "doc_f3ee3955d8cb2f0041f9",
+      "title": "De l'ombrage pour plus de convivialité",
+      "year": 2022,
+      "role": "motion_text",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Champier-Ombrage-Anciens-fosses.pdf",
+      "base_missing": [
+        "document_date"
+      ],
+      "additional_missing": [],
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 1589,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 0,
+          "clean_words": 0,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "mistral_ocr",
+          "words": 243
+        }
+      },
+      "dates": {
+        "document_date": null,
+        "decision_date": null,
+        "commission_date": null
+      },
+      "metadata_audit": {
+        "missing_base_fields": [
+          "document_date"
+        ],
+        "missing_motion_fields": [],
+        "warnings": [
+          "document_date_missing"
+        ],
+        "valid": false
+      },
+      "text_words": 245,
+      "raw_words": 0,
+      "removed_words": 0,
+      "chunks": 1,
+      "chunk_counts": {
+        "green": 1,
+        "yellow": 0,
+        "red": 0
+      }
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "documents": 12,
+    "valid_metadata": 10,
+    "documents_with_warnings": 2,
+    "ocr_required": 0,
+    "chunks": 50,
+    "green_chunks": 50,
+    "yellow_chunks": 0,
+    "red_chunks_or_documents": 0,
+    "missing_field_counts": {
+      "document_date": 2
+    },
+    "warning_counts": {
+      "document_date_missing": 2
+    }
+  }
+}

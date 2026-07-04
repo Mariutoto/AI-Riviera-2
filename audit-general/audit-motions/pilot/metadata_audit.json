@@ -1,0 +1,1474 @@
+{
+  "documents": 12,
+  "comparison_counts": {
+    "doublon": 118,
+    "absent": 2
+  },
+  "additional_field_presence": {
+    "authors": 12,
+    "canonical_object": 12,
+    "category": 12,
+    "commission": 7,
+    "commune": 12,
+    "contains_decision": 12,
+    "contains_majority_report": 12,
+    "contains_minority_report": 12,
+    "contains_report": 12,
+    "content_kind": 12,
+    "decision": 6,
+    "document_components": 12,
+    "document_date": 10,
+    "document_role": 12,
+    "document_type": 12,
+    "filename": 12,
+    "legislature": 12,
+    "listing_year": 12,
+    "metadata_version": 12,
+    "object_title": 12,
+    "pdf_url": 12,
+    "political_object": 12,
+    "political_object_id": 12,
+    "report_type": 7,
+    "search_facets": 12,
+    "site_listing_title": 12,
+    "site_status_raw": 12,
+    "site_subject": 12,
+    "source_collection": 12,
+    "source_page": 12,
+    "status": 12,
+    "status_normalized": 12,
+    "summary": 12,
+    "text_extraction_status": 12,
+    "title": 12,
+    "type": 12,
+    "year": 12
+  },
+  "minimal_schema_proposal": {
+    "document_metadata": {
+      "document_id": "doc_…",
+      "commune": "La Tour-de-Peilz",
+      "document_family": "political_object",
+      "category": "motion",
+      "document_role": "motion_text | combined_motion_report_decision | …",
+      "title": "…",
+      "source_title": "…",
+      "source_page_url": "…",
+      "file_url": "…",
+      "listing_year": 2024,
+      "legislature": "2021-2026",
+      "document_date": "YYYY-MM-DD | null",
+      "content_hash": "sha256",
+      "extraction_method": "native_pdf",
+      "processing_status": "validated"
+    },
+    "motion_metadata": {
+      "authors": [
+        {
+          "name": "…",
+          "party": "…"
+        }
+      ],
+      "political_status": "…",
+      "report_type": "… | null",
+      "contains_majority_report": false,
+      "contains_minority_report": false,
+      "decision_date": "YYYY-MM-DD | null",
+      "commission": "objet optionnel si rapport",
+      "decision": "objet optionnel si décision"
+    },
+    "processing": {
+      "text_extraction_status": {
+        "characters_extracted": 0,
+        "text_available": true,
+        "needs_ocr": false
+      },
+      "header_footer_cleaning": {
+        "raw_words": 0,
+        "clean_words": 0,
+        "removed_blocks": 0
+      },
+      "selected_text": {
+        "method": "native_pdf",
+        "words": 0
+      }
+    }
+  },
+  "documents_audit": [
+    {
+      "document_id": "doc_bf85621221fdfe857d49",
+      "title": "Du matériel sportif accessible pour tous",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Du matériel sportif accessible pour tous",
+          "additional_value": "Du matériel sportif accessible pour tous",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-08-12",
+          "additional_value": "2021-08-12",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_0c60d2d69c599dade0df",
+      "title": "Aidons nos commerçants oui, mais aidons aussi nos sociétés locales",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Aidons nos commerçants oui, mais aidons aussi nos sociétés locales",
+          "additional_value": "Aidons nos commerçants oui, mais aidons aussi nos sociétés locales",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+          "additional_value": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Aidons-nos-commercants.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Aidons-nos-commercants.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "absent"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_d6386b1a49b46ad058f8",
+      "title": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "commission_report",
+          "additional_value": "commission_report",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+          "additional_value": "Zone 51 ? Non, zone 30 La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+          "additional_value": "Motion de M. José Espinosa (hors parti) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-08-30",
+          "additional_value": "2021-08-30",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_32c17eaaa14c2fb1dbf2",
+      "title": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_motion_report_decision",
+          "additional_value": "combined_motion_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+          "additional_value": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+          "additional_value": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-05-31",
+          "additional_value": "2021-05-31",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_edbcd95e5b6ccaa9a4c7",
+      "title": "Adaptation du Règlement du conseil communal",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Adaptation du Règlement du conseil communal",
+          "additional_value": "Adaptation du Règlement du conseil communal",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+          "additional_value": "Motion de M. Marc Wüthrich (LTDPL) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-11-15",
+          "additional_value": "2021-11-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_e2c64d73e3bfd16009ed",
+      "title": "Adaptation du règlement du Conseil communal",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Adaptation du règlement du Conseil communal",
+          "additional_value": "Adaptation du règlement du Conseil communal",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "additional_value": "Motion de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-reglement-conseil.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Wuthrich-Adaptation-reglement-conseil.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-09-06",
+          "additional_value": "2021-09-06",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_3a6333967e60f11f1661",
+      "title": "Un engagement pour la Faraz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_motion_report_decision",
+          "additional_value": "combined_motion_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Un engagement pour la Faraz",
+          "additional_value": "Un engagement pour la Faraz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+          "additional_value": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-07-17",
+          "additional_value": "2022-07-17",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_5c7c98938cf387e458ff",
+      "title": "Le château, un programme pour toutes et tous",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_motion_report_decision",
+          "additional_value": "combined_motion_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Le château, un programme pour toutes et tous",
+          "additional_value": "Le château, un programme pour toutes et tous",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts + rapport + décision",
+          "additional_value": "Motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-06-01",
+          "additional_value": "2022-06-01",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_f3ee3955d8cb2f0041f9",
+      "title": "De l'ombrage pour plus de convivialité",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "De l'ombrage pour plus de convivialité",
+          "additional_value": "De l'ombrage pour plus de convivialité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Denis Champier (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Motion de M. Denis Champier (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Champier-Ombrage-Anciens-fosses.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Champier-Ombrage-Anciens-fosses.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "absent"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_e0435aa502e3b0584076",
+      "title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_motion_report_decision",
+          "additional_value": "combined_motion_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+          "additional_value": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+          "additional_value": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2024-08-30",
+          "additional_value": "2024-08-30",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_4bb58f123199ae2d3162",
+      "title": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_motion_report_decision",
+          "additional_value": "combined_motion_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+          "additional_value": "Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+          "additional_value": "Motion de M. Héraclès Dellas (UDC) et Consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2024-07-12",
+          "additional_value": "2024-07-12",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_5a3bf688a1737ed9886c",
+      "title": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "motion",
+          "additional_value": "motions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "motion_text",
+          "additional_value": "motion_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+          "additional_value": "Indemnité pour le remboursement des frais de garde lors des séances du Conseil communal, des commissions et du bureau",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
+          "additional_value": "Motion de Mme Manon Roethlisberger (LCIVL) et M. Piero Negro (PSDG) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "additional_value": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Motion-Roethlisberger-Frais-garde.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2026,
+          "additional_value": "2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2026-04-06",
+          "additional_value": "2026-04-06",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_motion": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_collection"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    }
+  ]
+}

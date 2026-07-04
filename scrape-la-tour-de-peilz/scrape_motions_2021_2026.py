@@ -152,23 +152,54 @@ def parse_listing_status(label: str) -> tuple[str | None, str]:
 
 
 def infer_document_role(label: str, filename: str, text: str) -> tuple[str, str | None]:
+    normalized_label = normalize(label)
+    normalized_filename = normalize(filename)
+    # The official listing is authoritative for standalone motions. Words such
+    # as "rapport" or "décision" often occur in the motion's argument itself
+    # and must not turn it into a combined dossier.
+    if (
+        ("renvoye directement" in normalized_label or "non soutenu" in normalized_label)
+        and "rapp" not in normalized_filename
+        and "dec" not in normalized_filename
+    ):
+        return "motion_text", None
     haystack = normalize(f"{label} {filename} {text[:2500]}")
-    if "rapport de majorite" in haystack or "rapp-maj" in normalize(filename):
-        return "commission_report", "majority_report"
-    if "rapport de minorite" in haystack or "rapp-min" in normalize(filename):
-        return "commission_report", "minority_report"
+    report_type, _, _ = infer_report_types(label, filename, text)
     has_report = "rapport" in haystack or "rapp" in normalize(filename)
     has_decision = "decision" in haystack or "dec" in normalize(filename)
     has_motion_text = "nous, les soussignes" in haystack or "proposons la motion suivante" in haystack or "motion :" in haystack
     if has_report and has_decision and has_motion_text:
-        return "combined_motion_report_decision", "standard_report"
+        return "combined_motion_report_decision", report_type or "standard_report"
     if has_report and has_motion_text:
-        return "combined_motion_report", "standard_report"
+        return "combined_motion_report", report_type or "standard_report"
     if has_report:
-        return "commission_report", "standard_report"
+        return "commission_report", report_type or "standard_report"
     if has_decision:
         return "council_decision", None
     return "motion_text", None
+
+
+def infer_report_types(label: str, filename: str, text: str) -> tuple[str | None, bool, bool]:
+    normalized = normalize(f"{label} {filename} {text}")
+    has_majority = "rapport de majorite" in normalized or "rapp-maj" in normalize(filename)
+    has_minority = "rapport de minorite" in normalized or "rapp-min" in normalize(filename)
+    has_unqualified_report = "rapport de la commission" in normalized
+    # When a distinct minority report follows an unqualified commission
+    # report, the latter is the majority report even if its heading omits the
+    # word "majorité". A lone unqualified report remains standard_report.
+    if has_minority and has_unqualified_report:
+        has_majority = True
+    if has_majority and has_minority:
+        report_type = "majority_and_minority_reports"
+    elif has_majority:
+        report_type = "majority_report"
+    elif has_minority:
+        report_type = "minority_report"
+    elif "rapport" in normalized or "rapp" in normalize(filename):
+        report_type = "standard_report"
+    else:
+        report_type = None
+    return report_type, has_majority, has_minority
 
 
 def extract_people(text: str) -> list[dict]:
@@ -492,11 +523,12 @@ def extract_council_decision(text: str, default_year: str) -> dict | None:
 
 def infer_report_flags(label: str, filename: str, text: str, report_type: str | None) -> dict:
     normalized = normalize(f"{label} {filename} {text[:4000]}")
+    _, has_majority, has_minority = infer_report_types(label, filename, text)
     return {
         "contains_report": "rapport" in normalized or "rapp" in normalize(filename),
         "contains_decision": "decision" in normalized or "-dec" in normalize(filename),
-        "contains_majority_report": report_type == "majority_report" or "rapport de majorite" in normalized,
-        "contains_minority_report": report_type == "minority_report" or "rapport de minorite" in normalized,
+        "contains_majority_report": has_majority,
+        "contains_minority_report": has_minority,
     }
 
 
@@ -505,10 +537,16 @@ def extract_document_components(text: str, role: str, report_type: str | None) -
     if role in {"motion_text", "combined_motion_report", "combined_motion_report_decision"}:
         components.append({"role": "motion_text"})
     if role in {"commission_report", "combined_motion_report", "combined_motion_report_decision"}:
-        component = {"role": "commission_report"}
-        if report_type:
-            component["report_type"] = report_type
-        components.append(component)
+        report_types = (
+            ["majority_report", "minority_report"]
+            if report_type == "majority_and_minority_reports"
+            else [report_type] if report_type else [None]
+        )
+        for current_report_type in report_types:
+            component = {"role": "commission_report"}
+            if current_report_type:
+                component["report_type"] = current_report_type
+            components.append(component)
     if role in {"council_decision", "combined_motion_report_decision"}:
         components.append({"role": "council_decision"})
     return components

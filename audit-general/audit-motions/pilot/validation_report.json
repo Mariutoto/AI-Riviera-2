@@ -1,0 +1,99 @@
+{
+  "documents_checked": 12,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "native_text_empty",
+      "documents": [
+        "doc_bf85621221fdfe857d49"
+      ],
+      "message": "OCR requis avant l'audit complet pour ces PDF image."
+    }
+  ],
+  "diagnostics": [
+    {
+      "document_id": "doc_bf85621221fdfe857d49",
+      "filename": "7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+      "pages": 2,
+      "words": 0,
+      "document_role": "motion_text"
+    },
+    {
+      "document_id": "doc_0c60d2d69c599dade0df",
+      "filename": "Motion-Espinosa-Aidons-nos-commercants.pdf",
+      "pages": 1,
+      "words": 228,
+      "document_role": "motion_text"
+    },
+    {
+      "document_id": "doc_d6386b1a49b46ad058f8",
+      "filename": "Motion-Espinosa-Zone30-Rapp-Dec.pdf",
+      "pages": 5,
+      "words": 1451,
+      "document_role": "commission_report"
+    },
+    {
+      "document_id": "doc_32c17eaaa14c2fb1dbf2",
+      "filename": "Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+      "pages": 7,
+      "words": 2396,
+      "document_role": "combined_motion_report_decision"
+    },
+    {
+      "document_id": "doc_edbcd95e5b6ccaa9a4c7",
+      "filename": "Motion-Wuthrich-Adaptation-Reglement-Cofin.pdf",
+      "pages": 1,
+      "words": 260,
+      "document_role": "motion_text"
+    },
+    {
+      "document_id": "doc_e2c64d73e3bfd16009ed",
+      "filename": "Motion-Wuthrich-Adaptation-reglement-conseil.pdf",
+      "pages": 2,
+      "words": 628,
+      "document_role": "motion_text"
+    },
+    {
+      "document_id": "doc_3a6333967e60f11f1661",
+      "filename": "Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+      "pages": 7,
+      "words": 2784,
+      "document_role": "combined_motion_report_decision"
+    },
+    {
+      "document_id": "doc_5c7c98938cf387e458ff",
+      "filename": "Motion-Pasche-Consorts-Chateau-participatif-Rapp-Dec.pdf",
+      "pages": 4,
+      "words": 1314,
+      "document_role": "combined_motion_report_decision"
+    },
+    {
+      "document_id": "doc_f3ee3955d8cb2f0041f9",
+      "filename": "Postulat-Champier-Ombrage-Anciens-fosses.pdf",
+      "pages": 1,
+      "words": 243,
+      "document_role": "motion_text"
+    },
+    {
+      "document_id": "doc_e0435aa502e3b0584076",
+      "filename": "Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+      "pages": 7,
+      "words": 2738,
+      "document_role": "combined_motion_report_decision"
+    },
+    {
+      "document_id": "doc_4bb58f123199ae2d3162",
+      "filename": "Motion-Heracles-7-Municipaux-Rapp-Dec.pdf",
+      "pages": 6,
+      "words": 2014,
+      "document_role": "combined_motion_report_decision"
+    },
+    {
+      "document_id": "doc_5a3bf688a1737ed9886c",
+      "filename": "Motion-Roethlisberger-Frais-garde.pdf",
+      "pages": 2,
+      "words": 514,
+      "document_role": "motion_text"
+    }
+  ]
+}
