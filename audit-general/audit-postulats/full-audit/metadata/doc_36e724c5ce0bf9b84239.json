@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "document_id": "doc_36e724c5ce0bf9b84239",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+    "source_title": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "55452b44b6bf77626e70ed548582e2c8027791cabaacd40698357d264ab465f2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Valentine Python",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4505,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 601
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 647,
+      "clean_words": 601,
+      "removed_blocks": 2
+    }
+  }
+}

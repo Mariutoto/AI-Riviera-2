@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1096ea2c833805f111cf",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+    "source_title": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-25",
+    "content_hash": "17baffde6a157b140e23cf49b0a5341df84cb53c8fa0e202240855b9740c851f",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Yann Boulben Meyer",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "unknown",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2905,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 416
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_manually_verified"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 428,
+      "clean_words": 416,
+      "removed_blocks": 0
+    }
+  }
+}

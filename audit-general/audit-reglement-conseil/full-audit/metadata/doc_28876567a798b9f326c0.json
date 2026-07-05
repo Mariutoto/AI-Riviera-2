@@ -1,0 +1,33 @@
+{
+  "document_metadata": {
+    "document_id": "doc_28876567a798b9f326c0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "regulation",
+    "category": "reglement_conseil_communal",
+    "document_role": "regulation_text",
+    "title": "Règlement du Conseil communal",
+    "source_title": "Règlement du Conseil communal de La Tour-de-Peilz 2017",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/tools/pdf-viewer/web/viewer.php?file=/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf",
+    "document_date": "2017-10-25",
+    "content_hash": "28876567a798b9f326c072e38bf77206e359af5d0251259bf258303b6b46af40",
+    "extraction_method": "native_pdf",
+    "processing_status": "audit_generated"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 81550,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12801,
+      "clean_words": 10196,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 10196
+    }
+  }
+}

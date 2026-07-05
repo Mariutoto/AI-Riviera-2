@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "document_id": "doc_151b79092162180f214c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+    "source_title": "Postulat de Mme Maria Luceron (LCIVL) + Rapport + Décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-10",
+    "content_hash": "fb2e04f02a8642346be625000c6d27d66855e3e77850711de7f856470443a354",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Maria Luceron",
+        "civility": "Mme",
+        "party": "LCIVL"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-11-03",
+    "commission": {
+      "members": [
+        {
+          "name": "Maria Luceron",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Roberto Carbonell",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre Fontana",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "excused"
+        }
+      ],
+      "meeting": {
+        "raw": "6 octobre 2022 à 19h30 en Salle 2 de la Maison de commune",
+        "date": "2022-10-06",
+        "time": "19:30"
+      },
+      "recommendation": {
+        "recommendation": "support_motion",
+        "vote": {
+          "raw": "à l'unanimité",
+          "unanimous": true
+        }
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-11-02",
+      "decision_date": "2022-11-03",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à une large majorité (quatre avis contraires et huit abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "quatre avis contraires et huit abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 12578,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1964
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2020,
+      "clean_words": 1964,
+      "removed_blocks": 0
+    }
+  }
+}

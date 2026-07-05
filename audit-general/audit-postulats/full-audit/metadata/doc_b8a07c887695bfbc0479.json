@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b8a07c887695bfbc0479",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Une autre façon de lutter contre les îlots de chaleur",
+    "source_title": "Postulat du groupe PLR - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-PLR-Egli-ilots-chaleur.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "9668edf6198521b52ada86e0858409657077782d1ae7a487aba3ac5d63655487",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "groupe PLR",
+        "party": "PLR",
+        "role": "group"
+      },
+      {
+        "name": "Kurt Egli",
+        "party": "PLR",
+        "role": "group_representative"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3633,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 542
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 576,
+      "clean_words": 542,
+      "removed_blocks": 0
+    }
+  }
+}

@@ -1,0 +1,5935 @@
+{
+  "endpoint": {
+    "endpoint_rows": 72,
+    "pages_fetched": 3,
+    "postulats_2021_2026": 35,
+    "unique_pdf_urls": 35
+  },
+  "summary": {
+    "old_documents": 35,
+    "new_documents": 35,
+    "common_urls": 35,
+    "only_old": [],
+    "only_new": [],
+    "source_field_counts": {
+      "identical": 315
+    },
+    "enriched_field_counts": {
+      "identical": 316,
+      "absent_both": 69
+    },
+    "identical_source_documents": 35,
+    "identical_enriched_documents": 35
+  },
+  "documents": [
+    {
+      "year": "2021",
+      "title": "Cent femmes et un chien sont revenus contents de la plage.",
+      "filename": "Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+          "new": "Postulat de Mme Célia Carron (PS) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Cent femmes et un chien sont revenus contents de la plage.",
+          "new": "Cent femmes et un chien sont revenus contents de la plage."
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+          "new": "Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Célia Carron",
+              "civility": "Mme",
+              "party": "PS"
+            }
+          ],
+          "new": [
+            {
+              "name": "Célia Carron",
+              "civility": "Mme",
+              "party": "PS"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-cent-femmes-et-un-chien-sont-revenus-contents-de-la-plage",
+          "new": "postulat-2021-cent-femmes-et-un-chien-sont-revenus-contents-de-la-plage"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Célia Carron",
+              "civility": "Mme",
+              "party": "PS"
+            }
+          ],
+          "new": [
+            {
+              "name": "Célia Carron",
+              "civility": "Mme",
+              "party": "PS"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Cent femmes et un chien sont revenus contents de la plage.",
+          "new": "Cent femmes et un chien sont revenus contents de la plage."
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2020-10-15",
+          "new": "2020-10-15"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "jeudi 18 mars 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Célia Carron (PS)",
+              "date": "2021-03-18",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "jeudi 18 mars 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Célia Carron (PS)",
+              "date": "2021-03-18",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2021-05-05",
+            "decision_date": "2021-05-06",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une très large majorité (15 avis contraires et trois abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "15 avis contraires et trois abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2021-05-05",
+            "decision_date": "2021-05-06",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une très large majorité (15 avis contraires et trois abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "15 avis contraires et trois abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Nouvelles salles, nouvelles opportunités",
+      "filename": "Postulat-Costa-Cornut-Salles-de-sport.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de MM. François Costa et Romain Cornut (PLR) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de MM. François Costa et Romain Cornut (PLR) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Nouvelles salles, nouvelles opportunités",
+          "new": "Nouvelles salles, nouvelles opportunités"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Costa-Cornut-Salles-de-sport.pdf",
+          "new": "Postulat-Costa-Cornut-Salles-de-sport.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Cornut-Salles-de-sport.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Cornut-Salles-de-sport.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa et Romain Cornut",
+              "civility": "",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa et Romain Cornut",
+              "civility": "",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-nouvelles-salles-nouvelles-opportunites",
+          "new": "postulat-2021-nouvelles-salles-nouvelles-opportunites"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa et Romain Cornut",
+              "civility": "",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa et Romain Cornut",
+              "civility": "",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Nouvelles salles, nouvelles opportunités",
+          "new": "Nouvelles salles, nouvelles opportunités"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Tout va dans la poubelle incinérable",
+      "filename": "Postulat-Costa-Poubelles.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. François Costa (PLR) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de M. François Costa (PLR) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Tout va dans la poubelle incinérable",
+          "new": "Tout va dans la poubelle incinérable"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Costa-Poubelles.pdf",
+          "new": "Postulat-Costa-Poubelles.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Poubelles.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Poubelles.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-tout-va-dans-la-poubelle-incinerable",
+          "new": "postulat-2021-tout-va-dans-la-poubelle-incinerable"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Tout va dans la poubelle incinérable",
+          "new": "Tout va dans la poubelle incinérable"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Augmentation de l'offre pour le tri sélectif",
+      "filename": "Postulat-Huber-Tri-selectif.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Augmentation de l'offre pour le tri sélectif",
+          "new": "Augmentation de l'offre pour le tri sélectif"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Huber-Tri-selectif.pdf",
+          "new": "Postulat-Huber-Tri-selectif.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Huber-Tri-selectif.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Huber-Tri-selectif.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-augmentation-de-l-offre-pour-le-tri-selectif",
+          "new": "postulat-2021-augmentation-de-l-offre-pour-le-tri-selectif"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Augmentation de l'offre pour le tri sélectif",
+          "new": "Augmentation de l'offre pour le tri sélectif"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2021-09-15",
+          "new": "2021-09-15"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+      "filename": "Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+          "new": "Postulat de Mme Elise Kaiser (LV) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+          "new": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+          "new": "Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Elise Kaiser",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Elise Kaiser",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs",
+          "new": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Elise Kaiser",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Elise Kaiser",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+          "new": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2021-03-03",
+          "new": "2021-03-03"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2021-03-24",
+            "decision_date": "2021-03-25",
+            "outcome": "referred_to_municipality"
+          },
+          "new": {
+            "session_date": "2021-03-24",
+            "decision_date": "2021-03-25",
+            "outcome": "referred_to_municipality"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Affichage politique et responsable, remettons le sujet sur la table",
+      "filename": "Postulat-Wuthrich-Affichage-politique.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "new": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Affichage politique et responsable, remettons le sujet sur la table",
+          "new": "Affichage politique et responsable, remettons le sujet sur la table"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Wuthrich-Affichage-politique.pdf",
+          "new": "Postulat-Wuthrich-Affichage-politique.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "not_supported_by_council",
+          "new": "not_supported_by_council"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-affichage-politique-et-responsable-remettons-le-sujet-sur-la-table",
+          "new": "postulat-2021-affichage-politique-et-responsable-remettons-le-sujet-sur-la-table"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Affichage politique et responsable, remettons le sujet sur la table",
+          "new": "Affichage politique et responsable, remettons le sujet sur la table"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2021-11-15",
+          "new": "2021-11-15"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+      "filename": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "new": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+          "new": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "new": "Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "not_supported_by_council",
+          "new": "not_supported_by_council"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-mettons-les-gaz-naturel-pour-une-nouvelle-ligne-de-bus-regionale-directe-blonay-la-tour-de",
+          "new": "postulat-2021-mettons-les-gaz-naturel-pour-une-nouvelle-ligne-de-bus-regionale-directe-blonay-la-tour-de"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marc Wüthrich",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+          "new": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2021-11-14",
+          "new": "2021-11-14"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "filename": "Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Maria Luceron (LCIVL) + Rapport + Décision",
+          "new": "Postulat de Mme Maria Luceron (LCIVL) + Rapport + Décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+          "new": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+          "new": "Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Maria Luceron",
+              "civility": "Mme",
+              "party": "LCIVL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Maria Luceron",
+              "civility": "Mme",
+              "party": "LCIVL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-agrandissement-de-la-greve-a-la-plage-de-la-maladaire-la-tour-de-peilz",
+          "new": "postulat-2022-agrandissement-de-la-greve-a-la-plage-de-la-maladaire-la-tour-de-peilz"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Maria Luceron",
+              "civility": "Mme",
+              "party": "LCIVL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Maria Luceron",
+              "civility": "Mme",
+              "party": "LCIVL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+          "new": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-10-10",
+          "new": "2022-10-10"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "6 octobre 2022 à 19h30 en Salle 2 de la Maison de commune",
+              "date": "2022-10-06",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "6 octobre 2022 à 19h30 en Salle 2 de la Maison de commune",
+              "date": "2022-10-06",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-11-02",
+            "decision_date": "2022-11-03",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (quatre avis contraires et huit abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "quatre avis contraires et huit abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2022-11-02",
+            "decision_date": "2022-11-03",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (quatre avis contraires et huit abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "quatre avis contraires et huit abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Quand notre cœur fait boum",
+      "filename": "Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+          "new": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Quand notre cœur fait boum",
+          "new": "Quand notre cœur fait boum"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "new": "Postulat-Ansermet-1aout-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-quand-notre-c-ur-fait-boum",
+          "new": "postulat-2022-quand-notre-c-ur-fait-boum"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Quand notre cœur fait boum",
+          "new": "Quand notre cœur fait boum"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-11-15",
+          "new": "2022-11-15"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "jeudi 3 novembre 2022 en salle 2 de la maison de commune",
+              "date": "2022-11-03"
+            },
+            "recommendation": {
+              "recommendation": "reject_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "jeudi 3 novembre 2022 en salle 2 de la maison de commune",
+              "date": "2022-11-03"
+            },
+            "recommendation": {
+              "recommendation": "reject_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-12-07",
+            "decision_date": "2022-12-07",
+            "outcome": "adopted"
+          },
+          "new": {
+            "session_date": "2022-12-07",
+            "decision_date": "2022-12-07",
+            "outcome": "adopted"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+      "filename": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+          "new": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+          "new": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "new": "Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av",
+          "new": "postulat-2022-un-reglement-du-plan-general-d-affectation-et-de-police-des-constructions-rpga-en-phase-av"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Véronique Ansermet",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+          "new": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-01-24",
+          "new": "2023-01-24"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "mardi 17 janvier 2023 à la maison de commune de La Tour-de-Peilz",
+              "date": "2023-01-17",
+              "place": "la maison de commune de La Tour-de-Peilz"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "mardi 17 janvier 2023 à la maison de commune de La Tour-de-Peilz",
+              "date": "2023-01-17",
+              "place": "la maison de commune de La Tour-de-Peilz"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2023-02-08",
+            "decision_date": "2023-02-08",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à la majorité (une dizaine d'avis contraires et autant d'abstentions).",
+              "contrary_votes_raw": "une dizaine d'avis contraires et autant d'abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2023-02-08",
+            "decision_date": "2023-02-08",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à la majorité (une dizaine d'avis contraires et autant d'abstentions).",
+              "contrary_votes_raw": "une dizaine d'avis contraires et autant d'abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Un label pour donner confiance à la population",
+      "filename": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Un label pour donner confiance à la population",
+          "new": "Un label pour donner confiance à la population"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "new": "Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa et Yvan Kraehenbuehl",
+              "civility": "",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa et Yvan Kraehenbuehl",
+              "civility": "",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-un-label-pour-donner-confiance-a-la-population",
+          "new": "postulat-2022-un-label-pour-donner-confiance-a-la-population"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "François Costa et Yvan Kraehenbuehl",
+              "civility": "",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "François Costa et Yvan Kraehenbuehl",
+              "civility": "",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Un label pour donner confiance à la population",
+          "new": "Un label pour donner confiance à la population"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Des casiers pour éviter des vols",
+      "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+          "new": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Des casiers pour éviter des vols",
+          "new": "Des casiers pour éviter des vols"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "new": "Postulat-Huber-Casiers-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-des-casiers-pour-eviter-des-vols",
+          "new": "postulat-2021-des-casiers-pour-eviter-des-vols"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Des casiers pour éviter des vols",
+          "new": "Des casiers pour éviter des vols"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2021-11-14",
+          "new": "2021-11-14"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "jeudi 20 janvier 2022 à 19h30 en salle 2 de la maison de commune",
+              "date": "2022-01-20",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "jeudi 20 janvier 2022 à 19h30 en salle 2 de la maison de commune",
+              "date": "2022-01-20",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à une large majorité (onze avis contraires et treize abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "onze avis contraires et treize abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à une large majorité (onze avis contraires et treize abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "onze avis contraires et treize abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Un Noël différent",
+      "filename": "Postulat-Huber-Noel.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Un Noël différent",
+          "new": "Un Noël différent"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Huber-Noel.pdf",
+          "new": "Postulat-Huber-Noel.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Noel.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Noel.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-un-noel-different",
+          "new": "postulat-2022-un-noel-different"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "un Noël différent",
+          "new": "un Noël différent"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-08-19",
+          "new": "2022-08-19"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Des lettres pour se faire un nom",
+      "filename": "Postulat-Huber-hashtag-LTDP.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Viviane Huber (LTDPL) - Non soutenu par le Conseil",
+          "new": "Postulat de Mme Viviane Huber (LTDPL) - Non soutenu par le Conseil"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Des lettres pour se faire un nom",
+          "new": "Des lettres pour se faire un nom"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Huber-hashtag-LTDP.pdf",
+          "new": "Postulat-Huber-hashtag-LTDP.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-hashtag-LTDP.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-hashtag-LTDP.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "not_supported_by_council",
+          "new": "not_supported_by_council"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-des-lettres-pour-se-faire-un-nom",
+          "new": "postulat-2022-des-lettres-pour-se-faire-un-nom"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Des lettres pour nous faire un nom",
+          "new": "Des lettres pour nous faire un nom"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-08-19",
+          "new": "2022-08-19"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+      "filename": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+          "new": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "new": "Postulat-Kraehenbuehl-Bains-dames.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yvan Krähenbühl",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yvan Krähenbühl",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions",
+          "new": "postulat-2022-le-bain-des-dames-un-endroit-magnifique-qui-merite-quelques-reflexions"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yvan Krähenbühl",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yvan Krähenbühl",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+          "new": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-02-28",
+          "new": "2022-02-28"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Avec la CGN, accostons à La Tour, sans détours",
+      "filename": "Postulat-LTDPL-CGN.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+          "new": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Avec la CGN, accostons à La Tour, sans détours",
+          "new": "Avec la CGN, accostons à La Tour, sans détours"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-LTDPL-CGN.pdf",
+          "new": "Postulat-LTDPL-CGN.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "not_supported_by_council",
+          "new": "not_supported_by_council"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-avec-la-cgn-accostons-a-la-tour-sans-detours",
+          "new": "postulat-2022-avec-la-cgn-accostons-a-la-tour-sans-detours"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Avec la CGN, accostons à La Tour, sans détours",
+          "new": "Avec la CGN, accostons à La Tour, sans détours"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-11-02",
+          "new": "2022-11-02"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "title": "Vote électronique au conseil communal",
+      "filename": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+          "new": "Postulat de La Tour-de-Peilz Libre + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Vote électronique au conseil communal",
+          "new": "Vote électronique au conseil communal"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "new": "Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2021",
+          "new": "2021"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2021-vote-electronique-au-conseil-communal",
+          "new": "postulat-2021-vote-electronique-au-conseil-communal"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Vote électronique au conseil communal",
+          "new": "Vote électronique au conseil communal"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-03-08",
+          "new": "2022-03-08"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "lundi 7 mars 2022 afin d'étudier le postulat cité en titre",
+              "date": "2022-03-07"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité moins une abstention",
+                "unanimous": true,
+                "exceptions": "une abstention"
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "lundi 7 mars 2022 afin d'étudier le postulat cité en titre",
+              "date": "2022-03-07"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité moins une abstention",
+                "unanimous": true,
+                "exceptions": "une abstention"
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à une large majorité (douze avis contraires et quatre abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "douze avis contraires et quatre abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality",
+            "vote": {
+              "raw": "adopté à une large majorité (douze avis contraires et quatre abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "douze avis contraires et quatre abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Une déchèterie, pas un grand écopoint",
+      "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "new": "Postulat de M. Julien Neveu (LV) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Une déchèterie, pas un grand écopoint",
+          "new": "Une déchèterie, pas un grand écopoint"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "new": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Julien Neveu",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Julien Neveu",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+          "new": "postulat-2022-une-decheterie-pas-un-grand-ecopoint"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Julien Neveu",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Julien Neveu",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "new": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-02-28",
+          "new": "2022-02-28"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "14 février 2022",
+              "date": "2022-02-14"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "14 février 2022",
+              "date": "2022-02-14"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality"
+          },
+          "new": {
+            "session_date": "2022-03-23",
+            "decision_date": "2022-03-24",
+            "outcome": "referred_to_municipality"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Infiltration d'eau : une aubaine en ville",
+      "filename": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+          "new": "Postulat de M. Diego Pasquali (LV) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Infiltration d'eau : une aubaine en ville",
+          "new": "Infiltration d'eau : une aubaine en ville"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "new": "Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Diego Pasquali",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Diego Pasquali",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville",
+          "new": "postulat-2022-infiltration-d-eau-une-aubaine-en-ville"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Diego Pasquali",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Diego Pasquali",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+          "new": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-03-31",
+          "new": "2022-03-31"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "29 mars 2022",
+              "date": "2022-03-29"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "29 mars 2022",
+              "date": "2022-03-29"
+            },
+            "recommendation": {
+              "recommendation": "support_motion",
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-05-11",
+            "decision_date": "2022-05-12",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (quatre abstentions).",
+              "result": "large_majority"
+            }
+          },
+          "new": {
+            "session_date": "2022-05-11",
+            "decision_date": "2022-05-12",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (quatre abstentions).",
+              "result": "large_majority"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "filename": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+          "new": "Postulat de Mme Marion Savoy (LV) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+          "new": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "new": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marion Savoy",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marion Savoy",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+          "new": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Marion Savoy",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Marion Savoy",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+          "new": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "majority_and_minority_reports",
+          "new": "majority_and_minority_reports"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-04-15",
+          "new": "2022-04-15"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "mardi 12 avril 2022 en compagnie de Mme la Syndique Sandra Glardon",
+              "date": "2022-04-12"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": true,
+            "contains_minority_report": true
+          },
+          "new": {
+            "meeting": {
+              "raw": "mardi 12 avril 2022 en compagnie de Mme la Syndique Sandra Glardon",
+              "date": "2022-04-12"
+            },
+            "recommendation": {
+              "recommendation": "support_motion"
+            },
+            "contains_majority_report": true,
+            "contains_minority_report": true
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-05-11",
+            "decision_date": "2022-05-12",
+            "outcome": "adopted"
+          },
+          "new": {
+            "session_date": "2022-05-11",
+            "decision_date": "2022-05-12",
+            "outcome": "adopted"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Promouvoir et développer le bien-être des Boéland·es",
+      "filename": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+          "new": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Promouvoir et développer le bien-être des Boéland·es",
+          "new": "Promouvoir et développer le bien-être des Boéland·es"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "new": "Postulat-Tavcar-label-sante-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2022",
+          "new": "2022"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Ziva Tavcar",
+              "civility": "Mme",
+              "party": "PSDG"
+            }
+          ],
+          "new": [
+            {
+              "name": "Ziva Tavcar",
+              "civility": "Mme",
+              "party": "PSDG"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es",
+          "new": "postulat-2022-promouvoir-et-developper-le-bien-etre-des-boeland-es"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Ziva Tavcar",
+              "civility": "Mme",
+              "party": "PSDG"
+            }
+          ],
+          "new": [
+            {
+              "name": "Ziva Tavcar",
+              "civility": "Mme",
+              "party": "PSDG"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Promouvoir et développer le bien-être des Boéland·es",
+          "new": "Promouvoir et développer le bien-être des Boéland·es"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2022-10-02",
+          "new": "2022-10-02"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "22 septembre 2022 et était composée comme suit : Mesdames Gabrielle Heller (LV), présidente",
+              "date": "2022-09-22"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "22 septembre 2022 et était composée comme suit : Mesdames Gabrielle Heller (LV), présidente",
+              "date": "2022-09-22"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2022-11-02",
+            "decision_date": "2022-11-03",
+            "outcome": "adopted"
+          },
+          "new": {
+            "session_date": "2022-11-02",
+            "decision_date": "2022-11-03",
+            "outcome": "adopted"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Une salle du Conseil à la hauteur des défis de notre commune",
+      "filename": "Postulat-Abbet-Salle-Conseil.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Florian Abbet (LV)",
+          "new": "Postulat de M. Florian Abbet (LV)"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Une salle du Conseil à la hauteur des défis de notre commune",
+          "new": "Une salle du Conseil à la hauteur des défis de notre commune"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Abbet-Salle-Conseil.pdf",
+          "new": "Postulat-Abbet-Salle-Conseil.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Florian Abbet",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Florian Abbet",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune",
+          "new": "postulat-2023-une-salle-du-conseil-a-la-hauteur-des-defis-de-notre-commune"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Florian Abbet",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Florian Abbet",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Une salle du Conseil à la hauteur des défis de notre commune",
+          "new": "Une salle du Conseil à la hauteur des défis de notre commune"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "council_decision",
+          "new": "council_decision"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Un accès à la baignade au lac pour tous",
+      "filename": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+          "new": "Postulat de Mme Sophie Blank-Barbezat (PLR)"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Un accès à la baignade au lac pour tous",
+          "new": "Un accès à la baignade au lac pour tous"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "new": "Postulat-Blank-Barbezat-Baignade-pour-tous.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Sophie Blank-Barbezat",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Sophie Blank-Barbezat",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-un-acces-a-la-baignade-au-lac-pour-tous",
+          "new": "postulat-2023-un-acces-a-la-baignade-au-lac-pour-tous"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Sophie Blank-Barbezat",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Sophie Blank-Barbezat",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Un accès à la baignade au lac pour tous",
+          "new": "Un accès à la baignade au lac pour tous"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-08-29",
+          "new": "2023-08-29"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Soutenons nos étudiants boélands !",
+      "filename": "Postulat-Grutta-Etudiants.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Alessio Grutta (PLR) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de M. Alessio Grutta (PLR) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Soutenons nos étudiants boélands !",
+          "new": "Soutenons nos étudiants boélands !"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Grutta-Etudiants.pdf",
+          "new": "Postulat-Grutta-Etudiants.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Grutta-Etudiants.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Grutta-Etudiants.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Alessio Grutta",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Alessio Grutta",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-soutenons-nos-etudiants-boelands",
+          "new": "postulat-2023-soutenons-nos-etudiants-boelands"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Alessio Grutta",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Alessio Grutta",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Soutenons nos étudiants boélands !",
+          "new": "Soutenons nos étudiants boélands !"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-06-05",
+          "new": "2023-06-05"
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+      "filename": "Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+          "new": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+          "new": "GastroVert pour tous les ménages à la Tour-de-Peilz"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+          "new": "Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Christine Hausherr-de Maddalena",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Christine Hausherr-de Maddalena",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-gastrovert-pour-tous-les-menages-a-la-tour-de-peilz",
+          "new": "postulat-2023-gastrovert-pour-tous-les-menages-a-la-tour-de-peilz"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Christine Hausherr-de Maddalena",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Christine Hausherr-de Maddalena",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+          "new": "GastroVert pour tous les ménages à la Tour-de-Peilz"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-06-05",
+          "new": "2023-06-05"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2023-09-13",
+            "decision_date": "2023-09-13",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (six avis contraires et sept abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "six avis contraires et sept abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2023-09-13",
+            "decision_date": "2023-09-13",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (six avis contraires et sept abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "six avis contraires et sept abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Une autre façon de lutter contre les îlots de chaleur",
+      "filename": "Postulat-PLR-Egli-ilots-chaleur.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat du groupe PLR - Renvoyé directement à la Municipalité",
+          "new": "Postulat du groupe PLR - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Une autre façon de lutter contre les îlots de chaleur",
+          "new": "Une autre façon de lutter contre les îlots de chaleur"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-PLR-Egli-ilots-chaleur.pdf",
+          "new": "Postulat-PLR-Egli-ilots-chaleur.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-PLR-Egli-ilots-chaleur.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-PLR-Egli-ilots-chaleur.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "groupe PLR",
+              "party": "PLR",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "groupe PLR",
+              "party": "PLR",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-une-autre-facon-de-lutter-contre-les-ilots-de-chaleur",
+          "new": "postulat-2023-une-autre-facon-de-lutter-contre-les-ilots-de-chaleur"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "groupe PLR",
+              "party": "PLR",
+              "role": "group"
+            },
+            {
+              "name": "Kurt Egli",
+              "party": "PLR",
+              "role": "group_representative"
+            }
+          ],
+          "new": [
+            {
+              "name": "groupe PLR",
+              "party": "PLR",
+              "role": "group"
+            },
+            {
+              "name": "Kurt Egli",
+              "party": "PLR",
+              "role": "group_representative"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Une autre façon de lutter contre les îlots de chaleur",
+          "new": "Une autre façon de lutter contre les îlots de chaleur"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Quel avenir pour campagne Rossier ?",
+      "filename": "Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts + rapport + décision",
+          "new": "Postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Quel avenir pour campagne Rossier ?",
+          "new": "Quel avenir pour campagne Rossier ?"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+          "new": "Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Jean-Yves Schmidhauser",
+              "civility": "M.",
+              "party": "PSDG"
+            }
+          ],
+          "new": [
+            {
+              "name": "Jean-Yves Schmidhauser",
+              "civility": "M.",
+              "party": "PSDG"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-quel-avenir-pour-campagne-rossier",
+          "new": "postulat-2023-quel-avenir-pour-campagne-rossier"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Jean-Yves Schmidhauser",
+              "civility": "M.",
+              "party": "PSDG"
+            }
+          ],
+          "new": [
+            {
+              "name": "Jean-Yves Schmidhauser",
+              "civility": "M.",
+              "party": "PSDG"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Quel avenir pour campagne Rossier ?",
+          "new": "Quel avenir pour campagne Rossier ?"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "majority_and_minority_reports",
+          "new": "majority_and_minority_reports"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-07-10",
+          "new": "2023-07-10"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "lundi 3 juillet 2023, à 19h30 en Salle 2 de la Maison de commune",
+              "date": "2023-07-03",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": true,
+            "contains_minority_report": true
+          },
+          "new": {
+            "meeting": {
+              "raw": "lundi 3 juillet 2023, à 19h30 en Salle 2 de la Maison de commune",
+              "date": "2023-07-03",
+              "time": "19:30"
+            },
+            "recommendation": {
+              "vote": {
+                "raw": "à l'unanimité",
+                "unanimous": true
+              }
+            },
+            "contains_majority_report": true,
+            "contains_minority_report": true
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2023-09-13",
+            "decision_date": "2023-09-13",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (un avis contraire et quatre abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "un avis contraire et quatre abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2023-09-13",
+            "decision_date": "2023-09-13",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à une large majorité (un avis contraire et quatre abstentions).",
+              "result": "large_majority",
+              "contrary_votes_raw": "un avis contraire et quatre abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Pour des subventions mobilité répandues et efficaces",
+      "filename": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+          "new": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Pour des subventions mobilité répandues et efficaces",
+          "new": "Pour des subventions mobilité répandues et efficaces"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "new": "Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2023",
+          "new": "2023"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Niklas Tiemann",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Niklas Tiemann",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces",
+          "new": "postulat-2023-pour-des-subventions-mobilite-repandues-et-efficaces"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Niklas Tiemann",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Niklas Tiemann",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Pour des subventions mobilité répandues et efficaces",
+          "new": "Pour des subventions mobilité répandues et efficaces"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2023-01-16",
+          "new": "2023-01-16"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "mardi 21 février 2023 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Maria Luceron (LCIVL)",
+              "date": "2023-02-21",
+              "time": "19:30"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "mardi 21 février 2023 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Maria Luceron (LCIVL)",
+              "date": "2023-02-21",
+              "time": "19:30"
+            },
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2023-03-22",
+            "decision_date": "2023-03-22",
+            "outcome": "referred_to_municipality"
+          },
+          "new": {
+            "session_date": "2023-03-22",
+            "decision_date": "2023-03-22",
+            "outcome": "referred_to_municipality"
+          }
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+      "filename": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "new": "Postulat de M. Yann Boulben Meyer (LTDPL)"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+          "new": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "new": "Postulat-Boulben-Meyer-Formations-CC.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2024",
+          "new": "2024"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux",
+          "new": "postulat-2024-pour-une-gouvernance-d-excellence-renforcement-de-la-formation-des-conseillers-communaux"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+          "new": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "council_decision",
+          "new": "council_decision"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "filename": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "new": "Postulat de M. Yann Boulben Meyer (LTDPL)"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+          "new": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "new": "Postulat-Boulben-Meyer-Jobs-ete.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2024",
+          "new": "2024"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2024-vers-une-dynamisation-estivale-elargissons-les-opportunites-de-jobs-d-ete-pour-les-jeunes",
+          "new": "postulat-2024-vers-une-dynamisation-estivale-elargissons-les-opportunites-de-jobs-d-ete-pour-les-jeunes"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ],
+          "new": [
+            {
+              "name": "Yann Boulben Meyer",
+              "civility": "M.",
+              "party": "LTDPL"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+          "new": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+      "filename": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+          "new": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+          "new": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "new": "Postulat-LTDPL-Giratoire-Murs-blancs.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2024",
+          "new": "2024"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure",
+          "new": "postulat-2024-murs-blancs-un-petit-coin-de-nature-contre-un-rond-point-de-bon-augure"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ],
+          "new": [
+            {
+              "name": "La Tour-de-Peilz Libre",
+              "party": "LTDPL",
+              "role": "group"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+          "new": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "La durabilité – un défi qui nous concerne tous",
+      "filename": "Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+          "new": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "La durabilité – un défi qui nous concerne tous",
+          "new": "La durabilité – un défi qui nous concerne tous"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+          "new": "Postulat-Rioux-Durabilite-Rapp-Dec.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2024",
+          "new": "2024"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "report_and_decision_available",
+          "new": "report_and_decision_available"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Janina Rioux",
+              "civility": "Mme",
+              "party": "PLR"
+            },
+            {
+              "name": "Michel Chappuis",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Janina Rioux",
+              "civility": "Mme",
+              "party": "PLR"
+            },
+            {
+              "name": "Michel Chappuis",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous",
+          "new": "postulat-2024-la-durabilite-un-defi-qui-nous-concerne-tous"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Janina Rioux",
+              "civility": "Mme",
+              "party": "PLR"
+            },
+            {
+              "name": "Michel Chappuis",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Janina Rioux",
+              "civility": "Mme",
+              "party": "PLR"
+            },
+            {
+              "name": "Michel Chappuis",
+              "civility": "M.",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "La durabilité - un défi qui nous concerne tous",
+          "new": "La durabilité - un défi qui nous concerne tous"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "commission_report",
+          "new": "commission_report"
+        },
+        {
+          "field": "report_type",
+          "status": "identical",
+          "old": "standard_report",
+          "new": "standard_report"
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "identical",
+          "old": "2024-12-11",
+          "new": "2024-12-11"
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "meeting": {
+              "raw": "lundi 18 novembre 2024, à 19h30, en Salle 1 de la Maison de Commune : Elle était composée de :",
+              "date": "2024-11-18",
+              "time": "19:30"
+            },
+            "rapporteur": "Viviane Huber",
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "meeting": {
+              "raw": "lundi 18 novembre 2024, à 19h30, en Salle 1 de la Maison de Commune : Elle était composée de :",
+              "date": "2024-11-18",
+              "time": "19:30"
+            },
+            "rapporteur": "Viviane Huber",
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "identical",
+          "old": {
+            "session_date": "2024-12-11",
+            "decision_date": "2024-12-11",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à la majorité (quatre avis contraires et deux abstentions).",
+              "contrary_votes_raw": "quatre avis contraires et deux abstentions"
+            }
+          },
+          "new": {
+            "session_date": "2024-12-11",
+            "decision_date": "2024-12-11",
+            "outcome": "adopted",
+            "vote": {
+              "raw": "adopté à la majorité (quatre avis contraires et deux abstentions).",
+              "contrary_votes_raw": "quatre avis contraires et deux abstentions"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+      "filename": "Postulat-Fontana-Bruit.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+          "new": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "new": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Fontana-Bruit.pdf",
+          "new": "Postulat-Fontana-Bruit.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2025",
+          "new": "2025"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "unknown",
+          "new": "unknown"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Pierre Fontana",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Pierre Fontana",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou",
+          "new": "postulat-2025-quand-un-souffle-nous-casse-les-oreilles-il-nous-pousse-a-agir-luttons-contre-le-bruit-pou"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Pierre Fontana",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Pierre Fontana",
+              "civility": "M.",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "new": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+      "filename": "Postulat-Python-Numerisation.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+          "new": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "new": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Python-Numerisation.pdf",
+          "new": "Postulat-Python-Numerisation.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2025",
+          "new": "2025"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "referred_directly_to_municipality",
+          "new": "referred_directly_to_municipality"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Valentine Python",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Valentine Python",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2025-prevenir-le-coup-de-soleil-numerique-pour-une-strategie-communale-de-bon-usage-des-nouveau",
+          "new": "postulat-2025-prevenir-le-coup-de-soleil-numerique-pour-une-strategie-communale-de-bon-usage-des-nouveau"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Valentine Python",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ],
+          "new": [
+            {
+              "name": "Valentine Python",
+              "civility": "Mme",
+              "party": "LV"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "new": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "title": "Pour un quai Roussy plus sûr pour les familles",
+      "filename": "Postulat-Huber-Chervet-Quai-roussy.pdf",
+      "source": [
+        {
+          "field": "title",
+          "status": "identical",
+          "old": "Postulat de Mme Viviane Huber (PLR) - Non soutenu par le Conseil",
+          "new": "Postulat de Mme Viviane Huber (PLR) - Non soutenu par le Conseil"
+        },
+        {
+          "field": "summary",
+          "status": "identical",
+          "old": "Pour un quai Roussy plus sûr pour les familles",
+          "new": "Pour un quai Roussy plus sûr pour les familles"
+        },
+        {
+          "field": "filename",
+          "status": "identical",
+          "old": "Postulat-Huber-Chervet-Quai-roussy.pdf",
+          "new": "Postulat-Huber-Chervet-Quai-roussy.pdf"
+        },
+        {
+          "field": "pdf_url",
+          "status": "identical",
+          "old": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf",
+          "new": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf"
+        },
+        {
+          "field": "listing_year",
+          "status": "identical",
+          "old": "2026",
+          "new": "2026"
+        },
+        {
+          "field": "legislature",
+          "status": "identical",
+          "old": "2021-2026",
+          "new": "2021-2026"
+        },
+        {
+          "field": "status_normalized",
+          "status": "identical",
+          "old": "not_supported_by_council",
+          "new": "not_supported_by_council"
+        },
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "political_object_id",
+          "status": "identical",
+          "old": "postulat-2026-pour-un-quai-roussy-plus-sur-pour-les-familles",
+          "new": "postulat-2026-pour-un-quai-roussy-plus-sur-pour-les-familles"
+        }
+      ],
+      "enriched": [
+        {
+          "field": "authors",
+          "status": "identical",
+          "old": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ],
+          "new": [
+            {
+              "name": "Viviane Huber",
+              "civility": "Mme",
+              "party": "PLR"
+            }
+          ]
+        },
+        {
+          "field": "object_title",
+          "status": "identical",
+          "old": "Pour un quai Roussy plus sûr pour les familles",
+          "new": "Pour un quai Roussy plus sûr pour les familles"
+        },
+        {
+          "field": "document_role",
+          "status": "identical",
+          "old": "postulat_text",
+          "new": "postulat_text"
+        },
+        {
+          "field": "report_type",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "contains_report",
+          "status": "identical",
+          "old": true,
+          "new": true
+        },
+        {
+          "field": "contains_decision",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_majority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "contains_minority_report",
+          "status": "identical",
+          "old": false,
+          "new": false
+        },
+        {
+          "field": "document_date",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        },
+        {
+          "field": "commission",
+          "status": "identical",
+          "old": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          },
+          "new": {
+            "contains_majority_report": false,
+            "contains_minority_report": false
+          }
+        },
+        {
+          "field": "decision",
+          "status": "absent_both",
+          "old": null,
+          "new": null
+        }
+      ]
+    }
+  ]
+}

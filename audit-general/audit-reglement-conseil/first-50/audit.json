@@ -1,0 +1,53 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_28876567a798b9f326c0",
+      "title": "Règlement du Conseil communal",
+      "role": "regulation_text",
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "processing": {
+        "text_extraction_status": {
+          "characters_extracted": 81550,
+          "text_available": true,
+          "needs_ocr": false
+        },
+        "header_footer_cleaning": {
+          "raw_words": 12801,
+          "clean_words": 3192,
+          "removed_blocks": 0
+        },
+        "selected_text": {
+          "method": "native_pdf",
+          "words": 3192
+        }
+      },
+      "chunks": 50,
+      "chunk_counts": {
+        "green": 49,
+        "yellow": 1,
+        "red": 0
+      }
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "documents": 1,
+    "complete": 1,
+    "base_incomplete": 0,
+    "additional_incomplete": 0,
+    "needs_ocr": 0,
+    "chunks": 50,
+    "green": 49,
+    "yellow": 1,
+    "red": 0,
+    "duplicate_article_numbers": [],
+    "issues": {
+      "article_very_short": 1
+    },
+    "missing_fields": {}
+  }
+}

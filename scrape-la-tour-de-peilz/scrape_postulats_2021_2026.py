@@ -182,6 +182,7 @@ def extract_postulat_authors(text: str, listing_authors: list[dict]) -> list[dic
 
 def extract_postulat_object_title(text: str) -> str | None:
     patterns = [
+        r"(?im)^\s*#?\s*Postulat[^\n]*\n+\s*#\s*(?:\*\*)?([^\n*]+)",
         r"\bPostulat\s*:\s*([\s\S]{0,260}?)(?:\n\s*\n|Monsieur|Madame|Objectif|Contexte|Consid[ée]rant|$)",
         r"intitul[ée]\s+[«\"]\s*([^»\"]+)",
     ]
@@ -195,25 +196,63 @@ def extract_postulat_object_title(text: str) -> str | None:
 
 
 def infer_document_role(label: str, filename: str, text: str) -> tuple[str, str | None]:
-    role, report_type = motion_tools.infer_document_role(label, filename, text)
-    return role.replace("motion", "postulat"), report_type
+    normalized_label = normalize(label)
+    normalized_filename = normalize(filename)
+    # A plain listing/filename is authoritative for a standalone postulat.
+    # Words such as "décision" inside the argument must not reclassify it.
+    if (
+        "rapport" not in normalized_label
+        and "decision" not in normalized_label
+        and "rapp" not in normalized_filename
+        and "dec" not in normalized_filename
+    ):
+        return "postulat_text", None
+    report_type, _, _ = motion_tools.infer_report_types(label, filename, text)
+    normalized = normalize(f"{label} {filename}")
+    normalized_text = normalize(text)
+    has_report = "rapport" in normalized or "rapp" in normalize(filename) or "rapport de la commission" in normalized_text
+    has_decision = "decision" in normalized or "-dec" in normalize(filename) or bool(re.search(r"(?im)^\s*EXTRAIT\s*$", text))
+    report_boundary = re.search(
+        r"(?im)^\s*(?:Rapport\s+(?:de\s+la\s+commission|de\s+majorit[ée]|de\s+minorit[ée])|Au\s+Conseil\s+Communal.*)$",
+        text,
+    )
+    original_part = text[:report_boundary.start()] if report_boundary else text[:5000]
+    has_postulat_text = bool(re.search(
+        r"(?im)(?:^\s*(?:#\s*)?POSTULAT(?:\s*[-–—:]|\s+de\b)|\bpar\s+(?:ce|le)\s+postulat|je\s+(?:demande|souhaite).{0,120}\bpostulat|"
+        r"nous(?:\s+vous)?\s+demandons.{0,180}\bpostulat|postulat\s*:\s*|je\s+souhaite\s+que\s+ce\s+postulat)",
+        original_part,
+        flags=re.S,
+    ))
+    if has_postulat_text and has_report and has_decision:
+        return "combined_postulat_report_decision", report_type or "standard_report"
+    if has_postulat_text and has_report:
+        return "combined_postulat_report", report_type or "standard_report"
+    if has_postulat_text:
+        return "postulat_text", None
+    if has_report:
+        return "commission_report", report_type or "standard_report"
+    if has_decision:
+        return "council_decision", None
+    return "postulat_text", None
 
 
 def extract_document_components(text: str, role: str, report_type: str | None) -> list[dict]:
     components = []
-    if "postulat_text" in role:
+    if role in {"postulat_text", "combined_postulat_report", "combined_postulat_report_decision"}:
         components.append({"role": "postulat_text"})
-    if "commission_report" in role:
-        component = {"role": "commission_report"}
-        if report_type:
-            component["report_type"] = report_type
-        components.append(component)
+    if role in {"commission_report", "combined_postulat_report", "combined_postulat_report_decision"}:
+        report_types = ["majority_report", "minority_report"] if report_type == "majority_and_minority_reports" else [report_type] if report_type else [None]
+        for current_report_type in report_types:
+            component = {"role": "commission_report"}
+            if current_report_type:
+                component["report_type"] = current_report_type
+            components.append(component)
     if "council_decision" in role or role == "combined_postulat_report_decision":
         components.append({"role": "council_decision"})
     return components
 
 
-def collect_items() -> list[dict]:
+def collect_items_legacy_page() -> list[dict]:
     page_html = fetch_text(SOURCE_PAGE)
     items_by_url = {}
     for year_match in re.finditer(
@@ -278,6 +317,14 @@ def collect_items() -> list[dict]:
                 "authors": parse_authors_from_listing(listing_title),
             }
     return list(sorted(items_by_url.values(), key=lambda item: (item["listing_year"], item["filename"])))
+
+
+def collect_items() -> list[dict]:
+    """Collect canonical postulats from the faceted JSON endpoint."""
+    from scrape_postulats_search_json_2021_2026 import collect_items as collect_json_items
+
+    items, _ = collect_json_items()
+    return items
 
 
 def extract_pdf_text(pdf_path: Path) -> str:

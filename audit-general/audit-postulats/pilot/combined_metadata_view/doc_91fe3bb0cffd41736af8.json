@@ -1,0 +1,48 @@
+{
+  "document_metadata": {
+    "document_id": "doc_91fe3bb0cffd41736af8",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Un label pour donner confiance à la population",
+    "source_title": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "1aa14c571cc4499ea119f6c223ef12135f69a52481d3353ddebb5dd7bce4dd9b",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "François Costa et Yvan Kraehenbuehl",
+        "civility": "",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2830,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 427
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    }
+  }
+}

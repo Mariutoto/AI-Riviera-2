@@ -1,0 +1,125 @@
+{
+  "document_metadata": {
+    "document_id": "doc_53c8072d30e1a8b9b832",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Vote électronique au conseil communal",
+    "source_title": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-08",
+    "content_hash": "4ab32662632f789c5c04d844df1dcd3ef0c6d039242994f1e103f00964a5f8dc",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "La Tour-de-Peilz Libre",
+        "party": "LTDPL",
+        "role": "group"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-03-24",
+    "commission": {
+      "members": [
+        {
+          "name": "Bernadette Menétrey",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Isabelle Prata",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Ziva Tavcar",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Anthony Abbott",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Jérôme Bonvin",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Roberto Carbonell",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nicolas Fardel",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Lyonel Kaufmann",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "lundi 7 mars 2022 afin d'étudier le postulat cité en titre",
+        "date": "2022-03-07"
+      },
+      "recommendation": {
+        "recommendation": "support_motion",
+        "vote": {
+          "raw": "à l'unanimité moins une abstention",
+          "unanimous": true,
+          "exceptions": "une abstention"
+        }
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-03-23",
+      "decision_date": "2022-03-24",
+      "outcome": "referred_to_municipality",
+      "vote": {
+        "raw": "adopté à une large majorité (douze avis contraires et quatre abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "douze avis contraires et quatre abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8785,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1379
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1395,
+      "clean_words": 1379,
+      "removed_blocks": 0
+    }
+  }
+}

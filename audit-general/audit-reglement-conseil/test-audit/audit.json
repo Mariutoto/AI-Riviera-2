@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-07-05T18:08:41.135974+00:00",
+  "scope": "test_audit",
+  "decision": "No regulation_metadata block; base document metadata plus five chunk fields.",
+  "proposed_document_metadata": {
+    "document_id": "doc_28876567a798b9f326c0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "regulation",
+    "category": "reglement_conseil_communal",
+    "document_role": "regulation_text",
+    "title": "Règlement du Conseil communal",
+    "source_title": "Règlement du Conseil communal de La Tour-de-Peilz 2017",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/tools/pdf-viewer/web/viewer.php?file=/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf",
+    "document_date": "2017-10-25",
+    "content_hash": "28876567a798b9f326c072e38bf77206e359af5d0251259bf258303b6b46af40",
+    "extraction_method": "native_pdf",
+    "processing_status": "audit_test_generated"
+  },
+  "chunk_schema": [
+    "article_number",
+    "article_title",
+    "chapter",
+    "chunk_type",
+    "title_heading"
+  ],
+  "field_audit": [
+    {
+      "field": "commune",
+      "classification": "base",
+      "reason": "Conserver dans document_metadata."
+    },
+    {
+      "field": "title",
+      "classification": "base",
+      "reason": "Conserver dans document_metadata."
+    },
+    {
+      "field": "pdf_url",
+      "classification": "rename",
+      "reason": "Renommer file_url dans document_metadata."
+    },
+    {
+      "field": "source_page",
+      "classification": "rename",
+      "reason": "Renommer source_page_url dans document_metadata."
+    },
+    {
+      "field": "document_date",
+      "classification": "correct",
+      "reason": "Conserver, mais corriger 2013-06-09 en 2017-10-25."
+    },
+    {
+      "field": "doc_type",
+      "classification": "replace",
+      "reason": "Remplacé par category = reglement_conseil_communal."
+    },
+    {
+      "field": "content_kind",
+      "classification": "replace",
+      "reason": "Remplacé par document_family et document_role."
+    },
+    {
+      "field": "regulation_name",
+      "classification": "duplicate",
+      "reason": "Doublon du titre."
+    },
+    {
+      "field": "body",
+      "classification": "remove",
+      "reason": "Peu utile et déductible de la catégorie."
+    },
+    {
+      "field": "jurisdiction",
+      "classification": "duplicate",
+      "reason": "Doublon de commune."
+    },
+    {
+      "field": "is_normative",
+      "classification": "remove",
+      "reason": "Déductible de document_family = regulation."
+    },
+    {
+      "field": "contains_articles",
+      "classification": "remove",
+      "reason": "Déductible du type de document."
+    },
+    {
+      "field": "article_count",
+      "classification": "remove",
+      "reason": "Valeur calculable à partir des chunks."
+    },
+    {
+      "field": "regulation",
+      "classification": "remove",
+      "reason": "Bloc additionnel redondant refusé pour le schéma minimal."
+    },
+    {
+      "field": "institutional_document",
+      "classification": "remove",
+      "reason": "Bloc redondant."
+    },
+    {
+      "field": "search_facets",
+      "classification": "remove",
+      "reason": "À produire dans l'index de recherche, pas dans la source documentaire."
+    },
+    {
+      "field": "year",
+      "classification": "remove",
+      "reason": "La valeur institutionnel n'est pas une année documentaire."
+    },
+    {
+      "field": "institutional_category",
+      "classification": "duplicate",
+      "reason": "Doublon de category."
+    },
+    {
+      "field": "filename",
+      "classification": "remove",
+      "reason": "Déductible de file_url et inutile pour la recherche."
+    },
+    {
+      "field": "pdf_path",
+      "classification": "remove",
+      "reason": "Chemin local non portable."
+    },
+    {
+      "field": "text_path",
+      "classification": "remove",
+      "reason": "Chemin local non portable."
+    },
+    {
+      "field": "article_index_path",
+      "classification": "remove",
+      "reason": "Chemin local non portable."
+    },
+    {
+      "field": "metadata_version",
+      "classification": "remove",
+      "reason": "Information technique hors métadonnées documentaires."
+    },
+    {
+      "field": "text_extraction_status",
+      "classification": "processing",
+      "reason": "À conserver uniquement dans processing."
+    },
+    {
+      "field": "characters_extracted",
+      "classification": "duplicate",
+      "reason": "Déjà présent dans processing.text_extraction_status."
+    }
+  ],
+  "stats": {
+    "article_files": 165,
+    "unique_article_numbers": 164,
+    "base_fields": 13,
+    "chunk_fields": 5
+  },
+  "observations": [
+    "La date actuelle 2013-06-09 est erronée : le texte indique une adoption le 25 octobre 2017.",
+    "Le parseur produit 165 chunks mais seulement 164 numéros uniques : l'article 140 apparaît deux fois.",
+    "Les numéros 49, 114, 141 et 160 sont absents de la série actuelle et doivent être vérifiés dans le PDF avant de parler de données manquantes.",
+    "Le titre actuel de l'article 164 est faux : il reprend le titre de l'annexe alors que le texte concerne l'entrée en vigueur.",
+    "Le découpage par article est pertinent, mais le contenu et la hiérarchie doivent être audités avant l'indexation finale."
+  ],
+  "chunk_samples": [
+    {
+      "chunk_metadata": {
+        "chunk_type": "regulation_article",
+        "article_number": "1",
+        "article_title": "Nombre des membres",
+        "title_heading": null,
+        "chapter": null
+      },
+      "text_preview": "Le nombre des membres du conseil\ncommunal est fixé selon l'effectif de la population de la\ncommune, issu du recensement annuel.\nLe conseil communal peut modifier le nombre de ses membres\nau plus tard le 30 juin de l'année précédant le renouvellement\nintégral des autorités communales."
+    },
+    {
+      "chunk_metadata": {
+        "chunk_type": "regulation_article",
+        "article_number": "54b",
+        "article_title": "Secret de fonction",
+        "title_heading": "Titre II",
+        "chapter": "CHAPITRE PREMIER"
+      },
+      "text_preview": "Les membres des commissions sont soumis au secret\nde fonction, aux conditions prévues aux articles 40d et\n40i LC3,5."
+    },
+    {
+      "chunk_metadata": {
+        "chunk_type": "regulation_article",
+        "article_number": "86",
+        "article_title": "Postulat, motion, projet rédigé",
+        "title_heading": "Titre III",
+        "chapter": "CHAPITRE II"
+      },
+      "text_preview": "Chaque conseiller peut exercer son droit d'initiative\nen déposant une proposition sous forme de :\n1. postulat, c'est-à-dire en invitant la municipalité à étudier\nl'opportunité de prendre une mesure ou de faire une\nproposition dans un domaine particulier et de dresser un\nrapport ;\n2. motion, c'est-à-dire en chargeant la municipalité de\nprésenter une étude sur un objet déterminé ou un projet\nde décision de compétence du conseil communal ;\n3. projet de règlement ou de modification d'un règlement\nou de partie de règlement ou un projet de décision de\ncompétence du conseil communal."
+    },
+    {
+      "chunk_metadata": {
+        "chunk_type": "regulation_article",
+        "article_number": "140",
+        "article_title": "Crédits d'investissement",
+        "title_heading": "Titre IV",
+        "chapter": "CHAPITRE PREMIER"
+      },
+      "text_preview": "Tout investissement fait l'objet d'un préavis\nindiquant son but, le montant du crédit, le mode de\nfinancement, la durée d'amortissement et les charges\nd'exploitation qu'il entraîne. L'article 15, ch. 5 RC est réservé.\nAmortissements\n(art. 17 RCCom)"
+    },
+    {
+      "chunk_metadata": {
+        "chunk_type": "regulation_article",
+        "article_number": "164",
+        "article_title": "ANNEXE - Abréviations et renvois aux articles de lois",
+        "title_heading": "Titre V",
+        "chapter": "CHAPITRE IV"
+      },
+      "text_preview": "Le présent règlement entre en vigueur un mois après\nson approbation par la cheffe du Département des institutions\net de la sécurité. Le règlement du 19 mars 2014 est en\nconséquence abrogé."
+    }
+  ]
+}

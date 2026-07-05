@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "document_id": "doc_80479333c16a9f5603b3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Cent femmes et un chien sont revenus contents de la plage.",
+    "source_title": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2020-10-15",
+    "content_hash": "1a4ef53a80cc47a7db6d068c3c4935650c20c553d393c54e97c0504c030e95f4",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Célia Carron",
+        "civility": "Mme",
+        "party": "PS"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2021-05-06",
+    "commission": {
+      "members": [
+        {
+          "name": "Célia Carron",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paloma Lopez",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alessio Grutta",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "François Costa",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paul Castelain",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Claude Charmey",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "jeudi 18 mars 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Célia Carron (PS)",
+        "date": "2021-03-18",
+        "time": "19:30"
+      },
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2021-05-05",
+      "decision_date": "2021-05-06",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à une très large majorité (15 avis contraires et trois abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "15 avis contraires et trois abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 12150,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1850
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1933,
+      "clean_words": 1850,
+      "removed_blocks": 0
+    }
+  }
+}

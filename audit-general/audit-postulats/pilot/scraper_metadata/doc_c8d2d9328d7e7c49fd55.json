@@ -1,0 +1,147 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "postulat",
+  "document_type": "postulat",
+  "year": "2021",
+  "listing_year": "2021",
+  "category": "postulats",
+  "legislature": "2021-2026",
+  "title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+  "summary": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+  "filename": "Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/srch/",
+  "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+  "source_collection": "faceted-search:motions-postulats-interpellations",
+  "source_category_id": "6",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs",
+  "site_listing_title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+  "site_subject": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Elise Kaiser",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
+  "object_title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+  "document_role": "combined_postulat_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-03-03",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-pour-un-accueil-de-jour-des-enfants-adaptes-aux-besoins-actuels-et-futurs",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+    "source_subject": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+    "document_date": "2021-03-03",
+    "decision_status": "referred_to_municipality"
+  },
+  "search_facets": [
+    "accueil",
+    "actuels",
+    "adaptes",
+    "besoins",
+    "combined_postulat_report_decision",
+    "conseil_communal",
+    "enfants",
+    "futurs",
+    "jour",
+    "lv",
+    "municipalite",
+    "postulat",
+    "pour",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 15573,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "members": [
+      {
+        "name": "Sophie Blank Barbezat",
+        "party": "PLR",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Margaret Brüssow",
+        "party": "PDC+I",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Natasa Ilic Wahab",
+        "party": "PS",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Elise Kaiser",
+        "party": "LV",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Gabriel Chervet",
+        "party": "PLR",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Alexandre Stettler",
+        "party": "UDC",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Serge Overney",
+        "party": "PS",
+        "role": "president",
+        "attendance": "present"
+      }
+    ],
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2021-03-24",
+    "decision_date": "2021-03-25",
+    "outcome": "referred_to_municipality"
+  }
+}
