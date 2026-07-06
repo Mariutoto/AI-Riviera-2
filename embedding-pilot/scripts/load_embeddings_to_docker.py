@@ -8,6 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = ROOT.parent
 INPUT_PATH = ROOT / "output" / "embedding_inputs.jsonl"
 VECTOR_PATH = ROOT / "output" / "embeddings" / "mistral_embeddings.jsonl"
 MANIFEST_PATH = ROOT / "output" / "embeddings" / "manifest.json"
@@ -67,7 +68,17 @@ def build_statements(inputs: list[dict], vectors: dict[str, dict], manifest: dic
     for row in inputs:
         documents.setdefault(row["document_id"], row)
     for row in documents.values():
-        metadata = {"embedding_recipe": row.get("embedding_recipe"), "source_metadata_file": row.get("source_metadata_file")}
+        source_metadata_path = PROJECT_ROOT / str(row.get("source_metadata_file") or "")
+        source_record = json.loads(source_metadata_path.read_text(encoding="utf-8")) if source_metadata_path.is_file() else {}
+        metadata = {
+            **(source_record.get("document_metadata") or {}),
+            "embedding_recipe": row.get("embedding_recipe"),
+            "source_metadata_file": row.get("source_metadata_file"),
+            "additional_metadata": {
+                key: value for key, value in source_record.items()
+                if key not in {"document_metadata", "processing"}
+            },
+        }
         yield (
             "INSERT INTO documents (document_id,document_family,category,document_role,title,metadata) VALUES ("
             f"{literal(row['document_id'])},{literal(row['document_family'])},{literal(row['category'])},"

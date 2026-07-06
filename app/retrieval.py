@@ -4,12 +4,13 @@ import re
 from collections import Counter
 from functools import lru_cache
 
-from app.config import CHUNKS_PATH, ENABLE_LEGACY_JSON_FALLBACK, STORAGE_BACKEND
+from app.config import CHUNKS_PATH, ENABLE_LEGACY_JSON_FALLBACK, RAG_VERSION, STORAGE_BACKEND
 from app.embeddings import embed_text
 from app.hybrid_search import search_hybrid
 from app.postgres_store import search_chunks as search_postgres_chunks
 from app.postgres_store import search_vector_chunks as search_postgres_vector_chunks
 from app.reranker import rerank_chunks
+from app.pilot_v2_store import search as search_pilot_v2
 from app.sqlite_index import search_sqlite, sqlite_ready
 from app.text_cleaning import strip_accents
 
@@ -164,6 +165,9 @@ def search(query: str, limit: int = 6, filters: dict | None = None) -> list[dict
                 "amendement",
             ]
         )
+
+    if RAG_VERSION == "v2":
+        return search_pilot_v2(query, limit=limit, filters=filters)
 
     if STORAGE_BACKEND in {"sql", "hybrid", "postgres", "opensearch"}:
         hybrid_results = search_hybrid(query, limit=limit, filters=filters)

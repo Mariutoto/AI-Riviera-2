@@ -27,4 +27,15 @@ canoniques. Les pilotes, rapports HTML et artefacts OCR ne seront pas indexés.
 
 ## État
 
-`PRÉPARATION UNIQUEMENT` — aucun embedding n'a été généré.
+`PILOTE LOCAL ACTIF` — 583 embeddings Mistral sont chargés dans la base Docker.
+Les vecteurs et la clé API restent locaux et ne sont pas versionnés.
+
+## Lancer le chatbot local V2
+
+```powershell
+python embedding-pilot/scripts/run_chatbot_v2.py
+```
+
+Le lanceur démarre la base Docker si nécessaire puis ouvre le chatbot existant
+en mode V2 sur `http://localhost:8502`. La branche `main` et la base Aiven V1
+ne sont pas modifiées.

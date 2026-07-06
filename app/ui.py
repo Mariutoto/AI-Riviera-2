@@ -14,10 +14,12 @@ ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
 from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm, route_intent_with_llm
+from app.config import RAG_VERSION
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.opensearch_store import ready as opensearch_ready
 from app.postgres_store import ready as postgres_ready
+from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
 from app.structured import answer_structured_question
 from app.text_cleaning import fix_mojibake
@@ -68,6 +70,8 @@ def admin_tabs_enabled() -> bool:
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
+if RAG_VERSION == "v2":
+    st.caption("Mode local V2 · nouveaux chunks · Mistral Embed · PostgreSQL/pgvector Docker")
 st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
 
 st.markdown(
@@ -280,6 +284,8 @@ def contextualize_question(question: str, messages: list[dict]) -> str:
 
 
 def ensure_index_ready() -> bool:
+    if RAG_VERSION == "v2":
+        return pilot_v2_ready()
     if opensearch_ready() or postgres_ready():
         return True
     st.warning(
@@ -388,16 +394,21 @@ else:
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
 def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], bool]:
-    structured_answer = answer_structured_question(question)
-    if structured_answer:
-        return structured_answer, [], True
-
-    intent_route = route_intent_with_llm(question)
-    if intent_route != "rag":
+    if RAG_VERSION != "v2":
         structured_answer = answer_structured_question(question)
         if structured_answer:
             return structured_answer, [], True
-    if not (opensearch_ready() or postgres_ready()):
+
+    intent_route = route_intent_with_llm(question)
+    if RAG_VERSION != "v2" and intent_route != "rag":
+        structured_answer = answer_structured_question(question)
+        if structured_answer:
+            return structured_answer, [], True
+    if RAG_VERSION == "v2":
+        database_ready = pilot_v2_ready()
+    else:
+        database_ready = opensearch_ready() or postgres_ready()
+    if not database_ready:
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
     retrieval_question = rewrite_query_with_llm(question) or question
     candidates = search(retrieval_question, limit=50, filters=dict(filters_key))

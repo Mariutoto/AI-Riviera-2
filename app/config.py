@@ -32,6 +32,7 @@ OPENSEARCH_MAPPING_PATH = DB_DIR / "opensearch" / "chunks-index.json"
 CHUNKS_PATH = INDEX_DIR / "chunks.jsonl"
 SQLITE_PATH = INDEX_DIR / "ai_riviera.sqlite"
 STRUCTURED_DATA_DIR = PROJECT_ROOT / "data" / "structured" / "la-tour-de-peilz"
+RAG_VERSION = config_value("RAG_VERSION", "v1").lower().strip()
 STORAGE_BACKEND = config_value("STORAGE_BACKEND", "sql").lower().strip()
 ENABLE_LEGACY_JSON_FALLBACK = config_value("ENABLE_LEGACY_JSON_FALLBACK", "0").lower().strip() in {"1", "true", "yes", "on"}
 POSTGRES_URL = config_value("POSTGRES_URL", "postgresql://localhost:5432/ai_riviera", ("postgres", "url"))
