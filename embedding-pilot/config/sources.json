@@ -1,0 +1,50 @@
+{
+  "schema_version": "pilot-sources-v1",
+  "policy": "canonical_full_audit_chunks_only",
+  "sources": [
+    {
+      "family": "political_object",
+      "category": "motion",
+      "glob": "audit-general/audit-motions/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-motions/full-audit/metadata/*.json",
+      "document_files": 12,
+      "chunks": 48
+    },
+    {
+      "family": "political_object",
+      "category": "interpellation",
+      "glob": "audit-general/audit-interpellations-2021-2026/chunks/*.json",
+      "metadata_glob": "audit-general/audit-interpellations-2021-2026/metadata/*.json",
+      "document_files": 51,
+      "chunks": 257
+    },
+    {
+      "family": "political_object",
+      "category": "postulat",
+      "glob": "audit-general/audit-postulats/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-postulats/full-audit/metadata/*.json",
+      "document_files": 35,
+      "chunks": 123
+    },
+    {
+      "family": "regulation",
+      "category": "reglement_conseil_communal",
+      "glob": "audit-general/audit-reglement-conseil/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-reglement-conseil/full-audit/metadata/*.json",
+      "document_files": 1,
+      "chunks": 167
+    }
+  ],
+  "totals": {
+    "document_files": 99,
+    "canonical_chunks": 595,
+    "pilot_chunks_after_exclusions": 583
+  },
+  "excluded": [
+    "pilot directories",
+    "HTML audit reports",
+    "OCR artifacts",
+    "clean_text duplicates",
+    "metadata comparison files"
+  ]
+}

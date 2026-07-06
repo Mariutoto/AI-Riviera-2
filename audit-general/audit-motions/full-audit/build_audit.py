@@ -87,19 +87,33 @@ def split_sections(text: str, role: str, report_type: str | None = None) -> list
             "commission_report": "commission_report",
             "council_decision": "council_decision",
         }.get(role, "combined_motion_document" if role.startswith("combined_") else "unknown_component")
-        return [{"component": default_component, "section_title": role, "content": text.strip()}]
+        section_title = {
+            "motion_text": "Motion",
+            "commission_report": "Rapport de commission",
+            "council_decision": "Décision du Conseil communal",
+        }.get(default_component, "Motion")
+        return [{"component": default_component, "section_title": section_title, "content": text.strip()}]
     sections = []
     if headings[0][0] > 0:
         # In a combined dossier, content before the first report/decision is
         # the original motion.
         default = "motion_text" if role in {"motion_text", "combined_motion_report", "combined_motion_report_decision"} else "commission_report" if role == "commission_report" else "combined_motion_document"
-        sections.append({"component": default, "section_title": "Début du document", "content": text[:headings[0][0]].strip()})
+        section_title = {
+            "motion_text": "Motion",
+            "commission_report": "Rapport de commission",
+            "council_decision": "Décision du Conseil communal",
+        }.get(default, "Motion")
+        sections.append({"component": default, "section_title": section_title, "content": text[:headings[0][0]].strip()})
     for index, (start, component, title) in enumerate(headings):
         end = headings[index + 1][0] if index + 1 < len(headings) else len(text)
         content = text[start:end].strip()
         if content:
             sections.append({"component": component, "section_title": title, "content": content})
-    return [section for section in sections if section["content"]]
+    sections = [section for section in sections if section["content"]]
+    if len(sections) > 1 and word_count(sections[0]["content"]) < 60 and sections[0]["component"] == sections[1]["component"]:
+        sections[1]["content"] = f"{sections[0]['content']}\n{sections[1]['content']}".strip()
+        sections.pop(0)
+    return sections
 
 
 def split_words(text: str) -> list[str]:

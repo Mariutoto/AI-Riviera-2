@@ -1,0 +1,16 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pilote embeddings V2</title>
+<style>body{font:15px/1.55 system-ui;margin:0;background:#f4f6f8;color:#172033}main{max-width:1050px;margin:auto;padding:32px}.hero,section{background:white;border:1px solid #dbe2ea;border-radius:14px;padding:22px;margin-bottom:18px}h1,h2{margin-top:0}.status{display:inline-block;background:#fff1c7;color:#765500;padding:7px 11px;border-radius:999px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.card{background:#eef4ff;border-radius:10px;padding:15px}.card strong{font-size:1.7rem;display:block}code,pre{font-family:Consolas,monospace}pre{background:#101820;color:#eaf2f8;padding:16px;border-radius:9px;overflow:auto}a{color:#185a9d}</style></head><body><main>
+<div class="hero"><span class="status">PRÉPARATION — AUCUN EMBEDDING GÉNÉRÉ</span><h1>Pilote embeddings V2</h1><p>Cette page explique ce qui sera indexé, comment les textes seront construits et où les futurs vecteurs seront stockés.</p></div>
+<section><h2>Inventaire du pilote</h2><div class="grid"><div class="card"><strong>48</strong>chunks motions</div><div class="card"><strong>245</strong>chunks interpellations</div><div class="card"><strong>123</strong>chunks postulats</div><div class="card"><strong>167</strong>articles du règlement</div><div class="card"><strong>583</strong>inputs retenus</div></div><p>Une interpellation source erronée est exclue (12 chunks). Dans toutes les catégories politiques, les petits préambules initiaux (auteurs, date, signatures) sont fusionnés avec le premier texte du même composant.</p></section>
+<section><h2>Recettes prévues</h2><h3>Objets politiques</h3><pre>document_family + category + document_role + title
++ component + contenu</pre><h3>Règlement</h3><pre>document_family + article_number + article_title + contenu</pre><p><code>section_title</code> est exclu car il répète le composant. Configuration complète : <a href="config/embedding_recipes.json">embedding_recipes.json</a></p></section>
+<section><h2>Contrôle généré</h2><p><a href="output/embedding_inputs.html"><strong>Ouvrir les 583 embedding_input et les contrôles</strong></a></p><p>Fichiers techniques : <a href="output/validation_report.json">rapport JSON</a> · <a href="output/embedding_inputs.jsonl">JSONL prêt pour l'étape suivante</a>.</p></section>
+<section><h2>Lire dans l'ordre</h2><ol><li><a href="docs/01_COMPRENDRE_LE_PILOTE.md">Comprendre le pilote</a></li><li><a href="docs/02_DONNEES_ET_DOUBLONS.md">Sources et prévention des doublons</a></li><li><a href="config/sources.json">Inventaire exact des sources</a></li><li><a href="database/schema_preview.sql">Prévisualiser le schéma PostgreSQL</a></li><li><a href="docs/03_ETAPES_SUIVANTES.md">Voir les prochaines étapes</a></li></ol></section>
+<section><h2>Pipeline futur</h2><pre>chunks validés
+→ embedding_input lisible
+→ validation humaine
+→ mistral-embed (1024 dimensions)
+→ PostgreSQL + pgvector
+→ tests de recherche
+→ rapport HTML</pre></section>
+</main></body></html>

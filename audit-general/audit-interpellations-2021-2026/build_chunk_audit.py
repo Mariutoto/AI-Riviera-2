@@ -12,6 +12,7 @@ CHUNKS_DIR = ROOT / "chunks"
 DETAIL_DIR = ROOT / "chunk_details"
 MAX_WORDS = 450
 OVERLAP_WORDS = 60
+INITIAL_PREAMBLE_MAX_WORDS = 60
 
 
 def words(text: str) -> list[str]:
@@ -20,6 +21,20 @@ def words(text: str) -> list[str]:
 
 def chunk_hash(text: str) -> str:
     return hashlib.sha256(re.sub(r"\s+", " ", text).strip().encode("utf-8")).hexdigest()
+
+
+def merge_initial_preamble(sections: list[dict]) -> list[dict]:
+    """Keep a short author/date preamble with the first substantive section."""
+    if (
+        len(sections) > 1
+        and len(words(sections[0]["content"])) < INITIAL_PREAMBLE_MAX_WORDS
+        and sections[0]["component"] == sections[1]["component"]
+    ):
+        sections[1]["content"] = (
+            f"{sections[0]['content']}\n{sections[1]['content']}"
+        ).strip()
+        sections = sections[1:]
+    return sections
 
 
 def split_sections(text: str, document_role: str | None = None) -> list[dict]:
@@ -43,7 +58,7 @@ def split_sections(text: str, document_role: str | None = None) -> list[dict]:
             response_text,
         )
         number = number_match.group(1) if number_match else None
-        return [
+        return merge_initial_preamble([
             {
                 "component": "municipal_response",
                 "section_title": f"Réponse municipale {number}" if number else "Réponse municipale",
@@ -56,7 +71,7 @@ def split_sections(text: str, document_role: str | None = None) -> list[dict]:
                 "response_number": None,
                 "content": interpellation_text,
             },
-        ]
+        ])
 
     # A response can be numbered ("N° 3/2025") or explicitly labelled
     # "ORALE". Both headings are hard semantic boundaries for chunking.
@@ -97,7 +112,9 @@ def split_sections(text: str, document_role: str | None = None) -> list[dict]:
         else:
             component, section_title = "unknown_component", "Document"
         sections.append({"component": component, "section_title": section_title, "response_number": None, "content": text.strip()})
-    return [section for section in sections if section["content"]]
+    return merge_initial_preamble(
+        [section for section in sections if section["content"]]
+    )
 
 
 def split_words(text: str) -> list[str]:

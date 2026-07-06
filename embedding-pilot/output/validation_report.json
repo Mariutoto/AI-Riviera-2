@@ -1,0 +1,61 @@
+{
+  "status": "inputs_generated_no_embeddings",
+  "model_planned": "mistral-embed",
+  "dimension_planned": 1024,
+  "recipe_version": "embedding-input-v1",
+  "summary": {
+    "chunks": 583,
+    "valid": 583,
+    "review": 0,
+    "duplicate_chunk_ids": 0,
+    "duplicate_content_hashes": 0
+  },
+  "by_category": {
+    "motion": {
+      "documents": 11,
+      "chunks": 48,
+      "valid": 48,
+      "review": 0
+    },
+    "interpellation": {
+      "documents": 50,
+      "chunks": 245,
+      "valid": 245,
+      "review": 0
+    },
+    "postulat": {
+      "documents": 35,
+      "chunks": 123,
+      "valid": 123,
+      "review": 0
+    },
+    "reglement_conseil_communal": {
+      "documents": 1,
+      "chunks": 167,
+      "valid": 167,
+      "review": 0
+    }
+  },
+  "issues": {},
+  "duplicate_groups": [],
+  "skipped_sources": [
+    {
+      "category": "motion",
+      "document_id": "doc_bf85621221fdfe857d49",
+      "title": "Du matériel sportif accessible pour tous",
+      "source_chunk_file": "audit-general/audit-motions/full-audit/chunks/doc_bf85621221fdfe857d49.json",
+      "reason": "ignored_non_text_image"
+    }
+  ],
+  "excluded_documents": [
+    {
+      "document_id": "doc_d4a5f75278e2f345ab9c",
+      "title": "Mieux vaut tard que jamais !",
+      "reason": "Le PDF source 2022 retourne exactement le contenu du document 2023 « A-t-on perdu les pédales ? ». Exclu du pilote pour éviter 12 chunks erronés et dupliqués."
+    }
+  ],
+  "cleaning": {
+    "inline_page_markers_removed": 80
+  },
+  "review_chunks": []
+}

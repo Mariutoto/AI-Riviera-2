@@ -92,7 +92,12 @@ def split_sections(text: str, role: str, report_type: str | None) -> list[dict]:
     headings = deduped
     if not headings:
         component = "postulat_text" if role == "postulat_text" else "commission_report" if role == "commission_report" else "council_decision" if role == "council_decision" else "unknown_component"
-        return [{"component": component, "section_title": role, "content": text.strip()}]
+        section_title = {
+            "postulat_text": "Postulat",
+            "commission_report": "Rapport de commission",
+            "council_decision": "Décision du Conseil communal",
+        }.get(component, "Postulat")
+        return [{"component": component, "section_title": section_title, "content": text.strip()}]
     sections = []
     if headings[0][0] > 0:
         prefix = text[:headings[0][0]].strip()
@@ -100,12 +105,20 @@ def split_sections(text: str, role: str, report_type: str | None) -> list[dict]:
         # PDF page numbers occasionally survive extraction before the first real
         # heading. They are layout noise, not standalone semantic chunks.
         if prefix and not re.fullmatch(r"(?:page\s*)?\d{1,3}", prefix, flags=re.I):
-            sections.append({"component": component, "section_title": "Début du document", "content": prefix})
+            section_title = {
+                "postulat_text": "Postulat",
+                "commission_report": "Rapport de commission",
+                "council_decision": "Décision du Conseil communal",
+            }.get(component, "Postulat")
+            sections.append({"component": component, "section_title": section_title, "content": prefix})
     for index, (start, component, title) in enumerate(headings):
         end = headings[index + 1][0] if index + 1 < len(headings) else len(text)
         content = text[start:end].strip()
         if content:
             sections.append({"component": component, "section_title": title, "content": content})
+    if len(sections) > 1 and word_count(sections[0]["content"]) < 60 and sections[0]["component"] == sections[1]["component"]:
+        sections[1]["content"] = f"{sections[0]['content']}\n{sections[1]['content']}".strip()
+        sections.pop(0)
     return sections
 
 

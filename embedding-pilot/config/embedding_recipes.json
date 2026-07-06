@@ -1,0 +1,43 @@
+{
+  "schema_version": "embedding-input-v1",
+  "status": "draft_to_validate_before_api_calls",
+  "recipes": {
+    "political_object": {
+      "applies_to": [
+        "motion",
+        "interpellation",
+        "postulat"
+      ],
+      "ordered_fields": [
+        "document_family",
+        "category",
+        "document_role",
+        "title",
+        "component",
+        "content"
+      ],
+      "template": "document_family: {document_family}\ncategory: {category}\ndocument_role: {document_role}\ntitle: {title}\ncomponent: {component}\n\n{content}",
+      "explanation": "Le rôle décrit le PDF complet. Le composant décrit la nature du chunk. section_title est volontairement exclu car redondant."
+    },
+    "regulation": {
+      "applies_to": [
+        "reglement_conseil_communal"
+      ],
+      "ordered_fields": [
+        "document_family",
+        "article_number",
+        "article_title",
+        "content"
+      ],
+      "template": "document_family: {document_family}\narticle_number: {article_number}\narticle_title: {article_title}\n\n{content}",
+      "explanation": "La recette minimale validée évite de répéter catégorie, rôle et hiérarchie dans le vecteur."
+    }
+  },
+  "never_embed": [
+    "local_file_paths",
+    "content_hash",
+    "processing_status",
+    "ocr_status",
+    "metadata_version"
+  ]
+}
