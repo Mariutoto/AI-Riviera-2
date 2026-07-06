@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "doc_32c17eaaa14c2fb1dbf2",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "combined_motion_report_decision",
+    "title": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+    "source_title": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-31",
+    "content_hash": "088f67d25e28efe86b666eadfdcab2f80441555269a01af547ac9977a397d84a",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Alessio Grutta",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2021-07-01",
+    "commission": {
+      "meeting": {
+        "raw": "lundi 31 mai 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante:",
+        "date": "2021-05-31",
+        "time": "19:30"
+      },
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2021-06-30",
+      "decision_date": "2021-07-01",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à l'appel nominal par 30 oui, 29 non et 4 abstentions."
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15876,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2502,
+      "clean_words": 2502,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2396
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_components_manually_verified"
+    }
+  }
+}

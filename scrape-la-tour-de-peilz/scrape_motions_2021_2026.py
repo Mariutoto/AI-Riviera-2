@@ -152,23 +152,54 @@ def parse_listing_status(label: str) -> tuple[str | None, str]:
 
 
 def infer_document_role(label: str, filename: str, text: str) -> tuple[str, str | None]:
+    normalized_label = normalize(label)
+    normalized_filename = normalize(filename)
+    # The official listing is authoritative for standalone motions. Words such
+    # as "rapport" or "décision" often occur in the motion's argument itself
+    # and must not turn it into a combined dossier.
+    if (
+        ("renvoye directement" in normalized_label or "non soutenu" in normalized_label)
+        and "rapp" not in normalized_filename
+        and "dec" not in normalized_filename
+    ):
+        return "motion_text", None
     haystack = normalize(f"{label} {filename} {text[:2500]}")
-    if "rapport de majorite" in haystack or "rapp-maj" in normalize(filename):
-        return "commission_report", "majority_report"
-    if "rapport de minorite" in haystack or "rapp-min" in normalize(filename):
-        return "commission_report", "minority_report"
+    report_type, _, _ = infer_report_types(label, filename, text)
     has_report = "rapport" in haystack or "rapp" in normalize(filename)
     has_decision = "decision" in haystack or "dec" in normalize(filename)
     has_motion_text = "nous, les soussignes" in haystack or "proposons la motion suivante" in haystack or "motion :" in haystack
     if has_report and has_decision and has_motion_text:
-        return "combined_motion_report_decision", "standard_report"
+        return "combined_motion_report_decision", report_type or "standard_report"
     if has_report and has_motion_text:
-        return "combined_motion_report", "standard_report"
+        return "combined_motion_report", report_type or "standard_report"
     if has_report:
-        return "commission_report", "standard_report"
+        return "commission_report", report_type or "standard_report"
     if has_decision:
         return "council_decision", None
     return "motion_text", None
+
+
+def infer_report_types(label: str, filename: str, text: str) -> tuple[str | None, bool, bool]:
+    normalized = normalize(f"{label} {filename} {text}")
+    has_majority = "rapport de majorite" in normalized or "rapp-maj" in normalize(filename)
+    has_minority = "rapport de minorite" in normalized or "rapp-min" in normalize(filename)
+    has_unqualified_report = "rapport de la commission" in normalized
+    # When a distinct minority report follows an unqualified commission
+    # report, the latter is the majority report even if its heading omits the
+    # word "majorité". A lone unqualified report remains standard_report.
+    if has_minority and has_unqualified_report:
+        has_majority = True
+    if has_majority and has_minority:
+        report_type = "majority_and_minority_reports"
+    elif has_majority:
+        report_type = "majority_report"
+    elif has_minority:
+        report_type = "minority_report"
+    elif "rapport" in normalized or "rapp" in normalize(filename):
+        report_type = "standard_report"
+    else:
+        report_type = None
+    return report_type, has_majority, has_minority
 
 
 def extract_people(text: str) -> list[dict]:
@@ -335,6 +366,22 @@ def extract_commission_section(text: str) -> str | None:
         r"La commission compos[ée]e de\s*:\s*([\s\S]{0,1500}?)(?:S[' ]est r[ée]unie|s'est r[ée]unie|S est r[ée]unie)",
         r"Commission compos[ée]e de\s*:\s*([\s\S]{0,1500}?)(?:S[' ]est r[ée]unie|s'est r[ée]unie|S est r[ée]unie)",
     ]
+    patterns.insert(
+        0,
+        r"(?:Elle|La commission)\s+(?:était|etait)\s+composée?e?\s+de\s*:+\s*([\s\S]{0,1800}?)(?:La\s+Municipalité|La\s+Municipalite|Municipalité\s+était\s+représentée|La commission\s+(?:s[' ]est|a)|$)",
+    )
+    patterns.insert(
+        0,
+        r"(?:Elle|La commission|La Commission désignée)[^\n]{0,180}?compos(?:ée|ee)\s+(?:(?:d(?:e|es)(?:\s+(?:(?:conseillers?\s+communaux?|membres)\s+)?suivants?|\s+de\s+la\s+façon\s+suivante))|comme\s+suit)\s*:+\s*([\s\S]{0,1800}?)(?:La\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|Quant\s+à\s+la\s+Municipalit(?:é|e)|La commission\s+s[' ]est\s+r(?:é|e)unie|Le\s+Pr(?:é|e)sident|Apr(?:è|e)s\s+un\s+tour|$)",
+    )
+    patterns.insert(
+        0,
+        r"(?:La Commission|La commission)[^\n]{0,240}?(?:dans\s+)?la\s+composition\s+suivante\s*:+\s*([\s\S]{0,1800}?)(?:La\s+Municipalit(?:é|e)|Quant\s+à\s+la\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|Informations\s+fournies|Discussion|$)",
+    )
+    section_end = r"(?:La\s+Municipalit(?:é|e)|Quant\s+à\s+la\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|Monsieur[^\n]{0,180}\bMunicipal\b|La commission\s+s[' ]est\s+r(?:é|e)unie|Informations\s+fournies|Discussion|$)"
+    patterns.insert(0, rf"(?:La Commission|La commission)[\s\S]{{0,350}}?dans\s+la\s+composition\s+suivante\s*:+\s*([\s\S]{{0,1800}}?){section_end}")
+    patterns.insert(0, rf"(?:Elle|La commission)[^\n]{{0,220}}?compos(?:ée|ee)\s+comme\s+suit\s*:+\s*([\s\S]{{0,1800}}?){section_end}")
+    patterns.insert(0, rf"La Commission\s+d(?:é|e)sign(?:é|e)e[^\n]{{0,160}}?compos(?:ée|ee)\s+de\s+la\s+façon\s+suivante\s*:+\s*([\s\S]{{0,1800}}?){section_end}")
     for pattern in patterns:
         match = re.search(pattern, text, flags=re.I)
         if match:
@@ -348,6 +395,57 @@ def extract_commission_members(text: str) -> list[dict]:
         return []
     members = extract_people(section)
     section_lines = [re.sub(r"\s+", " ", line).strip() for line in section.splitlines() if line.strip()]
+    fallback_members = []
+    current_civility = None
+    for line in section_lines:
+        compact = line.strip(" -•\t,")
+        absence_prefix = ""
+        absence_match = re.match(r"^(Absent(?:e)?(?:\s+non\s+excus(?:é|e)e?)?|Excus(?:é|e)e?)\s+(.+)$", compact, flags=re.I)
+        if absence_match:
+            absence_prefix = absence_match.group(1)
+            compact = absence_match.group(2).strip()
+        if re.fullmatch(r"Madame|Mesdames", compact, flags=re.I):
+            current_civility = "Mme"
+            continue
+        if re.fullmatch(r"Monsieur|Messieurs", compact, flags=re.I):
+            current_civility = "M."
+            continue
+        explicit = re.match(r"^(Mme|M\.|Madame|Monsieur)\s+(.+)$", compact, flags=re.I)
+        if explicit:
+            current_civility = "Mme" if explicit.group(1).lower() in {"mme", "madame"} else "M."
+            compact = explicit.group(2).strip()
+        compact = re.split(r"\s+en\s+remplacement\s+de\s+", compact, maxsplit=1, flags=re.I)[0].strip()
+        marker_match = re.search(r"\(([^)]+)\)|,\s*(excusée?|président(?:e)?(?:-rapporteur)?|rapporteur)", compact, flags=re.I)
+        marker = next((value for value in marker_match.groups() if value), "") if marker_match else ""
+        name = re.sub(r"\s*\([^)]+\)\s*", " ", compact)
+        name = re.sub(r"\s*[,–—-]\s*(?:excusée?|président(?:e)?(?:-rapporteur)?|rapporteur).*$", "", name, flags=re.I).strip(" ,")
+        name_parts = name.split()
+        if not 2 <= len(name_parts) <= 6 or not re.fullmatch(r"[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’ -]+", name):
+            continue
+        item = {"name": clean_person_name(name)}
+        if current_civility:
+            item["civility"] = current_civility
+        if marker and re.fullmatch(r"[A-Z0-9/+.-]{2,}", marker):
+            item["party"] = marker
+        normalized_absence = normalize(absence_prefix)
+        if "absent non excuse" in normalized_absence:
+            item["attendance"] = "absent_unexcused"
+        elif "absent" in normalized_absence:
+            item["attendance"] = "absent"
+        elif "excuse" in normalized_absence:
+            item["attendance"] = "excused"
+        fallback_members.append(item)
+    members = merge_people(fallback_members, members)
+    replaced_people = set()
+    for line in section_lines:
+        replacement = re.search(r"en\s+remplacement\s+de\s+(?:Mme|M\.|Madame|Monsieur)\s+(.+)$", line, flags=re.I)
+        if replacement:
+            replaced_name = re.sub(r"\s*\([^)]+\).*$", "", replacement.group(1)).strip(" ,")
+            replaced_people.add(strip_accents(clean_person_name(replaced_name)).casefold())
+    members = [
+        member for member in members
+        if strip_accents(clean_person_name(str(member.get("name") or ""))).casefold() not in replaced_people
+    ]
     enriched = []
     for member in members:
         role = "member"
@@ -360,6 +458,21 @@ def extract_commission_members(text: str) -> list[dict]:
             if member["name"] in line and re.search(r"excus[Ã©e]e?", line, flags=re.I):
                 attendance = "excused"
         enriched.append({**member, "role": role, "attendance": attendance})
+    for item in enriched:
+        matching = [line for line in section_lines if item["name"] in line]
+        normalized_lines = " ".join(normalize(line) for line in matching)
+        if "president-rapporteur" in normalized_lines:
+            item["role"] = "president_rapporteur"
+        elif "rapporteur" in normalized_lines:
+            item["role"] = "rapporteur"
+        elif "president" in normalized_lines:
+            item["role"] = "president"
+        if "absent non excuse" in normalized_lines:
+            item["attendance"] = "absent_unexcused"
+        elif "absent" in normalized_lines:
+            item["attendance"] = "absent"
+        elif "excuse" in normalized_lines:
+            item["attendance"] = "excused"
     return enriched
 
 
@@ -492,11 +605,12 @@ def extract_council_decision(text: str, default_year: str) -> dict | None:
 
 def infer_report_flags(label: str, filename: str, text: str, report_type: str | None) -> dict:
     normalized = normalize(f"{label} {filename} {text[:4000]}")
+    _, has_majority, has_minority = infer_report_types(label, filename, text)
     return {
         "contains_report": "rapport" in normalized or "rapp" in normalize(filename),
         "contains_decision": "decision" in normalized or "-dec" in normalize(filename),
-        "contains_majority_report": report_type == "majority_report" or "rapport de majorite" in normalized,
-        "contains_minority_report": report_type == "minority_report" or "rapport de minorite" in normalized,
+        "contains_majority_report": has_majority,
+        "contains_minority_report": has_minority,
     }
 
 
@@ -505,10 +619,16 @@ def extract_document_components(text: str, role: str, report_type: str | None) -
     if role in {"motion_text", "combined_motion_report", "combined_motion_report_decision"}:
         components.append({"role": "motion_text"})
     if role in {"commission_report", "combined_motion_report", "combined_motion_report_decision"}:
-        component = {"role": "commission_report"}
-        if report_type:
-            component["report_type"] = report_type
-        components.append(component)
+        report_types = (
+            ["majority_report", "minority_report"]
+            if report_type == "majority_and_minority_reports"
+            else [report_type] if report_type else [None]
+        )
+        for current_report_type in report_types:
+            component = {"role": "commission_report"}
+            if current_report_type:
+                component["report_type"] = current_report_type
+            components.append(component)
     if role in {"council_decision", "combined_motion_report_decision"}:
         components.append({"role": "council_decision"})
     return components

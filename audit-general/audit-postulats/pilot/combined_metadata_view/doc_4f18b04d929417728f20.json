@@ -1,0 +1,48 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4f18b04d929417728f20",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+    "source_title": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "3607558305a24fff7b4a90527ef0898f2f437a0b0d9a051be46f8ea19109e1f0",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "La Tour-de-Peilz Libre",
+        "party": "LTDPL",
+        "role": "group"
+      }
+    ],
+    "political_status": "unknown",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2773,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 436
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    }
+  }
+}

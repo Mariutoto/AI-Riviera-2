@@ -1,0 +1,34 @@
+{
+  "7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf": {
+    "document_date": "2021-08-12",
+    "skip_ocr": true,
+    "reason": "non_text_image_ignored"
+  },
+  "Motion-Espinosa-Aidons-nos-commercants.pdf": {
+    "document_role": "motion_text",
+    "report_type": null,
+    "contains_report": false,
+    "contains_decision": false,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "status_normalized": "filed",
+    "remove_fields": [
+      "commission",
+      "decision"
+    ],
+    "reason": "source_listing_incorrect"
+  },
+  "Motion-Grutta-Crowfunding-Rap-Dec.pdf": {
+    "document_role": "combined_motion_report_decision",
+    "report_type": "standard_report",
+    "contains_report": true,
+    "contains_decision": true,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "reason": "document_components_manually_verified"
+  },
+  "Motion-Wuthrich-Adaptation-reglement-conseil.pdf": {
+    "document_date": "2021-09-06",
+    "reason": "document_date_manually_verified"
+  }
+}

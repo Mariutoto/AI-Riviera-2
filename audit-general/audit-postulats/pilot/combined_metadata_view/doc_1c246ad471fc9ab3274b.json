@@ -1,0 +1,48 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1c246ad471fc9ab3274b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+    "source_title": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "d0bd34a7cabde6b38ec43ef915569fcc708f9e5ee3f809df7ad9ad34ccd47e2e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Pierre Fontana",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "political_status": "unknown",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10197,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1585
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    }
+  }
+}

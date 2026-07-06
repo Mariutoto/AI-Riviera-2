@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notes — stratégie des embeddings</title>
+<style>body{font:15px/1.55 system-ui;margin:0;background:#f4f6f8;color:#172033}main{max-width:1050px;margin:auto;padding:32px}section,.hero{background:#fff;border:1px solid #dbe2ea;border-radius:14px;padding:22px;margin-bottom:18px}h1,h2{margin-top:0}pre{white-space:pre-wrap;background:#101820;color:#eaf2f8;padding:16px;border-radius:9px;overflow:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d9dfeb;padding:9px;text-align:left;vertical-align:top}th{background:#edf1f7}.yes{color:#126b39;font-weight:700}.no{color:#9a2d2d;font-weight:700}.note{background:#eef4ff;border-left:4px solid #3776b6;padding:12px}code{font-family:Consolas,monospace}a{color:#185a9d}</style>
+</head><body><main>
+<div class="hero"><h1>Notes — comment construire les embeddings</h1><p>Un embedding contient le contexte utile à la compréhension, puis le texte du chunk. Les métadonnées techniques ou redondantes restent dans le JSON pour les filtres, mais ne sont pas envoyées au modèle d'embedding.</p></div>
+
+<section><h2>1. Objets politiques</h2><p>Familles concernées : motions, postulats et interpellations.</p>
+<pre>Famille: political_object
+Catégorie: postulat
+Rôle: combined_postulat_report_decision
+Titre: GastroVert pour tous les ménages à la Tour-de-Peilz
+Composant: commission_report
+Section: Rapport de commission
+
+[texte du chunk]</pre>
+<table><thead><tr><th>Champ</th><th>Embedding ?</th><th>Raison</th></tr></thead><tbody>
+<tr><td><code>document_family</code></td><td class="yes">Oui</td><td>Contexte politique commun.</td></tr>
+<tr><td><code>category</code></td><td class="yes">Oui</td><td>Distingue motion, postulat et interpellation.</td></tr>
+<tr><td><code>document_role</code></td><td class="yes">Oui</td><td>Composition du PDF complet.</td></tr>
+<tr><td><code>title</code></td><td class="yes">Oui</td><td>Contexte sémantique principal.</td></tr>
+<tr><td><code>component</code></td><td class="yes">Oui</td><td>Distingue texte initial, rapport et décision.</td></tr>
+<tr><td><code>section_title</code></td><td class="yes">Oui</td><td>Nom lisible de la partie.</td></tr>
+<tr><td>Auteurs, dates, partis, statut</td><td class="no">Non par défaut</td><td>Métadonnées filtrables.</td></tr>
+</tbody></table>
+<p class="note"><strong>Règle :</strong> le rôle décrit le document complet ; le composant décrit le chunk. Un PDF peut avoir le rôle <code>combined_postulat_report_decision</code> et contenir des chunks <code>postulat_text</code>, <code>commission_report</code> et <code>council_decision</code>.</p></section>
+
+<section><h2>2. Règlements</h2><p><strong>Recette finale validée</strong> pour éviter la redondance. Les autres champs restent dans le JSON et dans l'audit.</p>
+<pre>document_family: regulation
+article_number: 54b
+article_title: Secret de fonction
+
+[texte de l'article]</pre>
+<table><thead><tr><th>Champ</th><th>Embedding ?</th><th>Raison</th></tr></thead><tbody>
+<tr><td><code>document_family</code></td><td class="yes">Oui</td><td>Identifie la famille réglementaire.</td></tr>
+<tr><td><code>article_number</code></td><td class="yes">Oui</td><td>Permet de retrouver et citer l'article.</td></tr>
+<tr><td><code>article_title</code></td><td class="yes">Oui</td><td>Sens propre à l'article.</td></tr>
+<tr><td><code>title_heading</code>, <code>chapter</code>, <code>category</code>, <code>document_role</code></td><td class="no">Non</td><td>Conservés dans le JSON et contrôlés par l'audit, mais exclus de l'embedding.</td></tr>
+</tbody></table></section>
+
+<section><h2>3. Règles communes</h2><ul>
+<li>Le texte du chunk est toujours inclus.</li><li>La recette reste stable dans une même famille documentaire.</li>
+<li>Un numéro de page, un en-tête ou un pied de page isolé ne devient jamais un chunk.</li>
+<li>Les chemins locaux, hashes et informations OCR ne sont jamais injectés.</li>
+<li>Les valeurs utiles uniquement au filtrage restent dans les métadonnées JSON.</li>
+<li>Une nouvelle famille peut avoir sa propre recette si cela réduit le bruit.</li></ul></section>
+
+<section><h2>4. Recettes résumées</h2><pre>OBJET POLITIQUE
+famille + catégorie + rôle + titre + composant + section + contenu
+
+RÈGLEMENT
+document_family + article_number + article_title + contenu</pre>
+<p><a href="audit-reglement-conseil/first-50/embeddings.html">Voir les embeddings tests du règlement</a></p></section>
+</main></body></html>

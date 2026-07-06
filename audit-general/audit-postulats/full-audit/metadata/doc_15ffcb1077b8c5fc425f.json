@@ -1,0 +1,116 @@
+{
+  "document_metadata": {
+    "document_id": "doc_15ffcb1077b8c5fc425f",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Quand notre cœur fait boum",
+    "source_title": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-15",
+    "content_hash": "0d2e47c3046fbcd15e4bfe03859e4bd78bffebddac0a21ec96f630b44e673ad9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Véronique Ansermet",
+        "civility": "Mme",
+        "party": "LV"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-12-07",
+    "commission": {
+      "members": [
+        {
+          "name": "François Vodoz",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Aude Lerch",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "civility": "M.",
+          "party": "PLR",
+          "attendance": "absent_unexcused",
+          "role": "member"
+        }
+      ],
+      "meeting": {
+        "raw": "jeudi 3 novembre 2022 en salle 2 de la maison de commune",
+        "date": "2022-11-03"
+      },
+      "recommendation": {
+        "recommendation": "reject_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-12-07",
+      "decision_date": "2022-12-07",
+      "outcome": "adopted"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8264,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1226
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1262,
+      "clean_words": 1226,
+      "removed_blocks": 3
+    }
+  }
+}

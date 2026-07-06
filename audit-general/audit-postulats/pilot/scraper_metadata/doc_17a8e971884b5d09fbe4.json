@@ -1,0 +1,152 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "postulat",
+  "document_type": "postulat",
+  "year": "2022",
+  "listing_year": "2022",
+  "category": "postulats",
+  "legislature": "2021-2026",
+  "title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+  "summary": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+  "filename": "Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/srch/",
+  "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+  "source_collection": "faceted-search:motions-postulats-interpellations",
+  "source_category_id": "6",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+  "site_listing_title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+  "site_subject": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Marion Savoy",
+      "civility": "Mme",
+      "party": "LV"
+    }
+  ],
+  "object_title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+  "document_role": "combined_postulat_report_decision",
+  "report_type": "majority_and_minority_reports",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "majority_report"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "minority_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": true,
+  "contains_minority_report": true,
+  "document_date": "2022-04-15",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-notre-quartier-notre-initiative-experimenter-les-assemblees-de-quartier",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+    "source_subject": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+    "document_date": "2022-04-15",
+    "decision_status": "adopted"
+  },
+  "search_facets": [
+    "assemblees",
+    "combined_postulat_report_decision",
+    "conseil_communal",
+    "experimenter",
+    "initiative",
+    "lv",
+    "majority_and_minority_reports",
+    "municipalite",
+    "notre",
+    "postulat",
+    "quartier",
+    "report_and_decision_available"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 12873,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "members": [
+      {
+        "name": "Margaux Dubuis",
+        "civility": "Mme",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Gabrielle Heller",
+        "civility": "Mme",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Marion Savoy",
+        "civility": "Mme",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Nicolas Fardel",
+        "civility": "M.",
+        "role": "president_rapporteur",
+        "attendance": "present"
+      },
+      {
+        "name": "Michael Rohrer",
+        "civility": "M.",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Walter Steiner",
+        "civility": "M.",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "François Vodoz",
+        "civility": "M.",
+        "role": "member",
+        "attendance": "present"
+      }
+    ],
+    "meeting": {
+      "raw": "mardi 12 avril 2022 en compagnie de Mme la Syndique Sandra Glardon",
+      "date": "2022-04-12"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": true,
+    "contains_minority_report": true
+  },
+  "decision": {
+    "session_date": "2022-05-11",
+    "decision_date": "2022-05-12",
+    "outcome": "adopted"
+  }
+}

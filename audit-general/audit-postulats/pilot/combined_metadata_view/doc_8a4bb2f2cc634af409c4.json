@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8a4bb2f2cc634af409c4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "La durabilité - un défi qui nous concerne tous",
+    "source_title": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-11",
+    "content_hash": "276c863b9b2205d7d86ee854414ca08e21aad79b4f3fb5846b79be618682b466",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Janina Rioux",
+        "civility": "Mme",
+        "party": "PLR"
+      },
+      {
+        "name": "Michel Chappuis",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2024-12-11",
+    "commission": {
+      "members": [
+        {
+          "name": "Viviane Huber",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Janina Rioux",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Valentine Python",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Chappuis",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "lundi 18 novembre 2024, à 19h30, en Salle 1 de la Maison de Commune : Elle était composée de :",
+        "date": "2024-11-18",
+        "time": "19:30"
+      },
+      "rapporteur": "Viviane Huber",
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2024-12-11",
+      "decision_date": "2024-12-11",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à la majorité (quatre avis contraires et deux abstentions).",
+        "contrary_votes_raw": "quatre avis contraires et deux abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 11305,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1670
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f106f84956dcd8206ceb",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Des lettres pour nous faire un nom",
+    "source_title": "Postulat de Mme Viviane Huber (LTDPL) - Non soutenu par le Conseil",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-hashtag-LTDP.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-08-19",
+    "content_hash": "6bd4be6904f967687fd046695d2058206a1449d0a4dc0319ca16d89ea0ab9fd3",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Viviane Huber",
+        "civility": "Mme",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "not_supported_by_council",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1165,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 188
+    },
+    "header_footer_cleaning": {
+      "raw_words": 189,
+      "clean_words": 188,
+      "removed_blocks": 0
+    }
+  }
+}

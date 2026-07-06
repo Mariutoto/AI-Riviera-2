@@ -1,0 +1,53 @@
+{
+  "document_metadata": {
+    "document_id": "doc_bf85621221fdfe857d49",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Du matériel sportif accessible pour tous",
+    "source_title": "Motion de M. Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/7-1-Motion-Kraehenbuhl-Materiel-sportif.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-08-12",
+    "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "extraction_method": "ignored_non_text_image",
+    "processing_status": "validated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Yvan Kraehenbuehl",
+        "civility": "M.",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "ignored_non_text_image",
+      "words": 0
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "non_text_image_ignored"
+    }
+  }
+}

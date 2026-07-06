@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5fbbf3a9c0b824e26538",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Pour des subventions mobilité répandues et efficaces",
+    "source_title": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-01-16",
+    "content_hash": "737ebcfca542f395aa0c3d694b1c488c5416f1b1c257ffbb2fd210e507e50057",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Niklas Tiemann",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2023-03-22",
+    "commission": {
+      "members": [
+        {
+          "name": "Maria Luceron",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alessio Grutta",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Chervet",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Hugo Huart",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Adrien Muheim",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Claude Althaus",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "mardi 21 février 2023 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante : Mesdames, Maria Luceron (LCIVL)",
+        "date": "2023-02-21",
+        "time": "19:30"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2023-03-22",
+      "decision_date": "2023-03-22",
+      "outcome": "referred_to_municipality"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18375,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2771
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2933,
+      "clean_words": 2771,
+      "removed_blocks": 0
+    }
+  }
+}

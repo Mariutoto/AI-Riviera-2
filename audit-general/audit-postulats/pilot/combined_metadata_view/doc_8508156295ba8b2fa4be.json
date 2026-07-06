@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8508156295ba8b2fa4be",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Promouvoir et développer le bien-être des Boéland·es",
+    "source_title": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-02",
+    "content_hash": "452b9916dc7521d69483f7d156e3f34fdcebc03e5654e84f26716e904a3affce",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Ziva Tavcar",
+        "civility": "Mme",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-11-03",
+    "commission": {
+      "members": [
+        {
+          "name": "Gabrielle Heller",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Brigitte Fahrni Chiusano",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Christine Hausherr-de-Maddalena",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Valentine Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ziva Tavcar",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfried Fils-Aimé",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Héracles Dellas",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "22 septembre 2022 et était composée comme suit : Mesdames Gabrielle Heller (LV), présidente",
+        "date": "2022-09-22"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-11-02",
+      "decision_date": "2022-11-03",
+      "outcome": "adopted"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8861,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1416
+    }
+  }
+}

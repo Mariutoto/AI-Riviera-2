@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1031ded88184e28b908a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+    "source_title": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-05",
+    "content_hash": "f499791467912c251886a85d1ae1401632d22c856afef65ef75214a5f2e5d656",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Christine Hausherr-de Maddalena",
+        "civility": "Mme",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2023-09-13",
+    "commission": {
+      "members": [
+        {
+          "name": "Margareta Brüssow",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Christine Hausherr-de Maddalena",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        }
+      ],
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2023-09-13",
+      "decision_date": "2023-09-13",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à une large majorité (six avis contraires et sept abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "six avis contraires et sept abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 11278,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1693
+    }
+  }
+}

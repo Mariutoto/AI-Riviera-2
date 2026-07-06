@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1855af1e7a3f77b9e4d4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "Quel avenir pour campagne Rossier ?",
+    "source_title": "Postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-07-10",
+    "content_hash": "cd8646d50c6bca4825781936858cb3387f981b8032298bc2b18d0e938e5782aa",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Jean-Yves Schmidhauser",
+        "civility": "M.",
+        "party": "PSDG"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "majority_and_minority_reports",
+    "contains_majority_report": true,
+    "contains_minority_report": true,
+    "decision_date": "2023-09-13",
+    "commission": {
+      "members": [
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre Fontana",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Diego Pasquali",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier et",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "lundi 3 juillet 2023, à 19h30 en Salle 2 de la Maison de commune",
+        "date": "2023-07-03",
+        "time": "19:30"
+      },
+      "recommendation": {
+        "vote": {
+          "raw": "à l'unanimité",
+          "unanimous": true
+        }
+      },
+      "contains_majority_report": true,
+      "contains_minority_report": true
+    },
+    "decision": {
+      "session_date": "2023-09-13",
+      "decision_date": "2023-09-13",
+      "outcome": "adopted",
+      "vote": {
+        "raw": "adopté à une large majorité (un avis contraire et quatre abstentions).",
+        "result": "large_majority",
+        "contrary_votes_raw": "un avis contraire et quatre abstentions"
+      }
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19039,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2848
+    }
+  }
+}

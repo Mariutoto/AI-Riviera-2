@@ -1,0 +1,108 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "motion",
+  "document_type": "motion",
+  "year": "2021",
+  "listing_year": "2021",
+  "category": "motions",
+  "legislature": "2021-2026",
+  "title": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+  "summary": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+  "filename": "Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Motion-Grutta-Crowfunding-Rap-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2021-le-crowdfunding-local-pour-la-creation-d-une-bourse-participative-afin-de-financer-les-pro",
+  "site_listing_title": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+  "site_subject": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Alessio Grutta",
+      "civility": "M.",
+      "party": "PLR"
+    }
+  ],
+  "object_title": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+  "document_role": "combined_motion_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "motion_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-05-31",
+  "political_object": {
+    "type": "motion",
+    "object_type": "motion",
+    "object_id": "motion-2021-le-crowdfunding-local-pour-la-creation-d-une-bourse-participative-afin-de-financer-les-pro",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "binding_request",
+    "source_listing_title": "Motion de M. Alessio Grutta (PLR) + rapport + décision",
+    "source_subject": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Le crowdfunding local : pour la création d'une bourse participative afin de financer les projets de développement durable ou d'utilité publique",
+    "document_date": "2021-05-31"
+  },
+  "search_facets": [
+    "afin",
+    "bourse",
+    "commission_report",
+    "conseil_communal",
+    "creation",
+    "crowdfunding",
+    "financer",
+    "local",
+    "motion",
+    "municipalite",
+    "participative",
+    "plr",
+    "pour",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 15876,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "meeting": {
+      "raw": "lundi 31 mai 2021 à 19h30 en la salle 2 de la Maison de Commune, dans la composition suivante:",
+      "date": "2021-05-31",
+      "time": "19:30"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2021-06-30",
+    "decision_date": "2021-07-01",
+    "outcome": "adopted",
+    "vote": {
+      "raw": "adopté à l'appel nominal par 30 oui, 29 non et 4 abstentions."
+    }
+  }
+}

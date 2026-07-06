@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e0435aa502e3b0584076",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "combined_motion_report_decision",
+    "title": "Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz",
+    "source_title": "Motion de M. Jérôme Bonvin (LCIVL) et consorts + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Motion-Bonvin-J-Zones-Reservees-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-08-30",
+    "content_hash": "a4a72614ed167184da452495edaed3f47c9d10116e5c65a94c9fbcc0eaa58856",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "motion_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Bonvin",
+        "civility": "M.",
+        "party": "LCIVL"
+      },
+      {
+        "name": "Véronique Ansermet",
+        "party": "LV"
+      },
+      {
+        "name": "Michel Bloch",
+        "party": "PSDG"
+      },
+      {
+        "name": "Guillaume Jung",
+        "party": "UDC"
+      },
+      {
+        "name": "Viviane Huber",
+        "party": "LTDPL",
+        "role": "group_representative"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2024-10-30",
+    "commission": {
+      "meeting": {
+        "raw": "mardi 24 septembre 2024, à 19h30 en Salle 2 de la Maison de commune : Elle était composée de :",
+        "date": "2024-09-24",
+        "time": "19:30"
+      },
+      "invited_people": [
+        {
+          "name": "Maximilien Walter",
+          "civility": "M."
+        }
+      ],
+      "rapporteur": "Michel Bloch",
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2024-10-30",
+      "decision_date": "2024-10-30"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18084,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2828,
+      "clean_words": 2828,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2738
+    }
+  }
+}

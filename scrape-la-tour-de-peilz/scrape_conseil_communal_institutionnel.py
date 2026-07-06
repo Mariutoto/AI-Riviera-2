@@ -180,7 +180,17 @@ def pdf_url_from_viewer(viewer_url: str) -> str:
 
 def extract_pdf_text(pdf_path: Path) -> str:
     document = fitz.open(pdf_path)
-    return clean_text("\n".join(page.get_text() for page in document))
+    pages = []
+    for page in document:
+        lines = page.get_text().splitlines()
+        last_content = next((index for index in range(len(lines) - 1, -1, -1) if lines[index].strip()), None)
+        # Printed page numbers are isolated at the physical bottom of each
+        # page. Remove them before concatenating pages so they cannot become
+        # article content; numbers occurring inside a paragraph are retained.
+        if last_content is not None and re.fullmatch(r"\d{1,3}", lines[last_content].strip()):
+            lines.pop(last_content)
+        pages.append("\n".join(lines))
+    return clean_text("\n".join(pages))
 
 
 def normalize_article_number(raw: str) -> str:
@@ -209,18 +219,30 @@ def parse_reglement_toc(text: str) -> dict[str, str]:
                 continue
             if re.match(r"^(Titre|CHAPITRE|Section)\b", candidate, flags=re.I):
                 continue
+            if re.match(r"^(ANNEXE|Page\s+\d+)\b", candidate, flags=re.I):
+                break
             titles[number] = candidate.strip(" .")
             break
     return titles
 
 
 def article_sort_key(article_number: str) -> float:
-    match = re.match(r"(\d+)(bis|ter|b)?$", article_number)
+    match = re.fullmatch(r"(\d+)([a-z]+)?", article_number.casefold())
     if not match:
         return 9999.0
     base = int(match.group(1))
     suffix = match.group(2) or ""
-    return base + {"b": 0.1, "bis": 0.2, "ter": 0.3}.get(suffix, 0.0)
+    if not suffix:
+        return float(base)
+    if len(suffix) == 1 and "a" <= suffix <= "z":
+        return base + (ord(suffix) - ord("a") + 1) / 100
+    conventional = {"bis": 0.20, "ter": 0.30, "quater": 0.40}
+    if suffix in conventional:
+        return base + conventional[suffix]
+    # Stable fallback for uncommon alphabetic suffixes. It remains between
+    # the base article and the next integer article.
+    lexical = sum((ord(char) - ord("a") + 1) / (100 ** (index + 1)) for index, char in enumerate(suffix))
+    return base + min(lexical, 0.99)
 
 
 def reglement_topic_facets(article_title: str, article_text: str, path: str) -> list[str]:
@@ -260,12 +282,28 @@ def flexible_title_pattern(title: str) -> str:
 
 def split_reglement_articles(text: str) -> list[dict]:
     article_titles = parse_reglement_toc(text)
-    lines = [clean_text(line).strip() for line in text.splitlines()]
-    start_index = next((i for i, line in enumerate(lines) if re.match(r"^Article premier\.-", line)), 0)
+    raw_lines = [clean_text(line).strip() for line in text.splitlines()]
+    lines = []
+    index = 0
+    while index < len(raw_lines):
+        line = raw_lines[index]
+        if line.casefold() == "art." and index + 1 < len(raw_lines) and re.match(r"^\d+[a-z]*(?:\.(?:bis|ter))?\s*\.?-", raw_lines[index + 1], flags=re.I):
+            lines.append(f"Art. {raw_lines[index + 1]}")
+            index += 2
+            continue
+        lines.append(line)
+        index += 1
+    first_article_index = next((i for i, line in enumerate(lines) if re.match(r"^Article premier\.-", line)), 0)
+    start_index = next(
+        (i for i in range(first_article_index, -1, -1) if re.match(r"^Titre\s+I\b", lines[i], flags=re.I)),
+        first_article_index,
+    )
     current_title = None
     current_chapter = None
     current_section = None
     current_article = None
+    pending_hierarchy: str | None = None
+    printed_article_titles: dict[str, str] = {}
     articles = []
     article_pattern = re.compile(r"^(Article premier|Art\.\s*\d+[a-z]*(?:\.(?:bis|ter))?)\s*\.?-?\s*(.*)$", flags=re.I)
 
@@ -279,6 +317,26 @@ def split_reglement_articles(text: str) -> list[dict]:
         while cleaned and not cleaned[-1].strip():
             cleaned.pop()
         normalized_next = normalize_for_key(next_title)
+        # In this PDF, the marginal title and legal reference of the next
+        # article are extracted before its ``Art. N.-`` marker. Detect that
+        # typographic block, even when the table of contents uses a slightly
+        # different connector (for example "et" instead of "de").
+        content_end = len(cleaned)
+        while content_end and re.fullmatch(r"\s*\((?:art\.|articles?).*\)\s*", cleaned[content_end - 1], flags=re.I):
+            content_end -= 1
+        stopwords = {"de", "du", "des", "d", "et", "la", "le", "les"}
+        next_words = {word for word in re.findall(r"[a-zà-ÿ]+", normalized_next) if word not in stopwords}
+        for count in range(min(4, content_end), 0, -1):
+            candidate = " ".join(cleaned[content_end - count : content_end])
+            candidate_words = {
+                word for word in re.findall(r"[a-zà-ÿ]+", normalize_for_key(candidate)) if word not in stopwords
+            }
+            if next_words and candidate_words and (
+                candidate_words == next_words
+                or len(candidate_words & next_words) / max(len(candidate_words), len(next_words)) >= 0.75
+            ):
+                printed_article_titles[next_number] = re.sub(r"\s+", " ", candidate).strip()
+                return cleaned[: content_end - count]
         if cleaned:
             last_line = cleaned[-1]
             escaped_title = re.escape(next_title)
@@ -323,7 +381,8 @@ def split_reglement_articles(text: str) -> list[dict]:
             current_article = None
             return
         number = current_article["article_number"]
-        title = article_titles.get(number) or current_article.get("article_title") or f"Article {number}"
+        title = current_article.get("article_title") or article_titles.get(number) or f"Article {number}"
+        title = re.sub(r"\s+", " ", title).strip()
         path_parts = [part for part in [current_article.get("title_heading"), current_article.get("chapter"), current_article.get("section")] if part]
         current_article.update(
             {
@@ -342,6 +401,15 @@ def split_reglement_articles(text: str) -> list[dict]:
             if current_article:
                 current_article["body_lines"].append("")
             continue
+        is_hierarchy = bool(re.match(r"^(Titre\s+[IVXLC]+|CHAPITRE\b|Section\b)", line, flags=re.I))
+        is_article = bool(article_pattern.match(line))
+        if pending_hierarchy and not is_hierarchy and not is_article:
+            if pending_hierarchy == "title":
+                current_title = f"{current_title} - {line}"
+            elif pending_hierarchy == "chapter":
+                current_chapter = f"{current_chapter} - {line}"
+            pending_hierarchy = None
+            continue
         if re.match(r"^Ainsi adopté\b", line, flags=re.I):
             flush_article()
             break
@@ -350,24 +418,41 @@ def split_reglement_articles(text: str) -> list[dict]:
             current_title = line
             current_chapter = None
             current_section = None
+            pending_hierarchy = "title"
             continue
         if re.match(r"^CHAPITRE\b", line, flags=re.I):
             flush_article()
             current_chapter = line
             current_section = None
+            pending_hierarchy = "chapter"
             continue
         if re.match(r"^Section\b", line, flags=re.I):
             flush_article()
             current_section = line
+            pending_hierarchy = None
             continue
         match = article_pattern.match(line)
         if match:
-            number = normalize_article_number(match.group(1))
+            pending_hierarchy = None
+            source_number = normalize_article_number(match.group(1))
+            number = source_number
+            # The source PDF prints Art. 140 twice. Its table of contents and
+            # marginal heading identify the second occurrence as Art. 141
+            # (Amortissements). Repair this kind of consecutive source typo
+            # before splitting, so identifiers and citations remain unique.
+            if (
+                current_article
+                and source_number == current_article.get("article_number")
+                and source_number.isdigit()
+            ):
+                expected_number = str(int(source_number) + 1)
+                if expected_number in article_titles:
+                    number = expected_number
             flush_article(next_number=number)
             first_text = clean_text(match.group(2)).strip(" .-")
             current_article = {
                 "article_number": number,
-                "article_title": article_titles.get(number),
+                "article_title": printed_article_titles.get(number) or article_titles.get(number),
                 "title_heading": current_title,
                 "chapter": current_chapter,
                 "section": current_section,

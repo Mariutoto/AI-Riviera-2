@@ -1,0 +1,4147 @@
+{
+  "documents": 35,
+  "comparison_counts": {
+    "doublon": 350
+  },
+  "additional_field_presence": {
+    "authors": 35,
+    "canonical_object": 35,
+    "category": 35,
+    "commission": 17,
+    "commune": 35,
+    "contains_decision": 35,
+    "contains_majority_report": 35,
+    "contains_minority_report": 35,
+    "contains_report": 35,
+    "content_kind": 35,
+    "decision": 15,
+    "document_components": 35,
+    "document_date": 35,
+    "document_role": 35,
+    "document_type": 35,
+    "filename": 35,
+    "legislature": 35,
+    "listing_year": 35,
+    "metadata_version": 35,
+    "object_title": 35,
+    "pdf_url": 35,
+    "political_object": 35,
+    "political_object_id": 35,
+    "report_type": 15,
+    "search_facets": 35,
+    "site_listing_title": 35,
+    "site_status_raw": 29,
+    "site_subject": 35,
+    "source_category_id": 35,
+    "source_collection": 35,
+    "source_endpoint": 35,
+    "source_page": 35,
+    "status": 29,
+    "status_normalized": 35,
+    "summary": 35,
+    "text_extraction_status": 35,
+    "title": 35,
+    "type": 35,
+    "year": 35
+  },
+  "minimal_schema_proposal": {
+    "document_metadata": {
+      "document_id": "doc_…",
+      "commune": "La Tour-de-Peilz",
+      "document_family": "political_object",
+      "category": "postulat",
+      "document_role": "postulat_text | combined_postulat_report_decision | …",
+      "title": "…",
+      "source_title": "…",
+      "source_page_url": "…",
+      "file_url": "…",
+      "listing_year": 2024,
+      "legislature": "2021-2026",
+      "document_date": "YYYY-MM-DD | null",
+      "content_hash": "sha256",
+      "extraction_method": "native_pdf",
+      "processing_status": "validated"
+    },
+    "postulat_metadata": {
+      "authors": [
+        {
+          "name": "…",
+          "party": "…"
+        }
+      ],
+      "political_status": "…",
+      "report_type": "… | null",
+      "contains_majority_report": false,
+      "contains_minority_report": false,
+      "decision_date": "YYYY-MM-DD | null",
+      "commission": "optionnel",
+      "decision": "optionnel"
+    },
+    "processing": {
+      "text_extraction_status": {},
+      "selected_text": {}
+    }
+  },
+  "documents_audit": [
+    {
+      "document_id": "doc_80479333c16a9f5603b3",
+      "title": "Cent femmes et un chien sont revenus contents de la plage.",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Cent femmes et un chien sont revenus contents de la plage.",
+          "additional_value": "Cent femmes et un chien sont revenus contents de la plage.",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+          "additional_value": "Postulat de Mme Célia Carron (PS) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Carron-Ecriture-inclusive-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2020-10-15",
+          "additional_value": "2020-10-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_7a49bc84fac1e42744fb",
+      "title": "Nouvelles salles, nouvelles opportunités",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Nouvelles salles, nouvelles opportunités",
+          "additional_value": "Nouvelles salles, nouvelles opportunités",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de MM. François Costa et Romain Cornut (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de MM. François Costa et Romain Cornut (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Cornut-Salles-de-sport.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Cornut-Salles-de-sport.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_41f47d315ab2bfcf6ed4",
+      "title": "Tout va dans la poubelle incinérable",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Tout va dans la poubelle incinérable",
+          "additional_value": "Tout va dans la poubelle incinérable",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. François Costa (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de M. François Costa (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Poubelles.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Poubelles.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_d1a8c7b05205edb85dee",
+      "title": "Des casiers pour éviter des vols",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Des casiers pour éviter des vols",
+          "additional_value": "Des casiers pour éviter des vols",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+          "additional_value": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-11-14",
+          "additional_value": "2021-11-14",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_41673d98533567beb63a",
+      "title": "Augmentation de l'offre pour le tri sélectif",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Augmentation de l'offre pour le tri sélectif",
+          "additional_value": "Augmentation de l'offre pour le tri sélectif",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Huber-Tri-selectif.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Huber-Tri-selectif.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-09-15",
+          "additional_value": "2021-09-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_c8d2d9328d7e7c49fd55",
+      "title": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+          "additional_value": "Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+          "additional_value": "Postulat de Mme Elise Kaiser (LV) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-03-03",
+          "additional_value": "2021-03-03",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_53c8072d30e1a8b9b832",
+      "title": "Vote électronique au conseil communal",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Vote électronique au conseil communal",
+          "additional_value": "Vote électronique au conseil communal",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+          "additional_value": "Postulat de La Tour-de-Peilz Libre + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-Vote-Electronique-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-03-08",
+          "additional_value": "2022-03-08",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_2008f89e3ded96b9b82a",
+      "title": "Affichage politique et responsable, remettons le sujet sur la table",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Affichage politique et responsable, remettons le sujet sur la table",
+          "additional_value": "Affichage politique et responsable, remettons le sujet sur la table",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "additional_value": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-11-15",
+          "additional_value": "2021-11-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_93198caf6c48c600c85f",
+      "title": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+          "additional_value": "Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "additional_value": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Nouvelle-ligne-VMCV.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2021,
+          "additional_value": "2021",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2021-11-14",
+          "additional_value": "2021-11-14",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_151b79092162180f214c",
+      "title": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+          "additional_value": "Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Maria Luceron (LCIVL) + Rapport + Décision",
+          "additional_value": "Postulat de Mme Maria Luceron (LCIVL) + Rapport + Décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Luceron-Agrandissement-greve-Maladaire-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-10-10",
+          "additional_value": "2022-10-10",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_15ffcb1077b8c5fc425f",
+      "title": "Quand notre cœur fait boum",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Quand notre cœur fait boum",
+          "additional_value": "Quand notre cœur fait boum",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+          "additional_value": "Postulat de Mme Véronique Ansermet (LV) + Rapport + Décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-1aout-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-11-15",
+          "additional_value": "2022-11-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_4d1602eea2d3e8f5ca94",
+      "title": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+          "additional_value": "Un règlement du plan général d'affectation et de police des constructions (RPGA) en phase avec les enjeux actuels",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+          "additional_value": "Postulat de Mme Véronique Ansermet (LV) et consorts + Rapport + Décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Ansermet-Revision-RPGA-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-01-24",
+          "additional_value": "2023-01-24",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_91fe3bb0cffd41736af8",
+      "title": "Un label pour donner confiance à la population",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Un label pour donner confiance à la population",
+          "additional_value": "Un label pour donner confiance à la population",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de MM. François Costa et Yvan Kraehenbuehl (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Costa-Kraehenbuehl-Label-cybersecurite.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_566a5e8f0fb6629f0064",
+      "title": "un Noël différent",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "un Noël différent",
+          "additional_value": "un Noël différent",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de Mme Viviane Huber (LTDPL) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Noel.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Noel.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-08-19",
+          "additional_value": "2022-08-19",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_f106f84956dcd8206ceb",
+      "title": "Des lettres pour nous faire un nom",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Des lettres pour nous faire un nom",
+          "additional_value": "Des lettres pour nous faire un nom",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Viviane Huber (LTDPL) - Non soutenu par le Conseil",
+          "additional_value": "Postulat de Mme Viviane Huber (LTDPL) - Non soutenu par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-hashtag-LTDP.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-hashtag-LTDP.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-08-19",
+          "additional_value": "2022-08-19",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_2ddb92032d60377a032c",
+      "title": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+          "additional_value": "Le bain des dames, un endroit magnifique qui mérite quelques réflexions",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de M. Yvan Krähenbühl (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Kraehenbuehl-Bains-dames.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-02-28",
+          "additional_value": "2022-02-28",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_cad64974c742035ede62",
+      "title": "Avec la CGN, accostons à La Tour, sans détours",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Avec la CGN, accostons à La Tour, sans détours",
+          "additional_value": "Avec la CGN, accostons à La Tour, sans détours",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+          "additional_value": "Postulat de La Tour-de-Peilz Libre (LTDPL) - Non soutenu par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-LTDPL-CGN.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-11-02",
+          "additional_value": "2022-11-02",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_cec07be0cb128a815581",
+      "title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "additional_value": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "additional_value": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-02-28",
+          "additional_value": "2022-02-28",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_c3afa9c3cddfa95ff8a8",
+      "title": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+          "additional_value": "Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+          "additional_value": "Postulat de M. Diego Pasquali (LV) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Pasquali-Infiltration-eau-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-03-31",
+          "additional_value": "2022-03-31",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_17a8e971884b5d09fbe4",
+      "title": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+          "additional_value": "Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+          "additional_value": "Postulat de Mme Marion Savoy (LV) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Savoy-assemblees-quartiers-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-04-15",
+          "additional_value": "2022-04-15",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_8508156295ba8b2fa4be",
+      "title": "Promouvoir et développer le bien-être des Boéland·es",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Promouvoir et développer le bien-être des Boéland·es",
+          "additional_value": "Promouvoir et développer le bien-être des Boéland·es",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+          "additional_value": "Postulat de Mme Ziva Tavcar (PSDG) + Rapport + Décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Tavcar-label-sante-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2022,
+          "additional_value": "2022",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2022-10-02",
+          "additional_value": "2022-10-02",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_e9cc7055ad87255904df",
+      "title": "Une salle du Conseil à la hauteur des défis de notre commune",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Une salle du Conseil à la hauteur des défis de notre commune",
+          "additional_value": "Une salle du Conseil à la hauteur des défis de notre commune",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Florian Abbet (LV)",
+          "additional_value": "Postulat de M. Florian Abbet (LV)",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Abbet-Salle-Conseil.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-08-03",
+          "additional_value": "2023-08-03",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_368e1d03ad2ffbe07de2",
+      "title": "Un accès à la baignade au lac pour tous",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Un accès à la baignade au lac pour tous",
+          "additional_value": "Un accès à la baignade au lac pour tous",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+          "additional_value": "Postulat de Mme Sophie Blank-Barbezat (PLR)",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Blank-Barbezat-Baignade-pour-tous.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-08-29",
+          "additional_value": "2023-08-29",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_c618e2730b89b4f50960",
+      "title": "Soutenons nos étudiants boélands !",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Soutenons nos étudiants boélands !",
+          "additional_value": "Soutenons nos étudiants boélands !",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Alessio Grutta (PLR) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de M. Alessio Grutta (PLR) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Grutta-Etudiants.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Grutta-Etudiants.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-06-05",
+          "additional_value": "2023-06-05",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_1031ded88184e28b908a",
+      "title": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+          "additional_value": "GastroVert pour tous les ménages à la Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+          "additional_value": "Postulat de Mme Christine Hausherr-de Maddalena (PLR) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Hausherr-de-Maddalena-Gastrovert-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-06-05",
+          "additional_value": "2023-06-05",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_b8a07c887695bfbc0479",
+      "title": "Une autre façon de lutter contre les îlots de chaleur",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Une autre façon de lutter contre les îlots de chaleur",
+          "additional_value": "Une autre façon de lutter contre les îlots de chaleur",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat du groupe PLR - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat du groupe PLR - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-PLR-Egli-ilots-chaleur.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-PLR-Egli-ilots-chaleur.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_1855af1e7a3f77b9e4d4",
+      "title": "Quel avenir pour campagne Rossier ?",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Quel avenir pour campagne Rossier ?",
+          "additional_value": "Quel avenir pour campagne Rossier ?",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts + rapport + décision",
+          "additional_value": "Postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Schmidhauser-Campagne-Rossier-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-07-10",
+          "additional_value": "2023-07-10",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_5fbbf3a9c0b824e26538",
+      "title": "Pour des subventions mobilité répandues et efficaces",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Pour des subventions mobilité répandues et efficaces",
+          "additional_value": "Pour des subventions mobilité répandues et efficaces",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+          "additional_value": "Postulat de M. Niklas Tiemann (LV) et consorts + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2023/Postulat-Tiemann-N-Subventions-mobilite-FEDD-rapp-dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2023,
+          "additional_value": "2023",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2023-01-16",
+          "additional_value": "2023-01-16",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_aabd978778a3341a9537",
+      "title": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+          "additional_value": "Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "additional_value": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Formations-CC.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2024-02-25",
+          "additional_value": "2024-02-25",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_1096ea2c833805f111cf",
+      "title": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+          "additional_value": "Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "additional_value": "Postulat de M. Yann Boulben Meyer (LTDPL)",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Boulben-Meyer-Jobs-ete.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2024-02-25",
+          "additional_value": "2024-02-25",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_4f18b04d929417728f20",
+      "title": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+          "additional_value": "Murs-Blancs : un petit coin de nature contre un rond-point de bon augure",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+          "additional_value": "Postulat La Tour-de-Peilz Libre - Retiré par le postulant",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-LTDPL-Giratoire-Murs-blancs.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_8a4bb2f2cc634af409c4",
+      "title": "La durabilité - un défi qui nous concerne tous",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "combined_postulat_report_decision",
+          "additional_value": "combined_postulat_report_decision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "La durabilité - un défi qui nous concerne tous",
+          "additional_value": "La durabilité - un défi qui nous concerne tous",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+          "additional_value": "Postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) + rapport + décision",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2024/Postulat-Rioux-Durabilite-Rapp-Dec.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2024,
+          "additional_value": "2024",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": "2024-12-11",
+          "additional_value": "2024-12-11",
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "decision",
+          "report_type",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_1c246ad471fc9ab3274b",
+      "title": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "additional_value": "Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+          "additional_value": "Postulat de M. Pierre Fontana (LV) - Retiré par le postulant",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Fontana-Bruit.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2025,
+          "additional_value": "2025",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_36e724c5ce0bf9b84239",
+      "title": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "additional_value": "Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+          "additional_value": "Postulat de Mme Valentine Python (LV) - Renvoyé directement à la Municipalité",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2025/Postulat-Python-Numerisation.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2025,
+          "additional_value": "2025",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    },
+    {
+      "document_id": "doc_e89a49b964267d66befe",
+      "title": "Pour un quai Roussy plus sûr pour les familles",
+      "comparisons": [
+        {
+          "base_field": "commune",
+          "additional_field": "commune",
+          "base_value": "La Tour-de-Peilz",
+          "additional_value": "La Tour-de-Peilz",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "category",
+          "additional_field": "category",
+          "base_value": "postulat",
+          "additional_value": "postulats",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_role",
+          "additional_field": "document_role",
+          "base_value": "postulat_text",
+          "additional_value": "postulat_text",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "title",
+          "additional_field": "object_title",
+          "base_value": "Pour un quai Roussy plus sûr pour les familles",
+          "additional_value": "Pour un quai Roussy plus sûr pour les familles",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_title",
+          "additional_field": "site_listing_title",
+          "base_value": "Postulat de Mme Viviane Huber (PLR) - Non soutenu par le Conseil",
+          "additional_value": "Postulat de Mme Viviane Huber (PLR) - Non soutenu par le Conseil",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "source_page_url",
+          "additional_field": "source_page",
+          "base_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "additional_value": "https://www.la-tour-de-peilz.ch/srch/",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "file_url",
+          "additional_field": "pdf_url",
+          "base_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf",
+          "additional_value": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "listing_year",
+          "additional_field": "listing_year",
+          "base_value": 2026,
+          "additional_value": "2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "legislature",
+          "additional_field": "legislature",
+          "base_value": "2021-2026",
+          "additional_value": "2021-2026",
+          "classification": "doublon"
+        },
+        {
+          "base_field": "document_date",
+          "additional_field": "document_date",
+          "base_value": null,
+          "additional_value": null,
+          "classification": "doublon"
+        }
+      ],
+      "additional_fields": {
+        "utile_metadata_postulat": [
+          "authors",
+          "commission",
+          "contains_majority_report",
+          "contains_minority_report",
+          "status_normalized"
+        ],
+        "utile_relations_structurees": [
+          "document_components",
+          "political_object",
+          "political_object_id"
+        ],
+        "utile_traitement_hors_metadata": [
+          "metadata_version",
+          "text_extraction_status"
+        ],
+        "utile_snapshot_source": [
+          "canonical_object",
+          "filename",
+          "site_status_raw",
+          "site_subject",
+          "source_category_id",
+          "source_collection",
+          "source_endpoint"
+        ],
+        "supprimable_ou_recalculable": [
+          "contains_decision",
+          "contains_report",
+          "content_kind",
+          "document_type",
+          "search_facets",
+          "status",
+          "summary",
+          "title",
+          "type",
+          "year"
+        ],
+        "a_revoir": []
+      }
+    }
+  ]
+}

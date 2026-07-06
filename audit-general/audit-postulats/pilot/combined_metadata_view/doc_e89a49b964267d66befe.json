@@ -1,0 +1,52 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e89a49b964267d66befe",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Pour un quai Roussy plus sûr pour les familles",
+    "source_title": "Postulat de Mme Viviane Huber (PLR) - Non soutenu par le Conseil",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2026/Postulat-Huber-Chervet-Quai-roussy.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "240719cd90209e581b3b74048631c593f1848b2b554a7ddfa15fc0dd364ae747",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Viviane Huber",
+        "civility": "Mme",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "not_supported_by_council",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null,
+    "commission": {
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1308,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 214
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    }
+  }
+}

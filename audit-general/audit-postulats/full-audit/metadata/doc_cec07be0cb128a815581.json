@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "document_id": "doc_cec07be0cb128a815581",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "combined_postulat_report_decision",
+    "title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+    "source_title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-28",
+    "content_hash": "f6293cfd486b675fe57813f2720710aca433af79fb0683d1f3aae086156f3ed5",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Julien Neveu",
+        "civility": "M.",
+        "party": "LV"
+      }
+    ],
+    "political_status": "report_and_decision_available",
+    "report_type": "standard_report",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": "2022-03-24",
+    "commission": {
+      "members": [
+        {
+          "name": "Mireille Cornaz",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Chappuis",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Roger Urech",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "André Gruaz",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Julien Neveu",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nina Hauri",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Demarta",
+          "role": "member",
+          "attendance": "present"
+        }
+      ],
+      "meeting": {
+        "raw": "14 février 2022",
+        "date": "2022-02-14"
+      },
+      "recommendation": {
+        "recommendation": "support_motion"
+      },
+      "contains_majority_report": false,
+      "contains_minority_report": false
+    },
+    "decision": {
+      "session_date": "2022-03-23",
+      "decision_date": "2022-03-24",
+      "outcome": "referred_to_municipality"
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10304,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1683
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1692,
+      "clean_words": 1683,
+      "removed_blocks": 0
+    }
+  }
+}

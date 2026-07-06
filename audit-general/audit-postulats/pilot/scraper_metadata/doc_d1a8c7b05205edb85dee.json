@@ -1,0 +1,168 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "postulat",
+  "document_type": "postulat",
+  "year": "2021",
+  "listing_year": "2021",
+  "category": "postulats",
+  "legislature": "2021-2026",
+  "title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+  "summary": "Des casiers pour éviter des vols",
+  "filename": "Postulat-Huber-Casiers-Rapp-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Huber-Casiers-Rapp-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/srch/",
+  "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+  "source_collection": "faceted-search:motions-postulats-interpellations",
+  "source_category_id": "6",
+  "canonical_object": true,
+  "political_object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+  "site_listing_title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+  "site_subject": "Des casiers pour éviter des vols",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Viviane Huber",
+      "civility": "Mme",
+      "party": "LTDPL"
+    }
+  ],
+  "object_title": "Des casiers pour éviter des vols",
+  "document_role": "combined_postulat_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2021-11-14",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2021-des-casiers-pour-eviter-des-vols",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de Mme Viviane Huber (LTDPL) + rapport + décision",
+    "source_subject": "Des casiers pour éviter des vols",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Des casiers pour éviter des vols",
+    "document_date": "2021-11-14",
+    "decision_status": "referred_to_municipality"
+  },
+  "search_facets": [
+    "casiers",
+    "combined_postulat_report_decision",
+    "conseil_communal",
+    "eviter",
+    "ltdpl",
+    "municipalite",
+    "postulat",
+    "pour",
+    "report_and_decision_available",
+    "standard_report",
+    "vols"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 9229,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "members": [
+      {
+        "name": "Bernadette Menétrey",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Gabrielle Heller",
+        "civility": "Mme",
+        "party": "LV",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Maria Luceron",
+        "civility": "Mme",
+        "party": "LCIVL",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Viviane Huber",
+        "civility": "Mme",
+        "party": "LTDPL",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Jimmy Suro",
+        "civility": "M.",
+        "party": "PS",
+        "role": "rapporteur",
+        "attendance": "present"
+      },
+      {
+        "name": "Denis Champier",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Florian Abbet",
+        "civility": "M.",
+        "party": "LV",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Guillaume Jung",
+        "civility": "M.",
+        "party": "UDC",
+        "role": "member",
+        "attendance": "present"
+      }
+    ],
+    "meeting": {
+      "raw": "jeudi 20 janvier 2022 à 19h30 en salle 2 de la maison de commune",
+      "date": "2022-01-20",
+      "time": "19:30"
+    },
+    "rapporteur": "Jimmy Suro",
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-03-23",
+    "decision_date": "2022-03-24",
+    "outcome": "referred_to_municipality",
+    "vote": {
+      "raw": "adopté à une large majorité (onze avis contraires et treize abstentions).",
+      "result": "large_majority",
+      "contrary_votes_raw": "onze avis contraires et treize abstentions"
+    }
+  }
+}

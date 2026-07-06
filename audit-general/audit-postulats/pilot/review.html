@@ -1,0 +1,1406 @@
+<!doctype html><html lang='fr'><head><meta charset='utf-8'><title>Pilote postulats</title><style>body{font:14px/1.45 system-ui;margin:24px;color:#172033}.cards{display:flex;gap:12px;flex-wrap:wrap}.card{border:1px solid #d9dfeb;border-radius:8px;padding:12px 18px}.card b{display:block;font-size:24px;color:#1769aa}table{border-collapse:collapse;width:100%;margin-top:18px}th,td{border:1px solid #d9dfeb;padding:8px;vertical-align:top}th{background:#edf1f7}pre{white-space:pre-wrap;background:#f5f7fa;padding:10px;max-height:480px;overflow:auto}summary{cursor:pointer;font-weight:700}</style></head><body>
+<h1>Pilote et audit des métadonnées — postulats 2021–2026</h1><p>Première phase uniquement : source JSON, base documentaire et métadonnées additionnelles. Aucun audit général des chunks n'est lancé.</p>
+<div class='cards'><div class='card'><b>35</b>documents</div><div class='card'><b>350</b>doublons</div><div class='card'><b>0</b>conflits/sens différents</div><div class='card'><b>0</b>absents</div></div>
+<h2>Schéma minimal proposé</h2><pre>{
+  &quot;document_metadata&quot;: {
+    &quot;document_id&quot;: &quot;doc_…&quot;,
+    &quot;commune&quot;: &quot;La Tour-de-Peilz&quot;,
+    &quot;document_family&quot;: &quot;political_object&quot;,
+    &quot;category&quot;: &quot;postulat&quot;,
+    &quot;document_role&quot;: &quot;postulat_text | combined_postulat_report_decision | …&quot;,
+    &quot;title&quot;: &quot;…&quot;,
+    &quot;source_title&quot;: &quot;…&quot;,
+    &quot;source_page_url&quot;: &quot;…&quot;,
+    &quot;file_url&quot;: &quot;…&quot;,
+    &quot;listing_year&quot;: 2024,
+    &quot;legislature&quot;: &quot;2021-2026&quot;,
+    &quot;document_date&quot;: &quot;YYYY-MM-DD | null&quot;,
+    &quot;content_hash&quot;: &quot;sha256&quot;,
+    &quot;extraction_method&quot;: &quot;native_pdf&quot;,
+    &quot;processing_status&quot;: &quot;validated&quot;
+  },
+  &quot;postulat_metadata&quot;: {
+    &quot;authors&quot;: [
+      {
+        &quot;name&quot;: &quot;…&quot;,
+        &quot;party&quot;: &quot;…&quot;
+      }
+    ],
+    &quot;political_status&quot;: &quot;…&quot;,
+    &quot;report_type&quot;: &quot;… | null&quot;,
+    &quot;contains_majority_report&quot;: false,
+    &quot;contains_minority_report&quot;: false,
+    &quot;decision_date&quot;: &quot;YYYY-MM-DD | null&quot;,
+    &quot;commission&quot;: &quot;optionnel&quot;,
+    &quot;decision&quot;: &quot;optionnel&quot;
+  },
+  &quot;processing&quot;: {
+    &quot;text_extraction_status&quot;: {},
+    &quot;selected_text&quot;: {}
+  }
+}</pre><h2>Documents</h2><table><thead><tr><th>Année</th><th>Titre</th><th>Rôle</th><th>Pages</th><th>Mots</th><th>Doublons</th><th>Conflits</th><th>Classement des champs</th><th>Vue finale</th></tr></thead><tbody><tr><td>2021</td><td>Cent femmes et un chien sont revenus contents de la plage.</td><td>combined_postulat_report_decision</td><td>5</td><td>1857</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_80479333c16a9f5603b3.json'>JSON final</a></td></tr><tr><td>2021</td><td>Nouvelles salles, nouvelles opportunités</td><td>postulat_text</td><td>1</td><td>357</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_7a49bc84fac1e42744fb.json'>JSON final</a></td></tr><tr><td>2021</td><td>Tout va dans la poubelle incinérable</td><td>postulat_text</td><td>1</td><td>280</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_41f47d315ab2bfcf6ed4.json'>JSON final</a></td></tr><tr><td>2021</td><td>Des casiers pour éviter des vols</td><td>combined_postulat_report_decision</td><td>5</td><td>1450</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_d1a8c7b05205edb85dee.json'>JSON final</a></td></tr><tr><td>2021</td><td>Augmentation de l&#x27;offre pour le tri sélectif</td><td>postulat_text</td><td>1</td><td>223</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_41673d98533567beb63a.json'>JSON final</a></td></tr><tr><td>2021</td><td>Pour un accueil de jour des enfants adaptés aux besoins actuels et futurs</td><td>combined_postulat_report_decision</td><td>6</td><td>2451</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_c8d2d9328d7e7c49fd55.json'>JSON final</a></td></tr><tr><td>2021</td><td>Vote électronique au conseil communal</td><td>combined_postulat_report_decision</td><td>9</td><td>1340</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_53c8072d30e1a8b9b832.json'>JSON final</a></td></tr><tr><td>2021</td><td>Affichage politique et responsable, remettons le sujet sur la table</td><td>postulat_text</td><td>1</td><td>325</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_2008f89e3ded96b9b82a.json'>JSON final</a></td></tr><tr><td>2021</td><td>Mettons les gaz (naturel) pour une nouvelle ligne de bus régionale directe Blonay – La Tour-de-Peilz (– Vevey)</td><td>postulat_text</td><td>4</td><td>1263</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_93198caf6c48c600c85f.json'>JSON final</a></td></tr><tr><td>2022</td><td>Agrandissement de la grève à la plage de la Maladaire, La Tour-de-Peilz</td><td>combined_postulat_report_decision</td><td>6</td><td>1928</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_151b79092162180f214c.json'>JSON final</a></td></tr><tr><td>2022</td><td>Quand notre cœur fait boum</td><td>combined_postulat_report_decision</td><td>6</td><td>1223</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_15ffcb1077b8c5fc425f.json'>JSON final</a></td></tr><tr><td>2022</td><td>Un règlement du plan général d&#x27;affectation et de police des constructions (RPGA) en phase avec les enjeux actuels</td><td>combined_postulat_report_decision</td><td>6</td><td>1436</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_4d1602eea2d3e8f5ca94.json'>JSON final</a></td></tr><tr><td>2022</td><td>Un label pour donner confiance à la population</td><td>postulat_text</td><td>2</td><td>427</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_91fe3bb0cffd41736af8.json'>JSON final</a></td></tr><tr><td>2022</td><td>un Noël différent</td><td>postulat_text</td><td>1</td><td>260</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_566a5e8f0fb6629f0064.json'>JSON final</a></td></tr><tr><td>2022</td><td>Des lettres pour nous faire un nom</td><td>postulat_text</td><td>1</td><td>187</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_f106f84956dcd8206ceb.json'>JSON final</a></td></tr><tr><td>2022</td><td>Le bain des dames, un endroit magnifique qui mérite quelques réflexions</td><td>postulat_text</td><td>6</td><td>1071</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_2ddb92032d60377a032c.json'>JSON final</a></td></tr><tr><td>2022</td><td>Avec la CGN, accostons à La Tour, sans détours</td><td>postulat_text</td><td>1</td><td>507</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_cad64974c742035ede62.json'>JSON final</a></td></tr><tr><td>2022</td><td>1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l&#x27;améliorer ? Le postulant aimerait savoir ce que l&#x27;on trie. Quels sont les</td><td>combined_postulat_report_decision</td><td>5</td><td>1636</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_cec07be0cb128a815581.json'>JSON final</a></td></tr><tr><td>2022</td><td>Les revêtements poreux : Infiltration directe des eaux de parking et de voirie à travers le revêtement</td><td>combined_postulat_report_decision</td><td>4</td><td>1212</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_c3afa9c3cddfa95ff8a8.json'>JSON final</a></td></tr><tr><td>2022</td><td>Notre quartier ! Notre initiative ! Expérimenter les assemblées de quartier</td><td>combined_postulat_report_decision</td><td>6</td><td>1900</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_17a8e971884b5d09fbe4.json'>JSON final</a></td></tr><tr><td>2022</td><td>Promouvoir et développer le bien-être des Boéland·es</td><td>combined_postulat_report_decision</td><td>4</td><td>1416</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_8508156295ba8b2fa4be.json'>JSON final</a></td></tr><tr><td>2023</td><td>Une salle du Conseil à la hauteur des défis de notre commune</td><td>postulat_text</td><td>2</td><td>513</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_e9cc7055ad87255904df.json'>JSON final</a></td></tr><tr><td>2023</td><td>Un accès à la baignade au lac pour tous</td><td>postulat_text</td><td>1</td><td>322</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_368e1d03ad2ffbe07de2.json'>JSON final</a></td></tr><tr><td>2023</td><td>Soutenons nos étudiants boélands !</td><td>postulat_text</td><td>1</td><td>508</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_c618e2730b89b4f50960.json'>JSON final</a></td></tr><tr><td>2023</td><td>GastroVert pour tous les ménages à la Tour-de-Peilz</td><td>combined_postulat_report_decision</td><td>6</td><td>1693</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_1031ded88184e28b908a.json'>JSON final</a></td></tr><tr><td>2023</td><td>Une autre façon de lutter contre les îlots de chaleur</td><td>postulat_text</td><td>2</td><td>554</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_b8a07c887695bfbc0479.json'>JSON final</a></td></tr><tr><td>2023</td><td>Quel avenir pour campagne Rossier ?</td><td>combined_postulat_report_decision</td><td>9</td><td>2848</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_1855af1e7a3f77b9e4d4.json'>JSON final</a></td></tr><tr><td>2023</td><td>Pour des subventions mobilité répandues et efficaces</td><td>combined_postulat_report_decision</td><td>8</td><td>2823</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_5fbbf3a9c0b824e26538.json'>JSON final</a></td></tr><tr><td>2024</td><td>Pour une gouvernance d&#x27;excellence : renforcement de la formation des conseillers communaux</td><td>postulat_text</td><td>2</td><td>645</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_aabd978778a3341a9537.json'>JSON final</a></td></tr><tr><td>2024</td><td>Vers une dynamisation estivale : élargissons les opportunités de jobs d&#x27;été pour les jeunes de La Tour-de-Peilz</td><td>postulat_text</td><td>1</td><td>417</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_1096ea2c833805f111cf.json'>JSON final</a></td></tr><tr><td>2024</td><td>Murs-Blancs : un petit coin de nature contre un rond-point de bon augure</td><td>postulat_text</td><td>3</td><td>436</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_4f18b04d929417728f20.json'>JSON final</a></td></tr><tr><td>2024</td><td>La durabilité - un défi qui nous concerne tous</td><td>combined_postulat_report_decision</td><td>6</td><td>1670</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;decision&quot;,
+    &quot;report_type&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_8a4bb2f2cc634af409c4.json'>JSON final</a></td></tr><tr><td>2025</td><td>Quand un souffle nous casse les oreilles, il nous pousse à agir. Luttons contre le bruit pour un meilleur vivre ensemble</td><td>postulat_text</td><td>4</td><td>1585</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_1c246ad471fc9ab3274b.json'>JSON final</a></td></tr><tr><td>2025</td><td>Prévenir le coup de soleil numérique ; pour une stratégie communale de bon usage des nouveaux outils numériques</td><td>postulat_text</td><td>2</td><td>620</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_36e724c5ce0bf9b84239.json'>JSON final</a></td></tr><tr><td>2026</td><td>Pour un quai Roussy plus sûr pour les familles</td><td>postulat_text</td><td>1</td><td>214</td><td>10</td><td>0</td><td><details><summary>Voir</summary><pre>{
+  &quot;utile_metadata_postulat&quot;: [
+    &quot;authors&quot;,
+    &quot;commission&quot;,
+    &quot;contains_majority_report&quot;,
+    &quot;contains_minority_report&quot;,
+    &quot;status_normalized&quot;
+  ],
+  &quot;utile_relations_structurees&quot;: [
+    &quot;document_components&quot;,
+    &quot;political_object&quot;,
+    &quot;political_object_id&quot;
+  ],
+  &quot;utile_traitement_hors_metadata&quot;: [
+    &quot;metadata_version&quot;,
+    &quot;text_extraction_status&quot;
+  ],
+  &quot;utile_snapshot_source&quot;: [
+    &quot;canonical_object&quot;,
+    &quot;filename&quot;,
+    &quot;site_status_raw&quot;,
+    &quot;site_subject&quot;,
+    &quot;source_category_id&quot;,
+    &quot;source_collection&quot;,
+    &quot;source_endpoint&quot;
+  ],
+  &quot;supprimable_ou_recalculable&quot;: [
+    &quot;contains_decision&quot;,
+    &quot;contains_report&quot;,
+    &quot;content_kind&quot;,
+    &quot;document_type&quot;,
+    &quot;search_facets&quot;,
+    &quot;status&quot;,
+    &quot;summary&quot;,
+    &quot;title&quot;,
+    &quot;type&quot;,
+    &quot;year&quot;
+  ],
+  &quot;a_revoir&quot;: []
+}</pre></details></td><td><a href='combined_metadata_view/doc_e89a49b964267d66befe.json'>JSON final</a></td></tr></tbody></table></body></html>

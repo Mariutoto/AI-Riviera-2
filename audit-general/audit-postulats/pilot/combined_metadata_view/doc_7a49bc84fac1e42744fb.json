@@ -1,0 +1,48 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7a49bc84fac1e42744fb",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Nouvelles salles, nouvelles opportunités",
+    "source_title": "Postulat de MM. François Costa et Romain Cornut (PLR) - Renvoyé directement à la Municipalité",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Costa-Cornut-Salles-de-sport.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": null,
+    "content_hash": "bb9d3197f3bf6ed1c669f4c97f47bec132533c101a3c8b01f7cc57566a47a2f1",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "François Costa et Romain Cornut",
+        "civility": "",
+        "party": "PLR"
+      }
+    ],
+    "political_status": "referred_directly_to_municipality",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2338,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 357
+    },
+    "manual_review": {
+      "status": "corrected",
+      "reason": "document_date_not_present"
+    }
+  }
+}

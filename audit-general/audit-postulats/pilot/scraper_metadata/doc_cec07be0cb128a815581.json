@@ -1,0 +1,139 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "postulat",
+  "document_type": "postulat",
+  "year": "2022",
+  "listing_year": "2022",
+  "category": "postulats",
+  "legislature": "2021-2026",
+  "title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+  "summary": "Une déchèterie, pas un grand écopoint",
+  "filename": "Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Postulat-Neveu-Decheterie-Rapp-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/srch/",
+  "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+  "source_collection": "faceted-search:motions-postulats-interpellations",
+  "source_category_id": "6",
+  "canonical_object": true,
+  "political_object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+  "site_listing_title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+  "site_subject": "Une déchèterie, pas un grand écopoint",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Julien Neveu",
+      "civility": "M.",
+      "party": "LV"
+    }
+  ],
+  "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+  "document_role": "combined_postulat_report_decision",
+  "report_type": "standard_report",
+  "document_components": [
+    {
+      "role": "postulat_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "standard_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": false,
+  "contains_minority_report": false,
+  "document_date": "2022-02-28",
+  "political_object": {
+    "type": "postulat",
+    "object_type": "postulat",
+    "object_id": "postulat-2022-une-decheterie-pas-un-grand-ecopoint",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "non_binding_request",
+    "source_listing_title": "Postulat de M. Julien Neveu (LV) + rapport + décision",
+    "source_subject": "Une déchèterie, pas un grand écopoint",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "1.- Quelle est la pertinence du recyclage déjà existant à la commune ? Peut-on encore l'améliorer ? Le postulant aimerait savoir ce que l'on trie. Quels sont les",
+    "document_date": "2022-02-28",
+    "decision_status": "referred_to_municipality"
+  },
+  "search_facets": [
+    "combined_postulat_report_decision",
+    "conseil_communal",
+    "decheterie",
+    "ecopoint",
+    "grand",
+    "lv",
+    "municipalite",
+    "postulat",
+    "report_and_decision_available",
+    "standard_report"
+  ],
+  "content_kind": "political_postulat",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 10304,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "members": [
+      {
+        "name": "Mireille Cornaz",
+        "role": "president",
+        "attendance": "present"
+      },
+      {
+        "name": "Michel Chappuis",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Roger Urech",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "André Gruaz",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Julien Neveu",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Nina Hauri",
+        "role": "member",
+        "attendance": "present"
+      },
+      {
+        "name": "Nathalie Demarta",
+        "role": "member",
+        "attendance": "present"
+      }
+    ],
+    "meeting": {
+      "raw": "14 février 2022",
+      "date": "2022-02-14"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": false,
+    "contains_minority_report": false
+  },
+  "decision": {
+    "session_date": "2022-03-23",
+    "decision_date": "2022-03-24",
+    "outcome": "referred_to_municipality"
+  }
+}

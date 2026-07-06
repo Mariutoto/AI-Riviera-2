@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audit test — Règlement du Conseil communal</title>
+<style>
+body{font-family:Inter,Segoe UI,sans-serif;background:#f4f6f8;color:#17202a;margin:0}main{max-width:1120px;margin:auto;padding:32px}
+.hero,section,article{background:white;border:1px solid #dfe5eb;border-radius:14px;padding:22px;margin-bottom:18px}h1{margin-top:0}h2{margin-top:0;font-size:1.25rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.stat{background:#eef4ff;border-radius:10px;padding:14px}.stat strong{display:block;font-size:1.7rem}
+pre{background:#101820;color:#e8f0f7;padding:18px;border-radius:10px;overflow:auto}table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #e6ebef;text-align:left;vertical-align:top}
+.badge{padding:4px 8px;border-radius:999px;font-size:.82rem}.good{background:#d9f7e5;color:#126b39}.warn{background:#fff1c7;color:#815c00}.bad{background:#ffe1e1;color:#8a2020}.info{background:#dcecff;color:#18558d}
+code{font-family:Consolas,monospace}details p{white-space:pre-wrap;line-height:1.45}</style></head>
+<body><main><div class="hero"><h1>Audit test — Règlement du Conseil communal</h1>
+<p>Test du schéma minimal : métadonnées documentaires de base et cinq champs structurels par article. Aucun bloc <code>regulation_metadata</code> n'est ajouté.</p>
+<div class="stats"><div class="stat"><strong>165</strong>chunks actuels</div><div class="stat"><strong>164</strong>numéros uniques</div><div class="stat"><strong>13</strong>champs de base</div><div class="stat"><strong>5</strong>champs par chunk</div></div></div>
+<section><h2>Base documentaire proposée</h2><pre>{
+  &quot;document_id&quot;: &quot;doc_28876567a798b9f326c0&quot;,
+  &quot;commune&quot;: &quot;La Tour-de-Peilz&quot;,
+  &quot;document_family&quot;: &quot;regulation&quot;,
+  &quot;category&quot;: &quot;reglement_conseil_communal&quot;,
+  &quot;document_role&quot;: &quot;regulation_text&quot;,
+  &quot;title&quot;: &quot;Règlement du Conseil communal&quot;,
+  &quot;source_title&quot;: &quot;Règlement du Conseil communal de La Tour-de-Peilz 2017&quot;,
+  &quot;source_page_url&quot;: &quot;https://www.la-tour-de-peilz.ch/tools/pdf-viewer/web/viewer.php?file=/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf&quot;,
+  &quot;file_url&quot;: &quot;https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/pdf/reglement_CC-Version_finale.pdf&quot;,
+  &quot;document_date&quot;: &quot;2017-10-25&quot;,
+  &quot;content_hash&quot;: &quot;28876567a798b9f326c072e38bf77206e359af5d0251259bf258303b6b46af40&quot;,
+  &quot;extraction_method&quot;: &quot;native_pdf&quot;,
+  &quot;processing_status&quot;: &quot;audit_test_generated&quot;
+}</pre></section>
+<section><h2>Tri des champs actuels</h2><table><thead><tr><th>Champ actuel</th><th>Classement</th><th>Décision</th></tr></thead><tbody><tr><td><code>commune</code></td><td><span class='badge good'>base</span></td><td>Conserver dans document_metadata.</td></tr><tr><td><code>title</code></td><td><span class='badge good'>base</span></td><td>Conserver dans document_metadata.</td></tr><tr><td><code>pdf_url</code></td><td><span class='badge good'>rename</span></td><td>Renommer file_url dans document_metadata.</td></tr><tr><td><code>source_page</code></td><td><span class='badge good'>rename</span></td><td>Renommer source_page_url dans document_metadata.</td></tr><tr><td><code>document_date</code></td><td><span class='badge warn'>correct</span></td><td>Conserver, mais corriger 2013-06-09 en 2017-10-25.</td></tr><tr><td><code>doc_type</code></td><td><span class='badge good'>replace</span></td><td>Remplacé par category = reglement_conseil_communal.</td></tr><tr><td><code>content_kind</code></td><td><span class='badge good'>replace</span></td><td>Remplacé par document_family et document_role.</td></tr><tr><td><code>regulation_name</code></td><td><span class='badge bad'>duplicate</span></td><td>Doublon du titre.</td></tr><tr><td><code>body</code></td><td><span class='badge bad'>remove</span></td><td>Peu utile et déductible de la catégorie.</td></tr><tr><td><code>jurisdiction</code></td><td><span class='badge bad'>duplicate</span></td><td>Doublon de commune.</td></tr><tr><td><code>is_normative</code></td><td><span class='badge bad'>remove</span></td><td>Déductible de document_family = regulation.</td></tr><tr><td><code>contains_articles</code></td><td><span class='badge bad'>remove</span></td><td>Déductible du type de document.</td></tr><tr><td><code>article_count</code></td><td><span class='badge bad'>remove</span></td><td>Valeur calculable à partir des chunks.</td></tr><tr><td><code>regulation</code></td><td><span class='badge bad'>remove</span></td><td>Bloc additionnel redondant refusé pour le schéma minimal.</td></tr><tr><td><code>institutional_document</code></td><td><span class='badge bad'>remove</span></td><td>Bloc redondant.</td></tr><tr><td><code>search_facets</code></td><td><span class='badge bad'>remove</span></td><td>À produire dans l&#x27;index de recherche, pas dans la source documentaire.</td></tr><tr><td><code>year</code></td><td><span class='badge bad'>remove</span></td><td>La valeur institutionnel n&#x27;est pas une année documentaire.</td></tr><tr><td><code>institutional_category</code></td><td><span class='badge bad'>duplicate</span></td><td>Doublon de category.</td></tr><tr><td><code>filename</code></td><td><span class='badge bad'>remove</span></td><td>Déductible de file_url et inutile pour la recherche.</td></tr><tr><td><code>pdf_path</code></td><td><span class='badge bad'>remove</span></td><td>Chemin local non portable.</td></tr><tr><td><code>text_path</code></td><td><span class='badge bad'>remove</span></td><td>Chemin local non portable.</td></tr><tr><td><code>article_index_path</code></td><td><span class='badge bad'>remove</span></td><td>Chemin local non portable.</td></tr><tr><td><code>metadata_version</code></td><td><span class='badge bad'>remove</span></td><td>Information technique hors métadonnées documentaires.</td></tr><tr><td><code>text_extraction_status</code></td><td><span class='badge info'>processing</span></td><td>À conserver uniquement dans processing.</td></tr><tr><td><code>characters_extracted</code></td><td><span class='badge bad'>duplicate</span></td><td>Déjà présent dans processing.text_extraction_status.</td></tr></tbody></table></section>
+<section><h2>Observations à traiter dans l'audit général</h2><ul><li>La date actuelle 2013-06-09 est erronée : le texte indique une adoption le 25 octobre 2017.</li><li>Le parseur produit 165 chunks mais seulement 164 numéros uniques : l&#x27;article 140 apparaît deux fois.</li><li>Les numéros 49, 114, 141 et 160 sont absents de la série actuelle et doivent être vérifiés dans le PDF avant de parler de données manquantes.</li><li>Le titre actuel de l&#x27;article 164 est faux : il reprend le titre de l&#x27;annexe alors que le texte concerne l&#x27;entrée en vigueur.</li><li>Le découpage par article est pertinent, mais le contenu et la hiérarchie doivent être audités avant l&#x27;indexation finale.</li></ul></section>
+<section><h2>Échantillon de chunks minimaux</h2><article><h3>Article 1 — Nombre des membres</h3><pre>{
+  &quot;chunk_type&quot;: &quot;regulation_article&quot;,
+  &quot;article_number&quot;: &quot;1&quot;,
+  &quot;article_title&quot;: &quot;Nombre des membres&quot;,
+  &quot;title_heading&quot;: null,
+  &quot;chapter&quot;: null
+}</pre><details><summary>Aperçu du texte</summary><p>Le nombre des membres du conseil
+communal est fixé selon l&#x27;effectif de la population de la
+commune, issu du recensement annuel.
+Le conseil communal peut modifier le nombre de ses membres
+au plus tard le 30 juin de l&#x27;année précédant le renouvellement
+intégral des autorités communales.</p></details></article><article><h3>Article 54b — Secret de fonction</h3><pre>{
+  &quot;chunk_type&quot;: &quot;regulation_article&quot;,
+  &quot;article_number&quot;: &quot;54b&quot;,
+  &quot;article_title&quot;: &quot;Secret de fonction&quot;,
+  &quot;title_heading&quot;: &quot;Titre II&quot;,
+  &quot;chapter&quot;: &quot;CHAPITRE PREMIER&quot;
+}</pre><details><summary>Aperçu du texte</summary><p>Les membres des commissions sont soumis au secret
+de fonction, aux conditions prévues aux articles 40d et
+40i LC3,5.</p></details></article><article><h3>Article 86 — Postulat, motion, projet rédigé</h3><pre>{
+  &quot;chunk_type&quot;: &quot;regulation_article&quot;,
+  &quot;article_number&quot;: &quot;86&quot;,
+  &quot;article_title&quot;: &quot;Postulat, motion, projet rédigé&quot;,
+  &quot;title_heading&quot;: &quot;Titre III&quot;,
+  &quot;chapter&quot;: &quot;CHAPITRE II&quot;
+}</pre><details><summary>Aperçu du texte</summary><p>Chaque conseiller peut exercer son droit d&#x27;initiative
+en déposant une proposition sous forme de :
+1. postulat, c&#x27;est-à-dire en invitant la municipalité à étudier
+l&#x27;opportunité de prendre une mesure ou de faire une
+proposition dans un domaine particulier et de dresser un
+rapport ;
+2. motion, c&#x27;est-à-dire en chargeant la municipalité de
+présenter une étude sur un objet déterminé ou un projet
+de décision de compétence du conseil communal ;
+3. projet de règlement ou de modification d&#x27;un règlement
+ou de partie de règlement ou un projet de décision de
+compétence du conseil communal.</p></details></article><article><h3>Article 140 — Crédits d&#x27;investissement</h3><pre>{
+  &quot;chunk_type&quot;: &quot;regulation_article&quot;,
+  &quot;article_number&quot;: &quot;140&quot;,
+  &quot;article_title&quot;: &quot;Crédits d&#x27;investissement&quot;,
+  &quot;title_heading&quot;: &quot;Titre IV&quot;,
+  &quot;chapter&quot;: &quot;CHAPITRE PREMIER&quot;
+}</pre><details><summary>Aperçu du texte</summary><p>Tout investissement fait l&#x27;objet d&#x27;un préavis
+indiquant son but, le montant du crédit, le mode de
+financement, la durée d&#x27;amortissement et les charges
+d&#x27;exploitation qu&#x27;il entraîne. L&#x27;article 15, ch. 5 RC est réservé.
+Amortissements
+(art. 17 RCCom)</p></details></article><article><h3>Article 164 — ANNEXE - Abréviations et renvois aux articles de lois</h3><pre>{
+  &quot;chunk_type&quot;: &quot;regulation_article&quot;,
+  &quot;article_number&quot;: &quot;164&quot;,
+  &quot;article_title&quot;: &quot;ANNEXE - Abréviations et renvois aux articles de lois&quot;,
+  &quot;title_heading&quot;: &quot;Titre V&quot;,
+  &quot;chapter&quot;: &quot;CHAPITRE IV&quot;
+}</pre><details><summary>Aperçu du texte</summary><p>Le présent règlement entre en vigueur un mois après
+son approbation par la cheffe du Département des institutions
+et de la sécurité. Le règlement du 19 mars 2014 est en
+conséquence abrogé.</p></details></article></section>
+</main></body></html>

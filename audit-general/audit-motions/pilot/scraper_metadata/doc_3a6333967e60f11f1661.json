@@ -1,0 +1,136 @@
+{
+  "commune": "La Tour-de-Peilz",
+  "type": "motion",
+  "document_type": "motion",
+  "year": "2022",
+  "listing_year": "2022",
+  "category": "motions",
+  "legislature": "2021-2026",
+  "title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+  "summary": "Un engagement pour la Faraz",
+  "filename": "Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+  "pdf_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2022/Motion-Balestra-Consorts-Arborisation-Faraz-Rapp-Dec.pdf",
+  "source_page": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+  "source_collection": "motions-postulats",
+  "canonical_object": true,
+  "political_object_id": "motion-2022-un-engagement-pour-la-faraz",
+  "site_listing_title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+  "site_subject": "Un engagement pour la Faraz",
+  "site_status_raw": "Rapport et décision disponibles",
+  "status": "Rapport et décision disponibles",
+  "status_normalized": "report_and_decision_available",
+  "authors": [
+    {
+      "name": "Etienne Balestra",
+      "civility": "M.",
+      "party": "PSDG"
+    },
+    {
+      "name": "Geneviève Pasche",
+      "civility": "Mme",
+      "party": "LV"
+    },
+    {
+      "name": "Michel Bloch",
+      "party": "PSDG"
+    },
+    {
+      "name": "Marion Savoy",
+      "party": "LV"
+    },
+    {
+      "name": "Margareta Brüssow",
+      "party": "LCIVL"
+    },
+    {
+      "name": "Jose Espinosa",
+      "party": "UDC"
+    }
+  ],
+  "object_title": "Un engagement pour la Faraz",
+  "document_role": "combined_motion_report_decision",
+  "report_type": "majority_and_minority_reports",
+  "document_components": [
+    {
+      "role": "motion_text"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "majority_report"
+    },
+    {
+      "role": "commission_report",
+      "report_type": "minority_report"
+    },
+    {
+      "role": "council_decision"
+    }
+  ],
+  "contains_report": true,
+  "contains_decision": true,
+  "contains_majority_report": true,
+  "contains_minority_report": true,
+  "document_date": "2022-07-17",
+  "political_object": {
+    "type": "motion",
+    "object_type": "motion",
+    "object_id": "motion-2022-un-engagement-pour-la-faraz",
+    "status_raw": "Rapport et décision disponibles",
+    "status_normalized": "report_and_decision_available",
+    "target_body": "Municipalite",
+    "decision_body": "Conseil communal",
+    "request_type": "binding_request",
+    "source_listing_title": "Motion de M. Etienne Balestra (PSDG) et Mme Geneviève Pasche (LV) et consorts + rapport + décision",
+    "source_subject": "Un engagement pour la Faraz",
+    "canonical_source": "https://www.la-tour-de-peilz.ch/politique/motions-postulats.php",
+    "object_title": "Un engagement pour la Faraz",
+    "document_date": "2022-07-17",
+    "decision_status": "adopted"
+  },
+  "search_facets": [
+    "combined_motion_report_decision",
+    "conseil_communal",
+    "engagement",
+    "faraz",
+    "lcivl",
+    "lv",
+    "majority_and_minority_reports",
+    "motion",
+    "municipalite",
+    "pour",
+    "psdg",
+    "report_and_decision_available",
+    "udc"
+  ],
+  "content_kind": "political_motion",
+  "metadata_version": "metadata-audit-v2",
+  "text_extraction_status": {
+    "characters_extracted": 18082,
+    "text_available": true,
+    "needs_ocr": false
+  },
+  "commission": {
+    "members": [
+      {
+        "name": "Nathalie Demarta",
+        "civility": "Mme",
+        "role": "member",
+        "attendance": "present"
+      }
+    ],
+    "meeting": {
+      "raw": "jeudi 30 juin",
+      "date": "2022-06-30"
+    },
+    "recommendation": {
+      "recommendation": "support_motion"
+    },
+    "contains_majority_report": true,
+    "contains_minority_report": true
+  },
+  "decision": {
+    "session_date": "2022-09-14",
+    "decision_date": "2022-09-15",
+    "outcome": "adopted"
+  }
+}

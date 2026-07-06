@@ -1,0 +1,49 @@
+{
+  "document_metadata": {
+    "document_id": "doc_2008f89e3ded96b9b82a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulat_text",
+    "title": "Affichage politique et responsable, remettons le sujet sur la table",
+    "source_title": "Postulat de M. Marc Wüthrich (LTDPL) - Non soutenue par le Conseil",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/motions-postulats/2021/Postulat-Wuthrich-Affichage-politique.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-15",
+    "content_hash": "9a7295c11f8e4608109c1e7b4e4fede6c329b4b03cb1694f1ae37948719b84f3",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_generated"
+  },
+  "postulat_metadata": {
+    "authors": [
+      {
+        "name": "Marc Wüthrich",
+        "civility": "M.",
+        "party": "LTDPL"
+      }
+    ],
+    "political_status": "not_supported_by_council",
+    "report_type": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "decision_date": null
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2169,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 329
+    },
+    "header_footer_cleaning": {
+      "raw_words": 339,
+      "clean_words": 329,
+      "removed_blocks": 0
+    }
+  }
+}
