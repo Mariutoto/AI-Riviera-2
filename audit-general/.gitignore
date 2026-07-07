@@ -9,3 +9,7 @@ audit-preavis/**/pdfs/*.pdf
 audit-preavis/**/ocr_overrides/*.json
 audit-preavis/**/ocr_overrides/*_batches/
 audit-proces-verbaux/**/pdfs/*.pdf
+audit-rapports-gestion/**/pdfs/*.pdf
+audit-rapports-gestion/**/ocr_comparison_*/**/*_batches/
+audit-rapports-gestion/**/ocr_comparison_*/*.json
+audit-rapports-comptes/**/pdfs/*.pdf

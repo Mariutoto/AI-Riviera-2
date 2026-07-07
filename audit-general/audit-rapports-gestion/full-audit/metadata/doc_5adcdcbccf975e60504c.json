@@ -1,0 +1,85 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5adcdcbccf975e60504c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "annual_report",
+    "category": "rapport_gestion",
+    "document_role": "combined_management_report_commission_response_decision",
+    "title": "Rapport de gestion 2023",
+    "source_title": "Rapport de gestion",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+    "filename": "2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-26",
+    "content_hash": "db0c02e83a3d3bbdead392bb78d77f1ba57e7753eaf84e3703730a4aa72db567",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "audited"
+  },
+  "management_report_metadata": {
+    "management_year": 2023,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31",
+    "decision_date": "2024-06-26",
+    "components": [
+      "annual_management_report",
+      "commission_report",
+      "municipal_response",
+      "council_decision"
+    ],
+    "commission": {
+      "members": [
+        {
+          "name": "Volker Tiemann",
+          "party": "PLR",
+          "role": "member"
+        },
+        {
+          "name": "Roger Urech",
+          "party": "PLR",
+          "role": "member"
+        },
+        {
+          "name": "Ziva Tavcar",
+          "party": "PSDG",
+          "role": "member"
+        },
+        {
+          "name": "Florian Abbet",
+          "party": "LV",
+          "role": "member"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "party": "LCIVL",
+          "role": "member"
+        }
+      ],
+      "observations_count": null,
+      "wishes_count": 12
+    }
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 372453,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [
+        1
+      ]
+    },
+    "header_footer_cleaning": {
+      "raw_words": 61279,
+      "clean_words": 61207,
+      "removed_blocks": 67,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 61207,
+      "native_pdf_words": 58669
+    }
+  }
+}

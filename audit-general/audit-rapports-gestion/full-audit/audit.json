@@ -1,0 +1,4271 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_695ae1de0cfb5b717129",
+      "title": "Rapport de gestion 2021",
+      "management_year": 2021,
+      "pages": 133,
+      "coverage": 1.0,
+      "components": [
+        "annual_management_report",
+        "commission_report",
+        "municipal_response",
+        "council_decision"
+      ],
+      "commission_members": 6,
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_695ae1de0cfb5b717129",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "annual_report",
+          "category": "rapport_gestion",
+          "document_role": "combined_management_report_commission_response_decision",
+          "title": "Rapport de gestion 2021",
+          "source_title": "Rapport de gestion",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2021-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "filename": "2021-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "listing_year": 2021,
+          "legislature": "2021-2026",
+          "document_date": "2022-06-29",
+          "content_hash": "3051a13196f7d11c66e702f727f8d536248078f8c9f01fb0abd5a58a771c3675",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "management_report_metadata": {
+          "management_year": 2021,
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "decision_date": "2022-06-29",
+          "components": [
+            "annual_management_report",
+            "commission_report",
+            "municipal_response",
+            "council_decision"
+          ],
+          "commission": {
+            "members": [
+              {
+                "name": "Champier Denis",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Noto Salvatore",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Aminian Kamiar",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Pasche Geneviève",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Cornaz Mireille",
+                "party": "LCIVL",
+                "role": "member"
+              },
+              {
+                "name": "Espinosa José",
+                "party": "UDC",
+                "role": "member"
+              }
+            ],
+            "observations_count": 2,
+            "wishes_count": 9
+          }
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 403554,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 67034,
+            "clean_words": 66963,
+            "removed_blocks": 65,
+            "repeated_margin_candidates": []
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 66963,
+            "native_pdf_words": 60943
+          }
+        }
+      },
+      "chunks": 174,
+      "green_chunks": 174,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 47,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 898,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 2040,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3746,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4039,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 3875,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4141,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4818,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 4498,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 4494,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1428,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 1930,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2194,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 3027,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 1061,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2587,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 745,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 3624,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 3192,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 2960,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 3224,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 2911,
+          "images": 8,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 4824,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 4485,
+          "images": 5,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 4032,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 5234,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 4021,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2341,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 1000,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 4268,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 4311,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 1818,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2691,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 1823,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 1366,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 3587,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 5199,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 5133,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 5134,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 1508,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 3851,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 4272,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 3047,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 4067,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 1427,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 4812,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 5104,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 4451,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 3838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 3244,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 4608,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 5189,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 4492,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 4495,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 4470,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 3095,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 899,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 4986,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 5726,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 4593,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 5071,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 4765,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 4848,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2014,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2404,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 4756,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2326,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 958,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 1018,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2770,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2807,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 3392,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 3347,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 1656,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2497,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 3212,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2919,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 1599,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2031,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2990,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2995,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 3508,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 3325,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 3014,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 4159,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2176,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 3940,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 2809,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 3085,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 3393,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 4029,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 4206,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 2805,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 3248,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3069,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 1587,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 1120,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 1294,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 966,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 1121,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 1272,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 1626,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 2658,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 1990,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 1710,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 2615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 1918,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 2760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 2889,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 3293,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 2838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 3039,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 3245,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 3093,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 2861,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 2553,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 3709,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 2093,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 2801,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 380,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 244,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 271,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 125,
+          "characters": 843,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 126,
+          "characters": 2285,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 127,
+          "characters": 3219,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 128,
+          "characters": 3227,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 129,
+          "characters": 3573,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 130,
+          "characters": 3235,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 131,
+          "characters": 2859,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 132,
+          "characters": 1072,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 133,
+          "characters": 1193,
+          "images": 1,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DE GESTION 2021\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  CONSEIL COMMUNAL | 5  |\n| --- | --- |\n|  VOTATIONS ET ÉLECTIONS | 15  |\n|  MUNICIPALITÉ | 19  |\n|  ADMINISTRATION GÉNÉRALE | 21  |\n|  Greffé municipal | 22  |\n|  Ressources humaines | 24  |\n|  Communication | 26  |\n|  Affaires culturelles | 27  |\n|  Commission culturelle | 29  |\n|  Bibliothèque communale | 30  |\n|  Archives communales | 32  |\n|  FINANCES | 33  |\n|  Secteur finances | 34  |\n|  Secteur informatique | 35  |\n|  Office de la population | 36  |\n|  DOMAINES ET BÂTIMENTS | 39  |\n|  Administration | 40  |\n|  Secteur projets, travaux, ingénierie | 41  |\n|  Secteur gérance, entretien, conciergerie | 45  |\n|  Secteur forêts, alpages, vignes, vins | 48  |\n|  URBANISME ET TRAVAUX PUBLICS | 49  |\n|  Secrétariat administratif et technique | 50  |\n|  Secteur voirie | 58  |\n|  Secteur parcs et jardins | 59  |\n|  Office des inhumations | 60  |\n|  FAMILLE, JEUNESSE ET SPORT | 61  |\n|  Administration et actions sociales | 62  |\n|  Accueil en réfectoires scolaires | 64  |\n|  Accueil familial de jour | 65  |\n|  Sport et jeunesse | 66  |\n|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 69  |\n\n\f\n\n# RAPPORT\n\n## DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ\n\n## AU CONSEIL COMMUNAL\n\n## SUR SA GESTION PENDANT\n\n## L'EXERCICE 2021\n\nMonsieur le Président,\nMesdames et Messieurs les membres du Conseil communal,\n\n*Conformément aux dispositions suivantes :*\n\n- la Loi du 28 février 1956 sur les communes ;\n- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;\n- le Règlement du Conseil communal du 25 octobre 2017 ;\n\nnous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2021 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.\n\n\f\n\n■ Bureau 2021 - 2022\n\n|  Présidence : | Tirelli Ludovic (LV)  |\n| --- | --- |\n|  1^{re} Vice-présidence : | Espinosa José (UDC)  |\n|  2^{e} Vice-présidence : | Costanzo Julien (PSDG)  |\n|  Scrutateurs : | Roethlisberger Manon (LCIVL)  |\n|   | Costa François (PLR)  |\n|  Scrutateurs suppléants : | Prata Isabel (LTDPL)  |\n|   | Abbet Florian (LV)  |\n|  Secrétaire : | Dind Carole  |\n|  Huissier : | Vacant  |\n\nLe Conseil communal a tenu 8 séances.\n\nIl est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).\n\n■ Commissions permanentes\n\nCommission des finances\n\n- Blank Barbezat Sophie (PLR)\n- Chervet Guy (PLR)\n- Neyroud Philippe (PSDG)\n- Schmidhauser Jean-Yves (PSDG)\n- Castelain Paul (LV)\n- Limat Fanny (LCIVL)\n- Fardel Nicolas (UDC - Prés. 2021-2022)\n\nCommission de gestion\n\n- Champier Denis (PLR)\n- Noto Salvatore (PLR)\n- Tavcar Ziva (PSDG - Prés. 2021-2022)\n- Aminian Kamiar (LV)\n- Pasche Geneviève (LV)\n- Cornaz Mireille (LCIVL)\n- Espinosa José (UDC)\n\nCommission de recours en matière d'impôts\n\n- Grutta Alessio (PLR - Prés. 2021-2022)\n- Krähenbühl Yvan (PLR)\n- Vaucoret Dominique (PSDG)\n- Carbonell Roberto (LV)\n- Limat Fanny (LCIVL)\n- Demarta Nathalie (UDC)\n\n■ Commissions intercommunales\n\nSIGE\n\nDélégation variable du Conseil intercommunal :\n\n- Cavin Pierre (PLR)\n- Bloch Michel (PSDG)\n- Ansermet Véronique (LV)\n- Bonvin Jérôme (LCIVL)\n- Jung Guillaume (UDC)\n\nSuppléance :\n\n- Ibrahimovic Emina (PLR)\n- Huart Hugo (PSDG)\n- Abbet Florian (LV)\n- Luceron Maria (LCIVL)\n- Holzeisen Jean-Etienne (LTDPL)\n\nCIEHL\n\nDélégation à la Commission intercommunale de gestion :\n\n- Dubuis Margaux (PLR)\n- Hauri Nina (LV)\n\nSuppléance :\n\n- Dellas Héraclès (UDC)\n\nLexique : Les Vert·e·s (LV) / Union démocratique du centre (UDC) / Parti socialiste et divers de gauche (PSDG) / Le centre + indépendants plus vert libéraux (LCIVL) / Parti libéral radical (PLR) / La Tour-de-Peilz libre (LTDPL) / Parti démocrate chrétien + indépendants (PDC+I) / Parti socialiste (PS) / La Tour-de-Peilz Libre et PBD (LTDPLibre & PBD)\n\n\f\n\n# Fonds culturel Riviera\n\nDélégation à la Commission intercommunale de gestion :\n\n- Vodoz François (PLR)\n- Gruaz André (PSDG)\n\nSuppléance :\n\n- Arnaud Anne-Marie (hors parti - LTDPL)\n\n# Sécurité Riviera\n\nDélégation fixe :\n\n- Heller Gabrielle (LV)\n\nDélégation variable du Conseil intercommunal :\n\n- Berthier Loris (PLR)\n- Krähenbühl Yvan (PLR)\n- Negro Piero (PSDG)\n- Vaucoret Dominique (PSDG)\n- Rohrer Michael (LCIVL)\n- Espinosa José (UDC)\n- Gambino Miguel (LTDPL)\n\n# Conseil d'établissement de l'établissement primaire et secondaire de la Tour-de-Peilz\n\nDélégation :\n\n- Grognuz François (PLR)\n- Costanzo Julien (PSDG)\n- Brüssow Margareta (LCIVL)\n\n# Première séance : 10 février 2021\n\n1) Assermentation de MM. Philippe Burkhalter (PS) et Pierre Pernet (LTDPLibre & PBD) en remplacement respectivement de M. Nicolas Bastard et Mme Antonia Winter, démissionnaires.\n\n2) Élection de :\na) M. Guillaume Jung (UDC) en qualité de suppléant à la délégation de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) en remplacement de M. Yohan Ziehli.\nb) M. Julien Costanzo (PS) au sein du Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz en remplacement de M. Nicolas Bastard.\nc) M. Philippe Neyroud (PS) à la commission des finances en remplacement de Mme Monique Petitpierre.\n\n3) Une commission est nommée pour l'étude de l'objet suivant :\na) Postulat de Mme Célia Carron (PS) - « Cent femmes et un chien sont revenus contents de la plage ».\n- PLR : Grutta Alessio, Costa François\n- PS : Carron Célia, Schmidhauser Marie\n- UDC : Ranzato Gabriel\n- LV : Castelain Paul\n- PDC+I : Charmey Jean-Claude\n\n4) M. Jean-Yves Schmidhauser (PS) développe son interpellation intitulée « Arrogance ou usurpation ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n5) Mme Elise Kaiser (LV) développe son postulat intitulé « Pour un accueil de jour des enfants adapté aux besoins actuels et futurs ». Celui-ci est renvoyé à une commission composée comme suit :\n- PS : Overney Serge, Ilic Wahab Natasa\n- PLR : Blank Barbezat Sophie, Chervet Gabriel\n- UDC : Stettler A",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2021-Rapport-de-gestion-LTDP-Rapp-Dec.pdf"
+    },
+    {
+      "document_id": "doc_af33fbe7a9e0a1559d24",
+      "title": "Rapport de gestion 2022",
+      "management_year": 2022,
+      "pages": 134,
+      "coverage": 1.0,
+      "components": [
+        "annual_management_report",
+        "commission_report",
+        "municipal_response",
+        "council_decision"
+      ],
+      "commission_members": 6,
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_af33fbe7a9e0a1559d24",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "annual_report",
+          "category": "rapport_gestion",
+          "document_role": "combined_management_report_commission_response_decision",
+          "title": "Rapport de gestion 2022",
+          "source_title": "Rapport de gestion",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2022-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "filename": "2022-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "listing_year": 2022,
+          "legislature": "2021-2026",
+          "document_date": "2023-06-28",
+          "content_hash": "60202c5c623174e481dccc1feee6a7f2d05b97e9c63bba1422ed1aa1198102d3",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "management_report_metadata": {
+          "management_year": 2022,
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "decision_date": "2023-06-28",
+          "components": [
+            "annual_management_report",
+            "commission_report",
+            "municipal_response",
+            "council_decision"
+          ],
+          "commission": {
+            "members": [
+              {
+                "name": "Delessert Claude",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Urech Roger",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Tavcar Ziva",
+                "party": "PSDG",
+                "role": "member"
+              },
+              {
+                "name": "Aminian Kamiar",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Abbet Florian",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Cornaz Mireille",
+                "party": "LCIVL",
+                "role": "member"
+              }
+            ],
+            "observations_count": 5,
+            "wishes_count": 9
+          }
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 368171,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 60509,
+            "clean_words": 60430,
+            "removed_blocks": 66,
+            "repeated_margin_candidates": []
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 60430,
+            "native_pdf_words": 57225
+          }
+        }
+      },
+      "chunks": 157,
+      "green_chunks": 157,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 47,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 865,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 1920,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3650,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4235,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4373,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4534,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4281,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4458,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 4722,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1837,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1957,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 3651,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2430,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 1153,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 3569,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 4020,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2509,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 5433,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 1921,
+          "images": 16,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 4920,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 4113,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 2936,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 946,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 4106,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 4402,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 1755,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2707,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 1861,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 1293,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 3368,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 4400,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 4328,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 4151,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 870,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2400,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 4320,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 4078,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 3535,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 3997,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 1652,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 1623,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 5378,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 5128,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 5120,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 4542,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 3215,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 3756,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 4121,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 4312,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2542,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 4677,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 4740,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 1949,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 1295,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 5271,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 5444,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 4901,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 4120,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 4961,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 5199,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 4442,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 5375,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 5561,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 4443,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 4279,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 3770,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2442,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 3358,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2388,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 335,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 4653,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 3255,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 938,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 3126,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 3630,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2123,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1248,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 1173,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 990,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 437,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2112,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 3726,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2944,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2505,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 3015,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 3034,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 2008,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 3107,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 1576,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 2896,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 1531,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 2620,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 3255,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 3483,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3140,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2972,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 532,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 2830,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 2500,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 1467,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 2552,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2366,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 839,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 1304,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 1820,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 1980,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 1738,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 1606,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 1580,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 1391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 1636,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 1582,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 1695,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 1721,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 1636,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 1365,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 888,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 1851,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 1846,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 1657,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 1102,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 1902,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 125,
+          "characters": 1957,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 126,
+          "characters": 1816,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 127,
+          "characters": 1122,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 128,
+          "characters": 843,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 129,
+          "characters": 2372,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 130,
+          "characters": 3768,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 131,
+          "characters": 3616,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 132,
+          "characters": 3395,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 133,
+          "characters": 2254,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 134,
+          "characters": 1181,
+          "images": 1,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DE GESTION 2022\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  CONSEIL COMMUNAL | 5  |\n| --- | --- |\n|  VOTATIONS ET ÉLECTIONS | 15  |\n|  MUNICIPALITÉ | 17  |\n|  ADMINISTRATION GÉNÉRALE | 19  |\n|  Greffé municipal | 20  |\n|  Ressources humaines | 21  |\n|  Communication | 24  |\n|  ABCDé | 25  |\n|  Archives communales | 27  |\n|  FINANCES | 29  |\n|  Finances | 30  |\n|  Informatique | 31  |\n|  Office de la population | 33  |\n|  DOMAINES ET BÂTIMENTS | 35  |\n|  Administration | 36  |\n|  Projets, travaux, ingénierie | 37  |\n|  Gérance, entretien, conciergerie | 42  |\n|  Forêts, alpages, vignes, vins | 45  |\n|  URBANISME ET TRAVAUX PUBLICS | 47  |\n|  Administration et technique | 48  |\n|  Espaces publics | 57  |\n|  Office des inhumations | 59  |\n|  FAMILLE, JEUNESSE, SPORT ET CULTURE | 61  |\n|  Administration et actions sociales | 62  |\n|  Accueil en réfectoires scolaires | 65  |\n|  Conseiller école famille | 65  |\n|  Accueil familial de jour | 66  |\n|  Sport et jeunesse | 68  |\n|  Affaires culturelles | 72  |\n|  Commission culturelle | 73  |\n|  Jumelage avec Ornans | 73  |\n|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 75  |\n\n\f\n\n# **RAPPORT**\n\n## **DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ**\n\n## **AU CONSEIL COMMUNAL**\n\n## **SUR SA GESTION PENDANT**\n\n## **L'EXERCICE 2022**\n\nMonsieur le Président,\nMesdames et Messieurs les membres du Conseil communal,\n\n*Conformément aux dispositions suivantes :*\n\n- la Loi du 28 février 1956 sur les communes ;\n- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;\n- le Règlement du Conseil communal du 25 octobre 2017 ;\n\nnous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2022 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.\n\n\f\n\n## Bureau 2022 - 2023\n\n|  Présidence : | Espinosa José (UDC)  |\n| --- | --- |\n|  1^{re} Vice-présidence : | Costanzo Julien (PSDG)  |\n|  2^{e} Vice-présidence : | Roethlisberger Manon (LCIVL)  |\n|  Scrutateurs : | Grutta Alessio (PLR) Prata Isabel (LTDPL)  |\n|  Scrutateurs suppléants : | Pasquali Diego (LV) Dellas Héraclès (UDC)  |\n|  Secrétaire : | Dind Carole  |\n|  Huissier : | Vacant  |\n\nLe Conseil communal a tenu 7 séances.\n\nIl est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).\n\n## Commissions permanentes\n\n### Commission des finances\n\n- Berthier Loris (PLR)\n- Chervet Guy (PLR - Prés. 2022-2023)\n- Negro Piero (PSDG)\n- Schmidhauser Jean-Yves (PSDG)\n- Tirelli Ludovic (LV)\n- Rohrer Michael (LCIVL)\n- Fardel Nicolas (UDC)\n\n### Commission de gestion\n\n- Delessert Claude (PLR)\n- Urech Roger (PLR)\n- Tavcar Ziva (PSDG)\n- Aminian Kamiar (LV)\n- Abbet Florian (LV)\n- Cornaz Mireille (LCIVL)\n- Holzeisen Jean-Etienne (LTDPL pour l'UDC - Prés. 2022-2023)\n\n### Commission de recours en matière d'impôts\n\n- Grutta Alessio (PLR - Prés. 2022-2023)\n- Krähenbühl Yvan (PLR)\n- Vaucoret Dominique (PSDG)\n- Carbonell Roberto (LV)\n- Rohrer Michael (LCIVL)\n- Demarta Nathalie (UDC)\n\n## Commissions intercommunales\n\n### SIGE\n\n*Délégation variable du Conseil intercommunal :*\n\n- Cavin Pierre (PLR)\n- Bloch Michel (PSDG)\n- Ansermet Véronique (LV)\n- Bonvin Jérôme (LCIVL)\n- Jung Guillaume (UDC)\n\n*Suppléance :*\n\n- Ibrahimovic Emina (PLR)\n- Huart Hugo (PSDG)\n- Muheim Adrien (LV)\n- Luceron Maria (LCIVL)\n- Holzeisen Jean-Etienne (LTDPL)\n\n### CIEHL\n\n*Délégation à la Commission intercommunale de gestion :*\n\n- Dubuis Margaux (PLR)\n- Hauri Nina (LV)\n\n*Suppléance :*\n\n- Dellas Héraclès (UDC)\n\n**Lexique :** Les vert·e·s (LV) ; Union démocratique du centre (UDC) ; Parti socialiste et divers de gauche (PSDG) ; Le centre + indépendants plus vert libéraux (LCIVL) ; Parti libéral radical (PLR) ; La Tour-de-Peilz libre (LTDPL).\n\n\f\n\n# Fonds culturel Riviera\n\nDélégation à la Commission intercommunale de gestion :\n\n- Vodoz François (PLR)\n- Gruaz André (PSDG)\n\nSuppléance :\n\n- Arnaud Anne-Marie (hors parti - LTDPL)\n\n# Association Sécurité Riviera\n\nDélégation fixe :\n\n- Heller Gabrielle (LV)\n\nDélégation variable du Conseil intercommunal :\n\n- Berthier Loris (PLR)\n- Krähenbühl Yvan (PLR)\n- Negro Piero (PSDG)\n- Vaucoret Dominique (PSDG)\n- Charpilloz Pierre-Yves (LCIVL)\n- Dellas Heraclès (UDC)\n- Holzeisen Jean-Etienne (LTDPL)\n\n# Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz\n\nDélégation :\n\n- Grognuz François (PLR)\n- Costanzo Julien (PSDG)\n- Brüssow Margareta (LCIVL)\n\n# Première séance : 9 février 2022\n\n1) Assermentation de MM. Claude Delessert (PLR) et Pierre-Yves Charpilloz (LCIVL) en remplacement respectivement de Mmes Noa Morand et Fanny Limat, démissionnaires.\n\n2) Élection de :\na) M. Michael Rohrer (LCIVL) au sein de la Commission des finances et de recours en matière d'impôts en remplacement de Mme Fanny Limat.\nb) M. Pierre-Yves Charpilloz (LCIVL) à la délégation variable du Conseil intercommunal de l'Association Sécurité Riviera, en remplacement de M. Michael Rohrer.\n\n3) M. Julien Neveu (LV) développe son postulat intitulé « Une déchèterie, pas un grand écopoint ». Celui-ci est renvoyé à une commission composée comme suit :\n- LCIVL : Cornaz Mireille\n- PLR : Chappuis Michel, Urech Roger\n- PSDG : Gruaz André\n- LV : Neveu Julien\n- UDC : Demarta Nathalie\n\n4) MM. François Costa et Yvan Krähenbühl (PLR) développent leur postulat intitulé « Un label pour donner\n\nconfiance à la population ». Celui-ci est renvoyé à la Municipalité pour étude et rapport.\n\n5) M. Marc Wüthrich (LTDPL) développe son interpellation intitulée « Antennes 5G sur le territoire communal ». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n6) Mme Mireille Cornaz (LCIVL) développe son interpellation intitulée « Un endroit très dangereux pour les petits enfants à La Tour-de-Peilz ». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n7) Le Conseil communal prend connaissance de la réponse municipale N° 15/2021 à l'interpellation de M. Jean-Yves Schmidhauser (PSDG) i",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2022-Rapport-de-gestion-LTDP-Rapp-Dec.pdf"
+    },
+    {
+      "document_id": "doc_5adcdcbccf975e60504c",
+      "title": "Rapport de gestion 2023",
+      "management_year": 2023,
+      "pages": 118,
+      "coverage": 1.0,
+      "components": [
+        "annual_management_report",
+        "commission_report",
+        "municipal_response",
+        "council_decision"
+      ],
+      "commission_members": 5,
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_5adcdcbccf975e60504c",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "annual_report",
+          "category": "rapport_gestion",
+          "document_role": "combined_management_report_commission_response_decision",
+          "title": "Rapport de gestion 2023",
+          "source_title": "Rapport de gestion",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+          "filename": "2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+          "listing_year": 2023,
+          "legislature": "2021-2026",
+          "document_date": "2024-06-26",
+          "content_hash": "db0c02e83a3d3bbdead392bb78d77f1ba57e7753eaf84e3703730a4aa72db567",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "management_report_metadata": {
+          "management_year": 2023,
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "decision_date": "2024-06-26",
+          "components": [
+            "annual_management_report",
+            "commission_report",
+            "municipal_response",
+            "council_decision"
+          ],
+          "commission": {
+            "members": [
+              {
+                "name": "Volker Tiemann",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Roger Urech",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Ziva Tavcar",
+                "party": "PSDG",
+                "role": "member"
+              },
+              {
+                "name": "Florian Abbet",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Mireille Cornaz",
+                "party": "LCIVL",
+                "role": "member"
+              }
+            ],
+            "observations_count": null,
+            "wishes_count": 12
+          }
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 372453,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 61279,
+            "clean_words": 61207,
+            "removed_blocks": 67,
+            "repeated_margin_candidates": []
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 61207,
+            "native_pdf_words": 58669
+          }
+        }
+      },
+      "chunks": 159,
+      "green_chunks": 159,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 47,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 882,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 1933,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3791,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4414,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4132,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4432,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4254,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 1079,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 2190,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 667,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 3236,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 1040,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 3774,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 4616,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 3105,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 3711,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 3103,
+          "images": 7,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 5373,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 1829,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 3191,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 657,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 3636,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 4564,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 2630,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 3246,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 1744,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 1381,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 3450,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 4709,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 4028,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 4922,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2964,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 4628,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 3673,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 3659,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 4453,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 3818,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 3416,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 4287,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 1153,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 5154,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 5231,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 5099,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 5455,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 4271,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 4569,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2770,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 3891,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 4062,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 4607,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2468,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 4856,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 4973,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2510,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 915,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 5426,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 5309,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 4679,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 5044,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 4798,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 5523,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 3333,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 4858,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 5172,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 4219,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 3631,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 3856,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2796,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 4122,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2787,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 4626,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2798,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2970,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 558,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 3627,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1268,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2834,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 3741,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 3266,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 873,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 3109,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 3447,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 3891,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 3616,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 3279,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 389,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 3520,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 3393,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 3070,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 3555,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 3334,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 3643,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 2492,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3428,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 501,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 3508,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 3313,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 1650,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 2299,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 2029,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2851,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 2218,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 2731,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 2007,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 1915,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 2583,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 1961,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 2148,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 2807,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 1800,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 2387,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 3264,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 3072,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 2568,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 1256,
+          "images": 1,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DE GESTION 2023\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  CONSEIL COMMUNAL | 5  |\n| --- | --- |\n|  VOTATIONS ET ÉLECTIONS | 13  |\n|  MUNICIPALITÉ | 15  |\n|  ADMINISTRATION GÉNÉRALE | 17  |\n|  Greffé municipal | 18  |\n|  Ressources humaines | 19  |\n|  Communication | 22  |\n|  ABCDé | 23  |\n|  Archives communales | 25  |\n|  FINANCES | 27  |\n|  Finances | 28  |\n|  Informatique | 29  |\n|  Office de la population | 31  |\n|  DOMAINES ET BÂTIMENTS | 33  |\n|  Administration | 34  |\n|  Projets, travaux, ingénierie | 35  |\n|  Gérance, entretien, conciergerie | 42  |\n|  Forêts, alpages, vignes, vins | 45  |\n|  URBANISME ET TRAVAUX PUBLICS | 47  |\n|  Administration et technique | 48  |\n|  Espaces publics | 59  |\n|  Office des inhumations | 61  |\n|  FAMILLE, JEUNESSE, SPORT ET CULTURE | 63  |\n|  Administration et actions sociales | 64  |\n|  Accueil en réfectoires scolaires | 66  |\n|  Conseiller école famille | 67  |\n|  Accueil familial de jour | 68  |\n|  Sport et jeunesse | 71  |\n|  Affaires culturelles | 75  |\n|  Commission culturelle | 77  |\n|  Jumelage avec Ornans | 77  |\n|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 79  |\n|  Abréviations | 81  |\n\n\f\n\n# **RAPPORT**\n\n## **DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ**\n\n## **AU CONSEIL COMMUNAL**\n\n## **SUR SA GESTION PENDANT**\n\n## **L'EXERCICE 2023**\n\nMonsieur le Président,\nMesdames et Messieurs les membres du Conseil communal,\n\n*Conformément aux dispositions suivantes :*\n\n- la Loi du 28 février 1956 sur les communes ;\n- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;\n- le Règlement du Conseil communal du 25 octobre 2017 ;\n\nnous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2023 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.\n\n\f\n\n## Bureau 2023 - 2024\n\n|  Présidence : | Julien Costanzo (PSDG)  |\n| --- | --- |\n|  1^{re} Vice-présidence : | Manon Roethlisberger (LCIVL)  |\n|  2^{e} Vice-présidence : | Alessio Grutta (PLR)  |\n|  Scrutateurs : | Yann Boulben Meyer (LTDPL) Diego Pasquali (LV)  |\n|  Scrutateurs suppléants : | Héraclès Dellas (UDC) Philippe Neyroud (PSDG)  |\n|  Secrétaire : | Carole Dind  |\n|  Huissier : | Vacant  |\n\nLe Conseil communal a tenu 7 séances.\n\nIl est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).\n\n## Commissions permanentes\n\n### Commission des finances\n\n- Loris Berthier (PLR)\n- Guy Chervet (PLR)\n- Piero Negro (PSDG)\n- Jean-Yves Schmidhauser (PSDG)\n- Ludovic Tirelli (LV)\n- Michael Rohrer (LCIVL - Prés. 2023-2024)\n- Nicolas Fardel (UDC)\n\n### Commission de gestion\n\n- Volker Tiemann (PLR)\n- Roger Urech (PLR)\n- Ziva Tavcar (PSDG)\n- Geneviève Pasche (LV - Prés. 2023-2024)\n- Florian Abbet (LV)\n- Mireille Cornaz (LCIVL)\n- Jean-Etienne Holzeisen (LTDPL pour l'UDC)\n\n### Commission de recours en matière d'impôts\n\n- Alessio Grutta (PLR)\n- Yvan Krähenbühl (PLR - Prés. 2023-2024)\n- Dominique Vaucoret (PSDG)\n- Roberto Carbonell (LV)\n- Michael Rohrer (LCIVL)\n- Nathalie Demarta (UDC)\n\n## Commissions intercommunales\n\n### SIGE\n\n*Délégation variable du Conseil intercommunal :*\n\n- Pierre Cavin (PLR)\n- Michel Bloch (PSDG)\n- Véronique Ansermet (LV)\n- Jérôme Bonvin (LCIVL)\n- Guillaume Jung (UDC)\n\n*Suppléance :*\n\n- Emina Ibrahimovic (PLR)\n- Hugo Huart (PSDG)\n- Amandine Gianini (LV)\n- Maria Luceron (LCIVL)\n- Jean-Etienne Holzeisen (LTDPL)\n\n### CIEHL\n\n*Délégation à la Commission intercommunale de gestion :*\n\n- Margaux Dubuis (PLR)\n- Myriam Michel (LV)\n\n*Suppléance :*\n\n- Héraclès Dellas (UDC)\n\n**Lexique :** Les vert·e·s (LV) ; Union démocratique du centre (UDC) ; Parti socialiste et divers de gauche (PSDG) ; Le centre + indépendants plus vert-libéraux (LCIVL) ; Parti libéral radical (PLR) ; La Tour-de-Peilz libre (LTDPL).\n\n\f\n\n## Fonds culturel Riviera\n\nDélégation à la Commission intercommunale de gestion :\n\n- François Vodoz (PLR)\n- André Gruaz (PSDG)\n\nSuppléance :\n\n- Anne-Marie Arnaud (hors parti - LTDPL)\n\n## Association Sécurité Riviera\n\nDélégation fixe :\n\n- Gabrielle Heller (LV)\n\nDélégation variable du Conseil intercommunal :\n\n- Denis Champier (PLR)\n- Yvan Krähenbühl (PLR)\n- Piero Negro (PSDG)\n- Dominique Vaucoret (PSDG)\n- Pierre-Yves Charpilloz (LCIVL)\n- Heraclès Dellas (UDC)\n- Yann Boulben (LTDPL)\n\n## Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz\n\nDélégation :\n\n- François Grognuz (PLR)\n- Walter Steiner (PSDG)\n- Margareta Brüssow (LCIVL)\n\n## Première séance : 8 février 2023\n\n1) Assermentation de M. Volker Tiemann (PLR), Mmes Maëlle Le Boudec (LV) et Anouk Dandrieu (LV) en remplacement respectivement de Mmes Nathalie Dubuis, Nina Hauri et Julie Cavin, démissionnaires.\n\n2) Élection de Mme Myriam Michel (LV) au sein de la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL) en remplacement de Mme Nina Hauri.\n\n3) M. Niklas Tiemann (LV) développe son postulat cosigné avec M. Adrien Muheim (LV) et consorts intitulé « Pour des subventions mobilité répandues et efficaces ». Celui-ci est renvoyé à une commission composée comme suit :\n- PLR : Alessio Grutta, Gabriel Chervet\n- PSDG : Hugo Huart, Marie Schmidhauser\n- LV : Adrien Muheim\n- LCIVL : Maria Luceron\n- UDC : Claude Althaus\n\n4) Réponses de la Municipalité :\n\na) N° 1/2023 - Interpellations de M. Marc Wüthrich (LTDPL) - Antennes 5G sur le territoire communal et\n\nde M. Jean-Etienne Holzeisen (LTDPL) - Antennes 5G : un peu de friture sur la ligne ?\n\nb) N° 2/2023 - Interpellation de M. Jean-Etienne Holzeisen (LTDPL) - Y a-t-il un pilote dans le bus communal ?\n\n5) Une commission est nommée pour l'étude de l'objet suivant :\n\na) Préavis municipal N° 1/2023 - Réponse au postulat de MM. François Costa et Yvan Krähenbühl (PLR) - Un label pour donner confiance à la population. Celui-ci est renvoyé à une commission composée comme suit :\n\n- PSDG : Lyonel Kaufmann\n- PLR : Yvan Krähenbühl, Michel Chappuis\n- LV : Maëlle Le Bou",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf"
+    },
+    {
+      "document_id": "doc_0f8182fbeb2247d3acc1",
+      "title": "Rapport de gestion 2024",
+      "management_year": 2024,
+      "pages": 122,
+      "coverage": 1.0,
+      "components": [
+        "annual_management_report",
+        "commission_report",
+        "council_decision"
+      ],
+      "commission_members": 5,
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_0f8182fbeb2247d3acc1",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "annual_report",
+          "category": "rapport_gestion",
+          "document_role": "combined_management_report_commission_decision",
+          "title": "Rapport de gestion 2024",
+          "source_title": "Rapport de gestion",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "filename": "2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+          "listing_year": 2024,
+          "legislature": "2021-2026",
+          "document_date": "2025-06-25",
+          "content_hash": "961312b83c7b3c14bece79ee1d9116b64229096ba7841c84d6ac067fef95ec12",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "management_report_metadata": {
+          "management_year": 2024,
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "decision_date": "2025-06-25",
+          "components": [
+            "annual_management_report",
+            "commission_report",
+            "council_decision"
+          ],
+          "commission": {
+            "members": [
+              {
+                "name": "Volker Tiemann",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Marisa Pralong",
+                "party": "PSDG",
+                "role": "member"
+              },
+              {
+                "name": "Emanuelle Jaques",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Florian Abbet",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Jean Wilfrid Fils-Aimé",
+                "party": "LCIVL",
+                "role": "member"
+              }
+            ],
+            "observations_count": null,
+            "wishes_count": 5
+          }
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 384943,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 63498,
+            "clean_words": 63430,
+            "removed_blocks": 62,
+            "repeated_margin_candidates": []
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 63430,
+            "native_pdf_words": 60501
+          }
+        }
+      },
+      "chunks": 164,
+      "green_chunks": 164,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 47,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 952,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 614,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 1954,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3916,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4352,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4484,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4436,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4338,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4436,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 4696,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 4137,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 2383,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 946,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 1465,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2160,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 1379,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 3157,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 3096,
+          "images": 4,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 4142,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 1843,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 2268,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 2601,
+          "images": 8,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 5095,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 1019,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 3126,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 711,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 3442,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 4704,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2105,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2803,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 1745,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 967,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 3750,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 4455,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 5291,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 5129,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 5131,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 3442,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 5628,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 4707,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 3686,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2741,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2805,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 4071,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 4257,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 3581,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2014,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 3621,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2148,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 995,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 5107,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 5369,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 5312,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 5313,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 4869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 4404,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 3010,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 3992,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 4385,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 4871,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 3966,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 4815,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 4486,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 1939,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 1192,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 5197,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 5468,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 3401,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 4484,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 5413,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 5893,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 4801,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 4990,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 5256,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 5633,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 5410,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 3646,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 3868,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 3250,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2719,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2658,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 4308,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 1349,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2840,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2800,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 353,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 3199,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 985,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 2286,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 2253,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 2347,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 3162,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 3277,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 1863,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 3205,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3578,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 3175,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 870,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 2877,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 3239,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 3054,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 1058,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2583,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 3056,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 2080,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 2141,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 2580,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 2714,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 3141,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 1875,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 1370,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 2784,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 2994,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 2820,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 3466,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 2846,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 2375,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 2523,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 2138,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 909,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 1324,
+          "images": 1,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DE GESTION 2024\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  CONSEIL COMMUNAL | 5  |\n| --- | --- |\n|  VOTATIONS ET ÉLECTIONS | 15  |\n|  MUNICIPALITÉ | 17  |\n|  ADMINISTRATION GÉNÉRALE | 19  |\n|  Greffé municipal | 20  |\n|  Ressources humaines | 22  |\n|  Communication | 25  |\n|  ABCDé | 26  |\n|  Archives communales | 28  |\n|  FINANCES | 29  |\n|  Finances | 30  |\n|  Informatique | 31  |\n|  Office de la population | 33  |\n|  DOMAINES ET BÂTIMENTS | 35  |\n|  Administration | 36  |\n|  Stratégie et planification immobilière 2024-2040 | 37  |\n|  Projets, travaux, ingénierie | 37  |\n|  Gérance, entretien, conciergerie | 47  |\n|  Forêts, alpages, vignes, vins | 51  |\n|  URBANISME ET TRAVAUX PUBLICS | 53  |\n|  Administration et technique | 54  |\n|  Espaces publics | 64  |\n|  Office des inhumations | 67  |\n|  FAMILLE, JEUNESSE, SPORT ET CULTURE | 69  |\n|  Administration et actions sociales | 70  |\n|  Accueil en réfectoires scolaires | 73  |\n|  Conseiller école famille | 73  |\n|  Accueil familial de jour | 75  |\n|  Sport et jeunesse | 76  |\n|  Affaires culturelles | 82  |\n|  Commission culturelle | 84  |\n|  Jumelage avec Ornans | 84  |\n|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 85  |\n|  Organigramme | 87  |\n|  Abréviations | 88  |\n\n\f\n\n# **RAPPORT**\n\n## **DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ**\n\n## **AU CONSEIL COMMUNAL**\n\n## **SUR SA GESTION PENDANT**\n\n## **L'EXERCICE 2024**\n\nMadame la Présidente,\nMesdames et Messieurs les membres du Conseil communal,\n\n*Conformément aux dispositions suivantes :*\n\n- la Loi du 28 février 1956 sur les communes ;\n- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;\n- le Règlement du Conseil communal du 25 octobre 2017 ;\n\nnous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2024 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.\n\n\f\n\n## Bureau 2024 - 2025\n\n|  Présidence : | Manon Roethlisberger (LCIVL)  |\n| --- | --- |\n|  1^{re} Vice-présidence : | Yvan Krähenbühl (PLR)  |\n|  2^{e} Vice-présidence : | Jean Etienne Holzeisen (LTDPL)  |\n|  Scrutateurs : | Diego Pasquali (LV) Heracles Dellas (UDC)  |\n|  Scrutateurs suppléants : | Manuel Lisboa (PSDG) Margareta Brüssow (LCIVL)  |\n|  Secrétaire : | Carole Dind  |\n|  Huissier : | Vacant  |\n\nLe Conseil communal a tenu 7 séances.\n\nIl est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).\n\n## Commissions permanentes\n\n### Commission des finances\n\n- Loris Berthier (PLR)\n- Guy Chervet (PLR)\n- Piero Negro (PSDG - Prés. 2024-2025)\n- Jean-Yves Schmidhauser (PSDG)\n- Ludovic Tirelli (LV)\n- Jérôme Bonvin (LCIVL)\n- Viviane Huber (LTDPL pour l'UDC)\n\n### Commission de gestion\n\n- Volker Tiemann (PLR)\n- Roger Urech (PLR - Prés. 2024-2025)\n- Marisa Pralong (PSDG)\n- Emanuelle Jaques (LV)\n- Florian Abbet (LV)\n- Jean Wilfrid Fils-Aimé (LCIVL)\n- Jean Etienne Holzeisen (LTDPL pour l'UDC)\n\n### Commission de recours en matière d'impôts\n\n- Kurt Egli (PLR)\n- Yvan Krähenbühl (PLR - Prés. 2024-2025)\n- Dominique Vaucoret (PSDG)\n- Roberto Carbonell (LV)\n- Pierre-Yves Charpilloz (LCIVL)\n- Nathalie Demarta (UDC)\n\n## Commissions intercommunales\n\n### SIGE\n\n*Délégation variable du Conseil intercommunal :*\n\n- Pierre Cavin (PLR)\n- Michel Bloch (PSDG)\n- Véronique Ansermet (LV)\n- Jérôme Bonvin (LCIVL)\n- Guillaume Jung (UDC)\n\n*Suppléance :*\n\n- Emina Ibrahimovic (PLR)\n- Hugo Huart (PSDG)\n- Amandine Gianini (LV)\n- Maria Luceron (LCIVL)\n- Marc Wüthrich (LTDPL)\n\n### CIEHL\n\n*Délégation à la Commission intercommunale de gestion :*\n\n- Margaux Dubuis (PLR)\n- Myriam Michel (LV)\n\n*Suppléance :*\n\n- Heracles Dellas (UDC)\n\n**Lexique :** Les vert·e·s (LV) ; Union démocratique du centre (UDC) ; Parti socialiste et divers de gauche (PSDG) ; Le centre + indépendants plus vert-libéraux (LCIVL) ; Parti libéral radical (PLR) ; La Tour-de-Peilz libre (LTDPL).\n\n\f\n\n## Fonds culturel Riviera\n\nDélégation à la Commission intercommunale de gestion :\n\n- François Vodoz (PLR)\n- André Gruaz (PSDG)\n\nSuppléance :\n\n- Anne-Marie Arnaud (hors parti - LTDPL)\n\n## Association sécurité Riviera\n\nDélégation fixe :\n\n- Gabrielle Heller (LV)\n\nDélégation variable du Conseil intercommunal :\n\n- Denis Champier (PLR)\n- Yvan Krähenbühl (PLR)\n- Piero Negro (PSDG)\n- Dominique Vaucoret (PSDG)\n- Pierre-Yves Charpilloz (LCIVL)\n- Heracles Dellas (UDC)\n- Viviane Huber (LTDPL)\n\n## Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz\n\nDélégation :\n\n- François Grognuz (PLR)\n- Walter Steiner (PSDG)\n- Margareta Brüssow (LCIVL)\n\n## Première séance : 7 février 2024\n\n1) Assermentation de Mmes Valentine Python (LV) et Emanuelle Jaques (LV) en remplacement respectivement de Mmes Marion Savoy et Andrea Krenger, démissionnaires.\n\n2) Élection de M. Jérôme Bonvin (LCIVL) au sein de la Commission des finances en remplacement de M. Michael Rohrer.\n\n3) Élection de M. Pierre-Yves Charpilloz (LCIVL) à la commission de recours en matière d'impôts communaux en remplacement de M. Michael Rohrer.\n\n4) Élection de Mme Marisa Pralong (PSDG) à la Commission de gestion en remplacement de Mme Ziva Tavcar.\n\n5) Mme Geneviève Pasche (LV) développe son interpellation intitulée « Une maison de la Sécurité, à TOUT prix ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n6) M. Jean Etienne Holzeisen (LTDPL) développe son interpellation intitulée « Moteur de recherche politique - Un outil qui cherche et qui trouve ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n7) Réponses de la Municipalité :\n\na) N° 1/2024 - Interpellation de Mme Anne-Marie Arnaud (hors parti) « Communication Municipale 29/2023 - Plan directeur de la mobilité - Tous à vélo et les séniors en dring-dring »\n\nb) N° 2/2024 - Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? ». L'interpellateur étant absent, cet objet est reporté à la séance suivante.\n\n8) Des commissions sont nommées pour l'étude d",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf"
+    },
+    {
+      "document_id": "doc_f7ec0b75566ef3bb824c",
+      "title": "Rapport de gestion 2025",
+      "management_year": 2025,
+      "pages": 109,
+      "coverage": 1.0,
+      "components": [
+        "annual_management_report",
+        "commission_report",
+        "municipal_response"
+      ],
+      "commission_members": 5,
+      "warnings": [],
+      "audit": {
+        "base_missing": [
+          "document_date"
+        ],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_f7ec0b75566ef3bb824c",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "annual_report",
+          "category": "rapport_gestion",
+          "document_role": "combined_management_report_commission_response",
+          "title": "Rapport de gestion 2025",
+          "source_title": "Rapport de gestion",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2025-Rapport-de-gestion-LTDP.pdf",
+          "filename": "2025-Rapport-de-gestion-LTDP.pdf",
+          "listing_year": 2025,
+          "legislature": "2021-2026",
+          "document_date": null,
+          "content_hash": "94f02c36d1b515c7f9207c2c84512aeaeafd9e350a4e2886feeaa326dc459a5d",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "management_report_metadata": {
+          "management_year": 2025,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "decision_date": null,
+          "components": [
+            "annual_management_report",
+            "commission_report",
+            "municipal_response"
+          ],
+          "commission": {
+            "members": [
+              {
+                "name": "Volker Tiemann",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Roger Urech",
+                "party": "PLR",
+                "role": "member"
+              },
+              {
+                "name": "Marisa Pralong",
+                "party": "PSDG",
+                "role": "member"
+              },
+              {
+                "name": "Emanuelle Jaques",
+                "party": "LV",
+                "role": "member"
+              },
+              {
+                "name": "Florian Abbet",
+                "party": "LV",
+                "role": "member"
+              }
+            ],
+            "observations_count": 1,
+            "wishes_count": 3
+          }
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 354564,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": []
+          },
+          "header_footer_cleaning": {
+            "raw_words": 58116,
+            "clean_words": 58017,
+            "removed_blocks": 65,
+            "repeated_margin_candidates": []
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 58017,
+            "native_pdf_words": 55646
+          }
+        }
+      },
+      "chunks": 151,
+      "green_chunks": 151,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 84,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 2,
+          "characters": 941,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 617,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 1949,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3886,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4182,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4220,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4307,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4389,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4557,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 4410,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 2358,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 2371,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 1532,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 1255,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 1384,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 3085,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1725,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 3920,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 1889,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 2627,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 2627,
+          "images": 8,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 5092,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 1414,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 2396,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 498,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 4045,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 4524,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2518,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2778,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 1809,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 1057,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 3597,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 4413,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 4067,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 3939,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 5162,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 5170,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 3017,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 5212,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 3518,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 3671,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 3226,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 4033,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 3995,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 3615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 944,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 3358,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 1063,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 5231,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 5581,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 5339,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 5535,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 5460,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 4715,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 4894,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 3295,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 4327,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 4478,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 5274,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 3915,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 4558,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 4666,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 3604,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2215,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 1860,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 1302,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 4848,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 5228,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 5200,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 3110,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 4368,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 5830,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 4547,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 5047,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 5129,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 5097,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 4160,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 4896,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 4199,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2648,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 4994,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 1349,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2968,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2803,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 306,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 2573,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 1671,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 3001,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 3244,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 3170,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 3645,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 3638,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 2671,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 3144,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 2611,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2970,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 2660,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 3446,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 1644,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 2545,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 2579,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2195,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 2394,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 3011,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 883,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 1740,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 1942,
+          "images": 4,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DE GESTION 2025\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  CONSEIL COMMUNAL | 5  |\n| --- | --- |\n|  VOTATIONS ET ÉLECTIONS | 13  |\n|  MUNICIPALITÉ | 15  |\n|  ADMINISTRATION GÉNÉRALE | 17  |\n|  Greffé municipal | 18  |\n|  Ressources humaines | 20  |\n|  Communication | 23  |\n|  ABCDé | 24  |\n|  Archives communales | 26  |\n|  FINANCES | 27  |\n|  Finances | 28  |\n|  Informatique | 29  |\n|  Office de la population | 31  |\n|  DOMAINES ET BÂTIMENTS | 33  |\n|  Administration | 34  |\n|  Stratégie et planification immobilière 2024-2040 | 35  |\n|  Projets, travaux, ingénierie | 35  |\n|  Gérance, entretien, conciergerie | 45  |\n|  Forêts, alpages, vignes, vins | 49  |\n|  URBANISME ET TRAVAUX PUBLICS | 51  |\n|  Administration et technique | 52  |\n|  Espaces publics | 64  |\n|  Office des inhumations | 68  |\n|  FAMILLE, JEUNESSE, SPORT ET CULTURE | 69  |\n|  Administration et actions sociales | 70  |\n|  Accueil en réfectoires scolaires | 73  |\n|  Conseiller école famille | 74  |\n|  Accueil familial de jour | 75  |\n|  Sport et jeunesse | 76  |\n|  Affaires culturelles | 80  |\n|  Commission culturelle | 82  |\n|  Jumelage avec Ornans | 82  |\n|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 83  |\n|  Organigramme | 85  |\n|  Abréviations | 87  |\n\n\f\n\n# **RAPPORT**\n\n## **DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ**\n\n## **AU CONSEIL COMMUNAL**\n\n## **SUR SA GESTION PENDANT**\n\n## **L'EXERCICE 2025**\n\nMadame la Présidente,\nMesdames et Messieurs les membres du Conseil communal,\n\n*Conformément aux dispositions suivantes :*\n\n- la Loi du 28 février 1956 sur les communes ;\n- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;\n- le Règlement du Conseil communal du 25 octobre 2017 ;\n\nnous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2025 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.\n\n\f\n\n## Bureau 2025 - 2026\n\n|  Présidence : | Yvan Krähenbühl (PLR)  |\n| --- | --- |\n|  1^{re} Vice-présidence : | Alice Gavillet (LTDPL)  |\n|  2^{e} Vice-présidence : | Pierre Fontana (LV)  |\n|  Scrutateurs : | Heracles Dellas (Hors parti, ancien siège UDC) Manuel Lisboa (PSDG)  |\n|  Scrutateurs suppléants : | Margareta Brüssow (LCIVL) Michel Tobler (PLR)  |\n|  Secrétaire : | Carole Dind  |\n|  Huissière : | Diane Ciurlia  |\n\nLe Conseil communal a tenu 7 séances.\n\nIl est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).\n\n## Commissions permanentes\n\n### Commission des finances\n\n- Loris Berthier (PLR - Prés. 2025-2026)\n- Guy Chervet (PLR)\n- Piero Negro (PSDG)\n- Jean-Yves Schmidhauser (PSDG)\n- Ludovic Tirelli (LV)\n- Jérôme Bonvin (LCIVL)\n- Vacant (UDC)\n\n### Commission de gestion\n\n- Volker Tiemann (PLR)\n- Roger Urech (PLR)\n- Marisa Pralong (PSDG)\n- Emanuelle Jaques (LV)\n- Florian Abbet (LV)\n- Jean Wilfrid Fils-Aimé (LCIVL - Prés. 2025-2026)\n- Vacant (UDC)\n\n### Commission de recours en matière d'impôts\n\n- Guy Chervet (PLR)\n- Kurt Egli (PLR - Prés. 2025-2026)\n- Dominique Vaucoret (PSDG)\n- Roberto Carbonell (LV)\n- Pierre-Yves Charpilloz (LCIVL)\n- Vacant (UDC)\n\n## Commissions intercommunales\n\n### SIGE\n\n*Délégation variable du Conseil intercommunal :*\n\n- Pierre Cavin (PLR)\n- Michel Bloch (PSDG)\n- Véronique Ansermet (LV)\n- Jérôme Bonvin (LCIVL)\n- Guillaume Jung (Hors parti, ancien siège UDC)\n\n*Suppléance :*\n\n- Emina Ibrahimovic (PLR)\n- Hugo Huart (PSDG)\n- Amandine Gianini (LV)\n- Maria Luceron (LCIVL)\n- Vacant\n\n### CIEHL\n\n*Délégation à la Commission intercommunale de gestion :*\n\n- Margaux Dubuis (PLR)\n- Myriam Michel (LV)\n\n*Suppléance :*\n\n- Heracles Dellas (Hors parti, ancien siège UDC)\n\n**Lexique :** Les vert·e·s (LV) ; Union démocratique du centre (UDC) ; Parti socialiste et divers de gauche (PSDG) ; Le centre + indépendants plus vert-libéraux (LCIVL) ; Parti libéral radical (PLR) ; La Tour-de-Peilz libre (LTDPL).\n\n\f\n\n# Fonds culturel Riviera\n\nDélégation à la Commission intercommunale de gestion:\n\n- Janina Rioux (PLR)\n- André Gruaz (PSDG)\n\nSuppléance:\n\n- Anne-Marie Arnaud (hors parti - LTDPL)\n\n# Association sécurité Riviera\n\nDélégation fixe:\n\n- Gabrielle Heller (LV)\n- Geneviève Pasche (LV)\n\nDélégation variable du Conseil intercommunal:\n\n- Denis Champier (PLR)\n- Michel Tobler (PLR)\n- Piero Negro (PSDG)\n- Dominique Vaucoret (PSDG)\n- Pierre-Yves Charpilloz (LCIVL)\n- Heracles Dellas (Hors parti, ancien siège UDC)\n- Viviane Huber (LTDPL)\n\n# Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz\n\nDélégation:\n\n- François Grognuz (PLR)\n- Walter Steiner (PSDG)\n- Margareta Brüssow (LCIVL)\n\n# Première séance: 5 février 2025\n\n1) Assermentation de Mmes Margaux Couttet (LV), Alphonsine Gahigi (LCIVL) et M. Michel Tobler (PLR) en remplacement respectivement de Mme Anna Fenini et MM. Alois Raemy et François Vodoz, démissionnaires.\n\n2) Élection de Mme Geneviève Pasche (LV) au sein du Conseil intercommunal de l'Association sécurité Riviera en remplacement de M. Jean-Pierre Schwab.\n\n3) Élection de Mme Janina Rioux (PLR) à la commission intercommunale de gestion du Fonds culturel Riviera en remplacement de M. François Vodoz.\n\n4) Mme Valentine Python (LV) développe son postulat intitulé «Prévenir le coup de soleil numérique; pour une stratégie communale de bon usage des nouveaux outils numériques». Au vote, celui-ci est renvoyé directement à la Municipalité pour étude et rapport.\n\n5) M. Roger Urech (PLR) développe son interpellation intitulée «Zone 50? Oui, dans une zone 30 km/h». Le Conseil communal recevra une réponse écrite de la Municipalité.\n\n6) Des commissions sont nommées pour l'étude des objets suivants:\na) Préavis municipal N° 1/2025 - Restructuration du réseau centre et ouest des VMCV. Celui-ci est renvoyé à une commission composée comme suit:\n- PSDG: Walter Steiner\n- PLR: Kurt Egli, Yves Rossier\n- LV: Véronique Ansermet, Geneviève Pasche\n- LCIVL: Mireille Cornaz\n- UDC: Héraclès Dellas\nb) Préavis municipal N° 2/2025 - Demande de cré",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2025-Rapport-de-gestion-LTDP.pdf"
+    }
+  ]
+}

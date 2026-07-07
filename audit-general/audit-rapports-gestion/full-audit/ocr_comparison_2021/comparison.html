@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Comparaison OCR — Rapport de gestion 2021</title>
+  <style>
+    body{font:16px system-ui;max-width:1100px;margin:32px auto;padding:0 20px;color:#17202a}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd1d1;padding:10px;text-align:left}th{background:#eef3f7}.good{background:#e9f7ef}.warn{background:#fef9e7}code{background:#f4f6f7;padding:2px 5px}a{color:#1769aa}.box{padding:14px;border-left:5px solid #1769aa;background:#eef6fc;margin:20px 0}
+  </style>
+</head>
+<body>
+  <h1>Rapport de gestion 2021 — OCR contre extraction PDF native</h1>
+  <div class="box"><strong>Conclusion :</strong> conserver l’extraction PDF native comme texte principal pour le RAG. Utiliser l’OCR comme source complémentaire pour reconstruire les tableaux, pas comme remplacement intégral.</div>
+  <table>
+    <thead><tr><th>Contrôle</th><th>PDF natif nettoyé</th><th>Mistral OCR</th><th>Lecture</th></tr></thead>
+    <tbody>
+      <tr><td>Pages</td><td>133</td><td>133</td><td class="good">Couverture complète des deux côtés</td></tr>
+      <tr><td>Mots</td><td>60 943</td><td>67 034</td><td class="warn">OCR : +6 091 mots (+10,0 %)</td></tr>
+      <tr><td>Caractères</td><td>390 804</td><td>411 227</td><td>OCR : +5,2 %</td></tr>
+      <tr><td>Confiance OCR</td><td>—</td><td>98,52 %</td><td class="good">Très bonne reconnaissance globale</td></tr>
+      <tr><td>Lignes de tableaux Markdown</td><td>Tableaux aplatis</td><td>946</td><td class="good">Avantage net de l’OCR pour les tableaux</td></tr>
+      <tr><td>Marqueurs d’images</td><td>0</td><td>59</td><td class="warn">À supprimer avant tout embedding</td></tr>
+      <tr><td>Composants détectés</td><td>Rapport, commission, réponse</td><td>Rapport, commission, réponse</td><td class="good">Résultat identique</td></tr>
+      <tr><td>Membres de commission détectés</td><td>6</td><td>6</td><td class="good">Résultat identique</td></tr>
+      <tr><td>Observations détectées</td><td>2</td><td>Non détectées avec la règle actuelle</td><td class="warn">Le Markdown OCR change la forme des libellés</td></tr>
+    </tbody>
+  </table>
+  <h2>Recommandation de pipeline</h2>
+  <p><code>native_pdf</code> reste la source du contenu et des chunks. L’OCR peut servir uniquement à récupérer les tableaux lorsque leur structure apporte une information utile. Avant utilisation, retirer les marqueurs <code>![img-…]</code>, les coordonnées répétées et les headers/footers OCR.</p>
+  <p><a href="2021-Rapport-de-gestion-LTDP-Rapp-Dec.md">Voir le texte OCR complet</a> · <a href="../clean_text/doc_695ae1de0cfb5b717129.txt">Voir le texte natif nettoyé</a> · <a href="../audit.html">Retour à l’audit</a></p>
+</body>
+</html>

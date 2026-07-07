@@ -121,6 +121,23 @@ def council_minutes_input(base: dict, specific: dict, chunk: dict) -> tuple[str,
     return text, values, cleaning
 
 
+def annual_report_input(base: dict, chunk: dict) -> tuple[str, dict, dict]:
+    content, cleaning = clean_embedding_content(str(chunk.get("content") or ""))
+    values = {
+        "category": base.get("category"),
+        "title": base.get("title"),
+        "component": canonical_component(chunk),
+        "content": content,
+    }
+    text = (
+        f"category: {values['category']}\n"
+        f"title: {values['title']}\n"
+        f"component: {values['component']}\n\n"
+        f"{values['content'] or ''}"
+    )
+    return text, values, cleaning
+
+
 def regulation_input(base: dict, chunk: dict) -> tuple[str, dict, dict]:
     specific = chunk.get("chunk_metadata") or {}
     content, cleaning = clean_embedding_content(str(chunk.get("content") or ""))
@@ -270,6 +287,8 @@ def main() -> None:
                     elif family == "council_session":
                         specific = meta_entry["record"].get("minutes_metadata") or {}
                         embedding_input, fields, cleaning = council_minutes_input(base, specific, chunk)
+                    elif family == "annual_report":
+                        embedding_input, fields, cleaning = annual_report_input(base, chunk)
                     else:
                         embedding_input, fields, cleaning = political_input(base, chunk)
                     title = base.get("title")

@@ -1,0 +1,184 @@
+{
+  "source": {
+    "page": "https://www.la-tour-de-peilz.ch/srch/",
+    "endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+    "endpoint_category_id": "4",
+    "note": "L'identifiant 4 sert uniquement à la collecte et n'entre pas dans les métadonnées documentaires."
+  },
+  "schema": {
+    "base_fields": [
+      "commune",
+      "document_family",
+      "category",
+      "document_role",
+      "title",
+      "source_title",
+      "source_page_url",
+      "file_url",
+      "filename",
+      "listing_year",
+      "legislature"
+    ],
+    "management_fields_from_endpoint": [
+      "management_year",
+      "period_start",
+      "period_end"
+    ],
+    "deferred_to_pdf_audit": [
+      "document_date",
+      "decision_date",
+      "components",
+      "commission",
+      "observations_count",
+      "wishes_count",
+      "report_sections",
+      "processing"
+    ],
+    "cleaning_policy": {
+      "remove": [
+        "page_numbers",
+        "repeated_running_headers",
+        "repeated_running_footers",
+        "postal_contact_blocks"
+      ],
+      "preserve": [
+        "department_headings",
+        "table_titles",
+        "table_rows",
+        "commission_observations",
+        "municipal_responses"
+      ]
+    }
+  },
+  "diagnostics": {
+    "endpoint_rows_all_years": 20,
+    "pages_fetched": 1,
+    "reports_2021_2026": 5,
+    "unique_pdf_urls": 5,
+    "missing_management_year": 0,
+    "with_commission_report": 5,
+    "with_municipal_response": 5
+  },
+  "documents": [
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "annual_report",
+      "category": "rapport_gestion",
+      "document_role": "combined_management_report_commission_response",
+      "title": "Rapport de gestion 2021",
+      "source_title": "Rapport de gestion",
+      "source_subject": "2021 + Rapport de la commission de gestion + Réponse de la Municipalité",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2021-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "filename": "2021-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "listing_year": 2021,
+      "legislature": "2021-2026",
+      "management_year": 2021,
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "listing_contains_commission_report": true,
+      "listing_contains_municipal_response": true,
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "annual_report",
+      "category": "rapport_gestion",
+      "document_role": "combined_management_report_commission_response",
+      "title": "Rapport de gestion 2022",
+      "source_title": "Rapport de gestion",
+      "source_subject": "2022 + Rapport de la commission de gestion + Réponse de la Municipalité",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2022-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "filename": "2022-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "listing_year": 2022,
+      "legislature": "2021-2026",
+      "management_year": 2022,
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "listing_contains_commission_report": true,
+      "listing_contains_municipal_response": true,
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "annual_report",
+      "category": "rapport_gestion",
+      "document_role": "combined_management_report_commission_response",
+      "title": "Rapport de gestion 2023",
+      "source_title": "Rapport de gestion",
+      "source_subject": "2023 + Rapport de la commission de gestion + Réponse de la Municipalité",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+      "filename": "2023-Rapport-de-gestion-LTDP-Rapp-dec.pdf",
+      "listing_year": 2023,
+      "legislature": "2021-2026",
+      "management_year": 2023,
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "listing_contains_commission_report": true,
+      "listing_contains_municipal_response": true,
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "annual_report",
+      "category": "rapport_gestion",
+      "document_role": "combined_management_report_commission_response",
+      "title": "Rapport de gestion 2024",
+      "source_title": "Rapport de gestion",
+      "source_subject": "2024 + Rapport de la commission de gestion + Réponse de la Municipalité",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "filename": "2024-Rapport-de-gestion-LTDP-Rapp-Dec.pdf",
+      "listing_year": 2024,
+      "legislature": "2021-2026",
+      "management_year": 2024,
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "listing_contains_commission_report": true,
+      "listing_contains_municipal_response": true,
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "annual_report",
+      "category": "rapport_gestion",
+      "document_role": "combined_management_report_commission_response",
+      "title": "Rapport de gestion 2025",
+      "source_title": "Rapport de gestion",
+      "source_subject": "2025 + Rapport de la commission de gestion + Réponse de la Municipalité",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2025-Rapport-de-gestion-LTDP.pdf",
+      "filename": "2025-Rapport-de-gestion-LTDP.pdf",
+      "listing_year": 2025,
+      "legislature": "2021-2026",
+      "management_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "listing_contains_commission_report": true,
+      "listing_contains_municipal_response": true,
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    }
+  ],
+  "legacy_comparison": {
+    "new_count": 5,
+    "legacy_count": 4,
+    "common": 4,
+    "only_in_new": [
+      "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/rapport-de-gestion/2025-Rapport-de-gestion-LTDP.pdf"
+    ],
+    "only_in_legacy": [],
+    "same_url_set": false
+  }
+}

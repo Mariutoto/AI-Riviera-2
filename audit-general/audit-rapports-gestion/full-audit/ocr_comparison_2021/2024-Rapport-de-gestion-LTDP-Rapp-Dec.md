@@ -1,0 +1,5285 @@
+![img-0.jpeg](img-0.jpeg)
+
+RAPPORT DE GESTION 2024
+
+
+
+# TABLE DES MATIÈRES
+
+|  CONSEIL COMMUNAL | 5  |
+| --- | --- |
+|  VOTATIONS ET ÉLECTIONS | 15  |
+|  MUNICIPALITÉ | 17  |
+|  ADMINISTRATION GÉNÉRALE | 19  |
+|  Greffé municipal | 20  |
+|  Ressources humaines | 22  |
+|  Communication | 25  |
+|  ABCDé | 26  |
+|  Archives communales | 28  |
+|  FINANCES | 29  |
+|  Finances | 30  |
+|  Informatique | 31  |
+|  Office de la population | 33  |
+|  DOMAINES ET BÂTIMENTS | 35  |
+|  Administration | 36  |
+|  Stratégie et planification immobilière 2024-2040 | 37  |
+|  Projets, travaux, ingénierie | 37  |
+|  Gérance, entretien, conciergerie | 47  |
+|  Forêts, alpages, vignes, vins | 51  |
+|  URBANISME ET TRAVAUX PUBLICS | 53  |
+|  Administration et technique | 54  |
+|  Espaces publics | 64  |
+|  Office des inhumations | 67  |
+|  FAMILLE, JEUNESSE, SPORT ET CULTURE | 69  |
+|  Administration et actions sociales | 70  |
+|  Accueil en réfectoires scolaires | 73  |
+|  Conseiller école famille | 73  |
+|  Accueil familial de jour | 75  |
+|  Sport et jeunesse | 76  |
+|  Affaires culturelles | 82  |
+|  Commission culturelle | 84  |
+|  Jumelage avec Ornans | 84  |
+|  ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE | 85  |
+|  Organigramme | 87  |
+|  Abréviations | 88  |
+
+
+
+# **RAPPORT**
+
+## **DE LA MUNICIPALITÉ DE LA TOUR-DE-PEILZ**
+
+## **AU CONSEIL COMMUNAL**
+
+## **SUR SA GESTION PENDANT**
+
+## **L'EXERCICE 2024**
+
+Madame la Présidente,
+Mesdames et Messieurs les membres du Conseil communal,
+
+*Conformément aux dispositions suivantes :*
+
+- la Loi du 28 février 1956 sur les communes ;
+- l'Arrêté du Conseil d'État du 14 décembre 1979 sur la comptabilité des communes ;
+- le Règlement du Conseil communal du 25 octobre 2017 ;
+
+nous avons l'honneur de vous présenter notre rapport de gestion concernant l'exercice 2024 et de soumettre à votre approbation les comptes de la Commune, arrêtés au 31 décembre de la même année.
+
+
+
+# CONSEIL COMMUNAL
+
+## Bureau 2024 - 2025
+
+|  Présidence : | Manon Roethlisberger (LCIVL)  |
+| --- | --- |
+|  1^{re} Vice-présidence : | Yvan Krähenbühl (PLR)  |
+|  2^{e} Vice-présidence : | Jean Etienne Holzeisen (LTDPL)  |
+|  Scrutateurs : | Diego Pasquali (LV) Heracles Dellas (UDC)  |
+|  Scrutateurs suppléants : | Manuel Lisboa (PSDG) Margareta Brüssow (LCIVL)  |
+|  Secrétaire : | Carole Dind  |
+|  Huissier : | Vacant  |
+
+Le Conseil communal a tenu 7 séances.
+
+Il est à noter que la secrétaire de notre Conseil est membre du comité de l'Association des secrétaires de conseils communaux et généraux vaudois (ASCCGV).
+
+## Commissions permanentes
+
+### Commission des finances
+
+- Loris Berthier (PLR)
+- Guy Chervet (PLR)
+- Piero Negro (PSDG - Prés. 2024-2025)
+- Jean-Yves Schmidhauser (PSDG)
+- Ludovic Tirelli (LV)
+- Jérôme Bonvin (LCIVL)
+- Viviane Huber (LTDPL pour l'UDC)
+
+### Commission de gestion
+
+- Volker Tiemann (PLR)
+- Roger Urech (PLR - Prés. 2024-2025)
+- Marisa Pralong (PSDG)
+- Emanuelle Jaques (LV)
+- Florian Abbet (LV)
+- Jean Wilfrid Fils-Aimé (LCIVL)
+- Jean Etienne Holzeisen (LTDPL pour l'UDC)
+
+### Commission de recours en matière d'impôts
+
+- Kurt Egli (PLR)
+- Yvan Krähenbühl (PLR - Prés. 2024-2025)
+- Dominique Vaucoret (PSDG)
+- Roberto Carbonell (LV)
+- Pierre-Yves Charpilloz (LCIVL)
+- Nathalie Demarta (UDC)
+
+## Commissions intercommunales
+
+### SIGE
+
+*Délégation variable du Conseil intercommunal :*
+
+- Pierre Cavin (PLR)
+- Michel Bloch (PSDG)
+- Véronique Ansermet (LV)
+- Jérôme Bonvin (LCIVL)
+- Guillaume Jung (UDC)
+
+*Suppléance :*
+
+- Emina Ibrahimovic (PLR)
+- Hugo Huart (PSDG)
+- Amandine Gianini (LV)
+- Maria Luceron (LCIVL)
+- Marc Wüthrich (LTDPL)
+
+### CIEHL
+
+*Délégation à la Commission intercommunale de gestion :*
+
+- Margaux Dubuis (PLR)
+- Myriam Michel (LV)
+
+*Suppléance :*
+
+- Heracles Dellas (UDC)
+
+**Lexique :** Les vert·e·s (LV) ; Union démocratique du centre (UDC) ; Parti socialiste et divers de gauche (PSDG) ; Le centre + indépendants plus vert-libéraux (LCIVL) ; Parti libéral radical (PLR) ; La Tour-de-Peilz libre (LTDPL).
+
+
+
+## Fonds culturel Riviera
+
+Délégation à la Commission intercommunale de gestion :
+
+- François Vodoz (PLR)
+- André Gruaz (PSDG)
+
+Suppléance :
+
+- Anne-Marie Arnaud (hors parti - LTDPL)
+
+## Association sécurité Riviera
+
+Délégation fixe :
+
+- Gabrielle Heller (LV)
+
+Délégation variable du Conseil intercommunal :
+
+- Denis Champier (PLR)
+- Yvan Krähenbühl (PLR)
+- Piero Negro (PSDG)
+- Dominique Vaucoret (PSDG)
+- Pierre-Yves Charpilloz (LCIVL)
+- Heracles Dellas (UDC)
+- Viviane Huber (LTDPL)
+
+## Conseil d'établissement de l'établissement primaire et secondaire de La Tour-de-Peilz
+
+Délégation :
+
+- François Grognuz (PLR)
+- Walter Steiner (PSDG)
+- Margareta Brüssow (LCIVL)
+
+## Première séance : 7 février 2024
+
+1) Assermentation de Mmes Valentine Python (LV) et Emanuelle Jaques (LV) en remplacement respectivement de Mmes Marion Savoy et Andrea Krenger, démissionnaires.
+
+2) Élection de M. Jérôme Bonvin (LCIVL) au sein de la Commission des finances en remplacement de M. Michael Rohrer.
+
+3) Élection de M. Pierre-Yves Charpilloz (LCIVL) à la commission de recours en matière d'impôts communaux en remplacement de M. Michael Rohrer.
+
+4) Élection de Mme Marisa Pralong (PSDG) à la Commission de gestion en remplacement de Mme Ziva Tavcar.
+
+5) Mme Geneviève Pasche (LV) développe son interpellation intitulée « Une maison de la Sécurité, à TOUT prix ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.
+
+6) M. Jean Etienne Holzeisen (LTDPL) développe son interpellation intitulée « Moteur de recherche politique - Un outil qui cherche et qui trouve ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.
+
+7) Réponses de la Municipalité :
+
+a) N° 1/2024 - Interpellation de Mme Anne-Marie Arnaud (hors parti) « Communication Municipale 29/2023 - Plan directeur de la mobilité - Tous à vélo et les séniors en dring-dring »
+
+b) N° 2/2024 - Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? ». L'interpellateur étant absent, cet objet est reporté à la séance suivante.
+
+8) Des commissions sont nommées pour l'étude des objets suivants :
+
+a) Préavis municipal N° 1/2024 - Budget 2024 de l'Entente intercommunale de la taxe de séjour et de la taxe sur les résidences secondaires Riviera - Villeneuve (CITS). Cet objet est renvoyé à la Commission des finances.
+
+b) Préavis municipal N° 2/2024 - Demande de crédit de construction de Fr. 142'000.- pour l'aménagement de vestiaires séparés hommes et femmes à Béranges 111. Celui-ci est renvoyé à une commission composée comme suit :
+- PLR : Brigitte Fahrni Chiusano, Gabriel Chervet
+- PSDG : Manuel Lisboa, Jimmy Suro
+- LV : Emanuelle Jaques
+- LCIVL : Pierre-Yves Charpilloz
+- UDC : Gabriel Ranzato
+
+c) Préavis municipal N° 3/2024 - Demande de crédit de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires. Celui-ci est renvoyé à une commission composée comme suit :
+- PSDG : Marie Schmidhauser
+- PLR : Janina Rioux, Roger Urech
+- LV : Maude Froidevaux, Diego Pasquali
+- LCIVL : Jean Wilfrid Fils-Aimé
+- UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+
+9) Le Conseil communal adopte les conclusions de l'objet examiné par la commission ad hoc :
+
+a) Rapport de la commission chargée de l'examen de la pétition intitulée « Pour le désengagement de la Commune de Police Riviera - Demande de mise en place d'un corps de police communal de proximité ».
+
+10) Le Conseil communal prend acte des communications municipales suivantes :
+
+a) N° 1/2024 - État des motions et postulats en suspens au 31 décembre 2023
+b) N° 2/2024 - Projet d'antennes de télécommunication 5G sur le territoire communal
+c) N° 3/2024 - Stationnement au centre-ville - Macarons A1
+d) N° 4/2024 - Nouvelles durées d'amortissement dès 2024 - Conclusions des préavis
+e) N° 5/2024 - Mise à l'enquête de la rénovation et transformation de la Maison Charlemagne
+
+
+
+f) N° 6/2024 - Mise à disposition d'espaces de stockage pour les partis politiques
+g) N° 7/2024 - Établissement d'un plan d'extension des écoles et de l'accueil parascolaire pour La Tour-de-Peilz.
+
+# Deuxième séance : 20 mars 2024
+
+1) Élection de M. Marc Wüthrich (LTDPL) en qualité de membre suppléant à la délégation variable du Conseil intercommunal du SIGE en remplacement de M. Jean Etienne Holzeisen.
+
+2) M. Yann Boulben Meyer (LTDPL) développe son postulat intitulé « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux? ». Celui-ci est renvoyé à une commission composée comme suit :
+
+- LV : Valentine Python
+- PLR : Bernadette Menétrey, Salvatore Noto
+- PSDG : Manuel Lisboa, Valentine Schmidhauser
+- LCIVL : Margareta Brüssow
+- UDC : Heracles Dellas
+- LTDPL : Yann Boulben Meyer
+
+3) M. Yann Boulben Meyer (LTDPL) développe son postulat intitulé « Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz ». Au vote, celui-ci est renvoyé directement à la Municipalité pour étude et rapport.
+
+4) Réponses de la Municipalité :
+
+a) N° 2/2024 - Interpellation de M. Alessio Grutta (PLR) « A-t-on perdu les pédales ? »
+b) N° 3/2024 - Interpellation de M. Jean Etienne Holzeisen (LTDPL) « Moteur de recherche politique - Un outil qui cherche et qui trouve ? »
+c) N° 4/2024 - Interpellation de Mme Geneviève Pasche & consorts « Une maison de la Sécurité, à TOUT prix ? »
+
+5) M. Jean Etienne Holzeisen (LTDPL) développe son interpellation intitulée « Kiosques sur le quai Roussy : Condition d'attribution et de reconduction ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.
+
+6) Des commissions sont nommées pour l'étude des objets suivants :
+
+a) Préavis municipal N° 4/2024 - Demande d'un crédit de Fr. 215'000.- pour le réaménagement du boulevard d'Arcangier.
+- PLR : Kurt Egli, Yves Rossier
+- PSDG : André Gruaz
+- LV : Véronique Ansermet, Diego Pasquali
+- LCIVL : Pierre-Yves Charpilloz
+- UDC : représenté par Marc Wüthrich (LTDPL)
+
+b) Préavis municipal N° 5/2024 - Fixation des indemnités de la secrétaire du Conseil communal pour le reste de la législature 2021-2026.
+
+- LV : Maëlle Le Boudec
+- PLR : Alessio Grutta, Roger Urech
+- PSDG : Philippe Neyroud, Marie Schmidhauser
+- LCIVL : Jean Wilfrid Fils-Aimé
+- UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+
+c) Préavis municipal N° 6/2024 - Réponse à la motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château un programme pour toutes et tous.
+
+- LCIVL : Alois Raemy
+- PLR : Michel Chappuis, Margaux Dubuis
+- PSDG : Michel Bloch
+- LV : Aude Lerch, Geneviève Pasche
+- UDC : représenté par Yann Boulben Meyer (LTDPL)
+
+d) Préavis N° 7/2024 - Réponse au postulat de M. Niklas Tiemann (LV) et consorts - Pour des subventions mobilité répandues et efficaces.
+
+- PLR : Loris Berthier, Alessio Grutta
+- PSDG : Jimmy Suro, Manuel Lisboa
+- LV : Maude Froidevaux
+- LCIVL : Margareta Brüssow
+- UDC : représenté par Yann Boulben Meyer (LTDPL)
+
+e) Préavis N° 8/2024 - Demande d'un crédit de Fr. 130'000.- pour l'étude du réaménagement de la place du Four et l'amélioration du quai et du jardin Roussy ainsi que la création d'un plan des plantations pour renouveler à court terme le patrimoine arboré du jardin Roussy.
+
+- PSDG : Michel Bloch
+- PLR : Denis Champier, Salvatore Noto
+- LV : Myriam Michel, Valentine Python
+- LCIVL : Pierre-Yves Charpilloz
+- UDC : Nathalie Demarta
+
+7) Le vote sur le préavis municipal N° 21/2023 - Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts « Quel avenir pour Campagne Rossier ? » est reporté à l'ordre du jour de la prochaine séance.
+
+8) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :
+
+a) Préavis municipal N° 1/2024 - Budget 2024 de l'Entente intercommunale de la taxe de séjour et de la taxe sur les résidences secondaires Riviera - Villeneuve (CITS).
+b) Préavis municipal N° 2/2024 - Demande de crédit de construction de Fr. 142'000.- pour l'aménagement de vestiaires séparés hommes et femmes à Béranges 111.
+c) Préavis municipal N° 3/2024 - Demande de crédit de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires.
+
+
+
+9) Le Conseil communal prend acte de la communication municipale N° 8/2024 - Projet solaire intercommunal « Group-IT Région Riviera » destiné aux propriétaires.
+
+# Troisième séance : 15 mai 2024
+
+1) Une commission consultative est nommée pour l'examen de l'avant-projet de la révision des statuts de l'Association sécurité Riviera. Celle-ci est composée comme suit :
+
+- UDC : représenté par Marc Wüthrich (LTDPL)
+- PLR : Denis Champier, Yvan Krähenbühl
+- PSDG : Manuel Lisboa, Piero Negro
+- LV : Geneviève Pasche
+- LCIVL : Jean Wilfrid Fils-Aimé
+
+2) M. Jean-Yves Schmidhauser (PSDG) développe son interpellation intitulée « Quand la construction va à tout va, tout ne va pas ». Le Conseil recevra une réponse écrite de la Municipalité.
+
+3) Des commissions sont nommées pour l'étude des objets suivants :
+
+a) Préavis municipal N° 9/2024 - Gestion et comptes 2023 du Fonds culturel Riviera (FCR). Le préavis est renvoyé à la Commission intercommunale de gestion du Fonds culturel Riviera.
+
+b) Préavis municipal N° 10/2024 - Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL). Le préavis est renvoyé à la Commission intercommunale de gestion de la Communauté intercommunale d'équipement du Haut-Léman.
+
+c) Préavis municipal N° 11/2024 - Dépenses imprévisibles et exceptionnelles. Le préavis est renvoyé à la Commission de gestion.
+
+d) Préavis municipal N° 12/2024 - Gestion et comptes 2023 de la Commune de La Tour-de-Peilz. Le préavis est renvoyé à la Commission de gestion.
+
+e) Préavis municipal N° 13/2024 - Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »
+
+- PSDG : Lyonel Kaufmann
+- PLR : Denis Champier, Claude Delessert
+- LV : Myriam Michel, Valentine Python
+- LCIVL : Mireille Cornaz
+- UDC : représenté par Marc Wüthrich (LTDPL)
+
+f) Préavis municipal N° 14/2024 - Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la Maison Charlemagne et la création de bureaux pour l'administration communale
+
+- LV : Anouk Dandrieu
+- PLR : Anthony Abbott, Alessio Grutta
+- PSDG : Manuel Lisboa, Valentine Schmidhauser
+- LCIVL : Pierre-Yves Charpilloz
+- UDC : Heracles Dellas
+
+g) Préavis municipal N° 15/2024 - Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet
+
+- PLR : Guy Chervet, Christine Hausherr de-Maddalena
+- PSDG : Michel Bloch
+- LV : Véronique Ansermet, Diego Pasquali
+- LCIVL : Jérôme Bonvin
+- UDC : représenté par Viviane Huber (LTDPL)
+
+h) Préavis municipal N° 16/2024 - Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz
+
+- LCIVL : Jean Wilfrid Fils-Aimé
+- PLR : Janina Rioux, Yves Rossier
+- PSDG : Manuel Lisboa, Philippe Neyroud
+- LV : Roberto Carbonell
+- UDC : Guillaume Jung
+
+i) Préavis municipal N° 17/2024 - Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Béranges et du Gregnolet
+
+- PLR : Kurt Egli, Roger Urech
+- PSDG : André Gruaz
+- LV : José Luis Carrasco, Pierre Fontana
+- LCIVL : Maria Luceron
+- UDC : Guillaume Jung
+
+4) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :
+
+a) Préavis municipal N° 21/2023 - Réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) & consorts « Quel avenir pour Campagne Rossier ? ».
+
+b) Préavis municipal N° 4/2024 - Demande d'un crédit de Fr. 215'000.- pour le réaménagement du boulevard d'Arcangier.
+
+c) Préavis municipal N° 5/2024 - Fixation des indemnités de la secrétaire du Conseil communal pour le reste de la législature 2021-2026.
+
+d) Préavis municipal N° 6/2024 - Réponse à la motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts - Le château un programme pour toutes et tous.
+
+e) Préavis municipal N° N° 7/2024 - Réponse au postulat de M. Niklas Tiemann (LV) et consorts - Pour des subventions mobilité répandues et efficaces.
+
+f) Prise en considération du postulat de M. Yann Boulben Meyer (LTDPL) « Pour une gouvernance d'excellence : renforcement de la formation des conseillers communaux »
+
+5) Le Conseil communal a refusé les conclusions du préavis municipal N° 8/2024 - Demande d'un crédit de Fr. 130'000.- pour l'étude du réaménagement de la place
+
+
+
+du Four et l'amélioration du quai et du jardin Roussy ainsi que la création d'un plan des plantations pour renouveler à court terme le patrimoine arboré du jardin Roussy.
+
+6) Le Conseil communal prend acte des communications municipales suivantes :
+
+a) N° 9/2024 - Précisions de la Municipalité concernant le courrier de l'avocat des propriétaires des parcelles 1025 et 1378 - secteur « Campagne Rossier ».
+b) N° 10/2024 - Travaux d'aménagement des pavillons sis rue du Collège pour la création de 54 places supplémentaires pour l'accueil parascolaire - Décompte final.
+c) N° 11/2024 - Demande de Mme Janina Rioux (PLR) relative au rapport d'expertise sur l'évolution démographique scolaire.
+d) N° 12/2024 - Création de deux nouveaux emplacements d'autopartage « Mobility » sur le territoire communal.
+e) N° 13/2024 - Mise à l'enquête du projet d'aménagement des « Jardins de l'Oyonne ».
+f) N° 14/2024 - Édition de deux directives municipales relatives à l'installation de panneaux solaires dans la zone du Bourg et au processus d'approbation des couleurs et matériaux des revêtements extérieurs des bâtiments.
+
+# Quatrième séance : 26 juin 2024
+
+1) Élection du Bureau du Conseil pour 2024-2025 :
+
+Présidence : Manon Roethlisberger (LCIVL)
+1re Vice-présidence : Alessio Grutta (PLR)
+2e Vice-présidence : Jean Etienne Holzeisen (LTDPL)
+Scrutateurs : Diego Pasquali (LV)
+Heracles Dellas (UDC)
+Scrutateurs suppléants : Manuel Lisboa (PSDG)
+Margareta Brüssow (LCIVL)
+
+2) Élection de Mme Emanuelle Jaques (LV) à la commission de gestion en remplacement de Mme Geneviève Pasche.
+
+3) M. Heracles Dellas (UDC) développe sa motion, cosignée avec d'autres membres du Conseil, intitulée « Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux ». Celle-ci est renvoyée à une commission composée comme suit :
+
+- LV : Geneviève Pasche
+- PLR : Marianne Adank, Yves Rossier
+- PSDG : Piero Negro, Philippe Neyroud
+- LCIVL : Alois Raemy
+- UDC : Heracles Dellas
+
+4) M. Marc Wüthrich (LTDPL) développe le postulat déposé par sa formation politique « Murs-Blancs : un petit coin de nature contre un rond-point de bon augure ». Suite aux informations reçues en plenum, le texte est retiré.
+
+5) Mme Anne-Marie Arnaud (hors parti) développe son interpellation intitulée « Que faire des camping-cars en ville, spécialement dans le Bourg et le long du quai ? ». Le Conseil communal recevra une réponse écrite de la Municipalité.
+
+6) M. Piero Negro (PSDG) développe son interpellation intitulée « Que prévoit la Poste pour « Notre Poste » ? ». Il y est répondu séance tenante.
+
+7) Des commissions sont nommées pour l'étude des objets suivants :
+
+a) Préavis municipal N° 18/2024 - Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard.
+
+- PSDG : Walter Steiner
+- PLR : Yvan Krähenbühl, Salvatore Noto
+- LV : Amandine Gianini, Gabrielle Heller
+- LCIVL : Margareta Brüssow
+- UDC : Guillaume Jung
+
+b) Préavis municipal N° 19/2024 - Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal.
+
+- PLR : Bernadette Menétrey, Marianne Adank
+- PSDG : Michel Bloch, Jimmy Suro
+- LV : Roberto Carbonell
+- LCIVL : Jean Wilfrid Fils-Aimé
+- UDC : Gabriel Ranzato
+
+c) Préavis municipal N° 20/2024 - Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu ».
+
+- UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+- PLR : Anthony Abbott, Yves Rossier
+- PSDG : Manuel Lisboa
+- LV : Maude Froidevaux, Myriam Michel
+- LCIVL : Maria Luceron
+
+d) Préavis municipal N° 21/2024 - Réponse au postulat de M. Yann Boulben Meyer (LTDPL) - Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz (traité par la même commission que le préavis N° 22/2024)
+
+e) Préavis municipal N° 22/2024 - Réponse au postulat de M. Alessio Grutta (PLR) - Soutenons nos étudiants boélands
+
+- LV : Gabrielle Heller
+- PLR : Gabriel Chervet, Alessio Grutta
+- PSDG : André Gruaz, Marisa Pralong
+- LCIVL : Pierre-Yves Charpilloz
+- UDC : Heracles Dellas
+- LTDPL : Yann Boulben Meyer
+
+
+
+8) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :
+a) Préavis municipal N° 9/2024 - Gestion et comptes 2023 du Fonds culturel Riviera.
+b) Préavis municipal N° 10/2024 - Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL).
+c) Préavis municipal N° 11/2024 - Dépenses imprévisibles et exceptionnelles (intégré au rapport de la COGEST) et préavis municipal N° 12/2024 relatif à la gestion et aux comptes de la Commune pour l'exercice 2023 et réponses de la Municipalité aux observations et aux vœux de la commission.
+d) Préavis municipal N° 13/2024 - Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité ».
+e) Préavis municipal N° 14/2024 - Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la Maison Charlemagne et la création de bureaux pour l'administration communale.
+f) Préavis municipal N° 15/2024 - Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet.
+g) Préavis municipal N° 16/2024 - Demande pour un crédit de construction de Fr. 360'000.- destiné à l'entretien et la rénovation du mur d'escarpe au pied des courtines du château de La Tour-de-Peilz.
+h) Préavis municipal N° 17/2024 - Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Croton, des Vignes, de Béranges et du Gregnolet.
+9) Le Conseil communal prend acte des communications municipales suivantes :
+a) N° 15/2024 - Affichage public - Nouveau concessionnaire dès le 1er juillet 2024.
+b) N° 16/2024 - Préavis N° 10/2022 - Réaménagement et sécurisation du chemin du Gregnolet - Décompte final.
+c) N° 17/2024 - Interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » - Prolongation du délai de réponse.
+d) N° 18/2024 - Réponse à la question de M. André Gruaz (PSDG) - Mise en place de zones de baignade délimitées aux Bains de la Becque et à la plage de la Maladaire.
+e) N° 19/2024 - Création d'une allée au centre-ville en hommage à Mme Françoise Siegfried-Meier.
+f) N° 20/2024 - Horaires d'été de l'administration communale.
+
+# Cinquième séance : 11 septembre 2024
+
+1) Assermentation de M. Dan Ziehli (UDC) en remplacement de M. Nicolas Fardel, démissionnaire.
+2) Élection de Mme Viviane Huber (LTDPL) à la commission des finances en remplacement de M. Nicolas Fardel (UDC).
+3) Élection de M. Kurt Egli (PLR) à la Commission de recours en matière d'impôts en remplacement de M. Alessio Grutta.
+4) Élection de M. Yvan Krähenbühl (PLR) à la vice-présidence du bureau du Conseil communal en remplacement de M. Alessio Grutta.
+5) M. Jean Etienne Holzeisen (LTDPL) développe le projet de modification du règlement sur le stationnement de La Tour-de-Peilz cosigné avec d'autres membres du Conseil.
+6) Mme Véronique Ansermet (LV) développe son interpellation intitulée « Les arbres ont-ils encore feuillé au chapitre ? ». Le Conseil recevra une réponse écrite.
+7) M. Jérôme Bonvin (LCIVL) développe sa motion, cosignée avec d'autres membres du Conseil, intitulée « Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz. ». Celle-ci est renvoyée à une commission composée comme suit :
+- PSDG : Michel Bloch
+- PLR : Kurt Egli, Yves Rossier
+- LV : Véronique Ansermet, Geneviève Pasche
+- LCIVL : Jérôme Bonvin
+- UDC : Nathalie Demarta
+8) Pris acte de la réponse municipale N° 5/2024 - Interpellation de Mme Anne-Marie Arnaud (hors parti) - Que faire des CAMPING-CARS en ville, spécialement dans le Bourg et le long du quai ?
+9) Des commissions sont nommées pour l'étude des objets suivants :
+a) Préavis municipal N° 23/2024 - Arrêté d'imposition pour la période 2025-2026. Le préavis est renvoyé à la Commission des finances.
+b) Préavis municipal N° 24/2024 - Demande d'un crédit de construction de Fr. 4'500'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116.
+- PLR : Yves Rossier, Anthony Abbott
+- PSDG : Michel Bloch, Jimmy Suro
+- LV : Anouk Dandrieu
+- LCIVL : Maria Luceron
+- UDC : représenté par Viviane Huber (LTDPL)
+
+
+
+c) Préavis municipal N° 25/2024 - Demande d'un crédit construction de Fr. 140'000.- pour l'installation de tableaux et écrans interactifs dans les classes du collège des Marronniers.
+
+- LCIVL : Margareta Brussow
+- PLR : Denis Champier, Janina Rioux
+- PSDG : Hugo Huart
+- LV : José Luis Carrasco, Gabrielle Heller
+- UDC : Heracles Dellas
+
+d) Préavis municipal N° 26/2024 - Demande d'un crédit de réalisation de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle.
+
+- PLR : Sophie Blank Barbezat, Bernadette Menétrey
+- PSDG : Marie Schmidhauser, Jimmy Suro
+- LV : Maëlle Le Boudec
+- LCIVL : Michael Rohrer
+- UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+
+e) Préavis municipal N° 27/2024 - Demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collège des Mousquetaires.
+
+- PSDG : Piero Negro
+- PLR : Denis Champier, Gabriel Chervet
+- LV : Florian Abbet, Emanuelle Jaques
+- LCIVL : Mireille Cornaz
+- UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+
+10) Le Conseil communal refuse les conclusions des objets examinés par les commissions ad hoc :
+
+a) Prise en considération de la motion de M. Heracles Dellas (UDC) & consorts - Pour une gouvernance de La Tour-de-Peilz à 7 conseillers municipaux.
+
+b) Préavis municipal N° 18/2024 - Demande d'un crédit d'étude de Fr. 305'000.- pour l'étude du renouvellement urbain et des infrastructures souterraines de l'avenue de la Gare et de l'allée Gertrude Montet Girard.
+
+11) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :
+
+a) Préavis municipal N° 19/2024 - Demande d'un crédit de réalisation de Fr. 46'000.- pour l'assainissement du bruit routier et la mise en place d'une limitation à 30 km/h de nuit sur certains axes du réseau routier communal.
+
+b) Préavis municipal N° 20/2024 - Demande d'un crédit d'étude de Fr. 80'000.- pour une analyse et l'élaboration d'une stratégie pour le projet de positionnement « La Tour-de-Peilz, Ville du Jeu ».
+
+c) Préavis municipal N° 21/2024 - Réponse au postulat de M. Yann Boulben Meyer (LTDPL) - Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz.
+
+12) Pris acte du retrait, par la Municipalité, du préavis N° 22/2024 - Réponse au postulat de M. Alessio Grutta (PLR) - Soutenons nos étudiants boélands.
+
+13) Le Conseil communal prend acte des communications municipales suivantes :
+
+a) N° 21/2024 - Quai Roussy - Mise au concours des emplacements de kiosques saisonniers.
+b) N° 22/2024 - Camping de la Maladaire - Achat des parcelles Nos 499 et 500 à La Tour-de-Peilz.
+c) N° 23/2024 - L'Association sécurité Riviera rencontre la population boélande.
+d) N° 25/2024 - Initiatives et référendums - Falsification de signatures.
+
+# Sixième séance : 30 octobre 2024
+
+1) Assermentation de Mmes Emina Ibrahimovic (PLR) et Alice Gavillet (LTDPL) en remplacement respectivement de MM. Alessio Grutta et Yann Boulben Meyer.
+
+2) Élection de M. Jean Wilfrid Fils-Aimé (LCIVL) à la Commission de gestion en remplacement de Mme Mireille Cornaz.
+
+3) Élection de Mme Viviane Huber (LTDPL) à la Délégation variable du Conseil intercommunal de l'Association sécurité Riviera en remplacement de M. Yann Boulben Meyer (LTDPL).
+
+4) Nomination d'une commission pour la prise en considération du projet de modification du règlement sur le stationnement de La Tour-de-Peilz de M. Jean Etienne Holzeisen (LTDPL) et consorts.
+
+- LV : Anouk Dandrieu
+- PLR : Loris Berthier, Kurt Egli
+- PSDG : Philippe Neyroud, Jimmy Suro
+- LCIVL : Jean Wilfrid Fils-Aimé
+- UDC : Heracles Dellas
+- LTDPL : Jean Etienne Holzeisen
+
+5) Mme Janina Rioux (PLR) développe son postulat, cosigné avec M. Michel Chappuis (PLR), intitulé « La durabilité - un défi qui nous concerne tous. ». Celui-ci est renvoyé à une commission composée comme suit :
+
+- UDC : représenté par Viviane Huber (LTDPL)
+- PLR : Michel Chappuis, Janina Rioux
+- PSDG : Jean-Yves Schmidhauser
+- LV : Myriam Michel, Valentine Python
+- LCIVL : Margareta Brussow
+
+6) Réponses de la Municipalité :
+
+a) N° 6/2024 - Interpellation de M. Jean-Yves Schmidhauser (PSDG) - Quand la construction va à tout va, tout ne va pas.
+
+
+
+b) N° 7/2024 - Interpellation de Mme Véronique Ansermet (LV) - Les arbres ont-ils encore feuillé au chapitre ?7) Des commissions sont nommées pour l'étude des objets suivants :- a) Préavis municipal N° 31/2024 - Budget 2025 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL). Le préavis est renvoyé à la Commission intercommunale de gestion de la Communauté intercommunale d'équipements du Haut-Léman.
+- b) Préavis municipal N° 32/2024 - Budget 2025 du Fonds culturel Riviera. Le préavis est renvoyé à la Commission intercommunale de gestion du Fonds culturel Riviera.
+- c) Préavis municipal N° 33/2024 - Budget 2025 de la Commune de La Tour-de-Peilz. Le préavis est renvoyé à la Commission des finances.
+- d) Préavis municipal N° 34/2024 - Édition d'un Règlement communal concernant les émoluments administratifs en matière de police des constructions.
+  - • PLR : Brigitte Fahrni Chiusano, Yves Rossier
+  - • PSDG : Manuel Lisboa, Walter Steiner
+  - • LV : Maëlle Le Boudec
+  - • LCIVL : Margareta Brüssow
+  - • UDC : Gabriel Ranzato
+- e) Préavis municipal N° 35/2024 - Octroi de la bourgeoisie d'honneur de La Tour-de-Peilz à M. Claude de Ribaupierre, alias Derib, auteur de bandes dessinées.
+  - • PLR : Bernadette Menétrey, Margaux Dubuis
+  - • PSDG : Marie Schmidhauser
+  - • LV : Pierre Fontana, Maude Froidevaux
+  - • LCIVL : Mireille Cornaz
+  - • UDC : Nathalie Demarta8) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :- a) Préavis municipal N° 28/2024 et rapport de la commission des finances chargée d'étudier les comptes 2023 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve (CITS) (accepté avec amendements).
+- b) Préavis municipal N° 29/2024 et rapport de la commission des finances chargée d'étudier le budget 2025 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve (CITS).
+- c) Préavis municipal N° 30/2024 et rapport de la commission chargée d'étudier la révision partielle des Statuts de l'Association de communes sécurité Riviera.
+- d) Préavis municipal N° 23/2024 - Arrêté d'imposition pour la période 2025-2026 (accepté avec amendement).
+- e) Préavis municipal N° 24/2024 - Demande d'un crédit de construction de Fr. 4'500'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116.
+- f) Préavis municipal N° 25/2024 - Demande d'un crédit de construction de Fr. 140'000.- pour l'installation de tableaux et écrans interactifs dans les classes du collège des Marronniers.
+- g) Préavis municipal N° 26/2024 - Demande d'un crédit de réalisation de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et sur le chemin du Crêt-à-l'Aigle.
+- h) Préavis municipal N° 27/2024 - Demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collège des Mousquetaires.9) Le Conseil communal refuse la prise en considération de la motion de M. Jérôme Bonvin (LCIVL) et consorts - Freiner les constructions et préserver le patrimoine dans la commune de La Tour-de-Peilz.10) Pris acte des communications municipales suivantes :- a) N° 24/2024 - Préavis N° 20/2019 - Demande de crédit de Fr. 590'000.- pour le déplacement d'un collecteur d'eaux claires et d'infrastructures communales dans le cadre du projet de mise en conformité de la gare CFF - Décompte final.
+- b) N° 26/2024 - Stratégie immobilière et planification communale 2024-2040.
+- c) N° 27/2024 - Agglomération Rivelac - Mise en consultation publique du projet d'agglomération de 5$^{e}$ génération (PA5).
+- d) N° 28/2024 - Secteur de « Campagne Rossier » - Démarches en cours.
+- e) N° 29/2024 - Immeuble au chemin de Gérénaz 7 - Événement du 30 septembre 2024.
+
+## Septième séance : 11 décembre 2024
+
+1) Assermentation de MM. Alexandre Davel (PSDG) et Anton Ciurlia (PLR) en remplacement respectivement de Mme Léa Glardon et M. Michel Chappuis.2) Des commissions sont nommées pour l'étude des objets suivants :- a) Préavis municipal N° 36/2024 - Achat d'une balayeuse électrique pour le Secteur espaces publics.
+  - • LV : Geneviève Pasche
+  - • PLR : Sophie Blank Barbezat, Pierre Cavin
+  - • PSDG : Manuel Lisboa, Valentine Schmidhauser
+  - • LCIVL : Michael Rohrer
+  - • UDC : représenté par Jean Etienne Holzeisen (LTDPL)
+- b) Préavis municipal N° 37/2024 - Demande de crédit de réalisation de Fr. 650'000.- pour le remplacement de l'éclairage des bâtiments scolaires.
+  - • PSDG : Lyonel Kaufmann
+
+
+
+- • PLR : Bernadette Menétrey, Roger Urech
+- • LV : Amandine Gianini, Gabrielle Heller
+- • LCIVL : Alois Raemy
+- • UDC : représenté par Marc Wüthrich (LTDPL)c) Préavis municipal N° 38/2024 - Demande d'un crédit de réalisation de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet.- • LCIVL : Mireille Cornaz
+- • PLR : Gabriel Chervet, Claude Delessert
+- • PSDG : Alexandre Davel, André Gruaz
+- • LV : Aude Lerch
+- • UDC : Nathalie Demartad) Préavis municipal N° 39/2024 - Parcelle N° 897 - Droit de superficie en faveur de la Fondation du centre œcuménique de Vassin - retour des constructions à la Commune avant échéance.- • PLR : Yves Rossier, Marianne Adank
+- • PSDG : Walter Steiner
+- • LV : Maude Froidevaux, Myriam Michel
+- • LCIVL : Jean Wilfrid Fils-Aimé
+- • UDC : Dan Ziehli3) Le Conseil communal adopte les conclusions des objets examinés par les commissions ad hoc :- a) Rapport de la commission chargée d'étudier le préavis municipal N° 31/2024 - Budget 2025 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL).
+- b) Rapport de la commission chargée d'étudier le préavis municipal N° 32/2024 - Budget 2025 du Fonds culturel Riviera.
+- c) Rapport de la Commission des finances chargée d'étudier le préavis municipal N° 33/2024 - Budget 2025 de la Commune de La Tour-de-Peilz (accepté avec amendements).
+- d) Prise en considération du postulat de Mme Janina Rioux et M. Michel Chappuis (PLR) - La durabilité - un défi qui nous concerne tous.
+- e) Prise en considération du projet de modification du règlement sur le stationnement de La Tour-de-Peilz de M. Jean Étienne Holzeisen (LTDPL) et consorts.
+- f) Rapport de la commission chargée d'étudier le préavis municipal N° 34/2024 - Édition d'un Règlement communal concernant les émoluments administratifs en matière de police des constructions (accepté avec amendements).
+- g) Rapport de la commission chargée d'étudier le préavis municipal N° 35/2024 - Octroi de la bourgeoisie d'honneur de La Tour-de-Peilz à M. Claude de Ribaupierre, alias Derib, auteur de bandes dessinées (accepté avec amendement).4) Le Conseil communal prend acte des communications municipales suivantes :- a) N° 30/2024 - Préavis N° 4/2023 - Renouvellement de la place de jeux du Château - Décompte final.
+- b) N° 31/2024 - Préavis N° 10/2019 - Remplacement de 224 luminaires à vapeur de mercure - Décompte final.
+- c) N° 32/2024 - Préavis N° 3/2024 - Remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires - Décompte final.
+- d) N° 33/2024 - Préavis N° 10/2020 - Assainissement, éclairage et réaménagement des chemins des Bulesses et du Croton - Décompte final.
+- e) N° 34/2024 - Établissement d'un plan de mobilité scolaire pour les établissements de La Tour-de-Peilz.
+- f) N° 35/2024 - Préavis N° 12/2022 - Réfection d'un tronçon du ruisseau de Sully - Décompte final.
+- g) N° 36/2024 - Quai Emile-Louis Roussy - Attribution des emplacements de kiosques saisonniers.
+- h) N° 37/2024 - Modification de la subvention Mobilité - FEDD.
+
+## Mutations
+
+Des 85 conseillères et conseillers communaux élus le 7 mars 2021, 44 (dont les 5 élus à la Municipalité) ont démissionné, soit 51,8 % de l'effectif total. 16 ont été remplacés par des viennent-ensuite, 26 élus selon l'art. 67 LEDP. À ce jour, 4 des 6 partis politiques n'ont plus de viennent-ensuite.
+
+La répartition des sièges par parti est la suivante : 27 PLR (31 %), 19 PSDG (23 %), 19 LV (23 %), 9 LCIVL (10 %), 6 UDC (7 %) et 5 LTDPL (6 %).
+
+À la fin 2024, les femmes sont au nombre de 34, soit 40 %. 6 membres sont de nationalité étrangère (7,1 %). La moyenne d'âge est de 52 ans. Le membre le plus jeune est né en 2001 et le plus âgé en 1944.
+
+Extrait de la Loi sur l'exercice des droits politiques :
+
+### Art. 67 Élection complémentaire
+
+*$^{1}$ Lorsqu'un siège devenu vacant ne peut être occupé par un suppléant, les signataires de la liste à laquelle appartenait le député dont le siège est repourvu peuvent présenter une candidature à son remplacement ; cette candidature doit obtenir le soutien d'au moins six signataires de la première liste.*
+
+
+
+# VOTATIONS ET ÉLECTIONS
+
+En 2024, les résultats des votations et des élections ont été les suivants :
+
+## Votations fédérales - 3 mars 2024
+
+Électeurs inscrits : 7'290
+
+Nombre de votants : 4'540 (taux de participation 62.25%)
+
+### Objet n° 1 - Initiative pour une 13e rente AVS
+
+Question : Acceptez-vous l'initiative populaire « Mieux vivre à la retraite (initiative pour une 13e rente AVS) » ?
+
+|  oui | 3'374 | non | 1'125  |
+| --- | --- | --- | --- |
+
+### Objet n° 2 - Initiative sur les rentes
+
+Acceptez-vous l'initiative populaire « Pour une prévoyance vieillesse sûre et pérenne (initiative sur les rentes) » ?
+
+|  oui | 707 | non | 3'745  |
+| --- | --- | --- | --- |
+
+## Votations fédérales - 9 juin 2024
+
+Électeurs inscrits : 7'387
+
+Nombre de votants : 3'694 (taux de participation 50.01%)
+
+### Objet n° 1 - Initiative d'allégement des primes
+
+Question : Acceptez-vous l'initiative populaire « Maximum 10% du revenu pour les primes d'assurance-maladie (initiative d'allégement des primes) » ?
+
+|  oui | 2'273 | non | 1'343  |
+| --- | --- | --- | --- |
+
+### Objet n° 2 - Initiative pour un frein aux coûts
+
+Question : Acceptez-vous l'initiative populaire « Pour des primes plus basses. Frein aux coûts dans le système de santé (initiative pour un frein aux coûts) » ?
+
+|  oui | 1'020 | non | 2'560  |
+| --- | --- | --- | --- |
+
+### Objet n° 3 - Initiative « Pour la liberté et l'intégrité physique »
+
+Question : Acceptez-vous l'initiative populaire « Pour la liberté et l'intégrité physique » ?
+
+|  oui | 803 | non | 2'804  |
+| --- | --- | --- | --- |
+
+### Objet n° 4 - Modification de la loi sur l'énergie et de la loi sur l'approvisionnement en électricité
+
+Question : Acceptez-vous la loi fédérale du 29 septembre 2023 relative à un approvisionnement en électricité sûr reposant sur des énergies renouvelables (modification de la loi sur l'énergie et de la loi sur l'approvisionnement en électricité) ?
+
+|  oui | 2'813 | non | 782  |
+| --- | --- | --- | --- |
+
+## Élection complémentaire - 22 septembre 2024
+
+M. Alessio Grutta est élu tacitement.
+
+## Votations fédérales - 22 septembre 2024
+
+Électeurs inscrits : 7'357
+
+Nombre de votants : 3'557 (taux de participation 48.32%)
+
+### Objet n° 1 - Initiative biodiversité
+
+Question : Acceptez-vous l'initiative populaire « Pour l'avenir de notre nature et de notre paysage (initiative biodiversité) » ?
+
+|  oui | 1'713 | non | 1'775  |
+| --- | --- | --- | --- |
+
+### Objet n° 2 - Réforme de la prévoyance professionnelle
+
+Question : Acceptez-vous la modification du 17 mars 2023 de la loi fédérale sur la prévoyance professionnelle vieillesse, survivants et invalidité (LPP) (réforme de la prévoyance professionnelle) » ?
+
+|  oui | 911 | non | 2'569  |
+| --- | --- | --- | --- |
+
+
+
+## Votations fédérales - 24 novembre 2024
+
+Électeurs inscrits : 7'347
+
+Nombre de votants : 3'849 (taux de participation 52.39%)
+
+### Objet n° 1 - Aménagement des routes nationales
+
+Question : Acceptez-vous l'arrêté fédéral du 29 septembre 2023 sur l'étape d'aménagement 2023 des routes nationales ?
+
+|  oui | 1'292 | non | 2'490  |
+| --- | --- | --- | --- |
+
+### Objet n° 2 - Droit du bail : sous-location
+
+Question : Acceptez-vous la modification du 29 septembre 2023 du code des obligations (droit du bail: sous-location) ?
+
+|  oui | 1'326 | non | 2'457  |
+| --- | --- | --- | --- |
+
+### Objet n° 3 - Droit du bail : résiliation pour besoin propre
+
+Question : Acceptez-vous la modification du 29 septembre 2023 du code des obligations (droit du bail: résiliation pour besoin propre) ?
+
+|  oui | 1'241 | non | 2'544  |
+| --- | --- | --- | --- |
+
+### Objet n° 4 - Financement des prestations de santé
+
+Question : Acceptez-vous la modification du 22 décembre 2023 de la loi fédérale sur l'assurance-maladie (LAMal) (financement uniforme des prestations) ?
+
+|  oui | 1'282 | non | 2'432  |
+| --- | --- | --- | --- |
+
+
+
+# MUNICIPALITÉ
+
+La gestion de la Commune est assurée par :
+
+Administration générale, développement durable
+
+- Syndique : Mme Sandra Pasquier
+- Suppléant : Vice-syndic
+
+Finances, économie
+
+- M. Jean-Pierre Schwab
+- Suppléant : M. Vincent Bonvin
+
+Urbanisme et travaux publics
+
+- Mme Elise Kaiser
+- Suppléant : M. Alessio Grutta
+
+Famille, jeunesse, sport et culture
+
+- M. Vincent Bonvin
+- Suppléant : M. Jean-Pierre Schwab
+
+Domaines et bâtiments, sécurité
+
+- M. Alessio Grutta
+- Suppléante : Mme Elise Kaiser
+
+M. Vincent Bonvin occupe la fonction de vice-syndic pour la période 2024-2025.
+
+M. Alessio Grutta, élu tacitement le 12 août 2024 au cours d'une élection complémentaire consécutive à la démission pour raisons de santé de M. Alain Grangier, a repris la responsabilité du Dicastère des domaines et bâtiments et de la sécurité.
+
+Le Collège a tenu 39 séances ordinaires durant l'année.
+
+Conférences
+
+La Conférence des syndics de la Riviera (CSD) s'est réunie à 7 reprises durant l'année 2024 sous la présidence de M. Christian Minacci, syndic de Corseaux, durant le premier semestre, et Mme Arianne Rouge, syndique de Corsier-sur-Vevey, durant le second, en présence de M. le préfet Roland Berdoz et, de cas en cas, des syndics du Pays-d'Enhaut.
+
+![img-0.jpeg](img-0.jpeg)
+
+Municipalité 2021-2026
+
+De gauche à droite :
+
+- Vincent Bonvin
+- Alessio Grutta,
+- Elise Kaiser,
+- Sandra Pasquier,
+- Jean-Pierre Schwab,
+- Pierre-André Dupertuis (secrétaire municipal)
+
+
+
+Ces réunions ont permis de traiter de problématiques d'intérêt régional telles que les informations en provenance de l'Union des communes vaudoises (UCV), la Nouvelle péréquation intercommunale (NPIV), les problématiques liées à la petite enfance, la révision du plan directeur cantonal, l'applicabilité de la loi sur la protection du patrimoine naturel et paysager (LPrPNP), les relations avec les Services de l'État, la rencontre avec la députation vaudoise, l'Agglo Rivelac, la Conférence régionale des transports publics de la Riviera, le Conservatoire de musique Montreux-Vevey-Riviera (CMVR), la révision des statuts de l'Association sécurité Riviera (ASR), la situation sécuritaire sur la Riviera, notamment à Vevey, les comptes et le budget du Service des affaires intercommunales (SAI), l'inspectorat des chantiers, la fusion (avortée) entre les Communes de Montreux et Veytaux, les plans d'affectation des Communes du cercle de Corsier, le plan d'affectation de la Veyre-Derrey à Blonay - Saint-Légier, le fonctionnement de la commission d'estimation fiscale, la modification des statuts du Service intercommunal de gestion (SIGE), le Fonds culturel Riviera (FCR), Cinérive ou la simplification de la procédure d'installation des pompes à chaleur.
+
+La Conférence des municipalités des Villes de Vevey, Montreux et La Tour-de-Peilz, quant à elle, s'est réunie à trois reprises sous la présidence de M. Yvan Luccarini, syndic de Vevey, au premier semestre et de Mme Sandra Pasquier, syndique de La Tour-de-Peilz, au second, autour de thèmes régionaux tels que Riviera Noël, l'hébergement d'urgence, la révision des statuts de l'ASR, la facturation du domaine public, la mutualisation des tâches entre les trois Communes, la clé de répartition des VMCV, l'abattoir de Clarens, l'inspectorat des chantiers, la rencontre des responsables politiques de la culture, la gestion des déchets, les taxes du SIGE sur la distribution de l'eau potable ou la Commission intercommunale de la taxe de séjour (CITS).
+
+## Visite préfectorale
+
+L'inspection annuelle de notre administration par le préfet a eu lieu lundi 18 novembre 2024.
+
+
+
+# ADMINISTRATION GÉNÉRALE
+
+GREFFE MUNICIPAL
+
+- 1 chef de Service, secrétaire municipal et chef du personnel (1 EPT)
+- 1 secrétaire municipal adjoint (1 EPT)
+- 3 employés administratif (2.6 EPT)
+- 1 responsable de la communication visuelle (1 EPT)
+- 1 responsable du Bureau RH (0.9 EPT)
+- 1 responsable des salaires, gestionnaire RH (0.6 EPT) - occupe le même poste à l'Accueil familial de jour (0.3 EPT)
+- 1 gestionnaire RH (0.9 EPT)
+
+L'administration propose habituellement trois postes d'apprenties et apprentis employés de commerce, en principe un dans chaque année de formation. Un tournus est organisé afin que les apprenties et apprentis aient l'occasion de découvrir plusieurs services et secteurs durant leurs 3 années d'apprentissage. Les passages dans les différents services et secteurs sont prévus d'une durée de 3 à 12 mois.
+
+Deux archivistes, sous mandat externe ont œuvré en 2024 pour un total de 40 %. Il sera remplacé par un engagement à l'interne à 30 % dès le 1er janvier 2025.
+
+Sur la base d'une convention signée par les deux Communes intéressées, le chargé de sécurité de la Ville de Vevey, consacre 15 % de ses activités à la Commune de La Tour-de-Peilz.
+
+ABCDé · BIBLIO-LUDOTHÈQUE
+
+- 1 responsable (0.8 EPT)
+- 5 biblio-ludothécaires (4.1 EPT)
+
+L'ABCDé accueille une apprentie agente en information documentaire.
+
+PAROISSE
+
+- 1 organiste (0.4 EPT)
+
+
+
+# Activités
+
+Les principales tâches dévolues au Greffe municipal, qui dépend de l'Administration générale, placée sous la direction de la syndique, sont les suivantes :
+
+- secrétariat de la Municipalité ;
+- politique d'information et de communication ;
+- information et coordination des Services communaux ;
+- actes émanant de la Municipalité ;
+- naturalisation et bourgeoisie ;
+- relations intercommunales (conférences intermunicipales) ;
+- relations avec les départements cantonaux et la Préfecture du district ;
+- registre électoral, élections et votations, vote par correspondance ;
+- validation des signatures lors d'initiatives et de référendums ;
+- suivi administratif des activités et décisions du Conseil communal ;
+- publications communales et rapport de gestion ;
+- réceptions et manifestations placées sous l'égide de la Municipalité ;
+- archives communales et archives historiques ;
+- gestion des salles de la Maison de Commune et de la Maison Hugonin ;
+- supervision de l'ABCDé, biblio-ludothèque communale ;
+- gestion du personnel communal.
+
+L'administration communale est représentée au sein de la Conférence des secrétaires municipaux du district Riviera - Pays-d'Enhaut, de la Conférence itinérante des secrétaires municipaux (CISM) qui regroupe les principales Communes du canton, de l'Association vaudoise des secrétaires municipaux (AVSM) ainsi que du comité de la Conférence suisse des secrétaires municipaux (CSSM). Elle participe également aux travaux du réseau des responsable RH de la Riviera, de l'Association des responsables RH des villes vaudoises (ARRHVV) ainsi que de l'Association des chargés de communication des communes romandes (A3C-R).
+
+# Naturalisation
+
+En 2024, l'Administration générale a assumé les tâches suivantes en relation avec les demandes de naturalisation :
+
+- renseignements sur les procédures au guichet ou par téléphone ;
+- rédaction de diverses correspondances ;
+- préparation du Rapport d'enquête communal ;
+- entretien avec les candidates et candidats ;
+- correction du test de connaissances élémentaires ;
+- établissement des propositions à la Municipalité ;
+- tenue à jour des dossiers, suivi de l'échéancier ;
+- suivi de la procédure avec le Service de la population (SPOP).
+
+Durant l'année 2024, le Greffe municipal a reçu 78 dossiers de 128 candidates et candidats issus des 27 pays mentionnés ci-dessous :
+
+|  Dossiers déposés dans l'année (individuel ou famille) | 2024 | 2023 | 2022  |
+| --- | --- | --- | --- |
+|  Dossiers | 78 | 74 | 38  |
+|  Candidats | 128 | 108 | 63  |
+|  > 18 ans | 76 | 67 | 40  |
+|  > 12 ans | 24 | 19 | 8  |
+|  < 12 ans | 28 | 22 | 15  |
+|  Dossiers transmis au Canton (phase communale achevée) | 52 | 54 | 31  |
+
+|  Pays d'origine | Nombre de candidats  |
+| --- | --- |
+|  Afrique du Sud | 1  |
+|  Allemagne | 7  |
+|  Australie | 1  |
+|  Autriche | 1  |
+|  Belgique | 1  |
+|  Bolivie | 3  |
+|  Bosnie | 3  |
+|  Brésil | 5  |
+|  Bulgarie | 1  |
+|  Chine | 1  |
+|  Espagne | 3  |
+|  France | 36  |
+|  Grande-Bretagne | 5  |
+|  Grèce | 1  |
+|  Hongrie | 5  |
+|  Inde | 3  |
+|  Italie | 16  |
+|  Lettonie | 1  |
+|  Macédoine du Nord | 1  |
+|  Maroc | 4  |
+|  Pakistan | 1  |
+|  Portugal | 14  |
+|  Roumanie | 2  |
+|  Russie | 1  |
+|  Serbie | 5  |
+|  Suède | 5  |
+|  Syrie | 1  |
+
+Lors de sa séance du 2 septembre 2024, la Municipalité a décidé d'adapter le tarif des émoluments communaux dans le cadre de la procédure ordinaire dès le 1er janvier 2025.
+
+
+
+## Manifestations
+
+Le Greffe municipal organise plusieurs manifestations qui jalonnent le calendrier boéland et auxquelles prennent part les membres de la Municipalité. Parmi celles-ci figurent : l'apéritif des sociétés locales (15 janvier) l'accueil des Jeunes Boélandes et Boélands (6 mai), les festivités en lien avec la Fête nationale (31 juillet et 1$^{er}$ août) et la réception des Nouvelles bourgeoises et Nouveaux bourgeois (25 novembre), lors de laquelle les convives ont eu la surprise d'une rencontre avec le dessinateur boéland Derib venu parler de son œuvre avec son fils Arnaud.
+
+### Parade Navale de la CGN
+
+![img-0.jpeg](img-0.jpeg)
+
+Dimanche 26 mai, les quais Emile-Louis Roussy et Perdonnet ont accueilli plus de 10'000 personnes à l'occasion de la Parade Navale 2024. Cet évènement incontournable de la CGN était organisé pour la première fois conjointement par deux villes: Vevey et La Tour-de-Peilz. Elle a mis à l'honneur 5 bateaux de la flotte Belle Époque : le « Montreux » (1904), le « Vevey » (1907), l'« Italie » (1908), « La Suisse » (1910) et le « Savoie » (1914) pour le plus grand plaisir du public venu de toute la Suisse.
+
+### Fête nationale
+
+La partie officielle du mardi 1$^{er}$ août a réuni la Municipalité, une délégation de la Mairie d'Ornans et la population venus écouter le très attendu discours prononcé cette année par Khany Hamdaoui (*au centre sur la photo ci-dessous*), directrice du Théâtre Montreux Riviera, et le pacte de 1291 lu avec brio par Naïs Petter (*à gauche*), apprentie agente en information documentaire à l'ABCDE.
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+## Inauguration de l'allée Françoise Siegfried-Meier
+
+Dans sa séance du 3 juin, la Municipalité a décidé de rendre hommage à Mme Françoise Siegfried-Meier, violoniste renommée et mécène ayant marqué de son empreinte notre commune avec la création en 2018 de *La Becque / Résidence d'artistes*.
+
+Le Greffe municipal s'est chargé de la réalisation du projet, notamment de l'inscription de la nouvelle allée auprès de la Direction du cadastre et de la géoinformation du Canton, de la commande des plaques de rue en collaboration avec le Service de l'urbanisme et des travaux publics, de la rédaction d'une biographie de Mme Françoise Siegfried-Meier sur la base d'un texte du Dr Gérald d'Andiran, un ami proche de Mme Françoise Siegfried-Meier, de la réalisation d'un livret biographique souvenir, de l'organisation en collaboration avec *La Becque / Résidence d'artistes* de la cérémonie d'inauguration de l'allée et de l'inscription de cette dernière dans Google Maps.
+
+L'inauguration de l'allée a eu lieu sous un soleil radieux le lundi 28 octobre en présence de ses proches et amis, de la Municipalité, de membres du Conseil communal et de Boélandes et Boélands.
+
+![img-3.jpeg](img-3.jpeg)
+
+Luc Meier, Directeur de *La Becque / Résidence d'artistes*, Clémence de Weck, membre du Conseil de fondation de *La Becque / Résidence d'artistes* et quatre des cinq membres de la Municipalité de *La Tour-de-Peilz* : Elise Kaiser, Vincent Bonvin, Sandra Pasquier (syndique) et Alessio Grutta, posent devant la plaque de l'allée Françoise Siegfried-Meier.
+
+
+
+# RESSOURCES HUMAINES
+
+Le secrétaire municipal assume la fonction de chef du personnel. À ce titre, il est responsable de la mise en application de la politique du personnel décidée par la Municipalité.
+
+La gestion quotidienne est confiée à un Bureau des ressources humaines (BRH) composé d'une responsable à 90 % au bénéfice d'un brevet fédéral de spécialiste en ressources humaines et de deux gestionnaires RH certifiées. L'année 2024 a été marquée par la reprise par le BRH de l'entier de la gestion des salaires et assurances du personnel qui, jusque-là, était assurée par le Service des finances, ainsi que la mise en application du nouveau règlement. Pour rappel, ce dernier a permis de mettre l'accent sur la clarification des droits et devoirs du personnel communal, la flexibilisation du temps de travail, l'élargissement des congés maternité et paternité ainsi que l'octroi d'une cinquième semaine de vacances.
+
+Des contacts étroits existent depuis plusieurs années entre les responsables RH des Villes de Montreux, Vevey, Blonay - Saint-Légier et La Tour-de-Peilz, de Sécurité Riviera et du SIGE. Ces rencontres visent à développer une approche concertée dans le développement des outils de gestion RH, à favoriser l'échange d'informations et à développer la formation continue. La Tour-de-Peilz est par ailleurs membre de l'Association des responsables RH des villes vaudoises (ARRHVV) et de l'Association vaudoise des professionnels des ressources humaines HR Vaud.
+
+## Grille salariale
+
+En 2024, les salaires ont été indexés à raison de 17 % pour compenser la totalité de la progression de l'indice du coût de la vie, ce qui laisse le premier échelon de la grille salariale (A0) à Fr. 3'400.-.
+
+## Catégories salariales
+
+![img-4.jpeg](img-4.jpeg)
+
+## Salaires
+
+67,54 % du personnel perçoit une rémunération mensuelle brute située entre Fr. 4'000.- et Fr. 8'000.- versée 13 fois (pour un équivalent plein temps).
+
+À l'exception d'une situation à caractère social, aucun poste à la Commune de La Tour-de-Peilz n'est rémunéré à moins de Fr. 4'000.- pour un équivalent plein temps.
+
+Le salaire médian (50 % des employés sont en dessous, 50 % en dessus) se situe à Fr. 6'520.- (indexation comprise). 47,75 % des collaborateurs travaillent à temps partiel et 50,97 % des postes sont occupés par des femmes.
+
+![img-5.jpeg](img-5.jpeg)
+
+## Répartition du personnel
+
+Au 31 décembre 2024, 165 personnes étaient au bénéfice d'un contrat de travail communal, dont 134 avec un salaire basé sur la grille salariale. Les 31 autres contrats concernent : 10 apprenties et apprentis, 11 concierges des bâtiments locatifs, 2 responsables école de natation/musique, 1 organiste, 5 maîtresses des devoirs surveillés, 1 surveillant des arrêts scolaires et 1 vigneron-tâcheron.
+
+## Mutations 2024
+
+Au cours de l'année 2024, 10 personnes (hors apprentis) ont quitté la Commune. Les raisons de ces départs se répartissent entre 5 retraites, 4 démissions et 1 licenciement.
+
+En 2024, 16 personnes ont débuté leur activité à la Commune (1 responsable de Secteur, 1 architecte, 1 technicien informatique, 1 garde-bains, 2 coordinatrices, 1 paysagiste, 1 ouvrier de voirie, 1 enquêtrice, 5 employés d'administration, 1 collaboratrice de réfectoire et 1 concierge). La Ville de La Tour-de-Peilz a collaboré avec le Centre d'orientation et de formation professionnelles (COFOP), l'Office AI et Connexion ressources afin d'aider des demandeuses et demandeurs d'emploi à réintégrer le milieu professionnel en leur proposant des stages au sein du Secteur conciergerie. 275 jours de stages ont été effectués en 2024.
+
+Trois requérants d'asile ont travaillé au sein des Secteurs espaces publics et conciergerie, dans le cadre d'une convention de partenariat avec l'Établissement vaudois d'accueil des migrants (EVAM), à raison de 2,5 jours par semaine.
+
+
+
+## Situation du personnel au 31 décembre 2024
+
+|  Secteur | 2023 |   | 2024  |   |
+| --- | --- | --- | --- | --- |
+|   |  Nbre collab. | EPT | Nbre collab. | EPT  |
+|  Greffe municipal et Bureau RH | 9 | 7.7 | 9 | 7.9  |
+|  ABCDé - Biblio-ludothèque | 6 | 4.9 | 6 | 4.9  |
+|  Paroisse | 1 | 0.4 | 1 | 0.4  |
+|  **Administration générale** | **16** | **13.0** | **16** | **13.2**  |
+|  Bureau administratif et technique | 8 | 7 | 9 | 7.8  |
+|  Conciergerie bâtiments communaux | 19 | 18.7 | 19 | 18.7  |
+|  Conciergerie bâtiments locatifs | 11 | 17.1 | 11 | 17.1  |
+|  Piscine des Mousquetaires | 3 | 3 | 3 | 3  |
+|  Vignes et vins | 1 | 0.75 | 1 | 0.75  |
+|  **Domaines et bâtiments** | **42** | **31.16** | **43** | **31.96**  |
+|  **Écoles - devoirs et arrêts surveillés** | **7** | **1.12** | **6** | **1.0**  |
+|  Secteur finances et comptabilité | 5 | 4.1 | 6 | 5.1  |
+|  Office de la population | 5 | 4.4 | 7 | 5.9  |
+|  Unité informatique | 3 | 3 | 3 | 3  |
+|  **Finances** | **13** | **11.5** | **16** | **14.0**  |
+|  Administration | 4 | 3.2 | 6 | 4.5  |
+|  Réfectoires scolaires | 17 | 3.47 | 17 | 3.47  |
+|  Affaires culturelles | 2 | 1.35 | 2 | 1.35  |
+|  Accueil familial de jour | 5 | 3.6 | 5 | 4.0  |
+|  Sport et jeunesse | 4 | 3.5 | 4 | 3.5  |
+|  **Famille, jeunesse, sport et culture** | **32** | **15.12** | **34** | **16.82**  |
+|  Bureau administratif et technique | 9 | 7.2 | 10 | 7.8  |
+|  Espaces publics (voirie et espaces verts) | 30 | 28.3 | 30 | 28.7  |
+|  **Urbanisme et travaux publics** | **39** | **35.5** | **40** | **36.5**  |
+|  Par convention / mandat |  |  |  |   |
+|  MSST - Sécurité au travail |  | 0.15 |  | 0.15  |
+|  Secrétariat des écoles |  | 0.35 |  | 0.35  |
+|  Archives |  | 0.4 |  | 0.4  |
+|  **Total** | **149** | **108.3** | **155** | **114.38**  |
+
+### Hors décompte
+
+|  Apprentis | 10 | 10  |
+| --- | --- | --- |
+|  École de musique | 1 | 1  |
+|  École de natation | 1 | 1  |
+
+En 2024, chaque mois, quelque 30 auxiliaires ont été rémunérés. Les auxiliaires sont engagés notamment pour la déchèterie, l'ABCDé, les camps scolaires et les camps d'été, les différentes animations du Secteur sport et jeunesse, les sports facultatifs, etc.
+
+La Commune organise également des « jobs d'été ». Ils sont destinés à de jeunes élèves ou étudiants, en priorité boélands, et sont proposés dans les Secteurs espaces publics et conciergerie, notamment pour l'arrosage, pour de l'aide au Port ainsi que pour les nettoyages des bâtiments scolaires.
+
+EPT = équivalent plein temps
+
+
+
+## Années de service
+
+![img-0.jpeg](img-0.jpeg)
+
+## Jubilaires en 2024
+
+|  Années d'activité | Nombre de personnes  |
+| --- | --- |
+|  10 ans | 4  |
+|  15 ans | 4  |
+|  20 ans | 1  |
+|  25 ans | 4  |
+
+## Tranches d'âge du personnel
+
+![img-1.jpeg](img-1.jpeg)
+
+## Lieu de domicile du personnel
+
+![img-2.jpeg](img-2.jpeg)
+
+## Taux d'absentéisme et motifs d'absences
+
+En 2024, 14 déclarations maladie de plus de 30 jours, 14 déclarations accidents-bagatelles (sans arrêt de travail) et 22 déclarations accident donnant lieu à une incapacité de travail, dont 7 survenus sur le lieu de travail, ont été effectuées auprès des assurances.
+
+Le taux d'absentéisme en 2024 s'élève à 6.19 %.
+
+![img-3.jpeg](img-3.jpeg)
+
+## Formation
+
+La Commune de La Tour-de-Peilz a pris en charge la formation de 10 apprenties et apprentis (3 employés de commerce, 3 horticultrices et horticulteurs en floriculture, 2 agents de propreté, 1 agent d'exploitation et 1 agente en information documentaire).
+
+Plus de 40 personnes ont bénéficié de cours de formation technique ou de comportement/relationnel et 2 personnes ont réalisé des formations supérieures spécifiques (CAS, MAS, Brevet et certificat). Les responsables hiérarchiques ont reçu une formation sur la gestion des absences alors qu'une partie du personnel des secteurs extérieurs a suivi une formation sur l'utilisation des chariots élévateurs et/ou nacelles.
+
+Par ailleurs, les collaboratrices de l'ABCDE ont bénéficié d'une formation « dynamique d'équipe » alors que l'ensemble des chefs de service et cadres intermédiaires ont entamé une formation de 5 journées ayant pour thème principal le management.
+
+Enfin, les nouveaux arrivants ont participé à une sensibilisation sur les risques psychosociaux dispensée par la personne de confiance (PCE Romandie) mandatée par la Commune.
+
+
+
+# COMMUNICATION
+
+L'administration communale dispose d'un Secteur communication composé de deux collaborateurs : le secrétaire municipal adjoint, superviseur/rédacteur des publications, et le responsable de la communication visuelle, qui s'occupe du graphisme des publications, du centre d'impression et du web.
+
+# Quelques activités du Secteur communication :
+
+- site internet : constantes mises à jour et ajouts de rubriques en fonction de l'actualité ;
+- journal communal (4 numéros) ;
+- gestion des réseaux sociaux ;
+- communiqués de presse ;
+- rapport de gestion ;
+- newsletters internes ;
+- création de panneaux d'information destinés au public.
+
+# Centre d'impression
+
+Le centre d'impression fournit toutes les prestations que l'on peut attendre d'une petite imprimerie. Il en va ainsi de la préparation des documents et de leur graphisme, comme de l'impression. Il assure également la coordination de toute action en lien avec l'image de la Ville (ligne graphique).
+
+En 2024, en plus des tâches effectuées avec le Secteur communication, le responsable de la communication visuelle a, notamment, été impliqué dans les projets, manifestations et collaborations suivants :
+
+- Envois au Conseil communal, mise en page et impression du rapport de gestion, du rapport des comptes et du budget.
+- Graphisme et impression du matériel promotionnel relatif à de nombreuses manifestations communales ainsi que pour les services de l'administration (dont l'ABCDE, les Affaires culturelles et le Secteur sport et jeunesse) et le Musée suisse du jeu.
+
+# Réseaux sociaux
+
+En 2024, près de 150 publications ont été générées sur la page Facebook de la Ville de La Tour-de-Peilz et, au 31 décembre, la page comptait près de 2'100 « followers ». Sur Instagram, plus de 1'200 comptes suivent les publications de la Ville. 13 offres d'emploi ont été publiées sur la page LinkedIn, qui compte plus de 830 abonnées et abonnés.
+
+# Le p'tit journal boéland
+
+Depuis plus de 40 ans, La Ville de La Tour-de-Peilz informe sa population au travers d'un bulletin d'information. Au fil des décennies, cette publication a changé plusieurs fois de format et de nom. Lancé au mois de juin 2023, Le p'tit journal boéland fait la part belle
+
+à la vie de la commune, avec une pagination revue à la hausse et une maquette entièrement remaniée mettant en avant le rédactionnel et les photos au travers de reportages, interviews, portraits, articles sur le patrimoine communal, etc. En 2024, 4 éditions du p'tit journal boéland ont été distribuées aux plus de 6'700 ménages et commerces de la commune.
+
+![img-4.jpeg](img-4.jpeg)
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+![img-7.jpeg](img-7.jpeg)
+
+
+
+En 2024, le succès de l'ABCDé ne s'est pas démenti. Le nombre de comptes actifs est resté stable, mais le nombre de prêts a augmenté de 6 %, preuve de l'attractivité des collections.
+
+La biblio-ludothèque est très fréquentée dès la sortie des classes. Lieu de rencontre, d'étude, de lecture et de jeu, la diversité des usages ne va pas sans quelques compromis. Afin d'améliorer le service proposé, le personnel a poursuivi le travail de réflexion en vue d'un réaménagement qui prendra effet en 2025.
+
+## Fréquentation et emprunts
+
+Le nombre de prêts et de prolongations des objets physiques a augmenté à 65'475 unités, soit 3'951 de plus qu'en 2023 (+ 6.4 %).
+
+Les livres représentent 72 % des emprunts. La part des jeux a légèrement augmenté pour s'établir à 18 % (+ 2 %) et celle des DVD a légèrement reculé à 5.3 % (- 0.7 %). Les 4.7 % restants sont dus aux magazines, liseuses et livres-audio.
+
+Lancée au printemps, la collection de jeux vidéo sur Switch, PS4 et Xbox rencontre un vif succès. Les quelque 150 jeux vidéo ont cumulé 523 prêts.
+
+Aux prêts physiques s'ajoutent 1'241 prêts de livres électroniques ou e-audio via le site ebibliomedia.ch.
+
+77 % des emprunts (+ 4 %) ont porté sur les objets destinés aux enfants et aux jeunes. Les BD, mangas et albums illustrés sont les catégories de livres les plus plébiscitées. Deux-tiers des jeux empruntés font partie des collections pour les enfants de 0 à 5 ans.
+
+1'943 personnes ont effectué au moins un emprunt (- 26, - 1.33 %). 507 nouveaux comptes ont été enregistrés (- 117, -19 %). En moyenne, chaque abonnée ou abonnée a activé son compte 7.8 fois durant l'année (les 1'943 comptes ont été ouverts 15'308 fois au total).
+
+La population boëlande réunit 70 % du corpus actif contre 22 % pour leurs semblables de la Riviera. Les 8 % restants résident principalement dans le sud fribourgeois et le Chablais.
+
+Les enfants et les jeunes représentent 63 % (+ 4 %) des comptes actifs, les adultes 36 % (- 4 %) et diverses institutions 1 %.
+
+Bon nombre de personnes de tout âge viennent à l'ABCDé pour y jouer, lire, passer du temps entre amis ou étudier. Comme un compteur de passages a été installé, il est possible pour la première fois d'estimer la fréquentation du lieu et non plus seulement de dénombrer les personnes effectuant des emprunts. Du 26 février au 21 décembre, 38'000 personnes ont franchi les portes du lieu. Étant donné que les comptes informatiques ont été ouverts 15'308 fois, il est logique d'estimer que plus de la moitié des personnes venant à l'ABCDé n'empruntent jamais.
+
+## Réflexions en vue d'un réaménagement
+
+Les réflexions portant sur un réaménagement du libre-accès se sont poursuivies. Visant à améliorer la circulation du public, la vision sur l'ensemble de l'espace, délimiter plus clairement les différentes zones et offrir plus d'espaces de consultation, le nouvel aménagement sera effectif au printemps 2025.
+
+## Collections
+
+17'868 (+ 1'201, + 7 %) objets sont recensés dans les collections physiques (13'101 livres, 2'486 jeux, 1'020 DVD, le reste se répartissant entre magazines, livres-audio, kamishibaïs et liseuses) qui sont complétées par plus de 10'600 livres numériques et livres-audio à télécharger sur la plateforme ebibliomedia.
+
+3'003 (+ 800, + 36 %) nouveaux objets ont été acquis : 2'542 documents (+ 604, + 31 %) et 461 jeux et jouets (+ 196, + 74 %). Des efforts particuliers ont été entrepris pour accroître la collection de bandes dessinées et mangas jeunesse, pour renouveler les albums illustrés, les Playmobil et les guides de voyage.
+
+En plus des jeux vidéo, une petite collection de jeux de rôle a été lancée.
+
+Comme chaque année, 650 documents en grands caractères ou langues étrangères ont été échangés afin de garantir des lectures inédites aux personnes intéressées. Un peu plus de 1'800 objets ont été retirés des étagères en raison de leur faible intérêt pour les usagers, de leur obsolescence ou de leur état dégradé, notamment en raison de leur usage intensif.
+
+Le taux de renouvellement de 16 % joint au retrait d'environ 10 % de la collection permet un rajeunissement du fonds. Cela augmente l'intérêt auprès du public qui voit plus de nouveautés dans les rayons.
+
+## Animations
+
+Une trentaine d'animations pour tous les âges ont été proposées en 2024. En raison des multiples activités de chacun et de l'offre culturelle et de divertissement abondante dans la région, il est parfois difficile d'attirer autant de personnes qu'espéré. Quelques francs succès méritent d'être relevés.
+
+En février, une rencontre littéraire avec l'auteur boëland Matteo Salvadore a réuni près de 30 personnes.
+
+En mai, les soixante stands de la Bourse aux jeux, jouets et livres ont attiré une foule devant le collège Courbet.
+
+Quelques dizaines de jeunes ont testé des jeux vidéo suisses ou défié le personnel à Mario Kart lors de sessions de gaming.
+
+L'ABCDé a collaboré avec le Service famille, jeunesse, sport et culture en mettant à disposition des jeux et des animatrices pour la manifestation @août (voir p. 80).
+
+
+
+Enfin, du 7 au 9 septembre s'est tenu le premier Festival des jeux de La Tour-de-Peilz, organisé par le Musée suisse du jeu, conjointement avec les Affaires culturelles et l'ABCDE. Pour l'occasion, les espaces de l'ABCDE ont vu plus de 120 personnes s'affronter dans des parties de laser-game. Des jeux comme un baby-foot XXL, une table d'air hockey ou un lancer de haches ont permis aux 8'000 festivaliers de s'amuser devant le collège Courbet.
+
+## Boîtes à livres
+
+Accessibles en permanence, les deux boîtes à livres ont été très fréquentées. Des volontaires travaillant en tandem ont effectué plusieurs visites chaque semaine afin de s'assurer du bon état des livres déposés et de leur bonne présentation.
+
+### Et pour finir, voici le palmarès des objets les plus prêtés en 2024 :
+
+![img-8.jpeg](img-8.jpeg)
+
+Livre dans la section jeunesse :
+Ça sent la croquette
+(série BD Mortelle Adèle)
+Diane Le Feyer et Mr Tan
+
+19 prêts
+
+![img-9.jpeg](img-9.jpeg)
+
+Livre dans la section adultes :
+L'été d'avant
+Lisa Gardner
+
+13 prêts
+
+![img-10.jpeg](img-10.jpeg)
+
+Section jeux :
+Rubik's cube
+
+13 prêts
+
+
+
+# ARCHIVES COMMUNALES
+
+Depuis 2018, la Ville de La Tour-de-Peilz collabore avec Pro Archives SA pour la gestion des archives communales. Ce mandat correspond à un taux d'activité de 40 %. En 2024, deux archivistes ont effectué un total de 80 interventions (640 heures).
+
+## Traitement des archives
+
+Pendant l'année 2024, les archivistes ont traité des documents issus de sources diverses, soit :
+
+- Administration générale : traitement d'archives (correspondance, naturalisations, etc.) provenant du Greffe municipal ;
+- Finances : rédaction d'un bordereau et élimination des pièces comptables dépassant leur durée de conservation légale (4,6 m/l de papier corbeille éliminés) ;
+- Travaux publics : traitement d'archives anciennes relatives à des travaux publics, déposées au sous-sol de la Maison Hugonin ;
+- Domaines et bâtiments : déménagement, rangement, ordonnancement de contenants des archives déposées au sous-sol de la Maison Hugonin ;
+- Archives historiques : identification et inventoriage d'archives historiques non traitées et déposées à la suite de séries d'archives entreposées sur les étagères mobiles (compactus) du local d'archives situé au sous-sol de la Maison de Commune ;
+- Inventaire d'archives intermédiaires : réalisation d'un outil de recensement des archives intermédiaires dont la durée d'utilité administrative et/ou légale n'a pas été dépassée (19 unités de description (UD) saisies dans l'inventaire intermédiaire) ;
+- Local d'archives de la Maison de Commune : réorganisation des étagères, optimisation de l'espace de conservation ;
+- Mise à jour de la police d'assurance : réalisation d'un recensement des archives pour le renouvellement de la police d'assurance.
+
+Éliminer est une opération irrémédiable. Les archivistes suivent des règles et normes définies dans ce que l'on appelle un calendrier de conservation. Éliminer est la règle, conserver l'exception. Seulement 20 % environ des documents produits ou reçus seront conservés pour les générations futures.
+
+Lors des travaux de classement et d'inventaire, 6,16 mètres linéaires (m/l) de documents ne présentant pas un intérêt historique suffisant pour justifier leur conservation ont été écartés, puis éliminés.
+
+De plus, il a été procédé à l'évaluation et au traitement physique (épuration et reconditionnement) de 70 dossiers, 60 boîtes et 336 classeurs.
+
+La description des documents et des métadonnées qui les accompagnent est une étape fondamentale d'une politique d'archivage. Ainsi, 313 notices de description ont été ajoutées dans l'inventaire des archives historiques.
+
+À la suite du déménagement de la Cave Charlemagne à la Maison Hugonin, une partie des archives relatives aux travaux a été rapatriée au local d'archives de la Maison de Commune, puis traitée. Les dossiers de construction ont quant à eux été déplacés dans un nouveau local sis au sous-sol de la Maison Hugonin.
+
+En 2024, 29 recherches faisant suite à des demandes externes ont été effectuées par les archivistes dans le fonds d'archives historiques et plusieurs chercheurs ont été accueillis sur place.
+
+
+
+# FINANCES
+
+SECTEUR FINANCES ET COMPTABILITÉ
+
+- 1 chef de service (1 EPT)
+- 1 responsable du Secteur finances (1 EPT)
+- 1 responsable transactions numériques (1 EPT)
+- 2 employés au pôle transactions numériques (1.6 EPT)
+- 1 employée d'administration maturité professionnelle (MP2) (0.5 EPT - CDD de 2023-2025)
+
+OFFICE DE LA POPULATION
+
+- 1 préposé, adjoint organisationnel au chef de service (1 EPT)
+- 1 adjointe au préposé (0.8 EPT)
+- 1 enquêtrice (1 EPT)
+- 3 employés d'administration (2.6 EPT)
+- 1 employé d'administration Bachelor (0.5 EPT - CDD de 2022 à 2026)
+
+UNITÉ INFORMATIQUE
+
+- 1 administrateur des systèmes (1 EPT)
+- 1 informaticien des systèmes (1 EPT)
+- 1 technicien informatique (1 EPT)
+
+
+
+# Activités
+
+Le Secteur finances fournit les prestations et assure les tâches suivantes :
+
+- la vente de cartes journalières CFF et CGN ;
+- la vente de cartes à gratter pour les parkings ;
+- la gestion des cartes pour la déchèterie ;
+- la gestion de la caisse et de la trésorerie ;
+- la facturation pour les Services (impôt foncier, taxes déchets et évacuation des eaux, places au Port, location des salles, vin, piscine, informatique, etc.) ;
+- le suivi des créanciers, des débiteurs et du contentieux ;
+- l'établissement des décomptes de la taxe sur la valeur ajoutée (TVA) ;
+- la gestion du portefeuille des assurances de toute l'administration (choses et personnes) ;
+- la gestion des emprunts et le service de la dette ;
+- la gestion comptable d'environ 30 fondations ;
+- la tenue de la comptabilité générale et des comptabilités annexes (débiteurs et créanciers) ;
+- l'élaboration des rapports de l'arrêté d'imposition, du budget (avec plan des investissements) et des comptes.
+
+# Cartes journalières CFF
+
+Dès le 11 décembre 2023, les trois anciennes cartes journalières CFF en 2e classe (disponibles jusqu'au 30 janvier 2024) ont été remplacées par la nouvelle carte journalière CFF dégriffée Commune, proposée au guichet du Secteur finances, dont les ventes (907 billets en 2024 contre 1491 billets en 2023) figurent dans le graphique ci-dessous.
+
+![img-0.jpeg](img-0.jpeg)
+
+Cette nouvelle carte, avec 8 tarifs différents selon la classe (1er et 2e), la présence d'un abonnement demi-tarif et la date de l'achat, est désormais nominative et disponible en prévente dès 6 mois avant le départ et jusqu'à la veille de celui-ci (il n'est plus possible de l'acheter le jour du voyage). La fréquence de retrait est limitée à 6 cartes par personne et par mois, selon la limite des stocks disponibles, le contingent national (environ 3'500 cartes) étant commun à toutes les Communes.
+
+La disponibilité et les prix dynamiques de cette nouvelle carte peuvent être consultés pour les six prochains mois sur le site www.cartejournaliere-commune.ch
+
+Selon les observations du Secteur, cette nouvelle formule est intéressante principalement pour les personnes disposant d'un abonnement demi-tarif et achetant la carte jusqu'à 11 jours avant sa date de validité, afin de disposer d'un tarif avantageux.
+
+# Twint
+
+Introduits progressivement dès 2021, le Secteur finances gère les transactions numériques générées par désormais 18 QR-Codes Twint, permettant à différents Secteurs de l'administration communale (ABCDé, Affaires culturelles, Sport & Jeunesse, Port, vins, etc.) et des Écoles d'encaisser facilement le paiement de prestations.
+
+# MCH2
+
+Après avoir accompagné le Bureau des ressources humaines dans le cadre de la reprise du traitement des salaires, le Secteur a également débuté la planification et les formations en lien avec la nouvelle norme comptable MCH2, qui sera introduite en 2027. Ce projet d'envergure s'étendra sur 5 ans (2024-2028).
+
+# Comptabilité
+
+Durant l'année, environ 7'900 factures fournisseurs ont été enregistrées et réglées. La facturation a généré près de 19'800 factures débiteurs. Les guichets du Secteur finances et de l'Office de la population ont généré environ 5'300 quittances. La comptabilité générale a donné lieu à près de 9'800 écritures.
+
+
+
+# Stratégie de transformation numérique
+
+Lors de l'élaboration du budget 2021, la Municipalité a défini sa stratégie de transformation numérique pour les prochaines années, basée sur les trois axes suivants :
+
+- accélération de la numérisation des processus ;
+- augmentation de la sécurité des systèmes informatiques ;
+- formation continue des utilisateurs.
+
+Afin de pouvoir mettre en œuvre cette stratégie tout en poursuivant l'effort d'internalisation des compétences informatiques pour optimiser l'indépendance, la réactivité et la maîtrise des coûts, l'Unité informatique, créée en 2018, a été renforcée en 2021 par l'engagement d'un informaticien avec CFC et brevet fédéral de spécialiste systèmes et réseaux TIC (titulaire en 2023 d'un brevet fédéral en cybersécurité). Finalement, portant l'effectif à 3 EPT, un nouveau technicien informatique a été engagé en 2024, afin de combler le poste vacant laissé par son prédécesseur. Ce dernier se faisant confier les tâches en lien avec les utilisateurs (introduction, formation et helpdesk) ainsi que le support technique de 1er niveau des systèmes.
+
+# Architecture des systèmes
+
+Le Secteur gère les systèmes informatiques de la Commune, comprenant :
+
+- les réseaux informatiques (réseaux administratifs internes et externes à la Maison de Commune, réseau wifi public) ;
+- la téléphonie IP ;
+- l'infrastructure (serveurs, postes de travail, imprimantes, périphériques, etc.) ;
+- les logiciels métiers.
+
+Ceci pour le compte de plus de 175 utilisatrices et utilisateurs de l'administration communale, de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz (FSAT), du Musée suisse du jeu, du Centre de loisirs pour seniors L'Escale, ainsi que de l'Association régionale d'action sociale (ARAS), du Centre régional de décisions (CRD) et des PC Familles.
+
+Les réseaux informatiques filaires fonctionnent grâce à 2 core switches, plus de 20 switches de distribution, plus de 20 switches-routeurs ainsi que 2 firewalls redondants, ceci via des connexions en cuivre ou en fibre optique.
+
+Les réseaux informatiques sans fil (wifi) sont dotés de plus de 170 access points tous sites confondus (pour la Commune et les partenaires).
+
+La téléphonie IP actuelle, introduite en 2008 a été mise à jour en 2024 et comprend un serveur virtuel, plus de 64
+
+nouveaux téléphones fixes, plus de 30 antennes et environ 70 téléphones sans fil de Yealink (anciennement Cisco) ainsi qu'une application de téléphonie logicielle (softphone) pour la mobilité.
+
+L'équipement constituant l'infrastructure informatique se compose de 8 serveurs physiques (faisant tourner plus de 50 machines virtuelles), 2 baies de stockage et backup, plus de 165 postes de travail (fixes, notebooks, workstations, caisses aux guichets, etc.), plus de 35 imprimantes et près de 25 copieurs-scanners.
+
+# Projets
+
+Dans la continuité de 2023 et compte tenu de la recrudescence des attaques informatiques continuant à cibler les administrations publiques, l'Unité informatique a procédé au renforcement de la cybersécurité au niveau technique, humain, organisationnel et administratif.
+
+# Principaux projets traités en 2024
+
+# Réseaux informatiques
+
+Les projets suivants ont été réalisés sur les réseaux informatiques internes et externes de l'administration communale :
+
+- planification, coordination et mise en place du réseau informatique de la nouvelle Garderie de l'Oyonne (rue d'Entre-deux-Villes 12) sous forme d'une connexion cuivre directe (vDSL) avec la Garderie Vilarose (rue de l'Oyonne 1). Installation de tous les équipements informatiques (ordinateurs, téléphonie 3CX, imprimantes, etc.).
+
+# Téléphonie IP
+
+Les travaux suivants ont été réalisés sur la téléphonie :
+
+- finalisation de la mise en place de la nouvelle téléphonie 3CX à l'ensemble du personnel communal et ses partenaires. Mise à jour logicielle obligatoire à la dernière version qui a nécessité une refonte complète de la stratégie de gestion des flux d'appels pour tous les secteurs.
+
+# Infrastructure (serveurs, postes de travail, imprimantes, périphériques, etc.)
+
+En plus des tâches récurrentes de maintien des systèmes (dont le rythme s'intensifie toujours) et de sauvegardes des données, l'infrastructure informatique a évolué comme suit :
+
+- suite de la mise à jour des systèmes d'exploitation Windows de plusieurs serveurs virtuels ainsi que leur migration sur la nouvelle infrastructure Dell ;
+- remplacement de serveurs Windows (licences commerciales payantes) par des serveurs Linux (licences open-source gratuites) tant que les applications ciblées le supportent et que la sécurité, la stabilité et la pérennité sont garanties ;
+
+
+
+- mise en place des nouveaux firewalls Fortinet qui remplaceront à terme les Cisco actuels ;
+- mise en place des nouveaux switches Cisco Nexus au cœur du réseau ainsi que la migration des équipements associés ;
+- réalisation d'un PoC (Proof of Concept) RDS (Remote Desktop Services) d'une solution de virtualisation du poste de travail visant à remplacer la solution Citrix en place.
+
+# Logiciels métiers
+
+- Logiciel du Port (SUTP) : évolution de la solution de gestion du Port avec les outils open-source QGIS (cartographie) et PostgreSQL (base de données) en collaboration avec le Système d'information du territoire (SIT) de la Ville de Vevey pour une intégration interne dans Cartoriviera ;
+- Logiciel de gestion des permis de construire (SUTP) : suite de la participation au groupe de travail pour le développement de la nouvelle solution web de gestion des permis de construire Geocity (initiée par la Ville d'Yverdon-les-Bains) ;
+- Logiciel des inhumations (SUTP) : évolution de la solution de gestion des inhumations avec les mêmes outils open-source (QGIS et PostgreSQL) que pour le logiciel du Port, toujours en collaboration avec le SIT de la Ville de Vevey et son intégration dans Cartoriviera.
+
+# Cyber-sécurité
+
+- En lien avec le préavis N° 1/2023 en réponse au postulat de MM. François Costa et Yvan Krähenbühl (PLR) « Un label pour donner confiance à la population », dans une volonté permanente de sécuriser nos systèmes contre les cybermenaces, des démarches ont été entreprises auprès de cyber-safe.ch afin de certifier par l'obtention de leur Label la conformité aux exigences et bonnes pratiques en cybersécurité de nos processus ;
+- Évolution de l'architecture du réseau par le report du routage des flux internes vers les nouveaux firewalls, afin d'augmenter la sécurité du trafic ;
+- Recherche et évaluation d'un logiciel de sécurité surveillant les privilèges d'accès (PAM) à différents niveaux dans l'infrastructure informatique, afin de réduire la surface d'attaque sur l'identité numérique, dont la mise en place est prévue en 2025.
+
+
+
+# OFFICE DE LA POPULATION
+
+La population établie au 31.12.2024 s'élève à 12'717 personnes, soit une augmentation de 181 unités par rapport à l'année précédente.
+
+Il est constaté une augmentation de la population suisse de 89 unités et de la population étrangère de 92 unités. Toutefois, comme il appartient à l'Office cantonal des étrangers de déterminer le total général de la population étrangère sur la base des données fournies par le Registre central des étrangers, les totaux tirés du fichier communal et ceux qui sont retenus par le canton diffèrent de 95 unités, soit une population effective de 12'812 habitants. Cette différence s'explique notamment par le fait que le Registre central des étrangers arrête le chiffre au 31 août de l'année en cours.
+
+## Taxes
+
+|  Étrangers | Permis  |
+| --- | --- |
+|  Permis d'établissement C | 745  |
+|  Permis de séjour B | 807  |
+|  Permis frontaliers | 0  |
+|  Courts séjours (permis L) | 51  |
+|  Refus | 6  |
+|  Assentiments de travail | 0  |
+|  Déclarations d'établissement | 14  |
+|  Requérants d'asile, admissions provisoires et personnes à protéger | 27  |
+|  Certificats d'hébergement | 1  |
+|  **Total** | **1'651**  |
+|  *Taxes :* | *Fr. 90'356.00*  |
+|  *Part communale :* | *Fr. 26'948.00*  |
+
+## Divers
+
+|  Établissement de cartes d'identité | 336  |
+| --- | --- |
+|  *Taxes :* | *Fr. 22'353.00*  |
+|  *Part communale :* | *Fr. 9'755.95*  |
+
+## Émoluments divers
+
+|  Attestations d'établissement, frais d'inscription, renseignements et frais divers |   |
+| --- | --- |
+|  *Part communale :* | *Fr. 77'972.05*  |
+
+## Total
+
+|  *Taxes :* | *Fr. 112'709.00*  |
+| --- | --- |
+|  *Part communale :* | *Fr. 114'676.00*  |
+
+En 2024, l'Office de la population a répondu à 8'119 sollicitations aux guichets.
+
+Pour de plus amples informations au sujet de l'évolution et des mouvements de population, vous voudrez bien vous référer aux tableaux ci-après.
+
+## Évolution de la population en 2024
+
+|  Population établie (résidence principale) | 2024 | Différence  |
+| --- | --- | --- |
+|  **Nationalité suisse**  |   |   |
+|  Hommes | 3'277 | + 55  |
+|  Femmes | 4'120 | + 25  |
+|  Garçons | 794 | - 10  |
+|  Filles | 781 | + 19  |
+|  **Total population suisse** | **8'972** | **+ 89**  |
+|  **Nationalité étrangère**  |   |   |
+|  Hommes | 1'523 | + 49  |
+|  Femmes | 1'499 | + 30  |
+|  Garçons | 365 | - 7  |
+|  Filles | 358 | + 20  |
+|  **Total population étrangère** | **3'745** | **+ 92**  |
+|  **Total population établie** | **12'717** | **+ 181**  |
+
+## Population non comptée dans la statistique cantonale
+
+|  Personnes en séjours (domiciles secondaires) | 139 |   |
+| --- | --- | --- |
+|  Permis L (courts séjours) | 28 |   |
+|  Frontaliers * | 6 |   |
+|  Permis non attribué | 30 |   |
+|  Personnes à protéger | 95 |   |
+|  **Total** | **298** |   |
+|  **Total population enregistrée** | **13'015** | **+ 207**  |
+
+* Personnes de nationalité étrangère domiciliées hors de la Suisse occupant un emploi à La Tour-de-Peilz
+
+## Statistique de la population au 31.12.2024
+
+Nombre de ménages : 6'152 / Naissances : 104 / Décès : 90
+
+|   | Hommes | Femmes | Enfants - de 18 ans |   | Total  |
+| --- | --- | --- | --- | --- | --- |
+|   |   |   |  Garçons | Filles  |   |
+|  Total population suisse | 3'277 | 4'120 | 794 | 781 | **8'972**  |
+|  Total population étrangère | 1'523 | 1'499 | 365 | 358 | **3'745**  |
+|  **Total général de la population** | **4'800** | **5'619** | **1'159** | **1'139** | **12'717**  |
+
+![img-0.jpeg](img-0.jpeg)
+
+
+
+## Évolution de la population établie depuis 2015
+
+|  Année | Total global | Total par origine |   | Évolution annuelle  |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |  Suisses | Étrangers | Total +/- | Suisses +/- | Étrangers +/- |   |
+|  2015 | 11'334 | 8'057 | 3'277 | + 212 | + 80 | + 132 |   |
+|  2016 | 11'503 | 8'109 | 3'394 | + 169 | + 52 | + 117 |   |
+|  2017 | 11'683 | 8'149 | 3'534 | + 180 | + 40 | + 140 |   |
+|  2018 | 11'879 | 8'236 | 3'643 | + 196 | + 87 | + 109 |   |
+|  2019 | 11'918 | 8'326 | 3'592 | + 39 | + 90 | - 51 |   |
+|  2020 | 12'052 | 8'424 | 3'628 | + 134 | + 98 | + 36 |   |
+|  2021 | 12'191 | 8'515 | 3'676 | + 139 | + 91 | + 48 |   |
+|  2022 | 12'371 | 8'691 | 3'680 | + 180 | + 176 | + 4 |   |
+|  2023 | 12'536 | 8'883 | 3'653 | + 165 | + 192 | - 27 |   |
+|  2024 | 12'717 | 8'972 | 3'745 | + 181 | + 89 | + 92 |   |
+|  Évolution |   |   |   | + 1'595 | + 995 | + 600 |   |
+
+![img-1.jpeg](img-1.jpeg)
+
+## Statistique des âges / hommes - femmes
+
+![img-2.jpeg](img-2.jpeg)
+
+## Répartition par religion
+
+![img-3.jpeg](img-3.jpeg)
+
+## Mutations enregistrées sur le fichier informatique
+
+|  Type de mutations | 2024 | 2023 | +/-  |
+| --- | --- | --- | --- |
+|  Arrivées | 1'251 | 1'237 | + 14  |
+|  Naissances | 104 | 99 | + 5  |
+|  Départs | 1'444 | 1'482 | - 38  |
+|  Décès | 90 | 93 | - 3  |
+|  Changements d'adresse | 476 | 613 | - 137  |
+|  Modifications d'état-civil | 356 | 400 | - 44  |
+|  Demande de documents d'identité (cartes d'identité) | 336 | 492 | - 156  |
+|  Délivrance d'attestations | 2'045 | 2'288 | - 243  |
+|  Demandes de renseignements | 1'137 | 953 | + 184  |
+
+Ce tableau contient les mutations principales enregistrées pour les personnes inscrites dans le fichier des habitants.
+
+
+
+# DOMAINES ET BÂTIMENTS
+
+BUREAU ADMINISTRATIF ET TECHNIQUE
+
+- 1 chef de service (1 EPT)
+- 1 adjoint au chef de service (1 EPT)
+- 1 chef de projet travaux (1 EPT)
+- 1 chef de projet architecte (0,7 EPT)
+- 1 ingénieure en énergie et environnement (1 EPT)
+- 1 responsable du Secteur gérance et entretien (0,9 EPT)
+- 1 gérante d'immeubles (1 EPT)
+- 2 assistantes administratives (1,2 EPT)
+
+CONCIERGERIE BÂTIMENTS ADMINISTRATIFS, SCOLAIRES ET SALLE DES REMPARTS
+
+- 1 chef concierge (1 EPT)
+- 1 adjoint au chef concierge (1 EPT)
+- 1 menuisier (1 EPT)
+- 1 concierge, responsable technique (1 EPT)
+- 1 concierge, responsable des réceptions (1 EPT)
+- 14 concierges (13,7 EPT)
+
+Le Secteur conciergerie accueille 2 apprentis agent de propreté.
+
+PISCINE DES MOUSQUETAIRES
+
+- 2 gardes-bains (2 EPT)
+- 1 concierge, remplaçant garde-bain (1 EPT)
+
+CONCIERGERIE BÂTIMENTS LOCATIFS ET FUNÉRARIUM
+
+- 11 concierges (1,71 EPT)
+
+VIGNES ET VINS
+
+- 1 vigneron-tâcheron (0,75 EPT)
+
+
+
+# ADMINISTRATION
+
+Les principales responsabilités du Service sont les suivantes :
+
+- la conduite et l'encadrement des différents secteurs d'activités ;
+- la planification, la réalisation et le suivi des projets de construction, de transformation et de rénovation effectués sur le parc immobilier communal ;
+- la mise en œuvre et la coordination du développement durable sur le territoire communal ;
+- le suivi et l'optimisation énergétique du parc immobilier communal ;
+- la gestion des subventions du fonds pour l'énergie et le développement durable ;
+- l'entretien et la conciergerie du patrimoine communal ;
+- la gérance du parc immobilier locatif ;
+- le service communal du logement (préavis et autorisations) ;
+- la réservation et la location des salles et des autres locaux mis à disposition des sociétés et loués à des tiers ;
+- le suivi de la gérance des établissements de la plage-restaurant de la Maladaire et du bar restaurant Le Passe-Passe sur l'esplanade du Château ;
+- la gestion administrative des forêts, des alpages, des vignes et du vin.
+
+## Patrimoine communal
+
+L'estimation fiscale de la totalité du patrimoine privé communal, administratif et financier, se monte à Fr. 24'355'150.-. En 2024, la Commune a fait l'acquisition de 2 parcelles situées en bordure de la plage de la Maladaire.
+
+La surface totale des parcelles privées communales est de 1'909'058 m², soit 191 ha. La différence avec le chiffre pour l'année 2023 (191,8 ha) est due à une réactualisation régulière des fichiers et à des ajustements effectués en cours d'année.
+
+## Patrimoine administratif
+
+Le patrimoine administratif est constitué de :
+
+- 17 bâtiments d'utilité publique comprenant, notamment, la Maison de Commune, la Maison Hugonin, le Temple, le Château, le bâtiment du Secteur espaces publics ;
+- 2 bâtiments de garderies (Croqu'Lune et Yakari) ;
+- 3 UAPE (Terreaux, Vassin et Grand-Rue 56) ;
+- 8 WC publics dispersés sur le territoire ;
+- 12 bâtiments scolaires ;
+- 11 bâtiments de sociétés, dont le chalet Les Colombettes à La Comballaz sur la commune d'Ormont-Dessous, géré par l'Amicale des pompiers de La Tour-de-Peilz.
+
+Sur le territoire de la commune de Blonay - Saint-Légier :
+
+- 3 chalets : la Grande Bonavau, Montbrion et Fontanna-David (bas), ainsi que leurs pâturages respectifs mis en contrat de bail à ferme à un amodataire ;
+- 1 chalet : Fontanna-David (haut), disponible en location durant la belle saison ;
+- Les parcelles communales (forêts et pâturages) totalisent une surface de 1'589'021 m², soit 159 ha, dont 25,07 ha en réserve naturelle (Folly Mollard).
+
+## Patrimoine financier
+
+Au 31 décembre 2024, le parc immobilier locatif comprend 20 bâtiments comptant 164 logements de 1 à 5 pièces et 3'228 m² de surfaces commerciales et administratives, dont :
+
+- 16 immeubles locatifs ;
+- 1 immeuble mixte (ch. de Béranges 212) ;
+- 1 maison individuelle (ch. de Vassin 27) ;
+- 1 villa individuelle (av. de Jaman 13) ;
+- 1 logement en PPE (av. de Sully 48).
+
+Ainsi que :
+
+- 2 surfaces commerciales en extérieur (terrasses) ;
+- 139 places autos, 1 place privée avec recharge électrique et 26 places motos au parking des Mousquetaires ;
+- 119 places de parc intérieures et extérieures (suppression de 3 places par rapport à 2023 à l'avenue du Clos-Aubonne) ainsi que 21 garages sur parcelles locatives ;
+- 15 places de parc extérieures ont été mises en location au 1er janvier 2024 (chemins de Béranges 35 et Adolphe-Burnat 3)
+- 6 parcelles totalisant 30'505 m² de vignes cadastrées ;
+- 121 plantages en location pour une surface totale de 2'904 m² ;
+- Plusieurs parcelles non bâties réparties sur le territoire communal dénommées : places, agricoles, prêchamps et forêts.
+
+
+
+# STRATÉGIE ET PLANIFICATION IMMOBILIÈRE 2024-2040
+
+Confrontée à une augmentation rapide de sa population en raison notamment de l'adoption du RPGA en 2019 et de l'augmentation générale de la population dans le canton, la Ville de La Tour-de-Peilz doit porter une attention particulière au développement adapté et harmonieux de ses bâtiments et infrastructures communales afin de gérer au mieux cette croissance démographique.
+
+À cette fin, la Municipalité a adopté une stratégie immobilière pour la Commune accompagnée d'une planification pour les années 2024 à 2040. L'objectif de ce document, qui a été remis le 30 octobre 2024 au Conseil communal
+
+pour prise de connaissance, est de présenter une ligne de conduite et de partager une vision à court, moyen et long terme pour l'immobilier communal.
+
+Ce document est un outil de travail de la Municipalité et de communication avec le Conseil communal sur l'état des lieux et des enjeux à venir ainsi que de la stratégie et la planification mises en place pour y répondre.
+
+À noter que cette communication et son annexe participent à la réponse à l'interpellation de M. Jean-Yves Schmidhauser (PSDG) « Quand la construction va à tout va, tout ne va pas » déposée lors de la séance du 15 mai 2024.
+
+# PROJETS, TRAVAUX, INGÉNIERIE
+
+## Projets de construction
+
+### Collège Courbet
+
+L'importante inondation survenue au sous-sol du collège en décembre 2022 a impliqué de lourds travaux d'assainissement et donc la fermeture de la salle de gymnastique durant plusieurs mois. Malheureusement ces travaux d'assèchement de la surface de la salle de gymnastique n'ont pas donné satisfaction. En effet, des remontées d'humidité ont été constatées, endommageant progressivement la surface de la salle. Cette situation ne permet donc pas de clore définitivement ce dossier. De nouvelles investigations ont été entreprises, qui nécessiteront de nouveaux travaux de réfection. Ceux-ci sont planifiés pour 2025 et seront toujours à charge des assurances.
+
+À la demande des responsables de la filière sport des écoles et suite à la constatation de risques d'accident pour les usagers, le mur de grimpe a été remodelé à satisfaction. Les coûts de corrections ont été à charge des entreprises et les améliorations ont été prises sur le budget de construction.
+
+Quelques travaux de garantie et améliorations ponctuelles ont également été réalisés.
+
+Les coûts de construction annoncés restent parfaitement maîtrisés malgré le fait que le budget ne peut être bouclé en raison des problèmes récurrents dans la salle de gym et l'attente d'une importante subvention cantonale.
+
+### Collège des Mousquetaires
+
+Dans sa séance du 30 octobre 2024, le Conseil communal a adopté le préavis municipal N° 27/2024 concernant la demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collège des Mousquetaires. La mise à l'enquête est prévue en janvier 2025 et les travaux débuteront au prin-
+
+printeps par le remplacement des vitrages. Si tout va bien, ils seront suivis par la réalisation des classes.
+
+Crédit de construction : Fr. 3'957'000.-
+
+### Collège des Marronniers
+
+Dans sa séance du 30 octobre 2024, le Conseil communal a adopté le préavis municipal N° 25/2024 concernant la demande d'un crédit de construction de Fr. 140'000.- pour l'installation de tableaux et écrans interactifs dans les classes du collège des Marronniers. Les travaux seront réalisés durant les vacances scolaires de février 2025.
+
+Crédit de construction : Fr. 140'000.-
+
+### Chemin du Gregnolet
+
+Dans sa séance du 26 juin 2024, le Conseil communal a adopté le préavis municipal N° 15/2024 concernant la demande d'un crédit de Fr. 295'000.- pour procéder à la dépollution de la butte de tir et ses alentours sur la parcelle N° 1116, préalable indispensable à la construction d'une garderie.
+
+Crédit de construction : Fr. 295'000.-
+
+Dans sa séance du 30 octobre 2024, le Conseil communal a adopté le préavis municipal N° 24/2024 concernant la demande d'un crédit de construction de Fr. 4'500'000.- intégrant le crédit d'étude N°13/2023 de Fr. 380'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116.
+
+Crédit de construction : Fr. 4'500'000.-
+
+Le projet, développé par le bureau d'architecte Thibaud-Zingg, a été mis à l'enquête en novembre 2024. Après levée des
+
+
+
+oppositions et une fois les délais de recours échus, l'autorisation de construire sera rendue en janvier 2025 et les travaux débuteront fin janvier par la dépollution du terrain, suivie par la construction, majoritairement en bois et alimentée par des énergies renouvelables. À l'issue d'un appel d'offre public, la réalisation a été confiée à une entreprise totale. La remise de l'ouvrage est planifiée pour octobre 2025.
+
+### **Aménagement des pavillons de la rue du Collège pour l'accueil parascolaire**
+
+Dans sa séance du 7 décembre 2022, le Conseil communal a adopté le préavis municipal 23/2022 pour une demande de crédit de Fr. 179'000.- afin de financer l'aménagement des pavillons sis rue du Collège destinés à la création de 54 places supplémentaires pour l'accueil parascolaire. Les travaux de transformation et réaménagement des locaux ont été réalisés durant le 1er semestre 2023 permettant ainsi une mise à disposition à la rentrée d'août.
+
+Crédit de construction : _______________ Fr. 179'000.-
+Coût des travaux réalisés _______________ Fr. 175'485.95
+(communication municipale 10/2024)
+
+### **Projets de rénovation**
+
+#### **Restauration du Château et Musée suisse du jeu**
+
+La réponse à la motion de Mme Geneviève Pasche (LV) et M. Etienne Balestra (PSDG) et consorts « Le château un programme pour toutes et tous » a été adopté par le Conseil communal le 15 mai 2024.
+
+Suite aux résultats de la démarche participative, la prochaine étape pour la Municipalité consiste à établir un projet de rénovation du Château et de ses abords répondant à l'essentiel des attentes formulées lors de la démarche participative, tout en tenant compte des nécessités de fonctionnement du Musée et des contraintes patrimoniales d'un site classé en note 1 à l'inventaire des monuments historiques et sous protection nationale.
+
+Le souhait de voir une offre culturelle élargie rejoint les ambitions de la Municipalité. Outre la mise à disposition des locaux pour le Musée, plusieurs espaces seront aménagés à cet effet, tels qu'une salle polyvalente dans la Maison du jardinier pouvant accueillir des expositions, des manifestations, des animations.
+
+Pour ce qui concerne la création du restaurant dans l'ail nord-ouest du corps de logis avec une terrasse sur l'esplanade du Château et les aménagements nécessaires dans le corps de logis, les études sont en cours avec le bureau d'architectes mandaté jusqu'à ce jour. Le projet revu devra obtenir l'aval des Monuments et Sites de l'État de Vaud et de la Confédération, puis sera soumis à l'enquête publique complémentaire.
+
+En ce qui concerne l'aménagement de la partie du donjon primitif et des aménagements périphériques, il s'agira de consulter plus en détail les associations qui sont intervenues
+
+lors de la mise à l'enquête et l'Office fédéral de la culture afin de bien cerner les limites et opportunités pour la conservation et la valorisation de cette partie du Château.
+
+### **Restauration de certains murs d'enceinte du Château**
+
+La Municipalité a néanmoins dû prioritairement engager des travaux d'entretien des abords et envisager des mesures de conservation des vestiges dans le périmètre du donjon et de la «grotte», des travaux ont été entrepris en 2023 et 2024 sur les murs de courtines et d'escarpe. Dans sa séance du 22 mars, le Conseil communal a adopté le préavis municipal urgent N° 2/2023 concernant la demande d'un crédit de Fr. 483'000.- destiné à l'entretien et la rénovation du mur de soutènement nord et des murs de courtines du Château. Une intervention globale s'est avérée urgente pour éviter des accidents dans les abords. Les travaux se sont terminés à l'automne 2023.
+
+Crédit de construction : _______________ Fr. 483'000.-
+
+Au mois de novembre 2023, la livraison de béton par un camion dans le cadre des travaux d'aménagement de la place de jeux dans le périmètre du Château avait entraîné l'affaissement d'un pan de mur en dessous de la tour nord-est. Dans sa séance du 26 juin 2024, le Conseil communal a adopté le préavis municipal N° 16/2024, concernant la demande d'un crédit de Fr. 360'000.- pour l'entretien et la rénovation du mur d'escarpe au pied des courtines du Château de La Tour-de-Peilz. Les travaux de remise en état sont en cours d'exécution, ils seront terminés durant le 1er semestre 2025 en fonction des conditions météorologiques. Une partie significative des coûts sera prise en charge par l'assurance RC des entreprises et par le biais de subventions patrimoniales, le solde restera à charge de la Commune.
+
+Crédit de construction : _______________ Fr. 360'000.-
+Le décompte final des deux opérations sera présenté fin 2025, une fois les subventions reçues.
+
+### **Maison Charlemagne**
+
+Dans sa séance du 26 juin 2024, le Conseil communal a adopté le préavis municipal N° 14/2024, concernant la demande d'un crédit de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la Maison Charlemagne et la création de bureaux pour l'administration communale. L'enquête publique n'a fait l'objet d'aucune opposition. Les travaux ont débuté en octobre 2024 par la mise en place de barrières délimitant l'aire de chantier et de travaux de désamiantage. Le chantier se poursuivra durant 18 mois environ pour une remise de l'ouvrage au printemps 2026.
+
+Crédit de construction : _______________ Fr. 3'913'000.-
+
+
+
+### **Centre œcuménique de Vassin**
+
+Dans sa séance du 11 décembre 2024, le Conseil communal a pris connaissance du préavis municipal N° 14/2024, concernant le retour des constructions sur la parcelle communale N° 897 avant l'échéance du droit de superficie établi en faveur de la Fondation du Centre œcuménique de Vassin. La décision du Conseil communal est attendue lors de la séance du 5 février 2025.
+
+### **Collège Mousquetaires - remplacement des serrures, des clés et de la mise en passe**
+
+Dans sa séance du 20 mars 2024, le Conseil communal a adopté le préavis municipal N° 3/2024 concernant la demande d'un crédit cadre de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires. Les travaux ont été réalisés durant la période de vacances scolaires d'été 2024.
+
+Crédit de construction : Fr. 125'000.-
+Coût des travaux réalisés : Fr. 112'918.-
+(communication municipale 32/2024)
+
+### **Chemin de Béranges 111 - Aménagement de vestiaires séparés hommes et femmes**
+
+Dans sa séance du 20 mars 2024, le Conseil communal a adopté le préavis municipal N° 2/2024 concernant la demande d'un crédit cadre de Fr. 142'000.- pour l'aménagement de vestiaires séparés hommes et femmes. Les travaux ont été réalisés en 2024.
+
+Crédit de construction : Fr. 142'000.-
+Coût des travaux réalisés : Le décompte final sera établi en 2025.
+
+### **Installations techniques**
+
+#### **Bâtiments scolaires - Remplacement des tubes fluorescents**
+
+Suite à l'adoption de la nouvelle directive RoHS (Restriction of the use of certain Hazardous Substances in electrical and electronic Equipment) : les tubes fluorescents (tubes néons) ne seront plus disponibles à la vente dès le 31 août 2025. Ils doivent être remplacés par de nouvelles sources LED. Afin de se mettre en conformité, il est nécessaire de remplacer l'intégralité des luminaires concernés, en particulier ceux des salles de classes.
+
+Dans sa séance du 11 décembre 2024, le Conseil communal a pris connaissance du préavis municipal N° 37/2024 concernant la demande d'un crédit de Fr. 650'000.- pour le remplacement de l'éclairage des bâtiments scolaires.
+
+La décision de l'octroi du crédit de construction par le Conseil communal est attendue lors de la séance du 5 février 2025, les travaux sont prévus durant les vacances scolaires entre 2025 et 2026.
+
+### **Assainissement énergétique des bâtiments locatifs**
+
+Dans sa séance du 7 décembre 2022, le Conseil communal a adopté le préavis municipal N° 22/2022 concernant la demande d'un crédit cadre de Fr. 9'680'000.- pour accélérer la rénovation et l'assainissement énergétique et technique des immeubles du parc locatif communal, qui répondait à la motion de M. Philippe Eugster (PLR) « Accélérons les travaux d'assainissement énergétique du parc immobilier communal ». Suite au départ de la collaboratrice en charge de ce dossier, un nouvel architecte a été engagé, ce qui a engendré un retard sur la mise en œuvre de ces réalisations. Néanmoins, le train a été remis sur les rails et d'importants travaux ont débuté.
+
+### **Chemin de Béranges 51 - 53**
+
+L'assainissement de ces deux bâtiments passera par le renforcement de l'isolation des façades, le remplacement de toutes les fenêtres, la réfection de la toiture avec l'installation de panneaux photovoltaïques, l'agrandissement des balcons et le remplacement de la chaudière à mazout par un raccordement sur le réseau CAD du lac au Groupe E. L'enquête publique n'a suscité aucune opposition. Les travaux ont débuté à fin 2024 et devraient se terminer à l'automne 2025.
+
+### **Avenue des Baumes 22-24 et chemin de Béranges 74 - raccordement au réseau CAD**
+
+Les travaux de raccordement au réseau de chauffage à distance (CAD) au Groupe E pour les immeubles locatifs Baumes 22-24 et Béranges 74 ont été adjugés. Les conditions des contrats sont en cours de révision.
+
+### **Avenue des Baumes 22-24 et chemin de Béranges 74 - installation de panneaux photovoltaïques**
+
+Dans sa séance du 1er novembre 2023, le Conseil communal a adopté le préavis municipal N° 12/2023 concernant la demande d'un crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques sur les toitures des trois immeubles locatifs. Les travaux ont été adjugés et se sont terminés courant 2024. Ces travaux sont financés par le Fonds pour l'efficacité énergétique et le développement durable (FEDD). Les trois installations, avec une production totale estimée de 143 MWh par an, couvrent l'équivalent de la consommation annuelle de 40 ménages.
+
+Ces installations permettent aux locataires de bénéficier de l'autoconsommation de l'électricité produite sur place, dans le cadre d'une communauté d'autoconsommateurs (CA). Être membre de la CA permet aux locataires de bénéficier d'un tarif avantageux de l'électricité. Cela permet également à la Commune de vendre une partie de l'électricité produite par ses installations aux locataires au lieu de l'injecter dans le réseau à un tarif inférieur.
+
+Crédit de construction : Fr. 260'000.-
+Coût des travaux réalisés : Décompte final sera établi en 2025 après réception des subventions fédérales
+
+
+
+## Acquisition, ventes, servitudes
+
+Depuis l'entrée en vigueur de la loi sur la préservation du parc locatif vaudois (LPPPL) le 1er janvier 2018, conformément à l'art. 31 et suivants, les Communes bénéficient d'un droit de préemption pour leur permettre d'acquérir en priorité un bien-fonds mis en vente et affecté en zone à bâtir légalisée. En 2024, 21 dossiers ont été traités pour lesquels il a été décidé de renoncer au droit de préemption. En effet, de nombreux dossiers concernaient principalement des ventes de villas ou d'autres biens en situation de zone à faible densité ou encore lorsque l'incidence foncière ne permettait pas de construire des logements à loyer abordable.
+
+## Développement durable
+
+Les actions en matière de développement durable reposent sur deux leviers : d'une part, les initiatives ciblant le parc immobilier communal, illustrant l'exemplarité de la Commune, et d'autre part, les mesures visant à sensibiliser et impliquer la population.
+
+### Actions menées pour le parc immobilier communal
+L'assainissement énergétique
+
+Plusieurs études pour l'assainissement énergétique des enveloppes thermiques de bâtiments communaux ont été réalisées en interne en 2024 et les travaux seront entrepris en 2025. Il s'agit notamment du collège Charlemagne, des immeubles locatifs de Béranges 51 et 53, ainsi que de l'assainissement et extension du collège des Mousquetaires.
+
+### Remplacement des vecteurs énergétiques fossiles par des énergies renouvelables :
+
+Les travaux de raccordement de trois immeubles locatifs au réseau CAD de la ville ont été adjugés en 2024 et seront exécutés en 2025. Il s'agit des immeubles locatifs de Béranges 74 et des Baumes 22 et 24. L'étude de raccordement d'autres bâtiments au réseau CAD est en cours, notamment pour Béranges 51 et Béranges 111.
+
+### Production d'énergie renouvelable endogène
+
+Trois installations photovoltaïques ont été réalisées en 2024 sur les immeubles locatifs des Baumes 22 et 24, et Béranges 74. Pour 2025, trois nouvelles installations sont prévues dans le cadre des projets de rénovation énergétique complète de trois bâtiments communaux : la Maison Charlemagne et Béranges 51 et 53. La production d'énergie solaire photovoltaïque locale permet à la Commune de générer une partie significative de l'électricité nécessaire à la consommation électrique de ces bâtiments. Cette démarche réduit la dépendance aux énergies fossiles et diminue significativement les émissions de CO₂.
+
+### Outil Energo - Portail de suivi énergétique
+
+Un suivi rigoureux des consommations énergétiques des bâtiments communaux est opérationnelle. Ce système, mis
+
+en place en mars 2021 pour les bâtiments scolaires et administratifs, a été étendu un an plus tard aux immeubles locatifs. Le suivi énergétique permet de mesurer et d'analyser la consommation d'énergie des bâtiments communaux. Cela facilite l'identification des sources de gaspillage et la mise en œuvre d'actions correctives pour améliorer leur efficacité énergétique. La Commune réduit ainsi ses coûts d'exploitation, limite son empreinte carbone et contribue aux objectifs climatiques et environnementaux. Ce dispositif est également essentiel pour planifier des rénovations prioritaires et mesurer l'impact des améliorations réalisées au fil du temps.
+
+### Optimisation intelligente - ECCO2 et Yord
+
+Les consommations énergétiques liées au chauffage de trois immeubles locatifs (Béranges 74, Baumes 22 et 24) sont optimisées via la solution ECCO2, tandis que le collège Bel-Air bénéficie de la solution Yord. Ces solutions de gestion intelligente des systèmes de chauffage permettent de réaliser jusqu'à 30 % d'économies d'énergie, tout en assurant un confort optimal pour les utilisateurs.
+
+Les solutions d'optimisation intelligente, comme ECCO2 et Yord, permettent d'ajuster en temps réel les systèmes de chauffage des bâtiments en fonction de plusieurs facteurs. Pour des bâtiments énergivores ou dotés de grandes surfaces vitrées, elles exploitent l'apport solaire en maximisant son effet : lorsque le rayonnement solaire est élevé, le chauffage est automatiquement réduit pour éviter une surchauffe et limiter une consommation énergétique inutile.
+
+Ces systèmes tiennent également compte des prévisions météorologiques et des habitudes d'occupation des bâtiments pour anticiper les besoins de chauffage. Cela garantit une température intérieure confortable tout en réduisant la consommation énergétique. En agissant de manière proactive et intelligente, ces solutions permettent de limiter le gaspillage, de réduire les coûts énergétiques et diminuer les émissions de gaz à effet de serre, contribuant ainsi à la transition énergétique de la Commune à moindre coût.
+
+Le graphique ci-dessous illustre la baisse de consommation énergétique obtenue grâce au système ECCO2, mis en place dès janvier 2024.
+
+![img-0.jpeg](img-0.jpeg)
+
+Il met en évidence une économie d'énergie de 21 % pour les immeubles situés à l'avenue des Baumes 22 et 24, et de
+
+
+
+20 % pour l'immeuble du chemin de Béranges 74 en 2024, par rapport à la moyenne de consommation des deux dernières années.
+
+En ce qui concerne le collège Bel-Air, le système a été installé fin octobre 2024. Une analyse de l'économie d'énergie pourra être réalisée d'ici la fin de l'année 2025.
+
+## Actions menées pour la population
+
+### Projet AOG Solaire
+
+Afin d'intensifier l'installation de capteurs solaires photovoltaïques sur son territoire et d'encourager les propriétaires à investir dans cette solution, la Commune avait participé à la mise en place d'un appel d'offres groupé avec plusieurs communes vaudoises dans le cadre du projet « Group-IT Région Riviera », en collaboration avec la HES-SO Valais à Sierre.
+
+Ce projet avait réuni les Communes de Vevey, Montreux, Pully et La Tour-de-Peilz, avec pour objectif principal de fournir des informations et d'accompagner les propriétaires dans la mise en place d'installations photovoltaïques en réduisant les coûts de réalisation des installations par une mutualisation des ressources.
+
+Une séance d'information ouverte à tous les propriétaires a été organisée le mardi 21 mai 2024 à la salle des Remparts. Une lettre d'invitation et d'information avait été envoyée à tous les propriétaires situés sur la commune quelques semaines avant l'événement, et plusieurs canaux de communication avaient été mobilisés pour maximiser la participation.
+
+La séance a rassemblé 260 participants, dont 76 se sont inscrits pour l'étape de pré-évaluation visant à analyser la faisabilité et le potentiel de réalisation d'une installation photovoltaïque. Les coûts de cette pré-évaluation avaient été entièrement pris en charge par la Commune. Par la suite, 39 participants ont poursuivi avec une évaluation détaillée, moyennant une contribution de Fr. 350.-. Cette dernière étape leur a permis de recevoir deux offres sélectionnées par Group-IT.
+
+Les propriétaires ont ensuite la possibilité de choisir l'une des deux offres et de finaliser leur projet afin de réaliser leur installation. Group-IT fournira un retour à la Commune à la fin de l'année 2025, après avoir envoyé un sondage aux participants pour évaluer les résultats et les retombées du projet.
+
+### Programme de subventions communales liées à l'énergie et au développement durable
+
+Depuis le 30 mars 2022, un programme de subventions communales en faveur des économies d'énergie, des énergies renouvelables, de la mobilité douce et de la promotion de la biodiversité est en vigueur. Ce programme repose sur quatre volets. Les tableaux ci-dessous présentent le nombre de demandes de subventions reçues ainsi que les montants octroyés pour les années 2022, 2023 et 2024. Il convient de rappeler que chaque dossier fait l'objet d'un contrôle rigoureux avant l'attribution d'une subvention.
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+
+
+La mise en place de ce programme de subventions a été communiquée à la population par différents canaux de communication, tels que la distribution d'un tout-ménage, lors des séances d'information destinées à la population, le journal communal, etc.
+
+La Municipalité a décidé, lors de sa séance du 14 octobre 2024, de réviser le programme des subventions « Mobilité » financé par le Fonds Énergie et Développement Durable (FEDD).
+
+Cette révision vise à gérer le budget annuel alloué à la catégorie Mobilité, à favoriser l'utilisation des transports publics, et à orienter les ressources humaines disponibles vers des mesures jugées les plus efficaces.
+
+Les modifications concernent principalement l'augmentation de la subvention pour l'abonnement annuel de transport public, l'ajout d'une subvention pour le premier abonnement demi-tarif, la suppression de la subvention pour la réparation et la révision des vélos, ainsi que la réduction du plafond de la subvention pour l'achat de vélos.
+
+### Sondage auprès des propriétaires
+
+La Commune a mené en 2023 une enquête afin d'identifier les obstacles à la réalisation de travaux énergétiques chez les propriétaires de logements à La Tour-de-Peilz. L'analyse des 441 réponses recueillies a mis en évidence plusieurs freins, notamment les coûts élevés, une méconnaissance des incitations disponibles et l'absence de conseils personnalisés en matière énergétique.
+
+Les résultats ont également révélé un grand intérêt pour des aides financières et des programmes de subventions, ainsi que des attentes variées en matière d'accompagnement technique. En réponse à ces conclusions, des actions ciblées ont été proposées dès 2024. L'objectif principal était d'encourager les propriétaires à entreprendre des rénovations énergétiques, en mettant en lumière le rôle clé de la Commune dans la promotion des énergies renouvelables et la transition vers des systèmes de chauffage plus écologiques.
+
+### Partenariat de décarbonation
+
+Depuis 2022, la Commune fait partie d'un partenariat réunissant une dizaine de Communes vaudoises, ainsi que Romande Énergie, gestionnaire du réseau électrique, dans le cadre de la co-création de solutions de décarbonation pour les Communes romandes. Ce partenariat permet de mutualiser les ressources intellectuelles, financières et humaines pour accélérer la transition énergétique à l'échelle locale, tout en développant des solutions robustes et économiques. Plusieurs projets ont déjà été retenus, tels que le projet AOG Solaire, lancé en 2024 et ayant rencontré un grand succès. Le deuxième projet porte sur la création d'une vidéothèque intercommunale, qui contiendra des vidéos vulgarisées dans le but de sensibiliser et d'informer la population sur la transition énergétique et la sobriété qui sera mise à disposition de la population d'ici septembre 2025.
+
+### Forum énergie-université Pepperdine
+
+En novembre 2024, issue d'une collaboration tripartite, le 1er Pepperdine Énergie Forum, situé dans les magnifiques locaux du château d'Hauteville de Pepperdine University à Blonay - Saint-Légier a eu pour ambition de réunir les représentants politiques, les cadres supérieurs et les ingénieurs spécialistes autour de la question du passage « de l'énergie fossile à l'électricité renouvelable ». Des conférenciers issus du domaine de l'énergie et de la gestion du changement, ainsi que l'engagement actif des participants, ont permis de tisser des liens et faire émerger des solutions pour une transition énergétique réussie sur la Riviera. L'ambition de ce forum est de motiver les responsables des collectivités à échanger entre eux, avec des experts et des spécialistes sur ce thème assez complexe. Constitués en petits groupes de travail hétérogènes, les participants ont pu participer aux conférences, puis travailler ensemble durant des séances ad hoc et des rencontres dans un cadre hors du quotidien pendant 2,5 jours sur un sujet en relation avec le thème choisi pour le développer. Quatre idées de projets innovants ont émergé de ces rencontres et de nombreux liens de collaborations ont ainsi pu être tissés ou renforcés.
+
+Fort du succès de cette première édition, la Commune prévoit de maintenir ce forum en 2025, en élargissant les thématiques, pour soutenir et dynamiser davantage les initiatives locales en matière d'énergie durable.
+
+### Plan climat
+
+Afin de répondre aux postulats de Mme G. Pasche et consorts « Un plan climat pour répondre à l'urgence climatique » et « Déclarer l'urgence climatique et agir à La Tour-de-Peilz » de M. N. Bastard, la Municipalité travaille à l'aboutissement d'un Plan climat communal. Le plan climat devra répondre aux deux enjeux majeurs suivants :
+
+1. Réduire les émissions de gaz à effet de serre sur le territoire communal ou engendrées à l'extérieur ;
+2. Adaptation des infrastructures, des aménagements extérieurs et des usages pour faire face aux changements climatiques.
+
+Pour cela la Municipalité a fixé huit objectifs thématiques :
+
+1. **Bâtiments en construction** - Réduire de 50 % la consommation énergétique des bâtiments et supprimer les chauffages à énergies fossiles d'ici 2040.
+2. **Énergie électrique** - Couvrir 30 % des besoins totaux en électricité consommés sur le territoire communal avec des énergies renouvelables endogènes d'ici 2035.
+3. **Eau** - Réduire de 30 % la consommation d'eau potable d'ici 2035.
+4. **Déchets** - Réduire de 30 % le poids total des déchets d'ici 2035.
+5. **Mobilité** - Réduire de 50 % les émissions de GES (Gaz à effet de serre) et la consommation d'énergie pour la mobilité d'ici 2035.
+
+
+
+6. **Biodiversité** · Augmenter de 30 % le taux de couverture arborée (canopée) et d'un kilomètre les haies vives, d'ici 2035.
+7. **Alimentation** · Diminuer l'empreinte écologique de l'alimentation d'ici 2025
+8. **Participation et communication** · Encourager la population à s'engager pour atteindre les objectifs du plan climat
+
+Les objectifs transversaux que sont l'exemplarité de la Commune ainsi que la sensibilisation et la formation accompagneront chacun des objectifs précités.
+
+La mise en œuvre d'un Plan climat communal nécessitera l'implication des résidents et des entreprises sises sur la commune. Pour cela, une large consultation a été organisée et la population a été invitée à proposer des actions dans le cadre d'un après-midi de travail participatif qui a été organisée le 11 novembre en 2023 à l'Aula du collège Courbet.
+
+Plus de 600 propositions ont ainsi été récoltées. Une synthèse et un plan d'actions a été développé durant l'année 2024. Pour un premier volet qui concerne l'exemplarité de la collectivité publique, le constat a été fait que de nombreuses actions sont déjà mises en œuvre au sein des Services de l'administration. En 2024, le Service domaines & bâtiments s'est concentré sur un deuxième volet pour motiver la population et les entreprises à s'engager dans des actions d'amélioration du Plan climat.
+
+Les habitants pourront s'engager et être récompensés pour des actions en faveur du climat et participer à favoriser le financement de projets issus de la collectivité boëlande. La finalité étant de construire une communauté active et engagée dans la transition énergétique et climatique.
+
+Un point de situation sur ce qui est mis en œuvre au sein de l'administration et un développement du deuxième volet seront présentés dans le cadre d'un préavis en réponse aux postulats susmentionnés.
+
+![img-0.jpeg](img-0.jpeg)
+
+## Énergie - bâtiments communaux
+
+Le portail Energo-tools permet un suivi énergétique précis des bâtiments communaux. Les concierges des bâtiments scolaires et administratifs saisissent directement les relevés de consommation hebdomadaires via un appareil mobile. Pour les immeubles locatifs, les relevés mensuels sont collectés par les concierges, envoyés à l'administration, puis enregistrés par le personnel communal sur le portail. Cet outil est essentiel pour détecter les opportunités d'optimisation énergétique et mettre en œuvre des actions ciblées afin de réduire la consommation d'énergie dans les différents bâtiments communaux.
+
+Grâce à un suivi rigoureux via l'outil Energo, une analyse globale de la consommation énergétique des bâtiments communaux a été réalisée. Cela permet de mieux comprendre les besoins énergétiques et d'identifier les axes d'amélioration pour réduire la consommation et améliorer l'efficacité énergétique.
+
+Les variations observées dans les chiffres de consommation d'une année à l'autre s'expliquent principalement par des corrections et des ajustements des données, justifiant certains écarts avec les précédents rapports de gestion. Les chiffres de 2024 reflètent une situation mise à jour, incluant l'intégration du collège Courbet en particulier.
+
+## Suivi et optimisation énergétique - Bâtiments scolaires
+
+Le graphique ci-dessous illustre la consommation liée à la chaleur, à l'électricité et à l'eau des bâtiments scolaires au cours de trois dernières années 2022, 2023 et 2024. Les données englobent la consommation des collèges des Mousquetaires, Courbet, Charlemagne, Cadet-Rousselle, le collège et la salle de gym des Marronniers, le collège et le pavillon Bel-Air, le pavillon Vassin et le pavillon Béranges.
+
+![img-1.jpeg](img-1.jpeg)
+
+L'augmentation de la consommation globale liée à la chaleur en 2024 s'explique en partie par les températures plus froides que celles des deux années précédentes.
+
+En y regardant de plus près, l'augmentation des consommations de chaleur provient essentiellement du réseau CAD des collèges qui est alimenté par les chaudières bi-combustibles (gaz et mazout) de la centrale du collège des Mousquetaires.
+
+
+
+Le graphique ci-dessous illustre la consommation annuelle de chaleur de la centrale de chauffage du collège des Mousquetaires sur les trois dernières années. Cette centrale, de grande envergure, couvre les besoins en chaleur de plusieurs bâtiments : le collège des Mousquetaires, le collège et la salle de gym des Marronniers, la salle des Remparts, le complexe sportif des Mousquetaires et le nouveau collège Courbet.
+
+La consommation de chaleur des bâtiments raccordés à la centrale de chauffage du collège des Mousquetaires a diminué d'environ 8 % par rapport à l'année 2021, année de référence avant la mise en œuvre des actions d'optimisation énergétique. Mais une augmentation est constatée en 2024.
+
+Depuis juin 2023, toutes les citernes à mazout doivent contenir du mazout Eco, plus respectueux de l'environnement. Les deux citernes de 100'000 litres du collège, qui contenaient du mazout extra-léger, ont dû brûler leur mazout de mauvaise qualité pour libérer de l'espace pour le mazout Eco.
+
+Ce gros consommateur, parmi les bâtiments scolaires, a ainsi dû fonctionner au mazout standard pendant la
+
+moitié de l'année, entraînant une baisse de rendement et une augmentation de la consommation malgré une régulation affinée du chauffage. Comme 53 % de l'énergie de la centrale a été fournie par le mazout en 2024, cette situation explique la légère augmentation de la consommation cette année.
+
+En ce qui concerne l'augmentation de la consommation d'électricité, celle-ci découle du nombre et de l'usage des appareils électriques dans le cadre de l'enseignement au collège des Mousquetaires. Le remplacement prévu des luminaires dans l'ensemble des établissements scolaires devrait réduire cette consommation entre 2025 et 2026.
+
+L'augmentation de la consommation d'eau en 2024 résulte d'une légère hausse généralisée sur tous les sites probablement destiné à l'arrosage. Des mesures de sensibilisation pour limiter les gaspillages seront effectuées auprès des utilisateurs pour une gestion plus responsable des ressources.
+
+![img-2.jpeg](img-2.jpeg)
+
+### Suivi et optimisation énergétique - Bâtiments publics
+
+Le graphique ci-contre illustre la consommation liée à la chaleur, à l'électricité et à l'eau des bâtiments publics au cours de trois dernières années. Les données englobent la consommation de la Maison de Commune, la Maison Hugonin, la salle des Remparts et le bâtiment de Béranges 111 et ses serres horticoles.
+
+Une régulation plus précise du système de chauffage dans les bâtiments publics a été mise en place. Toutefois, on constate une légère augmentation de la consommation, principalement due à un nombre de degré-jours (jours froids) plus élevé qu'en 2022, comme le montre le graphique. En revanche, la consommation d'électricité et d'eau reste relativement stable sur la période observée.
+
+![img-3.jpeg](img-3.jpeg)
+
+
+
+Le graphique ci-dessous illustre la consommation du chauffage de la Maison de Commune pour les années 2022, 2023 et 2024. La consommation liée au chauffage de la Maison de Commune est plutôt stable.
+
+![img-4.jpeg](img-4.jpeg)
+
+### Installations photovoltaïques
+
+À ce jour, cinq bâtiments publics et deux immeubles locatifs communaux sont équipés d'installations photovoltaïques en toiture. Les bâtiments publics concernés sont la Maison de Commune, la salle des Remparts et les collèges des Mousquetaires, Bel-Air et Courbet. Quant aux immeubles locatifs, il s'agit des bâtiments situés à Béranges 74 et aux Baumes 22-24.
+
+Le graphique ci-dessous présente la consommation électrique et la production solaire de ces bâtiments pour l'année 2024, offrant un aperçu de leur performance énergétique et de leur contribution à la transition énergétique communale.
+
+![img-5.jpeg](img-5.jpeg)
+
+Dans l'ensemble, les installations photovoltaïques des bâtiments publics ont généré environ 505 MWh d'électricité, soit l'équivalent de la consommation annuelle d'environ 144 ménages.
+
+Il est à noter que les données de production des installations solaires des immeubles locatifs ne sont pas encore exploitables, vu la mise en service à la fin de l'année 2024. Leur production totale est estimée à environ 143 MWh par an, ce qui correspond à la consommation annuelle de 40 ménages. Ces nouvelles installations viendront renforcer la contribution globale des énergies renouvelables dans le parc immobilier communal.
+
+Le graphique ci-dessous illustre la consommation électrique des bâtiments publics communaux équipés de panneaux photovoltaïques pour les années 2022, 2023 et 2024.
+
+![img-6.jpeg](img-6.jpeg)
+
+
+
+L'augmentation de la consommation à la Maison de Commune s'explique par l'engagement de nouveaux employés et la création de postes de travail, entraînant une hausse de la consommation électrique pour les ordinateurs et autres équipements.
+
+En ce qui concerne la hausse de consommation au collège des Mousquetaires, celle-ci est due à divers travaux réalisés dans le bâtiment, ainsi qu'à l'utilisation croissante des appareils électroniques, qui contribuent de manière significative à l'augmentation énergétique.
+
+Il convient de noter que le collège Courbet, inauguré en août 2022, n'a pas enregistré une consommation annuelle complète pour l'année 2022, ce qui rend la comparaison moins représentative. Cependant, il est observable que la consommation du collège Courbet s'est stabilisée en 2023 et 2024.
+
+Par ailleurs, une partie de l'électricité produite par l'installation photovoltaïque du collège Courbet est autoconsommée par plusieurs bâtiments publics communaux grâce à un réseau électrique local (microgrid). Cette solution favorise une meilleure utilisation de l'énergie produite sur place. En 2024, ce système a permis d'atteindre un taux d'autoconsommation de 66 % des besoins électriques, démontrant ainsi son efficacité dans la réduction de la dépendance aux réseaux externes et dans l'optimisation des ressources locales.
+
+![img-7.jpeg](img-7.jpeg)
+
+Le graphique met en évidence une baisse générale de la production solaire, qui pourrait être attribuée à un nombre de jours nuageux plus élevé en 2024 par rapport à l'année précédente. Par ailleurs, la baisse de production constatée aux collèges Bel-Air et des Mousquetaires est liée à une panne d'onduleurs sur plusieurs semaines survenue durant l'été.
+
+Face à cette diminution de production, également observée l'année précédente, la Commune a conclu un contrat d'entretien pour l'ensemble des installations solaires en 2024, à l'exception de celle du collège Courbet, mise en service en 2022. L'entreprise chargée de l'entretien a fourni un rapport détaillé à la fin de l'année, comprenant des propositions concrètes pour améliorer les performances des installations. La Commune prévoit de réaliser les interventions nécessaires en 2025 afin d'optimiser le rendement de production et d'assurer une gestion énergétique plus efficace.
+
+## Bourse aux vélos
+
+Le 7 septembre 2024 s'est déroulée la traditionnelle bourse aux vélos organisée par l'ATE et Pro vélo Riviera sous le préau du collège des Mousquetaires.
+
+
+
+# GÉRANCE, ENTRETIEN, CONCIERGERIE
+
+## Gérance des immeubles locatifs
+
+La gérance assure la gestion des immeubles du patrimoine financier, soit :
+
+- la représentation du propriétaire dans ses rapports avec les locataires et les tiers ;
+- la surveillance générale des objets ;
+- la proposition de travaux d'entretien lors du changement de locataires ;
+- la collaboration dans le cadre des rénovations énergétiques des bâtiments ;
+- la gestion et le contrôle de l'encaissement des loyers ;
+- le paiement des factures ;
+- la tenue des comptes des immeubles ;
+- l'établissement des décomptes de chauffage ;
+- la revalorisation de l'état locatif lorsque la situation le permet ;
+- les démarches en vue de la relocation d'appartements suite à une résiliation ;
+- l'établissement des baux à loyer, notifications, avenants, conventions, etc. ;
+- l'établissement des états des lieux d'entrées et de sorties ;
+- la représentation du propriétaire auprès des instances judiciaires ;
+- la gestion du personnel de conciergerie des immeubles ;
+- la gestion des sinistres ;
+- un support dans le cadre de la réhabilitation énergétique des bâtiments locatifs.
+
+## Évolution des loyers
+
+Pour 2024, 6 dossiers ont été traités pour des résiliations/relocations d'appartements et 21 pour des places de parc. Le revenu locatif poursuit sa progression avec la même tendance que les années précédentes.
+
+### Évolution des loyers encaissés ces cinq dernières années
+
+![img-8.jpeg](img-8.jpeg)
+
+L'évolution de l'encaissement des loyers annuels reste constante. En 2024, il y a eu peu de résiliations, mais d'importantes rénovations ont été réalisées dans les appartements. Néanmoins, les loyers ont été maintenus à un niveau conforme aux seuils définis comme loyers abordables (loyers d'utilité publique). À fin septembre, un important sinistre au chemin de Gérénaz 7 a passablement chargé
+
+le Secteur gérance et entretien, la mise en œuvre pour la réhabilitation des appartements et de l'immeuble a été exécutée dans les meilleurs délais afin de réduire au maximum les pertes locatives.
+
+## Entretien des bâtiments et des infrastructures
+
+Le Secteur technique assure l'entretien et le bon fonctionnement de l'ensemble du patrimoine bâti. Au cours de l'année 2024, des travaux d'entretien courant dans les bâtiments administratifs, culturels, d'utilité publique, scolaires, de sociétés sportives ou les chalets d'alpage ont été effectués.
+
+Un travail sur le suivi des travaux relatifs aux contrôles obligatoires concernant l'Ordonnance sur les installations à basse tension (OIBT) est assuré par le Secteur. Des travaux de réparations faisant suite à des actes de vandalisme ont également été réalisés. Le Secteur s'est chargé des procédures en ce qui concerne les dépôts de plaintes et dossiers d'assurance. Différentes études, travaux de transformation, de rénovation et d'amélioration ont été devisés, planifiés, exécutés et contrôlés dans le cadre du budget ordinaire. Un aperçu de quelques travaux conduits par le Secteur technique est résumé ci-dessous.
+
+## Bâtiments administratifs
+
+### Maison de Commune
+
+- Un nouvel appel d'offre concernant le nettoyage complet de l'ensemble des bureaux de l'administration de la Maison de Commune a été effectué. Une entreprise spécialisée dans ce domaine d'activité a été mandatée avec effet au 1er avril 2025.
+- Réfection des vernis extérieurs des fenêtres en bois du bâtiment.
+
+### Salle des Remparts
+
+- Entretien courant de la technique de scène
+
+### Temple
+
+- Remplacement de l'ancien piano par un nouvel instrument placé au pied du chœur du Temple.
+
+### Chemin de Béranges 111
+
+- Exécution d'une paroi de séparation dans le grand espace de travail (voirie - menuiserie) permettant de travailler de manière plus sécurisée en matière de bruit et de poussières de bois.
+
+## Bâtiments scolaires
+
+Le Canton a lancé une campagne d'identification et d'assainissement de l'amiante dans les bâtiments scolaires des régions Lavaux-Riviera et Venoge-Lac.
+
+
+
+Cette opération, initiée par le plan d'action amiante de 2016 du Conseil d'État, vise à s'assurer que tous les bâtiments scolaires du canton de Vaud ne contiennent plus de matériaux amiantés dangereux pour toutes les personnes qui fréquentent ces lieux.
+
+Pour La Tour-de-Peilz, le Canton a inventorié la liste des bâtiments scolaires construits avant 1991 (1er mars 1990, interdiction d'utiliser des produits contenant de l'amiante) susceptibles de contenir des matériaux amiantés. Après analyses effectuées par un bureau spécialisé, il en ressort que sur les huit bâtiments concernés il n'y a aucune situation potentiellement dangereuse pour les occupants ni de matériaux catégorisés en degré d'urgence 1.
+
+# Collège Bel-Air
+
+- Tous les deux ans, un contrôle de sécurité de l'ensemble des engins de sport des 4 salles de gymnastique (collèges des Mousquetaires, des Marronniers, Courbet et Bel-Air) est effectué. En 2024, ce sont les installations de la salle de gym de Bel-Air qui ont été contrôlées.
+- Installation d'un système de traitement de l'eau chaude sanitaire par la pose et raccordement d'une pompe doseuse.
+
+# Complexe sportif des Mousquetaires
+
+- Travaux annuels de révision des installations techniques du bassin de natation.
+- Remplacement de l'adoucisseur d'eau.
+- Remplacement de vitrages défectueux dans les vestiaires et hall par la pose de nouveaux éléments.
+
+# Bâtiments sociétés
+
+# Le Doyen
+
+- Remplacement des commandes de douches du bâtiment.
+
+# Bâtiments locatifs
+
+# Avenue de Clos-d'Aubonne 1
+
+- Remplacement de l'étanchéité et de l'isolation de l'ensemble de la terrasse sur la Poste. Le coût des travaux est réparti (Commune - Poste) selon les millièmes fixés en PPE.
+
+# Grand-Rue 56
+
+- Réfection complète de la cage d'escaliers.
+
+# Chemin de Béranges 74
+
+- Remplacement de la distribution et de la circulation verticale de l'eau chaude.
+- Remplacement des luminaires de la cage d'escalier par des LED.
+- Fourniture et pose de panneaux solaires sur le toit - constitution d'une communauté d'autoconsommateurs
+
+# Avenue des Baumes 22
+
+- Fourniture et pose de panneaux solaires sur le toit - constitution d'une communauté d'autoconsommateurs.
+
+# Avenue des Baumes 24
+
+- Fourniture et pose de panneaux solaires sur le toit - constitution d'une communauté d'autoconsommateurs.
+
+# Rue du Port 3
+
+- Réfection complète de la peinture de la cage d'escalier. Pose d'un nouveau carrelage dans le hall d'entrée de l'immeuble.
+
+# Avenue de la Perrausaz 2
+
+- Remplacement de toutes les toiles de tente des balcons.
+- Remplacement des luminaires de la cage d'escalier par des LED.
+
+# Chemin de Gérénaz 7
+
+- Suite à l'important sinistre survenu à fin septembre 2024, qui a fait l'objet d'une communication municipale, 9 logements sur 10 sont réhabilités. Le logement concerné par l'explosion doit être entièrement refait. Sa remise en location interviendra en 2025. Les façades est et nord endommagées seront refaites dès le printemps 2025. La réfection complète de la cage d'escalier, la remise en état des techniques de l'ensemble de l'immeuble, le remplacement des fenêtres endommagées ainsi que toutes portes palières des appartements ont été exécutés entre novembre 2024 et janvier 2025. Une partie importante des travaux sera prise en charge par les assurances ECA et du bâtiment. Le solde, soit les travaux considérés comme un rattrapage d'entretien ou des travaux à plus-value, seront assumés dans le cadre du budget communal.
+
+# Grand-Rue 50
+
+- Studio 4e étage : suite à un dégât des eaux, réfection complète des conduites et dérivations d'alimentation et colonne de chute de l'objet.
+
+# Rue du Château 24
+
+- La chaudière à mazout du bâtiment datant de 1992 fuit, elle doit être remplacée. Une solution avec une installation au gaz a été retenue, la situation du bâtiment ne permettant pas de l'alimenter par le CAD. Les travaux ont été adjugés et seront exécutés au début 2025.
+- Remplacement des luminaires de la cage d'escalier par des LED.
+
+# Rue du Léman 7
+
+- L'Escale - réfection du bureau au rez-de-chaussée par la dépose d'une paroi de séparation afin d'agrandir la surface de travail ainsi que la peinture complète de la pièce. Remplacement de la porte vitrée d'entrée de la salle à manger.
+
+
+
+### Parking des Mousquetaires
+
+- En 2024, 24 locataires ont résilié leur contrat de location. 27 nouveaux contrats ont été établis.
+- Montage d'une alimentation électrique permettant l'alimentation jusqu'à 6 bornes de recharge (1 borne posée en 2024).
+
+### Bar restaurant Le Passe-Passe
+
+- Pour la troisième et dernière année, le bar restaurant Le Passe-Passe, situé sur l'esplanade du Château, a été ouvert au public. Une saison un peu plus mitigée en raison d'une météo quelque peu capricieuse. Aucun problème n'a été relevé par la Commune durant l'année. Comme convenu, le contrat de gérance et d'exploitation a été résilié pour fin 2024. Le démontage des conteneurs a été fait dans les délais. Le site a été remis par l'exploitant à la Commune.
+
+### Chalets d'alpage
+
+- Pas de travaux cette année.
+
+### Menuiserie
+
+Pour 2024, le menuisier communal a effectué de multiples travaux de réfection et de transformation sur l'ensemble du parc immobilier communal comme la réparation et la construction de mobilier de bureau, la révision de portes, fenêtres, armoires et agencements de cuisine de logements vacants ou non, la réparation d'éléments de menuiserie endommagés suite à des actes de vandalisme, etc.
+
+### Conciergerie
+
+Durant l'année, le Secteur conciergerie a assuré les travaux d'entretien et de nettoyage de l'ensemble des bâtiments administratifs et scolaires, en collaborant étroitement avec la direction des écoles pour les déménagements de classes et/ou mobilier ainsi que l'organisation des à fonds en périodes de vacances scolaires. Le Secteur conciergerie a également assuré le suivi de la formation des apprentis agent de propreté et agent d'exploitation. Le suivi scolaire et pédagogique est assuré par l'adjoint du chef de Service.
+
+### Réceptions et manifestations
+
+51 réceptions ont été organisées par la Commune en 2024 (9 en 2020, 16 en 2021, 41 en 2022 et 52 en 2023). Les réceptions se sont déroulées sur les sites de la Maison Hugonin, de la salle des Remparts, du caveau Lè Vegnolan, du carnotzet communal, du réfectoire du collège des Mousquetaires et du collège Courbet.
+
+### Location des salles communales
+
+Au cours de l'année écoulée, les locaux suivants ont été mis à disposition pour des manifestations publiques et privées, des séances, etc. Pour les utilisations des salles scolaires
+
+par les écoles, seules les locations en dehors des heures scolaires ont été comptabilisées.
+
+|  Salles | Administratif | Parti politique | Privé | Scolaire | Services communaux | Sociétés Associations locales | Total général  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  Aula Courbet | 34 | 3 | 1 | 16 | 9 | 9 | 72  |
+|  Buvette de la salle des Remparts | 2 |  |  |  |  |  | 2  |
+|  Caveau Lè Vegnolan | 6 |  | 9 | 1 |  | 12 | 28  |
+|  Chalet Fontanna-David |  |  | 2 |  |  |  | 2  |
+|  Réfectoire des Mousquetaires | 5 | 6 | 5 | 11 |  | 25 | 52  |
+|  Salle de sociétés des Marronniers | 4 | 8 | 27 |  | 4 | 26 | 69  |
+|  **Total général** | **51** | **17** | **44** | **28** | **13** | **72** | **225**  |
+
+### Salle des Remparts
+
+![img-0.jpeg](img-0.jpeg)
+
+**Total : 195 manifestations pour 338 jours d'occupation**
+
+**Manifestations privées :** mariages, fêtes de famille, etc.
+
+**Manifestations publiques :** expositions, concerts, spectacles, etc.
+
+**Manifestations sociétés locales et régionales « privé » :** assemblées générales, comités, etc.
+
+**Manifestations sociétés locales et régionales « public » :** lotos, repas de soutien, etc.
+
+### Proportion par jour d'occupation et type d'usager :
+
+![img-1.jpeg](img-1.jpeg)
+
+
+
+# *Recettes de la location de la salle communale et de la buvette des Remparts entre 2019 et 2024*
+
+![img-2.jpeg](img-2.jpeg)
+
+Le graphique laisse apparaître que les demandes de location ont bien repris après 2020-2021 marquées par la COVID-19 mais restent tout de même plus basses au regard de 2019.
+
+# **Complexe sportif des Mousquetaires**
+
+Le personnel suit une formation continue dans le domaine des premiers secours (réanimation cardio-pulmonaire - accidents et incident chimique), dispensée par SwisSan. Durant l'année écoulée, il a été nécessaire de faire appel au service des ambulanciers suite à une chute sans gravité d'une personne en situation de handicap. L'exploitation annuelle du bassin de natation donne les chiffres suivants :
+
+|   | 2019 | 2020 | 2021 | 2022 | 2023 | 2024  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  Entrées adultes | 1'572 | 719 | 762 | 1'053 | 1'084 | 1'001  |
+|  Entrées enfants | 524 | 287 | 245 | 231 | 260 | 253  |
+|  Entrées AVS-AI, étudiants, apprentis | 377 | 152 | 155 | 189 | 274 | 260  |
+|  10 entrées adultes | 168 | 64 | 77 | 124 | 150 | 160  |
+|  10 entrées enfants | 49 | 20 | 22 | 14 | 14 | 11  |
+|  10 entrées AVS-AI, étudiants, apprentis | 69 | 40 | 28 | 49 | 61 | 65  |
+|  Abo. annuels adultes | 12 | 3 | 9 | 11 | 23 | 18  |
+|  Abo. annuels enfants | 0 | 0 | 1 | 1 | 4 | 1  |
+|  Abo. annuels AVS-AI, étudiants, apprentis | 8 | 6 | 4 | 7 | 16 | 12  |
+|  Abo. régional adultes | 5 | 2 | 2 | 4 | 3 | 4  |
+|  Abo. régional enfants | 0 | 0 | 0 | 0 | 0 | 0  |
+|  Abo. régional AVS-AI, étudiants, apprentis | 2 | 0 | 0 | 3 | 0 | 1  |
+
+Le tableau ci-dessus montre que la fréquentation du bassin de natation est relativement stable, sans retrouver les valeurs d'avant COVID-19.
+
+La recette des entrées publiques se monte pour cette année à Fr. 22'364.- contre Fr. 21'826.- pour 2023.
+
+La location du bassin a généré une recette de Fr. 29'615.- pour 2024, contre Fr. 27'493.- pour 2023.
+
+# *Graphique des recettes d'entrées et de locations du bassin entre 2019 et 2024 :*
+
+![img-3.jpeg](img-3.jpeg)
+
+Le graphique montre une sensible reprise de la fréquentation du bassin.
+
+
+
+# FORÊTS, ALPAGES, VIGNES, VINS
+
+## Forêts sur la commune de Blonay
+
+Les chalets de la Grande Bonnavau, de Montbrion et de Fontanna-David d'en bas, ainsi que leurs pâturages respectifs, sont exploités par un amodataire. Les relations entre ce dernier et la Commune sont réglées par un bail à ferme agricole.
+
+Le chalet Fontanna-David d'en haut est mis à disposition pour de la location/jour.
+
+Cette année, le budget prévoyait une coupe de bois importante dans la forêt de l'Ognona située au nord de la commune dans le secteur de La Paisible. La sortie des bois a été effectuée par héliportage. Ce travail réalisé en février a permis une mise en lumière ainsi que la sécurisation du secteur bordé d'un côté, du cour d'eau de l'Ognona et de l'autre, d'un sentier public.
+
+Il était également prévu cette année deux coupes dans les forêts communales sur le territoire de Blonay, respectivement dans le secteur de l'Alliaz et de Montbrion. Ces coupes permettent une mise en lumière pour du rajeunissement naturel en place. Ici, le travail de sortie des bois a été réalisé à l'aide d'un câble-grue avant d'être déposé à pont de camions.
+
+Réalisés en 2024, les travaux de remise en état de l'accotement aval d'un secteur de chemin de desserte à l'Alliaz a nécessité la mise en place d'un caisson en bois construit directement sur site afin de soutenir le coffre du chemin.
+
+Les demandes d'offres, l'analyse des dossiers et le suivi du chantier sont assurés par le garde forestier. La Commune
+
+quant à elle, assure l'établissement des propositions municipales, la coordination et le suivi des dépenses financières avec bouclements des comptes.
+
+![img-4.jpeg](img-4.jpeg)
+
+![img-5.jpeg](img-5.jpeg)
+
+Exemple de mise en place d'un caisson en rondins de bois.
+
+## Année viticole et récolte
+
+Le domaine viticole communal est réparti sur six parcelles pour une surface totale cadastrée de 30'505 m². Il est entretenu et exploité par la biais d'un contrat de vignolage confié à un vigneron tâcheron au bénéfice d'un contrat annuel.
+
+L'année 2024 avait bien commencé. Au printemps, un gel tardif a marqué certaines parcelles de notre vignoble, touchant un secteur de Chasselas et de Gamay. Le nombre de jours estivaux (plus de 25 degrés) et tropicaux (plus de 30 degrés) étaient dans la moyenne. Les précipitations du mois de septembre ont été exceptionnelles, avec près de 30 litres par semaine, mais les températures, quant à elles, étaient dans les normes. Dans ces conditions, le mildiou a été très virulent. Des produits bio ont été utilisés, mais la pression des maladies était trop forte. En cours de saison il a été nécessaire d'intervenir avec des produits conventionnels pour sauver la récolte. Les vendanges ont eu lieu sous la pluie. On peut comparer cette année 2024 à celle de 2021, une année éprouvante mais qui, au final, se termine assez bien, malgré des quotas décevants et des sondages un peu en deçà qu'espéré.
+
+|  Cépages | 2022 |   | 2023 |   | 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|  Chasselas | 8'834 kg | 77,3'Oe | 9'137 kg | 75,0'Oe | 8'705 kg | 72,0'Oe  |
+|  Gamay | 2'737 kg | 97,6'Oe | 3'750 kg | 92,0'Oe | 3'375 kg | 86,0'Oe  |
+|  Pinot noir | 3'658 kg | 95,4'Oe | 3'954 kg | 93,0'Oe | 3'716 kg | 90,0'Oe  |
+|  Pinot blanc | 2'873 kg | 90,8'Oe | 3'080 kg | 86,0'Oe | 2'231 kg | 80,0'Oe  |
+|  Sauvignon blanc | 1'119 kg | 98,5'Oe | 1'302 kg | 91,0'Oe | 1'243 kg | 83,0'Oe  |
+|  Gamaret/Garanoir | 2'880 kg | 95,0'Oe | 3'040 kg | 89,0'Oe | 2'231 kg | 86,5'Oe  |
+|  Mara | 1'594 kg | 92,0'Oe | 1'594 kg | 91,0'Oe | 1'429 kg | 85,0'Oe  |
+|  Cabernet Franc | 706 kg | 95,0'Oe | 855 kg | 101,0'Oe | 855 kg | 87,0'Oe  |
+|  Malbec | 788 kg | 95,0'Oe | 855 kg | 87,0'Oe | 855 kg | 85,0'Oe  |
+|  Merlot | 948 kg | 98,4'Oe | 1'762 kg | 101,0'Oe | 1'012 kg | 92,0'Oe  |
+|  Divico | 635 kg | 95,0'Oe | 900 kg | 96,0'Oe | 900 kg | 81,0'Oe  |
+|  Total | 26'772 kg |  | 30'229 kg |  | 26'552 kg |   |
+
+
+
+## Ventes et promotions
+
+Le tableau ci-dessous montre qu'en 2024 tant la vente de la souscription que la vente directe à la Cave de La Doges et/ou Hugonin, sont en forte baisse.
+
+*Tableau du vin vendu ou offert (TVA comprise)*
+
+|   | 2021 | 2022 | 2023 | 2024  |
+| --- | --- | --- | --- | --- |
+|  Souscription | 91'491.- | 72'609.- | 102'513.- | 79'953.-  |
+|  Ventes à La Doges (ou Hugonin) | 73'972.- | 73'764.- | 69'325.- | 47'377.-  |
+|  Vin offert et réceptions | 30'010.- | 40'308.- | 34'755.- | 32'156.-  |
+|  Total | 195'473.- | 186'681.- | 206'593.- | 159'486.-  |
+
+La souscription 2024 a été moins bien accueillie qu'en 2023. Les ventes à la cave ont chuté malgré une qualité qui est au rendez-vous. La livraison des commandes au domicile des clients a été une nouvelle fois assurée par du personnel communal et ceci directement depuis la Cave Montreux Riviera.
+
+Ce constat d'une baisse généralisée de 20 % des ventes est partagé par la grande distribution. Cette dernière semble liée à une certaine insécurité économique et à l'augmentation du prix du panier du ménage, notamment en ce qui concerne les loyers et primes maladie. Cela amène certainement la clientèle à un regard plus prospecteur sur les produits proposés par la concurrence comme les hard discounters et les grandes surfaces qui offrent du vin à bas prix.
+
+Des efforts seront entrepris en 2025 pour remonter les ventes du vin communal.
+
+Cette année a aussi été marquée par le déménagement de l'entier de la cave Charlemagne dans les espaces réaménagés du sous-sol de la Maison Hugonin. Ceci a nécessité une redistribution et réorganisation des archives communales en ces mêmes sous-sols. L'organisation des deux caves communales, l'une au Domaine de La Doges pour les clients privés et l'autre nouvellement aménagée à la Maison Hugonin pour les réceptions communales et la vente auprès des restaurateurs, continue à donner satisfaction. L'ouverture aux clients de la cave de La Doges a été maintenue les mardis de 16h30 à 18h.
+
+Enfin, le samedi 31 août et par une météo radieuse, la Commune a participé à la 4$^{e}$ édition des Fontaines gourmandes. Cette année, le stand de dégustation des vins de La Tour-de-Peilz se trouvait dans la cour Charlemagne.
+
+
+
+# URBANISME ET TRAVAUX PUBLICS
+
+BUREAU ADMINISTRATIF ET TECHNIQUE
+
+- 1 chef de service (1 EPT)
+- 1 chef de projet, technicien travaux (0.8 EPT)
+- 1 responsable du Secteur police des constructions (1 EPT)
+- 1 adjointe au responsable de la police des constructions (0.8 EPT)
+- 1 responsable du Secteur urbanisme (0.6 EPT)
+- 1 chef de projet espaces publics (0.6 EPT)
+- 1 géomaticien (1 EPT)
+- 2 secrétaires (1.2 EPT)
+- 1 secrétaire, préposée aux inhumations et cimetière (0.8 EPT)
+
+ESPACES PUBLICS
+
+- 1 chef de Secteur (1 EPT)
+- 1 adjoint du chef de Secteur, voirie (1 EPT)
+- 1 adjointe du chef de Secteur, espaces verts (0.8 EPT)
+- 11 ouvriers de voirie (11 EPT)
+- 1 responsable de déchèterie (1 EPT)
+- 1 garde-port (1 EPT)
+- 1 responsable des cultures (1 EPT)
+- 1 responsable du cimetière (1 EPT)
+- 9 paysagistes (9 EPT)
+- 2 aides jardiniers (0.9 EPT)
+
+Le Secteur espaces publics accueille 3 apprenties et apprentis horticulteur, floriculture et 1 apprenti agent d'exploitation.
+
+
+
+Le Service de l'urbanisme et des travaux publics (SUTP) traite notamment :
+
+- • de l'organisation et de l'aménagement de l'espace urbain, en vue d'assurer le bien-être de la population, de contribuer à la qualité des rapports sociaux et de préserver l'environnement ;
+- • des dossiers de mise à l'enquête publique ;
+- • des demandes en dispense d'enquête ainsi que des démarches administratives liées à la levée des oppositions et des recours y relatifs ;
+- • des infractions relatives au non-respect du Règlement du Plan général d'affection (RPGA) en vigueur depuis le 15 mai 2019 ;
+- • des dossiers de plans d'affection ;
+- • des infrastructures publiques (entretien des routes, aménagement des places, entretien des rives et cours d'eau, évacuation des eaux, défense incendie, éclairage public, etc.) ;
+- • de la gestion administrative et technique du Port ;
+- • des inhumations et du cimetière ;
+- • de la récolte et de l'évacuation des déchets ;
+- • de la gestion des espaces verts, des places de jeux et des parcs communaux ;
+- • des autorisations en matière d'abattage et d'élagage excédant l'entretien courant ;
+- • de l'entretien et de la décoration des espaces publics ;
+- • de la police rurale ;
+- • de la Commission des couleurs ;
+- • de la Commission de salubrité ;
+- • du suivi des non-conformités d'installations constatées par le ramoneur et par la Compagnie Industrielle et Commerciale du Gaz SA ;
+- • des procédés de réclame ;
+- • des permis de fouille ;
+- • de la signalisation routière (en collaboration avec l'Association sécurité Riviera).
+
+### Études en cours - Urbanisme
+
+#### Plan d'affection « Le Petit Sully »
+
+Ce plan d'affection a été adopté par le Conseil communal en 2022 avec un certain nombre d'amendements et a fait l'objet d'un préavis défavorable de la part de la Direction générale du territoire et du logement (DGTL) en 2023. Des discussions avaient été initiées avec les propriétaires et les auteurs du projet afin de trouver une solution acceptable par le Canton. Ce dossier n'a pas connu d'avancées notables en 2024.
+
+#### Plan d'affection « Combe de Villard » (ex « Campagne Rossier »)
+
+Le Conseil communal - dans sa décision du 15 mai 2024 - a chargé la Municipalité de développer un projet de plan
+
+d'affection devant prévoir l'inconstructibilité des parcelles, à l'exception du maintien des bâtiments existants et de quelques droits à bâtir liés à l'affection future du secteur. Une intention du projet a été transmise aux Services cantonaux pour examen préliminaire en 2024 et a reçu un préavis positif de la DGTL. Le projet est en cours d'élaboration pour être transmis à l'État pour examen préalable au premier trimestre 2025.
+
+### Modification du Règlement du Plan général d'affection
+
+Le RPGA, entré en vigueur le 15 mai 2019, mérite d'être complété et clarifié. Certaines thématiques, notamment relatives au patrimoine ou à l'environnement, sont lacunaires ou ne sont traitées que de façon très superficielle. Certains articles laissent par ailleurs trop de marge de manœuvre et d'interprétation, ce qui donne lieu à des flous juridiques qui peuvent facilement être attaqués par d'éventuelles oppositions.
+
+Se basant sur ces constats, la Municipalité a entrepris le processus de mise à jour du RPGA, tout en étant conscient qu'une révision totale n'est pas concevable, la stabilité des plans devant être garantie. En effet, un plan d'affection ayant l'obligation légale de définir la planification du territoire sur une durée de 15 ans, des modifications des principes fondamentaux, comme la délimitation des zones et leurs densités, ne sont pas encore envisageables.
+
+Un premier projet d'intentions de modifications a été élaboré en intégrant, via la constitution d'un groupe de travail avec les représentants du Conseil communal, les volontés politiques émanant du législatif. Ce projet a été transmis pour examen préliminaire à la DGTL fin 2023. Selon le préavis que cette dernière a rendu début 2024, l'ampleur et les effets contraignants des mesures envisagées n'étaient pas compatibles avec le principe de stabilité du droit. Sur la base de ce retour, la Municipalité a élaboré un projet de règlement mettant en place surtout des mesures incitatives visant à combler les lacunes actuelles et des précisions dans le volet police des constructions.
+
+Le projet de règlement a été soumis à la Commission consultative d'urbanisme au mois de novembre 2024. Il sera finalisé et complété par un rapport justificatif selon l'article 47 OAT (Ordonnance sur l'aménagement du territoire) pour transmission à l'examen préalable aux Services cantonaux au premier trimestre 2025. Cette modification permettra également de répondre à deux postulats renvoyés par le Conseil communal à la Municipalité.
+
+### Mise à jour du Recensement architectural
+
+Le recensement du patrimoine architectural de la Commune a été effectué entre la fin des années 1970 et le début des années 1980, avec une révision partielle au début des années 1990. Plus de 30 ans après, le recensement doit
+
+
+
+être considéré comme étant obsolète et une révision complète s'avère nécessaire. Dans ce but, le Service a sollicité la Division monuments et sites du Canton de Vaud, dont la procédure dépend entièrement. Cette dernière confie à des mandataires externes les opérations de révision complètes et, en préparation de l'appel d'offres, elle effectue une pré-évaluation du nombre d'objets susceptibles d'être recensés. Cette dernière étant en cours de finalisation, le mandat de révision devrait démarrer en 2025. Le Service assure la coordination pour le bon déroulement de la révision et, pendant la période transitoire, pour gérer les révisions ponctuelles liées généralement à des projets immobiliers.
+
+### **Taxe sur les équipements communautaires**
+
+L'année 2024 a également été marquée par l'établissement de l'ensemble des décisions de taxation concernant les équipements communautaires pour les parcelles concernées, à savoir celles ayant bénéficié d'une augmentation substantielle de leurs droits à bâtir selon le Plan général d'affectation du 15 mai 2019. L'envoi de ces décisions de taxation a pu être concrétisé dans le délai légal, soit moins de 5 ans après l'entrée en vigueur dudit plan. L'encaissement de cette taxe n'est réalisé que lors de la délivrance d'un permis de construire sur les parcelles concernées et alimente un fonds permettant de financer les équipements communautaires.
+
+### **Études en cours - Projets de construction et de génie civil**
+
+#### **Cheminement piétonnier en rives du lac - tronçon ouest**
+
+L'année 2024 a été consacrée à la réalisation d'un projet adapté intégrant une renaturation de la rive concernée. Ce projet remanié permettra ainsi de concilier le cheminement public avec les impératifs écologiques et de renaturation des rives. Ce dernier a été envoyé pour examen préalable auprès des Services cantonaux fin 2024 selon la procédure dictée par la Loi sur les routes (LRou) et fera l'objet ensuite d'une enquête publique selon les procédures dictées par la Loi précédemment mentionnée ainsi que par la Loi sur la police des eaux dépendant du domaine public (LPDP).
+
+#### **Entreprise de correction fluviale (ECF)**
+
+##### **Oyonne-Veveyse**
+
+Cette ECF a été constituée par l'État de Vaud avec les Communes de Blonay - Saint-Légier, Vevey et La Tour-de-Peilz. Elle a pour but de sécuriser l'ensemble du bassin versant de l'Oyonne en cas de crues centennales. L'ECF a effectué un appel d'offres concernant les prestations d'ingénierie nécessaires et a adjugé celles-ci au groupement composé des bureaux Gruner SA et Drosera SA. Ces bureaux ont continué en 2024 à élaborer les projets définitifs des différents travaux à mener sur le bassin versant. En parallèle, des travaux d'urgence ont d'ores et déjà été menés sur le
+
+territoire de la Commune de Blonay - Saint-Légier. Certains travaux impactant le territoire boéland devraient être mis à l'enquête en 2025.
+
+#### **Réaménagement et renouvellement des**
+
+##### **infrastructures souterraines de l'avenue de la Gare**
+
+Suite au refus par le Conseil communal du préavis municipal N° 18/2024, des études plus réduites de projet financées par voie budgétaire ont été adjugées par la Municipalité fin 2024 afin d'avancer dans ce projet.
+
+#### **Étude sur la protection du bruit (OPB)**
+
+À la suite de l'approbation du rapport de mise en conformité OPB du réseau routier, le déploiement de la mesure visant à mettre en place une limitation à 30 km/h nocturne sur le réseau communal a fait l'objet du préavis municipal N° 19/2024 et sera concrétisée durant le premier semestre 2025, sous réserve du résultat de l'enquête publique. Le solde des mesures, soit principalement la mise en œuvre de revêtements phono-absorbants sur certains tronçons, sera déployé selon l'avancement des travaux routiers prévus au plan des investissements.
+
+#### **Plan de mobilité scolaire**
+
+L'étude d'un plan de mobilité scolaire pour l'ensemble des établissements scolaires communaux a été adjugée à l'Association Transports & Environnement (ATE), spécialisée en la matière. Ce processus a démarré fin 2023 par un questionnaire auprès de l'ensemble des élèves et de leurs parents. Il a permis d'identifier les points problématiques sur le chemin de l'école et d'y apporter des réponses circonstanciées et priorisées. Cette étude est désormais terminée et la concrétisation des mesures préconisées (plus d'une centaine) sera réalisée début 2025.
+
+#### **Mise en séparatif et réaménagement de l'avenue des Baumes et du chemin des Bulesses, tronçon inférieur**
+
+Les études concernant l'assainissement du tronçon supérieur de l'avenue des Baumes (au nord de son croisement avec l'avenue de Bel-Air) et du court tronçon inférieur du chemin des Bulesses (entre les avenues de la Perrausaz et des Baumes) sont désormais terminées. La mise en séparatif de ces tronçons ainsi que l'assainissement de l'ensemble des infrastructures souterraines est prévu, de même que le réaménagement de surface du tronçon du chemin des Bulesses et la création d'un nouvel espace vert public. Le projet fera l'objet d'une enquête publique début 2025.
+
+#### **Création d'une zone 30 km/h et réfection de la**
+
+##### **chaussée - Chemins des Murs-Blancs et de Vassin**
+
+Les études relatives au réaménagement et à la mise en zone 30 km/h de ces deux chemins sont en cours et il est prévu de mettre le projet à l'enquête durant le premier semestre 2025.
+
+
+
+### Création d'une zone 30 km/h et réfection de la chaussée - Chemin du Vallon et du Cèdre
+
+La création d'une zone 30 km/h et la sécurisation des différents modes de déplacements sur ces chemins fréquentés à proximité immédiate du Gymnase de Burier est prévue au Plan directeur de la mobilité. Le projet prévoit également l'assainissement de l'ensemble des infrastructures souterraines. Il est prévu de mettre à l'enquête publique ce projet durant le premier semestre 2025.
+
+### Chemin de la Paisible
+
+Suite à l'élaboration du Plan directeur de la mobilité et au fait que ledit chemin fait désormais partie d'un itinéraire du réseau cyclable structurant cantonal, La Municipalité, en concertation avec son homologue de Blonay - Saint-Légier, a étudié divers aménagements sur ce chemin durant l'année 2024. Un projet finalisé sera concrétisé en 2025 après approbation des Services cantonaux.
+
+### Route de Blonay
+
+Une étude a été lancée par la Municipalité, en concertation avec la Commune de Vevey, afin d'améliorer les conditions de circulation pour les cycles sur la route de Blonay, cet itinéraire faisant désormais partie du réseau cyclable cantonal structurant. Cette étude permettra aussi d'améliorer la sécurité des traversées piétonnes et de prévoir l'aménagement de nouveaux arrêts de bus en prévision du projet de réaménagement des lignes VMCV.
+
+### Carrefour Route de Chailly - Avenue de Pérouge - Chemin du Gregnolet
+
+Un projet est en cours d'étude pour le réaménagement de ce carrefour qui ne répond pas aux normes en vigueur, notamment en ce qui concerne la visibilité. Ces travaux permettront également de remettre à ciel ouvert un tronçon du ruisseau de Sully.
+
+### Embouchure de l'Oyonne
+
+La revitalisation et la renaturation de l'embouchure de l'Oyonne, située à la frontière entre le territoire communal et le territoire veveysan, est prévue au plan des investissements. Les études d'avant-projet sont terminées. Les phases suivantes, impliquant notamment une réflexion complémentaire sur le périmètre terrestre attenant (projet des *Jardins de l'Oyonne*) sont en cours de réflexion, en concertation avec la Ville de Vevey et les Services cantonaux concernés.
+
+### Grève de la Maladaire
+
+Une étude détaillée d'avant-projet a été menée courant 2024 pour la renaturation et la revitalisation de la grève de la Maladaire, en concertation avec l'État de Vaud. La Municipalité prévoit de finaliser et de mettre à l'enquête le projet courant 2025.
+
+### Ouvrages CFF
+
+Le remplacement du passage supérieur de l'avenue des Baumes est toujours en phase d'études préliminaires auprès des CFF et ceux-ci sont prévus dès 2027. Les travaux de réfection de l'étanchéité du passage supérieur de l'avenue des Alpes sont prévus par les CFF en 2025.
+
+### Intercommunal
+
+#### Commission consultative régionale pour
+
+#### l'aménagement du territoire Riviera (CORAT Riviera)
+
+La CORAT Riviera, regroupant les 9 Communes de la Riviera, s'est réunie en février, mars, mai, septembre, et novembre 2024. Les principaux sujets abordés ont porté sur les dossiers traités dans le cadre de l'Agglomération Rivelac, soit la Stratégie régionale de gestion des zones d'activités (SRGZA) ainsi que le Plan directeur intercommunal - Projet d'agglomération de 5$^{e}$ génération (PDI-PA5). Elle a été régulièrement informée de leurs états d'avancement et a pu s'exprimer sur les directions et modes opératoires entrepris. La CORAT, espace de discussion propre à la Riviera, permet des échanges et partages d'expériences sur la conduite de certains dossiers communaux à incidence régionale qui sont présentés et discutés à chaque séance.
+
+### Agglomération Rivelac
+
+L'Agglomération Rivelac regroupe 18 Communes dont les 9 de la Riviera, les Communes de Noville, Rennaz, Roche et Villeneuve ainsi que les Communes fribourgeoises d'Attalens, Bossonnens, Châtel-St-Denis, Granges et Remaufens.
+
+En continuité des travaux poursuivis durant les années précédentes, deux projets majeurs ont occupé les activités de l'Agglomération en 2024 : la Stratégie régionale de gestion des zones d'activités et le Plan directeur intercommunal - Projet d'agglomération de cinquième génération.
+
+Le dossier de la SRGZA a été adapté selon le préavis cantonal reçu au mois de février 2024 à l'issu de l'examen préalable. Des échanges supplémentaires avec les Services cantonaux ont été nécessaires et se sont conclus par une nouvelle détermination cantonale reçue en septembre 2024. Le dossier modifié et approuvé par l'ensemble des Municipalités a été mis en consultation publique du 28 septembre au 27 octobre. Huit observations ont été déposées lors de cette procédure et sont actuellement traitées en vue de l'établissement du rapport de consultation et de la finalisation de la SRGZA.
+
+Concernant le PDI-PA5, le groupement piloté par le bureau Güller et Güller a élaboré et transmis le dossier pour l'examen préalable auprès des Services cantonaux en juin 2024. La partie PA5, adaptée à l'issue de cet examen et des consultations communales, a été soumis à consultation publique du 19 octobre au 17 novembre. Cette étape a été précédée par des présentations aux organes législatifs communaux et accompagnée d'une présentation publique qui a eu lieu le 30 octobre. La version finale, validée par le COPIL Rivelac le
+
+
+
+18 décembre, est actuellement en cours d'approbation par les Communes pour que le dossier soit envoyé pour examen à la Confédération avant fin mars 2025.
+
+Le PDI a été pour sa part adapté sur la forme suite au retour des Services cantonaux et son processus de validation reprendra en 2025.
+
+### *Mesures du projet d'agglomération de 5e génération*
+
+Divers projets prévus à moyen terme au plan des investissements, soit dès 2028, sont inscrits comme mesures du projet d'agglomération afin d'obtenir le cas échéant un co-financement fédéral pour ces travaux. Concernant notre Commune, il s'agit de la réalisation d'un tronçon de la voie verte intercommunale Vélolac sur l'avenue de Traménaz et la requalification de la Grand-Rue et des avenues des Baumes et des Alpes. Les études préliminaires à ce sujet ont été menées et seront incluses au projet d'agglomération. La planification des études de projet se fait en fonction du plan des investissements.
+
+### **Périmètre de gestion des déchets urbains de la Riviera (GEDERIVIERA)**
+
+GEDERIVIERA est le périmètre de gestion des déchets de la Riviera, chargé notamment de gérer financièrement le produit de la taxe au sac. Dans le cadre de la participation à GEDERIVIERA, regroupant dix Communes de la Riviera, différents objets sont traités quant à la gestion et aux projets intercommunaux. En 2024, le périmètre de gestion a notamment traité des objets suivants :
+
+- la création d'un modèle unique de poubelle communale urbaine ;
+- le taux de fraude concernant les sacs taxés et les mesures prises à ce propos ;
+- la création d'un site internet GEDERIVIERA ;
+- les moyens de lutter contre le phénomène de présence du plastique dans les collectes de déchets compostables ;
+- la collecte des déchets organiques et les possibilités de développement de points de collecte pour ce type de déchets, notamment en milieu urbain (système *Gastrovert Private* ou équivalent).
+
+### **Gestion des collectes de ramassage des déchets porte-à-porte entre Montreux, Veytaux, Vevey et La Tour-de-Peilz (3 Villes)**
+
+Plusieurs groupes de travail participent au bon fonctionnement de l'association 3 Villes. La commission opérationnelle des 3 Villes est composée des chefs de voirie ainsi que de la brigade de propreté. Elle se réunit régulièrement afin de faire le point sur la qualité des prestations des entreprises mandatées, sur les problèmes rencontrés (matériel, espace public, incivilités, etc.). Le groupe de travail élargi (GTE) composé des municipaux et des chefs de Service aborde les incidents, l'aspect financier, la communication, le fonction-
+
+nement général ainsi que celui de la brigade de propreté. En 2024, un travail important a été mené par le Service dans le cadre du marché public pour la collecte des déchets incinérables et du papier/carton d'une part et pour le marché public de reprise du papier/carton d'autre part. Conformément à la convention liant les 4 Communes mentionnées en titre, la gestion de l'ensemble de la procédure de marché public est en effet assurée par la Ville de La Tour-de-Peilz. Par ailleurs, des réflexions quant à l'introduction du système *Gastrovert Private* (point de collecte fixe des déchets organiques ménagers) sont en cours dans le même cadre. Des essais-pilotes ont été lancés sur le territoire communal de Montreux.
+
+### **VMCV**
+
+En 2024, un travail important a occupé le Service concernant la réorganisation du réseau « centre et ouest » des VMCV pour l'horaire 2026, en concertation avec ces derniers et les Communes concernées. Un préavis intercommunal sera déposé début 2025 concernant ce projet de réorganisation.
+
+Par ailleurs, des échanges soutenus ont eu lieu avec les VMCV s'agissant notamment de l'impact des projets en cours d'étude et des chantiers en cours sur leur réseau (déviation de lignes, etc.)
+
+### **Système d'information sur le territoire (SIT) et Guichet virtuel**
+
+La Municipalité de La Tour-de-Peilz est partie prenante du SIT Cartoriviera. Ce dernier regroupe 14 Communes et deux associations intercommunales : le Service intercommunal de gestion (SIGE) et l'Association sécurité Riviera (ASR).
+
+Le site de Cartoriviera est en constante amélioration et les couches thématiques sont fréquemment mises à jour. De nouvelles données sont régulièrement ajoutées sur le site. Ces données peuvent être publiques mais également accessibles uniquement au personnel de l'administration dans le cadre de l'exécution de ses tâches.
+
+Par ailleurs, un guichet virtuel « Geocity » est en cours d'introduction et de développement dans les Communes faisant partie du SIT Cartoriviera, afin de numériser certains processus papiers pour les citoyens. Des projets-pilotes sont en développement au sein du Service à ce propos.
+
+### **Commission consultative d'urbanisme (CCU)**
+
+Depuis 2022 la commission est constituée de 7 membres professionnels présents à chaque séance, de 4 membres professionnels spécialistes, présents sur convocation, et de 2 représentants du Conseil communal. Le spécialiste en économie - qui n'a jamais été convoqué durant les 2 ans et demi - a démissionné tout en restant à disposition pour des consultations. Son poste ne sera pas remplacé. Un membre spécialiste en architecture a démissionné pour la fin 2024. Un remplacement sera proposé début 2025.
+
+
+
+La CCU s'est réunie à quatre reprises en 2024 et a examiné un total de 8 projets. Il s'agissait majoritairement de projets en zone d'habitation prévoyant la démolition de bâtiments existants pour des nouvelles constructions, mais aussi d'un projet en zone d'installations publiques. Le projet de modification du RGPA lui a également été soumis.
+
+## Commission de salubrité
+
+La Commission a effectué plusieurs inspections de nouveaux ouvrages ou de transformations, totalisant 31 visites (1 visite peut concerner plusieurs objets). Des permis d'habiter/d'utiliser ont été délivrés pour :
+
+- 49 bâtiments d'habitation ;
+- 2 villas jumelles ;
+- 15 transformations, rénovations ;
+- 2 jardins d'hiver ;
+- 2 dépendances ;
+- 3 piscines/jacuzzis/spas de nage ;
+- 6 projets d'aménagements extérieurs ou de pergolas ;
+- 1 abri vélos.
+
+## Commission des couleurs
+
+La Commission a été sollicitée à 22 reprises pour se prononcer sur des choix de coloris relatifs à des façades, volets, avant-toits, ferblanteries, couvertures, corniches, embrasures, ainsi que divers matériaux de façades.
+
+## Commission des arbres
+
+La nouvelle Loi cantonale sur la protection du patrimoine naturel et paysager (LPrPNP) est entrée en vigueur le 1er janvier 2023. Le principe prévu dans celle-ci est que l'ensemble du patrimoine arboré ne peut être abattu, sauf dérogations. Le patrimoine arboré comprend tous les arbres, haies et autres éléments végétaux, à l'exception des buissons en zone à bâtir et des plantes invasives (thuyas, laurelles, etc.).
+
+### L'article 15 - Dérogations de cette loi prévoit :
+
+1. Les dérogations à l'article 14, alinéa 1 peuvent être octroyées pour la suppression et l'élagage excédant l'entretien courant en présence :
+   a. de risques sécuritaires ou phytosanitaires avérés ;
+   b. d'une entrave avérée à l'exploitation agricole ;
+   c. ou d'impératifs de construction ou d'aménagement.
+2. Les dérogations sont soumises à l'autorisation de la commune, à l'exception de celles concernant les arbres remarquables qui nécessitent une autorisation du service. L'article 23, alinéa 2 de la présente loi est réservé.
+3. La demande de dérogation est mise à l'enquête publique durant trente jours et publiée dans la Feuille des avis officiels du Canton de Vaud. Pendant le délai d'enquête, tout intéressé peut déposer une opposition écrite et motivée au greffe municipal.
+4. Le règlement précise le contenu de la demande de dérogation.
+
+Le processus administratif du Service a été adapté aux nouvelles dispositions légales depuis leur entrée en vigueur. Un règlement communal sur la protection du patrimoine arboré a également été rédigé durant l'année 2024 et sera transmis au Conseil communal pour approbation début 2025.
+
+Dès lors, les dispositions suivantes sont appliquées depuis le 1er janvier 2023 :
+
+- dépôt d'une demande d'autorisation d'abattage (propriétaire, gérance, administrateur, paysagiste, etc.) ;
+- examen et préavis de la Commission des arbres, composée de spécialistes internes et externes au Service ;
+- publication de la demande dans la Feuille des Avis officiels (FAO) et au pilier public durant 30 jours ;
+- dossier complet informatique accessible sur Cartoriviera et physique accessible au guichet du Service ;
+- à l'issue de l'enquête publique, pour autant qu'aucune opposition n'ait été déposée, l'autorisation d'abattage est délivrée ;
+- pour chaque arbre abattu, la compensation par la plantation d'une essence majeure indigène et/ou adaptée au réchauffement climatique, est obligatoire.
+
+Chaque abattage d'une essence majeure fait l'objet d'une demande puis d'une visite de la Commission des arbres qui, après détermination, soumet l'abattage au pilier public pendant 30 jours. Tous les arbres abattus sont obligatoirement compensés par une essence de même envergure.
+
+En 2024, la Commission des arbres s'est réunie pour traiter 49 demandes d'abattage et 3 demandes d'élagage. Elle a procédé à autant d'inspections in situ. Lorsque les requêtes n'étaient pas totalement justifiées, les autorisations d'abattage n'ont été délivrées que partiellement ou refusées, selon l'appréciation de ladite Commission. 41 demandes ont été acceptées, 7 ont été refusées, 1 a été annulée. Les autorisations concernent majoritairement des arbres secs ou en mauvais état sanitaire. Ce chiffre ne comprend pas les arbres abattus dans le cadre de demandes de permis de construire.
+
+## Statistiques des constructions de bâtiments d'habitation
+
+|  Année | Logements | Détails  |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |  1 p. | 2 p. | 3 p. | 4 p. | 5 p. | 6 p. et +  |
+|  2014 | 119 | - | 2 | 36 | 60 | 15 | 6  |
+|  2015 | 49 | - | 4 | 13 | 22 | 4 | 6  |
+|  2016 | 176 | 31 | 21 | 55 | 51 | 16 | 2  |
+|  2017 | 135 | 4 | 31 | 42 | 39 | 19 | -  |
+|  2018 | 28 | - | 5 | 8 | 11 | 2 | 2  |
+|  2019 | 16 | 1 | 3 | 2 | 5 | 2 | 3  |
+|  2020 | 11 | 2 | - | 6 | - | 2 | 1  |
+|  2021 | 14 | - | 1 | 6 | 7 | - | -  |
+|  2022 | 135 | 2 | 9 | 50 | 64 | 10 | -  |
+|  2023 | 152 | 15 | 59 | 43 | 26 | 8 | 1  |
+|  2024 | 140 | 10 | 22 | 33 | 57 | 18 | -  |
+
+Ces chiffres concernent les nouveaux logements créés.
+
+
+
+## Police des constructions
+
+66 dossiers (plusieurs bâtiments ou projets peuvent faire l'objet d'un seul dossier) ont été soumis à l'enquête publique, soit :
+
+- 7 projets d'immeubles ;
+- 1 villas individuelles ;
+- 8 villas jumelles ;
+- 1 écurie ;
+- 4 agrandissements ;
+- 20 transformations ou rénovations ;
+- 24 projets divers (piscines, pompes à chaleur, couverts, garages, jacuzzis, murs de soutènement, places de parc, etc.) ;
+- 1 projet routier.
+
+Par ailleurs, 53 permis de construire ont été accordés en dispense d'enquête publique (réfections, rénovations, transformations et constructions de minime importance, cabanons de jardin, pompes à chaleur, etc.).
+
+55 autorisations simplifiées de pose de panneaux solaires ont été délivrées en 2024, ainsi que 16 demandes incluses dans divers dossiers mis à l'enquête publique, pour une surface totale de 4'672 m².
+
+## Contrôles de chantiers
+
+134 visites de contrôles de sécurité publique et de sécurité au travail ont été réalisés durant l'année 2024 par le bureau intercommunal de l'inspectorat des chantiers.
+
+## Règlement sur les émoluments administratifs en matière de police des constructions
+
+Courant 2024, le Service a rédigé un règlement sur les émoluments administratifs en matière d'aménagement du territoire et de police des constructions. Ce projet de règlement a suivi l'ensemble des étapes légales prévues par la loi puis a été approuvé par le Conseil communal en sa séance du 11 décembre 2024. Il entrera en vigueur début 2025.
+
+## Défense-incendie
+
+L'entretien des bornes hydrantes du réseau de défense-incendie communal est effectué par une entreprise privée en collaboration avec le SIGE et le SUTP, sous le contrôle du Service de défense incendie et secours (SDIS) Riviera et de l'Établissement cantonal d'assurance (ECA). Suite à ces contrôles, une borne hydrante a été remplacée. À fin 2024, sur les 184 bornes hydrantes réparties sur le territoire communal, aucune n'était en priorité d'intervention 1, ce qui signifie que le parc est en bon état.
+
+Dans le cadre des nouveaux projets de construction ou d'assainissement des infrastructures publiques, le SUTP collabore avec le SIGE et le SDIS pour la maintenance du réseau de conduites, conformément aux exigences du terrain et aux normes en vigueur.
+
+## Éclairage public (EP)
+
+L'installation de sources lumineuses de type LED s'est poursuivie en 2024. La faible consommation électrique de ce type d'éclairage représente une économie non négligeable et les optiques modernes génèrent également un abaissement moyen de 40 % de la pollution lumineuse.
+
+La télégestion des armoires de commande a été entièrement déployée sur le parc communal. Ce système permet au Service de contrôler de façon précise les différentes armoires, permettant à terme de piloter des extinctions nocturnes ciblées en fonction de la typologie des différentes rues. Par ailleurs, la mise en place de la télégestion a permis de remettre à niveau plusieurs armoires avec des systèmes obsolètes et sans compteur d'énergie (facturation jusqu'alors « au forfait » défavorable à la Commune). Un « plan lumière » est en cours d'élaboration afin de déterminer quels candélabres allumer et selon quelle temporalité.
+
+Par ailleurs, un nouveau préavis-cadre pour le renouvellement des sources lumineuses les plus vétustes est en cours de préparation et sera transmis au Conseil communal courant 2025.
+
+## Entretien
+
+Dans le cadre des travaux d'entretien et de remise en état de luminaires défectueux, accidentés ou dégradés, les anciens lampadaires sont systématiquement remplacés par des sources LED.
+
+## Travaux et interventions
+
+Les avis de défaut d'éclairage sont transmis à notre prestataire. Ainsi, la Romande Énergie est intervenue 61 fois afin de remédier à divers dysfonctionnements. Les anomalies ont des sources variées. Toutefois, dans la plupart des cas, il s'agit de remplacer des composants défaillants rongés par l'humidité ou le vieillissement.
+
+Diverses interventions ont été nécessaires sur le réseau d'éclairage pour déplacer certains luminaires en fonction de nouvelles constructions.
+
+## Ordures ménagères et déchets
+Gestion des déchets 2024
+
+![img-0.jpeg](img-0.jpeg)
+
+
+
+## Déchets urbains incinérés
+
+![img-1.jpeg](img-1.jpeg)
+
+## Statistiques des ordures incinérées
+
+|   | Population au 31.12 | Ordures Ménage (kg hab/an) | Obj. encombr. (kg hab/an) | Voirle (tonnes) | Total (kg hab/an)  |
+| --- | --- | --- | --- | --- | --- |
+|  2014 | 11'207 | 125 | 43 | 177 | 168  |
+|  2015 | 11'421 | 123 | 44 | 192 | 167  |
+|  2016 | 11'637 | 117 | 45 | 171 | 162  |
+|  2017 | 11'779 | 117 | 45 | 189 | 162  |
+|  2018 | 11'871 | 113 | 50 | 202 | 163  |
+|  2019 | 11'906 | 110 | 46 | 197 | 172  |
+|  2020 | 12'088 | 118 | 46 | 205 | 181  |
+|  2021 | 12'222 | 115 | 46 | 184 | 176  |
+|  2022 | 12'402 | 112 | 44 | 181 | 170  |
+|  2023 | 12'605 | 112 | 46 | 187 | 173  |
+|  2024 | 12'812 | 112 | 47 | 223 | 176  |
+
+## Répartition graphique du taux de revalorisation des déchets urbains en 2024
+
+![img-2.jpeg](img-2.jpeg)
+
+Sont considérés comme déchets urbains incinérés (SATOM) : les ordures ménagères et les objets encombrants, soit 2'036 tonnes pour 2024.
+
+Sont considérés comme déchets urbains recyclables : le PET, le verre, la ferraille, le papier, les déchets verts et les habits, soit 2'371 tonnes pour 2024.
+
+## Statistiques sur les déchets urbains recyclés
+
+### Récupération du verre
+
+395 tonnes de verre ont été récoltées dans les douze conteneurs réservés à cet effet à la place des Terreaux, aux avenues du Lac, des Baumes, des Mousquetaires et de Jaman, à la rue des Remparts, aux routes de Blonay et de Chailly, au chemin des Vignes, à la déchèterie de
+
+La Faraz et au Port. Le verre récupéré est acheminé aux carrières d'Arvel à Villeneuve, où il est revalorisé.
+
+Moyenne par habitant : 30,8 kg/an.
+
+![img-3.jpeg](img-3.jpeg)
+
+### Ramassage du papier et carton
+
+735 tonnes de papier ont été collectées pour recyclage lors des ramassages hebdomadaires.
+
+Moyenne par habitant : 57,3 kg/an.
+
+![img-4.jpeg](img-4.jpeg)
+
+### Déchets alimentaires de cuisines professionnelles
+
+La Municipalité de La Tour-de-Peilz, à l'instar de ce qui se fait dans les autres Communes de la Riviera, a délégué à GastroVert la gestion de ce type de détritus pour les professionnels. La récolte se fait dans des conteneurs en plastique de 120 litres, fournis par SATOM GastroVert, qui sont collectés au minimum une fois par semaine, en fonction du taux de remplissage et de l'activité de l'entreprise. Pour 2024, si l'on tient compte d'une densité de 0,61 kg/litre, la quantité de déchets est estimée à 42 tonnes pour 572 ramassages.
+
+### Déchets verts + compost
+
+881 tonnes de déchets de jardin, gazon, branchages et compost ont été récoltées et évacuées vers le centre de compostage de Villeneuve.
+
+Moyenne par habitant : 68,7 kg/an.
+
+![img-5.jpeg](img-5.jpeg)
+
+
+
+Sur ce total, 661 tonnes provenant de la collecte porte-à-porte ont été déclassés au centre de compostage en raison d'une trop forte teneur en déchets plastiques, et ont dû être incinérées.
+
+### Récupération du PET
+
+En 2024, 39 tonnes de PET ont été récoltées dans les huit points de collecte réservés à cet effet, installés en parallèle des conteneurs pour le verre.
+
+Moyenne par habitant : 3.1 kg/an.
+
+![img-6.jpeg](img-6.jpeg)
+
+### Ramassage de la ferraille
+
+198 tonnes de ferraille ont été récoltées à la déchèterie de La Faraz. Entre 2005 à 2023, la ferraille n'était pas pesée systématiquement en raison de la disparition des poids publics. On considérait alors une densité de 0.15 tonne/m³. Depuis 2024 la ferraille est à nouveau pesée par l'entreprise reprenant les matériaux, ce qui explique la différence de tonnage pour 2024.
+
+Moyenne par habitant : 15.4 kg/an.
+
+![img-7.jpeg](img-7.jpeg)
+
+### Ramassage des huiles
+
+2722 litres d'huiles végétales usagées ont été récoltés à la déchèterie de La Faraz.
+
+### Habits
+
+82 tonnes de vêtements, chaussures et jouets ont été récupérées par le biais des conteneurs ainsi que lors des diverses collectes en porte-à-porte.
+
+### Appareils ménagers et électroniques
+
+Suite à l'entrée en vigueur de la taxe anticipée de recyclage (TAR) le 1er janvier 2003, les appareils ménagers et électroniques usagés doivent être rapportés en priorité
+
+dans les commerces, aux fabricants, aux importateurs ou aux entreprises de récupération qualifiées. La Commune offre néanmoins la possibilité de les récupérer à la déchèterie de La Faraz.
+
+### Vélos
+
+Un partenariat mis en place depuis fin septembre 2023 avec l'association Velafrica permet à la population boëlande de déposer ses vélos usagés à la déchèterie. Ceux-ci sont ensuite récupérés par cette association, remis en état et envoyés dans des pays africains où ils ont une deuxième vie. Dans le cadre de ce partenariat, 185 vélos ont été récupérés en 2024.
+
+### Points de collecte de type Molok
+
+Depuis l'introduction du nouveau Règlement communal sur la gestion des déchets en 2015 et l'introduction de la « taxe au sac », l'augmentation du tri des déchets a modifié la gestion des conteneurs Molok.
+
+Depuis quelques années, des conteneurs semi-enterrés de type Molok sont utilisés dans les points de collecte communaux pour les déchets incinérables, le papier et, dans certains cas, le verre.
+
+Ils sont également préconisés pour les équipements communautaires privés (locatifs, lotissements, etc.).
+
+### Partenariats privés-public
+
+La réalisation de points de collecte avec des conteneurs de type Molok sur le domaine public (DP) est souvent très compliquée, voire impossible, en raison de la présence de nombreuses conduites souterraines. Des partenariats sont recherchés avec des propriétaires riverains du DP réalisant des travaux d'aménagements pour la création de points de collecte sur fonds privés à disposition du public, notamment en partageant les frais de construction. Ces équipements sont garantis par l'inscription d'une servitude d'usage au Registre foncier en faveur de la Commune. Plusieurs projets sont ainsi en cours de développement et devraient se concrétiser prochainement.
+
+### Points de collecte publics créés et renouvelés en 2024
+
+En 2024, il a été procédé à la rénovation de certains points de collecte publics, avec la pose de nouveaux entourages.
+
+### Points de collecte privés de type Molok
+
+En complément aux équipements publics, des points de collecte privés sont installés dans le cadre de la réalisation de lotissements. Est considéré comme privé tout équipement de collecte des déchets situé à l'intérieur de propriétés privées et dont l'accès direct n'est pas possible depuis le DP. La réalisation et l'entretien de ces équipements sont intégralement à charge des propriétaires.
+
+
+
+## Travaux
+
+### Travaux routiers
+
+Dans le cadre de l'assainissement des infrastructures publiques communales et des divers Services industriels (eau, gaz, télécommunications, électricité), plusieurs tronçons du réseau routier communal ont fait l'objet de réfections ou de modifications partielles, voire complètes.
+
+#### *Avenue du Clos-d'Aubonne - Réaménagement et création d'une zone 30 km/h*
+
+Les travaux sur l'avenue du Clos-d'Aubonne ont commencé au mois de novembre 2022 et se sont terminés en 2024. L'entier de la chaussée et de ses abords ont été remis à neuf, de même que l'éclairage public. L'écoulement des eaux a
+
+![img-8.jpeg](img-8.jpeg)
+
+été mis en séparatif. Les Services industriels ont également profité des travaux pour renouveler entièrement leurs infrastructures. L'aménagement de surface du secteur a également été revu, avec la plantation d'arbres, la modération du trafic et la mise en place d'une limitation à 30 km/h.
+
+#### *Création d'une zone 30 km/h aux chemins des Bulesses, des Vignes, du Croton, de Béranges et du Gregnolet*
+
+La création d'une zone 30 km/h sur ces divers chemins a été étudiée dans le courant de l'année puis concrétisée fin 2024 à la suite de l'approbation par le Conseil communal du préavis municipal N° 17/2024. Les travaux de réaménagement du chemin des Vignes et les travaux complémentaires sur les chemins des Bulesses et du Croton seront menés dans le foulée dès début 2025.
+
+#### *Création d'une zone 30 km/h aux avenues de Traménaz, de la Paix, de Sully, des Mousquetaires et au chemin du Crêt-à-l'Aigle*
+
+La création d'une zone 30 km/h sur ces divers chemins a été étudiée dans le courant de l'année puis concrétisée fin 2024 à la suite de l'approbation par le Conseil communal du préavis municipal N° 26/2024.
+
+#### *Réaménagement du boulevard d'Arcangier*
+
+Le réaménagement du boulevard d'Arcangier est un projet intercommunal mené avec la Ville de Vevey, concernée par environ 80 % de la longueur de cette artère. À la suite de l'acceptation par le Conseil communal du
+
+préavis municipal N° 4/2024, les travaux de génie civil ont démarré courant 2024 sur le territoire veveysan et se poursuivront en 2025.
+
+#### *Entretien du revêtement bitumineux*
+
+Dans le cadre du plan quinquennal d'entretien des chaussées, une campagne de réfection des revêtements bitumineux a été effectuée à la belle saison. Ainsi, un tronçon de l'avenue de Sully et du chemin de Béranges ont notamment été renouvelés en 2024.
+
+#### **Transports publics et mobilité**
+
+Le réseau de transports publics VMCV n'a pas subi de modification en 2024, à l'exception de la déviation de la ligne 203 en raison des travaux à l'avenue du Clos-d'Aubonne et de la ligne 207 en raison de travaux sur l'avenue de Sully. Il se compose des lignes suivantes :
+
+- Ligne VMCV 201 : Vevey - Villeneuve
+- Ligne VMCV 203 : La Tour-de-Peilz - La Crausaz
+- Ligne VMCV 207 : La Tour-de-Peilz - Mottex - Blonay
+- Ligne VMCV 208 : La Tour-de-Peilz - Chailly - Fontanivent - Blonay
+- Ligne VMCV 209 : Bel-Air - Perrausaz - Vevey-Gare
+
+#### **Ouvrages CFF**
+
+Les ouvrages liés à la ligne CFF du Simplon n'ont pas fait l'objet de travaux d'importance en 2024.
+
+#### **Travaux divers réalisés par des tiers**
+
+Le SUTP a collaboré activement aux travaux entrepris par des tiers ou par les Services industriels. La coordination entre tous les partenaires des infrastructures communales se fait lors de séances interservices bisannuelles, et par le biais du Système d'information du territoire (SIT) Cartoriviera.
+
+#### **Réseau d'égouts et d'épuration**
+
+##### *Travaux d'assainissement dans le cadre du Plan général d'évacuation des eaux (PGEE)*
+
+Approuvé en 2010, le PGEE sert de référence pour planifier l'assainissement des collecteurs. En 2024, ce dernier a été réactualisé en ce qui concerne la planification temporelle et financière des investissements à prévoir. Actuellement, l'essentiel des activités concerne :
+
+- le contrôle et la mise en conformité de tous les bâtiments situés dans des secteurs où le système séparatif est présent ;
+- la planification des futurs projets d'assainissement du réseau de canalisations des eaux usées et des eaux claires (EU & EC), sur la base du PGEE et en fonction des capacités financières définies par le nouveau Règlement communal sur l'évacuation des eaux usées et des eaux claires ;
+- le suivi des chantiers en cours et à venir relatifs à la mise en séparatif du réseau ;
+
+
+
+- les contrôles à réaliser lors de l'exécution de projets d'aménagement, de transformation et/ou de construction d'immeubles privés ;
+- la mise à jour du cadastre des canalisations, suite aux divers chantiers en cours ou achevés.
+
+# Entretien général
+
+Malgré plusieurs évènements pluviométriques importants, le réseau d'évacuation des EU & EC a dans son ensemble fonctionné normalement.
+
+Divers tronçons du réseau EU & EC ont fait l'objet de travaux d'entretien, de recherches de pollution dans les eaux claires et de réparations.
+
+Dans le cadre des travaux d'entretien du réseau routier, des chambres de visite, des sacs coupe-vent et des caniveaux ont été remis en état. La vidange bisannuelle des sacs d'huile et d'essence ainsi que le traitement des déchets y relatifs ont été effectués par des entreprises agréées par le Canton.
+
+# Travaux d'assainissement divers
+
+Le Service a été sollicité dans divers projets privés pour définir les conditions et possibilités de raccordements au réseau pour des constructions projetées ou lors de problèmes d'écoulements. Conformément au règlement communal sur l'évacuation des eaux, dans le cadre de nouvelles constructions, l'infiltration des eaux claires est systématiquement favorisée lorsque c'est techniquement possible et les débits en sortie de parcelle sont limités (rétention). En 2024, la carte d'infiltration annexée au PGEE a été actualisée par un bureau spécialisé, en coordination avec la Division « Eaux souterraines » de la Direction générale de l'environnement. La nouvelle carte permet d'identifier plus précisément les secteurs favorables à l'infiltration des eaux claires au vu de l'évolution des connaissances, notamment géologiques, du territoire.
+
+En outre, la mise en séparatif récente de différents tronçons du réseau communal (notamment à l'avenue du Clos-d'Aubonne et au chemin des Bulesses) a engendré un travail important de suivi du raccordement et, le cas échéant, de la mise en séparatif des propriétés privées raccordées. Le Service a commencé à mettre à jour l'ensemble des informations relatives aux parcelles privées dans son système de gestion, et exige des propriétaires privés non-encore mis en séparatif dans un périmètre ou le réseau communal est déjà en séparatif, d'effectuer les travaux dans des délais fixés par le Règlement communal.
+
+# Lac et cours d'eau
+
+# Rivages lacustres
+
+En 2024, aucune tempête n'a mis à mal les enrochements et protections des rivages du lac sur le terri-
+
+toire communal. Divers travaux d'entretien et de nettoyage ont été réalisés par le Secteur espaces publics. Le ramassage du bois flotté accumulé sur les rives est réalisé par le Service intercommunal de gestion (SIGE) et par le Secteur espaces publics.
+
+# Cours d'eau
+
+En cas de constat de pollution lors des contrôles et des travaux d'entretien effectués par le Secteur espaces publics, une vérification est mise en œuvre pour en déterminer l'origine afin de pouvoir y remédier dans les meilleurs délais. Ces investigations nécessitent beaucoup de temps et concernent souvent plusieurs propriétés qui doivent être testées une par une.
+
+Les évènements pluviométriques de 2024 n'ont pas provoqué de dégâts particuliers aux ruisseaux sis sur le territoire communal.
+
+Suite aux divers orages et intempéries annuels, une vidange du dépotoir de la Malègue a été effectuée. Lors de cette intervention, environ 90 m³ de matériaux ont été extraits et évacués en décharge.
+
+# Signalisation routière
+
+Depuis le 1er janvier 2008, date d'entrée en vigueur effective de l'Association sécurité Riviera (ASR), le SUTP a repris la supervision du Secteur signalisation routière, en laissant toutefois la gestion et l'entretien de celle-ci à l'ASR.
+
+# Autorisations spéciales
+
+190 permis ont été délivrés pour des travaux de privés et des Services industriels exécutés sur le domaine public, soit 86 permis de fouilles et 104 permis de dépôts. Parmi ces permis, 59 l'ont été dans le cadre de la fin du déploiement de la fibre optique par Swisscom.
+
+# Procédés de réclames
+
+8 permis pour l'utilisation d'un procédé de réclame ont été délivrés et diverses autorisations accordées pour des manifestations à but culturel ou d'importance régionale.
+
+# Affichage public
+
+La concession d'affermage exclusif de l'affichage public a été renouvelée suite à un appel d'offres et le nouveau concessionnaire a débuté son activité le 1er juillet 2024. Le Service a supervisé la transition entre l'ancien et le nouveau concessionnaire et le déploiement de nouveaux supports d'affichage. L'affichage commercial est désormais supprimé, à l'exception de 10 supports réservés aux sociétés ayant leur siège à La Tour-de-Peilz. Par ailleurs, les réseaux d'affichage culturel national et local (voir p. 83) ont été développés et une surface d'affichage libre a été mise en place.
+
+
+
+## Le Port
+
+### Entretien
+
+- travaux d'entretien des différentes installations portuaires et lacustres (petite maçonnerie, menuiserie, peinture, fontaine, bancs, etc.) ;
+- entretien quotidien et balayage des allées, des aires de pique-nique et de la place de jeux ;
+- entretien et nettoyage quotidien des WC publics et des cabines-vestiaires ;
+- entretien des pompes récoltant les eaux des fonds de cales et les matières fécales ;
+- entretien des barrages de défense anti-bois ;
+- entretien de la distribution électrique du Port ;
+- nettoyage à l'aide de plongeurs des déchets dans le fond du périmètre ;
+- nettoyage d'algues invasives suite aux conditions météo particulières.
+
+### Travaux réalisés en 2024
+
+- déplacement des places visiteurs à l'extrémité du Vieux-Môle ;
+- installation de deux bornes escamotables limitant l'accès en véhicules à la rue du Port et à la Place de la Poteylaz aux seuls ayants-droit ;
+- remise en état du platelage du Môle du Château ;
+- réfection de l'enrobé étanche de la zone sous la grue.
+
+En 2024, une étude de l'état de l'ensemble des infrastructures lourdes a par ailleurs été lancée avec un bureau d'ingénieur civil.
+
+### Visiteurs
+
+588 bateaux et 846 nuitées visiteurs ont été enregistrés du 1er mai au 31 octobre 2024.
+
+## ESPACES PUBLICS
+
+Le Secteur espaces publics regroupe, sous l'autorité du chef du Service de l'urbanisme et des travaux publics, les anciens Secteurs voirie et parcs & jardins (regroupés courant 2022 afin d'améliorer l'efficience et les synergies entre les équipes).
+
+### Activités
+
+Les tâches principales du Secteur sont :
+
+- le balayage et l'entretien quotidien des chaussées, trottoirs, places de parc et WC publics ;
+- l'entretien du réseau d'égouts et des eaux claires ;
+- le contrôle des séparatifs d'eaux claires et d'eaux usées ;
+- le nettoyage des ruisseaux, des rives du lac et des ouvrages riverains ;
+- la préparation de manifestations et de spectacles ;
+- l'entretien du mobilier urbain, du mobilier et du matériel communal ;
+- l'entretien du Port ;
+- le montage et le démontage de la cantine communale louée par diverses sociétés et institutions ;
+- la pose et dépose des décorations de Noël ;
+- le déblaiement de la neige et le salage des routes et des trottoirs (domaine public) durant l'hiver ;
+- le service hivernal des parcelles communales ;
+- le nettoyage des ruisseaux et le renforcement des berges pour éviter l'érosion ;
+- le lavage des fontaines, des routes et des trottoirs, des caniveaux ainsi que des arrêts de bus VMCV ;
+- l'entretien des chemins de campagne et des passages piétonniers ;
+- le fauchage des bords de routes et des parcelles communales, deux fois par année selon la charte des talus de Pro Natura ;
+
+- la maintenance du patrimoine communal ;
+- le contrôle des points de collecte et du bon respect de la taxe aux sacs ;
+- les travaux d'entretien courant de maçonnerie et de menuiserie dédiés aux bâtiments publics, et aux digues du Port ;
+- l'entretien de tous les espaces verts publics de la commune ;
+- l'entretien de la végétation arborée des propriétés privées communales ;
+- garnir, fleurir et entretenir les massifs floraux ainsi que les décorations de façades ;
+- l'entretien des places de jeux publiques, des surfaces sportives, de la végétation du cimetière et des abords du Centre œcuménique de Vassin ;
+- l'aménagement des petites places de jeux ;
+- la culture des plantes nécessaires à l'embellissement de la cité et à la décoration des bureaux de l'administration ;
+- la confection des arrangements pour les manifestations, ainsi que les réceptions et anniversaires des nonagénaires ;
+- la création des décorations pour les fêtes de fin d'année ;
+- l'abattage de divers végétaux en fin de vie et la plantation de nouveaux sujets ;
+- le suivi de l'application des lois en matière de police rurale ;
+- la participation à la Commission des arbres et le suivi des autorisations y relatives.
+
+
+
+## Déchèterie
+
+Dix ans après l'introduction de la taxe au sac, le bilan est positif, peu d'incivilités ayant été constatées. La proportion de sacs taxés non conformes est inférieure aux 5 % tolérés. La modification de l'accès à la déchèterie ainsi que la mise en service de badges d'accès sont bénéfiques. La sécurité des piétons ainsi que celle des automobilistes a été améliorée. Pour sa dixième année d'exploitation, la déchèterie a généré une moyenne de 4'934 passages mensuels, pour un total de 59'208 durant l'année écoulée, dont 5'262 piétons et 53'946 voitures.
+
+Le fonctionnement de la déchèterie a dû être adapté à sa fréquentation qui est en forte augmentation depuis l'entrée en vigueur de ladite taxe. En effet, la déchèterie est ouverte depuis 2024 tous les après-midi ainsi que le samedi. Un auxiliaire est en fonction tous les samedis de l'année pour seconder le responsable ainsi que deux écoliers le mercredi après-midi selon le concept « Lift », qui consiste à sensibiliser les élèves boélands (14-15 ans) au monde du travail, en profitant d'un coaching personnalisé.
+
+Le Secteur procède à plusieurs contrôles et nettoyages journaliers des différents points de collecte 7 jours sur 7. Un service de piquet est organisé 7 jours sur 7, 24h/24h, toute l'année, pour assurer la gestion des dégâts naturels, pour nettoyer la chaussée suite aux accidents de circulation nécessitant une mise en sécurité rapide, pour répondre dans le mesure du possible aux demandes de la population, ainsi que pour gérer la propreté du centre-ville et le déneigement entre 4h et 22h du lundi au dimanche.
+
+Le Secteur espaces publics a par ailleurs procédé à l'évacuation d'objets encombrants, en lien avec les bons octroyés dans le cadre des PC familles, à 29 reprises dans le courant de l'année, dont 3 débarras facturés.
+
+## Voirie
+
+### Travaux spécifiques réalisés en 2024
+
+- • réfection des bancs en ville sur des pieds en granit ;
+- • réfection en limanat de cheminements publics dans les environs du manège de Villard ;
+- • réfection de divers entourages de conteneurs Molok sur le territoire communal ;
+- • pose de panneaux pour l'indication de chantiers et de routes ;
+- • mise en place de platelages « Dolce Riviera » au jardin Roussy ;
+- • aide à l'installation et à la mise en fonction de nouveaux points de collecte ;
+- • réfection d'un mur au chemin du Vallon ;
+- • aménagement à divers endroits de parkings pour les vélos/motos.
+
+Le Secteur a par ailleurs supervisé un appel d'offres relatif au renouvellement de la balayeuse communale.
+
+## Espaces verts
+
+### Travaux spécifiques réalisés en 2024
+
+Le Secteur espaces publics a décidé de diversifier les décorations destinées aux différentes fêtes annuelles.
+
+Pour Pâques, des œufs de diverses tailles ont été décorés et suspendus aux arbres du centre-ville avec également des carottes et des lapins apposés dans divers massifs.
+
+Les décorations estivales ont également été réalisées par les employés du Secteur espaces publics. Des jeux de société « morpion » ont été installés dans les massifs du quai Emile-Louis Roussy à disposition de la population.
+
+L'amélioration végétative et l'enrichissement de la biodiversité en divers endroits de la commune s'est poursuivi.
+
+### Plantations d'arbres :
+
+- • 1 tilleul, 1 poirier de Chine et 1 cèdre, au collège de Bel-Air ;
+- • 2 mûriers et 1 hêtre au Bain des Dames ;
+- • 1 érable dans le massif à l'angle des avenues des Baumes et de Bel-Air ;
+- • 1 pin et 1 poirier de Chine au Port ;
+- • 1 arbre à mouchoirs, 1 chêne et 2 sophoras au collège Courbet ;
+- • 1 chêne, 1 aulne et 1 virgilier à bois jaune au chemin de Béranges 74 ;
+- • 6 micocouliers, 3 chênes verts et 2 charmilles à l'avenue du Clos-d'Aubonne ;
+- • 2 fruitiers, 1 tilleul, 1 chêne et un châtaigner à la garderie Croqu'Lune ;
+- • 2 érables à la plage de la Maladaire ;
+- • 2 bouleaux, 1 aulne et 1 saule blanc à la place de jeux du chemin de Muraz ;
+- • 1 micocoulier et 2 charmilles à la place de jeux du Château.
+
+### Plantation de nouvelles zones de massifs et de haies :
+
+- • 120 m$^{2}$ de rouleaux préculivés de fleurs sauvages pour les pieds d'arbres ont été installés à l'avenue du Clos-d'Aubonne ;
+- • Une plate-bande avec divers petits fruits et aromatiques a été installée à la garderie Croqu'Lune ;
+- • Une surface rudérale avec bois du lac, pierre, vivaces et bulbes a été installée aux pieds des arbres dans la plate-bande du parking de la Maladaire ;
+- • Une nouvelle haie indigène composée de 22 arbustes de 12 espèces différentes a été plantée au Verger du Château.
+- • La haie de laurelles de la parcelle communale sis à l'avenue de Jaman 13 a été remplacée par 92 arbustes de 11 espèces différentes et celle du chemin de Pré-Long par 5 arbustes de 5 espèces différentes. Les arbustes plantés sont tous d'essence indigène.
+
+
+
+La place de jeux du chemin de Muraz a été entièrement rénovée par les collaborateurs du Secteur espaces publics afin qu'elle réponde aux normes de sécurité. Plusieurs arbres ont été plantés afin d'amener de l'ombre en période estivale. 22 arbustes ont été plantés pour créer une haie vive. Des plantes grimpantes ont été plantées et une platebande sensorielle constituée de plantes aromatiques a également été créée.
+
+![img-0.jpeg](img-0.jpeg)
+
+Des maisons à insectes ont été installées dans divers massifs afin de favoriser la biodiversité en milieu urbain.
+
+Au cimetière de Vassin, les chemins piétonniers en gravier existants ont été maintenus. Diverses surfaces non-utilisées ont été semées en prairie fleurie. Le secteur 6 a été désaffecté afin d'y créer un nouvel espace vert en 2025. L'entrée du cimetière côté chemin de Vassin a été plantée uniquement en vivaces afin de remplacer les fleurs annuelles. Afin de répondre à la demande, le columbarium a été entièrement repeint et la numérotation mise à jour.
+
+Le Secteur Espaces publics a réalisé, courant 2024, l'inventaire communal des arbres remarquables. L'inventaire sur le domaine public et privé communal a été confié à un bureau privé, de même que l'inventaire des grandes parcelles privées sur le territoire communal. Le Secteur a ensuite complété l'inventaire sur les parcelles privées plus modestes, travail qui sera finalisé début 2025.
+
+Courant 2024, le Secteur a également développé le projet de renouvellement de la place de jeux du parc Fesquet. Ce projet a fait l'objet d'un préavis municipal au Conseil communal et les travaux sont planifiés pour 2025.
+
+Afin de répondre à un postulat du Conseil communal, le Secteur a également développé un projet visant à améliorer l'ombrage sur la place des Anciens-Fossés. Accepté par le Conseil communal, le préavis municipal N° 13/2024 et les travaux y relatifs seront concrétisés au premier semestre 2025.
+
+Finalement, l'étude d'un plan de gestion de l'ensemble des parcelles entretenues par le Secteur est en cours de
+
+réalisation, afin de tendre au maximum vers des aménagements permettant un entretien extensif et différencié afin de favoriser la biodiversité et la nature en ville. Ce plan général permet également de planifier la plantation d'arbres partout où cela est envisageable, afin d'atteindre les objectifs du Plan climat communal.
+
+## Centre de production horticole de La Faraz
+
+Toutes les fleurs pour les décorations des manifestations, bâtiments communaux et massifs sont produites à l'établissement de La Faraz, dans le respect du développement durable. La protection des plantes contre les parasites est exclusivement faite avec des prédateurs. En cas de besoin indispensable, le produit phytosanitaire utilisé est compatible avec la présence d'auxiliaires.
+
+*Les cultures de l'établissement se divisent comme suit :*
+
+|  Production de plantes annuelles : | 10'733 plantes  |
+| --- | --- |
+|  Production de plantes bisannuelles : | 16'090 plantes  |
+|  Production de plantes pots, chrysanthèmes, azalées : | 3'670 plantes  |
+|  Production de fleurs coupées : | 12'331 fleurs  |
+|  Plantation de bulbes à massifs : | 12'150 bulbes  |
+|  Plantation de vivaces-graminées : | 5'870 plantes  |
+
+En 2024, 2'178 décorations florales ont été confectionnées dans le cadre de la seule production de l'établissement de La Faraz. Suite à la décision d'arrêter l'exploitation de la serre des fleurs coupées pour la période de l'hiver 2023-2024, 100 décorations ont été produites avec des plantes vertes ou des fleurs sèches provenant de deux fournisseurs de Suisse romande.
+
+## Police rurale
+
+La police rurale intervient en conformité avec les dispositions des art. 123 à 128 et 142 al. 8 du Code rural et foncier du 7 décembre 1987, de l'art. 2 de l'Arrêté du 11 juin 1976 concernant la destruction des plantes nuisibles à l'agriculture et de l'art. 23 al. 2 de la Loi vaudoise sur la viticulture. Elle est chargée de faire respecter la législation, essentiellement pour les plantations, haies ou arbres situés le long des voies publiques, pour les terrains incultes laissés à l'abandon ainsi que pour l'entretien des berges de ruisseaux et des dépotoirs de vignes.
+
+En 2024, plusieurs cas concernant le non-respect des prescriptions en vigueur ont nécessité des interventions. Le passage sur place du responsable des espaces publics ne permettant plus de régler la situation, un courrier a été envoyé aux différents propriétaires afin qu'ils se mettent en conformité avec le règlement.
+
+
+
+# OFFICE DES INHUMATIONS
+
+## Statistiques des inhumations
+
+|   | 2022 | 2023 | 2024  |
+| --- | --- | --- | --- |
+|  Nbre de décès inscrits dans le Registre officiel | 136 | 122 | 113  |
+|  Nbre de personnes domiciliées à La Tour-de-Peilz | 99 | 104 | 97  |
+|  Nbre de personnes domiciliées hors commune | 37 | 18 | 16  |
+|  Nbre de personnes décédées à La Tour-de-Peilz | 27 | 31 | 30  |
+|  Nbre de personnes décédées hors commune | 109 | 91 | 83  |
+|  Nbre de personnes incinérées | 108 | 107 | 90  |
+|  Nbre de personnes inhumées à Vassin | 23 | 12 | 16  |
+|  Nbre de services funèbres à La Tour-de-Peilz | 30 | 21 | 16  |
+|  Nbre d'urnes inhumées à Vassin | 56 | 61 | 19  |
+|  Nbre d'urnes déversées au Jardin du Souvenir | 30 | 29 | 26  |
+|  Nbre d'urnes déposées au columbarium | 16 | 12 | 7  |
+|  Nbre de personnes inhumées au cimetière israélite | 7 | 2 | 3  |
+|  Nbre de procès-verbaux pour cercueil plombé | 0 | 1 | 0  |
+|  Nbre d'exhumations de corps | 1 | 2 | 3  |
+|  Nbre d'exhumations d'urnes | 6 | 5 | 10  |
+
+## Statistiques cimetière de Vassin
+
+### Concessions accordées
+
+|  Concessions cinéraires pour une durée de 15 ans | 3 | 1 | 1  |
+| --- | --- | --- | --- |
+|  Cases au columbarium pour une durée de 15 ans | 9 | 9 | 6  |
+|  Cases au columbarium pour une durée de 50 ans | 0 | 1 | 0  |
+|  Petites concessions pour une durée de 30 ans | 3 | 0 | 2  |
+|  Petites concessions pour une durée de 40 ans | 2 | 0 | 0  |
+|  Grandes concessions pour une durée de 30 ans | 2 | 0 | 0  |
+|  **Total des concessions accordées :** | **19** | **11** | **9**  |
+
+### Concessions renouvelées
+
+|  Concessions cinéraires pour une durée de 5 ans | 13 | 13 | 7  |
+| --- | --- | --- | --- |
+|  Concessions cinéraires pour une durée de 10 ans | 1 | 5 | 1  |
+|  Concessions cinéraires pour une durée de 15 ans | 1 | 1 | 0  |
+|  Cases au columbarium pour une durée de 5 ans | 1 | 0 | 3  |
+|  Cases au columbarium pour une durée de 15 ans | 1 | 1 | 2  |
+|  Cases au columbarium pour une durée de 25 ans | 0 | 1 | 1  |
+|  Petites concessions pour une durée de 10 ans | 1 | 2 | 0  |
+|  Petites concessions pour une durée de 20 ans | 2 | 1 | 0  |
+|  Grandes concessions pour une durée de 10 ans | 1 | 0 | 0  |
+|  **Total des concessions renouvelées :** | **21** | **24** | **14**  |
+
+### Désaffectation partielle
+
+|  Concessions cinéraires | 7 | 16 | 17  |
+| --- | --- | --- | --- |
+|  Cases au columbarium | 3 | 0 | 0  |
+|  Petites concessions | 1 | 12 | 12  |
+
+|  **Autorisations délivrées pour la pose de monuments funéraires (marbriers)** | **27** | **29** | **9**  |
+| --- | --- | --- | --- |
+
+
+
+# FAMILLE, JEUNESSE, SPORT ET CULTURE
+
+ADMINISTRATION
+
+- 1 chef de Service (1 EPT)
+- 1 adjointe au chef de Service et responsable de la cohésion sociale (0.6 EPT) - occupe également le poste de responsable à l'Accueil familial de jour (0.2 EPT)
+- 1 adjointe administrative et responsable des réfectoires (0.9 EPT)
+- 2 employées administratives (1.3 EPT)
+- 1 conseiller école-famille (0.8 EPT)
+
+RÉFECTOIRES SCOLAIRES
+
+- 6 responsables (1.3902 EPT)
+- 10 collaboratrices (1.931 EPT)
+- 1 aide (0.1545 EPT)
+
+AFFAIRES CULTURELLES
+
+- 1 responsable des Affaires culturelles (0.8 EPT)
+- 1 chargée de projets (0.55 EPT)
+
+ACCUEIL FAMILIAL DE JOUR
+
+- 1 responsable (0.2 EPT)
+- 3 coordinatrices (1.8 EPT)
+- 2 gestionnaire de dossiers (1.6 EPT)
+- 1 responsable salaires et gestionnaire RH (0.3 EPT) - occupe le même poste au Bureau RH (0.6 EPT)
+
+SPORT & JEUNESSE
+
+- 1 délégué Sport & Jeunesse (1 EPT)
+- 1 animatrice jeunesse (0.8 EPT)
+- 1 travailleuse sociale de proximité « TSP » (0.8 EPT)
+- 1 responsable administrative (0.9 EPT)
+
+Les responsables de l'école de musique et de l'école de natation sont tous deux rattachés au Secteur sport & jeunesse et sont au bénéfice d'un forfait mensuel.
+
+
+
+Le Service famille, jeunesse, sport et culture (SFJSC) regroupe les actions sociales communales, le Secteur sport et jeunesse, les Affaires culturelles, l'organisation de l'accueil dans les réfectoires scolaires de la commune, le poste de conseiller école-famille et la coordination de l'Accueil familial de jour pour les réseaux LAC et Vevey. Il travaille entre autres en collaboration avec le centre de loisirs pour seniors l'Escale, Le Musée suisse du jeu ainsi que la Fondation des Structures d'Accueil de l'Enfance de La Tour-de-Peilz (FSAT).
+
+### Actions communales à caractère social
+
+#### Messages aux parents
+
+Depuis 2011, le Service adresse à tous les parents d'un premier enfant domiciliés à La Tour-de-Peilz un courrier les félicitant pour cette naissance ainsi que le premier numéro de la brochure *Messages aux parents*. L'abonnement d'une année à cette collection, d'une valeur de Fr. 55.-, leur est offert s'ils le souhaitent. Les *Messages aux parents* sont constitués d'une boîte et de 13 brochures que les parents reçoivent directement de Pro Juventute tout au long de l'année pour les accompagner durant le développement de leur enfant. En 2024, 56 nouveaux parents ont reçu ce courrier et 12 abonnements ont été conclus.
+
+#### Carnet d'adresses Petite Enfance à l'usage des parents
+
+Ce carnet est gratuit et fait partie du Programme cantonal de promotion de la santé et de prévention primaire enfants (0-4 ans) - parents, lancé en 2006 et conduit par la Direction générale de l'enfance et de la jeunesse (DGEJ) et la Direction générale de la santé (DGS).
+
+Réédité en 2020, il est envoyé à tous les parents d'un premier enfant, afin de leur faire connaître l'offre et les ressources locales à leur disposition et leur faciliter l'accès aux services destinés aux familles.
+
+#### Traitements orthodontiques
+
+Les traitements orthodontiques destinés aux enfants en âge de scolarité sont rarement pris en charge par l'assurance maladie. Au vu des coûts que cela représente sur le budget familial, la Commune octroie depuis 1981 une aide financière déterminée en fonction du revenu fiscal des parents, qui s'échelonne entre 20 % et 90 % du devis moins la part prise en charge par les assurances de l'enfant. En 2024, 3 nouveaux subsides (6 en 2023) de Classes I et IV (90 % et 30 % du devis) ont été alloués pour un montant total de Fr. 13'799.30 (Fr. 22'499.70 en 2023). Les versements sont échelonnés jusqu'en 2028.
+
+Durant l'année 2024, les participations communales, qui s'élèvent à Fr. 14'594.15 (Fr. 17'386.05 en 2023), ont été versées sur la base des factures intermédiaires des orthodontistes, présentées par les bénéficiaires.
+
+#### Études musicales
+
+Le Service gère également les demandes de subsides pour les études musicales d'enfants dont les parents sont domiciliés à La Tour-de-Peilz et qui suivent un cours dans une école régionale reconnue par la Fondation pour l'enseignement de la musique (FEM).
+
+En 2024, 8 enfants ont bénéficié de cette participation communale pour un montant total de Fr. 4'215.10.
+
+#### Aide communale en faveur des enfants de bénéficiaires du revenu d'insertion
+
+Cette prestation communale a pour but de permettre aux enfants dont les parents sont bénéficiaires du revenu d'insertion (RI) de participer à des activités sportives ou culturelles. Elle prévoit la prise en charge de la cotisation à un club sportif, à un cours de musique/de danse ou à une autre activité sportive ou culturelle, des enfants à charge et vivant au domicile d'un bénéficiaire RI, ceci à concurrence d'un montant annuel maximum de Fr. 250.- par enfant. L'aide communale prend également en charge certains frais liés à des activités parascolaires et à des camps de vacances. Sur l'ensemble de l'année, 29 enfants en ont bénéficié pour une dépense totale de Fr. 6'180.-. L'aide communale prévoit également le versement, en décembre, d'une allocation de Fr. 150.- par famille avec enfant(s) ou de Fr. 75.- par famille lorsque la garde est alternée. En 2024, celle-ci a concerné 71 familles, pour un coût total de Fr. 10'425.-.
+
+#### Aide individuelle au logement (AIL)
+
+À partir du 1er janvier 2024, une aide individuelle au logement a été mise en place. Durant cette première année, 38 dossiers ont été traités, en étroite collaboration avec la Commune de Vevey, qui gère la partie calcul du droit à cette aide.
+
+En 2024, 15 familles ont reçu une aide, alors que 23 autres dossiers ont été refusés car ils ne répondaient pas aux critères d'octroi.
+
+Le montant total de l'aide allouée par la Commune se monte à Fr. 16'562.-, dont la moitié sera prise en charge par le Canton.
+
+#### Aide complémentaire communale AVS/AI
+
+En vertu des décisions prises le 9 janvier 2012, la Municipalité a adopté la Directive municipale relative à l'allocation communale aux bénéficiaires des prestations complémentaires AVS/AI, en remplacement de celle du 1er janvier 1981. Elle a notamment décidé que chaque ménage bénéficiaire des PC AVS/AI perçoit une allocation de Noël de Fr. 400.- au mois de décembre.
+
+En 2024, 401 ménages ont touché cette allocation pour un montant total de Fr. 160'400.-. Chacun de ces ménages a
+
+
+
+également reçu trois bons, soit : un pour la gratuité de la carte annuelle de membre du centre de loisirs pour seniors L'Escale (d'une valeur de Fr. 30.-), un pour deux repas offerts à L'Escale et un pour une évacuation d'objets encombrants.
+
+### **Pain des veuves**
+
+La distribution du Pain des veuves se fait chaque année depuis 1614, lorsque Dame honorée Catherine Plattel, veuve de Maurice Frissard, fit un don de 450 florins à l'Hôpital de La Tour-de-Peilz. Elle précisa que l'intérêt de cette somme devait servir à acheter du blé pour faire du pain, afin de le distribuer aux veuves de la ville le 25 mars, jour de l'Annonciation à la Sainte Vierge. Depuis, excepté durant les années 1943 à 1948, et en 2020 pour cause de COVID-19, une miche de pain est distribuée ce jour-là à toutes les veuves de la commune. En 2024, un peu moins de 500 pains ont été livrés.
+
+### **Nouveaux retraités**
+
+La 9$^{e}$ édition de la Fête des nouveaux retraités a eu lieu le mercredi 17 avril à la salle des Remparts. Cette manifestation organisée par le Service, en collaboration avec L'Escale, offre aux sociétés locales (telles que l'Association des repas à domicile, le Service d'entraide bénévole, Les Vaillantes, le Musée suisse du jeu, Les Sans-Souci et La Ruche) la possibilité de présenter leurs activités aux personnes ayant pris leur retraite durant l'année écoulée. 155 invitations ont été envoyées, auxquelles 56 personnes ont répondu positivement. Avec leurs accompagnants, cela représentait 85 participants pour cette rencontre. Celle-ci a débuté par une partie officielle et s'est terminée par la visite des stands des sociétés présentes, ainsi que par un apéritif.
+
+### **Nonagénaires**
+
+Le jour de leur anniversaire, les nonagénaires reçoivent un message fleuri de la part de la Municipalité ainsi que deux bouteilles de vin de la réserve communale. En 2024, 44 jubilaires ont reçu ces attentions.
+
+Ils sont également invités à une cérémonie officielle, qui a eu lieu le mercredi 5 juin à la salle des Remparts, en présence de l'Autorité communale et des représentants des églises. 23 nonagénaires, accompagnés d'un parent ou d'un ami, ont participé à cette manifestation, agrémentée de discours et d'une agape sur fond musical, durant laquelle ils ont reçu un exemplaire du livre *Chronique du merle bleu* de Philippe Dubath.
+
+### **Centenaires**
+
+Les personnes centenaires reçoivent, si elles le souhaitent, la visite du préfet, d'un représentant des églises et de l'Autorité communale. En 2024, une centenaire était recensée. Elle n'a pas été fêtée, son changement de domicile pour l'étranger ayant eu lieu quelques mois plus tôt. La doyenne de la commune a soufflé ses 104 ans.
+
+### **Sortie des seniors boélands**
+
+Cette sortie a eu lieu le 6 septembre dernier. Les seniors de La Tour-de-Peilz et les membres de L'Escale ont été conviés à partager des grillades (avec entrée, dessert, vins, minérales et cafés) dans la véranda des Halles Planchamp à Vouvry.
+
+Suite à ce repas, durant lequel la convivialité a été le maître-mot, les participants ont rejoint par autocar le Temple St-Vincent de Montreux où une représentation privatisée du spectacle à succès « Sorcière » a eu lieu. Pour clôturer cette journée en beauté, artistes et seniors ont partagé le verre de l'amitié sur la terrasse du temple, sous un beau soleil, face au lac et montages.
+
+Cette année, cette journée n'a été proposée qu'à 150 seniors, à la place des 200 habituels, le Temple St-Vincent ne pouvant accueillir plus de convives. Elle a affiché complet rapidement et les participants ont été, pour la plupart, ravis de cette escapade proposée par L'Escale, et financée en partie par la Commune. Tous les seniors habitant La Tour-de-Peilz et souhaitant participer à cette journée ont été acceptés.
+
+### **Noël de l'amitié**
+
+Le jeudi 12 décembre, 200 seniors ont participé au repas de Noël de l'amitié. Réunis à la salle des Remparts, ils ont pu admirer une prestation scénique des enfants des écoles de La Tour-de-Peilz, déguster un bon repas autour de tables conviviales et terminer la journée en beauté avec, au moment du café, un récital du Yodleur Club de Montreux.
+
+### **Plan canicule**
+
+En Suisse, un avis canicule est émis lorsque l'on prévoit, pendant 3 jours consécutifs au moins, des températures diurnes supérieures à 33°-34°C. » En prévision d'un tel cas de figure, les instances cantonales et communales ont instauré un plan canicule (du 1$^{er}$ juin au 31 août) à l'intention de deux populations particulièrement vulnérables : les enfants et les personnes âgées. Ce plan ne peut être déclenché que sur ordre de l'Office fédéral de la santé publique (OFSP), par l'intermédiaire de la Préfecture. Dans ce dispositif, la Ville de La Tour-de-Peilz doit s'assurer que les personnes de 75 ans et plus vivant à domicile ont, dans leur environnement proche, une personne de contact (membre de la famille, voisin, etc.) qui peut prendre soin d'elles en cas de besoin. Dans le cas contraire, la Commune doit les contacter afin de s'assurer de leur bien-être. En 2024, 1'557 personnes ont été recensées et, début juin, 1'012 ménages ont reçu un courrier d'information. Les personnes en EMS et celles suivies par le CMS ne sont pas concernées par cette action. En 2024, le plan canicule n'a pas été activé, seule une mise en garde a été émise le 10 août.
+
+Selon le souhait de la syndique, des appels téléphoniques ont été passés chaque semaine aux 39 personnes en
+
+
+
+ayant émis la demande, ce durant toute la durée de la mise en place du plan canicule, soit du 1er juin au 31 août. Pour ce faire, une équipe de 7 personnes bénévoles a été créée, supplée en cas d'absence par deux collaboratrices du Service.
+
+## Subventions
+
+### Institutions sociales
+
+Des aides et subventions ont été versées à 28 associations ou institutions sociales régionales ou cantonales pour un total de Fr. 21'500.-.
+
+### Aide humanitaire
+
+Le Service famille, jeunesse, sport et culture a soutenu 15 projets ou actions au travers du fonds spécial « Actions humanitaires » pour un montant total de Fr. 15'000.-.
+
+## Responsabilités sociales quant aux lieux de vie
+
+### Expulsions d'appartements
+
+Selon l'article 43, ch. 1, lettre a de la Loi sur les communes du 28 février 1956, les autorités communales doivent veiller à « la protection des personnes et des biens ». À La Tour-de-Peilz, le Service famille, jeunesse, sport et culture est chargé de traiter cette question. En 2024, la Justice de paix du district de Vevey a prononcé 9 exécutions forcées d'expulsion en matière de baux à loyer contre des personnes domiciliées sur son territoire, dont 6 ont été réalisées. Deux ont été annulées par la Justice de paix et une autre n'a pu être exécutée (absence de la gérance, du serrurier et du transporteur). Elle a été repoussée à une date ultérieure, puis finalement annulée par la Justice de paix.
+
+### Rel'og
+
+Rel'og, une structure de la Fondation Le Relais, a pour objectif d'aider les personnes qui connaissent, pour des raisons financières ou sociales, des difficultés à trouver et/ou conserver un habitat stable. L'universalité de l'accès à tous les demandeurs est assurée par des prestations diversifiées. Quand la situation le justifie, Rel'og a la possibilité de prendre un bail au nom de la fondation. Un contrat de mise à disposition est signé entre le bénéficiaire et Rel'og. Il prévoit un suivi social à domicile. À terme, l'objectif est de permettre aux bénéficiaires d'obtenir le bail à leur nom. La Commune a un contrat de prestations et verse une subvention de Fr. 35'000.- pour permettre aux Boélandes et Boélands de bénéficier de leurs prestations.
+
+### Logements de secours
+
+Le Service dispose de 2 logements de secours prévus pour héberger momentanément (en principe trois mois au maximum) des personnes expulsées et en quête d'un nouvel appartement, ou faisant face à des situations
+
+sociales difficiles (violences conjugales). Sur l'ensemble de l'année, les appartements de secours ont été occupés par 3 sous-locataires. Ces logements de secours ont permis à des familles d'éviter d'être à la rue ou de devoir loger à l'hôtel.
+
+Depuis le 30 septembre 2024, ces logements ne sont momentanément plus disponibles, une explosion ayant eu lieu à cette date dans un autre appartement de cet immeuble (voir p. 48).
+
+### Structure d'accueil de nuit d'urgence Le Hublot
+
+Cette structure, ouverte en mai 2009 par CARITAS à l'initiative des services sociaux de Montreux, La Tour-de-Peilz et Vevey, dispose de 20 lits (dont une chambre de 4 lits réservée aux femmes et aux enfants) pour assurer un hébergement d'urgence aux personnes sans domicile ou faisant face à des difficultés momentanées de logement à la suite d'expulsion, de difficultés conjugales ou de marginalisation. En 2024, une personne expulsée a été relogée dans cette structure d'urgence.
+
+
+
+# ACCUEIL EN RÉFECTOIRES SCOLAIRES
+
+En parallèle des prestations de l'Accueil familial de jour (AFJ), des garderies et des Unités d'accueil pour écolier (UAPE) de la Fondation des Structures d'Accueil de l'Enfance de La Tour-de-Peilz (FSAT), la Commune met à disposition des réfectoires scolaires.
+
+### Réfectoires scolaires : Bel-Air, La Cantoch', Les Marmitons, Le Ref, Vassin et Les Mousquetaires
+
+Les réfectoires primaires sont ouverts les lundis, mardis, jeudis et vendredis, de 11h45 à 13h40, durant les semaines scolaires. Dans la mesure du possible, le Service tente de placer les réfectoires à proximité directe des écoles.
+
+À la fin de l'année 2024, la fréquentation était la suivante :
+
+|  Réfectoire primaire Bel-Air | 21 à 28 enfants par jour  |
+| --- | --- |
+|  Réfectoire primaire La Cantoch' | 27 à 30 enfants par jour  |
+|  Réfectoire primaire Les Marmitons | 35 à 36 enfants par jour  |
+|  Réfectoire primaire Le Ref | 28 à 37 enfants par jour  |
+|  Réfectoire primaire Vassin | 26 à 34 enfants par jour  |
+|  Réfectoire secondaire Les Mousquetaires | 45 à 60 enfants par jour  |
+
+En 2024, 22'645 repas ont été servis dans les six réfectoires, (21'805 en 2023). Dans les réfectoires primaires, le prix facturé aux parents comprend le repas et la prise en charge de l'enfant de 11h45 à 13h40. Il est déterminé sur la base d'un forfait mensuel calculé sur une période de 37,5 semaines (pour tenir compte des jours fériés et des éventuelles absences intervenant au cours de l'année scolaire). Ce forfait est facturé durant dix mois, soit de septembre à juin.
+
+Il s'élève pour les réfectoires primaires à :
+
+|  Fr. 220.- | par mois pour 4 jours de fréquentation par semaine  |
+| --- | --- |
+|  Fr. 165.- | par mois pour 3 jours de fréquentation par semaine  |
+|  Fr. 110.- | par mois pour 2 jours de fréquentation par semaine  |
+|  Fr. 55.- | par mois pour 1 jour de fréquentation par semaine  |
+
+# CONSEILLER ÉCOLE FAMILLE
+
+Le Conseiller école-famille (CEF) favorise la collaboration entre les familles, les enseignants et les différents intervenants dans l'environnement social, sanitaire et culturel de l'élève. Il facilite l'intégration scolaire et l'insertion sociale de l'enfant et de sa famille.
+
+L'année 2024 aura été marquée notamment par le suivi des situations familiales, ainsi que la mise en place de divers projets futurs pour les familles.
+
+### Quantité de situations
+
+Les situations sont enregistrées uniquement lorsqu'une demande significative est formulée. Les cas abordés en salle des maîtres, lors du conseil de direction ou dans d'autres contextes ne sont pas inclus. La fréquence de traitement des dossiers dépend de la demande, ainsi que de la nature et de l'intensité de chaque situation. En 2024, 92 situations - dont 31 nouvelles - ont été traitées, moins 24 dossiers qui ont été fermés, principalement en raison de l'absence de besoins de la part des familles. Il est à noter que la plupart des situations actives continueront d'être suivies en 2025, tandis que d'autres seront clôturées.
+
+### Provenance des situations
+
+Un changement a été noté par rapport à 2023 quant à l'ouverture des dossiers qui s'effectue désormais principalement directement de la part des familles. Ceci va
+
+tout à fait dans le sens de la volonté de se centrer directement sur les besoins des familles. Ce phénomène, encouragé par le conseiller école-famille, s'inscrit dans la volonté de répondre aux besoins directs des familles, dont l'arrivée est liée également au travail de proximité avec l'Établissements primaire et secondaire (EPS) de La Tour-de-Peilz et celui de réseau.
+
+### Motifs de la demande
+
+En 2024, la demande se situe toujours principalement sur le plan socio-éducatif et administratif. Il est à noter que s'ajoutent souvent à ces sollicitations d'accompagnement familial, des aspects plus administratifs. À ce propos, la demande de soutien aux familles reste très marquée. Les besoins se situent principalement dans les démarches à effectuer pour une demande au Centre vaudois d'aide à la jeunesse (CVAJ), devoirs surveillés, mentorat, les démarches pour des activités extra-scolaires, les diverses inscriptions dans les réfectoires, UAPE, demande de bourse pour un aîné au gymnase, demande de fonds extraordinaires ou autres. Ceci comporte également une exploration de la situation socio-économique de la famille pour aborder les possibilités de financement et les droits liés à leur situation. Un budget global familial est souvent réalisé afin d'avoir une vision précise de la situation et des besoins de la famille.
+
+
+
+## Intervention du CEF
+
+Cette année, les interventions du CEF ont été principalement centrées sur un soutien concret à la fonction parentale, principalement réalisé au domicile des familles. Ce soutien a inclus un accompagnement dans les démarches administratives pour les parents cherchant des solutions pratiques pour leurs enfants (activités de loisirs, camps, pause de midi, activités extra-scolaires, recherche d'intégration, cours de français, aide aux devoirs, etc.), ainsi qu'un appui aux professionnels de l'école (enseignants, doyens, psychologues, médiateurs, infirmière scolaire). De plus, plusieurs projets ont continué à être coordonnés, comme celui de *Jardin des Parents*. D'autres, décrits plus loin, vont être mis sur pied en 2025. Bien que le soutien aux enseignants ne soit pas la mission première du CEF, il n'en demeure pas moins bien réel et conséquent dans la plupart des situations.
+
+## Niveau d'intervention du CEF
+
+![img-0.jpeg](img-0.jpeg)
+
+## Travail de réseau
+
+Une part significative de l'activité du CEF repose sur le travail en réseau. En effet, le CEF est impliqué dans divers groupes au sein de l'école et dans la région de la Riviera. Il participe régulièrement au CODIR (Conseil de Direction de l'établissement), au groupe Santé PSPS, au groupe PSY-MED regroupant médiateurs et psychologues scolaires, au groupe SUPER CIF avec les enseignants des classes de français renforcé, au groupe Explor laTour, un groupe travaillant à la mise en place d'outils concrets liés aux compétences psychosociales instaurées pour les enseignants au sein de l'établissement scolaire, ainsi qu'à Jeunesse ++, qui réunit les acteurs sociaux de la Riviera, et à des réunions inter-CEF du Canton et de la région. Ces rencontres régulières permettent de clarifier l'action du CEF, de contribuer à la réflexion sur les actions préventives pour les familles et les jeunes de La Tour-de-Peilz et de faciliter l'intégration et l'accueil des nouvelles familles dans la commune. À travers ces échanges, le CEF soutient la réflexion et les stratégies visant à améliorer les services offerts et à proposer des solutions efficaces pour l'école et les familles.
+
+## Jardin des Parents
+
+Durant l'année 2024, le CEF a continué à coordonner au sein de la Commune l'activité de *Jardin des Parents*, des
+
+rendez-vous sur une thématique spécifique ou une préoccupation du moment à partager entre parents.
+
+Le Canton ayant décidé de ne plus subventionner la prestation, cette dernière ne sera pas repourvue en 2025.
+
+## Projet Vers l'École
+
+Ces dernières années, l'école note un nombre croissant d'élèves allophones en début de 1P. Cette situation a des implications importantes, tant pour l'intégration scolaire que pour l'adaptation sociale.
+
+Face à ce défi, le CEF a mis en place un projet intitulé *Vers l'École*. Ce programme a pour objectif de faciliter l'intégration des élèves allophones en leur offrant, avant leur entrée à l'école, des séances d'initiation au français et de socialisation en groupe. Ces cours sont conçus pour aider les enfants à acquérir les bases de la langue et s'adapter au fonctionnement de la vie scolaire. Ils auront lieu dans les réfectoires du collège Courbet, offrant ainsi un espace propice à l'apprentissage.
+
+Dans le cadre de ce projet, un partenariat avec l'association Français en Jeu a également été établi. Ce dernier permet d'offrir aux parents des cours de français en parallèle, leur donnant ainsi la possibilité d'améliorer leurs compétences linguistiques et de mieux accompagner leurs enfants dans leur parcours scolaire. Cette approche vise à renforcer les liens entre la famille et l'école, tout en favorisant l'intégration des élèves allophones dans leur nouvel environnement.
+
+Le projet pilote *Vers l'École* s'inscrit ainsi dans une démarche globale d'accompagnement des élèves et de leurs familles, en répondant à un besoin croissant de soutien linguistique et social.
+
+## Brochure informative aux parents
+
+Le CEF pilote, rédige et participe activement à l'élaboration d'une brochure informative, en collaboration avec certains membres du réseau de l'école, tels que la déléguée PSPS, les psychologues scolaires, ainsi que le Quart-Parent du Conseil d'établissement. Cette brochure a été conçue dans le but de fournir aux parents des informations claires et pratiques sur des sujets importants touchant la jeunesse et liés au bien-être scolaire et familial et à les aider dans leur accompagnement éducatif.
+
+L'objectif principal de cette brochure est de rassembler des ressources et des conseils sur des thématiques variées, allant de la gestion des écrans au harcèlement en passant par la gestion des émotions. En lien avec le Quart-parent et d'autres partenaires de l'école, le CEF a veillé à ce que les préoccupations des familles soient bien prises en compte dans le contenu de la brochure. Un sondage a d'ailleurs été réalisé permettant de regrouper les réelles préoccupations des parents boélands.
+
+Grâce à cette brochure, qui sera distribuée aux parents la rentrée d'août 2025, les familles disposeront d'une ressource complémentaire pour accompagner au mieux leurs enfants tout au long de leur parcours scolaire.
+
+
+
+# ACCUEIL FAMILIAL DE JOUR
+
+L'accueil en milieu familial de jour est destiné aux enfants dès 3 mois et jusqu'à la fin de la BP.
+
+Il offre un accueil dans un contexte familial où l'enfant est pris en charge par une accueillante en milieu familial (AMF) à son domicile. Conformément aux exigences de la Loi sur l'accueil de jour des enfants (LAJE), toute personne accueillant des enfants à son domicile et contre rémunération doit être autorisée et affiliée à une structure de coordination. En ce sens, les AMF sont toutes au bénéfice d'une autorisation d'accueil à durée déterminée mais renouvelable, délivrée par la Commune de La Tour-de-Peilz.
+
+L'Accueil familial de jour (AFJ) est le Secteur qui gère ce mode d'accueil. C'est une structure partenaire du Réseau LAC, réseau transitoire jusqu'au 31 décembre 2024 (pour les Communes de Chardonne, Corseaux, Corsier, Jongny et La Tour-de-Peilz) et partenaire du Réseau Vevey (pour la Commune de Vevey). Sur délégation des Communes des deux réseaux, l'AFJ est ainsi géré par la Ville de La Tour-de-Peilz. L'AFJ est composé d'un pôle de coordination et d'un pôle administratif. Les coordinatrices assurent le régime d'autorisation et de surveillance des AMF. Elles s'assurent de la qualité d'accueil, règlent les différentes modalités des placements, apportent du soutien pédagogique et se tiennent à la disposition des familles pour répondre à leurs éventuelles questions ou difficultés. Le pôle administratif s'occupe de gérer la liste d'attente, la facturation des prestations aux parents ainsi que les salaires et la gestion RH des AMF. Une réorganisation du Secteur a été effectuée durant cette année avec l'arrivée de nouvelles collaboratrices et une préparation à la séparation du réseau LAC.
+
+### Les changements clés en 2024
+
+- **Augmentation du tarif horaire** - Le tarif horaire des AMF a été augmenté de 25 ct par heure d'accueil et par enfant au 1er janvier 2024.
+- **Nouveau plan de formation** - Sur mandat de la Direction générale de l'enseignement postobligatoire (DGEP) et de l'Office de l'accueil de jour des enfants (OAJE), la Communauté d'intérêt pour l'accueil familial de jour (CIAFJ) met en place la formation obligatoire des AMF du canton de Vaud, dans le cadre de la Loi sur l'accueil de jour des enfants (LAJE). Cette formation comprend les cours d'introduction à l'activité d'AMF (à suivre dans les 18 premiers mois de la prise d'activité) et la rencontre de soutien annuelle. Afin de promouvoir la qualité de l'accueil et de favoriser une meilleure harmonisation cantonale en matière de formation, un nouveau plan de formation a été mis en place passant de 24 heures à 42 heures de formation pour le cours d'introduction et à l'ajout d'une soirée de 2h30 d'analyse de pratique pour la formation continue. La formation de base jusqu'alors dispensée sur 10 soirées s'est étoffée de deux samedis supplémentaires. Les thèmes suivants y sont
+
+traités : cours de premiers secours pédiatriques (6h), rôles et responsabilités de l'AMF (3h), préparation à l'accueil (3h), développement de l'enfant (6h), droits, besoins et intérêts de l'enfant (3h), l'enfant et la santé (6h), la prévention de la maltraitance (6h), AMF et communication (3h), valeurs et accueil familial de jour (3h), AMF et enfants : pratiques éducatives (3h). La structure de coordination propose un catalogue de formations de 6 à 8 thèmes par année scolaire avec l'obligation de s'inscrire au minimum à un cours. En 2024, les AMF ont pu participer à des formations d'analyse de pratique, de diététique, sur la gestion des écrans et sur des aspects sécuritaires pour les déplacements.
+
+- **Mise en place du concept pédagogique et des procédures** - Conformément aux directives de l'OAJE, l'accent a été mis sur le renforcement de la dimension pédagogique du travail des coordinatrices, notamment en prévoyant la mise en place d'un concept pédagogique et de procédures auprès des AMF afin de renforcer tant la qualité que la sécurité de l'accueil des enfants en milieu familial. Le concept pédagogique co-construit entre les AMF et les coordinatrices est un outil apportant du sens à la pratique tout en la questionnant. Ce document de référence pose une exigence de qualité dans l'accompagnement des enfants et sert de fil conducteur pour les AMF dans leur quotidien. Les procédures donnent des indications et des repères dans des situations complexes (par exemple : procédure en cas d'accident ou de maladie). Ces différents documents ont été présentés dans leur version finale à toutes les AMF lors d'une séance obligatoire en mai.
+- **Campagne cantonale de valorisation de l'accueil familial de jour** - La Fondation pour l'accueil de jour des enfants (FAJE) en collaboration avec l'OAJE et d'autres partenaires, a lancé en septembre, une campagne de communication visant à promouvoir l'accueil familial de jour. Cette initiative poursuit deux objectifs principaux : attirer de nouvelles personnes intéressées à devenir AMF, afin de soutenir les réseaux dans leur recrutement et sensibiliser les parents, en les informant des avantages et de la qualité de ce mode d'accueil, qui combine un cadre familial et un suivi professionnel rigoureux. Cette campagne a été diffusée sur les réseaux sociaux, sur et dans les transports publics, sur des affiches et dans certains journaux communaux. Un site de campagne relayant et complétant les informations a été créé.
+- **Fin du réseau transitoire LAC** - La dissolution du Réseau LAC au 31 décembre 2024 a amené une charge de travail importante à l'AFJ afin de préparer l'organisation avec les deux nouveaux réseaux (Réseau RéEL pour la Ville de La Tour-de-Peilz et Réseau ASICC pour les Communes du cercle de Corsier). Le fonctionnement a été présenté aux AMF domiciliées dans les communes du Réseau LAC en novembre.
+
+
+
+## Quelques chiffres
+
+- En 2024, 152 visites (planifiées ou impromptues) et entretiens individuels ont été réalisés auprès des accueillantes par les coordinatrices (171 en 2023). Ils ont pour but d'amener un soutien pédagogique aux AMF et également de vérifier que les conditions d'accueil sont respectées afin de garantir la qualité. Des entretiens avec des familles se tiennent tout au long de l'année, selon les besoins.
+- En 2024, la Municipalité a délivré 17 autorisations d'accueil provisoires et définitives (23 en 2023).
+- Au 31 décembre 2024, l'AFJ comptait 51 AMF (57 au 31 décembre 2023) dont 24 pour le Réseau LAC et 27 pour le Réseau Vevey. Durant l'année, 4 nouvelles AMF ont été engagées (3 en 2023) dont 2 pour le Réseau LAC et 1 pour le Réseau Vevey, alors que 10 AMF (16 en 2023) ont quitté l'AFJ dont 9 pour le Réseau LAC et 1 pour le Réseau Vevey.
+- Au 31 décembre 2024, 410 enfants étaient placés en AFJ (476 en 2023) dont 237 pour le Réseau LAC (294 en 2023) et 173 pour le Réseau de Vevey (182 en 2023), alors que 163 enfants (205 en 2023) étaient en attente d'une solution d'accueil en AFJ, 79 pour le Réseau LAC (108 en 2023) et 84 pour le Réseau Ville de Vevey (97 en 2023).
+- Les heures de garde assurées par les AMF en 2024 sont les suivantes: 123'857,25 heures pour le Réseau LAC et 116'771 heures pour le Réseau de Vevey, soit un total de 240'628,25 heures (287'945,50 heures pour les Réseaux en 2023).
+- Le salaire horaire brut des accueillantes est de Fr. 6,50 jusqu'à 3 ans d'activité, Fr. 6,60 de 3 à 8 ans d'activité et Fr. 6,70 dès 8 ans d'activité - (Fr. 2.-/heure, exonéré AVS et fiscalement, jusqu'à concurrence de 3'000 heures/ Fr. 6'000.- par an. Une fois ces montants dépassés, la totalité est soumise à l'AVS).
+- Depuis 2017, les tarifs horaires de facturation, en fonction des revenus des parents placeurs, varient de Fr. 2,20 à Fr. 9,30. Ce tarif reste similaire pour les deux Réseaux.
+
+## SPORT ET JEUNESSE
+
+### Activités générales
+
+Le Secteur sport et jeunesse (S&J) est le lien direct entre les autorités et les bénéficiaires en matière de politique du sport et de la jeunesse. S&J est actif dans les domaines de la promotion de la santé globale, de la prévention, des aspects culturels et de loisir pour la jeunesse, de l'orientation, de la médiation et de l'intégration sociale. Il traite les questions concernant le sport pour tous et gère l'utilisation des infrastructures sportives communales.
+
+Ce Secteur travaille en collaboration étroite avec ses homologues de la Riviera, les Écoles, l'Association sécurité Riviera (ASR) et les sociétés locales, le Service des affaires intercommunales (SAI), les organes et partenaires cantonaux du sport et de la jeunesse.
+
+S&J est responsable de la gestion du budget alloué au sport et à la jeunesse. Le Secteur est également responsable de la promotion de ses activités et manifestations, mais aussi de l'entier de sa gestion administrative et financière. Il gère :
+
+- la coordination intercommunale au niveau du sport et de la jeunesse ;
+- la promotion de la santé globale par la prévention et l'encouragement à exercer une activité physique ;
+- l'organisation de manifestations socio-culturelles avec et pour les jeunes ;
+- les actions de prévention spécifiques à la jeunesse ;
+- la création et développement d'activités diverses en faveur des jeunes ;
+- l'organisation et encadrement de camps (hiver/été) et d'activités périscolaires ;
+
+- la location du bus et remorque (planning, confirmation et facturation) ;
+- le suivi des demandes de subventions (évaluation, confirmation par courrier).
+
+### Tâches et activités répondant aux demandes des jeunes
+
+- Demandes de soutiens (financiers, logistiques ou d'infrastructure) pour divers projets dans les domaines de la musique, du théâtre, des loisirs et du sport.
+- Mise à disposition de matériel pour des organisations et manifestations des clubs et sociétés locales installation et/ou prêt.
+- Groupe scout Lac-Bleu : contacts réguliers, soutien logistique aux manifestations avec présence et contacts avec les jeunes qui représentent également une source de bénévoles partenaires de S&J.
+
+### Soutiens financiers
+
+Les sociétés et associations sportives ou culturelles jouent un rôle essentiel sur le plan de l'insertion sociale des jeunes. Elles font partie du dispositif préventif. Le Secteur favorise et soutient les efforts des clubs et sociétés, notamment dans l'organisation des actions et manifestations.
+
+### Affaires sportives
+
+Au bénéfice d'un diplôme de l'Office fédéral du sport de Macolin, le Secteur assume depuis 2014 la coordination des affaires sportives de la Commune et l'encouragement à l'activité physique et au sport dans l'intérêt des Boélandes et Boélands.
+
+
+
+- Trait d'union entre les Services communaux et les associations (traitement des demandes courantes des sociétés et clubs).
+- Traitements des subventions du Fonds sportif intercommunal : liens avec les sociétés et clubs, contrôle des données, lien avec le SAI.
+- Gestion des infrastructures sportives communales (plannings, mise à disposition, facturation, etc.).
+- Soutien et développement d'événements sportifs dans le cadre du sport pour tous.
+
+Le délégué S&J et le chef de Service sont membres de l'Association suisse des services des sports, section Suisse romande et Tessin (ASSS). Des séances de travail avec les responsables et représentants des clubs sportifs sont tenues pour apporter un soutien en fonction des besoins. Le Secteur est représenté aux séances de travail du SAI concernant les affaires sportives en général, et au Fonds intercommunal de soutien aux sociétés sportives formatrices de jeunes.
+
+### S&J propose des offres d'activités physiques gratuites pour la population, comme :
+
+#### Urban training :
+
+- cours d'Urban training 2 fois par semaine de mai à septembre, pour un total de 36 cours pouvant accueillir jusqu'à 25 personnes ;
+- 5 cours de type zumba - yoga - pilates pouvant accueillir jusqu'à 60 personnes ;
+- 2 Sunday training dans une salle de gym avec 3 cours.
+
+#### « Expérience coaching » :
+
+- 38 cours d'une heure à l'intention des seniors (+ de 65 ans) qui accueillent entre 15 et 20 personnes par séance dans la salle de gym des Marronniers les mercredis après-midi.
+
+### Travail social de proximité (TSP)
+
+La travailleuse sociale de proximité est engagée à 80 % au sein de la Commune et rattachée au Secteur S&J. Son mandat auprès de la jeunesse porte sur un soutien aux jeunes de 12 à 25 ans, selon le concept de libre adhésion. L'objectif de l'accompagnement poursuit, selon les situations, une visée d'amélioration ou de rétablissement des liens des jeunes avec leur famille, leurs pairs ou encore les institutions. En amont de l'accompagnement, la création du lien est au centre de son intervention.
+
+### Collaboration avec l'animatrice jeunesse
+
+La TSP participe à l'organisation et au développement d'activités et de manifestations avec et en faveur de la jeunesse, en collaboration avec l'animatrice jeunesse et l'ensemble du Secteur. En 2024, pour optimiser sa
+
+visibilité, créer du lien et se placer en tant que personne-ressource auprès des jeunes, la TSP a notamment participé à :
+
+- 7 JAM session : espace de création musicale pour les 12-25 ans. Lieu privilégié de nombreux échanges informels et de création du lien de confiance ;
+- 8 répétitions pour la Fête de la musique avec des jeunes de 14 à 18 ans. L'occasion de travailler sur l'estime de soi, la persévérance, la gestion du stress et la valorisation ;
+- 5 soirées d'accueil libre pour les 12-17 ans : un lieu de rencontres pour les jeunes et également pour la TSP qui durant ces soirées peut effectuer des entretiens informels de qualité ;
+- 5 séances de permanence administrative : les séances de permanence administrative n'ont pas rencontré de succès. La TSP a cependant accompagné des jeunes sur cet axe administratif à d'autres occasions, durant des entretiens individuels ;
+- 15 journées d'Open Sport : ouverture de salle de gym accueillant des enfants et des jeunes de 5 à 25 ans. La création du lien autour du sport est un bon moyen d'entrer en contact avec d'autres jeunes que celles et ceux qui participent aux autres activités mentionnées ;
+- 4 jours de manifestation @août : manifestation tout public accueillant un grand nombre d'enfants, de jeunes et de familles ;
+- 1 Fête de la musique : durant cette manifestation, une partie de la journée a été consacrée à l'accompagnement de jeunes qui participaient à la scène découverte ;
+- 10 séances du Conseil des jeunes : accompagnement des membres et du Comité du Conseil des jeunes, pour la création et la mise en place d'un Conseil des jeunes boéland.
+
+La participation de la TSP aux activités du Secteur lui permet de créer du lien, mais également d'observer le rapport des jeunes avec leur environnement, d'étudier et d'agir sur les dynamiques, ainsi que d'identifier des problématiques individuelles et collectives. Chaque activité est un lieu privilégié d'échanges informels qui permettent de répondre directement à certains besoins exprimés ou supposés et qui parfois débouchent sur un suivi individuel ou des propositions de développement de l'offre jeunesse.
+
+### Suivis individuels
+
+Tout au long de l'année, la TSP répond à des demandes d'entretiens individuels de jeunes de moins de 25 ans. Ces entretiens ont lieu, selon les demandes et la sensibilité des jeunes qui les sollicitent, dans l'espace public ou dans une salle de la rue des Terreaux 5. Les thématiques abordées lors de ces entretiens sont : l'orientation et les démarches professionnelles, les relations familiales et les relations avec les pairs, la santé physique
+
+
+
+et/ou psychique, l'isolement et le manque de projection, la consommation de substances, la gestion du budget et l'endettement, la recherche de logement et autres démarches administratives de base.
+
+### Présence dans l'espace public
+
+En parallèle des différentes activités auxquelles participent la TSP, elle privilégie des moments d'approche des jeunes dans l'espace public. Elle va à la rencontre des jeunes dans leur environnement. Cette approche est faite de façon régulière à différents moments de la journée et de la soirée et dans différents lieux occupés par les jeunes. Certains événements comme la Fête de la jeunesse et les Silent party sont des occasions propices à ce travail de proximité. Une présence régulière auprès du public-cible permet d'installer une relation de confiance.
+
+### Prévention
+
+La TSP prend part à un dispositif intercommunal de prévention par les pairs, l'action Prév'Rives en collaboration avec les TSP de la Commune de Vevey. Il s'agit tant de participer aux analyses et réflexions visant le développement du dispositif en fonction des besoins identifiés sur le terrain que d'agir directement sur le terrain en soutien aux jeunes pairs qui sont les principaux vecteurs du message de prévention.
+
+A côté de cette action, la TSP lors des interventions dans l'espace public ou lors de diverses activités, profite du lien de confiance privilégié qu'elle entretient avec les jeunes pour délivrer des messages de prévention ciblés.
+
+### Travail de réseau
+
+Le travail de la TSP consiste également à étendre et consolider son réseau professionnel, au travers d'une participation active à différentes rencontres : plateforme vaudoise des TSP, plateforme latine des TSHM, plateforme TSHM Suisse-romande, plateforme jeunesse ++, plateforme intercentre, rencontres PICSAJ, séances des référents de Conseils des jeunes, unité PSPS et diverses rencontres spécifiques avec des acteurs sociaux régionaux. Le maintien du lien avec un réseau solide est un outil indispensable pour la TSP qui peut être amenée à solliciter un réseau spécialisé ou orienter un ou une jeune vers une institution spécialisée.
+
+### Écoles
+
+Le Secteur sport et jeunesse et les Écoles ont développé au fil des années un partenariat essentiel afin de mieux comprendre et suivre l'évolution des jeunes. L'école est en effet un cadre d'observation et d'intervention essentiel pour tisser et entretenir des contacts privilégiés avec les jeunes, y compris ceux qui échappent à toutes les organisations et prestations mises en place par le Secteur. C'est
+
+donc dans cet esprit que S&J s'investit et s'engage dans les organisations suivantes :
+
+- camps de ski de fond aux Rasses ;
+- camps de ski/snowboard à Ovronnaz;
+- accompagnement et encadrement lors de diverses sorties culturelles ou sportives, et de courses d'école ;
+- bal des 9e et bal des 11e (soutien logistique) ;
+- cross des écoles (soutien logistique) ;
+- échanges informels réguliers avec les enseignants et les doyens.
+
+### Unité PSPS
+
+Le Secteur sport & jeunesse, par l'animatrice jeunesse et la TSP, est membre de l'équipe de promotion de la santé et de prévention en milieu scolaire. L'équipe élargie (psychologue, infirmière, doyen, enseignants, médiateurs, animatrice, TSP) se rencontrent 3 fois par année.
+
+### Animation jeunesse
+
+Le travail de l'animatrice jeunesse consiste à accompagner et à encadrer les enfants et les jeunes âgés entre 5 et 25 ans en leur proposant des activités variées et adaptées à leurs besoins. Son objectif est de créer des moments où les enfants et les jeunes peuvent se retrouver, s'amuser et s'épanouir. L'animation demande une pratique réflexive constante pour trouver les meilleures solutions et offrir des activités dans un cadre le plus convivial et sécurisant possible.
+
+Les activités mises en place se répartissent entre des propositions payantes et des animations gratuites. Parmi ces dernières, des initiatives comme les Open Sport ou les accueils libres sont particulièrement importantes car elles permettent de favoriser l'inclusion en rendant les activités accessibles au plus grand nombre. Pour ces projets gratuits, l'animatrice bénéficie du soutien de la TSP qui peut, dans un premier temps, intervenir de manière informelle auprès d'un ou d'une jeune pour ensuite axer son travail sur un accompagnement individuel.
+
+L'animatrice jeunesse s'occupe également du recrutement et de la gestion des monitrices et moniteurs qui aident à encadrer les différentes activités et de la coordination des activités avec les prestataires externes. En parallèle, elle s'occupe de la publicité ainsi que de la gestion des réseaux sociaux afin de promouvoir les animations proposées. Cette visibilité permet non seulement de maintenir un lien avec les jeunes et les familles, mais également d'informer sur les projets en cours, voire encourager à y participer.
+
+Les activités sont adaptées en fonction des espaces disponibles, ce qui demande de la créativité et de la flexibilité.
+
+### Activités et animations organisées en 2024
+
+**Ateliers Terreaux 5** · En 2024, le Secteur sport et jeunesse a mis en place 39 ateliers pour des enfants et jeunes de 5 à 18 ans à la rue des Terreaux 5. Le nombre d'enfants et
+
+
+
+de jeunes, ainsi que le taux d'encadrement, sont variables selon les prestations.
+
+- 6 ateliers bricolage « On fait les artistes » avec une prestataire externe (dès 5 ans, sur inscription et payant, 10 enfants par atelier, bricolages de saison avec goûter inclus)
+- 8 ateliers « cuisine et repas » avec un prestataire externe et l'animatrice jeunesse, apprentissage des bases de la cuisine (10 enfants par atelier de 8 à 12 ans, sur inscription et payant)
+- 4 ateliers « BD & manga » avec une jeune prestataire externe et l'animatrice jeunesse, en janvier et en mai (8 jeunes de 9 à 16 ans par atelier, sur inscription et payant)
+- 1 atelier « biscuits de Noël » avec l'animatrice jeunesse, l'assistante administrative de S&J, un aide et 2 bénévoles (15 enfants dès 6 ans, gratuit sur inscription)
+- 7 Jam Session avec l'animatrice jeunesse et la TSP : espace de création musicale avec possibilité de décrocher une prestation live sur la scène découverte de la Fête de la musique 2024 (environ une dizaine de jeunes de 12 à 18 ans par atelier, gratuit et sans inscription)
+- Préparation scène découverte : 8 soirs de répétitions pour la Fête de la musique entre fin mai et mi-juin (8 jeunes de 14 à 18 ans, gratuit et sans inscription).
+
+**Accueil libre en soirée pour les jeunes** · L'accueil libre repose sur un concept de libre adhésion. Les jeunes fréquentent le lieu de leur plein gré et peuvent, pendant les heures d'ouverture, accéder à l'accueil libre, participer aux activités de leur choix et repartir selon leurs envies.
+
+L'animatrice jeunesse ainsi que la TSP ont été présentes durant les cinq soirées d'accueil libre. Ces accueils sont gratuits et sans inscription. 4 soirées ont eu lieu entre février et mai dans une salle du collège Charlemagne de 18h à 22h et une soirée en novembre dans le local de musique de Terreaux 5. Au niveau de la participation, on compte entre 20 et 40 jeunes de 12 à 17 ans par soirée. Le début des travaux de la Maison Charlemagne implique que S&J n'a désormais plus d'espace suffisamment grand pour accueillir les jeunes sous forme d'accueil libre.
+
+**Permanence administrative** · Le Secteur sport et jeunesse a ouvert une prestation de soutien administratif pour les jeunes de 16 à 25 ans (déclaration d'impôts, assurances, budget, logement, etc.), sans inscription et sans frais. Cinq séances de 2 heures ont été planifiées à différents moments de la journée et du soir. La participation fut très faible.
+
+**Open Sport** · Le concept des Open Sport de La Tour-de-Peilz consiste en l'ouverture de la salle de gym des Mousquetaires pour les enfants et les jeunes entre 5 et 25 ans. La plupart des Open Sport, à l'exception des 2 premières éditions du dimanche, sont en pratique libre, avec un encadrement géré par S&J. La prestation est gratuite et sans inscription, à l'exception de l'encadrement de midi durant
+
+les vacances d'été qui demande une inscription (20 enfants par jour).
+
+- 5 Open Sport d'hiver du samedi (pour les 5-9 ans et les 10-25 ans) - Encadrement par l'animatrice jeunesse et la TSP et 1 moniteur. Une vingtaine d'enfants et de jeunes par tranches d'âge.
+- 4 Open Sport hiver du dimanche (de 12 à 25 ans) - Les deux premières éditions respectaient le concept de sports spécifiques avec une heure football et une heure basket pour les jeunes de 15 à 25 ans. Très faible taux de fréquentation sur les 2 dates de sports spécifiques en novembre, évolution de la prestation vers un Open Sport en pratique libre pour une tranche d'âge plus élargie (entre 12 et 25 ans). Encadrement : 1 responsable d'Open Sport + 1 monitrice.
+- 5 journées Open Sport d'été (de 5 à 10 ans) - Encadrement par l'animatrice jeunesse et la TSP + 2 moniteurs. Participation, une trentaine d'enfants par jour. Accueil encadré de midi.
+- 5 journées Open Sport d'automne (pour les 5-9 ans et 10-25 ans) - Encadrement par l'animatrice jeunesse et la TSP + 1 moniteur. Participation : une cinquantaine d'enfants le matin et une trentaine de jeunes l'après-midi.
+
+**Atelier théâtre** · Du 8 au 12 avril, S&J a organisé 5 journées d'atelier théâtre à la salle des Remparts pour les enfants entre 8 et 14 ans. Cet atelier a été réalisé en collaboration avec l'association 6e acte, une association de théâtre boélande. Le dernier jour de l'atelier, les enfants ont fait une représentation pour leurs familles. Encadrement par deux animatrices de l'association, accompagnées par l'animatrice jeunesse, temps de repas de midi inclus. Participation : 14 enfants, prestation payante.
+
+**Projet d'embellissement des bornes électriques communales** · Le projet d'embellissement des bornes électriques communales, amorcé lors des accueils d'été 2022 sur 3 bornes avec une vingtaine d'enfants et Urban Art Academy, a été mis en pause en cours d'année. Durant ce laps de temps, S&J a pris contact et eu des échanges concrets sur des réalisations de bornes avec des graffeuses et graffeurs. Le projet est maintenant dans les mains des Affaires culturelles pour une éventuelle suite à donner.
+
+**Camps de jour en été (de 5 à 10 ans)** · 3 semaines de camps à la semaine en journée, les enfants s'inscrivent pour 1 semaine et rentrent chez eux le soir. Diverses activités du 1er au 5 juillet, du 8 juillet au 12 juillet, du 29 au 31 juillet et du 5 au 9 août 2024. 20 enfants par semaine, payant sur inscription. Encadrement : une responsable de camp + 2 moniteurs.
+
+**Camp d'automne à la semaine (de 8 à 12 ans)** · Après le succès de l'édition précédente, S&J a renouvelé son offre de camp à la semaine en résidentiel. Payant, sur
+
+
+
+inscription, du 21 au 25 octobre 2024 pour 15 enfants. Il s'agit d'un camp Nature à La Comballaz avec diverses activités, telles que feux, randonnées, arts ancestraux, bal, histoires à lire, à écrire, à raconter et à écouter. Encadrement : 1 responsable, 1 cuisinier, 1 moniteur.
+
+**Monitorat** · 5 jeunes entre 18 et 22 ans ont été engagés par la Commune pour l'encadrement durant les prestations d'été. S&J offre la formation FORJE - formations pour les moniteurs et les responsables d'activités extrascolaires répondant aux exigences des Directives cantonales pour les camps et les colonies de vacances de plus de 7 jours sur le territoire vaudois - permettant de garantir un encadrement adapté pour ses activités d'été.
+
+**@août** · La 3e édition de @août a eu lieu du 12 au 15 août dans la cour des Marronniers. Cette animation tout public, gratuite, orientée principalement enfants et familles, est un projet intercommunal regroupant Corsier, Vevey, Châtel-st-Denis, Blonay - Saint-Légier et La Tour-de-Peilz. Des activités ludiques, artistiques et créatives sont au menu de quatre après-midis gratuits de 14h30 à 19h, sous l'égide des équipes d'animation des 5 Communes. Chaque jour, une prestation externe anime une partie de l'après-midi (en 2024, participation de la fédération suisse de footfreestyle, l'école de danse Neptune, l'association G.R.E.S-samba et le Théâtre flamboyant). L'animation est gérée par l'animatrice jeunesse et la TSP + 2 moniteurs. L'ABCDE participe de 14h30 à 16h chaque jour, proposant un coin lecture et de nombreux jeux, avec la présence de 2 bénévoles. Cet évènement a attiré environ 150 personnes par jour sur le site de La Tour-de-Peilz.
+
+**Fête de la musique** · La 16e édition de la Fête de la musique à La Tour-de-Peilz a eu lieu du vendredi 21 au dimanche 23 juin. S&J, en collaboration avec les Affaires culturelles, a programmé 16 prestations musicales pour 128 artistes. La manifestation s'est déroulée dans plusieurs lieux : au Temple, à La Becque, à l'Imparfait, à la Maladaire, au Port et sur la scène Charlemagne. Pour cette occasion, S&J a coaché et accompagné pour la scène découverte un collectif de 8 jeunes talents de moins de 20 ans, pour la plupart autodidactes. Le Secteur a également fait le lien et accompagné les ateliers rock de Burier et du Conservatoire de Montreux. La restauration de la manifestation a été assurée par 2 food trucks indépendants et le stand boissons et pâtisseries par une classe de l'école secondaire.
+
+**Fête de la jeunesse** · La manifestation s'est déroulée du vendredi 28 au dimanche 30 juin avec un programme festif comprenant des carrousels, une cantine, diverses prestations musicales live. Suite à l'annulation des festivités et du cortège des écoles imposée par le Canton le samedi
+
+29 juin, la fête foraine a avancé son heure d'ouverture le dimanche. Cette annulation a eu pour conséquence une baisse du montant total des recettes en faveur du Fonds des colonies de vacances qui s'est limité à Fr. 3'742.27.
+
+**Afterworks** · S&J a renouvelé l'expérience pour une 5e année des apéros les jeudis 22 et 29 août 2024. Suite aux travaux dans la cour Charlemagne, l'afterwork a été déplacé sur l'esplanade de la salle des Remparts. Une soirée plus intimiste avec une chanteuse folk accompagnée d'un guitariste + une soirée karaoké ouverte à toute la famille ont été mis sur pied. Ces soirées ont permis :
+
+- de proposer un espace culturel et convivial à l'intention de la population boëlande entre 5 et 95 ans ;
+- d'offrir aux sociétés locales la tenue d'un stand de nourriture et de boissons (Inline Hockey Club et Gym La Tour sur cette édition) ;
+- d'employer deux jeunes pour aider.
+
+**Coop Andiamo : la Suisse bouge** · Cette manifestation gratuite a permis aux quelque 5'000 participants de pratiquer des activités sportives à leur rythme ou simplement de passer un moment de convivialité et de partage. Les sociétés locales et régionales ont répondu présent à cette 6e édition qui a eu lieu le 29 septembre.
+
+**Noël Boëland** · Cette année, compte tenu des travaux dans la cour Charlemagne, l'espace de Noël a été imaginé sur la place du Temple du samedi 30 novembre 2024 au 6 janvier 2025. S&J s'est occupé du décor de la cabane du Père Noël, de la cabane du petit village de Noël ainsi que de la mise en place de l'apéro offert, de l'atelier biscuits, des contes de Noël et de la chantée au Temple. Le programme pour la journée phare du samedi 14 décembre a été le suivant : chantée au Temple, contes, partage de thé chaud, vin chaud, soupe à la courge et polenta, atelier biscuits pour les enfants et l'incontournable visite du Père Noël. La chantée de Noël a réuni pour la 2e fois trois ensembles : La Cantourelle, le chœur de l'Escale et l'Union chorale.
+
+## Prestations externes soutenues par S&J
+
+En 2024, S&J a renouvelé l'offre de 2023 des activités d'été pour les enfants en proposant :
+
+- 8 semaines de stages de cirque pour les 4-12 ans entre avril et octobre dispensées par Snick le Clown (près de 120 enfants) ;
+- 1 semaine de stage de théâtre du 5 au 9 août pour les 8-14 ans dispensée par l'association boëlande 6e acte (10 enfants).
+
+## Action de prévention
+
+« Prév'Rives », une action de prévention par les pairs durant l'été sur les rives du lac entre La Tour-de-Peilz et Vevey en partenariat avec l'équipe des travailleurs sociaux
+
+
+
+hors murs (TSHM) de Vevey pour la 5$^{e}$ année consécutive. L'action s'est déroulée du 25 mai au 29 juin et a bénéficié du soutien financier de la Commission prévention Riviera. À noter qu'il s'agit de prévention primaire et non de réduction des risques qui est du ressort de Police Riviera. La mission se déroule entre 18h et 22h. Toutes les missions, planifiées les jeudis et vendredis soirs, ont été assurées par un trio de pairs et une ou un professionnel.
+
+Cette année la participation à ces missions a pris un nouveau tournant pour l'animatrice jeunesse et la TSP. En effet, dans une démarche de renouvellement, elles ont souhaité modifier la formule de Prév Rives avec l'élaboration d'un projet axé sur le texte et la musique en accompagnant trois jeunes intéressés par le monde musical. En 2024, ces rencontres ont représenté près de 20 heures auxquelles s'ajoutent 30 heures pour les séances de travail - réflexions autour du projet - contact des jeunes - séance d'information - gestion du planning des pairs - diverses démarches d'aides et préparations préalables, de discussions, préparation d'une bande son - remaniement du projet par l'envie des jeunes.
+
+## Conseil des jeunes
+
+Le Secteur S&J a lancé un appel aux jeunes en avril 2024 pour participer à une soirée découverte du concept de Conseil des jeunes. Suite à cette première rencontre, une dizaine de jeunes (moyenne d'âge 16 ans) a souhaité continuer l'aventure. La plupart des rencontres suivantes des membres et du futur Comité ont été soutenues par la présence du Délégué jeunesse, de l'animatrice jeunesse et de la TSP. Les jeunes impliqués ont également pu bénéficier de l'expérience d'un membre de la Fédération suisse des parlements des jeunes (FSPJ), ainsi que d'une membre du Centre vaudois d'aide à la jeunesse. Les premières séances ont principalement été consacrées à la création d'un Comité et à la rédaction du règlement et son annexe, documents validés par la Municipalité en novembre.
+
+## École de musique
+
+Depuis 2013, l'école de musique communale est entrée en collaboration avec l'école cantonale « multisite » afin d'être à jour face aux exigences de la Fondation pour l'enseignement de la musique (FEM).
+
+En effet, cette dernière a édité un cahier des charges important pour la reconnaissance de l'enseignement musical dans le canton de Vaud et une collaboration était indispensable afin de pouvoir répondre à celui-ci.
+
+Dès lors, la directrice engagée s'occupe de la promotion, de la mise en place des cours, de la gestion du matériel et du budget, de la mise en place de portes ouvertes, etc. Elle assure également le lien entre l'école, la Commune et le multisite pour toutes les exigences autres liées à cette collaboration (différentes réunions et assemblées durant l'année scolaire).
+
+L'école compte, depuis août 2024, 26 élèves qui suivent les cours entre la rue des Terreaux 5, les collèges des Mousquetaires et des Marronniers. Les élèves - 11 suivent les cours d'initiation musicale et 15 des cours individuels d'instrument - sont répartis selon leur discipline (initiation musicale, saxophone, flûte traversière, percussion-batterie).
+
+## École de natation
+
+Depuis 2016, l'école privée de natation fondée en 1997 est communale. L'encadrement est assuré par un responsable de l'école de natation. Les cours sont dispensés par 4 à 5 moniteurs auxiliaires, validés annuellement par la Municipalité.
+
+L'école organise 3 sessions par année de 10 semaines, 5 plages par semaine de 1 heure de cours pouvant accueillir 10 à 30 enfants en fonction des plages, pour un total de 120 enfants par semaine.
+
+
+
+# AFFAIRES CULTURELLES
+
+L'action des Affaires culturelles se fonde sur une stratégie, actualisée en début de législature, ayant pour objectif de développer l'offre culturelle à La Tour-de-Peilz afin de renforcer son attractivité et son rayonnement régional. La politique culturelle vise également à promouvoir la diversité culturelle, favoriser la création artistique, l'accès à la culture pour tous les publics, et à contribuer à la cohésion sociale en renforçant le sentiment d'appartenance à une même collectivité.
+
+## Manifestations organisées
+
+### Fête des Voisins
+
+La traditionnelle Fête des Voisins a eu lieu le vendredi 31 mai. Avec 49 inscriptions, l'évènement est toujours très apprécié par la population.
+
+### Silent Party
+
+La 6e édition de la Silent Party, qui a eu lieu le samedi 8 juin, a réuni près de 2'000 personnes. En raison de la météo incertaine, la manifestation s'est déroulée dans le préau des Mousquetaires. Pendant cette soirée, 1'400 casques ont été prêtés. Une offre de petite restauration, en plus du bar, a été mise en place. Cette année l'évènement a été coordonné par Move the Sound en collaboration avec les Affaires culturelles.
+
+### Scène Charlemagne
+
+Les 6, 13 et 20 juillet · La cour Charlemagne, transformée pour l'occasion en scène de spectacle en plein air avec le concours des services communaux, a accueilli 3 animations culturelles. Cette offre tout public, avec un accent particulier mis sur les familles, proposait un spectacle de cirque et mime pour enfants avec la compagnie du Théâtre Onirique (Le Locle), du théâtre d'improvisation musicale avec La Comédie Musicale Improvisée (Montagny-près-Yverdon) et un spectacle de clown et contes avec l'artiste Stéphanie Jornod (Carouge). Des ateliers participatifs et des animations créatives étaient proposés en fin de représentation. Une glace était également offerte à chaque enfant. Avec une diffusion de la communication englobant La Tour-de-Peilz et Vevey, plus de 450 personnes ont pris part à ces animations estivales.
+
+![img-0.jpeg](img-0.jpeg)
+
+### Cinéma en plein air
+
+Du 14 au 17 août · Pour cette 8e édition gratuite sur la place des Anciens-Fossés, le Cinéma en plein air offrait quatre soirées à thème et un total de 750 personnes ont profité des projections. La météo était mitigée, avec des averses récurrentes avant les projections, ce qui a démotivé certaines personnes à se déplacer. Imaginée en partenariat avec Cinérive, la programmation proposait :
+
+- la projection du film pour enfants « Ernest et Célestine : Le voyage en Charabie ». 200 personnes étaient présentes lors de cette soirée, avec une animation du groupe 6rinx.
+- la projection du film documentaire « Lynx » avec la présence du réalisateur Claude Moreillon. Fréquentation : 150 personnes.
+- la projection du film « Les petites victoires » avec une animation proposée par l'association « lire et écrire ». Fréquentation : 250 personnes.
+- la projection du film « Last dance », avec une animation de l'école de danse Neptune en première partie. Fréquentation : 125 personnes.
+
+Le bar a été coordonné et géré par la société locale du Karaté-Club.
+
+### Festival des Jeux
+
+![img-1.jpeg](img-1.jpeg)
+
+La première édition du Festival des Jeux a eu lieu du 6 au 8 septembre. Ce festival, organisé par les Affaires culturelles en collaboration avec le Musée suisse du jeu et l'ABCDE a attiré plus de 8'000 personnes, malgré une météo capricieuse.
+
+Pendant 3 jours, La Tour-de-Peilz a vibré au rythme du jeu, avec une programmation riche et variée : jeux vidéo suisses, salle d'arcade, jeux de société contemporains, laser game, jeux classiques, play-conférences ou encore jeux d'extérieur. Le public a pu explorer toutes les facettes du monde ludique.
+
+Le coup d'envoi du festival a été marqué par une magnifique soirée de lancement, attirant près de 1'000 personnes au Château pour découvrir la nouvelle exposition
+
+
+
+permanente du Musée. Dès le samedi 7 septembre, les festivaliers ont investi les différents espaces de jeu disséminés dans tout le centre-ville, transformant chaque coin de rue en un lieu dédié au jeu et à la célébration des cultures ludiques.
+
+### AuTour de l'Avent
+
+1er, 8, 14, 18 et 22 décembre · AuTour de l'Avent proposait cinq événements organisés en partenariat avec des lieux culturels boélands, afin d'offrir à la population des animations ponctuées d'un moment convivial autour d'un apéritif ou d'un goûter. Au Musée suisse du jeu, les enfants ont assisté à un spectacle de cirque avec l'école Coquino et participé à un atelier de jeux immersifs proposé par l'association LiberTacréa. Le Domaine de La Doges accueillait une performance théâtrale et musicale « A Dream is a Wish » avec Regina Meyer et Adalberto Maria Riva. Un concert pour les familles à l'orgue « Plume l'ours polaire » s'est déroulé au Temple avec Anne-Gaëlle Chanon et Isabelle Marchand. À l'ABCDE, les familles ont pu écouter un conte « la soupe au caillou » joué par Claire-Anne Magnollay, puis déguster une soupe. Le Théâtre du Château clôturait la manifestation par un spectacle d'improvisation pour les enfants « Héros et Héroïnes » avec Impro Suisse. Ces événements ont rassemblé près de 480 personnes.
+
+### Manifestations soutenues
+
+En plus d'une aide financière, les manifestations listées ci-dessous bénéficient d'un soutien en matière de coordination, ainsi que d'un appui logistique du Service des domaines et bâtiments ou du Secteur espaces publics selon le format des manifestations :
+
+- Festival Riviera Classic+ (1er au 4 février)
+- Le Festival de la Tour (23 avril au 12 mai)
+- Performance de danse de la compagnie du marchepieds (25-26 mai)
+- La Tour en chœurs (14-16 juin)
+- Festival « ça joue ! » (21 juin)
+- Riviera Tango Fiesta (17-21 juillet)
+- La « fête à la saucisse » (23-25 août)
+- Nox Orae (29-31 août)
+- Afterseason summer edition (6-7 septembre)
+- Septembre musical (9-10 septembre)
+- Cie les ar Tpenteurs (11-16 septembre)
+- Festival Images (7-29 septembre) avec des expositions de la biennale présente au quai Emile-Louis Roussy, au Verger du haut et à La Becque | Résidence d'artistes
+- Le festival de théâtre la tour en scène (16-19 octobre)
+- Halloween Silent Party (26 octobre)
+- ImprOvisible festival (30 octobre au 3 novembre)
+- Exposition japonaise (17-23 novembre) au Musée suisse du jeu, curatée par Yatchi, avec des œuvres d'artistes japonais
+
+L'année 2024 a également été marquée par les événements suivants :
+
+- Animations par Vevey Alive dans le cadre de la Dolce Riviera avec des concerts itinérants durant l'été
+- Saisons de spectacles culturels de l'Association Tour à Tour
+- Concerts au Temple par l'association Clef de Voûte
+- « Open Studios » à La Becque | Résidence d'artistes
+
+### Affichage culturel
+
+Le prestataire d'affichage SGA a été remplacé en juillet par la société Horizon, basée en Valais. Le réseau d'affichage culturel est par conséquent passé de 8 à 14 surfaces F4 réparties dans la ville (2 réseaux de 7 surfaces). Ce changement a impliqué un travail de réorganisation important, en vue de l'attribution des espaces d'affichages pour l'année à venir.
+
+
+
+# COMMISSION CULTURELLE
+
+La Commission culturelle de La Tour-de-Peilz est nommée par la Municipalité dans le but d'établir un lien entre les autorités politiques et le monde culturel. Elle est composée de représentantes et représentants de tous les groupes politiques du Conseil communal, de responsables des principales institutions culturelles boélandes, d'actrices et d'acteurs culturels indépendants, sous la présidence du Municipal en charge des Affaires culturelles. Son effectif a été renouvelé dans le cadre de la nouvelle législature 2021-2026.
+
+Dotée depuis 2020 d'un budget de Fr. 50'000.-, la Commission octroie des subventions jusqu'à Fr. 5'000.- par projet lors de ses quatre séances annuelles. Elle soutient les initiatives de créatrices et créateurs basés à La Tour-de-Peilz ou d'événements se déroulant sur le territoire communal.
+
+### Subsides accordés
+
+Dans le courant de l'année 2024, la Commission culturelle a soutenu dix projets, le montant total des subventions s'élève à Fr. 28'000.-, sur un montant total demandé de Fr. 32'500.-.
+
+- L'association des amis de Christine Sefolosha pour la publication du livre *Aurora* ;
+- L'ensemble 6Rinx pour la création du spectacle *Créations d'émotions* ;
+- L'association production de quartier pour la création du documentaire *Le goût des choses* ;
+
+- L'association de la Fête à la saucisse pour l'organisation de sa manifestation ;
+- L'association Museomix ch pour la création d'un événement de méditation culturelle ;
+- Les éditions Thièle pour le projet de publication de *Vevey d'autrefois* ;
+- L'association En piste pour le projet d'album solo de Giorgio Rhino ;
+- L'association Amelive pour le projet d'exposition ambulante ;
+- L'association Canta Riviera pour le concert *A little jazz time* ;
+- Les éditions infolio pour le projet de publication de *Charlie Chaplin à Saint-Moritz*, de Pierre Smolik.
+
+# JUMELAGE AVEC ORNANS
+
+Le 20 mai, deux équipes du Club sportif de La Tour-de-Peilz se sont rendues à Ornans pour participer au tournoi international des petits crampons organisés par la ville jumelée. L'équipe des junior U11 a remporté le tournoi dans sa catégorie. La Commune a subventionné le transport des deux équipes.
+
+Au Marché de Noël d'Ornans, du 29 novembre au 1er décembre, le stand boéland coordonné par les Affaires culturelles était représenté par un artisan boéland créant ses propres savons. L'artisan Eric Champier a représenté notre Commune tout en proposant ses produits. En plus du stand, notre syndique, Mme Sandra Pasquier, a fait le déplacement jusqu'à Ornans et les Affaires culturelles se sont rendues sur place le samedi pour un repas en présence des autorités ornanaises.
+
+
+
+# ÉTABLISSEMENT PRIMAIRE ET SECONDAIRE
+
+## Tableaux des effectifs
+
+|  Premier cycle primaire | 31.12.24 | Premier cycle primaire | 31.12.23  |
+| --- | --- | --- | --- |
+|  1-2P parcours 1 | 103 | 1-2P parcours 1 | 112  |
+|  1-2P parcours 2 | 114 | 1-2P parcours 2 | 128  |
+|  3P | 132 | 3P | 119  |
+|  4P | 123 | 4P | 132  |
+|  3-6/ER | 10 | 3-6/ER | 10  |
+|  Deuxième cycle primaire |  | Deuxième cycle primaire |   |
+|  5P | 128 | 5P | 135  |
+|  6P | 133 | 6P | 118  |
+|  7P | 112 | 7P | 126  |
+|  8P | 127 | 8P | 114  |
+|  7-8/ER | 11 | 7-8/ER | 11  |
+|  ACC/1 | 6 | ACC/1 | 8  |
+|  Degré secondaire |  | Degré secondaire |   |
+|  9VP | 62 | 9VP | 53  |
+|  9VG | 56 | 9VG | 65  |
+|  10VP | 60 | 10VP | 76  |
+|  10VG | 57 | 10VG | 65  |
+|  11VP | 77 | 11VP | 74  |
+|  11VG | 62 | 11VG | 63  |
+|  12RAC1/1 | 18 | 12RAC1/1 | 18  |
+|  12RAC2/1 | 20 | 12RAC2/1 | 19  |
+|  ACC/2 | 10 | ACC/2 | 7  |
+|  **Total** | **1'421** | **Total** | **1'453**  |
+
+Lexique ; primaire (P) ; secondaire (S) ; espace ressource (ER) ; classe d'accueil (ACC) ; voie générale (VG) ; voie prégymnasiale (VP) ; classe de raccordement (RAC)
+
+## Orientation en 9e année à l'issue du cycle primaire
+
+|  Année scolaire | VP | VG  |
+| --- | --- | --- |
+|  2023-2024 | 52,54 % | 47,46 %  |
+|  2022-2023 | 45,84 % | 54,16 %  |
+
+## Options spécifiques en VP et VG, ainsi qu'au RAC2
+
+|   | Latin | Italien | Économie | Math / Physique | * Grec | * Italien  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  9VP ou VG | 12 | 18 | 12 | 29 | - | -  |
+|  10VP ou VG | 7 | 12 | 14 | 27 | 2 | -  |
+|  11VP ou VG | 10 | 18 | 15 | 36 | 5 | 8  |
+|  RAC2 | - | 6 | 9 | 5 | - | -  |
+
+* Cours facultatifs.
+
+## Infrastructures scolaires
+
+En tenant compte du lieu d'habitation des enfants et des effectifs des classes, la Direction répartit les élèves de 1P à 6P dans les collèges suivants :
+
+- 2 classes au pavillon Béranges ;
+- 17 classes entre le collège et le pavillon Bel-Air ;
+- 4 classes au collège Cadet-Rousselle ;
+- 19 classes au collège Courbet.
+
+La Direction répartit les élèves de 7P à 12S dans les collèges suivants :
+
+- 14 classes (7-8P, la classe 7-8/ER et la classe d'accueil 1) au collège des Marronniers ;
+- 25 classes (9S à 11S, la classe 9-11/ER, les RAC1 RAC2 et la classe d'accueil 2) au collège des Mousquetaires.
+
+## Conseil d'établissement
+
+Composition du conseil d'établissement :
+
+|  Autorités | Écoles  |
+| --- | --- |
+|  Vincent Bonvin | Hubert Olivier  |
+|  Margareta Brüssow | Stéphanie Salvadore  |
+|  Walter Steiner | Steve Barbosa  |
+|  François Grognuz | Joëlle Spina  |
+|  Parents | Société civile  |
+|  Yvan Krähenbühl | Sylvain Béné  |
+|  Alejandra Egli | Lene Dupertuis  |
+|  Mathieu Rieder | Pierre-Henri Jan  |
+|  Kader Chalabi |   |
+
+M. Vincent Bonvin, municipal en charge des Écoles préside le Conseil. Mme Carole Dind en assure le secrétariat. Le Conseil a siégé à 3 reprises en 2024 (22 février, 30 mai et 9 octobre).
+
+## Leçons surveillées
+
+Les élèves scolarisés à La Tour-de-Peilz peuvent bénéficier d'études surveillées, organisées par la Direction et financées par la Commune. Les élèves y font leurs devoirs sous la responsabilité de personnes compétentes. Pour les élèves des classes 4P à 6P, les études surveillées ont lieu de 15h15 à 18h25 les lundis, mardis et jeudis.
+
+
+
+Pour tous les élèves de 7P à 11S, les études surveillées ont lieu les lundis, mardis et jeudis au collège des Marronniers de 15h25 à 18h25. Cette prestation répond à un besoin avéré et ce service communal constitue une aide précieuse pour les élèves et les familles.
+
+## Mentorat
+
+Le mentorat est une prestation particulière mise en place dans l'établissement depuis 2012 pour aider les élèves de la 4P à la 11S qui rencontrent des difficultés dans une ou plusieurs branches scolaires. Cette prestation est financée par les parents dont l'enfant nécessite du soutien. Elle est subventionnée grâce à la contribution de la Commune de La Tour-de-Peilz. Son succès se confirme d'année en année.
+
+**Principe :** L'élève (mentor) qui estime être bon dans une branche, et qui a une moyenne d'au minimum 5 dans cette dernière, peut proposer son aide à un élève en difficulté (mentoré).
+
+Pour chaque élève une session correspond à 5 périodes de 45 minutes, ce qui signifie que 1'350 périodes (270x5) ont été dispensées tout au long de l'année.
+
+|   | 4P | 5P | 6P | 7P | 8P | 9VG | 9VP | 10VG | 10VP | 11VG | 11VP | Totaux  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  Lundi | 7 | 28 | 57 | 21 | 24 | 0 | 0 | 2 | 0 | 0 | 0 | 139  |
+|  Mardi | 1 | 11 | 41 | 16 | 9 | 0 | 0 | 2 | 0 | 0 | 0 | 80  |
+|  Jeudi | 2 | 11 | 34 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 51  |
+|  Totaux | 10 | 50 | 132 | 38 | 36 | 0 | 0 | 2 | 0 | 0 | 0 | 270  |
+
+270 élèves de 4P à 11S ont sollicité de l'aide au mentorat durant l'année civile 2024.
+
+## Journées de ski
+
+### Classes de 5P
+
+La neige n'étant pas au rendez-vous, les élèves de 5P ont participé à des journées au vert aux Pléiades du 22 au 26 janvier 2024.
+
+### Classes de 6P et 3-6ER
+
+Les élèves de 6P et 3-6ER ont participé à des journées au vert aux Pléiades du 5 au 9 février 2024.
+
+## Camps et voyages d'études
+
+Les voyages d'études de 11S se sont principalement déroulés sur territoire suisse, mais également en France, en Italie, au Danemark et en Allemagne.
+
+Le camp de ski de fond aux Rasses et aux Cluds des 8P a pu se dérouler du 15 au 19 janvier pour trois classes et du 22 au 26 janvier pour les quatre autres classes.
+
+Toutes les classes de 9e sont parties en camp de ski du 11 au 15 mars et du 18 au 22 mars.
+
+Des camps sportifs ont été organisés pour les élèves de 7P en mai.
+
+Des classes de 4P, 5P et 6P ont participé à des séjours à la montagne en septembre, mars, mai et juin.
+
+## Prévention
+
+Comme chaque année, la Direction a organisé :
+
+- pour les élèves de 1-2P, 3P et 5P : la prophylaxie dentaire ;
+- pour les élèves de 3P, 6P, 8P, 10S, 11S et 7-8/ER : l'éducation sexuelle ;
+- pour les 7P : le jardin de la circulation, la prévention des délits, le passage de l'infirmière scolaire ;
+- pour les élèves de 9S : les vaccinations ;
+- pour tous les élèves : les contrôles dentaires et la prévention routière.
+
+Par ailleurs, les médiateurs scolaires ont effectué des visites dans toutes les classes.
+
+## Fête de la jeunesse
+
+Samedi 29 juin 2024, le cortège de la Fête de la jeunesse a été annulé par décision des autorités cantonales en raison d'une alerte météo préoccupante pour la sécurité des activités en plein air.
+
+## Structure Sports-Arts-Études (SAE)
+
+Depuis 11 ans, l'établissement de La Tour-de-Peilz accueille des élèves de la région qui sont au bénéfice de la structure Sports-Arts-Études (SAE). Celle-ci leur permet de pratiquer une activité sportive ou artistique à haut niveau tout en poursuivant leur scolarité. Pour accéder à ce programme les élèves doivent avoir un très bon niveau dans leur discipline, de bonnes compétences scolaires, une grande motivation et une excellente organisation.
+
+Afin d'équilibrer au mieux leurs études et leur formation artistique/sportive, les élèves SAE bénéficient d'aménagements horaires sous forme d'allègements de cours et d'appuis complémentaires.
+
+En 2024, l'établissement a accueilli 18 danseuses et danseurs de la 6P à la 11S qui ont pratiqué entre 12 et 15 heures de danse par semaine et 9 footballeurs de la 8P à la 11S qui ont suivi environ 12 heures d'entraînements hebdomadaires.
+
+## Bibliothèque scolaire
+
+### Fréquentation
+
+La bibliothèque scolaire connaît une bonne fréquentation grâce à l'assiduité de ses 600 usagers actifs. L'équipe de la bibliothèque a à cœur d'encourager la participation des élèves qui ne fréquentent pas l'établissement, tout en fidélisant les férus de lecture. Une augmentation significative de la fréquentation est à noter par rapport à l'année précédente.
+
+
+
+# Organigramme
+## L'ATOUR DE PEILZ
+
+![img-0.jpeg](img-0.jpeg)
+
+
+
+## ABRÉVIATIONS
+
+|  **A3C-R** | Association des chargés de communication des communes romandes | **CMS** | Centre médico-social  |
+| --- | --- | --- | --- |
+|  **ADCV** | Association des communes vaudoises | **CMVR** | Conservatoire de musique Montreux-Vevey-Riviera  |
+|  **AFJ** | Accueil familial de jour | **COFIN** | Commission des finances  |
+|  **AI** | Assurance invalidité | **COFOP** | Centre d'orientation et de formation professionnelles  |
+|  **AIL** | Aide individuelle au logement | **COGEST** | Commission de gestion  |
+|  **AMF** | Accueillante en milieu familial | **COMSEC** | Commission de sécurité  |
+|  **ARAS** | Association régionale d'action sociale | **COPIL** | Comité de pilotage  |
+|  **ARRHVV** | Association des responsables RH des villes vaudoises | **CORAT** | Commission consultative régionale pour l'aménagement du territoire  |
+|  **ASCCGV** | Association des secrétaires de conseils communaux et généraux vaudois | **CRD** | Centre régional de décisions  |
+|  **ASR** | Association sécurité Riviera | **CSD** | Conférence des syndics de la Riviera  |
+|  **ASSS** | Association suisse des services des sports, section Suisse romande et Tessin | **CSSM** | Conférence suisse des secrétaires municipaux  |
+|  **ATE** | Association transports & environnement | **CVAJ** | Centre vaudois d'aide à la jeunesse  |
+|  **AVS** | Assurance-vieillesse et survivants | **DGE** | Direction générale de l'environnement  |
+|  **AVSM** | Association vaudoise des secrétaires municipaux | **DGEJ** | Direction générale de l'enfance et de la jeunesse  |
+|  **BRH** | Bureau des ressources humaines | **DGEP** | Direction générale de l'enseignement postobligatoire  |
+|  **CA** | Communauté d'autoconsommateurs | **DGMR** | Direction générale de la mobilité et des routes  |
+|  **CAD** | Chauffage à distance | **DGS** | Direction générale de la santé  |
+|  **CAS** | *Certificate of Advanced Studies* | **DGTL** | Direction générale du territoire et du logement  |
+|  **CCRI** | Commission de recours en matière d'impôts | **DIRH** | Direction des infrastructures et des ressources humaines  |
+|  **CCU** | Commission consultative d'urbanisme | **DP** | Domaine public  |
+|  **CDAP** | Cour de droit administratif et public du Tribunal cantonal | **ECA** | Établissement cantonal d'assurance  |
+|  **CDD** | Contrat à durée déterminée | **ECF** | Entreprise de correction fluviale  |
+|  **CDI** | Contrat à durée indéterminée | **EMS** | Établissement médico-social  |
+|  **CEF** | Conseiller école-famille | **EP** | Éclairage public  |
+|  **CFC** | Certificat fédéral de capacité | **EPS** | Établissement primaire et secondaire  |
+|  **CFF** | Chemins de fer fédéraux suisses | **EPT** | Équivalent plein temps  |
+|  **CGN** | Compagnie générale de navigation | **EU & EC** | Eaux usées et eaux claires  |
+|  **CIAJF** | Communauté d'intérêt pour l'accueil familial de jour | **EVAM** | Établissement vaudois d'accueil des migrants  |
+|  **CICG** | Compagnie industrielle et commerciale du Gaz SA | **FAJE** | Fondation pour l'accueil de jour des enfants  |
+|  **CIEHL** | Communauté intercommunale d'équipements du Haut-Léman | **FAO** | Feuille des avis officiels  |
+|  **CISM** | Conférence itinérante des secrétaires municipaux | **FCR** | Fonds culturel Riviera  |
+|  **CITS** | Commission intercommunale de la taxe de séjour | **FEDD** | Fonds pour l'efficacité énergétique et le développement durable  |
+|   |  | **FEM** | Fondation pour l'enseignement de la musique  |
+
+
+
+|  **FORJE** | Formations jeunesse extrascolaire  |
+| --- | --- |
+|  **FSAT** | Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz  |
+|  **FSPJ** | Fédération suisse des parlements des jeunes  |
+|  **GED** | Gestion électronique des documents  |
+|  **GEDERIVIERA** | Périmètre de gestion de déchets pour la Riviera  |
+|  **GTE** | Groupe de travail élargi  |
+|  **HES-SO** | Haute école spécialisée de Suisse occidentale  |
+|  **HR Vaud** | Association vaudoise des professionnels des ressources humaines  |
+|  **IP** | *Internet Protocole*  |
+|  **LAJE** | Loi sur l'accueil de jour des enfants  |
+|  **LCIVL** | Le centre + indépendants plus vert'libéraux  |
+|  **LED** | *Light-Emitting Diode*  |
+|  **LEDP** | Loi sur l'exercice des droits politiques  |
+|  **LEg** | Loi sur l'égalité  |
+|  **LPDP** | Loi sur la police des eaux dépendant du domaine public  |
+|  **LPP** | Loi sur la prévoyance professionnelle  |
+|  **LPPPL** | Loi sur la préservation et la promotion du parc locatif  |
+|  **LPrPNP** | Loi cantonale sur la protection du patrimoine naturel et paysager  |
+|  **LRou** | Loi sur les routes  |
+|  **LTDPL** | La Tour-de-Peilz libre  |
+|  **LV** | Les vert·e·s  |
+|  **MAS** | *Master of Advanced Studies*  |
+|  **MCH2** | Modèle comptable harmonisé 2  |
+|  **MP2** | Maturité professionnelle  |
+|  **MSJ** | Musée suisse du jeu  |
+|  **NPIV** | Nouvelle péréquation intercommunale vaudoise  |
+|  **OAJE** | Office de l'accueil de jour des enfants  |
+|  **OAT** | Ordonnance sur l'aménagement du territoire  |
+|  **OFSP** | Office fédéral de la santé publique  |
+|  **OIBT** | Ordonnance sur les installations à basse tension  |
+|  **OPB** | Ordonnance sur la protection contre le bruit  |
+|  **PAM** | *Privileged Access Management*  |
+|  **PC** | Prestation complémentaires  |
+|  **PCE** | Personne de confiance en entreprise  |
+
+|  **PDI-PA5** | Plan directeur intercommunal - Projet d'agglomération de 5^{e} génération  |
+| --- | --- |
+|  **PICSAJ** | Plateforme intercommunale sur le soutien aux activités de la jeunesse  |
+|  **PGEE** | Plan général d'évacuation des eaux  |
+|  **PLR** | Parti libéral radical  |
+|  **PPE** | Propriété par étage  |
+|  **PSDG** | Parti socialiste et divers de gauche  |
+|  **PSPS** | Promotion de la santé et prévention en milieu scolaire  |
+|  **RC** | Responsabilité civile  |
+|  **RH** | Ressources humaines  |
+|  **RI** | Revenu d'insertion  |
+|  **RPGA** | Règlement du plan général d'affectation et de police des constructions  |
+|  **S&J** | Sport & Jeunesse  |
+|  **SADM** | Service de l'administration générale  |
+|  **SAE** | Sports-Arts-Études  |
+|  **SAI** | Service des affaires intercommunales  |
+|  **SDIS** | Service de défense incendie et secours  |
+|  **SDOM** | Service domaines et bâtiments  |
+|  **SFIN** | Service des finances  |
+|  **SFJSC** | Service famille, jeunesse, sport et culture  |
+|  **SIGE** | Service intercommunal de gestion  |
+|  **SIT** | Système d'information du territoire  |
+|  **SPOP** | Service de la population  |
+|  **SRGZA** | Stratégie régionale de gestion des zones d'activités  |
+|  **SUTP** | Service de l'urbanisme et des travaux publics  |
+|  **TAR** | Taxe anticipée de recyclage  |
+|  **TIC** | Technologies de l'information et de la communication  |
+|  **TSHM** | Travail social hors mur  |
+|  **TSP** | Travail social de proximité  |
+|  **TVA** | Taxe sur la valeur ajoutée  |
+|  **UAPE** | Unité d'accueil pour écoliers  |
+|  **UCV** | Union des communes vaudoises  |
+|  **UDC** | Union démocratique du centre  |
+|  **VMCV** | Transports publics Vevey-Montreux-Chillon-Villeneuve  |
+
+
+
+# Rapport de la Commission de Gestion de la Commune de La Tour-de-Peilz
+
+## Exercice 2024
+
+Commissaires :
+
+- Mme Marisa Pralong (PSDG)
+- Mme Emanuelle Jaques (LV)
+- M. Florian Abbet (LV)
+- M. Jean-Wilfrid Fils-Aimé (LCIVL)
+- M. Jean-Etienne Holzeisen (LTDPL, siège UDC)
+- M. Volker Tiemann (PLR)
+- M. Roger Urech, Président-rapporteur (PLR)
+
+
+
+# Table des matières
+
+|  Introduction | 3  |
+| --- | --- |
+|  Mobilité communale | 4  |
+|  Vœu 1 | 9  |
+|  Vignes et caves | 10  |
+|  Plan général d'affectation (PGA) | 14  |
+|  Vœu 2 | 16  |
+|  Vœu 3 | 16  |
+|  Chauffage à distance | 18  |
+|  Préavis 10/2019 – Décompte final. | 21  |
+|  Préavis 10/2020 – Décompte final. | 21  |
+|  Vœu 4 | 21  |
+|  Musée Suisse du Jeu 2024 | 22  |
+|  Rapport de la COGEST sur les préavis N° 7/2025 et 8/2025 | 26  |
+|  Administration générale SADM | 27  |
+|  Finances SFIN | 29  |
+|  Domaines et bâtiments SDOM | 32  |
+|  Urbanisme et travaux publics SUTP | 32  |
+|  Famille, jeunesse, sport et culture + Écoles SFJS + ECO | 33  |
+|  Vœu 5 | 34  |
+|  Conclusions | 35  |
+
+
+
+## Introduction
+
+En 2024, la composition de la Commission de gestion (COGEST) est la suivante, Mmes Marisa Pralong (PSDG) et Emanuelle Jaques (LV) et MM Florian Abbet (LV), Jean-Wilfrid Fils-Aimé (LCIVL), Jean-Etienne Holzeisen (LTDPL, siège UDC), Volker Tiemann (PLR) et Roger Urech (PLR) qui en assume la présidence.
+
+Elle a choisi de traiter les thèmes suivants, en plus de passer sous revue le Musée Suisse du Jeu :
+
+- Mobilité communale
+- Vignes et caves
+- Plan Général d’Affectation
+- Chauffage à distance
+- Décomptes finaux préavis 10/2019 et 10/2020
+
+Le rapport final n’a pas pour vocation d’être lu d’une traite. Il peut être parcouru « thème par thème » et une table des matières facilite l’accès aux différents sous-rapports, ainsi qu’aux vœux et observations.
+
+La COGEST remercie la Municipalité, ainsi que les chefs de service et l’ensemble des membres de l’administration communale qui ont pris le temps de répondre à toutes nos questions écrites et orales.
+
+
+
+# Mobilité communale
+
+La Commission de Gestion s'est réunie le 10 février 2025 à 19h30, afin d'obtenir les réponses à différentes questions relatives aux véhicules et aux aspects de mobilité du personnel communal.
+
+Nous remercions Mme Sandra Pasquier, syndique, MM Pierre-André Dupertuis, secrétaire municipal et Maximilien Walter, chef du service de l'urbanisme et des travaux publics pour leur participation à notre séance et pour les réponses à nos questions.
+
+Le parc des véhicules communaux :
+
+1.  **Quelle est la composition du parc automobile communal par service ? (Véhicules avec un permis de circulation + vélos/trottinettes/divers). Comment est-assuré ? Quel type de carburant est utilisé ?**
+
+Cf. tableau ci-joint pour tous les véhicules motorisés de l'administration communale, y.c vélos non immatriculés.
+
+2.  **Est-ce que tous les véhicules sont intégralement propriété de la commune ? Si non, qui possède les véhicules en question ?**
+
+A l'exception de la balayeuse (fin de la location mi-2025, achat projeté d'une nouvelle balayeuse cf. préavis municipal N° 36/2024 et du Pony (fin de location, rachat valeur résiduelle via budget prévu en 2025), tous les véhicules sont propriété de la Commune. La Balayeuse et le Pony appartiennent à la société Boschung SA.
+
+3.  **Est-ce que les véhicules sont achetés neufs ou d'occasion ?**
+
+Cela dépend du type de véhicule et des opportunités, principalement achetés neuf.
+
+4.  **Est-ce qu'un rabais flotte a été négocié ?**
+
+S'agissant de l'achat de véhicules non, les fournisseurs étant trop divers pour que cela soit pertinent. Plusieurs offres sont systématiquement demandées lors de l'achat d'un nouveau véhicule.
+
+5.  **Quelle est la durée de vie prévue pour chaque type de véhicule et correspond-elle à la durée d'amortissement ? Si non, pourquoi ?**
+
+Cf. tableau annexé pour la durée de vie estimée et le renouvellement prévu des véhicules
+
+A ce jour, tous les véhicules et machines ont été acquis soit via le compte de fonctionnement (donc en charge, sans amortissement) ou via investissements (renouvellement transporteur Voirie, préavis N° 09/2022, amortissement en 1 fois en 2024).
+
+A noter que la future balayeuse Ravo E2 sera amortie en 6 ans dès 2026, si acquise en 2025 (nouvelles règles d'amortissement selon MCH2).
+
+
+
+|  Service | Marque | Type | Motorisation | Année | Achat | Renouvellement estimé |   | Compagnie | Type de contrat  |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |   |   |   |   |  Valeur CHF | Date, |   | Véhicule | Machine | Casco  |
+|  UTP | Boschung S3 | Balayeuse | Diesel | 2020 | - | 257'000 | 2025 | Mobilière |  | x | Aucune  |
+|  UTP | Pony P4-T Euro 6 | Camion | Diesel | 2019 | - | 180'000 | 2030 | Mobilière |  | x | Aucune  |
+|  UTP | Reform Muli T10X | Camion | Diesel | 2023 | Neuf | 185'000 | 2043 | Mobilière |  | x | Aucune  |
+|  UTP | Kubota STV36-FR1 | Chariot à moteur | Diesel | 2010 |  | 80'000 | 2035 | Mobilière |  | x | Aucune  |
+|  UTP | Yanmar Hakotrac 3500 DA | Chariot à moteur | Diesel | 2008 |  | 40'000 | 2030 | Mobilière |  | x | Aucune  |
+|  UTP | Amazone PH 1250 4WDi | Chariot de travail | Diesel | 2022 | Neuf | 70'000 | 2030 | Mobilière |  | x | Aucune  |
+|  UTP | Bobcat 553 | Chariot de travail | Diesel | 2002 |  | 45'000 | 2035 | Mobilière |  | x | Aucune  |
+|  UTP | John-Deere 2026R | Chariot de travail | Diesel | 2019 |  | 50'000 | 2039 | Mobilière |  | x | Aucune  |
+|  UTP | Kaeser Mobilair M42 | Compresseur | Diesel | 2002 |  | 40'000 | 2040 | Mobilière |  | x | Aucune  |
+|  UTP | Nissan Y1D2A250 | Elevateur à fourches | Diesel | 2008 |  | 50'000 | 2035 | Mobilière |  | x | Aucune  |
+|  UTP | Kyburz DXP | Motocycle Léger tricar | Electrique | 2014 |  | 18'000 | 2029 | Mobilière | x |  | Complète  |
+|  UTP | Garia Melex N50 Züko | Pont basculant | Electrique | 2023 | Neuf | 50'000 | 2033 | Mobilière | x |  | Complète  |
+|  UTP | Goupil G4L7e MY 18 | Pont basculant | Electrique | 2018 |  | 50'000 | 2028 | Mobilière | x |  | Complète  |
+|  UTP | Toro Workman GTX Lithium | Pont basculant | Electrique | 2023 | Neuf | 35'000 | 2040 | Mobilière | x |  | Complète  |
+|  UTP | Humbaur Garant HTK 3500.31 | Remorque | - | 2017 |  | 6'500 | 2050 | Mobilière | x |  | Aucune  |
+|  UTP | Humbaur HT 2500 G | Remorque | - | 2005 |  | 5'500 | 2050 | Mobilière | x |  | Aucune  |
+|  UTP | Humbaur HT 3000 G | Remorque | - | 2007 |  | 5'500 | 2050 | Mobilière | x |  | Aucune  |
+|  UTP | Humbaur HTK 3500 | Remorque | - | 2014 |  | 10'000 | 2050 | Mobilière | x |  | Aucune  |
+|  UTP | Humbaur HUT 3500 | Remorque | - | 2013 |  | 15'000 | 2050 | Mobilière | x |  | Aucune  |
+|  UTP | Ammann av. 12 | Rouleau compresseur | Diesel | 2001 |  | 50'000 | 2035 | Mobilière | x |  | Aucune  |
+|  UTP | Renault Zoé Life R90 | Véhicule de tourisme | Electrique | 2019 |  | 20'000 | 2029 | Mobilière | x |  | Complète  |
+
+
+
+|  Service | Marque | Type | Motorisation | Année | Achat | Renouvellement estimé |   | Compagnie | Type de contrat  |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |   |   |   |   |  Valeur CHF | Date, |   | Véhicule | Machine | Casco  |
+|  UTP | Dacia Logan Van | Voiture de livraison | Essence | 2011 |  | 15'000 | 2031 | Mobilière | x |  | Complète  |
+|  UTP | Ford Transit 350 L2 | Voiture de livraison | Diesel | 2018 |  | 45'000 | 2028 | Mobilière | x |  | Complète  |
+|  UTP | Iveco 35S13 Daily | Voiture de livraison | Diesel | 2014 |  | 60'000 | 2028 | Mobilière | x |  | Complète  |
+|  UTP | Mercedes 411 CDI | Voiture de livraison | Diesel | 2017 |  | 48'000 | 2027 | Mobilière | x |  | Complète  |
+|  UTP | Mitsubishi Fuso 3S13 | Voiture de livraison | Diesel | 2020 | Neuf | 50'000 | 2030 | Mobilière | x |  | Complète  |
+|  UTP | Nissan e-NV200 | Voiture de livraison | Electrique | 2018 | Neuf | 50'000 | 2028 | Mobilière | x |  | Complète  |
+|  UTP | Nissan e-NV200 | Voiture de livraison | Electrique | 2020 | Neuf | 30'000 | 2030 | Mobilière | x |  | Complète  |
+|  UTP | Nissan e-NV200 | Voiture de tourisme | Electrique | 2020 | Neuf | 30'000 | 2030 | Mobilière | x |  | Complète  |
+|  UTP | Specialized Vado 4.0 | Vélo | Electrique | 2018 | Neuf | 4'000 | 2026 | Vaudoise |  |  | Aucune  |
+|  UTP | Specialized Turbo Vado | Vélo | Electrique | 2022 | Neuf | 4'000 | 2030 | Vaudoise |  |  | Aucune  |
+|  UTP | Specialized Turbo Vado | Vélo | Electrique | 2023 | Neuf | 4'000 | 2031 | Vaudoise |  |  | Aucune  |
+|  FJS | Ford Transit Combi Custom | Voiture de tourisme | Diesel | 2016 | Neuf | 40'000 | 2030 | Mobilière | x |  | Complète  |
+|  FJS | Humbaur HA 12 M | Remorque | - | 2001 | Neuf | 2'500 | 2040 | Mobilière | x |  | Complète  |
+|  DOM | Kyburz DXP Tricycle électric | Motocycle Léger tricar | Electrique | 2013 | Occasion | 18'000 | 2030 | Mobilière | x |  | Complète  |
+|  DOM | Kyburz PAH | Remorque |  | 2022 | Occasion | 5'000 | 2035 | Mobilière | x |  | Aucune  |
+|  DOM | TDS Charisma cross | Vélo | Electrique | 2024 | Neuf | 5'500 | 2030 | Vaudoise |  |  | Aucune  |
+|  DOM | Chike E-Cargo | Vélo cargo | Electrique | 2022 | Occasion | 7'500 | 2030 | Vaudoise |  |  | Aucune  |
+|  DOM | Nissan e-NV200 | Voiture de livraison | Electrique | 2018 | Neuf | 40'000 | 2030 | Mobilière | x |  | Complète  |
+|  DOM | Opel Vivaro B 16CDTi | Voiture de livraison | Diesel | 2017 | Occasion | 40'000 | 2030 | Mobilière | x |  | Complète  |
+|  DOM | Dacia Lodgy 1.2 | Voiture de livraison | Essence | 2014 | Occasion | 25'000 | 2030 | Mobilière | x |  | Partielle  |
+|  **Total** | **41** |  |  | **2015** |  | **1'786'000** |  |  |  |  | **41**  |
+
+
+
+# **6. Quelles sont les stratégies d'entretien ?**
+
+L'entretien est effectué selon les préconisations du constructeur. Une partie de l'entretien est réalisée à l'interne grâce aux compétences de certains employés du secteur Espaces publics.
+
+# **7. Est-ce que le carburant pétrolier est réglé via une ou plusieurs cartes essence ?**
+
+Oui, il est réglé par des cartes essence et facturé mensuellement par le fournisseur.
+
+# **8. Est-ce que le pétrolier choisi dispose d'une station sur le territoire communal ?**
+
+Oui, à la rue d'Entre-deux-Villes.
+
+# **9. Quand a été négocié le contrat pour la dernière fois ?**
+
+Le SUTP a demandé de nouvelles offres aux deux pétroliers disposant d'une station sur le territoire communal et a changé en conséquence de fournisseur en 2024. Un rabais de 5 cts par litre sur le prix affiché a été négocié.
+
+# **10. Est-ce que notre commune dispose de bornes propriétaires pour la recharge de ses véhicules ?**
+
+Trois bornes privées sont installées pour alimenter les véhicules de la Commune. Deux sont installées dans le parking des Mousquetaires et une à Béranges 111 (local du secteur des Espaces publics).
+
+# **11. Est-ce que nos véhicules profitent de l'autoconsommation des panneaux solaires ?**
+
+Oui, pour les bornes qui sont au parking des Mousquetaires qui sont raccordées sur le « Microgrid » des collèges.
+
+# **12. Est-il techniquement possible de charger un véhicule « non-identifié » sur une borne de charge communale ?**
+
+Non, l'accès aux bornes se fait avec des cartes d'identification personnalisées et les places de parc sont réservées aux véhicules communaux.
+
+# **13. Est-ce qu'un système de contrôle permet le suivi de l'utilisation et de la consommation/recharge des véhicules ?**
+
+Non, il n'y a pas de compteurs électriques spécifiques sur les bornes installées.
+
+# **14. Existe-t-il un processus de sélection et d'acquisition d'un véhicule ?**
+
+Les véhicules utilisés par les services étant fort divers, il n'y a pas de processus standardisé. Un appel d'offres en gré à gré comparatif, sur invitation ou en procédure ouverte selon la loi vaudoise sur les marchés publics est systématiquement effectué lorsque plusieurs fournisseurs existent sur le marché.
+
+# **15. Existe-t-il une stratégie pour la vente ou le remplacement d'un véhicule fonctionnel ?**
+
+Généralement, la reprise des véhicules encore fonctionnels est négociée dans le cadre de l'achat d'un nouveau véhicule.
+
+# **16. Existe-t-il une centrale d'achat cantonale ou régionale pour l'achat des véhicules communaux ?**
+
+Non.
+
+# **17. Est-ce que des véhicules « techniques » sont mutualisés avec des communes voisines ? Si oui, existe-t-il des conventions ?**
+
+Il n'existe pas de mutualisations de véhicules techniques, l'usage important qu'il en est fait par les services ne permettrait pas, temporellement, une telle mutualisation. Une collaboration régionale existe concernant la location de nacelles élévatrices, dont l'usage est temporaire, avec un dépôt sur un terrain à Montreux appartenant à cette dernière Commune. Ces machines restent propriété d'une société qui les loue aux différentes Communes de la région à un prix négocié, permettant ainsi de limiter les frais et les transports.
+
+
+
+# **18. Est-ce que des véhicules en autopartage type Mobility sont utilisés par la Commune ?**
+
+Cet usage est possible mais n'est que rarement utilisé, les collaborateurs quittant le territoire communal dans le cadre de leurs activités professionnelles utilisant prioritairement les transports publics. Il est procédé au remboursement des billets de train au plein tarif en 2$^{ème}$ classe. Si l'utilisation d'un véhicule privé est nécessaire, il sera remboursé à hauteur de 70 cts par kilomètre.
+
+# **19. Est-ce qu'il existe une stratégie visant à atteindre la neutralité carbone dans notre commune ?**
+
+Lors du remplacement d'un véhicule, les services examinent systématiquement la possibilité d'opter pour un véhicule électrique. Aujourd'hui, on constate qu'une partie non-négligeable du parc est composée de véhicules entièrement électriques.
+
+# **20. Est-ce que la Commune envisagerait de mettre à disposition des collaborateurs une flotte de vélos électriques pour des déplacements durant la journée de travail ?**
+
+C'est d'ores et déjà le cas au SUTP et SDOM, ces vélos sont très souvent employés. La petite taille du territoire communal convient en effet bien pour s'y déplacer en vélo électrique pour les divers déplacements sur le terrain effectués par le personnel du bureau technique et pour les suivis de chantier.
+
+# **Le personnel communal**
+
+# **21. Est-ce qu'il y a un responsable du parc de véhicules au sein de l'administration ou chaque service s'organise de manière indépendante ?**
+
+Les véhicules sont gérés par chaque service.
+
+# **22. Quelle est la politique en cas d'infraction du conducteur (infraction vitesse et/ou stationnement) ? Qui paie l'amende, le cas échéant ?**
+
+Ces infractions sont très rares et l'amende est, le cas échéant, payée par le conducteur. S'agissant du stationnement, les véhicules bénéficient de macarons permanents dans le cadre de leur usage professionnel.
+
+# **23. Est-ce qu'un système fiable permet d'identifier qui détient les clés d'un véhicule ?**
+
+Les responsables savent quel véhicule est utilisé par quel conducteur et pour quelle tâche ; cependant, il n'y a pas de système de contrôle à proprement parler car il n'y a pas de nécessité d'un tel système.
+
+# **24. Est-ce qu'un contrôle périodique des permis de conduire est effectué ? Si oui, à quelle fréquence et par qui ?**
+
+Un contrôle périodique n'est pas effectué, en misant sur la confiance et la responsabilité individuelle des collaborateurs. Cette situation n'a, historiquement, jamais posé de problème. Cela dit, en cas de retrait de permis, la personne concernée doit en informer son employeur.
+
+# **25. Existe-t-il une directive interne relative à l'utilisation des véhicules communaux et de l'attribution de places de stationnement ? Si oui, est-il possible de nous la mettre à disposition**
+
+La mise à disposition privée gratuite d'un véhicule électrique type Nissan E-NV 200 ainsi que du bus Sport et jeunesse et sa remorque hors des heures de travail fait partie des avantages octroyés au personnel communal. Pas de directive particulière mais information au personnel comme indiqué ci-dessus.
+
+Les collaborateurs ayant besoin d'une utilisation de leur véhicule privé pour l'exercice de leur travail disposent d'une place de stationnement offerte dans le parking des Mousquetaires.
+
+
+
+# **26. Existe-t-il des catégories de travailleurs devant obligatoirement posséder un permis de conduire ?**
+
+L'ensemble des collaborateurs du secteur Espaces publics doivent posséder le permis de conduire selon leur cahier des charges.
+
+Le permis de conduire n'est pas une exigence d'engagement au secteur conciergerie, mais il est pris en considération dans les critères d'engagement.
+
+Le chariot élévateur demandant un permis spécifique, celui-ci est vérifié de manière périodique.
+
+# **27. Existe-t-il des incitatifs concrets pour favoriser le recours aux transports publics et/ou à la mobilité douce (subvention d'abonnement, prix des places de parc, autre)**
+
+A ce jour non. Mais il est prévu de travailler sur un plan mobilité à fin 2025.
+
+# **28. Est-ce que le domicile d'un candidat est un critère qui entre en jeu dans le recrutement d'un nouveau collaborateur ?**
+
+A compétence égale, une domiciliation sur la commune ou dans la région est un avantage prépondérant. A ce jour, près de 75 % du personnel communal habite la commune de La Tour-de-Peilz ou la Riviera.
+
+# **29. Si des données chiffrées existent, comment se situe notre commune en comparaison cantonale / nationale, sur la mobilité de ses employés ?**
+
+Nous ne disposons pas de ces données.
+
+# **Conclusion**
+
+Les véhicules communaux sont gérés de manière sérieuse. Le tableau récapitulatif obtenu démontre qu'un suivi est fait en continu. Les échéances d'entretien et d'inspection technique sont notées.
+
+La transition énergétique a été prise en compte dans le renouvellement du parc de véhicules et dans l'utilisation de celui-ci.
+
+Les aspects financiers n'ont pas été abordés, car ils seront traités dans le rapport sur les comptes.
+
+# **Observations et vœux**
+
+# **Vœu 1**
+
+Le suivi de consommation des véhicules électriques devrait être envisagé, afin de pouvoir ventiler les coûts d'énergie par véhicule/service.
+
+
+
+# Vignes et caves
+
+Le 24 février la COGEST a rencontré le service domaines et bâtiments pour obtenir les réponses à ses questions sur le sujet « Vignes et caves ». Nous remercions Messieurs Alessio Gruta municipal et Yves Roulet chef de service pour la qualité des réponses apportées.
+
+En préambule, la Municipalité souhaite porter à connaissance de la COGEST le processus suivant concernant la vendange des vignes propriété communale, la transformation et la mise en bouteilles du vin et la vente et la consommation du vin en bouteilles.
+
+L'entier de la récolte annuelle est vendu à la Cave Montreux Riviera qui est une société coopérative, dont la commune de La Tour-de-Peilz est sociétaire. Elle a pour but de promouvoir les intérêts économiques de ses membres par la valorisation de leur vendange. La commune rachète à la Cave les bouteilles dont elle a besoin pour couvrir la demande annuelle (vente par souscription, vente directe à la cave communale, aux sociétés locales et aux restaurateurs boélands, consommation propre à la commune).
+
+1. Dans le rapport de gestion 2023 nous trouvons l'information que notre vignoble produit 12 cépages différents. L'étude des vins de la commune sur le site nous montre qu'entre les vins monocépage et les assemblages, seuls 9 cépages sont utilisés. Que fait-on avec les cépages suivants :
+
+|  Sauvignon blanc | 1'302 kg ?  |
+| --- | --- |
+|  Mara | 1'594 kg ?  |
+|  Divico | 900 kg ?  |
+
+Ces 3 cépages représentent 12,5% du poids total de la vendange 2023 !
+
+La récolte de tous les cépages est vendue à la Cave Montreux Riviera qui le vinifiera pour une mise en bouteille. Ceux-ci sont vinifiés séparément et vendus sous l'étiquette de la Cave Montreux Riviera avec la précision de la provenance « La Tour-de-Peilz »
+
+2. La Municipalité a-t-elle envisagé d'élargir la gamme des vins avec d'autres crus monocépages comme cela est de plus en plus fréquent pour le Merlot ou le Mara ?
+
+Il n'est pas envisagé d'augmenter la gamme des vins de la commune. Les autres cépages produits sur les vignes communales sont également vinifiés et vendus à la Cave Montreux Riviera. La population boélande peut évidemment s'y approvisionner sans difficulté.
+
+3. Les ventes en souscription, en cave, les réceptions et vins offerts permettent-ils de liquider toute la production ?
+
+Non, la totalité de la production n'est pas vendue par le biais de la commune. Le solde des vendanges qui n'est pas produit sous l'appellation des vins de la commune, est vendu par le biais de la Cave Montreux Riviera qui a un débit suffisant.
+
+4. Y a-t-il eu des millésimes où la demande était supérieure à l'offre ?
+
+Oui, en 2022, il a manqué un peu de chasselas et de rosé et quelques cépages particuliers, tels que le Merlot ou le Divico qui sont arrivés en rupture de stock à la Cave Montreux Riviera.
+
+5. Si tout n'est pas vendu, qu'advient-il du solde ? Stockage pour compenser les millésimes à faible rendement, vente en vrac ou autres mesures ?
+
+En principe tout est écoulé. Lorsqu'il y a un solde invendu, celui-ci est consommé lors des réceptions communales de l'année et/ou par vente-action à la Cave de la Doges. En principe il n'y a pas plus d'un millésime à « corriger »
+
+
+
+# **6. Sous quel type de culture travaillons nous nos vignes (traditionnelle, biodynamie ou autre forme) ? Existe-t-il une stratégie communale visant à une transition vers le bio ?**
+
+Le vignoble de La Tour-de-Peilz est exploité selon la certification Vinatura et répond déjà à de nombreuses exigences sanitaires et de réduction des produits phytosanitaires toxiques.
+
+*Les viticulteurs VINATURA® s’engagent :*
+
+# ***Compétences, transparence et responsabilités***
+
+*La formation et les compétences des exploitants favorisent la viabilité des entreprises à long terme. La traçabilité instaurée à tous les niveaux d’élaboration du produit assure transparence et sécurité.*
+
+# ***Paysages et biodiversité***
+
+*Les aménagements – vignobles et bâtiments – visent la préservation des paysages et la diversité des espèces végétales et animales. La présence de nombreux insectes auxiliaires favorise l’équilibre biologique du vignoble.*
+
+# ***Viticulture durable - Agents de production***
+
+*Les intrants et autres fournitures utilisés sont choisis en fonction de leur impact sur la santé et l’environnement. Le recyclage de tout déchet est privilégié.*
+
+Des réflexions sont en cours vers une transition Bio, mais cela implique une transformation de toute la chaîne de production pour l’ensemble des plus de 40 producteurs de la coopérative et de l’outil de production de la cave.
+
+Les communes membre de la coopérative sont favorables à cette transition alors que bien des privés y sont encore opposés par peur de pertes de récoltes. Pour pouvoir opérer ce changement il faudra que tous les coopérateurs acceptent de franchir le cap. Il faudra également que les installations le permettent, ce qui n’est pas le cas actuellement ; il est en effet inconcevable de traiter simultanément une vendange Bio et une vendange traditionnelle dans les mêmes installations car le risque de contamination du Bio par un mélange des moûts est bien trop élevé. Au vu de l’emplacement et de la vétusté des locaux de la Cave Montreux Riviera un déménagement est envisagé et c’est à ce moment que la transition pourrait se concrétiser avec de nouvelles installations.
+
+# **7. Quel type de contrat avons-nous avec le vigneron et quel est le système de rémunération ?**
+
+Le vigneron est lié par un contrat de vignolage (vigneron-tâcheron)
+
+Ces prestations sont calculées entre autres sur la base de nombreux paramètres dépendant des difficultés de travail, du type de culture, etc. ainsi que sur la qualité du travail. Il lui est versé un montant fixe pour autant que les notes octroyées par la Confrérie des Vignerons correspondent à la moyenne obtenue pour l’ensemble de la Confrérie. Il lui est également alloué une indemnité forfaitaire par kg vendangé pour l’ensemble des travaux de vendange. Enfin, des travaux spécifiques sont rémunérés lors de nouveaux encépagements, par exemple. Le vigneron engage et rémunère à sa charge le personnel qu’il juge nécessaire pour l’entretien de la vigne et des vendanges.
+
+En ce qui concerne la rémunération du personnel ponctuel du vigneron (effeuilles, vendanges, etc.) la commune n’a pas de « droit de regard », le vigneron fonctionnant comme un entrepreneur indépendant, mais tous ses contrats sont assujettis à des tarifs minimaux édictés par Prométerre.
+
+# **8. Avons-nous un(e) œnologue attitré(e) pour superviser / influencer la vinification ?**
+
+Le vin de la Commune est vinifié par M. Alexis Praz, œnologue de la Cave Montreux Riviera. Il suit également le travail dans la vigne par des visites durant l’année et planifie la vendange avec les vignerons de la coopérative.
+
+
+
+9. Depuis le COVID et la distribution des commandes à domicile, la population n'a plus vraiment d'occasions pour déguster et comparer les divers crus communaux. La municipalité a-t-elle envisagé d'organiser une ou des séances de dégustation, de préférence avant la fin du délai de souscription ?
+
+A ce jour, il n'y a que très peu de demandes de dégustations. Les vins sont présents lors de Fontaines gourmandes ou parfois au Marché Folklorique. Les vins peuvent être dégustés toute l'année lors de commande à la Cave de la Doges ou en tout temps à la Cave de Montreux Riviera aux heures d'ouverture. Une dégustation sera organisée en 2025 dans le cadre des marchés folkloriques à La Tour-de-Peilz et d'autres actions pour mieux faire connaître la qualité du vin communal sont en réflexion.
+
+De plus, le SDOM est prêt à organiser des dégustations si des groupes en faisaient la demande.
+
+10. Va-t-on continuer à exploiter les 2 caves, ou est-ce que les travaux de Charlemagne vont influencer / réaffecter ce sous-sol ? Si les 2 caves restent en service, quel est l'avantage / l'utilité de Charlemagne ?
+
+Le stock de la cave Charlemagne a été définitivement déplacé dans les caves de la Maison Hugonin.
+
+La cave de La Doges est utilisée pour la clientèle privée et la cave Hugonin pour les besoins des réceptions communales et le stock pour les restaurateurs.
+
+Relevons que le volume total pour les besoins annuels de la Commune ne peut de toute façon par être mis dans une seule des deux caves.
+
+11. Y'a-t-il encore des parcelles colloquées en zone viticole qui ne sont pas exploitées ?
+
+Non, pas pour les parcelles communales
+
+12. Est-ce qu'un ou plusieurs cépages souffrent du changement climatique ? L'introduction d'un cépage plus résilient à l'évolution du climat actuel de la LTDP a-t-il été envisagé ?
+
+Ce point est délicat à répondre, car le recul n'est pas encore suffisant pour être péremptoire. Néanmoins, il semble plus difficile de garantir des récoltes stables tenant compte des plus fortes variations climatiques.
+
+13. Les vins de LTDP contiennent-ils exclusivement du raisin boéland ?
+
+Oui, ils sont élevés dans des cuves spécifiquement allouées
+
+14. Quelle est la surface de vigne pour chacun des cépages ?
+
+- • Chasselas – 8'367 m$^{2}$
+- • Gamay – 4'170 m$^{2}$
+- • Pinot Noir – 4'486 m$^{2}$
+- • Pinot Blanc – 2'615 m$^{2}$ – remplacé par du Divico en 2025
+- • Gamaret Garanoir – 3'164 m$^{2}$
+- • Divico – 1'362 m$^{2}$
+- • Mara – 1'976 m$^{2}$
+- • Sauvignon – 1'083 m$^{2}$
+- • Merlot – 1'457 m$^{2}$
+- • Cabernet Franc – 1'034 m$^{2}$
+- • Malbec – 853 m$^{2}$
+
+Ces 3 cépages nous donnent le Trianon
+
+Un encépagement en Sauvignac, sur une parcelle non communale, servira de test dans la région. Le Sauvignac est un cépage obtenu par croisement entre du Sauvignon et du Riesling, qui présente une très bonne résistance à l'oïdium et une bonne résistance au mildiou. Cette variété semble très prometteuse sur le plan aromatique pour les vins blancs frais.
+
+Comme mentionné ci-dessus, le solde de la plantation de Pinot Blanc sera remplacé par du Divico et donc le dernier millésime en vente sera le 2024. Cela a été confirmé dans le descriptif de la souscription reçu entre temps.
+
+
+
+# **15. Est-ce que des labels sont respectés ou visés ?**
+
+La qualité du produit est le premier objectif. Depuis plusieurs années déjà, le Chasselas obtient le label « *Terravin d'or* » Ce label sélectionne les meilleurs vins vaudois selon des critères de qualité exigeants. Il garantit un Chasselas sans défaut, sublimé par son climat et son terroir.
+
+# **16. Qui fixe le prix ?**
+
+La Municipalité, sur proposition du Service communal des domaines & bâtiments et en fonction du marché et du coût de revient.
+
+# **17. Qui fait la promotion ?**
+
+La Municipalité délègue cette tâche au Service des domaines & bâtiments
+
+# **18. Lors des réceptions communales, est-ce qu'il n'est servi que du vin de la commune ?**
+
+Oui, mais avec d'autres types de boissons, tels que de l'eau gazeuse ou non, du jus de raisin (chasselas), de la bière au moût de raisin et d'autres boissons non alcoolisées.
+
+
+
+# Plan général d'affectation (PGA)
+
+## Introduction
+
+Le nombre de chantiers en cours et la densification de la Tour-de-Peilz suscitent au sein de la population et du Conseil Communal une série d'interrogations sur la capacité de la Commune à absorber ce développement au niveau de ses infrastructures.
+
+Cette problématique a amené la COGEST à s'interroger sur les effets de la révision du PGA adopté en 2019. La Municipalité nous a rappelé que les questions liées au PGA ne concernaient pas uniquement « l'année en cours de contrôle ». Cependant, considérant que ses effets se déploient actuellement, la COGEST a trouvé pertinent de rappeler le contexte dans lequel cette révision avait vu le jour, ainsi que son cadre légal et ses implications dans le développement urbanistique de la Tour-de-Peilz.
+
+A ce sujet et pour répondre à ses questions, la COGEST a été reçue le 3 mars dernier par Mme Kaiser, Municipale de l'Urbanisme et des Travaux Publics (SUTP), accompagnée de M. Walter, son chef de service.
+
+## Les motifs de la révision du PGA
+
+La révision a été motivée d'une part par l'obsolescence du PGA précédant datant de 1972 (avec modifications partielles en 1982 et 1984) et d'autre part par la nécessité de l'adapter au nouveau contexte légal du droit supérieur.
+
+### Contexte légal
+
+La Loi fédérale sur l'aménagement du territoire, LAT, entrée en vigueur en 2014 impose l'établissement d'un plan d'affectation pour définir le mode d'utilisation du sol avec une délimitation des zones à bâtir, zones agricoles et zones protégées. Ce dernier doit traiter de l'affectation de l'entier de son territoire communal.
+
+La Loi cantonale sur l'aménagement du territoire, LATC, prévoit quatre types de plans d'affectation, dont le PGA. Formellement, ce dernier document se compose d'un plan et d'un règlement. Il est accompagné d'un rapport justificatif au sens de l'article 47 de l'Ordonnance sur l'aménagement du territoire, OAT. Le Canton participe activement à l'examen puis à l'approbation des plans d'affectations communaux.
+
+### Droits supérieurs
+
+Il s'agit notamment de la LAT, de la LATC, et de leurs divers Règlements d'applications et ordonnances. Entrent également en considération et ont forcé légales les différents plans directeurs, dont la Plan Directeur Cantonal adopté par le Grand Conseil. A ces divers textes légaux s'ajoute également la jurisprudence en vigueur.
+
+### Synergies locales
+
+Les interactions et la concertation en matière d'aménagement du territoire entre communes voisines sont permanentes. La Commission régionale pour l'aménagement du territoire, CORAT, comprenant municipaux et chefs de service en charge de ce sujet pour la Riviera, se réunit régulièrement.
+
+Les diverses instances de l'Agglomération Rivelac permettent également de coordonner activement l'aménagement du territoire à l'échelle de l'ensemble de l'agglomération.
+
+
+
+## Historique
+
+|  Dates | Décision  |
+| --- | --- |
+|  01.1994 | **La Municipalité décide de procéder à la révision du RPE (ancien PGA) du 5 juillet 1972.**  |
+|  08.1994 | Présentation d'un 1er projet qui cherche à favoriser un meilleur développement urbanistique de la ville. Fait important, ce projet ne fait plus référence au Coefficient d'occupation du sol (COS) mais au Coefficient d'utilisation du sol (CUS). Certains secteurs de la Commune, comme le Bourg, voient leur densité habitable augmenter.  |
+|  07.1995 | Le projet est gelé à la demande du Service d'urbanisme, dans l'attente de la procédure imposée par le PDCom.  |
+|  02.2001 | La Municipalité accorde un crédit destiné à l'établissement du nouveau plan des zones.  |
+|  20.08.2001 | **Le nouveau projet de PGA est formellement adopté par la Municipalité.** La procédure se poursuit au niveau cantonal où le projet est examiné par différents services, dont le SAT.  |
+|  02.05.2003 | Examen complémentaire par le SAT.  |
+|  11.08.2003 | **La Municipalité donne son accord à la mise à l'enquête du nouveau PGA.**  |
+|  09.10.2003 | **Mise à l'enquête publique.** 8 oppositions.  |
+|  19.05.2004 | **Le Conseil Communal refuse de soutenir le préavis municipal** en invoquant l'absence de vision globale et politique, le manque de référence aux plans directeurs communal et régional et le manque de lien avec l'agenda 21 local. **La Municipalité décide donc retirer son préavis.**  |
+|  Rapport du 12.11.2007 | Examen préalable: établissement du plan, du règlement et du rapport 47 OAT.  |
+|  Rapport du 25.05.2009 | Examen préalable complémentaire n°1: des compléments importants sont apportés en lien avec le PDCn (entré en vigueur en 2008) et concernant le potentiel d'accueil de nouveaux habitants.  |
+|  Rapport du 03.05.2010 | Examen préalable complémentaire n°2: mise à jour concernant le potentiel d'accueil de nouveaux habitants (changement de méthode).  |
+|  Dépôt du 01.2014 | Modifications importantes apportées au projet de révision de PGA et de l'ensemble du dossier, en raison de l'évolution du PDCn et de son application. De nouvelles thématiques surviennent : les dangers naturels, l'espace cours d'eau. La méthode de calcul du potentiel d'accueil de nouveaux habitants a encore été modifiée.  |
+|  03.09.2014 | Dépôt pour examen préalable complémentaire n° 3: adaptation du dossier et modification de l'intégration de la thématique des dangers naturels .  |
+|  16.06.2015 | Mise en stand-by de l'examen préalable n° 3: l'entrée en vigueur de la LAT a engendré de nombreuses modifications dans le dossier.  |
+|  10.12.2015 | Dépôt d'un dossier modifié pour l'examen complémentaire n° 3.  |
+|  15.01.2016 | Dépôt d'un complément « danger naturel » à l'examen complémentaire n° 3.  |
+|  06.06.2016 | Rapport d'examen préalable : le dossier est à mis à jour pour l'enquête publique. Il est accompagné d'une information à la population. Les aspects liés à la LAT et au dimensionnement de la zone à bâtir ont évolué et ont impliqué une coordination accrue avec le SDT.  |
+|  01.02.2017 | **Nouvelle mise à l'enquête publique.** 11 oppositions.  |
+|  07.08.2017 | Mise à l'enquête complémentaire. Pas de nouvelles oppositions. Des modifications modestes ont été apportées (suite aux oppositions), en accord avec le Canton.  |
+|  27.06.2018 | **Le PGA est adopté par le Conseil communal.**  |
+|  15.05.2019 | **Entrée en vigueur du PGA.**  |
+
+
+
+# Les principes de la densification
+
+Le projet visait à renforcer progressivement la densité de la partie urbaine de La Tour-de-Peilz. Ceci tout en assurant une continuité cohérente du tissu urbain, entre le territoire agro-viticole et la frange urbaine encadrée par la route cantonale et la voie ferroviaire, pour aboutir au bord du lac avec une zone d'habitation de faible densité et des zones de verdure afin de préserver les rives.
+
+## Croissance démographique
+
+Le Plan directeur cantonal s'est basé sur divers scénarios démographiques et a clairement affecté au périmètre de « centre » (qui comprend l'Agglomération Rivelac) l'accueil de la majorité de la croissance démographique attendue. Il est important de noter que l'entièreté du territoire communal se trouve en périmètre « centre ».
+
+L'estimation de l'impact démographique prévisible du nouveau PGA faisait partie des divers documents qui ont été joints à l'enquête publique, notamment le rapport selon l'art. 47 OAT. Ces annexes ont été approuvées par le Conseil communal en 2018.
+
+Actuellement, la croissance réelle de la population se trouve en dessous de l'estimation maximale faite dans le cadre du PGA. La population, au 31.12.2023, était de 12'536 habitants. En tenant compte du taux de croissance maximum indiqué dans le rapport 47 OAT, la population aurait pu compter 13'016 habitants.
+
+## Planification des infrastructures
+
+Il ne semble pas y avoir eu à l'époque d'études ou de planification d'investissement concernant les infrastructures publiques à moyen et long terme en lien avec cette croissance estimée. Cette lacune a été corrigée avec l'élaboration de la Stratégie immobilière et planification communale 2024-2040 transmise au Conseil communal par le biais de la Communication municipale N° 26/2024, présentée au Conseil en marge de la séance du 5 février 2025.
+
+## Conclusion
+
+A l'époque, la commission chargée d'étudier le prévis municipal n°4/2018 a décidé à l'unanimité qu'il existait un intérêt supérieur à accepter le nouveau PGA. Elle a en outre salué la qualité du travail accompli.
+
+Selon la loi, un PGA peut être révisé tous les 15 ans ou lorsque les circonstances l'exigent. Il est dès lors possible d'entamer les travaux de révision du plan directeur communal PDCom (qui doit être mis à jour avant le Plan d'affectation communal, PACom, nouvelle dénomination du général d'affectation), d'ici à quelques années.
+
+En revanche, la modification du règlement, RPGA, est en cours d'élaboration et sera présenté prochainement au Conseil communal. Cette mise à jour doit permettre de combler certaines lacunes en attendant la révision future du PGA.
+
+## Observations et vœux
+
+### Vœu 2
+
+Etant donné que la transition énergétique n'a pas été considérée en tant que telle lors de l'élaboration du PGA de 2019, il est souhaité que cette thématique fasse partie intégrante du prochain PGA et de son règlement.
+
+### Vœu 3
+
+L'analyse des besoins et la planification des infrastructures devraient être réalisées ou actualisées en parallèle avec la révision du PGA.
+
+
+
+Glossaire des abréviations:
+
+|  COS : | coefficient d'occupation du sol  |
+| --- | --- |
+|  CUS: | coefficient d'utilisation du sol  |
+|  CORAT: | commission régionale pour l'aménagement du territoire  |
+|  LAT: | loi sur l'aménagement du territoire  |
+|  LATC: | loi cantonale sur l'aménagement du territoire et des constructions  |
+|  OAT: | ordonnance sur l'aménagement du territoire  |
+|  PDCn: | plan directeur cantonal  |
+|  PDCom: | plan directeur communal  |
+|  PEP: | plan d'extension partiel  |
+|  PPA: | plan partiel d'affectation  |
+|  PACom: | plan d'affectation communal  |
+|  PGA: | plan général d'affectation  |
+|  RPGA: | règlement du plan général d'affectation et de police des constructions  |
+|  RPE: | règlement sur le plan d'extension et la Police des constructions  |
+|  SAT: | service de l'aménagement du territoire (nom de l'époque)  |
+|  SDT: | service de développement territorial (nom de l'époque)  |
+
+Documents auxquels se référer:
+
+- Préavis municipal n° 04/2005
+- Préavis municipal n° 04/2018
+- Réponse municipale n° 6/2024
+- Communication municipale n° 24/2024
+- Communication municipale n° 26/2024
+
+
+
+## Chauffage à distance
+
+La commission de gestion s'est réunie le lundi 31 mars 2025, en présence de Madame Sandra Pasquier, Syndique, ainsi que de Monsieur Yves Roulet, chef de service du dicastère domaines et bâtiments, pour discuter du réseau CAD la Tour-De-Peilz disponible sur le territoire communal. Dans ce cadre, nous avons également eu l'opportunité de visiter la station de pompage de la Maladaire, le 16 janvier en présence de Monsieur Valentin Philipona de Groupe E Celsius, qui nous a fourni des explications techniques fort intéressantes et utiles à la compréhension du fonctionnement du système. Ce rapport reprend les informations fournies lors de ces deux rencontres.
+
+### Principe de fonctionnement
+
+Nous rappelons ici succinctement les principes fondamentaux de ce réseau. Il s'agit d'un système de valorisation de l'énergie utilisant l'eau du lac Léman, pompée à environ 50 mètres de profondeur au large de la plage de la Maladaire.
+
+L'énergie thermique de l'eau puisée à une température stable d'environ 7°C est transférée à travers un réseau souterrain jusqu'aux multiples sous-stations dans les bâtiments de chaque client raccordé. Chez chacun de ces clients, un système de pompe à chaleur permet d'élever la température et de fournir au final le chauffage et l'eau chaude sanitaire souhaitée.
+
+L'eau de retour, à une température de quelques degrés inférieure, est ensuite réacheminée à la station de pompage. Même s'il est encore peu utilisé, il est à noter que ce système peut également fonctionner de manière inverse et évacuer la chaleur des clients, se transformant en système de refroidissement (free-cooling).
+
+![img-0.jpeg](img-0.jpeg)
+
+Figure 1 : Schéma du coefficient de performance
+
+Un des chiffres clé dans ce genre de réseau est le coefficient de performance (COP) qui mesure le rendement du système. L'énergie de la « source froide » est extraite afin de fournir une énergie utile (source chaude), moyennant un apport électrique nécessaire au fonctionnement des divers élément (pompe, compresseur, régulateur). Le rapport entre l'énergie en sortie du système et l'énergie électrique consommée est ce fameux COP (voir figure ci-dessus). Ce coefficient est en moyenne annuelle de 2,67 pour le réseau CAD la Tour-de-Peilz actuel.
+
+### Historique et situation actuelle
+
+Les premières discussions pour l'installation de ce réseau remontent à 2011, en partie suite à des investigations pour relier les bâtiments du gymnase de Burier et des projets de nouveaux quartiers planifiés, tel que le domaine du Parc. Si le choix de Groupe E Celsius a étonné certains des
+
+
+
+commissaires, il s'explique entre autres par le fait que Romande Energie ne proposait pas, à l'époque, ce type de produit. La signature du contrat de mise à disposition des surfaces et du droit de superficie pour les installations techniques de la station de pompage, en grande partie excavée et située à l'extrémité ouest de la plage de la Maladaire, a été conclue en 2014, avec une validité jusqu'en 2038.
+
+![img-1.jpeg](img-1.jpeg)
+
+Figure 2 : Réseau CAD La Tour-de-Peilz, situation mars 2025 (source cartoriviera)
+
+La station de pompage est dimensionnée pour une capacité totale d'environ 20 MW. Le réseau actuel, d'environ 6 km, 100% sur le territoire communal, n'utilise de loin pas la pleine puissance de la station de pompage, puisque les 51 stations (bâtiments raccordés) actuelles ne totalisent que 2,5 MW de puissance client finale.
+
+### Implication de la commune et statut de la société exploitante
+
+Ce réseau appartient et est exploité par la société Groupe E Celsius SA, avec un actionnariat du Groupe E et de la ville de Fribourg. Notre commune n'a pas de participation statutaire dans cette entité, mais participe au travers de la mise à disposition de subventions pour les travaux de raccordement et par la coordination en bonne entente pour la synchronisation des ouvertures de chaussée. Il est à noter que selon l'art. 25 de la loi vaudoise sur l'énergie-LVEne, la Commune peut obliger à raccorder un bâtiment neuf ou subissant des transformations importantes au CAD si ce dernier est disponible, si le raccordement est techniquement possible et que l'opération est financièrement supportable.
+
+Cette situation de société en mains privées fait que les choix de développement et d'orientation techniques ne sont pas du ressort de notre commune et donc hors de l'évaluation de notre commission. Nous souhaitons néanmoins remercier nos interlocuteurs, autant chez Groupe E Celsius que la commune, qui nous ont fourni de précieuses informations.
+
+### Bâtiments communaux raccordés
+
+Il y a actuellement deux bâtiments communaux raccordés, à savoir le Collège de Bel-Air et le Pavillon de Bel-Air, pour des consommations respectives d'environ 180'000 kWh/an et 75'000 kWh/an. Seule la fourniture de chaleur est concernée, avec un tarif actuel de 26 cts/kWh. À ce tarif s'ajoutent des frais fixes d'environ Fr. 2'700.- pour le Collège de Bel-Air et Fr. 1'800.- pour le Pavillon de Bel-Air, pour une durée d'amortissement de 30 ans, correspondant à la durée de vie des installations. Il nous a été précisé que pour ces raccordements des négociations spécifiques sur les coûts de rachat et les conditions d'utilisation de l'électricité auto-produite par les panneaux photovoltaïques installés sur ces mêmes bâtiments ont eu lieu. Dans un avenir proche, le raccordement d'autres bâtiments en mains communales est envisagé, par exemple au chemin de Béranges 51, 74 et 111, à l'avenue des Baumes 22 et 24, et au pavillon de Vassin. Il est également prévu de raccorder les collèges du centre-ville une fois que le réseau sera disponible dans cette zone.
+
+
+
+# Impact et développement futur
+
+Les besoins des développements futurs au nord des voies CFF (zone de desserte actuelle) ont été estimés pour une puissance de 4,5 MW en plus des 2,5 MW déjà en service. En comparaison avec les 20 MW maximum de la station existante, il reste donc une capacité importante pour le projet d'interconnexion des réseaux CAD Vevey et CAD La Tour-de-Peilz (voir communiqué de presse « Lancement d'une collaboration tripartite pour développer un réseau thermique multi-énergies intercommunal », 2 décembre 2024 ).
+
+Certains obstacles techniques subsistent néanmoins, tels que le passage complexe des voies ferrées afin de raccorder la partie basse de la ville, des bâtiments anciens et mal isolés nécessitant une température de chauffage trop importante, ou des zones de faible densité de consommation rendant le développement de nouvelle infrastructure difficilement rentable.
+
+La diminution de l'empreinte carbone de notre commune grâce à ce réseau, fournissant de l'énergie renouvelable et faiblement carbonée, est actuellement estimée à 900 tonnes de CO₂ par an. Avec l'extension et les développements envisagés en collaboration avec Vevey, une économie jusqu'à 14'000 tonnes de CO₂/an est possible sous l'hypothèse d'un COP amélioré à 3,5 et que 80% des bâtiments actuellement chauffés au gaz et au mazout se raccordent au réseau CAD intercommunal. Cette situation aboutirait à une fourniture énergétique du réseau estimée à 60 GWh par an.
+
+# Conclusion
+
+La commission de gestion salue la volonté affichée par la municipalité de développer et mettre en avant ce moyen de production de chaleur innovant et d'en faire un atout pour notre commune. Nous avons constaté un sérieux et une compétence réelle auprès de tous les intervenants. Malgré cela, les incertitudes et le statut préliminaire des futurs projets nous ont été clairement présentés, renforçant l'impression de gestion pragmatique de ce sujet par les organes décisionnels de notre commune.
+
+La commission de gestion encourage la municipalité à poursuivre dans cette voie.
+
+
+
+## Préavis 10/2019 – Décompte final.
+
+Une sous-commission de la Commission de Gestion s'est réunie le 14 février 2025 au service de l'urbanisme et des travaux publics pour étudier les documents relatifs au décompte final du Préavis 10/2019 concernant le remplacement des luminaires à vapeur de mercure.
+
+Après une analyse rapide du préavis et des factures, nous avons constaté des incohérences entre les nombres de points lumineux à remplacer et ceux qui ont été effectivement remplacés. Ce préavis mérite une étude plus avancée avec une visite sur site. L'analyse, seule, des factures n'est pas suffisante pour comprendre ce sujet et vérifier la conformité du décompte final.
+
+Ainsi, il n'est pas exclu que ce thème fasse l'objet d'une étude plus approfondie dans le futur.
+
+## Préavis 10/2020 – Décompte final.
+
+Une sous-commission de la COGEST s'est réunie le 14 février 2025 au service de l'urbanisme et des travaux publics pour étudier les documents relatifs au décompte final du Préavis 10/2020 concernant l'assainissement, éclairage et réaménagement des chemins des Bulesses et du Crotton.
+
+Lors de la comparaison entre le préavis et les factures de cet objet nous avons constaté la bonne ventilation des montants en fonction des 2 catégories de comptes (affectés, hors TVA et routier, y.c TVA).
+
+Le seul gros problème relevé réside dans l'utilisation du crédit voté et la réalisation des travaux.
+
+- Le montant disponible au préavis pour « Plantation et végétalisation » de CHF 12'000.- a été porté à CHF 29'781.40 soit une augmentation de 148% dont une bonne partie a servi à végétaliser le secteur où la haie de charmille aurait dû subsister entre la chaussée et le trottoir.
+- Le solde non dépensé de CHF 94'542.85 provient principalement de la partie sécuritaire du préavis, soit la non-exécution du trottoir sur la partie Est du chemin du Crotton et l'absence de l'éclairage. L'absence de pose de tubes de réserve (voir PV N° 26 page 410) a également contribué à ce résultat.
+
+### Observations et vœux
+
+#### Vœu 4
+
+La COGEST souhaite que la municipalité revienne avec un projet de sécurisation des piétons sur ce secteur.
+
+
+
+# Musée Suisse du Jeu 2024
+
+Le mardi 24 mars 2025 la commission de gestion a rencontré les membres du Conseil de fondation du musée :
+
+- Vincent Bonvin, président, conseiller municipal
+- Guy Chervet, caissier, expert-comptable, conseiller communal
+- Pierre-André Dupertuis, secrétaire du conseil, secrétaire municipal
+- Selim Krichane, directeur du Musée suisse du jeu
+- Pascal Nicollier, vice-président
+
+En amont de cette réunion, la commission avait reçu les documents suivants :
+
+- Rapport d'activité de la Direction
+- Comptes audités de la Fiduciaire Gross S.A.
+- Présentation M. Krichane
+
+Le directeur du musée, M. Krichane, présente à la commission son rapport de la situation du musée, qui suit essentiellement le rapport d'activité. M. Krichane met 2 points comme fil rouge en avant du rapport 2024 :
+
+- Première année complète de la nouvelle direction : très chargée avec un grand succès de croissance des entrées à 30'000 entrées (+ 92%)
+- Un programme actif avec des événements mensuels
+
+1. Est-ce qu'on peut expliquer la croissance extraordinaire des visiteurs (15'000 à 29'000 = 90%) et des recettes (CHF 116'000 à CHF 185'000 = 50%) plus en détail ?
+
+- Les recettes "entrées visiteurs" incluent l'intégralité des recettes des activités de médiation (inclus visites guidées, anniversaires, ateliers, ...).
+- Pour la bonne comparaison : les recettes des entrées pour 2023 étaient d'environ CHF 77'000. En 2024, ce chiffre est de CHF 141'000. Soit une augmentation de 83% environ, ce qui correspond au taux de croissance
+- Les événements gratuits ont un impact, mais celui-ci reste maîtrisé (90% de visiteurs en plus pour 83% de gain supplémentaires).
+- La direction n'a pas encore de statistiques sur la provenance des visiteurs (en projet pour l'avenir), mais uniquement selon l'âge avec une répartition stable sur les trois dernières années : 50% adultes, 40% entre 16 et 6 ans et 10% moins de 6 ans.
+- La fréquentation enregistrée a largement dépassé les attentes pour 2024 espérées à 20'000 entrées. L'objectif est de stabiliser cette fréquentation et de se situer entre 30'000 et 40'000 dans les années à venir.
+- Les points clés pour les visiteurs étaient le renouvellement de la scénographie, les expositions interactives et immersives. Cela passe notamment par la présence de jeux vidéo.
+
+2. Suite aux spécificités des positions Loterie Romande et UBS (liées à l'annulation d'un projet spécifique) en comptabilité de l'année précédente, il y a cette année des nouveaux donateurs et
+
+
+
+sponsors (pour un montant total de CHF 300'000). S'agit-il des mêmes donateurs ? Se sont-ils engagés à renouveler leur financement dans le temps ? Et concernant les nouveaux donateurs qui avaient été évoqués dans le rapport de 2024, est-ce que vos attentes ont été réalisées ?
+
+La direction compte sur le soutien durable de la Loterie Romande qui reste indispensable. Certains donateurs restent les mêmes en 2025 (Fondation Sandoz, SERAC, Nestlé, BCV) mais la direction a également fait des efforts pour trouver de nouveaux soutiens comme la Fondation Brentano, la Fondation Pittet, la Romande Energie, l'UNIL. (Ces nouveaux soutiens ne figurent pas dans le tableau ci-dessous pour les soutiens en 2024) Elle est également en attente d'un possible soutien de la Fondation Leenaards et projette de mener une campagne annuelle pour le financement du Festival (du Jeux ?).
+
+|  Produits "de la case au pixel" 2024  |   |
+| --- | --- |
+|  Libellé | CHF  |
+|  Loterie Romande | 100'000  |
+|  Ernst Goehner | 20'000  |
+|  Fondation Sandoz | 30'000  |
+|  AAMSJ | 30'000  |
+|  Fondation UBS | 50'000.  |
+|  Fonds de donation La Mobilière | 5'000  |
+|  Canton de Vaud – SERAC | 6'000  |
+|  Nestlé | 10'0000  |
+|  Fonds FNS Agora (via UNIL) | 50'000  |
+|  Total | 301'000  |
+
+Remarque : la somme de CHF 50'000 obtenue auprès du Fonds National Suisse de la Recherche Scientifique (de la professeure Véronique Dasen, Université de Fribourg) n'est pas visible dans les comptes, car elle a été versée directement au partenaire scientifique. Le MSJ reste cependant co-requérant du projet et cette enveloppe a permis de financer des éléments de la scénographie ainsi que des ateliers pédagogiques.
+
+3. Selon la politique de la Commune, le subside de CHF 695'000 devait servir à couvrir les frais du personnel qui se montent à CHF 759'000. Y a-t-il eu un changement qui explique l'augmentation de 16% des coûts du personnel ? Et si ce nouvel investissement est nécessaire, comment assurer son financement pour les années à venir ?
+- L'augmentation des frais de personnel est en grande partie liée à l'affluence dans le musée. Les frais sont répartis de la manière suivante :
+  - + 28% pour les frais de personnel d'entretien (les employés ont parfois dû venir les dimanches)
+  - Les frais des auxiliaires de réception ont doublé
+  - + 40% environ pour les frais liés aux guides (liés à l'augmentation des prestations de médiation)
+  - Il s'agit donc majoritairement d'une augmentation liée à des frais variables.
+- Les taux d'activité de certains employés ont augmenté pour répondre à la demande.
+- Certains coûts étaient externalisés avant 2023 (principalement liés au poste communication).
+
+Remarque : l'enveloppe globale des salaires des employés fixes restant malgré tout relativement stable.
+
+
+
+4. **La tendance est à des frais d'exposition qui augmentent. Est-ce cette tendance est justifiée par le succès des recettes ?**
+
+L'augmentation de la fréquentation est intimement liée aux développements et aux projets d'expositions ambitieux mis en place depuis 2023-2024 et qui nécessitent un budget important tournant autour de CHF 250'000 - 300'000.
+
+La quasi-totalité du budget est financée par des apports externes qui sont restés stables entre 2024 et 2025 et qui constituent aujourd'hui le moteur de notre croissance.
+
+5. **Quels sont les autres frais ? Et leurs justifications ?**
+
+# **Doublement des frais juridiques :**
+
+Dans cette catégorie figurent les coûts liés au mandat de prestation externe du comptable.
+
+Le fait que la Loterie Romande demande une certification dédiée à l'utilisation des fonds octroyés pour les expositions représente également un coût supplémentaire.
+
+Ce poste comprend également l'abonnement à un service de conseil juridique auprès du centre patronal (500 CHF/an).
+
+# **Réduction des coûts liés à la publicité de 90% :**
+
+Le mandat externe de communication assuré par Morgaja jusqu'en juin 2023 entre dans cette catégorie (environ CHF 75'000), ce qui explique la différence relevée entre 2022-2023 et 2024. En réalité, le budget marketing a augmenté et il est en grande partie financé par le budget des expositions temporaires (soit environ CHF 40'000).
+
+# **Triplement des frais d'entretien :**
+
+Certains frais d'entretien 2023 ont été réglés en 2024 (CHF 2'000), à noter en L'augmentation de la fréquentation du musée est proportionnelle à l'augmentation des besoins en nettoyages. A cela est lié l'usure du matériel ainsi que la hausse de la consommation des produits d'hygiène.
+
+6. **En 2024, nous avons reçu l'information de changement de personnes au sein du Conseil de Fondation. Est-ce que la succession au sein du conseil de fondation est assurée ?**
+
+La transition est en cours pour le poste de Guy Chervet. La transmission d'information (comptabilité, finances, TVA) pour son successeur est assurée par Guy Chervet. Du coup : Pas de risque identifié pour la gouvernance.
+
+7. **Y a-t-il des nouvelles infos pour la convention commune / musée (rénovation château) ?**
+
+Cette convention est en lien direct avec le projet de rénovation du site. La question pour cette convention reste un risque permanent / pas clarifié pour MSJ (selon COGEST). C'est le contrat le plus important pour le MSJ. Mais - enfin - c'est une question politique pour la commune. Du coup, c'est hors compétence COGEST.
+
+8. **Est-ce que le MSJ compte développer son offre de restauration ?**
+
+Le MSJ a développé une petite offre de boissons à partir de 2024 qui génère un chiffre d'affaires d'environ CHF 7'000. Cette offre sera certainement caduque lors de l'arrivée d'un restaurant sur le site.
+
+9. **La COGEST avait émis 3 vœux l'année passée. Qu'en est-il de la réalisation de ces vœux ?**
+
+# **Vœu 1 (2023) - mise à jour du site internet**
+
+La mise à jour du site est un point important sur lequel nous pouvons et souhaitons encore progresser. C'est une des priorités de l'équipe pour 2025. Jusqu'à aujourd'hui, la Responsable
+
+
+
+Communication et Marketing n'a pas eu la disponibilité nécessaire pour la création de la totalité du contenu. Mais un remaniement de son cahier des charges est en cours pour lui donner plus de temps, notamment pour les tâches en lien avec le site web (mise à jour du calendrier, actualités, offre d'activités, etc.)
+
+#### ***Vœu 2 (2023) - meilleure promotion de la boutique***
+
+En 2024 les ventes de la boutique montrent une croissance de 25%. Cette croissance est inférieure à celle des recettes pour les entrées.
+
+Les frais d'achats ont été de CHF 50'000 pour un chiffre d'affaires de la boutique de CHF 80'000. A prendre en compte dans le solde net de la boutique de 30'000, la valeur de stocks plus importante qu'en 2023 (CHF 21'000 vs CHF 15'000).
+
+Cette croissance plus faible est également liée au contexte économique. Un recul général des ventes en boutiques est observé.
+
+Le MSJ n'a pas encore eu le temps de revoir la promotion de la boutique, notamment en ligne, mais une « Task Force Boutique » a été créée à l'interne pour dynamiser l'offre. Il va également évaluer les opportunités ainsi que les risques en lien avec la vente en ligne, mais cela nécessitera un investissement important.
+
+#### ***Vœu 3 (2023) - augmentation du nombre de guides volants (visites et ateliers)***
+
+Le MSJ a été très actif dans l'organisation d'événements, notamment cet été, durant les vacances scolaires (Pâques et automne) et avec le Festival du Jeu. Des visites guidées gratuites ont été organisées chaque mois en 2024 à partir d'avril (12 journées gratuites au total d'avril à décembre, dont 3 journées spécialement pour les familles).
+
+### **Conclusion**
+
+La COGEST relève, à l'unanimité et pour la deuxième année consécutive, la performance exceptionnelle de la nouvelle direction : l'engagement et les résultats montrent une croissance impressionnante du MSJ pour la période en revue.
+
+
+
+# Rapport de la COGEST sur les préavis N° 7/2025 et 8/2025
+
+## CONTRÔLE DES COMPTES 2024
+
+La commission de Gestion (COGEST) s'est réunie à trois reprises pour procéder au contrôle des comptes de la Commune. Les séances étaient réparties comme suit :
+
+**Lundi 28 avril 2025** - Examens des comptes Urbanisme et Travaux publics
+
+En présence des Finances et du dicastère concerné
+
+**Jeudi 01 mai 2025** – Examen des comptes Administration générale & Ecoles, Famille, Jeunesse, Sport et Culture
+
+En présence des Finances et des dicastères concernés
+
+**Mardi 06 mai 2025** - Domaines et bâtiments & Finances
+
+En présence des Finances et des dicastères concernés
+
+La COGEST a formulé trois types de questions :
+
+1. Questions générales les comptes
+2. Questions sur les différences de montants entre les exercices 2023 / 2024 ou entre le budget et les comptes 2024
+3. Questions sur le contenu des comptes
+
+Avant chacune des séances, la Municipalité a fourni à la COGEST un extrait spécifique des comptes accompagné de notes explicatives. Ceci a facilité le travail de préparation de la COGEST et a amélioré la qualité et l'efficacité des séances.
+
+Nous adressons tous nos remerciements aux chefs des services concernés pour le temps qu'ils nous ont consacré et la qualité des réponses fournies.
+
+Les informations complémentaires et les remarques de la COGEST sont résumées ainsi :
+
+
+
+# Administration générale SADM
+
+## 101 Municipalité
+
+**101.3040.00 Fonds de prévoyance.** *Augmentation 33.76% alors que les traitements diminuent de - 3.54%* M. Grangier, à la retraite, ne cotisait plus à la LPP, contrairement à M. Grutta.
+
+## 111 Administration Générale
+
+**101.3040.00 Annonces et publications.** *Plus d'annonces du tout ou mauvaise imputation ?*
+
+La facture a été reçue et imputée en 2025. Un dépassement est à prévoir en 2025 si le contrat est reconduit.
+
+**111.3170.02 Manifestations diverses.** *Pourquoi cette baisse de 28.2% (- 10'295.-)*
+
+L'exposition 'Fantômes du Léman' n'a pas été réalisée et les dépenses ont été moins élevées que prévues pour les manifestations suivantes : la Parade de la CGN, les Jeunes Boélands et les Nouveaux bourgeois.
+
+**111.3651.00 à Subventions XXX.** *Expliquer le mode de calcul pour justifier les divers écarts entre B24
+
+et C24 (de - 48.3% pour Dring dring à + 56.55% pour Aménagement du territoire)*
+
+Pour obtenir le versement d'une subvention ou d'une cotisation, les associations/sociétés doivent faire la démarche auprès de la Commune.
+
+**111.3651.00 : Subventions - Justice et sécurité :** Versement au Doyen pas fait (CHF 200)
+
+**111.3652.00 : Subventions - Enseignement et cultes :** l'association des parents d'élèves n'existe plus (CHF 200)
+
+**111.3653.01 :** Garantie de déficit Union chorale (CHF 7'000) versement de CHF 1'557 pour 2024
+
+**111.3653.03 :** Cotisation Dring Dring payée en 2024. La facture de la participation aux livraisons, reçue en 2025, est partie sur les comptes 2025 (on aurait dû faire une réserve) (- CHF 5000)
+
+**111.3653.30 : Subventions - Culture, loisirs et sports :** Le versement au Montreux Choral (CHF 1'000) n'a pas été fait (courrier non reçu). Le montant pour le scrabble club n'est pas adapté : 1'000.- et non 550.- (budget à corriger)
+
+**111.3656.00 : Subventions - Aménagement du territoire :** Ajouter 'Fonds vaudois du bois' (+ CHF 260)
+
+**111.3658.00 : Subventions - Economie publique :** Pas de versement au marché de Noël ( CHF 1'500) ni pour les entreprises durables - partenariat promove (- CHF 1'500)
+
+## 121 Centre d'impression
+
+**121.3101.01 Photocopies noir et blanc.** *Explications pour ces – 71,6%*
+
+Le photocopieur Xerox noir/blanc n'a pas été installé dans le centre d'impression provisoire (suite aux travaux de rénovation de la Maison Charlemagne). Le contrat de ce photocopieur a été résilié pour 2025 et ne sera pas renouvelé. La qualité d'impression et les coûts d'impression sont meilleurs sur la presse de production Canon.
+
+**121.3189.00 Mandats externes culture.** *Plus d'explications*
+
+Un seul mandat a été externalisé. Il s'agit de l'illustration pour la Scène Charlemagne. Tous les autres mandats des Affaires Culturelles ont été réalisés à l'interne.
+
+
+
+## 130 Ressources humaines
+
+### 130.3030.01 Allocations familiales communales *Pourquoi une telle augmentation ?*
+
+L’engagement de personnes avec enfants n’est pas prévisible.
+
+### 130.3050.01 Assurance maladie perte de gain *Budget surévalué ?*
+
+Cela s’explique par le fait que plusieurs postes d’engagements n’ont été pourvus que dans le courant de l’année 2024, alors les charges patronales avaient été calculées pour l’entièreté de l’année civile.
+
+### 130.3051.00 Assurance accidents *Budget surévalué ?*
+
+Cela s’explique par le fait que plusieurs postes d’engagements n’ont été pourvus que dans le courant de l’année 2024, alors les charges patronales avaient été calculées pour l’entièreté de l’année civile.
+
+### 130.3091.00 Frais de formation du personnel *Plus de précisions sur ce compte*
+
+Il s’agit de 30 formations individuelles de moins de CHF 2’000. Il s’agit entre autres de 2 brevets fédéraux aux espaces verts, 10 formations de groupe (Cursus Valeur plus, parcs et jardin taille à la corde, permis cariste, gestion des absences).
+
+### 130.3091.01 Frais de formation des apprentis *En quoi consiste cette formation ? Pourquoi cette différence ?*
+
+CHF 80 par mois par apprentis (loi cantonale). Mise à niveau de tous les formateurs sur place de travail (commerce) pour CHF 3’000. Voyages d’études obligatoires des apprentis des secteurs extérieurs. Cotisations Jardin suisse (subvention pour la formation). Remboursement du matériel scolaire à raison de 2/3 qui ont diminué car la nouvelle ORFO privilégie les accès numériques aux livres ou brochures d’apprentissage. La différence, 2 apprentis en moins.
+
+### 130.3099.02 Charges diverses *Plus d'explications sur ces charges diverses (dépassement budgétaire de 64'376)*
+
+Il s’agit des frais suivants : apéritifs de jubilés, départs à la retraite, achat de chèques REKA, francs paysans, diverses attentions, gratifications de fin d’année.
+
+La différence importante vient de la participation “employeur” pour les enfants des employés placés en accueil familial de jour AFJ ou dans les garderies.
+
+Participation de l’employeur à la couverture des excédents charge pour la garde des enfants des employés de la Commune. Budget CHF 30’00 (erreur de budget sur les acomptes reconnus par la FSAT et davantage d’enfants placés avec les nouveaux engagements.) Solde participation 2023 de CHF 40’118.75 arrivée en mai 2024 facturée en 2024. Acompte 2024 de CHF 37’223, réserve pour 2e acompte 2024 de CHF 40’000.
+
+## 151 Salle des Remparts
+
+### 151.4351.00 Prod. Photovoltaïque Rempart *Surestimation du prix de vente ou sous-production ?*
+
+La production d’électricité est stable, c’est le prix de vente qui a été surestimé. Le budget 2025 sera corrigé en conséquence.
+
+## 153 Sport et jeunesse
+
+### 153.3170.01 Afterworks. *Explications sur la non-dépense de - 87,42%*
+
+Une seule soirée Karaoké a eu lieu en 2024. Le service s’interroge sur la suite à donner à ces événements (lieux, dates, externalisation éventuelle ou abandon).
+
+
+
+# **153.3170.90 Manifestations diverses** *Explications sur la non-dépense de – 93,33%*
+
+Il n'y a pas eu de manifestations extraordinaires en 2024.
+
+# **153.3199.00 Animations** « *Certaines animations ne se sont pas déroulées* ». *Liste du prévu au budget et liste de l'exécuté, les 2 listes avec les montants svp*
+
+Non réalisés :
+
+CHF 9'500: Camp d'automne à Gryon (raison: ressources humaines insuffisantes)
+
+Réalisés :
+
+CHF 3'900: expérience de coaching pour les seniors
+
+CHF 17'500: animations diverses (camps - loisirs divers - activités parascolaires, fête du jeu, manifestations diverses)
+
+CHF 8'000: La Suisse Bouge : projet 'Andiamo' (animation Place des Anciens Fossés). La majorité des frais ont été pris en charge par l'organisateur. Ce montant sert à des activités extraordinaires ou si la manifestation n'a pas de sponsors principales. Pour info, Coop va se retirer du programme et seule 5 localités seront proposées en Suisse, dont LTDP.
+
+CHF. 6'000: programme d'Urban Training (18 cours) et en complément de l'offre, les dimanches matins 'Sport dans les parcs'.
+
+# **153.3653.00/01/03/04/05 Subventions** *Explications sur la non-dépense*
+
+Ci-dessous les associations qui n'ont pas fait leur demande de subventions en 2024:
+
+Le CS La Tour (football) - CHF 9'000.00. Il décale dorénavant la réception de sa subvention en fin d'année scolaire.
+
+Tennis - CHF 2'500 versé en 2025 (facture tardive).
+
+Club équestre Villard - CHF 1'200 (pas de demande cette année)
+
+Site Sport info Riviera - CHF 3'500 (pas de facture en 2024)
+
+Vevey Triathlon (pas de demande)
+
+153.3653.01 : Demandes de subventions individuelles plus faibles et pas de camp de Gym en 2024
+
+153.3653.03 : Le démarrage du Conseil des jeunes n'a pas encore eu lieu.
+
+153.3653.04 : Vevey n'a pas facturé pas ses prestations.
+
+153.3653.05 : Le projet féminin avec le CS la Tour n'a pas eu lieu. Le projet handicap tournoi de basket n'a pas été reconduit en 2024. Le projet Gym groupe extraordinaire, n'est plus soutenu financièrement mais des salles sont mises gratuitement à sa disposition.
+
+## Finances SFIN
+
+# **200 Comptabilité générale, caisse**
+
+**200.3663.00 et Cartes CFF et cartes CFF.** *Vente C23 Achat de cartes 60'641 - 53'628 vente de cartes = 7'013*
+
+**200.4359.02 charges C24 bénéfice 4'643.- Opération moins risquée mais plus de travail?**
+
+La Commune a proposé la nouvelle carte journalière CFF dégriffée dès le 11 décembre 2023. Cette dernière est émise en ligne sur la plateforme des CFF par le SFIN au moment de l'achat au guichet par le citoyen. Avec cette nouvelle méthode, il n'y plus de stock, donc plus de risque lié aux invendus.
+
+Les CFF offrent 5% de commission aux Communes pour compenser le travail plus conséquent au guichet (saisie des données du client et du voyage sur la plateforme CFF).
+
+
+
+# **200.4690.00 Don et leg** *Donateur sans héritier ?*
+
+Il s'agit de la suite de la succession de Hans Bosshard qui a été liquidée entre 2023 et 2024. En 2023, deux mouvements pour un total de CHF 732'044.20 ont été enregistrés. En 2024 il y a eu un dernier mouvement de CHF 46'025.76. La succession aura donc rapporté CHF 778'069.96 à la Commune, soit le tiers du total de la succession (partagée entre la Ligue contre le cancer, la Station ornithologique suisse de Sempach et notre Ville).
+
+# **210 Impôts**
+
+# **210.3290.00 Intérêts rémunératoires** *Explications complémentaires*
+
+L'administration cantonale des impôts (ACI) applique des intérêts moratoires (de retard) ainsi que rémunératoires (en faveur du contribuable) sur les paiements (acomptes et décomptes) d'impôts. En 2024, les intérêts rémunératoires ont été fixés à 0.325% par l'ACI. Ces frais sont refacturés à la Commune et figurent dans ce compte. A noter que le montant au budget 2025 a été adapté à CHF 10'000, sachant qu'il était de CHF 30'000 dans plusieurs budgets précédents.
+
+# **210.4011.00 Impôt sur le bénéfice des sociétés** *Explications complémentaires*
+
+L'impôt sur le bénéfice des sociétés dépend du résultat des différentes sociétés concernées (dont une grande société qui contribue pour une part importante) et est très variable selon les exercices. Le SFIN rencontre l'Administration cantonale des impôts (ACI) une fois par année dans le cadre de l'établissement du budget pour obtenir des informations concernant l'évolution supposée des impôts des sociétés. Mais même l'ACI a des difficultés à faire des prévisions pour le Canton, sachant que les outils 'patent box' (permettant une imposition réduite des bénéfices provenant de brevets et de droits comparables, suite l'entrée en vigueur de la Réforme fiscale et financement de l'AVS RFFA au 1er janvier 2020) ainsi que 'IIES' (imputation d'impôts étrangers prélevés à la source, soit la déduction en Suisse de des impôts prélevés à l'étranger sur des revenus étrangers comme les dividendes, les intérêts ou les redevances de licences, pour éviter une double imposition) jouent un rôle de plus en plus important ces dernières années.
+
+# **210.4414.00 Impôts sur les frontaliers** *Les frontaliers se sont-ils établis ?*
+
+L'impôt sur les frontaliers est en baisse de CHF 0.20 mio (soit 76.70 %), en raison d'une communication tardive des informations à l'Administration cantonale des impôts (ACI) par une grande entreprise. Le montant manquant sera ajouté aux recettes fiscales 2025.
+
+# **220 Service de la dette**
+
+# **220.3290.00 Intérêts attribués aux fondations** *Pourquoi une telle baisse ?*
+
+La Commune accorde un intérêt rémunératoire aux fonds et fondations figurant sous la rubrique 9233 du bilan (total CHF 1'259'354.37 au 31.12.24), selon le niveau des taux d'intérêts à court terme en fin d'année. Fin 2023, le taux appliqué était de 1.80%, contre 0.35% fin 2024.
+
+# **223 Fonds de péréquation** *Explications générales sur le système des écritures*
+
+La division 223 'Fonds de péréquation' concerne la péréquation intercommunale, qui est l'une des trois composantes de la péréquation. La péréquation comprend la facture/cohésion sociale (participation de la Commune aux charges cantonales, qui figure dans la division 720 'Prévoyance sociale'), dite péréquation intercommunale ainsi que la Réforme policière (participation de la Commune aux charges cantonales, qui figure dans le compte 600.3511.00 'Réforme policière').
+
+
+
+La péréquation intercommunale comprend trois instruments permettant de réduire les disparités entre les Communes : la couche population, la couche solidarité et les dépenses thématiques. Les montants redistribués au moyen de ces trois instruments sont financés par les Communes proportionnellement à la capacité financière de chacune d'entre elles (selon la valeur du point d'impôt). La Commune de La Tour-de-Peilz est concernée par la couche "population" et les dépenses thématiques, mais pas la couche "solidarité" (la valeur de son point d'impôt étant au-dessus du barème pour bénéficier de cet instrument).
+
+Pour la péréquation intercommunale, les deux parties (population et dépenses thématiques) sont enregistrées comme suit durant l'année:
+
+- 223.4520.00 "Péréquation directe (population)" = revenus de la couche "population"
+- 223.4520.03 "Péréquation directe (dépenses thématiques)" = revenus des dépenses thématiques
+- 223.3520.00 "Péréquation directe (alimentation)" = charges/contribution à la couche "population"
+
+Lors du bouclement des comptes, le SFIN effectue une simulation pour déterminer s'il y aura encore un montant à payer ou à recevoir. Dans les comptes 2024, un solde à payer d'environ CHF 140'000.-- est attendu, enregistré dans le compte 223.3520.02 "Provision solde (péréquation directe)".
+
+Durant l'exercice intervient également le décompte final de la péréquation de l'année précédente.
+
+Ce dernier peut présenter un montant à payer ou à recevoir.
+
+Dans les comptes 2024, le décompte 2023 a présenté un solde favorable de CHF 118'227 pour la Commune, qui a été enregistré dans le compte 223.4520.01 "Solde année précédente (péréquation directe)".
+
+Vu que la Commune dispose d'un fonds de réserve pour la péréquation (compte 9281.003.00 "Fonds régulation péréquation" avec un solde de CHF 6'471'766.90 au 31.12.24), le solde favorable de CHF 118'227 a été attribué à ce fonds de réserve via le compte 223.3809.00 "Attrib. fonds régul. péréqu. (péréquation directe)".
+
+230
+
+# Fonds de réserve et de renouvellement
+
+230.4809.07 Prél. fonds 9282.001.00 - 2% inflation B24 Explications sur le fonctionnement / système des écritures
+
+Ce fonds a été alimenté par le passé par les bénéfices d'exercices antérieurs.
+
+Comme son nom l'indique, ce fonds peut être utilisé pour compenser des dépenses et des investissements.
+
+Pour les investissements, les amortissements sont effectués via le compte de fonctionnement (comptes de nature 332) et compensés par un prélèvement dans ce fonds (comptes de nature 48).
+
+Pour le fonctionnement, dans le cadre du budget, un prélèvement est effectué dans ce fonds pour compenser l'inflation sur les charges.
+
+Vu les bons résultats des derniers exercices, ces prélèvements prévus au budget n'ont pas été nécessaires dans les comptes.
+
+
+
+## Domaines et bâtiments SDOM
+
+De grands écarts entre le budget 24 et les comptes 24 ont été constatés sur les divers comptes xxx.3122.00 Achat et consommation de gaz (à la baisse) ainsi que sur les comptes xxx.3124.00 Achat et consommation de mazout (à la hausse).
+
+Les comptes concernant le gaz ont subi une importante diminution car le chauffage au mazout a été privilégié pour vider les citernes dans le but de pouvoir en permettre le remplissage avec du mazout-eco. Le fonctionnement au mazout sert en cas de nécessité (pénurie de gaz par exemple), le fonctionnement au gaz est privilégié.
+
+Une meilleure utilisation et régulation des installations a aussi influencé le compte 170.312.00 (Stades)
+
+### 320 Domaine de Blonay
+
+#### 320.4359.00 Recettes diverses *Quel genre de revenus imprévisible ?*
+
+Il s'agit de la dissolution d'une réserve pour coupe de bois (les dépenses ont été inférieures aux prévisions).
+
+### 330 Vignes
+
+#### 330.3186.00 Assurance grêle *Moins de parcelles assurées ?*
+
+Suivant un principe de mutualité, le montant annuel des polices d'assurance dépend des conditions météorologiques.
+
+#### 330.4359.00 Recettes diverses *CA-CVM = Conseil d'Administration Cave Montreux Riviera ?*
+
+Sur la base du nouveau règlement communal, le versement de la participation au CA se fait directement à l'administrateur. Par contre, les heures et/ou frais liés à la participation au CA de l'administrateur ne sont plus comptabilisés.
+
+### 341 Places de stationnement
+
+#### 341.4231.19 Location Béranges 74 *Combien de places et à quel montant unitaire ?*
+
+Il s'agit de 15 places de parc + 1 place visiteur. Les baux varient entre CHF 60.- et CHF 70.- par mois.
+
+Une seule place est facturée avec TVA, les autres sont comptabilisées dans le compte 340.4231.19
+
+#### 341.4272.04 Location diverses places *D'où viennent ces 15 places, quel était leur statut avant la location au corps enseignant ?*
+
+Il s'agit de 15 places de parc avec des baux de CHF 70 par mois (sur les sites de Bel-Air et Cadet-Rousselle). Le budget sera rectifié pour 2025.
+
+## Urbanisme et travaux publics SUTP
+
+### 430 Routes et voirie
+
+#### 432 Eclairage public
+
+#### 432.3123.00 Electricité. *Plus d'explications sur cette diminution (-25%)*
+
+Cela s'explique d'une part par la diminution des facturations au forfait (dû à l'augmentation des installations de compteurs) et d'autre part par la baisse du prix du kWh.
+
+
+
+# **440 Espaces verts**
+
+**440.3134.03 Décorations pour manifestations.** *Pas de manifestations ? (B = 17'000 / C = 406)*
+
+Le montant est réparti sur d'autres comptes (excepté pour les décorations de Noël).
+
+# **450 Ordures ménagères**
+
+**450.3114.00 Achat de mach., mat. expl. et d'entretien.** *Qu'y avait-il de prévu mais non dépensé ? (- 71'351 / - 60%)*
+
+Les réserves prévues pour les moloks n'ont pas été utilisées.
+
+**450.3154.00 Entretien machines, mat. exploit. et entret.** *Qu'y avait-il de prévu mais non dépensé ? (- 18'944 / - 54%)*
+
+Les réserves prévues pour les moloks n'ont pas été utilisées.
+
+**450.3189.00 Frais divers.** *Mauvaise imputation ?*
+
+Il s'agit d'une différence d'arrondi de 3 centimes entre le décompte final 2023 des 3 Villes communiqué au bouclement 2023 et la facture réelle reçue sur 2024.
+
+**450.3526.06 Traitement papier et cartons.** *Mauvaise imputation ?*
+
+Il s'agit d'une différence d'arrondi de 1 centime entre les 3 acomptes 2024 et le décompte final 2024 des 3 Villes
+
+**450.4354.00 Ventes de produits de récupération.** *Mauvaise imputation avec compte 450.4354.01 ?*
+
+S'agissant du papier/carton, un montant de CHF 32'055.12 aurait effectivement dû être imputé sur le compte 450.4354.01.
+
+# **470 Port**
+
+**470.3199.00 Frais divers.** *Rien au budget ni aux comptes précédents*
+
+Ces frais sont liés à des événements de pollution survenus dans le port en 2023 (facture arrivée en 2024) et en 2024. Les frais d'intervention ont été facturés par le Canton à la Commune (concessionnaire), car le responsable de cette pollution n'est pas connu.
+
+# **Famille, jeunesse, sport et culture + Écoles SFJS + ECO**
+
+# **500 Administration des écoles**
+
+**500.3522.00 Finances d'écolage (autres communes)** *A expliquer*
+
+Pour les élèves inscrits dans un autre établissement, la Commune est facturée à hauteur de CHF 1'300 par élève et par année scolaire, répartis de la manière suivante :
+
+5/12e pour la période d'août à décembre
+
+7/12e pour la période de janvier à juillet
+
+Pour les élèves inscrits dans une classe de raccordement, le coût annuel facturé est de CHF 4'000 par élève, suivant la même logique de répartition temporelle.
+
+# **501 Bâtiments scolaires**
+
+**501.3123.00 Electricité**
+
+Concernant la consommation électrique des bâtiments scolaires, il y a eu une adaptation de la clé de répartition pour certains collèges suite à la pose de compteurs. Une partie de la consommation de la salle des Remparts est reportée sur le collège des Mousquetaire, ce qui explique une portion de sa hausse de consommation.
+
+
+
+# **660 Protection civile intercommunale**
+
+# **660.3156.00 Entretien points de rencontre d'urgence (PRU) *Explications sur le libellé de ce compte***
+
+Cela est lié au bouclement d'une dépense extrabudgétaire 2022-2024 d'un montant de CHF 47'000. Ce montant a servi à la création de deux 'points rencontres' en cas de crise. Pour 2025 le compte sera doté d'un montant de CHF 5'000 pour des dépenses éventuelles d'entretien.
+
+# **700 Administration**
+
+# **700.3011.00 Traitements. *Manque de personnel ?***
+
+Le poste d'adjointe au chef de service est budgétisé sur l'année complète mais l'activité n'a été pourvue que durant les 4 derniers mois de l'année 2024.
+
+# **705 Accueil familial de jour**
+
+# **705.3091.00 Frais de formation du personnel. *Explications sur ce compte (-46,8%)***
+
+Il y a eu moins de formations pour les accueillants/accueillantes en milieu familial.
+
+# **705.3185.00 Honoraires et frais de procédures. *Explications sur votre commentaire***
+
+Il s'agit de trois affaires pénales en cours et de deux avis de droit.
+
+# **705.4331.01 Remboursements : Repas, collations, déplacements, etc. *Différence entre le budget et le revenu***
+
+Il y a une diminution du nombre d'heures de placement en accueil familial de jour AFJ.
+
+# **710 Service social**
+
+# **710.3655.19 Développement politique séniors. *Budget mais pas de dépenses***
+
+Ce budget n'a pas été utilisé en 2024. Aucune action supplémentaire n'a été entreprise pour les seniors (à part du bénévolat communal par une équipe de seniors).
+
+# **711 Interventions sociales**
+
+# **711.3665.00 Aides individuelles communales. *Demande d'explications sur ces aides***
+
+Il s'agit de prestations pour les personnes bénéficiaires du revenu d'insertion : allocation 'Noël', activités de loisirs et aide individuelle.
+
+La commission de gestion a constaté que seul 30 à 35 % du montant prévu pour les subventions, animations, activités culturelles et sportives, etc. en faveur de la population a été dépensé.
+
+# **Vœu 5**
+
+La Commission de gestion émet le vœu que les montants dépensés en subventions, animations, activités culturelles et sportives, etc. en faveur de la population correspondent mieux aux montants budgétés.
+
+
+
+## Conclusions
+
+En conclusion, la Commission de Gestion, à l'unanimité de ses membres, vous propose, Madame la Présidente, Mesdames les Conseillères et Messieurs les Conseillers :
+
+- Vu le rapport de la Municipalité concernant la gestion et les comptes communaux de l'année 2024,
+- Vu le rapport de la Commission de Gestion sur l'année 2024,
+- Considérant que cet objet a été porté à l'ordre du jour,
+
+### De bien vouloir :
+
+1. approuver le rapport de la Commission de Gestion ;
+2. adopter les dépenses imprévisibles et exceptionnelles de l'exercice 2024, telles que présentées par le Préavis Municipal N° 7/2025 ;
+3. adopter les comptes communaux pour l'exercice 2024 tels que présentés par le Préavis Municipal N° 8/2025 ;
+4. donner décharge à la Municipalité de sa gestion pour l'année 2024.
+
+Au nom de la Commission de Gestion :
+
+Roger Urech, Président
+
+La Tour-de-Peilz, le 28 mai 2025
+
+
+
+# EXTRAIT
+
+du procès-verbal de la séance du Conseil communal
+de La Tour-de-Peilz du 25 juin 2025
+
+Présidence : Mme Manon Roethlisberger
+
+Préavis municipal N° 7/2025 – Dépenses imprévisibles et exceptionnelles
+
+Préavis relatif à la gestion et aux comptes de la Commune pour l'exercice 2024 et réponses de la
+Municipalité aux observations et aux vœux de la commission
+
+LE CONSEIL COMMUNAL DE LA TOUR-DE-PEILZ
+
+- vu le rapport de la Municipalité concernant la gestion et les comptes communaux de l'année 2024,
+- vu le rapport de la Commission de gestion sur l'année 2024,
+- considérant que cet objet a été porté à l'ordre du jour,
+
+d é c i d e
+
+1. d'approuver le rapport de la Commission de gestion ;
+2. d'adopter les dépenses imprévisibles et exceptionnelles de l'exercice 2024, telles que présentées
+dans le préavis municipal N° 7/2025 ;
+3. d'adopter les comptes communaux pour l'exercice 2024 tels que présentés dans le préavis
+municipal N° 8/2025 ;
+4. de donner décharge à la Municipalité de sa gestion pour l'année 2024.
+
+Ainsi adopté à l'unanimité.
+
+La Tour-de-Peilz, le 25 juin 2025
+
+CONSEIL COMMUNAL DE LA TOUR-DE-PEILZ
+
+La Présidente
+Manon Roethlisberger
+
+La Secrétaire
+Carole Dind

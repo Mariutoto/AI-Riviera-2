@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import time
@@ -35,10 +36,10 @@ def read_jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-def existing_ids() -> set[str]:
+def existing_rows() -> dict[str, dict]:
     if not OUTPUT_PATH.exists():
-        return set()
-    return {row["chunk_id"] for row in read_jsonl(OUTPUT_PATH)}
+        return {}
+    return {row["chunk_id"]: row for row in read_jsonl(OUTPUT_PATH)}
 
 
 def request_batch(api_key: str, rows: list[dict], retries: int = 5) -> tuple[list[list[float]], dict]:
@@ -71,7 +72,26 @@ def main() -> None:
 
     inputs = read_jsonl(INPUT_PATH)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    done = existing_ids()
+    previous = existing_rows()
+    retained = {}
+    for row in inputs:
+        cached = previous.get(row["chunk_id"])
+        if not cached or cached.get("content_hash") != row.get("content_hash"):
+            continue
+        input_hash = hashlib.sha256(row["embedding_input"].encode("utf-8")).hexdigest()
+        # Legacy cache entries did not store the full input signature. They are
+        # safe to retain outside the newly introduced report recipe.
+        if cached.get("embedding_input_hash") == input_hash or (
+            not cached.get("embedding_input_hash") and row.get("category") != "rapport_gestion"
+        ):
+            retained[row["chunk_id"]] = cached
+    # Remove stale cache entries before appending newly generated vectors.
+    with OUTPUT_PATH.open("w", encoding="utf-8", newline="\n") as output:
+        for row in inputs:
+            cached = retained.get(row["chunk_id"])
+            if cached:
+                output.write(json.dumps(cached, ensure_ascii=False) + "\n")
+    done = set(retained)
     pending = [row for row in inputs if row["chunk_id"] not in done]
     total_tokens = 0
     started_at = datetime.now(timezone.utc).isoformat()
@@ -87,6 +107,7 @@ def main() -> None:
                     "chunk_id": row["chunk_id"],
                     "document_id": row["document_id"],
                     "content_hash": row["content_hash"],
+                    "embedding_input_hash": hashlib.sha256(row["embedding_input"].encode("utf-8")).hexdigest(),
                     "model": MODEL,
                     "dimension": len(vector),
                     "embedding": vector,

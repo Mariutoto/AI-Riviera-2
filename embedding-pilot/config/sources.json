@@ -49,12 +49,20 @@
       "metadata_glob": "audit-general/audit-reglement-conseil/full-audit/metadata/*.json",
       "document_files": 1,
       "chunks": 167
+    },
+    {
+      "family": "annual_report",
+      "category": "rapport_gestion",
+      "glob": "audit-general/audit-rapports-gestion/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-rapports-gestion/full-audit/metadata/*.json",
+      "document_files": 5,
+      "chunks": 805
     }
   ],
   "totals": {
-    "document_files": 287,
-    "canonical_chunks": 5370,
-    "pilot_chunks_after_exclusions": 5358
+    "document_files": 292,
+    "canonical_chunks": 6175,
+    "pilot_chunks_after_exclusions": 6163
   },
   "excluded": [
     "pilot directories",
