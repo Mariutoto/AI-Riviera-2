@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_59a516272857c96ebbd0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 33 | de la séance du 11 février 2026",
+    "source_title": "Procès-verbal | N° 33 | de la séance du 11 février 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV33-11-02-2026.pdf",
+    "filename": "PV33-11-02-2026.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-11",
+    "content_hash": "f01a76569d30a5994b113696a74004907ed11aa96bdabaea05872996f00cef38",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 33,
+    "session_date": "2026-02-11",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Yvan Kraehenbuehl",
+    "secretary": null,
+    "attendance": {
+      "present_count": null,
+      "elected_count": null,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 22,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26146,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4201,
+      "clean_words": 4180,
+      "removed_blocks": 7,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4180
+    }
+  }
+}

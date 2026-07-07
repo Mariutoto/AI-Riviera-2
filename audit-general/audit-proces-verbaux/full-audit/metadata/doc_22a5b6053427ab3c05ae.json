@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_22a5b6053427ab3c05ae",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 29 | de la séance du 25 juin 2025",
+    "source_title": "Procès-verbal | N° 29 | de la séance du 25 juin 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV29-25-06-2025.pdf",
+    "filename": "PV29-25-06-2025.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-25",
+    "content_hash": "4b881330d9c0c0100cc2c3bc3a938d79299297e80bf58692077d4965b417d9f6",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 29,
+    "session_date": "2025-06-25",
+    "session_type": "ordinary",
+    "meeting_start_time": "19:00",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "Mme Manon Roethlisberger",
+    "secretary": null,
+    "attendance": {
+      "present_count": 66,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 36,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 61432,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 10152,
+      "clean_words": 10090,
+      "removed_blocks": 26,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 10090
+    }
+  }
+}

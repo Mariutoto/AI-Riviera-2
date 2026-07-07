@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_cc07dcbd5e15c8544fcb",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 21 | de la séance du 15 mai 2024",
+    "source_title": "Procès-verbal | N° 21 | de la séance du 15 mai 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV21-15-05-2024.pdf",
+    "filename": "PV21-15-05-2024.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-15",
+    "content_hash": "07c976bd72c44bb386fc986411a93629dea0a7d316e0a72f085189759353e2e1",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 21,
+    "session_date": "2024-05-15",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Julien Costanzo",
+    "secretary": null,
+    "attendance": {
+      "present_count": 68,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 36,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 58947,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 9654,
+      "clean_words": 9579,
+      "removed_blocks": 41,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 9579
+    }
+  }
+}

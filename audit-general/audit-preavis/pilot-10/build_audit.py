@@ -310,6 +310,7 @@ def split_words(text: str) -> list[str]:
 
 def build_chunks(metadata: dict, text: str) -> list[dict]:
     base = metadata["document_metadata"]
+    specific = metadata["preavis_metadata"]
     chunks = []
     for section_index, section in enumerate(split_sections(text, base["document_role"])):
         pieces = split_words(section["content"])
@@ -324,9 +325,8 @@ def build_chunks(metadata: dict, text: str) -> list[dict]:
             if re.fullmatch(r"\s*\d+\s*[|/]\s*\d+\s*", content):
                 issues.append("isolated_page_number")
             embedding_input = (
-                f"document_family: {base['document_family']}\n"
                 f"category: {base['category']}\n"
-                f"document_role: {base['document_role']}\n"
+                f"preavis_number: {specific['preavis_number']}\n"
                 f"title: {base['title']}\n"
                 f"component: {section['component']}\n\n{content}"
             )

@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_d2ae181420c3a4067bd3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 22 | de la séance du 26 juin 2024",
+    "source_title": "Procès-verbal | N° 22 | de la séance du 26 juin 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV22-26-06-2024.pdf",
+    "filename": "PV22-26-06-2024.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-26",
+    "content_hash": "7b6f1ca2abfcf9b6bb559d9caabeb913aaa70ac0ff99385156b45fb059d8b02d",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 22,
+    "session_date": "2024-06-26",
+    "session_type": "ordinary",
+    "meeting_start_time": "19:00",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Julien Costanzo",
+    "secretary": null,
+    "attendance": {
+      "present_count": 71,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 38,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 74444,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12272,
+      "clean_words": 12209,
+      "removed_blocks": 21,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12209
+    }
+  }
+}

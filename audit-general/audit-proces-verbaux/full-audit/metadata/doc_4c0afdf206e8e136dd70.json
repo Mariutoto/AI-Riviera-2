@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4c0afdf206e8e136dd70",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 26 | de la séance du 5 février 2025",
+    "source_title": "Procès-verbal | N° 26 | de la séance du 5 février 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV26-05-02-2025.pdf",
+    "filename": "PV26-05-02-2025.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-05",
+    "content_hash": "8c327c7b387b046d417fa655aaf560b0bf025d21bc56602e603204cd89b70a89",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 26,
+    "session_date": "2025-02-05",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "Mme Manon Roethlisberger",
+    "secretary": null,
+    "attendance": {
+      "present_count": 69,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 24,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 46890,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7600,
+      "clean_words": 7561,
+      "removed_blocks": 13,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7561
+    }
+  }
+}

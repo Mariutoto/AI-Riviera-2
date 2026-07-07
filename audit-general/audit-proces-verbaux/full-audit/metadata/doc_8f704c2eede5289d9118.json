@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8f704c2eede5289d9118",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 7 | de la séance du 11 mai 2022",
+    "source_title": "Procès-verbal | N° 7 | de la séance du 11 mai 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV07-11-05-2022.pdf",
+    "filename": "PV07-11-05-2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-11",
+    "content_hash": "d261bf6769dd8115272cfd2b2feedb949fa0aac461c0dc903af7eef6ee6effaa",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 7,
+    "session_date": "2022-05-11",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Ludovic Tirelli",
+    "secretary": null,
+    "attendance": {
+      "present_count": 60,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 29,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 56497,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 9263,
+      "clean_words": 9215,
+      "removed_blocks": 16,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 9215
+    }
+  }
+}

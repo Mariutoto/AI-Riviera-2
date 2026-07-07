@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7bc2d52b4fd6cd40511d",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 12 | de la séance du 8 février 2023",
+    "source_title": "Procès-verbal | N° 12 | de la séance du 8 février 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV12-08-02-2023.pdf",
+    "filename": "PV12-08-02-2023.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-08",
+    "content_hash": "8d5b9ae2e47d7288dfc7f4f9913d6171279dbdc30e18e3047bc256fd35cfe08e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 12,
+    "session_date": "2023-02-08",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. José Espinosa",
+    "secretary": null,
+    "attendance": {
+      "present_count": 70,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 24,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 34616,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5612,
+      "clean_words": 5582,
+      "removed_blocks": 10,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5582
+    }
+  }
+}

@@ -35,6 +35,14 @@
       "chunks": 3446
     },
     {
+      "family": "council_session",
+      "category": "proces_verbal",
+      "glob": "audit-general/audit-proces-verbaux/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-proces-verbaux/full-audit/metadata/*.json",
+      "document_files": 35,
+      "chunks": 1329
+    },
+    {
       "family": "regulation",
       "category": "reglement_conseil_communal",
       "glob": "audit-general/audit-reglement-conseil/full-audit/chunks/*.json",
@@ -44,9 +52,9 @@
     }
   ],
   "totals": {
-    "document_files": 252,
-    "canonical_chunks": 4041,
-    "pilot_chunks_after_exclusions": 4029
+    "document_files": 287,
+    "canonical_chunks": 5370,
+    "pilot_chunks_after_exclusions": 5358
   },
   "excluded": [
     "pilot directories",

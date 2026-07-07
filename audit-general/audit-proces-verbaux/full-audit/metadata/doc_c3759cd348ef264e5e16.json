@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c3759cd348ef264e5e16",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 6 | de la séance du 23 mars 2022",
+    "source_title": "Procès-verbal | N° 6 | de la séance du 23 mars 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV06-23-03-2022.pdf",
+    "filename": "PV06-23-03-2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-23",
+    "content_hash": "4fc35e1b757c664d624795b5f0e1c5679cfc443b146cf3ad53c1bc4ff624882f",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 6,
+    "session_date": "2022-03-23",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Ludovic Tirelli",
+    "secretary": null,
+    "attendance": {
+      "present_count": 73,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 31,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 44409,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7347,
+      "clean_words": 7308,
+      "removed_blocks": 13,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7308
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_2451df515a907d636f67",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal d'assermentation | N° 1 | de la séance du 16 juin 2021",
+    "source_title": "Procès-verbal d'assermentation | N° 1 | de la séance du 16 juin 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/3-PV01-16-06-21_Installation_autorites_21-26.pdf",
+    "filename": "3-PV01-16-06-21_Installation_autorites_21-26.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-06-16",
+    "content_hash": "504c46e0272bdb5d8989d1be10d0483b2fd569e7899d3d7f3e8d51512c0a6aa0",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 1,
+    "session_date": "2021-06-16",
+    "session_type": "installation",
+    "meeting_start_time": "16:30",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. le Préfet Roland Berdoz",
+    "secretary": null,
+    "attendance": {
+      "present_count": 73,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 16,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 37713,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6098,
+      "clean_words": 6059,
+      "removed_blocks": 13,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6059
+    }
+  }
+}

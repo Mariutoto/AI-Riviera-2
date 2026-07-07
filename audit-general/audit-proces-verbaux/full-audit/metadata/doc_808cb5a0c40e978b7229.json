@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_808cb5a0c40e978b7229",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 13 | de la séance du 22 mars 2023",
+    "source_title": "Procès-verbal | N° 13 | de la séance du 22 mars 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV13-22-03-2023.pdf",
+    "filename": "PV13-22-03-2023.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-22",
+    "content_hash": "1bf239ff07157dcdf090aea8df646c280bda05762feb8fe3beef55ee2d2c866d",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 13,
+    "session_date": "2023-03-22",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. José Espinosa",
+    "secretary": null,
+    "attendance": {
+      "present_count": 76,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 22,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26857,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4468,
+      "clean_words": 4444,
+      "removed_blocks": 8,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4444
+    }
+  }
+}

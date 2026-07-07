@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_83b584843c8e76c37697",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 32 | de la séance du 10 décembre 2025",
+    "source_title": "Procès-verbal | N° 32 | de la séance du 10 décembre 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV32-10-12-2025.pdf",
+    "filename": "PV32-10-12-2025.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-10",
+    "content_hash": "388be762d584b56221eac39f43152c010fa8702542a515699cd00f47e1d462fb",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 32,
+    "session_date": "2025-12-10",
+    "session_type": "ordinary",
+    "meeting_start_time": "19:00",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Yvan Kraehenbuehl",
+    "secretary": null,
+    "attendance": {
+      "present_count": 71,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 27,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 78342,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12710,
+      "clean_words": 12636,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12636
+    }
+  }
+}

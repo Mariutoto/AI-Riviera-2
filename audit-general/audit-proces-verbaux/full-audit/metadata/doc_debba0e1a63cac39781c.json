@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_debba0e1a63cac39781c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 4 | de la séance du 8 décembre 2021",
+    "source_title": "Procès-verbal | N° 4 | de la séance du 8 décembre 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV04-08-12-2021.pdf",
+    "filename": "PV04-08-12-2021.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-08",
+    "content_hash": "1fd7ad01f097e3728972dedd067688eef524ad8c44d143fef0ba027f389cf670",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 4,
+    "session_date": "2021-12-08",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Ludovic Tirelli",
+    "secretary": null,
+    "attendance": {
+      "present_count": 73,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 35,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 74288,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12239,
+      "clean_words": 12173,
+      "removed_blocks": 22,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12173
+    }
+  }
+}

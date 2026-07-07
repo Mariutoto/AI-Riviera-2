@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_160c0dbffff944914de7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 23 | de la séance du 11 septembre 2024",
+    "source_title": "Procès-verbal | N° 23 | de la séance du 11 septembre 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV23-11-09-2024.pdf",
+    "filename": "PV23-11-09-2024.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-11",
+    "content_hash": "8cb12e5a344d433c85d793ceecbcc37785333253f5e347193c82c25e87dd0cd8",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 23,
+    "session_date": "2024-09-11",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "Mme Manon Roethlisberger",
+    "secretary": null,
+    "attendance": {
+      "present_count": 64,
+      "elected_count": 84,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 33,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 59602,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 9826,
+      "clean_words": 9767,
+      "removed_blocks": 25,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 9767
+    }
+  }
+}

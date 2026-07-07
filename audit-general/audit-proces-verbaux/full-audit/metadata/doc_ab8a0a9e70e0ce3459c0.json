@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ab8a0a9e70e0ce3459c0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 31 | de la séance du 29 octobre 2025",
+    "source_title": "Procès-verbal | N° 31 | de la séance du 29 octobre 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV31-29-10-2025.pdf",
+    "filename": "PV31-29-10-2025.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-29",
+    "content_hash": "45ce2c4bf53ed1afe40c7f39b73b35288b65e2408c5d446b7e58fd65aeb63a3e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 31,
+    "session_date": "2025-10-29",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Yvan Kraehenbuehl",
+    "secretary": null,
+    "attendance": {
+      "present_count": 68,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 26,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 54821,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 8914,
+      "clean_words": 8861,
+      "removed_blocks": 23,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 8861
+    }
+  }
+}

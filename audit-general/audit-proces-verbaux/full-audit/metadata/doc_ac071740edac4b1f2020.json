@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ac071740edac4b1f2020",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 24 | de la séance du 30 octobre 2024",
+    "source_title": "Procès-verbal | N° 24 | de la séance du 30 octobre 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV24-30-10-2024.pdf",
+    "filename": "PV24-30-10-2024.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "content_hash": "904cc9315c8a99fbe30722671dd92ff3c18fd98997ee684b411683c6a2ef1f92",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 24,
+    "session_date": "2024-10-30",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "Mme Manon Roethlisberger",
+    "secretary": null,
+    "attendance": {
+      "present_count": 67,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 37,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 76807,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12514,
+      "clean_words": 12432,
+      "removed_blocks": 38,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12432
+    }
+  }
+}

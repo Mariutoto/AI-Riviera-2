@@ -1,0 +1,57 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9e40088ed09e9cf60178",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "council_session",
+    "category": "proces_verbal",
+    "document_role": "council_minutes",
+    "title": "Procès-verbal | N° 5 | de la séance du 9 février 2022",
+    "source_title": "Procès-verbal | N° 5 | de la séance du 9 février 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/conseil-communal/proces-verbaux/legislature_2021-2026/PV05-09-02-2022.pdf",
+    "filename": "PV05-09-02-2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-09",
+    "content_hash": "7bd74ae8202c0b0345b37892fa4fd1be20488f825157b3b5f6cdb0e2e95f715c",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "minutes_metadata": {
+    "pv_number": 5,
+    "session_date": "2022-02-09",
+    "session_type": "ordinary",
+    "meeting_start_time": "20:15",
+    "meeting_end_time": null,
+    "location": null,
+    "presiding_officer": "M. Ludovic Tirelli",
+    "secretary": null,
+    "attendance": {
+      "present_count": 69,
+      "elected_count": 85,
+      "excused_count": null,
+      "absent_count": null
+    },
+    "agenda_item_count": 17,
+    "contains_votes": true
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 39092,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": []
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6434,
+      "clean_words": 6401,
+      "removed_blocks": 11,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6401
+    }
+  }
+}

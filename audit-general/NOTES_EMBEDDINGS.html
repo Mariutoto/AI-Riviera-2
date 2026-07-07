@@ -6,12 +6,11 @@
 <div class="hero"><h1>Notes — comment construire les embeddings</h1><p>Un embedding contient le contexte utile à la compréhension, puis le texte du chunk. Les métadonnées techniques ou redondantes restent dans le JSON pour les filtres, mais ne sont pas envoyées au modèle d'embedding.</p></div>
 
 <section><h2>1. Objets politiques</h2><p>Familles concernées : motions, postulats et interpellations.</p>
-<pre>Famille: political_object
-Catégorie: postulat
-Rôle: combined_postulat_report_decision
-Titre: GastroVert pour tous les ménages à la Tour-de-Peilz
-Composant: commission_report
-Section: Rapport de commission
+<pre>document_family: political_object
+category: postulat
+document_role: combined_postulat_report_decision
+title: GastroVert pour tous les ménages à la Tour-de-Peilz
+component: commission_report
 
 [texte du chunk]</pre>
 <table><thead><tr><th>Champ</th><th>Embedding ?</th><th>Raison</th></tr></thead><tbody>
@@ -20,7 +19,7 @@ Section: Rapport de commission
 <tr><td><code>document_role</code></td><td class="yes">Oui</td><td>Composition du PDF complet.</td></tr>
 <tr><td><code>title</code></td><td class="yes">Oui</td><td>Contexte sémantique principal.</td></tr>
 <tr><td><code>component</code></td><td class="yes">Oui</td><td>Distingue texte initial, rapport et décision.</td></tr>
-<tr><td><code>section_title</code></td><td class="yes">Oui</td><td>Nom lisible de la partie.</td></tr>
+<tr><td><code>section_title</code></td><td class="no">Non</td><td>Ancien champ retiré de la recette : il doublonnait souvent <code>component</code>.</td></tr>
 <tr><td>Auteurs, dates, partis, statut</td><td class="no">Non par défaut</td><td>Métadonnées filtrables.</td></tr>
 </tbody></table>
 <p class="note"><strong>Règle :</strong> le rôle décrit le document complet ; le composant décrit le chunk. Un PDF peut avoir le rôle <code>combined_postulat_report_decision</code> et contenir des chunks <code>postulat_text</code>, <code>commission_report</code> et <code>council_decision</code>.</p></section>
@@ -38,17 +37,64 @@ article_title: Secret de fonction
 <tr><td><code>title_heading</code>, <code>chapter</code>, <code>category</code>, <code>document_role</code></td><td class="no">Non</td><td>Conservés dans le JSON et contrôlés par l'audit, mais exclus de l'embedding.</td></tr>
 </tbody></table></section>
 
-<section><h2>3. Règles communes</h2><ul>
+<section><h2>3. Préavis municipaux</h2><p>La recette reprend la logique des objets politiques, mais sans les champs constants qui n'apportent aucun contraste entre les préavis.</p>
+<pre>category: preavis_municipal
+preavis_number: 10/2026
+title: Demande d'un crédit pour la Ville du Jeu
+component: municipal_preavis
+
+[texte du chunk]</pre>
+<table><thead><tr><th>Champ</th><th>Embedding ?</th><th>Raison</th></tr></thead><tbody>
+<tr><td><code>preavis_number</code></td><td class="yes">Oui</td><td>Permet les recherches par numéro.</td></tr>
+<tr><td><code>category</code></td><td class="yes">Oui</td><td>Distingue les préavis dans l'index documentaire commun.</td></tr>
+<tr><td><code>title</code></td><td class="yes">Oui</td><td>Contexte sémantique principal.</td></tr>
+<tr><td><code>component</code></td><td class="yes">Oui</td><td>Distingue préavis, rapport, annexe et décision.</td></tr>
+<tr><td><code>document_family</code>, <code>document_role</code></td><td class="no">Non</td><td>Valeurs constantes ou redondantes ; elles restent filtrables dans PostgreSQL.</td></tr>
+</tbody></table></section>
+
+<section><h2>4. Procès-verbaux</h2><p>Un PV est surtout composé de points d'ordre du jour. La valeur technique <code>agenda_item</code> est donc conservée dans PostgreSQL, mais elle n'est pas répétée dans presque tous les embeddings.</p>
+<pre>category: proces_verbal
+pv_number: 35
+title: Procès-verbal | N° 35 | de la séance du 6 mai 2026
+
+[texte du chunk]</pre>
+<p>Le titre du point de l'ordre du jour est déjà conservé au début du contenu. Il n'est donc pas répété dans une ligne de métadonnée.</p>
+<table><thead><tr><th>Champ</th><th>Embedding ?</th><th>PostgreSQL ?</th></tr></thead><tbody>
+<tr><td><code>category</code></td><td class="yes">Oui</td><td class="yes">Oui</td></tr>
+<tr><td><code>pv_number</code>, <code>title</code></td><td class="yes">Oui</td><td class="yes">Oui</td></tr>
+<tr><td><code>session_date</code></td><td class="no">Non : la date figure déjà dans le titre</td><td class="yes">Oui</td></tr>
+<tr><td><code>component_title</code></td><td class="no">Non : le titre du point ouvre déjà le contenu</td><td class="yes">Oui</td></tr>
+<tr><td><code>component</code></td><td class="no">Non : presque toujours <code>agenda_item</code></td><td class="yes">Oui</td></tr>
+<tr><td><code>agenda_item_number</code></td><td class="no">Non : peu de sens sémantique</td><td class="yes">Oui</td></tr>
+</tbody></table></section>
+
+<section><h2>5. Vocabulaire commun des chunks</h2>
+<table><thead><tr><th>Champ</th><th>Signification</th><th>Exemples</th></tr></thead><tbody>
+<tr><td><code>category</code></td><td>Type du document complet.</td><td><code>motion</code>, <code>postulat</code>, <code>preavis_municipal</code>, <code>proces_verbal</code></td></tr>
+<tr><td><code>document_role</code></td><td>Composition du fichier complet.</td><td><code>motion_text</code>, <code>combined_preavis_report_decision</code>, <code>council_minutes</code></td></tr>
+<tr><td><code>component</code></td><td>Nature structurelle du morceau dans le fichier.</td><td><code>commission_report</code>, <code>council_decision</code>, <code>agenda_item</code>, <code>session_overview</code></td></tr>
+<tr><td><code>component_title</code>, <code>article_title</code></td><td>Titre métier propre au chunk.</td><td>Titre du point de séance ou de l'article.</td></tr>
+<tr><td><code>discussed_object_type</code></td><td>Type d'objet discuté dans un point de PV, lorsque celui-ci est identifiable.</td><td><code>motion</code>, <code>postulat</code>, <code>interpellation</code>, <code>preavis_municipal</code>, <code>municipal_communication</code></td></tr>
+</tbody></table>
+<p class="note"><strong>Convention :</strong> les noms de champs sont communs quand leur sens est commun. Les valeurs de <code>component</code> peuvent varier selon la famille documentaire. On ne renomme pas artificiellement un point de séance en <code>municipal_preavis</code> : le point peut discuter un préavis, mais sa nature structurelle dans le PV reste <code>agenda_item</code>.</p></section>
+
+<section><h2>6. Règles communes</h2><ul>
 <li>Le texte du chunk est toujours inclus.</li><li>La recette reste stable dans une même famille documentaire.</li>
 <li>Un numéro de page, un en-tête ou un pied de page isolé ne devient jamais un chunk.</li>
 <li>Les chemins locaux, hashes et informations OCR ne sont jamais injectés.</li>
 <li>Les valeurs utiles uniquement au filtrage restent dans les métadonnées JSON.</li>
 <li>Une nouvelle famille peut avoir sa propre recette si cela réduit le bruit.</li></ul></section>
 
-<section><h2>4. Recettes résumées</h2><pre>OBJET POLITIQUE
-famille + catégorie + rôle + titre + composant + section + contenu
+<section><h2>7. Recettes résumées</h2><pre>OBJET POLITIQUE
+document_family + category + document_role + title + component + contenu
 
 RÈGLEMENT
-document_family + article_number + article_title + contenu</pre>
+document_family + article_number + article_title + contenu
+
+PRÉAVIS MUNICIPAL
+category + preavis_number + title + component + contenu
+
+PROCÈS-VERBAL
+category + pv_number + title + contenu</pre>
 <p><a href="audit-reglement-conseil/first-50/embeddings.html">Voir les embeddings tests du règlement</a></p></section>
 </main></body></html>
