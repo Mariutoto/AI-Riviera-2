@@ -21,7 +21,7 @@ from app.opensearch_store import ready as opensearch_ready
 from app.postgres_store import ready as postgres_ready
 from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
-from app.structured import answer_structured_question
+from app.structured import answer_structured_question, format_date
 from app.text_cleaning import fix_mojibake
 
 SUGGESTED_QUESTIONS = [
@@ -331,10 +331,141 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
 
 def source_link(metadata: dict, label: str) -> str:
     label = fix_mojibake(label)
-    url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
+    url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
     if not url:
         return label
     return f"[{label}]({url})"
+
+
+POLITICAL_OBJECT_TYPE_LABELS = {"motion": "Motion", "postulat": "Postulat", "interpellation": "Interpellation"}
+
+POLITICAL_STATUS_LABELS = {
+    "filed": "Déposée",
+    "referred_to_municipality": "Renvoyée à la Municipalité",
+    "referred_directly_to_municipality": "Renvoyée directement à la Municipalité",
+    "not_supported_by_council": "Non soutenue par le Conseil",
+    "report_available": "Rapport disponible",
+    "decision_available": "Décision disponible",
+    "report_and_decision_available": "Rapport et décision disponibles",
+    "withdrawn": "Retirée",
+    "with_report_and_decision": "Rapport et décision disponibles",
+    "with_decision": "Décision disponible",
+    "withdrawn_by_municipality": "Retiré par la Municipalité",
+}
+
+
+def compact_names(names: list[str]) -> str:
+    if len(names) <= 2:
+        return ", ".join(names)
+    return f"{', '.join(names[:2])} et {len(names) - 2} autres"
+
+
+def status_label(status: str | None) -> str | None:
+    if not status:
+        return None
+    return POLITICAL_STATUS_LABELS.get(status, str(status).replace("_", " "))
+
+
+def format_chf(value: float | int | None) -> str | None:
+    if value is None:
+        return None
+    return f"{value:,.2f}".replace(",", "'") + " CHF"
+
+
+def political_object_citation_line(metadata: dict, extra: dict) -> str | None:
+    category = str(metadata.get("category") or "")
+    type_label = POLITICAL_OBJECT_TYPE_LABELS.get(category)
+    if not type_label:
+        return None
+    parts = [type_label]
+
+    authors = extra.get("authors") or []
+    names = [author.get("name") for author in authors if isinstance(author, dict) and author.get("name")]
+    if names:
+        parts.append(compact_names(names))
+
+    deposit_date = metadata.get("document_date") or extra.get("deposit_date")
+    if deposit_date:
+        parts.append(f"déposée le {format_date(deposit_date)}")
+
+    label = status_label(extra.get("political_status") or extra.get("status"))
+    if label:
+        parts.append(label)
+
+    return " · ".join(parts)
+
+
+def preavis_citation_line(extra: dict) -> str:
+    parts = ["Préavis municipal"]
+    number = extra.get("preavis_number")
+    if number:
+        parts.append(f"N° {number}")
+    label = status_label(extra.get("political_status"))
+    if label:
+        parts.append(label)
+    if extra.get("decision_date"):
+        parts.append(f"décidé le {format_date(extra['decision_date'])}")
+    return " · ".join(parts)
+
+
+def proces_verbal_citation_line(extra: dict) -> str:
+    parts = ["Procès-verbal"]
+    if extra.get("pv_number"):
+        parts.append(f"N° {extra['pv_number']}")
+    if extra.get("session_date"):
+        parts.append(f"séance du {format_date(extra['session_date'])}")
+    if extra.get("presiding_officer"):
+        parts.append(f"présidée par {extra['presiding_officer']}")
+    return " · ".join(parts)
+
+
+def rapport_gestion_citation_line(extra: dict) -> str:
+    parts = ["Rapport de gestion"]
+    if extra.get("management_year"):
+        parts.append(str(extra["management_year"]))
+    if extra.get("decision_date"):
+        parts.append(f"décidé le {format_date(extra['decision_date'])}")
+    return " · ".join(parts)
+
+
+def rapport_comptes_citation_line(extra: dict) -> str:
+    parts = ["Rapport des comptes"]
+    if extra.get("fiscal_year"):
+        parts.append(str(extra["fiscal_year"]))
+    result = format_chf(extra.get("result_surplus_or_deficit"))
+    if result is not None:
+        kind = "excédent" if extra.get("result_surplus_or_deficit", 0) >= 0 else "déficit"
+        parts.append(f"{kind} de {result}")
+    return " · ".join(parts)
+
+
+CATEGORY_METADATA_KEYS = {
+    "motion": "motion_metadata",
+    "postulat": "postulat_metadata",
+    "interpellation": "interpellation_metadata",
+    "preavis_municipal": "preavis_metadata",
+    "proces_verbal": "minutes_metadata",
+    "rapport_gestion": "management_report_metadata",
+    "rapport_comptes": "accounts_metadata",
+}
+
+
+def source_citation_line(metadata: dict) -> str | None:
+    category = str(metadata.get("category") or "")
+    extra_key = CATEGORY_METADATA_KEYS.get(category)
+    extra = (metadata.get("additional_metadata") or {}).get(extra_key) or {} if extra_key else {}
+
+    if category in POLITICAL_OBJECT_TYPE_LABELS:
+        return political_object_citation_line(metadata, extra)
+    if category == "preavis_municipal":
+        return preavis_citation_line(extra)
+    if category == "proces_verbal":
+        return proces_verbal_citation_line(extra)
+    if category == "rapport_gestion":
+        return rapport_gestion_citation_line(extra)
+    if category == "rapport_comptes":
+        return rapport_comptes_citation_line(extra)
+    return None
 
 
 def link_source_mentions(text: str, message_index: int, source_count: int) -> str:
@@ -362,14 +493,19 @@ def render_sources(results: list[dict], message_index: int) -> None:
     source_lines = []
     for index, source in enumerate(grouped_sources, start=1):
         metadata = source["metadata"]
-        filename = fix_mojibake(metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document"))
-        year = metadata.get("year") or metadata.get("date", "")
-        category = metadata.get("category") or metadata.get("doc_type", "")
+        title = fix_mojibake(metadata.get("title") or metadata.get("filename") or source.get("relative_text_path", "document"))
+        citation_line = source_citation_line(metadata)
+        if citation_line is None:
+            year = metadata.get("year") or metadata.get("listing_year") or metadata.get("date", "")
+            category = metadata.get("category") or metadata.get("doc_type", "")
+            citation_line = " / ".join(str(part) for part in (year, category) if part)
+        pdf_link = source_link(metadata, "PDF")
+        summary_line = f"{citation_line} · {pdf_link}" if citation_line else pdf_link
         source_lines.append(
             f'<span id="source-{message_index}-{index}"></span>'
-            f"{index}. {source_link(metadata, filename)} - {year} / {category} (PDF)"
+            f"**{index}. {title}**<br>{summary_line}"
         )
-    st.markdown("\n".join(source_lines), unsafe_allow_html=True)
+    st.markdown("\n\n".join(source_lines), unsafe_allow_html=True)
 
     with st.expander("Voir les passages retrouvés"):
         for index, source in enumerate(grouped_sources, start=1):
