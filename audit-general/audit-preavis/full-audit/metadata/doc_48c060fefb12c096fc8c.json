@@ -1,0 +1,64 @@
+{
+  "document_metadata": {
+    "document_id": "doc_48c060fefb12c096fc8c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Comptes 2020 de la Commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + décision | Nr. 12 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_12-Comptes-2020-Dec.pdf",
+    "filename": "Preavis_12-Comptes-2020-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-05",
+    "content_hash": "469fa55d0e1e086086de4122650f0e81805b8f4f5834ba8eedfcbae343d49c00",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "12/2021",
+    "political_status": "with_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 45032,
+      "native_characters": 45032,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.947,
+      "low_text_image_pages": [
+        9
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6280,
+      "clean_words": 6249,
+      "removed_blocks": 10,
+      "repeated_margin_candidates": [
+        "Grand-Rue 46 - CP 144",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6249
+    }
+  }
+}

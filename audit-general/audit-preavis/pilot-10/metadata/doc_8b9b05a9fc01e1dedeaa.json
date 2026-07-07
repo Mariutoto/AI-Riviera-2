@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8b9b05a9fc01e1dedeaa",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse à la motion de M. Daniel Krähenbühl – « Année de la Famille – Centre familial de plein air » (prise en considération le 29 juin 1994)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 1 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp-Dec.pdf",
+    "filename": "Preavis-01-2022-Motion-Krahenbuhl-Centre-familial-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-24",
+    "content_hash": "b49747d6dfea0e697c23575817fa6c55404f38a1191b751fee0accab4d1ddda4",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "1/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-03-24",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ziva Tavcar",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yvan Krähenbühl",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Diego Pasquali",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19726,
+      "native_characters": 19726,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3189,
+      "clean_words": 3110,
+      "removed_blocks": 32,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 - CP 144",
+        "PRÉAVIS MUNICIPAL N° 1/2022",
+        "Rapport - Préavis municipal N° 1/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3110
+    }
+  }
+}

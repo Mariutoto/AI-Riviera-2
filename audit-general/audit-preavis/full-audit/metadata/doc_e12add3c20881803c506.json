@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e12add3c20881803c506",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse à la motion de M. Philippe Eugster (PLR) « Accélérons les travaux d'assainissement énergétique du parc immobilier communal » et demande d'un crédit de Fr. 9'680'000.- pour la ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 22 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-22-Motion-Eugster-Assainissement-batiments-communaux-Rapp-Dec.pdf",
+    "filename": "Preavis-22-Motion-Eugster-Assainissement-batiments-communaux-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-16",
+    "content_hash": "f252b9514cada30d5c88c4cc8e31c7ad2e8e03dcba61411c558098dfdba46177",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "22/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-12-07",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Myriam Michel",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "absent"
+        },
+        {
+          "name": "Pierre-Yves Charpilloz",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Eugster",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Dominique Vaucoret",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 9680000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 39963,
+      "native_characters": 39963,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6157,
+      "clean_words": 5898,
+      "removed_blocks": 98,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 22/2022",
+        "021 977 01 11 ",
+        "Rapport - Préavis N° 22/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5898
+    }
+  }
+}

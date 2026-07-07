@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_738f46c8dfc7a73a04d4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Dépenses imprévisibles et exceptionnelles",
+    "source_title": "Préavis municipal | Nr. 7 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-07-Depenses-imprevisible-2024.pdf",
+    "filename": "Preavis-07-Depenses-imprevisible-2024.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-14",
+    "content_hash": "97eb65247b625272c4eaeb9f93d25b344fbc213a1e597cb88f36e7ded92290d9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "7/2025",
+    "political_status": null,
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2573,
+      "native_characters": 2573,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 364,
+      "clean_words": 344,
+      "removed_blocks": 7,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 344
+    }
+  }
+}

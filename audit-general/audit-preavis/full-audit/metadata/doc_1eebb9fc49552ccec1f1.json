@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1eebb9fc49552ccec1f1",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Plan d'affectation « Le Petit Sully »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 1 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-11-PA-Petit-Sully-Rapp-Dec.pdf",
+    "filename": "Preavis-11-PA-Petit-Sully-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2020-06-24",
+    "content_hash": "e0096a02042e464b9f119abd1d324e4293438eaa4387aea05740ad7676178f35",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "11/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-06-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jérôme Bonvin",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paul Castelain",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 321094,
+      "native_characters": 321094,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.803,
+      "low_text_image_pages": [
+        66,
+        67,
+        70,
+        74,
+        180,
+        181
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 48216,
+      "clean_words": 47836,
+      "removed_blocks": 136,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 11/2022",
+        "Page 2",
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Rapport - Préavis N° 11/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 47836
+    }
+  }
+}

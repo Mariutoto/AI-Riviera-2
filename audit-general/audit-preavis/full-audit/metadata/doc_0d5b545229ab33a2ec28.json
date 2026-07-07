@@ -1,0 +1,118 @@
+{
+  "document_metadata": {
+    "document_id": "doc_0d5b545229ab33a2ec28",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse au postulat de Mme Viviane Huber (LTDPL) « Des casiers pour éviter des vols »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 4 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-04-Reponse-postulat-Huber-Casiers-Rapp-Dec.pdf",
+    "filename": "Preavis-04-Reponse-postulat-Huber-Casiers-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-19",
+    "content_hash": "0b2e87fc53a6c3e81d18bd34968ce5f2d77040877c6795e9148021283ab73ee6",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "4/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-05-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Bernadette Menétrey",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabrielle Heller",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maria Luceron",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Viviane Huber",
+          "civility": "Mme",
+          "party": "LTDPL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "civility": "M.",
+          "party": "PS",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Florian Abbet",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19344,
+      "native_characters": 19344,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3042,
+      "clean_words": 2989,
+      "removed_blocks": 26,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2989
+    }
+  }
+}

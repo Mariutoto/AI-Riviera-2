@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b87712cff262fedfd6c7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 31 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-31-reamenagement-avenue-Gare-Rapp-Dec.pdf",
+    "filename": "Preavis-31-reamenagement-avenue-Gare-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-29",
+    "content_hash": "2bf782531ed363e151821091034017d41270038b743858f575a6cc0c2d5e8fb8",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "31/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-12-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Florian Abbet",
+          "party": "LV",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Tobler",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "André Gruaz",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Julien Costanzo",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean Wilfrid Fils-Aimé",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 4630000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 51257,
+      "native_characters": 103746,
+      "ocr_characters": 51257,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "mistral_ocr_selected"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 8118,
+      "clean_words": 8066,
+      "removed_blocks": 3,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 8066
+    }
+  }
+}

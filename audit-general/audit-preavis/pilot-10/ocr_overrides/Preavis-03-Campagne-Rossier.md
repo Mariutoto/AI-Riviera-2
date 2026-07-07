@@ -1,0 +1,2896 @@
+# PRÉAVIS MUNICIPAL N° 3/2026
+
+le 11 février 2026
+
+Secteur « Campagne Rossier » - Projet d’intention des propriétaires et projet de plan d’affection « En Villard Dessous » élaboré suite à l’acceptation du préavis municipal N° 21/2023
+
+10.03.02-2601-Preavis-03-Campagne-Rossier.docx
+
+Au Conseil communal de
+1814 La Tour-de-Peilz
+
+Monsieur le Président,
+Mesdames et Messieurs,
+
+### 1. Objet du préavis
+
+Le présent préavis porte sur l’avenir du secteur « Campagne Rossier ». Il vise, d’une part, à présenter au Conseil communal les éléments essentiels du projet d’intention élaboré par les propriétaires, en partenariat avec la Coopérative de l’habitat associatif (CODHA) et, d’autre part, à présenter le projet de plan d’affectation « En Villard Dessous », élaboré par la Municipalité à la suite de l’acceptation du préavis municipal N° 21/2023. Le Conseil est ainsi appelé à se prononcer sur l’orientation à donner au site, soit une solution de développement limité assortie de plus-values pour la population boëlande, soit une option de déclassement conduisant à l’inconstructibilité du secteur, avec les conséquences juridiques et financières qui pourraient en découler. La majorité de la Municipalité propose au Conseil de soutenir le développement du projet d’intention des propriétaires.
+
+### 2. Préambule
+
+Votre Conseil a accepté, en date du 15 mai 2024, le préavis municipal N° 21/2023 déposé en réponse au postulat de M. Jean-Yves Schmidhauser (PSDG) et consorts « Quel avenir pour Campagne Rossier ? », préavis dont la principale conclusion était de charger la Municipalité de développer un projet de plan d’affectation sur les parcelles N° 1025 et 1378, prévoyant l’inconstructibilité de celles-ci, à l’exception du maintien des bâtiments existants, de modestes agrandissements de ceux-ci ou de constructions nouvelles en rapport avec l’exploitation de la zone. Conformément à cette décision, un questionnaire d’intention et une esquisse de ce futur plan d’affectation, nommé « En Villard Dessous » pour le distinguer des précédents projets, ont été transmis à la Direction générale du territoire et du logement (DGTL) pour examen préliminaire, en suivant la procédure prévue à l’art. 36 de la Loi sur l’aménagement du territoire et des constructions (LATC).
+
+En date du 24 septembre 2024 et après analyse, la DGTL a transmis à la Municipalité un avis préliminaire positif au projet de plan d’affectation. En conséquence et conformément au préavis municipal N° 21/2023, un projet de plan d’affectation a été élaboré au sein des services communaux et a été transmis pour examen préalable (art. 37 LATC) aux services de l’État début avril 2025. Le 4 juillet dernier, la DGTL a
+
+
+
+rendu son rapport d'examen préalable sans relever aucune modification nécessitant une analyse ou une étude complémentaire dont les résultats ne seraient pas connus. Le Service de l'urbanisme et des travaux publics a donc effectué les modifications mineures nécessaires identifiées par les demandes des services cantonaux afin que le plan puisse répondre entièrement au cadre légal en vue de sa mise à l'enquête publique.
+
+Parallèlement, les propriétaires ont développé un nouveau projet d'intention qu'ils ont présenté à la Municipalité en séance du 1er décembre 2025. À la suite de cette présentation, la Municipalité, à sa majorité, a décidé de donner suite au projet des propriétaires en contradiction avec le projet développé conformément aux conclusions du préavis municipal N° 21/2023 préalablement cité. Avant de développer un nouveau projet de plan d'affectation conforme à ce projet d'intention, la Municipalité sollicite, par le biais du présent préavis, une décision du Conseil communal.
+
+### 3. Situation
+
+Le secteur concerné s'étend sur les parcelles N° 1378 et 1025 situées de part et d'autre du chemin du Croton (DP 2) et totalisant une surface de 50'354 m².
+
+Le plan général d'affectation de 2019 prévoyait l'indication du secteur en tant que « zone à développer par plan spécial ». Cette proposition n'ayant pas été approuvée par le Département, ce sont les plans d'affectations antérieurs, présentés ci-dessous, qui continuent à régir le secteur.
+
+Plan d'extension partiel (PEP) « Crêt-Richard, Villard, La Doge, La Poneyre, Burier-Dessus », 24.2.1982
+
+Le PEP affecte la parcelle N° 1378 en zone protégée et en zone de villas I, la parcelle N° 1025 en zone de verdure et en zone de villas II. Pour les deux zones villas, il est stipulé que « l'établissement d'un plan de quartier ou d'un plan d'extension partiel est obligatoire ».
+
+Plan partiel d'affectation (PPA) « Campagne Rossier », 11.11.1996
+
+La partie affectée en zone de villas II de la parcelle N° 1025 a fait l'objet d'un PPA établi dans le but de permettre la construction d'une maison individuelle à caractère écologique (l'actuelle villa « Clef de Sol »). Le plan établit des règles précises pour l'aire des constructions et l'aire des aménagements extérieurs (secteur II) liées à ladite villa et affecte le solde de la parcelle à la zone villa II, reprenant les dispositions du PEP 1982, notamment l'obligation de l'établissement d'un plan d'affectation.
+
+Bien que les plans en vigueur déterminent un indice d'utilisation de 0,2 pour les zones à bâtir, les parcelles ne sont pas directement constructibles et nécessitent l'établissement d'un ou plusieurs plans d'affectation.
+
+Plan de classement du site de La Doges, 17.12.2003
+
+Une partie de la parcelle N° 1025 est en outre située dans le périmètre de protection du site de La Doges, lequel vise à sauvegarder les vues sur et depuis ledit domaine.
+
+![img-0.jpeg](img-0.jpeg)
+
+Plan du parcellaire – source : map.cartoriviera.ch
+
+|  Parcelle | Propriétaire | Surface  |
+| --- | --- | --- |
+|  1378 | Micheli Jacqueline (Siordet) | 24'078 m²  |
+|  1025 | Guisan Françoise (Siordet) | 26'456 m²  |
+|   | Total | 50'354 m²  |
+
+
+
+## 4. Historique
+
+Le secteur a fait l'objet de plusieurs tentatives de projets de plans d'affectation visant à construire les parcelles concernées, mais qui n'ont jamais abouti. Ils se sont heurtés à des difficultés, notamment en raison de la sensibilité du site, caractérisé par sa position en frange de l'urbanisation dans le grand espace paysager et agricole de la Riviera et à proximité immédiate du site protégé de La Doges.
+
+Plus précisément, le projet de plan partiel d'affectation « Campagne Rossier II – La Combe de Villard », initié par les propriétaires en 2008, avait fait l'objet de plusieurs oppositions et avait finalement été refusé par le Conseil communal en 2018.
+
+La démarche a été relancée en 2021 par les propriétaires, avec un nouveau promettant-acquéreur, qui ont développé une nouvelle version de plan d'affectation, nommé « Combe de Villard », auquel la Municipalité a décidé de ne pas donner suite. Un projet de plan d'affectation ayant pour but de préserver le caractère non bâti du site a ensuite été développé par le Service de l'urbanisme et des travaux publics conformément à la décision de votre Conseil au sujet du préavis N° 21/2023. En parallèle, les propriétaires ont adapté leur proposition de plan prévoyant de nouvelles constructions ; ce projet d'intention a obtenu le soutien de la majorité de la Municipalité et fait également l'objet du présent préavis.
+
+Nous renvoyons au préavis municipal N° 21/2023 pour un historique plus complet de la situation.
+
+## 5. Le projet de plan d'affectation « En Villard Dessous »
+
+Le projet de plan d'affectation « En Villard Dessous » a été développé entièrement par le Service de l'urbanisme et des travaux publics conformément aux décisions prises via le préavis municipal N° 21/2023. Il a pour objectif de maintenir le caractère non bâti prépondérant du site, de conserver les constructions existantes, de valoriser les milieux naturels ainsi que le patrimoine paysager et architectural du site.
+
+Projet de plan d'affectation
+« En Villard Dessous »
+
+Le plan d'affectation prévoit la confirmation d'une zone d'habitation de très faible densité en lien avec la villa existante « Clef de sol » (cf. ci-après) et avec la zone adjacente d'habitation de faible densité définie par le plan général d'affectation en vigueur. Il prévoit également le maintien de la zone de site construit protégé de la partie nord de la parcelle N° 1378 et la mise en zone agricole du solde des surfaces. Le bosquet existant, pour la préservation de son caractère boisé, et le secteur sud-est de la parcelle N° 1025, de par la superposition avec le plan de classement du site de La Doges,
+
+![img-1.jpeg](img-1.jpeg)
+
+Projet de plan d'affectation « En Villard Dessous »
+
+
+
+sont affectés à la zone agricole protégée ; dans cette zone, toutes constructions sont proscrites, même celles en lien avec l'exploitation de la zone agricole.
+
+Par ailleurs, le projet prévoit des secteurs superposés en lien avec la possibilité, à terme, de remettre à ciel ouvert le ruisseau du Gregnolet qui prend sa source dans le secteur et qui est actuellement enterré sur la quasi-totalité de son tracé.
+
+L'ensemble des détails du plan, de son règlement et du rapport selon l'art. 47 de l'Ordonnance fédérale sur l'aménagement du territoire (OAT) sont annexés au présent préavis.
+
+### 5.1. Zone d'habitation de faible densité en lien avec la villa existante « Clef de sol »
+
+Une zone d'habitation de faible densité avec un indice d'utilisation du sol (IUS) de 0.4 est délimitée, en lien avec la villa existante sur la parcelle N° 1025 et ses environs immédiats. Cette zone était déjà délimitée dans le PPA « Campagne Rossier I » actuellement en vigueur. Le plan d'affectation précise certaines règles dans l'hypothèse où ce potentiel constructible serait utilisé, de manière à limiter la volumétrie et l'impact des futures constructions dans ce périmètre. L'esquisse ci-après permet de visualiser l'implantation hypothétique possible d'un volume supplémentaire en sus de l'actuel bâtiment, dans le respect des règles de construction ainsi définies par le plan d'affectation.
+
+![img-2.jpeg](img-2.jpeg)
+
+![img-3.jpeg](img-3.jpeg)
+
+*Vue aérienne et en plan d'un nouveau volume potentiel dans la zone de faible densité*
+
+### 5.2. Études complémentaires
+
+Au vu de la sensibilité du site, le dossier a été complété par une étude paysagère effectuée par un spécialiste externe. Le bureau Bonnemaison-paysage, qui a notamment réalisé l'ensemble du plan de gestion des propriétés du domaine d'Hauteville situé à proximité, a réalisé un diagnostic paysager qui est joint au rapport de conformité selon l'art. 47 OAT. Le diagnostic analyse le site sous différents aspects, tels que : géomorphologie, topographie, végétalisation, arborisation, évolution historique, urbanisation, mutation du paysage agricole et d'agrément. Il met en évidence les qualités et les menaces sur ce site d'importance de « l'entre-deux paysager » au niveau de l'agglomération, méritant d'être préservé et mis en valeur.
+
+En outre, dans le but de clarifier la question de la possible indemnisation pour expropriation matérielle du secteur, des avis de droit ont été demandés à deux des avocats-conseil : un premier à M$^{e}$ Christophe Misteli en novembre 2022, suivi d'un deuxième à M$^{es}$ Laurent Pfeiffer et Jessica de Quattro Pfeiffer en juillet 2025. Les deux avis n'excluent pas complètement le droit à une indemnité, bien que le second qualifie les chances de succès de « relatives ». Ils concordent également sur la conclusion que l'éventuelle indemnité serait, à ce jour, due exclusivement par le Canton, conformément à la nouvelle mouture de la LATC entrée en vigueur le 1$^{er}$ septembre 2018 (article 73 alinéa 1). Cette éventuelle indemnité sera financée par le fonds cantonal alimenté par la taxe sur la plus-value. Les deux avis de droit sont annexés au présent préavis.
+
+
+
+## 6. Le projet d’intention des propriétaires
+
+Les propriétaires ont développé un projet d’intention en concertation avec un groupe de travail réunissant des conseillers communaux, des riverains et des exploitants agricoles. Ce groupe s’est réuni à trois reprises en 2025. Le projet d’intention complet est annexé au présent préavis. Ce projet prévoit la définition de périmètres constructibles plus restreints par rapport aux versions précédemment présentées à la Municipalité. Ces périmètres seraient dans la continuité du bâti existant : un dans la partie ouest de la parcelle N° 1025, sur le secteur actuellement en zone de verdure au sommet d’une colline et aujourd’hui cultivé en vigne ; le second dans la partie ouest de la parcelle N° 1378.
+
+À ce stade, le présent projet envisage une capacité constructive totale d’environ 5’300 m² de surface de plancher. Cette estimation a été déterminée sur la base des densités prévues par le plan d’affectation de 1982, sous réserve des vérifications qui interviendront dans le cadre de
+
+l’établissement du nouveau plan d’affectation et de sa conformité au droit supérieur. Il est envisagé la réalisation d’environ 45 à 50 logements, développés par la CODHA, répartis dans 12 à 15 immeubles de trois niveaux (rez + étage + combles habitables). Le solde des surfaces serait affecté à une aire inconstructible (notamment agricole/viticole).
+
+Le nouveau projet étend par ailleurs la réflexion à cinq parcelles adjacentes correspondant au domaine acquis par M. Benjamin Rossier en 1911, aujourd’hui propriété de ses descendantes, sans modification de leur affectation actuelle déjà inconstructible au PGA (zones agricole et/ou viticole). Sur l’ensemble du périmètre élargi, le projet propose différentes mesures d’intérêt public visant à amener des plus-values supplémentaires au site, notamment : la mise en place de servitudes publiques de passage sur divers secteurs des parcelles privées aujourd’hui inaccessibles (en orange sur le plan indicatif ci-dessus), la remise à ciel ouvert et renaturation d’un tronçon du ruisseau du Gregnolet (qui prend sa source dans le secteur), divers aménagements et plantations en faveur de la biodiversité et une forme d’exploitation extensive des surfaces. Ces mesures seraient concrétisées dans le plan d’affectation à établir et seraient notamment garanties par des baux à ferme en faveur d’associations telles que Pro Natura pour l’exploitation des terrains agricoles (6’000 m² de vergers et de jardins potagers).
+
+![img-4.jpeg](img-4.jpeg)
+
+Projet d’intention – image illustrative avec, en orange, les potentielles nouvelles servitudes publiques
+
+
+
+## 7. Aménagement du territoire - Position de la Municipalité
+
+La majorité de la Municipalité estime que le nouveau projet d’intention proposé par les propriétaires prévoit une urbanisation raisonnable de ce secteur, dans la continuité du bâti existant, et offre par ailleurs de nouvelles opportunités à la population boélande. La création de nouvelles servitudes publiques de passage, combinée à l’orientation du domaine vers une exploitation extensive, est de nature à préserver durablement les qualités paysagères du site et ses usages de promenade. La majorité de la Municipalité estime en outre que le projet permet de mettre sur le marché de nouveaux logements exploités sous une forme coopérative, dont certains seraient réservés aux Boéland·e·s et une partie serait à loyer abordable, ce qui contribue à la lutte contre la pénurie de logements qui sévit dans notre commune. Enfin, l’urbanisation limitée envisagée permettrait de contribuer au financement de l’entretien et de la valorisation des surfaces non construites (soit plus de 120’000 m²), destinées à la promotion de la biodiversité et au maintien d’une agriculture adaptée (vigne, prairie, pâturage, maraîchage, etc.), dans le respect des exigences applicables, notamment celles de la LPrPNP. Selon la majorité de la Municipalité, ce nouveau projet répond aux critiques formulées lors des démarches antérieures en réduisant sensiblement les droits à bâtir, tout en apportant des plus-values pour la population boélande (accès, paysages, biodiversité) qui ne pourraient être garanties dans l’hypothèse d’un déclassement.
+
+La minorité de la Municipalité estime que le projet de plan « En Villard Dessous » permet de préserver définitivement ce site de l’urbanisation et permettrait de maintenir à long terme ses qualités écologiques et paysagères. Le grand paysage exceptionnel formé par « l’entre-deux paysager » défini au niveau de l’agglomération, et son dégagement sur le Léman, le Chablais et les Alpes, mérite d’être préservé de toute atteinte supplémentaire. La minorité de la Municipalité estime qu’il est judicieux de colloquer définitivement ces parcelles en dehors de la zone à bâtir et de préserver ces espaces de verdure en cohérence avec les objectifs de la Loi fédérale sur l’aménagement du territoire (LAT), qui vise à densifier les centres, mais à préserver les campagnes. Le contexte particulier et historique de ces parcelles, de même que les droits des propriétaires, ont été pris en considération dans cette appréciation ; néanmoins, la planification établie au début des années 1980 ne doit pas, de l’avis de la minorité de la Municipalité, faire obstacle à une réflexion et des décisions à la hauteur des enjeux d’aujourd’hui pour notre Commune, qui contribue déjà de façon importante à la densification des centres voulue par la LAT. Cette densification progressive du centre-ville impose également de maintenir ces espaces ouverts à proximité, afin de garantir la qualité de vie actuelle et future de la population boélande.
+
+## 8. Coûts
+
+Un crédit d’étude de Fr. 50’000.- a été ouvert par la Municipalité conformément aux conclusions du préavis municipal N° 21/2023. À ce jour, Fr. 19’958.30 ont été engagés ou dépensés pour les études spécialisées (paysagère et juridiques) et pour divers frais en lien avec l’élaboration des documents du projet de plan d’affectation « En Villard Dessous ». L’ensemble des documents formels liés à ce plan d’affectation ont été développés et rédigés à l’interne par le Service de l’urbanisme et des travaux publics, ce qui a permis de limiter les dépenses. Dans l’hypothèse d’une poursuite du processus relatif au plan d’affectation (mise à l’enquête publique, traitement des oppositions, etc.), des coûts supplémentaires sont à prévoir, qui continueraient le cas échéant d’être couverts par le crédit d’étude précédemment mentionné.
+
+Le développement d’un nouveau plan d’affectation sur la base du projet initié par les propriétaires engendrera quant à lui des frais d’étude et d’établissement des documents qui, conformément à l’article 35 alinéa 2 LATC et à l’article 5 du règlement communal sur les émoluments administratifs en matière d’aménagement du territoire et des constructions du 13 janvier 2025, feront l’objet d’une convention entre la Municipalité et les propriétaires concernant leur répartition. S’agissant d’un plan d’affectation initié par les propriétaires, les coûts devraient être à la charge de ces derniers, y compris les prestations de l’administration communale qui pourraient être refacturées selon le tarif prévu par le règlement communal.
+
+
+
+## 9. Suite du processus
+
+L'établissement et approbation des plans d'affectation communaux suivent la procédure selon la LATC (articles 34 et suivants) dont les principales étapes sont décrites ci-dessous.
+
+- Examen préliminaire par les services cantonaux (art. 36).
+- Examen préalable par les services cantonaux (art. 36).
+- Mise à l'enquête publique de 30 jours (art. 38).
+- Traitement des oppositions et séances de conciliation (art. 40).
+- Éventuelles modifications du dossier et soumission au Conseil communal.
+- Adoption du plan par le Conseil communal et levée des oppositions qui n'auraient pas été retirées (art. 42).
+- Transmission du plan au département cantonal pour approbation et entrée en vigueur (art. 43).
+
+En cas de modifications de nature à porter atteinte à des intérêts dignes de protection – pour répondre à des oppositions ou pour donner suite à des amendements du Conseil communal – le dossier devra être soumis nouvellement au Canton pour examen préalable complémentaire et les modifications devront être remises à l'enquête publique (art. 41 et 42 al. 3 LATC).
+
+Les deux premières étapes (examens préliminaire et préalable) ont déjà été réalisées s'agissant du projet de plan d'affectation « En Villard Dessous ». L'entier du travail reste à réaliser concernant le plan à développer conformément au projet d'intention des propriétaires. Il n'est, à ce stade, pas possible de donner des échéances temporelles précises à la réalisation de ces différentes étapes légales.
+
+## 10. Conséquences financières
+
+Le développement d'un plan d'affectation conformément au projet d'intention des propriétaires n'engendre pas, à ce stade, de conséquences financières particulières.
+
+## 11. Personnel communal
+
+Aucun impact particulier sur le personnel communal n'est à relever ; le suivi du dossier est assuré par le Service de l'urbanisme et des travaux publics dans le cadre de ses tâches habituelles.
+
+## 12. Développement durable
+
+### 12.1. Social
+
+Le projet d'intention des propriétaires prévoit la création de logements coopératifs dont une partie serait à loyer abordable. Par la création de servitudes de passage public, le projet permettrait de créer de nouvelles promenades publiques sur des parties de terrains privés jusque-là inaccessibles. Par ailleurs, l'ouverture des maraîchages à des personnes individuelles ou à des collectivités, telles que des écoles, des associations ou des coopératives agricoles est également envisagée.
+
+### 12.2. Économique
+
+La création de 5'300 m² de surface de plancher permettrait l'accueil d'une centaine d'habitants supplémentaires. La construction de ces divers logements contribuera à répondre à la pénurie de logements de la région.
+
+### 12.3. Environnement
+
+L'étendue de la surface affectée à de la zone constructible par rapport à la planification adoptée en 1982 serait diminuée dans le projet d'intention des propriétaires. Une exploitation agricole plus respectueuse de l'environnement serait poursuivie par le biais d'un bail Pro Natura sur l'ensemble de la propriété formant la « Campagne Rossier ». Seraient également prévues dans le plan d'affectation à établir la renaturation du ruisseau du Gregnolet et la création d'aires de promotion de la biodiversité.
+
+
+
+### 13. Conclusions
+
+Nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter les conclusions suivantes :
+
+Le Conseil communal de La Tour-de-Peilz,
+
+- vu le préavis municipal N° 3/2026,
+- vu le rapport de la commission chargée d'examiner ce dossier,
+- considérant que cet objet a été porté à l'ordre du jour,
+
+décide :
+
+1. de charger la Municipalité d'élaborer un projet de plan d'affectation sur la base du projet d'intention des propriétaires ;
+2. de prendre note que le plan d'affectation lui sera à nouveau soumis pour approbation à l'issue de l'enquête publique, conformément à la procédure définie par la loi sur l'aménagement du territoire et les constructions.
+
+AU NOM DE LA MUNICIPALITÉ
+
+La syndique : Le secrétaire :
+
+Sandra Pasquier Pierre-A. Dupertuis
+
+Annexes :
+
+- Dossier du projet de Plan d'affectation « En Villard Dessous »
+  - Plan 1:1'000
+  - Règlement
+  - Rapport de conformité selon l'article 47 OAT
+    - Examen préalable des services cantonaux
+- Avis de droit de Me Laurent Pfeiffer et Me Jessica de Quattro Pfeiffer du 10 juillet 2025 concernant l'indemnisation pour expropriation matérielle du secteur « Campagne Rossier »
+- Avis de droit de Me Christophe Misteli du 25 novembre 2022
+- Diagnostic paysager du secteur du 26 août 2025 établi par le bureau bonnemaison-paysage
+- Projet d'intention des propriétaires, document du 8 octobre 2025
+
+Délégation municipale : Mme Elise Kaiser & M. Alessio Grutta
+
+Adopté par la Municipalité : le 22 janvier 2026
+
+
+
+# VILLEDE
+LATOUR
+DE PEILZ
+PLAN D'AFFECTATION " EN VILLARD DESSOUS "
+Format A2 / Echelle 1:1000
+
+Approuvé par la Municipalité
+
+dans la séance du ____________
+
+La Sanitique: ____________ La Secrétaire:
+
+Soumis à l'impôtion publique
+
+du ____________
+
+en ____________
+
+Adapté par le Conseil communal
+
+dans la séance du ____________
+
+La Présidente: ____________ La Secrétaire:
+
+Approuvé par le Département compétent
+
+Lausanne, le ____________
+
+La Cheffe du Département:
+
+Entré en vigueur le ____________
+
+# PLAN DE SITUATION
+
+Echelle 1:107000
+
+Coordonnées moyennes 2'550'000 / 2'160'475
+
+![img-0.jpeg](img-0.jpeg)
+
+# ÉTAT FONCIER
+
+N° Parcelle Propétant Surface
+
+2025 Françoise OLRAMS 20'455 m²
+
+1378 Jacqueline MACMILL 19'078 m²
+
+Total 50'533 m²
+
+La Tour-de-Peilz, le 10 septembre 2025
+
+![img-1.jpeg](img-1.jpeg)
+
+En Villard
+
+![img-2.jpeg](img-2.jpeg)
+
+![img-3.jpeg](img-3.jpeg)
+
+![img-4.jpeg](img-4.jpeg)
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+![img-7.jpeg](img-7.jpeg)
+
+![img-8.jpeg](img-8.jpeg)
+
+![img-9.jpeg](img-9.jpeg)
+
+![img-10.jpeg](img-10.jpeg)
+
+![img-11.jpeg](img-11.jpeg)
+
+![img-12.jpeg](img-12.jpeg)
+
+![img-13.jpeg](img-13.jpeg)
+
+![img-14.jpeg](img-14.jpeg)
+
+![img-15.jpeg](img-15.jpeg)
+
+
+
+COMMUNE DE LA TOUR-DE-PEILZ
+
+Règlement du plan d'affectation « En Villard Dessous »
+
+
+
+# SCEAUX ET SIGNATURES
+
+Approuvé par la Municipalité de La Tour-de-Peilz dans sa séance du _______________
+
+La Syndique :
+
+Le Secrétaire :
+
+Soumis à l'enquête publique du _________ au _________
+
+La Syndique :
+
+Le Secrétaire :
+
+Adopté par le Conseil communal de La Tour-de-Peilz dans sa séance du _________
+
+La Présidente :
+
+La Secrétaire :
+
+Approuvé par le Département compétent, Lausanne, le _________
+
+La Cheffe du Département :
+
+Entrée en vigueur le _______________
+
+
+
+# SOMMAIRE
+
+|  **TITRE 1** | **DISPOSITIONS GÉNÉRALES** | **1**  |
+| --- | --- | --- |
+|  Article 1 | Buts | 1  |
+|  Article 2 | Périmètre et zones d'affectation | 1  |
+|  Article 3 | Contenu | 1  |
+|  Article 4 | Degré de sensibilité au bruit | 1  |
+|  **TITRE 2** | **RÈGLES PARTICULIÈRES** | **1**  |
+|  **CHAPITRE I – ZONE D'HABITATION DE TRES FAIBLE DENSITÉ** |   | **1**  |
+|  Article 5 | Destination | 1  |
+|  Article 6 | Densité | 1  |
+|  Article 7 | Esthétique et intégration des constructions | 1  |
+|  Article 8 | Bâtiment existant | 2  |
+|  Article 9 | Constructions souterraines | 2  |
+|  Article 10 | Distances | 2  |
+|  Article 11 | Volumétrie des constructions | 2  |
+|  Article 12 | Toitures | 2  |
+|  **CHAPITRE II – ZONE AGRICOLE 16 LAT** |   | **2**  |
+|  Article 13 | Destination | 2  |
+|  **CHAPITRE III – ZONE AGRICOLE PROTÉGÉE A 16 LAT** |   | **3**  |
+|  Article 14 | Destination | 3  |
+|  **CHAPITRE IV – ZONE AGRICOLE PROTÉGÉE B 16 LAT** |   | **3**  |
+|  Article 15 | Destination | 3  |
+|  **CHAPITRE IV – ZONE DE SITE CONSTRUIT PROTÉGÉ 17 LAT** |   | **3**  |
+|  Article 16 | Destination | 3  |
+|  **TITRE 3** | **DISPOSITIONS APPLICABLES À TOUTES LES ZONES** | **4**  |
+|  Article 17 | Aménagements paysagers | 4  |
+|  Article 18 | Evacuation des eaux | 4  |
+|  Article 19 | Stationnement et accès | 4  |
+|  **TITRE 4** | **DISPOSITIONS FINALES** | **5**  |
+|  Article 20 | Dérogations | 5  |
+|  Article 21 | Dispositions complémentaires | 5  |
+|  Article 22 | Abrogation | 5  |
+|  Article 23 | Approbation et entrée en vigueur | 5  |
+|  **TITRE 5** | **ANNEXE - LISTE DES ABRÉVIATIONS** | **5**  |
+
+
+
+# TITRE 1 DISPOSITIONS GÉNÉRALES
+
+# Article 1 Buts
+
+Le plan d'affectation (PA) « En Villard Dessous » a pour but de
+
+- maintenir le caractère majoritairement non bâti du site ;
+- permettre le maintien du bâti existant ;
+- préserver et de valoriser les milieux naturels présents sur le site ;
+- conserver et valoriser le patrimoine paysager et architectural du site.
+
+# Article 2 Périmètre et zones d'affectation
+
+¹ Les dispositions du présent plan d'affectation s'appliquent à l'intérieur du périmètre figuré en rouge sur le plan.
+
+² Le PA définit les zones suivantes :
+
+- zone d'habitation de très faible densité 15 LAT ;
+- zone agricole 16 LAT ;
+- zone agricole protégée A et B 16 LAT ;
+- zone de site construit protégé 17 LAT.
+
+# Article 3 Contenu
+
+Le PA « En Villard Dessous » est constitué du présent règlement et du plan d'affectation (plan des zones), à l'échelle 1:1'000.
+
+# Article 4 Degré de sensibilité au bruit
+
+Conformément aux dispositions de l'ordonnance sur la protection contre le bruit (OPB), sont attribués les degrés de sensibilité au bruit (DS) suivants :
+
+|  Zones | DS  |
+| --- | --- |
+|  zone d'habitation de très faible densité | II  |
+|  zone agricole | III  |
+|  zone agricole protégée A et B | III  |
+|  zone de site construit protégé | III  |
+
+# TITRE 2 RÈGLES PARTICULIÈRES
+
+# CHAPITRE I – ZONE D'HABITATION DE TRES FAIBLE DENSITÉ
+
+# Article 5 Destination
+
+La présente zone est destinée à l'habitation groupée et individuelle, ainsi qu'aux activités non gênantes.
+
+# Article 6 Densité
+
+¹ Le potentiel constructible est déterminé par l'indice d'utilisation du sol (IUS) qui est le rapport entre la surface de plancher déterminante (SPd) et la surface constructible de la parcelle.
+
+² La SPd est calculée selon les normes SIA en vigueur lors de la demande de permis de construire et selon les directives municipales complétant les définitions.
+
+³ L'IUS maximal autorisé pour la présente zone est de 0.20.
+
+# Article 7 Esthétique et intégration des constructions
+
+¹ Les constructions, ainsi que les aménagements, doivent présenter une cohérence urbanistique, paysagère et architecturale de qualité, en particulier au niveau des volumétries, des matériaux,
+
+
+
+des couleurs et du traitement des espaces extérieurs. Une attention particulière doit être portée à leur insertion dans le paysage en prenant notamment en compte la proximité immédiate du périmètre de protection du site de La Doges et en évitant des configurations créant un effet de masse trop imposant dans le paysage.
+
+L’utilisation des matériaux de construction locaux et durables doit être privilégiée.
+
+Tout projet doit être soumis à la Commission consultative d’urbanisme pour préavis.
+
+#### **Article 8 Bâtiment existant**
+
+Le bâtiment existant peut être maintenu, transformé, agrandi ou démoli et reconstruit conformément aux dispositions du présent règlement.
+
+#### **Article 9 Constructions souterraines**
+
+Les constructions souterraines sont situées prioritairement sous l’emprise du bâtiment hors sol.
+
+Un dépassent hors de ces limites jusqu’à concurrence de 20 % de la surface bâtie peut être admis en cas de besoin avéré et techniquement indispensable.
+
+#### **Article 10 Distances**
+
+La distance aux limites de propriété est de 6 mètres.
+
+Les distances entre les constructions ou parties de constructions sises sur la même parcelle respecteront les prescriptions en matière de protection incendie.
+
+#### **Article 11 Volumétrie des constructions**
+
+La hauteur maximale autorisée, mesurée depuis le terrain de référence moyen jusqu’au point plus haut de la construction (faite ou acrotère du dernier niveau), est de 7 mètres.
+
+Les constructions ne doivent toutefois pas dépasser l’altitude de 483.80 m.
+
+La hauteur de façade, mesurée du pied de façade jusqu’au chéneau ou à l’acrotère, est limitée à 3 mètres.
+
+Le nombre de niveaux habitables autorisé est de 2, dont le deuxième doit obligatoirement avoir une configuration en forme d’attique ou de combles.
+
+#### **Article 12 Toitures**
+
+La forme des toitures est libre.
+
+Les toitures plates sont végétalisées sur 80% minimum de la surface totale ou aménagées en terrasse (maximum 20 % de la surface totale).
+
+Les installations solaires sont autorisées sur l’ensemble des toitures, y compris sur les parties végétalisées
+
+La végétalisation des toitures plates est conçue et entretenue de manière extensive, différenciée et favorable à la biodiversité. Une épaisseur suffisante de substrat, prenant en compte le tassement, doit être garantie. Sa conception est adaptée en cas de combinaison avec des installations solaires pour ne pas nuire au fonctionnement de ces dernières.
+
+## **CHAPITRE II – ZONE AGRICOLE 16 LAT**
+
+#### **Article 13 Destination**
+
+Cette zone est destinée aux activités liées à l’exploitation agricole et viticole liées au sol et à l’exploitation pastorale.
+
+Seules sont autorisées les activités et les constructions reconnues conformes à cette zone par le droit fédéral et cantonal (LAT et LATC).
+
+
+
+$^{3}$ Sont encouragés les aménagements en faveur de la biodiversité, en particulier ceux ayant pour but de remettre à ciel ouvert des cours d'eau souterrains dans les aires indiquées à cet effet sur le plan, ainsi que la plantation de vergers composés de fruitiers haute-tige.
+
+$^{4}$ Toute demande de permis de construire ou tout changement de destination d'une construction existante doit être soumis préalablement au département cantonal compétent pour autorisation spéciale au sens de l'article 120 LATC.
+
+## CHAPITRE III – ZONE AGRICOLE PROTÉGÉE A 16 LAT
+
+### Article 14 Destination
+
+$^{1}$ La présente zone est destinée à la protection du paysage et des sites à l'intérieur du périmètre du plan de classement du 17 décembre 2003 classant le site de La Doges à travers la conservation de la substance des composantes non construites et de la configuration générale du sol.
+
+$^{2}$ Sont encouragés les aménagements en faveur de la biodiversité et la plantation de vergers composés de fruitiers haute-tige.
+
+$^{3}$ Elle est inconstructible.
+
+$^{4}$ Tout projet d'aménagement doit être soumis préalablement au département cantonal compétent pour autorisation spéciale au sens de l'article 120 LATC.
+
+## CHAPITRE IV – ZONE AGRICOLE PROTÉGÉE B 16 LAT
+
+### Article 15 Destination
+
+$^{1}$ La présente zone est destinée à la protection du paysage et des sites à travers le maintien et l'entretien du bosquet existant et de la configuration générale du sol.
+
+$^{2}$ Elle est inconstructible.
+
+## CHAPITRE IV – ZONE DE SITE CONSTRUIT PROTÉGÉ 17 LAT
+
+### Article 16 Destination
+
+$^{1}$ La présente zone est destinée à la conservation et la sauvegarde d'ensembles bâtis et de leurs abords. Elle est caractérisée par l'interdiction de bâtir sauf pour des dépendances de peu d'importance au sens de l'art. 39 RLATC et des aménagements en rapport avec l'utilisation des bâtiments existants, à condition que ces ouvrages ne portent pas préjudice au site. Peuvent être admises, les activités compatibles avec le maintien des qualités patrimoniales et paysagères des sites concernés.
+
+$^{2}$ Les bâtiments existants peuvent être transformés dans leur volume existant. Des transformations, de modestes agrandissements, un changement d'affectation sont possibles si ces modifications sont objectivement fondées et si elles sont compatibles avec la conservation et la mise en valeur du bâtiment.
+
+$^{3}$ Pour qu'un agrandissement soit considéré comme modeste, la SPd ne doit excéder ni 30% de la surface du bâtiment principal (dans son état de 1982) ni 100 m$^{2}$. La surface des dépendances de peu d'importance n'est pas comptabilisée en tant que SPd.
+
+$^{4}$ Tout projet de transformation, de construction ou d'aménagement doit être soumis préalablement au département cantonal compétent pour autorisation spéciale au sens de l'article 120 LATC.
+
+
+
+# TITRE 3 DISPOSITIONS APPLICABLES À TOUTES LES ZONES
+
+## Article 17 Aménagements paysagers
+
+1. Tout projet d'aménagement doit être élaboré par un spécialiste (notamment architecte-paysagiste).
+
+2. Les espaces extérieurs, y compris les toitures végétalisées, sont conçus pour contribuer à la préservation et à la valorisation de la biodiversité. Ils sont notamment entretenus selon le principe de l'entretien différencié et doivent offrir des aménagements favorables à la biodiversité.
+
+3. Les essences et espèces de nouvelles plantations doivent être choisies parmi celles favorables à la biodiversité et résilientes face au changement climatique, tout en privilégiant celles indigènes.
+
+4. Les murs et clôtures durables seront conçus de manière à ne pas constituer des obstacles infranchissables pour la petite faune. Un espace de 15 à 20 cm doit notamment être aménagé sous les murs et clôtures. Dans la situation où un besoin de protection de la petite faune est avéré, la Municipalité peut exiger des mesures spécifiques telles que la végétalisation de ces ouvrages.
+
+5. Dans la mesure où ils ne constituent pas des obstacles à la culture du sol, les anciens murs de vignes doivent être conservés et entretenus.
+
+6. Les surfaces libres de constructions, notamment les aires de circulation, d'accès et les chemins, sont aménagées avec des revêtements perméables.
+
+7. Les piscines, à l'exception de celles alimentées par l'eau hors réseau et participant à l'amélioration de la biodiversité, sont interdites.
+
+## Article 18 Evacuation des eaux
+
+Les eaux usées et claires sont évacuées conformément au Plan général d'évacuation des eaux (PGEE) et au Règlement communal sur l'évacuation des eaux.
+
+## Article 19 Stationnement et accès
+
+1. Le nombre de places de stationnement (véhicules et deux-roues) est déterminé conformément aux normes VSS en vigueur lors de la demande de permis de construire.
+
+2. Les accès et cheminements existants peuvent être maintenus et entretenus.
+
+3. La création de nouveaux accès pour véhicules motorisés ainsi que le prolongement des routes carrossables est interdite.
+
+
+
+## TITRE 4 DISPOSITIONS FINALES
+
+### Article 20 Dérogations
+
+La Municipalité peut accorder des dérogations aux règles constructives du présent règlement dans les limites de l'article 85 et 85a LATC.
+
+### Article 21 Dispositions complémentaires
+
+Pour toutes dispositions non prévues par le présent règlement, sont applicables les dispositions fédérales et cantonales, ainsi que des plans et règlements communaux.
+
+### Article 22 Abrogation
+
+Le présent PA abroge, à l'intérieur de son périmètre :
+
+- le plan d'extension partiel « Crêt Richard Villard, La Doges, La Poneyre, Burier-Dessus » du 24 février 1982 ;
+- le plan partiel d'affectation « Campagne Rossier » du 11 novembre 1996.
+
+### Article 23 Approbation et entrée en vigueur
+
+¹ Conformément à l'art. 43 LATC, le Département compétent approuve le présent plan d'affectation et son règlement.
+
+² Le Service cantonal compétent constate l'entrée en vigueur du Plan.
+
+## TITRE 5 ANNEXE - LISTE DES ABRÉVIATIONS
+
+|  **BLV** | Base législative vaudoise  |
+| --- | --- |
+|  **DS** | Degré de sensibilité au bruit  |
+|  **IUS** | Indice d'utilisation du sol  |
+|  **LAT** | Loi fédérale du 22 juin 1979 sur l'aménagement du territoire (RS 700)  |
+|  **LATC** | Loi cantonale sur l'aménagement du territoire et les constructions du 4 décembre 1985 (BLV 700.11)  |
+|  **OPB** | Ordonnance du 15 décembre 1986 sur la protection contre le bruit (RS 814.41)  |
+|  **RLATC** | Règlement d'application de la loi du 4 décembre 1985 sur l'aménagement du territoire et les constructions du 19 septembre 1986 (BLV 700.11.1)  |
+|  **RS** | Recueil systématique du droit fédéral  |
+|  **SIA** | Société suisse des ingénieurs et des architectes  |
+|  **SPd** | Surface de plancher déterminante  |
+|  **VSS** | Association suisse des professionnels de la route et des transports  |
+
+
+
+# PLAN D'AFFECTATION « EN VILLARD DESSOUS »
+
+Rapport de conformité
+
+selon l'article 47 de l'Ordonnance sur l'aménagement du territoire (OAT)
+
+![img-0.jpeg](img-0.jpeg)
+
+Version Septembre 2025
+
+41.03.01-2509-GL-PA-Villard-Dessous-47oat-postEP.docx
+
+☎ 021 977 01 60
+
+✉ utp@la-tour-de-peilz.ch
+
+🌐 www.la-tour-de-peilz.ch
+
+
+
+
+
+
+
+# SOMMAIRE
+
+1. INTRODUCTION ...5
+1.1. Historique et contexte de la procédure ...5
+2. RECEVABILITÉ ...5
+2.1. Elaboration et composition du dossier ...5
+2.1. Chronologie, information et concertation ...5
+2.2. État de l’équipement ...6
+2.3. Démarches liées ...6
+3. PRESENTATION DU SITE ...6
+3.1. Situation géographique ...6
+3.2. Périmètre du plan d’affectation et état foncier ...7
+3.3. Affectation du sol ...8
+3.4. Composantes paysagères et naturelles ...9
+3.5. Composantes patrimoniales ...13
+4. CARACTERISTIQUES DU PROJET ...14
+4.1. Affectation ...14
+4.2. Alignements ...16
+5. JUSTIFICATION ...17
+5.1. Nécessité de légaliser (15 LAT) – Dimensionnement de la zone à bâtir ...17
+5.2. Équipement du terrain (19 LAT) ...17
+5.3. Gestion des eaux ...18
+6. CONFORMITÉ AUX PLANIFICATIONS DE RANG SUPÉRIEUR ...19
+6.1. Loi fédérale sur l’aménagement du territoire (LAT) ...19
+6.2. Plan directeur cantonal (PDCn) 2008, 4e adaptation 2022 ...19
+6.1. Agglomération Rivelac ...19
+6.2. Plans directeurs intercommunaux ...22
+6.3. Plan directeur communal (PDCom) 2000 ...22
+6.4. Plan général d’affectation et de police des constructions (PGA) 2019 ...24
+6.5. Modifications effectuées après examen préalable ...24
+7. ANNEXES ...26
+
+
+
+Orthophoto 2024
+
+![img-0.jpeg](img-0.jpeg)
+
+
+
+# 1. INTRODUCTION
+
+Conformément aux dispositions de l'article 47 de l'ordonnance fédérale sur l'aménagement du territoire (OAT) du 1er septembre 2000, le présent rapport est établi à l'attention de l'Autorité cantonale compétente pour examen préalable. Il accompagne le dossier du plan d'affectation (PA) « En Villard Dessous » lors de l'enquête publique.
+
+## 1.1. Historique et contexte de la procédure
+
+Le secteur a fait l'objet de plusieurs tentatives de projets de plans d'affectation visant à densifier les parcelles concernées mais qui n'ont jamais aboutis. Ils se sont heurtés à des difficultés notamment en raison de la sensibilité du site, caractérisé par sa position en frange de l'urbanisation dans le grand espace paysager et agricole de la Riviera et à proximité immédiate du site protégé de La Doges.
+
+Plus précisément, le projet de plan partiel d'affectation « Campagne Rossier II – La Combe de Villard », initié par les propriétaires en 2008, avait fait l'objet de plusieurs oppositions et avait finalement été refusé par le Conseil communal en 2018.
+
+La démarche a été relancée en 2021 par les propriétaires, avec un nouveau promettant-acquéreur, qui ont développé une nouvelle version de plan d'affectation, nommé « La Combe de Villard », auquel la Municipalité a décidé de ne pas donner suite.
+
+# 2. RECEVABILITÉ
+
+## 2.1. Elaboration et composition du dossier
+
+Le plan d'affectation « En Villard Dessous » a été élaboré par le Service de l'urbanisme et des travaux publics de la Ville de La Tour-de-Peilz.
+
+Le dossier est composé du Plan d'affectation (échelle 1:1000), du Règlement du plan d'affectation et du présent Rapport explicatif selon l'article 47 OAT.
+
+## 2.1. Chronologie, information et concertation
+
+Le projet de plan d'affectation a été initié par la Municipalité de La Tour-de-Peilz à la suite des diverses tentatives infructueuses de la part des propriétaires d'établir un plan d'affectation pour la densification des parcelles du secteur.
+
+L'abandon du développement du secteur, tel que proposé par le projet de PA « La Combe de Villard », et le principe d'établissement d'un plan rendant inconstructible le secteur ont été validés par une décision municipale du 6 mars 2023. Cette prise de position a été soutenue également par le Conseil communal qui, lors de sa séance du 15 mai 2024, donnant suite au postulat « Quel avenir pour Campagne Rossier ? », a chargé la Municipalité de développer un plan d'affectation prévoyant l'inconstructibilité du secteur, exception faite du maintien des bâtiments existants et de modestes agrandissements (préavis municipal 21/2023).
+
+Le questionnaire de l'examen préliminaire ainsi que les premières intentions de modifications ont été transmis à la Direction générale du territoire et du logement (DGTL) le 12 juillet 2024. Cette dernière a émis un avis favorable le 24 septembre 2024.
+
+Les décisions et étapes clés ont été personnellement communiquées aux propriétaires tandis que la population a été informée de la procédure notamment via un communiqué de presse du 23 mars 2023.
+
+
+
+## 2.2. État de l'équipement
+
+La présente procédure n'a pas d'impact sur l'état de l'équipement.
+
+## 2.3. Démarches liées
+
+Le projet ne nécessite pas d'étude d'impact sur l'environnement ni d'autre démarche liée particulière.
+
+# 3. PRESENTATION DU SITE
+
+## 3.1. Situation géographique
+
+![img-1.jpeg](img-1.jpeg)
+
+Plan de situation - source: map.cartoriviera.ch
+
+Le secteur se situe dans le nord du territoire communal de La Tour-de-Peilz, en marge de son périmètre urbanisé. Caractérisé par une topographie vallonnée et richement végétalisée, il s'insère dans une grande entité paysagère, l'espace vert central de l'agglomération Rivelac.
+
+La plupart de la surface des parcelles est actuellement occupée par des prés et pâturages ou par des vignes. Deux constructions sont présentes dans le périmètre du site : au nord-est, une maison de campagne, dont la première édification date de la fin du XVIIIe siècle, noté 3 au Recensement architectural du canton ; au sud, une villa individuelle aux caractéristiques écologiques construite en 1999.
+
+
+
+### 3.2. Périmètre du plan d'affectation et état foncier
+
+Le plan d'affectation s'étend sur les parcelles 1378 et 1025 situées de part et d'autre du chemin du Crotton (DP 2) et totalisant une surface de 50'354 m².
+
+La parcelle 1025 n'est concernée par aucune servitude, tandis que la 1378 est grevée par plusieurs servitudes relatives, pour la plupart, à des canalisations d'eau et de gaz, ainsi qu'une de zone/quartier limitant la hauteur des constructions et de plantations à 6 m dans la partie nord de la parcelle.
+
+|  Parcelle | Propriétaire | Surface  |
+| --- | --- | --- |
+|  1378 | Micheli Jacqueline (Siordet) | 24'078 m²  |
+|  1025 | Guisan Françoise (Siordet) | 26'456 m²  |
+|   | Total | 50'534 m²  |
+
+![img-2.jpeg](img-2.jpeg)
+
+Plan du parcellaire - source: map.cartoriviera.ch
+
+
+
+### 3.3. Affectation du sol
+
+Le Plan général d'affectation de 2019 prévoyait l'indication du secteur en tant que « zone à développer par plan spécial ». Cette proposition n'ayant pas été approuvé par le Département, ce sont les plans d'affectations antérieurs, présentés ci-dessous, qui continuent à régir le secteur.
+
+#### 3.3.1. Plan d'extension partiel (PEP) « Crêt-Richard, Villard, La Doge, La Poneyre, Burier-Dessus », 24.2.1982
+
+Le PEP affecte la parcelle 1378 en zone protégée et en zone de villas I, la parcelle 1025 en zone de verdure et en zone de villas II. Pour les deux zones villas il est stipulé que « l'établissement d'un plan de quartier ou d'un plan d'extension partiel est obligatoire ».
+
+![img-3.jpeg](img-3.jpeg)
+
+#### 3.3.2. Plan partiel d'affectation (PPA) « Campagne Rossier », 11.11.1996
+
+La partie affectée en zone de villas II de la parcelle 1025 a fait l'objet d'un PPA établi dans le but de permettre la construction d'une maison individuelle à caractère écologique (l'actuelle villa « Clef de Sol »). Le plan établit des règles précises pour l'aire des constructions et l'aire des aménagements extérieurs (secteur II) liées à ladite villa et affecte le solde de la parcelle à la zone villa II, reprenant les dispositions du PEP 1982, notamment l'obligation de l'établissement d'un plan d'affectation.
+
+![img-4.jpeg](img-4.jpeg)
+
+Bien que les plans en vigueur déterminent un indice d'utilisation de 0,2, les parcelles ne sont pas directement constructibles et nécessitent l'établissement d'un (de) plan(s) d'affectation.
+
+
+
+### 3.4. Composantes paysagères et naturelles
+
+![img-0.jpeg](img-0.jpeg)
+
+Les entités du paysage de l'agglomération Rivelac - Entre-deux paysager - source : Projet d'agglomération Rivelac PA2
+
+Le présent PA concerne un périmètre situé dans le continuum paysager dénommé « entre-deux paysager » ou « espace paysager central » dans les projets d'agglomération Rivelac. Il s'agit d'un grand espace ouvert, continu de Corseaux jusqu'à Montreux, à une altimétrie médiane entre lac et montagne, structurant le paysage dans le sens des courbes de niveaux. Il offre des vues imprenables et un dégagement important sur le grand paysage, notamment depuis l'autoroute qui le traverse et qui constitue une césure de cet espace naturel. Il est ponctué, entre autres, de domaines à haute valeur patrimoniale (château d'Hauteville, du Châtelard, domaine de la Doges, etc.), d'espaces viticoles en prolongation de Lavaux et d'infrastructures publiques et privées de sport et de loisirs.
+
+Cette entité paysagère subissant une forte pression de la densification et de l'étalement urbain mérite d'être préservé et valorisé, comme préconisé par différentes planifications supérieures explicitées au chapitre 6.
+
+![img-1.jpeg](img-1.jpeg)
+
+Considéré à une échelle plus locale, la sensibilité d'un point de vue paysager du périmètre, situé en marge des limites de l'urbanisation de la commune, paraît également évidente. Il s'agit d'un des rares endroits où l'on peut percevoir la continuité de l'espace paysager central et la topographie vallonnée en accentue davantage les perspectives sur le site.
+
+Une grande partie du site est exploitée pour l'agriculture et la viticulture, quelques arbres isolés ponctuant ce paysage. Un cordon boisé s'étend depuis l'ouest sur la parcelle 1025 et la partie nord de la parcelle 1378 est caractérisée par la présence de plusieurs arbres d'importance.
+
+
+
+![img-2.jpeg](img-2.jpeg)
+
+Réservoirs de biodiversité – Commune ouVerte – La-Tour-de-Peilz, Asca environnement, 10.2024
+
+Selon le Diagnostic de la qualité de l’infrastructure écologique effectué par le bureau Asca environnement en 2024, le secteur est identifié comme faisant partie des Milieux agricoles et viticoles structurés. Ces réservoirs intègrent le vignoble et les surfaces agricoles des vastes domaines situés en amont du territoire communal. Ils sont caractérisés par des arbres isolés, vergers, murs de pierres et surfaces gérées extensivement. Le diagnostic relève également la présence sur ce site d’oiseaux potentiellement menacés.
+
+![img-3.jpeg](img-3.jpeg)
+
+Carte d’analyse des milieux naturels de la Riviera – Projet d’agglomération de deuxième génération Rivelac 2011
+
+L’analyse des milieux naturels de la Riviera, effectuée lors de l’élaboration du projet d’agglomération de deuxième génération, mettait en évidence l’appartenance de la parcelle nord au territoire des Grands parcs, domaines – territoire constituant un intérêt pour la nature de par la grande taille des domaines ainsi que par la variété et richesse de milieux abrités - et de la partie sud aux Milieux à forte valeur – régions bénéficiant d’une topographie et climat favorables au développement de milieux chauds et secs présentant un intérêt écologique particulier car pouvant accueillir une flore et une faune spécialisées.
+
+Selon le guichet cartographique cantonal, l’entier des surfaces non bâties et hors vignes des deux parcelles est annoncé en tant que surface de promotion de la biodiversité mise en réseau (prairies extensives).
+
+
+
+Un diagnostic paysager spécifique au périmètre du présent PA a été effectué par le bureau Bonnemaison-paysage en août 2025.
+
+Il relève un site situé dans une entité géographique particulier en forme de delta, un piémont des Préalpes. Il est caractérisé par une topographie diversifiée, à l'échelle humaine et offrant un extrait complet du paysage de collines, traversé par des parcours en creux, qui protègent des vues sur l'urbanisation voisine et s'ouvrent spectaculairement sur le grand paysage.
+
+Il fait également état de l'extension de l'urbanisation de La Tour-de-Peilz en direction de l'espace paysager et fait état des bâtiments perturbant la perception du paysage. Le diagnostic rappelle que chaque nouvelle construction représente une menace pour la sauvegarde de l'espace paysager central essentiellement non bâti, identifié et pour l'essentiel défendu depuis le début du XXIe siècle.
+
+![img-4.jpeg](img-4.jpeg)
+
+Parallèlement, l'appauvrissement du paysage agricole, se traduisant principalement par la disparition des vergers, ainsi que la diminution des vignes sont également relevés.
+
+Map.geo.admin Photo
+sérienne 1933
+
+Geostation vd.ch,
+photo aérienne 2025
+
+Le fruitier, comme médiateur du paysage domestique
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+![img-7.jpeg](img-7.jpeg)
+
+
+
+Il souligne la valeur historico-patrimoniale du site relevant son appartenance à une succession domaines de bâtiments et jardins classés qui se font écho de colline en colline. Sa valeur sociale, en sa fonction de cadre de promenade fort apprécié par le public, est aussi mise en évidence.
+
+![img-8.jpeg](img-8.jpeg)
+
+
+
+### 3.5. Composantes patrimoniales
+
+![img-9.jpeg](img-9.jpeg)
+
+Vue de La Doges et du site du PA - photo: Jeremy Bierer, 2020
+
+Plusieurs objets figurent dans le Recensement architectural, en particulier à l’intérieur du périmètre du PA, les constructions sises sur la parcelle 1378 ont une note 3.
+
+La partie sud de la parcelle 1025 est concerné par le plan de classement du 17 décembre 2003 lié au Domaine de La Doges, recensé en note 2 et classé. Le plan a pour but de protéger le domaine et ses abords et stipule notamment qu’à l’intérieur de son périmètre « les vues sur La Doges et depuis celle-ci doivent être préservées » sans pour autant y interdire la construction. Il est à noter que le plan exclue le secteur nommé « zone de dégagement PPA Campagne Rossier » qui correspond aux limites du « secteur II - aire des aménagements extérieurs » dudit PPA.
+
+![img-10.jpeg](img-10.jpeg)
+
+Extrait du Plan de classement du site de La Doges du 17 décembre 2003
+
+La présence à proximité immédiate de la région archéologique 347/302 est également à relever.
+
+
+
+## 4. CARACTERISTIQUES DU PROJET
+
+Le PA « En Villard Dessous » a pour objectif de maintenir le caractère non bâti prépondérant du site, de conserver le bâti existant, de valoriser les milieux naturels ainsi que le patrimoine paysager et architectural du site.
+
+Pour ce faire, il prévoit le maintien de la zone de site construit protégé de la partie nord du site ; la confirmation d'une zone d'habitation de très faible densité en lien avec la villa « Clé de sol » ; l'affectation du bosquet existant ainsi que du secteur sud inclus dans le périmètre de classement du site de La Doges à la zone agricole protégée ; et la mise en zone agricole du solde des surfaces.
+
+### 4.1. Affectation
+
+#### 4.1.1. Zone d'habitation de très faible densité
+
+La zone de très faible densité est maintenue sur l'étendue du secteur II (aire des aménagements extérieurs et aire des constructions) du PPA Campagne Rossier (cf. § 3.3.2). Dans le but de permettre des possibilités d'extension et de densification liées à la maison existante, et afin de garantir une certaine de marge de manœuvre pour cette opération, il a été renoncé à définir des périmètres de construction. L'indice d'utilisation est maintenu à 0,2, ce qui se traduit par un total de 486,8 m² de surface de plancher déterminante (SPd), y compris la construction existante. Cette dernière représentant approximativement 385 m², le PA offre environ 100 m² de SPd supplémentaires par rapport à l'état actuel de la construction.
+
+![img-0.jpeg](img-0.jpeg)
+
+Compte tenu de la sensibilité du site, l'intégration de toute nouvelle intervention dans le contexte revêt d'une grande importance. Le plan d'affectation met en œuvre plusieurs mesures visant à garantir cette intégration, en particulier la soumission systématique de tout projet à la Commission consultative d'urbanisme pour préavis. Afin de limiter l'impact des futures constructions ou extensions, leur hauteur totale (mesurée au point plus haut de l'ouvrage) est limitée à 7 mètres depuis le niveau moyen du terrain de référence calculé selon les prescriptions du Plan général d'affectation. Toutefois, les constructions ne pourront pas dépasser l'altitude de 483,80 m, limite déjà établie dans le PPA Campagne Rossier ; la hauteur de façade est limitée à 3 mètres. Le nombre de niveaux autorisé est de 2, dont le deuxième sous forme d'attique ou de combles.
+
+#### 4.1.2. Zone de site construit protégé 17 LAT
+
+Le présent plan confirme l'affectation du secteur nord de la parcelle en zone de site construit protégé afin de préserver la maison de campagne du XVIIIe siècle ainsi que les aménagements extérieurs y
+
+
+
+relatifs. Il assure ainsi une cohérence et une continuité avec l'affectation de la dépendance rurale liée dont l'affectation a été confirmée par le Plan général d'affectation de 2019.
+
+La maison de campagne, datant du XVIII$^{e}$ siècle, a été édifiée légalement avant l'attribution de la parcelle à un territoire non constructible en 1982 par le PEP « Crêt-Richard, Villard, La Doge, La Poneyre, Burier-Dessus ». Sous réserve de l'autorisation spéciale du département compétent, le présent PA admet la possibilité d'agrandir la maison existante à condition que sa SPd n'excède ni 30% de la surface du bâtiment principal dans son état en 1982, ni 100 m$^{2}$. Les dépendances de peu d'importance au sens de l'art. 39 RLATC, ne comptant dans la SPd seraient aussi admissibles.
+
+#### 4.1.3. Zone agricole 16 LAT et zone agricole protégée 16 LAT
+
+La zone agricole inclut l'ensemble des terrains cultivés pour l'agriculture et pour la viticulture.
+
+Deux secteurs sont affectés à la zone agricole protégée afin de préserver leur caractère non bâti : le bosquet existant, situé au nord-ouest de la parcelle 1025, faisant partie d'un cordon boisé qui continue vers l'ouest et qui est affecté par le PGA en zone de verdure B ; et la partie de la parcelle 1025 incluse dans le périmètre du plan de classement du site de La Doges. La plantation de vergers permettant d'enrichir le paysage agricole est encouragée. Un contenu superposé indicatif signale les aires où sont présents des cours d'eau souterrains qui seraient susceptibles d'être mis à ciel ouvert.
+
+#### Bilan des surfaces
+
+|   | Surface de terrain | IUS | SPd  |
+| --- | --- | --- | --- |
+|  Zone d'habitation de très faible densité 15 LAT | 2'434 m^{2} | 0,2 | 486,8 m^{2}  |
+|  Zone agricole 16 LAT | 23'597 m^{2} |  |   |
+|  Zone agricole protégée A 16 LAT | 11'438 m^{2} |  |   |
+|  Zone agricole protégée B 16 LAT | 533m^{2} |  |   |
+|  Zone de site construit protégé 17 LAT | 12'532 m^{2} |  |   |
+|  Total | 50'534 m^{2} |  |   |
+
+
+
+## 4.2. Alignements
+
+Une partie de la parcelle 1025 est concernée par le « Plan d’extension fixant la limite des constructions en bordure du Chemin des Bulesses N° 31 – Tronçon supérieur » du 11 juillet 1969. L’alignement touchant uniquement à la zone agricole protégée, qui est inconstructible, il ne génère pas de contraintes particulières sur le projet. Ledit plan d’alignement est donc maintenue dans le cadre de la présente planification.
+
+Cependant, l’ensemble des plans fixant la limite des constructions sur la Commune faisant l’objet d’une réflexion globale à l’échelle communale, ledit plan pourrait être révisé dans ce processus.
+
+![img-1.jpeg](img-1.jpeg)
+
+
+
+## 5. JUSTIFICATION
+
+### 5.1. Nécessité de légaliser (15 LAT) – Dimensionnement de la zone à bâtir
+
+Conformément à la mesure A11 du plan directeur cantonal (PDCn), le dimensionnement de la zone à bâtir doit répondre aux besoins prévisibles pour les 15 années suivantes. Dans les agglomérations, le dimensionnement est établi et vérifié pour son ensemble. La Ville de La Tour-de-Peilz fait intégralement partie de l'agglomération Rivelac pour lequel la croissance totale maximale entre 2015 et 2040 est déterminée à 30'400 habitants.
+
+La présente planification ne prévoit pas de légalisation de nouvelles zones à bâtir et n'engendre donc pas de dépassement de la croissance allouée à l'agglomération Rivelac par la mesure A11 du PDCn.
+
+### 5.2. Équipement du terrain (19 LAT)
+
+Selon l'aperçu de l'état d'équipement 2002, mis à jour en 2008, la plupart du secteur, hormis la partie sud-ouest de la parcelle 1025 accueillant la villa « Clef du Sol », n'est pas équipée. Aucun droit à bâtir supplémentaire étant prévu par la présente procédure, cette dernière n'a pas d'incidence sur l'équipement du terrain.
+
+![img-2.jpeg](img-2.jpeg)
+
+#### APERCU DE L'ETAT DE L'EQUIPEMENT
+
+##### LEGENDE :
+
+|  Non bâti | Bâti  |
+| --- | --- |
+|   | Zone d'habitation et mixte  |
+|   | Zone d'activités  |
+|   | Zone d'utilité publique  |
+|   | Zone intermédiaire  |
+|   | Autres zones  |
+
+##### Etat de l'équipement
+
+|   | Terrains équipés  |
+| --- | --- |
+|   | Terrains partiellement équipés  |
+|   | Terrains non équipés  |
+
+##### Aptitude à la construction
+
+|   | Terrains propres à la construction de suite  |
+| --- | --- |
+|   | Terrains propres à la construction dans les 5 ans  |
+|   | Terrains propres à la construction après 5 ans  |
+
+
+
+### 5.3. Gestion des eaux
+
+La gestion des eaux claires doit respecter les dispositions du Plan général d'évacuation des eaux (PGEE) et du Règlement communal sur l'évacuation des eaux du 15.03.1995. Conformément aux prescriptions de l'article 7 de la Loi fédérale sur la protection des eaux (LEaux), le Règlement communal sur l'évacuation des eaux prévoit à son article 4 que les eaux claires doivent être infiltrées dans le sous-sol si les conditions hydrogéologiques le permettent et sous réserve de l'autorisation cantonale conformément à l'article 12 de la LPDP (Loi sur la police des eaux dépendant du domaine public). Le plan du potentiel d'infiltration établi lors de l'élaboration du PGEE de 2009 a été mis à jour en 2024. Selon ce dernier, une grande partie du territoire communal présente une mauvaise possibilité d'infiltration. Dans la pratique communale, des tests d'infiltration sont systématiquement exigés lors des demandes de permis de construire, y compris dans les secteurs où la possibilité d'infiltration a été jugée mauvaise selon la carte. Cela a pour conséquence d'augmenter les situations où l'infiltration des eaux claires peut être exigée.
+
+![img-3.jpeg](img-3.jpeg)
+
+Si les conditions ne permettent pas l'infiltration, les eaux claires peuvent être évacuées dans les eaux superficielles dans le respect des limites selon le PGEE. Des dispositifs de rétention peuvent être exigés pour garantir le respect des débits de restitution fixés.
+
+
+
+## 6. CONFORMITÉ AUX PLANIFICATIONS DE RANG SUPÉRIEUR
+
+### 6.1. Loi fédérale sur l'aménagement du territoire (LAT)
+
+Les objectifs poursuivis par le plan d'affectation « En Villard Dessous » sont conformes aux buts et principes régissant l'aménagement fixés par la loi fédérale (articles 1 et 3 LAT). En particulier, il participe à :
+
+- protéger les bases naturelles de la vie, telles que le sol, l'air, l'eau, la forêt et le paysage;
+- garantir des sources d'approvisionnement suffisantes dans le pays;
+- préserver le paysage en réservant à l'agriculture suffisamment de bonnes terres cultivables, en particulier, les surfaces d'assolement.
+
+### 6.2. Plan directeur cantonal (PDCn) 2008, 4e adaptation 2022
+
+Les objectifs poursuivis par le plan d'affectation « En Villard Dessous » sont en adéquation avec ceux du PDCn. Le projet s'inscrit plus particulièrement dans les lignes d'actions suivantes :
+
+- C1 - Valoriser le patrimoine culturel
+- C2 - Faciliter la réhabilitation du patrimoine bâti hors de la zone à bâtir
+- E1 - Valoriser le patrimoine naturel
+- F1 - Préserver les terres agricoles.
+
+### 6.1. Agglomération Rivelac
+
+#### 6.1.1. Projet d'agglomération de deuxième génération Rivelac 2011
+
+Le projet d'agglomération de deuxième génération (PA2) Rivelac a été signé et déposé à la Confédération en 2011 par les communes de Blonay, Chardonne, Châtel-Saint-Denis, Corseaux, Corsier-sur-Vevey, Jongny, La Tour-de-Peilz, Noville, Montreux, Rennaz, Roche, Saint-Légier, Vevey, Veytaux et Villeneuve.
+
+Il identifie différentes strates composant le paysage global de la Riviera parmi lesquelles « l'entre-deux paysager » ou « parc de la Riviera ». La pérennisation et la valorisation de cette entité paysagère soumise à la pression constante du mitage et de l'étalement urbain, est un objectif de base du projet d'agglomération.
+
+Selon le Concept Paysage / Nature, le site fait partie intégrante du parc de la Riviera et est identifié comme étant très riche du point de vue biologique, la partie nord étant également attribué aux « grands domaines ». Le PA est conforme aux objectifs y relatifs, à savoir : « conserver l'espace ouvert cultivé des deux côtés de l'autoroute » ; « garantir une densité suffisante de surfaces proches de l'état naturel en pérennisant ou en adaptant les pratiques agricoles et viticoles (surfaces de compensation écologique,...) », « supprimer les obstacles au déplacement de la petite faune » ; « maintenir non construits [les grands domaines] pour préserver le patrimoine culturel et naturel » ; « favoriser la biodiversité par une gestion agricole et forestière adaptée » ; « Maintenir et favoriser la richesse biologique par un entretien différencié ».
+
+Selon le Concept Urbanisation, le site est identifié en tant que « secteur paysager urbanisé, développement à limiter ». Le PA, en limitant le développement et en fixant les règles d'aménagement pour préserver les caractéristiques paysagères, est conforme à ses objectifs.
+
+
+
+![img-0.jpeg](img-0.jpeg)
+
+Plan Concept Paysage / Nature : Riviera – Projet d'agglomération de deuxième génération Rivelac 2011
+
+![img-1.jpeg](img-1.jpeg)
+
+Plan Concept Urbanisation : Riviera – Projet d'agglomération de deuxième génération Rivelac 2011
+
+### 6.1.2. Projet d'agglomération de cinquième génération Rivelac 2025
+
+Un projet d'agglomération de cinquième génération (PA5) a été approuvé par les exécutifs des 18 communes et a été transmis pour examen à la Confédération au mois de mars 2025. Les principes concernant l'entité paysagère centrale sont repris dans ses grandes lignes également dans ce projet. Le PA5 vise la pérennisation, la valorisation et le renforcement des éléments paysagers structurants dont notamment l'espace paysager central qui, de plus, est identifié comme étant l'espace vert mis le plus sous pression de l'urbanisation dans la Riviera.
+
+
+
+Le plan d’affectation est conforme aux objectifs du PA5, en particulier à ceux découlant du besoin d’action N° 2 « Préserver et renforcer les paysages dans et autour des urbanisations » et au premier principe fondamental de la vision de territoire 2040 « Préserver le paysage et renforcer ses structures ».
+Il répond plus précisément aux objectifs suivants :
+
+- Renforcer les continuités, valoriser les maillages paysagers (verticaux et horizontaux) ;
+- Valoriser les continuités paysagères en tant qu’éléments unifiants, […] pour l’espace paysager central sur le plateau topographique entre rives et coteaux ;
+- Stopper le mitage du territoire grâce à des limites claires et consolidées avec l’urbanisation ;
+- Réviser des outils de planification dans les secteurs attenants aux entités paysagères.
+
+![img-2.jpeg](img-2.jpeg)
+
+Extrait de la Vision et projet de territoire 2040 de l’Agglomération Rivelac, PA5 Rivelac, 2025
+
+![img-3.jpeg](img-3.jpeg)
+
+Extrait du plan Urbanisation contenue 2030-2040, PA5 Rivelac, 2025
+
+
+
+## 6.2. Plans directeurs intercommunaux
+
+### 6.2.1. Plan directeur régional « Riviera » 2002
+
+Le plan directeur Riviera, ratifié par les Conseils communaux de Blonay, Chardonne, Corseaux, Corsier, Jongny, Montreux, Saint-Légier, La Tour-de-Peilz, Vevey et Veytaux, a été adopté par le Conseil d'Etat le 4 novembre 2002.
+
+Le secteur se situe en marge du territoire largement bâti et à vocation urbaine. Il est identifié, selon le plan d'action *A. Site et paysage*, dans le « ruban de verdure », composante paysagère à reconnaître et à préserver ; selon *B. Développement urbain* dans l'espace tampon à préserver autour des noyaux villageois. Le plan d'affectation, permettant de préserver ces espaces verts, est conforme à cette planification.
+
+![img-4.jpeg](img-4.jpeg)
+
+### 6.2.2. Plan directeur intercommunal Rivelac (en cours)
+
+Le Projet d'agglomération de cinquième génération, présenté au paragraphe 6.1.2 fait partie d'une planification à double statut PDI-PA5. Pour les treize communes vaudoise le document fait office de plan directeur intercommunal qui, à terme, remplacera le plan directeur régional 2002.
+
+## 6.3. Plan directeur communal (PDCom) 2000
+
+Le plan des mesures *Paysage, site et environnement* du PDCom identifie la plupart du secteur en tant qu'*Espace de verdure peu ou pas bâti à vocation paysagère* (« surface dont le caractère naturel s'impose quelles que soient la situation sur le territoire ou affectation) *protégé ou à protéger* (« certains espaces de verdure particulièrement riches ou représentatifs du milieu justifient l'application de mesures tendant à leur conservation ou à leur requalification ») avec la présence d'une *colline* (« en raison de leur forte
+
+
+
+exposition à la vue et de leur valeur patrimoniale, toute modification de l'éminence et ses abords doit être examinée avec attention ») présentant un *Point de vue important* (qui doit être maintenu et pour lequel « il s'agit de tenir compte de leur maintien en contrôlant l'impact de toute intervention dans les secteurs concernés »). Le solde est considéré comme *Secteur et site bâti sensibles du point de vue paysager* (« secteurs urbanisés qui, en raison de leur situation, nécessitent la prise en compte de mesures particulières d'aménagement. Les terrains peu ou pas bâtis doivent, le moment venu, faire l'objet d'une réflexion sur l'ensemble du secteur concerné »).
+
+La fiche *Affectation du sol* illustre l'appartenance de la parcelle 1378 au secteur agricole et viticole, la parcelle 1025 au secteur moyenne à faible densité avec un parc public et jeux d'enfants.
+
+![img-5.jpeg](img-5.jpeg)
+
+Dans le volet Mesures d'aménagement du PDCom, le site est partagé entre les secteurs D1 et E1. La partie sud appartient à la fiche thématique *D. Habitat périphérique*, fiche sectorielle D1 « La Crausaz ». Le présent PA permet notamment de répondre aux mesures suivantes : « Redimensionner la zone à bâtir à l'extrémité amont du Chemin des Bulesses ; Veiller au maintien des qualités paysagères en présence telles que les collines et les espaces sensibles mentionnés au plan directeur ». La partie nord au appartient à la fiche thématique *E. Campagne*, fiche sectorielle E1 « Crêt Richard, Villard, Doge, Poneyre, Burier ». Le présent PA poursuit l'objectif de « Reconnaître la valeur patrimoniale d'intérêt régional de la campagne située aux abords de l'autoroute et assurer sa sauvegarde » et mettre en œuvre le mesures « éviter toute atteinte aux sites à vocation paysagère identifiés au plan directeur, soit : [...] En Villard [...] » et « stopper tout développement de l'urbanisation en prenant en compte toutefois les options prises antérieurement ».
+
+
+
+## 6.4. Plan général d'affectation et de police des constructions (PGA) 2019
+
+Le PGA de 2019 prévoyait l'affectation du secteur à la « zone à développer par plan spécial ». Cette proposition n'ayant pas été approuvé par le Département, ce sont les plans d'affectations antérieurs, le PEP « Crêt Richard, Villard, La Doges, La Poneyre » de 1982 et le PPA « Campagne Rossier » de 1996 présentés au chapitre 0, qui régissent le secteur.
+
+![img-0.jpeg](img-0.jpeg)
+
+Extrait du PGA 2019
+
+![img-1.jpeg](img-1.jpeg)
+
+Collage du PA dans le PGA 2019
+
+## 6.5. Modifications effectuées après examen préalable
+
+Afin de répondre aux exigences cantonales exprimées dans le rapport d'examen préalable et rendre le plan d'affectation entièrement conforme au cadre légal, les modifications suivantes ont été apportées.
+
+§ 1.1 NORMAT 2 : le plan et sa légende ont été adaptés et réorganisés avec les chapitres « Restrictions de droit public relevant de la procédure LATC » et « Éléments relevant d'autres procédures ou à titre indicatif ».
+
+§ 1.2 Zone à bâtir 15 LAT : l'affectation du bosquet existant a été modifiée en « zone agricole protégée B » et le règlement adapté en fonction.
+
+§ 1.3 Accès : la représentation des accès a été supprimée.
+
+§ 1.4 Zone à protéger 17 LAT : - l'article 15 (actuel 16) a été complété afin de préciser les surfaces constructibles admissibles, soit des dépendances de peu d'importance au sens de l'art. 39 RLATC (ne comptant pas dans la SPd) et des modestes agrandissements. La SPd cumulées des interventions ne doit pas excéder ni 30% de la SPd du bâtiment principal (dans son état en 1982, année de l'entrée en vigueur du plan l'affectant à la zone protégée), ni 100 m².
+
+§ 1.5 Modifications de détail : l'alinéa 3 de l'article 14 (actuel 13) été déplacé en fin d'article ; l'alinéa 4 de l'article 14 (actuel 13) a été supprimé ; le titre de l'article 21 (actuel 23) a été adapté.
+
+
+
+§ 4.1 Planification énergétique : l’article 12 a été adapté pour expliciter que l’installation des panneaux solaires en toiture est autorisée.
+
+§ 8.3 Gestion des eaux claires : un paragraphe sur la gestion des eaux claires a été ajouté dans le rapport selon l’art. 47 OAT ; un article relatif à l’évacuation des eaux usées et claires a été ajouté dans le règlement.
+
+§ 11.1 Site classé et objet au recensement architectural :
+
+- le rapport selon l’art. 47 OAT inclut maintenant le plan de classement d’origine où il est possible de constater que la zone d’habitation n’est pas concernée par ledit plan ; aucune modification du périmètre de la zone a donc été effectuée ;
+- le secteur du plan d’affectation situé à l’intérieur du plan de classement est affecté à la zone agricole protégée A.
+- dans le but de répondre à la demande de garantir l’intégration des nouvelles constructions à proximité immédiate de la Doges, l’article 11 a été complété par des dispositions plus précises limitant notamment la hauteur des façades, le nombre de niveaux et la configuration du dernier étage. De plus, l’article 7 est complété par des précisions ayant pour but d’éviter des masses bâties trop imposantes.
+- l’article 15 (actuel 16) a été complété afin de préciser les surfaces constructibles admissibles, soit des dépendances de peu d’importance au sens de l’art. 39 RLATC (ne comptant pas dans la SPd), des modestes bâtiments annexes et des modestes agrandissements. La SPd cumulées des interventions ne doit pas excéder ni 30% de la SPd du bâtiment principal (dans son état en 1982, année de l’entrée en vigueur du plan l’affectant à la zone protégée), ni 100 m².
+- les termes utilisés ont été adaptés à la terminologie de la LPrPCI (Loi sur la protection du patrimoine culturel immobilier).
+
+§ 15.1 Limite des constructions (LCI) : la limite selon le « Plan d’extension fixant la limite des constructions en bordure du Chemin des Bulesses N° 31 – Tronçon supérieur » du 11 juillet 1969 a été représentée sur le plan et un paragraphe y relatif a été ajouté dans le rapport selon l’art. 47 OAT.
+
+
+
+## 7. ANNEXES
+
+7.1. Examen préalable du 4 juillet 2025
+
+7.2. Diagnostic paysager, bonnemaison-paysage sàrl, septembre 2025
+
+
+
+# La Tour-de-Peilz  
+CAMPAGNE ROSSIER - Parcelles 1378 et 1025
+
+![img-2.jpeg](img-2.jpeg)
+
+# Diagnostic paysager
+
+
+
+# SOMMAIRE
+
+I. Sujet et objectif de l'étude...3
+II. Situation des parcelles...4
+1 Les parcelles dans la géographie...4
+2 Situation dans l'«Espace paysager central»...4
+3 Quelques chiffres...5
+a. Les parcelles dans l'Espace paysager...5
+b. Les parcelles en comparaison d'autres sites...5
+III. Le paysage de la Campagne Rossier...6
+1 Collines et vallons...6
+a. Cinq collines sur les deux parcelles...6
+b. La topographie décrite par la toponymie...6
+c. Un modelé d'échelle domestique...7
+d. Le sens de la pente...7
+e. Les chemins sont dans les creux...7
+2 La végétation : une arborisation de parc dans un cadre bucolique...8
+a. Un paysage bucolique...8
+b. De premiers marqueurs de parc urbain : haie taillée et alignement...8
+c. Des arbres de parc paysager...8
+3 Les vues...9
+IV. La présence de l'histoire...10
+1 Les domaines patrimoniaux du paysage de colline...10
+a. La Doges...11
+b. Villard...11
+2 La présence des arbres de parc...12
+3 Le paysage du romantisme...12
+V. L'évolution du site...13
+1 L'évolution de la voirie...13
+2 L'évolution du bâti...14
+3 Le « grignotage » aux seuils...15
+4 L'intégrité menacée de l'espace paysager central...16
+5 L'appauvrissement du paysage agricole...16
+a. Les vergers...16
+b. Les vignes...17
+6 L'appauvrissement du paysage d'agrément...17
+7 Un site déjà utilisé pour la promenade...17
+VI. Synthèse...19
+1 Les points essentiels relevés...19
+2 La Tour-de-Peilz, une ville paysage...19
+3 Conclusion...19
+
+
+
+# I. Sujet et objectif de l'étude
+
+1378
+1025
+
+L'étude porte sur les parcelles 1378 et 1025 situées au nord, dans les hauteurs de la commune de La Tour-de-Peilz. Elle a pour objectif d'en décrire le paysage particulier et d'en identifier la valeur.
+
+![img-0.jpeg](img-0.jpeg)
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+![img-3.jpeg](img-3.jpeg)
+
+|  1 | 2  |
+| --- | --- |
+|  3 | 4  |
+
+1 Est de la parcelle 1025 depuis le chemin de Villard
+2 Ouest de la parcelle 1025 depuis le chemin de Villard
+3 Ouest de la parcelle 1378 depuis le chemin de la Crausaz
+4 Parcelle 1378 depuis le chemin des Bulesses
+
+
+
+## II. Situation des parcelles
+
+### 1 Les parcelles dans la géographie
+
+La Tour-de-Peilz se situe dans une entité géographique en forme de delta. Le périmètre de ce trigone est à l'est un piémont des Préalpes, et il est défini à l'ouest par le cours de la Veveyse, au pied du relief du Mont-Pèlerin.
+
+La situation offre un paysage de collines dont l'emprise correspond en termes de lithologie à la catégorie des « Grès, parfois marnes », comme le montre la carte ci-dessous. « Les collines se développent surtout dans des roches relativement imperméables et tendres, propices à la multiplication des vallons, et notamment dans les dépôts de piémonts. »¹ Le site constitué par les deux parcelles 1378 et 1025 fait partie de ce paysage de colline.
+
+![img-4.jpeg](img-4.jpeg)
+
+Carte Lithologie et relief,
+map.geo.admin
+
+### 2 Situation dans l'«Espace paysager central»
+
+Les parcelles dans
+l'Espace paysager central
+Fond de carte Relief,
+map.geo.admin
+
+Les parcelles 1378 et 1025 font partie de l'«Espace paysager central», « entre deux paysager » défini dès 2011 dans le projet d'agglomération Rivelac et reconduit dans la Stratégie paysage 2030-2040 :
+
+« Grand espace vert ouvert, continu de Corseaux jusqu'à Montreux, offrant un magnifique dégagement sur le grand paysage [...] Cette campagne urbaine structure le paysage dans le sens des courbes de niveaux »²
+
+![img-5.jpeg](img-5.jpeg)
+
+1 BRUNET Roger, LES MOTS DE LA GEOGRAPHIE dictionnaire critique, Reclus La Documentation Française, 1993
+
+2 Les entités et éléments paysagers de l'agglomération Rivelac, p40 - Projet d'agglomération Rivelac, Rapport final, 22.12.2011
+
+
+
+### 3 Quelques chiffres
+
+a. Les parcelles dans l'Espace paysager
+L'Espace paysager central situé sur La Tour-de-Peilz couvre une superficie de 68.2 hectares. La superficie cumulée des deux parcelles est de 5.1 hectares
+Les deux parcelles constituent près d'un dixième de l' « Espace paysager central » situé sur La Tour-de-Peilz.
+b. Les parcelles en comparaison d'autres sites
+La superficie du site est voisine de celle de la partie du jardin certifié ICOMOS du domaine de La Doges et peut être comparée à celle de la propriété Szilassy, parc paysager à Bex
+
+Parcelles 1378 et 1025,
+La Tour-de-Peilz
+5.12 ha
+
+Jardin Roussy
+La Tour-de-Peilz
+1.14 ha
+
+Doges, partie du jardin
+certifié ICOMOS
+La Tour-de-Peilz
+env. 6 ha
+
+Propriété Szilassy
+Bex, Vd
+8.25 ha
+
+
+
+### III. Le paysage de la Campagne Rossier
+
+#### 1 Collines et vallons
+
+Vue sur les collines de la parcelle 1025 depuis le Chemin de Villard
+
+![img-6.jpeg](img-6.jpeg)
+
+##### a. Cinq collines sur les deux parcelles
+
+Les parcelles 1378 et 1025 comportent cinq des collines de l'Espace paysager central.
+
+Fond de carte Relief, map.geo.admin
+
+![img-7.jpeg](img-7.jpeg)
+
+\* 476m sommets des collines - altitudes
+
+##### b. La topographie décrite par la toponymie
+
+La toponymie témoigne de l'importance accordée à la topographie. Selon le répertoire en ligne d'Henry Sutter, Noms de lieux de Suisse Romande, le nom la Crausaz, toponyme indiqué sur la carte Siegfried de 1949 vient du Patois romand crausa, « montée ou descente rapide par un terrain plein de creux, semblable à un ravin » et Le Croton de l'ancien français croton signifie « petite grotte, anfractuosité, dépression ».
+
+Carte Siegfried
+
+![img-8.jpeg](img-8.jpeg)
+
+
+
+# c. Un modelé d'échelle domestique
+
+Les variations topographiques sont rapprochées.
+
+L'amplitude maximum entre le sommet des collines et le pied des collines est d'environ 25m.
+
+![img-9.jpeg](img-9.jpeg)
+
+Une pente générale nord-sud du lac aux montagnes
+
+Seuls 200m séparent les deux collines les plus éloignées, celle de Villard et celle qui jouxte le chemin des Bulesses. Les échelles du paysage sont modestes, le parcours offre une grande diversité de perceptions liées à la topographie dans un espace restreint.
+
+# d. Le sens de la pente
+
+Le périmètre est incliné, du sud au nord, avec un point bas à 457m au sud du périmètre, chemin des Bulesses et un point haut maximum de 490m, au sommet de la colline de la parcelle 1378.
+
+Le parcours entre le chemin des Bulesses et le chemin de Villard qui est dans son prolongement est pentu : cette grimpée en direction des Préalpes monte entre les deux parcelles d'une trentaine de mètres, avec une pente jusqu'à 10%.
+
+Le chemin du Croton, d'est en ouest est presqu'horizontal, avec une pente inférieure à 2%.
+
+Le parcours en direction du nord tend vers la montagne. Il plonge vers le lac en direction du sud.
+
+# e. Les chemins sont dans les creux
+
+Les chemins entre les parcelles et en limite de parcelles sont situés dans les creux de la topographie.
+
+![img-10.jpeg](img-10.jpeg)
+
+Chemin de Villard, vers le Sud et vers le Nord, dans sa partie la plus pentue
+
+![img-11.jpeg](img-11.jpeg)
+
+![img-12.jpeg](img-12.jpeg)
+
+Chemin des Bulesses depuis le Chemin de Villard et chemin du Croton
+
+![img-13.jpeg](img-13.jpeg)
+
+![img-14.jpeg](img-14.jpeg)
+
+
+
+Les chemins en creux
+
+![img-0.jpeg](img-0.jpeg)
+
+Guichet cartographique cantonal, carte Siegfried dernière édition 1949
+
+![img-1.jpeg](img-1.jpeg)
+
+Les chemins offrent un parcours protecteur entre les collines.
+
+## 2 La végétation : une arborisation de parc dans un cadre bucolique
+
+# a. Un paysage bucolique
+
+Quelques vestiges de fruitiers et arbres de moyen développement ponctuent les collines enherbées ; des arbres et haies spontanées poussent dans les pentes inaccessibles. Des vaches pâturent l'herbe des collines et touchent le ciel. Une haie arborée a poussé sur le dénivelé au nord de la parcelle 1025.
+
+![img-2.jpeg](img-2.jpeg)
+
+Hors site, sur parcelle voisine 1385 au sud ouest du chemin des Bulesses : un paysage bucolique de prairies pâturées
+
+# b. De premiers marqueurs de parc urbain : haie taillée et alignement
+
+![img-3.jpeg](img-3.jpeg)
+
+Alignement d'arbres planté au nord du chemin de Villard
+
+Un alignement sur haie mixte a récemment été planté et renforce le linéaire du nouveau tracé du chemin du Croton, au long de la parcelle 1378.
+
+![img-4.jpeg](img-4.jpeg)
+
+Haie en limite est de la parcelle 1025
+
+Une haie de charmille taillée sépare le Chemin de Villard et la parcelle 1378.
+
+# c. Des arbres de parc paysager
+
+Voir chapitre III La présence de l'histoire
+
+
+
+### 3 Les vues
+
+Des vues s'ouvrent sur des paysages spectaculaires et théâtraux depuis un premier plan de paysage protecteur et familier.
+
+Vers La Doges et le Gramont / vers le Foly
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+Vers la Cape aux Moines / Le Gramont au-delà de la colline à l'est du chemin des Bulesses
+
+![img-7.jpeg](img-7.jpeg)
+
+![img-8.jpeg](img-8.jpeg)
+
+Folly - vallon d'Orge-vaux - Cape au Moine / Lac et Grangettes
+
+![img-9.jpeg](img-9.jpeg)
+
+![img-10.jpeg](img-10.jpeg)
+
+A l'arrière-plan, au-delà de la Veveyse, le paysage de collines du delta
+
+181025_VUE DE VEVEY VERS 1772
+ABERLI Musée art histoire GE
+Source : internet
+
+![img-11.jpeg](img-11.jpeg)
+
+
+
+# IV. La présence de l'histoire
+
+# 1 Les domaines patrimoniaux du paysage de colline
+
+Les domaines patrimoniaux constitués de bâtiments et jardins classés se font écho de colline en colline.
+
+Relevé des domaines classés
+Source : Le domaine de La Doges au temps des Palézieux dit Falconnet (1821-2021)
+
+![img-12.jpeg](img-12.jpeg)
+
+Dessinés de façon à s'ouvrir sur le paysage, les jardins ont été plantés probablement dès la fin du XVIIIe siècle, et au fil du XIXe siècle d'essences de parc à grand développement, hêtre pourpres, cèdres... ces essences se répètent de jardin en jardin, de beaux solitaires marquent la présence des jardins dans le paysage champêtre, souvent à des points clés de la topographie.
+
+Le domaine de Villard vu depuis les fenêtres de la cuisine de La Doges
+
+![img-13.jpeg](img-13.jpeg)
+
+Des tableaux de paysage qui se répondent
+
+![img-14.jpeg](img-14.jpeg)
+
+
+
+![img-15.jpeg](img-15.jpeg)
+
+Hachuré rouge, périmètre du plan de classement - contour vert, jardin certifié Icomos
+
+Archives cantonales vaudoises-Gb 347-c
+1/2 Plans de La Tour-de-Peilz Volume 2,
+1842-1847
+folio 36
+
+a. La Doges
+
+Le domaine de La Doges, classé, jouxte au sud la parcelle 1025. Son jardin est certifié ICOMOS. Le plan de classement de La Doges protège une partie de cette parcelle 1025, mais n'a pas intégré la protection des collines qui en constituent le cadre paysager.
+
+![img-16.jpeg](img-16.jpeg)
+
+b. Villard
+
+Le jardin de la parcelle 1378, Villard est simplement recensé. On relève la présence de jardins au sud de la maison et d'une fontaine, une source a donc été captée.
+
+![img-17.jpeg](img-17.jpeg)
+
+Archives cantonales vaudoises- Gb 347
+
+
+
+## 2 La présence des arbres de parc
+
+Les essences d'arbres de La Doges et de Villard se répondent. Le cèdre comme le hêtre pourpre peuvent atteindre 30 mètres ils sont donc aussi hauts que les collines, spectaculaires dans ce paysage d'échelle modeste. Ces arbres sont également très présents du fait de leur silhouette particulière, comme le cèdre ou de leur couleur, comme le hêtre pourpre.
+
+A gauche, La Doges, cèdre et hêtre pourpre ; à droite, Villard
+
+![img-18.jpeg](img-18.jpeg)
+
+![img-19.jpeg](img-19.jpeg)
+
+A gauche, le hêtre pourpre subsistant de La Doges, contraste du feuillage avec celui vert printanier d'un magnolia.
+
+A droite, le cèdre de Villard : c'est une essence archétypale des domaines romands fin XVIIIe / début XIXe ; sa silhouette très caractéristique se distingue de celle des arbres indigènes spontanés ; à sa gauche, le hêtre pourpre
+
+![img-20.jpeg](img-20.jpeg)
+
+![img-21.jpeg](img-21.jpeg)
+
+## 3 Le paysage du romantisme
+
+« Vue du château de Villard sur Vevey » par Théphile Steinlein, début du XIXe siècle  
+Source : Le domaine de La Doges au temps des Palézieux dit Falconnet (1821-2021)
+
+![img-22.jpeg](img-22.jpeg)
+
+La vie champêtre est mise en scène : sur fond de paysage lacustre et alpin, des personnages font les foins dans les collines
+
+![img-23.jpeg](img-23.jpeg)
+
+
+
+## V. L'évolution du site
+
+### 1 L'évolution de la voirie
+
+Le chemin du Crotton n'apparaît que dans les années 1980. Le nom « Crotton » est repris de la toponymie visible par exemple sur les cartes Siegfried. Il est construit dans la continuité de la nouvelle portion de chemin parallèle aux courbes de niveau qui permet de rejoindre directement Chailly sur les hauts de Montreux. Il passait auparavant en pied de topographie de la parcelle 1378, dans la continuité du chemin du Pré-Long.
+
+Ce nouveau tracé que constitue le chemin du Crotton va droit, il répond à des impératifs de circulation motorisée ; il est moins bien inscrit dans la topographie et moins pittoresque que l'ancien chemin, cependant, sa largeur reste modeste.
+
+Le chemin du Pré-Long et le chemin de Villard aboutissent au nouveau chemin qui longe l'autoroute côté sud, le chemin des Boulingrins et à un pont permettant de traverser l'autoroute vers Lonay. L'autoroute, encaissée n'est pas perceptible depuis les parcelles. Elle n'apporte pas de perturbations sonores.
+
+Comparaison
+
+En jaune : tracé supprimé  
+En rose : nouveau tracé  
+En noir : tracé maintenu
+
+![img-0.jpeg](img-0.jpeg)
+
+A gauche : croisement  
+chemin du Pré-Long  
+depuis le chemin de  
+Villard
+
+A droite : le pont sur  
+l'autoroute depuis le  
+chemin des Boulingrins  
+qui la longe au sud
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+
+
+## 2 L'évolution du bâti
+
+Depuis le début du XXe siècle, l'urbanisation de La Tour-de-Peilz s'est développée depuis les rives du lac jusqu'aux abords de « l'espace paysager », jusqu'à atteindre la parcelle 1025.
+
+On observe le même phénomène depuis Blonay, avec une urbanisation qui s'arrête à l'autoroute.
+
+L'identification d'un espace paysager a probablement atteint l'objectif de préservation de cette portion de paysage en préconisant de « Stopper le processus d'étalement » (Projet d'agglomération Riviera, Pré étude, Rapport juin 2009)
+
+Contour rouge : parcelles 1378 et 1025
+Hachures vertes : périmètre de « l'espace paysager »
+Contour violet : limite communale
+
+Fond de plan :
+Archives cantonales vaudoises - RN_Gc 347-C - Plan de La Tour de Peilz 1918
+
+![img-3.jpeg](img-3.jpeg)
+
+Fond de plan :
+Geostation.vd consulté août 2025
+
+![img-4.jpeg](img-4.jpeg)
+
+
+
+### 3 Le « grignotage » aux seuils
+
+De nouvelles villas se construisent et imposent progressivement la présence visuelle de bâtiments dans le paysage bucolique. La topographie permet cependant heureusement encore de limiter les vues sur ces villas. La maison Guisan, très visible depuis l’allée de La Doges à laquelle elle fait face est construite en creux, elle ne s’impose pas à la vue depuis tous les parcours. Cependant, toute nouvelle construction vient rappeler la présence de la pression urbaine et menacer la perception d’un paysage bucolique, d’une campagne indemne.
+
+Seuils du « Domaine des collines »
+
+Bâtiments « intrus »
+
+Seuils et vues perturbés
+
+A gauche : vue de la maison Guisan construite en 1999 depuis l’allée arborée de La Doges
+
+A droite : depuis le chemin des Bulesses, sortie de La Doges vers le quartier au sud
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+![img-7.jpeg](img-7.jpeg)
+
+
+
+Depuis Le chemin de Villard en direction du chemin du Crotton / route de Blonay, vue sur le toit d'une villa en pied de colline
+
+![img-8.jpeg](img-8.jpeg)
+
+# 4 L'intégrité menacée de l'espace paysager central
+
+Les deux parcelles ont fait l'objet de nombreux projet de bâti. Chacun de ces projets, dont par exemple le dernier ppa développé, illustré ci-dessous, empiète sur l'espace paysager central et diminue la superficie de cette unité de paysage préservée.
+
+Impact de l'emprise du dernier plan d'affectation développé sur l'espace paysager central En jaune, l'impact du bâti.
+
+![img-9.jpeg](img-9.jpeg)
+
+# 5 L'appauvrissement du paysage agricole
+
+Le paysage agricole est essentiellement constitué de prairies pâturées. Vignes et vergers qui offraient un paysage agricole diversifié ont pour l'essentiel disparu.
+
+Le fruitier, comme médiateur du paysage domestique
+
+![img-10.jpeg](img-10.jpeg)
+
+# a. Les vergers
+
+Hormis quelques vestiges, il n'y a plus de vergers sur les parcelles 1378 et 1025. L'arbre fruitier, dans sa forme traditionnelle, forme mi-tige ou pleine tige est d'une hauteur d'une dizaine de mètres ; sa dimension modeste contribue à la perception d'un paysage à échelle humaine. L'évocation des produits de la fructification est une invitation dans un paysage bienveillant, en contraste avec le paysage montagnard spectaculaire.
+
+A gauche :
+Map.geo.admin
+Photo aérienne 1933
+
+A droite :
+Geostation vd.ch
+Photo aérienne 2025
+
+![img-11.jpeg](img-11.jpeg)
+
+![img-12.jpeg](img-12.jpeg)
+
+
+
+b. Les vignes
+
+Une unique parcelle, d'environ 0,4 ha est actuellement au cadastre viticole. Au XIXe siècle, une surface importante était cultivée en vignes.
+
+Vignes
+1870-1926
+
+Vignes
+2025
+
+Superposition Carte
+Siegfried première édition 1870-1926 et emprise agricole état 2025
+
+![img-13.jpeg](img-13.jpeg)
+
+6 L'appauvrissement du paysage d'agrément
+
+Les parcours dans le parc de la parcelle 1378 ont pour beaucoup disparu, en particulier les chemins qui rejoignaient l'ancien tracé du chemin du Croton ainsi que la boucle en sommet de colline jouant avec les arbres de parc. Des vergers cadraient le pré laissé dégagé en direction du sud, pré dont l'épine dorsale est soulignée par un muret.
+
+Geostation vd.ch,
+photo aérienne 2025
+
+Map.geo.admin Photo
+aérienne 1933
+
+![img-14.jpeg](img-14.jpeg)
+
+![img-15.jpeg](img-15.jpeg)
+
+7 Un site déjà utilisé pour la promenade
+
+Le parcours depuis la gare jusqu'à l'entrée sud du site prend vingt minutes à pied et quinze minutes en bus.
+
+Un alignement a récemment été planté le long du chemin du Croton, en même temps que l'aménagement de la placette meublée d'un banc à la croisée avec le chemin de Villard.
+
+Alignement et haie au
+sud de la parcelle 1378
+
+![img-16.jpeg](img-16.jpeg)
+
+![img-17.jpeg](img-17.jpeg)
+
+
+
+La placette et le banc à la croisée du chemin de Villard et du chemin du Croton
+
+![img-0.jpeg](img-0.jpeg)
+
+Lors des fortes chaleurs de l’été 2025, le site est parcouru par de nombreux promeneurs qui profitent de la fraîcheur relative de l’altitude moyenne, 470m.
+
+Des équipements ponctuent le site, panneaux indiquent les cheminements piétonniers et poubelles recueillent les déjections canines. Un panneau à la croisée du chemin de Villard et du chemin du Pré-Long invite à contempler les étoiles en préservant la « nuit noire ». Le site est d’ors et déjà utilisé comme une « campagne de promenade ».
+
+Une signalétique dédiée aux promeneurs
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+Août 2025, promeneur
+
+![img-3.jpeg](img-3.jpeg)
+
+
+
+## VI. Synthèse
+
+### 1 Les points essentiels relevés
+
+- Un site géographique particulier, piémont des Préalpes
+- Des parcelles situées dans un espace paysager central essentiellement non bâti, identifié et pour l'essentiel défendu depuis le début du XXIe siècle
+- Deux parcelles qui offrent un extrait complet du paysage de collines
+- Une topographie diversifiée, à échelle humaine
+- Des parcours en creux, qui protègent des vues sur l'urbanisation voisine et s'ouvrent spectaculairement sur le grand paysage
+- Un des sites patrimoniaux de l'espace paysager
+- Un patrimoine de valeur, bâti et arboré
+- Un paysage bucolique, une végétation diversifiée
+- Un patrimoine de jardin délaissé, une source disparue
+- Un paysage archétypal du romantisme
+- Un paysage qui s'appauvrit
+- La menace du grignotage par le bâti
+- L'appauvrissement du paysage agricole
+- Un site déjà utilisé comme une campagne de promenade
+
+### 2 La Tour-de-Peilz, une ville paysage
+
+Au sud de la commune, le paysage lacustre et la vue sur les Alpes sont de fait préservés.
+
+Au nord, l' « Espace paysager », paysage collinéen de piémont assure la relation entre le haut de La Tour-de-Peilz et les paysages des Préalpes et du Mont-Pèlerin.
+
+![img-4.jpeg](img-4.jpeg)
+
+### 3 Conclusion
+
+Le paysage des parcelles 1378 et 1025 représente une partie significative de l'« Espace paysager » situé sur La Tour-de-Peilz.
+
+Il s'agit d'un paysage emblématique de la Riviera lémanique.
+
+De grande valeur paysagère, le site mérite d'être préservé dans son état non bâti.
+
+
+
+Personne de contact : Matthias Fauquex
+T 021 316 79 32
+E matthias.fauquex@vd.ch
+N/réf. 235486 – MFX/mrn
+
+Lausanne, 4 juillet 2025
+
+Commune de La Tour-de-Peilz
+Plan d'affectation En Villard Dessous
+Examen préalable
+
+Madame la Syndique, Madame et Messieurs les Municipaux,
+
+Veuillez trouver ci-dessous l'examen préalable du plan d'affectation En Villard Dessous.
+
+HISTORIQUE DU DOSSIER
+
+|  Étape | Date | Documents  |
+| --- | --- | --- |
+|  Examen préliminaire | 24 septembre 2024 | Avis préliminaire  |
+|  Réception du dossier pour examen préalable | 2 avril 2025 | Dossier communal  |
+|  Examen préalable | Ce jour | Préavis des services cantonaux  |
+
+COMPOSITION DU DOSSIER SOUMIS POUR EXAMEN PREALABLE
+
+|  Documents | Date  |
+| --- | --- |
+|  Plan au 1 :1000 | 12.03.2025  |
+|  Règlement | 03.2025  |
+|  Rapport d'aménagement selon l'article 47 OAT | 03.2025  |
+|  *Courrier de la Municipalité* | *02.04.2025*  |
+
+
+
+# PRÉSENTATION DU PROJET
+
+La parcelle n° 1025 est affectée dans sa partie sud-est en zone villa II (soumise à l'obligation de réaliser un plan de quartier), en aire des aménagements extérieurs et en aire des constructions par le plan partiel d'affectation Campagne Rossier approuvé le 11 novembre 1996. La partie nord-ouest de la parcelle, plantée en vigne, est affectée en zone de verdure inconstructible par le plan d'extension partiel Crêt Richard, Villard, La Doges, La Poneyre, Burier-Dessus (ci-après PEP "Crêt Richard"), approuvé le 24 février 1982.
+
+La parcelle n° 1378 est affectée dans sa partie sud en zone de villa I (soumise à l'obligation de réaliser un plan de quartier) par le PEP Crêt Richard et en zone protégée dans sa partie nord.
+
+Le secteur est constitué d'un ensemble de collines herbeuses, comprenant des arbres et des anciens murs et présente une grande qualité paysagère. Le site est dominé à l'ouest par une villa individuelle et jouxte, au sud, le domaine de la Doges.
+
+Le site se trouve au sein du périmètre compact de l'agglomération Rivelac. Il fait intégralement partie du Parc de la Riviera, "entre-deux paysager" défini dans le projet d'agglomération.
+
+Une partie du périmètre du plan d'affectation (PA) est incluse dans le site classé de la Doges, par décision du Département des Infrastructures du 17 décembre 2003.
+
+Le projet soumis à l'examen préliminaire prévoit :
+
+- d'affecter les parties non bâties, concernées actuellement par les zones villa I et II, en zones inconstructibles (zone agricole 16 LAT) ;
+- d'affecter en zone de verdure 15 LAT une partie du terrain actuellement affecté en zone de verdure ;
+- d'affecter en zone de site construit protégé 17 LAT la zone protégée existante ;
+- d'affecter en zone d'habitation de très faible densité 15 LAT le secteur compris dans l'aire des aménagements extérieurs et dans l'aire des constructions.
+
+# AVIS
+
+Le tableau ci-dessous représente une vision synthétique de la prise en compte des principales thématiques de la planification. Les services responsables de ces thématiques sont également relevés dans le tableau.
+
+Pour chaque thématique et sur la base des préavis détaillés des services cantonaux consultés et de notre appréciation, le dossier a été classé selon trois catégories.
+
+La définition de chaque catégorie est la suivante :
+
+- Conforme : le traitement de la thématique répond au cadre légal.
+- Non conforme : le traitement de la thématique ne répond pas au cadre légal :
+
+
+
+- A transcrire : Les modifications nécessaires sont clairement identifiées par les demandes des services cantonaux.
+- A analyser : Les modifications nécessaires impliquent une analyse / étude complémentaire dont les résultats ne sont pas encore clairement connus.
+
+Le présent examen préalable est unique. Les préavis des services contiennent tous les éléments permettant à la Commune de modifier son projet afin de le rendre conforme à la loi et au plan directeur cantonal.
+
+|  Thématiques |   | Conforme | Non conforme A transcrire | Non conforme A analyser  |
+| --- | --- | --- | --- | --- |
+|  Principes d'aménagement | Dimensionnement | DGTL-DIPS |  |   |
+|   |  Densité | DGTL-DIPS |  |   |
+|  Affectation | Zone à protéger 17 LAT |  | DGTL-DAM |   |
+|   |  Zone à bâtir 15 LAT |  | DGTL-DAM |   |
+|   |  Périmètre de la planification |  | DGTL-DAM |   |
+|   |  Normat 2 |  | DGTL-DAM |   |
+|   |  Surfaces d'assolement | DGAV-DAGRI |  |   |
+|  Mobilité | Accès |  | DGTL-DAM |   |
+|  Patrimoine culturel | Site classé et Objet au recensement architectural |  | DGIP-MS |   |
+|  Patrimoine naturel | Inventaire naturel | DGE-BIODIVE |  |   |
+|   |  Forêt | DGE-FORET |  |   |
+|  Protection de l'homme et de l'environnement | Mesures énergétiques |  | DGE-DIREN |   |
+|   |  Eaux superficielles | DGE-EAU/EH |  |   |
+|   |  Degrés de sensibilité au bruit | DGE-ARC |  |   |
+|   |  Dangers naturels | DGE-EAU/EH |  |   |
+|   |  Gestion des eaux claires |  | DGE-EAU/EH |   |
+|  Modifications formelles | Modification de détails |  | DGTL-DAM |   |
+
+La Commune doit également prendre en compte les demandes d'adaptation de forme des services.
+
+# PESÉE DES INTÉRÊTS
+
+Après analyse des différents préavis des services, il apparaît qu'ils ne contiennent pas d'aspect contradictoire.
+
+# NORMAT
+
+Les fichiers informatiques (géodonnées) respectant la directive cantonale sur la normalisation des données de l'aménagement du territoire (NORMAT 2) devront être transmis à la DGTL
+
+
+
+(interlis.normat@vd.ch) simultanément à l’envoi du dossier pour approbation. Celle-ci ne pourra intervenir qu’après la validation des géodonnées (art. 22 al. 3 RLAT).
+
+# SUITE DE LA PROCÉDURE
+
+Au vu du traitement non conforme de certaines thématiques, nous estimons que le projet n’est, en l’état, pas compatible avec le cadre légal.
+
+Les thématiques concernées peuvent être mises en conformité en suivant les demandes des services. Si vous souhaitez poursuivre la procédure sans modification, nous proposerons au Département de ne pas approuver cette planification.
+
+Nous vous rappelons qu’en application de l’article 20, alinéa 1 du règlement sur l’aménagement du territoire (RLAT ; BLV 700.11.2), le présent rapport d’examen préalable devra être joint au dossier soumis à l’enquête publique.
+
+Le présent examen préalable repose sur les bases légales applicables. Nous réservons notre avis sur les adaptations du projet qui découleraient d’une évolution du cadre légal.
+
+Tout droit du département pour l’approbation demeure expressément réservé.
+
+Nous vous prions de recevoir, Madame la Syndique, Madame et Messieurs les Municipaux,
+
+, nos meilleures salutations.
+
+Yves Noirjean
+directeur de l’aménagement
+
+Matthias Fauquex
+urbaniste
+
+
+
+# **PRÉAVIS DES SERVICES CANTONAUX - COMMUNE DE LA TOUR-DE-PEILZ, PLAN D'AFFECTATION EN VILLARD DESSOUS, N°ACTIS 235486**
+
+# **EXAMEN PRÉALABLE**
+
+# **DIRECTION GÉNÉRALE DU TERRITOIRE ET DU LOGEMENT (DGTL)**
+
+# **1. DGTL - DIRECTION DE L'AMÉNAGEMENT (DGTL-DAM)**
+
+Répondant : Matthias Fauquex
+
+T: 021 316 79 32
+
+M : matthias.fauquex@vd.ch
+
+Date du préavis : 15 mai 2023
+
+# **1.1 NORMAT 2 : NON CONFORME, À TRANSCRIRE**
+
+La légende du plan ne respecte pas l’organisation définie dans la fiche d’application « Application de la directive Normat 2 » qui prévoit notamment d’identifier explicitement par chapitres les « *Restrictions de droit public relevant de la procédure LATC* » (exemples : les zones d’affectation, les contenus superposés, ...) et les « *Éléments relevant d’autres procédures ou à titre indicatif* » (exemples : Accès véhicules motorisés, ...). Cette représentation permet notamment de clairement identifier les éléments nécessitant d’être transmis en tant que géodonnées ou ceux pouvant faire l’objet d’oppositions dans le cadre de la présente procédure.
+
+Plan
+
+Demande :
+
+- Adapter la légende du plan en l’organisant avec les chapitres « Restrictions de droit public relevant de la procédure LATC », « Éléments relevant d’autres procédures ou à titre indicatif ».
+
+# **1.2 ZONE À BÂTIR 15 LAT : NON CONFORME, À TRANSCRIRE**
+
+Le projet prévoit une bande de zone de verdure 15 LAT inconstructible et « destinée à la préservation du cordon boisé ».
+
+Au vu des caractéristiques de cette bande et de sa fonction, l’affectation de celle-ci en zone de verdure 15 LAT paraît inadéquate et non conforme. En effet, la zone à bâtir au sens de l’article 15 LAT (à laquelle est rattachée la zone de verdure 15 LAT) doit être justifiée selon un besoin dimensionné à 15 ans. Or au vu de sa destination, rien ne justifie de maintenir de la zone à bâtir sur secteur
+
+Plan – règlement- rapport 47 OAT
+
+
+
+Demande :
+
+- Affecter la bande en zone agricole protégée 16 LAT et adapter le règlement et le rapport 47 OAT en conséquence.
+
+### 1.3 ACCÈS : NON CONFORME À TRANSCRIRE
+
+Plan - règlement
+
+Outre le fait que les « accès véhicules motorisés » apparaissent hors du périmètre du plan d'affectation, nous relevons que le règlement ne définit pas de dispositions claires à leur sujet. Il apparaît en plus que l'article 17 alinéa 3 précise que la création de nouveaux accès motorisés est interdite.
+
+Demandes :
+
+Dans le cas où la représentation des accès n'est pas nécessaire dans le cadre du PA :
+
+- Supprimer la représentation des accès dans le plan.
+
+Dans le cas où la représentation des accès véhicules motorisés répond à un besoin :
+
+- Modifier le périmètre du plan d'affectation pour intégrer les objets en question ou déplacer la représentation de ces objets dans le périmètre du plan ;
+- Ajouter un article dans le règlement en précisant les dispositions à leur sujet.
+
+### 1.4 ZONE À PROTÉGER 17 LAT : NON CONFORME À TRANSCRIRE
+
+L'alinéa 1 de l'article 15 admet la construction de bâtiments annexes sans pour autant définir de droits à bâtir. Au vu du caractère sensible du site et de sa situation hors du territoire urbanisé, il s'agit dès lors de cadrer ce qui est admissible en tant que bâtiment annexe.
+
+L'alinéa 2 de l'article 15 implique quant à lui un avis arbitraire de ce qui peut être considéré comme un agrandissement modeste ou non pouvant potentiellement nuire à l'objectif de conservation de l'objet.
+
+Règlement
+
+Demandes :
+
+- Préciser ce qu'il est admis comme bâtiments annexes et les droits à bâtir de ces derniers ou alors faire référence aux dépendances de peu d'importance au sens de l'article 39 LATC ;
+- Préciser de manière objective ce qui est admis comme agrandissement.
+
+
+
+## 1.5 MODIFICATION DE DETAILS : NON CONFORME À TRANSCRIRE
+
+Règlement
+
+Demandes :
+
+- Article 14 alinéas 3 : afin de s'assurer de la bonne compréhension du fait que les éléments évoqués aux alinéas 4 et 5 nécessiteront également de faire l'objet d'une consultation auprès de la Division hors zone à bâtir de la Direction générale du territoire et du logement, puis d'une autorisation formelle, nous demandons de déplacer l'alinéa 3 à la suite des alinéas 4 et 5 ;
+- Article 14 alinéa 4 : à supprimer dans la mesure où seuls le droit fédéral et cantonal s'appliquent ;
+- Article 21 : Ajouter « Approbation » dans le titre.
+
+## 2. DGTL - DIRECTION DES PROJETS TERRITORIAUX STRATÉGIQUES (DGTL-DIPS/AR) - AGGLOMÉRATION ET RÉGIONS
+
+Répondante : Sylvie Cornut
+
+T : +41 21 316 79 31
+
+M : sylvie.cornut@vd.ch
+
+Date du préavis : 19.06.2025
+
+### 2.1 DIMENSIONNEMENT : CONFORME
+
+La zone à bâtir du plan pour l'accueil de nouveaux habitants doit répondre aux besoins prévisibles pour les 15 années suivantes tels que définis par la loi fédérale sur l'aménagement du territoire (LAT ; RS 700) et la mesure A11 du plan directeur cantonal (PDCn).
+
+Dans les agglomérations, le dimensionnement des zones à bâtir est établi et vérifié à l'échelle du périmètre compact de l'agglomération. Pour l'agglomération Rivelac, la croissance totale maximale allouée entre 2015 et 2040 est de 30'400 habitants.
+
+Le projet de plan En Villard Dessous prévoit d'affecter en zone inconstructible les secteurs non bâtis initialement prévus pour accueillir 106 nouveaux habitants et de maintenir les zones existantes (site construit protégé et zone de très faible densité déjà bâtie). De fait, ce nouveau projet de plan n'engendre aucun dépassement de la croissance allouée par la mesure A11 PDCn pour l'agglomération.
+
+La modification du projet de plan d'affectation « Combe Villard » nouvellement nommée « En Villard Dessous » est modifiée en conséquence dans le monitoring de l'agglomération Rivelac.
+
+
+
+## 2.2 DENSITE : CONFORME
+
+La DGTL rappelle que lorsqu'une modification de la mesure d'utilisation du sol est prévue pour une zone, celle-ci est considérée comme une nouvelle zone et doit répondre à la mesure A11 du Plan directeur cantonal. Ainsi, les IUS minimaux de 0.625, respectivement de 1.25 selon la localisation de la zone, sont applicables en périmètre compact d'agglomération. Les IUS existants peuvent toutefois être maintenus.
+
+La densité prévue pour la zone de très faible densité correspond à la densité en vigueur.
+
+## 3. DGTL – SERVICE JURIDIQUE - AMÉLIORATIONS FONCIÈRES (DGTL-SJ/AF)
+
+Répondant : Denis Leroy
+
+T : 021 316 64 42
+
+M : denis.leroy@vd.ch
+
+Date du préavis : 04.04.2025
+
+N'a pas de remarque à formuler.
+
+# DIRECTION GÉNÉRALE DE L'ENVIRONNEMENT (DGE)
+
+## 4. DGE - DIRECTION DE L'ÉNERGIE (DGE-DIREN)
+
+Répondante : Céline Pahud
+
+T : 021 316 75 55
+
+M : celine.pahud@vd.ch
+
+Date du préavis : 23.04.2025
+
+### 4.1 PLANIFICATION ÉNERGÉTIQUE : NON CONFORME À TRANSCRIRE
+
+Une étude de planification énergétique a été réalisée en 2022 pour l'ensemble du territoire communal. Cette étude répond à l'obligation de réaliser une planification dans le cadre des plans d'affectation situés dans les périmètres de centre (art. 16f LVLEne).
+
+# Règlement
+
+Demande :
+
+- L'article 12 al. 2 sur la végétalisation des toitures doit être modifié pour permettre l'installation de panneaux solaires, lesquelles peuvent être combinées avec les toitures végétalisées.
+
+## 5. DGE - DIRECTION DE L'ENVIRONNEMENT INDUSTRIEL, URBAIN ET RURAL (DGE-DIREV) - DIVISION AIR, CLIMAT ET RISQUES TECHNOLOGIQUES (DGE-ARC)
+
+
+
+# LUTTE CONTRE LE BRUIT
+
+Répondant : Bertrand Belly
+
+T: 021 316 43 66
+
+M : bertrand.belly@vd.ch
+
+Date du préavis : 07.04.2025
+
+# 5.1 DEGRÉS DE SENSIBILITÉ AU BRUIT : CONFORME
+
+La DGE-ARC accepte l'attribution des DS selon l'art. 4 du règlement de PA.
+
+# 6. DGE - DIRECTION DE L'ENVIRONNEMENT INDUSTRIEL, URBAIN ET RURAL (DGE-DIREV) - DIVISION PROTECTION DES EAUX – ASSAINISSEMENT URBAIN ET RURAL (DGE-PRE/AUR)
+
+Répondant : Simon Pérusse-Fortier
+
+T : 021 316 75 39
+
+M : Simon.perusse-fortier@vd.ch
+
+Date du préavis : 14.04.2025
+
+La division n'a pas de remarque à formuler.
+
+# 7. DGE - DIRECTION DES RESSOURCES ET DU PATRIMOINE NATURELS (DGE-DIRNA) - DIVISION GÉOLOGIE, SOLS, DÉCHETS ET EAUX SOUTERRAINES (DGE-GEODES) – EAUX SOUTERRAINES (DGE-GEODES/HG)
+
+Répondants : Thierry Lavanchy
+
+T : 021 316 75 43
+
+M : thierry.lavanchy@vd.ch
+
+Date du préavis : 01.05.2025
+
+N'a pas de remarque à formuler.
+
+# 8. DGE - DIRECTION DES RESSOURCES ET DU PATRIMOINE NATURELS (DGE-DIRNA) - DIVISION RESSOURCES EN EAU ET ÉCONOMIE HYDRAULIQUE (DGE-EAU) - ECONOMIE HYDRAULIQUE (DGE-EAU/EH)
+
+Répondante : Céline Gay
+
+T: 021 316 18 49
+
+M : celine.gay@vd.ch
+
+Date du préavis : 19.06.24
+
+
+
+## 8.1 EAUX SUPERFICIELLES : CONFORME
+
+## 8.2 DANGERS NATURELS : CONFORME
+
+Le plan d'affectation est concerné par le ruissellement de surface.
+
+## 8.3 GESTION DES EAUX CLAIRES : NON CONFORME À TRANSCRIRE
+
+Rapport 47 OAT
+
+Demande :
+
+- La DGE-EAU demande que les conclusions du PGEE soient reprises, ainsi que les bases légales (LEaux art. 7, la LPDP art. 12), qui préconisent la réinfiltration des eaux claires comme moyen d'évacuation préférentiel des eaux claires dans les secteurs où cela est possible.
+
+Règlement
+
+Demande :
+
+- Ajouter un article dans le règlement relatif à l'évacuation des eaux claires mentionnant : « Les eaux claires sont évacuées conformément au plan général d'évacuation des eaux (PGEE) ».
+
+## 9. DGE - DIRECTION DES RESSOURCES ET DU PATRIMOINE NATURELS (DGE-DIRNA) - DIVISION BIODIVERSITÉ ET PAYSAGE (DGE-BIODIV)
+
+Répondant : Guy Rochat
+
+T : 021 557 82 13
+
+M : guy.rochat@vd.ch
+
+Date du préavis : 08.04.2025
+
+## 9.1 INVENTAIRE NATUREL : CONFORME
+
+### 9.1.1 Patrimoine culturel et patrimoine naturel :
+
+Le traitement des thématiques est conforme au cadre légal et ne suscite pas de remarque.
+
+## 10. DGE - DIRECTION DES RESSOURCES ET DU PATRIMOINE NATURELS (DGE-DIRNA) - DIVISION INSPECTION CANTONALE DES FORÊTS (DGE-FORET)
+
+Conservation des forêts
+
+
+
+Préaviseurs : Damien Jordan et Fabian Drollinger
+
+T :021 / 557 15 92
+
+Répondant : Nathalie Grandjean
+
+T : 021 316 44 22
+
+M : info.cofo@vd.ch
+
+Date du préavis : 15.04.2025
+
+### 10.1 FORÊT : CONFORME
+
+Sur la base du préavis de l'inspection des forêts d'arrondissement, la DGE-FORET se détermine comme suit:
+
+La DGE-Forêt n'est pas concernée par le plan d'affectation En Villard Dessous.
+
+Aucune surface soumise au régime forestier ne fait partie du plan et le secteur n'est pas exposé à un danger naturel couvert par la DGE-FORET au sens de la loi forestière (art. 36 RLVLFo).
+
+# DIRECTION GÉNÉRALE DES IMMEUBLES ET DU PATRIMOINE (DGIP)
+
+### 11. DGIP - DIVISION MONUMENTS ET SITES (DGIP-MS)
+
+Répondantes : Caroline Caulet Cellery/ Cristina Bóo Sedano
+
+T : 021 316 73 34/ 021 316 20 54
+
+M : dap-planification@vd.ch
+
+Date du préavis : 28.04.2025
+
+### 11.1 SITE CLASSÉ ET OBJET AU RECENSEMENT ARCHITECTURAL : NON CONFORME À TRANSCRIRE
+
+Le périmètre du PA est situé entre le domaine du château d'Hauteville et celui du domaine de La Doges. La partie sud de la parcelle 1025 est incluse dans un plan de classement (décision du 17 décembre 2003 classant le site de La Doges sur la commune de la Tour-de-Peilz).
+
+La Zone de site construit protégé 17 LAT comprend deux objets recensés en note *3*.
+
+# Plan
+
+Le secteur du PA colloqué en Zone d'habitation de très faible densité 15 LAT ne tient pas compte des limites du plan de classement.
+
+La Zone agricole 16 LAT est insuffisante pour garantir le maintien en espace libre de constructions.
+
+Demandes :
+
+
+
+- Adapter les limites du secteur affecté en Zone d'habitation de très faible densité 15 LAT à celui du plan de classement.
+- A minima, affecter la partie de la Zone agricole 16 LAT située à l'intérieur du plan de classement à une Zone agricole protégée 16 LAT et une réglementation ad-hoc spécifique (objectifs, tout projet à soumettre à demande préalable et autorisation spéciale du Département compétent).
+
+# Règlement
+
+Les dispositions relatives à la Zone d'habitation de très faible densité 15 LAT (articles 5 et ss) autorisent un agrandissement de la construction existante d'env. 20% (486,8 m2 vs 385m2) voire une démolition-reconstruction ; la forme des toitures est libre (art.12 al.1).
+
+L'article 15 (Zone de site construit protégé 17 LAT) autorise des « modestes agrandissements » et la réalisation de « bâtiments annexes » et « aménagements » sans fixer de plafond.
+
+# Demandes :
+
+- Article 12, Toitures. Garantir l'intégration des nouvelles constructions à proximité immédiate du domaine de la Doges par exemple en autorisant les toitures plates uniquement pour les constructions ayant un seul niveau hors terre et, en cas de démolition-reconstruction de la construction existante et pour les nouvelles constructions, toiture de forme et matériau traditionnels (toiture à pans avec couverture en tuile terre cuite de teinte naturelle).
+- Article 15. Ajouter un alinéa fixant un plafond maximal de surface constructible (bâtiments annexes et agrandissements) tel que par exemple nombre maximum de constructions, surface cumulée maximale en m2, surface maximale des agrandissements ou % maximum par rapport à la surface au sol du bâtiment principal, ...
+
+# Rapport 47 OAT
+
+La LPrPCI utilise le terme d' « objet » pour toute construction (bâtiment, fontaine, murs, etc.) (art.8 RLPrPCI).
+
+# Demande :
+
+- Adapter selon la terminologie de la LPrPCI : remplacer les termes « bâtiment » par « objet », « classé monument historique » par « classé », « inventorié » par « inscrit à l'inventaire ».
+
+# ETABLISSEMENT CANTONAL D'ASSURANCE CONTRE L'INCENDIE ET LES ÉLÉMENTS NATURELS (ECA)
+
+# 12. ECA - PRÉVENTION DES INCENDIES ET DES ÉLÉMENTS NATURELS
+
+
+
+Répondants : Patrick Frasseren – Luca Vialatte - Référence : 2025/D/0274/PST/RCT/lcv
+
+T : 058 / 721 22 96
+
+M : prevention@eca-vd.ch
+
+Date du préavis : 10.04.2025
+
+N'a pas de remarque à formuler.
+
+# DIRECTION GÉNÉRALE DE L'AGRICULTURE, DE LA VITICULTURE ET DES AFFAIRES VÉTÉRINAIRES (DGAV)
+
+# 13. DGAV - DIRECTION DE L'AGRICULTURE, DE LA VITICULTURE ET DES AMÉLIORATIONS FONCIÈRES (DGAV/DAGRI)
+
+Répondant : Constant Pasquier
+
+T: 021 557 92 75
+
+M : constant.pasquier@vd.ch
+
+Date du préavis : 24.04.2025
+
+# 13.1 SURFACES AGRICOLES ET VITICOLES : CONFORME
+
+Rapport 47 OAT
+
+La DGAV-DAGRI prend note du bilan positif de surfaces agricoles et viticoles.
+
+En conclusion la DGAV-DAGRI préavise favorablement le présent projet.
+
+# DIRECTION GÉNÉRALE DE LA MOBILITÉ ET DES ROUTES (DGMR)
+
+# 14. DGMR - DIVISION PLANIFICATION (DGMR-P) ET- DIVISION MANAGEMENT DES TRANSPORTS (DGMR-MT)
+
+Répondant : Véronique Rouge
+
+T: 021 316 89 96
+
+M : véronique.rouge@vd.ch
+
+Date du préavis : 06.05.2025
+
+Les divisions Management des transports et Planification de la Direction générale de la mobilité et des routes n'ont pas de remarque à formuler après avoir vérifié la conformité du projet aux dispositions légales en vigueur.
+
+# 15. DGMR - DIVISION FINANCES ET SUPPORT – ROUTES (DGMR/FS)
+
+
+
+Répondante : Jeannine Glauser
+
+T : 021 316 71 56
+
+M : dp-preavis.dgmr@vd.ch
+
+Date du préavis : 24.06.2025
+
+## 15.1 LIMITES DES CONSTRUCTIONS (LCR) : NON CONFORME, À TRANSCRIRE
+
+### Plan – règlement
+
+Une partie du « plan d’extension fixant la limite des constructions en bordure du chemin des Bulesses No. 31 Tronçon supérieur » touche le PA « En Villard Dessous ». Ce plan approuvé le 11.07.1969 est toujours en vigueur. Même si la LCR concerne un secteur du PA qui sera affecté en zone agricole 16 LAT, la LCR est une donnée qui doit être traitée dans le cadre de l’établissement d’un PA, conformément à l’article 24 de la loi sur l’aménagement du territoire et les constructions (LATC ; BLV 700.11).
+
+Dans le cas de radiation, modification ou établissement de nouvelles LCR, la DGMR demande que les données informatiques sur les LCR lui soient fournies en format INTERLIS conformément à la Directive pour l’établissement des plans fixant les limites des constructions (LCR). Ceci permettra la mise à jour de la base de données informatique sur les limites des constructions des routes (LCR).
+
+Lorsque les LCR sont définies par un plan suivant la procédure LATC, conformément à l’article 22 du RLAT, les géodonnées liées à un plan et règlement d’affectation sont transmises avec la demande d’approbation selon la directive NORMAT.
+
+Demande :
+
+- Les limites des constructions des routes (LCR) en vigueur doivent être représentées sur le plan d’affectation et doivent être traitées dans le règlement.
+
+## 15.2 PRÉAVIS VOYER :
+
+Concernant le règlement du plan d’affectation « En Villard Dessous, et en particulier concernant l’article 10 « Distances » alinéa 1, il est mentionné : La distance aux limites de propriété est de 6 mètres.
+
+Cet article peut prêter à confusion car il ne mentionne pas les limites de construction selon la LRou qui sont plus restrictives.
+
+Demande :
+
+- L’article doit être complété en précisant qu’« A défaut de plan fixant la LCR les distances minimales à observer sont définies par l’article 36 de la loi sur les routes (LRou ; BLV 725.01). ».
+
+
+
+# ANALYSE JURIDIQUE
+
+CONCERNANT L'INDEMNISATION POUR EXPROPRIATION MATERIELLE
+DU SECTEUR « CAMPAGNE ROSSIER »
+
+A L'ATTENTION DE LA
+
+COMMUNE DE LA TOUR-DE-PEILZ
+
+
+
+# 1. Questions à résoudre
+
+Le projet de plan d'affectation (PA) « En Villard Dessous », qui prévoit l'inconstructibilité du secteur « Campagne Rossier » (parcelles 1025 et 1378), est actuellement à l'examen préalable des services cantonaux. Un préavis est prévu à l'issue de cet examen, afin que le Conseil communal puisse décider soit de charger la Municipalité de mettre ce PA à l'enquête, soit d'entrer en matière sur un contre-projet d'intention des propriétaires.
+
+La Municipalité a déjà sollicité un premier avis de droit au sujet d'une éventuelle indemnité pour expropriation matérielle que l'Etat, voire la Commune, devraient ou non supporter dans l'hypothèse où le PA entrerait en force. Afin de consolider sa position en vue de son préavis et compte tenu des enjeux, elle souhaite un deuxième avis juridique.
+
+La présente analyse tend plus spécialement à répondre aux deux questions suivantes :
+
+- Dans l'hypothèse où le PA « En Villard Dessous » entrairait en force, une indemnité pour expropriation matérielle serait-elle due aux propriétaires ?
+- Dans l'affirmative, le débiteur de ladite indemnité serait-il l'Etat ou la Commune?
+
+La réponse à ces questions nécessite préalablement d'examiner la situation des parcelles concernées, puis les différents cas d'expropriation et leurs conditions, afin de pouvoir ensuite procéder à une analyse appropriée du cas concret.
+
+
+
+# 2. Situation des parcelles 1025 et 1378
+
+# 2.1 Brève chronologie
+
+Les parcelles 1025 et 1378 sont situées au croisement des chemins des Bulesses et du Crotton. Leur affectation a passablement évolué au fil du temps.
+
+![img-0.jpeg](img-0.jpeg)
+
+Le plan des zones de 1972 prévoyait que le secteur devait faire l'objet d'un plan spécial. Ce fut l'objet du plan d'extension partiel (PEP) « Crêt Richard, Villard, La Doges, La Poneyre, Burier-Dessus » de 1982, qui a divisé chacune des parcelles 1025 et 1378 en deux zones différentes, l'une constructible et l'autre inconstructible.
+
+En 1996 a été approuvé le plan partiel d'affectation (PPA) « Campagne Rossier », destiné à permettre la création, sur la partie constructible de la parcelle 1025, de la maison écologique « Clef de Sol ».
+
+Divers projets et études se sont ensuivis depuis les années 2000. L'adoption d'un nouveau PPA a notamment été envisagée en 2017 à deux reprises, mais a essuyé un refus net tant par les commissions ad hoc que par le Conseil communal, parce que l'augmentation du CUS prévue de 0.2 à 0.25 était jugée « incohérente et non justifiée ». Un nouveau projet élaboré cette fois par les propriétaires a lui aussi été considéré comme entrant « en totale opposition
+
+
+
+avec les principes rappelés par les deux commissions ad hoc », parce qu'il prévoyait également une hausse de la densité du secteur (cf. préavis municipal n° 21/2023 du 13 décembre 2023, p. 6 ; postulat du conseiller communal Schmidhauser du 19 mai 2023, p. 3).
+
+L'actuel plan général d'affectation (PGA) de 2019 prévoyait quant à lui d'affecter les parcelles 1025 et 1378 en « zone à développer par plan spécial ». Cette partie du PGA n'a toutefois pas été approuvée par le département, si bien que les plans et règlements précédents restent applicables au secteur.
+
+# 2.2 Affectation actuelle
+
+# Parcelle 1025
+
+La partie sud-est de la parcelle 1025 est régie par le PPA « Campagne Rossier » de 1996, qui distingue deux secteurs constructibles. Le secteur I est une Zone villa où peuvent être construites des maisons d'habitation avec un CUS de 0.2 ; l'établissement d'un plan de quartier ou d'un plan partiel d'affectation est néanmoins obligatoire (art. 6 RPPA). Le secteur II est destiné à une habitation individuelle, à savoir la villa écologique « Clef de Sol », dans une aire de construction définie, et à ses aménagements extérieurs.
+
+![img-1.jpeg](img-1.jpeg)
+
+La partie nord-ouest de la parcelle 1025, qui n'est pas comprise dans le périmètre du PPA « Campagne Rossier » de 1996, est régie par le PEP « Crêt
+
+
+
+Richard, Villard, La Doges, La Poneyre, Burier-Dessus » de 1982. Elle est colloquée en Zone de verdure, caractérisée par l'interdiction de bâtir, seuls des bâtiments de minime importance et l'agrandissement de bâtiments existants pouvant être autorisés s'ils ne portent pas préjudice au site (art. 46 de l'ancien règlement sur le plan d'extension et la police des constructions de 1972, auquel renvoie le RPEP).
+
+![img-0.jpeg](img-0.jpeg)
+
+### Parcelle 1378
+
+La parcelle 1378 est entièrement régie par le PEP « Crêt Richard, Villard, La Doges, La Poneyre, Burier-Dessus » de 1982.
+
+La partie sud-ouest est en Zone de villas I, permettant la construction de villas d'un niveau habitable plus des combles avec un CUS de 0.2 ; l'établissement d'un plan de quartier ou d'un plan d'extension partiel est toutefois obligatoire (ch. 2 RPEP).
+
+La partie nord-est est en Zone protégée, destinée à préserver le site et caractérisée par l'interdiction de bâtir, sauf pour des bâtiments annexes et aménagements en rapport avec l'utilisation des bâtiments existants qui ne portent pas préjudice au site.
+
+![img-1.jpeg](img-1.jpeg)
+
+
+
+### 2.3 Projet de PA « En Villard Dessous »
+
+Le projet de PA « En Villard Dessous » inclut entièrement les deux parcelles 1025 et 1378. Ce PA a pour buts de maintenir le caractère majoritairement non bâti du site et de valoriser son patrimoine naturel, paysager et architectural. La plus grande surface du périmètre est ainsi classée en zone agricole (art. 14 RPA). La maison « Clef de Sol » et son pourtour sont colloqués en Zone d’habitation de très faible densité (art. 5ss RPA), tandis que la moitié nord-est de la parcelle 1378 est affectée en Zone de site construit protégé, caractérisée par l’interdiction de bâtir sauf pour des bâtiments annexes et aménagements en rapport avec l’utilisation des bâtiments existants qui ne portent pas préjudice au site (art. 15 RPA).
+
+![img-2.jpeg](img-2.jpeg)
+
+Ce cadre étant posé, il s’agit d’examiner les règles applicables à une éventuelle indemnisation pour expropriation matérielle.
+
+
+
+### 3. Cas d'indemnisation pour expropriation matérielle
+
+Un arrêt très récent de la CDAP AC.2024.0180 du 28 avril 2025, qui a fait l'objet d'une procédure de coordination 34 ROTC, dresse un tableau détaillé des principes en matière d'indemnisation des frais de projet devenus inutiles par suite de l'adoption d'une mesure d'aménagement du territoire (consid. 5ss).
+
+En résumé, cet arrêt distingue les cas d'indemnisation pour expropriation matérielle « stricto sensu » (au sens de l'art. 5 al. 2 LAT) et les autres.
+
+#### 3.1 Cas d'expropriation matérielle « stricto sensu » de l'art. 5 al. 2 LAT
+
+Les cas d'expropriation matérielle au sens strict de l'art. 5 al. 2 LAT sont ceux dans lesquels il y a privation d'une faculté essentielle du droit de propriété et ceux où la mesure d'aménagement impose au propriétaire de supporter un sacrifice particulier par trop considérable. Ils sont régis par les art. 71ss LATC :
+
+##### Art. 71 Principe
+
+$^{1}$ Les restrictions au droit de propriété résultant d'une mesure d'aménagement du territoire donnent droit à une juste indemnité, si elles constituent un inconvénient majeur.
+
+$^{2}$ Est considéré comme inconvénient majeur toute restriction au droit de propriété résultant d'une mesure d'aménagement du territoire et équivalant à une expropriation matérielle.
+
+##### Art. 72 Demande en indemnisation [1]
+
+$^{1}$ Celui qui estime qu'une restriction de son droit de propriété au sens de l'article 71 équivaut à une expropriation matérielle adresse une demande en indemnisation au département, qui rend une décision.
+
+$^{2}$ Celle-ci est notifiée à l'administration cantonale des impôts (ACI).
+
+##### Art. 73 Ayant droit [1]
+
+$^{1}$ L'indemnité est versée par l'Etat au propriétaire du bien-fonds au moment où la décision arrêtant son montant entre en force.
+
+$^{2}$ L'indemnité porte intérêt au taux de 3% dès la date à laquelle la restriction du droit de propriété a pris effet.
+
+##### Art. 73a Recours [1]
+
+$^{1}$ La décision fixant le montant de l'indemnité ou rejetant la demande peut faire l'objet d'un recours auprès du Tribunal cantonal.
+
+
+
+# Art. 73b Péremption [1]
+
+1 Le droit de demander le paiement d'une indemnité se périme par un an à partir de l'entrée en vigueur de la mesure entraînant la restriction au droit de propriété.
+
+Une indemnisation pour expropriation matérielle « stricto sensu » est donc soumise au régime de la décision administrative des art. 72ss LATC et non pas à la loi sur l'expropriation, qui l'exclut d'ailleurs expressément (art. 124a LE).
+
+Il peut être déduit de la loi, de la jurisprudence et de la doctrine que l'expropriation matérielle suppose la réalisation de cinq conditions cumulatives, lesquelles peuvent être résumées comme suit :
+
+1. Restriction particulièrement grave au droit de propriété ou atteinte moindre mais violant l'égalité de traitement
+2. Interdiction d'un usage actuel ou futuro prévisible du droit à bâtir
+3. Dézonage équivalent à un déclassement
+4. Absence de mesure de police
+5. Délai de péremption d'un an
+
+Ces conditions et leur application au cas concret feront l'objet d'un examen plus approfondi ci-après.
+
+Quant au débiteur de l'indemnité, avant l'entrée en vigueur des art. 72ss LATC en 2020, l'Etat ne payait que la moitié de l'indemnité pour expropriation matérielle ; le reste était à la charge de la commune, contre laquelle était dirigée l'action en indemnité. Le nouvel art. 72 LATC prévoit toutefois que la demande en indemnisation est adressée au département et le nouvel art. 73 LATC que l'indemnité est versée par l'Etat. C'est donc pour renforcer la position procédurale de l'Etat payeur et lui permettre de mieux défendre ses intérêts que ces nouvelles règles ont été adoptées (cf. Exposé des motifs et projet de décret/projet de loi modifiant la LATC et la LE [EMPL] n° 191 de décembre 2019, in : Bulletin du Grand Conseil [BGC] 2017-2022, ch. 1 p. 426 ; ch. 2.1 et 2.2 p. 430-431 ; voir aussi CDAP AC.2023.0111 du 26 mars 2024 consid. 4).
+
+L'art. 67 LATC prévoit d'ailleurs un fonds géré par le département, alimenté par le produit de la taxe sur la plus-value et destiné notamment au versement de l'indemnité due au titre d'expropriation matérielle (al. 1 let. a).
+
+
+
+# 3.2 Cas d'expropriation matérielle de l'art. 48 LATC
+
+Selon l'arrêt de synthèse de la CDAP précité AC.2024.0180 du 28 avril 2025, il existe un 2ème cas d'expropriation matérielle, qui n'est pas considéré comme une indemnisation « stricto sensu » au sens de l'art. 5 al. 2 LAT, mais comme un cas spécifique de responsabilité de l'Etat pour acte licite. Il s'agit de l'indemnisation des frais de projet réalisés en vain de l'art. 48 LATC :
+
+# Art. 48 Indemnisation
+
+1 L'autorité qui refuse un permis de construire en application de l'article 47 répond du dommage causé au requérant qui a engagé de bonne foi des frais pour établir un projet conforme à la réglementation existante. L'action, introduite au lieu de situation de l'immeuble, est soumise à la procédure en matière d'expropriation matérielle ; elle se prescrit par un an dès l'entrée en vigueur du nouveau plan.
+
+La demande d'indemnisation fondée sur l'art. 48 LATC doit intervenir par la voie de l'action et relève donc des instances judiciaires civiles. Elle est soumise aux règles de procédure des art. 116ss de la loi sur l'expropriation (LE), comme les autres mesures de l'Etat susceptibles de provoquer une expropriation matérielle hors LATC ou les cas d'expropriation formelle.
+
+Dans l'hypothèse de l'art. 48 LATC, l'indemnité est due par la collectivité qui a ordonné la mesure d'aménagement en cause (cf. CDAP AC.2023.0111 du 26 mars 2024 consid. 4).
+
+Ce cas de figure ne semble pas s'appliquer en l'occurrence, puisqu'il n'est pas question d'un projet de construction qui devrait être refusé sur la base de l'art. 47 LATC. Il ne sera donc pas analysé plus avant.
+
+
+
+# 3.3 Principe de la confiance
+
+Enfin, l'arrêt de synthèse de la CDAP distingue encore une 3ème catégorie d'indemnisation pour des frais de projet devenus inutiles suite à des mesures d'aménagement, même en l'absence d'expropriation formelle ou matérielle et même sans base légale spécifique. A la différence des cas d'expropriation, on se trouve en présence d'une responsabilité pour acte licite régie non pas par la loi, mais par le principe général de la confiance (art. 9 Cst.).
+
+Dans ce cas, la jurisprudence topique, rappelée par la CDAP, est celle de l'ATF 112 Ib 105 consid. 6a :
+
+"Selon la jurisprudence, un constructeur ne peut réclamer le remboursement de frais d'un projet de construction devenu inutile si ce projet n'était pas conforme à la réglementation en vigueur. Ce principe vaut aussi lorsque la demande de permis de construire était conforme au droit en vigueur au moment où elle a été présentée mais qu'entre ce moment et celui de la décision, les dispositions légales se sont modifiées au détriment du constructeur; le propriétaire ne peut exiger que le droit de construction régissant à un moment donné son immeuble demeure inchangé. Cependant, lorsque c'est le dépôt d'une demande de permis qui a provoqué la modification du plan ou du règlement, l'autorité voulant ainsi empêcher l'exécution du projet, le remboursement des frais engagés en vain ne saurait être refusé, si l'intention de l'autorité ne pouvait pas être prévue par le propriétaire. Le dédommagement doit également être prévu dans les cas où, avant de présenter son projet, le constructeur a reçu des assurances quant au maintien de la réglementation. Dans ces circonstances exceptionnelles, l'indemnisation est due même s'il n'y a pas d'expropriation, formelle ou matérielle. Elle est alors fondée sur le principe de la confiance."
+
+L'indemnisation fondée sur le principe général de la confiance peut donc intervenir si les art. 71ss LATC ou 48 LATC ne sont pas applicables. Elle répond toutefois à des conditions strictes : il faut soit que l'intention de l'autorité de modifier son plan ou son règlement n'ait pas pu être prévue par le propriétaire, soit que ce dernier ait reçu des assurances de l'autorité quant au maintien de la réglementation avant de présenter son projet.
+
+En l'absence de base légale spécifique et faute d'appartenir à un cas d'indemnité pour expropriation matérielle « stricto sensu », cette 3ème catégorie devrait aussi relever de la juridiction civile, quoique l'arrêt de la CDAP AC.2024.0180 du 28 avril 2025 ne l'indique pas expressément.
+
+En l'espèce, ce dernier cas de figure ne devrait pas s'appliquer non plus, même à titre subsidiaire. Il n'est pas question à notre connaissance de frais de projet qui auraient été engagés inutilement parce que la collectivité aurait assuré qu'elle maintiendrait sa réglementation. Comme on le verra ci-après, l'intention non-prévisible de l'autorité semble aussi faire défaut.
+
+
+
+# 4. Conditions de l'expropriation matérielle « stricto sensu »
+
+Le droit à une indemnité pour expropriation matérielle « stricto sensu » au sens des art. 5 al. 2 LAT et 71ss LATC n'est ouvert que si les conditions cumulatives suivantes sont réalisées (cf. aussi Zufferey, Droit public de la construction, Berne 2024, ch. 388ss p. 214ss et les références) :
+
+1. Restriction particulièrement grave au droit de propriété ou atteinte moindre mais violant l'égalité de traitement
+
+L'intéressé doit se trouver privé d'un attribut essentiel de son droit de propriété. Tel est le cas a priori lors d'une suppression complète des droits à bâtir (y compris si elle n'est pas définitive, mais durable), qu'il s'agisse d'une interdiction de construire ou de démolir par suite d'une mise sous protection. En cas de simple restriction, une indemnité n'est en principe pas accordée, sauf dépréciation de l'immeuble de plus de 30% de sa valeur.
+
+Une atteinte de moindre importance peut aussi constituer une expropriation matérielle si elle frappe un ou quelques propriétaire seulement d'une manière telle que, s'ils n'étaient pas indemnisés, ils devraient supporter un sacrifice trop considérable en faveur de la collectivité, incompatible avec le principe de l'égalité de traitement. Ce cas est plus rare (cf. ATF 125 II 431 consid. 3a, cité in : Zufferey, op. cit.).
+
+2. Interdiction d'un usage actuel ou futur prévisible du droit à bâtir
+
+L'usage interdit ou restreint de manière particulièrement grave doit être hautement prévisible dans un futur proche. Le propriétaire doit démontrer qu'il aurait pu démarrer les travaux de sa propre initiative dans un délai de 2-3 ans depuis la restriction, sans obstacle technique ou juridique (par ex. remaniement parcellaire, plan d'équipement, plan de quartier ...) et avec une grande probabilité.
+
+Dans l'ATF 131 II 728 consid. 2.5 et 2.6, l'indemnisation a été refusée parce que l'ancien plan qui permettait de construire avait 12 ans lorsque le nouveau plan a été adopté. Le Tribunal fédéral a considéré qu'à l'approche de l'horizon des 15 ans de l'art. 15 LAT, l'ancien plan devait en principe être réexaminé voire adapté, si bien que le propriétaire ne pouvait penser que son bien-fonds demeurerait toujours en zone à bâtir.
+
+
+
+# 3. Dézonage équivalant à un déclassement
+
+Depuis que s'applique l'art. 5 al. 2 LAT, soit déjà avant que les art. 72ss LATC entrent en vigueur en 2020, la jurisprudence exige encore que l'atteinte grave au droit de propriété résulte d'un « déclassement » et non pas d'un « refus de classement » ou « non-classement » (cf. CDAP AC.2022.0270 du 29 janvier 2024 consid. 2).
+
+- Il y a « déclassement » lorsqu'un bien-fonds classé dans une zone à bâtir conforme à la LAT est frappé d'une interdiction de construire. Entre en principe aussi dans cette catégorie la révision d'un plan général d'affectation destinée à mettre en œuvre l'art. 15 al. 2 LAT en cas de zone à bâtir surdimensionnée (op. cit. consid. 2c).
+
+Un déclassement ouvre le droit à une indemnité pour expropriation matérielle.
+
+- Il y a en revanche « refus de classement » ou « non-classement » lorsque la modification d'un plan d'affectation a pour effet de sortir une parcelle de la zone à bâtir que prévoyait un plan non-conforme aux exigences de la 1ère LAT de 1980. Tel est le cas de la décision par laquelle l'autorité de planification, adoptant pour la première fois un plan d'affectation conforme aux exigences constitutionnelles et légales, ne range pas un bien-fonds déterminé dans la zone à bâtir et cela même si ce terrain était constructible selon la réglementation antérieure.
+
+Un « refus de classement » ou « non-classement » ne donne en principe pas lieu à une indemnisation.
+
+# 4. Absence de mesure de police
+
+Il n'y a en principe pas d'indemnité si l'atteinte au droit de bâtir se limite à ce qui est nécessaire pour protéger le titulaire contre un danger sérieux ou imminent, tel un aléa naturel (inondation, glissement de terrain, ...) ou un motif de santé publique (assainissement du bruit, ...).
+
+# 5. Délai de péremption d'un an
+
+La demande d'indemnité doit être présentée au département dans un délai d'un an dès l'entrée en vigueur du plan, sous peine de péremption.
+
+
+
+Le moment déterminant pour apprécier la portée de la restriction est en principe la date de l'entrée en force de la mesure de planification définitive, même si cette dernière est précédée d'une mesure de protection provisoire.
+
+En cas de zone réservée préalable, par exemple, même une interdiction de bâtir de cinq à dix ans n'a généralement pas pour effet une expropriation matérielle. Le Tribunal fédéral a récemment confirmé cette analyse, en considérant que des mesures conservatoires d'aménagement prises en vue d'une modification de la planification d'une durée d'un peu plus de 9 ans, mais échelonnées sur une période de 14 ans, restaient dans les limites générales admises pour considérer que la restriction ne constituait pas une expropriation matérielle (cf. TF 1C_ 598/2023 du 29 janvier 2024 consid. 2.4, cité in : CDAP AC.2024.0316 du 6 février 2025 consid. 2a/bb).
+
+On peut en déduire qu'en cas de nouveau plan précédé d'une zone réservée, la demande d'indemnité doit être déposée :
+
+- au plus tout après une interdiction de bâtir provisoire de 10 ans et
+- au plus tard 1 an après l'entrée en vigueur du plan définitif, sous peine de péremption.
+
+
+
+## 5. Tableau récapitulatif
+
+Les différents cas d'indemnisation des frais de projet devenus inutiles par suite de l'adoption d'une mesure d'aménagement du territoire et conditions examinées ci-dessus peuvent être schématisés comme suit :
+
+![img-0.jpeg](img-0.jpeg)
+
+
+
+# 6. Raisonnement en l'espèce
+
+En l'occurrence, il n'est pas question on l'a vu d'un refus de permis de construire sur la base de l'art. 47 LATC qui impliquerait une indemnisation pour des frais de projet réalisés en vain, ni d'autres frais qui auraient été engagés inutilement parce que la collectivité aurait assuré qu'elle maintiendrait sa réglementation. Il ne s'agit donc pas d'un cas d'application de l'art. 48 LATC ou du principe de la confiance, mais d'un cas d'expropriation matérielle stricto sensu au sens des art. 71ss LATC.
+
+Il sied donc d'examiner si, dans l'hypothèse où le PA « En Villard Dessous » entrerait en force, les conditions des art. 71ss LATC ouvrant le droit à une indemnité pour expropriation matérielle seraient réunies ou non :
+
+- L'existence d'une atteinte particulièrement grave au droit de propriété semble a priori donnée. Comme les droits à bâtir ne sont pas complètement supprimés sur aucune des deux parcelles, mais restreints, une indemnité ne devrait être accordée qu'en cas de dépréciation de l'immeuble de plus de 30%. Même si nous ne disposons pas de tous les éléments nécessaires à déterminer si cette circonstance est effectivement remplie, il peut néanmoins être relevé ce qui suit.
+
+La parcelle 1025 conserve une Zone d'habitation de très faible densité, qui correspond à l'aire des constructions et des aménagements extérieurs du PPA « Campagne Rossier » de 1996. La partie nord-ouest reste inconstructible, puisqu'elle passe de Zone de verdure selon le PEP de 1982 à Zone agricole et de verdure avec le nouveau PA. Seule la partie sud-est de la parcelle 1025, qui est actuellement constructible en tant que Zone villa, perdrait donc ses droits à bâtir puisqu'elle passerait en Zone agricole. Reste que cette Zone villa n'est pas directement constructible, puisqu'elle nécessite obligatoirement l'établissement préalable d'un plan de quartier ou d'un plan partiel d'affectation (art. 6 RPPA), lequel fait jusqu'à présent défaut.
+
+La parcelle 1378 perd sa Zone de villas I au sud-ouest, qui passe en Zone agricole avec le nouveau PA. Comme pour la parcelle 1025 toutefois, la construction de la Zone de villas I implique d'abord l'établissement obligatoire d'un plan de quartier ou d'un plan d'extension partiel, qui n'existe pas pour l'instant. Quant à la moitié nord-est de la parcelle 1378, elle reste en zone protégée.
+
+Il n'en demeure pas moins que les parties constructibles de chacune des parcelles couvrent actuellement des surfaces importantes. Dans ces circonstances, il est vraisemblable que la restriction au droit de propriété représente une dépréciation de plus de 30% de la valeur des bien-fonds.
+
+
+
+- Une moindre atteinte serait plus facilement admissible, mais encore faudrait-il qu'elle viole l'égalité de traitement au détriment d'un ou de quelques propriétaires uniquement.
+
+Certes, seules deux propriétaires seraient touchées par le nouveau PA et un dialogue semble s'être instauré depuis longtemps entre elles et la commune. Malgré plusieurs tentatives infructueuses, elles souhaiteraient encore réaliser un projet de développement sur leurs parcelles (cf. rapport 47 OAT de mars 2025, p. 5 ; rapport de minorité du 14 février 2024, p. 3).
+
+Les bien-fonds représentent toutefois des terrains de grande envergure (26'456 m² et 24'078 m²) qui ont été régis depuis plus de 50 ans par des plans spéciaux limitant fortement leur constructibilité. Ils se situent du reste hors du territoire communal urbanisé, sont presque entièrement non-bâtis et entourés par trois côtés de zones agricoles, viticoles ou protégées.
+
+Par ailleurs, les différents projets et études de planification proposés depuis les années 2000 ont tous été clairement écartés, y compris ceux des propriétaires, parce que les droits à bâtir qu'ils prévoyaient, même relativement modestes (CUS de 0.25), étaient jugés excessifs, incohérents voire en totale contradiction avec les objectifs de limitation des constructions du secteur, à proximité immédiate du domaine de La Doges et sensible du point de vue paysager.
+
+Il s'avère en outre que, même si l'ensemble du territoire communal est inclus dans le périmètre compact de l'agglomération Rivelac, une révision de celui-ci est en cours de réflexion, visant à exclure les terrains situés notamment de part et d'autre de l'autoroute A9 afin de préserver sur le long terme une zone verte paysagère, ce qui exclurait de facto la réalisation d'un nouveau quartier d'habitation dans le secteur « Campagne Rossier » (cf. préavis municipal n° 21/2023 du 13 décembre 2023, p. 4 ; rapport 47 OAT de mars 2025, p. 15s.).
+
+Compte tenu de ces particularités, il paraît difficile de soutenir que l'absence d'indemnisation ferait supporter à leurs propriétaires un sacrifice trop considérable en faveur de la collectivité, incompatible avec l'égalité de traitement.
+
+- L'interdiction d'un usage actuel ou futur prévisible du droit de bâtir apparaît contestable.
+
+Comme on l'a vu en effet, seules les parties sud-est de la parcelle 1025 et sud-ouest de la parcelle 1378 sortiraient de la zone à bâtir pour passer en zone agricole. Pour y construire actuellement, l'établissement préalable d'un plan localisé est néanmoins obligatoire (art. 6 RPPA et ch. 2 RPEP). Or, aucun des plans envisagés depuis les années 2000 n'a vu le jour jusqu'à présent, les
+
+
+
+possibilités de bâtir ayant à chaque fois été jugées excessives et inappropriées, encore récemment. A fortiori, aucun projet de construction concret n'a été déposé. Hormis la partie sud-ouest de la parcelle 1025 accueillant la villa « Clef de sol », le terrain ne serait d'ailleurs pas équipé (cf. rapport 47 OAT de mars 2025, p. 13).
+
+Dans ces conditions, il semble difficile de considérer qu'une construction aurait pu être réalisée avec une grande probabilité dans un délai de 2-3 ans sans obstacle technique ou juridique, soit de la seule initiative des propriétaires. Il appert au contraire que les parcelles ne sont pas immédiatement constructibles et qu'une concrétisation dépendrait de prestations de la collectivité à l'obtention desquelles les propriétaires ne peuvent pas faire valoir un droit (cf. aussi CDAP AC.2021.0370 du 16 mai 2023 consid. 3b).
+
+A cela s'ajoute que les plans régissant actuellement les deux parcelles datent de 1982 et 1996, soit de bien plus de 15 ans, si bien que selon la jurisprudence du Tribunal fédéral, leurs propriétaires ne peuvent pas penser que leurs propriétés demeureront toujours en zone à bâtir, mais doivent s'attendre au contraire à ce que ces plans et les droits à bâtir qui en résultent soient réexaminés voire adaptés aux modifications des circonstances. Ce d'autant plus qu'avec le PGA de 2019, la Commune contribue déjà suffisamment à la densification dans les périmètres de centre, conformément aux exigences de la LAT et du PDCn.
+
+L'existence d'un déclassement pourrait être admise, car aussi bien le PEP de 1982 que le PPA de 1996 sont postérieurs à l'entrée en vigueur de la LAT au \(1^{\text{er}}\) janvier 1980 et que la conformité des plans à celle-ci est présumée.
+- Aucun motif de police n'a été invoqué jusqu'à présent à notre connaissance.
+La demande d'indemnisation devrait etre adressée au département au plus tard dans l'année suivant l'entrée en vigueur du PA, sous peine de péremption (cf. aussi CDAP AC.2021.0370 du 16 mai 2023 précité, consid. 1).
+
+Il résulte des développements qui précèdent que les conditions posées par les art. 71ss LATC pour ouvrir le droit à une indemnisation pour expropriation matérielle ne semblent pas toutes remplies. Dans ces conditions, nous sommes d'avis que les chances de succès d'une demande en indemnisation pour expropriation matérielle seraient relatives.
+
+Si le droit à une indemnité devait néanmoins être admis, celle-ci serait exclusivement à la charge du canton (art. 73 al. 1 LATC), lequel dispose d'un fonds alimenté à cette fin par le produit de la taxe sur la plus-value (art. 67 al. 1 let. a LATC).
+
+
+
+Il ressort au demeurant du préavis municipal n° 21/2023 du 13 décembre 2023 qu'interpellé à cet égard, le directeur de la DGTL aurait confirmé que les éventuelles indemnités seraient à la charge de l'Etat (p. 9). Peut-être est-il fait référence à un courrier de Pierre Imhof du 31 janvier 2023, qui indique que dans l'hypothèse où le PA « Combe de Villard » prévoirait des restrictions au droit de propriété équivalentes à une expropriation matérielle, les propriétaires des biens-fonds concernés auraient droit à une juste indemnité versée par l'Etat conformément aux conditions des art. 71ss LATC. Le préavis municipal précise toutefois aussi que la DGTL ne se prononcerait officiellement que dans le cadre de l'examen préliminaire et préalable (ibid.).
+
+## 7. Synthèse
+
+En résumé, la jurisprudence en matière d'indemnisation pour expropriation matérielle est restrictive et semble davantage profiter aux collectivités qu'aux propriétaires, pour qui les écueils sont nombreux et la fenêtre temporelle très courte. Le droit à une indemnité ne peut toutefois être exclu avec certitude, vu les circonstances particulières décrites ci-dessus.
+
+Ce nonobstant, nous pensons pouvoir répondre aux deux questions posées comme suit :
+
+- Dans l'hypothèse où le PA « En Villard Dessous » entrerait en force, une indemnité pour expropriation matérielle serait-elle due aux propriétaires ?
+
+**Réponse :** les chances de succès d'une telle demande en indemnisation paraissent relatives.
+
+- Dans l'affirmative, le débiteur de ladite indemnité serait-il l'Etat ou la Commune ?
+
+**Réponse :** l'indemnité serait due par le canton exclusivement.
+
+Laurent Pfeiffer, av.
+
+Jessica de Quattro Pfeiffer, av.
+
+Vevey, le 10.07.2025
+
+
+
+**Par e-mail**
+
+Commune de la Tour-de-Peilz
+A l'att. de M. Maximilien Walter,
+Chef de Service a.i.,
+Service urbanisme et travaux publics
+Grand-Rue 46
+1814 La Tour-de-Peilz
+Maximilien.Walter@la-tour-de-peilz.ch
+
+Vevey, le 25 novembre 2022/ngv
+
+# **Campagne Rossier - indemnités d'expropriation matérielle**
+
+Monsieur le Chef de Service a.i., Cher Monsieur,
+
+Je fais suite à nos échanges relatifs aux conséquences d'un éventuel dézonage des périmètres actuellement constructibles dans le secteur Campagne Rossier-La Combe de Villard. La situation est relativement complexe :
+
+1. Sur la base du PEP Crêt Richard, Villard, La Doges, La Poneyre, Burier-Dessus du 24 février 1982 (ci-après : le « PEP »), le développement des zones de villas I (« La Combe de Villard », parcelle 1378) et de villas II (« Campagne Rossier », parcelle no 1025), en soi constructibles, reste soumis à l'établissement préalable de plans de quartier ou de plans partiels d'affectation.
+
+Un premier périmètre avait été aménagé avec l'adoption du PPA « Campagne Rossier » du 11 novembre 1996, en vue de construire une « villa écologique » ; ce PPA vaut pour la zone de villas II du PEP (fig. 3, ci-dessous). L'aménagement du solde de la parcelle avait été différé en vue de l'adoption prévue d'un autre plan spécial.
+
+Le PEP rendait déjà les périmètres nord et est en soi constructibles, avec un l'IUS (de 0.2) pour l'affectation à l'habitation dans les secteurs villa I (La Combe de Villard) et villa II (Campagne Rossier). Etaient autorisées les « villas d'un niveau habitable plus un niveau dans les combles, avec deux logements au maximum par villa » pour la zone de villas I, respectivement les « villas de deux niveaux habitables plus un niveau dans les combles, avec deux logements au maximum par villa » pour la zone de villas II (art. 2 RPEP).
+
+**DENIS SULLIGER**
+DOCTEUR EN DROIT
+AVOCAT AU BARREAU
+
+**YVES NOËL**
+DOCTEUR EN DROIT
+PROFESSEUR À L'UNIVERSITÉ
+LL.M. INTERNATIONAL
+TAXATION (NYU NEW YORK)
+
+**MINH SON NGUYEN**
+DOCTEUR EN DROIT
+PROFESSEUR AUX UNIVERSITÉS
+LAUSANNE ET NEUCHÂTEL
+
+**CHRISTOPHE MISTELI**
+AVOCAT AU BARREAU
+DOCTEUR EN DROIT
+LL.M. (TÜBINGEN)
+ARBITRE AU TRIBUNAL
+ARBITRAL DU SPORT / CAS
+AVOCAT SPÉCIALISTE FSA
+DROIT DES SUCCESSIONS
+
+**CYRILLE BUGNON**
+AVOCAT AU BARREAU
+AVOCAT SPÉCIALISTE EN
+DROIT DE LA CONSTRUCTION
+ET DE L'IMMOBILIER
+
+**PHILIPPE VOGEL**
+DOCTEUR EN DROIT
+AVOCAT SPÉCIALISTE FSA EN
+DROIT DE LA CONSTRUCTION
+ET DE L'IMMOBILIER
+EXPERT MARCHÉS PUBLICS
+SIA-UPIAV
+
+**LAURE DALLEVES**
+AVOCATE AU BARREAU
+
+**CHRISTOPHE MISTELI**
+RUE DU SIMPLON 13
+CASE POSTALE 1075
+CH - 1800 VEVEY 1
+TEL. +41 (0)21 922 84 85
+FAX +41 (0)21 922 00 40
+CCP 23 - 186698 - 8
+cm@smn.ch
+
+
+
+La surface totale des périmètres 1 et 2 des villas est de 27'940 m². En zone villas, pourraient être implantées des constructions pour env. 5300 m² de SPD. Au niveau parcellaire, la construction poserait peu de problèmes : l'on pourrait regrouper, ou fractionner en parcelles d'une surface minimale de 1500 m² dans le périmètre villa 1 et de 1000 m² dans le périmètre villa 2.
+
+Le secteur est jugé sensible, à proximité de la Doges, à la frange (transition) du parc de la Riviera. Il ne se prête donc pas forcément à la densification. Le développement est ainsi « à limiter » selon des planifications indicatives, en contradiction toutefois avec le périmètre compact défini par le canton. Celui-ci avait certes défini le 17 décembre 2003 un périmètre de protection qui limite les nouvelles constructions et/ou les transformations des constructions existantes, en ce sens qu'elles ne peuvent pas porter atteinte aux vues sur La Doges (préservation des vues) ; mais dans le cadre des projets actuels de plan d'affectation, le canton a dans un premier temps insisté sur un IUS de 0.625, ce qui augmenterait la constructibilité, même si l'accent est mis sur la partie ouest où les promoteurs travaillent actuellement sur des variantes (en zone de verdure selon le PEP). Dans ces scénarios, les deux compartiments à l'est ne seraient plus concernés par la constructibilité, qui est reportée à l'ouest (hors des périmètres bleus) :
+
+![img-0.jpeg](img-0.jpeg)
+
+Fig. 1 (variante 1)
+
+![img-1.jpeg](img-1.jpeg)
+
+Fig. 2 (variante 3)
+
+2. C'est aussi dans ce sens que des promesses de vente semblent avoir été passées entre les propriétaires, Françoise GUISAN (parcelle no 1025) et Jacqueline MICHELI (parcelle no 1378), et un promoteur genevois, la cession devant permettre la réalisation des constructions à l'ouest (périmètres rouges).
+
+
+
+Seraient donc concernés par un possible dézonage :
+
+- tout le secteur est ;
+- éventuellement un carré de 4 villas potentielles au sud, et
+- un secteur permettant env. 8 villas potentielles au nord-ouest.
+
+Ces secteurs sont déjà équipés.
+
+3. Est ici posée la question des conséquences d'un tel dézonage pour d'éventuelles indemnités d'expropriation.
+
+Historiquement, le SDT avait indiqué, en 2015, souhaiter « que les parcelles n° 1'378 et n° 1'025 [concernant en particulier les zones de villas I et II] fassent partie d'une réflexion commune quant à l'occupation du sol, afin d'assurer la cohérence de l'urbanisation future de part et d'autre du chemin du Croton » (cf. rapport 47 OAT, p. 6). Le nouveau PPA devait ainsi porter sur les deux secteurs de la Campagne-Rossier (villas II) et de la Combe de Villard (villas I). Actuellement le premier est régi par le PPA Campagne Rossier I, le second n'étant soumis qu'au PEP de 1982 :
+
+![img-2.jpeg](img-2.jpeg)
+
+Fig. 3 (PEP 1982)
+
+Le Conseil communal a refusé une première mouture du PPA « Campagne Rossier II – La Combe de Villard » en mai 2017 (« PPA CR II »). Les travaux ont ensuite repris, et tendent à la création des nouvelles zones à bâtir plus à l'ouest, comme on l'a vu. Le projet actuel de PPA CR II y prévoirait un IUS de 0.47. Ce « transfert » de la zone constructible viserait à éviter trop de visibilité des constructions dans le secteur plus sensible à l'est, par le jeu d'une forme de rocade entre la zone de verdure et celle des villas.
+
+
+
+4. En droit, l'*expropriation matérielle* couvre les cas où la collectivité publique prend une mesure – notamment d'aménagement du territoire – qui a des effets comparables à ceux d'une expropriation. Une perte de la faculté de construire peut alors donner lieu à une indemnisation, sans perte de la propriété.
+
+Les conditions sont assez restrictives et tout déclassement n'entraîne pas l'obligation de la collectivité d'indemniser. La garantie du droit de propriété ne confère pas le droit absolu d'exiger qu'un terrain reste de façon durable dans la zone où il avait d'abord été classé, ni que les possibilités de bâtir ne soient pas modifiées ou limitées par la suite (ATF 102 Ia 331, c. 1). Le propriétaire qui ne construit pas doit s'attendre à un changement de sa situation juridique.
+
+L'on distingue entre le déclassement et le non-classement (ATF 131 II 151, c. 2.6). Le *déclassement* a lieu lorsque le bien-fonds classé dans une zone à bâtir – conformément à la LAT – est frappé d'une interdiction de construire (ATF 125 II 431, c. 3b). Des redimensionnements dans un plan d'affectation sont qualifiés de déclassement (ATF 131 II 728, c. 2.3).
+
+Il y a *non-classement* (ou refus de classement) lorsque la modification d'un plan a pour effet de sortir le bien-fonds de la zone à bâtir où il se trouvait auparavant, pour adapter plan aux exigences de la LAT. Ces hypothèses sont rares et en cas de non-classement, le droit à une indemnisation pour expropriation matérielle est limité à des situations exceptionnelles, quand l'équité le commande (ATF 131 II 728, c. 2.1 ; TC VS A1 15 18 du 16.07.2015, c. 2.4).
+
+Avant l'adoption de la nouvelle LAT, les dézonages n'intervenaient que dans des circonstances exceptionnelles. Dans le canton de Vaud, quand une indemnisation pouvait être due, elle l'était pour moitié par la commune et pour l'autre par le canton (art. 116 s. LE et art. 76 aLATC). Depuis le 1$^{er}$ septembre 2018, la LATC prévoit que l'indemnité est versée exclusivement par l'Etat dans les cas d'expropriations matérielles (art. 71 al. 1$^{er}$ et 73 al. 1$^{er}$ LATC ; Bulletin du Grand Conseil no 116, 23.06.2020, p. 32 ; voir aussi art. 124a LE et AC.2021.0370 c. 2e, pour ce qui est de la procédure).
+
+Le montant de l'indemnité d'expropriation porte sur la moins-value provoquée par la mesure restrictive de propriété, qui correspond à la différence entre les valeurs vénales du fonds avant et après la restriction. Le cas échéant elle porte aussi sur les frais et investissements que l'expropriation a rendus inutiles, notamment pour un projet de construction, à leur coût réel. Le dommage se détermine au jour où la restriction à la propriété est entrée en vigueur (ATF 114 Ib 286, c. 7 ; TC VD Chambre des recours II du 15 septembre 2010/181/II, c. 2a).
+
+5. En l'espèce, il pourrait être question d'un dézonage de la partie *est* du périmètre, soit en même temps qu'un classement en zone constructible de la partie ouest, ou alors, de manière indépendante, par un déclassement pur et simple, sans réelle contrepartie.
+
+Une telle intervention est un *déclassement*. En effet, ce périmètre a été colloqué par le PEP approuvé par le Conseil d'Etat en 1982 (soit après l'entrée en vigueur de la LAT), puis en partie par le PPA Campagne-Rossier du 11 novembre 1996, en zone constructible (zone de villas II au sud), nonobstant le périmètre de protection de la Doges de 2003 (prévoyant essentiellement une préservation des vues). Un droit à une indemnisation ne peut donc être en soi écarté – du moment
+
+
+
+qu'un terrain classé en zone à bâtir de manière vraisemblablement conforme à la LAT serait ensuite affecté à une zone non constructible en raison d'une révision du plan de zones.
+
+6. Pour toutefois qu'existe effectivement un droit à une indemnité d'expropriation matérielle, deux critères cumulatifs doivent être remplis (ZEN-RUFFINEN/GUY-ECABERT, *Aménagement du territoire, construction, expropriation*, Berne, 2001, p. 585 ; ATF 107 Ib 380, c. 2) :
+
+- une atteinte particulièrement grave, intense, et durable au droit de propriété, soit une atteinte *spéciale* pour le propriétaire, frappé à tel point par la mesure par rapport aux autres, que seule une compensation pécuniaire peut rétablir un équilibre (ATF 107 Ib 380, c. 2 ; TF 1C_215/2015, c. 3.1) ; tel est le cas quand une parcelle devient inconstructible ;
+- l'usage actuel ou l'usage futur prévisible du bien-fonds en cause est retreint.
+
+S'agissant de ce second critère, il est lié à un pronostic : l'usage *prévisible dans un proche avenir* doit avoir été restreint (ZEN-RUFFINEN/GUY-ECABERT, 591 ; ATF 131 II 151, c. 2.1). On entend par là la *possibilité objective* d'affecter la parcelle à la construction (ATF 113 Ib 318, c. 3c ; ATF 131 II 151, c. 2.1 ; 1C_787/2013, c. 3.5.1). La probabilité de la réalisation d'un projet de construction est le critère déterminant et il faut déterminer si le bien-fonds aurait très vraisemblablement été utilisé en tant que terrain à bâtir, dans un proche avenir.
+
+Pour escompter une indemnité, le propriétaire doit rendre hautement vraisemblable que, au moment du déclassement, son bien-fonds aurait, selon le cours ordinaire des choses, été voué à la construction dans un avenir proche. Tous les facteurs juridiques et matériels entrent ici en ligne de compte (ATF 112 Ib 105, c.2b ; BOVAY/DIDISHEIM/SULLIGER/THONNEY, *Droit fédéral et vaudois de la construction*, ad art. 5 LAT, p. 35). Constituent des indices déterminants : l'affectation actuelle du bien-fonds, sa situation par rapport au territoire déjà bâti, ses qualités intrinsèques mesurées à l'aune des impératifs de l'aménagement du territoire, le développement de la construction dans le secteur où se trouve l'immeuble, et les perspectives de croissance démographique de la commune, mises en parallèle avec la capacité globale de son plan de zones.
+
+Dans ce contexte, l'on considère que la réalisation de la construction *ne devrait dépendre plus que de l'initiative du propriétaire*. Aucun obstacle majeur de fait ou de droit ne devrait s'opposer à l'usage projeté. Des possibilités d'utilisation éloignées, indéterminées, ou un gain purement théorique, ne sauraient être pris en considération (Enrico RIVA, *Commentaire pratique LAT, Planifier l'affectation*, ad art. 5 LAT n. 170).
+
+Lorsque *la modification de la situation juridique du bien-fonds est encore nécessaire*, que ce soit par le biais d'une révision du plan des zones, ou l'adoption d'un plan d'affectation spécial, d'un plan d'équipement ou encore d'un remaniement parcellaire destiné à rendre les terrains concernés effectivement constructibles (ATF 131 II 151, c. 2.4.1), il devient plus difficile de dire que la construction ne dépendrait plus que du propriétaire concerné. Si la parcelle est déjà prête à la construction, l'expropriation matérielle (et donc les indemnités) restent toutefois possibles même si le propriétaire n'avait pas encore personnellement eu l'intention de bâtir (ATF 113 Ib 318, c. 3c ; BOVAY et al., ad art. 5 LAT, p. 36). Le propriétaire qui a thésaurisé pendant des années un terrain *immédiatement constructible* peut ainsi prétendre à une indemnité pour
+
+
+
+expropriation, s'il rend hautement vraisemblable qu'au moment du déclassement, le terrain aurait été effectivement voué à la construction.
+
+7. En l'espèce, le déclassement concernerait par hypothèse les zones de villas I (en rose, fig. 3 ci-dessus) et de villas II (violet), à l'est (non cernées en blanc).
+
+Pour rappel, le règlement du PEP du 24 février 1982 rendait les périmètres des zones de villas I (en rose) et II (en violet et bleu) constructibles. Contrairement à la zone de villas I (secteur nord « La Combe de Villard »), la zone de villas II (secteur sud et est « Campagne Rossier ») a ensuite fait l'objet d'un PPA, adopté le 11 novembre 1996, dont le règlement – tout en se référant toujours au PEP de 1982 – prévoit (toujours) l'obligation d'établir « *un plan de quartier ou [...] un plan partiel d'affectation* » (art. 6 RPPA CR, sauf pour le périmètre de la « villa écologique » déjà construite).
+
+Les dispositions introductives du RPPA précisaient que ce développement pouvait prendre un certain temps, mais sans l'exclure : « *[l]a volonté d'urbanisation du propriétaire foncier, qui souhaite maintenir l'exploitation agricole existante sur le solde de la parcelle 1205, se limite à la réalisation à court terme d'une maison d'habitation à caractère écologique* ». On le sait, qu'il s'agisse de la zone de villas I ou II, aucun plan de quartier ou plan partiel d'affectation n'a été établi dans l'intervalle.
+
+En 2019, le RPGA est venu formellement abroger le PEP de 1982, mais non le PPA « Campagne Rossier » de 1996 valant pour la zone de villas II. Ce PPA semble encore renvoyer à l'ancien PEP : « *[l]a réglementation en vigueur prévoit pour l'ensemble du périmètre une affectation en zone de villas II, à l'aide du Plan d'Extension Partiel Crêt Richard, Villard, La Doges, La Poneyre* » (exposé liminaire du RPPA). L'art. 16 RPPA indique que « *[p]our tout ce qui n'est pas prévu par le plan et le présent règlement, sont applicables les dispositions du règlement communal sur le plan d'extension et la police des constructions du 5 juillet 1972, et celles de LATC et de son règlement d'application* ».
+
+L'on peut discuter s'il s'agissait d'un renvoi *dynamique* au droit actuel, ou d'un renvoi resté *statique* au PEP de 1982 (la référence au statut antérieur peut s'imposer, cf. TF 1C_632/2018). L'on peut également discuter si, bien qu'abrogé, le PEP continuerait de s'appliquer dans les périmètres non concernés par le PPA « Campagne Rossier » de 1996 mais à développer par PPA. Il n'existe pas à ce stade de plan général d'affectation approuvé par le Département pour les périmètres hachurés en rouge sur le plan (fig. 4), les plans spéciaux étant réservés, avec l'indication que la planification pour le « *PPA Campagne Rossier II – La Combe de Villard [est] en cours* ».
+
+
+
+![img-0.jpeg](img-0.jpeg)
+
+# Liste des plans spéciaux :
+
+|  Nom |  | Entrée en vigueur  |
+| --- | --- | --- |
+|  PEP | Au Prieuré de Burier | 9.09.1983  |
+|  PEP | Chemin du Vallon | 4.08.1982  |
+|  PEP | Clos d'Aubonne et modification | 22.12.1976 06.05.1988  |
+|  PPA | Campagne Rossier II - La Combe de Villard | en cours  |
+|  PPA | En Villard | 03.09.1993  |
+
+Il est clair que l'établissement
+
+Il est clair que l'établissement d'un plan spécial est nécessaire avant la délivrance d'un permis de construire, que ce soit du point de vue du PEP vu l'art. 2 RPEP préconisant que « [l']*établissement d'un plan de quartier ou d'un plan d'extension partiel est obligatoire* » pour les zones de villas I et II, ou de l'art. 6 RPPA Campagne Rossier qui dispose que « [l']*établissement d'un plan de quartier ou d'un plan partiel d'affectation est obligatoire* » pour la zone de villas II.
+
+8. L'exigence d'un *plan de quartier* préalable (une institution abrogée dans le canton de Vaud lors de la révision de la partie générale de la LATC) devait permettre l'équipement systématique d'un terrain à bâtir pour que la zone soit équipée de manière adéquate et ciblée, comme unité dans le paysage, dans le respect d'une utilisation mesurée du sol (ATF 122 II 455 = JdT 1997 I 441, c. 5d).
+
+Une telle procédure complémentaire prescrite par le droit avant l'autorisation de construire ne permet toutefois pas d'exclure d'emblée l'usage pour la construction dans un proche avenir ni donc, des indemnités d'expropriation (ATF 131 II 151, c. 2.4.2 ; TF 1C_653/2017). Chaque facteur juridique doit être examiné dans la situation concrète, en fonction des règles du droit cantonal. Si le plan de quartier n'est qu'une simple « *exigence formelle supplémentaire, destinée à améliorer l'intégration du ou des bâtiments admissibles sur un terrain de dimensions modestes déjà équipé, sans modification de l'affectation de ce secteur ni révision essentielle des conditions de construction* » (ATF 131 II 151, c. 2.5), un refus de l'indemnité d'expropriation ne s'impose pas.
+
+Même s'il se révèle nécessaire d'édicter un *plan d'affectation spécial*, cela ne signifie pas non plus, en cas de déclassement préalable, que le critère de la probabilité de réalisation de constructions n'est forcément pas rempli. Il faut, dans ce cas de figure, que des obstacles majeurs s'opposent à la construction du bien-fonds pour que la collectivité publique soit dispensée
+
+
+
+d'indemniser. Une appréciation globale de ces obstacles est requise (WALDMANN/HÄNNI, Handkommentar RPG, *ad* art. 5 n. 55 ; RIVA, *op. cit.*, n. 185.). La jurisprudence n'est pas abondante, mais il a été jugé que toute procédure supplémentaire imposée par le droit cantonal avant l'octroi d'une autorisation de construire n'exclut pas par définition l'indemnisation des propriétaires (1C_653/2017 du 12.03.2019 pour Amden/SG). C'est le cas si les propriétaires n'ont pas de raison objective de s'attendre à ce qu'un obstacle majeur s'oppose à l'édification d'une construction conforme à l'affectation de la zone, même quand un PQ est nécessaire.
+
+En l'espèce, le RPEP prévoyait déjà que pour la zone de villas I, « [l]'*indice d'utilisation est limité à 0,2 et la surface minimale de la parcelle est de 1500 m2*. [...] *L'établissement d'un plan de quartier ou d'un plan d'extension partiel est obligatoire* » (art. 2 RPEP du 24.02.1982 ; pour rappel aucun PPA n'a été adopté pour cette zone).
+
+S'agissant de la zone de villas II, « [l]'*indice d'utilisation est limité à 0,2 et la surface minimale de la parcelle est de 1000 m2* », en vertu de l'art. 2 RPEP. Selon l'art. 6 RPPA Campagne Rossier, cette zone doit également faire l'objet « *d'un plan de quartier ou d'un plan partiel d'affectation* », étant toutefois déjà précisé que « [c]e secteur est affecté à la construction de maisons d'habitation, avec un coefficient d'utilisation du sol de 0,2 » (art. 6 RPPA).
+
+Le 21 avril 1994 au sujet du PPA C-R I, la Municipalité avait favorisé ce PPA (avec la construction à ce stade limitée à la « maison écologique ») en jugeant nécessaire de « [d]*éfinir dans la zone de villas II du PEP et la parcelle 1025, une aire de construction pour permettre la réalisation d'une maison d'habitation d'une surface au sol de 250 m2, dont le concept global prévoit notamment l'utilisation optimale des énergies renouvelables* » (préavis du 21 avril 1994 de la Municipalité au sujet du PPA Campagne Rossier). Elle avait précisé que « *l'aménagement du solde de la parcelle est différé et l'essentiel de la réglementation en vigueur confirmée, avec quelques compléments et précisions devant orienter cet aménagement futur conformément et dans l'esprit des art. 97 à 99 LATC (utilisation rationnelle de l'énergie)* ». L'on doit comprendre dans ces intentions que si le but était l'utilisation rationnelle des ressources énergétiques, aucune réserve n'a été émise quant au développement futur. Il s'agissait de créer un quartier exemplaire ou emblématique, mais non d'exclure les constructions.
+
+Le fait qu'un terrain soit déjà équipé ne suffit certes pas encore à le tenir pour constructible (ATF 109 Ib 13, c. 2 = JdT 1985 I 518). Mais ce peut être une circonstance qui néanmoins importe (ici, le terrain est équipé en séparatif avec des accès apparemment assurés). Un degré de sensibilité II au sens de l'OPB a été attribué pour la zone de villas II (art. 5 RPPA du 11 novembre 1996 –la zone de villas I ne s'est pas vue attribuer de degré de sensibilité au bruit, en tous les cas sur la base du PEP). Il n'est pas possible de dire que l'urbanisation ne se développe pas actuellement dans la direction des bien-fonds concernés, ou qu'ils se situent totalement à l'écart ou à la périphérie du territoire urbanisé, compte tenu aussi des intentions exprimées par le canton et dans la planification directrice. Aucune évaluation des qualités paysagères ou biologiques du site ne semble avoir mis le doigt sur des facteurs déterminants excluant le développement. Un déclassement pur et simple du secteur « est » n'est donc pas en soi prévisible.
+
+
+
+9. Le dossier peut présenter un élément de complexité additionnel si l’on considère que les propriétaires ont déjà adhéré au processus de « rocade », qui déplacerait le potentiel constructif vers l’ouest, semblant soutenir l’initiative du canton visant à y implanter les constructions (avec des possibilités améliorées par rapport à la zone de très faible densité actuelle, avec un IUS d’au moins de 0.47). Bien que ces périmètres n’aient pas encore été formellement approuvés par le canton, ces éléments sont indicatifs du développement futur souhaité pour la zone.
+
+L’on pourrait en déduire que *de facto* les propriétaires (GUISAN et MICHELI) ont renoncé au potentiel constructible actuel, à l’est, pour ne travailler qu’avec ces hypothèses nouvelles et plus incertaines, à l’ouest. Ces hypothèses plus risquées dépendent de l’approbation d’une nouvelle réglementation. Les propriétaires auraient démontré, ce faisant, qu’ils n’entendent plus thésauriser la partie « est » pour y construire, prenant le risque de perspectives plus éloignées, passant par un classement de la zone à bâtir actuelle. Avec le PGA de 2019, la possibilité de construire à l’est semble d’ailleurs plus incertaine puisqu’une grande partie des zones de villas I et II à l’est seraient destinées à une zone « *aux caractéristiques de zone naturelle protégée* », soit sans doute inconstructible (art. 103 al. 2 RPGA).
+
+La conclusion serait que les propriétaires, adhérant à ce processus et ses incertitudes, auraient fait la démonstration que la constructibilité ne dépend plus de la « *seule initiative du propriétaire* » (ch. 6 ci-dessus).
+
+Ceci dit, il faut garder à l’esprit la configuration particulière du cas. Ces propriétaires n’ont sans doute pas pris d’engagement particulier et s’ils acceptent les nouvelles hypothèses de travail, c’est dans l’espoir de voir enfin les possibilités de construire concrétisées ou augmentées. Un refus pur et simple de développer la partie « ouest » doublé du déclassement de la partie « est » pourrait ainsi amener ces propriétaires à considérer que le principe de la bonne foi n’a pas été respecté et à soutenir que ce processus de « rocade » dans les possibilités de construire a été retourné contre eux.
+
+Des planifications ou des remaniements parcellaires peuvent éveiller la confiance des propriétaires concernés s’ils doivent comprendre que des terrains seront affectés à la zone à bâtir dans le nouveau plan à adopter (L. BÜHLMANN/S. KISSLING, *Obligation d’indemniser en cas de dézonage*, Espace suisse, Décembre 4/2019, p. 26 ; ATF 132 II 218 = JdT 2007 I 727, c. 6.1). C’est vrai aussi en l’absence d’assurances concrètes. La protection de la bonne foi est donnée, notamment, si le plan d’affectation est conforme à la LAT. Si de tels faits devaient autoriser une attente de classement de la part des parties – ce qui peut être le cas ici en regard des indications dans le PGA de 2019 et de l’intervention du canton proposant d’augmenter l’IUS à l’ouest – la haute probabilité que le secteur soit constructible pourrait être démontrée.
+
+Pourrait encore s’opposer au versement d’indemnités d’expropriation le fait que le PPA Campagne Rossier et le PEP de 1982 sont à présent obsolètes et mériteraient d’être révisés selon l’art. 21 LAT, selon lequel les plans d’affectation doivent faire l’objet des adaptations nécessaires en cas de modifications sensibles des circonstances. Tel est le cas si le plan date de plus de 15 ans ; les propriétaires ne pourraient alors plus invoquer le principe de la stabilité des plans. Toute construction dans un avenir proche devrait alors être écartée, du moins jusqu’à ce
+
+
+
+que la situation en matière d'affectation soit clarifiée (L. BÜHLMANN/S. KISSLING, *op. cit.*, p. 24).
+
+Mais cette question n'a en soi jamais été tranchée par la jurisprudence et dans la mesure où les autorités et les propriétaires semblent avoir continuellement soutenu les projets de nouveaux plans, et où ces révisions devaient conduire à plus de densification, l'argument que les plans seraient dépassés mais les parcelles, dès lors, sans réelle perspective, pourrait aussi tomber vu les limites données par le principe de la bonne foi, déjà évoquées ci-dessus.
+
+**10.** Il en résulte qu'en cas de refus du PPA Campagne Rossier La Combe de Villard II et en excluant aussi, simultanément, la constructibilité des parcelles nos 1025 et 1378 du côté **est**, il existe un risque de devoir verser des indemnités d'expropriation, y compris pour d'éventuels frais de développement assumés par les propriétaires jusqu'ici.
+
+Il n'est pas certain que le canton valide un tel projet de dézonage (art. 43 al. 1er LATC) s'il doit assumer ces indemnités (ch. 4 ci-dessus).
+
+Je suis à disposition pour toutes précisions et vous prie de croire, cher Monsieur, à l'assurance de mes sentiments dévoués.
+
+Christophe Misteli, av.
+
+
+
+![img-1.jpeg](img-1.jpeg)
+
+## Projet d'intention « Campagne Rossier »
+
+(alternative au préavis d'inconstructibilité « En Villard-Dessous »)
+
+- Création, par la Codha, Coopérative de l'habitat associatif, de 45 à 50 logements écologiques et sans but lucratif.
+- Réduction de 63 % de la zone à bâtir actuelle.
+- Mise en valeur d'une zone de 120'000 m² pour la promotion de la biodiversité
+- Mise à disposition de plus de 1800 m² de nouvelles promenades publiques, notamment vers "la Capite"
+
+La Codha et les familles propriétaires proposent un nouveau projet de construction plus modeste, tenant compte des critiques précédentes, et offrant de nombreuses plus-values, notamment de nouvelles promenades publiques ainsi qu'un maintien et une revitalisation paysagère du domaine et de sa biodiversité, qui ne seraient pas possibles en cas de déclassement complet des parcelles.
+
+En quelques points :
+
+- Nouveau projet d'intention, **révisé et développé en concertation avec un groupe de travail** - incluant des conseillers communaux, des voisins et des exploitants agricoles - qui s'est réuni à 3 reprises en 2025 ;
+- 2 zones à bâtir (au lieu de 4) de 10'700 m² au total (soit seulement **37% de l'actuelle surface constructible** et 8% de l'ensemble du domaine), dans la continuité de la zone déjà bâtie, pour une surface plancher de 5'300 m², assurant **63% de l'actuelle surface constructible en zone verte** non-constructible, minimisant ainsi l'impact sur le paysage ;
+- 45 à 50 **logements coopératifs et écologiques** répartis en 12 à 15 petits volumes de R+2 (rez+étage+combles), selon norme Minergie Eco ou équivalente, **certains réservés au Boéland.e.s** et une partie sous forme de logements locatifs à loyer abordable ;
+
+
+
+- **Mise à disposition de 3 promenades** accessibles au public, d'une surface totale de 1'500 m², et d'un terrain de jeu de plus de 300 m² sur les terrains privés ;
+- **Exploitation agricole plus respectueuse** de l'environnement et du paysage par le biais d'un bail Pro Natura pour la biodiversité et 6'000 m² de vergers et de jardins potagers mis à disposition de collectivités locales sous l'égide de l'exploitant.e agricole principal.e ;
+- Projet à développer en **concertation avec les acteurs locaux et la commune**, et **plus-values régies par une convention et des servitudes** entre les propriétaires, la commune et les différentes parties prenantes (exploitants, associations, ...) concernées ;
+- Projet permettant de **financer le maintien et la valorisation** de la surface restante non construite (soit plus de 120'000 m²) en zone de promotion de la biodiversité, de grande qualité paysagère et d'une agriculture (vigne, prairie, pâturage, maraîchage, ...) s'inscrivant dans le respect de la récente Loi sur la protection du patrimoine naturel et paysager (LprPnp).
+
+## Contexte et acteurs
+
+La Campagne Rossier, acquise par Benjamin Rossier en 1911, est composée de cinq parcelles, dont deux sont en partie constructibles et trois en zone agricole ou en zone de verdure. Ce domaine a été largement préservé jusque-là par les familles de Mmes Françoise Guisan et Jacqueline Micheli (petites-filles de Benjamin Rossier).
+
+Le projet « Campagne Rossier » souhaite aujourd'hui montrer qu'on peut construire des logements qui soient à la fois écologiques, durables, et contribuant à lutter contre le mitage du paysage. Il est porté par la Codha, Coopérative de l'habitat associatif, (https://www.codha.ch), qui a déjà fait ses preuves dans le développement d'écoquartiers durables et a obtenu plusieurs distinctions dans le domaine (comme le Prix Binding pour la biodiversité ou le Prix Bilan de l'Immobilier, catégorie durabilité).
+
+## Situation actuelle et options en discussion
+
+Bien que situées en zones à bâtir depuis des décennies et au sein d'un domaine initialement entièrement constructible, **les parcelles 1025 et 1378 ont été largement préservées jusqu'ici grâce à la bonne volonté des propriétaires**, qui ont de tous temps œuvré à maintenir ce paysage sous sa forme actuelle exceptionnelle.
+
+
+
+**L'entretien de ce paysage et de son patrimoine bâti a cependant un fort coût.** C'est la raison pour laquelle les propriétaires ont initié, il y a une quinzaine d'années, et avec le soutien, jusqu'à récemment, de la Municipalité et du canton, un projet immobilier qui devait permettre de **financer ces coûts tout en préservant largement le paysage**. Ce projet découlait directement des PEP 1982 et PPA 1996, qui prévoyaient déjà les droits à bâtir. Les parcelles sont d'ailleurs d'ores et déjà raccordables aujourd'hui (eau, électricité, assainissement) et plusieurs étapes officielles de développement des projets précédents (préavis, enquêtes, charte de durabilité validée en 2012) avaient déjà été passées, en concertation avec la commune et le canton, à chaque fois en adaptant les propositions aux retours reçus. **Tout au long de ces démarches, les propriétaires et la Codha ont reçu des signaux encourageants qui les confortaient dans la poursuite du projet, et cela jusqu'au revirement de la Municipalité au printemps 2023.**
+
+En raison d'une densification massive sur le reste de la commune, ce projet fait, aujourd'hui, l'objet d'une controverse qui a amené la commune à **envisager de rendre ces parcelles inconstructibles, ce qui se traduirait dans les faits par une expropriation matérielle**. Si les propriétaires et la Codha comprennent le ras-le-bol de la population vis-à-vis du bétonnage incontrôlé qui sévit à la Tour-de-Peilz, ils aimeraient rappeler que cette densification découle avant tout de l'adoption du Plan général d'affectation de la commune. **Ils se sentiraient donc injustement affectés par une décision d'inconstructibilité, alors même qu'ils ont œuvré jusqu'ici, à leurs frais et tout au long de ces dernières années, à préserver ce paysage**, et qu'ils proposent aujourd'hui un projet exemplaire autant en matière de qualité du bâti que de son intégration dans le paysage. La Codha s'est aussi fortement engagée dans ce projet, y compris financièrement, et pourrait être sévèrement impactée par sa non-réalisation.
+
+Après l'exposé des motifs ci-dessus à la Municipalité au printemps 2024, celle-ci a ainsi accepté de permettre à la Codha et aux propriétaires de proposer un nouveau projet d'intention.
+
+**Ce document présente ce projet d'intention révisé comme une alternative plus intéressante qu'une inconstructibilité pour la Commune de la Tour-de-Peilz, de par les nombreux bénéfices qu'il apporterait à la commune et aux Boéland.e.s**, notamment en termes de nouvelles promenades publiques, de lieux d'accès et d'échange pour les Boéland.e. s, de renaturation de biotopes (p. ex. ruisseau, haies, bosquets), de fermages agricoles écologiquement responsables, de maintien du patrimoine paysager, et de leur utilisation possible par les écoles, les associations et/ou les coopératives de la région.
+
+Nous illustrons ci-après (page suivante) les étapes de développement du projet proposé, en montrant le paysage actuel et comment le bâti s'y intégrerait, et en mettant en avant les plus-values apportées.
+
+
+
+## Descriptif du projet d’intention
+
+La Campagne Rossier est constituée de **cinq parcelles** appartenant aujourd’hui aux familles Guisan et Micheli, descendantes directes de Benjamin Rossier. La photo aérienne ci-dessous montre l’ensemble du domaine (délimité par le contour rouge) dans son état actuel.
+
+![img-0.jpeg](img-0.jpeg)
+
+**Figure 1 :** Image aérienne avec limites (en rouge) du domaine « Campagne Rossier ».
+
+Les pages suivantes illustrent le projet d’intention par une série de plans successifs (figures 2 à 9) montrant l’existant puis **faisant apparaître progressivement les différents nouveaux éléments du projet : le nouveau bâti, les nouvelles promenades publiques, les zones de promotion de la biodiversité, et les zones de promotion d’une agriculture respectueuse de l’environnement**. La figure 8 correspond à la fin de la séquence et illustre tous les éléments réunis dans une vue d’ensemble. La figure 9 montre un zoom de celle-ci sur les parcelles bâties et la figure 10 comment ces parcelles revitalisées pourraient contribuer à mieux connecter les territoires d’importance biologique supérieure dans la région. La figure 11, enfin, est une vue photographique et simulation de l’implantation du bâti dans le paysage, montrant que ce dernier affecterait relativement peu le panorama d’ensemble de la Campagne Rossier. Cette photo illustre aussi la vue qui deviendrait accessible depuis *La Capite* (actuellement en terrain privé) en cas de réalisation du projet.
+
+
+
+La figure 2 ci-dessous reproduit la vue aérienne de la figure 1, en soulignant les éléments existants du paysage : maisons et routes actuelles, arbres et bosquets importants, prairies, pâtures et vignes, topographie, et le bâti adjacent.
+
+![img-1.jpeg](img-1.jpeg)
+
+**Figure 2 :** Éléments principaux de l'état actuel du domaine privé *Campagne Rossier*, dont les terrains ne sont aujourd'hui pas accessibles au public ou aux collectivités (excepté le long des routes).
+
+
+
+La figure 3, ci-dessous, montre (en hachuré rouge) quels sont les **terrains actuellement constructibles** (selon le PEP « Crêt Richard Villard, La Doges, La Poneyre, Burier-Dessus » du 24 février 1982), qui couvrent 21.5% de la *Campagne Rossier*, soit une surface de 29'120 m².
+
+![img-2.jpeg](img-2.jpeg)
+
+**Figure 3 :** Surfaces à bâtir actuelles (29'120 m²) selon le PEP actuel, soit environ 20% (21,5%) de la superficie du domaine.
+
+
+
+Il était cependant ressorti des discussions des années précédentes avec le canton et la commune, et plus récemment avec le groupe de travail ad-hoc, que le nouveau bâti devrait idéalement être réduit et accolé au bâti existant adjacent aux parcelles. Cela impliquait de déplacer et de réduire les zones constructibles en bordure du domaine (soit au niveau de la colline et du « coude » de la route de Blonay). La **nouvelle proposition de zones à bâtir** correspondante est illustrée dans la figure 4 ci-dessous. Ces zones représenteraient une **diminution de 63%** de la surface constructible (passant de 21,5% à 8% de l'ensemble du domaine), et seraient automatiquement « déclassés » en zone verte non-constructible.
+
+![img-0.jpeg](img-0.jpeg)
+
+**Figure 4 :** Nouvelle proposition de zones à bâtir (10'707 m²), correspondant à 37% de la surface à bâtir actuelle (PEP « Crêt-Richard » ; 29'120 m²) et à 8% de l'ensemble du domaine (contre 21,5% actuellement), soit une diminution de 63% de la surface constructible. Zones hachurées en bleu = zones à bâtir qui seraient déclassées (21'892 m²) ; zones hachurées en rouge = projet réduit.
+
+
+
+**Le bâti serait ainsi disposé** sur les deux nouveaux périmètres rouges illustrés dans la figure 4 (page précédente), selon l’implantation illustrée en rouge dans la figure 5 ci-dessous.
+
+![img-1.jpeg](img-1.jpeg)
+
+**Figure 5 :** Implantation de petits volumes bâtis sur les nouvelles zones à bâtir réduites.
+
+Cette implantation du bâti correspond à une **surface plancher souhaitée de 5'300 m², résultant des droits à bâtir actuels en vigueur**. Pour ce qui est de la surface au sol du bâti, elle représente moins de 1'600 m² (soit moins de 2% de l’ensemble du domaine), avec des surfaces essentiellement perméables autour, limitant ainsi l’emprise au sol et l’impact paysager. Si on rapporte la surface plancher à celle de la zone à bâtir proposée (10'800 m²), cela correspond à une densité de 0.49, mais il reste entendu que la densité finale devra être décidée conjointement avec la commune, le canton et les autres parties prenantes. En cas de préparation d’un plan d’affectation, la surface des deux zones à bâtir pourrait être modulée pour correspondre à la densité admise par toutes les parties concernées. Les porteurs du projet s’engagent également à respecter les volumes et morphologies des volumes bâtis, soit de « grandes maisons » de campagne (morphologie déjà bien présente dans le voisinage) et non des barres d’immeubles urbains.
+
+
+
+**D'importantes plus-values seraient générées** par ce projet pour les Boéland.e.s.
+
+La figure 6 (ci-dessous) illustre la création de **nouvelles promenades publiques** par des **servitudes de passage**. Elle montre leur tracé en rouge, notamment l'itinéraire qui passe par la colline de la « Capite » (et sa vue sur le lac) jusqu'aux routes de Bégnenins et des Novalles, ainsi que par l'ancien terrain de tennis (>300 m²) en milieu de parcours, et dont les accès sont actuellement strictement privés.
+
+![img-2.jpeg](img-2.jpeg)
+
+**Figure 6 :** Nouveaux itinéraires de promenades publiques (traçés rouges) et ancien terrain de tennis (rectangle hachuré en rouge) qui seraient rendus accessibles au public en cas de réalisation du projet.
+
+
+
+La figure 7, ci-dessous, indique quelles seraient les autres plus-values générées : **renaturation « à ciel ouvert » du ruisseau *Le Gregnolet*** (actuellement enterré ; traçé rouge) ; création de **nouvelles zones naturelles de bosquets et d'arbres** ; création de **nouvelles zones de vergers** (hautes-tiges, etc.) et de **maraîchage** ouvertes à diverses collectivités (écoles, associations, coopératives agricoles, etc.), en coordination avec l'exploitant.e agricole principal.e.
+
+![img-3.jpeg](img-3.jpeg)
+
+**Figure 7 :** Nouvelles zones de promotion de la biodiversité (ruisseau du *Gregnolet* renaturé, ajout de bosquets et d'arbres) et de cultures extensives (vergers, maraîchage).
+
+La figure 8 expose une **vue globale du projet révisé**. On y voit clairement que le **nouveau bâti, accolé au bâti existant, n'occuperait qu'une petite partie de la Campagne Rossier, et ne modifierait que très modestement le panorama actuel** (Fig. 10). Les nouveaux itinéraires de promenade proposés aux Boéland.e.s donneraient par ailleurs accès à de nouvelles balades et à de nouveaux points de vue sur le domaine (notamment depuis la « Capite »), panoramas qui seraient peu affectés par l'implantation du nouveau bâti. Enfin, les nouvelles zones naturelles et agricoles contribueraient à fournir aux habitants de la commune de nouveaux espaces de ressourcement, voire d'éducation, favorisant de nombreuses activités collectives.
+
+
+
+![img-4.jpeg](img-4.jpeg)
+
+**Figure 8 :** Vue globale du projet d’intention, incluant le bâti et les nouveaux aménagements prévus : promenades publiques, zones d’agriculture (vergers et maraîchage) respectueuse de l’environnement, zones de promotion de la biodiversité (bosquets, prairies, ruisseau du *Gregnolet* renaturé).
+
+La figure 9 ci-après (page suivante) détaille plus précisément l’**implantation du bâti**, situé de manière optimale près d’un arrêt de bus, limitant ainsi les besoins de déplacement en voiture, et d’un éco-point, facilitant le recyclage. Le parking, enterré et à l’accès plutôt modeste, n’affecterait que peu la vue. Les nouvelles servitudes offriraient un itinéraire piéton public le long d’un *Gregnolet* renaturé, depuis le haut de la route de Blonay et le long du chemin des Bulesses. D’autres plus-values pourraient être mises à l’étude comme, par exemple, la création de fontaines, d’une place de jeu ombragée, d’une épicerie locale, d’une crèche ou de locaux à usage collectif.
+
+**La hauteur des volumes bâtis** (rez+étage+combles) serait raisonnable, **ne dépassant pas celle des bâtiments voisins et des arbres et bosquets adjacents**, et s’intégrerait ainsi parfaitement au paysage.
+
+
+
+![img-0.jpeg](img-0.jpeg)
+
+**Figure 9 :** Vue détaillée de l’implantation des bâtiments et des services de proximité (bus, écopoint).
+
+La Codha et les propriétaires sont particulièrement attachés à la **préservation du paysage et à la protection de la nature et de la biodiversité** de la *Campagne Rossier*. Comme le montrent les figures 2 à 8, la nouvelle implantation proposée se situe intégralement **en-dehors de la zone de protection de la Doges**, préservant ainsi pleinement ce joyau patrimonial. Il **préserve aussi essentiellement la vue** sur la grande maison de Villard et sur le panorama visible à partir des reliefs avoisinants.
+
+**La vue** de la figure 10 (page suivante), depuis le lieu-dit *La Capite* (située sur la colline adjacente à la zone constructible) et qui **deviendrait accessible** par une promenade publique si le projet se réalisait (Fig. 6), montre notamment que l’**implantation du bâti ne modifierait pas drastiquement le panorama actuel**.
+
+
+
+![img-1.jpeg](img-1.jpeg)
+
+**Figure 10 :** Vue photographique de l'emplacement des nouvelles zones constructibles dans le paysage (A), et simulation de l'intégration du nouveau bâti (B), ici en vue depuis le lieu-dit la « Capite », un point de vue qui, en cas de réalisation du projet, deviendrait accessible au public, ce qui n'est pas le cas aujourd'hui (terrain privé).
+
+A l'échelle de la **région**, les propriétaires et la Codha s'engagent par ailleurs à **développer ce projet de manière à favoriser la meilleure perméabilité possible avec les autres zones vertes du voisinage** (p.ex. territoires d'intérêt biologique supérieur TIBS, extrait du guichet cartographique du canton de Vaud, en hachuré vert dans la figure 11 ci-dessous), avec le souhait de contribuer aussi à favoriser la connectivité biologique de cette « ceinture verte » et consolider ainsi l'infrastructure écologique communale et cantonale.
+
+![img-2.jpeg](img-2.jpeg)
+
+**Figure 11:** Situation du domaine par rapport aux territoires d'intérêt biologique supérieur (TIBS, hachurés en vert), extrait du guichet cartographique du canton de Vaud (https://www.geo.vd.ch). Les parcelles constructibles sont indiquées en bleu ; les parcelles adjacentes, mises à
+
+
+
+disposition pour une agriculture extensive et la promotion de la biodiversité et des milieux naturels, sont indiquées en vert. Ces dernières contribueraient à une meilleure connectivité biologique du paysage (p.ex. entre les zones TIBS).
+
+## Conclusion
+
+Ce nouveau projet d’intention « *Campagne Rossier* », revu et corrigé, propose une **intégration plus modeste et meilleure du bâti dans le paysage** ainsi que **plusieurs plus-values pour la commune de la Tour-de-Peilz**, dont des **promenades publiques** de haute qualité et **divers usages possibles des parcelles** par des collectivités.
+
+Les porteurs du projet souhaitent également promouvoir une bonne intégration entre architecture et urbanisme durables, d’une part, et protection du climat, de l’environnement, du paysage, et des milieux naturels et de la biodiversité d’autre part.
+
+Ce projet contribuerait ainsi non seulement à **répondre aux défis majeurs** de notre siècle, mais il présente aussi des **bénéfices et une opportunité pour la commune** et sa région, qui pourraient alors devenir pionnières en matière de développement durable.
+
+Ce projet **répond également aux besoins concrets des habitants** en proposant des **logements abordables et durables** ainsi que de **nouveaux espaces de rencontre, d’éducation et de loisirs**. Il s’inscrit aussi pleinement dans les **objectifs cantonaux et fédéraux en matière de biodiversité, de climat et de densification qualitative** des zones urbanisées, en apportant une réponse concrète à ces enjeux.
+
+## Les porteu.r.se.s du projet :
+
+Familles de Françoise Guisan et Jacqueline Micheli, propriétaires des parcelles
+
+La Codha, coopérative de l’habitat associatif, succursale de Lausanne.
+
+La Tour-de-Peilz, le 08.10.2025

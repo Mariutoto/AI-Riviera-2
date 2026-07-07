@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c18fb15e984c0a63977d",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 864'000.- pour le réaménagement et la renaturation de la plage de la Maladaire, le remplacement d'un exutoire d'eaux claires et divers travaux d'...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 33 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-33-Maladaire-plage-Rapp-Dec.pdf",
+    "filename": "Preavis-33-Maladaire-plage-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-19",
+    "content_hash": "b11f50a92cbf429056b29bba51c5118d96f11fd9cfa3c0a2c86ba046da0d781a",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "33/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-12-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Manuel Lisboa présent",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maria Luceron",
+          "party": "LCIVL",
+          "role": "president",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 864000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 95285,
+      "native_characters": 95285,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.935,
+      "low_text_image_pages": [
+        14,
+        15,
+        33,
+        56
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 14710,
+      "clean_words": 14531,
+      "removed_blocks": 92,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 33/2025",
+        "greffe@la-tour-de-peilz.ch",
+        "Rapport - Préavis municipal N° 33/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 14531
+    }
+  }
+}

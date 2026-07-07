@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c94a668ff16be809d9d7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Approbation des plans du projet routier de l'avenue du Clos-d'Aubonne",
+    "source_title": "Préavis municipal urgent + rapport + décision | Nr. 10 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-10-urgent-Amenagement-Clos-Aubonne-Rapp-Dec.pdf",
+    "filename": "Preavis-10-urgent-Amenagement-Clos-Aubonne-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-28",
+    "content_hash": "590ace9c5118f57c2e4fb10bf850a3a8b751b04ded3f1a3a2140d09727854f3d",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-02-28",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 69369,
+      "native_characters": 65763,
+      "ocr_characters": 69369,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "page_text_coverage": 0.9,
+      "low_text_image_pages": [
+        12,
+        13,
+        36
+      ],
+      "recommendation": "mistral_ocr_selected"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 11322,
+      "clean_words": 11237,
+      "removed_blocks": 3,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 11237
+    }
+  }
+}

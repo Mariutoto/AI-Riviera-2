@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "document_id": "doc_703525101da45ef9af34",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Modification du règlement de la taxe intercommunale de séjour et de la taxe intercommunale sur les résidences secondaires",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 14 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp-Dec.pdf",
+    "filename": "Preavis-14-Modification-regl-taxe-sejour-CITS-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-03",
+    "content_hash": "0cb6cf43088919e30a82b8671bc9ad20fd6e9983d628acf1fa5492f889bbfb95",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "14/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-11-03",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Margret Bruessow",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nina Hauri",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Claude Althaus",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Alessio Grutta",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Walter Steiner",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Dominique Vaucoret",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "excused"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 130788,
+      "native_characters": 130788,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.821,
+      "low_text_image_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 20407,
+      "clean_words": 20085,
+      "removed_blocks": 118,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 14/2022",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 20085
+    }
+  }
+}

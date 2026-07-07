@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_eb70bbade31bf901b887",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse au postulat de M. Denis Champier (PLR) « De l'ombrage pour plus de convivialité »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 13 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-13-Reponse-postulat-Champier-Rapp-dec.pdf",
+    "filename": "Preavis-13-Reponse-postulat-Champier-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-02",
+    "content_hash": "acc864370d3e22cf1455aabb207a0a8f027056536bf1fc361bdc398df336f970",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "13/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-06-27",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Lyonel Kaufmann",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Claude Delessert",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Valentine Python",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marc Wüthrich",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 31252,
+      "native_characters": 31252,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4802,
+      "clean_words": 4528,
+      "removed_blocks": 101,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 13/2024",
+        "Rapport - Préavis municipal N° 13/2024",
+        "Grand-Rue 46 - CP 144"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4528
+    }
+  }
+}

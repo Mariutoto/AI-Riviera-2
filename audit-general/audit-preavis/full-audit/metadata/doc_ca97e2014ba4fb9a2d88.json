@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ca97e2014ba4fb9a2d88",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Indexation du traitement des membres de la Municipalité",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 15 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-15‐Traitement-Municipalite-Rapp-Dec.pdf",
+    "filename": "Preavis-15‐Traitement-Municipalite-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-01",
+    "content_hash": "21f868a907f462e9b7411b462f9ddfb70d53862d6f391ef90b486e98c4591d88",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "15/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 16791,
+      "native_characters": 16791,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2679,
+      "clean_words": 2598,
+      "removed_blocks": 27,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Rapport - Préavis municipal N° 15/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2598
+    }
+  }
+}

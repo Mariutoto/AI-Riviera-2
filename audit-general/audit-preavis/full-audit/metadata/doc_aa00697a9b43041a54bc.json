@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "document_id": "doc_aa00697a9b43041a54bc",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2022 de la Commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + décision | Nr. 9 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-09-Comptes-2022-LTP-dec.pdf",
+    "filename": "Preavis-09-Comptes-2022-LTP-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-10",
+    "content_hash": "152b2a9d4f376c61a429571e363d000beae03b7ab2323da83576ed36549e915e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "9/2023",
+    "political_status": "with_decision",
+    "decision_date": "2023-06-29",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 45388,
+      "native_characters": 45388,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6355,
+      "clean_words": 6324,
+      "removed_blocks": 10,
+      "repeated_margin_candidates": [
+        "Grand-Rue 46 - CP 144",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6324
+    }
+  }
+}

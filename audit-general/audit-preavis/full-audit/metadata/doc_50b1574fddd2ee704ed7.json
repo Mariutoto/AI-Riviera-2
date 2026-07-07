@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "document_id": "doc_50b1574fddd2ee704ed7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse au postulat de Mme Nicole Rivet (PSDG) & consorts « Pour la réalisation commune à Villeneuve, Veytaux, Montreux, La Tour-de-Peilz et Vevey d'une voie cycliste sûre et fluide le long du lac »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 11 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-11-Postulat-Rivet-Voie-verte-Rapp-Dec.pdf",
+    "filename": "Preavis-11-Postulat-Rivet-Voie-verte-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-22",
+    "content_hash": "fd48687b5accd4f1e2d74ecf77898a869bc8ff43666493374ac9f9f25d4c705e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "11/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-09-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Amandine Gianini et",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "André Gruaz",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Explications et réponse aux questions à",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maximilien Walter",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 50748,
+      "native_characters": 50748,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7870,
+      "clean_words": 7656,
+      "removed_blocks": 109,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 11/2025",
+        "greffe@la-tour-de-peilz.ch",
+        "www.la-tour-de-peilz.ch",
+        "Rapport - Préavis municipal N° 11/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7656
+    }
+  }
+}

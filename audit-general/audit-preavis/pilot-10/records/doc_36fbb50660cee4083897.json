@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "document_id": "doc_36fbb50660cee4083897",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 120'000.- pour la levée des oppositions au projet de cheminement piétonnier des rives du Lac - secteur ouest",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 1 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_01_2021-Credit-leve-oppositions-Rives-lac-Rap-Dec.pdf",
+    "filename": "Preavis_01_2021-Credit-leve-oppositions-Rives-lac-Rap-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-03-02",
+    "content_hash": "b48e2909619a6915330fa457c0eecb0f1b9c617fc580574b8c3b4f50b33f070b",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "1/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-03-25",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "François Costa",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Christian Grobéty",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jacques-André Schneider",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gilbert Vernez",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 120000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 32706,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 0.929,
+      "low_text_image_pages": [
+        11
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5087,
+      "clean_words": 4912,
+      "removed_blocks": 47,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 - CP 144",
+        "PRÉAVIS MUNICIPAL N° 1/2021",
+        "021 977 01 15 ",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4912
+    }
+  }
+}

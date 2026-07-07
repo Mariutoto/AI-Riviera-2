@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "document_id": "doc_39e0a0ab764652d54778",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 314'000.- pour l'implantation, la pose et le raccordement de 6 mâts d'éclairage du terrain de football de Bel-Air",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 7 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_07_2021-Eclairage-terrain-Bel-Air-Rapp-Dec.pdf",
+    "filename": "Preavis_07_2021-Eclairage-terrain-Bel-Air-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-04-12",
+    "content_hash": "15a30653e25300abf0766e3f3cf15e945e0abd83fa874fb1662e7b57c219856e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "7/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-05-06",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Christine Hausherr",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Elise Kaiser",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "José Espinosa",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Claude Charmey",
+          "role": "rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 314000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 16910,
+      "native_characters": 16910,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2648,
+      "clean_words": 2522,
+      "removed_blocks": 45,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 7/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2522
+    }
+  }
+}

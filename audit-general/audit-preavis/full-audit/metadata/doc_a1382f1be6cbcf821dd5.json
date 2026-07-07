@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "doc_a1382f1be6cbcf821dd5",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit d'études de Fr. 185'000.- pour le réaménagement du jardin Roussy, de la place du Four et de leurs abords, ainsi que pour la création d'...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 19 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-19-Etude-jardin-Roussy-Rapp-Dec.pdf",
+    "filename": "Preavis-19-Etude-jardin-Roussy-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-24",
+    "content_hash": "215ca09746f4c5bf6e5c1651b82b0a486612f40b6336ca41fda5f6268467de5e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "19/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Salvatore Noto président rapporteur",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maude Froidevaux",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 185000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 25933,
+      "native_characters": 25933,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3952,
+      "clean_words": 3787,
+      "removed_blocks": 57,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 19/2023",
+        "Rapport - Préavis municipal N° 19/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3787
+    }
+  }
+}

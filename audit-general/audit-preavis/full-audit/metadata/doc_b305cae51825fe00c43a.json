@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b305cae51825fe00c43a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Octroi d'un cautionnement de Fr. 500'000.- pour la trésorerie de la Fondation des structures d'accueil de l'enfance de La Tour-de-Peilz et environs",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 15 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-15-Cautionnement-FSAT-SIGE-Rapp-Dec.pdf",
+    "filename": "Preavis-15-Cautionnement-FSAT-SIGE-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2015-06-19",
+    "content_hash": "10c324fa6ac6f505cc7a5ecdacd653a61a64f3362019a85981fe807b192a841d",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "15/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-11-03",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Loris Berthier",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Nicolas Fardel",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ludovic Tirelli",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 500000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 12381,
+      "native_characters": 12381,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2002,
+      "clean_words": 1956,
+      "removed_blocks": 16,
+      "repeated_margin_candidates": [
+        "Grand-Rue 46 - CP 144",
+        "Maison de Commune",
+        "PRÉAVIS MUNICIPAL N° 15/2022",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1956
+    }
+  }
+}

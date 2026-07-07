@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4bb0273ae7e60d02a942",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2020 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 10 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_10_2021-CIEHL-Gestion-Comptes-2020-Rapp-Dec.pdf",
+    "filename": "Preavis_10_2021-CIEHL-Gestion-Comptes-2020-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-05",
+    "content_hash": "20a7bbb2485af564f9fc42656d54cedfd6a2630fc6693bc5e7d150f01311d951",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 25421,
+      "native_characters": 26043,
+      "ocr_characters": 25421,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "mistral_ocr_selected"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4124,
+      "clean_words": 4089,
+      "removed_blocks": 3,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 4089
+    }
+  }
+}

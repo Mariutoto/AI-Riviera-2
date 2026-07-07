@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f7b18d8d40109bb04052",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 250'000.- pour le remplacement du transporteur multifonctions du secteur voirie",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 9 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-09-Camion-voirie-Rapp-Dec.pdf",
+    "filename": "Preavis-09-Camion-voirie-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-30",
+    "content_hash": "739b2b1e0d1861c4a8da6e348960f4a0bc0750baced3b646b19f745f48f6d6c3",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "9/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-06-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Diego Pasquali",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Dubuis",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ingrid Mamin",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Valentine Schmidhauser",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "José Espinosa",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 250000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15377,
+      "native_characters": 15377,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2337,
+      "clean_words": 2217,
+      "removed_blocks": 41,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 9/2022",
+        "Rapport - Préavis municipal N° 9/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2217
+    }
+  }
+}

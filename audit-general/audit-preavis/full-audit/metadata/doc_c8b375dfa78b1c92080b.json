@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c8b375dfa78b1c92080b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 904'000.- pour le réaménagement et la sécurisation du chemin du Gregnolet",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 10 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-10-Assainissement-Gregnolet-Rapp-Dec.pdf",
+    "filename": "Preavis-10-Assainissement-Gregnolet-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-23",
+    "content_hash": "c15d9c3728f0f6e9dd5a73eebafbb2dae16f20065444d93f16f2119a59309b16",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-06-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Michel Chappuis",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Eugster",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "André Gruaz",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kamiar Aminian",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "José Espinosa",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paul Castelain",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 904000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 45258,
+      "native_characters": 45258,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7204,
+      "clean_words": 6970,
+      "removed_blocks": 83,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 10/2022",
+        "Rapport - Préavis municipal N° 10/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6970
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b523ca9d65616b7bb843",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de Fr. 125'000.- pour le remplacement des serrures, des clés et de la mise en passe du collège des Mousquetaires",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 3 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-03-Mise-en-passe-Mousquetaires-Rapp-Dec.pdf",
+    "filename": "Preavis-03-Mise-en-passe-Mousquetaires-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-28",
+    "content_hash": "b97ab808e952cfc8fdc9c846211a4574d2a82595fb49f4ca07130624d7d5ecc0",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "3/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-03-20",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Roger Urech",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Janina Rioux",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maude Froidevaux",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Diego Pasquali",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen",
+          "civility": "M.",
+          "party": "LTDPL pour l'UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 125000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19718,
+      "native_characters": 19718,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3046,
+      "clean_words": 2946,
+      "removed_blocks": 37,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "greffe.municipal@la-tour-de-peilz.ch ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 3/2024",
+        "Rapport - Préavis municipal N° 3/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2946
+    }
+  }
+}

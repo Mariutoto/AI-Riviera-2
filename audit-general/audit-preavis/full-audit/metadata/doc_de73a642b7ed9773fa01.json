@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "document_id": "doc_de73a642b7ed9773fa01",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2023 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 10 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-10-CIEHL-Comptes-2023-Rapp-dec.pdf",
+    "filename": "Preavis-10-CIEHL-Comptes-2023-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-15",
+    "content_hash": "1f840f0e3e455f5389e31042a7ddd8c8071b22bb5c287a909452046e60f7ad74",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-06-27",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 20302,
+      "native_characters": 20302,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3117,
+      "clean_words": 3074,
+      "removed_blocks": 19,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3074
+    }
+  }
+}

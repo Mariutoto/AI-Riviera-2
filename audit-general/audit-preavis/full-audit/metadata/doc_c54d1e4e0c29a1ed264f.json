@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c54d1e4e0c29a1ed264f",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse au postulat de M. Yann Boulben Meyer (LTDPL) – Vers une dynamisation estivale : élargissons les opportunités de jobs d'été pour les jeunes de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 21 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-21-Reponse-Postulat-Boulben-Jobs-ete-Rapp-Dec.pdf",
+    "filename": "Preavis-21-Reponse-Postulat-Boulben-Jobs-ete-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-10",
+    "content_hash": "ef5fa78833c2d57d216fcb8ea8377b41113fc60263ab65ce71784c6c3b70497f",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "21/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-09-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13076,
+      "native_characters": 13076,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2026,
+      "clean_words": 1953,
+      "removed_blocks": 34,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 21/2024",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1953
+    }
+  }
+}

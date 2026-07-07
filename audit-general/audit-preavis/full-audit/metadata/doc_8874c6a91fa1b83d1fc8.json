@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8874c6a91fa1b83d1fc8",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit d'étude d'un montant de Fr. 232'000.- pour l'assainissement énergétique des bâtiments raccordés sur le réseau des Mousquetaires et pour le changement de la ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 20 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-20-Centrale-chauffe-Mousquetaires-Rapp-Dec.pdf",
+    "filename": "Preavis-20-Centrale-chauffe-Mousquetaires-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-29",
+    "content_hash": "467452178dd27650fcdbbcd736f59be7346b78f23b6b09d36823976a6c7c1f18",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "20/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Lyonel Kaufmann",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 232000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 31649,
+      "native_characters": 31649,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4815,
+      "clean_words": 4624,
+      "removed_blocks": 66,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 20/2023",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 20/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4624
+    }
+  }
+}

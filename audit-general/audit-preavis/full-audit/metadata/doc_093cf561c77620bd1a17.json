@@ -1,0 +1,67 @@
+{
+  "document_metadata": {
+    "document_id": "doc_093cf561c77620bd1a17",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2020 du Fonds culturel Riviera",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 9 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_09_2021-FCR-Gestion-Comptes-2020-Rapp-Dec.pdf",
+    "filename": "Preavis_09_2021-FCR-Gestion-Comptes-2020-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-15",
+    "content_hash": "f9746623fb8dc8d9946f6992d9a9f534793f8ed34f823d8258537822fda95c63",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "9/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 54829,
+      "native_characters": 54829,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.952,
+      "low_text_image_pages": [
+        13
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 8613,
+      "clean_words": 8526,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 9/2021",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 8526
+    }
+  }
+}

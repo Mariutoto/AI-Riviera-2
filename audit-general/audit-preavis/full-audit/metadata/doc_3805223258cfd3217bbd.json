@@ -1,0 +1,105 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3805223258cfd3217bbd",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Achat d'une balayeuse électrique pour le Secteur espaces publics",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 36 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-36-Balayeuse-Rapp-dec.pdf",
+    "filename": "Preavis-36-Balayeuse-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-11",
+    "content_hash": "2ecf34fbc3c957eff7949e6541d6c10e4540f3d8c52d9b7ec367bdb0d6d7f7df",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "36/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-02-05",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Sophie Blank Barbezat",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre Cavin",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Herculano Lisboa",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15979,
+      "native_characters": 15979,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2440,
+      "clean_words": 2353,
+      "removed_blocks": 42,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 36/2024",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2353
+    }
+  }
+}

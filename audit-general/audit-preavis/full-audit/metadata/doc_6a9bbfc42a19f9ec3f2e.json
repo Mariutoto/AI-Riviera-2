@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "doc_6a9bbfc42a19f9ec3f2e",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report",
+    "title": "Demande d'un crédit d'études de Fr. 315'000.- pour financer l'organisation de mandats d'études parallèles pour la requalification de l'av. de la Gare",
+    "source_title": "Préavis municipal + rapport - Préavis retiré par la Municipalité | Nr. 16 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf",
+    "filename": "Preavis-16-Credit-etude-Avenue-gare-Rapp.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-03",
+    "content_hash": "0ba25475fab8952194b7e143113cee84fe841b1dd0163bf4b240467027b47573",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "16/2022",
+    "political_status": "withdrawn_by_municipality",
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Anthony Abbott",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yvan Krähenbühl",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Julien Costanzo",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Natasa Ilic",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 315000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 25551,
+      "native_characters": 25551,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3881,
+      "clean_words": 3809,
+      "removed_blocks": 26,
+      "repeated_margin_candidates": [
+        "Rapport - Préavis N° 16/2022",
+        "PRÉAVIS MUNICIPAL N° 16/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3809
+    }
+  }
+}

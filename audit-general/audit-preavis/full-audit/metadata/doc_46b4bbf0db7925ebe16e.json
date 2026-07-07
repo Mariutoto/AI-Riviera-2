@@ -1,0 +1,150 @@
+{
+  "document_metadata": {
+    "document_id": "doc_46b4bbf0db7925ebe16e",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 655'000.- pour le réaménagement routier et l'aménagement d'une zone 30 km/h sur les chemins des Bulesses, du Crotton, des Vignes, de Bé...",
+    "source_title": "Préavis municipal + rapports + décision | Nr. 17 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-dec.pdf",
+    "filename": "Preavis-17-Zone30-Bulesses-Beranges-Crotton-Vignes-Gregnolet-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-15",
+    "content_hash": "b29cdf9825cef63affbff71320ab20430a9d5fb77c507ea98775ace477af47c3",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "17/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-06-27",
+    "contains_majority_report": true,
+    "contains_minority_report": true,
+    "commission": {
+      "members": [
+        {
+          "name": "Maria Luceron et",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "José Luis Carrasco",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre Fontana",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "André Gruaz",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Crausaz lorsque le camion vient",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Un marquage au sol créerait le",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Rapport de minorité de",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maximilien Walter",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 655000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 121153,
+      "native_characters": 121153,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.8,
+      "low_text_image_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 19459,
+      "clean_words": 19170,
+      "removed_blocks": 144,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 17/2024",
+        "Rapport - Préavis municipal N° 17/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 19170
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_dd1413c7ab14039e6f1c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Dépenses imprévisibles et exceptionnelles",
+    "source_title": "Préavis municipal | Nr. 11 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_11-Depenses-imprevisibles-2020.pdf",
+    "filename": "Preavis_11-Depenses-imprevisibles-2020.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-05",
+    "content_hash": "fa4d7a351f76df6342b7e4cc139fc73a7770d6e39fdb6c7a19564d82d81c76f6",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "11/2021",
+    "political_status": null,
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2634,
+      "native_characters": 2634,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 357,
+      "clean_words": 337,
+      "removed_blocks": 7,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 337
+    }
+  }
+}

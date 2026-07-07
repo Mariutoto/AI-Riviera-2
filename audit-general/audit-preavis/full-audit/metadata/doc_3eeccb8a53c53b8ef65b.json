@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3eeccb8a53c53b8ef65b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
+    "source_title": "Préavis municipal - Retiré par la Municipalité | Nr. 3 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-03-Campagne-Rossier.pdf",
+    "filename": "Preavis-03-Campagne-Rossier.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-11",
+    "content_hash": "86da124950d3c558355863ede8d005ec7c67090a2706fcf2b0afafff7c6e6f65",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "3/2026",
+    "political_status": "withdrawn_by_municipality",
+    "decision_date": "2025-12-01",
+    "contains_majority_report": false,
+    "contains_minority_report": true,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 194395,
+      "native_characters": 214051,
+      "ocr_characters": 194395,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "mistral_ocr_selected"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 30552,
+      "clean_words": 30308,
+      "removed_blocks": 9,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 30308
+    }
+  }
+}

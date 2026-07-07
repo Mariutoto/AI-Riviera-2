@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7ddaf95c0252c460ada4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit d'étude et de réalisation d'un montant de Fr. 1'980'000.- pour le remplacement des chaudières de la centrale de chauffe des Mousquetaires",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 8 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-08-Chaudiere-Mousquetaires-Rapp-Dec.pdf",
+    "filename": "Preavis-08-Chaudiere-Mousquetaires-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-25",
+    "content_hash": "05930fd39bf0f0615904f8b351fc853449fca95f921f97e59a89a5fa2c7d979c",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "8/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-06-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Lyonel Kaufmann",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 1980000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 51023,
+      "native_characters": 51023,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.946,
+      "low_text_image_pages": [
+        17,
+        36
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7781,
+      "clean_words": 7485,
+      "removed_blocks": 105,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "Municipalité",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 8/2022",
+        "Rapport - Préavis municipal N° 8/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7485
+    }
+  }
+}

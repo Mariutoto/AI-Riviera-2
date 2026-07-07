@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "document_id": "doc_095f67e4448063b1e705",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 6 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-06-CIEHL-Comptes-2024-Rapp-Dec.pdf",
+    "filename": "Preavis-06-CIEHL-Comptes-2024-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-14",
+    "content_hash": "1941776e193351e6bfc855f279d65de39a964364359008f85f00362d4dc241f9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "6/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-06-25",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18895,
+      "native_characters": 18895,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2805,
+      "clean_words": 2755,
+      "removed_blocks": 23,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2755
+    }
+  }
+}

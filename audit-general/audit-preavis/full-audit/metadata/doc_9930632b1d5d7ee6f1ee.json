@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9930632b1d5d7ee6f1ee",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Rapport du bureau du Conseil communal – Fixation des indemnités aux membres du Conseil communal et du Bureau, à la secrétaire du Conseil et à l'huissier pour la législature 2026-2031",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 1 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-01-Indemnites-Conseil-communal-Rapp-Dec.pdf",
+    "filename": "Preavis-01-Indemnites-Conseil-communal-Rapp-Dec.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-11",
+    "content_hash": "b1cafc5dbc68f14e6992288e6987ff0ffa5aebd9a2f0e846add3eb9493265392",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "1/2026",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-12-22",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 20415,
+      "native_characters": 20415,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3103,
+      "clean_words": 2998,
+      "removed_blocks": 51,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 · CP 304",
+        "021 977 01 11",
+        "greffe@la-tour-de-peilz.ch",
+        "Rapport - Préavis municipal N° 1/2026"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2998
+    }
+  }
+}

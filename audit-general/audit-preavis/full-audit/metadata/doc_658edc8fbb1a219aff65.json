@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "document_id": "doc_658edc8fbb1a219aff65",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Autorisations et compétences financières accordées à la Municipalité par le Conseil communal pour la législature 2021-2026",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 19 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_19-Autorisations_generales-rapp-dec.pdf",
+    "filename": "Preavis_19-Autorisations_generales-rapp-dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-04",
+    "content_hash": "b425f0b7e9453b84ad46d5e1096e410137dba2cd38df71b249bf8f9479cbe96c",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "19/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-11-04",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Sophie Blank Barbezat",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Fanny Limat",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paul Castelain",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nicolas Fardel",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13921,
+      "native_characters": 13921,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2036,
+      "clean_words": 1948,
+      "removed_blocks": 31,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 19/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1948
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ed01dacaed573b875a1c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 2'525'000.- pour l'assainissement et la mise en séparatif de l'avenue du Clos-d'Aubonne ainsi que le remplacement des équipements d'éclairage public et ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 3 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-03-Assainissement-av-Clos-daubonne-Rapp-Dec.pdf",
+    "filename": "Preavis-03-Assainissement-av-Clos-daubonne-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-04-24",
+    "content_hash": "cdc13b9ff81f055620eb6ce523214f3bcd980f6a8269b2e62a0ba4ef5fdef26c",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "3/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-05-12",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Julien Neveu",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier présent",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Roger Urech présent",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Etienne Balestra présent",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Hugo Huart présent",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé présent",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "José Espinosa absent",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Sophie Blank Barbezat",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 2525000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 52220,
+      "native_characters": 52220,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 8121,
+      "clean_words": 7861,
+      "removed_blocks": 92,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 3/2022",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 3/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7861
+    }
+  }
+}

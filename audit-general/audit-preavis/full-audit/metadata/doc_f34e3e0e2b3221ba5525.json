@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f34e3e0e2b3221ba5525",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget de la Commune pour l'exercice 2024",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 18 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-18‐Budget‐2024-Rapp-Dec.pdf",
+    "filename": "Preavis-18‐Budget‐2024-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-09",
+    "content_hash": "11bbb456f65aa102f988c69abb92b962b92a47aba4ec2edbd303c9ea0783d059",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "18/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Rohrer Michael",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Fardel Nicolas",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "LV",
+          "role": "member",
+          "attendance": "excused"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 88448,
+      "native_characters": 88448,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.971,
+      "low_text_image_pages": [
+        17
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 13259,
+      "clean_words": 13072,
+      "removed_blocks": 56,
+      "repeated_margin_candidates": [
+        "PRÉAVIS MUNICIPAL N° 18/2023",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "Rapport - Préavis N° 18/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 13072
+    }
+  }
+}

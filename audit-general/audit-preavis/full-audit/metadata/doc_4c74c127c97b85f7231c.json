@@ -1,0 +1,130 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4c74c127c97b85f7231c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de construction de Fr. 4'500'000.- pour la construction d'une garderie de 44 places au chemin du Gregnolet, parcelle N° 1116",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 24 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-24-Credit_construction-Gregnolet-Rapp-Dec.pdf",
+    "filename": "Preavis-24-Credit_construction-Gregnolet-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-25",
+    "content_hash": "9a4f47053ed15857e304d969a6817a8bd2e6374ec2338460d9bac5d0b228b757",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "24/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-10-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Anouk Dandrieu",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Vivane Huber",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maria Luceron",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Anthony Abbott",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 4500000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 40516,
+      "native_characters": 40516,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.739,
+      "low_text_image_pages": [
+        13,
+        17
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6263,
+      "clean_words": 6071,
+      "removed_blocks": 73,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Þ www.la-tour-de-peilz.ch",
+        "PRÉAVIS MUNICIPAL N° 24/2024",
+        "021 977 01 11",
+        "greffe.municipal@la-tour-de-peilz.ch",
+        "Rapport - Préavis municipal N° 24/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6071
+    }
+  }
+}

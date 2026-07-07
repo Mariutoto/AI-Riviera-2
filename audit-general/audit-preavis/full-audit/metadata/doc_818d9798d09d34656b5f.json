@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "document_id": "doc_818d9798d09d34656b5f",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Arrêté d'imposition pour les années 2024 et 2025",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 11 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-11-Arrete-imposition-2024-Rapp-dec.pdf",
+    "filename": "Preavis-11-Arrete-imposition-2024-Rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-25",
+    "content_hash": "52c558321146583865e40179cda67013bf1cdd18a9a826d57cfc048de8e31591",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "11/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-11-02",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Fardel Nicolas",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 49786,
+      "native_characters": 49786,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7422,
+      "clean_words": 7217,
+      "removed_blocks": 81,
+      "repeated_margin_candidates": [
+        "Grand-Rue 46 - CP 144",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "greffe.municipal@la-tour-de-peilz.ch ",
+        "PRÉAVIS MUNICIPAL N° 11/2023",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 11/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7217
+    }
+  }
+}

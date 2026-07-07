@@ -1,0 +1,64 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3e1779877525420f7c24",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Budget 2024 du Fonds culturel Riviera",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 17 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-17-Budget-2024-FCR-Rapp-Dec.pdf",
+    "filename": "Preavis-17-Budget-2024-FCR-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-09",
+    "content_hash": "8cf752bdc0a972f6bc8737f59909df03a681615f5f6ef53a75b34435b2b3ddf4",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "17/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 20141,
+      "native_characters": 20141,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3043,
+      "clean_words": 2956,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 17/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2956
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_46bb468d6c4b9e2ce52c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget 2022 de la Commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 22 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_22_2021-Budget_2022-rapp-dec.pdf",
+    "filename": "Preavis_22_2021-Budget_2022-rapp-dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-04",
+    "content_hash": "5dbe36a646d20fa2733320e701672a12f803a8a64353d5b17ce64e2ee4806425",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "22/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-12-09",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Fardel Nicolas",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Blank-Barbezat Sophie",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Castelain Paul",
+          "party": "VERTS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Limat Fanny",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Neyroud Philippe",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 75290,
+      "native_characters": 75290,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.967,
+      "low_text_image_pages": [
+        17
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 11255,
+      "clean_words": 11141,
+      "removed_blocks": 39,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 22/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 11141
+    }
+  }
+}

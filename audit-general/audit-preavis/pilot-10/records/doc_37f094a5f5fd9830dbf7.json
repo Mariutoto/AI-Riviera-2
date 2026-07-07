@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "doc_37f094a5f5fd9830dbf7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de réalisation de Fr. 461'000.-, dont Fr. 191'000.- à la charge de la Commune, pour la mise en place et la réalisation du plan d'action « La ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 10 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-10-Preavis-Ville-du-jeu-Rapp-Dec.pdf",
+    "filename": "Preavis-10-Preavis-Ville-du-jeu-Rapp-Dec.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-14",
+    "content_hash": "1164f4585f1f7b93ec0806ef7759020602fb76376bfab38e3e6067587cb60382",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2026",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2026-06-24",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 461000,
+        "request_type": "unspecified"
+      },
+      {
+        "amount_chf": 191000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 116455,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 0.714,
+      "low_text_image_pages": [
+        12,
+        14,
+        16,
+        18,
+        24,
+        29,
+        35,
+        40,
+        42,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 17357,
+      "clean_words": 17226,
+      "removed_blocks": 45,
+      "repeated_margin_candidates": [
+        "1814 La Tour-de-Peilz",
+        "Maison de Commune",
+        "PRÉAVIS MUNICIPAL N° 10/2026",
+        "021 977 01 11",
+        "Chronologie du projet",
+        "Valeurs",
+        "Rapport - Préavis municipal N° 10/2026"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 17226
+    }
+  }
+}

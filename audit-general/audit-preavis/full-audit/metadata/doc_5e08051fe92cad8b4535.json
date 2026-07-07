@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5e08051fe92cad8b4535",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Dépenses imprévisibles et exceptionnelles de l'exercice 2021",
+    "source_title": "Préavis municipal | Nr. 6 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-06-Depenses-imprevisibles-2021.pdf",
+    "filename": "Preavis-06-Depenses-imprevisibles-2021.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-11",
+    "content_hash": "cf4527247abbc88ec439b379626c57bd8316a419128f0c7adbf76538496e5ec2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "6/2022",
+    "political_status": null,
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2986,
+      "native_characters": 2986,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 417,
+      "clean_words": 397,
+      "removed_blocks": 7,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 397
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f66899e413ecee7250f4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 18 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp-dec.pdf",
+    "filename": "Preavis_18_2021-Acquisition-immeubles-Preemption-V2-Rapp-dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-03",
+    "content_hash": "cca59bcac1e13d37fc04ce695b69191ac49644a6c657dad2bad8645322108d8e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "18/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2020-01-01",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19078,
+      "native_characters": 19078,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2874,
+      "clean_words": 2766,
+      "removed_blocks": 39,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 18/2021",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2766
+    }
+  }
+}

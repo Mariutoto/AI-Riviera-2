@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4d20cf88200ee329b515",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 320'000.- pour la construction d'un étage supplémentaire de pavillons provisoires sur la construction existante abritant l'UAPE pour l'accueil parascolaire",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 8 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_08_2021-Pavillons-UAPE-Rapp-DEc.pdf",
+    "filename": "Preavis_08_2021-Pavillons-UAPE-Rapp-DEc.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-04-12",
+    "content_hash": "b5fec5821c06363e2624631bbb87638c9c95634bcc4db91415a35ebc95311c38",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "8/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-05-05",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Costa François",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Eugster Philippe",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Lachat Baechler Anne",
+          "party": "PDC+I",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Carbonell Roberto",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ranzato Gabriel",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Vallotton Jacques",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Overney Serge",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 320000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18856,
+      "native_characters": 18856,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2817,
+      "clean_words": 2654,
+      "removed_blocks": 48,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 8/2021",
+        "Rapport - Préavis municipal N° 8/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2654
+    }
+  }
+}

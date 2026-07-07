@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "document_id": "doc_53574a4ca2a3a331d097",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Comptes 2025 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve",
+    "source_title": "Préavis municipal | Nr. 11 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-11-CITS-comptes-2025.pdf",
+    "filename": "Preavis-11-CITS-comptes-2025.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-24",
+    "content_hash": "8ea327db27af2915fc0ce72348ff620cdfd7b52c84e89b4efe563ddb51047c42",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "11/2026",
+    "political_status": null,
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 39990,
+      "native_characters": 39990,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.933,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5239,
+      "clean_words": 5164,
+      "removed_blocks": 38,
+      "repeated_margin_candidates": [
+        "PRÉAVIS MUNICIPAL N° 11/2026",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5164
+    }
+  }
+}

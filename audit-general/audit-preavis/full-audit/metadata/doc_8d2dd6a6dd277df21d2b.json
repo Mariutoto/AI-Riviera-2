@@ -1,0 +1,106 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8d2dd6a6dd277df21d2b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Fixation du traitement des membres de la Municipalité pour la législature 2026-2031",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 23 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-23-Traitement_Municipalites-Comparaison-Rapp-Dec.pdf",
+    "filename": "Preavis-23-Traitement_Municipalites-Comparaison-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2011-01-01",
+    "content_hash": "c5af0bec11e2d88ac4c44386f4a67b246a22c2735acaac12170c160ea304fe48",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "23/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-09-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Margaux Couttet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alexandre Davel",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen pour l'UDC",
+          "civility": "M.",
+          "party": "LTDPL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Lyonel Kaufmann et",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26040,
+      "native_characters": 26040,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4080,
+      "clean_words": 3977,
+      "removed_blocks": 52,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 23/2025",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3977
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_2ad6680e3a3456b2e62a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Ediction d'un Règlement communal concernant les émoluments administratifs en matière de police des constructions",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 34 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-34-Reglement-emolument-Rapp-Dec.pdf",
+    "filename": "Preavis-34-Reglement-emolument-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-02",
+    "content_hash": "c6090ab4a6b7df9450ef559ee79a2655cde7d290abd2d397f009330c7d91769b",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "34/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-12-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Brigitte Fahrni Chiusano",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Maëlle Le Boudec",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Manuel Lisboa",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Walter Steiner",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 48201,
+      "native_characters": 48201,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7058,
+      "clean_words": 6907,
+      "removed_blocks": 70,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 34/2024",
+        "021 977 01 11",
+        "Rapport - Préavis municipal N° 34/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6907
+    }
+  }
+}

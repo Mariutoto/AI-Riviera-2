@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3d7da544400ac5472e42",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget de la Commune pour l'exercice 2025",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 33 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-33‐Budget‐2025-Rapp-Dec.pdf",
+    "filename": "Preavis-33‐Budget‐2025-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-07",
+    "content_hash": "59fc3366c84573b67fdb041a0a66d7b64679f917e106d98e9330e5df134b58f9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "33/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-12-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Bonvin Jérôme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Viviane Huber",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 87075,
+      "native_characters": 87075,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.97,
+      "low_text_image_pages": [
+        19
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12938,
+      "clean_words": 12761,
+      "removed_blocks": 52,
+      "repeated_margin_candidates": [
+        "PRÉAVIS MUNICIPAL N° 33/2024",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "Rapport - Préavis N° 33/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12761
+    }
+  }
+}

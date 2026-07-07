@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9900fb59e32efde13940",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de deux crédits de Fr. 45'000.- et Fr. 70'000.- pour l'octroi d'une aide aux entreprises boélandes en période de COVID-19 et réponse à l'interpellation de Mmes Marie ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 4 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_04_2021-Bons-Happys-days-Rap-Dec.pdf",
+    "filename": "Preavis_04_2021-Bons-Happys-days-Rap-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-03-10",
+    "content_hash": "951f67229e3d7e0570da0faded426fb537e57d1c286fce13bea5bfe71bfc921b",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "4/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-03-25",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Elise Kaiser",
+          "civility": "Mme",
+          "party": "Les Verts",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paloma Lopez",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "civility": "Mme",
+          "party": "PDC+I",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Pierre Belotti",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "François Costa",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Erik Dumusque",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 45000,
+        "request_type": "unspecified"
+      },
+      {
+        "amount_chf": 70000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 47568,
+      "native_characters": 47568,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.952,
+      "low_text_image_pages": [
+        11
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7502,
+      "clean_words": 7311,
+      "removed_blocks": 66,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 4/2021",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 4/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7311
+    }
+  }
+}

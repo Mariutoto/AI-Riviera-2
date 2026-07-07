@@ -1,0 +1,137 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3094f25a0592f8f61c34",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_report_decision",
+    "title": "Demande pour un crédit de construction d'un montant de Fr. 483'000.- destiné à l'entretien et la rénovation du mur de soutènement nord et des murs de courtines du château ...",
+    "source_title": "Préavis municipal urgent + rapport + décision | Nr. 2 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-02-urgent-credit-mur-courtines-rapp-dec.pdf",
+    "filename": "Preavis-02-urgent-credit-mur-courtines-rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-22",
+    "content_hash": "84e227b2f2ea89bfbd319d67040f5aecd0c2ec685439567ed2d2342c79b77220",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "2/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-03-22",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Pierre Cavin",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Valentine Schmidhauser",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ludovic Tirelli",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Position de",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alain Grangier",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Roulet",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 483000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 41963,
+      "native_characters": 42137,
+      "ocr_characters": 41963,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "page_text_coverage": 0.977,
+      "low_text_image_pages": [
+        15
+      ],
+      "recommendation": "mistral_ocr_selected"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6554,
+      "clean_words": 6484,
+      "removed_blocks": 3,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 6484
+    }
+  }
+}

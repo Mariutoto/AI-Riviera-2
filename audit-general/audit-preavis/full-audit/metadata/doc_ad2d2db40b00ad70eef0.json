@@ -1,0 +1,118 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ad2d2db40b00ad70eef0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse au postulat de M. Yvan Krähenbühl (PLR) « Le bain des dames, un endroit magnifique qui mérite quelques réflexions »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 3 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-03-Postulat-Kraehenbuehl-Bains-dames-Rapp-Dec.pdf",
+    "filename": "Preavis-03-Postulat-Kraehenbuehl-Bains-dames-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-11",
+    "content_hash": "e029ba1eb45c04e0ff2333e2e4de91192d7717edafe82afbb606211c19bcb7c2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "3/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-05-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Yvan Krähenbühl",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Sophie Blank Barbezat",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre Fontana",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Anouk Dandrieu",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean Etienne Holzeisen",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "party": "LCIVL",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Discussion avec",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Elise Kaiser",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 19558,
+      "native_characters": 19558,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3108,
+      "clean_words": 3001,
+      "removed_blocks": 38,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 3/2023",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3001
+    }
+  }
+}

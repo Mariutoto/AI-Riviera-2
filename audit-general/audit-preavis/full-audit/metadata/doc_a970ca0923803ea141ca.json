@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_a970ca0923803ea141ca",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report",
+    "title": "Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
+    "source_title": "Préavis municipal | Nr. 12 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-12-Campagne-Rossier.pdf",
+    "filename": "Preavis-12-Campagne-Rossier.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-10",
+    "content_hash": "d6073003c49a7f1df719c58fd599718e482d69c75e61411f23346b379ba565dd",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "12/2026",
+    "political_status": null,
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": true,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 216764,
+      "native_characters": 216764,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 32702,
+      "clean_words": 32237,
+      "removed_blocks": 146,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 · CP 304",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 12/2026",
+        " 021 977 01 60  utp@la-tour-de-peilz.ch  www.la-tour-de-peilz.ch"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 32237
+    }
+  }
+}

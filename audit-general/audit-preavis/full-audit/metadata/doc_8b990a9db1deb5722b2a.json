@@ -1,0 +1,117 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8b990a9db1deb5722b2a",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit d'étude de Fr. 300'000.- destiné à l'organisation d'un concours d'architecture pour le développement d'une Maison des Aînés à la rue du Collège",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 25 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-25-Maison-aines-credit-etude-concours-Rapp-Dec.pdf",
+    "filename": "Preavis-25-Maison-aines-credit-etude-concours-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-19",
+    "content_hash": "996875fe6fb866964435eb4a5756dbaa64f98a925a4a7c4a10232262097c8ebb",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "25/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-10-29",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Marianne Adank",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Présentation du projet",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Pour y répondre",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 300000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 31081,
+      "native_characters": 31081,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4789,
+      "clean_words": 4633,
+      "removed_blocks": 77,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 25/2025",
+        "Rapport - Préavis municipal N° 25/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4633
+    }
+  }
+}

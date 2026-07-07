@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b87712cff262fedfd6c7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de réalisation de Fr. 4'630'000.- pour le renouvellement des infrastructures souterraines et le réaménagement de l'avenue de la Gare, de l'allée Gertrude ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 31 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-31-reamenagement-avenue-Gare-Rapp-Dec.pdf",
+    "filename": "Preavis-31-reamenagement-avenue-Gare-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-10",
+    "content_hash": "98b802046b699a99f1893b045971ca7d8f5fdd337df2188f868db3a0a4d12b90",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "31/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-12-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 4630000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 103746,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 21349,
+      "clean_words": 21142,
+      "removed_blocks": 91,
+      "repeated_margin_candidates": [
+        "1814 La Tour-de-Peilz",
+        "Maison de Commune",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 31/2025",
+        "2704",
+        "Légende",
+        "màj annotations",
+        "Accès piéton",
+        "3409b",
+        "2302d",
+        "Accès véhicule",
+        "2910",
+        "3388b",
+        "Provisoire",
+        "Rapport - Préavis municipal N° 31/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 21142
+    }
+  }
+}

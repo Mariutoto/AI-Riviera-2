@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "doc_0e5a2c4be4d799df00f1",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit d'un montant de Fr. 150'000.- destiné à l'assainissement des chaufferies du collège et du pavillon de Bel-Air",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 6 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_06_2021-Chaufferie-Bel-Air-Rapp-Dec.pdf",
+    "filename": "Preavis_06_2021-Chaufferie-Bel-Air-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-04-15",
+    "content_hash": "1dd02a149d3e28a9218c97c0bc13eb0b3a18763e93009c12539a80bdb78ce934",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "6/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-05-06",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Nicole Rivet",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre-André Bugnon",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 150000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 36651,
+      "native_characters": 36651,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5601,
+      "clean_words": 5360,
+      "removed_blocks": 85,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 6/2021",
+        "Rapport - Préavis municipal N° 6/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5360
+    }
+  }
+}

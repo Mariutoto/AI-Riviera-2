@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_bfa1b21b7d2f478855d4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget 2023 de la commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 20 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-20‐Budget‐2023-Rapp-Dec.pdf",
+    "filename": "Preavis-20‐Budget‐2023-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-03",
+    "content_hash": "9c542310d04d759ab0ff6a2e984b54815847fc1d4403dd393552cff718982276",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "20/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-12-07",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Fardel Nicolas",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Rohrer Michael",
+          "party": "LC+I+VL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "VERTS",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 82877,
+      "native_characters": 82877,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.972,
+      "low_text_image_pages": [
+        18
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12073,
+      "clean_words": 11887,
+      "removed_blocks": 56,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "PRÉAVIS MUNICIPAL N° 20/2022",
+        "Rapport - Préavis N° 20/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 11887
+    }
+  }
+}

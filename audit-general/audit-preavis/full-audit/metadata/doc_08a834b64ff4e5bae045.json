@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "document_id": "doc_08a834b64ff4e5bae045",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse à la motion de M. Yvan Krähenbühl (PLR) « Du matériel sportif accessible pour tous »",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 5 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-05-Motion-Kraehenbuhl-Materiel-sportif-Rapp-Dec.pdf",
+    "filename": "Preavis-05-Motion-Kraehenbuhl-Materiel-sportif-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-11",
+    "content_hash": "c81c3dc97f7fb11478d6eb0e20bec42453029d6c9e807a58285245d1bf7b1512",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "5/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-05-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 14142,
+      "native_characters": 14142,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.778,
+      "low_text_image_pages": [
+        4,
+        5
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2157,
+      "clean_words": 2056,
+      "removed_blocks": 34,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 5/2023",
+        "Rapport - Préavis municipal N° 5/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2056
+    }
+  }
+}

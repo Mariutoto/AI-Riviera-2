@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "doc_57f691bf9d80ee1b1335",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 215'000.- pour le réaménagement du boulevard d'Arcangier",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 4 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-04-Reamenagement-Arcangier-Rapp-Dec.pdf",
+    "filename": "Preavis-04-Reamenagement-Arcangier-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-04-22",
+    "content_hash": "d8e8301bd6d73f3c8f4f06203906d999ba2b570b55a5356a548bd293b99fd39e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "4/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-05-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 215000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 92488,
+      "native_characters": 92488,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.927,
+      "low_text_image_pages": [
+        9,
+        10
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 14392,
+      "clean_words": 14110,
+      "removed_blocks": 101,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 4/2024",
+        "182 - V2 Rapport de mise à l'enquète.docx",
+        "Rapport - Préavis municipal N° 4/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 14110
+    }
+  }
+}

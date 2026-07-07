@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "doc_29a33c29be159c30ccfd",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Autorisation générale de procéder à des acquisitions d'immeubles, de droits réels immobiliers, d'actions ou parts de sociétés immobilières pour la législature 2021-2026 pour un montant maximum ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 17 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp-Dec.pdf",
+    "filename": "Preavis-17-Acquisition-immeubles-Preemption-V2-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-04",
+    "content_hash": "7ad3bc409f33af5dcaa00d832f51b051a316a8541e04079d59fa9cb09e8c0437",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "17/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-11-03",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Loris Berthier",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Nicolas Fardel",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ludovic Tirelli",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 17763,
+      "native_characters": 17763,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2779,
+      "clean_words": 2680,
+      "removed_blocks": 34,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 17/2022",
+        "Rapport - Préavis N° 17/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2680
+    }
+  }
+}

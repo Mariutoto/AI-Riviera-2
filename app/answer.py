@@ -439,7 +439,9 @@ def answer_with_llm(question: str, results: list[dict]) -> str | None:
     if provider in {"none", "off", "extracts"}:
         return None
 
-    return answer_with_mistral(question, results) or answer_with_openai(question, results)
+    if get_secret("MISTRAL_API_KEY"):
+        return answer_with_mistral(question, results)
+    return answer_with_openai(question, results)
 
 
 def llm_status() -> dict:

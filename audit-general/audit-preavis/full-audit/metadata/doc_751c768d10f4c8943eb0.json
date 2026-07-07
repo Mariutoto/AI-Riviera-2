@@ -1,0 +1,102 @@
+{
+  "document_metadata": {
+    "document_id": "doc_751c768d10f4c8943eb0",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget 2026 de la Commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 30 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-30‐Budget‐2026-Rapp-Dec.pdf",
+    "filename": "Preavis-30‐Budget‐2026-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-06",
+    "content_hash": "c9cab9a8941ee8cdf45ac7c6dbc0c088f81896a2cc1d956a603bd96466803374",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "30/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-12-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Bonvin Jérôme",
+          "party": "LC+I+VL",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "VERTS",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 75457,
+      "native_characters": 75457,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.969,
+      "low_text_image_pages": [
+        17
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 11433,
+      "clean_words": 11258,
+      "removed_blocks": 52,
+      "repeated_margin_candidates": [
+        "PRÉAVIS MUNICIPAL N° 30/2025",
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "Rapport - Préavis N° 30/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 11258
+    }
+  }
+}

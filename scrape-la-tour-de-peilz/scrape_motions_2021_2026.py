@@ -363,6 +363,9 @@ def extract_motion_object_title(text: str) -> str | None:
 
 def extract_commission_section(text: str) -> str | None:
     patterns = [
+        r"La commission[^\n]{0,260}?compos(?:ée|ee)\s+de\s*:+\s*([\s\S]{0,1800}?)(?:(?:La commission\s+)?s[' ]est\s+r(?:é|e)unie|La\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|$)",
+        r"La commission[^\n]{0,260}?(?:était|etait)\s+compos(?:ée|ee)\s+de\s*:+\s*([\s\S]{0,1800}?)(?:La\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|La commission\s+s[' ]est\s+r(?:é|e)unie|$)",
+        r"La commission\s+s[' ]est\s+r(?:é|e)unie[\s\S]{0,350}?suivant\s+la\s+composition\s+mentionn(?:ée|ee)\s*:+\s*([\s\S]{0,1800}?)(?:La\s+Municipalit(?:é|e)|Municipalit(?:é|e)\s+(?:était|etait)\s+repr(?:é|e)sent(?:é|e)e|Discussion|Pr(?:é|e)sentation|$)",
         r"La commission compos[ée]e de\s*:\s*([\s\S]{0,1500}?)(?:S[' ]est r[ée]unie|s'est r[ée]unie|S est r[ée]unie)",
         r"Commission compos[ée]e de\s*:\s*([\s\S]{0,1500}?)(?:S[' ]est r[ée]unie|s'est r[ée]unie|S est r[ée]unie)",
     ]
@@ -404,15 +407,15 @@ def extract_commission_members(text: str) -> list[dict]:
         if absence_match:
             absence_prefix = absence_match.group(1)
             compact = absence_match.group(2).strip()
-        if re.fullmatch(r"Madame|Mesdames", compact, flags=re.I):
+        if re.fullmatch(r"Mme(?:s)?\.?|Madame|Mesdames", compact, flags=re.I):
             current_civility = "Mme"
             continue
-        if re.fullmatch(r"Monsieur|Messieurs", compact, flags=re.I):
+        if re.fullmatch(r"M\.?|MM\.?|Monsieur|Messieurs", compact, flags=re.I):
             current_civility = "M."
             continue
-        explicit = re.match(r"^(Mme|M\.|Madame|Monsieur)\s+(.+)$", compact, flags=re.I)
+        explicit = re.match(r"^(Mmes?\.?|MM\.?|Mme|M\.|Madame|Mesdames|Monsieur|Messieurs)\s+(.+)$", compact, flags=re.I)
         if explicit:
-            current_civility = "Mme" if explicit.group(1).lower() in {"mme", "madame"} else "M."
+            current_civility = "Mme" if explicit.group(1).lower().rstrip(".") in {"mme", "mmes", "madame", "mesdames"} else "M."
             compact = explicit.group(2).strip()
         compact = re.split(r"\s+en\s+remplacement\s+de\s+", compact, maxsplit=1, flags=re.I)[0].strip()
         marker_match = re.search(r"\(([^)]+)\)|,\s*(excusée?|président(?:e)?(?:-rapporteur)?|rapporteur)", compact, flags=re.I)

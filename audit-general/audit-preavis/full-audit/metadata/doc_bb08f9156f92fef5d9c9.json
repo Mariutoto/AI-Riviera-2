@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "document_id": "doc_bb08f9156f92fef5d9c9",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Réponse aux postulats de Mme Viviane Huber (LTDPL) «Augmentation de l'offre pour le tri sélectif » et de M. François Costa (PLR) « Tout va dans la poubelle incinérable»",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 21 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-21-Postulats-Huber-Costa-tri-selectif-Rapp-Dec.pdf",
+    "filename": "Preavis-21-Postulats-Huber-Costa-tri-selectif-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-26",
+    "content_hash": "fbebce2c78f08492e75198cbcfe27fdbdb80b1c8783b8d32fc10335b2c39f2aa",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "21/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-12-07",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Diego Pasquali",
+          "party": "LV",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Sophie Blank Barbezat",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marianne Adank",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Hugo Huart",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Viviane Huber",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13430,
+      "native_characters": 13430,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2086,
+      "clean_words": 1968,
+      "removed_blocks": 41,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 21/2022",
+        "Rapport - Préavis N° 21/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1968
+    }
+  }
+}

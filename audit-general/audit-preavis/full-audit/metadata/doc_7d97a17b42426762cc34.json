@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7d97a17b42426762cc34",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget 2025 de l'Entente intercommunale sur la taxe de séjour et sur la taxe sur les résidences secondaires Riviera-Villeneuve (CITS)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 29 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-29-Budget-2025-CITS-Rapp-Dec.pdf",
+    "filename": "Preavis-29-Budget-2025-CITS-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-09",
+    "content_hash": "46e8880995fe3568599de0c53c5efa37329729a8c4e50681422880f592c86253",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "29/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-10-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Viviane Huber",
+          "civility": "Mme",
+          "party": "LTDP",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jérôme Bonvin",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Loris Berthier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Ludovic Tirelli",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "excused"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 24252,
+      "native_characters": 24252,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3401,
+      "clean_words": 3314,
+      "removed_blocks": 42,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 29/2024",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3314
+    }
+  }
+}

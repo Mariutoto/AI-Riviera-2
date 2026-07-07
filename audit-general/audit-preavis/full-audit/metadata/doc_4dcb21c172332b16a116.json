@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4dcb21c172332b16a116",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de réalisation de Fr. 650'000.- pour le remplacement de l'éclairage des bâtiments scolaires",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 37 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-37-Eclairage-batiments-scolaires-Rapp-Dec.pdf",
+    "filename": "Preavis-37-Eclairage-batiments-scolaires-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-05",
+    "content_hash": "b5717f226689b94d4205388ca3853bd0e204181d661a24c536d0ed4424e4a14b",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "37/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-02-05",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Lyonel Kaufmann",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 650000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18567,
+      "native_characters": 18567,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2810,
+      "clean_words": 2710,
+      "removed_blocks": 45,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 37/2024",
+        "Rapport - Préavis municipal N° 37/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2710
+    }
+  }
+}

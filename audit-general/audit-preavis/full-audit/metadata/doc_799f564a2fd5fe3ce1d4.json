@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_799f564a2fd5fe3ce1d4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de Fr. 190'000.- pour l'installation de panneaux d'information lumineux en zone piétonne du centre-ville et réponse au postulat de M. Jacques Vallotton (PS) « Panneaux d'information ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 14 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_14_2021-Panneaux_Information_LED-Rap-Dec.pdf",
+    "filename": "Preavis_14_2021-Panneaux_Information_LED-Rap-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-05-31",
+    "content_hash": "1c3bf90f3110a590c4a484d892ad0ffce3a9b849469858ec3a32c20ecc979d4f",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "14/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Sophie Blank Barbezat",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Demarta",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Elise Kaiser",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alessio Grutta",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jacques Vallotton",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gilbert Vernez",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alois Raemy",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 190000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 30155,
+      "native_characters": 30155,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4809,
+      "clean_words": 4625,
+      "removed_blocks": 64,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 14/2021",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 14/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4625
+    }
+  }
+}

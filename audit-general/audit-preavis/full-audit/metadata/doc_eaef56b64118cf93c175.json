@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "document_id": "doc_eaef56b64118cf93c175",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de réalisation de Fr. 379'000.- pour le renouvellement de la place de jeux du parc Fesquet",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 38 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp-Dec.pdf",
+    "filename": "Preavis-38-Place-de-jeux-Parc-Fesquet-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2025-01-13",
+    "content_hash": "7ae52c8142181e3ceef1436fe31337fb1d047c23d0198277efb4519f784776d0",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "38/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-02-05",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Nathalie Demarta",
+          "civility": "Mme",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Aude Lerch",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz présidente",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Chervet",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Claude Delessert",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alexandre Davel",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Manuel Herculano en remplacement d'André Gruaz",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 379000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26204,
+      "native_characters": 26204,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.933,
+      "low_text_image_pages": [
+        11
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4054,
+      "clean_words": 3870,
+      "removed_blocks": 93,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 38/2024",
+        "021 977 01 11",
+        "Rapport - Préavis municipal N° 38/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3870
+    }
+  }
+}

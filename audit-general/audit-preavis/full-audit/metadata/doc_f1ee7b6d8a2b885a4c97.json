@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f1ee7b6d8a2b885a4c97",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Budget 2023 de la CIEHL",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 18 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-18-Budget-2023-CIEHL-Rapp-Dec.pdf",
+    "filename": "Preavis-18-Budget-2023-CIEHL-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-26",
+    "content_hash": "7c2acc71d5c331b8bc6ec6dae78a499f6c295ad7bf7eec7d8a2221bdcf2870a2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "18/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-12-07",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 14280,
+      "native_characters": 14280,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2163,
+      "clean_words": 2076,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 18/2022",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2076
+    }
+  }
+}

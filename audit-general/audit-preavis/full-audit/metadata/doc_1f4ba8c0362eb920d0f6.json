@@ -1,0 +1,116 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1f4ba8c0362eb920d0f6",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de construction de Fr. 3'957'000.- pour l'assainissement énergétique, l'extension du rez-de-chaussée, la création de cinq classes et d'un nouveau couvert au collè...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 27 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-27-Extension-assainissement-Mousquetaires-Rapp-Dec.pdf",
+    "filename": "Preavis-27-Extension-assainissement-Mousquetaires-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2023-12-13",
+    "content_hash": "b520158b9cd9268c31589af0955677c73e69c5b0922b136b7456793ee78d82a1",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "27/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-10-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Piero Negro",
+          "party": "PSDG",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Chervet",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Florian Abbet",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Emanuelle Jaques",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 3957000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 45688,
+      "native_characters": 45688,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.92,
+      "low_text_image_pages": [
+        10,
+        11
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6710,
+      "clean_words": 6537,
+      "removed_blocks": 64,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Þ www.la-tour-de-peilz.ch",
+        "PRÉAVIS MUNICIPAL N° 27/2024",
+        "021 977 01 11",
+        "greffe.municipal@la-tour-de-peilz.ch",
+        "Rapport - Préavis municipal N° 27/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6537
+    }
+  }
+}

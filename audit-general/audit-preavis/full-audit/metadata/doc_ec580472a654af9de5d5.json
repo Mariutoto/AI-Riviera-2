@@ -1,0 +1,125 @@
+{
+  "document_metadata": {
+    "document_id": "doc_ec580472a654af9de5d5",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Création d'une servitude de passage public à pied reliant le chemin des Deux-Collines au chemin du Gregnolet au travers des parcelles Nos 559, 2796 et 2797",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 2 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-02-Preavis-Servitude-Gregnolet-2-Collines-Rapp-Dec.pdf",
+    "filename": "Preavis-02-Preavis-Servitude-Gregnolet-2-Collines-Rapp-Dec.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2006-05-17",
+    "content_hash": "de8e564b9043f46f41a85d3a75f000effa96eb9a7ca3f48d3ff9983cdfe9ffa2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "2/2026",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2026-03-26",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Brigitte Fahrni Chiusano",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Viviane Huber",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Aude Lerch",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alexandre Davel",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Florian Di Sabato",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Wilfrid Fils-Aimé",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Contexte initial",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maximilien Walter",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26244,
+      "native_characters": 26244,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.7,
+      "low_text_image_pages": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3986,
+      "clean_words": 3823,
+      "removed_blocks": 79,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 2/2026",
+        "Rapport - Préavis municipal N° 2/2026"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3823
+    }
+  }
+}

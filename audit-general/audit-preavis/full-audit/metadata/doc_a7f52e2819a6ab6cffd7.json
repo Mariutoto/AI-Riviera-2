@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "document_id": "doc_a7f52e2819a6ab6cffd7",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2022 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 7 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-07-CIEHL-Comptes-2022-Rapp-Dec.pdf",
+    "filename": "Preavis-07-CIEHL-Comptes-2022-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-05-10",
+    "content_hash": "08712ee81bc34574743d39bf90e30bb83591dbae9aaf14f7d4f775a4612a0326",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "7/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-06-29",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 18747,
+      "native_characters": 18747,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2854,
+      "clean_words": 2794,
+      "removed_blocks": 21,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2794
+    }
+  }
+}

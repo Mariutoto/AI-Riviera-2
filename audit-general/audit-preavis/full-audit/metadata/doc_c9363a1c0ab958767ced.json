@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c9363a1c0ab958767ced",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de construction de Fr. 3'913'000.- pour la rénovation, l'assainissement énergétique de la maison Charlemagne et la création de bureaux pour l'administration communale",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 14 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-14-Renovation-Charlemagne-Rapp-dec.pdf",
+    "filename": "Preavis-14-Renovation-Charlemagne-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-04",
+    "content_hash": "ed2ffd5c49f1b8f7fd82f12ed7a50984427bd0950a2af0d2b1882647cb0ae5ab",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "14/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-06-27",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 3913000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 35031,
+      "native_characters": 35031,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5560,
+      "clean_words": 5373,
+      "removed_blocks": 78,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 14/2024",
+        "Rapport - Préavis municipal N° 14/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5373
+    }
+  }
+}

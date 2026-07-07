@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9a630450138da5289f70",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Projet de création d'un cheminement piétonnier le long des rives du lac, tronçon ouest entre les Bains de la Becque et le chemin dit du Portail-Blanc (DP 1045) – Adoption des plans et ...",
+    "source_title": "Préavis municipal | Nr. 13 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-13-Adoption-projet-rives-lac.pdf",
+    "filename": "Preavis-13-Adoption-projet-rives-lac.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2025-07-09",
+    "content_hash": "f244262a6d958b291d0fdc6d34d3a7efe69aec00a8f0c3cbce095d34a0ce2dea",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "13/2026",
+    "political_status": null,
+    "decision_date": "2010-06-23",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1361219,
+      "native_characters": 1361219,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.967,
+      "low_text_image_pages": [
+        307,
+        311,
+        360,
+        371,
+        380,
+        382,
+        383,
+        397,
+        424,
+        453,
+        484,
+        497,
+        519,
+        520,
+        528,
+        655
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 213708,
+      "clean_words": 212071,
+      "removed_blocks": 688,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "Municipalité",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 13/2026",
+        "021 977 01 11",
+        "des rives du lac/05 - Mise à l'enquête (33)/04 - Rapports/300123-33 - Rapport Technique GC - MEP - V1.docx",
+        "www.la-tour-de-peilz.ch",
+        "greffe@la-tour-de-peilz.ch",
+        "( www.la-tour-de-peilz.ch",
+        "page 4",
+        "Page 2",
+        "Page 3",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Grand-Rue 46",
+        "B4 utp@la-tour-de-peilz.ch",
+        "® www.la-tour-de-peilz.ch",
+        "æ www.la-tour-de-peilz.ch"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 212071
+    }
+  }
+}

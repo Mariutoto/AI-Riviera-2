@@ -1,0 +1,130 @@
+{
+  "document_metadata": {
+    "document_id": "doc_24dbffe6fb95f766dbd2",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de construction de Fr. 10'000'000.- pour l'entretien et la rénovation du château de La Tour-de-Peilz ainsi que la valorisation des vestiges et la création ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 2 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_02-Credit-construction-chateau-Rapp-Dec.pdf",
+    "filename": "Preavis_02-Credit-construction-chateau-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-06-03",
+    "content_hash": "8c1ed0c3f1da02addbfd34e4d4a2098f7702e4dc61032019943c478f9f20b107",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "2/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Anthony Abbott",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Cédric Urech",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Willy Bühlmann",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "role": "president",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 10000000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 81312,
+      "native_characters": 81312,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.622,
+      "low_text_image_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        41,
+        42,
+        43,
+        44
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 12491,
+      "clean_words": 12139,
+      "removed_blocks": 125,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 2/2021",
+        "Rapport - Préavis municipal N° 2/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 12139
+    }
+  }
+}

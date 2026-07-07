@@ -27,6 +27,14 @@
       "chunks": 123
     },
     {
+      "family": "municipal_proposal",
+      "category": "preavis_municipal",
+      "glob": "audit-general/audit-preavis/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-preavis/full-audit/metadata/*.json",
+      "document_files": 153,
+      "chunks": 3446
+    },
+    {
       "family": "regulation",
       "category": "reglement_conseil_communal",
       "glob": "audit-general/audit-reglement-conseil/full-audit/chunks/*.json",
@@ -36,9 +44,9 @@
     }
   ],
   "totals": {
-    "document_files": 99,
-    "canonical_chunks": 595,
-    "pilot_chunks_after_exclusions": 583
+    "document_files": 252,
+    "canonical_chunks": 4041,
+    "pilot_chunks_after_exclusions": 4029
   },
   "excluded": [
     "pilot directories",

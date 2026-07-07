@@ -1,0 +1,107 @@
+{
+  "document_metadata": {
+    "document_id": "doc_85e0f1a70a3f88c5f224",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Budget 2024 de l'Entente intercommunale de la taxe de séjour et de la taxe sur les résidences secondaires Riviera – Villeneuve (CITS)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 1 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-01-Budget-2024-CITS-Rapp-Dec.pdf",
+    "filename": "Preavis-01-Budget-2024-CITS-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-01-08",
+    "content_hash": "641e8a5f409e5878da7c1401f00d8d1966acf072afe30bef0dca28f38a49ec47",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "1/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-03-20",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Negro Piero",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Berthier Loris",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Fardel Nicolas",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Chervet Guy",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Schmidhauser Jean-Yves",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Tirelli Ludovic",
+          "party": "VERTS",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Bonvin Jérôme",
+          "party": "LC+I+VL",
+          "role": "member",
+          "attendance": "excused"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 39119,
+      "native_characters": 39119,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5687,
+      "clean_words": 5587,
+      "removed_blocks": 45,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 1/2024",
+        "Rapport - Préavis municipal N° 1/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5587
+    }
+  }
+}

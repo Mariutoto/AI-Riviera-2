@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_388f10da6b67333344d8",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Budget 2022 du Fonds culturel Riviera",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 21 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_21_2021-Budget-2022-FCR-Rapp-dec.pdf",
+    "filename": "Preavis_21_2021-Budget-2022-FCR-Rapp-dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-11",
+    "content_hash": "756fb84032863babd02163dd3b9e216c2416e63ce905b73ddf55adfaa7a9076a",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "21/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-12-09",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 20593,
+      "native_characters": 20593,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3157,
+      "clean_words": 3070,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 21/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3070
+    }
+  }
+}

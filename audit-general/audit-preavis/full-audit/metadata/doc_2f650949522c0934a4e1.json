@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "document_id": "doc_2f650949522c0934a4e1",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de Fr. 130'000.- pour l'étude du réaménagement de la place du Four et l'amélioration du quai et du jardin Roussy ainsi que la cré...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 8 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-08-Etude-Place-Four-Rapp-Dec.pdf",
+    "filename": "Preavis-08-Etude-Place-Four-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-04-16",
+    "content_hash": "91a02849556f17a774475df79652e0dcd22f4e8db3867955f59df91188c26d45",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "8/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-05-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Valentine Python",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Demarta",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Denis Champier",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Pierre-Yves Charpilloz",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 130000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 36069,
+      "native_characters": 36069,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5461,
+      "clean_words": 5291,
+      "removed_blocks": 81,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 8/2024",
+        "Rapport - Préavis municipal N° 8/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5291
+    }
+  }
+}

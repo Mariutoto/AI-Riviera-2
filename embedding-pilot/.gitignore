@@ -2,3 +2,8 @@
 output/embeddings/
 output/*.npy
 output/*.parquet
+output/embedding_inputs.jsonl
+output/embedding_inputs.html
+output/validation_report.json
+evaluation/comparison_report.html
+evaluation/comparison_results.json

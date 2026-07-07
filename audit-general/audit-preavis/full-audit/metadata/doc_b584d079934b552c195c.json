@@ -1,0 +1,108 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b584d079934b552c195c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report",
+    "title": "Réponse au postulat de François Vodoz (hors parti) « Un marché le samedi à La Tour, un atout pour La Tour ! »",
+    "source_title": "Préavis municipal + rapport / Retiré par le postulant | Nr. 15 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis-15_2021-Postulat-Vodoz-Marches-Rap.pdf",
+    "filename": "Preavis-15_2021-Postulat-Vodoz-Marches-Rap.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-06-07",
+    "content_hash": "8a04b1ef5cc0dba4b006506b5520e4a9c939368d51bbe1b24b61dafb4050f397",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "15/2021",
+    "political_status": "withdrawn_by_municipality",
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Costa François",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Christine Hausherr-de Maddalena",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Daoud Latif",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "party": "PS",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Pierre Belotti",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "party": "PDC+I",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "François Vodoz",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15375,
+      "native_characters": 15375,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2467,
+      "clean_words": 2379,
+      "removed_blocks": 31,
+      "repeated_margin_candidates": [
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 15/2021",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2379
+    }
+  }
+}

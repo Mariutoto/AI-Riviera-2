@@ -1,0 +1,132 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e418a9fbaf7c857608f3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Adoption du volet stratégique de la Stratégie régionale de gestion des zones d'activités Rivelac (SRGZA)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 10 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-10-SRGZA-Rapp-Dec.pdf",
+    "filename": "Preavis-10-SRGZA-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-19",
+    "content_hash": "732ab6ff9b25f60e142e540bfb6a837d7c4724bcdf48077810899f6f41a80732",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "10/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-09-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Alexandre Davel",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Piero Negro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Rossier",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Objectifs du Préavis et commentaires de",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Elise Kaiser",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maximilien Walter",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 243739,
+      "native_characters": 243739,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.972,
+      "low_text_image_pages": [
+        24,
+        29,
+        44
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 35759,
+      "clean_words": 35590,
+      "removed_blocks": 98,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "Municipalité",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 · CP 304",
+        "PRÉAVIS MUNICIPAL N° 10/2025",
+        "Rapport - Préavis municipal N° 10/2025",
+        "www.la-tour-de-peilz.ch",
+        "greffe@la-tour-de-peilz.ch"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 35590
+    }
+  }
+}

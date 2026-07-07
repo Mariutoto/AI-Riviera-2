@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_6cba38c4028d26f5e9e3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Adoption du projet de modification du Règlement du Plan général d'affectation et de police des constructions du 15 mai 2019, et réponse aux postulats « Infiltration d'eau : une aubaine en ville » de ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 9 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-09-Modification-RPGA-Rapp-Dec.pdf",
+    "filename": "Preavis-09-Modification-RPGA-Rapp-Dec.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2019-05-15",
+    "content_hash": "caa5f54cf7fbc4c8cebd56ed44a6bdee556ba8e68ecc9d93a2daf318f6444423",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "9/2026",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-05-12",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Michel Chappuis",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Etienne Balestra",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Diego Pasquali",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margareta Brüssow",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Héraclès Dellas",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 468010,
+      "native_characters": 468010,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.971,
+      "low_text_image_pages": [
+        48,
+        49,
+        82,
+        83,
+        183,
+        184
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 66930,
+      "clean_words": 66195,
+      "removed_blocks": 318,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "Municipalité",
+        "1814 La Tour-de-Peilz",
+        "Grand-Rue 46 · CP 304",
+        "PRÉAVIS MUNICIPAL N° 9/2026",
+        "021 977 01 11",
+        " 021 977 01 60  utp@la-tour-de-peilz.ch  www.la-tour-de-peilz.ch",
+        "Grand-Rue 46",
+        "www.la-tour-de-peilz.ch",
+        "greffe@la-tour-de-peilz.ch",
+        "‘ www.la-tour-de-peilz.ch",
+        "Grand-Rue 46 - CP 144"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 66195
+    }
+  }
+}

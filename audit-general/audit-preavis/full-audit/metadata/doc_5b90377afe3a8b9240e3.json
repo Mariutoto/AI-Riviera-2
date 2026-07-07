@@ -1,0 +1,126 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5b90377afe3a8b9240e3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Révision partielle des Statuts de l'Association de communes Sécurité Riviera",
+    "source_title": "Préavis municipal + rapports + décision | Nr. 30 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-30-Revision-statuts-ASR-Rapp-Dec.pdf",
+    "filename": "Preavis-30-Revision-statuts-ASR-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-05",
+    "content_hash": "4c0838438911f9cc0777ff7217b1194d95efee218e8ef9dd6009d9434edd93f9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "30/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-10-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Frédéric Renkens",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Chris Angie Salgado",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Cédric Berchier",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "André Joye",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 152647,
+      "native_characters": 152647,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.626,
+      "low_text_image_pages": [
+        14,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        67,
+        68,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81,
+        82,
+        83,
+        84,
+        99
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 21184,
+      "clean_words": 21016,
+      "removed_blocks": 84,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 30/2024",
+        "021 977 01 11",
+        "Rapport - Préavis municipal N° 30/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 21016
+    }
+  }
+}

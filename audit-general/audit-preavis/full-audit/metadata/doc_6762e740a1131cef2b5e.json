@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_6762e740a1131cef2b5e",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2022 du Fonds culturel Riviera (FCR)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 6 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-06-FCR-Comptes-2022-Rapp-Dec.pdf",
+    "filename": "Preavis-06-FCR-Comptes-2022-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-29",
+    "content_hash": "8eed4188fa755004fdec114c6f6934e371facdf848664f8754c517aa57c9c667",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "6/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-06-29",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 40415,
+      "native_characters": 40415,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6019,
+      "clean_words": 5932,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 6/2023",
+        "021 977 01 11 "
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5932
+    }
+  }
+}

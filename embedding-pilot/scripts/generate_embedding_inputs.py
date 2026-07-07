@@ -54,7 +54,7 @@ def metadata_index(pattern: str) -> dict[str, dict]:
         base = payload.get("document_metadata") or payload
         document_id = base.get("document_id")
         if document_id:
-            result[document_id] = {"base": base, "path": path}
+            result[document_id] = {"base": base, "record": payload, "path": path}
     return result
 
 
@@ -78,6 +78,23 @@ def political_input(base: dict, chunk: dict) -> tuple[str, dict, dict]:
         f"document_family: {values['document_family']}\n"
         f"category: {values['category']}\n"
         f"document_role: {values['document_role']}\n"
+        f"title: {values['title']}\n"
+        f"component: {values['component']}\n\n"
+        f"{values['content'] or ''}"
+    )
+    return text, values, cleaning
+
+
+def preavis_input(base: dict, specific: dict, chunk: dict) -> tuple[str, dict, dict]:
+    content, cleaning = clean_embedding_content(str(chunk.get("content") or ""))
+    values = {
+        "preavis_number": specific.get("preavis_number"),
+        "title": base.get("title"),
+        "component": canonical_component(chunk),
+        "content": content,
+    }
+    text = (
+        f"preavis_number: {values['preavis_number']}\n"
         f"title: {values['title']}\n"
         f"component: {values['component']}\n\n"
         f"{values['content'] or ''}"
@@ -228,7 +245,11 @@ def main() -> None:
                         raise ValueError(f"Missing metadata for {document_id} from {chunk_path}")
                     base = meta_entry["base"]
                     chunk_id = chunk.get("chunk_id")
-                    embedding_input, fields, cleaning = political_input(base, chunk)
+                    if family == "municipal_proposal":
+                        specific = meta_entry["record"].get("preavis_metadata") or {}
+                        embedding_input, fields, cleaning = preavis_input(base, specific, chunk)
+                    else:
+                        embedding_input, fields, cleaning = political_input(base, chunk)
                     title = base.get("title")
                     article_title = None
                 content = str(fields.get("content") or "")
@@ -247,7 +268,7 @@ def main() -> None:
                     "content": content,
                     "content_hash": chunk.get("chunk_hash") or normalized_hash(content),
                     "word_count": len(re.findall(r"\S+", content)),
-                    "embedding_recipe": "political_object" if family == "political_object" else "regulation",
+                    "embedding_recipe": family if family != "regulation" else "regulation",
                     "embedding_fields": fields,
                     "embedding_input": embedding_input,
                     "validation_issues": issues,

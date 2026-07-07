@@ -1,0 +1,118 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5373a5882cded35646f9",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de réalisation de Fr. 52'000.- pour l'aménagement d'une zone 30 km/h sur les avenues de Traménaz, de Sully, des Mousquetaires, de la Paix et ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 26 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-26-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Rapp-Dec.pdf",
+    "filename": "Preavis-26-Z30-Tramenaz-Sully-Paix-Mousquetaires-Cret-a-l-Aigle-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-19",
+    "content_hash": "bb0c8dbca15abf7c2a8833daa0ee89ab75fe6d9f36af3652c622da281144e825",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "26/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-10-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Sophie Blank Barbezat",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Maëlle Le Boudec",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Bernadette Menétrey",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Etienne Holzeisen",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jimmy Suro",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 52000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 31881,
+      "native_characters": 31881,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5000,
+      "clean_words": 4814,
+      "removed_blocks": 74,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 26/2024",
+        "Mise à l'enquête (33)/04 - Rapports/300155-33 - Rapport d'expertise - V4.docx",
+        "Rapport - Préavis municipal N° 26/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4814
+    }
+  }
+}

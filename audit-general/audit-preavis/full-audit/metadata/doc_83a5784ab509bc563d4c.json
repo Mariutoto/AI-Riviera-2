@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "doc_83a5784ab509bc563d4c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Renouvellement du droit de superficie distinct et permanent (DDP) pour la Société coopérative du Manège de Villard sur la parcelle N° 1409 à La Tour-de-Peilz",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 16 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_16_2021-DDP-Manege-Villard-Rapp-Dec.pdf",
+    "filename": "Preavis_16_2021-DDP-Manege-Villard-Rapp-Dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-08-23",
+    "content_hash": "3e08b2487780f608abbccbe1b807fddc2382b9efafb449ae08100aac3ec37276",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "16/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Paul Castelain",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Dubuis",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Rachel Descloux",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Ziva Tavcar",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 51645,
+      "native_characters": 51645,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6718,
+      "clean_words": 6597,
+      "removed_blocks": 42,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 16/2021",
+        "Rapport - Préavis municipal N° 16/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6597
+    }
+  }
+}

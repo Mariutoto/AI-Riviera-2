@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "document_id": "doc_7cd7b53686cb7be4edcc",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2024 du Fonds culturel Riviera",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 5 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-05-FCR-Comptes-2024-Rapp-Dec.pdf",
+    "filename": "Preavis-05-FCR-Comptes-2024-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-25",
+    "content_hash": "c75cc76796af69ce09528d089bbe778612c5722555099f5caafbbea8e6587c08",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "5/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-06-25",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 36302,
+      "native_characters": 36302,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5452,
+      "clean_words": 5380,
+      "removed_blocks": 33,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 5/2025",
+        "021 977 01 11"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 5380
+    }
+  }
+}

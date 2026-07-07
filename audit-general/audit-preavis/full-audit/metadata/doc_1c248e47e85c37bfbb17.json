@@ -1,0 +1,62 @@
+{
+  "document_metadata": {
+    "document_id": "doc_1c248e47e85c37bfbb17",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Fixation des indemnités de la secrétaire du Conseil communal pour le reste de la législature 2021-2026",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 5 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-05-Indemnites-secretaire-CC-Rap-Dec.pdf",
+    "filename": "Preavis-05-Indemnites-secretaire-CC-Rap-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-20",
+    "content_hash": "755aab519bb2710f5eb1fdc41e6574cc89491283d38a498b486243d3de16e532",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "5/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-05-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15500,
+      "native_characters": 15500,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2487,
+      "clean_words": 2423,
+      "removed_blocks": 25,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "Rapport - Préavis municipal N° 5/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2423
+    }
+  }
+}

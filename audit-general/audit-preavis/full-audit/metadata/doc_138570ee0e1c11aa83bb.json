@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "document_id": "doc_138570ee0e1c11aa83bb",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Stratégie de végétalisation des espaces publics, demande de crédit de Fr. 62'000.- pour la réalisation d'une microforêt au cimetière de Vassin et réponse au postulat ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 20 | 2025",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2025/Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets-Rapp-Dec.pdf",
+    "filename": "Preavis-20-Postulat-PLR-Ilots-chaleur-Microforets-Rapp-Dec.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-14",
+    "content_hash": "47a7124fd1c12245d31ad52809a7a0049117b680b546fbcf0beb3c60c8895f79",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "20/2025",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2025-09-10",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 62000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 45907,
+      "native_characters": 45907,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.788,
+      "low_text_image_pages": [
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6993,
+      "clean_words": 6641,
+      "removed_blocks": 87,
+      "repeated_margin_candidates": [
+        "Maison de Commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 11",
+        "PRÉAVIS MUNICIPAL N° 20/2025",
+        "Rapport - Préavis municipal N° 20/2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6641
+    }
+  }
+}

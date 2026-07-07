@@ -1,0 +1,64 @@
+{
+  "document_metadata": {
+    "document_id": "doc_4268ff9e54189d4ea287",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Budget 2024 de la Communauté intercommunale d'équipements du Haut-Léman (CIEHL)",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 16 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-16-Budget-2024-CIEHL-Rapp-Dec.pdf",
+    "filename": "Preavis-16-Budget-2024-CIEHL-Rapp-Dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-25",
+    "content_hash": "139bbae919d9084bc9fa4a3389e1fab680db1c532ef0dd97ee76494d889e0c9e",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "16/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-12-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 17363,
+      "native_characters": 17363,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2658,
+      "clean_words": 2571,
+      "removed_blocks": 30,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 16/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2571
+    }
+  }
+}

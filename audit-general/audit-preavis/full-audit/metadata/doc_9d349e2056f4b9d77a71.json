@@ -1,0 +1,114 @@
+{
+  "document_metadata": {
+    "document_id": "doc_9d349e2056f4b9d77a71",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de Fr. 260'000.- pour l'installation de panneaux photovoltaïques sur les toitures des immeubles locatifs à l'av. des Baumes 22-24 au ch. de Béranges 74",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 12 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74-Rapp-dec.pdf",
+    "filename": "Preavis-12-Photovoltaique-Baumes-22-24-Beranges-74-Rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-10",
+    "content_hash": "478ad156e9883ae333af4321d137f886a708fc13fe6fd649fe03639d830e2033",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "12/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-11-02",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "party": "LV",
+          "role": "president",
+          "attendance": "present"
+        },
+        {
+          "name": "Christine Hausherr-de Maddalena",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Mireille Cornaz",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Gabriel Ranzato",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 260000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 25718,
+      "native_characters": 25718,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3921,
+      "clean_words": 3718,
+      "removed_blocks": 71,
+      "repeated_margin_candidates": [
+        "Rapport - Préavis municipal N° 12/2023",
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 12/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3718
+    }
+  }
+}

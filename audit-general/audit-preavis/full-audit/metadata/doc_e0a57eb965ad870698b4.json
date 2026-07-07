@@ -1,0 +1,138 @@
+{
+  "document_metadata": {
+    "document_id": "doc_e0a57eb965ad870698b4",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande de crédit de Fr. 295'000.- pour procéder à la dépollution de la parcelle N° 1116 au chemin du Gregnolet",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 15 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-15-Depollution-Gregnolet-Rapp-dec.pdf",
+    "filename": "Preavis-15-Depollution-Gregnolet-Rapp-dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-30",
+    "content_hash": "7c37a78a60a0e31c203258f10b33def4aa5afded2b0ddf0dd2edde6699f281e2",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "15/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-06-27",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Véronique Ansermet",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Christine Hausherr de Maddalena",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Viviane Huber",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "civility": "M.",
+          "party": "PSGD",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jérôme Bonvin",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Diego Pasquali",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Informations complémentaires",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Rapport de",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Yves Roulet",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 295000,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 22416,
+      "native_characters": 22416,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 0.923,
+      "low_text_image_pages": [
+        8
+      ],
+      "recommendation": "native_pdf_ignore_non_text_images"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3497,
+      "clean_words": 3348,
+      "removed_blocks": 71,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 15/2024",
+        "021 977 01 11",
+        "Rapport - Préavis municipal N° 15/2024"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3348
+    }
+  }
+}

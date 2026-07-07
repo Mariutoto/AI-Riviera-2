@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "doc_3eeccb8a53c53b8ef65b",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "municipal_preavis",
+    "title": "Secteur « Campagne Rossier » - Projet d'intention des propriétaires et projet de plan d'affection « En Villard Dessous » élaboré suite à l'acceptation du préavis municipal N° 21/2023",
+    "source_title": "Préavis municipal - Retiré par la Municipalité | Nr. 3 | 2026",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2026/Preavis-03-Campagne-Rossier.pdf",
+    "filename": "Preavis-03-Campagne-Rossier.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-10",
+    "content_hash": "80473f48f3b326fe2984b1b6a0710ce8c41a47ad12f065749e52e16be6e3013f",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "3/2026",
+    "political_status": "withdrawn_by_municipality",
+    "decision_date": null,
+    "contains_majority_report": false,
+    "contains_minority_report": true,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 214051,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 32279,
+      "clean_words": 31018,
+      "removed_blocks": 256,
+      "repeated_margin_candidates": [
+        "Grand-Rue 46 · CP 304",
+        "1814 La Tour-de-Peilz",
+        "Maison de Commune",
+        "PRÉAVIS MUNICIPAL N° 3/2026",
+        "021 977 01 11",
+        "Total",
+        "Guisan Françoise (Siordet)",
+        "1025",
+        "50'534 m2",
+        "26'456 m2",
+        "Le secrétaire :",
+        "La syndique :",
+        "Version septembre 2025",
+        "Article 1",
+        "SOMMAIRE",
+        "TITRE 1",
+        " 021 977 01 60  utp@la-tour-de-peilz.ch  www.la-tour-de-peilz.ch",
+        "Ville de La Tour-de-Peilz – Plan d’affectation « En Villard Dessous » – Rapport selon art. 47 OAT",
+        "1378",
+        "CAMPAGNE ROSSIER _ Diagnostic paysager",
+        "et du logement",
+        "Direction générale du territoire",
+        "Demande :",
+        "Etude Derville",
+        "Projet d’Intention « Campagne Rossier »",
+        "08.10.2025"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 31018
+    }
+  }
+}

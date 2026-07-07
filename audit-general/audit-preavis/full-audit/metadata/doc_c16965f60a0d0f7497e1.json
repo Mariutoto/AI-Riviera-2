@@ -1,0 +1,58 @@
+{
+  "document_metadata": {
+    "document_id": "doc_c16965f60a0d0f7497e1",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_decision",
+    "title": "Gestion et comptes 2021 de la Commune de La Tour-de-Peilz",
+    "source_title": "Préavis municipal + décision | Nr. 7 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/COGEST-Rapport-Comptes-Rapp-Dec.pdf",
+    "filename": "COGEST-Rapport-Comptes-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-30",
+    "content_hash": "f6ae9730683465d7b1b68c716bfa47fcd20dc9d7de4e8cc5581258928f959aea",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "7/2022",
+    "political_status": "with_decision",
+    "decision_date": "2022-06-30",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 40135,
+      "native_characters": 40135,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 6093,
+      "clean_words": 6082,
+      "removed_blocks": 3,
+      "repeated_margin_candidates": []
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 6082
+    }
+  }
+}

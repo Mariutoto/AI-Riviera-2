@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8ac86ec47c090ccf1313",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Modifications du Règlement sur la taxe communale spécifique pour l'encouragement aux énergies renouvelables du 1er décembre 2009 et réponses à la motion de M. Jean-Yves Schmidhauser (PS) « Vélo électrique : Pour que ...",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 23 | 2021",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2021/Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp-dec.pdf",
+    "filename": "Preavis_23_2021-Reglement_fonds_energies_renouvelables-Rapp-dec.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2009-12-01",
+    "content_hash": "9ae19a5ff55fae929f5bd746f538c868b1296dc1fa8e9dd5fe51574f2449796c",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "23/2021",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2021-12-09",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Margareta Brüssow",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Geneviève Pasche",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marion Savoy",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Claude Althaus",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Kurt Egli",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto et",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 55386,
+      "native_characters": 55386,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7949,
+      "clean_words": 7753,
+      "removed_blocks": 69,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 23/2021",
+        "Rapport - Préavis municipal N° 23/2021"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7753
+    }
+  }
+}

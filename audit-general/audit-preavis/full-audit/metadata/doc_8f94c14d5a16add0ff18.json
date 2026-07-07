@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8f94c14d5a16add0ff18",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Révision du statut du personnel communal – Adoption du nouveau règlement",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 14 | 2023",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2023/Preavis-14-Reglement_personnel-Rapp-dec.pdf",
+    "filename": "Preavis-14-Reglement_personnel-Rapp-dec.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-02",
+    "content_hash": "4d931f00f39d1624d81fc2ca5123a9cf604d4c5337ea0bf95bf0e64f5f4aebcd",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "14/2023",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2023-11-02",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": []
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 86420,
+      "native_characters": 86420,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 13251,
+      "clean_words": 13153,
+      "removed_blocks": 35,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "PRÉAVIS MUNICIPAL N° 14/2023",
+        "Rapport - Préavis municipal N° 14/2023"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 13153
+    }
+  }
+}

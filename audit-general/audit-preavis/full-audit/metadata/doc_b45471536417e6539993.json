@@ -1,0 +1,121 @@
+{
+  "document_metadata": {
+    "document_id": "doc_b45471536417e6539993",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Demande d'un crédit de construction de Fr. 487'500.- pour la participation communale aux travaux de réfection d'un tronçon du ruisseau de Sully",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 12 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-12-Refection-ruisseau-Sully-Rapp-Dec.pdf",
+    "filename": "Preavis-12-Refection-ruisseau-Sully-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-07-12",
+    "content_hash": "157c7afec300f7a84f3806738ad4dc0ac48ee17a0f3bb087f1b7b2d61c31fa88",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "12/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-09-15",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Roger Urech",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Salvatore Noto",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michel Bloch",
+          "civility": "M.",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Adrien Muheim",
+          "civility": "M.",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marion Savoy",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guillaume Jung",
+          "civility": "M.",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": [
+      {
+        "amount_chf": 487500,
+        "request_type": "unspecified"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 26709,
+      "native_characters": 26709,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4145,
+      "clean_words": 3928,
+      "removed_blocks": 80,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "PRÉAVIS MUNICIPAL N° 12/2022",
+        "Rapport - Préavis N° 12/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3928
+    }
+  }
+}

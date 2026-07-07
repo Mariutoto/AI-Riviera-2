@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "doc_44de8934e46be4c641a6",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Fixation des plafonds d'endettement et de cautionnements pour la législature 2021 – 2026",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 2 | 2022",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2022/Preavis-02-Plafonds-endettement-cautionnements-Rapp-Dec.pdf",
+    "filename": "Preavis-02-Plafonds-endettement-cautionnements-Rapp-Dec.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-28",
+    "content_hash": "caf55f5922b33eb1ea3d7a57cd7da49a1985820f9388c79b5aa7809940904b31",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "2/2022",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2022-05-12",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Sophie Blank Barbezat",
+          "civility": "Mme",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Paul Castelain",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Guy Chervet",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nicolas Fardel",
+          "civility": "M.",
+          "role": "president_rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Philippe Neyroud",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "excused"
+        },
+        {
+          "name": "Michael Rohrer",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Jean-Yves Schmidhauser",
+          "civility": "M.",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 49491,
+      "native_characters": 49491,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 7376,
+      "clean_words": 7101,
+      "removed_blocks": 107,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "Grand-Rue 46 - CP 144",
+        "1814 La Tour-de-Peilz",
+        "PRÉAVIS MUNICIPAL N° 2/2022",
+        "021 977 01 15 ",
+        "021 977 01 11 ",
+        "Rapport - Préavis municipal N° 2/2022"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 7101
+    }
+  }
+}

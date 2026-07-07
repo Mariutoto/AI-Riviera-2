@@ -1,0 +1,10 @@
+# Downloaded source PDFs in pilot artifact folders are reproducible from their official URLs
+# and are not read by the embedding pipeline (see embedding-pilot/config/sources.json,
+# which only consumes full-audit/chunks + full-audit/metadata).
+**/pilot/artifacts/**/*.pdf
+
+# Reproducible downloads and raw OCR API caches. The audited clean text,
+# metadata, chunks and HTML reports remain versioned.
+audit-preavis/**/pdfs/*.pdf
+audit-preavis/**/ocr_overrides/*.json
+audit-preavis/**/ocr_overrides/*_batches/

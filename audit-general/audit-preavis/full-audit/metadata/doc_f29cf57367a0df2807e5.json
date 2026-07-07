@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "doc_f29cf57367a0df2807e5",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "municipal_proposal",
+    "category": "preavis_municipal",
+    "document_role": "combined_preavis_report_decision",
+    "title": "Octroi de la bourgeoisie d'honneur de La Tour-de-Peilz à M. Claude de Ribaupierre, alias Derib, auteur de bandes dessinées",
+    "source_title": "Préavis municipal + rapport + décision | Nr. 35 | 2024",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/preavis-municipaux/2024/Preavis-35-Derib-bourgeoisie-honneur-Rapp-Dec.pdf",
+    "filename": "Preavis-35-Derib-bourgeoisie-honneur-Rapp-Dec.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "content_hash": "87dc6e9d7b2217619ddd75107679128e52f8a904b9ced876d5bf97868cb705d9",
+    "extraction_method": "native_pdf",
+    "processing_status": "pilot_audited"
+  },
+  "preavis_metadata": {
+    "preavis_number": "35/2024",
+    "political_status": "with_report_and_decision",
+    "decision_date": "2024-12-11",
+    "contains_majority_report": false,
+    "contains_minority_report": false,
+    "commission": {
+      "members": [
+        {
+          "name": "Mireille Cornaz",
+          "civility": "Mme",
+          "party": "LCIVL",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Nathalie Demarta",
+          "civility": "Mme",
+          "party": "UDC",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Margaux Dubuis",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Maude Froidevaux",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Bernadette Menétrey",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "rapporteur",
+          "attendance": "present"
+        },
+        {
+          "name": "Myriam Michel",
+          "civility": "Mme",
+          "party": "LV",
+          "role": "member",
+          "attendance": "present"
+        },
+        {
+          "name": "Marie Schmidhauser",
+          "civility": "Mme",
+          "party": "PSDG",
+          "role": "member",
+          "attendance": "present"
+        }
+      ]
+    },
+    "decision": {
+      "outcome": null,
+      "vote_result": null
+    },
+    "financial_requests": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10817,
+      "native_characters": 10817,
+      "ocr_characters": null,
+      "text_available": true,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [],
+      "recommendation": "native_pdf"
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1680,
+      "clean_words": 1629,
+      "removed_blocks": 24,
+      "repeated_margin_candidates": [
+        "Maison de commune",
+        "1814 La Tour-de-Peilz"
+      ]
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1629
+    }
+  }
+}
