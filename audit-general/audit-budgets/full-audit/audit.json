@@ -1,0 +1,4221 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_fc1ea28f1ff73174a53a",
+      "title": "Budget 2021",
+      "fiscal_year": 2021,
+      "pages": 98,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_fc1ea28f1ff73174a53a",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2021",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2021_LTDP.pdf",
+          "filename": "Budget_2021_LTDP.pdf",
+          "listing_year": 2021,
+          "legislature": "2021-2026",
+          "document_date": "2020-11-02",
+          "content_hash": "8c372ceffcf2faf61f9cbff9a42a30146274625c9c588c52e2aede18e0c52862",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2021,
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "preavis_number": "13/2020",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 76917958.0,
+          "total_revenues": 75836027.0,
+          "projected_surplus_or_deficit": -1081930.0,
+          "planned_investment_total": 25200000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 247477,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              19
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 46894,
+            "clean_words": 46337,
+            "removed_blocks": 53,
+            "repeated_margin_candidates": [
+              "Les commentaires des comptes en gras figurent à la fin de chaque service.",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "| Ville de La Tour-de-Peilz | | | Budget 2021 (v1/Muni) | | Budget 2020 (v2/CC) | | Comptes 2019 | |",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 46337,
+            "native_pdf_words": 23424
+          }
+        }
+      },
+      "chunks": 119,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 626,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 2460,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 4,
+          "characters": 3404,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 4044,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 3828,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 201,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 3135,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 3813,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 2536,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 3433,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 2546,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 3328,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 2086,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2095,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2971,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 1003,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2580,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 69,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 20,
+          "characters": 1861,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 774,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 23,
+          "characters": 1514,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 2502,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 2398,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 28,
+          "characters": 2437,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2594,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2537,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2775,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2776,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2599,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2428,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2442,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2407,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2377,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2697,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 944,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 1622,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2410,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2384,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 408,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2560,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2698,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2445,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 1942,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2366,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2382,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2344,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2475,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2583,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2675,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2491,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2580,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 1533,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2492,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2570,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2532,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2510,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2406,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2455,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2397,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2434,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 1640,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 1775,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 1373,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2565,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2503,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2664,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2513,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2327,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2565,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 1708,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 1975,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 1463,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2337,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2257,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1274,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2372,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2311,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2701,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2704,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2523,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 1877,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2582,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 29,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 88,
+          "characters": 1963,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 1578,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 1808,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 1344,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 93,
+          "characters": 1535,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 750,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 96,
+          "characters": 3723,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3360,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2525,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2021_LTDP.pdf",
+      "preview": "BUDGET 2021\n\n\f\n\n# BUDGET 2021\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 13/2020 : projet de budget 2021 | 1  |\n|  **Compte de fonctionnement** | **21**  |\n|  Récapitulation par services | 21  |\n|  Charges et revenus par services | 23  |\n|  Compte de fonctionnement par services (avec commentaires) | 25  |\n|  1 - Administration générale | 25  |\n|  2 - Finances | 41  |\n|  3 - Domaines et bâtiments | 45  |\n|  4 - Urbanisme et travaux publics | 54  |\n|  5 - Instruction publiques et cultes | 65  |\n|  6 - Sécurité, population, feu | 74  |\n|  7 - Famille, jeunesse et sport | 77  |\n|  Charges et revenus par nature | 85  |\n|  Autofinancement et endettement | 89  |\n|  **Investissements** | **91**  |\n|  Plan des investissements et entretien | 91  |\n\n\f\n\n## PRÉAVIS MUNICIPAL N° 13/2020\n\nle 2 novembre 2020\n\nProjet de budget de la Commune pour l'exercice 2021.\n\n10.03-2010-PAD-rc-Preavis-13-Budget-2021-LTP.docx\n\nAu Conseil communal de\n\nMonsieur le Président, Mesdames et Messieurs,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la Loi sur les communes du 28 février 1956 (état au 1$^{er}$ septembre 2018) et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2021.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des communes, ainsi qu'aux directives et plan comptable du Service des communes et du logement (SCL) du Canton.\n\nLe projet de budget 2021 laisse apparaître le résultat suivant :\n\n|   | Budget 2021 (v1 Muni) | Budget 2020 (v2 CC) | Comptes 2019 | Ecarts du budget 2021  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B21/B20 | B21/C19  |\n|  Charges | 76'917'958 | 75'177'144 | 71'665'563.32 | 1'740'814 | 5'252'394.52  |\n|  Revenus | 75'836'027 | 72'667'987 | 69'694'361.90 | 3'168'040 | 6'141'665.50  |\n|  Résultats | -1'081'930 | -2'509'157 | -1'971'201.42 | 1'427'226 | 889'270.98  |\n\nAbstraction faite de l'impact défavorable du Covid-19 estimé à Fr. 3.54 mios et dont la compensation est proposée par une dissolution de réserve de Fr. 3.50 mios, le budget 2021 présente un excédent de charges de Fr. 1.08 mio, soit un déficit plus favorable que celui du budget 2020 (qui se montait à Fr. 2.51 mios suite à notamment un amendement de la Commission des finances concernant les 1.5 point d'impôts affectés à l'amortissement du nouveau Collège Courbet, soit une charge comptable supplémentaire de Fr. 998'500.--).\n\nEn effet, les charges augmentent de Fr. 1'740'814.-- ou 2.32% par rapport au budget 2020, évolution principalement due à des amortissements compensés par des revenus issus de prélèvements sur réserves et une diminution estimée des coûts de la péréquation (facture sociale, péréquation directe, réforme policière) en lien avec une baisse attendue des recettes fiscales.\n\nLes revenus, quant à eux, augmentent de Fr. 3'168'040.-- ou 4.36% par rapport au budget 2020, progression liée pour l'essentiel aux prélèvements sur réserves cités pour compenser les amortissements.\n\nLe déficit prévisionnel de Fr. 1'081'930.-- représente 1.41% des charges totales du projet de budget 2021, alors que le déficit budgétaire 2020 en représentait le 2.42%.\n\n\f\n\nAu niveau de l'autofinancement, le budget 2021 dégage un montant négatif de Fr. 3.82 mios, en baisse en comparaison avec la marge également négative de Fr. 1.52 mio du budget 2020. Ce montant s'explique principalement par la baisse prévue des recettes fiscales.\n\n## 2. Eléments-clés\n\n### 2.1. Taux d'imposition\n\nConformément à l'article 33 de la loi sur les impôts communaux (LICom), les arrêtés d'imposition, dont la durée ne peut excéder 5 ans, doivent être soumis à l'approbation du Département en charge des relations avec les communes après avoir été adoptés par les conseils communaux ou généraux. La publication dans la Feuille des avis officiels (FAO) a lieu annuellement au début du mois de décembre.\n\nLors de sa séance du 30 octobre 2019, le Conseil communal a voté le préavis N° 12/2019 concernant l'arrêté d'imposition pour les années 2020-2021, maintenant le coefficient d'impôt communal à 64%, dont 1.5 point affectés à l'amortissement du nouveau Collège Courbet.\n\nTechniquement, le budget 2021 est ainsi basé sur le coefficient d'impôt communal à 64% et les 1.5 point affectés sont comptabilisés comme une charge (attribution à fonds de réserve) de Fr. 930'000.-- via le compte 210.3809.00 \"Attributions - Impôt affecté NCC\", selon le même principe que pour le budget 2020.\n\n### 2.2. Impact du Covid-19\n\nSuite aux comptes 2019 et en lien avec l'épidémie de Covid-19, les recettes d'impôts 2021 ont été révisées à la baisse, avec des revenus supposés inférieurs de Fr. 3.86 mios par rapport au budget 2020 (v2), dont Fr. 3.19 mios directement en lien avec le Covid-19.\n\nLa baisse des recettes fiscales 2021 a un effet favorable : les coûts de la facture sociale, de la péréquation directe et de la réforme policière devraient diminuer à F"
+    },
+    {
+      "document_id": "doc_0ca3497c063fa73541fa",
+      "title": "Budget 2022",
+      "fiscal_year": 2022,
+      "pages": 98,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_0ca3497c063fa73541fa",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2022",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2022_LTDP.pdf",
+          "filename": "Budget_2022_LTDP.pdf",
+          "listing_year": 2022,
+          "legislature": "2021-2026",
+          "document_date": "2021-11-03",
+          "content_hash": "c604197ff42455624c1115a444475b35874a676f4bc8d8c6cff9044b9c2f1fd9",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2022,
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "preavis_number": "22/2021",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 80178059.0,
+          "total_revenues": 78577132.0,
+          "projected_surplus_or_deficit": -1600927.0,
+          "planned_investment_total": 16480000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 259350,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              20
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 48682,
+            "clean_words": 48346,
+            "removed_blocks": 36,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "Les commentaires des comptes en gras figurent à la fin de chaque service.",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICE (AVEC COMMENTAIRES)",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| --- | --- | --- | --- |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 48346,
+            "native_pdf_words": 24555
+          }
+        }
+      },
+      "chunks": 125,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 662,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 2419,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 4025,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 3878,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 4140,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 349,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 3807,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 3835,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 2561,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1928,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 3359,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 3331,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2294,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2169,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2132,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2031,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 1653,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 48,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 21,
+          "characters": 801,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 23,
+          "characters": 1254,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 2374,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 1956,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 28,
+          "characters": 2341,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2610,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2438,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2633,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2683,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2453,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2329,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2010,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2526,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2455,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2167,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 1820,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2822,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2481,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2710,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 1835,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2446,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2740,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 1679,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2445,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 909,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2286,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2331,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2418,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2413,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2695,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2507,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2576,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 1732,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 555,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2396,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2567,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2476,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2408,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2487,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2368,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2475,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2222,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 1932,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2192,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 840,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2479,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2641,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2536,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2233,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2417,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 1923,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2129,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2008,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2292,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1734,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 1114,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2401,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2639,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2629,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2661,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2211,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 1572,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 29,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 88,
+          "characters": 1747,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 1248,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 1707,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 905,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 93,
+          "characters": 1491,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 811,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 96,
+          "characters": 4459,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 3214,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2251,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2022_LTDP.pdf",
+      "preview": "BUDGET 2022\n\n\f\n\n# BUDGET 2022\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 22/2021 : projet de budget 2022 | 1  |\n|  **Compte de fonctionnement** | **19**  |\n|  Récapitulation par services | 19  |\n|  Charges et revenus par services | 21  |\n|  Compte de fonctionnement par services (avec commentaires) | 23  |\n|  1 - Administration générale | 23  |\n|  2 - Finances | 39  |\n|  3 - Domaines et bâtiments | 44  |\n|  4 - Urbanisme et travaux publics | 54  |\n|  5 - Instruction publiques et cultes | 65  |\n|  6 - Sécurité, population, feu | 73  |\n|  7 - Famille, jeunesse, sport et culture | 76  |\n|  Charges et revenus par natures | 83  |\n|  Autofinancement et endettement | 87  |\n|  **Investissements** | **89**  |\n|  Plan des investissements et entretien | 89  |\n\n\f\n\nPréavis\n\n\f\n\n## PRÉAVIS MUNICIPAL N° 22/2021\n\nle 3 novembre 2021\n\nProjet de budget de la Commune pour l'exercice 2022\n\n10.03-2110-PAD-rc-Preavis_22-Budget-2022-LTDP.docx\n\nAu Conseil communal de\n\nMonsieur le Président, Mesdames et Messieurs,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la loi sur les communes du 28 février 1956 et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2022.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des communes, ainsi qu'aux directives et plan comptable de la Direction générale des affaires institutionnelles et des communes (DGAIC) du Canton.\n\nLe projet de budget 2022 laisse apparaître le résultat suivant :\n\n|   | Budget 2022 (v1 Muni) | Budget 2021 (v2 CC) | Comptes 2020 | Ecarts du budget 2021  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B22/B21 | B22/C20  |\n|  Charges | 80'178'059 | 76'975'358 | 72'570'280.20 | 3'202'701 | 7'607'779  |\n|  Revenus | 78'577'132 | 75'950'157 | 71'182'986.10 | 2'626'975 | 7'394'146  |\n|  Résultats | -1'600'927 | -1'025'200 | -1'387'294.10 | -575'727 | -213'632  |\n\n### 2. En bref\n\nAbstraction faite de l'impact défavorable du Covid-19 estimé à Fr. 2.15 mios et dont la compensation est proposée par une dissolution de réserve du même montant, le budget 2022 présente un excédent de charges de Fr. 1.60 mio, soit un déficit un peu moins favorable que celui du budget 2021 de Fr. 1.03 mio.\n\nCet excédent de charges représente 2% des dépenses totales du projet de budget 2022, alors que le déficit budgétaire 2021 en représentait le 1.33%.\n\nEn effet, les charges (brutes, avec écritures comptables) augmentent de Fr. 3.20 mios ou 4.16% par rapport au budget 2021, évolution principalement due à une augmentation des amortissements compensés par des revenus issus de prélèvements sur réserves, alors que les coûts estimés de la péréquation (cohésion sociale, péréquation directe, réforme policière) baissent en lien avec une diminution supposée des recettes fiscales. Les charges nettes (épurées des écritures comptables) augmentent de Fr. 1.41 mio ou 2% : elles sont donc toujours maîtrisées.\n\nLes revenus (bruts, avec écritures comptables), quant à eux, augmentent de Fr. 2.63 mios ou 3.46% par rapport au budget 2021, progression liée pour l'essentiel aux prélèvements sur réserves cités pour compenser les\n\n\f\n\namortissements. Les revenus nets (épurés des écritures comptables) se montent à Fr. 66.92 mios au budget 2022, contre Fr. 66.89 mios au budget 2021, soit une évolution moindre de Fr. 0.03 mio ou 0.05%.\n\nAu niveau de l'autofinancement, le budget 2022 dégage un montant négatif de Fr. 5.08 mios, en baisse de Fr. 1.38 mio en comparaison avec la marge également négative du budget 2021 de Fr. 3.71 mios. Ce montant résulte essentiellement d'une estimation prudente des recettes fiscales en lien avec la pandémie.\n\nCe budget 2022 est un budget de transition. Comme détaillé plus loin, la différence entre l'excédent de charges de Fr. 1.60 mio et la marge d'autofinancement négative de Fr. 5.08 mios s'explique principalement par deux prélèvements sur réserves d'un total de Fr. 4.74 mios (Fr. 2.15 mios pour compenser l'impact supposé du Covid-19 sur les recettes fiscales et Fr. 2.59 mios pour la cohésion sociale), ayant pour but de contenir l'impact de ces effets transitoires sur le budget.\n\nSi les recettes fiscales, estimées de manière prudente dans ce budget, devaient être supérieures dans les comptes, cela affectera positivement la marge d'autofinancement.\n\nSi l'initiative 'SOS communes' devait être acceptée par le peuple d'ici 2023, la reprise de la totalité de la cohésion sociale par le Canton pourrait représenter un allégement d'environ Fr. 1.89 mio des charges pour la Commune, donc un effet positif du même montant sur la marge d'autofinancement.\n\nAu vu des éléments ci-dessus, la Municipalité estime que ces deux prélèvements sur réserves (dont le même principe a déjà été appliqué au budget 2021) se justifient et relativisent le montant négatif annoncé pour la marge d'autofinancement, qui pourrait être bien meilleur dans les comptes, dont sa val"
+    },
+    {
+      "document_id": "doc_bf283537b89a902bcb8c",
+      "title": "Budget 2023",
+      "fiscal_year": 2023,
+      "pages": 103,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_bf283537b89a902bcb8c",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2023",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2023_LTDP.pdf",
+          "filename": "Budget_2023_LTDP.pdf",
+          "listing_year": 2023,
+          "legislature": "2021-2026",
+          "document_date": "2022-11-02",
+          "content_hash": "57150f46852dab55b04b908575aff05f722711dea02a6459654fe1e3a24b7661",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2023,
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "preavis_number": "20/2022",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 83898154.0,
+          "total_revenues": 82375171.0,
+          "projected_surplus_or_deficit": -1522983.0,
+          "planned_investment_total": 29415000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 271443,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              21
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 51169,
+            "clean_words": 50832,
+            "removed_blocks": 37,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+              "Les commentaires des comptes en gras figurent à la fin de chaque service.",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 50832,
+            "native_pdf_words": 25113
+          }
+        }
+      },
+      "chunks": 132,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 672,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 2516,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 4031,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 4045,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3420,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 493,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 4150,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 1274,
+          "images": 5,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 2551,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 3186,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1568,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 3924,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2421,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 3471,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 1864,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2184,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 1100,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 1702,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 32,
+          "images": 6,
+          "low_text": true
+        },
+        {
+          "page": 22,
+          "characters": 798,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 24,
+          "characters": 1250,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 26,
+          "characters": 2311,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 1844,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 29,
+          "characters": 2378,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2593,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2327,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2692,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2810,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2516,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2340,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2308,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2301,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2497,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2507,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 657,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 1658,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2993,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 1963,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2894,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2557,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2976,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2034,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2482,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2183,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2286,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2221,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2418,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2463,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2714,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2527,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2562,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 1048,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 1831,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 193,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2482,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2666,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2528,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2494,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2378,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2474,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2471,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 1354,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2318,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2255,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 880,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2494,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2606,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2853,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2260,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2444,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2009,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 1896,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1221,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2383,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 1691,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 344,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2486,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2645,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2623,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2800,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 647,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2187,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 905,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 91,
+          "characters": 1738,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 1244,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 1751,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 914,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 40,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 96,
+          "characters": 1393,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 1266,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 876,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 100,
+          "characters": 4271,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 3261,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 2910,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 1337,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2023_LTDP.pdf",
+      "preview": "BUDGET 2023\n\n\f\n\n# BUDGET 2023\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 20/2022 : projet de budget 2023 | 1  |\n|  **Compte de fonctionnement** | **21**  |\n|  Récapitulation par services | 21  |\n|  Charges et revenus par services | 23  |\n|  Compte de fonctionnement par services (avec commentaires) | 25  |\n|  1 - Administration générale | 25  |\n|  2 - Finances | 41  |\n|  3 - Domaines et bâtiments | 46  |\n|  4 - Urbanisme et travaux publics | 56  |\n|  5 - Instruction publiques et cultes | 68  |\n|  6 - Sécurité, population, feu | 76  |\n|  7 - Famille, jeunesse, sport et culture | 79  |\n|  Charges et revenus par natures | 87  |\n|  Autofinancement, endettement brut et net | 91  |\n|  **Investissements** | **95**  |\n|  Plan des investissements et entretien | 95  |\n\n\f\n\nPréavis\n\n\f\n\n## PRÉAVIS MUNICIPAL N° 20/2022\n\nle 2 novembre 2022\n\nProjet de budget de la Commune pour l'exercice 2023\n\n10.03.02-2209-Preavis-20-Budget-2023.docx\n\nAu Conseil communal de\n\nMesdames et Messieurs les Conseillers communaux,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la loi sur les communes du 28 février 1956 et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2023.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des communes, ainsi qu'aux directives et plan comptable de la Direction générale des affaires institutionnelles et des communes (DGAIC) du Canton.\n\nLe projet de budget 2023 laisse apparaître le résultat suivant :\n\n|   | Budget 2023 (v1 Muni) | Budget 2022 (v2 CC) | Comptes 2021 | Ecarts du budget 2023  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B23/B22 | B23/C21  |\n|  Charges | 83'898'154 | 80'111'304 | 80'274'255.63 | 3'786'850 | 3'623'898.37  |\n|  Revenus | 82'375'171 | 77'561'632 | 80'350'008.91 | 4'813'539 | 2'025'162.09  |\n|  Résultats | -1'522'983 | -2'549'672 | 75'753.28 | 1'026'689 | -1'598'736.28  |\n\n### 2. En bref\n\nLe budget 2023 présente un excédent de charges de Fr. 1'522'983.--, soit un déficit plus favorable que celui du budget 2022 (version 2) de Fr. 2.55 mios. Cet excédent de charges représente 1.82% des dépenses totales du projet de budget 2023, alors que le déficit budgétaire 2022 en représentait le 3.18%. La marge d'autofinancement supposée au budget 2023 est négative de 3.84 mios, plus favorable que celle de -5.01 mios au budget 2022.\n\nCe budget 2023 est un budget courageux. Comme détaillé plus loin, la différence entre l'excédent de charges de Fr. 1.52 mio et la marge d'autofinancement négative de Fr. 3.84 mios est expliquée principalement par deux prélèvements sur réserves d'un total de Fr. 3.74 mios (Fr. 1.60 mio pour compenser l'impact de l'inflation sur les charges et Fr. 2.14 mios pour la cohésion sociale), ayant pour but de contenir l'impact de ces effets transitoires sur le budget.\n\nSi les recettes fiscales, estimées de manière prudemment réaliste dans ce budget, devaient être supérieures dans les comptes, cela affectera positivement la marge d'autofinancement. De même, si le résultat 2023 devait être meilleur que prévu au budget, le prélèvement des Fr. 1.60 mios ne sera peut-être pas nécessaire et augmentera également la marge d'autofinancement.\n\n\f\n\nCharges, revenus, écarts principaux, amortissements, autofinancement, investissements et endettement\n\n- Selon le tableau \"Autofinancement\", les charges (brutes, avec écritures comptables) se montent à Fr. 83.90 mios, contre Fr. 80.11 mios au budget 2022, soit une évolution de Fr. 3.79 mios ou 4.73%. Les charges nettes (épurées des écritures comptables) se montent à Fr. 77.33 mios, contre Fr. 71.94 mios au budget 2022, soit une évolution de Fr. 5.39 mios ou 7.49%. Les charges sont donc toujours maîtrisées en tenant compte du contexte inflationniste.\n\nLes revenus (bruts, avec écritures comptables) se montent à Fr. 82.38 mios, contre Fr. 77.56 mios au budget 2022, soit une évolution de Fr. 4.81 mios ou 6.21%. Les revenus nets (épurés des écritures comptables) se montent à Fr. 73.49 mios, contre Fr. 66.93 mios au budget 2022, soit une évolution de Fr. 6.56 mio ou 9.80%.\n\n- Selon les tableaux \"Ecarts principaux\", les écarts des charges égaux ou supérieurs à Fr. 100'000.-- représentent un total de Fr. 4.24 mios de l'accroissement total des charges de Fr. 3.79 mios, alors que les écarts principaux des revenus expliquent un total de Fr. 6.07 mios de l'accroissement total des revenus de Fr. 4.81 mios.\n- Selon les décomptes finaux des travaux communiqués au Conseil communal d'ici fin 2022, le budget 2023 comporte un montant plus faible d'amortissements (nature 33) de Fr. 3.32 mios par rapport au budget précédent (Fr. 5.30 mios), contre une moyenne de Fr. 2.07 mios lors des trois exercices précédents (comptes 2019 à 2021).\n\nL'essentiel de ces charges d'amortissements sont des amortissements compensés (de nature 332) par des revenus de prélèvements sur réserves (de nature 48). Si ces amo"
+    },
+    {
+      "document_id": "doc_343d73d01160315c6e8a",
+      "title": "Budget 2024",
+      "fiscal_year": 2024,
+      "pages": 103,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_343d73d01160315c6e8a",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2024",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2024.pdf",
+          "filename": "Budget-2024.pdf",
+          "listing_year": 2024,
+          "legislature": "2021-2026",
+          "document_date": "2023-10-09",
+          "content_hash": "f4460b6af33a4b644e734db9cb16ea039ce13c6a6a25073edefe9a2c6d581ca3",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2024,
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "preavis_number": "18/2023",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 85132496.0,
+          "total_revenues": 84272125.0,
+          "projected_surplus_or_deficit": -860371.0,
+          "planned_investment_total": 29365000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 280162,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              20
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 52330,
+            "clean_words": 51929,
+            "removed_blocks": 41,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| --- | --- | --- | --- | --- | --- | --- | --- |",
+              "Les commentaires des comptes en gras figurent à la fin de chaque service.",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "| Ville de la Tour-de-Peilz | | | Budget 2024 (v1/Mun) | | Budget 2023 (v2/CC) | | Comptes 2022 | |",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 51929,
+            "native_pdf_words": 26003
+          }
+        }
+      },
+      "chunks": 135,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 672,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 2524,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 4345,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 3412,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 201,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4130,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 5784,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 1805,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 2534,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1869,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 3806,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 2011,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3479,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2110,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 1939,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1060,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 1767,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 32,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 21,
+          "characters": 774,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 23,
+          "characters": 1268,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 2332,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 1884,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 28,
+          "characters": 2387,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2599,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2370,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2609,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2862,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2487,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2361,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2450,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2193,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2460,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2632,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 1033,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 1946,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2840,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2439,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2495,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 1878,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2558,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2767,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2325,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2161,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 540,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2192,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2421,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2519,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2680,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2514,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2598,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 799,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 1920,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 1671,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2502,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2647,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2562,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2549,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2415,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2463,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2637,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 1812,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2504,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2711,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2965,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 377,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2466,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2548,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2676,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2228,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2455,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2308,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2503,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2014,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2424,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 1722,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 1618,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2602,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2719,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2598,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 2758,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2298,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 782,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 91,
+          "characters": 1741,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 1296,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 1626,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 1049,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 40,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 96,
+          "characters": 1399,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 1742,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 877,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 100,
+          "characters": 4321,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 3147,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 3198,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 2250,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2024.pdf",
+      "preview": "BUDGET 2024\n\n\f\n\n# BUDGET 2024\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 18/2023 : projet de budget 2024 | 1  |\n|  **Compte de fonctionnement** | **19**  |\n|  Récapitulation par services | 19  |\n|  Charges et revenus par services | 21  |\n|  Compte de fonctionnement par services (avec commentaires) | 23  |\n|  1 - Administration générale | 23  |\n|  2 - Finances | 40  |\n|  3 - Domaines et bâtiments | 45  |\n|  4 - Urbanisme et travaux publics | 55  |\n|  5 - Instruction publiques et cultes | 68  |\n|  6 - Sécurité, population, feu | 76  |\n|  7 - Famille, jeunesse, sport et culture | 79  |\n|  Charges et revenus par natures | 85  |\n|  Autofinancement, endettement brut et net | 89  |\n|  **Investissements** | **93**  |\n|  Plan des investissements et entretien | 93  |\n\n\f\n\nPréavis\n\n\f\n\n## PRÉAVIS MUNICIPAL N° 18/2023\n\nle 1$^{er}$ novembre 2023\n\nProjet de budget de la Commune pour l'exercice 2024\n\n10.03.02-2310-Preavis-18-Budget-2024.docx\n\nAu Conseil communal de\n\nMonsieur le Président, Mesdames et Messieurs,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la loi sur les Communes du 28 février 1956 et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2024.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des Communes, ainsi qu'aux directives et plan comptable de la Direction générale des affaires institutionnelles et des Communes (DGAIC) du Canton.\n\nLe projet de budget 2024 laisse apparaître le résultat suivant :\n\n|   | Budget 2024 (v1 Muni) | Budget 2023 (v2 CC) | Comptes 2022 | Ecarts du budget 2024  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B24/B23 | B24/C22  |\n|  Charges | 85'132'496 | 83'521'154 | 78'202'326.69 | 1'611'342 | 6'930'169.31  |\n|  Revenus | 84'272'125 | 82'421'071 | 78'229'511.35 | 1'851'054 | 6'042'613.65  |\n|  Résultats | -860'371 | -1'100'083 | 27'184.66 | 239'712 | -887'555.66  |\n\n### 2. En bref\n\nLe budget 2024 présente un excédent de charges de Fr. 860'371.-, soit un déficit plus favorable que celui du budget 2023 (version 2) de Fr. 1.10 mio. Cet excédent de charges représente 1.01% des dépenses totales du projet de budget 2024, alors que le déficit budgétaire 2023 en représentait le 1.32%. La marge d'autofinancement supposée au budget 2024 est négative de Fr. 3.40 mios, légèrement plus favorable que celle de Fr. -3.42 mios au budget 2023.\n\nCe budget 2024 est un budget dans la continuité, similaire à celui de 2023. Comme détaillé plus loin, la différence entre l'excédent de charges de Fr. 0.86 mio et la marge d'autofinancement négative de Fr. 3.40 mios est expliquée principalement par deux prélèvements sur réserves d'un total de Fr. 3.52 mios (Fr. 1.60 mio pour compenser l'inflation sur les charges et Fr. 0.92 mio pour la péréquation directe, principe identique au budget 2023), ayant pour but de contenir l'impact de ces effets transitoires sur le budget.\n\nSi les recettes fiscales, estimées de manière prudente dans ce budget, devaient être supérieures dans les comptes, cela affectera positivement la marge d'autofinancement. De même, si le résultat 2024 devait être meilleur que prévu au budget, le prélèvement des Fr. 1.60 mios ne sera peut-être pas nécessaire et augmentera également la marge d'autofinancement.\n\n\f\n\nCharges, revenus, écarts principaux, amortissements, autofinancement, investissements et endettement\n\n- Selon le tableau \"Autofinancement\" (voir chapitre 3.9), les charges (brutes, avec écritures comptables) se montent à Fr. 85.13 mios, contre Fr. 83.52 mios au budget 2023, soit une évolution de Fr. 1.61 mio ou 1.93%. Les charges nettes (épurées des écritures comptables) se montent à Fr. 78.69 mios, contre Fr. 76.95 mios au budget 2023, soit une évolution de Fr. 1.74 mio ou 2.26%. Les charges sont donc toujours maîtrisées en tenant compte du contexte inflationniste.\n\nLes revenus (bruts, avec écritures comptables) se montent à Fr. 84.27 mios, contre Fr. 82.42 mios au budget 2023, soit une évolution de Fr. 1.85 mio ou 2.25%. Les revenus nets (épurés des écritures comptables) se montent à Fr. 75.29 mios, contre Fr. 73.53 mios au budget 2023, soit une évolution de Fr. 1.76 mio ou 2.40%.\n\n- Selon les tableaux \"Ecarts principaux\" (voir chapitre 4.1), les écarts des charges égaux ou supérieurs à Fr. 100'000.-- représentent un total de Fr. 0.32 mio de l'accroissement total des charges de Fr. 1.61 mio, alors que les écarts principaux des revenus expliquent un total de Fr. 1.30 mio de l'accroissement total des revenus de Fr. 1.85 mio.\n- Selon les décomptes finaux des travaux communiqués au Conseil communal d'ici fin 2023, le budget 2024 comporte un montant un peu plus faible d'amortissements (nature 33) de Fr. 3.09 mios par rapport au budget précédent (Fr. 3.32 mios), contre une moyenne de Fr. 2.70 mios lors des quatre exercices précédents (comptes 2019 à 2022).\n\nL'essentiel de ces charges d'amortissements sont des amortiss"
+    },
+    {
+      "document_id": "doc_5d3d4a0dc194706e94d3",
+      "title": "Budget 2025",
+      "fiscal_year": 2025,
+      "pages": 109,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_5d3d4a0dc194706e94d3",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2025",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2025_LTDP.pdf",
+          "filename": "Budget_2025_LTDP.pdf",
+          "listing_year": 2025,
+          "legislature": "2021-2026",
+          "document_date": "2024-10-30",
+          "content_hash": "c692f33d87a2537d11d07ae8618c9666baf0db39b1be2f416a4d9c0d55dbbf9a",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2025,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "preavis_number": "33/2024",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 85690163.0,
+          "total_revenues": 85805819.0,
+          "projected_surplus_or_deficit": 115656.0,
+          "planned_investment_total": 26580000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 312924,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              22
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 57302,
+            "clean_words": 57288,
+            "removed_blocks": 12,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "| Ville de la Tour-de-Peilz | | | Budget 2025 (v1/Mun) | | Budget 2024 (v2/CC) | | Comptes 2023 | |",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 57288,
+            "native_pdf_words": 29283
+          }
+        }
+      },
+      "chunks": 147,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 672,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 2584,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 4192,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 3730,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3205,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 1954,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 2497,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 4047,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 3998,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 3906,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 2648,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 2347,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3687,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 4606,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2532,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2434,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2217,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2032,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 1770,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 32,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 23,
+          "characters": 775,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 1268,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 27,
+          "characters": 2351,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 1971,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 30,
+          "characters": 2280,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2289,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2560,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2523,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2462,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2867,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2479,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2646,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2519,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2153,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2573,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2530,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2469,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 758,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2462,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2707,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2825,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 514,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2570,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2611,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2508,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2543,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2755,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2915,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2425,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2889,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 1596,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2664,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2841,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2996,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2689,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2686,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2634,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2408,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2617,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2888,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2644,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 1727,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2652,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2757,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2714,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2676,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2296,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2663,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2568,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2374,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2116,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 925,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2476,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2597,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2595,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2722,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 1935,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2183,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2724,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2301,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2815,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 2870,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2585,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 2536,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 2331,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 2429,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 2463,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 2692,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 2997,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 1354,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 97,
+          "characters": 1819,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 1343,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 1780,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 1087,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 40,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 102,
+          "characters": 1400,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 1278,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 881,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 106,
+          "characters": 4365,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 3145,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 2946,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 1830,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2025_LTDP.pdf",
+      "preview": "BUDGET 2025\n\n\f\n\n# BUDGET 2025\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 33/2024 : projet de budget 2025 | 1  |\n|  **Compte de fonctionnement** | **21**  |\n|  Récapitulation par services | 21  |\n|  Charges et revenus par services | 23  |\n|  Compte de fonctionnement par services (avec commentaires) | 25  |\n|  1 - Administration générale | 25  |\n|  2 - Finances | 39  |\n|  3 - Domaines et bâtiments | 43  |\n|  4 - Urbanisme et travaux publics | 52  |\n|  5 - Instruction publiques et cultes | 63  |\n|  6 - Sécurité, population, feu | 70  |\n|  7 - Famille, jeunesse, sport et culture | 73  |\n|  Charges et revenus par natures | 91  |\n|  Autofinancement, endettement brut et net | 95  |\n|  **Investissements** | **99**  |\n|  Plan des investissements et entretien | 99  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 33/2024\n\nle 30 octobre 2024\n\nBudget de la Commune pour l'exercice 2025\n\n10.03.02-2409-Preavis-33-Budget-2025-LTDP.docx\n\nAu Conseil communal de\n\nMadame la Présidente,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la loi sur les Communes du 28 février 1956 et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2025.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des Communes, ainsi qu'aux directives et plan comptable de la Direction générale des affaires institutionnelles et des communes (DGAIC) du Canton.\n\nLe projet de budget 2025 laisse apparaître le résultat suivant :\n\n|   | Budget 2025 (v1 Muni) | Budget 2024 (v2 CC) | Comptes 2023 | Ecarts du budget 2025  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B25/B24 | B25/C23  |\n|  Charges | 85'690'163 | 84'860'496 | 81'312'537.20 | 829'667 | 4'377'625.80  |\n|  Revenus | 85'805'819 | 84'344'125 | 81'364'432.60 | 1'461'694 | 4'441'386.40  |\n|  Résultats | 115'656 | -516'371 | 51'895.40 | 632'027 | 63'760.60  |\n\n### 2. En bref\n\nPour la première fois depuis plus de 20 ans, le projet de budget 2025 présente un excédent de revenus de Fr. 115'656.-, contre un excédent de charges de Fr. 516'371.- au budget 2024 (version 2). Cet excédent de revenus représente 0.13% des dépenses totales du projet de budget 2025, alors que le déficit budgétaire 2024 en représentait le 0.61%. La marge d'autofinancement supposée au budget 2025 est négative de Fr. 1.88 mio, plus favorable que celle de Fr. -3.05 mios au budget 2024.\n\nLe présent budget s'inscrit dans la continuité, similaire à celui de 2024. Comme détaillé plus loin, la différence entre l'excédent de revenus de Fr. 0.12 mio et la marge d'autofinancement négative de Fr. 1.88 mio est expliquée principalement par deux prélèvements sur réserves d'un total de Fr. 2.15 mios (Fr. 0.86 mio pour compenser l'impact de l'inflation sur les charges et Fr. 1.29 mio pour la péréquation directe, principe identique au budget 2024), ayant pour but de contenir l'impact de ces effets transitoires sur le budget.\n\nSi les recettes fiscales, estimées de manière prudemment réaliste dans ce budget, devaient être supérieures dans les comptes, cela affectera positivement la marge d'autofinancement. De même, si le résultat 2025 devait être meilleur que prévu au budget, les prélèvements sur fonds de réserve ne seront peut-être pas nécessaires, ce qui augmentera également la marge d'autofinancement.\n\n\f\n\nCharges, revenus, écarts principaux, amortissements, autofinancement, investissements et endettement\n\n- Selon le tableau \"Autofinancement\" (voir chapitre 3.9), les charges (brutes, avec écritures comptables) se montent à Fr. 85.69 mios, contre Fr. 84.86 mios au budget 2024, soit une évolution de Fr. 0.83 mio ou 0.98%. Les charges nettes (épurées des écritures comptables) se montent à Fr. 71.88 mios, contre Fr. 78.38 mios au budget 2024, soit une diminution de Fr. 6.50 mios ou 8.29%. Ceci en raison d'une méthode de comptabilisation différente pour la nouvelle péréquation intercommunale vaudoise (NPIV) par rapport à la péréquation actuelle, comme détaillé plus loin sous le chapitre 3.3.\n\nLes revenus (bruts, avec écritures comptables) se montent à Fr. 85.81 mios, contre Fr. 84.34 mios au budget 2024, soit une évolution de Fr. 1.46 mio ou 1.73%. Les revenus nets (épurés des écritures comptables) se montent à Fr. 70.00 mios, contre Fr. 75.33 mios au budget 2024, soit une diminution de Fr. 5.33 mios ou 7.08%, également en raison de la comptabilisation de la NPIV.\n\n- Selon les tableaux \"Ecarts principaux\" (voir chapitre 4.1), les écarts égaux ou supérieurs à Fr. 100'000.- des charges représentent Fr. -7.21 mios (ou Fr. -1.55 mios sans la modification de la comptabilisation de la NPIV de Fr. -5.66 mios) de l'accroissement total des charges de Fr. 0.83 mio, alors que les écarts principaux des revenus expliquent à Fr. -3.90 mios (ou Fr. +3.91 mios sans la modification de la comptabilisation de la NPIV de Fr. -7.81 mios) de l'accroissement total des revenus de Fr. 1.46 mio.\n- Sel"
+    },
+    {
+      "document_id": "doc_59bc958a1aa60cdb563f",
+      "title": "Budget 2026",
+      "fiscal_year": 2026,
+      "pages": 110,
+      "components": [
+        "municipal_budget_preavis",
+        "operating_budget",
+        "investment_plan"
+      ],
+      "warnings": [],
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_59bc958a1aa60cdb563f",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_plan",
+          "category": "budget",
+          "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+          "title": "Budget 2026",
+          "source_title": "Budget",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2026-LTDP.pdf",
+          "filename": "Budget-2026-LTDP.pdf",
+          "listing_year": 2026,
+          "legislature": "2021-2026",
+          "document_date": "2025-10-29",
+          "content_hash": "d7ac7122de0486f872db86f1ba017de3e14d16906a2d254f1f0d072451f747e2",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "budget_metadata": {
+          "fiscal_year": 2026,
+          "period_start": "2026-01-01",
+          "period_end": "2026-12-31",
+          "preavis_number": "30/2025",
+          "components": [
+            "municipal_budget_preavis",
+            "operating_budget",
+            "investment_plan"
+          ],
+          "total_charges": 84253430.0,
+          "total_revenues": 84841245.0,
+          "projected_surplus_or_deficit": 587815.0,
+          "planned_investment_total": 28080000.0
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 307177,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              20
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 58341,
+            "clean_words": 58041,
+            "removed_blocks": 34,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| --- | --- | --- | --- | --- | --- | --- | --- |",
+              "| | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "Les commentaires des comptes en gras figurent à la fin du dernier service.",
+              "| Ville de la Tour-de-Peilz | | | Budget 2026 (v1/Mun) | | Budget 2025 (v2/CC) | | Comptes 2024 | |",
+              "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 58041,
+            "native_pdf_words": 28403
+          }
+        }
+      },
+      "chunks": 150,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 23,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 639,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 2569,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 3812,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 3390,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 201,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 3932,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 5036,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 2152,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 1873,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 2273,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 2946,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 3601,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 2224,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2211,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2212,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1969,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 1762,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 50,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 21,
+          "characters": 773,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 27,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 23,
+          "characters": 1269,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 31,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 2034,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 2060,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 1948,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 302,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 30,
+          "characters": 2340,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2338,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2516,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2487,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2592,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2828,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2568,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2480,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2543,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2206,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 1907,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2518,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2536,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 1792,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2511,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2662,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2813,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 671,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2331,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2287,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2406,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2587,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2667,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2483,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2586,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2709,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 378,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2478,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2630,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2721,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2422,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2587,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2353,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2503,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2325,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2563,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2449,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2016,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2458,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2483,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2749,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2459,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2303,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2435,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2381,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 830,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2415,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2134,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1143,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2542,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2641,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2488,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2738,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2582,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2046,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2651,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 2116,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2818,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 2838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 2379,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 2891,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 2564,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 1967,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 2596,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 2379,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 2709,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 1594,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 30,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 99,
+          "characters": 1813,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 1337,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 1838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 947,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 40,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 104,
+          "characters": 1398,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 1116,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 873,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 37,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 108,
+          "characters": 4952,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 3980,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 2797,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2026-LTDP.pdf",
+      "preview": "BUDGET 2026\n\n\f\n\n# BUDGET 2026\n\n## TABLE DES MATIÈRES\n\n|  **Préavis** | **1**  |\n| --- | --- |\n|  Préavis municipal N° 30/2025 : projet de budget 2026 | 1  |\n|  **Compte de fonctionnement** | **19**  |\n|  Récapitulation par services | 19  |\n|  Charges et revenus par services | 21  |\n|  Compte de fonctionnement par services (avec commentaires) | 25  |\n|  1 - Administration générale | 25  |\n|  2 - Finances | 39  |\n|  3 - Domaines et bâtiments | 43  |\n|  4 - Urbanisme et travaux publics | 53  |\n|  5 - Instruction publiques et cultes | 64  |\n|  6 - Sécurité, population, feu | 72  |\n|  7 - Famille, jeunesse, sport et culture | 75  |\n|  Charges et revenus par natures | 93  |\n|  Autofinancement, endettement brut et net | 97  |\n|  **Investissements** | **101**  |\n|  Plan des investissements et entretien | 101  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 30/2025\n\nle 29 octobre 2025\n\nBudget 2026 de la Commune de La Tour-de-Peilz\n\n10.03.02-2509-Preavis-30-Budget-2026-LTDP.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nEn vertu des dispositions de la loi sur les Communes du 28 février 1956 et du règlement du Conseil communal, la Municipalité a l'honneur de soumettre à votre approbation le projet de budget pour l'année 2026.\n\nIl a été établi conformément au règlement du 14 décembre 1979 sur la comptabilité des Communes, ainsi qu'aux directives et plan comptable de la Direction générale des affaires institutionnelles et des communes (DGAIC) du Canton.\n\nLe projet de budget 2026 laisse apparaître le résultat suivant :\n\n|   | Budget 2026 (v1 Muni) | Budget 2025 (v2 CC) | Comptes 2024 | Ecarts du budget 2026  |   |\n| --- | --- | --- | --- | --- | --- |\n|   |  |  |  | B26/B25 | B26/C24  |\n|  Charges | 84'253'430 | 85'557'663 | 81'728'762.36 | -1'304'233 | 2'524'667.64  |\n|  Revenus | 84'841'245 | 85'922'219 | 81'773'738.44 | -1'080'974 | 3'067'506.56  |\n|  Résultats | 587'815 | 364'556 | 44'976.08 | 223'259 | 542'838.92  |\n\n### 2. En bref\n\nPour la deuxième fois depuis plus de 20 ans, le projet de budget 2026 présente un excédent de revenus de Fr. 587'815.-, supérieur à l'excédent de revenus de Fr. 364'556.- du budget 2025. Ce résultat représente 0.70% des charges totales du projet de budget 2026, alors que l'excédent budgétaire 2025 en représentait le 0.43%. La marge d'autofinancement supposée au budget 2026 est négative de Fr. 1.85 mio, proche de celle de Fr. -1.64 mio au budget 2025.\n\nCe budget 2026 est dans la continuité de celui de 2025. Comme détaillé plus loin, la différence entre l'excédent de revenus de Fr. 0.59 mio et la marge d'autofinancement négative de Fr. 1.85 mios est expliquée principalement par deux prélèvements sur réserves d'un total de Fr. 2.03 mios (Fr. 0.84 mio pour compenser l'impact de l'inflation sur les charges et Fr. 1.19 mio pour la péréquation directe, principe identique au budget 2025), ayant pour but de contenir l'impact de ces effets transitoires sur le budget.\n\nSi les recettes fiscales, estimées de manière prudente dans ce budget, devaient être supérieures dans les comptes, cela affectera positivement la marge d'autofinancement. De même, si le résultat 2026 devait être meilleur que prévu au budget, le prélèvement des Fr. 0.84 mios (pour compenser l'impact de l'inflation sur les charges) ne sera peut-être pas nécessaire et augmentera également la marge d'autofinancement.\n\n\f\n\nCharges, revenus, écarts principaux, amortissements, autofinancement, investissements et endettement\n\n- Selon le tableau \"Autofinancement\" (voir chapitre 3.9), les charges (brutes, avec écritures comptables) se montent à Fr. 84.25 mios, contre Fr. 85.56 mios au budget 2025, soit une diminution de Fr. 1.31 mio ou 1.52%. Les charges nettes (épurées des écritures comptables) se montent à Fr. 73.23 mios, contre Fr. 71.75 mios au budget 2025, soit une augmentation de Fr. 1.48 mio ou 2.06%.\n\nLes revenus (bruts, avec écritures comptables) se montent à Fr. 84.84 mios, contre Fr. 85.92 mios au budget 2025, soit une diminution de Fr. 1.08 mio ou 1.26%. Les revenus nets (épurés des écritures comptables) se montent à Fr. 71.38 mios, contre Fr. 70.11 mios au budget 2025, soit une augmentation de Fr. 1.27 mio ou 1.81%.\n\nCes variations des revenus et des charges sont notamment dues à une diminution de Fr. 2.73 mios d'amortissements compensés par des prélèvements sur fonds de réserve (natures 332 et 48) au budget 2026 par rapport à 2025, voir le point concernant les amortissements ci-dessous.\n\n- Selon les tableaux \"Ecarts principaux\" (voir chapitre 4.1), les écarts égaux ou supérieurs à Fr. 100'000.- des charges représentent Fr. 1.01 mio en comparaison avec la diminution totale des charges de Fr. 1.30 mio, alors que les écarts principaux des revenus représentent Fr. 1.55 mio par rapport à la diminution totale des revenus de Fr. 1.08 mio.\n- Selon les décomptes finaux des travaux communiqués au Conseil communal d'ici fin 2025, le budget 2026 comporte un montant plus faible d'amortissements ("
+    }
+  ]
+}

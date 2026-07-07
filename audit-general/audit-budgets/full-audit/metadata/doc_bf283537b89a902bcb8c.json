@@ -1,0 +1,63 @@
+{
+  "document_metadata": {
+    "document_id": "doc_bf283537b89a902bcb8c",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "financial_plan",
+    "category": "budget",
+    "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+    "title": "Budget 2023",
+    "source_title": "Budget",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2023_LTDP.pdf",
+    "filename": "Budget_2023_LTDP.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-02",
+    "content_hash": "57150f46852dab55b04b908575aff05f722711dea02a6459654fe1e3a24b7661",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "audited"
+  },
+  "budget_metadata": {
+    "fiscal_year": 2023,
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31",
+    "preavis_number": "20/2022",
+    "components": [
+      "municipal_budget_preavis",
+      "operating_budget",
+      "investment_plan"
+    ],
+    "total_charges": 83898154.0,
+    "total_revenues": 82375171.0,
+    "projected_surplus_or_deficit": -1522983.0,
+    "planned_investment_total": 29415000.0
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 271443,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [
+        1,
+        21
+      ]
+    },
+    "header_footer_cleaning": {
+      "raw_words": 51169,
+      "clean_words": 50832,
+      "removed_blocks": 37,
+      "repeated_margin_candidates": [
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+        "Les commentaires des comptes en gras figurent à la fin de chaque service.",
+        "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+        "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |"
+      ]
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 50832,
+      "native_pdf_words": 25113
+    }
+  }
+}

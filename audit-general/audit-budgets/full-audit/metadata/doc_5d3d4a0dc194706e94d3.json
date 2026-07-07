@@ -1,0 +1,65 @@
+{
+  "document_metadata": {
+    "document_id": "doc_5d3d4a0dc194706e94d3",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "financial_plan",
+    "category": "budget",
+    "document_role": "combined_municipal_budget_preavis_operating_budget_investment_plan",
+    "title": "Budget 2025",
+    "source_title": "Budget",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2025_LTDP.pdf",
+    "filename": "Budget_2025_LTDP.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "content_hash": "c692f33d87a2537d11d07ae8618c9666baf0db39b1be2f416a4d9c0d55dbbf9a",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "audited"
+  },
+  "budget_metadata": {
+    "fiscal_year": 2025,
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "preavis_number": "33/2024",
+    "components": [
+      "municipal_budget_preavis",
+      "operating_budget",
+      "investment_plan"
+    ],
+    "total_charges": 85690163.0,
+    "total_revenues": 85805819.0,
+    "projected_surplus_or_deficit": 115656.0,
+    "planned_investment_total": 26580000.0
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 312924,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [
+        1,
+        22
+      ]
+    },
+    "header_footer_cleaning": {
+      "raw_words": 57302,
+      "clean_words": 57288,
+      "removed_blocks": 12,
+      "repeated_margin_candidates": [
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+        "| | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+        "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+        "| Ville de la Tour-de-Peilz | | | Budget 2025 (v1/Mun) | | Budget 2024 (v2/CC) | | Comptes 2023 | |",
+        "| | | | Charges | Revenus | Charges | Revenus | Charges | Revenus |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+      ]
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 57288,
+      "native_pdf_words": 29283
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "source": {
+    "page": "https://www.la-tour-de-peilz.ch/srch/",
+    "endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+    "endpoint_category_id": "4",
+    "note": "L'identifiant 4 sert uniquement à la collecte."
+  },
+  "schema": {
+    "base_fields": [
+      "commune",
+      "document_family",
+      "category",
+      "document_role",
+      "title",
+      "source_title",
+      "source_page_url",
+      "file_url",
+      "filename",
+      "listing_year",
+      "legislature"
+    ],
+    "budget_fields_from_endpoint": [
+      "fiscal_year",
+      "period_start",
+      "period_end"
+    ],
+    "deferred_to_pdf_audit": [
+      "document_date",
+      "components",
+      "total_expenses",
+      "total_revenues",
+      "projected_surplus_or_deficit",
+      "processing"
+    ],
+    "cleaning_policy": {
+      "remove": [
+        "page_numbers",
+        "repeated_running_headers",
+        "repeated_running_footers",
+        "postal_contact_blocks"
+      ],
+      "preserve": [
+        "department_headings",
+        "table_titles",
+        "table_rows",
+        "budget_comments",
+        "preavis_text"
+      ]
+    }
+  },
+  "diagnostics": {
+    "endpoint_rows_all_years": 19,
+    "pages_fetched": 1,
+    "budgets_2021_2026": 6,
+    "unique_pdf_urls": 6,
+    "missing_fiscal_year": 0
+  },
+  "documents": [
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2021",
+      "source_title": "Budget",
+      "source_subject": "Budget 2021",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2021_LTDP.pdf",
+      "filename": "Budget_2021_LTDP.pdf",
+      "listing_year": 2021,
+      "legislature": "2021-2026",
+      "fiscal_year": 2021,
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2022",
+      "source_title": "Budget",
+      "source_subject": "Budget 2022",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2022_LTDP.pdf",
+      "filename": "Budget_2022_LTDP.pdf",
+      "listing_year": 2022,
+      "legislature": "2021-2026",
+      "fiscal_year": 2022,
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2023",
+      "source_title": "Budget",
+      "source_subject": "Budget 2023",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2023_LTDP.pdf",
+      "filename": "Budget_2023_LTDP.pdf",
+      "listing_year": 2023,
+      "legislature": "2021-2026",
+      "fiscal_year": 2023,
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2024",
+      "source_title": "Budget",
+      "source_subject": "Budget 2024",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2024.pdf",
+      "filename": "Budget-2024.pdf",
+      "listing_year": 2024,
+      "legislature": "2021-2026",
+      "fiscal_year": 2024,
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2025",
+      "source_title": "Budget",
+      "source_subject": "Budget 2025",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget_2025_LTDP.pdf",
+      "filename": "Budget_2025_LTDP.pdf",
+      "listing_year": 2025,
+      "legislature": "2021-2026",
+      "fiscal_year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    },
+    {
+      "commune": "La Tour-de-Peilz",
+      "document_family": "financial_plan",
+      "category": "budget",
+      "document_role": "annual_budget",
+      "title": "Budget 2026",
+      "source_title": "Budget",
+      "source_subject": "Budget 2026",
+      "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/budget/Budget-2026-LTDP.pdf",
+      "filename": "Budget-2026-LTDP.pdf",
+      "listing_year": 2026,
+      "legislature": "2021-2026",
+      "fiscal_year": 2026,
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "source_endpoint": "https://www.la-tour-de-peilz.ch/srch/faceted.php",
+      "source_collection": "faceted-search:rapport-gestion-comptes-budget",
+      "canonical_document": true
+    }
+  ],
+  "legacy_comparison": {
+    "new_count": 6,
+    "legacy_count": 6,
+    "common": 6,
+    "only_in_new": [],
+    "only_in_legacy": [],
+    "same_url_set": true
+  }
+}
