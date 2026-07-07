@@ -1,0 +1,4370 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_deff4a52f90b0e1a192b",
+      "title": "Rapport des comptes 2021",
+      "fiscal_year": 2021,
+      "pages": 124,
+      "coverage": 1.0,
+      "components": [
+        "preavis_credits_extra_budgetaires",
+        "preavis_rapport_comptes",
+        "compte_fonctionnement",
+        "compte_investissements",
+        "bilan_et_annexes"
+      ],
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_deff4a52f90b0e1a192b",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_report",
+          "category": "rapport_comptes",
+          "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+          "title": "Rapport des comptes 2021",
+          "source_title": "Rapport des comptes",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2021-Rapport-des-comptes-LTDP.pdf",
+          "filename": "2021-Rapport-des-comptes-LTDP.pdf",
+          "listing_year": 2021,
+          "legislature": "2021-2026",
+          "document_date": "2022-05-11",
+          "content_hash": "75436424f94b8e2e97d1f7e502f4afeb1d52d82908c069545a6161c11d287d2f",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "accounts_metadata": {
+          "fiscal_year": 2021,
+          "period_start": "2021-01-01",
+          "period_end": "2021-12-31",
+          "components": [
+            "preavis_credits_extra_budgetaires",
+            "preavis_rapport_comptes",
+            "compte_fonctionnement",
+            "compte_investissements",
+            "bilan_et_annexes"
+          ],
+          "total_charges": 79174255.63,
+          "total_revenues": 80350008.91,
+          "result_surplus_or_deficit": 1175753.28
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 333974,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              14
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 60022,
+            "clean_words": 59934,
+            "removed_blocks": 12,
+            "repeated_margin_candidates": [
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 59934,
+            "native_pdf_words": 31662
+          }
+        }
+      },
+      "chunks": 155,
+      "green_chunks": 155,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 49,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 1380,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 1475,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 1524,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 1865,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3636,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4105,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 1854,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 3434,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 3049,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1429,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1766,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 78,
+          "images": 6,
+          "low_text": true
+        },
+        {
+          "page": 15,
+          "characters": 3179,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 3613,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2782,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2434,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2704,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2296,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 2400,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 1464,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 965,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 24,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 1559,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 2536,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 2067,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 2648,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2864,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2690,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2944,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 3123,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2740,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2618,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2358,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2722,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2845,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 1746,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2057,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2757,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2319,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 1241,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2752,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 3053,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2072,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2599,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 1351,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2556,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2575,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2692,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2739,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2991,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2812,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2926,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2126,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 950,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2715,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2842,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2848,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2614,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2815,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2739,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2732,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2035,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2011,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 1472,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2777,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2935,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2822,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2539,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2711,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2021,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2352,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2673,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 924,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2628,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 1967,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2005,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2747,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2948,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2956,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 3062,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2138,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2659,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2586,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 1894,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 1330,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 1856,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 979,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 26,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 91,
+          "characters": 1391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 3807,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 2765,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 5,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 95,
+          "characters": 2048,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 1434,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 2067,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2280,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 805,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 2310,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 2569,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 4783,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 4532,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 1139,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 1580,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 1269,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 1365,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 2059,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 941,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 11,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 111,
+          "characters": 3768,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 2515,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 725,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 2471,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 2222,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 12,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 117,
+          "characters": 683,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 643,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 6,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 120,
+          "characters": 3788,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 3894,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 3479,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 2194,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 1786,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DES COMPTES 2021\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  **Préavis** | **3**  |\n| --- | --- |\n|  Préavis municipal N° 6/2022 - Dépenses imprévisibles et exceptionnelles de l'exercice 2021 | 3  |\n|  Préavis municipal N° 7/2022 - Rapport des comptes 2021 de la Commune | 5  |\n|  **Compte de fonctionnement** | **23**  |\n|  Récapitulation par service | 23  |\n|  Charges et revenus par service | 24  |\n|  Compte de fonctionnement par service (avec commentaires) | 26  |\n|  1 - Administration générale | 26  |\n|  2 - Finances | 41  |\n|  3 - Domaines et bâtiments | 46  |\n|  4 - Urbanisme et travaux publics | 55  |\n|  5 - Instruction publique et cultes | 65  |\n|  6 - Sécurité, population, feu | 74  |\n|  7 - Famille, jeunesse, sport et culture | 77  |\n|  Charges et revenus par nature | 84  |\n|  **Compte des investissements** | **89**  |\n|  Plan des dépenses d'investissement | 89  |\n|  Détail des comptes d'investissement | 90  |\n|  **Bilan** | **93**  |\n|  Bilan | 93  |\n|  Inventaire des comptes figurant au bilan | 95  |\n|  Détail des comptes figurant au bilan | 100  |\n|  Investissements, subventions, participations et autres dépenses à amortir | 100  |\n|  Passifs transitoires | 102  |\n|  Financements spéciaux et fonds de réserve | 103  |\n|  **Inventaires** | **109**  |\n|  Inventaire des amortissements et attributions | 109  |\n|  Inventaire des terrains et bâtiments | 110  |\n|  Inventaire des titres | 112  |\n|  **Statistiques** | **115**  |\n|  Financements spéciaux et fonds de réserve | 115  |\n|  Crédits engagés sur fonds de réserve | 116  |\n|  **Divers** | **117**  |\n|  Destination des fondations | 117  |\n|  Collaborations intercommunales | 121  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 6/2022\n\nle 11 mai 2022\n\nDépenses imprévisibles et exceptionnelles de l'exercice 2021\n\n21.07-2104-Préavis-dépenses-imprévisibles-2021.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nConformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2021 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **101.3069.01** | **Frais de séances et divers** |   |\n|  27.09.2021 | Accompagnement externe à l'élaboration du programme de législature 2021-2026 | 15'000.--  |\n|  **101.3091.00** | **Frais de formation** |   |\n|  28.06.2021 | Frais de formation de la Municipalité auprès de l'Union des communes vaudoises | 7'000.--  |\n|  **320.3146.00** | **Entretien du domaine** |   |\n|  24.08.2021 | Travaux d'exploitation de coupes de bois dans le secteur des Lyites | 7'000.--  |\n|  **501.3141.01** | **Rénovation des bâtiments** |   |\n|  13.09.2021 | Prolongation de la location de la chaudière mobile du collège de Bel-Air afin de garantir le chauffage et l'accès à l'eau chaude jusqu'à fin septembre 2021 | 18'500.--  |\n|  **502.3141.00** | **Entretien des bâtiments** |   |\n|  04.10.2021 | Remplacement urgent de vannes électromagnétiques et de pompes au complexe sportif des Mousquetaires | 16'000.--  |\n|  **Total** | **Crédits engagés par la Municipalité** | **63'500.--**  |\n\n\f\n\nPour mémoire, les crédits suivants ont été votés par le Conseil communal lors de sa séance du 24 mars 2021 (préavis municipal N° 4/2021) puis ajoutés au budget 2021 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **160.3658.00** | **Actions de soutien à l'économie** |   |\n|  24.03.2021 | Exonération taxe déchets entreprises 2020 | 45'000.--  |\n|  24.03.2021 | Aide Covid-19 bars-cafés-restaurants | 70'000.--  |\n|  24.03.2021 | Aide Covid-19 autres commerces | 70'000.--  |\n|  24.03.2021 | Bons Covid-19 | 150'000.--  |\n|  **Total** | **Crédits votés par le Conseil communal** | **335'000.--**  |\n\nAinsi, le total des charges du budget 2021 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 77'373'858.-- contre Fr. 76'975'358.-- en version 2 (voté par le Conseil communal).\n\n## 2. Conclusion\n\nEn conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :\n\nLe Conseil communal de La Tour-de-Peilz,\n\n- vu le préavis municipal N° 6/2022\n- ouï le rapport de la Commission de gestion,\n- considérant que cet objet a été porté à l'ordre du jour,\n\n**décide :**\n\n- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2021, pour un montant total de Fr. 63'500.--.\n\nAU NOM DE LA MUNICIPALITÉ\n\nLa Syndique :\n\nLe secrétaire :\n\nSandra Glardon\n\nP.-A. Dupertuis\n\nAdopté par la Municipalité dans sa séance du 25 avril 2022\n\nDélégation municipale : Municipalité in corpore\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 7/2022\n\nle 11 mai 2022\n\nRapport des comptes 2021 de la Commune\n\n10.03.02-2204-Preavis-07-Comptes-2021.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nLors de sa séance du 4 avril 2022, la Municipalité a approuvé les comptes de l'exercice 2021 présentés et commentés ci-dessous.\n\nLes comptes 2021 (avant répartition du résultat) de la Commune présentent :\n\n|  - un total de charges de | Fr. | 79'174'255.63  |\n| --- | --- | --- |\n|  - un total de revenus de | Fr. | 80'350'008.91  |\n|  - un excédent de revenus de | Fr. | 1'175'753.28  |\n\nLe budget 2021 voté le 9 décembre 2020 par le Conseil communal (version 2, sans crédits extrabudgétaires) prévoyait un déficit de Fr. 1'025'200.--.\n\nLa version du budget retenue dans ce préavis, à savoir avec des crédits extrabudgétaires (version 3, voir à ce sujet le préavis municipal N° 6/2022 concernant les dépenses imprévisibles et exceptionnelles de Fr. 398'500.-- de l'exercice 2021), présente un déficit de Fr. 1'423'700.--.\n\nLe résultat des comptes présente ainsi une différence favorable de Fr. 2'599'453.28 par rapport au budget.\n\n### 2. En bref\n\nCet exercice, toujours concerné par la pandémie de la Covid-19 débu",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2021-Rapport-des-comptes-LTDP.pdf",
+      "totals": {
+        "total_charges": 79174255.63,
+        "total_revenues": 80350008.91,
+        "result_surplus_or_deficit": 1175753.28
+      }
+    },
+    {
+      "document_id": "doc_06c30918bd3871ddb6ab",
+      "title": "Rapport des comptes 2022",
+      "fiscal_year": 2022,
+      "pages": 132,
+      "coverage": 1.0,
+      "components": [
+        "preavis_credits_extra_budgetaires",
+        "preavis_rapport_comptes",
+        "compte_fonctionnement",
+        "compte_investissements",
+        "bilan_et_annexes"
+      ],
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_06c30918bd3871ddb6ab",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_report",
+          "category": "rapport_comptes",
+          "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+          "title": "Rapport des comptes 2022",
+          "source_title": "Rapport des comptes",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2022-Rapport-des-comptes-LTDP.pdf",
+          "filename": "2022-Rapport-des-comptes-LTDP.pdf",
+          "listing_year": 2022,
+          "legislature": "2021-2026",
+          "document_date": "2023-05-10",
+          "content_hash": "34f81c3e3dda001bd4ff39f99377fc89c93c4363ba272dbafbd4d17b9b2e95d9",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "accounts_metadata": {
+          "fiscal_year": 2022,
+          "period_start": "2022-01-01",
+          "period_end": "2022-12-31",
+          "components": [
+            "preavis_credits_extra_budgetaires",
+            "preavis_rapport_comptes",
+            "compte_fonctionnement",
+            "compte_investissements",
+            "bilan_et_annexes"
+          ],
+          "total_charges": 77802326.69,
+          "total_revenues": 78229511.35,
+          "result_surplus_or_deficit": 427184.66
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 347494,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 63141,
+            "clean_words": 62585,
+            "removed_blocks": 48,
+            "repeated_margin_candidates": [
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)",
+              "Les commentaires des comptes en gras figurent à la fin de chaque service."
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 62585,
+            "native_pdf_words": 32980
+          }
+        }
+      },
+      "chunks": 162,
+      "green_chunks": 162,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 49,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 1402,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 1619,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 764,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 1800,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3696,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4318,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 1974,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 2916,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 2247,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 3189,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1945,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 1799,
+          "images": 3,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3065,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 4011,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2450,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1761,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2337,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2399,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 2387,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 1440,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 910,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 24,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 1340,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 2563,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 2117,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 2649,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2892,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2649,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2998,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 3137,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2882,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2532,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2581,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2624,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2777,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2824,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2484,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2681,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2297,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2529,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 157,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2828,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 3069,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2363,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2478,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 1048,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2605,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2477,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2711,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2751,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2997,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2810,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2870,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 1248,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 1838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2761,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 396,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2780,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 3014,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2801,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2686,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2808,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2687,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2808,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2678,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 618,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2309,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 1616,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2788,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2915,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2918,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2520,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2683,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2612,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2462,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2330,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 1625,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2746,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 1986,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 955,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2789,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2977,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2955,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 3118,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 821,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2561,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 2803,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 845,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 1897,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 1411,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 1779,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 1138,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 1531,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 26,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 97,
+          "characters": 1408,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 4281,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 3119,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 5,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 101,
+          "characters": 2034,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 1476,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 2198,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2401,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 752,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 2333,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 2635,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 91,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 4719,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 4058,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 1665,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 1183,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 1850,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 1479,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 1282,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 2213,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 955,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 11,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 119,
+          "characters": 4175,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 2515,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 725,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 2472,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 2216,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 12,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 125,
+          "characters": 684,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 126,
+          "characters": 643,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 127,
+          "characters": 6,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 128,
+          "characters": 3760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 129,
+          "characters": 3869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 130,
+          "characters": 3443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 131,
+          "characters": 2181,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 132,
+          "characters": 1781,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DES COMPTES 2022\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  **Préavis** | **3**  |\n| --- | --- |\n|  Préavis municipal N° 8/2023 - Dépenses imprévisibles et exceptionnelles de l'exercice 2022 | 3  |\n|  Préavis municipal N° 9/2023 - Rapport des comptes 2022 de la Commune | 5  |\n|  **Compte de fonctionnement** | **23**  |\n|  Récapitulation par service | 23  |\n|  Charges et revenus par service | 24  |\n|  Compte de fonctionnement par service (avec commentaires) | 26  |\n|  1 - Administration générale | 26  |\n|  2 - Finances | 42  |\n|  3 - Domaines et bâtiments | 47  |\n|  4 - Urbanisme et travaux publics | 58  |\n|  5 - Instruction publique et cultes | 69  |\n|  6 - Sécurité, population, feu | 78  |\n|  7 - Famille, jeunesse, sport et culture | 81  |\n|  Charges et revenus par nature | 89  |\n|  Autofinancement | 93  |\n|  **Compte des investissements** | **95**  |\n|  Plan des dépenses d'investissement | 95  |\n|  Détail des comptes d'investissement | 96  |\n|  **Bilan** | **99**  |\n|  Bilan | 99  |\n|  Inventaire des comptes figurant au bilan | 101  |\n|  Détail des comptes figurant au bilan | 107  |\n|  Investissements, subventions, participations et autres dépenses à amortir | 107  |\n|  Passifs transitoires | 110  |\n|  Financements spéciaux et fonds de réserve | 111  |\n|  **Inventaires** | **117**  |\n|  Inventaire des amortissements et attributions | 117  |\n|  Inventaire des terrains et bâtiments | 118  |\n|  Inventaire des titres | 120  |\n|  **Statistiques** | **123**  |\n|  Financements spéciaux et fonds de réserve | 123  |\n|  Crédits engagés sur fonds de réserve | 124  |\n|  **Divers** | **125**  |\n|  Destination des fondations | 125  |\n|  Collaborations intercommunales | 129  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 8/2023\n\nle 10 mai 2023\n\nDépenses imprévisibles et exceptionnelles de l'exercice 2022\n\n10.03.02-2305-Preavis-08-Depenses-imprevisibles-2022.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n# 1. Objet du préavis\n\nConformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2022 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **152.3011.00** | **ABCDé (bibliothèque-ludothèque) > Traitements** |   |\n|  23.01.2023 | Heures supplémentaires en lien avec la fusion, le déménagement, l'installation et le lancement de la nouvelle biblio-ludothèque ABCDé | 4'258.--  |\n|  **340.3141.01** | **Bâtiments locatifs > Rénovation des bâtiments** |   |\n|  08.11.2022 | Travaux de rénovation appartement 31 dans bâtiment locatif Traménaz 24 | 31'000.--  |\n|  **350.3141.54** | **Bâtiments administratifs > Entretien restaurant du Château** |   |\n|  11.04.2022 | Installation terrasse et commodités restaurant du Château | 45'000.--  |\n|  **440.3115.00** | **Parcs et promenades > Achats de véhicules** |   |\n|  26.09.2022 | Remplacement véhicule utilitaire secteur Espaces publics | 40'000.--  |\n|  **580.3141.00** | **Eglise évangélique réformée > Entretien des bâtiments** |   |\n|  02.05.2022 | Travaux d'entretien de l'orgue du Temple | 6'500.--  |\n|  **Total** |  | **126'758.--**  |\n\nAinsi, le total des charges du budget 2022 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 80'238'062.-- contre Fr. 80'111'304.-- en version 2 (voté par le Conseil communal).\n\n\f\n\n## 2. Conclusion\n\nEn conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :\n\nLe Conseil communal de La Tour-de-Peilz,\n\n- vu le préavis municipal N° 8/2023\n- ouï le rapport de la Commission de gestion,\n- considérant que cet objet a été porté à l'ordre du jour,\n\ndécide :\n\n- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2022, pour un montant total de Fr. 126'758.--.\n\nAU NOM DE LA MUNICIPALITÉ\n\nLa Syndique :\n\nLe secrétaire :\n\nSandra Pasquier\n\nP.-A. Dupertuis\n\nAdopté par la Municipalité dans sa séance du 24 avril 2023.\n\nDélégation municipale : Municipalité in corpore\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 9/2023\n\nle 10 mai 2023\n\nRapport des comptes 2022 de la Commune.\n\n10.03.02-2305-Preavis-09-Comptes-2022-LTP.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nLors de sa séance du 3 avril 2023, la Municipalité a approuvé les comptes de l'exercice 2022 présentés et commentés ci-dessous.\n\nLes comptes 2022 (avant répartition du résultat) de la Commune présentent :\n\n|  - un total de charges de | Fr. | 77'802'326.69  |\n| --- | --- | --- |\n|  - un total de revenus de | Fr. | 78'229'511.35  |\n|  - un excédent de revenus de | Fr. | 427'184.66  |\n\nLe budget 2022 voté le 8 décembre 2021 par le Conseil communal (version 2, sans crédits extrabudgétaires) prévoyait un déficit de Fr. 2'549'672.--.\n\nLa version du budget retenue dans ce préavis, à savoir avec des crédits extrabudgétaires (version 3, voir à ce sujet le préavis municipal N° 8/2023 concernant les dépenses imprévisibles et exceptionnelles de Fr. 126'758.-- de l'exercice 2022), présente un déficit de Fr. 2'676'430.--.\n\nLe résultat des comptes (avant répartition du résultat) présente ainsi une différence favorable de Fr. 3'103'614.66 par rapport au budget.\n\n### 2. En bref\n\nCet exercice pourrait être résumé comme suit : \"Un bel exercice compte tenu du contexte Covid-19 incertain lors de l'élaboration du budget, avec à nouveau un bénéfice et une marge d'autofinancement réjouissante comme en 2021, grâce à des charges maîtrisées et des recettes fiscales supérieures au budget\".\n\nLes éléments-clé sont les suivants :\n\n#### 2.1. Éléments favorables\n\n- Un excédent de revenus (Fr. 0.43 mio) meilleur que budgétisé (excédent de charges de Fr. 2.68 mios), soit une différence favorable de Fr. 3.10 mios\n\n\f\n\n- - Des charges nettes (hors écritures comptables) de Fr. 69.27 mios inférieures aux Fr. 72.06 mios au budget, soit une différence favorable de",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2022-Rapport-des-comptes-LTDP.pdf",
+      "totals": {
+        "total_charges": 77802326.69,
+        "total_revenues": 78229511.35,
+        "result_surplus_or_deficit": 427184.66
+      }
+    },
+    {
+      "document_id": "doc_f329a83bb14290350ebf",
+      "title": "Rapport des comptes 2023",
+      "fiscal_year": 2023,
+      "pages": 125,
+      "coverage": 1.0,
+      "components": [
+        "preavis_credits_extra_budgetaires",
+        "preavis_rapport_comptes",
+        "compte_fonctionnement",
+        "compte_investissements",
+        "bilan_et_annexes"
+      ],
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_f329a83bb14290350ebf",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_report",
+          "category": "rapport_comptes",
+          "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+          "title": "Rapport des comptes 2023",
+          "source_title": "Rapport des comptes",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2023-Rapport-des-comptes-LTDP.pdf",
+          "filename": "2023-Rapport-des-comptes-LTDP.pdf",
+          "listing_year": 2023,
+          "legislature": "2021-2026",
+          "document_date": "2024-05-15",
+          "content_hash": "f95b1051740aab414d481c2933c8e0f9325458d39184ae46084bec2bbd20e117",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "accounts_metadata": {
+          "fiscal_year": 2023,
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "components": [
+            "preavis_credits_extra_budgetaires",
+            "preavis_rapport_comptes",
+            "compte_fonctionnement",
+            "compte_investissements",
+            "bilan_et_annexes"
+          ],
+          "total_charges": 80612537.2,
+          "total_revenues": 81364432.6,
+          "result_surplus_or_deficit": 751895.4
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 344150,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 61926,
+            "clean_words": 61838,
+            "removed_blocks": 12,
+            "repeated_margin_candidates": [
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 61838,
+            "native_pdf_words": 32279
+          }
+        }
+      },
+      "chunks": 161,
+      "green_chunks": 161,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 49,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 1365,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 1145,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 730,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 1871,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3701,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4240,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 1606,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 2944,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 1741,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1909,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 1500,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 14,
+          "characters": 1802,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3269,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 3896,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2581,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1755,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2021,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2352,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 2364,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 1408,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 959,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 24,
+          "characters": 24,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 25,
+          "characters": 1339,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 2500,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 2097,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 2405,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2709,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2622,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2721,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2936,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2637,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2428,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2474,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2258,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2417,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 3009,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 1265,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2601,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2851,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2452,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2621,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2299,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2490,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2513,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2989,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2596,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2899,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 1170,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2838,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2770,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2791,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2537,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2830,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2451,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2803,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2604,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 1373,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2570,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2878,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2849,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2326,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2491,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2689,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2531,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2266,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2657,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 3006,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2677,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2914,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 646,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2230,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 2464,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2133,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2597,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 2186,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2404,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2374,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2390,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 1856,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 1987,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 1884,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 1391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 1851,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 1120,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 1433,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 26,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 89,
+          "characters": 1401,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 4321,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 3236,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 905,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 5,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 94,
+          "characters": 1944,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 1415,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 2252,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 2593,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 1034,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 2397,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 2663,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 391,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 4194,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 5230,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 2677,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 1065,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 2025,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 1735,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 1113,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 2845,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 1195,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 11,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 112,
+          "characters": 4840,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 2683,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 765,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 2477,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 2345,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 12,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 118,
+          "characters": 685,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 643,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 6,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 121,
+          "characters": 3760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 3869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 3443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 2181,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 125,
+          "characters": 1758,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DES COMPTES 2023\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  **Préavis** | **3**  |\n| --- | --- |\n|  Préavis municipal N° 11/2024 - Dépenses imprévisibles et exceptionnelles de l'exercice 2023 | 3  |\n|  Préavis municipal N° 12/2024 - Rapport des comptes 2023 de la Commune | 5  |\n|  **Compte de fonctionnement** | **23**  |\n|  Récapitulation par services | 23  |\n|  Charges et revenus par services | 24  |\n|  Compte de fonctionnement par services (avec commentaires) | 26  |\n|  1 - Administration générale | 26  |\n|  2 - Finances | 38  |\n|  3 - Domaines et bâtiments | 41  |\n|  4 - Urbanisme et travaux publics | 49  |\n|  5 - Instruction publique et cultes | 58  |\n|  6 - Sécurité, population, feu | 64  |\n|  7 - Famille, jeunesse, sport et culture | 66  |\n|  Charges et revenus par natures | 81  |\n|  Autofinancement | 85  |\n|  **Compte des investissements** | **87**  |\n|  Plan des dépenses d'investissement | 87  |\n|  Détail des comptes d'investissement | 88  |\n|  **Bilan** | **91**  |\n|  Bilan | 91  |\n|  Inventaire des comptes figurant au bilan | 93  |\n|  Détail des comptes figurant au bilan | 99  |\n|  Investissements, subventions, participations et autres dépenses à amortir | 99  |\n|  Passifs transitoires | 102  |\n|  Financements spéciaux et fonds de réserve | 103  |\n|  **Inventaires** | **109**  |\n|  Inventaire des amortissements et attributions | 109  |\n|  Inventaire des terrains et bâtiments | 110  |\n|  Inventaire des titres | 112  |\n|  **Statistiques** | **115**  |\n|  Financements spéciaux et fonds de réserve | 115  |\n|  Crédits engagés sur fonds de réserve | 116  |\n|  **Divers** | **117**  |\n|  Destination des fondations | 117  |\n|  Collaborations intercommunales | 121  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 11/2024\n\nle 15 mai 2024\n\nDépenses imprévisibles et exceptionnelles de l'exercice 2023\n\n10.03.02-2404-Preavis-11-Depenses-imprevisibles-2023.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n# 1. Objet du préavis\n\nConformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2023 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **441.3141.00** | **Cimetière > Entretien des bâtiments** |   |\n|  08.05.2023 | Alimentation électrique pour conteneur provisoire au Cimetière de Vassin | 13'000.--  |\n|  **706.3185.00** | **Accueil de jour des enfants > Honoraires, études, expertises** |   |\n|  11.09.2023 | Etude pour la gouvernance du nouveau réseau LTDP (succédant dès 2024 au réseau LAC) | 29'200.--  |\n|  **Total** |  | **42'200.--**  |\n\nAinsi, le total des charges du budget 2023 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 83'563'354.-- contre Fr. 83'521'154.-- en version 2 (voté par le Conseil communal).\n\n\f\n\n## 2. Conclusion\n\nEn conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :\n\nLe Conseil communal de La Tour-de-Peilz,\n\n- vu le préavis municipal N° 11/2024\n- ouï le rapport de la Commission de gestion,\n- considérant que cet objet a été porté à l'ordre du jour,\n\ndécide :\n\n- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2023, pour un montant total de Fr. 42'200.--.\n\nAU NOM DE LA MUNICIPALITÉ\n\nLa Syndique :\n\nLe Secrétaire :\n\nSandra Pasquier\n\nP.-A. Dupertuis\n\nAdopté par la Municipalité dans sa séance du 22 avril 2024.\n\nDélégation municipale : Municipalité in corpore\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 12/2024\n\nle 15 mai 2024\n\nRapport des comptes 2023 de la Commune de La Tour-de-Peilz\n\n21.07-240515-Préavis-comptes-2023.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nLors de sa séance du 22 avril 2024, la Municipalité a approuvé les comptes de l'exercice 2023 présentés et commentés ci-dessous.\n\nLes comptes 2023 (avant répartition du résultat) de la Commune présentent :\n\n|  - un total de charges de | Fr. | 80'612'537.20  |\n| --- | --- | --- |\n|  - un total de revenus de | Fr. | 81'364'432.60  |\n|  - un excédent de revenus de | Fr. | 751'895.40  |\n\nLe budget 2023 voté le 7 décembre 2022 par le Conseil communal (version 2, sans crédits extrabudgétaires) prévoyait un déficit de Fr. 1'100'083.--.\n\nLa version du budget retenue dans ce préavis, à savoir avec des crédits extrabudgétaires (version 3, voir à ce sujet le préavis municipal N° 11/2024 concernant les dépenses imprévisibles et exceptionnelles de Fr. 42'200.-- de l'exercice 2023), présente un déficit de Fr. 1'142'283.--.\n\nLe résultat des comptes (avant répartition du résultat) présente ainsi une différence favorable de Fr. 1'894'178.40 par rapport au budget.\n\n### 2. En bref\n\nCet exercice pourrait être résumé comme suit : \"Un bel exercice 2023 dans la continuité du précédent, présentant un bénéfice et une marge d'autofinancement supérieurs à 2022, grâce à des charges maîtrisées et des recettes fiscales supérieures au budget, avec des investissements presque entièrement autofinancés et un endettement inchangé\".\n\nLes éléments-clé sont les suivants :\n\n#### 2.1. Éléments favorables\n\n# Résultat\n\n- Un excédent de revenus (Fr. 0.75 mio avant répartition du résultat) meilleur que budgété (excédent de charges de Fr. 1.14 mios), soit une différence favorable de Fr. 1.89 mios\n\n\f\n\n# Charges\n\n- Des charges nettes (hors écritures comptables) de Fr. 73.73 mios inférieures aux Fr. 76.99 mios au budget, soit une différence favorable de Fr. 3.26 mios\n- Concernant les transports, de bonnes nouvelles au sujet de la participation au déficit des VMCV qui devrait être proche du budget (Fr. 2.15 mios) et un solde favorable de l'année précédente de Fr. 0.46 mio tout comme la participation aux coûts non couverts du trafic régional (DGMR) de Fr. 1.50 mio contre Fr. 1.68 mio au budget\n- La participation à l'Association Sécurité Riviera (ASR) se monte à Fr. 3.74 mios contre Fr",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2023-Rapport-des-comptes-LTDP.pdf",
+      "totals": {
+        "total_charges": 80612537.2,
+        "total_revenues": 81364432.6,
+        "result_surplus_or_deficit": 751895.4
+      }
+    },
+    {
+      "document_id": "doc_8d5dd482aee4a046aeab",
+      "title": "Rapport des comptes 2024",
+      "fiscal_year": 2024,
+      "pages": 125,
+      "coverage": 1.0,
+      "components": [
+        "preavis_credits_extra_budgetaires",
+        "preavis_rapport_comptes",
+        "compte_fonctionnement",
+        "compte_investissements",
+        "bilan_et_annexes"
+      ],
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_8d5dd482aee4a046aeab",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_report",
+          "category": "rapport_comptes",
+          "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+          "title": "Rapport des comptes 2024",
+          "source_title": "Rapport des comptes",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2024-Rapport-des-comptes-LTDP.pdf",
+          "filename": "2024-Rapport-des-comptes-LTDP.pdf",
+          "listing_year": 2024,
+          "legislature": "2021-2026",
+          "document_date": "2025-05-14",
+          "content_hash": "871d9b34f2e4fee2b0ddae44ade1fac7e24e3fe151057965ccef0d020e49819b",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "accounts_metadata": {
+          "fiscal_year": 2024,
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "components": [
+            "preavis_credits_extra_budgetaires",
+            "preavis_rapport_comptes",
+            "compte_fonctionnement",
+            "compte_investissements",
+            "bilan_et_annexes"
+          ],
+          "total_charges": 80871439.86,
+          "total_revenues": 81773738.44,
+          "result_surplus_or_deficit": 902298.58
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 345585,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              13
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 62447,
+            "clean_words": 61956,
+            "removed_blocks": 43,
+            "repeated_margin_candidates": [
+              "Les commentaires des comptes en gras figurent à la fin du dernier service.",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICE (AVEC COMMENTAIRES)"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 61956,
+            "native_pdf_words": 31160
+          }
+        }
+      },
+      "chunks": 161,
+      "green_chunks": 161,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 49,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 1386,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 1657,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 914,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 1751,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3000,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4454,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 1973,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 3450,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 1884,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 1869,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 71,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 14,
+          "characters": 2124,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3599,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 1601,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 2781,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 1332,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 1140,
+          "images": 2,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2587,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 1406,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 914,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 24,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 24,
+          "characters": 1340,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 1987,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 1968,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 1881,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 302,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2412,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2697,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2434,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2762,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2924,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2651,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2535,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2486,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2286,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2516,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2814,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 1183,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2583,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 2808,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2755,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2413,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 2364,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 2489,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2530,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2766,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2603,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2697,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 1379,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2612,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2878,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2561,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2573,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2515,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2432,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2587,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2570,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 1599,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2592,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2678,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2828,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2409,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2421,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 2595,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 412,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2510,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 2190,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2688,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2756,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2747,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2863,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 974,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2295,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2229,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 3246,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2191,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2764,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2307,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2163,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2598,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 2179,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 1329,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 1885,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 1389,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 1846,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 1121,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 1437,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 26,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 91,
+          "characters": 1409,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 4329,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 3172,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 5,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 95,
+          "characters": 1985,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 1440,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 2178,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2767,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 1429,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 2316,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 2623,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 3940,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 6028,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 1619,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 1887,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 1653,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 107,
+          "characters": 1185,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 2615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 1133,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 11,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 111,
+          "characters": 3751,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 112,
+          "characters": 4029,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 2724,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 765,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 2568,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 2223,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 12,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 118,
+          "characters": 686,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 644,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 6,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 121,
+          "characters": 3760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 3869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 3443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 2181,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 125,
+          "characters": 1758,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DES COMPTES 2024\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  **Préavis** | **3**  |\n| --- | --- |\n|  Préavis municipal N° 7/2025 - Dépenses imprévisibles et exceptionnelles de l'exercice 2024 | 3  |\n|  Préavis municipal N° 8/2025 - Rapport des comptes 2024 de la Commune | 5  |\n|  **Compte de fonctionnement** | **23**  |\n|  Récapitulation par service | 23  |\n|  Charges et revenus par service | 24  |\n|  Compte de fonctionnement par service (avec commentaires) | 28  |\n|  1 - Administration générale | 28  |\n|  2 - Finances | 40  |\n|  3 - Domaines et bâtiments | 43  |\n|  4 - Urbanisme et travaux publics | 51  |\n|  5 - Instruction publique et cultes | 60  |\n|  6 - Sécurité, population, feu | 67  |\n|  7 - Famille, jeunesse, sport et culture | 69  |\n|  Charges et revenus par nature | 84  |\n|  Autofinancement | 88  |\n|  **Compte des investissements** | **89**  |\n|  Plan des dépenses d'investissement | 89  |\n|  Détail des comptes d'investissement | 90  |\n|  **Bilan** | **93**  |\n|  Bilan | 93  |\n|  Inventaire des comptes figurant au bilan | 95  |\n|  Détail des comptes figurant au bilan | 100  |\n|  Investissements, subventions, participations et autres dépenses à amortir | 100  |\n|  Financements spéciaux et fonds de réserve | 103  |\n|  **Inventaires** | **109**  |\n|  Inventaire des amortissements, attributions et prélèvements | 109  |\n|  Inventaire des terrains et bâtiments | 111  |\n|  Inventaire des titres | 113  |\n|  **Statistiques** | **115**  |\n|  Financements spéciaux et fonds de réserve | 115  |\n|  Crédits engagés sur fonds de réserve | 116  |\n|  **Divers** | **117**  |\n|  Destination des fondations | 117  |\n|  Collaborations intercommunales | 121  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 7/2025\n\nle 14 mai 2025\n\nDépenses imprévisibles et exceptionnelles de l'exercice 2024\n\n10.03.02-2503-Preavis-07-Depenses-imprevisibles.docx\n\nAu Conseil communal de\n\nMadame la Présidente,\nMesdames et Messieurs,\n\n# 1. Objet du préavis\n\nConformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2024 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **151.3141.00** | **Salle des remparts > Entretien des bâtiments** |   |\n|  **501.3141.00** | **Bâtiments scolaires > Entretien des bâtiments** |   |\n|  25.03.2024 | Rapports-diagnostics \"amiante\" pour le Canton concernant : - la Salle des Remparts - sept bâtiments scolaires | 4'060.- 37'500.-  |\n|  **301.3115.00** | **Service d'entretien > Achats de véhicules** |   |\n|  29.04.2024 | Véhicule de service pour le menuisier | 21'400.-  |\n|  **341.3141.26** | **Places de stationnement > Entretien parking des Mousquetaires** |   |\n|  01.07.2024 | 6 bornes pour véhicules électriques au Parking des Mousquetaires | 31'000.-  |\n|  **350.3141.00** | **Bâtiments administratifs > Entretien des bâtiments** |   |\n|  25.11.2024 | Entretien des bâtiments administratifs | 40'000.-  |\n|  **351.3141.00** | **Bâtiments structures d'accueil > Entretien des structures d'accueil** |   |\n|  13.05.2024 | Stores et toiles de tente pour les UAPE Croqu'Lune et Terreaux | 33'000.-  |\n|  **660.3156.00** | **Protection civile > Entretien points de rencontre d'urgence** |   |\n|  21.11.2022 | Equipement des points de rencontre d'urgence (PRU) en cas de pénurie énergétique (imposé par le Canton) | 47'000.-  |\n|  **Total** |  | **213'960.-**  |\n\n\f\n\nAinsi, le total des charges du budget 2024 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 85'074'456.- contre Fr. 84'860'496.- en version 2 (voté par le Conseil communal).\n\n## 2. Conclusion\n\nEn conclusion, nous vous demandons, Madame la Présidente, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :\n\nLe Conseil communal de La Tour-de-Peilz,\n\n- vu le préavis municipal N° 7/2025\n- vu le rapport de la Commission de gestion,\n- considérant que cet objet a été porté à l'ordre du jour,\n\ndécide :\n\n- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2024, pour un montant total de Fr. 213'960.-.\n\nAU NOM DE LA MUNICIPALITÉ\n\nLa syndique :\n\nLe secrétaire :\n\nSandra Pasquier\n\nP.-A. Dupertuis\n\nAdopté par la Municipalité dans sa séance du 7 avril 2025.\n\nDélégation municipale : Municipalité in corpore\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 8/2025\n\nle 14 mai 2025\n\nRapport des comptes 2024 de la Commune de La Tour-de-Peilz\n\n10.03.02-2503-Preavis-08-Comptes-2024.docx\n\nAu Conseil communal de\n\nMadame la Présidente,\nMesdames et Messieurs,\n\n### 1. Objet du préavis\n\nLors de sa séance du 24 mars 2025, la Municipalité a approuvé les comptes de l'exercice 2024 présentés et commentés ci-dessous.\n\nLes comptes 2024 (avant répartition du résultat) de la Commune présentent :\n\n|  - un total de charges de | Fr. | 80'871'439.86  |\n| --- | --- | --- |\n|  - un total de revenus de | Fr. | 81'773'738.44  |\n|  **- un excédent de revenus de** | **Fr.** | **902'298.58**  |\n\nLe budget 2024 voté le 13 décembre 2023 par le Conseil communal (version 2, sans crédits extrabudgétaires) prévoyait un déficit de Fr. 516'371.-.\n\nLa version du budget retenue dans ce préavis, à savoir avec des crédits extrabudgétaires (version 3, voir à ce sujet le préavis municipal N° 7/2025 concernant les dépenses imprévisibles et exceptionnelles de Fr. 213'960.- de l'exercice 2024), présente un déficit de Fr. 730'331.-.\n\nLe résultat des comptes (avant répartition du résultat) présente ainsi une différence favorable de Fr. 1'632'629.58 par rapport au budget.\n\n### 2. En bref\n\nCet exercice pourrait être résumé comme suit : \"Un bel exercice 2024 dans la continuité du précédent, présentant un bénéfice (avant répartition du résultat) supérieur aux deux années précédentes et une marge d'autofinancement supérieure à la moyenne des cinq dernières années, grâce à des charges maîtrisées et des recettes fiscales supérieures au budget, avec des investissements entièrement autofinancé",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2024-Rapport-des-comptes-LTDP.pdf",
+      "totals": {
+        "total_charges": 80871439.86,
+        "total_revenues": 81773738.44,
+        "result_surplus_or_deficit": 902298.58
+      }
+    },
+    {
+      "document_id": "doc_729286eb0169b444d188",
+      "title": "Rapport des comptes 2025",
+      "fiscal_year": 2025,
+      "pages": 144,
+      "coverage": 1.0,
+      "components": [
+        "preavis_credits_extra_budgetaires",
+        "preavis_rapport_comptes",
+        "compte_fonctionnement",
+        "compte_investissements",
+        "bilan_et_annexes"
+      ],
+      "warnings": [],
+      "audit": {
+        "base_missing": [],
+        "additional_missing": [],
+        "warnings": []
+      },
+      "metadata": {
+        "document_metadata": {
+          "document_id": "doc_729286eb0169b444d188",
+          "commune": "La Tour-de-Peilz",
+          "document_family": "financial_report",
+          "category": "rapport_comptes",
+          "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+          "title": "Rapport des comptes 2025",
+          "source_title": "Rapport des comptes",
+          "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+          "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2025-Rapport-des-comptes-LTDP.pdf",
+          "filename": "2025-Rapport-des-comptes-LTDP.pdf",
+          "listing_year": 2025,
+          "legislature": "2021-2026",
+          "document_date": "2026-05-06",
+          "content_hash": "b6237c223015ad06c23e4c9d71e8f4f2026bc3d259649299c29fc579ce1a472b",
+          "extraction_method": "mistral_ocr",
+          "processing_status": "audited"
+        },
+        "accounts_metadata": {
+          "fiscal_year": 2025,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "components": [
+            "preavis_credits_extra_budgetaires",
+            "preavis_rapport_comptes",
+            "compte_fonctionnement",
+            "compte_investissements",
+            "bilan_et_annexes"
+          ],
+          "total_charges": 78100659.17,
+          "total_revenues": 78291230.67,
+          "result_surplus_or_deficit": 190571.5
+        },
+        "processing": {
+          "text_extraction_status": {
+            "characters_extracted": 410643,
+            "text_available": true,
+            "needs_ocr": false,
+            "page_text_coverage": 1.0,
+            "low_text_image_pages": [
+              1,
+              13
+            ]
+          },
+          "header_footer_cleaning": {
+            "raw_words": 73917,
+            "clean_words": 73829,
+            "removed_blocks": 12,
+            "repeated_margin_candidates": [
+              "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+              "## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)"
+            ]
+          },
+          "selected_text": {
+            "method": "mistral_ocr",
+            "words": 73829,
+            "native_pdf_words": 37288
+          }
+        }
+      },
+      "chunks": 192,
+      "green_chunks": 192,
+      "yellow_chunks": 0,
+      "red_chunks": 0,
+      "page_stats": [
+        {
+          "page": 1,
+          "characters": 49,
+          "images": 1,
+          "low_text": true
+        },
+        {
+          "page": 2,
+          "characters": 1394,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 3,
+          "characters": 7,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 4,
+          "characters": 1703,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 5,
+          "characters": 2244,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 6,
+          "characters": 1898,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 7,
+          "characters": 3041,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 8,
+          "characters": 4531,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 9,
+          "characters": 2112,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 10,
+          "characters": 3314,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 11,
+          "characters": 1590,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 12,
+          "characters": 2222,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 13,
+          "characters": 71,
+          "images": 2,
+          "low_text": true
+        },
+        {
+          "page": 14,
+          "characters": 2862,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 15,
+          "characters": 3181,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 16,
+          "characters": 2874,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 17,
+          "characters": 3087,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 18,
+          "characters": 2081,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 19,
+          "characters": 2229,
+          "images": 1,
+          "low_text": false
+        },
+        {
+          "page": 20,
+          "characters": 2544,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 21,
+          "characters": 1352,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 22,
+          "characters": 911,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 23,
+          "characters": 24,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 24,
+          "characters": 1340,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 25,
+          "characters": 1954,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 26,
+          "characters": 1969,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 27,
+          "characters": 1873,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 28,
+          "characters": 302,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 29,
+          "characters": 2406,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 30,
+          "characters": 2365,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 31,
+          "characters": 2655,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 32,
+          "characters": 2547,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 33,
+          "characters": 2646,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 34,
+          "characters": 2938,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 35,
+          "characters": 2652,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 36,
+          "characters": 2615,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 37,
+          "characters": 2607,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 38,
+          "characters": 2290,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 39,
+          "characters": 2103,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 40,
+          "characters": 2486,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 41,
+          "characters": 2738,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 42,
+          "characters": 1292,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 43,
+          "characters": 2569,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 44,
+          "characters": 2780,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 45,
+          "characters": 3070,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 46,
+          "characters": 747,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 47,
+          "characters": 2746,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 48,
+          "characters": 2613,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 49,
+          "characters": 2341,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 50,
+          "characters": 2430,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 51,
+          "characters": 2645,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 52,
+          "characters": 2737,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 53,
+          "characters": 2541,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 54,
+          "characters": 2942,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 55,
+          "characters": 2068,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 56,
+          "characters": 2787,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 57,
+          "characters": 2977,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 58,
+          "characters": 2773,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 59,
+          "characters": 2624,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 60,
+          "characters": 2502,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 61,
+          "characters": 2486,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 62,
+          "characters": 2386,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 63,
+          "characters": 2447,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 64,
+          "characters": 2945,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 65,
+          "characters": 2713,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 66,
+          "characters": 952,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 67,
+          "characters": 2573,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 68,
+          "characters": 2795,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 69,
+          "characters": 3155,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 70,
+          "characters": 2673,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 71,
+          "characters": 2260,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 72,
+          "characters": 2708,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 73,
+          "characters": 2697,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 74,
+          "characters": 853,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 75,
+          "characters": 2526,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 76,
+          "characters": 2441,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 77,
+          "characters": 1319,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 78,
+          "characters": 2647,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 79,
+          "characters": 2952,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 80,
+          "characters": 2582,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 81,
+          "characters": 2823,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 82,
+          "characters": 2632,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 83,
+          "characters": 490,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 84,
+          "characters": 2616,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 85,
+          "characters": 2768,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 86,
+          "characters": 2668,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 87,
+          "characters": 2393,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 88,
+          "characters": 2751,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 89,
+          "characters": 3354,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 90,
+          "characters": 2527,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 91,
+          "characters": 2400,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 92,
+          "characters": 2500,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 93,
+          "characters": 2911,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 94,
+          "characters": 2713,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 95,
+          "characters": 2639,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 96,
+          "characters": 2747,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 97,
+          "characters": 2358,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 98,
+          "characters": 2597,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 99,
+          "characters": 2806,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 100,
+          "characters": 1170,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 101,
+          "characters": 1883,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 102,
+          "characters": 1378,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 103,
+          "characters": 1906,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 104,
+          "characters": 973,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 105,
+          "characters": 1432,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 106,
+          "characters": 26,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 107,
+          "characters": 1414,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 108,
+          "characters": 4244,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 109,
+          "characters": 4011,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 110,
+          "characters": 873,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 111,
+          "characters": 5,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 112,
+          "characters": 1977,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 113,
+          "characters": 1419,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 114,
+          "characters": 2024,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 115,
+          "characters": 3054,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 116,
+          "characters": 1979,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 117,
+          "characters": 2292,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 118,
+          "characters": 2787,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 119,
+          "characters": 248,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 120,
+          "characters": 5326,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 121,
+          "characters": 5185,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 122,
+          "characters": 3630,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 123,
+          "characters": 1780,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 124,
+          "characters": 1982,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 125,
+          "characters": 1257,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 126,
+          "characters": 1780,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 127,
+          "characters": 1850,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 128,
+          "characters": 493,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 129,
+          "characters": 11,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 130,
+          "characters": 4526,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 131,
+          "characters": 3475,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 132,
+          "characters": 2708,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 133,
+          "characters": 765,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 134,
+          "characters": 2678,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 135,
+          "characters": 2194,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 136,
+          "characters": 12,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 137,
+          "characters": 686,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 138,
+          "characters": 644,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 139,
+          "characters": 6,
+          "images": 0,
+          "low_text": true
+        },
+        {
+          "page": 140,
+          "characters": 3760,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 141,
+          "characters": 3869,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 142,
+          "characters": 3443,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 143,
+          "characters": 2181,
+          "images": 0,
+          "low_text": false
+        },
+        {
+          "page": 144,
+          "characters": 1758,
+          "images": 0,
+          "low_text": false
+        }
+      ],
+      "preview": "RAPPORT DES COMPTES 2025\n\n\f\n\n# TABLE DES MATIÈRES\n\n|  **Préavis** | **3**  |\n| --- | --- |\n|  Préavis municipal N° 7/2026 - Dépenses imprévisibles et exceptionnelles de l'exercice 2025 | 3  |\n|  Préavis municipal N° 8/2026 - Rapport des comptes 2025 de la Commune | 5  |\n|  **Compte de fonctionnement** | **23**  |\n|  Récapitulation par service | 23  |\n|  Charges et revenus par service | 24  |\n|  Compte de fonctionnement par service (avec commentaires) | 28  |\n|  1 - Administration générale | 28  |\n|  2 - Finances | 42  |\n|  3 - Domaines et bâtiments | 46  |\n|  4 - Urbanisme et travaux publics | 55  |\n|  5 - Instruction publique et cultes | 66  |\n|  6 - Sécurité, population, feu | 74  |\n|  7 - Famille, jeunesse, sport et culture | 77  |\n|  Charges et revenus par nature | 100  |\n|  Autofinancement | 104  |\n|  **Compte des investissements** | **105**  |\n|  Plan des dépenses d'investissement | 105  |\n|  Détail des comptes d'investissement | 106  |\n|  **Bilan** | **109**  |\n|  Bilan | 109  |\n|  Inventaire des comptes figurant au bilan | 111  |\n|  Détail des comptes figurant au bilan | 117  |\n|  Investissements, subventions, participations et autres dépenses à amortir | 117  |\n|  Financements spéciaux et fonds de réserve | 120  |\n|  **Inventaires** | **127**  |\n|  Inventaire des amortissements, attributions et prélèvements | 127  |\n|  Inventaire des terrains et bâtiments | 129  |\n|  Inventaire des titres | 131  |\n|  **Statistiques** | **133**  |\n|  Financements spéciaux et fonds de réserve | 133  |\n|  Crédits engagés sur fonds de réserve | 134  |\n|  **Divers** | **135**  |\n|  Destination des fondations | 135  |\n|  Collaborations intercommunales | 139  |\n\n\f\n\nPréavis\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 7/2026\n\nle 6 mai 2026\n\nDépenses imprévisibles et exceptionnelles de l'exercice 2025\n\n21.07-250331-Préavis-dépenses-imprévisibles-2025.docx\n\nAu Conseil communal de\n\nMonsieur le Président,\nMesdames et Messieurs,\n\n# 1. Objet du préavis\n\nConformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2025 :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  **100.3101.00** | **Conseil communal > Frais pour votations et élections** |   |\n|  09.02.2026 | Scrutin du 18 mai 2025 sur l'arrêté d'imposition 2025-2026 | 12'479.-  |\n|  **150.3143.00** | **Affaires culturelles > Affichage culturel** |   |\n|  17.11.2025 | Rachat du parc de panneaux d'affichage public | 26'000.-  |\n|  **150.3653.28** | **Affaires culturelles > Subventions - Cinéma en plein air** |   |\n|  05.05.2025 | Augmentation du nombre de soirées du Cinéma Plein air 2025 | 4'500.-  |\n|  **155.3189.00** | **Fête de la jeunesse > Forains, fanfares cortège, divers** |   |\n|  19.05.2025 | Nouveau concept d'implantation de la Fête de la jeunesse | 25'000.-  |\n|  **170.3145.00** | **Stades > Entretien du terrain de Bel-Air (SDOM)** |   |\n|  27.01.2025 | Réfection de la surface de jeu de l'Inline Hockey Club | 29'000.-  |\n|  **350.3141.00** | **Bâtiments administratifs > Entretien des bâtiments** |   |\n|  19.05.2025 | Chaudière provisoire bâtiment de la Faraz (Chemin de Béranges 111) | 37'600.-  |\n|  **630.3188.02** | **Santé publique > Lutte contre espèces envahissantes** |   |\n|  26.05.2025 | Lutte contre le frelon asiatique et autres espèces envahissantes | 7'000.-  |\n|  **Total des crédits complémentaires à voter par le Conseil communal** |   | **141'579.-**  |\n\n\f\n\nPar ailleurs, le 19 mars 2025, le Conseil communal a déjà voté les postes budgétaires suivants en acceptant le préavis N° 2/2025 pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste de dessinateur architecte à 60 % au sein du Service domaines & bâtiments :\n\n|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |\n| --- | --- | --- |\n|  300.3011.00 | Administration (SDOM) > Traitements | 139'000.-  |\n|  300.3030.00 | Administration (SDOM) > Cotisations AVS/AI/AC/APG/ALFA/PCFam | 12'900.-  |\n|  300.3040.00 | Administration (SDOM) > Caisse de retraite | 28'100.-  |\n|  300.3050.01 | Administration (SDOM) > Assurance maladie perte de gain | 2'700.-  |\n|  300.3051.00 | Administration (SDOM) > Assurances accidents | 1'300.-  |\n|  300.3182.00 | Administration (SDOM) > Téléphones | 300.-  |\n|  300.3902.01 | Administration (SDOM) > Imput. internes - Maintenance informatique | 3'000.-  |\n|  190.4902.01 | Service informatique > Imput. internes - Maintenance informatique | - 3'000.-  |\n|  19.03.2025 | Postes chef de projet et dessinateur architecte SDOM (préavis N° 2/2025) |   |\n|   | **Total des crédits complémentaires déjà votés par le Conseil communal** | **184'300.-**  |\n\nAinsi, le total des charges du budget 2025 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 85'886'542.- contre Fr. 85'557'663.- en version 2.2 (voté par le Conseil communal, mais adapté après le référendum sur l'arrêté d'imposition 2025-2026 du 18 mars 2025).\n\nDe même, le total des revenus du budget 2025 en version 3 se monte à Fr. 85'925'219.- contre Fr. 85'922'219.- en version 2.2.\n\n## 2. Conclusion\n\nEn conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :\n\nLe Conseil communal de La Tour-de-Peilz,\n\n- vu le préavis municipal N° 7/2026\n- oui le rapport de la Commission de gestion,\n- considérant que cet objet a été porté à l'ordre du jour,\n\ndécide :\n\n- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2025, pour un montant total de Fr. 141'579.-.\n\nAU NOM DE LA MUNICIPALITÉ\n\nLa Syndique :\n\nLe Secrétaire :\n\nSandra Pasquier\n\nP.-A. Dupertuis\n\nAdopté par la Municipalité dans sa séance du 13 avril 2026.\n\nDélégation municipale : Municipalité in corpore\n\n\f\n\n# PRÉAVIS MUNICIPAL N° 8/2026\n\nle 6 mai 2026\n\nRapport des comptes 2025 de la Commune de La Tour-de-Peilz\n\n10.03.02-2604-Preavis-08-C",
+      "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2025-Rapport-des-comptes-LTDP.pdf",
+      "totals": {
+        "total_charges": 78100659.17,
+        "total_revenues": 78291230.67,
+        "result_surplus_or_deficit": 190571.5
+      }
+    }
+  ]
+}

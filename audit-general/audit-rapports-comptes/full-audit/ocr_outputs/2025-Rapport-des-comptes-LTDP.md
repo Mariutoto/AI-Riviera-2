@@ -1,0 +1,5183 @@
+![img-0.jpeg](img-0.jpeg)
+
+RAPPORT DES COMPTES 2025
+
+
+
+# TABLE DES MATIÈRES
+
+|  **Préavis** | **3**  |
+| --- | --- |
+|  Préavis municipal N° 7/2026 - Dépenses imprévisibles et exceptionnelles de l'exercice 2025 | 3  |
+|  Préavis municipal N° 8/2026 - Rapport des comptes 2025 de la Commune | 5  |
+|  **Compte de fonctionnement** | **23**  |
+|  Récapitulation par service | 23  |
+|  Charges et revenus par service | 24  |
+|  Compte de fonctionnement par service (avec commentaires) | 28  |
+|  1 - Administration générale | 28  |
+|  2 - Finances | 42  |
+|  3 - Domaines et bâtiments | 46  |
+|  4 - Urbanisme et travaux publics | 55  |
+|  5 - Instruction publique et cultes | 66  |
+|  6 - Sécurité, population, feu | 74  |
+|  7 - Famille, jeunesse, sport et culture | 77  |
+|  Charges et revenus par nature | 100  |
+|  Autofinancement | 104  |
+|  **Compte des investissements** | **105**  |
+|  Plan des dépenses d'investissement | 105  |
+|  Détail des comptes d'investissement | 106  |
+|  **Bilan** | **109**  |
+|  Bilan | 109  |
+|  Inventaire des comptes figurant au bilan | 111  |
+|  Détail des comptes figurant au bilan | 117  |
+|  Investissements, subventions, participations et autres dépenses à amortir | 117  |
+|  Financements spéciaux et fonds de réserve | 120  |
+|  **Inventaires** | **127**  |
+|  Inventaire des amortissements, attributions et prélèvements | 127  |
+|  Inventaire des terrains et bâtiments | 129  |
+|  Inventaire des titres | 131  |
+|  **Statistiques** | **133**  |
+|  Financements spéciaux et fonds de réserve | 133  |
+|  Crédits engagés sur fonds de réserve | 134  |
+|  **Divers** | **135**  |
+|  Destination des fondations | 135  |
+|  Collaborations intercommunales | 139  |
+
+
+
+Préavis
+
+
+
+# PRÉAVIS MUNICIPAL N° 7/2026
+
+le 6 mai 2026
+
+Dépenses imprévisibles et exceptionnelles de l'exercice 2025
+
+21.07-250331-Préavis-dépenses-imprévisibles-2025.docx
+
+Au Conseil communal de
+1814 La Tour-de-Peilz
+
+Monsieur le Président,
+Mesdames et Messieurs,
+
+# 1. Objet du préavis
+
+Conformément à l'article 135 du règlement du Conseil communal, nous soumettons à votre approbation les crédits complémentaires que la Municipalité a engagé durant l'exercice 2025 :
+
+|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |
+| --- | --- | --- |
+|  **100.3101.00** | **Conseil communal > Frais pour votations et élections** |   |
+|  09.02.2026 | Scrutin du 18 mai 2025 sur l'arrêté d'imposition 2025-2026 | 12'479.-  |
+|  **150.3143.00** | **Affaires culturelles > Affichage culturel** |   |
+|  17.11.2025 | Rachat du parc de panneaux d'affichage public | 26'000.-  |
+|  **150.3653.28** | **Affaires culturelles > Subventions - Cinéma en plein air** |   |
+|  05.05.2025 | Augmentation du nombre de soirées du Cinéma Plein air 2025 | 4'500.-  |
+|  **155.3189.00** | **Fête de la jeunesse > Forains, fanfares cortège, divers** |   |
+|  19.05.2025 | Nouveau concept d'implantation de la Fête de la jeunesse | 25'000.-  |
+|  **170.3145.00** | **Stades > Entretien du terrain de Bel-Air (SDOM)** |   |
+|  27.01.2025 | Réfection de la surface de jeu de l'Inline Hockey Club | 29'000.-  |
+|  **350.3141.00** | **Bâtiments administratifs > Entretien des bâtiments** |   |
+|  19.05.2025 | Chaudière provisoire bâtiment de la Faraz (Chemin de Béranges 111) | 37'600.-  |
+|  **630.3188.02** | **Santé publique > Lutte contre espèces envahissantes** |   |
+|  26.05.2025 | Lutte contre le frelon asiatique et autres espèces envahissantes | 7'000.-  |
+|  **Total des crédits complémentaires à voter par le Conseil communal** |   | **141'579.-**  |
+
+
+
+Par ailleurs, le 19 mars 2025, le Conseil communal a déjà voté les postes budgétaires suivants en acceptant le préavis N° 2/2025 pour la création d'un poste de chef de projet entre 80 % et 100 % et d'un poste de dessinateur architecte à 60 % au sein du Service domaines & bâtiments :
+
+|  Compte / Date | Libellé du compte / Objet du crédit | Montant  |
+| --- | --- | --- |
+|  300.3011.00 | Administration (SDOM) > Traitements | 139'000.-  |
+|  300.3030.00 | Administration (SDOM) > Cotisations AVS/AI/AC/APG/ALFA/PCFam | 12'900.-  |
+|  300.3040.00 | Administration (SDOM) > Caisse de retraite | 28'100.-  |
+|  300.3050.01 | Administration (SDOM) > Assurance maladie perte de gain | 2'700.-  |
+|  300.3051.00 | Administration (SDOM) > Assurances accidents | 1'300.-  |
+|  300.3182.00 | Administration (SDOM) > Téléphones | 300.-  |
+|  300.3902.01 | Administration (SDOM) > Imput. internes - Maintenance informatique | 3'000.-  |
+|  190.4902.01 | Service informatique > Imput. internes - Maintenance informatique | - 3'000.-  |
+|  19.03.2025 | Postes chef de projet et dessinateur architecte SDOM (préavis N° 2/2025) |   |
+|   | **Total des crédits complémentaires déjà votés par le Conseil communal** | **184'300.-**  |
+
+Ainsi, le total des charges du budget 2025 en version 3 (avec crédits extra-budgétaires) se monte à Fr. 85'886'542.- contre Fr. 85'557'663.- en version 2.2 (voté par le Conseil communal, mais adapté après le référendum sur l'arrêté d'imposition 2025-2026 du 18 mars 2025).
+
+De même, le total des revenus du budget 2025 en version 3 se monte à Fr. 85'925'219.- contre Fr. 85'922'219.- en version 2.2.
+
+## 2. Conclusion
+
+En conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter la conclusion suivante :
+
+Le Conseil communal de La Tour-de-Peilz,
+
+- vu le préavis municipal N° 7/2026
+- oui le rapport de la Commission de gestion,
+- considérant que cet objet a été porté à l'ordre du jour,
+
+décide :
+
+- d'accepter les dépenses imprévisibles et exceptionnelles engagées par la Municipalité, dans le cadre de ses compétences, lors de l'exercice 2025, pour un montant total de Fr. 141'579.-.
+
+AU NOM DE LA MUNICIPALITÉ
+
+La Syndique :
+
+Le Secrétaire :
+
+Sandra Pasquier
+
+P.-A. Dupertuis
+
+Adopté par la Municipalité dans sa séance du 13 avril 2026.
+
+Délégation municipale : Municipalité in corpore
+
+
+
+# PRÉAVIS MUNICIPAL N° 8/2026
+
+le 6 mai 2026
+
+Rapport des comptes 2025 de la Commune de La Tour-de-Peilz
+
+10.03.02-2604-Preavis-08-Comptes-2025.docx
+
+Au Conseil communal de
+1814 La Tour-de-Peilz
+
+Monsieur le Président,
+Mesdames et Messieurs,
+
+### 1. Objet du préavis
+
+Lors de sa séance du 23 mars 2026, la Municipalité a approuvé les comptes de l'exercice 2025 présentés et commentés ci-dessous.
+
+Les comptes 2025 (avant répartition du résultat) de la Commune présentent :
+
+|  - un total de charges de | Fr. | 78'100'659.17  |
+| --- | --- | --- |
+|  - un total de revenus de | Fr. | 78'291'230.67  |
+|  **- un excédent de revenus de** | **Fr.** | **190'571.50**  |
+
+Le budget 2025 voté le 11 décembre 2024 par le Conseil communal (version 2, sans crédits extra-budgétaires) prévoyait des charges de Fr. 86'309'663.- et des revenus de Fr. 86'674'219.-, soit un excédent de revenus de Fr. 364'556.-.
+
+Suite à l'acceptation par la population du référendum sur l'arrêté d'imposition 2025-2026 du 18 mai 2025, le budget ajusté prévoyait des charges de Fr. 85'557'663.- et des revenus de Fr. 85'922'219.-, le résultat de Fr. 364'556.- restant inchangé.
+
+La version du budget retenue dans ce préavis, à savoir avec des crédits extrabudgétaires (version 3, voir à ce sujet le préavis municipal N° 7/2026 concernant les dépenses imprévisibles et exceptionnelles de Fr. 325'879.- de l'exercice 2025), présente un excédent de revenus de Fr. 38'677.-.
+
+### 2. En bref
+
+Cet exercice pourrait être résumé comme suit : "Un exercice 2025 dans la continuité du précédent, présentant un bénéfice (avant répartition du résultat) supérieur au budget et une marge d'autofinancement proche de celle de l'année précédente, grâce à des charges maîtrisées et des recettes fiscales stables, avec des investissements conséquents".
+
+Les éléments-clé (avant répartition du résultat) sont les suivants :
+
+
+
+## 2.1. Eléments favorables
+
+# Résultat
+
+- Un excédent de revenus (Fr. 0.19 mio) meilleur que budgété (excédent de revenus de Fr. 0.04 mio), soit une différence favorable de Fr. 0.15 mio.
+
+# Charges
+
+- Des charges nettes (hors écritures comptables) de Fr. 68.49 mios inférieures aux Fr. 72.07 mios du budget, soit une différence favorable de Fr. 3.59 mios.
+- Concernant les transports, une participation (acomptes) au déficit des VMCV de Fr. 2.29 mios et un solde favorable de l'année précédente de Fr. 0.62 mio tout comme la participation aux coûts non couverts du trafic régional (DGMR) de Fr. 1.54 mio contre Fr. 1.81 mio au budget.
+- Une participation à l'Association Sécurité Riviera (ASR) de Fr. 3.59 mios contre Fr. 4.02 mios au budget.
+- Une participation au Réseau RéEL (ayant succédé au Réseau LAC dès 2025) de Fr. 5.71 mios contre Fr. 6.80 mios au budget.
+- Des charges péréquatives (péréquation directe, réforme policière et cohésion sociale) estimées à Fr. 19.11 mios, proches du budget de Fr. 19.96 mios, comprenant un solde à recevoir de Fr. 2.09 mios par rapport aux acomptes versés.
+
+# Revenus
+
+- Des revenus nets (hors écritures comptables) de Fr. 71.66 mios contre Fr. 70.11 mios au budget, soit une différence favorable de Fr. 1.55 mii.
+- Des recettes fiscales (selon tableau "Evolution des impôts 2021 à 2025" en annexe) avec des impôts supérieurs sur les personnes physiques de Fr. 2.48 mios et sur les personnes morales de Fr. 0.28 mios aux comptes 2024.
+- Vu l'excédent de revenus, il n'y a pas été nécessaire de procéder aux prélèvements compensatoires sur fonds de réserve prévus au budget de Fr. 0.86 mio pour l'inflation et Fr. 3.24 mios pour la péréquation.
+
+# Autofinancement
+
+- Une marge d'autofinancement positive de Fr. 3.18 mios, contrairement au budget qui prévoyait un montant négatif de Fr. 1.96 mio, proche de la marge d'autofinancement de 2024 (Fr. 3.54 mios).
+
+# Investissements
+
+- Des dépenses d'investissements brutes (sans recettes ni amortissements) de Fr. 12.30 mios contre Fr. 3.55 mios en 2024.
+- Des investissements nets (dépenses moins recettes, hors amortissements) de Fr. 9.71 mios, contre Fr. 2.07 mios en 2024.
+
+# Endettement
+
+- Des emprunts à court terme (Fr. 10 mios en 2025 contre Fr. 0 mio en 2024, rubrique 921) à un taux d'intérêt pondéré de 0.26% et à long terme (Fr. 50 mios en 2025 contre Fr. 55 mios en 2024, rubrique 922), à des taux d'intérêt attractifs (taux d'intérêt pondéré de 0.61%), soit un endettement (921 + 922) de Fr. 60 mios par rapport aux Fr. 55 mios en 2024, représentant une augmentation de Fr. 5 mios, pour le financement des investissements nets de Fr. 9.70 mios.
+- Pour mémoire, l'endettement (921 + 922) à fin 2025 était estimé à une fourchette entre Fr. 68 et 72 mios dans le budget.
+
+## 2.2. Elément défavorable
+
+- Des recettes fiscales de Fr. 54.18 mios, inférieures de Fr. 3.23 mios au budget mais "seulement" de Fr. 1.20 mio aux comptes 2024 (qui comprenaient des recettes conjoncturelles exceptionnelles de Fr. 7.36 mios contre une moyenne de Fr. 3.76 mios de 2021 à 2023).
+
+
+
+### 3. Détail des éléments-clés
+
+#### 3.1. Recettes fiscales
+
+Les recettes fiscales 2025 sont les suivantes :
+
+|  Evolution des impôts 2021 à 2025  |   |   |   |   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   | Exercice | C2021 | C2022 | C2023 | C2024 | B2025 | C2025 | C25/B25 | C25/B25  |
+|   | Habitants | 12'222 | 12'400 | 12'605 | 12'812 | 13'000 | 13'053 | Fr | %  |
+|  Compte | Taux | 64 | 64 | 64 | 64 | 64 | 64 |  |   |
+|  210.4001.00 | * Impôt sur le revenu | 27'419'160 | 27'173'722 | 29'198'794 | 26'223'550 | 30'980'000 | 28'706'142 | -2'273'858 | -7.34%  |
+|  210.4002.00 | * Impôt sur la fortune | 6'636'354 | 6'964'183 | 6'489'790 | 5'955'634 | 7'350'000 | 6'025'772 | -1'324'228 | -18.02%  |
+|  210.4003.00 | * Impôt à la source | 645'787 | 445'309 | 189'327 | 1'093'684 | 430'000 | 898'670 | 468'670 | 108.99%  |
+|  210.4004.00 | * Impôt sur la dépense (étrangers sans activité) | 675'204 | 678'936 | 1'237'486 | 1'025'841 | 1'060'000 | 1'008'399 | -51'601 | -4.87%  |
+|  210.4414.00 | Impôt sur les frontaliers | 259'436 | 244'731 | 127'057 | 60'579 | 220'000 | 196'693 | -23'307 | -10.59%  |
+|   | **Impôts sur les personnes physiques** | **35'635'941** | **35'506'882** | **37'242'453** | **34'359'289** | **40'040'000** | **36'835'676** | **-3'204'324** | **-8.00%**  |
+|   |  |  |  |  |  |  |  |  | 116.53%  |
+|  210.4011.00 | * Impôt sur le bénéfice des sociétés | 7'157'294 | 5'600'469 | 7'257'618 | 8'755'970 | 6'710'000 | 9'478'624 | 2'768'624 | 41.26%  |
+|  210.4012.00 | * Impôt sur le capital des sociétés | 1'180'998 | 1'040'205 | 1'618'944 | -86'746 | 1'600'000 | -564'154 | -2'164'154 | -135.26%  |
+|  210.4013.00 | Impôt complémentaire sur les immeubles | 306'717 | 279'937 | 300'944 | 267'276 | 300'000 | 311'367 | 11'367 | 3.79%  |
+|  210.4518.00 | Compensation RFPA (dès 2020) | 944'413 | 693'985 | 1'118'548 | 841'760 | 980'000 | 829'925 | -150'075 | -15.31%  |
+|   | **Impôts sur les personnes morales** | **9'589'422** | **7'614'595** | **10'296'054** | **9'778'261** | **9'590'000** | **10'055'762** | **465'762** | **4.86%**  |
+|  210.4040.00 | Droits de mutations | 1'687'943 | 1'887'556 | 1'720'602 | 3'393'758 | 1'810'000 | 1'462'156 | -347'844 | -19.22%  |
+|  210.4050.00 | Impôt sur les successions et donations | 237'281 | 1'244'314 | 359'120 | 2'550'291 | 810'000 | 1'014'204 | 204'204 | 25.21%  |
+|  210.4411.00 | Impôt sur les gains immobiliers | 1'895'538 | 1'285'645 | 965'063 | 1'419'522 | 1'130'000 | 797'220 | -332'780 | -29.45%  |
+|   | **Impôts conjoncturels** | **3'820'762** | **4'417'515** | **3'044'785** | **7'363'570** | **3'750'000** | **3'273'581** | **-476'420** | **-12.70%**  |
+|  210.4020.00 | Impôt foncier | 3'102'844 | 3'162'489 | 3'312'441 | 3'370'826 | 3'420'000 | 3'547'198 | 127'198 | 3.72%  |
+|  210.4061.00 | Impôt sur les chiens | 49'850 | 49'350 | 53'450 | 54'600 | 53'000 | 55'200 | 2'200 | 4.15%  |
+|  210.4090.00 | Impôt récupéré après défalication | 146'155 | 206'091 | -41'613 | 100'391 | 150'000 | 71'654 | -78'346 | -52.23%  |
+|  210.4221.00 | Intérêts moratoires-majorations | 414'047 | 440'324 | 323'930 | 353'147 | 400'000 | 336'598 | -63'402 | -15.85%  |
+|  210.4370.00 | Amendes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | -  |
+|  210.4390.00 | Corrections d'arriérés | 0 | 0 | 0 | 0 | 0 | 0 | 0 | -  |
+|   | **Diverses taxes** | **3'712'896** | **3'858'254** | **3'648'209** | **3'878'964** | **4'023'000** | **4'010'650** | **-12'350** | **-0.31%**  |
+|   | **Total** | **52'759'020** | **51'397'246** | **54'231'500** | **55'380'084** | **57'403'000** | **54'175'668** | **-3'227'332** | **-5.62%**  |
+|   | * Impôt total influencé par le taux | 43'714'796 | 41'902'824 | 45'991'959 | 42'967'934 | 48'130'000 | 45'553'454 |  |   |
+|   | Valeur du point d'impôt | 683'044 | 654'732 | 718'624 | 671'374 | 752'031 | 711'773 |  |   |
+|   | Point d'impôt par habitant | 55.89 | 52.79 | 57.01 | 52.40 | 57.85 | 54.53 |  |   |
+|  210.3809.00 | **Attributions - Impôt affecté nouv. Coll. Courbet** | **1'027'196** | **982'098** | **1'077'936** | **1'007'061** | **1'128'000** | **1'067'660** |  |   |
+|  9282.005.00 | Fonds amortissement Nouveau Collège Courbet | 1'968'851 | 2'950'949 | 4'028'885 | 5'035'946 |  | 6'103'606 |  |   |
+
+#### Observation générale
+
+Pour mémoire, lors de l'élaboration du budget 2025, durant l'été 2024, les derniers comptes bouclés étaient ceux de l'exercice 2023. Le total des recettes fiscales des comptes 2023 (de Fr. 54.23 mios) avait fortement progressé par rapport aux comptes 2021 (Fr. 52.76 mios) et 2022 (Fr. 51.40 mios).
+
+Vu cette évolution favorable et en regard du potentiel de croissance (en tenant compte de l'évolution de la population et de l'inflation pouvant également augmenter les recettes fiscales) durant les deux années séparant les exercices 2023 et 2025, le total des recettes fiscales du budget 2025 a été estimé à Fr. 57.40 mios.
+
+Les recettes fiscales des comptes 2025 (Fr. 54.18 mios) sont certes inférieures de Fr. 3.23 mios ou 5.62% au budget, mais dans une moindre mesure de Fr. 1.20 mio ou 2.17% aux comptes 2024 (qui comprenaient des recettes conjoncturelles exceptionnelles de Fr. 7.36 mios contre une moyenne de Fr. 3.76 mios de 2021 à 2023).
+
+D'autre part, les recettes fiscales des comptes 2025 présentent des impôts supérieurs sur les personnes physiques de Fr. 2.48 mios et sur les personnes morales de Fr. 0.28 mio par rapport aux comptes 2024. Les impôts sur les personnes physiques, qui ont connu une baisse inattendue à Fr. 34.36 mios en 2024 (après un pic à Fr. 37.24 mios en 2023), ont donc retrouvé un niveau proche de la moyenne des exercices 2021 à 2023.
+
+
+
+Voici la représentation graphique de cette évolution :
+
+### Evolution des recettes d'impôts de 2021 à 2025
+
+![img-0.jpeg](img-0.jpeg)
+
+### Impôts sur les personnes physiques
+
+Le budget 2025 prévoyait des recettes de Fr. 40.04 mios, montant qui s'est avéré un peu trop optimiste suite à l'établissement des comptes, pour les raisons expliquées sous la rubrique 'Observation générale'.
+
+Dans les comptes 2025, il est à relever que tant l'impôt sur le revenu de Fr. 28.71 mios que celui sur la fortune de Fr. 6.03 mios sont inférieurs au budget (de respectivement Fr. 2.27 mios ou 7.34 % et Fr. 1.32 mio ou 18.02 %). En revanche, ils sont supérieurs de Fr. 2.48 mios ou 9.47% et de Fr. 0.07 mio ou 1.18% aux comptes 2024.
+
+L'impôt à la source (Fr. 0.90 mio) est supérieur de Fr. 0.47 mios ou 108.99 % au budget. Les impôts sur la dépense (Fr. 1.01 mio) et sur les frontaliers (Fr. 0.20 mio) sont les deux inférieurs au budget de respectivement Fr. 0.05 mios ou 4.87 % et Fr. 0.02 mio ou 10.59 %).
+
+L'impôt 2025 sur les frontaliers de Fr. 0.20 mio comprend une contribution de l'exercice 2024, en raison d'une communication tardive des informations à l'Administration cantonale des impôts (ACI) par une entreprise, ce qui explique l'écart par rapport au montant de 2024.
+
+### Impôts sur les personnes morales
+
+L'impôt sur le bénéfice de Fr. 9.48 mios est supérieur de Fr. 2.77 mios ou 41.26 % au budget et représente ainsi à nouveau le meilleur résultat de l'histoire de la Commune, supérieur au résultat en 2024.
+
+L'impôt sur le capital est en revanche négatif de Fr. 0.56 mio, en raison d'une correction d'acomptes d'une société.
+
+La compensation financière pour atténuer les effets de la réforme fiscale et financement de l'AVS (RFFA), introduite en 2020, s'est montée à Fr. 0.83 mio contre les Fr. 0.98 mio portés au budget.
+
+### Impôts conjoncturels
+
+Les impôts conjoncturels (droits de mutations, impôt sur les successions et donations, impôt sur les gains immobiliers) présentent un résultat de Fr. 3.27 mios et sont inférieurs de Fr. 0.48 mio ou 12.70 % au budget et proches de la moyenne 2021 à 2023 (Fr. 3.76 mios), en comparaison du résultat exceptionnel de Fr. 7.36 mios en 2024.
+
+
+
+## Progression des impôts réguliers selon les impôts conjoncturels (recettes aléatoires)
+
+Les impôts réguliers 2025, de Fr. 50.90 mios, sont supérieurs aux comptes 2024 (Fr. 48.02 mios) et également supérieurs à la moyenne des 3 exercices précédents 2022 à 2024 (Fr. 48.72 mios).
+
+|  Progression des impôts communaux réguliers et conjoncturels  |   |   |   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  Année | Taux | Impôts encaissés | Augmentation Diminution en % | Droits mutations Successions et donations | Gains immobiliers | Total impôts conjoncturels | % par rapport aux impôts encaissés | Solde impôts réguliers  |
+|  2015 | 64 | 41'102'910 | -1.91% | 1'611'015 | 492'402 | 2'103'417 | 5.12% | 38'999'493  |
+|  2016 | 64 | 45'282'293 | 9.23% | 3'287'612 | 982'585 | 4'270'197 | 9.43% | 41'012'096  |
+|  2017 | 64 | 47'614'508 | 13.68% | 2'412'290 | 1'102'536 | 3'514'826 | 7.38% | 44'099'683  |
+|  2018 | 64 | 50'863'878 | 10.97% | 6'033'081 | 2'106'081 | 8'139'162 | 16.00% | 42'724'716  |
+|  2019 | 64 | 49'538'510 | -2.61% | 3'019'498 | 783'600 | 3'803'098 | 7.68% | 45'735'411  |
+|  2020 | 64 | 47'866'739 | -3.37% | 2'311'108 | 968'602 | 3'279'709 | 6.85% | 44'587'029  |
+|  2021 | 64 | 52'759'020 | 10.22% | 1'925'224 | 1'895'538 | 3'820'762 | 7.24% | 48'938'258  |
+|  2022 | 64 | 51'397'246 | -2.58% | 3'131'870 | 1'285'645 | 4'417'515 | 8.59% | 46'979'731  |
+|  2023 | 64 | 54'231'500 | 5.51% | 2'079'722 | 965'063 | 3'044'785 | 5.61% | 51'186'716  |
+|  2024 | 64 | 55'380'084 | 2.12% | 5'944'048 | 1'419'522 | 7'363'570 | 13.30% | 48'016'514  |
+
+## 3.2. Péréquation intercommunale (péréquation directe, réforme policière et cohésion sociale)
+
+### Solde décompte 2024
+
+Pour mémoire, dans les comptes 2024, des provisions pour le solde global supposé défavorable du décompte de la péréquation 2024 (montant à payer) ont été constituées comme suit (déjà comprise dans les comptes) :
+
+|  223.3520.02 Provision solde (péréquation directe) | - 140'000.-  |
+| --- | --- |
+|  600.4511.01 Provision solde (réforme policière) | 50'000.-  |
+|  720.3515.14 Provision solde (cohésion sociale) | - 380'000.-  |
+|  **Total (solde défavorable)** | **- 470'000.-**  |
+
+Finalement, un montant de Fr. 0.17 mio a été reçu en retour et la différence de Fr. 0.64 mio a été attribuée au fonds de réserve 9281.003.00 'Fonds régulation péréquation (FRP)'. Ce dernier se monte à Fr. 7.11 mios au 31.12.25 contre Fr. 6.47 mios au 31.12.24.
+
+### Provision décompte 2025
+
+A la suite de simulations dans le cadre du bouclement des comptes 2025, des provisions pour le solde global supposé favorable du décompte de la péréquation 2025 (montant à recevoir) ont été constituées comme suit (déjà comprises dans les comptes) :
+
+|  223.4520.04 Péréquation directe (NPIV) provision solde | 2'430'000.-  |
+| --- | --- |
+|  600.3511.04 Facture policière (NPIV) provision solde | - 15'000.-  |
+|  720.3515.16 Cohésion sociale (NPIV) provision solde | - 330'000.-  |
+|  **Total (solde favorable)** | **2'085'000.-**  |
+
+Le coût de la péréquation 2025 est donc estimé à Fr. 19.11 mios, soit Fr. 6.15 mios pour la péréquation directe, Fr. 0.40 mio pour la réforme policière et Fr. 12.56 mios pour la cohésion sociale, contre Fr. 19.96 mios au budget, comprenant un solde à recevoir estimé à Fr. 2.09 mios par rapport aux acomptes versés.
+
+### Non-dissolution partielle du fonds de réserve prévue au budget
+
+Selon un principe initié dès le budget 2020, le budget 2025 prévoyait de dissoudre partiellement le fonds de réserve 9281.003.00 'Fonds régulation péréquation'.
+
+
+
+De ce fait, un revenu comptable de Fr. 3.24 mios avait été porté au budget 2025 (Fr. 1.29 mio par le compte 223.4809.00 et Fr. 1.95 mios par le compte 720.4809.00). Vu l'excédent de revenu des comptes 2025, cette dissolution partielle n'a pas été réalisée lors du bouclement.
+
+Comme précisé dans le cadre du budget 2026, ce fonds de réserve sera maintenu, avec une dissolution prévue de Fr. 3.55 mios dans le budget cité, toujours dans le but de pouvoir compenser à l'avenir d'éventuels décomptes avec solde défavorable supérieur aux provisions.
+
+Voici la représentation graphique de cette évolution :
+
+### Cohésion sociale, péréquation directe et réforme policière
+
+![img-0.jpeg](img-0.jpeg)
+
+### 3.3. Intérêt annuel pour les fondations
+
+Vu le taux d'intérêt (avance à terme fixe à un an) positif au 31.12.25, l'attribution d'un intérêt annuel de 0.95% a été effectuée à chacune des fondations figurant au passif du bilan de la Commune (rubrique 9233 'Fondations') via le compte 220.3290.00 'Intérêts attribués aux fondations'.
+
+### 3.4. Attributions et prélèvements obligatoires aux fonds de réserve affectés
+
+Le résultat 2025 tient compte des affectations et prélèvements obligatoires aux fonds de réserve affectés (9280 'Fonds alimentés par des recettes affectées') suivants :
+
+|  Compte |  | Prélèvements (diminution) | Attributions (augmentation)  |
+| --- | --- | --- | --- |
+|  9280.002.00 | Affectés - Evacuation des eaux (FEE) | Fr. 1'601'301.34 | 604'482.92  |
+|  9280.003.00 | Affectés - Energies renouv. dévelop. dur. (FERDD) | Fr. 291'139.35 | 237'727.67  |
+|  9280.004.00 | Affectés - Gestion des déchets (FGD) | Fr. 130'683.77 | 87'952.25  |
+|  9280.005.00 | Affectés - Part. taxe séjour subv. occas. (FTS) | Fr. - | 1'952.85  |
+
+
+
+### 3.5. Marge d'autofinancement
+
+La marge d'autofinancement (cash-flow) se calcule en déduisant du total des charges, respectivement des revenus, les amortissements (rubrique 33), les attributions et prélèvements sur fonds de réserve (rubriques 38 et 48) et les imputations internes (rubriques 39 et 49).
+
+Tout comme lors des quatre exercices précédents (2021 à 2024), la marge d'autofinancement 2025 est à nouveau positive de Fr. 3.18 mios. Le budget, quant à lui, dégageait une marge négative de Fr. 1.96 mio.
+
+Voici les chiffres après la répartition du résultat :
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 | Budget 2025 | Comptes 2024 | Comptes 2023 | Comptes 2022 | Comptes 2021  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  3 Total charges | 78'250'659.17 | 85'886'542 | 81'728'762.36 | 81'312'537.20 | 78'202'326.69 | 80'274'255.63  |
+|  33 Amortissements | 6'031'477.32 | 10'883'620 | 3'963'354.23 | 3'129'792.48 | 4'597'237.10 | 4'685'656.62  |
+|  38 Attributions aux fonds de réserve | 3'112'939.49 | 2'238'525 | 2'244'939.23 | 3'360'640.27 | 3'268'756.95 | 4'615'797.13  |
+|  39 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15 | 1'088'760.01 | 1'066'015.99 | 1'054'554.97  |
+|  Charges nettes | 68'486'179.99 | 72'073'247 | 74'413'717.75 | 73'733'344.44 | 69'270'316.65 | 69'918'246.91  |
+|  4 Total revenus | 78'291'230.67 | 85'925'219 | 81'773'738.44 | 81'364'432.60 | 78'229'511.35 | 80'350'008.91  |
+|  48 Prélèvements sur fonds de réserve | 6'009'967.71 | 15'122'325 | 2'710'220.06 | 1'938'793.92 | 3'488'856.94 | 3'141'971.56  |
+|  49 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15 | 1'088'760.01 | 1'066'015.99 | 1'054'554.97  |
+|  Revenus nets | 71'661'200.59 | 70'111'744 | 77'956'767.23 | 78'336'878.67 | 73'674'638.42 | 76'153'482.38  |
+|  Résultat exercice | 40'571.50 | 38'677 | 44'976.08 | 51'895.40 | 27'184.66 | 75'753.28  |
+|  Marge d'autofinancement | 3'175'020.60 | -1'961'503 | 3'543'049.48 | 4'603'534.23 | 4'404'321.77 | 6'235'235.47  |
+|  Marge d'autofinancement moyenne 2021-2025 | 4'392'232 |  |  |  |  |   |
+|  Impôts conjoncturels (mutations - successions - gains immobiliers) | 3'273'580.50 | 3'750'000 | 7'363'570.25 | 3'044'784.65 | 4'417'514.50 | 3'820'761.50  |
+|  Impôts conjoncturels moyens 2021-2025 | 4'384'042 |  |  |  |  |   |
+
+### 3.6. Evolution de la dette (brute)
+
+À la fin de l'année 2025, la dette (brute) atteint Fr. 61.27 mios, comprenant Fr. 10 mios de dettes à court terme (921), Fr. 50 mios de dettes à long terme (922) et Fr. 1.27 mio pour les fondations (9233).
+
+Pour mémoire, le plafond d'endettement de Fr. 100 mios pour la législature 2021-2026 a été voté le 11 mai 2022. Auparavant, il se situait à Fr. 85 mios.
+
+|  ENDETTEMENT (BRUT) | Comptes 2025 | Budget 2025 | Comptes 2024 | Ecart (Fr) | Ecart (%)  |
+| --- | --- | --- | --- | --- | --- |
+|  Dettes à court et long terme (921 + 922) au 31.12.N-1 | 55'000'000 | 66'172'926 | 59'000'000 | -4'000'000 | -6.78 %  |
+|  Fondations (9233) au 31.12.N-1 | 1'259'354 | 1'200'000 | 1'269'296 | -9'942 | -0.78 %  |
+|  **Endettement brut (921 + 922 + 9233) au 31.12.N-1** | **56'259'354** | **67'372'926** | **60'269'296** | **-4'009'942** | **-6.65 %**  |
+|  Investissements planifiés (nets) en N |  | 26'583'000 |  |  |   |
+|  Investissements estimés (nets) en N |  | 9'325'043 |  |  |   |
+|  Investissements effectifs (nets) en N | 9'714'177 |  | 2'228'132 | 7'486'045 | 335.98 %  |
+|  Marge d'autofinancement en N | 3'175'021 | 3'386'949 | 3'543'049 | -368'029 | -10.39 %  |
+|  Dettes à court et long terme (921 + 922) au 31.12.N | 60'000'000 | 73'000'000 | 55'000'000 | 5'000'000 | 9.09 %  |
+|  Fondations (9233) au 31.12.N | 1'267'058 | 1'160'000 | 1'259'354 | 7'703 | 0.61 %  |
+|  **Endettement brut (921 + 922 + 9233) au 31.12.N** | **61'267'058** | **74'160'000** | **56'259'354** | **5'007'703** | **8.90 %**  |
+|  Habitants au 31.12.N | 13'053 | 13'000 | 13'000 | 53 | 0.41 %  |
+|  Endettement brut par habitant au 31.12.N | 4'694 | 5'705 | 4'328 | 366 | 8.46 %  |
+|  Plafond d'endettement (2021-2026) | 100'000'000 | 100'000'000 | 100'000'000 |  |   |
+
+
+
+Voici l'évolution de la dette brute sous forme de deux graphiques :
+
+### Evolution de la dette (brute) et des intérêts (dettes à long terme)
+
+![img-1.jpeg](img-1.jpeg)
+
+### Evolution de la dette (brute) et intérêts (dettes à long terme) par habitant
+
+![img-2.jpeg](img-2.jpeg)
+
+
+
+### 3.7. Evolution de la dette (nette)
+
+Dans son rapport sur le budget 2022, la Commission des finances a souhaité qu'à l'avenir soit également fourni l'endettement net par habitant. Le tableau ci-après de l'endettement net selon la méthode proposée par l'UCV.
+
+|  ENDETTEMENT (NET) | Comptes 2025 | Comptes 2024 | Ecart (Fr) | Ecart (%)  |
+| --- | --- | --- | --- | --- |
+|  Comptes courants créanciers (9206) | 42'650 | 52'575 | -9'925 | -18.88 %  |
+|  Emprunts à court terme (921) | 10'000'000 | 0 | 10'000'000 | 0.00 %  |
+|  Emprunts à moyen et long termes (922) | 50'000'000 | 55'000'000 | -5'000'000 | -9.09 %  |
+|  Engagements propres établissements et fonds spéciaux (923) | 1'267'058 | 1'259'354 | 7'703 | 0.61 %  |
+|  **Endettement brut (total 1)** | **61'309'708** | **56'311'930** | **4'997'778** | **8.88 %**  |
+|  Avoirs disponibles (9102) | 2'486'228 | 5'040'155 | -2'553'928 | -50.67 %  |
+|  Comptes courants auprès d'autres collectivités publiques (9111) | 602'803 | 145'881 | 456'923 | 313.22 %  |
+|  Epargne (titres et placements, 9120) | 17'226 | 1'330 | 15'896 | 1195.21 %  |
+|  Prêts (placements de capitaux, prêts, 9122) | 0 | 0 | 0 | 0.00 %  |
+|  Prêts et participations permanentes (915) | 1'664'187 | 1'664'187 | 0 | 0.00 %  |
+|  Remboursements d'emprunts | 0 | 0 | 0 | 0.00 %  |
+|  **Total 2** | **4'770'444** | **6'851'553** | **-2'081'109** | **-30.37 %**  |
+|  **Endettement net (total 1 - total 2)** | **56'539'264** | **49'460'377** | **7'078'887** | **14.31 %**  |
+|  Habitants au 31.12.N | 13'053 | 12'812 | 241 | 1.88 %  |
+|  Endettement net par habitant au 31.12.N | 4'332 | 3'860 | 471 | 12.20 %  |
+|  Plafond d'endettement (2021-2026/2016-2021) | 100'000'000 | 100'000'000 | 0 | 0.00 %  |
+
+Il en ressort que l'endettement net se monte à Fr. 56.54 mios au 31.12.2025, ce qui représente une part de Fr. 4'332.- par habitant.
+
+## 4. Détails des comptes
+
+### 4.1. Ecarts principaux des charges et des revenus
+
+Ces tableaux présentent les écarts des charges et des revenus dont la valeur absolue est égale ou supérieure à Fr. 100'000.- par rapport au budget. Ne sont pas comprises les écritures comptables (amortissements, attributions à et prélèvements sur fonds de réserves, imputations internes, écritures de répartition de résultat).
+
+|  CHARGES  |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+|  Compte | Libellé | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%)  |
+|  **180** | **Transports publics** |  |  |  |   |
+|  180.3517.00 | Part. coûts non couverts-trafic régional (DGMR) | 1'544'748.05 | 1'806'600.00 | -261'851.95 | -14.49%  |
+|  **220** | **Service de la dette** |  |  |  |   |
+|  220.3223.18 | Réserve intérêts emprunts long terme | 0.00 | 187'500.00 | -187'500.00 | -100.00%  |
+|  **223** | **Fonds de péréquation** |  |  |  |   |
+|  223.3520.03 | Péréquation directe (NPIV) | 8'579'591.00 | 7'776'300.00 | 803'291.00 | 10.33%  |
+|  **300** | **Fonds de péréquation** |  |  |  |   |
+|  300.3664.00 | Péréquation directe (NPIV) | 8'579'591.00 | 7'776'300.00 | 803'291.00 | 10.33%  |
+|  **340** | **Subventions FERDD (SDOM)** | 233'695.58 | 350'000.00 | -116'304.42 | -33.23%  |
+|  **340** | **Rénovation des bâtiments** | 79'879.65 | 280'000.00 | -200'120.35 | -71.47%  |
+|  **440** | **Rénovation des bâtiments** |  |  |  |   |
+|  440.3011.00 | Traitements | 1'032'499.30 | 1'136'000.00 | -103'500.70 | -9.11%  |
+|  **501** | **Traitements** |  |  |  |   |
+|  501.3123.00 | Electricité | 156'460.50 | 35'000.00 | 121'460.50 | 347.03%  |
+
+
+
+|  **600** | **Administration** |  |  |  |   |
+| --- | --- | --- | --- | --- | --- |
+|  600.3521.00 | Association Sécurité Riviera (ASR) | 3'589'004.84 | 4'024'700.00 | -435'695.16 | -10.83%  |
+|  **660** |  |  |  |  |   |
+|  660.3521.00 | Part. frais entretien abris PC | 288'299.60 | 0.00 | 288'299.60 | -  |
+|  **705** | **Accueil familial de jour (LAC/VV)** |  |  |  |   |
+|  705.3069.00 | Frais d'acquisition du revenu | 272'208.00 | 490'200.00 | -217'992.00 | -44.47%  |
+|  705.3515.00 | Subv. FAJE correctif année précédente | 119'689.00 | 0.00 | 119'689.00 | -  |
+|  **706** | **Accueil de jour des enfants** |  |  |  |   |
+|  706.3525.05 | Participation réseau RéEL | 5'714'254.00 | 6'800'000.00 | -1'085'746.00 | -15.97%  |
+|  **720** | **Prévoyance sociale** |  |  |  |   |
+|  720.3515.15 | Cohésion sociale (NPIV) | 12'233'005.00 | 11'812'600.00 | 420'405.00 | 3.56%  |
+|  720.3515.16 | Cohésion sociale (NPIV) provision solde | 330'000.00 | 0.00 | 330'000.00 | -  |
+
+## REVENUS
+
+|  Compte | Libellé | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%)  |
+| --- | --- | --- | --- | --- | --- |
+|  **130** | **Ressources humaines** |  |  |  |   |
+|  130.4361.02 | Remboursements allocations perte de gains | 0.00 | 220'000.00 | -220'000.00 | -100.00%  |
+|  130.4361.03 | Ajustement indexation | 0.00 | 116'400.00 | -116'400.00 | -100.00%  |
+|  **180** | **Transports publics** |  |  |  |   |
+|  180.4517.18 | VMCV ligne 201 (solde année précédente) | 280'770.50 | 0.00 | 280'770.50 | -  |
+|  180.4657.10 | VMCV ligne 203 (solde année précédente) | 206'837.10 | 0.00 | 206'837.10 | -  |
+|  **200** |  |  |  |  |   |
+|  200.4112.00 | Taxe à l'usage du sol (0.007 Fr./kwh) | 321'373.40 | 220'000.00 | 101'373.40 | 46.08%  |
+|  **210** | **Impôts** |  |  |  |   |
+|  210.4001.00 | Impôt sur le revenu | 28'706'141.79 | 30'980'000.00 | -2'273'858.21 | -7.34%  |
+|  210.4002.00 | Impôt sur la fortune | 6'025'771.69 | 7'350'000.00 | -1'324'228.31 | -18.02%  |
+|  210.4003.00 | Impôt à la source | 898'670.21 | 430'000.00 | 468'670.21 | 108.99%  |
+|  210.4011.00 | Impôt sur le bénéfice des sociétés | 9'478'624.45 | 6'710'000.00 | 2'768'624.45 | 41.26%  |
+|  210.4012.00 | Impôt sur le capital des sociétés | -564'153.85 | 1'600'000.00 | -2'164'153.85 | -135.26%  |
+|  210.4020.00 | Impôt foncier | 3'546'471.85 | 3'420'000.00 | 126'471.85 | 3.70%  |
+|  210.4040.00 | Droits de mutations | 1'462'156.35 | 1'810'000.00 | -347'843.65 | -19.22%  |
+|  210.4050.00 | Impôt sur les successions et donations | 1'014'203.70 | 810'000.00 | 204'203.70 | 25.21%  |
+|  210.4411.00 | Impôt sur les gains immobiliers | 797'220.45 | 1'130'000.00 | -332'779.55 | -29.45%  |
+|  210.4518.00 | Compensation RFFA (dès 2020) | 829'924.70 | 980'000.00 | -150'075.30 | -15.31%  |
+|  **221** |  |  |  |  |   |
+|  221.4250.00 | Revenus des participations du patrimoine | 498'000.00 | 366'300.00 | 131'700.00 | 35.95%  |
+|  **223** | **Fonds de péréquation** |  |  |  |   |
+|  223.4520.01 | Solde année précédente (péréquation directe) | 510'807.00 | 0.00 | 510'807.00 | -  |
+|  223.4520.04 | Péréquation directe (NPIV) provision solde | 2'430'000.00 | 0.00 | 2'430'000.00 | -  |
+|  **400** | **Administration** |  |  |  |   |
+|  400.4313.01 | Permis de construire et d'habiter | 186'403.00 | 50'000.00 | 136'403.00 | 272.81%  |
+|  **430** |  |  |  |  |   |
+|  430.4356.00 | Frais facturés à des tiers | 136'200.60 | 25'000.00 | 111'200.60 | 444.80%  |
+|  430.4359.00 | Recettes diverses | 123'830.60 | 10'000.00 | 113'830.60 | 1138.31%  |
+|  **705** | **Accueil familial de jour** |  |  |  |   |
+|  705.4331.00 | Participation des parents | 735'631.11 | 850'000.00 | -114'368.89 | -13.46%  |
+|  705.4361.00 | Remboursements d'assurances | 139'703.70 | 0.00 | 139'703.70 | -  |
+|  705.4525.02 | Participation réseau VV | 941'218.39 | 783'800.00 | 157'418.39 | 20.08%  |
+|  705.4525.03 | Participation réseau ASICC | 229'638.97 | 545'300.00 | -315'661.03 | -57.89%  |
+|  **706** | **Accueil de jour des enfants** |  |  |  |   |
+|  706.4525.02 | Part. réseau LAC - Solde année précédente | 198'131.07 | 0.00 | 198'131.07 | -  |
+|  **720** | **Prévoyance sociale** |  |  |  |   |
+|  720.4515.00 | Solde année précédente (facture sociale) | 113'364.81 | 0.00 | 113'364.81 | -  |
+
+
+
+## 4.2. Charges par nature
+
+Le total des charges de Fr. 78'250'659.17 (après répartition du résultat), comprenant une provision de Fr. 0.35 mio pour le solde de la péréquation 2025 (voir point 3.2), est inférieur de Fr. 7'635'882.83 (ou 8.89 %) au budget (ne comprenant pas cette provision), dont la répartition par nature se présente comme suit :
+
+|   | CHARGES | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%) | C25/Total (%) | B25/Total (%)  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  30 | Autorités et personnel | 17'750'192.67 | 19'306'340 | -1'556'147.33 | -8.06 % | 22.68 % | 22.48 %  |
+|  31 | Biens, services, marchandises | 9'316'157.52 | 11'063'101 | -1'746'943.48 | -15.79 % | 11.91 % | 12.88 %  |
+|  32 | Intérêts passifs | 459'685.83 | 616'750 | -157'064.17 | -25.47 % | 0.59 % | 0.72 %  |
+|  33 | Amortissements | 6'031'477.32 | 10'883'620 | -4'852'142.68 | -44.58 % | 7.71 % | 12.67 %  |
+|  35 | Part. et remb. collectivités publiques | 34'941'858.88 | 34'803'800 | 138'058.88 | 0.40 % | 44.65 % | 40.52 %  |
+|  36 | Aides et subventions | 6'018'285.09 | 6'283'256 | -264'970.91 | -4.22 % | 7.69 % | 7.32 %  |
+|  38 | Attributions aux fonds et fin. spéciaux | 3'112'939.49 | 2'238'525 | 874'414.49 | 39.06 % | 3.98 % | 2.61 %  |
+|  39 | Imputations internes | 620'062.37 | 691'150 | -71'087.63 | -10.29 % | 0.79 % | 0.80 %  |
+|   | **Total** | **78'250'659.17** | **85'886'542** | **-7'635'882.83** | **-8.89 %** |  |   |
+
+Les "Biens, services et marchandises" (nature 31) diminuent de Fr. -1'746'943.48 (15.79 %). Toutes les sous-rubriques de cette nature sont inférieures par rapport au budget. Voici les écarts les plus importants :
+
+- Entretien des immeubles, routes et territoire (nature 314, Fr. - 658'056.34 ou - 23.11 %)
+- Honoraires et prestations de services (nature 318, Fr. - 280'994.49 ou - 8.36 %)
+- Achats de mobilier, matériel, machines et véhicules (nature 311, Fr. - 198'254.62 ou - 21.86 %)
+
+Les "Intérêts passifs" (nature 32) connaissent une baisse de Fr. 157'064.17 (- 25.47 %) essentiellement en raison d'emprunts à court terme à taux intéressants, inférieurs aux taux à long terme.
+
+Les "Remboursements et participations" (nature 35) comprennent notamment la participation de la Commune aux coûts du trafic régional (division 180), au Réseau RéEL (division 706), à la cohésion sociale cantonale (division 720), ainsi que sa part au fonds de péréquation (division 223) et le financement de la réforme policière (division 600).
+
+Par ailleurs, la participation à l'Association Sécurité Riviera (ASR) a coûté Fr. 3'589'004.84, soit Fr. 435'695.16 de moins que prévu au budget (compte 600.3521.00).
+
+![img-0.jpeg](img-0.jpeg)
+
+## 4.3. Revenus par nature
+
+Le total des revenus de Fr. 78'291'230.67 (après répartition du résultat), comprenant une provision de Fr. 2.43 mios pour le solde de la péréquation 2025 (voir point 3.2), est inférieur de Fr. 85'925'219 (ou - 8.88 %) par rapport au budget (ne comprenant pas cette provision).
+
+
+
+|   | REVENUS | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%) | C25/Total (%) | B25/Total (%)  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  40 | Impôts | 52'014'506.35 | 54'673'000 | -2'658'493.65 | -4.86 % | 66.44 % | 63.63 %  |
+|  41 | Patentes, concessions | 565'939.55 | 402'000 | 163'939.55 | 40.78 % | 0.72 % | 0.47 %  |
+|  42 | Revenus du patrimoine | 4'423'122.39 | 4'360'375 | 62'747.39 | 1.44 % | 5.65 % | 5.07 %  |
+|  43 | Taxes, émoluments, produits des ventes | 6'395'646.69 | 5'849'769 | 545'877.69 | 9.33 % | 8.17 % | 6.81 %  |
+|  44 | Parts à des recettes cantonales | 993'913.15 | 1'350'000 | -356'086.85 | -26.38 % | 1.27 % | 1.57 %  |
+|  45 | Part. et remb. collectivités publiques | 6'807'883.56 | 3'363'600 | 3'444'283.56 | 102.40 % | 8.70 % | 3.91 %  |
+|  46 | Autres prestations et subventions | 460'188.90 | 113'000 | 347'188.90 | 307.25 % | 0.59 % | 0.13 %  |
+|  48 | Prélèvements sur fonds et fin. spéciaux | 6'009'967.71 | 15'122'325 | -9'112'357.29 | -60.26 % | 7.68 % | 17.60 %  |
+|  49 | Imputations internes | 620'062.37 | 691'150 | -71'087.63 | -10.29 % | 0.79 % | 0.80 %  |
+|   | **Total** | **78'291'230.67** | **85'925'219** | **-7'633'988.33** | **-8.88 %** |  |   |
+
+Pour mémoire, la nature 40 'Impôts' ci-dessus ne comprend pas l'impôt sur les frontaliers ou l'impôt sur les gains immobiliers (nature 44), ni la compensation RFFA (nature 45).
+
+Le poste 'Patentes et Concessions' (nature 41) comprend entre autre la taxe à l'usage du sol (0.007 Fr./kWh) pour Fr. 321'373.40, la taxe spécifique (0.003 Fr./kWh) pour Fr. 137'717.20, la redistribution de la taxe CO₂ pour Fr. 8'000.- ainsi que la redevance de la Compagnie du gaz pour Fr. 98'848.95.
+
+Dans les 'Revenus du patrimoine' (nature 42) se trouvent entre autres les revenus des titres pour Fr. 498'000.-, les droits de superficie (DDP) pour Fr. 241'080.- ainsi que les loyers des bâtiments des patrimoines financier (nature 423, Fr. 2'638'054.71) et administratif (nature 427, Fr. 930'332.10).
+
+Les 'Taxes, émoluments et produits des ventes' (nature 43) comprennent notamment par ordre d'importance décroissant la taxe forfaitaire sur les déchets, les taxes d'évacuation des eaux, les participations des parents à l'Accueil familial de jour et la taxe au sac pour les déchets.
+
+Le poste 'Parts à des recettes cantonales' (nature 44) comprend l'impôt sur les gains immobiliers et l'impôt sur les frontaliers, qui sont détaillés au point 3.1 'Recettes fiscales'.
+
+Dans les 'Participations et remboursements de collectivités publiques' (nature 45) figurent les postes les plus importants suivants : la provision pour solde de la péréquation directe (NPIV) pour Fr. 2'430'000.-, la participation des réseaux VV, RéEL et ASICC à l'Accueil familial de jour de Fr. 1'558'945.68, la compensation RFFA de Fr. 829'924.70 et les solde de l'année précédente de la péréquation directe pour Fr. 510'807.-.
+
+Les 'Prélèvements sur fonds et financements spéciaux' (nature 48) comprennent des prélèvements sur les fonds de réserve (nature 480) pour Fr. 3'986'843.25 ainsi que des prélèvements sur les financements (nature 481) de Fr. 2'023'124.46.
+
+Revenus par nature en % du total
+
+![img-1.jpeg](img-1.jpeg)
+
+
+
+#### 4.4. Charges par service
+
+Comme mentionné au chapitre des charges par nature, le total de charges de Fr. 78'250'659.17 (après répartition du résultat) est inférieur de Fr. -7'635'882.83 (ou 8.89 %) au budget, dont la répartition par service se présente comme suit :
+
+|   | CHARGES | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%) | C25/Total (%) | B25/Total (%)  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  1 | Administration générale | 13'238'632.09 | 14'108'470 | -869'837.91 | -6.17 % | 16.92 % | 16.43 %  |
+|  2 | Finances | 12'313'749.51 | 11'127'550 | 1'186'199.51 | 10.66 % | 15.74 % | 12.96 %  |
+|  3 | Domaines et bâtiments | 4'015'322.59 | 4'685'740 | -670'417.41 | -14.31 % | 5.13 % | 5.46 %  |
+|  4 | Urbanisme et travaux publics | 14'511'033.64 | 20'308'950 | -5'797'916.36 | -28.55 % | 18.54 % | 23.65 %  |
+|  5 | Instruction publique et cultes | 4'499'073.22 | 5'068'892 | -569'818.78 | -11.24 % | 5.75 % | 5.90 %  |
+|  6 | Sécurité - population - feu | 5'203'544.99 | 5'471'690 | -268'145.01 | -4.90 % | 6.65 % | 6.37 %  |
+|  7 | Famille, jeunesse, sport et culture | 24'469'303.13 | 25'115'250 | -645'946.87 | -2.57 % | 31.27 % | 29.24 %  |
+|   | **Total** | **78'250'659.17** | **85'886'542** | **-7'635'882.83** | **-8.89 %** |  |   |
+
+Pour l'Administration générale (1), l'essentiel de l'écart de Fr. - 869'837.91 s'explique par les divisions 180 'Transports publics' (écart Fr. -289'639.45), 190 'Service informatique' (écart Fr. -127'195.93), 111 'Administration générale' (écart Fr. -99'591.25) et 131 'Assurances diverses' (écart Fr. -25'634.59).
+
+Concernant Finances (2), la majeure partie de la différence de Fr. 1'186'199.51 est due aux comptes 223.3520.03 'Péréquation directe (NPIV)' et 223.3809.00 'Attrib. fonds régul. péréqu. (péréquation directe)' avec des écarts de respectivement Fr. 803'291.- et 510'807.00.-.
+
+Du côté de Urbanisme et travaux publics (4), l'essentiel de la différence de Fr. -5'797'916.36 se retrouve dans les comptes d'amortissement du préavis 08/2020 'RC780 EdV-Maladaire' (430.3321.12 et 460.3321.08), qui interviendra finalement en 2026 au lieu de 2025, pour Fr. 4'210'000.-.
+
+Charges par service en % du total
+
+![img-2.jpeg](img-2.jpeg)
+
+
+
+#### 4.5. Revenus par service
+
+Comme mentionné au chapitre des revenus par nature, le total des revenus de Fr. 78'291'230.67 (après répartition du résultat) est inférieur de Fr. -7'633'988.33 (ou -8.88%) par rapport au budget, dont la répartition par service se présente comme suit :
+
+|   | REVENUS | Comptes 2025 | Budget 2025 | Ecart (Fr) | Ecart (%) | C25/Total (%) | B25/Total (%)  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  1 | Administration générale | 1'459'798.85 | 1'031'885 | 427'913.85 | 41.47 % | 1.86 % | 1.20 %  |
+|  2 | Finances | 58'238'641.23 | 60'419'800 | -2'181'158.77 | -3.61 % | 74.39 % | 70.32 %  |
+|  3 | Domaines et bâtiments | 4'186'434.58 | 4'179'904 | 6'530.58 | 0.16 % | 5.35 % | 4.86 %  |
+|  4 | Urbanisme et travaux publics | 9'038'696.11 | 13'520'290 | -4'481'593.89 | -33.15 % | 11.54 % | 15.73 %  |
+|  5 | Instruction publique et cultes | 681'946.78 | 531'090 | 150'856.78 | 28.41 % | 0.87 % | 0.62 %  |
+|  6 | Sécurité - population - feu | 506'244.29 | 209'500 | 296'744.29 | 141.64 % | 0.65 % | 0.24 %  |
+|  7 | Famille, jeunesse, sport et culture | 4'179'468.83 | 6'032'750 | -1'853'281.17 | -30.72 % | 5.34 % | 7.02 %  |
+|   | **Total** | **78'291'230.67** | **85'925'219** | **-7'633'988.33** | **-8.88 %** |  |   |
+
+Pour Finances (2), la quasi-totalité de l'écart de Fr. -2'181'158.77 s'explique par la division 210 'Impôts' (voir point 3.1) ainsi que les prélèvement de Fr. 1.29 mio (compte 223.4809.00 'Prél. fonds régul. péréqu. (péréquation directe)') et de Fr. 0.86 mio (compte 230.4809.08 'Prél. FDIF - 1% inflation B25') prévus au budget, mais qui n'ont pas été nécessaires dans les comptes vu l'excédent de revenus.
+
+Concernant Urbanisme et travaux publics (4), l'essentiel de la différence de Fr. - 4'481'593.89 se retrouve dans les comptes de prélèvements sur fonds de réserve de l'amortissement du préavis N° 8/2020 'RC780 EdV-Maladaire' (430.4809.12 et 460.4811.09), qui interviendra finalement en 2026 au lieu de 2025, pour Fr. 4'210'000.-.
+
+Du côté de Famille, jeunesse, sport et culture (7), la différence de Fr. -1'853'281.17 s'explique principalement par la non-utilisation du prélèvement sur fonds de réserve de Fr. 1.95 mio prévu au budget pour la facture sociale (via le compte 720.4809.00), vu les comptes favorables.
+
+Revenus par service en % du total
+
+![img-3.jpeg](img-3.jpeg)
+
+
+
+#### 4.6. Charges selon degrés d'influence de la Commune
+
+Le tableau ci-dessous a pour but d'illustrer les différents types de charges (après répartition du résultat) selon les degrés d'influence de la Commune, à savoir :
+
+- Charges cantonales (liées respectivement imposées, sans possibilité d'influence de la Commune) et intercommunales (liées, avec possibilité d'influence via délégation de la Commune) : 44.65 % du total des charges (42.51 % au budget)
+- Charges fixes de la Commune (influence restreinte de la Commune) : 42.63 % du total des charges (46.01 % au budget)
+- Charges variables de la Commune (influence relative de la Commune) : 12.71 % du total des charges (11.48 % au budget)
+
+Les critères de distinction entre charges fixes et variables de la Commune peuvent bien entendu prêter à discussion, en revanche, il ressort de cette présentation que la marge de manœuvre, à savoir une influence directe et à court terme de la Commune, ne concerne qu'environ 12 % du total des charges.
+
+|  Natures | Comptes | Montants | Totaux | Canton et Communes | Fixes LTDP | Variables LTDP  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  30 | Autorités et personnel | 17'750'193 | 17'750'193 |  | 17'750'193 |   |
+|  310 | Imprimés et fournitures de bureau | 383'591 |  |  | 383'591 |   |
+|  311 | Achats de mobilier, matériel, machines et véhicules | 708'795 |  |  |  | 708'795  |
+|  312 | Achats d'eau, d'énergie et de combustible | 1'109'926 |  |  | 1'109'926 |   |
+|  313 | Autres fournitures et marchandises | 569'437 |  |  |  | 569'437  |
+|  314 | Entretien des immeubles, routes et territoire | 2'189'194 |  |  |  | 2'189'194  |
+|  315 | Entretien d'objets mobiliers et d'inst. techniques | 258'241 |  |  |  | 258'241  |
+|  316 | Loyers, fermages et redevances d'utilisation | 89'118 |  |  | 89'118 |   |
+|  317 | Réceptions et manifestations | 203'959 |  |  |  | 203'959  |
+|  318 | Honoraires et prestations de services | 3'082'046 |  |  | 3'082'046 |   |
+|  319 | Impôts, taxes, frais divers | 721'850 | 9'316'158 |  | 721'850 |   |
+|  32 | Intérêts passifs | 459'686 | 459'686 |  | 459'686 |   |
+|  33 | Amortissements | 6'031'477 | 6'031'477 |  | 6'031'477 |   |
+|  351 | Charges cantonales | 15'484'400 |  | 15'484'400 |  |   |
+|  352 | Charges d'autres communes ou ass. de communes | 19'457'459 | 34'941'859 | 19'457'459 |  |   |
+|  36 | Aides et subventions | 6'018'285 | 6'018'285 |  |  | 6'018'285  |
+|  38 | Attributions aux fonds et financements spéciaux | 3'112'939 | 3'112'939 |  | 3'112'939 |   |
+|  39 | Imputations internes | 620'062 | 620'062 |  | 620'062 |   |
+|  **Totaux** |   | **78'250'659** | **78'250'659** | **34'941'859** | **33'360'889** | **9'947'912**  |
+|  **% selon total des charges** |   |  |  | 44.65% | 42.63% | 12.71%  |
+
+|  Totaux budget (Fr) | 85'886'542 | 85'886'542 | 34'803'800 | 39'661'336 | 11'421'406  |
+| --- | --- | --- | --- | --- | --- |
+|  % selon total des charges budget |  |  | 42.51% | 46.01% | 11.48%  |
+|  Evolution C/B (%) | -8.89% |  | 0.40% | -15.89% | -12.90%  |
+
+
+
+## 5. Répartition du résultat
+
+### 5.1. Répartition du résultat de l'exercice 2025
+
+Au vu des chapitres précédents, la répartition proposée du résultat de l'exercice est la suivante :
+
+#### Comptes avant répartition du résultat
+
+|  Total des charges | 78'100'659.17  |
+| --- | --- |
+|  Total des revenus | 78'291'230.67  |
+|  **Excédent de revenus 1** | **190'571.50**  |
+
+#### Amortissements
+
+|  Amortissement des débiteurs (3301) | -  |
+| --- | --- |
+|  Amortissements complémentaires (330/332) | -  |
+|  Amortissement partiel du découvert (230.3330.00/9190.001.00) | -  |
+|  **Excédent de revenus 2** | **190'571.50**  |
+
+#### Attribution aux fonds de réserve
+
+|  Dépenses et investissements futurs (FDIF) (230.3809.01/9282.001.00) | - 150'000.00  |
+| --- | --- |
+
+|  **Excédent de revenus 3 (viré à découvert)** | **40'571.50**  |
+| --- | --- |
+
+Pour mémoire, le découvert au bilan (existant de 2019 à 2023) a été entièrement amorti au 31.12.2024.
+
+Le capital au bilan est à nouveau positif depuis 2024.
+
+#### Evolution du compte 9290.001.00 Capital
+
+|  Solde au 01.01.25 | 44'976.08  |
+| --- | --- |
+|  Virement du solde du résultat de l'exercice 2025 | 40'571.50  |
+|  **Solde au 31.12.25** | **85'547.58**  |
+
+Le fonds de réserve 'Dépenses et investissements futurs ' a évolué comme suit :
+
+#### Evolution du compte 9282.001.00 Dépenses et investissements futurs (FDIF)
+
+|  Solde au 01.01.25 | 16'181'607.86  |
+| --- | --- |
+|  Amortissements selon préavis votés par le Conseil communal | - 3'663'515.38  |
+|  Attribution du résultat de l'exercice 2025 | 150'000.00  |
+|  **Solde au 31.12.25** | **12'668'092.48**  |
+
+
+
+## 6. Conclusions
+
+En conclusion, nous vous demandons, Monsieur le Président, Mesdames et Messieurs, de bien vouloir voter les conclusions suivantes :
+
+Le Conseil communal de La Tour-de-Peilz,
+
+- vu le rapport de la Municipalité concernant la gestion et les comptes communaux de l'année 2025,
+- vu le rapport de la Commission de gestion,
+- considérant que cet objet a été porté à l'ordre du jour,
+
+décide :
+
+1. d'adopter les comptes communaux pour l'exercice 2025 tels que présentés ;
+2. d'approuver la gestion pour l'exercice 2025 ;
+3. de donner décharge à la Municipalité de sa gestion pour l'année 2025.
+
+AU NOM DE LA MUNICIPALITÉ
+
+La Syndique :
+
+Le Secrétaire :
+
+Sandra Pasquier
+
+P.-A. Dupertuis
+
+AU NOM DU CONSEIL COMMUNAL
+
+Le Président :
+
+La Secrétaire :
+
+Yvan Krähenbühl
+
+Carole Dind
+
+Adopté par la Municipalité dans sa séance du 13 avril 2026.
+
+Vu par le Préfet le _________________________
+
+
+
+# Compte de fonctionnement
+
+
+
+# RÉCAPITULATION PAR SERVICES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  1 Administration générale | 13'238'632.09 | 1'459'798.85 11'778'833.24 | 14'108'470 | 1'031'885 13'076'585 | 15'670'442.93 | 2'031'435.76 13'639'007.17  |
+|  2 Finances | 12'313'749.51 45'924'891.72 | 58'238'641.23 | 11'127'550 49'292'250 | 60'419'800 | 17'847'644.61 46'828'417.66 | 64'676'062.27  |
+|  3 Domaines et bâtiments | 4'015'322.59 171'111.99 | 4'186'434.58 | 4'685'740 | 4'179'904 505'836 | 4'014'932.72 121'351.05 | 4'136'283.77  |
+|  4 Urbanisme et travaux publics | 14'511'033.64 | 9'038'696.11 5'472'337.53 | 20'308'950 | 13'520'290 6'788'660 | 10'056'772.81 | 5'153'225.33 4'903'547.48  |
+|  5 Instruction publique et cultes | 4'499'073.22 | 681'946.78 3'817'126.44 | 5'068'892 | 531'090 4'537'802 | 4'148'358.05 | 1'045'762.43 3'102'595.62  |
+|  6 Sécurité - population - feu | 5'203'544.99 | 506'244.29 4'697'300.70 | 5'471'690 | 209'500 5'262'190 | 5'554'247.60 | 290'809.08 5'263'438.52  |
+|  7 Famille, jeunesse, sport et culture | 24'469'303.13 | 4'179'468.83 20'289'834.30 | 25'115'250 | 6'032'750 19'082'500 | 24'436'363.64 | 4'440'159.80 19'996'203.84  |
+|  **Total** | **78'250'659.17** | **78'291'230.67** | **85'886'542** | **85'925'219** | **81'728'762.36** | **81'773'738.44**  |
+|  **Excédents charges ou revenus** | **40'571.50** |  | **38'677** |  | **44'976.08** |   |
+|  **Totaux égaux** | **78'291'230.67** | **78'291'230.67** | **85'925'219** | **85'925'219** | **81'773'738.44** | **81'773'738.44**  |
+
+
+
+## CHARGES ET REVENUS PAR SERVICES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **1 Administration générale** | **13'238'632.09** | **1'459'798.85** | **14'108'470** | **1'031'885** | **15'670'442.93** | **2'031'435.76**  |
+|  10 Autorités | 654'129.73 | 118'545.46 *535'584.27* | 624'854 | 98'325 *526'529* | 502'297.70 | 113'197.35 *389'100.35*  |
+|  11 Administration | 1'646'070.30 | 31'990.50 *1'614'079.80* | 1'808'716 | 11'000 *1'797'716* | 1'812'325.92 | 23'316.40 *1'789'009.52*  |
+|  12 Service de l'économat | 249'261.77 | 44'749.25 *204'512.52* | 276'100 | 42'000 *234'100* | 211'182.66 | 50'053.36 *161'129.30*  |
+|  13 Ressources humaines et assurances | 985'744.11 | 30'630.00 *955'114.11* | 1'050'100 | 361'200 *688'900* | 4'048'637.44 | 660'597.90 *3'388'039.54*  |
+|  15 Affaires culturelles et de loisirs | 4'287'990.57 | 246'968.39 *4'041'022.18* | 4'454'300 | 182'230 *4'272'070* | 3'657'301.89 | 174'141.95 *3'483'159.94*  |
+|  16 Economie et tourisme | 0.00 | 0.00 | 5'000 | 0 *5'000* | 12'000.00 | 0.00 *12'000.00*  |
+|  17 Sports | 311'770.99 | 71'698.65 *240'072.34* | 368'900 | 63'430 *305'470* | 414'349.07 | 237'073.25 *177'275.82*  |
+|  18 Transports publics | 3'931'160.55 | 623'833.00 *3'307'327.55* | 4'220'800 | 0 *4'220'800* | 3'987'540.40 | 474'762.85 *3'512'777.55*  |
+|  19 Service informatique | 1'172'504.07 | 291'383.60 *881'120.47* | 1'299'700 | 273'700 *1'026'000* | 1'024'807.85 | 298'292.70 *726'515.15*  |
+|  **2 Finances** | **12'313'749.51** | **58'238'641.23** | **11'127'550** | **60'419'800** | **17'847'644.61** | **64'676'062.27**  |
+|  20 Comptabilité générale | 859'800.41 | 502'222.67 *357'577.74* | 895'500 | 380'500 *515'000* | 613'611.06 | 374'280.79 *239'330.27*  |
+|  21 Impôts | 1'726'007.85 *52'448'934.62* | 54'174'942.47 | 1'768'500 *55'634'500* | 57'403'000 | 1'677'899.89 *53'702'183.99* | 55'380'083.88  |
+|  22 Service financier | 9'520'758.11 | 3'544'292.95 *5'976'465.16* | 8'383'550 | 1'736'300 *6'647'250* | 14'643'403.86 | 8'906'290.30 *5'737'113.56*  |
+|  23 Amortissements et réserves non-ventilés | 207'183.14 | 17'183.14 *190'000.00* | 80'000 *820'000* | 900'000 | 912'729.80 | 15'407.30 *897'322.50*  |
+|  **3 Domaines et bâtiments** | **4'015'322.59** | **4'186'434.58** | **4'685'740** | **4'179'904** | **4'014'932.72** | **4'136'283.77**  |
+
+
+
+## CHARGES ET REVENUS PAR SERVICES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  30 Service administratif | 1'637'977.30 | 301'780.58 *1'336'196.72* | 1'932'090 | 350'100 *1'581'990* | 1'268'346.04 | 288'658.11 *979'687.93*  |
+|  31 Terrains | 290'000.00 | 241'080.00 *48'920.00* | 290'000 | 226'320 *63'680* | 290'000.00 | 228'837.00 *61'163.00*  |
+|  32 Forêts et pâturages | 60'554.50 *9'175.45* | 69'729.95 | 82'100 | 34'650 *47'450* | 106'650.79 *23'919.01* | 130'569.80  |
+|  33 Vignes | 160'548.96 | 107'452.49 *53'096.47* | 226'050 | 135'800 *90'250* | 162'505.07 | 105'996.48 *56'508.59*  |
+|  34 Service des gérances | 899'211.21 *1'817'385.84* | 2'716'597.05 | 1'109'950 *1'586'534* | 2'696'484 | 947'523.58 *1'722'351.16* | 2'669'874.74  |
+|  35 Bâtiments | 967'030.62 | 749'794.51 *217'236.11* | 1'045'550 | 736'550 *309'000* | 1'239'907.24 | 712'347.64 *527'559.60*  |
+|  **4 Urbanisme et travaux publics** | **14'511'033.64** | **9'038'696.11** | **20'308'950** | **13'520'290** | **10'056'772.81** | **5'153'225.33**  |
+|  40 Service administratif | 1'373'418.89 | 514'356.15 *859'062.74* | 1'463'100 | 230'000 *1'233'100* | 978'750.58 | 89'237.70 *889'512.88*  |
+|  43 Routes | 5'944'340.19 | 3'285'574.26 *2'658'765.93* | 9'999'000 | 6'791'200 *3'207'800* | 3'633'953.64 | 1'291'353.26 *2'342'600.38*  |
+|  44 Parcs-promenades-cimetière | 2'204'307.26 | 367'043.65 *1'837'263.61* | 2'547'950 | 359'365 *2'188'585* | 1'692'834.62 | 128'795.68 *1'564'038.94*  |
+|  45 Ordures ménagères et déchets | 1'982'181.90 | 1'982'181.90 | 2'123'050 | 2'123'050 | 1'881'292.67 | 1'881'292.67  |
+|  46 Réseau d'égouts et d'épuration | 2'545'652.69 | 2'545'652.69 | 3'291'800 | 3'291'800 | 1'516'435.83 | 1'516'435.83  |
+|  47 Cours d'eau - rives - port | 461'132.71 | 343'887.46 *117'245.25* | 884'050 | 724'875 *159'175* | 353'505.47 | 246'110.19 *107'395.28*  |
+|  **5 Instruction publique et cultes** | **4'499'073.22** | **681'946.78** | **5'068'892** | **531'090** | **4'148'358.05** | **1'045'762.43**  |
+|  50 Administration des écoles | 3'355'425.12 | 513'476.23 *2'841'948.89* | 3'781'120 | 389'440 *3'391'680* | 3'079'168.64 | 874'386.83 *2'204'781.81*  |
+|  52 Enseignement secondaire | 214'401.66 | 29'634.40 *184'767.26* | 263'300 | 26'300 *237'000* | 187'653.07 | 26'570.00 *161'083.07*  |
+
+
+
+## CHARGES ET REVENUS PAR SERVICES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  53 Enseignement spécialisé | 5'591.70 | 0.00 *5'591.70* | 12'000 | 0 *12'000* | 6'634.05 | 0.00 *6'634.05*  |
+|  55 Formation professionnelle | 15'003.90 | 0.00 *15'003.90* | 11'000 | 0 *11'000* | 14'114.85 | 0.00 *14'114.85*  |
+|  56 Service médical et dentaire | 33'367.78 | 200.00 *33'367.78* | 47'100 | 200 *46'900* | 34'621.60 | 200.00 *34'621.60*  |
+|  57 Camps scolaires et activités culturelles | 551'546.61 | 135'906.15 *415'640.46* | 597'772 | 115'050 *482'722* | 518'076.05 | 140'680.60 *377'395.45*  |
+|  58 Temples et cultes | 323'736.45 | 2'730.00 *321'006.45* | 356'600 | 100 *356'500* | 308'089.79 | 3'925.00 *304'164.79*  |
+|  **6 Sécurité - population - feu** | **5'203'544.99** | **506'244.29** | **5'471'690** | **209'500** | **5'554'247.60** | **290'809.08**  |
+|  60 Police administrative | 4'003'552.84 | 10'882.00 *3'992'670.84* | 4'402'100 | 0 *4'402'100* | 4'707'684.67 | 51'209.00 *4'656'475.67*  |
+|  62 Contrôle des habitants | 700'294.97 | 206'062.69 *494'232.28* | 827'700 | 207'000 *620'700* | 621'651.36 | 234'487.53 *387'163.83*  |
+|  63 Police sanitaire | 82'346.20 | 0.00 *82'346.20* | 96'490 | 0 *96'490* | 77'191.87 | 0.00 *77'191.87*  |
+|  64 Service des inhumations | 129'051.38 | 1'000.00 *128'051.38* | 140'400 | 2'500 *137'900* | 114'327.01 | 2'500.00 *111'827.01*  |
+|  66 Protection civile | 288'299.60 | 288'299.60 | 5'000 | 0 *5'000* | 33'392.69 | 2'612.55 *30'780.14*  |
+|  **7 Famille, jeunesse, sport et culture** | **24'469'303.13** | **4'179'468.83** | **25'115'250** | **6'032'750** | **24'436'363.64** | **4'440'159.80**  |
+|  70 Service administratif | 10'386'136.26 | 3'981'718.57 *6'404'417.69* | 11'864'600 | 4'023'150 *7'841'450* | 10'129'263.76 | 4'342'504.50 *5'786'759.26*  |
+|  71 Service social | 1'406'797.07 | 84'385.45 *1'322'411.62* | 1'438'050 | 58'600 *1'379'450* | 1'257'992.28 | 45'363.70 *1'212'628.58*  |
+|  72 Prévoyance sociale | 12'676'369.80 | 113'364.81 *12'563'004.99* | 11'812'600 | 1'951'000 *9'861'600* | 13'049'107.60 | 52'291.60 *12'996'816.00*  |
+|  **Total** | **78'250'659.17** | **78'291'230.67** | **85'886'542** | **85'925'219** | **81'728'762.36** | **81'773'738.44**  |
+
+
+
+## CHARGES ET REVENUS PAR SERVICES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  Excédents charges ou revenus | 40'571.50 |  | 38'677 |  | 44'976.08 |   |
+|  Totaux égaux | 78'291'230.67 | 78'291'230.67 | 85'925'219 | 85'925'219 | 81'773'738.44 | 81'773'738.44  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **1** | **Administration générale** | **13'238'632.09** | **1'459'798.85** | **14'108'470** | **1'031'885** | **15'670'442.93** | **2'031'435.76**  |
+|  **10** | **Autorités** | **654'129.73** | **118'545.46** | **624'854** | **98'325** | **502'297.70** | **113'197.35**  |
+|  **100** | **Conseil communal** | **83'870.48** |  | **107'179** |  | **66'291.19** |   |
+|  SADM | 100.3001.00 Traitements | 10'752.00 |  | 10'900 |  | 10'684.80 |   |
+|  SADM | 100.3003.00 Jetons de présence et indemnités | 31'080.00 |  | 39'000 |  | 29'500.00 |   |
+|  SADM | 100.3012.00 Salaires des aides | 1'395.00 |  | 2'100 |  | 1'327.50 |   |
+|  SADM | 100.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 1'210.48 |  | 1'700 |  |  |   |
+|  **SADM** | **100.3040.00 Caisse de retraite** | **1'528.02** |  | **1'900** |  |  |   |
+|  SADM | 100.3050.01 Assurance maladie perte de gain |  |  | 300 |  |  |   |
+|  SADM | 100.3051.00 Assurances accidents | 29.81 |  | 300 |  |  |   |
+|  SADM | 100.3069.00 Débours divers |  |  | 2'000 |  | 50.00 |   |
+|  **SADM** | **100.3101.00 Frais pour votations et élections** | **22'231.25** |  | **23'779** |  | **9'636.25** |   |
+|  SADM | 100.3102.02 Annonces et publications |  |  | 1'000 |  | 150.00 |   |
+|  SADM | 100.3111.00 Achats de mobilier et matériel |  |  | 1'500 |  |  |   |
+|  SADM | 100.3170.00 Débours conseil - Commissions permanentes | 15'643.92 |  | 22'700 |  | 14'942.64 |   |
+|  **101** | **Municipalité** | **570'259.25** | **118'545.46** | **517'675** | **98'325** | **436'006.51** | **113'197.35**  |
+|  **SADM** | **101.3001.00 Traitements** | **397'587.70** |  | **339'900** |  | **327'883.35** |   |
+|  **SADM** | **101.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **34'229.00** |  | **30'100** |  |  |   |
+|  SADM | 101.3030.01 Allocations familiales communales | 1'440.00 |  | 1'500 |  |  |   |
+|  **SADM** | **101.3040.00 Fonds de prévoyance** | **36'712.55** |  | **35'300** |  | **31'834.45** |   |
+|  **SADM** | **101.3050.01 Assurance maladie perte de gain** | **7'723.43** |  | **7'100** |  |  |   |
+|  **SADM** | **101.3051.00 Assurances accidents** | **3'180.02** |  | **4'000** |  |  |   |
+|  SADM | 101.3069.00 Vacations | 50'000.00 |  | 50'000 |  | 43'333.35 |   |
+|  SADM | 101.3069.01 Frais de séances et divers | 6'944.25 |  | 12'000 |  | 5'547.31 |   |
+|  SADM | 101.3091.00 Frais de formation |  |  | 5'000 |  | 400.00 |   |
+|  SADM | 101.3101.00 Economat | 1'496.55 |  | 1'000 |  | 1'432.15 |   |
+|  SADM | 101.3111.00 Achats mobilier, mach., équip. techn. bureau | 200.85 |  | 1'000 |  |  |   |
+|  SADM | 101.3182.00 Téléphones | 69.90 |  | 100 |  | 50.90 |   |
+|  SADM | 101.3819.00 Attrib. - Fonds primes départ municipaux | 23'175.00 |  | 23'175 |  | 18'025.00 |   |
+|  SADM | 101.3902.01 Imputations internes - Maintenance informatique | 7'500.00 |  | 7'500 |  | 7'500.00 |   |
+|  **SADM** | **101.4361.00 Remboursements d'assurances** |  | **30'214.50** |  |  |  | **14'918.50**  |
+|  **SADM** | **101.4361.03 Jetons présence entités intercommunales** |  | **88'330.96** |  | **98'325** |  | **98'278.85**  |
+|  **11** | **Administration** | **1'646'070.30** | **31'990.50** | **1'808'716** | **11'000** | **1'812'325.92** | **23'316.40**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **110** | **Secrétariat municipal** | **731'945.55** | **5'365.50** | **789'240** | **2'000** | **835'310.43** |   |
+|  **SADM 110.3011.00** | **Traitements** | **539'463.11** |  | **559'400** |  | **802'962.57** |   |
+|  SADM 110.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 49'236.05 |  | 52'800 |  |  |   |
+|  SADM 110.3030.01 | Allocations familiales communales | 2'539.29 |  | 2'900 |  |  |   |
+|  **SADM 110.3040.00** | **Caisse de retraite** | **83'062.20** |  | **101'900** |  |  |   |
+|  SADM 110.3050.00 | Assurance maladie participation | 2'034.09 |  | 2'300 |  |  |   |
+|  SADM 110.3050.01 | Assurance maladie perte de gain | 9'734.55 |  | 11'000 |  |  |   |
+|  SADM 110.3051.00 | Assurances accidents | 4'279.76 |  | 6'400 |  |  |   |
+|  SADM 110.3069.00 | Débours divers | 4'243.90 |  | 6'540 |  | 3'737.16 |   |
+|  **SADM 110.3080.00** | **Personnel intérim, facturé par des tiers** |  |  | **10'000** |  |  |   |
+|  SADM 110.3101.00 | Economat | 11'244.80 |  | 11'500 |  | 6'771.05 |   |
+|  SADM 110.3111.00 | Achats de mobilier et matériel | 94.25 |  | 2'000 |  | 233.60 |   |
+|  SADM 110.3151.00 | Entretien mobilier et matériel |  |  | 1'000 |  | 91.20 |   |
+|  SADM 110.3182.00 | Téléphones | 2'013.55 |  | 2'000 |  | 2'014.85 |   |
+|  SADM 110.3902.01 | Imputations internes - Maintenance informatique | 24'000.00 |  | 19'500 |  | 19'500.00 |   |
+|  SADM 110.4311.00 | Taxes et émoluments |  |  |  | 2'000 |  |   |
+|  **SADM 110.4361.00** | **Remboursements d'assurances** |  | **5'365.50** |  |  |  |   |
+|  **111** | **Administration générale** | **894'124.75** | **26'625.00** | **993'716** | **9'000** | **958'149.94** | **23'316.40**  |
+|  **SADM 111.3011.00** | **Traitements réceptions** | **41'533.88** |  | **38'800** |  | **31'803.70** |   |
+|  **SADM 111.3011.90** | **Traitements apprentis** | **70'617.70** |  | **75'000** |  | **124'502.85** |   |
+|  SADM 111.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 8'978.69 |  | 10'100 |  |  |   |
+|  **SADM 111.3030.01** | **Allocations familiales communales** | **158.19** |  |  |  |  |   |
+|  **SADM 111.3040.00** | **Caisse de retraite** | **4'237.37** |  | **5'100** |  |  |   |
+|  SADM 111.3050.00 | Assurance maladie participation | 828.20 |  | 900 |  |  |   |
+|  SADM 111.3050.01 | Assurance maladie perte de gain | 1'980.73 |  | 2'300 |  |  |   |
+|  SADM 111.3051.00 | Assurances accidents | 1'070.46 |  | 1'700 |  |  |   |
+|  SADM 111.3065.00 | Frais d'habillement | 40.00 |  | 500 |  | 40.00 |   |
+|  SADM 111.3102.01 | Abonnements aux journaux | 5'828.40 |  | 7'382 |  | 7'990.99 |   |
+|  SADM 111.3102.02 | Annonces et publications | 4'215.90 |  | 5'500 |  |  |   |
+|  SADM 111.3102.03 | Promotion et communication | 4'303.01 |  | 5'000 |  | 3'450.50 |   |
+|  **SADM 111.3109.00** | **Dépenses casuelles** |  |  | **25'000** |  | **12'007.00** |   |
+|  SADM 111.3111.00 | Achats de matériel et équipement | 7'402.40 |  | 9'000 |  | 6'742.65 |   |
+|  SADM 111.3151.00 | Entretien mobilier et matériel | 593.65 |  | 1'000 |  | 64.90 |   |
+|  SADM 111.3163.00 | Droits d'auteur | 938.60 |  | 1'500 |  | 938.60 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SADM | 111.3170.00 | Réceptions et vin d'honneur | 65'360.12 |  | 80'000 |  | 63'484.00 |   |
+|  SADM | 111.3170.01 | Manifestation du 1er août | 35'912.85 |  | 42'000 |  | 41'261.60 |   |
+|  SADM | 111.3170.02 | Manifestations diverses | 9'884.35 |  | 19'500 |  | 26'204.50 |   |
+|  SADM | 111.3181.00 | Affranchissement général | 56'411.30 |  | 60'000 |  | 59'329.87 |   |
+|  SADM | 111.3182.00 | Téléphones | 2'011.20 |  | 2'000 |  | 2'034.50 |   |
+|  SADM | 111.3185.00 | Honoraires et frais de procédure | 6'000.00 |  | 5'000 |  | 62'289.93 |   |
+|  SADM | 111.3193.00 | Cotisations à diverses institutions | 18'457.95 |  | 23'450 |  | 19'652.25 |   |
+|  SADM | 111.3193.01 | Cotisations Union des Communes Vaudoises | 16'406.25 |  | 16'900 |  | 16'150.00 |   |
+|  SADM | 111.3521.01 | Frais stand de tir | 6'873.45 |  | 7'200 |  | 6'807.10 |   |
+|  SADM | 111.3528.00 | Part. service affaires intercommunales (SAI) | 124'917.00 |  | 130'000 |  | 111'554.25 |   |
+|  SADM | 111.3651.00 | Subventions - Justice et sécurité | 900.00 |  | 900 |  | 700.00 |   |
+|  SADM | 111.3652.00 | Subventions - Enseignement et cultes | 500.00 |  | 500 |  | 500.00 |   |
+|  SADM | 111.3653.01 | Garantie de déficit - Union chorale | 2'695.00 |  | 7'000 |  | 1'557.00 |   |
+|  SFJSC | 111.3653.02 | Subventions - AuTour de l'Avent | 6'310.00 |  | 7'000 |  | 6'700.00 |   |
+|  SADM | 111.3653.03 | Subventions - Dring-Dring | 14'512.80 |  | 10'000 |  | 5'170.80 |   |
+|  SADM | 111.3653.14 | Subventions - Montreux-Vevey tourisme | 222'474.00 |  | 222'474 |  | 222'474.00 |   |
+|  SADM | 111.3653.30 | Subventions - Culture, loisirs et sports | 4'550.00 |  | 5'300 |  | 4'530.00 |   |
+|  SADM | 111.3653.31 | Subventions - Dolce Riviera | 35'000.00 |  | 35'000 |  |  |   |
+|  SADM | 111.3655.00 | Subventions - Aides et prévoyance sociale | 800.00 |  | 900 |  | 800.00 |   |
+|  SADM | 111.3655.02 | Subventions - Préparation à la retraite | 6'406.00 |  | 6'500 |  | 6'302.50 |   |
+|  SADM | 111.3656.00 | Subventions - Aménagement du territoire | 577.50 |  | 680 |  | 657.50 |   |
+|  SADM | 111.3658.00 | Subventions - Economie publique | 3'941.80 |  | 7'030 |  | 3'910.75 |   |
+|  SADM | 111.3658.01 | Subventions - PROMOVE | 89'684.00 |  | 91'000 |  | 90'688.20 |   |
+|  SADM | 111.3658.02 | Subventions - ASLOCA | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SADM | 111.3658.06 | Subventions - Patrimoine Lavaux | 5'212.00 |  | 5'250 |  | 2'500.00 |   |
+|  SADM | 111.3659.01 | Subventions - Divers | 500.00 |  | 500 |  | 500.00 |   |
+|  SADM | 111.3659.02 | Subventions - Dons occasionnels | 100.00 |  | 13'850 |  | 9'850.00 |   |
+|  SADM | 111.4313.00 | Emoluments de naturalisations |  | 20'400.00 |  |  |  | 13'650.00  |
+|  SADM | 111.4359.00 | Recettes diverses |  | 500.00 |  |  |  | 550.50  |
+|  SADM | 111.4359.03 | Promotion et communication |  | 475.00 |  |  |  |   |
+|  SADM | 111.4361.00 | Remboursements d'assurances |  |  |  |  |  | 315.90  |
+|  SADM | 111.4901.02 | Imputations internes - Frais de port |  | 5'250.00 |  | 9'000 |  | 8'800.00  |
+|   | 112 | Sécurité au travail | 20'000.00 |  | 25'760 |  | 18'865.55 |   |
+|  SADM | 112.3091.00 | Frais de formation |  |  | 500 |  |  |   |
+|  SADM | 112.3114.00 | Achats de matériel - Sécurité au travail |  |  | 5'000 |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SADM | 112.3193.00 | Cotisations diverses |  |  | 260 |  |  |   |
+|  SADM | 112.3524.00 | Contributions à la Commune de Vevey | 20'000.00 |  | 20'000 |  | 18'865.55 |   |
+|   | **12** | **Service de l'économat** | **249'261.77** | **44'749.25** | **276'100** | **42'000** | **211'182.66** | **50'053.36**  |
+|   | **121** | **Centre d'impression** | **249'261.77** | **44'749.25** | **276'100** | **42'000** | **211'182.66** | **50'053.36**  |
+|  SADM | 121.3011.00 | Traitements | 114'569.00 |  | 115'700 |  | 112'879.00 |   |
+|  SADM | 121.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 10'554.55 |  | 11'000 |  |  |   |
+|  SADM | 121.3030.01 | Allocations familiales communales | 1'440.00 |  | 1'500 |  |  |   |
+|  **SADM** | **121.3040.00** | **Caisse de retraite** | **17'910.99** |  | **21'800** |  |  |   |
+|  SADM | 121.3050.01 | Assurance maladie perte de gain | 1'979.93 |  | 2'200 |  |  |   |
+|  SADM | 121.3051.00 | Assurances accidents | 938.06 |  | 1'400 |  |  |   |
+|  SADM | 121.3101.00 | Economat | 68'967.39 |  | 80'000 |  | 67'995.02 |   |
+|  **SADM** | **121.3101.01** | **Photocopies noir et blanc** | **3'608.15** |  | **8'500** |  | **2'414.40** |   |
+|  SADM | 121.3101.02 | Photocopies couleurs | 4'833.76 |  | 6'000 |  | 5'971.69 |   |
+|  SADM | 121.3111.00 | Achats de mobilier et matériel | 3'100.00 |  | 4'100 |  | 3'863.20 |   |
+|  SADM | 121.3151.00 | Entretien du matériel | 1'688.00 |  | 3'000 |  | 3'167.35 |   |
+|  SADM | 121.3163.00 | Locations de photocopieur couleur | 13'777.69 |  | 14'000 |  | 11'532.00 |   |
+|  SADM | 121.3182.00 | Téléphones | 360.00 |  | 400 |  | 360.00 |   |
+|  SADM | 121.3189.00 | Mandats externes culture | 4'034.25 |  | 5'000 |  | 1'500.00 |   |
+|  SADM | 121.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SADM | 121.4359.00 | Recettes diverses |  | 37'745.65 |  | 35'000 |  | 41'996.91  |
+|  SADM | 121.4359.01 | Ventes de photocopies à divers services |  | 7'003.60 |  | 7'000 |  | 5'958.55  |
+|  **SADM** | **121.4361.00** | **Remboursements d'assurances** |  |  |  |  |  | **2'097.90**  |
+|   | **13** | **Ressources humaines et assurances** | **985'744.11** | **30'630.00** | **1'050'100** | **361'200** | **4'048'637.44** | **660'597.90**  |
+|   | **130** | **Ressources humaines** | **737'978.70** | **30'630.00** | **776'700** | **361'200** | **3'816'634.59** | **660'597.90**  |
+|  SADM | 130.3011.00 | Traitements | 318'869.09 |  | 323'000 |  |  |   |
+|  **SADM** | **130.3011.01** | **Traitements jeunes** |  |  | **1'200** |  | **468.00** |   |
+|  SADM | 130.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 29'095.93 |  | 30'500 |  | 1'197'962.20 |   |
+|  SADM | 130.3030.01 | Allocations familiales communales | 455.10 |  | 800 |  | 95'120.00 |   |
+|  **SADM** | **130.3040.00** | **Caisse de retraite** | **49'642.00** |  | **60'000** |  | **1'740'339.69** |   |
+|  SADM | 130.3050.00 | Assurance maladie participation |  |  |  |  | 51'181.55 |   |
+|  SADM | 130.3050.01 | Assurance maladie perte de gain | 6'741.71 |  | 7'400 |  | 247'055.40 |   |
+|  SADM | 130.3051.00 | Assurances accidents | 2'557.00 |  | 3'800 |  | 152'445.30 |   |
+|  **SADM** | **130.3079.00** | **Allocations aux pensionnés** | **15'614.00** |  | **19'200** |  | **18'888.15** |   |
+|  SADM | 130.3091.00 | Frais de formation du personnel | 79'812.80 |  | 80'000 |  | 76'342.76 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SADM | 130.3091.01 | Frais de formation des apprentis | 19'515.03 |  | 26'300 |  | 18'667.34 |   |
+|  SADM | 130.3091.10 | Frais de déplacement et de repas du personnel | 5'704.56 |  | 8'000 |  | 9'192.58 |   |
+|  SADM | 130.3091.11 | Frais de déplacement et de repas des apprentis | 1'634.57 |  | 1'500 |  | 1'136.59 |   |
+|  SADM | 130.3092.00 | Frais de recherche de personnel | 18'114.25 |  | 19'000 |  | 14'270.10 |   |
+|  SADM | 130.3099.01 | Course et soirée du personnel | 19'161.30 |  | 27'000 |  | 21'535.50 |   |
+|  **SADM** | **130.3099.02** | **Charges diverses** | **22'129.91** |  | **42'000** |  | **138'876.43** |   |
+|  **SADM** | **130.3099.03** | **Part. employeur structures d'accueil** | **92'017.85** |  | **80'000** |  |  |   |
+|  SADM | 130.3111.00 | Achats de mobilier et matériel | 5'053.80 |  | 5'500 |  |  |   |
+|  SADM | 130.3185.01 | Honoraires prévention médicale | 33.60 |  | 2'500 |  | 610.25 |   |
+|  SADM | 130.3185.02 | Honoraires et expertises | 47'326.20 |  | 36'000 |  | 26'542.75 |   |
+|  SADM | 130.3902.01 | Imputations internes - Maintenance informatique | 4'500.00 |  | 3'000 |  | 6'000.00 |   |
+|  SADM | 130.4359.00 | Recettes diverses |  |  |  |  |  | 15'642.25  |
+|  **SADM** | **130.4361.00** | **Remboursements d'assurances** |  | **10'640.00** |  |  |  |   |
+|  **SADM** | **130.4361.02** | **Remboursements allocations perte de gains** |  |  |  | **220'000** |  | **57'892.15**  |
+|  **SADM** | **130.4361.03** | **Ajustement indexation** |  |  |  | **116'400** |  |   |
+|  **SADM** | **130.4363.00** | **Remboursements de tiers** |  | **7'990.00** |  | **12'800** |  | **5'440.00**  |
+|  SADM | 130.4901.00 | Imputations internes - Charges sociales |  |  |  |  |  | 571'623.50  |
+|  SADM | 130.4909.00 | Imputations - Support logistique 705 AFJ |  | 12'000.00 |  | 12'000 |  | 10'000.00  |
+|  **131** |  | **Assurances diverses** | **247'765.41** |  | **273'400** |  | **232'002.85** |   |
+|  SFIN | 131.3186.02 | Assurances RC dégâts d'eau/glaces | 74'045.80 |  | 72'700 |  | 57'882.30 |   |
+|  **SFIN** | **131.3186.03** | **Assurance incendie mobilière immobilière** | **147'221.24** |  | **182'500** |  | **151'346.30** |   |
+|  SFIN | 131.3186.04 | Autres primes d'assurances | 7'171.40 |  | 8'200 |  | 7'966.20 |   |
+|  **SFIN** | **131.3199.00** | **Sinistres non remboursés** | **19'326.97** |  | **10'000** |  | **14'808.05** |   |
+|  **15** |  | **Affaires culturelles et de loisirs** | **4'287'990.57** | **246'968.39** | **4'454'300** | **182'230** | **3'657'301.89** | **174'141.95**  |
+|  **150** |  | **Affaires culturelles** | **2'172'466.17** | **22'236.15** | **2'213'900** | **18'700** | **2'040'709.13** | **23'800.00**  |
+|  SFJSC | 150.3011.00 | Traitements | 142'525.50 |  | 143'900 |  | 139'161.10 |   |
+|  **SFJSC** | **150.3011.01** | **Traitements auxiliaires** | **1'326.75** |  | **4'000** |  | **2'800.00** |   |
+|  SFJSC | 150.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 13'114.08 |  | 14'000 |  |  |   |
+|  SFJSC | 150.3030.01 | Allocations familiales communales | 1'440.00 |  | 1'500 |  |  |   |
+|  **SFJSC** | **150.3040.00** | **Caisse de retraite** | **21'992.72** |  | **27'100** |  |  |   |
+|  SFJSC | 150.3050.01 | Assurance maladie perte de gain | 3'095.40 |  | 3'500 |  |  |   |
+|  SFJSC | 150.3051.00 | Assurances accidents | 1'166.74 |  | 1'800 |  |  |   |
+|  SDOM | 150.3123.00 | Electricité à diverses sociétés | 7'654.25 |  | 10'000 |  | 9'300.10 |   |
+|  **SUTP** | **150.3143.00** | **Affichage culturel** | **43'031.65** |  | **43'500** |  | **17'125.00** |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SFJSC | 150.3170.00 | Animations Place des Anciens-Fossés  |
+| --- | --- | --- |
+|  SFJSC | 150.3170.01 | Animations Festival du jeu  |
+|  SFJSC | 150.3182.00 | Téléphones  |
+|  SFJSC | 150.3189.00 | Mandats et frais divers  |
+|  **SFJSC** | **150.3653.03** | **Subventions - Jumelage Ornans**  |
+|  SADM | 150.3653.04 | Subventions - Fête du jeu  |
+|  SADM | 150.3653.05 | Subventions - CIEHL  |
+|  SFJSC | 150.3653.06 | Subventions - Cie ADN Dialect  |
+|  SFJSC | 150.3653.07 | Subventions - Festival Riviera Classic+  |
+|  **SFJSC** | **150.3653.09** | **Subventions - Passeport vacances**  |
+|  SFJSC | 150.3653.10 | Subventions - Clef de voûte  |
+|  SFJSC | 150.3653.11 | Subventions - Cie les ArTpenteurs  |
+|  SFJSC | 150.3653.12 | Subventions - Université populaire  |
+|  SFJSC | 150.3653.13 | Subventions - Riviera Tango Fiesta  |
+|  SADM | 150.3653.14 | Subventions - Assoc. sauv. Narcisses  |
+|  **SFJSC** | **150.3653.15** | **Subventions - Fonds culturel Riviera**  |
+|  SFJSC | 150.3653.16 | Subventions - Orchestre de Ribaupierre  |
+|  SFJSC | 150.3653.17 | Subventions - Conservatoire Riviera  |
+|  SFJSC | 150.3653.18 | Subventions - Festival IMAGES  |
+|  SFJSC | 150.3653.19 | Subventions - Festival de la Tour (ex-théâtre en exil)  |
+|  SADM | 150.3653.20 | Subventions - Fondation Musée du Jeu  |
+|  SFJSC | 150.3653.21 | Subventions - Tréteaux du Château  |
+|  SFJSC | 150.3653.23 | Subventions - Fête multiculturelle (Vevey)  |
+|  SADM | 150.3653.24 | Cotisations fond. équip. touristique  |
+|  SFJSC | 150.3653.27 | Subventions - Nox Orae  |
+|  **SFJSC** | **150.3653.28** | **Subventions - Cinéma en plein air**  |
+|  SFJSC | 150.3653.30 | Subventions - Commission culturelle  |
+|  SFJSC | 150.3653.32 | Subventions - Rocking-Chair (Vevey)  |
+|  SFJSC | 150.3653.33 | Subventions - Fondation enseignement musique (FEM)  |
+|  SFJSC | 150.3653.34 | Subventions - L'improvisible festival  |
+|  SFJSC | 150.3653.36 | Subventions - Festival artistes rue (Vevey)  |
+|  SFJSC | 150.3653.38 | Subventions - Festival théâtre amateur  |
+|  SFJSC | 150.3653.39 | Subventions - Gioia Cantar  |
+|  SFJSC | 150.3653.41 | Subventions - Compagnie B&Z  |
+|  SFJSC | 150.3653.45 | Subventions - Halloween party  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  12'080.00 |  | 13'000 |  | 12'099.00 |   |
+|  9'924.90 |  | 10'000 |  | 7'324.00 |   |
+|  275.80 |  | 600 |  | 251.86 |   |
+|  9'790.63 |  | 10'000 |  | 6'127.95 |   |
+|  **7'955.35** |  | **15'500** |  | **13'054.04** |   |
+|  20'000.00 |  | 20'000 |  | 20'000.00 |   |
+|  64'060.00 |  | 65'000 |  | 63'025.00 |   |
+|  5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  10'000.00 |  | 10'000 |  | 10'000.00 |   |
+|  **7'260.00** |  | **10'000** |  | **7'120.00** |   |
+|  10'000.00 |  | 10'000 |  | 10'000.00 |   |
+|  10'000.00 |  | 10'000 |  | 10'000.00 |   |
+|  2'500.00 |  | 2'500 |  | 2'500.00 |   |
+|  10'000.00 |  | 10'000 |  | 10'000.00 |   |
+|  1'000.00 |  | 1'000 |  |  |   |
+|  **590'392.00** |  | **598'000** |  | **592'435.00** |   |
+|  2'000.00 |  | 2'000 |  | 2'000.00 |   |
+|  88'460.00 |  | 91'000 |  | 84'443.50 |   |
+|  17'500.00 |  | 17'500 |  | 17'500.00 |   |
+|  10'000.00 |  | 10'000 |  | 5'000.00 |   |
+|  695'000.00 |  | 695'000 |  | 695'000.00 |   |
+|  6'000.00 |  | 7'500 |  | 7'500.00 |   |
+|  2'000.00 |  | 2'000 |  | 2'000.00 |   |
+|  5'000.00 |  | 5'000 |  |  |   |
+|  17'000.00 |  | 17'000 |  | 17'000.00 |   |
+|  **25'433.70** |  | **29'500** |  | **20'437.53** |   |
+|  49'908.00 |  | 50'000 |  | 28'769.00 |   |
+|  5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  121'714.00 |  | 120'000 |  | 119'747.50 |   |
+|  8'000.00 |  | 8'000 |  | 5'000.00 |   |
+|  1'000.00 |  | 1'000 |  | 1'000.00 |   |
+|  5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  4'174.75 |  | 5'000 |  | 5'000.00 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 150.3653.46 | Subventions - Afterseason | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SFJSC | 150.3653.47 | Subventions - Tour à Tour | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SFJSC | 150.3653.48 | Subventions - Spectacles des Remparts |  |  |  |  | 1'000.00 |   |
+|  SFJSC | 150.3653.51 | Subventions - Scène Charlemagne | 12'935.15 |  | 14'000 |  | 12'088.55 |   |
+|  SFJSC | 150.3653.53 | Subventions - Projet Quintessence | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  SFJSC | 150.3653.54 | Subventions - Projet Ville du jeu |  |  |  |  | 100.00 |   |
+|  SFJSC | 150.3653.56 | Subventions - Subv. occasionnelles | 15'133.10 |  | 15'000 |  | 10'000.00 |   |
+|  SFJSC | 150.3653.57 | Subventions - La Becque | 7'500.00 |  | 7'500 |  | 5'000.00 |   |
+|  SFJSC | 150.3653.58 | Subventions - Domaine de la Doges | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  SFJSC | 150.3653.59 | Subventions - Festival Ça joue | 3'300.00 |  | 4'000 |  | 4'000.00 |   |
+|  SFJSC | 150.3653.60 | Subventions - Union Chorale | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SFJSC | 150.3653.61 | Subventions - Part. taxe de séjour | 15'470.15 |  | 16'000 |  | 14'500.00 |   |
+|  SFJSC | 150.3653.62 | Subventions - Diminution FCR 2025 | 13'398.70 |  | 13'000 |  |  |   |
+|  SFJSC | 150.3817.00 | Attrib. - Fonds part. taxe séjour subv. occ. | 1'952.85 |  |  |  | 2'300.00 |   |
+|  SFJSC | 150.3902.01 | Imputations internes - Maintenance informatique | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  **SFJSC** | **150.4359.00** | **Recettes diverses** |  | **4'813.15** |  | **700** |  | **7'000.00**  |
+|  **SFJSC** | **150.4359.02** | **Recettes cinéma en plein air** |  |  |  | **2'000** |  |   |
+|  SFJSC | 150.4653.00 | Part. taxe de séjour subv. occasionnelles |  | 17'423.00 |  | 16'000 |  | 16'800.00  |
+|   | **151** | **Salle des remparts** | **365'564.21** | **61'795.59** | **392'950** | **56'000** | **321'763.77** | **62'724.05**  |
+|  **SDOM** | **151.3011.00** | **Traitements** | **148'321.00** |  | **141'200** |  | **146'576.05** |   |
+|  **SDOM** | **151.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **13'748.89** |  | **13'600** |  |  |   |
+|  SDOM | 151.3030.01 | Allocations familiales communales | 720.00 |  | 1'500 |  |  |   |
+|  **SDOM** | **151.3040.00** | **Caisse de retraite** | **21'270.47** |  | **26'500** |  |  |   |
+|  SDOM | 151.3050.00 | Assurance maladie participation | 2'280.00 |  | 2'600 |  |  |   |
+|  **SDOM** | **151.3050.01** | **Assurance maladie perte de gain** | **2'781.06** |  | **2'900** |  |  |   |
+|  **SDOM** | **151.3051.00** | **Assurances accidents** | **1'223.60** |  | **1'700** |  |  |   |
+|  SDOM | 151.3080.00 | Surveillance sapeurs-pompiers/sécurité |  |  | 500 |  |  |   |
+|  SDOM | 151.3101.00 | Economat | 381.50 |  | 200 |  | 37.70 |   |
+|  SDOM | 151.3113.00 | Achats de mobilier et équipement | 3'489.25 |  | 4'000 |  | 6'266.97 |   |
+|  SDOM | 151.3114.00 | Achats de mach., mat. expl. et d'entretien | 1'542.20 |  | 2'500 |  | 2'629.90 |   |
+|  SDOM | 151.3114.01 | Achats de matériel - Sécurité au travail | 132.90 |  | 500 |  | 305.46 |   |
+|  SDOM | 151.3114.02 | Achats de matériel - Technique de scène | 41'620.67 |  | 47'000 |  | 30'439.19 |   |
+|  SDOM | 151.3121.00 | Eau | 706.15 |  | 1'000 |  | 738.60 |   |
+|  **SDOM** | **151.3122.00** | **Achats et consommation de gaz** | **34'252.80** |  | **30'000** |  | **16'516.40** |   |
+|  SDOM | 151.3123.00 | Electricité | 19'058.61 |  | 20'000 |  | 20'729.85 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **SDOM 151.3124.00** | **Achats et consommation de mazout** |  |  | **500** |  | **12'417.31** |   |
+|  SDOM 151.3133.00 | Achats de produits et fournit. nettoyage | 4'110.17 |  | 4'500 |  | 4'148.35 |   |
+|  SDOM 151.3141.00 | Entretien des bâtiments | 23'927.67 |  | 29'200 |  | 26'154.43 |   |
+|  SDOM 151.3141.01 | Rénovation des bâtiments | 13'423.25 |  | 23'000 |  | 21'076.05 |   |
+|  SDOM 151.3153.00 | Entretien mobilier et équipement | 923.30 |  | 2'200 |  | 979.81 |   |
+|  **SDOM 151.3154.00** | **Entretien machines et mat. d'exploitation** | **4'191.37** |  | **3'000** |  | **1'925.80** |   |
+|  SDOM 151.3154.01 | Entretien matériel technique de scène | 3'425.59 |  | 4'500 |  | 3'067.75 |   |
+|  SDOM 151.3156.03 | Entretien défense incendie | 3'220.27 |  | 4'750 |  | 8'279.90 |   |
+|  **SDOM 151.3156.05** | **Entretien inst. photov.** | **892.85** |  | **6'000** |  | **892.85** |   |
+|  SDOM 151.3182.00 | Téléphones | 505.10 |  | 600 |  | 572.00 |   |
+|  SDOM 151.3191.00 | Epuration, évacuation des eaux | 1'120.90 |  | 1'000 |  | 1'029.50 |   |
+|  SDOM 151.3818.00 | Attrib. FERDD - Prod. photov. (151.4351.00) | 15'294.64 |  | 15'000 |  | 13'979.90 |   |
+|  SDOM 151.3902.01 | Imputations internes - Maintenance informatique | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  **SDOM 151.4271.08** | **Locations diverses** |  | **36'940.00** |  | **35'000** |  | **44'555.00**  |
+|  SDOM 151.4351.00 | Prod. photov. - Salle des Remparts |  | 15'294.64 |  | 15'000 |  | 13'979.90  |
+|  **SDOM 151.4361.00** | **Remboursements d'assurances** |  | **8'668.10** |  |  |  | **3'296.30**  |
+|  SDOM 151.4818.00 | Prél. FERDD - Entr. inst. photov. (151.3156.05) |  | 892.85 |  | 6'000 |  | 892.85  |
+|  **152** | **ABCDé (bibliothèque-ludothèque)** | **763'376.59** | **8'509.55** | **795'000** | **3'300** | **588'508.34** | **4'784.00**  |
+|  **SADM 152.3011.00** | **Traitements** | **463'940.85** |  | **478'300** |  | **456'055.33** |   |
+|  **SADM 152.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **40'821.37** |  | **45'400** |  |  |   |
+|  SADM 152.3030.01 | Allocations familiales communales | 1'440.00 |  | 1'500 |  |  |   |
+|  **SADM 152.3040.00** | **Caisse de retraite** | **64'036.00** |  | **81'300** |  |  |   |
+|  SADM 152.3050.00 | Assurance maladie participation | 1'920.00 |  | 2'000 |  |  |   |
+|  SADM 152.3050.01 | Assurance maladie perte de gain | 9'360.08 |  | 11'200 |  |  |   |
+|  SADM 152.3051.00 | Assurances accidents | 3'745.17 |  | 5'600 |  |  |   |
+|  SADM 152.3069.00 | Debours divers | 2'262.85 |  | 2'500 |  | 1'022.19 |   |
+|  SADM 152.3101.00 | Economat | 12'418.15 |  | 12'500 |  | 9'116.48 |   |
+|  **SADM 152.3102.00** | **Achats de livres et de jeux** | **74'043.07** |  | **70'300** |  | **68'258.92** |   |
+|  SADM 152.3111.00 | Achats de mobilier et matériel | 50'678.57 |  | 50'900 |  | 14'150.89 |   |
+|  SADM 152.3182.00 | Téléphones | 450.15 |  | 500 |  | 718.16 |   |
+|  SADM 152.3189.00 | Prêts entre institutions |  |  | 1'000 |  |  |   |
+|  SADM 152.3653.00 | Animations | 20'260.33 |  | 23'000 |  | 22'686.37 |   |
+|  SADM 152.3902.01 | Imputations internes - Maintenance informatique | 18'000.00 |  | 9'000 |  | 16'500.00 |   |
+|  SADM 152.4359.00 | Recettes diverses |  | 2'419.10 |  | 500 |  | 755.80  |
+|  **SADM 152.4361.00** | **Remboursements d'assurances** |  | **190.50** |  |  |  | **263.00**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SADM | 152.4363.00 | Remplacements objets |  | 2'718.50 |  | 800 |  | 960.00  |
+|  SADM | 152.4370.00 | Amendes |  | 3'181.45 |  | 2'000 |  | 2'805.20  |
+|   | **153** | **Sport et jeunesse** | **846'468.00** | **83'423.50** | **911'500** | **54'230** | **623'730.40** | **28'965.70**  |
+|  SFJSC | 153.3011.00 | Traitements | 394'527.60 |  | 398'400 |  | 386'561.13 |   |
+|  SFJSC | 153.3011.01 | Traitements animateurs auxiliaires | 51'741.27 |  | 55'000 |  | 25'755.42 |   |
+|  SFJSC | 153.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 39'841.98 |  | 42'900 |  |  |   |
+|  SFJSC | 153.3030.01 | Allocations familiales communales | 573.09 |  | 800 |  |  |   |
+|  **SFJSC** | **153.3040.00** | **Caisse de retraite** | **57'416.13** |  | **72'700** |  |  |   |
+|  **SFJSC** | **153.3050.00** | **Assurance maladie participation** | **245.91** |  |  |  |  |   |
+|  SFJSC | 153.3050.01 | Assurance maladie perte de gain | 7'956.05 |  | 9'800 |  |  |   |
+|  SFJSC | 153.3051.00 | Assurances accidents | 3'512.16 |  | 5'200 |  |  |   |
+|  SFJSC | 153.3069.00 | Débours divers | 3'156.65 |  | 3'400 |  | 1'991.30 |   |
+|  SFJSC | 153.3101.00 | Economat | 2'378.90 |  | 3'000 |  | 2'515.77 |   |
+|  SFJSC | 153.3102.00 | Abonnements et publications | 3'021.16 |  | 5'000 |  | 1'098.71 |   |
+|  SFJSC | 153.3113.00 | Achats de mobilier et matériel | 4'728.85 |  | 5'000 |  | 2'324.20 |   |
+|  SFJSC | 153.3124.01 | Achats de carburants | 102.90 |  | 600 |  | 110.00 |   |
+|  SFJSC | 153.3145.00 | Développement offre casiers sportifs | 12'427.00 |  | 12'500 |  | 11'429.90 |   |
+|  **SFJSC** | **153.3155.00** | **Entretien des véhicules** | **1'084.65** |  | **3'000** |  | **1'349.05** |   |
+|  SFJSC | 153.3161.00 | Locations de places de parc | 1'500.00 |  | 1'500 |  | 1'950.00 |   |
+|  **SFJSC** | **153.3161.01** | **Subsides salles de gym sociétés locales Burier** |  |  | **3'000** |  |  |   |
+|  **SFJSC** | **153.3170.01** | **Afterworks** |  |  | **10'000** |  | **1'636.25** |   |
+|  SFJSC | 153.3170.90 | Manifestations diverses | 14'090.00 |  | 15'000 |  | 1'000.00 |   |
+|  SFJSC | 153.3182.00 | Téléphones | 1'980.30 |  | 2'100 |  | 1'812.90 |   |
+|  SFIN | 153.3186.00 | Assurances des véhicules | 1'376.05 |  | 1'400 |  | 1'637.30 |   |
+|  **SFJSC** | **153.3192.00** | **Taxes des véhicules** | **80.00** |  | **1'000** |  | **872.60** |   |
+|  **SFJSC** | **153.3199.00** | **Animations** | **46'363.85** |  | **44'900** |  | **27'294.07** |   |
+|  SFJSC | 153.3653.00 | Subventions - Fixes | 22'255.00 |  | 26'700 |  | 8'200.00 |   |
+|  SFJSC | 153.3653.01 | Subventions - Diverses 'sport' | 9'250.00 |  | 11'000 |  | 5'000.00 |   |
+|  SFJSC | 153.3653.02 | Fête de la musique | 24'976.00 |  | 25'000 |  | 15'785.80 |   |
+|  SFJSC | 153.3653.03 | Subventions - Projets de jeunes | 5'347.25 |  | 10'000 |  | 500.00 |   |
+|  **SFJSC** | **153.3653.04** | **Subventions - Actions préventions-intégration Jeunesse** | **5'588.85** |  | **10'000** |  | **150.00** |   |
+|  SFJSC | 153.3653.05 | Subventions - Dév. act. physiques et sportives pour tous | 4'700.00 |  | 5'000 |  |  |   |
+|  SFJSC | 153.3653.06 | Subventions - Piscine de Montreux | 25'000.00 |  | 25'000 |  | 25'000.00 |   |
+|  SFJSC | 153.3653.07 | Fonds intercom. soutien sociétés sportives | 92'246.40 |  | 93'600 |  | 90'756.00 |   |
+|  SFJSC | 153.3902.01 | Imputations internes - Maintenance informatique | 9'000.00 |  | 9'000 |  | 9'000.00 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 153.4332.00 Ateliers divers et camps |  | 18'830.00 |  | 45'000 |  | 27'739.00  |
+|  SFJSC | 153.4359.00 Recettes diverses |  | 16'319.20 |  | 8'730 |  | 526.70  |
+|  SFJSC | 153.4361.00 Remboursements d'assurances |  | 47'909.50 |  |  |  |   |
+|  SFJSC | 153.4659.00 Locations bus et remorque |  | 364.80 |  | 500 |  | 700.00  |
+|  **154** | **Ecole de musique** | **39'413.53** | **25'023.60** | **37'000** | **20'000** | **31'200.05** | **20'946.20**  |
+|  SFJSC | 154.3011.00 Traitements | 6'864.00 |  | 7'000 |  | 6'812.00 |   |
+|  SFJSC | 154.3011.01 Traitements auxiliaires |  |  | 500 |  |  |   |
+|  SFJSC | 154.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 626.65 |  | 800 |  |  |   |
+|  **SFJSC** | **154.3040.00 Caisse de retraite** | **467.87** |  | **500** |  |  |   |
+|  SFJSC | 154.3050.01 Assurance maladie perte de gain | 149.02 |  | 300 |  |  |   |
+|  SFJSC | 154.3051.00 Assurances accidents | 55.74 |  | 200 |  |  |   |
+|  SFJSC | 154.3069.00 Débours divers |  |  | 600 |  |  |   |
+|  SFJSC | 154.3101.00 Economat |  |  | 300 |  |  |   |
+|  SFJSC | 154.3114.00 Achats de mobilier, matériel et instruments | 1'381.40 |  | 1'500 |  | 341.30 |   |
+|  SFJSC | 154.3114.01 Achats d'uniformes |  |  | 300 |  |  |   |
+|  SFJSC | 154.3156.00 Entretien instruments et uniformes | 65.50 |  | 1'000 |  | 260.55 |   |
+|  SFJSC | 154.3181.00 Frais de port |  |  | 100 |  |  |   |
+|  SFJSC | 154.3182.00 Téléphones | 360.00 |  | 400 |  | 360.00 |   |
+|  **SFJSC** | **154.3193.00 Cotisations diverses** | **26'828.35** |  | **20'000** |  | **20'775.10** |   |
+|  SFJSC | 154.3663.00 Subventions - Individuelles communales | 2'615.00 |  | 3'500 |  | 2'651.10 |   |
+|  **SFJSC** | **154.4652.00 Ecolages** |  | **25'023.60** |  | **20'000** |  | **20'946.20**  |
+|  **155** | **Fête de la jeunesse** | **74'173.30** |  | **79'150** |  | **31'556.75** |   |
+|  SFJSC | 155.3102.00 Annonces et publications | 2'550.00 |  | 2'500 |  | 2'310.00 |   |
+|  SFJSC | 155.3114.00 Achats de matériel | 581.70 |  | 3'500 |  | 449.00 |   |
+|  SFJSC | 155.3131.00 Achats de marchandises - Cortège | 6'959.60 |  | 7'150 |  | 5'954.10 |   |
+|  SFJSC | 155.3170.00 Réceptions | 769.80 |  | 1'000 |  | 1'141.60 |   |
+|  **SFJSC** | **155.3189.00 Forains, fanfares cortège, divers** | **56'254.95** |  | **58'000** |  | **15'866.00** |   |
+|  SFJSC | 155.3199.00 Animations, orchestres, frais divers | 7'057.25 |  | 7'000 |  | 5'836.05 |   |
+|  **156** | **Ecole de natation** | **21'626.87** | **33'635.00** | **24'800** | **30'000** | **19'833.45** | **32'922.00**  |
+|  SFJSC | 156.3011.00 Traitements | 7'345.00 |  | 7'500 |  | 7'293.00 |   |
+|  SFJSC | 156.3011.01 Traitements auxiliaires | 10'948.50 |  | 12'000 |  | 11'237.95 |   |
+|  SFJSC | 156.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 1'495.40 |  | 1'900 |  |  |   |
+|  SFJSC | 156.3050.01 Assurance maladie perte de gain | 126.80 |  | 500 |  |  |   |
+|  SFJSC | 156.3051.00 Assurances accidents | 118.67 |  | 400 |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 156.3069.00 | Débours divers | 280.00 |  | 400 |  |  |   |
+|  SFJSC | 156.3091.00 | Frais de formation du personnel | 140.00 |  | 500 |  |  |   |
+|  SFJSC | 156.3101.00 | Economat |  |  | 300 |  |  |   |
+|  SFJSC | 156.3114.00 | Achats de matériel | 812.50 |  | 900 |  | 942.50 |   |
+|  SFJSC | 156.3182.00 | Téléphones | 360.00 |  | 400 |  | 360.00 |   |
+|  SFJSC | 156.4652.00 | Ecolages |  | 33'635.00 |  | 30'000 |  | 32'922.00  |
+|   | 157 | Centre de Vassin | 4'901.90 | 12'345.00 |  |  |  |   |
+|  SDOM | 157.3121.00 | Eau | 131.20 |  |  |  |  |   |
+|  SDOM | 157.3123.00 | Electricité | 1'858.25 |  |  |  |  |   |
+|  SDOM | 157.3182.00 | Téléphones | 113.80 |  |  |  |  |   |
+|  SDOM | 157.3191.00 | Epuration, évacuation des eaux | 2'798.65 |  |  |  |  |   |
+|  SDOM | 157.4271.07 | Locations de salles diverses |  | 12'345.00 |  |  |  |   |
+|   | 16 | Economie et tourisme |  |  | 5'000 |  | 12'000.00 |   |
+|   | 160 | Economie |  |  | 5'000 |  | 12'000.00 |   |
+|  SFIN | 160.3658.00 | Actions de soutien à l'économie |  |  | 5'000 |  | 12'000.00 |   |
+|   | 17 | Sports | 311'770.99 | 71'698.65 | 368'900 | 63'430 | 414'349.07 | 237'073.25  |
+|   | 170 | Stades | 297'289.98 | 31'222.40 | 336'900 | 24'000 | 381'705.47 | 200'827.90  |
+|  SDOM | 170.3011.00 | Traitements | 95'905.60 |  | 96'900 |  | 87'172.20 |   |
+|  SDOM | 170.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 8'940.00 |  | 9'400 |  |  |   |
+|  SDOM | 170.3030.01 | Allocations familiales communales | 1'728.00 |  | 1'800 |  |  |   |
+|  SDOM | 170.3040.00 | Caisse de retraite | 13'715.95 |  | 17'800 |  |  |   |
+|  SDOM | 170.3050.00 | Assurance maladie participation | 2'016.00 |  | 2'100 |  |  |   |
+|  SDOM | 170.3050.01 | Assurance maladie perte de gain | 1'657.27 |  | 1'900 |  |  |   |
+|  SDOM | 170.3051.00 | Assurances accidents | 1'060.36 |  | 1'300 |  |  |   |
+|  SDOM | 170.3114.00 | Achats de mach., mat. expl. et d'entretien | 624.00 |  | 3'100 |  | 537.50 |   |
+|  SDOM | 170.3114.01 | Achats de matériel - Sécurité au travail | 132.90 |  | 300 |  | 78.55 |   |
+|  SDOM | 170.3121.00 | Eau | 3'141.75 |  | 2'000 |  | 1'421.40 |   |
+|  SDOM | 170.3122.00 | Achats et consommation de gaz | 27'242.75 |  | 35'000 |  | 23'528.80 |   |
+|  SDOM | 170.3123.00 | Electricité | 12'582.90 |  | 12'000 |  | 12'336.55 |   |
+|  SDOM | 170.3133.00 | Achats produits de nettoyage | 1'726.93 |  | 2'500 |  | 2'345.10 |   |
+|  SUTP | 170.3134.00 | Achats de fournitures diverses | 10'427.45 |  | 13'300 |  | 258.10 |   |
+|  SDOM | 170.3141.00 | Entretien des bâtiments | 2'699.80 |  | 10'000 |  | 6'429.25 |   |
+|  SDOM | 170.3141.36 | Entretien local terrain de Gérénaz |  |  | 1'000 |  | 1'205.15 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 170.3141.37 | Entretien du vestiaire de Gérénaz | 369.55 |  | 700 |  | 549.20 |   |
+|  SDOM | 170.3141.38 | Entretien du vestiaire de Bel-Air | 2'192.60 |  | 3'500 |  | 3'170.40 |   |
+|  **SDOM** | **170.3145.00** | **Entretien du terrain de Bel-Air (SDOM)** | **42'999.65** |  | **43'000** |  | **6'750.00** |   |
+|  SDOM | 170.3145.01 | Entretien du terrain de Gérénaz (SDOM) | 727.00 |  | 2'000 |  | 2'560.00 |   |
+|  SUTP | 170.3145.02 | Entretien du terrain de Bel-Air (SUTP) | 23'504.65 |  | 24'000 |  | 15'434.30 |   |
+|  SUTP | 170.3145.03 | Entretien du terrain de Gérénaz (SUTP) | 16'584.35 |  | 22'500 |  | 14'680.00 |   |
+|  SDOM | 170.3154.00 | Entretien matériel d'exploitation (SDOM) | 347.65 |  | 3'500 |  | 1'453.07 |   |
+|  SUTP | 170.3154.01 | Entretien matériel d'exploitation (SUTP) | 999.65 |  | 2'000 |  | 1'315.60 |   |
+|  SDOM | 170.3156.03 | Entretien défense incendie | 1'238.02 |  | 1'900 |  | 1'203.55 |   |
+|  SDOM | 170.3182.00 | Téléphones | 293.75 |  | 400 |  | 304.40 |   |
+|  SDOM | 170.3191.00 | Epuration, évacuation des eaux | 24'431.45 |  | 23'000 |  | 22'144.45 |   |
+|  SDOM | 170.3321.03 | Amort. - Projecteurs terrain de Bel-Air |  |  |  |  | 176'827.90 |   |
+|  SDOM | 170.4272.00 | Loyers antenne téléphonie mobile Gérénaz |  | 24'000.00 |  | 24'000 |  | 24'000.00  |
+|  **SDOM** | **170.4361.00** | **Remboursements d'assurances** |  | **7'222.40** |  |  |  |   |
+|  SDOM | 170.4809.03 | Prél. FDIF - Projecteurs terrain de Bel-Air |  |  |  |  |  | 176'827.90  |
+|  **171** |  | **Plage de la Maladaire** | **13'882.56** | **40'166.50** | **25'800** | **39'430** | **29'959.80** | **36'000.00**  |
+|  SDOM | 171.3113.00 | Achats mobilier et mat. d'exploitation | 265.29 |  | 400 |  |  |   |
+|  SDOM | 171.3114.00 | Achats de mach., mat. expl. et d'entretien (SDOM) | 203.20 |  | 500 |  |  |   |
+|  SDOM | 171.3133.00 | Achats de produits d'entretien |  |  | 500 |  |  |   |
+|  **SDOM** | **171.3141.00** | **Entretien des bâtiments** | **12'513.82** |  | **20'000** |  | **29'959.80** |   |
+|  SDOM | 171.3145.00 | Entretien des terrains (SDOM) | 557.70 |  | 1'500 |  |  |   |
+|  **SUTP** | **171.3145.01** | **Entretien des terrains (SUTP)** |  |  | **2'700** |  |  |   |
+|  SDOM | 171.3156.03 | Entretien défense incendie | 342.55 |  | 200 |  |  |   |
+|  SDOM | 171.4271.05 | Locations du restaurant |  | 40'166.50 |  | 39'330 |  | 36'000.00  |
+|  SDOM | 171.4359.00 | Recettes diverses |  |  |  | 100 |  |   |
+|  **172** |  | **Tennis** | **598.45** | **309.75** | **6'200** |  | **2'683.80** | **245.35**  |
+|  SDOM | 172.3121.00 | Eau | 166.30 |  |  |  | 347.65 |   |
+|  SDOM | 172.3141.00 | Entretien des bâtiments |  |  | 2'500 |  | 1'742.45 |   |
+|  SDOM | 172.3145.00 | Entretien du court |  |  | 2'500 |  |  |   |
+|  SDOM | 172.3156.03 | Entretien défense incendie |  |  | 200 |  | 55.30 |   |
+|  SDOM | 172.3191.00 | Epuration, évacuation des eaux | 432.15 |  | 1'000 |  | 538.40 |   |
+|  SDOM | 172.4359.00 | Recettes diverses |  | 309.75 |  |  |  | 245.35  |
+|  **18** |  | **Transports publics** | **3'931'160.55** | **623'833.00** | **4'220'800** |  | **3'987'540.40** | **474'762.85**  |
+|  **180** |  | **Transports publics** | **3'931'160.55** | **623'833.00** | **4'220'800** |  | **3'987'540.40** | **474'762.85**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 180.3517.00 | Part. coûts non couverts-trafic régional (DGMR) | 1'544'748.05 |  | 1'806'600 |  | 1'538'465.00 |   |
+|  SFISC | 180.3517.07 | Part. aux frais piste de fond Pléiades | 5'939.50 |  | 7'000 |  | 3'537.35 |   |
+|  SUTP | 180.3517.08 | Transports publics VMCV ligne 201 | 744'492.70 |  | 732'000 |  | 745'203.20 |   |
+|  SFISC | 180.3517.11 | Déficit remontées des Pléiades | 64'060.00 |  | 65'000 |  | 63'025.00 |   |
+|  SUTP | 180.3653.20 | Subventions - Chemin de fer Blonay-Chamby | 7'200.00 |  | 7'200 |  | 7'200.00 |   |
+|  SUTP | 180.3657.00 | Transports publics VMCV ligne 203 | 689'047.55 |  | 738'000 |  | 760'658.60 |   |
+|  SUTP | 180.3657.01 | Transports publics VMCV ligne 207 | 419'571.00 |  | 409'000 |  | 421'543.50 |   |
+|  SUTP | 180.3657.02 | Part. exploitation Velospot | 8'648.00 |  | 9'000 |  | 8'648.00 |   |
+|  SUTP | 180.3657.03 | Transports publics VMCV ligne 208 | 363'921.60 |  | 353'000 |  | 364'521.95 |   |
+|  SUTP | 180.3657.04 | Transports publics VMCV ligne 209 | 55'587.35 |  | 72'000 |  | 55'054.40 |   |
+|  **SUTP** | **180.3657.05** | **Part. réseau voitures partagées Mobility** | **17'447.00** |  | **15'000** |  | **7'523.20** |   |
+|  SUTP | 180.3657.06 | Transports publics VMCV ligne 290 | 10'497.80 |  | 7'000 |  | 7'564.35 |   |
+|  SUTP | 180.3657.16 | VMCV ligne 290 (solde année précédente) |  |  |  |  | 4'595.85 |   |
+|  SUTP | 180.4517.18 | VMCV ligne 201 (solde année précédente) |  | 280'770.50 |  |  |  | 314'392.15  |
+|  SUTP | 180.4657.10 | VMCV ligne 203 (solde année précédente) |  | 206'837.10 |  |  |  | 102'801.75  |
+|  SUTP | 180.4657.11 | VMCV ligne 207 (solde année précédente) |  | 71'366.25 |  |  |  | 20'851.50  |
+|  SUTP | 180.4657.13 | VMCV ligne 208 (solde année précédente) |  | 58'351.30 |  |  |  | 31'896.15  |
+|  SUTP | 180.4657.14 | VMCV ligne 209 (solde année précédente) |  | 6'409.45 |  |  |  | 4'821.30  |
+|  SUTP | 180.4657.16 | VMCV ligne 290 (solde année précédente) |  | 98.40 |  |  |  |   |
+|  **19** |  | **Service informatique** | **1'172'504.07** | **291'383.60** | **1'299'700** | **273'700** | **1'024'807.85** | **298'292.70**  |
+|  **190** |  | **Service informatique** | **1'172'504.07** | **291'383.60** | **1'299'700** | **273'700** | **1'024'807.85** | **298'292.70**  |
+|  SFIN | 190.3011.00 | Traitements | 357'907.43 |  | 364'100 |  | 350'212.20 |   |
+|  SFIN | 190.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 33'013.02 |  | 35'200 |  |  |   |
+|  **SFIN** | **190.3030.01** | **Allocations familiales communales** | **2'600.00** |  | **1'600** |  |  |   |
+|  **SFIN** | **190.3040.00** | **Caisse de retraite** | **55'041.25** |  | **68'400** |  |  |   |
+|  SFIN | 190.3050.01 | Assurance maladie perte de gain | 6'170.66 |  | 7'000 |  |  |   |
+|  SFIN | 190.3051.00 | Assurances accidents | 2'910.77 |  | 4'400 |  |  |   |
+|  SFIN | 190.3069.00 | Debours divers | 8'572.50 |  | 19'100 |  | 11'955.13 |   |
+|  SFIN | 190.3091.00 | Formation | 5'246.83 |  | 26'000 |  | 812.10 |   |
+|  SFIN | 190.3101.00 | Economat | 2'475.77 |  | 5'000 |  | 1'896.85 |   |
+|  SFIN | 190.3111.00 | Achats et renouvellements de licences | 183'041.06 |  | 194'350 |  | 218'444.03 |   |
+|  SFIN | 190.3111.01 | Achats et renouvellements de matériel | 53'129.61 |  | 60'200 |  | 39'357.83 |   |
+|  SFIN | 190.3111.04 | Achats de mobilier et matériel | 2'670.35 |  | 3'000 |  |  |   |
+|  SFIN | 190.3154.00 | Entretien du matériel | 590.05 |  | 5'000 |  | 351.35 |   |
+
+
+
+# COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SFIN | 190.3182.00 | Gestion télécommunications  |
+| --- | --- | --- |
+|  SFIN | 190.3185.00 | Honoraires, études, expertises  |
+|  SFIN | 190.3189.00 | Maintenance des systèmes  |
+|  SFIN | 190.3189.02 | Site internet  |
+|  SFIN | 190.3189.03 | Réseaux DSL, fibre optique, wifi et 4G  |
+|  SFIN | 190.3189.04 | Projets informatiques  |
+|  SFIN | 190.3193.00 | Cotisations diverses  |
+|  SFIN | 190.3902.01 | Imputations internes - Maintenance informatique  |
+|  **SFIN** | **190.4359.00** | **Recettes diverses**  |
+|  SFIN | 190.4359.01 | Prestations ARAS  |
+|  SFIN | 190.4359.02 | Prestations Escale  |
+|  SFIN | 190.4359.03 | Prestations FSAT  |
+|  SFIN | 190.4359.04 | Prestations Musée Suisse du Jeu  |
+|  **SFIN** | **190.4361.00** | **Remboursements d'assurances**  |
+|  **SFIN** | **190.4902.01** | **Imputations internes - Maintenance informatique**  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  4'052.38 |  | 5'000 |  | 3'426.45 |   |
+|  25'000.00 |  | 30'000 |  | 20'000.00 |   |
+|  164'425.38 |  | 185'300 |  | 177'308.89 |   |
+|  25'033.24 |  | 31'200 |  | 25'393.60 |   |
+|  13'649.54 |  | 20'850 |  | 13'351.95 |   |
+|  214'843.03 |  | 220'400 |  | 150'207.27 |   |
+|  6'131.20 |  | 7'600 |  | 6'090.20 |   |
+|  6'000.00 |  | 6'000 |  | 6'000.00 |   |
+|   | **14'376.10** |  | **6'700** |  | **16'190.70**  |
+|   | 22'500.00 |  | 22'500 |  | 22'500.00  |
+|   | 7'500.00 |  | 7'500 |  | 7'500.00  |
+|   | 39'375.00 |  | 40'500 |  | 37'500.00  |
+|   |  |  |  |  | 13'500.00  |
+|   | **3'632.50** |  |  |  | **6'102.00**  |
+|   | **204'000.00** |  | **196'500** |  | **195'000.00**  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **2** | **Finances** | **12'313'749.51** | **58'238'641.23** | **11'127'550** | **60'419'800** | **17'847'644.61** | **64'676'062.27**  |
+|  **20** | **Comptabilité générale** | **859'800.41** | **502'222.67** | **895'500** | **380'500** | **613'611.06** | **374'280.79**  |
+|  **200** | **Comptabilité générale, caisse** | **859'800.41** | **502'222.67** | **895'500** | **380'500** | **613'611.06** | **374'280.79**  |
+|  SFIN | 200.3011.00 Traitements | 471'101.97 |  | 477'500 |  | 422'419.98 |   |
+|  SFIN | 200.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 42'846.28 |  | 44'900 |  |  |   |
+|  SFIN | 200.3030.01 Allocations familiales communales | 2'400.48 |  | 2'500 |  |  |   |
+|  **SFIN** | **200.3040.00 Caisse de retraite** | **73'341.14** |  | **89'900** |  |  |   |
+|  SFIN | 200.3050.00 Assurance maladie participation | 672.48 |  | 700 |  |  |   |
+|  SFIN | 200.3050.01 Assurance maladie perte de gain | 8'411.47 |  | 9'400 |  |  |   |
+|  SFIN | 200.3051.00 Assurances accidents | 3'661.23 |  | 5'300 |  |  |   |
+|  SFIN | 200.3069.00 Débours divers | 8'031.00 |  | 8'300 |  | 7'821.75 |   |
+|  SFIN | 200.3101.00 Economat | 7'589.10 |  | 9'000 |  | 8'409.87 |   |
+|  SFIN | 200.3111.00 Achats de mobilier et matériel | 4'093.00 |  | 5'000 |  | 306.40 |   |
+|  SFIN | 200.3151.00 Entretien mobilier et matériel | 210.90 |  | 1'000 |  | 800.00 |   |
+|  SFIN | 200.3182.00 Téléphones | 1'026.05 |  | 1'000 |  | 881.50 |   |
+|  SFIN | 200.3183.00 Frais comptes bancaires et CCP | 3'977.13 |  | 6'500 |  | 5'393.61 |   |
+|  SFIN | 200.3183.01 Frais transactions électroniques | 7'846.60 |  | 7'000 |  | 6'000.27 |   |
+|  SFIN | 200.3184.00 Frais de contentieux | 4'168.01 |  | 10'000 |  | 229.42 |   |
+|  SFIN | 200.3185.00 Contrôle de la comptabilité | 21'511.90 |  | 22'000 |  | 21'511.90 |   |
+|  SFIN | 200.3185.01 Honoraires, études, conseils |  |  | 10'000 |  |  |   |
+|  SFIN | 200.3187.00 Emoluments divers | 266.70 |  | 1'000 |  | 204.70 |   |
+|  SFIN | 200.3189.00 Frais divers | 663.60 |  | 1'000 |  | 697.41 |   |
+|  SFIN | 200.3191.00 Impôts Etat et concessions diverses |  |  | 3'000 |  |  |   |
+|  SFIN | 200.3210.00 Intérêts débiteurs s/c.c. - Trésorerie | 981.67 |  | 7'000 |  |  |   |
+|  SFIN | 200.3301.00 Pertes sur débiteurs | 1'282.50 |  | 25'000 |  | 40.00 |   |
+|  **SFIN** | **200.3657.00 Cartes journalières CGN-ABVL** | **5'000.00** |  |  |  |  |   |
+|  SFIN | 200.3809.00 Attrib. - Prov. débiteurs douteux ordinaires | 30'000.00 |  | 30'000 |  | 30'000.00 |   |
+|  SFIN | 200.3818.00 Attrib. FERDD - Taxes spéc et CO2 (200.4112.01/02) | 145'717.20 |  | 102'000 |  | 93'894.25 |   |
+|  SFIN | 200.3902.01 Imputations internes - Maintenance informatique | 15'000.00 |  | 16'500 |  | 15'000.00 |   |
+|  SFIN | 200.4112.00 Taxe à l'usage du sol (0.007 Fr./kwh) |  | 321'373.40 |  | 220'000 |  | 200'390.20  |
+|  SFIN | 200.4112.01 Taxe spécifique (0.003 Fr./kwh) |  | 137'717.20 |  | 95'000 |  | 85'810.10  |
+|  SFIN | 200.4112.02 Redistribution de la taxe CO2 |  | 8'000.00 |  | 7'000 |  | 8'084.15  |
+|  SFIN | 200.4221.00 Intérêts bancaires, ccp, et divers |  | 13'500.31 |  | 20'000 |  | 13'863.61  |
+|  SFIN | 200.4359.00 Recettes diverses |  | 304.06 |  | 1'000 |  | 166.22  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFIN | 200.4359.01 Ventes des cartes à gratter pour parking |  | 12'112.00 |  | 8'000 |  | 12'844.00  |
+|  SFIN | 200.4359.02 Cartes journalières CFF |  | 2'206.10 |  | 2'000 |  | 4'643.30  |
+|  SFIN | 200.4359.04 Cartes journalières CGN-ABVL |  | 2'935.00 |  |  |  |   |
+|  SFIN | 200.4361.00 Remboursements d'assurances |  | 1'043.00 |  |  |  | 280.90  |
+|  SFIN | 200.4362.00 Remboursements frais de rappels et de poursuites |  | 249.10 |  | 1'000 |  | 632.55  |
+|  SFIN | 200.4690.00 Dons et legs |  |  |  |  |  | 46'025.76  |
+|  SFIN | 200.4690.01 Part. intérêt fonds Mercier |  | 1'500.00 |  | 1'500 |  | 1'500.00  |
+|  SFIN | 200.4809.10 Prél. - Prov. débiteurs douteux ordinaires |  | 1'282.50 |  | 25'000 |  | 40.00  |
+|  **21** | **Impôts** | **1'726'007.85** | **54'174'942.47** | **1'768'500** | **57'403'000** | **1'677'899.89** | **55'380'083.88**  |
+|  **210** | **Impôts** | **1'726'007.85** | **54'174'942.47** | **1'768'500** | **57'403'000** | **1'677'899.89** | **55'380'083.88**  |
+|  SFIN | 210.3187.02 Emoluments de perception | 315'041.21 |  | 300'000 |  | 293'446.48 |   |
+|  SFIN | 210.3187.03 Frais Commission estimation fiscale immeubles |  |  | 500 |  |  |   |
+|  SFIN | 210.3191.00 Défalcations | 282'641.96 |  | 300'000 |  | 340'513.98 |   |
+|  SFIN | 210.3191.01 Frais poursuites | 26'209.33 |  | 30'000 |  | 23'737.36 |   |
+|  SFIN | 210.3290.00 Intérêts rémunératoires | 34'455.35 |  | 10'000 |  | 12'523.07 |   |
+|  SFIN | 210.3301.00 Défalcations |  |  |  |  | 618.00 |   |
+|  SFIN | 210.3809.00 Attrib. - Impôt affecté NCC (1.5 point) | 1'067'660.00 |  | 1'128'000 |  | 1'007'061.00 |   |
+|  SFIN | 210.4001.00 Impôt sur le revenu |  | 28'706'141.79 |  | 30'980'000 |  | 26'223'550.28  |
+|  SFIN | 210.4002.00 Impôt sur la fortune |  | 6'025'771.69 |  | 7'350'000 |  | 5'955'634.10  |
+|  SFIN | 210.4003.00 Impôt à la source |  | 898'670.21 |  | 430'000 |  | 1'093'684.11  |
+|  SFIN | 210.4004.00 Impôt sur la dépense (étrangers sans activité) |  | 1'008'399.46 |  | 1'060'000 |  | 1'025'840.96  |
+|  SFIN | 210.4011.00 Impôt sur le bénéfice des sociétés |  | 9'478'624.45 |  | 6'710'000 |  | 8'755'970.43  |
+|  SFIN | 210.4012.00 Impôt sur le capital des sociétés |  | -564'153.85 |  | 1'600'000 |  | -86'745.90  |
+|  SFIN | 210.4013.00 Impôt complémentaire sur les immeubles |  | 311'366.90 |  | 300'000 |  | 267'276.45  |
+|  SFIN | 210.4020.00 Impôt foncier |  | 3'546'471.85 |  | 3'420'000 |  | 3'370'826.35  |
+|  SFIN | 210.4040.00 Droits de mutations |  | 1'462'156.35 |  | 1'810'000 |  | 3'393'757.55  |
+|  SFIN | 210.4050.00 Impôt sur les successions et donations |  | 1'014'203.70 |  | 810'000 |  | 2'550'290.70  |
+|  SFIN | 210.4061.00 Impôt sur les chiens |  | 55'200.00 |  | 53'000 |  | 54'600.00  |
+|  SFIN | 210.4090.00 Impôt récupéré après défalcation |  | 71'653.80 |  | 150'000 |  | 100'391.02  |
+|  SFIN | 210.4221.00 Intérêts moratoires-majorations |  | 336'598.27 |  | 400'000 |  | 353'146.76  |
+|  SFIN | 210.4411.00 Impôt sur les gains immobiliers |  | 797'220.45 |  | 1'130'000 |  | 1'419'522.00  |
+|  SFIN | 210.4414.00 Impôt sur les frontaliers |  | 196'692.70 |  | 220'000 |  | 60'579.05  |
+|  SFIN | 210.4518.00 Compensation RFFA (dès 2020) |  | 829'924.70 |  | 980'000 |  | 841'760.02  |
+|  **22** | **Service financier** | **9'520'758.11** | **3'544'292.95** | **8'383'550** | **1'736'300** | **14'643'403.86** | **8'906'290.30**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **220** | **Service de la dette** | **424'248.81** |  | **600'250** |  | **478'221.56** |   |
+|  SFIN | 220.3183.00 Frais bancaires |  |  | 500 |  |  |   |
+|  SFIN | 220.3210.00 Intérêts avances à court et moyen terme | 1'372.22 |  | 3'000 |  | 591.10 |   |
+|  **SFIN** | **220.3223.06 Réserve intérêts emprunts court terme** | **7'466.67** |  | **33'000** |  | **79'541.15** |   |
+|  **SFIN** | **220.3223.18 Réserve intérêts emprunts long terme** |  |  | **187'500** |  |  |   |
+|  SFIN | 220.3223.20 LUPK 2013-2025, Fr. 5'000'000.--, 1.58% | 79'000.00 |  | 79'000 |  | 79'000.00 |   |
+|  SFIN | 220.3223.21 Suva 2016-2028, Fr. 5'000'000.--, 0.36% | 18'000.00 |  | 18'000 |  | 18'000.00 |   |
+|  SFIN | 220.3223.22 Vaudoise 2012-2027, Fr. 5'000'000.--, 1.63% | 81'500.00 |  | 81'500 |  | 81'500.00 |   |
+|  SFIN | 220.3223.23 Postfinance 2014-2024, Fr. 5'000'000.--, 0.78% |  |  |  |  | 39'000.00 |   |
+|  SFIN | 220.3223.24 SUVA 2020-2026, Fr. 5'000'000.--, 0.10% | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SFIN | 220.3223.25 BCV 2020-2029, Fr. 5'000'000.--, 0.20% | 10'138.90 |  | 10'000 |  | 10'166.68 |   |
+|  SFIN | 220.3223.27 BCV 2021-2031, Fr. 5'000'000.--, 0.45% | 22'812.50 |  | 22'500 |  | 22'875.00 |   |
+|  SFIN | 220.3223.28 VZ Depotbank AG 2021-2030, Fr. 5'000'000.--, 0.40% | 20'000.00 |  | 20'000 |  | 20'000.00 |   |
+|  SFIN | 220.3223.29 AEIS 2023-2029, Fr. 5'000'000.--, 2.35% | 117'173.61 |  | 117'500 |  | 118'152.78 |   |
+|  **SFIN** | **220.3223.30 Postfinance 2024-2028, Fr. 5'000'000.--, 1.00%** | **49'861.11** |  |  |  |  |   |
+|  **SFIN** | **220.3290.00 Intérêts attribués aux fondations** | **11'923.80** |  | **22'750** |  | **4'394.85** |   |
+|  **221** | **Rendement des titres et créances** | **6'111.30** | **603'485.95** | **7'000** | **451'300** | **6'306.30** | **500'274.30**  |
+|  SFIN | 221.3183.00 Frais bancaires, honoraires | 6'111.30 |  | 7'000 |  | 6'306.30 |   |
+|  SFIN | 221.4112.01 Redevances de la Compagnie du gaz |  | 98'848.95 |  | 80'000 |  | 92'833.30  |
+|  SFIN | 221.4222.00 Revenus des capitaux du patrimoine |  | 6'637.00 |  | 5'000 |  | 5'779.00  |
+|  SFIN | 221.4250.00 Revenus des participations du patrimoine |  | 498'000.00 |  | 366'300 |  | 401'662.00  |
+|  **223** | **Fonds de péréquation** | **9'090'398.00** | **2'940'807.00** | **7'776'300** | **1'285'000** | **14'158'876.00** | **8'406'016.00**  |
+|  SFIN | 223.3520.00 Péréquation directe (alimentation) |  |  |  |  | 13'900'649.00 |   |
+|  SFIN | 223.3520.02 Provision solde (péréquation directe) |  |  |  |  | 140'000.00 |   |
+|  **SFIN** | **223.3520.03 Péréquation directe (NPIV)** | **8'579'591.00** |  | **7'776'300** |  |  |   |
+|  SFIN | 223.3809.00 Attrib. fonds régul. péréqu. (péréquation directe) | 510'807.00 |  |  |  | 118'227.00 |   |
+|  SFIN | 223.4520.00 Péréquation directe (population) |  |  |  |  |  | 7'528'697.00  |
+|  SFIN | 223.4520.01 Solde année précédente (péréquation directe) |  | 510'807.00 |  |  |  | 118'227.00  |
+|  SFIN | 223.4520.03 Péréquation directe (dépenses thématiques) |  |  |  |  |  | 759'092.00  |
+|  SFIN | 223.4520.04 Péréquation directe (NPIV) provision solde |  | 2'430'000.00 |  |  |  |   |
+|  SFIN | 223.4809.00 Prél. fonds régul. péréqu. (péréquation directe) |  |  |  | 1'285'000 |  |   |
+|  **23** | **Amortissements et réserves non-ventilés** | **207'183.14** | **17'183.14** | **80'000** | **900'000** | **912'729.80** | **15'407.30**  |
+|  **230** | **Fonds de réserve et de renouvellement** | **207'183.14** | **17'183.14** | **80'000** | **900'000** | **912'729.80** | **15'407.30**  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SFIN | 230.3145.00 | Dégâts dus au vandalisme  |
+| --- | --- | --- |
+|  SFIN | 230.3301.01 | Pertes sur débiteurs  |
+|  SFIN | 230.3330.00 | Amortissements - Découvert  |
+|  SFIN | 230.3809.01 | Dépenses et investissements futurs  |
+|  SFIN | 230.3809.09 | Attrib. - Fonds pour vandalisme  |
+|  SFIN | 230.4363.00 | Remboursements vandalisme  |
+|  SFIN | 230.4801.05 | Prél. - Fonds pour vandalisme  |
+|  SFIN | 230.4809.08 | Prél. FDIF - 1% inflation B25  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  17'183.14 |  | 40'000 |  | 13'767.30 |   |
+|   |  |  |  | 1'640.00 |   |
+|   |  |  |  | 857'322.50 |   |
+|  150'000.00 |  |  |  |  |   |
+|  40'000.00 |  | 40'000 |  | 40'000.00 |   |
+|   |  |  |  |  | 1'640.00  |
+|   | 17'183.14 |  | 40'000 |  | 13'767.30  |
+|   |  |  | 860'000 |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **3** | **Domaines et bâtiments** | **4'015'322.59** | **4'186'434.58** | **4'685'740** | **4'179'904** | **4'014'932.72** | **4'136'283.77**  |
+|  **30** | **Service administratif** | **1'637'977.30** | **301'780.58** | **1'932'090** | **350'100** | **1'268'346.04** | **288'658.11**  |
+|  **300** | **Administration** | **1'535'299.97** | **301'780.58** | **1'822'600** | **350'100** | **1'176'221.78** | **287'658.11**  |
+|  **SDOM 300.3011.00** | **Traitements** | **871'709.14** |  | **946'600** |  | **782'280.29** |   |
+|  **SDOM 300.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **79'329.43** |  | **89'000** |  |  |   |
+|  **SDOM 300.3030.01** | **Allocations familiales communales** | **5'211.77** |  | **2'600** |  |  |   |
+|  **SDOM 300.3040.00** | **Caisse de retraite** | **138'318.63** |  | **180'000** |  |  |   |
+|  **SDOM 300.3050.00** | **Assurance maladie participation** | **923.61** |  | **1'000** |  |  |   |
+|  **SDOM 300.3050.01** | **Assurance maladie perte de gain** | **16'089.33** |  | **19'000** |  |  |   |
+|  **SDOM 300.3051.00** | **Assurances accidents** | **7'401.31** |  | **11'900** |  |  |   |
+|  **SDOM 300.3069.00** | **Debours divers** | **9'147.21** |  | **13'300** |  | **10'468.10** |   |
+|  **SDOM 300.3080.00** | **Personnel externe facturé par des tiers** | **9'524.50** |  | **25'000** |  | **511.20** |   |
+|  **SDOM 300.3101.00** | **Economat** | **5'255.26** |  | **8'200** |  | **8'009.77** |   |
+|  **SDOM 300.3111.00** | **Achats de mobilier et matériel** | **5'287.93** |  | **5'000** |  | **837.10** |   |
+|  **SDOM 300.3115.00** | **Achats de véhicules** | **4'065.20** |  | **5'000** |  |  |   |
+|  **SDOM 300.3151.00** | **Entretien mobilier et matériel** | **35.90** |  | **1'000** |  | **117.75** |   |
+|  **SDOM 300.3182.00** | **Téléphones** | **4'186.39** |  | **4'500** |  | **4'023.04** |   |
+|  **SDOM 300.3185.00** | **Honoraires, études, expertises** | **59'130.88** |  | **60'000** |  | **43'673.10** |   |
+|  **SDOM 300.3185.01** | **Développement durable (SDOM)** | **66'487.90** |  | **81'000** |  | **51'059.63** |   |
+|  **SDOM 300.3664.00** | **Subventions FERDD (SDOM)** | **233'695.58** |  | **350'000** |  | **258'741.80** |   |
+|  **SDOM 300.3902.01** | **Imputations internes - Maintenance informatique** | **19'500.00** |  | **19'500** |  | **16'500.00** |   |
+|  **SDOM 300.4359.00** | **Recettes diverses** |  | **46'300.00** |  | **100** |  | **18'758.81**  |
+|  **SDOM 300.4361.00** | **Remboursements d'assurances** |  | **9'785.00** |  |  |  | **10'157.50**  |
+|  **SDOM 300.4654.01** | **Subv. ext. développement durable (SDOM)** |  | **12'000.00** |  |  |  |   |
+|  **SDOM 300.4819.00** | **Prél. FERDD - 300.3664.00 Subventions FERDD (SDOM)** |  | **233'695.58** |  | **350'000** |  | **258'741.80**  |
+|  **301** | **Service d'entretien** | **102'677.33** |  | **109'490** |  | **92'124.26** | **1'000.00**  |
+|  **SDOM 301.3011.00** | **Traitements** | **65'000.00** |  | **65'600** |  | **63'346.40** |   |
+|  **SDOM 301.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **6'057.10** |  | **6'400** |  |  |   |
+|  **SDOM 301.3030.01** | **Allocations familiales communales** | **1'152.00** |  | **1'200** |  |  |   |
+|  **SDOM 301.3040.00** | **Caisse de retraite** | **9'527.92** |  | **12'300** |  |  |   |
+|  **SDOM 301.3050.00** | **Assurance maladie participation** | **1'344.00** |  | **1'400** |  |  |   |
+|  **SDOM 301.3050.01** | **Assurance maladie perte de gain** | **1'123.45** |  | **1'300** |  |  |   |
+|  **SDOM 301.3051.00** | **Assurances accidents** | **1'601.07** |  | **900** |  |  |   |
+|  **SDOM 301.3069.00** | **Debours divers** |  |  | **150** |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 301.3114.00 | Achats de mach., mat. expl. et d'entretien | 10'308.15 |  | 10'400 |  | 3'903.11 |   |
+|  SDOM | 301.3114.01 | Achats de vêtements de travail | 70.10 |  | 300 |  |  |   |
+|  SDOM | 301.3114.03 | Achats de matériel - Sécurité au travail |  |  | 400 |  |  |   |
+|  SDOM | 301.3115.00 | Achats de véhicules |  |  |  |  | 21'380.00 |   |
+|  SDOM | 301.3135.00 | Achats de matériaux et fournitures | 1'257.99 |  | 4'000 |  | 1'503.20 |   |
+|  SDOM | 301.3136.00 | Energies pour véhicules | 72.60 |  |  |  | 317.20 |   |
+|  SDOM | 301.3154.00 | Entretien machines et mat. d'exploitation | 35.85 |  | 1'000 |  | 37.80 |   |
+|  **SDOM** | **301.3155.00** | **Entretien des véhicules** | **3'733.45** |  | **2'700** |  | **487.85** |   |
+|  SDOM | 301.3182.00 | Téléphones | 288.00 |  | 300 |  | 288.00 |   |
+|  SFIN | 301.3186.00 | Assurances des véhicules | 1'065.65 |  | 1'100 |  | 860.70 |   |
+|  SDOM | 301.3192.00 | Taxes des véhicules | 40.00 |  | 40 |  |  |   |
+|  SDOM | 301.4359.00 | Recettes diverses |  |  |  |  |  | 1'000.00  |
+|  **31** | **Terrains** |  | **290'000.00** | **241'080.00** | **290'000** | **226'320** | **290'000.00** | **228'837.00**  |
+|  **310** | **Terrains** |  | **290'000.00** | **241'080.00** | **290'000** | **226'320** | **290'000.00** | **228'837.00**  |
+|  SUTP | 310.3312.00 | Amort. - Réaménagement du centre-ville (P11/13) [16-35] | 290'000.00 |  | 290'000 |  | 290'000.00 |   |
+|  **SDOM** | **310.4232.00** | **Droits de superficie (DDP)** |  | **241'080.00** |  | **226'320** |  | **226'537.00**  |
+|  SDOM | 310.4356.00 | Locations de terrains |  |  |  |  |  | 2'300.00  |
+|  **32** | **Forêts et pâturages** |  | **60'554.50** | **69'729.95** | **82'100** | **34'650** | **106'650.79** | **130'569.80**  |
+|  **320** | **Domaine de Blonay** |  | **60'554.50** | **69'729.95** | **82'100** | **34'650** | **106'650.79** | **130'569.80**  |
+|  SDOM | 320.3012.00 | Indemnité de surveillance | 412.00 |  | 2'500 |  | 412.00 |   |
+|  SDOM | 320.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam |  |  | 200 |  |  |   |
+|  SDOM | 320.3050.01 | Assurance maladie perte de gain |  |  | 100 |  |  |   |
+|  SDOM | 320.3051.00 | Assurances accidents | 0.86 |  | 100 |  |  |   |
+|  SDOM | 320.3069.00 | Debours divers | 653.55 |  | 2'000 |  | 490.35 |   |
+|  SDOM | 320.3121.00 | Eau | 617.20 |  | 1'000 |  | 477.50 |   |
+|  SDOM | 320.3133.00 | Achats de produits de nettoyage |  |  | 100 |  |  |   |
+|  SDOM | 320.3134.00 | Achats de plants forestiers |  |  | 1'000 |  |  |   |
+|  **SDOM** | **320.3141.00** | **Entretien des chalets** | **386.99** |  | **13'000** |  |  |   |
+|  SDOM | 320.3141.02 | Entretien du chalet Grande-Bonavau | 307.35 |  | 300 |  | 231.65 |   |
+|  SDOM | 320.3141.03 | Entretien du chalet Montbrion | 274.90 |  | 300 |  | 242.45 |   |
+|  SDOM | 320.3141.04 | Entretien du chalet F.-David (bas) | 164.40 |  | 300 |  | 164.40 |   |
+|  SDOM | 320.3141.05 | Entretien du chalet F.-David (haut) | 164.40 |  | 300 |  | 157.30 |   |
+|  **SDOM** | **320.3146.00** | **Entretien du domaine** | **49'926.65** |  | **48'400** |  | **93'597.54** |   |
+|  SDOM | 320.3156.03 | Entretien défense incendie |  |  | 400 |  | 176.55 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 320.3191.00 | Impôt foncier |  |  | 100 |  |  |   |
+|  **SDOM** | **320.3526.01** | **Indemnité au garde-forestier** | **7'646.20** |  | **12'000** |  | **10'701.05** |   |
+|  SDOM | 320.4231.03 | Locations du Chalet Fontana-David |  | 1'400.00 |  | 2'500 |  | 1'990.00  |
+|  SDOM | 320.4232.01 | Loyers des Alpages |  | 7'459.25 |  | 7'250 |  | 6'709.25  |
+|  SDOM | 320.4355.00 | Ventes de bois |  | 33'171.05 |  | 22'700 |  | 38'639.10  |
+|  SDOM | 320.4359.00 | Recettes diverses |  |  |  |  |  | 11'470.65  |
+|  **SDOM** | **320.4516.00** | **Subside** |  | **27'699.65** |  | **2'200** |  | **71'760.80**  |
+|   | **33** | **Vignes** | **160'548.96** | **107'452.49** | **226'050** | **135'800** | **162'505.07** | **105'996.48**  |
+|   | **330** | **Vignes** | **160'548.96** | **107'452.49** | **226'050** | **135'800** | **162'505.07** | **105'996.48**  |
+|  **SDOM** | **330.3011.00** | **Traitements - Gestion** | **10'983.96** |  | **15'100** |  | **10'679.76** |   |
+|  SDOM | 330.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 1'023.69 |  | 1'500 |  |  |   |
+|  SDOM | 330.3030.01 | Allocations familiales communales | 428.23 |  | 500 |  |  |   |
+|  **SDOM** | **330.3040.00** | **Caisse de retraite** | **1'636.98** |  | **2'100** |  |  |   |
+|  SDOM | 330.3050.00 | Assurance maladie participation | 228.39 |  | 300 |  |  |   |
+|  SDOM | 330.3050.01 | Assurance maladie perte de gain | 238.57 |  | 400 |  |  |   |
+|  SDOM | 330.3051.00 | Assurances accidents | 97.84 |  | 300 |  |  |   |
+|  SDOM | 330.3114.00 | Achats de mach., mat. expl. et d'entretien |  |  | 100 |  | 1'015.25 |   |
+|  **SDOM** | **330.3121.00** | **Eau** | **1'308.50** |  | **200** |  | **69.70** |   |
+|  SDOM | 330.3134.00 | Achats fournitures d'exploitation | 4'253.85 |  | 5'500 |  | 6'177.05 |   |
+|  SDOM | 330.3135.00 | Achats des emballages, étiquettes | 3'287.31 |  | 12'500 |  | 2'823.90 |   |
+|  SDOM | 330.3141.00 | Entretien des capites de vignes |  |  | 2'000 |  |  |   |
+|  SDOM | 330.3146.00 | Entretien du vignoble | 13'773.45 |  | 18'500 |  | 1'011.00 |   |
+|  SDOM | 330.3154.00 | Entretien machines et mat. d'exploitation |  |  | 100 |  |  |   |
+|  SDOM | 330.3156.04 | Entretien du matériel - Cave |  |  | 1'000 |  | 517.36 |   |
+|  SDOM | 330.3161.00 | Loyers cave de la Doges | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  SDOM | 330.3186.00 | Assurances grêle | 6'830.10 |  | 14'000 |  | 7'667.70 |   |
+|  **SDOM** | **330.3189.00** | **Redevance au vigneron** | **96'000.00** |  | **128'800** |  | **116'200.50** |   |
+|  SDOM | 330.3191.00 | TVA (taux forfaitaire) | 2'405.79 |  | 1'700 |  | 2'207.40 |   |
+|  SDOM | 330.3199.00 | Frais divers |  |  | 400 |  |  |   |
+|  SDOM | 330.3199.01 | Promotions, publicité | 5'418.80 |  | 8'000 |  | 3'475.80 |   |
+|  SDOM | 330.3199.02 | Rabais aux manif. et sociétés | 6'946.50 |  | 7'000 |  | 4'743.75 |   |
+|  SDOM | 330.3301.00 | Pertes sur débiteurs vente de vin | 144.00 |  |  |  | 72.90 |   |
+|  SDOM | 330.3658.00 | Cotisations diverses | 2'543.00 |  | 3'050 |  | 2'843.00 |   |
+|  **SDOM** | **330.4355.00** | **Ventes de la récolte à la cave** |  | **20'820.55** |  | **90'000** |  | **65'905.55**  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 330.4355.01 | Bénéfice sur ventes de vin |  | 78'547.19 |  | 30'000 |  | 26'771.88  |
+|  SDOM | 330.4359.00 | Recettes diverses |  |  |  | 6'100 |  | 1'257.00  |
+|  SDOM | 330.4393.00 | TVA (taux forfaitaire) |  | 8'084.75 |  | 9'700 |  | 12'062.05  |
+|  **34** |  | **Service des gérances** | **899'211.21** | **2'716'597.05** | **1'109'950** | **2'696'484** | **947'523.58** | **2'669'874.74**  |
+|  **340** |  | **Bâtiments locatifs** | **825'253.26** | **2'397'545.00** | **1'002'250** | **2'375'804** | **846'164.19** | **2'344'632.69**  |
+|  **SDOM** | **340.3011.00** | **Traitements** | **274'943.30** |  | **272'400** |  | **244'441.71** |   |
+|  SDOM | 340.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 25'088.29 |  | 25'900 |  |  |   |
+|  **SDOM** | **340.3030.01** | **Allocations familiales communales** | **256.76** |  | **200** |  |  |   |
+|  **SDOM** | **340.3040.00** | **Caisse de retraite** | **30'820.66** |  | **35'800** |  |  |   |
+|  SDOM | 340.3050.00 | Assurance maladie participation | 176.03 |  | 200 |  |  |   |
+|  SDOM | 340.3050.01 | Assurance maladie perte de gain | 5'470.29 |  | 5'900 |  |  |   |
+|  SDOM | 340.3051.00 | Assurances accidents | 2'328.76 |  | 3'400 |  |  |   |
+|  **SDOM** | **340.3080.00** | **Personnel externe facturé par des tiers** | **6'880.60** |  | **1'000** |  | **5'372.35** |   |
+|  SDOM | 340.3102.02 | Frais pour recherches de locataires |  |  | 500 |  |  |   |
+|  SDOM | 340.3114.00 | Achats de mach., mat. expl. et d'entretien | 3'666.95 |  | 3'000 |  | 2'135.65 |   |
+|  SDOM | 340.3114.01 | Achats de matériel - Sécurité au travail |  |  | 800 |  | 104.10 |   |
+|  SDOM | 340.3121.00 | Eau - Gaz | 38'513.85 |  | 46'000 |  | 34'703.81 |   |
+|  **SDOM** | **340.3123.00** | **Electricité** | **35'846.58** |  | **23'000** |  | **26'597.63** |   |
+|  SDOM | 340.3123.17 | Electricité - Béranges 51 | 143.06 |  |  |  |  |   |
+|  SDOM | 340.3123.18 | Electricité - Béranges 53 | 98.20 |  |  |  |  |   |
+|  SDOM | 340.3123.19 | Electricité - Béranges 74 | 521.70 |  | 1'000 |  |  |   |
+|  SDOM | 340.3123.64 | Electricité - Baumes 22 | 617.31 |  | 1'000 |  |  |   |
+|  SDOM | 340.3123.65 | Electricité - Baumes 24 | 722.04 |  | 1'000 |  |  |   |
+|  SDOM | 340.3124.00 | Charges chauffage | 11'068.93 |  | 5'000 |  | 3'150.16 |   |
+|  SDOM | 340.3133.00 | Achats de produits de nettoyage | 2'196.10 |  | 4'000 |  | 1'448.10 |   |
+|  SDOM | 340.3141.00 | Entretien des bâtiments | 255'912.66 |  | 230'000 |  | 228'905.82 |   |
+|  **SDOM** | **340.3141.01** | **Rénovation des bâtiments** | **79'879.65** |  | **280'000** |  | **244'099.20** |   |
+|  SDOM | 340.3141.07 | Entretien Grand-Rue 23 | 589.15 |  | 600 |  | 589.15 |   |
+|  SDOM | 340.3141.09 | Entretien Grand-Rue 50 | 2'962.70 |  | 2'650 |  | 2'299.85 |   |
+|  SDOM | 340.3141.10 | Entretien Grand-Rue 56 | 3'600.90 |  | 2'900 |  | 3'019.05 |   |
+|  SDOM | 340.3141.13 | Entretien Av. du Clos d'Aubonne 1 | 2'785.60 |  | 2'700 |  | 2'947.90 |   |
+|  SDOM | 340.3141.14 | Entretien Rue du Château 24 | 1'949.10 |  | 2'600 |  | 2'101.90 |   |
+|  SDOM | 340.3141.17 | Entretien Ch. de Béranges 51 |  |  | 500 |  | 525.90 |   |
+|  SDOM | 340.3141.18 | Entretien Ch. de Béranges 53 |  |  | 500 |  | 465.90 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 340.3141.19 | Entretien Ch. de Béranges 74 | 2'459.80 |  | 2'400 |  | 2'379.60 |   |
+|  SDOM | 340.3141.24 | Entretien Av. de la Perrausaz 2 | 301.60 |  | 400 |  | 301.60 |   |
+|  SDOM | 340.3141.29 | Entretien Ch. de Gérénaz 7 | 418.35 |  | 400 |  |  |   |
+|  SDOM | 340.3141.57 | Entretien Rue du Léman 7 | 3'864.80 |  | 3'900 |  | 3'316.45 |   |
+|  SDOM | 340.3141.60 | Entretien Av. de Traménaz 24 | 136.20 |  |  |  |  |   |
+|  SDOM | 340.3141.64 | Entretien Av. des Baumes 22 | 2'609.55 |  | 2'900 |  | 2'962.50 |   |
+|  SDOM | 340.3141.65 | Entretien Av. des Baumes 24 | 2'609.55 |  | 2'900 |  | 2'783.60 |   |
+|  SDOM | 340.3154.00 | Entretien machines et mat. d'exploitation | 1'459.35 |  | 2'000 |  | 1'179.35 |   |
+|  SDOM | 340.3156.00 | Entretien des citernes à mazout |  |  | 2'000 |  | 306.95 |   |
+|  SDOM | 340.3156.03 | Entretien défense incendie | 2'432.15 |  | 7'000 |  | 4'411.50 |   |
+|  SDOM | 340.3182.00 | Téléphones | 1'629.00 |  | 1'300 |  | 1'404.00 |   |
+|  SDOM | 340.3184.00 | Frais de contentieux |  |  | 1'000 |  | 43.25 |   |
+|  SDOM | 340.3185.00 | Honoraires de la gérance |  |  | 2'900 |  |  |   |
+|  SDOM | 340.3186.13 | Primes d'assurances |  |  | 3'000 |  |  |   |
+|  SDOM | 340.3191.00 | Epuration, évacuation des eaux | 1'310.19 |  | 3'000 |  | 1'297.75 |   |
+|  SDOM | 340.3301.00 | Pertes sur débiteurs |  |  | 100 |  | 13'177.55 |   |
+|  SDOM | 340.3818.00 | Attrib. FERDD - Prod. photov. (Bau 22/24, Bér 74) | 17'483.55 |  | 13'000 |  | 8'191.91 |   |
+|  SDOM | 340.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SDOM | 340.4231.07 | Loyers Grand-Rue 23 |  | 104'635.60 |  | 104'880 |  | 105'528.40  |
+|  SDOM | 340.4231.08 | Locations carnotzet Grand-Rue 23 |  | 5'385.00 |  | 4'000 |  | 13'280.00  |
+|  SDOM | 340.4231.09 | Loyers Grand-Rue 50 |  | 214'679.00 |  | 215'520 |  | 214'441.95  |
+|  **SDOM** | **340.4231.10** | **Loyers Grand-Rue 56 (sans UAPE dès B26)** |  | **103'833.00** |  | **108'360** |  | **107'283.00**  |
+|  SDOM | 340.4231.11 | Loyers Grand-Rue 58/Remparts 5 |  | 20'085.00 |  | 19'590 |  | 20'163.00  |
+|  **SDOM** | **340.4231.13** | **Loyers Av. du Clos d'Aubonne 1** |  | **179'759.10** |  | **182'400** |  | **183'151.30**  |
+|  **SDOM** | **340.4231.14** | **Loyers Rue du Château 24** |  | **171'513.00** |  | **173'930** |  | **174'193.00**  |
+|  SDOM | 340.4231.15 | Loyers Rue du Port 3 |  | 36'546.00 |  | 37'680 |  | 38'256.00  |
+|  SDOM | 340.4231.17 | Loyers Ch. de Béranges 51 |  | 117'386.35 |  | 122'950 |  | 121'787.50  |
+|  SDOM | 340.4231.18 | Loyers Ch. de Béranges 53 |  | 51'560.00 |  | 52'320 |  | 53'080.00  |
+|  **SDOM** | **340.4231.19** | **Loyers Ch. de Béranges 74** |  | **203'484.35** |  | **203'710** |  | **204'340.65**  |
+|  SDOM | 340.4231.24 | Loyers Av. de la Perrausaz 2 |  | 99'603.80 |  | 101'400 |  | 103'327.60  |
+|  SDOM | 340.4231.27 | Loyers Rue du Léman 7 |  | 165'217.00 |  | 166'570 |  | 167'449.00  |
+|  **SDOM** | **340.4231.28** | **Loyers Av. de Traménaz 24** |  | **63'491.30** |  | **59'700** |  | **59'233.00**  |
+|  **SDOM** | **340.4231.29** | **Loyers Ch. de Gérénaz 7** |  | **81'819.15** |  | **73'200** |  | **60'626.50**  |
+|  **SDOM** | **340.4231.31** | **Loyers Av. des Baumes 22** |  | **258'050.75** |  | **261'800** |  | **260'095.55**  |
+|  **SDOM** | **340.4231.32** | **Loyers Av. des Baumes 24** |  | **248'333.00** |  | **251'960** |  | **254'117.00**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 340.4271.00 Loyers Ch. de Vassin 27 (app cimetière) |  | 10'800.00 |  | 10'800 |  | 10'800.00  |
+|  SDOM | 340.4272.00 Loyers antenne téléphonie mobile |  | 12'000.00 |  | 12'000 |  | 12'000.00  |
+|  SDOM | 340.4272.04 Loyers places stationnement |  | 800.00 |  | 800 |  | 8'449.40  |
+|  SDOM | 340.4351.17 Prod. photov. - Béranges 51 |  | 911.11 |  |  |  |   |
+|  SDOM | 340.4351.18 Prod. photov. - Béranges 53 |  | 998.80 |  |  |  |   |
+|  SDOM | 340.4351.19 Prod. photov. - Béranges 74 |  | 4'111.85 |  | 3'000 |  | 1'928.15  |
+|  SDOM | 340.4351.64 Prod. photov. - Baumes 22 |  | 6'168.86 |  | 5'000 |  | 2'946.36  |
+|  SDOM | 340.4351.65 Prod. photov. - Baumes 24 |  | 7'202.84 |  | 5'000 |  | 3'317.40  |
+|  SDOM | 340.4356.00 Frais facturés à des tiers |  | 2'280.65 |  | 2'000 |  | 7'682.60  |
+|  **SDOM** | **340.4359.00 Ventes et prestations diverses** |  | **127'666.89** |  | **105'300** |  | **66'098.35**  |
+|  SDOM | 340.4361.00 Remboursements d'assurances |  | 3'852.00 |  |  |  |   |
+|  SDOM | 340.4362.00 Remboursements de frais |  | 16'917.75 |  | 16'764 |  | 16'628.18  |
+|  SDOM | 340.4362.07 Frais accessoires Grand-Rue 23 |  | 1'876.00 |  | 1'750 |  | 1'752.00  |
+|  SDOM | 340.4362.09 Frais accessoires Grand-Rue 50 |  | 7'102.00 |  | 6'780 |  | 6'774.00  |
+|  SDOM | 340.4362.10 Frais accessoires Grand-Rue 56 |  | 4'524.00 |  | 4'520 |  | 4'344.00  |
+|  SDOM | 340.4362.13 Frais accessoires Av. du Clos-d'Aubonne 1 |  | 8'736.00 |  | 8'850 |  | 9'186.50  |
+|  SDOM | 340.4362.14 Frais accessoires Rue du Château 24 |  | 10'320.00 |  | 10'440 |  | 10'660.00  |
+|  SDOM | 340.4362.15 Frais accessoires Rue du Port 3 |  | 588.00 |  | 550 |  | 572.00  |
+|  SDOM | 340.4362.17 Frais accessoires Ch. de Béranges 51 |  | 4'673.00 |  | 4'570 |  | 4'462.30  |
+|  SDOM | 340.4362.18 Frais accessoires Ch. de Béranges 53 |  | 1'529.00 |  | 1'670 |  | 1'807.00  |
+|  SDOM | 340.4362.19 Frais accessoires Ch. de Béranges 74 |  | 7'324.00 |  | 6'860 |  | 6'863.00  |
+|  SDOM | 340.4362.24 Frais accessoires Av. de la Perrausaz 2 |  | 2'770.00 |  | 2'880 |  | 2'880.00  |
+|  SDOM | 340.4362.27 Frais accessoires Rue du Léman 7 |  | 5'334.00 |  | 5'150 |  | 5'148.00  |
+|  SDOM | 340.4362.28 Frais accessoires Traménaz 24 |  | 3'768.50 |  | 2'680 |  | 2'676.00  |
+|  SDOM | 340.4362.29 Frais accessoires Ch. de Gérénaz 7 |  | 3'367.00 |  | 2'150 |  | 1'632.00  |
+|  SDOM | 340.4362.31 Frais accessoires Av. des Baumes 22 |  | 8'451.00 |  | 8'060 |  | 8'027.00  |
+|  SDOM | 340.4362.32 Frais accessoires Av. des Baumes 24 |  | 7'593.00 |  | 7'730 |  | 7'645.00  |
+|  SDOM | 340.4362.33 Frais accessoires Grand-Rue 58/Remparts 5 |  | 497.35 |  | 530 |  |   |
+|  **341** | **Places de stationnement** | **73'957.95** | **319'052.05** | **107'700** | **320'680** | **101'359.39** | **325'242.05**  |
+|  SDOM | 341.3101.00 Achats cartes de parking |  |  | 100 |  |  |   |
+|  SDOM | 341.3123.00 Electricité | 1'739.92 |  | 2'000 |  | 1'766.20 |   |
+|  **SDOM** | **341.3141.26 Entretien parking des Mousquetaires** | **4'854.30** |  | **38'700** |  | **34'425.14** |   |
+|  SDOM | 341.3154.00 Entretien machines, mat. exploit. et entret. | 405.38 |  | 1'000 |  |  |   |
+|  SDOM | 341.3156.03 Entretien défense incendie | 7'649.90 |  | 7'400 |  | 5'972.35 |   |
+|  SDOM | 341.3191.00 TVA (taux forfaitaire) | 12'635.70 |  | 11'900 |  | 12'595.70 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 341.3312.01 | Amort. - Parking 'Centre-Ville' (P11/11) [16-25] | 46'672.75 |  | 46'600 |  | 46'600.00 |   |
+|  SDOM | 341.4231.13 | Locations Av. du Clos d'Aubonne 1 |  | 4'040.00 |  | 4'320 |  | 3'760.00  |
+|  SDOM | 341.4231.17 | Locations Ch. de Béranges 51-53 |  | 210.00 |  | 2'520 |  | 1'540.00  |
+|  SDOM | 341.4231.19 | Locations Ch. de Béranges 74 |  | 910.00 |  | 840 |  | 490.00  |
+|  SDOM | 341.4231.24 | Locations Av. de la Perrausaz 2 |  | 4'480.00 |  | 4'200 |  | 4'200.00  |
+|  SDOM | 341.4231.26 | Locations parking des Mousquetaires |  | 224'963.51 |  | 223'000 |  | 228'866.26  |
+|  SDOM | 341.4231.27 | Locations Rue du Léman 7 |  | 1'320.00 |  | 1'320 |  | 1'320.00  |
+|  SDOM | 341.4231.28 | Locations Traménaz 24 |  | 24'290.55 |  | 25'860 |  | 25'665.00  |
+|  SDOM | 341.4231.29 | Locations Ch. de Gérénaz 7 |  | 840.00 |  | 2'520 |  | 1'540.00  |
+|  SDOM | 341.4231.31 | Locations Av. des Baumes 22-24 |  | 1'680.00 |  | 1'680 |  | 1'680.00  |
+|  SDOM | 341.4272.04 | Locations diverses places |  | 32'445.15 |  | 30'320 |  | 31'602.55  |
+|  SDOM | 341.4353.00 | Ventes des cartes de parking |  | 100.00 |  | 100 |  | 75.00  |
+|  SDOM | 341.4393.00 | TVA (taux forfaitaire) |  | 23'772.84 |  | 24'000 |  | 24'503.24  |
+|  **35** |  | **Bâtiments** | **967'030.62** | **749'794.51** | **1'045'550** | **736'550** | **1'239'907.24** | **712'347.64**  |
+|  **350** |  | **Bâtiments administratifs** | **936'185.97** | **514'050.31** | **1'018'550** | **505'550** | **1'212'980.04** | **712'347.64**  |
+|  SDOM | 350.3011.00 | Traitements | 61'934.61 |  | 62'500 |  | 161'992.00 |   |
+|  SDOM | 350.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 5'744.99 |  | 6'000 |  |  |   |
+|  **SDOM** | **350.3030.01** | **Allocations familiales communales** | **369.16** |  |  |  |  |   |
+|  **SDOM** | **350.3040.00** | **Caisse de retraite** | **9'085.22** |  | **11'800** |  |  |   |
+|  SDOM | 350.3050.00 | Assurance maladie participation | 990.29 |  | 1'100 |  |  |   |
+|  SDOM | 350.3050.01 | Assurance maladie perte de gain | 1'070.31 |  | 1'200 |  |  |   |
+|  SDOM | 350.3051.00 | Assurances accidents | 510.59 |  | 800 |  |  |   |
+|  SDOM | 350.3069.00 | Débours divers |  |  | 100 |  |  |   |
+|  SDOM | 350.3113.00 | Achats mobilier et mat. d'exploitation | 4'767.15 |  | 4'600 |  | 2'965.60 |   |
+|  SDOM | 350.3113.01 | Acquisition ou restauration d'oeuvres d'art | 28.50 |  |  |  | 4'505.05 |   |
+|  SDOM | 350.3114.00 | Achats de mach., mat. expl. et d'entretien | 436.80 |  | 2'350 |  | 450.50 |   |
+|  SDOM | 350.3114.01 | Achats de matériel - Sécurité au travail | 18.15 |  | 300 |  |  |   |
+|  SDOM | 350.3121.00 | Eau | 9'422.05 |  | 7'000 |  | 5'528.70 |   |
+|  **SDOM** | **350.3122.00** | **Achats et consommation de gaz** | **41'542.35** |  | **130'000** |  | **73'350.60** |   |
+|  SDOM | 350.3123.00 | Electricité | 35'333.65 |  | 35'000 |  | 66'680.35 |   |
+|  SDOM | 350.3123.43 | Electricité - Maison de Commune | 27'527.27 |  | 26'000 |  |  |   |
+|  **SDOM** | **350.3124.02** | **Chauffage - La Faraz/Béranges 111** | **50'397.20** |  | **500** |  | **16'246.85** |   |
+|  **SDOM** | **350.3124.03** | **Chauffage - Serres de la Faraz** |  |  | **7'000** |  |  |   |
+|  SDOM | 350.3124.05 | Chauffage - Ch. de Béranges 212 |  |  | 5'000 |  | 6'595.05 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 350.3133.00 | Achats de produits de nettoyage | 22'087.75 |  | 22'000 |  | 24'260.70 |   |
+|  SDOM | 350.3141.00 | Entretien des bâtiments | 134'505.97 |  | 137'600 |  | 151'674.71 |   |
+|  SDOM | 350.3141.01 | Rénovation des bâtiments | 16'716.46 |  | 20'000 |  | 1'283.70 |   |
+|  **SDOM** | **350.3141.28** | **Entretien Ch. de Béranges 111** | **16'080.00** |  | **14'000** |  | **14'344.75** |   |
+|  SDOM | 350.3141.39 | Entretien Ch. de Béranges 212 | 2'284.05 |  | 2'700 |  | 1'058.85 |   |
+|  SDOM | 350.3141.40 | Entretien Rue de l'Ancien-Stand 7 | 749.90 |  | 800 |  | 698.00 |   |
+|  SDOM | 350.3141.41 | Entretien Rue de l'Ancien-Stand 12 | 904.30 |  | 900 |  | 876.20 |   |
+|  **SDOM** | **350.3141.43** | **Entretien Maison de Commune** | **7'457.52** |  | **6'000** |  | **4'454.82** |   |
+|  SDOM | 350.3141.44 | Entretien Maison Hugonin | 798.85 |  | 900 |  | 798.85 |   |
+|  SDOM | 350.3141.45 | Entretien WC publics | 129.75 |  | 300 |  |  |   |
+|  SDOM | 350.3141.46 | Entretien théâtre du Château | 951.20 |  | 900 |  | 847.55 |   |
+|  SDOM | 350.3141.51 | Entretien Ch. de Béranges 240 - Voirie |  |  | 1'900 |  | 810.75 |   |
+|  SDOM | 350.3141.52 | Entretien Château de La Tour-de-Peilz | 2'491.85 |  | 2'200 |  | 1'686.80 |   |
+|  SDOM | 350.3141.53 | Entretien chalet Les Colombettes |  |  | 300 |  |  |   |
+|  SDOM | 350.3141.62 | Entretien Av. des Alpes 102 | 410.80 |  | 1'800 |  | 593.92 |   |
+|  SDOM | 350.3141.63 | Entretien Av. de Bel-Air 106 |  |  | 500 |  |  |   |
+|  SDOM | 350.3153.00 | Entretien mobilier et matériel |  |  | 1'000 |  |  |   |
+|  SDOM | 350.3153.01 | Entretien objet d'art |  |  | 3'000 |  |  |   |
+|  SDOM | 350.3154.00 | Entretien machines et mat. d'exploitation | 752.50 |  | 1'500 |  | 111.50 |   |
+|  SDOM | 350.3156.00 | Entretien des citernes à mazout | 1'729.60 |  | 1'000 |  |  |   |
+|  SDOM | 350.3156.03 | Entretien défense incendie | 9'553.17 |  | 15'000 |  | 11'589.75 |   |
+|  SDOM | 350.3156.05 | Entretien inst. photov. | 653.00 |  | 1'700 |  | 653.00 |   |
+|  SDOM | 350.3182.00 | Téléphones | 113.75 |  | 200 |  | 108.05 |   |
+|  SDOM | 350.3189.00 | Conciergerie Maison de Commune | 62'325.10 |  | 62'000 |  | 59'476.80 |   |
+|  SDOM | 350.3191.00 | Epuration, évacuation des eaux | 23'932.75 |  | 25'000 |  | 20'861.05 |   |
+|  SDOM | 350.3312.02 | Amort. - Rénovation Maison de Commune (P17/17) [22-41] | 189'800.00 |  | 189'800 |  | 189'800.00 |   |
+|  SDOM | 350.3321.00 | Amort. - Inst. photov. S. Remparts [16-25] | 6'206.20 |  | 17'500 |  | 17'500.00 |   |
+|  SDOM | 350.3321.03 | Amort. - Inst. photov. MdC (p46/18) [22-31] | 3'900.00 |  | 3'900 |  | 3'900.00 |   |
+|  SDOM | 350.3321.05 | Amort. - Extension pavillons UAPE (P08/21) |  |  |  |  | 161'811.95 |   |
+|  SDOM | 350.3321.06 | Amort. - Toiture Chalet Montbrion |  |  |  |  | 198'141.49 |   |
+|  SDOM | 350.3321.07 | Amort. - Pav UAPE Collège étape 3 (P23/22) [25] | 175'485.94 |  | 175'500 |  |  |   |
+|  SDOM | 350.3802.01 | Attrib. - Fonds acquisition oeuvres d'art | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  SDOM | 350.3818.00 | Attrib. FERDD - Prod. photov. (350.4351.xx) | 1'987.27 |  | 2'400 |  | 2'322.15 |   |
+|  SDOM | 350.4271.10 | Loyers ASR Ch. de Béranges 111 |  | 75'100.00 |  | 75'100 |  | 75'100.00  |
+|  SDOM | 350.4271.11 | Loyers appt Ch. de Béranges 212 |  | 28'063.30 |  | 28'320 |  | 28'576.00  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 350.4271.12 Loyers crèche garderie Yakari |  | 70'800.00 |  | 70'800 |  | 70'800.00  |
+|  SDOM | 350.4271.14 Loyers crèche garderie Croqu'Lune |  | 114'000.00 |  | 114'000 |  | 114'000.00  |
+|  SDOM | 350.4271.17 Locations abri-hébergement Ch. de Béranges 212 |  | 750.00 |  | 500 |  | 830.00  |
+|  SDOM | 350.4271.19 Loyers serres verger Château |  | 1'440.00 |  | 1'440 |  | 1'440.00  |
+|  SDOM | 350.4271.20 Loyer restaurant du Château |  |  |  |  |  | 11'199.50  |
+|  SDOM | 350.4272.00 Loyers antenne téléphonie mobile |  | 11'000.00 |  | 11'000 |  | 11'000.00  |
+|  SDOM | 350.4351.00 Production énergie photovoltaïque |  |  |  |  |  | 2'322.15  |
+|  SDOM | 350.4351.43 Prod. photov. - Maison de Commune |  | 1'987.27 |  | 2'400 |  |   |
+|  **SDOM** | **350.4359.00 Ventes et prestations diverses** |  | **22'162.80** |  | **3'320** |  | **4'897.15**  |
+|  **SDOM** | **350.4361.00 Remboursements d'assurances** |  |  |  |  |  | **4'891.10**  |
+|  SDOM | 350.4362.00 Frais accessoires Ch. de Béranges 212 |  | 473.30 |  | 70 |  | 780.25  |
+|  SDOM | 350.4517.00 Subside cantonal études énergies |  | 2'000.00 |  |  |  |   |
+|  SDOM | 350.4802.01 Prél. - Fonds acquisition oeuvres d'art |  | 28.50 |  |  |  | 4'505.05  |
+|  SDOM | 350.4809.03 Prél. FDIF - Extension pavillons UAPE (P08/21) |  |  |  |  |  | 161'811.95  |
+|  SDOM | 350.4809.04 Prél. FDIF - Toiture Chalet Montbrion |  |  |  |  |  | 198'141.49  |
+|  SDOM | 350.4809.05 Prél FDIF - Pav UAPE Collège étape 3 (P23/22) [25] |  | 175'485.94 |  | 175'500 |  |   |
+|  SDOM | 350.4818.00 Prél. FERDD - Entr. inst. photov. (350.3156.05) |  | 653.00 |  | 1'700 |  | 653.00  |
+|  **SDOM** | **350.4819.00 Prél. FERDD - Inst. photov. S. Remp. (16-25)** |  | **6'206.20** |  | **17'500** |  | **17'500.00**  |
+|  SDOM | 350.4819.01 Prél. FERDD - Inst. photov. MdC (p46/18) [22-31] |  | 3'900.00 |  | 3'900 |  | 3'900.00  |
+|  **351** | **Bâtiments structures d'accueil** | **30'844.65** | **235'744.20** | **27'000** | **231'000** | **26'927.20** |   |
+|  **SDOM** | **351.3141.00 Entretien des structures d'accueil** | **29'701.10** |  | **27'000** |  | **26'927.20** |   |
+|  SDOM | 351.3191.00 Epuration, évacuation des eaux | 1'143.55 |  |  |  |  |   |
+|  SDOM | 351.4271.05 Loyers UAPE Clin d'Oeil (ancien collège de Vassin) |  | 70'000.20 |  | 70'000 |  |   |
+|  SDOM | 351.4271.06 Loyers UAPE Terreaux |  | 161'004.00 |  | 161'000 |  |   |
+|  SDOM | 351.4362.05 Frais accessoires UAPE Collège de Vassin |  | 4'740.00 |  |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **4** | **Urbanisme et travaux publics** | **14'511'033.64** | **9'038'696.11** | **20'308'950** | **13'520'290** | **10'056'772.81** | **5'153'225.33**  |
+|  **40** | **Service administratif** | **1'373'418.89** | **514'356.15** | **1'463'100** | **230'000** | **978'750.58** | **89'237.70**  |
+|  **400** | **Administration** | **1'373'418.89** | **514'356.15** | **1'463'100** | **230'000** | **978'750.58** | **89'237.70**  |
+|  **SUTP 400.3011.00** | **Traitements** | **609'253.57** |  | **685'100** |  | **585'319.90** |   |
+|  **SUTP 400.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **55'625.35** |  | **64'700** |  |  |   |
+|  **SUTP 400.3030.01** | **Allocations familiales communales** | **2'937.60** |  | **3'000** |  |  |   |
+|  **SUTP 400.3040.00** | **Caisse de retraite** | **94'856.23** |  | **128'500** |  |  |   |
+|  **SUTP 400.3050.01** | **Assurance maladie perte de gain** | **11'833.63** |  | **14'400** |  |  |   |
+|  **SUTP 400.3051.00** | **Assurances accidents** | **5'308.21** |  | **8'700** |  |  |   |
+|  **SUTP 400.3069.00** | **Debours divers** | **4'104.45** |  | **7'800** |  | **5'608.90** |   |
+|  **SUTP 400.3101.00** | **Economat** | **15'326.95** |  | **13'750** |  | **13'608.76** |   |
+|  **SUTP 400.3102.00** | **Frais de publications** | **18'692.15** |  | **30'000** |  | **21'445.80** |   |
+|  **SUTP 400.3111.00** | **Achats de mobilier et matériel** | **27'996.45** |  | **36'500** |  | **42'548.35** |   |
+|  **SUTP 400.3151.00** | **Entretien mobilier et matériel** |  |  | **500** |  | **120.00** |   |
+|  **SUTP 400.3182.00** | **Téléphones et GPS** | **4'570.73** |  | **4'700** |  | **3'811.55** |   |
+|  **SUTP 400.3185.00** | **Honoraires, études, expertises** | **141'655.87** |  | **148'500** |  | **143'247.20** |   |
+|  **SUTP 400.3185.02** | **Honoraires plan cadastral** | **3'073.00** |  | **6'600** |  | **6'715.42** |   |
+|  **SUTP 400.3185.05** | **Agglomération Rivelac** | **84'924.00** |  | **87'000** |  | **91'735.00** |   |
+|  **SUTP 400.3187.00** | **Emoluments du registre foncier** | **8'445.90** |  | **12'850** |  | **6'900.00** |   |
+|  **SUTP 400.3187.03** | **Commissions de salubrité et d'urbanisme** | **9'684.20** |  | **22'000** |  | **14'843.35** |   |
+|  **SUTP 400.3528.00** | **Contrôle des chantiers** | **21'795.60** |  | **16'000** |  | **23'346.35** |   |
+|  **SUTP 400.3809.00** | **Attrib. - Fonds taxes équip. communautaires** | **229'335.00** |  | **150'000** |  |  |   |
+|  **SUTP 400.3902.01** | **Imputations internes - Maintenance informatique** | **24'000.00** |  | **22'500** |  | **19'500.00** |   |
+|  **SUTP 400.4309.00** | **Taxe équipements communautaires** |  | **229'335.00** |  | **150'000** |  |   |
+|  **SUTP 400.4313.01** | **Permis de construire et d'habiter** |  | **186'403.00** |  | **50'000** |  | **49'540.30**  |
+|  **SUTP 400.4313.03** | **Permis de dépôts** |  | **25'632.00** |  | **10'000** |  | **12'316.15**  |
+|  **SUTP 400.4359.00** | **Recettes diverses** |  | **51'606.30** |  |  |  | **271.50**  |
+|  **SUTP 400.4361.00** | **Remboursements d'assurances** |  | **1'349.40** |  |  |  | **185.40**  |
+|  **SUTP 400.4362.00** | **Remboursements de frais d'enquête** |  | **20'030.45** |  | **20'000** |  | **26'924.35**  |
+|  **43** | **Routes** | **5'944'340.19** | **3'285'574.26** | **9'999'000** | **6'791'200** | **3'633'953.64** | **1'291'353.26**  |
+|  **430** | **Routes et voirie** | **5'510'503.44** | **3'282'984.61** | **9'465'500** | **6'790'200** | **3'245'577.71** | **1'270'557.11**  |
+|  **SUTP 430.3011.00** | **Traitements** | **1'168'268.84** |  | **1'158'400** |  | **1'135'411.73** |   |
+|  **SUTP 430.3011.90** | **Traitements apprentis** | **19'647.35** |  | **20'000** |  | **11'601.00** |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 430.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 108'759.24 |  | 112'400 |  |  |   |
+|  **SUTP** | **430.3030.01** | **Allocations familiales communales** | **5'846.55** |  | **11'300** |  |  |   |
+|  **SUTP** | **430.3040.00** | **Caisse de retraite** | **169'999.90** |  | **210'400** |  |  |   |
+|  SUTP | 430.3050.00 | Assurance maladie participation | 7'703.92 |  | 8'300 |  |  |   |
+|  **SUTP** | **430.3050.01** | **Assurance maladie perte de gain** | **20'743.94** |  | **22'400** |  |  |   |
+|  SUTP | 430.3051.00 | Assurances accidents | 27'582.00 |  | 42'100 |  |  |   |
+|  SUTP | 430.3069.00 | Débours divers | 1'580.00 |  | 2'300 |  | 1'686.85 |   |
+|  SUTP | 430.3080.00 | Personnel intérim, facturé par des tiers |  |  | 10'000 |  |  |   |
+|  SUTP | 430.3111.00 | Achats de mobilier et matériel de bureau | 142.50 |  | 500 |  | 49.80 |   |
+|  SUTP | 430.3113.00 | Achats de mobilier urbain | 25'000.00 |  | 25'000 |  | 5'873.50 |   |
+|  SUTP | 430.3114.00 | Achats de mach., mat. expl. et d'entretien | 10'095.65 |  | 18'000 |  | 9'070.65 |   |
+|  SUTP | 430.3114.01 | Achats de vêtements de travail | 7'281.95 |  | 19'000 |  | 13'842.65 |   |
+|  SUTP | 430.3114.02 | Achats de matériel - Sécurité au travail | 1'554.51 |  | 3'000 |  | 8'010.63 |   |
+|  SUTP | 430.3115.00 | Achats de véhicules | 30'460.42 |  | 35'000 |  |  |   |
+|  **SUTP** | **430.3135.00** | **Achats de matériaux et fournitures** | **31'521.02** |  | **68'500** |  | **65'515.04** |   |
+|  **SUTP** | **430.3136.00** | **Achats du carburant** | **17'816.18** |  | **28'000** |  | **24'538.42** |   |
+|  SUTP | 430.3141.00 | Entretien des fontaines | 14'376.86 |  | 28'500 |  | 8'027.50 |   |
+|  SUTP | 430.3142.00 | Entretien du réseau routier | 513'516.04 |  | 510'000 |  | 424'308.37 |   |
+|  SUTP | 430.3144.00 | Entretien du réseau de défense incendie | 31'617.45 |  | 43'000 |  | 50'278.65 |   |
+|  SUTP | 430.3153.00 | Entretien du mobilier urbain | 13'475.86 |  | 14'000 |  | 7'379.25 |   |
+|  SUTP | 430.3153.01 | Entretien des abris bus | 3'534.75 |  | 4'000 |  | 367.55 |   |
+|  SUTP | 430.3154.00 | Entretien machines et mat. d'exploitation | 5'648.75 |  | 7'000 |  | 5'371.17 |   |
+|  SUTP | 430.3154.01 | Entretien machines de déneigement | 1'435.96 |  | 5'000 |  |  |   |
+|  SUTP | 430.3155.00 | Entretien des véhicules | 39'065.54 |  | 58'700 |  | 37'133.73 |   |
+|  SUTP | 430.3163.00 | Locations de machines de chantier | 30'328.05 |  | 38'000 |  | 78'755.61 |   |
+|  SUTP | 430.3182.00 | Téléphones | 2'690.90 |  | 3'300 |  | 2'819.80 |   |
+|  SUTP | 430.3185.00 | Honoraires, études, expertises | 33'272.20 |  | 30'000 |  | 23'790.70 |   |
+|  SFIN | 430.3186.00 | Assurances des véhicules | 17'532.35 |  | 18'000 |  | 14'665.60 |   |
+|  SUTP | 430.3192.00 | Taxes des véhicules | 2'736.30 |  | 6'200 |  | 4'924.80 |   |
+|  SUTP | 430.3321.05 | Amort. - Route et éclairage public Av. Mousquetaires |  |  |  |  | 246'153.55 |   |
+|  SUTP | 430.3321.06 | Amort. - Réfect Chailly et Petit Vallon |  |  |  |  | 222'178.20 |   |
+|  SUTP | 430.3321.07 | Amort. - Réf chauss et épur Adolphe-Burnat |  |  |  |  | 440'925.16 |   |
+|  SUTP | 430.3321.08 | Amort. - Renouvellement transporteur Voirie |  |  |  |  | 249'897.80 |   |
+|  SUTP | 430.3321.09 | Amort. - Réam. et sécu. Ch. Gregnolet (P10/22) [25] | 588'159.56 |  | 588'200 |  |  |   |
+|  SUTP | 430.3321.10 | Amort. - Ass éclairage publ mercure (P10/19) [25] | 619'422.20 |  | 710'000 |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 430.3321.11 Amort. - Mise en conformité gare CFF (P20/19) [25] | 232'310.55 |  | 260'000 |  |  |   |
+|  SUTP | 430.3321.12 Amort. - RC780 EdV-Maladaire (P08/20) [26] |  |  | 3'687'000 |  |  |   |
+|  SUTP | 430.3321.13 Amort. - Ass. Bulesses-Crotton (P10/20) [25] | 1'554'376.15 |  | 1'507'000 |  |  |   |
+|  SUTP | 430.3902.00 Imputations internes - Déchets de voirie | 150'000.00 |  | 150'000 |  | 150'000.00 |   |
+|  SUTP | 430.3902.01 Imputations internes - Maintenance informatique | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  **SUTP** | **430.4356.00 Frais facturés à des tiers** |  | **136'200.60** |  | **25'000** |  | **36'980.65**  |
+|  **SUTP** | **430.4359.00 Recettes diverses** |  | **123'830.60** |  | **10'000** |  | **35'510.85**  |
+|  **SUTP** | **430.4361.00 Remboursements d'assurances** |  | **28'684.95** |  |  |  | **31'760.90**  |
+|  **SUTP** | **430.4511.00 Subside de l'ECA** |  |  |  | **3'000** |  | **7'150.00**  |
+|  SUTP | 430.4809.05 Prél. FDIF - Route et éclairage public Av. Mous |  |  |  |  |  | 246'153.55  |
+|  SUTP | 430.4809.06 Prél. FDIF - Réfect Chailly et Petit Vallon |  |  |  |  |  | 222'178.20  |
+|  SUTP | 430.4809.07 Prél. FDIF - Réf chauss et épur Adolphe-Burnat |  |  |  |  |  | 440'925.16  |
+|  SUTP | 430.4809.08 Prél. FDIF - Renouvellement transporteur Voirie |  |  |  |  |  | 249'897.80  |
+|  SUTP | 430.4809.09 Prél FDIF - Réam et sécu Ch Gregnolet (P10/22) [25] |  | 588'159.56 |  | 588'200 |  |   |
+|  SUTP | 430.4809.10 Prél FDIF - Ass éclaira. publ mercure (P10/19) [25] |  | 619'422.20 |  | 710'000 |  |   |
+|  SUTP | 430.4809.11 Prél FDIF - Mise conformité gare CFF (P20/19) [25] |  | 232'310.55 |  | 260'000 |  |   |
+|  SUTP | 430.4809.12 Prél FDIF - RC780 EdV-Maladaire (P08/20) [26] |  |  |  | 3'687'000 |  |   |
+|  SUTP | 430.4809.13 Prél FDIF - Ass. Bulesses-Crotton (P10/20) [25] |  | 1'554'376.15 |  | 1'507'000 |  |   |
+|  **431** | **Signalisation routière** | **46'161.25** | **1'287.40** | **50'000** | **1'000** | **38'660.78** | **15'905.00**  |
+|  SUTP | 431.3116.00 Achats matériel de signalisation | 16'546.35 |  | 20'000 |  | 9'485.63 |   |
+|  SUTP | 431.3143.00 Affichage prévention routière | 10'000.00 |  | 10'000 |  | 10'000.00 |   |
+|  SUTP | 431.3185.00 Honoraires, études, expertises | 19'614.90 |  | 20'000 |  | 19'175.15 |   |
+|  SUTP | 431.4272.00 Dépôts, enseignes |  | 1'287.40 |  | 1'000 |  | 1'488.30  |
+|  SUTP | 431.4272.01 Concessions d'affichage |  |  |  |  |  | 14'416.70  |
+|  **432** | **Eclairage public** | **387'675.50** | **1'302.25** | **483'500** |  | **349'715.15** | **4'891.15**  |
+|  SUTP | 432.3114.01 Equipement électrique manifestations et divers |  |  | 10'000 |  | 2'941.45 |   |
+|  **SUTP** | **432.3123.00 Electricité** | **119'248.80** |  | **197'000** |  | **147'742.25** |   |
+|  SUTP | 432.3135.00 Achats matériel et fournitures |  |  | 500 |  |  |   |
+|  SUTP | 432.3143.00 Entretien du réseau | 145'432.70 |  | 150'000 |  | 76'037.45 |   |
+|  SUTP | 432.3143.01 Entretien matériel décoration de Noël |  |  | 1'000 |  |  |   |
+|  SUTP | 432.3527.00 Redevance Romande Energie entretien luminaires | 122'994.00 |  | 125'000 |  | 122'994.00 |   |
+|  SUTP | 432.4359.00 Recettes diverses |  | 1'302.25 |  |  |  | 4'891.15  |
+|  **44** | **Parcs-promenades-cimetière** | **2'204'307.26** | **367'043.65** | **2'547'950** | **359'365** | **1'692'834.62** | **128'795.68**  |
+|  **440** | **Espaces verts** | **2'015'845.69** | **353'073.65** | **2'329'950** | **329'365** | **1'551'152.49** | **107'895.68**  |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **SUTP** | **440.3011.00** | **Traitements** | **1'032'499.30** |  | **1'136'000** |  | **1'037'703.80** |   |
+|  SUTP | 440.3011.90 | Traitements apprentis | 36'421.65 |  | 37'000 |  | 55'809.70 |   |
+|  **SUTP** | **440.3030.00** | **Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **97'501.40** |  | **111'400** |  |  |   |
+|  SUTP | 440.3030.01 | Allocations familiales communales | 2'142.10 |  | 3'000 |  |  |   |
+|  **SUTP** | **440.3040.00** | **Caisse de retraite** | **128'475.97** |  | **180'400** |  |  |   |
+|  SUTP | 440.3050.00 | Assurance maladie participation | 4'976.24 |  | 4'800 |  |  |   |
+|  SUTP | 440.3050.01 | Assurance maladie perte de gain | 20'339.00 |  | 24'300 |  |  |   |
+|  SUTP | 440.3051.00 | Assurances accidents | 25'143.16 |  | 38'400 |  |  |   |
+|  SUTP | 440.3069.00 | Débours divers | 328.40 |  | 2'650 |  | 1'743.65 |   |
+|  **SUTP** | **440.3080.00** | **Personnel intérim. facturé par des tiers** | **13'262.60** |  | **10'000** |  | **80'147.70** |   |
+|  SUTP | 440.3101.00 | Economat | 157.40 |  | 1'000 |  | 439.10 |   |
+|  SUTP | 440.3111.00 | Achats de mobilier et matériel de bureau | 102.29 |  | 500 |  | 214.55 |   |
+|  SUTP | 440.3114.00 | Achats de mach., mat. expl. et d'entretien | 24'117.10 |  | 23'500 |  | 15'752.33 |   |
+|  SUTP | 440.3114.01 | Achats de vêtements de travail | 8'513.00 |  | 12'000 |  | 7'695.25 |   |
+|  SUTP | 440.3114.02 | Achats de matériel - Sécurité au travail | 5'344.40 |  | 7'500 |  | 5'994.70 |   |
+|  SUTP | 440.3115.00 | Achats de véhicules |  |  |  |  | 27'025.00 |   |
+|  SUTP | 440.3116.00 | Achats d'engins de jeux | 152.60 |  | 5'000 |  |  |   |
+|  SDOM | 440.3121.00 | Eau (SDOM) | 279.10 |  | 600 |  | 468.80 |   |
+|  SUTP | 440.3121.01 | Eau (SUTP) | 230.85 |  | 1'200 |  | 1'170.00 |   |
+|  SUTP | 440.3134.00 | Achats de graines, plants, etc. | 59'311.89 |  | 61'000 |  | 55'916.86 |   |
+|  SUTP | 440.3134.01 | Décoration de Noël | 12'744.25 |  | 15'000 |  | 9'778.97 |   |
+|  SUTP | 440.3134.02 | Décoration des parcs et des rues | 9'908.83 |  | 10'000 |  | 8'816.55 |   |
+|  SUTP | 440.3134.03 | Décorations pour manifestations | 1'750.16 |  | 10'000 |  | 406.12 |   |
+|  SUTP | 440.3136.00 | Achats du carburant | 10'524.56 |  | 15'000 |  | 14'359.56 |   |
+|  **SUTP** | **440.3145.00** | **Entretien des parcs** | **31'470.39** |  | **85'100** |  | **51'930.32** |   |
+|  SDOM | 440.3145.01 | Entretien des communs | 601.98 |  | 6'000 |  | 417.82 |   |
+|  SUTP | 440.3145.02 | Végétation arborée sur domaine public | 28'960.74 |  | 34'000 |  | 22'115.23 |   |
+|  SUTP | 440.3145.03 | Végétation arborée sur patrimoine financier | 4'523.95 |  | 15'000 |  | 9'476.85 |   |
+|  SUTP | 440.3145.04 | Végétation arborée sur patrimoine administratif | 37'782.35 |  | 45'000 |  | 42'548.00 |   |
+|  SUTP | 440.3153.00 | Entretien des engins de jeux | 9'970.95 |  | 10'000 |  | 6'139.73 |   |
+|  SUTP | 440.3154.00 | Entretien machines et mat. d'exploitation | 13'691.95 |  | 14'000 |  | 11'962.05 |   |
+|  SUTP | 440.3155.00 | Entretien des véhicules | 10'212.85 |  | 10'000 |  | 7'548.95 |   |
+|  SUTP | 440.3163.00 | Locations de machines de chantier | 7'919.58 |  | 10'000 |  | 6'886.90 |   |
+|  SUTP | 440.3182.00 | Téléphones | 3'352.30 |  | 3'000 |  | 3'582.95 |   |
+|  SUTP | 440.3185.00 | Honoraires, études, expertises | 28'871.80 |  | 40'000 |  | 39'211.80 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFIN | 440.3186.00 Assurances des véhicules | 14'057.35 |  | 14'100 |  | 14'168.10 |   |
+|  SUTP | 440.3191.00 Epuration, évacuation des eaux | 3'529.05 |  | 4'500 |  | 3'855.75 |   |
+|  SUTP | 440.3192.00 Taxes des véhicules | 522.00 |  | 1'500 |  | 1'817.40 |   |
+|  SUTP | 440.3301.00 Pertes sur débiteurs |  |  |  |  | 48.00 |   |
+|  SUTP | 440.3321.01 Amort. - Place de jeux du Château (P04/23) [25] | 320'152.20 |  | 320'000 |  |  |   |
+|  SUTP | 440.3902.01 Imputations internes - Maintenance informatique | 6'000.00 |  | 7'500 |  | 6'000.00 |   |
+|  **SDOM** | **440.4272.00 Loyers des jardins et parcelles communales** |  | **8'458.00** |  | **9'365** |  | **10'498.00**  |
+|  **SUTP** | **440.4359.00 Recettes diverses** |  | **21'087.10** |  |  |  | **17'531.83**  |
+|  **SUTP** | **440.4361.00 Remboursements d'assurances** |  | **3'376.35** |  |  |  | **79'865.85**  |
+|  SUTP | 440.4809.01 Prél. FDIF - Place de jeux Château (P04/23) [25] |  | 320'152.20 |  | 320'000 |  |   |
+|  **441** | **Cimetière** | **188'461.57** | **13'970.00** | **218'000** | **30'000** | **141'682.13** | **20'900.00**  |
+|  SUTP | 441.3011.00 Traitements | 120'874.00 |  | 122'000 |  | 118'045.20 |   |
+|  SUTP | 441.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 11'089.11 |  | 11'600 |  |  |   |
+|  SUTP | 441.3040.00 Caisse de retraite | 16'848.56 |  | 22'100 |  |  |   |
+|  SUTP | 441.3050.00 Assurance maladie participation | 587.67 |  | 600 |  |  |   |
+|  SUTP | 441.3050.01 Assurance maladie perte de gain | 2'100.64 |  | 2'300 |  |  |   |
+|  SUTP | 441.3051.00 Assurances accidents | 2'886.33 |  | 4'500 |  |  |   |
+|  SUTP | 441.3069.00 Débours divers |  |  | 200 |  |  |   |
+|  SUTP | 441.3114.00 Achats de mach., mat. expl. et d'entretien | 1'985.14 |  | 2'300 |  | 141.85 |   |
+|  SDOM | 441.3122.00 Achats et consommation de gaz | 377.50 |  | 3'000 |  | 947.70 |   |
+|  SUTP | 441.3123.00 Electricité | 5'007.75 |  | 5'200 |  | 5'867.10 |   |
+|  SUTP | 441.3134.00 Achats de fournitures diverses | 1'893.95 |  | 3'000 |  | 2'241.44 |   |
+|  **SDOM** | **441.3141.00 Entretien des bâtiments** | **1'854.30** |  | **5'000** |  | **2'832.75** |   |
+|  SDOM | 441.3141.48 Entretien du funérarium |  |  | 2'000 |  |  |   |
+|  SUTP | 441.3145.00 Entretien du cimetière | 21'656.72 |  | 31'500 |  | 10'639.44 |   |
+|  SUTP | 441.3154.00 Entretien machines et mat. d'exploitation | 857.70 |  | 2'000 |  | 606.65 |   |
+|  SDOM | 441.3156.03 Entretien défense incendie | 82.20 |  | 200 |  |  |   |
+|  SUTP | 441.3182.00 Téléphones | 360.00 |  | 500 |  | 360.00 |   |
+|  **SUTP** | **441.4272.00 Concessions, colombarium** |  | **13'330.00** |  | **30'000** |  | **20'540.00**  |
+|  SUTP | 441.4359.00 Recettes diverses |  | 640.00 |  |  |  | 360.00  |
+|  **45** | **Ordures ménagères et déchets** | **1'982'181.90** | **1'982'181.90** | **2'123'050** | **2'123'050** | **1'881'292.67** | **1'881'292.67**  |
+|  **450** | **Ordures ménagères** | **1'355'074.41** | **1'355'074.41** | **1'587'950** | **1'587'950** | **1'284'328.22** | **1'284'328.22**  |
+|  SUTP | 450.3011.00 Traitements | 54'898.95 |  | 63'200 |  | 63'392.09 |   |
+|  SUTP | 450.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 5'035.66 |  | 6'100 |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 450.3030.01 | Allocations familiales communales | 168.82 |  | 200 |  |  |   |
+|  **SUTP** | **450.3040.00** | **Caisse de retraite** | **7'888.76** |  | **11'900** |  |  |   |
+|  SUTP | 450.3050.00 | Assurance maladie participation | 282.22 |  | 500 |  |  |   |
+|  SUTP | 450.3050.01 | Assurance maladie perte de gain | 1'002.10 |  | 1'300 |  |  |   |
+|  SUTP | 450.3051.00 | Assurances accidents | 899.40 |  | 1'600 |  |  |   |
+|  SUTP | 450.3069.00 | Débours divers |  |  | 300 |  |  |   |
+|  SUTP | 450.3091.00 | Frais de formation du personnel |  |  | 2'500 |  |  |   |
+|  SUTP | 450.3101.00 | Economat |  |  | 150 |  | 999.90 |   |
+|  SUTP | 450.3102.00 | Annonces, publications, calendrier | 1'667.15 |  | 2'500 |  | 2'456.60 |   |
+|  SUTP | 450.3114.00 | Achats de mach., mat. expl. et d'entretien | 54'442.78 |  | 92'500 |  | 47'149.41 |   |
+|  SUTP | 450.3154.00 | Entretien machines, mat. exploit. et entret. | 20'826.50 |  | 35'000 |  | 16'056.10 |   |
+|  SUTP | 450.3181.00 | Affranchissement général | 9'495.00 |  | 10'000 |  | 8'325.00 |   |
+|  SUTP | 450.3182.00 | Téléphones | 30.00 |  | 200 |  | 45.00 |   |
+|  SUTP | 450.3182.01 | Logiciel tonnages verre | 3'474.35 |  | 4'000 |  | 3'951.40 |   |
+|  SUTP | 450.3182.02 | Redevance radio-TV | 460.00 |  | 400 |  | 325.00 |   |
+|  SUTP | 450.3184.00 | Frais de contentieux |  |  | 5'000 |  |  |   |
+|  **SUTP** | **450.3185.00** | **Honoraires, études, expertises** | **4'702.65** |  | **3'000** |  | **1'125.50** |   |
+|  SUTP | 450.3188.00 | Collecte incinérables | 344'306.55 |  | 370'000 |  | 306'553.88 |   |
+|  SUTP | 450.3188.01 | Collecte papier et carton | 128'907.87 |  | 145'000 |  | 113'480.93 |   |
+|  SUTP | 450.3188.02 | Collecte compostable | 118'064.63 |  | 135'000 |  | 77'857.15 |   |
+|  SUTP | 450.3188.03 | Collecte du verre | 37'401.28 |  | 40'000 |  | 37'288.05 |   |
+|  SUTP | 450.3188.04 | Collecte et traitement déchets GastroVert | 14'344.85 |  | 20'000 |  | 14'702.70 |   |
+|  SUTP | 450.3188.05 | Brigade mobile 3 villes | 133'472.61 |  | 160'000 |  | 140'883.13 |   |
+|  SUTP | 450.3188.06 | Collecte incinérables DIB | 11'371.09 |  | 15'000 |  | 37'262.41 |   |
+|  SUTP | 450.3189.00 | Frais divers |  |  |  |  | 0.03 |   |
+|  SUTP | 450.3191.00 | TVA (taux forfaitaire) | 31'904.95 |  | 29'900 |  | 33'334.60 |   |
+|  SUTP | 450.3526.00 | Traitement compostable | 154'880.09 |  | 175'000 |  | 103'065.00 |   |
+|  SUTP | 450.3526.01 | Traitements matériaux spéciaux |  |  | 2'000 |  | 2'773.01 |   |
+|  SUTP | 450.3526.02 | Gederiviera - Gestion des déchets | 3'139.25 |  | 11'700 |  | 3'698.45 |   |
+|  SUTP | 450.3526.03 | Traitement incinérables | 187'104.87 |  | 210'000 |  | 206'301.70 |   |
+|  SUTP | 450.3526.04 | Traitement du verre | 18'177.03 |  | 23'000 |  | 14'018.92 |   |
+|  SUTP | 450.3526.05 | Traitement incinérables DIB | 6'686.62 |  | 8'000 |  | 29'477.66 |   |
+|  SUTP | 450.3526.06 | Traitement papier et carton | 38.38 |  | 3'000 |  | 0.01 |   |
+|  SUTP | 450.3812.00 | Attrib. fonds fin. spéc. - Elim. ordures mén. |  |  |  |  | 864.64 |   |
+|  SUTP | 450.3901.00 | Imputations internes - Frais de personnel |  |  |  |  | 18'939.95 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 450.4342.00 Frais facturés à des tiers |  |  |  | 1'000 |  |   |
+|  SUTP | 450.4342.01 Taxe forfaitaire |  | 607'884.10 |  | 580'000 |  | 569'251.75  |
+|  SUTP | 450.4342.02 Taxe aux sacs |  | 303'833.00 |  | 340'000 |  | 327'732.00  |
+|  SUTP | 450.4353.00 Facturation déchets industriels banals (DIB) |  | 21'193.32 |  | 25'000 |  | 91'886.72  |
+|  SUTP | 450.4354.00 Ventes produits de récupération |  | 60'665.22 |  | 30'000 |  | 60'567.17  |
+|  SUTP | 450.4354.01 Ventes papier et carton |  |  |  | 30'000 |  |   |
+|  SUTP | 450.4356.00 Evacuation déchets encombrants |  | 1'850.05 |  |  |  | 400.00  |
+|  SUTP | 450.4359.00 Recettes diverses |  |  |  |  |  | 834.73  |
+|  SUTP | 450.4362.00 Remboursements frais de rappels |  |  |  | 500 |  |   |
+|  SUTP | 450.4393.00 TVA (taux forfaitaire) |  | 78'463.70 |  | 74'600 |  | 81'936.70  |
+|  SUTP | 450.4526.00 Rétrocession sur transport des déchets |  | 501.25 |  | 500 |  | 1'719.15  |
+|  SUTP | 450.4812.00 Prél. fonds fin. spéc. - Elim. ordures mén. |  | 130'683.77 |  | 356'350 |  |   |
+|  SUTP | 450.4902.00 Imputations internes - Déchets de voirie |  | 150'000.00 |  | 150'000 |  | 150'000.00  |
+|  **451** | **Déchèterie de La Faraz** | **627'107.49** | **627'107.49** | **535'100** | **535'100** | **596'964.45** | **596'964.45**  |
+|  SUTP | 451.3011.00 Traitements | 122'905.47 |  | 129'300 |  | 128'955.30 |   |
+|  SUTP | 451.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 11'226.89 |  | 12'300 |  |  |   |
+|  SUTP | 451.3030.01 Allocations familiales communales | 168.82 |  | 200 |  |  |   |
+|  SUTP | 451.3040.00 Caisse de retraite | 16'868.13 |  | 22'000 |  |  |   |
+|  SUTP | 451.3050.00 Assurance maladie participation | 83.88 |  | 100 |  |  |   |
+|  SUTP | 451.3050.01 Assurance maladie perte de gain | 2'035.07 |  | 2'600 |  |  |   |
+|  SUTP | 451.3051.00 Assurances accidents | 2'494.85 |  | 3'800 |  |  |   |
+|  SUTP | 451.3069.00 Débours divers |  |  | 250 |  |  |   |
+|  SUTP | 451.3101.00 Economat |  |  | 1'500 |  |  |   |
+|  SUTP | 451.3102.00 Frais de publications | 96.35 |  | 2'000 |  | 520.25 |   |
+|  SUTP | 451.3109.00 Impression cartes magnétiques | 5'228.75 |  | 4'000 |  |  |   |
+|  SUTP | 451.3114.00 Achats de mach., mat. expl. et d'entretien | 611.11 |  | 1'500 |  | 156.46 |   |
+|  SUTP | 451.3114.01 Achats de vêtements de travail |  |  | 1'000 |  |  |   |
+|  SUTP | 451.3114.02 Achats de matériel - Sécurité au travail |  |  | 750 |  |  |   |
+|  SUTP | 451.3121.00 Eau |  |  | 100 |  |  |   |
+|  SUTP | 451.3123.00 Electricité | 1'615.00 |  | 1'550 |  | 2'133.20 |   |
+|  SUTP | 451.3141.00 Entretien de la déchèterie | 1'482.55 |  | 5'000 |  | 2'490.80 |   |
+|  SUTP | 451.3154.00 Entretien machines, mat. exploit. et entret. | 7'059.05 |  | 20'000 |  | 6'320.15 |   |
+|  SUTP | 451.3156.03 Entretien défense incendie |  |  | 250 |  |  |   |
+|  SUTP | 451.3163.00 Locations de bennes et machines |  |  | 500 |  |  |   |
+|  SUTP | 451.3182.00 Téléphones | 402.55 |  | 600 |  | 353.05 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 451.3182.01 | Cloud cartes magnétiques | 3'167.60 |  | 4'000 |  | 3'213.70 |   |
+|  SFIN | 451.3186.00 | Primes d'assurances | 455.00 |  | 500 |  | 455.00 |   |
+|  SUTP | 451.3188.00 | Collecte incinérables | 106'372.02 |  | 100'000 |  | 107'925.74 |   |
+|  SUTP | 451.3188.01 | Collecte papier et carton | 12'803.35 |  | 12'500 |  | 11'129.00 |   |
+|  SUTP | 451.3188.02 | Collecte compostable | 59'824.40 |  | 30'000 |  | 42'074.76 |   |
+|  SUTP | 451.3191.00 | TVA (taux forfaitaire) | 19'821.61 |  | 14'800 |  | 20'709.85 |   |
+|  SUTP | 451.3301.00 | Pertes sur débiteurs |  |  |  |  | 2'002.50 |   |
+|  SUTP | 451.3526.00 | Traitement compostable | 79'162.20 |  | 80'000 |  | 96'139.40 |   |
+|  SUTP | 451.3526.01 | Traitement matériaux spéciaux | 14'848.64 |  | 9'000 |  | 8'143.58 |   |
+|  SUTP | 451.3526.03 | Traitement incinérables | 70'421.95 |  | 70'000 |  | 59'158.85 |   |
+|  SUTP | 451.3526.04 | Traitement du verre |  |  |  |  | 1'394.50 |   |
+|  SUTP | 451.3526.06 | Traitement papier et carton |  |  | 5'000 |  | 1'492.65 |   |
+|  SUTP | 451.3812.00 | Attrib. fonds fin. spéc. - Elim. ordures mén. | 87'952.25 |  |  |  | 63'667.11 |   |
+|  SUTP | 451.3901.00 | Imputations internes - Frais de personnel |  |  |  |  | 38'528.60 |   |
+|  SUTP | 451.4342.00 | Taxe forfaitaire |  | 377'660.82 |  | 285'000 |  | 353'659.68  |
+|  SUTP | 451.4342.01 | Taxe aux sacs |  | 188'762.65 |  | 170'000 |  | 179'975.55  |
+|  SUTP | 451.4354.00 | Ventes de produits de récupération |  | 9'856.84 |  | 5'500 |  | 9'857.35  |
+|  SUTP | 451.4356.00 | Frais facturés à des tiers |  |  |  | 1'000 |  |   |
+|  SUTP | 451.4359.00 | Recettes diverses |  | 2'080.00 |  | 2'000 |  | 2'567.00  |
+|  SUTP | 451.4393.00 | TVA (taux forfaitaire) |  | 48'747.18 |  | 36'900 |  | 50'904.87  |
+|  SUTP | 451.4812.00 | Prél. fonds fin. spéc. - Elim. ordures mén. |  |  |  | 34'700 |  |   |
+|   | **46** | **Réseau d'égouts et d'épuration** | **2'545'652.69** | **2'545'652.69** | **3'291'800** | **3'291'800** | **1'516'435.83** | **1'516'435.83**  |
+|   | **460** | **Protection des eaux** | **2'545'652.69** | **2'545'652.69** | **3'291'800** | **3'291'800** | **1'516'435.83** | **1'516'435.83**  |
+|  **SUTP** | **460.3011.00** | **Traitements** | **87'418.22** |  | **79'400** |  | **80'586.56** |   |
+|  SUTP | 460.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 8'005.43 |  | 7'600 |  |  |   |
+|  SUTP | 460.3030.01 | Allocations familiales communales | 314.28 |  | 400 |  |  |   |
+|  SUTP | 460.3040.00 | Caisse de retraite | 13'116.14 |  | 14'900 |  |  |   |
+|  SUTP | 460.3050.00 | Assurance maladie participation | 282.22 |  | 500 |  |  |   |
+|  **SUTP** | **460.3050.01** | **Assurance maladie perte de gain** | **1'654.24** |  | **1'600** |  |  |   |
+|  SUTP | 460.3051.00 | Assurances accidents | 971.50 |  | 1'500 |  |  |   |
+|  SUTP | 460.3135.00 | Achats de fournitures diverses |  |  | 250 |  | 13.90 |   |
+|  SUTP | 460.3144.00 | Entretien du réseau | 136'182.40 |  | 155'000 |  | 137'539.07 |   |
+|  SUTP | 460.3182.00 | Téléphones | 180.00 |  | 200 |  | 135.00 |   |
+|  SUTP | 460.3182.02 | Redevance radio-TV | 235.00 |  | 300 |  | 235.00 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 460.3185.00 | Honoraires, études, expertises | 26'769.05 |  | 30'000 |  | 19'187.75 |   |
+|  SUTP | 460.3193.00 | Cotisations diverses | 2'519.00 |  | 2'500 |  | 2'476.40 |   |
+|  SUTP | 460.3321.03 | Amort. - Route et éclairage public Av. Mousquetaires |  |  |  |  | 125'605.90 |   |
+|  SUTP | 460.3321.04 | Amort. - Réfect Chailly et Petit Vallon |  |  |  |  | 239'605.30 |   |
+|  SUTP | 460.3321.05 | Amort. - Réf chauss et épur Adolphe-Burnat |  |  |  |  | 213'376.73 |   |
+|  SUTP | 460.3321.06 | Amort. - Réam. et sécu. Ch. Gregnolet (P10/22) [25] | 290'738.75 |  | 290'800 |  |  |   |
+|  SUTP | 460.3321.07 | Amort. - Mise en conformité gare CFF (P20/19) [25] | 264'481.59 |  | 330'000 |  |  |   |
+|  SUTP | 460.3321.08 | Amort. - RC780 EdV-Maladaire (P08/20) [26] |  |  | 523'000 |  |  |   |
+|  SUTP | 460.3321.09 | Amort. - Ass. Bulesses-Crotton (P10/20) [25] | 1'046'081.00 |  | 1'188'000 |  |  |   |
+|  SUTP | 460.3526.04 | Part. due au SIGE | 60'720.95 |  | 60'000 |  | 48'509.30 |   |
+|  SUTP | 460.3811.00 | Transfert au compte de réserve | 604'482.92 |  | 604'350 |  | 623'587.67 |   |
+|  SUTP | 460.3901.00 | Imputations internes - Frais de personnel |  |  |  |  | 24'077.25 |   |
+|  SUTP | 460.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SUTP | 460.4342.00 | Taxe d'évacuation des eaux |  | 915'315.35 |  | 950'000 |  | 933'526.25  |
+|  SUTP | 460.4342.01 | Taxe unique de raccordement |  | 29'036.00 |  | 10'000 |  |   |
+|  **SUTP** | **460.4361.00** | **Remboursements d'assurances** |  |  |  |  |  | **4'321.65**  |
+|  SUTP | 460.4811.04 | Prél. FEE - Route et éclairage public Av. Mous |  |  |  |  |  | 125'605.90  |
+|  SUTP | 460.4811.05 | Prél. FEE - Réfect Chailly et Petit Vallon |  |  |  |  |  | 239'605.30  |
+|  SUTP | 460.4811.06 | Prél. FEE - Réf chauss et épur Adolphe-Burnat |  |  |  |  |  | 213'376.73  |
+|  SUTP | 460.4811.07 | Prél FEE - Réam et sécu Ch Gregnolet (P10/22) [25] |  | 290'738.75 |  | 290'800 |  |   |
+|  SUTP | 460.4811.08 | Prél FEE - Mise conformité gare CFF (P20/19) [25] |  | 264'481.59 |  | 330'000 |  |   |
+|  SUTP | 460.4811.09 | Prél FEE - RC780 EdV-Maladaire (P08/20) [26] |  |  |  | 523'000 |  |   |
+|  SUTP | 460.4811.10 | Prél FEE - Ass. Bulesses-Crotton (P10/20) [25] |  | 1'046'081.00 |  | 1'188'000 |  |   |
+|  **47** |  | **Cours d'eau - rives - port** | **461'132.71** | **343'887.46** | **884'050** | **724'875** | **353'505.47** | **246'110.19**  |
+|  **470** |  | **Port** | **192'796.68** | **192'796.68** | **237'375** | **237'375** | **246'110.19** | **246'110.19**  |
+|  SUTP | 470.3011.00 | Traitements | 107'162.91 |  | 110'200 |  | 109'824.37 |   |
+|  **SUTP** | **470.3011.01** | **Traitements auxiliaires** | **11'629.95** |  | **17'500** |  | **7'989.30** |   |
+|  SUTP | 470.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 10'787.89 |  | 12'300 |  |  |   |
+|  SUTP | 470.3030.01 | Allocations familiales communales | 1'278.60 |  | 1'600 |  |  |   |
+|  **SUTP** | **470.3040.00** | **Caisse de retraite** | **15'858.49** |  | **20'600** |  |  |   |
+|  SUTP | 470.3050.00 | Assurance maladie participation | 1'418.85 |  | 1'500 |  |  |   |
+|  SUTP | 470.3050.01 | Assurance maladie perte de gain | 1'957.03 |  | 2'600 |  |  |   |
+|  SUTP | 470.3051.00 | Assurances accidents | 2'481.86 |  | 3'600 |  |  |   |
+|  SUTP | 470.3069.00 | Debours divers |  |  | 250 |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 470.3111.00 | Achats de mobilier et matériel de bureau | 177.60 |  | 500 |  |  |   |
+|  SUTP | 470.3114.00 | Achats de mach., mat. expl. et d'entretien | 1'552.05 |  | 3'000 |  | 1'110.10 |   |
+|  SDOM | 470.3123.00 | Electricité (SDOM) | 342.05 |  | 500 |  | 258.50 |   |
+|  SUTP | 470.3123.01 | Electricité (SUTP) | 5'207.35 |  | 5'700 |  | 6'502.40 |   |
+|  SUTP | 470.3135.00 | Achats matériel et fournitures | 7'452.36 |  | 8'500 |  | 18'027.12 |   |
+|  SDOM | 470.3141.00 | Entretien des bâtiments - Local garde-port | 1'760.59 |  | 3'000 |  | 1'136.40 |   |
+|  **SUTP** | **470.3147.00** | **Entretien des ouvrages riverains** | **18'503.35** |  | **36'000** |  | **58'094.45** |   |
+|  SUTP | 470.3154.00 | Entretien machines et mat. d'exploitation | 1'749.25 |  | 6'000 |  | 692.35 |   |
+|  SDOM | 470.3156.03 | Entretien défense incendie |  |  | 200 |  | 175.40 |   |
+|  SUTP | 470.3161.00 | Redevance ancrage bateaux | 312.95 |  | 450 |  | 312.95 |   |
+|  SUTP | 470.3182.00 | Téléphones | 1'430.20 |  | 1'500 |  | 1'454.60 |   |
+|  SFIN | 470.3186.00 | Assurances des bateaux |  |  | 375 |  | 445.30 |   |
+|  SUTP | 470.3191.01 | TVA (redip taux effectif) | 233.35 |  |  |  |  |   |
+|  SUTP | 470.3199.00 | Frais divers |  |  |  |  | 5'618.00 |   |
+|  SUTP | 470.3301.00 | Pertes sur débiteurs |  |  |  |  | 156.15 |   |
+|  SUTP | 470.3901.00 | Imputations internes - Frais de personnel |  |  |  |  | 32'812.80 |   |
+|  SUTP | 470.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SUTP | 470.4272.05 | Finances d'ancrage |  | 177'792.55 |  | 185'000 |  | 183'273.29  |
+|  SUTP | 470.4359.00 | Recettes diverses |  | 50.00 |  |  |  |   |
+|  **SUTP** | **470.4361.00** | **Remboursements d'assurances** |  |  |  |  |  | **821.30**  |
+|  SUTP | 470.4803.03 | Prél. fond 'entretien du port' |  | 14'954.13 |  | 52'375 |  | 62'015.60  |
+|  **471** |  | **Lac et cours d'eau** | **268'336.03** | **151'090.78** | **646'675** | **487'500** | **107'395.28** |   |
+|  SUTP | 471.3011.00 | Traitements | 32'689.90 |  | 33'000 |  | 32'182.92 |   |
+|  SUTP | 471.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 3'013.84 |  | 3'200 |  |  |   |
+|  SUTP | 471.3030.01 | Allocations familiales communales | 334.90 |  | 200 |  |  |   |
+|  **SUTP** | **471.3040.00** | **Caisse de retraite** | **4'928.46** |  | **6'200** |  |  |   |
+|  SUTP | 471.3050.00 | Assurance maladie participation | 333.63 |  | 400 |  |  |   |
+|  SUTP | 471.3050.01 | Assurance maladie perte de gain | 564.80 |  | 700 |  |  |   |
+|  SUTP | 471.3051.00 | Assurances accidents | 755.69 |  | 1'200 |  |  |   |
+|  SUTP | 471.3114.00 | Achats de mach., mat. expl. et d'entretien | 702.85 |  | 2'500 |  | 936.90 |   |
+|  SUTP | 471.3121.00 | Eau | 326.65 |  | 700 |  | 245.70 |   |
+|  SUTP | 471.3123.00 | Electricité | 4'748.95 |  | 4'500 |  | 4'989.35 |   |
+|  SDOM | 471.3141.00 | Entretien des bâtiments - Doyen | 4'904.35 |  | 7'000 |  | 10'695.00 |   |
+|  **SUTP** | **471.3147.00** | **Entretien des ouvrages riverains** | **23'592.15** |  | **40'600** |  | **12'331.46** |   |
+|  SUTP | 471.3147.01 | Entretien des cours d'eau | 8'457.58 |  | 20'000 |  | 8'880.00 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SUTP | 471.3154.00 | Entretien machines et mat. d'exploitation  |
+| --- | --- | --- |
+|  SDOM | 471.3156.03 | Entretien défense incendie  |
+|  SUTP | 471.3185.00 | Honoraires, études, expertises  |
+|  SFIN | 471.3186.00 | Assurances des bateaux  |
+|  SUTP | 471.3191.00 | Epuration, évacuation des eaux  |
+|  SUTP | 471.3321.03 | Amort. - Réam. ruisseau Sully (P12/22) [25]  |
+|  SUTP | 471.3526.00 | Part. due au SIGE  |
+|  SUTP | 471.3901.00 | Imputations internes - Frais de personnel  |
+|  SUTP | 471.4809.03 | Prél. FDIF - Réam. ruisseau Sully (P12/22) [25]  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|   |  | 500 |  |  |   |
+|   |  | 100 |  | 167.10 |   |
+|  5'000.00 |  | 5'000 |  | 748.60 |   |
+|  447.05 |  | 375 |  | 278.30 |   |
+|  2'175.50 |  | 3'000 |  | 2'171.95 |   |
+|  151'090.78 |  | 487'500 |  |  |   |
+|  24'268.95 |  | 30'000 |  | 24'152.55 |   |
+|   |  |  |  | 9'615.45 |   |
+|   | 151'090.78 |  | 487'500 |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **5** | **Instruction publique et cultes** | **4'499'073.22** | **681'946.78** | **5'068'892** | **531'090** | **4'148'358.05** | **1'045'762.43**  |
+|  **50** | **Administration des écoles** | **3'355'425.12** | **513'476.23** | **3'781'120** | **389'440** | **3'079'168.64** | **874'386.83**  |
+|  **500** | **Administration des écoles** | **110'684.30** | **264'969.30** | **112'200** | **133'300** | **99'375.19** | **171'620.00**  |
+|  ECO 500.3003.00 | Conseil d'établissement | 1'290.00 |  | 3'000 |  | 1'459.38 |   |
+|  ECO 500.3011.00 | Traitements | 3'549.95 |  |  |  |  |   |
+|  ECO 500.3051.00 | Assurances accidents | 22.35 |  |  |  |  |   |
+|  ECO 500.3069.00 | Debours divers | 900.00 |  | 1'400 |  | 900.00 |   |
+|  ECO 500.3080.00 | Personnel intérim. facturé par des tiers |  |  |  |  | 300.00 |   |
+|  ECO 500.3101.00 | Economat | 292.75 |  | 2'000 |  | 2'064.55 |   |
+|  ECO 500.3102.00 | Bibliothèque - Abonnements et imprimés | 4'463.50 |  | 5'000 |  | 2'060.19 |   |
+|  ECO 500.3111.00 | Achats de mobilier et matériel | 2'607.55 |  | 5'000 |  | 3'827.45 |   |
+|  ECO 500.3151.01 | Entretien - Bibliothèque | 3'188.80 |  | 3'000 |  | 3'011.65 |   |
+|  ECO 500.3170.00 | Réceptions | 7'300.20 |  | 8'000 |  | 7'840.02 |   |
+|  ECO 500.3170.01 | Projets d'établissements - Prévention et durabilité | 9'059.10 |  | 11'000 |  | 4'555.15 |   |
+|  ECO 500.3170.02 | Frais réceptions conseil d'établissement | 988.35 |  | 1'500 |  | 1'302.80 |   |
+|  ECO 500.3182.00 | Téléphones | 1'459.95 |  | 500 |  | 231.70 |   |
+|  ECO 500.3199.00 | Frais divers | 90.00 |  | 1'000 |  | 200.00 |   |
+|  ECO 500.3512.00 | Part. tâches communales par le canton | 40'300.00 |  | 40'700 |  | 39'979.00 |   |
+|  ECO 500.3522.00 | Finances d'écolage (autres Communes) | 33'671.80 |  | 28'600 |  | 30'143.30 |   |
+|  ECO 500.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  ECO 500.4359.01 | Prél. fonds 9259.008.00 - Cantourelle |  | 3'572.30 |  |  |  |   |
+|  ECO 500.4512.01 | Finances d'écolage (Canton) |  | 83'030.00 |  | 1'500 |  |   |
+|  ECO 500.4522.00 | Finances d'écolage (autres Communes) |  | 178'367.00 |  | 131'800 |  | 171'620.00  |
+|  **501** | **Bâtiments scolaires** | **2'581'792.15** | **192'471.93** | **2'984'220** | **217'040** | **2'472'894.83** | **650'787.83**  |
+|  SDOM 501.3011.00 | Traitements | 1'167'003.35 |  | 1'234'700 |  | 1'092'105.50 |   |
+|  SDOM 501.3011.90 | Traitements apprentis | 50'594.25 |  | 41'600 |  | 35'487.85 |   |
+|  SDOM 501.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 110'291.76 |  | 119'100 |  |  |   |
+|  SDOM 501.3030.01 | Allocations familiales communales | 7'089.34 |  | 5'700 |  |  |   |
+|  SDOM 501.3040.00 | Caisse de retraite | 163'255.47 |  | 224'800 |  |  |   |
+|  SDOM 501.3050.00 | Assurance maladie participation | 13'272.37 |  | 14'800 |  |  |   |
+|  SDOM 501.3050.01 | Assurance maladie perte de gain | 21'638.41 |  | 22'900 |  |  |   |
+|  SDOM 501.3051.00 | Assurances accidents | 9'942.11 |  | 14'900 |  |  |   |
+|  SDOM 501.3069.00 | Debours divers | 2'613.81 |  | 3'300 |  | 3'137.19 |   |
+|  SDOM 501.3080.00 | Personnel externe facturé par des tiers | 8'487.42 |  | 8'000 |  | 3'300.00 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM | 501.3101.00 | Economat | 1'088.60 |  | 1'000 |  | 501.90 |   |
+|  SDOM | 501.3113.00 | Achats mobilier et mat. d'exploitation | 2'009.60 |  | 1'400 |  | 4'382.65 |   |
+|  **SDOM** | **501.3114.00** | **Achats de mach., mat. expl. et d'entretien** | **18'517.35** |  | **25'600** |  | **32'832.52** |   |
+|  SDOM | 501.3114.01 | Achats de matériel - Sécurité au travail | 1'639.04 |  | 3'500 |  | 2'958.53 |   |
+|  SDOM | 501.3115.00 | Achats de véhicules |  |  |  |  | 4'490.00 |   |
+|  SDOM | 501.3121.00 | Eau | 7'626.10 |  | 8'000 |  | 6'697.60 |   |
+|  **SDOM** | **501.3122.00** | **Achats et consommation de gaz** | **230'317.05** |  | **200'000** |  | **140'578.75** |   |
+|  **SDOM** | **501.3123.00** | **Electricité** | **156'460.50** |  | **35'000** |  | **204'015.24** |   |
+|  **SDOM** | **501.3123.02** | **Electricité - Collège Mousquetaires** |  |  | **90'000** |  |  |   |
+|  **SDOM** | **501.3123.06** | **Electricité - Collège Courbet** |  |  | **50'000** |  |  |   |
+|  SDOM | 501.3123.07 | Electricité - Collège Bel-Air | 6'390.96 |  | 9'000 |  |  |   |
+|  **SDOM** | **501.3124.03** | **Chauffage - Collège des Marronniers** |  |  |  |  | **24'834.61** |   |
+|  **SDOM** | **501.3124.06** | **Chauffage - Collège Courbet** |  |  |  |  | **12'417.31** |   |
+|  **SDOM** | **501.3124.08** | **Chauffage - Collège des Mousquetaires** |  |  | **7'000** |  | **56'567.73** |   |
+|  SDOM | 501.3124.11 | Chauffage - Pavillon de Vassin | 4'466.60 |  | 5'500 |  | 4'921.60 |   |
+|  **SDOM** | **501.3129.00** | **Réseau eau du lac - Collège Bel-Air** | **42'933.15** |  | **50'000** |  | **50'852.10** |   |
+|  SDOM | 501.3129.01 | Réseau eau du lac - Pavillon Bel-Air | 22'653.90 |  | 20'000 |  | 20'496.50 |   |
+|  SDOM | 501.3133.00 | Achats de produits de nettoyage | 59'290.20 |  | 64'000 |  | 52'993.83 |   |
+|  SDOM | 501.3136.00 | Energies pour véhicules | 1'140.92 |  | 1'500 |  | 774.81 |   |
+|  **SDOM** | **501.3141.00** | **Entretien des bâtiments** | **105'348.66** |  | **150'000** |  | **162'852.17** |   |
+|  **SDOM** | **501.3141.01** | **Rénovation des bâtiments** | **19'850.60** |  | **94'500** |  | **78'038.90** |   |
+|  SDOM | 501.3141.02 | Collège des Mousquetaires | 9'986.90 |  | 12'100 |  | 8'181.65 |   |
+|  SDOM | 501.3141.03 | Collège des Marronniers | 6'231.45 |  | 10'450 |  | 5'206.20 |   |
+|  SDOM | 501.3141.04 | Salle de gymnastique des Marronniers | 270.25 |  | 500 |  | 335.10 |   |
+|  **SDOM** | **501.3141.06** | **Collège Courbet** | **14'552.25** |  | **35'000** |  | **12'722.55** |   |
+|  SDOM | 501.3141.07 | Collège Bel-Air | 3'322.55 |  | 3'500 |  | 5'196.85 |   |
+|  SDOM | 501.3141.08 | Pavillons de Bel-Air | 840.40 |  | 900 |  | 833.90 |   |
+|  SDOM | 501.3141.09 | Pavillons de Vassin | 880.45 |  | 850 |  | 984.55 |   |
+|  SDOM | 501.3141.10 | Collège Cadet-Rousselle | 717.05 |  | 900 |  | 717.05 |   |
+|  SDOM | 501.3141.11 | Pavillon de Béranges | 265.95 |  | 400 |  | 363.10 |   |
+|  SDOM | 501.3153.00 | Entretien mobilier et matériel | 16.20 |  | 200 |  | 96.75 |   |
+|  SDOM | 501.3154.00 | Entretien machines et mat. d'expl. concierge | 4'159.35 |  | 6'500 |  | 5'955.75 |   |
+|  SDOM | 501.3154.01 | Entretien machines et mat. d'expl. enseignants |  |  | 3'000 |  |  |   |
+|  SDOM | 501.3155.00 | Entretien des véhicules | 6'019.55 |  | 7'100 |  | 2'515.45 |   |
+|  SDOM | 501.3156.00 | Entretien des citernes à mazout |  |  | 1'000 |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SDOM 501.3156.03 | Entretien défense incendie | 31'672.80 |  | 50'000 |  | 50'249.11 |   |
+|  SDOM 501.3156.05 | Entretien inst. photov. | 16'391.72 |  | 21'700 |  | 6'644.33 |   |
+|  SDOM 501.3182.00 | Téléphones | 2'284.40 |  | 3'500 |  | 2'755.55 |   |
+|  SFIN 501.3186.00 | Assurances des véhicules | 1'600.25 |  | 1'400 |  | 1'595.25 |   |
+|  SDOM 501.3188.00 | Collecte incinérables | 8'124.60 |  | 8'500 |  | 7'847.60 |   |
+|  SDOM 501.3191.00 | Epuration, évacuation des eaux | 23'851.50 |  | 30'000 |  | 31'375.20 |   |
+|  SDOM 501.3312.11 | Amort. - Inst. techniques Mousquetaires (P06/17) [20-29] | 98'520.00 |  | 98'520 |  | 98'520.00 |   |
+|  SDOM 501.3321.00 | Amort. - Inst. photov. Mousquet. (P10/12) [14-33] | 15'000.00 |  | 15'000 |  | 15'000.00 |   |
+|  SDOM 501.3321.01 | Amort. - Inst. photov. Coll. Bel-Air (P29/16) [19-28] | 14'400.00 |  | 14'400 |  | 14'400.00 |   |
+|  SDOM 501.3321.04 | Amort. - Ext. photov. Collège Courbet (P13/21) [10 ans] |  |  | 19'000 |  |  |   |
+|  SDOM 501.3321.05 | Amort. - Rempl. chaudières Collège Mousquetaires |  |  |  |  | 33'443.60 |   |
+|  SDOM 501.3321.06 | Amort. - Serrures Coll. Mousqu. (P03/24) [25-29] | 22'518.00 |  |  |  |  |   |
+|  SDOM 501.3818.00 | Attrib. FERDD - Prod. photov. (501.4351.xx) | 57'245.01 |  | 125'000 |  | 163'718.00 |   |
+|  SDOM 501.3902.01 | Imputations internes - Maintenance informatique | 9'000.00 |  | 9'000 |  | 9'000.00 |   |
+|  SDOM 501.4271.05 | Loyers UAPE Collège de Vassin |  |  |  |  |  | 70'000.20  |
+|  SDOM 501.4271.06 | Loyers UAPE Terreaux |  |  |  |  |  | 161'004.00  |
+|  SDOM 501.4271.07 | Locations de salles diverses |  | 27'810.00 |  | 17'000 |  | 24'978.75  |
+|  SDOM 501.4351.00 | Production énergie photovoltaïque |  | -48'967.50 |  |  |  | 163'718.00  |
+|  SDOM 501.4351.02 | Prod. photov. - Collège Mousquetaires |  | 30'474.81 |  | 30'000 |  |   |
+|  SDOM 501.4351.06 | Prod. photov. - Collège Courbet |  | 66'134.49 |  | 80'000 |  |   |
+|  SDOM 501.4351.07 | Prod. photov. - Collège Bel-Air |  | 9'603.21 |  | 15'000 |  |   |
+|  SDOM 501.4356.00 | Frais facturés à des tiers |  | 350.00 |  | 100 |  | 277.50  |
+|  SDOM 501.4359.00 | Ventes et prestations diverses |  | 1'581.45 |  | 100 |  | 2'150.80  |
+|  SDOM 501.4361.00 | Remboursements d'assurances |  | 37'175.75 |  |  |  | 86'645.75  |
+|  SDOM 501.4362.10 | Frais accessoires Pavillon Vassin |  |  |  | 4'740 |  | 4'740.00  |
+|  SDOM 501.4512.00 | Part. Canton pavillons provisoires Courbet |  |  |  |  |  | 67'784.90  |
+|  SDOM 501.4809.02 | Prél. FDIF - Rempl. chaudières Collège |  |  |  |  |  | 33'443.60  |
+|  SDOM 501.4809.03 | Prél. FDIF - Serrures Coll. Mousqu. (P03/24) [25-29] |  | 22'518.00 |  |  |  |   |
+|  SDOM 501.4818.00 | Prél. FERDD - Entr. inst. photov. (501.3156.05) |  | 16'391.72 |  | 21'700 |  | 6'644.33  |
+|  SDOM 501.4819.00 | Prél. FERDD - Inst. photov. Mousquet. (P10/12) [14-33] |  | 15'000.00 |  | 15'000 |  | 15'000.00  |
+|  SDOM 501.4819.01 | Prél. FERDD - Inst. photov. Coll. Bel-Air (P29/16) [19-28] |  | 14'400.00 |  | 14'400 |  | 14'400.00  |
+|  SDOM 501.4819.02 | Prél. FERDD - Ext. photov. Collège Courbet (P13/21) [10 ans] |  |  |  | 19'000 |  |   |
+|  502 | Complexe sportif des Mousquetaires | 662'948.67 | 56'035.00 | 684'700 | 39'100 | 506'898.62 | 51'979.00  |
+|  SDOM 502.3011.00 | Traitements | 277'340.48 |  | 291'100 |  | 268'332.80 |   |
+|  SDOM 502.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 25'320.18 |  | 27'500 |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **SDOM 502.3030.01** | **Allocations familiales communales** | **720.00** |  |  |  |  |   |
+|  **SDOM 502.3040.00** | **Caisse de retraite** | **38'336.55** |  | **48'900** |  |  |   |
+|  SDOM 502.3050.01 | Assurance maladie perte de gain | 4'870.12 |  | 6'000 |  |  |   |
+|  SDOM 502.3051.00 | Assurances accidents | 2'220.78 |  | 3'400 |  |  |   |
+|  SDOM 502.3069.00 | Débours divers |  |  | 1'500 |  |  |   |
+|  SDOM 502.3101.00 | Economat | 75.93 |  | 300 |  | 198.75 |   |
+|  SDOM 502.3114.00 | Achats de mach., mat. expl. et d'entretien | 10'106.55 |  | 20'000 |  | 10'261.75 |   |
+|  SDOM 502.3114.01 | Achats de matériel - Sécurité au travail | 562.20 |  | 900 |  | 1'693.15 |   |
+|  SDOM 502.3121.00 | Eau | 5'020.15 |  | 6'000 |  | 4'374.20 |   |
+|  SDOM 502.3122.00 | Achats et consommation de gaz | 99'333.15 |  | 60'000 |  | 42'208.60 |   |
+|  SDOM 502.3123.00 | Electricité | 19'947.31 |  | 29'000 |  | 26'493.25 |   |
+|  SDOM 502.3124.00 | Achats et consommation de mazout |  |  | 500 |  | 31'733.12 |   |
+|  SDOM 502.3133.00 | Achats produits de nettoyage | 8'788.04 |  | 9'000 |  | 7'432.05 |   |
+|  SDOM 502.3133.01 | Achats produits chimiques | 25'578.35 |  | 26'000 |  | 24'809.35 |   |
+|  SDOM 502.3141.00 | Entretien des bâtiments | 131'923.27 |  | 135'400 |  | 80'132.61 |   |
+|  SDOM 502.3154.00 | Entretien machines et mat. d'exploitation | 1'822.40 |  | 7'200 |  | 807.20 |   |
+|  SDOM 502.3156.03 | Entretien défense incendie | 722.61 |  | 1'500 |  | 1'022.69 |   |
+|  SDOM 502.3182.00 | Téléphones | 445.10 |  | 500 |  | 324.20 |   |
+|  SDOM 502.3191.00 | Epuration, évacuation des eaux | 8'315.50 |  | 7'000 |  | 5'574.90 |   |
+|  SDOM 502.3902.01 | Imputations internes - Maintenance informatique | 1'500.00 |  | 3'000 |  | 1'500.00 |   |
+|  SDOM 502.4359.00 | Recettes diverses |  |  |  | 100 |  |   |
+|  SDOM 502.4392.01 | Finances d'entrée bassin natation |  | 25'065.50 |  | 19'000 |  | 22'364.00  |
+|  SDOM 502.4392.02 | Locations à diverses sociétés |  | 30'969.50 |  | 20'000 |  | 29'615.00  |
+|  **52** | **Enseignement secondaire** | **214'401.66** | **29'634.40** | **263'300** | **26'300** | **187'653.07** | **26'570.00**  |
+|  **522** | **Enseignement** | **77'888.61** | **11'670.00** | **105'200** | **8'300** | **75'910.79** | **8'870.00**  |
+|  ECO 522.3011.00 | Traitements - Economat | 1'349.60 |  | 1'800 |  | 1'085.50 |   |
+|  ECO 522.3012.00 | Traitements - Arrêts | 3'618.52 |  | 5'000 |  | 2'902.25 |   |
+|  ECO 522.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 453.16 |  | 700 |  |  |   |
+|  **ECO 522.3040.00** | **Caisse de retraite** | **213.50** |  |  |  |  |   |
+|  ECO 522.3050.01 | Assurance maladie perte de gain | 70.97 |  | 300 |  |  |   |
+|  ECO 522.3051.00 | Assurances accidents | 39.71 |  | 300 |  |  |   |
+|  ECO 522.3112.00 | Achats mobilier et mat. d'enseignement | 31'811.94 |  | 45'000 |  | 23'011.79 |   |
+|  ECO 522.3112.01 | Achats matériel sportif | 13'049.80 |  | 14'000 |  | 13'806.70 |   |
+|  ECO 522.3131.00 | Achats de produits alimentaires - Divers | 517.50 |  | 1'100 |  | 739.55 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  ECO | 522.3156.01 | Entretien mobilier et matériel | 1'143.00 |  | 5'000 |  | 5'308.80 |   |
+|  ECO | 522.3156.02 | Entretien matériel sportif | 2'414.00 |  | 5'000 |  | 4'561.50 |   |
+|  ECO | 522.3185.00 | Honoraires cours préparation aux examens | 6'197.50 |  | 7'000 |  | 5'037.50 |   |
+|  ECO | 522.3188.00 | Frais transports intercommunaux et repas | 1'128.80 |  | 2'000 |  | 1'820.80 |   |
+|  ECO | 522.3189.00 | Mentorat | 14'503.56 |  | 16'000 |  | 16'205.00 |   |
+|  ECO | 522.3199.00 | Frais divers | 1'377.05 |  | 2'000 |  | 1'431.40 |   |
+|  ECO | 522.4359.00 | Recettes diverses |  | 3'390.00 |  | 500 |  |   |
+|  ECO | 522.4652.01 | Mentorat, part. des parents |  | 7'780.00 |  | 7'300 |  | 8'370.00  |
+|  ECO | 522.4690.00 | Part. intérêt fonds Robin 'C' (9233.017.00) |  | 500.00 |  | 500 |  | 500.00  |
+|   | **523** | **Etudes surveillées** | **136'513.05** | **17'964.40** | **158'100** | **18'000** | **111'742.28** | **17'700.00**  |
+|  ECO | **523.3011.00** | **Traitements** | **111'612.84** |  | **127'900** |  | **111'100.03** |   |
+|  ECO | 523.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 10'189.80 |  | 12'300 |  |  |   |
+|  ECO | **523.3030.01** | **Allocations familiales communales** | **842.53** |  | **200** |  |  |   |
+|  ECO | 523.3040.00 | Caisse de retraite | 10'254.83 |  | 12'000 |  |  |   |
+|  ECO | 523.3050.01 | Assurance maladie perte de gain | 2'419.16 |  | 3'200 |  |  |   |
+|  ECO | 523.3051.00 | Assurances accidents | 877.34 |  | 1'500 |  |  |   |
+|  ECO | 523.3139.00 | Achats divers | 316.55 |  | 1'000 |  | 642.25 |   |
+|  ECO | 523.4332.00 | Particip. parents études surveillées |  | 16'710.00 |  | 18'000 |  | 17'700.00  |
+|  ECO | **523.4361.00** | **Remboursements d'assurances** |  | **1'254.40** |  |  |  |   |
+|   | **53** | **Enseignement spécialisé** | **5'591.70** |  | **12'000** |  | **6'634.05** |   |
+|   | **531** | **Enseignement spécialisé** | **5'591.70** |  | **12'000** |  | **6'634.05** |   |
+|  ECO | 531.3522.00 | Part. dir. rég. pédagogie spécialisée | 5'591.70 |  | 12'000 |  | 6'634.05 |   |
+|   | **55** | **Formation professionnelle** | **15'003.90** |  | **11'000** |  | **14'114.85** |   |
+|   | **550** | **Formation professionnelle** | **15'003.90** |  | **11'000** |  | **14'114.85** |   |
+|  ECO | 550.3522.00 | Part. office orientation professionnelle | 15'003.90 |  | 11'000 |  | 14'114.85 |   |
+|   | **56** | **Service médical et dentaire** | **33'367.78** | **200.00** | **47'100** | **200** | **34'621.60** | **200.00**  |
+|   | **560** | **Service de santé** | **10'885.70** |  | **15'500** |  | **13'908.85** |   |
+|  ECO | 560.3132.00 | Infirmière scolaire | 1'570.25 |  | 2'400 |  | 1'413.75 |   |
+|  ECO | 560.3185.00 | Honoraires médecin scolaire | 7'763.35 |  | 10'000 |  | 10'980.10 |   |
+|  ECO | 560.3185.01 | Actions de prévention | 615.00 |  | 1'000 |  | 1'085.00 |   |
+|  ECO | 560.3188.00 | Frais d'ambulance, taxis |  |  | 100 |  |  |   |
+|  ECO | 560.3199.00 | Frais divers | 937.10 |  | 2'000 |  | 430.00 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **561** | **Service dentaire** | **22'482.08** | **200.00** | **31'600** | **200** | **20'712.75** | **200.00**  |
+|  ECO 561.3011.00 | Traitements | 19'641.60 |  | 23'000 |  | 19'641.60 |   |
+|  ECO 561.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 1'548.61 |  | 2'200 |  |  |   |
+|  ECO 561.3050.01 | Assurance maladie perte de gain |  |  | 500 |  |  |   |
+|  ECO 561.3051.00 | Assurances accidents | 41.57 |  | 300 |  |  |   |
+|  ECO 561.3069.00 | Divers | 1'122.05 |  | 2'600 |  | 428.55 |   |
+|  ECO 561.3185.01 | Subventions - Communale | 128.25 |  | 3'000 |  | 642.60 |   |
+|  ECO 561.4690.03 | Intérêts fonds Roussy (9233.018.00) |  | 200.00 |  | 200 |  | 200.00  |
+|  **57** | **Camps scolaires et activités culturelles** | **551'546.61** | **135'906.15** | **597'772** | **115'050** | **518'076.05** | **140'680.60**  |
+|  **570** | **Classes à la montagne, ski, camps** | **374'172.06** | **133'206.15** | **387'500** | **111'350** | **334'335.15** | **137'980.60**  |
+|  ECO 570.3012.00 | Traitements | 14'082.35 |  | 20'000 |  | 15'900.65 |   |
+|  ECO 570.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 972.75 |  | 1'900 |  |  |   |
+|  ECO 570.3050.01 | Assurance maladie perte de gain |  |  | 400 |  |  |   |
+|  ECO 570.3051.00 | Assurances accidents | 136.63 |  | 200 |  |  |   |
+|  ECO 570.3103.00 | Achats de matériel |  |  | 2'000 |  |  |   |
+|  ECO 570.3199.00 | Frais divers | 11'986.20 |  | 12'000 |  | 11'001.50 |   |
+|  ECO 570.3662.01 | Ski 5-6ème années | 63'884.80 |  | 65'000 |  | 35'761.60 |   |
+|  ECO 570.3662.02 | Camps 1-6ème années et séjours à la ferme | 77'834.93 |  | 80'000 |  | 86'520.10 |   |
+|  ECO 570.3662.03 | Camps 7ème année | 45'008.75 |  | 45'000 |  | 39'828.30 |   |
+|  **ECO 570.3662.04** | **Camps 8ème année** | **40'282.45** |  | **35'000** |  | **32'468.65** |   |
+|  **ECO 570.3662.05** | **Camps 9ème année** | **77'283.20** |  | **70'000** |  | **62'054.35** |   |
+|  ECO 570.3662.07 | Camps 11ème année | 42'700.00 |  | 55'000 |  | 50'800.00 |   |
+|  ECO 570.3663.00 | Avance subsides Jeunesse et Sports |  |  | 1'000 |  |  |   |
+|  ECO 570.4331.01 | Part. parents - Ski 5-6ème années |  | 3'605.00 |  | 6'250 |  |   |
+|  **ECO 570.4331.02** | **Part. parents - Camps 1-6ème années et séjours à la ferme** |  | **11'554.80** |  | **25'000** |  | **24'075.20**  |
+|  ECO 570.4331.03 | Part. parents - Camps 7ème année |  | 13'596.05 |  | 10'000 |  | 12'084.90  |
+|  ECO 570.4331.04 | Part. parents - Camps 8ème année |  | 15'718.50 |  | 9'600 |  | 13'334.60  |
+|  ECO 570.4331.05 | Part. parents - Camps 9ème année |  | 25'441.05 |  | 9'500 |  | 19'533.90  |
+|  ECO 570.4331.07 | Part. parents - Camps 11ème année |  | 14'668.35 |  | 10'800 |  | 13'728.00  |
+|  ECO 570.4512.06 | Subside |  | 48'122.40 |  | 20'000 |  | 55'024.00  |
+|  ECO 570.4653.00 | Part. du fonds 'colonies de vacances' (9233.028.00) |  |  |  | 20'000 |  |   |
+|  ECO 570.4690.04 | Intérêts fonds Robin 'A' (9233.015.00) |  | 500.00 |  | 200 |  | 200.00  |
+|  **572** | **Activités culturelles et sportives** | **177'374.55** | **2'700.00** | **210'272** | **3'700** | **183'740.90** | **2'700.00**  |
+|  ECO 572.3012.00 | Traitements |  |  | 3'000 |  |  |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  ECO | 572.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 208.87 |  | 300 |  |  |   |
+|  ECO | 572.3050.01 | Assurance maladie perte de gain |  |  | 100 |  |  |   |
+|  ECO | 572.3051.00 | Assurances accidents | 19.08 |  | 100 |  |  |   |
+|  ECO | 572.3103.00 | Achats de matériel et fournitures | 100.40 |  | 1'500 |  | 59.40 |   |
+|  ECO | 572.3199.00 | Frais divers, spectacles, animations, etc | 39'653.00 |  | 48'000 |  | 46'530.25 |   |
+|  ECO | 572.3199.01 | Prix concours branches scolaires | 3'500.00 |  | 4'500 |  | 2'500.00 |   |
+|  ECO | 572.3199.02 | Sorties d'études | 24'983.90 |  | 37'000 |  | 29'140.45 |   |
+|  ECO | 572.3652.00 | Courses scolaires | 40'437.30 |  | 47'300 |  | 37'038.80 |   |
+|  ECO | 572.3662.00 | Attrib. - Echanges de classes | 5'000.00 |  | 5'000 |  | 5'000.00 |   |
+|  ECO | 572.3663.00 | Subventions - Choeurs des écoles | 23'472.00 |  | 23'472 |  | 23'472.00 |   |
+|  ECO | 572.3663.01 | Attrib. - Après-midi sportifs | 40'000.00 |  | 40'000 |  | 40'000.00 |   |
+|  ECO | 572.4690.04 | Intérêts fonds Quillet (9233.013.00) |  | 500.00 |  | 500 |  | 500.00  |
+|  ECO | 572.4690.05 | Intérêts fonds Guex (9233.006.00) |  | 600.00 |  | 600 |  | 600.00  |
+|  ECO | 572.4690.06 | Intérêts fonds Echenard (9233.004.00) |  | 400.00 |  | 400 |  | 400.00  |
+|  ECO | 572.4690.07 | Intérêts fonds Grodtmann (9233.023.00) |  | 200.00 |  | 200 |  | 200.00  |
+|  ECO | 572.4690.08 | Intérêts fonds échanges de classes (9233.003.00) |  | 1'000.00 |  | 1'000 |  | 1'000.00  |
+|  ECO | 572.4690.09 | Dons divers pour les promotions |  |  |  | 1'000 |  |   |
+|  **58** |  | **Temples et cultes** | **323'736.45** | **2'730.00** | **356'600** | **100** | **308'089.79** | **3'925.00**  |
+|  **580** |  | **Eglise évangélique réformée** | **202'594.80** | **2'730.00** | **221'600** | **100** | **211'452.69** | **3'925.00**  |
+|  **SADM** | **580.3011.00** | **Traitements** | **54'233.78** |  | **59'900** |  | **51'633.39** |   |
+|  SADM | 580.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 4'316.61 |  | 5'800 |  |  |   |
+|  SADM | 580.3030.01 | Allocations familiales communales | 72.93 |  |  |  |  |   |
+|  SADM | 580.3040.00 | Caisse de retraite | 7'041.14 |  | 7'600 |  |  |   |
+|  SADM | 580.3050.01 | Assurance maladie perte de gain | 835.69 |  | 1'200 |  |  |   |
+|  SADM | 580.3051.00 | Assurances accidents | 433.60 |  | 800 |  |  |   |
+|  SDOM | 580.3116.00 | Achats de march. et fournit. diverses |  |  | 500 |  | 213.50 |   |
+|  SDOM | 580.3121.00 | Eau | 90.65 |  | 200 |  | 80.60 |   |
+|  SDOM | 580.3124.01 | Chauffage - Salles de catéchisme | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  SDOM | 580.3124.02 | Chauffage - Temple | 11'984.50 |  | 11'000 |  | 12'470.65 |   |
+|  SDOM | 580.3131.00 | Frais du culte | 582.40 |  | 1'000 |  | 256.50 |   |
+|  SDOM | 580.3133.00 | Achats de produits de nettoyage |  |  | 500 |  |  |   |
+|  SDOM | 580.3141.00 | Entretien des bâtiments | 3'071.80 |  | 11'000 |  | 1'857.80 |   |
+|  SDOM | 580.3156.00 | Entretien sonnerie, horloge, orgue | 7'715.35 |  | 8'000 |  | 32'305.85 |   |
+|  SDOM | 580.3156.03 | Entretien défense incendie | 164.75 |  | 200 |  | 82.20 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SDOM | 580.3191.00 | Epuration, évacuation des eaux  |
+| --- | --- | --- |
+|  SDOM | 580.3312.00 | Amort. - Temple Saint-Théodule (P27/16) [21-40]  |
+|  SDOM | 580.3512.00 | Centre oecuménique de Vassin  |
+|  SDOM | 580.3522.00 | Paroisse de langue allemande  |
+|  SDOM | 580.3652.00 | Loyer des salles de catéchisme  |
+|  SDOM | 580.4356.00 | Frais facturés à des tiers  |
+|  SDOM | 580.4359.00 | Recettes diverses  |
+|  **581** |  | **Eglise catholique**  |
+|  SDOM | 581.3522.00 | Part. aux frais  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  2'151.80 |  | 1'400 |  | 1'236.60 |   |
+|  96'800.00 |  | 96'800 |  | 96'800.00 |   |
+|   |  | 1'700 |  | 1'710.30 |   |
+|  6'099.80 |  | 7'000 |  | 5'805.30 |   |
+|  4'000.00 |  | 4'000 |  | 4'000.00 |   |
+|   | 2'580.00 |  | 100 |  | 1'525.00  |
+|   | 150.00 |  |  |  | 2'400.00  |
+|  **121'141.65** |  | **135'000** |  | **96'637.10** |   |
+|  121'141.65 |  | 135'000 |  | 96'637.10 |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **6** | **Sécurité - population - feu** | **5'203'544.99** | **506'244.29** | **5'471'690** | **209'500** | **5'554'247.60** | **290'809.08**  |
+|  **60** | **Police administrative** | **4'003'552.84** | **10'882.00** | **4'402'100** |  | **4'707'684.67** | **51'209.00**  |
+|  **600** | **Administration** | **4'003'552.84** | **10'882.00** | **4'402'100** |  | **4'707'684.67** | **51'209.00**  |
+|  SFIN | 600.3511.00 Réforme policière |  |  |  |  | 879'859.00 |   |
+|  SFIN | 600.3511.03 Facture policière (NPIV) | 387'166.00 |  | 375'900 |  |  |   |
+|  SFIN | 600.3511.04 Facture policière (NPIV) provision solde | 15'000.00 |  |  |  |  |   |
+|  **SFIN** | **600.3521.00 Association Sécurité Riviera (ASR)** | **3'589'004.84** |  | **4'024'700** |  | **3'825'116.67** |   |
+|  SFIN | 600.3809.00 Attrib. fonds régul. pérég. (réforme policière) | 10'882.00 |  |  |  | 1'209.00 |   |
+|  SFIN | 600.3902.01 Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SFIN | 600.4511.00 Solde année précédente (réforme policière) |  | 10'882.00 |  |  |  | 1'209.00  |
+|  SFIN | 600.4511.01 Provision solde (réforme policière) |  |  |  |  |  | 50'000.00  |
+|  **62** | **Contrôle des habitants** | **700'294.97** | **206'062.69** | **827'700** | **207'000** | **621'651.36** | **234'487.53**  |
+|  **620** | **Office de la population** | **700'294.97** | **206'062.69** | **827'700** | **207'000** | **621'651.36** | **234'487.53**  |
+|  SFIN | 620.3011.00 Traitements | 463'229.62 |  | 512'100 |  | 475'963.55 |   |
+|  SFIN | 620.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 42'236.04 |  | 48'600 |  |  |   |
+|  SFIN | 620.3030.01 Allocations familiales communales | 2'420.00 |  | 600 |  |  |   |
+|  SFIN | 620.3040.00 Caisse de retraite | 58'752.43 |  | 88'800 |  |  |   |
+|  SFIN | 620.3050.00 Assurance maladie participation |  |  | 900 |  |  |   |
+|  SFIN | 620.3050.01 Assurance maladie perte de gain | 9'260.38 |  | 11'200 |  |  |   |
+|  SFIN | 620.3051.00 Assurances accidents | 3'770.20 |  | 6'200 |  |  |   |
+|  SFIN | 620.3069.00 Débours divers | 4'881.95 |  | 6'200 |  | 5'854.60 |   |
+|  SFIN | 620.3101.00 Economat | 2'985.85 |  | 5'500 |  | 5'029.91 |   |
+|  SFIN | 620.3101.01 Etablissement documents d'identité | 11'360.65 |  | 14'000 |  | 12'747.55 |   |
+|  **SFIN** | **620.3101.03 Etablissement permis** | **71'239.60** |  | **90'000** |  | **90'205.50** |   |
+|  SFIN | 620.3109.00 Remboursements divers | 2'662.00 |  | 3'000 |  | 1'939.30 |   |
+|  SFIN | 620.3111.00 Achats de mobilier et matériel | 2'670.35 |  | 3'000 |  | 2'332.95 |   |
+|  SFIN | 620.3151.00 Entretien mobilier et matériel |  |  | 500 |  |  |   |
+|  SFIN | 620.3170.00 Accueil nouveaux habitants | 9'207.05 |  | 10'000 |  | 7'250.00 |   |
+|  SFIN | 620.3182.00 Téléphones | 618.85 |  | 600 |  | 392.00 |   |
+|  **SFIN** | **620.3185.00 Honoraires et frais de procédure** |  |  | **10'000** |  | **6'436.00** |   |
+|  SFIN | 620.3902.01 Imputations internes - Maintenance informatique | 15'000.00 |  | 16'500 |  | 13'500.00 |   |
+|  **SFIN** | **620.4311.01 Emoluments documents d'identité** |  | **21'140.00** |  | **27'000** |  | **22'190.00**  |
+|  SFIN | 620.4311.02 Emoluments divers |  | 75'399.54 |  | 75'000 |  | 77'972.07  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFIN | 620.4312.02 | Emoluments permis |  | 105'429.00 |  | 105'000 |  | 123'202.00  |
+|  SFIN | 620.4359.00 | Recettes diverses |  |  |  |  |  | 3.26  |
+|  **SFIN** | **620.4361.00** | **Remboursements d'assurances** |  | **4'094.15** |  |  |  | **11'120.20**  |
+|   | **63** | **Police sanitaire** | **82'346.20** |  | **96'490** |  | **77'191.87** |   |
+|   | **630** | **Santé publique** | **60'496.30** |  | **61'000** |  | **47'605.15** |   |
+|  SUTP | 630.3132.00 | Achats de fournitures diverses |  |  | 500 |  |  |   |
+|  SUTP | 630.3188.01 | Redevance pour suppression essaims |  |  | 1'000 |  |  |   |
+|  **SUTP** | **630.3188.02** | **Lutte contre espèces envahissantes** | **3'656.75** |  | **7'000** |  |  |   |
+|  SUTP | 630.3524.01 | Contrôle des denrées alimentaires | 10'451.00 |  | 12'500 |  | 7'809.10 |   |
+|  SUTP | 630.3524.02 | Incinération des animaux | 46'388.55 |  | 40'000 |  | 39'796.05 |   |
+|   | **632** | **Sauvetage du lac** | **21'849.90** |  | **35'490** |  | **29'586.72** |   |
+|  SUTP | 632.3013.00 | Indemnités service de piquet | 3'000.00 |  | 3'000 |  | 3'000.00 |   |
+|  SUTP | 632.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam |  |  | 300 |  |  |   |
+|  SUTP | 632.3050.01 | Assurance maladie perte de gain |  |  | 100 |  |  |   |
+|  SUTP | 632.3051.00 | Assurances accidents |  |  | 100 |  |  |   |
+|  SUTP | 632.3091.00 | Frais d'instruction | 870.00 |  | 5'100 |  | 4'204.20 |   |
+|  SUTP | 632.3101.00 | Economat | 269.00 |  | 1'000 |  | 1'138.35 |   |
+|  SUTP | 632.3116.00 | Achats de matériel et fournitures | 128.35 |  | 2'000 |  | 780.50 |   |
+|  SUTP | 632.3116.01 | Plongeurs | 1'655.35 |  | 3'000 |  | 2'277.20 |   |
+|  SUTP | 632.3136.00 | Achats du carburant pour les bateaux | 3'104.80 |  | 3'500 |  | 3'253.15 |   |
+|  SUTP | 632.3155.00 | Entretien du matériel |  |  | 500 |  |  |   |
+|  SUTP | 632.3156.00 | Entretien des bateaux | 6'553.35 |  | 10'000 |  | 8'077.96 |   |
+|  SUTP | 632.3161.00 | Redevance ancrage bateaux | 2'633.90 |  | 3'000 |  | 2'633.90 |   |
+|  SUTP | 632.3185.00 | Examens médicaux |  |  | 840 |  |  |   |
+|  SUTP | 632.3186.00 | Assurances diverses | 3'635.15 |  | 3'050 |  | 4'221.46 |   |
+|   | **64** | **Service des inhumations** | **129'051.38** | **1'000.00** | **140'400** | **2'500** | **114'327.01** | **2'500.00**  |
+|   | **640** | **Inhumations** | **129'051.38** | **1'000.00** | **140'400** | **2'500** | **114'327.01** | **2'500.00**  |
+|  **SUTP** | **640.3011.00** | **Traitements** | **44'177.79** |  | **42'100** |  | **43'436.51** |   |
+|  SUTP | 640.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 3'805.77 |  | 4'000 |  |  |   |
+|  SUTP | 640.3030.01 | Allocations familiales communales | 14.40 |  | 100 |  |  |   |
+|  **SUTP** | **640.3040.00** | **Caisse de retraite** | **6'363.71** |  | **7'900** |  |  |   |
+|  SUTP | 640.3050.01 | Assurance maladie perte de gain | 893.50 |  | 1'000 |  |  |   |
+|  SUTP | 640.3051.00 | Assurances accidents | 375.75 |  | 600 |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SUTP | 640.3101.00 | Economat |  |  | 200 |  |  |   |
+|  SUTP | 640.3102.00 | Frais de publications | 262.15 |  | 1'000 |  | 654.00 |   |
+|  SUTP | 640.3185.00 | Vérificateurs des décès | 10'821.05 |  | 10'000 |  | 9'834.80 |   |
+|  SUTP | 640.3188.00 | Service du corbillard | 15'565.50 |  | 18'000 |  | 14'700.75 |   |
+|  SUTP | 640.3189.00 | Creusement des tombes | 14'289.75 |  | 18'000 |  | 14'599.95 |   |
+|  SUTP | 640.3189.01 | Indemnités service du cimetière | 6'537.80 |  | 7'000 |  | 6'537.80 |   |
+|  SUTP | 640.3199.00 | Frais divers |  |  | 500 |  |  |   |
+|  SUTP | 640.3524.00 | Frais d'incinération | 25'944.21 |  | 30'000 |  | 24'563.20 |   |
+|  SUTP | 640.4356.00 | Frais facturés à des tiers |  | 1'000.00 |  | 2'500 |  | 2'500.00  |
+|   | **66** | **Protection civile** | **288'299.60** | **288'299.60** | **5'000** |  | **33'392.69** | **2'612.55**  |
+|   | **660** | **Protection civile intercommunale** | **288'299.60** | **288'299.60** | **5'000** |  | **33'392.69** | **2'612.55**  |
+|  SDOM | 660.3141.00 | Entretien abris PC |  |  |  |  | 2'612.55 |   |
+|  SDOM | 660.3156.00 | Entretien points de rencontre d'urgence (PRU) |  |  | 5'000 |  | 30'780.14 |   |
+|  SDOM | 660.3521.00 | Part. frais entretien abris PC | 288'299.60 |  |  |  |  |   |
+|  SDOM | 660.4809.00 | Prél. FDAPPC - Dispenses abris privés PC |  | 288'299.60 |  |  |  | 2'612.55  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |   | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  **7** | **Famille, jeunesse, sport et culture** | **24'469'303.13** | **4'179'468.83** | **25'115'250** | **6'032'750** | **24'436'363.64** | **4'440'159.80**  |
+|  **70** | **Service administratif** | **10'386'136.26** | **3'981'718.57** | **11'864'600** | **4'023'150** | **10'129'263.76** | **4'342'504.50**  |
+|  **700** | **Administration** | **582'649.79** | **7'227.40** | **652'800** |  | **419'715.91** | **12'750.40**  |
+|  **SFJSC** | **700.3011.00 Traitements** | **434'854.71** |  | **461'600** |  | **387'416.92** |   |
+|  **SFJSC** | **700.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **39'545.01** |  | **43'500** |  |  |   |
+|  **SFJSC** | **700.3030.01 Allocations familiales communales** | **3'726.39** |  | **4'200** |  |  |   |
+|  **SFJSC** | **700.3040.00 Caisse de retraite** | **67'871.64** |  | **86'400** |  |  |   |
+|  **SFJSC** | **700.3050.01 Assurance maladie perte de gain** | **8'854.06** |  | **10'400** |  |  |   |
+|  **SFJSC** | **700.3051.00 Assurances accidents** | **3'414.04** |  | **5'400** |  |  |   |
+|  **SFJSC** | **700.3069.00 Débours divers** | **6'660.80** |  | **8'700** |  | **4'997.45** |   |
+|  **SFJSC** | **700.3080.00 Personnel intérim. facturé par des tiers** |  |  | **12'000** |  | **12'345.00** |   |
+|  **SFJSC** | **700.3101.00 Economat** | **5'730.39** |  | **5'600** |  | **3'981.74** |   |
+|  **SFJSC** | **700.3111.00 Achats de mobilier et matériel** | **1'053.01** |  | **2'000** |  | **263.15** |   |
+|  **SFJSC** | **700.3151.00 Entretien mobilier et matériel** | **5.80** |  | **500** |  |  |   |
+|  **SFJSC** | **700.3182.00 Téléphones** | **1'933.94** |  | **2'000** |  | **1'711.65** |   |
+|  **SFJSC** | **700.3902.01 Imputations internes - Maintenance informatique** | **9'000.00** |  | **10'500** |  | **9'000.00** |   |
+|  **SFJSC** | **700.4361.00 Remboursements d'assurances** |  | **7'227.40** |  |  |  | **12'750.40**  |
+|  **703** | **Réfectoires scolaires** | **640'529.02** | **640'529.02** | **716'550** | **716'550** | **573'368.05** | **573'368.05**  |
+|  **SFJSC** | **703.3011.10 Traitements - 6 réfectoires** | **287'507.95** |  | **296'900** |  | **285'697.70** |   |
+|  **SFJSC** | **703.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam** | **26'249.70** |  | **28'300** |  |  |   |
+|  **SFJSC** | **703.3030.01 Allocations familiales communales** | **6'278.09** |  | **6'100** |  |  |   |
+|  **SFJSC** | **703.3040.00 Caisse de retraite** | **27'225.49** |  | **33'900** |  |  |   |
+|  **SFJSC** | **703.3050.01 Assurance maladie perte de gain** | **5'814.02** |  | **7'200** |  |  |   |
+|  **SFJSC** | **703.3051.00 Assurances accidents** | **2'321.32** |  | **3'800** |  |  |   |
+|  **SFJSC** | **703.3111.10 Achats de mobilier** | **5'239.70** |  | **6'000** |  | **2'088.15** |   |
+|  **SFJSC** | **703.3114.10 Achats de matériel** | **3'543.95** |  | **4'800** |  | **3'482.00** |   |
+|  **SFJSC** | **703.3131.01 Achats de repas - Vassin** | **33'463.30** |  | **39'700** |  | **36'142.20** |   |
+|  **SFJSC** | **703.3131.02 Achats de repas - Bel-Air** | **36'805.05** |  | **41'000** |  | **35'961.95** |   |
+|  **SFJSC** | **703.3131.05 Achats de repas - La Cantoch' (ex-Atelier 56)** | **35'638.75** |  | **41'000** |  | **38'785.90** |   |
+|  **SFJSC** | **703.3131.07 Achats de repas - Les Mousquetaires** | **65'995.95** |  | **82'700** |  | **64'591.95** |   |
+|  **SFJSC** | **703.3131.09 Achats de repas - Les Marmitons (ex-7ème)** | **43'756.20** |  | **47'850** |  | **43'257.45** |   |
+|  **SFJSC** | **703.3131.11 Achats de repas - Le Ref** | **39'764.55** |  | **47'200** |  | **42'449.50** |   |
+|  **SFJSC** | **703.3131.20 Achats de produits alimentaires (dès 2022)** | **808.75** |  | **900** |  | **1'008.87** |   |
+|  **SFJSC** | **703.3133.10 Achats de produits d'entretien** | **671.23** |  | **3'000** |  | **18.50** |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 703.3151.10 | Entretien du matériel | 386.17 |  | 600 |  | 435.65 |   |
+|  SFJSC | 703.3182.00 | Téléphones | 594.00 |  | 800 |  | 594.00 |   |
+|  SFJSC | 703.3184.00 | Frais de contentieux |  |  | 1'000 |  | 377.00 |   |
+|  SFJSC | 703.3199.10 | Frais divers | 9'442.85 |  | 14'800 |  | 6'132.73 |   |
+|  SFJSC | 703.3301.00 | Pertes sur débiteurs | 22.00 |  |  |  | 3'344.50 |   |
+|  SFJSC | 703.3302.01 | Imputations internes - Maintenance informatique | 9'000.00 |  | 9'000 |  | 9'000.00 |   |
+|  SFJSC | 703.4359.00 | Ventes de repas - Vassin |  | 55'545.00 |  | 58'400 |  | 58'746.75  |
+|  **SFJSC** | **703.4359.01** | **Ventes de repas - Bel-Air** |  | **55'387.50** |  | **59'700** |  | **59'655.50**  |
+|  SFJSC | 703.4359.02 | Ventes de repas - La Cantoch' (ex-Atelier 56) |  | 60'951.75 |  | 59'700 |  | 62'898.00  |
+|  SFJSC | 703.4359.03 | Ventes de repas - Les Mousquetaires |  | 79'126.75 |  | 80'500 |  | 75'786.50  |
+|  SFJSC | 703.4359.04 | Ventes de repas - Les Marmitons (ex-7ème) |  | 73'544.25 |  | 70'700 |  | 72'499.00  |
+|  SFJSC | 703.4359.05 | Ventes de repas - Le Ref |  | 62'148.00 |  | 63'900 |  | 63'982.75  |
+|  SFJSC | 703.4359.10 | Recettes diverses |  | 150.00 |  |  |  |   |
+|  **SFJSC** | **703.4361.00** | **Remboursements d'assurances** |  | **3'169.40** |  |  |  | **6'592.40**  |
+|  SFJSC | 703.4362.00 | Remboursements frais de rappels |  | 1'604.00 |  |  |  | 1'843.50  |
+|  SFJSC | 703.4362.01 | Remboursements frais envois postaux |  | 90.00 |  |  |  | 36.00  |
+|  SFJSC | 703.4909.00 | Imputations internes - Déficits des réfectoires |  | 248'812.37 |  | 323'650 |  | 171'327.65  |
+|   | **705** | **Accueil familial de jour** | **3'135'831.08** | **3'135'831.08** | **3'306'600** | **3'306'600** | **3'200'068.60** | **3'200'068.60**  |
+|  SFJSC | 705.3011.00 | Traitements coordinatrices | 197'570.10 |  | 265'000 |  | 273'036.09 |   |
+|  SFJSC | 705.3011.01 | Traitements direction, RH et administration | 225'422.49 |  | 196'000 |  | 178'409.38 |   |
+|  SFJSC | 705.3011.02 | Traitements des accueillantes | 1'424'468.40 |  | 1'380'400 |  | 1'386'435.15 |   |
+|  SFJSC | 705.3011.03 | Traitements auxiliaires |  |  | 2'000 |  |  |   |
+|  SFJSC | 705.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | 167'651.55 |  | 195'700 |  |  |   |
+|  SFJSC | 705.3030.01 | Allocations familiales communales (pers. comm.) | 30'200.41 |  | 32'100 |  |  |   |
+|  SFJSC | 705.3040.00 | Caisse de retraite | 251'501.45 |  | 232'900 |  |  |   |
+|  SFJSC | 705.3050.00 | Assurance maladie participation | 200.00 |  |  |  |  |   |
+|  SFJSC | 705.3050.01 | Assurance maladie perte de gain | 42'034.66 |  | 37'900 |  |  |   |
+|  SFJSC | 705.3051.00 | Assurances accidents | 20'017.91 |  | 33'300 |  |  |   |
+|  SFJSC | 705.3069.00 | Frais d'acquisition du revenu | 272'208.00 |  | 490'200 |  | 501'461.60 |   |
+|  SFJSC | 705.3069.01 | Frais repas, collations, déplacements, etc. | 207'233.34 |  | 255'000 |  | 221'124.55 |   |
+|  SFJSC | 705.3069.02 | Débours divers | 7'063.94 |  | 6'600 |  | 4'976.40 |   |
+|  SFJSC | 705.3069.03 | Taxe aux sacs | 8'800.40 |  | 14'000 |  | 10'330.50 |   |
+|  SFJSC | 705.3069.04 | Frais pédagogiques annuels | 6'600.03 |  |  |  |  |   |
+|  SFJSC | 705.3091.00 | Frais de formation du personnel | 17'094.08 |  | 33'000 |  | 17'396.13 |   |
+|  SFJSC | 705.3099.00 | Charges diverses du personnel | 6'284.35 |  | 11'000 |  | 5'861.35 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 705.3101.00 | Economat | 4'251.55 |  | 4'500 |  | 4'249.47 |   |
+|  SFJSC | 705.3101.01 | Constitution des dossiers | 227.00 |  | 500 |  | 120.00 |   |
+|  SFJSC | 705.3102.00 | Annonces et publications |  |  | 1'000 |  |  |   |
+|  SFJSC | 705.3109.00 | Frais divers | 571.15 |  | 1'000 |  | 915.20 |   |
+|  SFJSC | 705.3111.00 | Achats de mobilier et matériel | 3'794.21 |  | 7'500 |  | 15'427.02 |   |
+|  **SFJSC** | **705.3161.00** | **Loyers des locaux** | **28'707.33** |  | **25'000** |  | **23'064.90** |   |
+|  SFJSC | 705.3182.00 | Téléphones | 2'026.85 |  | 2'000 |  | 1'607.15 |   |
+|  SFJSC | 705.3184.00 | Frais de contentieux | 583.30 |  | 1'500 |  | 531.35 |   |
+|  SFJSC | 705.3185.00 | Honoraires et frais de procédure | 29'864.55 |  | 30'000 |  | 17'292.35 |   |
+|  **SFJSC** | **705.3189.00** | **Maintenance logiciel gestion** | **22'591.90** |  | **12'000** |  | **17'870.15** |   |
+|  **SFJSC** | **705.3189.01** | **Fibre optique** | **2'275.95** |  |  |  |  |   |
+|  SFJSC | 705.3199.00 | Sinistres non remboursés |  |  | 1'500 |  |  |   |
+|  **SFJSC** | **705.3301.00** | **Pertes sur débiteurs** | **3'913.15** |  |  |  | **4'444.55** |   |
+|  **SFJSC** | **705.3515.00** | **Subv. FAJE correctif année précédente** | **119'689.00** |  |  |  | **29'387.00** |   |
+|  SFJSC | 705.3525.01 | Part. réseau LAC - Solde année précédente |  |  |  |  | 6'548.55 |   |
+|  **SFJSC** | **705.3525.02** | **Part. réseau VV - Solde année précédente** | **8'149.85** |  |  |  |  |   |
+|  **SFJSC** | **705.3665.00** | **Aides au démarrage** | **84.18** |  | **5'000** |  | **1'130.31** |   |
+|  **SFJSC** | **705.3901.00** | **Imputations internes - Frais pers. direction et coord.** |  |  |  |  | **76'450.10** |   |
+|  **SFJSC** | **705.3901.01** | **Imputations internes - Frais pers. administratif** |  |  |  |  | **49'954.65** |   |
+|  **SFJSC** | **705.3901.02** | **Imputations internes - Frais pers. accueillantes** |  |  |  |  | **321'244.70** |   |
+|  **SFJSC** | **705.3902.00** | **Imputations internes - Frais de port** | **5'250.00** |  | **9'000** |  | **8'800.00** |   |
+|  SFJSC | 705.3902.01 | Imputations internes - Maintenance informatique | 7'500.00 |  | 9'000 |  | 12'000.00 |   |
+|  SFJSC | 705.3909.00 | Imputations internes - Support logistique admin. comm. | 12'000.00 |  | 12'000 |  | 10'000.00 |   |
+|  SFJSC | 705.4313.00 | Finances d'inscription |  |  |  | 500 |  |   |
+|  SFJSC | 705.4331.00 | Participation des parents |  | 735'631.11 |  | 850'000 |  | 870'612.19  |
+|  SFJSC | 705.4331.01 | Remb repas, collations, déplacements, etc. |  | 186'374.75 |  | 230'000 |  | 199'029.70  |
+|  SFJSC | 705.4359.00 | Recettes diverses |  | 1'337.00 |  |  |  | 3'818.85  |
+|  **SFJSC** | **705.4361.00** | **Remboursements d'assurances** |  | **139'703.70** |  |  |  | **86'346.40**  |
+|  SFJSC | 705.4362.00 | Remboursements frais de rappels |  | 2'481.25 |  | 500 |  |   |
+|  **SFJSC** | **705.4362.01** | **Taxe aux sacs** |  | **8'806.24** |  | **14'000** |  | **10'324.51**  |
+|  SFJSC | 705.4362.02 | Refacturation logiciel gestion au réseau |  | 3'421.35 |  | 12'000 |  | 10'387.50  |
+|  **SFJSC** | **705.4362.03** | **Facturation frais pédagogiques annuels** |  | **6'600.00** |  |  |  |   |
+|  SFJSC | 705.4515.00 | Subventions - FAJE |  | 492'530.00 |  | 495'700 |  | 537'067.75  |
+|  SFJSC | 705.4515.03 | Facturation FAJE - Réduction 20% |  |  |  |  |  | 19'860.95  |
+|  SFJSC | 705.4525.01 | Participation réseau LAC |  |  |  |  |  | 753'043.53  |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 705.4525.02 | Participation réseau VV |  | 941'218.39 |  | 783'800 |  | 709'577.22  |
+|  SFJSC | 705.4525.03 | Participation réseau ASICC |  | 229'638.97 |  | 545'300 |  |   |
+|  SFJSC | 705.4525.04 | Participation réseau RéEL |  | 388'088.32 |  | 374'800 |  |   |
+|   | **706** | **Accueil de jour des enfants** | **6'027'126.37** | **198'131.07** | **7'188'650** |  | **5'936'111.20** | **556'317.45**  |
+|  SFJSC | 706.3525.02 | Participation réseau LAC |  |  |  |  | 5'618'821.00 |   |
+|  SFJSC | 706.3525.03 | Part. réseau REVE - Solde année précédente |  |  |  |  | 35'218.80 |   |
+|  SFJSC | 706.3525.04 | Part. réseau LAC - Solde année précédente |  |  |  |  | 47'728.75 |   |
+|  SFJSC | 706.3525.05 | Participation réseau RéEL | 5'714'254.00 |  | 6'800'000 |  |  |   |
+|  SFJSC | 706.3655.00 | Contribution à la LAJE | 64'060.00 |  | 65'000 |  | 63'015.00 |   |
+|  SFJSC | 706.3909.00 | Imputations - Déficits des réfectoires | 248'812.37 |  | 323'650 |  | 171'327.65 |   |
+|  SFJSC | 706.4525.01 | Part. réseau REVE - Solde année précédente |  |  |  |  |  | 23'618.45  |
+|  SFJSC | 706.4525.02 | Part. réseau LAC - Solde année précédente |  | 198'131.07 |  |  |  | 532'699.00  |
+|   | **71** | **Service social** | **1'406'797.07** | **84'385.45** | **1'438'050** | **58'600** | **1'257'992.28** | **45'363.70**  |
+|   | **710** | **Service social** | **1'185'986.90** | **48'787.60** | **1'167'700** | **33'300** | **1'084'090.53** | **10'461.00**  |
+|  SFJSC | 710.3131.00 | Pain des veuves | 2'341.55 |  | 1'500 |  | 1'500.80 |   |
+|  SFJSC | 710.3170.00 | Accueil des nouveaux retraités | 6'370.00 |  | 7'000 |  | 4'540.00 |   |
+|  SFJSC | 710.3170.01 | Cadeaux aux nonagénaires | 7'368.25 |  | 5'000 |  | 5'000.00 |   |
+|  SFJSC | 710.3189.00 | Prestations administratives (AIL) | 3'445.00 |  | 10'000 |  | 2'695.85 |   |
+|  SFJSC | 710.3525.00 | Part. Région d'action sociale (RAS) Riviera | 90'191.55 |  | 88'300 |  | 83'383.85 |   |
+|  SFJSC | 710.3654.09 | Transports Bénévoles de la Tour-de-Peilz | 7'500.00 |  | 7'500 |  | 7'500.00 |   |
+|  SFJSC | 710.3654.12 | Commission prévention | 12'812.00 |  | 13'000 |  | 12'605.00 |   |
+|  SFJSC | 710.3655.03 | Part. au redressement dentaire des enfants | 19'464.25 |  | 15'000 |  | 14'595.15 |   |
+|  SFJSC | 710.3655.13 | Point rencontres | 3'600.00 |  | 3'600 |  | 3'600.00 |   |
+|  SFJSC | 710.3655.14 | Pro Juventute - Messages parents | 715.00 |  | 1'500 |  | 660.00 |   |
+|  SFJSC | 710.3655.16 | Centre de loisirs pour seniors L'Escale | 593'000.00 |  | 603'000 |  | 583'000.00 |   |
+|  SFJSC | 710.3655.19 | Développement politique seniors | 8'282.00 |  | 8'500 |  |  |   |
+|  SFJSC | 710.3659.00 | Subventions - Diverses instit. sociales | 21'500.00 |  | 21'500 |  | 21'500.00 |   |
+|  SFJSC | 710.3659.04 | Actions humanitaires | 15'000.00 |  | 15'000 |  | 15'000.00 |   |
+|  SFJSC | 710.3663.00 | Aides individuelles pour études musicales | 3'273.80 |  | 5'000 |  | 4'215.10 |   |
+|  SFJSC | 710.3664.00 | Aides individuelles taxe déchets | 98'392.00 |  | 110'000 |  | 109'996.28 |   |
+|  SFJSC | 710.3664.01 | Aides apprentis et étudiants taxe déchets | 36'536.50 |  | 40'000 |  | 35'556.50 |   |
+|  SFJSC | 710.3664.02 | Aides individuelles au logement (AIL) | 85'615.00 |  | 50'000 |  | 16'562.00 |   |
+|  SFJSC | 710.3665.00 | Aides complémentaire communale AVS/AI | 168'400.00 |  | 160'000 |  | 160'000.00 |   |
+|  SFJSC | 710.3665.01 | Aides aux personnes en situation de handicap | 1'580.00 |  | 1'700 |  | 1'580.00 |   |
+
+Les commentaires des comptes en gras figurent à la fin du dernier service.
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|   |  | Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  SFJSC | 710.3809.14 Attrib. FAPSH - Aides aux pers. en sit. de handic. | 600.00 |  | 600 |  | 600.00 |   |
+|  SFJSC | **710.4359.00 Rétrocession Texaid** |  | **3'492.45** |  | **6'000** |  |   |
+|  SFJSC | 710.4359.01 Recettes diverses |  | 307.65 |  |  |  |   |
+|  SFJSC | **710.4514.02 Part. Canton aides individuelles au logement (AIL)** |  | **42'807.50** |  | **25'000** |  | **8'281.00**  |
+|  SFJSC | 710.4690.00 Don fonds Morier-Genoud (9233.009.00) |  | 600.00 |  | 600 |  | 600.00  |
+|  SFJSC | 710.4809.02 Prél. FAPSH 'Aides aux pers. en sit. de handicap' |  | 1'580.00 |  | 1'700 |  | 1'580.00  |
+|   | **711 Interventions sociales** | **220'810.17** | **35'597.85** | **270'350** | **25'300** | **173'901.75** | **34'902.70**  |
+|  SFJSC | 711.3011.00 Traitements | 95'420.00 |  | 96'300 |  | 92'861.60 |   |
+|  SFJSC | 711.3030.00 Cotisations AVS/AI/AC/APG/ALFA/PCFam | 8'711.38 |  | 9'100 |  |  |   |
+|  SFJSC | **711.3030.01 Allocations familiales communales** | **1'440.00** |  | **900** |  |  |   |
+|  SFJSC | **711.3040.00 Caisse de retraite** | **15'006.22** |  | **18'200** |  |  |   |
+|  SFJSC | 711.3050.01 Assurance maladie perte de gain | 1'648.97 |  | 1'900 |  |  |   |
+|  SFJSC | 711.3051.00 Assurances accidents | 773.93 |  | 1'200 |  |  |   |
+|  SFJSC | 711.3069.00 Débours divers | 2'398.45 |  | 2'000 |  | 1'658.60 |   |
+|  SFJSC | 711.3655.01 Utilisation don Fondation Haefeli-Meylan | 12'500.00 |  | 12'500 |  | 12'500.00 |   |
+|  SFJSC | 711.3656.00 Aides manifestations durables | 9'229.25 |  | 10'000 |  | 2'748.00 |   |
+|  SFJSC | **711.3659.01 Garde-meubles et logement de secours** | **34'766.27** |  | **45'000** |  | **26'547.80** |   |
+|  SFJSC | **711.3659.03 Aides et subventions casuelles** | **25'470.50** |  | **27'000** |  | **18'487.50** |   |
+|  SFJSC | **711.3665.00 Aides individuelles communales** | **11'945.20** |  | **44'750** |  | **17'598.25** |   |
+|  SFJSC | 711.3902.01 Imputations internes - Maintenance informatique | 1'500.00 |  | 1'500 |  | 1'500.00 |   |
+|  SFJSC | **711.4359.00 Recettes diverses** |  | **20'697.85** |  | **12'800** |  | **20'002.70**  |
+|  SFJSC | 711.4690.00 Dons |  | 2'400.00 |  |  |  | 2'400.00  |
+|  SFJSC | 711.4690.01 Don Fondation Haefeli-Meylan |  | 12'500.00 |  | 12'500 |  | 12'500.00  |
+|   | **72 Prévoyance sociale** | **12'676'369.80** | **113'364.81** | **11'812'600** | **1'951'000** | **13'049'107.60** | **52'291.60**  |
+|   | **720 Prévoyance sociale** | **12'676'369.80** | **113'364.81** | **11'812'600** | **1'951'000** | **13'049'107.60** | **52'291.60**  |
+|  SFIN | 720.3515.02 PC à domicile et hébergement |  |  |  |  | 4'011'184.60 |   |
+|  SFIN | 720.3515.07 Assurance maladie |  |  |  |  | 1'799'736.20 |   |
+|  SFIN | 720.3515.10 RI + part. cant. ass. chômage |  |  |  |  | 3'332'267.60 |   |
+|  SFIN | 720.3515.11 Subventions - Aides aux personnes en situation de handicap |  |  |  |  | 1'966'866.40 |   |
+|  SFIN | 720.3515.12 Prest. famille et autres prest. sociales |  |  |  |  | 996'624.00 |   |
+|  SFIN | 720.3515.13 Bourses études et apprentissages |  |  |  |  | 510'137.20 |   |
+|  SFIN | 720.3515.14 Provision solde (facture sociale) |  |  |  |  | 380'000.00 |   |
+|  SFIN | 720.3515.15 Cohésion sociale (NPIV) | 12'233'005.00 |  | 11'812'600 |  |  |   |
+|  SFIN | 720.3515.16 Cohésion sociale (NPIV) provision solde | 330'000.00 |  |  |  |  |   |
+
+
+
+## COMPTE DE FONCTIONNEMENT PAR SERVICES (AVEC COMMENTAIRES)
+
+Ville de La Tour-de-Peilz
+
+|  SFIN | 720.3809.00 | Attrib. fonds régul. pérég. (facture sociale)  |
+| --- | --- | --- |
+|  SFIN | 720.4515.00 | Solde année précédente (facture sociale)  |
+|  SFIN | 720.4809.00 | Prél. fonds régul. pérég. (facture sociale)  |
+
+|  Comptes 2025 |   | Budget 2025 (v3/CEB) |   | Comptes 2024  |   |
+| --- | --- | --- | --- | --- | --- |
+|  Charges | Revenus | Charges | Revenus | Charges | Revenus  |
+|  113'364.80 |  |  |  | 52'291.60 |   |
+|   | 113'364.81 |  |  |  | 52'291.60  |
+|   |  |  | 1'951'000 |  |   |
+
+
+
+# COMMENTAIRES COMPTES 2025
+
+|  No compte | Libellé du compte | Service | Commentaire  |
+| --- | --- | --- | --- |
+|  **1** | **ADMINISTRATION GÉNÉRALE** |  |   |
+|  **100** | **Conseil communal** |  |   |
+|  100.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  100.3101.00 | Frais pour votations et élections | SADM | Le dépassement est lié la votation sur l'arrêté d'imposition (cf. crédit extra-budgétaire N° 3/2026.  |
+|  **101** | **Municipalité** |  |   |
+|  101.3001.00 | Traitements | SADM | Selon préavis 22/2025 - Paiement des indemnités de remplacement de Mme E. Kaiser et M. A. Grangier pour absence de longue durée. Tenir compte également du remboursement assurance au compte 101.4361.00  |
+|  101.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SADM | Charges patronales en sus pour remplacement en raison d'absence de longue durée  |
+|  101.3040.00 | Fonds de prévoyance | SADM | Charges patronales en sus pour remplacement en raison d'absence de longue durée  |
+|  101.3050.01 | Assurance maladie perte de gain | SADM | Charges patronales en sus pour remplacement en raison d'absence de longue durée  |
+|  101.3051.00 | Assurances accidents | SADM | Charges patronales en sus pour remplacement en raison d'absence de longue durée  |
+|  101.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  101.4361.03 | Jetons présence entités intercommunales | SADM | Indemnités du SIGE Fr. 15'000.- pas encore reçues  |
+|  **110** | **Secrétariat municipal** |  |   |
+|  110.3011.00 | Traitements | SADM | L'augmentation de taux au Greffe municipal a eu lieu seulement en fin d'année  |
+|  110.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  110.3080.00 | Personnel intérim. facturé par des tiers | SADM | Aucun besoin pour 2025  |
+|  110.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **111** | **Administration générale** |  |   |
+|  111.3011.00 | Traitements réceptions | SADM | Les heures payées pour certaines manifestations sont dorénavant imputées dans ce compte et non dans le compte de ladite manifestation (nature 31)  |
+|  111.3011.90 | Traitements apprentis | SADM | 1 apprenti de moins en 2025  |
+|  111.3030.01 | Allocations familiales communales | SADM | Modification de ventilation pour un collaborateur  |
+|  111.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  111.3109.00 | Dépenses casuelles | SADM | Compte non utilisé en 2025  |
+|  111.3170.00 | Réceptions et vin d'honneur | SADM | Moins de réceptions en 2025  |
+|  111.3170.01 | Manifestation du 1er août | SADM | - 1'000.- sur boissons et repas, pas de frais d'orchestre  |
+|  111.3170.02 | Manifestations diverses | SADM | Subventions diverses pas utilisées, subvention SPS 3'500.- versés au lieu de 6'500.-, compte Fête des voisins passé à Finances  |
+|  111.3653.01 | Garantie de déficit - Union chorale | SADM | Garantie de déficit pas utilisée  |
+|  111.3659.02 | Subventions - Dons occasionnels | SADM | Divers dons occasionnels pas utilisés. Pas de versement à la gym  |
+|  111.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **121** | **Centre d'impression** |  |   |
+|  121.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  121.3101.01 | Photocopies noir et blanc | SADM | Fin de contrat  |
+|  121.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **130** | **Ressources humaines** |  |   |
+|  130.3011.01 | Traitements jeunes | SADM | Pas de programme jeunes LIFT en 2025  |
+|  130.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  130.3079.00 | Allocations aux pensionnés | SADM | Diminution des bénéficiaires  |
+|  130.3099.02 | Charges diverses | SADM | Aucune commande francs paysans. Moins de gratifications. Moins dépenses pour le personnel que prévu.  |
+|  130.3099.03 | Part. employeur structures d'accueil | SADM | Augmentation du nombre d'enfants de collaborateurs et collaboratrices en structure d'accueils  |
+|  130.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  130.4361.02 | Remboursements allocations perte de gains | SADM | Budget global pour l'administration communale. Les indemnités journalières et APG reçues par les assurances pour 2025 sont imputées dans les comptes xxx.4361.00 de chaque division.  |
+|  130.4361.03 | Ajustement indexation | SADM | Budget pour l'ensemble de l'administration communale. Se répercute sur écarts des comptes salaires xxx.3011.00  |
+|  130.4363.00 | Remboursements de tiers | SADM | Pas de commande de francs paysans en 2025  |
+|  **131** | **Assurances diverses** |  |   |
+|  131.3186.03 | Assurance incendie mobilière immobilière | SFIN | Réduction exceptionnelle de 15% sur primes ECA en 2025.  |
+|  131.3199.00 | Sinistres non remboursés | SFIN | Ecart particulier dû au remplacement d'un mât de signalisation lumineuse pour Fr. 8'361.95 suite à un accident.  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  **150** | **Affaires culturelles** |  |   |
+|  150.3011.01 | Traitements auxiliaires | SFJSC | Moins d'auxiliaires que prévu  |
+|  150.3040.00 | Caisse de retraite | SFJSC | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  150.3143.00 | Affichage culturel | SUTP | Crédit extrabudgétaire octroyé par la Municipalité afin de financer le rachat du parc de panneaux d'affichage suite à un litige contractuel avec la société jusqu'alors concessionnaire.  |
+|  150.3653.03 | Subventions - Jumelage Ornans | SFJSC | Pas de présence au marché d'Ornans.  |
+|  150.3653.09 | Subventions - Passeport vacances | SFJSC | Coût du passeport plus bas. Fréquentation 80%  |
+|  150.3653.15 | Subventions - Fonds culturel Riviera | SFJSC | Base 12'812 habitants au lieu de 13'000 au Budget  |
+|  150.3653.28 | Subventions - Cinéma en plein air | SFJSC | Compensation avec compte 150.4359.02  |
+|  150.4359.00 | Recettes diverses | SFJSC | Recettes liées à un événement exceptionnel (spectacle K.ID).  |
+|  150.4359.02 | Recettes cinéma en plein air | SFJSC | Compensation avec compte 150.3653.28  |
+|  **151** | **Salle des remparts** |  |   |
+|  151.3011.00 | Traitements | SDOM | Remplacement pour absence de longue durée. S'ajuste avec l'encaissement d'indemnités journalières. Compte 151.4361.00  |
+|  151.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SDOM | cf remarque 151.3011.00  |
+|  151.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  151.3050.01 | Assurance maladie perte de gain | SDOM | cf remarque 151.3011.00  |
+|  151.3051.00 | Assurances accidents | SDOM | cf remarque 151.3011.00  |
+|  151.3122.00 | Achats et consommation de gaz | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+|  151.3124.00 | Achats et consommation de mazout | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+|  151.3154.00 | Entretien machines et mat. d'exploitation | SDOM | Réparation d'appareils non prévus  |
+|  151.3156.05 | Entretien inst. photov. | SDOM | Pas de panne sur l'installation.  |
+|  151.4271.08 | Locations diverses | SDOM | Le montant des locations fluctue en fonction des réservations et du type de locataire  |
+|  151.4361.00 | Remboursements d'assurances | SDOM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **152** | **ABCDé (bibliothèque-ludothèque)** |  |   |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  152.3011.00 | Traitements | SADM | Moins d'auxiliaires. Une apprentie a été engagée depuis août 2025.  |
+|  152.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SADM | Voir remarque cte 152.3011.00. Plusieurs auxiliaires à la retraite ne cotisent plus à l'AVS  |
+|  152.3040.00 | Caisse de retraite | SADM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  152.3102.00 | Achats de livres et de jeux | SADM | Dépassement partiellement compensé par une augmentation des recettes (152.4363.00)  |
+|  152.4361.00 | Remboursements d'assurances | SADM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **153** | **Sport et jeunesse** |  |   |
+|  153.3040.00 | Caisse de retraite | SFJSC | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  153.3050.00 | Assurance maladie participation | SFJSC | Mutation de personnel interne au bénéfice du droit acquis  |
+|  153.3155.00 | Entretien des véhicules | SFJSC | Entretien usuel  |
+|  153.3161.01 | Subsides salles de gym sociétés locales Burier | SFJSC | aucun besoin supplémentaire  |
+|  153.3170.01 | Afterworks | SFJSC | Prestations abandonnée  |
+|  153.3192.00 | Taxes des véhicules | SFJSC | Exonération pour véhicules d'utilité publique  |
+|  153.3199.00 | Animations | SFJSC | Événements supplémentaires (Spectacle K-ID et Halloween) + projet pilote 'Vers l'école'  |
+|  153.3653.04 | Subventions - Actions préventions-intégration Jeunesse | SFJSC | Coût prévention Riviera moins élevé  |
+|  153.4332.00 | Ateliers divers et camps | SFJSC | Pas de camp à Pâques et renoncement organisation du camp d'automne à Villars (Recettes budgétées Fr. 15'000.-)  |
+|  153.4359.00 | Recettes diverses | SFJSC | part cantonal reconnu plus importante  |
+|  153.4361.00 | Remboursements d'assurances | SFJSC | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **154** | **Ecole de musique** |  |   |
+|  154.3040.00 | Caisse de retraite | SFJSC | Ajustement cotisations fonds prévoyance pour 2025  |
+|  154.3193.00 | Cotisations diverses | SFJSC | Fréquentation en hausse  |
+|  154.4652.00 | Ecolages | SFJSC | Fréquentation en hausse  |
+|  **155** | **Fête de la jeunesse** |  |   |
+|  155.3189.00 | Forains, fanfares cortège, divers | SFJSC | Crédit extra budgétaire municipal Fr. 25'000.-  |
+|  **156** | **Ecole de natation** |  |   |
+|  156.4652.00 | Ecolages | SFJSC | Inscriptions en hausse  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  **157** | **Centre de Vassin** |  |   |
+|  157.3121.00 | Eau | SDOM | Nouveau compte suite à reprise Centre oecuménique de Vassin par la Commune courant 2025.  |
+|  157.3123.00 | Electricité | SDOM | Nouveau compte suite à reprise Centre oecuménique de Vassin par la Commune courant 2025.  |
+|  157.3182.00 | Téléphones | SDOM | Nouveau compte suite à reprise Centre oecuménique de Vassin par la Commune courant 2025.  |
+|  157.3191.00 | Epuration, évacuation des eaux | SDOM | Nouveau compte suite à reprise Centre oecuménique de Vassin par la Commune courant 2025.  |
+|  157.4271.07 | Locations de salles diverses | SDOM | Nouveau compte suite à reprise Centre oecuménique de Vassin par la Commune courant 2025.  |
+|  **160** | **Economie** |  |   |
+|  160.3658.00 | Actions de soutien à l'économie | SFIN | Au budget 2025, transfert du soutien à Dolce Riviera dans le nouveau compte 111.3653.31 pour pérennisation. Diminution de la dotation pour les projets divers de Fr. 20'000.-- à 5'000.--, dont rien n'a été dépensé en 2025.  |
+|  **170** | **Stades** |  |   |
+|  170.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  170.3051.00 | Assurances accidents | SDOM | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  170.3145.00 | Entretien du terrain de Bel-Air (SDOM) | SDOM | Prop SDOM 05/2025 - Crédit extra-budgétaire - Inline Hockey Club (Réfection de la surface de jeux)  |
+|  170.4361.00 | Remboursements d'assurances | SDOM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **171** | **Plage de la Maladaire** |  |   |
+|  171.3141.00 | Entretien des bâtiments | SDOM | Travaux d'entretien prévu moins coûteux que prévu  |
+|  171.3145.01 | Entretien des terrains (SUTP) | SUTP | Pas de dépenses d'entretien en 2025 suite à travaux prévus dès 2026.  |
+|  **180** | **Transports publics** |  |   |
+|  180.3657.05 | Part. réseau voitures partagées Mobility | SUTP | Facturation selon usage réel.  |
+|  **190** | **Service informatique** |  |   |
+|  190.3030.01 | Allocations familiales communales | SFIN | Naissance d'un enfant de collaborateur fin 2024  |
+|  190.3040.00 | Caisse de retraite | SFIN | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  190.4359.00 | Recettes diverses | SFIN | Travaux informatiques conséquents refacturés à la FSAT dans le cadre du déménagement de leur administration à Entre-deux-Villes.  |
+|  190.4361.00 | Remboursements d'assurances | SFIN | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  190.4902.01 | Imputations internes - Maintenance informatique | SFIN | Maintenance informatique de 136 ordinateurs (contre 129 au budget) de l'administration communale et partenaires (FSAT, Escale et ARAS).  |
+
+
+
+|  *No compte* | *Libellé du compte* | *Service* | *Commentaire*  |
+| --- | --- | --- | --- |
+|  **2** | **FINANCES** |  |   |
+|  **200** | **Comptabilité générale, caisse** |  |   |
+|  200.3040.00 | Caisse de retraite | SFIN | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  200.3657.00 | Cartes journalières CGN-ABVL | SFIN | Dès le printemps 2025, offre par la Ville à la population de 2x 365 cartes journalières CGN papier en 1ère classe, datées mais non nominatives, grâce à un don de 5'000.-- à l'Association des Amis des Bateaux à Vapeur du Léman (ABVL). Ceci comme alternative à la nouvelle solution en ligne de la CGN (inspirée de la carte dégriffée Commune des CFF) proposant des billets nominatifs et datés, mais sans aucune commission pour les Communes. Les ventes figurent au compte 200.4359.04.  |
+|  200.4359.04 | Cartes journalières CGN-ABVL | SFIN | Contrepartie au compte 200.3657.00 'Cartes journalières CGN-ABVL'.  |
+|  200.4361.00 | Remboursements d'assurances | SFIN | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **210** | **Impôts** |  |   |
+|  210.3187.02 | Emoluments de perception | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.3191.00 | Défalcations | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.3191.01 | Frais poursuites | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.3290.00 | Intérêts rémunératoires | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.3809.00 | Attrib. - Impôt affecté NCC (1.5 point) | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4001.00 | Impôt sur le revenu | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4002.00 | Impôt sur la fortune | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4003.00 | Impôt à la source | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4011.00 | Impôt sur le bénéfice des sociétés | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4012.00 | Impôt sur le capital des sociétés | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4040.00 | Droits de mutations | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4050.00 | Impôt sur les successions et donations | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4090.00 | Impôt récupéré après défalcation | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4221.00 | Intérêts moratoires-majorations | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4411.00 | Impôt sur les gains immobiliers | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4414.00 | Impôt sur les frontaliers | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  210.4518.00 | Compensation RFFA (dès 2020) | SFIN | Voir les détails concernant les recettes fiscales dans le préavis sur les comptes 2025.  |
+|  **220** | **Service de la dette** |  |   |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  220.3223.06 | Réserve intérêts emprunts court terme | SFIN | Intérêts sur 2 emprunts à court terme (0.21% et 0.27%) inférieurs aux intérêts prévus au budget (1.10%).  |
+|  220.3223.18 | Réserve intérêts emprunts long terme | SFIN | Réserve pour des nouveaux emprunts à long terme utilisée en partie via le nouveau compte 220.3223.30.  |
+|  220.3223.30 | Postfinance 2024-2028, Fr. 5'000'000.--, 1.00% | SFIN | Voir commentaire pour le compte 220.3223.18.  |
+|  220.3290.00 | Intérêts attribués aux fondations | SFIN | Intérêts 2025 appliqué aux fondations de 0.95%.  |
+|  **223** | **Fonds de péréquation** |  |   |
+|  223.3520.03 | Péréquation directe (NPIV) | SFIN | Acomptes facturés par le Canton supérieur à la simulation, montant à recevoir en retour dans le compte 223.4520.04.  |
+|  **3** | **DOMAINES ET BÂTIMENTS** |  |   |
+|  **300** | **Administration** |  |   |
+|  300.3011.00 | Traitements | SDOM | Préavis poste chef de projet architecte et dessinateur en bâtiment pour 187'000.- en 2025. Arrivées courant 2025.  |
+|  300.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SDOM | Voir remarque cte 300.3011.00  |
+|  300.3030.01 | Allocations familiales communales | SDOM | Engagement d'un nouveau collaborateur avec enfants  |
+|  300.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  300.3050.01 | Assurance maladie perte de gain | SDOM | Voir remarque cte 300.3011.00  |
+|  300.3080.00 | Personnel externe facturé par des tiers | SDOM | Engagement de personnel tiers plus faible qu'envisagé  |
+|  300.3664.00 | Subventions FERDD (SDOM) | SDOM | Moins de demande de subventions dans le secteur de la rénovation énergétique et des installations solaires  |
+|  300.4359.00 | Recettes diverses | SDOM | Travaux de mise en conformité du centre de Vassin, remboursé par la Fondation de Vassin. Dissolution d'une réserve de Fr. 45'000.-- du compte 300.3185.00  |
+|  300.4361.00 | Remboursements d'assurances | SDOM | Remboursement suite absence maladie collaborateur  |
+|  300.4654.01 | Subv. ext. développement durable (SDOM) | SDOM | Subventions sur programmes de soutien à l'énergie  |
+|  **301** | **Service d'entretien** |  |   |
+|  301.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  301.3051.00 | Assurances accidents | SDOM | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  301.3155.00 | Entretien des véhicules | SDOM | Entretien important sur les frein du véhicule Nissan électrique  |
+|  **310** | **Terrains** |  |   |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  310.4232.00 | Droits de superficie (DDP) | SDOM | Ajustement du revenu du DDP Jardins de la Paix, décision de la coopérative d'augmenter les dividendes  |
+|  **320** | **Domaine de Blonay** |  |   |
+|  320.3141.00 | Entretien des chalets | SDOM | Moins de travaux d'entretien que prévu.  |
+|  320.3146.00 | Entretien du domaine | SDOM | Coupes supplémentaires non prévues.  |
+|  320.3526.01 | Indemnité au garde-forestier | SDOM | Selon décompte annuel du triage forestier de la Veveyse  |
+|  320.4516.00 | Subside | SDOM | Subventions 2024 perçues en 2025.  |
+|  **330** | **Vignes** |  |   |
+|  330.3011.00 | Traitements - Gestion | SDOM | Aucune prestation 'extra' en 2025  |
+|  330.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  330.3121.00 | Eau | SDOM | Arrosage nécessaire sur la jeune plantation de Divico en raison d'une sécheresse estivale  |
+|  330.3189.00 | Redevance au vigneron | SDOM | Selon décompte de vignolage  |
+|  330.4355.00 | Ventes de la récolte à la cave | SDOM | Paiement de la vendange différé en 2026  |
+|  **340** | **Bâtiments locatifs** |  |   |
+|  340.3011.00 | Traitements | SDOM | S'ajuste avec le remboursement des assurances compte 340.4361.00  |
+|  340.3030.01 | Allocations familiales communales | SDOM | Ventilation des allocations familiales d'un collaborateur  |
+|  340.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01. 2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  340.3080.00 | Personnel externe facturé par des tiers | SDOM | Augmentation des remplacements de concierges locatifs en cas d'absence maladie/accidents/vacances. Pour 2026, les écritures passeront par le 340.3189.01.  |
+|  340.3123.00 | Electricité | SDOM | Hausse du prix du kWh. Mais baisse sensible de la consommation.  |
+|  340.3141.01 | Rénovation des bâtiments | SDOM | Crédit de 237'081.20 remboursement ECA sur sinistre Gérénaz 7  |
+|  340.4231.10 | Loyers Grand-Rue 56 (sans UAPE dès B26) | SDOM | Loyers payés d'avance  |
+|  340.4231.13 | Loyers Av. du Clos d'Aubonne 1 | SDOM | Loyers payés d'avance  |
+|  340.4231.14 | Loyers Rue du Château 24 | SDOM | Loyers payés d'avance  |
+|  340.4231.19 | Loyers Ch. de Béranges 74 | SDOM | Loyers payés d'avance et adaptation suite travaux  |
+|  340.4231.28 | Loyers Av. de Traménaz 24 | SDOM | Loyers payés d'avance et adaptation suite travaux  |
+|  340.4231.29 | Loyers Ch. de Gérénaz 7 | SDOM | Adaptation de loyers  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  340.4231.31 | Loyers Av. des Baumes 22 | SDOM | Loyers payés d'avance  |
+|  340.4231.32 | Loyers Av. des Baumes 24 | SDOM | Loyers payés d'avance  |
+|  340.4359.00 | Ventes et prestations diverses | SDOM | Versement d'un subside du canton pour le remplacement de l'isolation de la toiture plate de Clos d'Aubonne 1 Fr. 12'912.70 doivent être versé à la Poste selon les millièmes de la PPE.  |
+|  **341** | **Places de stationnement** |  |   |
+|  341.3141.26 | Entretien parking des Mousquetaires | SDOM | Montant de 31'000.-- pour l'installation de bornes réalisé partiellement en décembre 2024 et budget 2024, mais déjà re-budgetisé sur 2025. Dépenses d'entretien plus faible qu'estimé.  |
+|  **350** | **Bâtiments administratifs** |  |   |
+|  350.3030.01 | Allocations familiales communales | SDOM | Ventilation des allocations familiales d'un membre du personnel  |
+|  350.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  350.3122.00 | Achats et consommation de gaz | SDOM | Mise hors service du chauffage gaz à Béranges 111 - Faraz. Monobloc provisoire au mazout. Consommation sur le 350.3124.02.  |
+|  350.3124.02 | Chauffage - La Faraz/Béranges 111 | SDOM | La plus-value de mazout (350.3124.00) est compensée par la moins-value de gaz (350.3122.00). Installation provisoire à Béranges 111 mazout au lieu de gaz  |
+|  350.3124.03 | Chauffage - Serres de la Faraz | SDOM | Serre mise hors service  |
+|  350.3141.28 | Entretien Ch. de Béranges 111 | SDOM | Plusieurs interventions vidanges et nettoyage conduites évacuation EU en raison de vétusté installation  |
+|  350.3141.43 | Entretien Maison de Commune | SDOM | Contrat d'entretien ascenseur 2026 payé en 2025  |
+|  350.4359.00 | Ventes et prestations diverses | SDOM | Avance sur dépenses Centre de Vassin remboursé via compte 300.4359.00 recettes diverses  |
+|  350.4361.00 | Remboursements d'assurances | SDOM | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  350.4819.00 | Prél. FERDD - Inst. photov. S. Remp. (16-25) | SDOM | Les rétributions du prix du kWh solaire photovoltaïque ont baissé  |
+|  **351** | **Bâtiments structures d'accueil** |  |   |
+|  351.3141.00 | Entretien des structures d'accueil | SDOM | Dépenses de travaux d'entretien supplémentaires non prévues.  |
+|  **4** | **URBANISME ET TRAVAUX PUBLICS** |  |   |
+|  **400** | **Administration** |  |   |
+|  400.3011.00 | Traitements | SUTP | Nouveau poste recruté seulement courant 2025, budgeté dès le 01.01.2024  |
+|  400.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SUTP | Voir remarque sous 400.3011.00  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  400.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  400.3187.03 | Commissions de salubrité et d'urbanisme | SUTP | Moins de séances CCU que budgété en 2025  |
+|  400.4309.00 | Taxe équipements communautaires | SUTP | Rentrées variables non-prévisibles en fonction des projets privés.  |
+|  400.4313.01 | Permis de construire et d'habiter | SUTP | Augmentation importante des recettes en raison de l'entrée en vigueur du nouveau Règlement sur les émoluments administratifs en matière de police des constructions début 2025.  |
+|  400.4313.03 | Permis de dépôts | SUTP | Augmentation importante des recettes en raison de l'entrée en vigueur du nouveau Règlement sur les émoluments administratifs en matière de police des constructions début 2025.  |
+|  400.4359.00 | Recettes diverses | SUTP | Augmentation des recettes 2025 des kiosques du Quai E.-L. Roussy suite nouvelles prescriptions municipales, imputation des recettes 2024 des kiosques facturées tardivement et dissolutions de réserves.  |
+|  400.4361.00 | Remboursements d'assurances | SUTP | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **430** | **Routes et voirie** |  |   |
+|  430.3011.00 | Traitements | SUTP | S'ajuste avec les remboursements d'assurance imputés au compte 430.3011.00  |
+|  430.3030.01 | Allocations familiales communales | SUTP | Enfants de collaborateur ont atteint les 25 ans => suppression du droit aux AF  |
+|  430.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  430.3050.01 | Assurance maladie perte de gain | SUTP | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  430.3135.00 | Achats de matériaux et fournitures | SUTP | Moins de matériaux et fournitures que budgétés, notamment en matière de sel pour la saison hivernale.  |
+|  430.3136.00 | Achats du carburant | SUTP | Baisse des dépenses de carburant (électrification progressive du parc de véhicules, dont la balayeuse, et évolution prix carburants)  |
+|  430.4356.00 | Frais facturés à des tiers | SUTP | Augmentation des recettes des permis de fouille suite entrée en vigueur nouveau Règlement sur les émoluments en 2025  |
+|  430.4359.00 | Recettes diverses | SUTP | Encaissement d'une subvention DGMR relatif à la mise en place de revêtements phonoabsorbants sur la RC780 en 2011 et 2013, encaissement possible suite à l'approbation du rapport OPB par le Conseil d'Etat en 2024.  |
+|  430.4361.00 | Remboursements d'assurances | SUTP | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  430.4511.00 | Subside de l'ECA | SUTP | Subsides de l'ECA 2025 prévu sur comptes 2026  |
+|  **432** | **Eclairage public** |  |   |
+|  432.3123.00 | Electricité | SUTP | Consommation et prix du kWh en baisse en 2025.  |
+|  **440** | **Espaces verts** |  |   |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  440.3011.00 | Traitements | SUTP | Nouveau poste recruté que courant 2025 (budgété dès le 01.01.2025) + poste vacant quelques mois. Certains jubilés sont convertis en vacances.  |
+|  440.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SUTP | Voir remarque cte 440.3011.00  |
+|  440.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  440.3080.00 | Personnel intérim. facturé par des tiers | SUTP | Remplacement ad interim. Des indemnités journalières ont été touchées en contrepartie. Voir compte 440.4361.00  |
+|  440.3145.00 | Entretien des parcs | SUTP | Moins de commandes que budgété, gros travaux d'entretien et de création en 2025 majoritairement réalisés via crédit d'investissements.  |
+|  440.4272.00 | Loyers des jardins et parcelles communales | SDOM | Résiliation d'un contrat de location  |
+|  440.4359.00 | Recettes diverses | SUTP | Encaissement de subventions diverses de l'Etat de Vaud  |
+|  440.4361.00 | Remboursements d'assurances | SUTP | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **441** | **Cimetière** |  |   |
+|  441.3141.00 | Entretien des bâtiments | SDOM | Moins de travaux d'entretien.  |
+|  441.4272.00 | Concessions, colombarium | SUTP | Baisse constatée du nombre de concession cinéraires délivrées ou renouvelées.  |
+|  **450** | **Ordures ménagères** |  |   |
+|  450.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  450.3185.00 | Honoraires, études, expertises | SUTP | Etudes diverses nouveaux projets d'écopoints, plusieurs projets en 2025  |
+|  **460** | **Protection des eaux** |  |   |
+|  460.3011.00 | Traitements | SUTP | Montant de la ventilation augmentée suite à l'engagement d'un collaborateur et modification de salaire  |
+|  460.3050.01 | Assurance maladie perte de gain | SUTP | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  460.4361.00 | Remboursements d'assurances | SUTP | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **470** | **Port** |  |   |
+|  470.3011.01 | Traitements auxiliaires | SUTP | Moins d'auxiliaires au port que budgété.  |
+|  470.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  470.3147.00 | Entretien des ouvrages riverains | SUTP | Pas d'évènement météorologique particulier en 2025 et donc pas de remise en état des digues nécessaire.  |
+|  470.4361.00 | Remboursements d'assurances | SUTP | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  **471** | **Lac et cours d'eau** |  |   |
+|  471.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  471.3147.00 | Entretien des ouvrages riverains | SUTP | Pas de remise en état d'enrochements nécessaire en 2025  |
+|  **5** | **INSTRUCTION PUBLIQUE ET CULTES** |  |   |
+|  **500** | **Administration des écoles** |  |   |
+|  500.3011.00 | Traitements | ECO | Salaire de la pianiste du Choeur de la Cantourelle  |
+|  500.3051.00 | Assurances accidents | ECO | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  500.3522.00 | Finances d'écolage (autres Communes) | ECO | Il est difficile d'estimer précisément les montants d'une année à l'autre. Le décalage entre de calendrier entre année scolaire et année civile rend l'exercice hasardeux.  |
+|  500.4512.01 | Finances d'écolage (Canton) | ECO | Décompte cantonal 2024 des frais de scolarisation des enfants de demandeurs d'asile.  |
+|  500.4522.00 | Finances d'écolage (autres Communes) | ECO | Voir commentaire du compte 500.3522.00.  |
+|  **501** | **Bâtiments scolaires** |  |   |
+|  501.3011.00 | Traitements | SDOM | Nouveau poste pourvu courant 2025 (budgété 12 mois)  |
+|  501.3011.90 | Traitements apprentis | SDOM | 1 apprenti supplémentaire depuis juillet 2025  |
+|  501.3030.01 | Allocations familiales communales | SDOM | Mutation du personnel - arrivées de bénéficiaires des AF  |
+|  501.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  501.3050.01 | Assurance maladie perte de gain | SDOM | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  501.3114.00 | Achats de mach., mat. expl. et d'entretien | SDOM | Moins de dépenses  |
+|  501.3122.00 | Achats et consommation de gaz | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+|  501.3123.00 | Electricité | SDOM | Regroupement de la consommation électrique de l'ensemble des collèges du centre-ville et Cadet-Rousselle et amélioration de la part d'autoconsommation engendrant une baisse des coûts facturés par RE  |
+|  501.3123.02 | Electricité - Collège Mousquetaires | SDOM | Regroupé sous 501.3123.00  |
+|  501.3123.06 | Electricité - Collège Courbet | SDOM | Regroupé sous 501.3123.00  |
+|  501.3124.03 | Chauffage - Collège des Marronniers | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  501.3124.06 | Chauffage - Collège Courbet | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+|  501.3124.08 | Chauffage - Collège des Mousquetaires | SDOM | Le solde du mazout a été consommé en 2024, désormais, sauf coupure de gaz, seul le gaz est consommé. Celui-ci est moins polluant, mais plus cher. La consommation d'énergie a cependant diminué.  |
+|  501.3129.00 | Réseau eau du lac - Collège Bel-Air | SDOM | Baisse de consommation suite à l'installation d'un système d'optimisation sur la régulation  |
+|  501.3141.00 | Entretien des bâtiments | SDOM | Moins de travaux d'entretien.  |
+|  501.3141.01 | Rénovation des bâtiments | SDOM | Des travaux n'ont pas été réalisés. Les travaux de mise à jour du système informatique et transformation de salles sont portés chaque année et gérés selon nécessités.  |
+|  501.3141.06 | Collège Courbet | SDOM | En accord avec le fournisseur le contrôle des engins de sport a été reporté en 2026. Contrat système évacuation et sono de Fr. 3'500.-- dépensé sur compte défense incendie 501.3156.03  |
+|  501.3156.03 | Entretien défense incendie | SDOM | Utilisation de la réserve de maintenance peu utilisée  |
+|  501.3156.05 | Entretien inst. photov. | SDOM | Travaux engagés selon nécessités.  |
+|  501.4271.05 | Loyers UAPE Collège de Vassin | SDOM | Loyer encaissé sur le compte 351.4271.05  |
+|  501.4271.06 | Loyers UAPE Terreaux | SDOM | Loyer encaissé sur le compte 351.4271.06  |
+|  501.4271.07 | Locations de salles diverses | SDOM | Augmentation générale des locations  |
+|  501.4351.00 | Production énergie photovoltaïque | SDOM | Dans les comptes 2024, les subventions Pronovo (pièces 24-02514, 24-02515 et 24-02516) pour le préavis 12/2023 (Inst. photov. Baumes 22/24 et Béranges 74) ont été imputées dans le compte 501.4351.00 au lieu du compte de recettes d'investissements. Correction faite en 2025, par un débit de Fr. 49'545.60 de ce compte.  |
+|  501.4361.00 | Remboursements d'assurances | SDOM | Remboursement suite arrêt maladie de collaborateurs du service.  |
+|  501.4362.10 | Frais accessoires Pavillon Vassin | SDOM | Frais accessoires encaissés sur le compte 351.4362.05  |
+|  **502** | **Complexe sportif des Mousquetaires** |  |   |
+|  502.3030.01 | Allocations familiales communales | SDOM | Nouveau droit aux allocations familiales pour un collaborateur  |
+|  502.3040.00 | Caisse de retraite | SDOM | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  **522** | **Enseignement** |  |   |
+|  522.3040.00 | Caisse de retraite | ECO | Ventilation pour les personnes engagées cotisant à la CIP  |
+|  **523** | **Etudes surveillées** |  |   |
+|  523.3011.00 | Traitements | ECO | Réserve de 20% partiellement utilisée  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  523.3030.01 | Allocations familiales communales | ECO | Arrivée nouveau collaborateur bénéficiaire des AF  |
+|  523.4361.00 | Remboursements d'assurances | ECO | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **570** | **Classes à la montagne, ski, camps** |  |   |
+|  570.3662.04 | Camps 8ème année | ECO | Ventilation budgétaire faite au mieux, mais coûts des activités difficiles à prévoir en avance.  |
+|  570.3662.05 | Camps 9ème année | ECO | Ventilation budgétaire faite au mieux, mais coûts des activités difficiles à prévoir en avance.  |
+|  570.4331.02 | Part. parents - Camps 1-6ème années et séjours à la ferme | ECO | Moins de jours de ski aux Pléiades.  |
+|  **580** | **Eglise évangélique réformée** |  |   |
+|  580.3011.00 | Traitements | SADM | Pas de supplément cérémonie et moins de remplacements de l'organiste  |
+|  **6** | **SÉCURITÉ - POPULATION - FEU** |  |   |
+|  **600** | **Administration** |  |   |
+|  600.3521.00 | Association Sécurité Riviera (ASR) | SFIN | Selon décompte 2025 de l'ASR.  |
+|  **620** | **Office de la population** |  |   |
+|  620.3011.00 | Traitements | SFIN | Réorganisation suite au départ du préposé => diminution de taux du poste de sa remplaçante  |
+|  620.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SFIN | Voir remarque Cte 620.3011.00  |
+|  620.3030.01 | Allocations familiales communales | SFIN | Naissance en 2025  |
+|  620.3040.00 | Caisse de retraite | SFIN | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  620.3101.03 | Etablissement permis | SFIN | Le canton à facturés les prolongation de permis C en ligne directement aux administrés, tout en nous reversant la part communale ; cela entraîne une diminution des charges.  |
+|  620.3185.00 | Honoraires et frais de procédure | SFIN | Pas de cas litige en 2025  |
+|  620.4311.01 | Emoluments documents d'identité | SFIN | Idem 2025, les demandes de cartes d'identité toujours en baisse vu l'offre combiné du passeport et carte d'identité.  |
+|  620.4361.00 | Remboursements d'assurances | SFIN | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **630** | **Santé publique** |  |   |
+|  630.3188.02 | Lutte contre espèces envahissantes | SUTP | Nouveau compte (crédit extrabudgétaire) afin de prendre en charge les coûts relatif à l'élimination des nids de frelon asiatiques, y compris sur parcelles privées.  |
+|  **640** | **Inhumations** |  |   |
+|  640.3011.00 | Traitements | SUTP | Augmentation des services funèbres  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  640.3040.00 | Caisse de retraite | SUTP | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  **7** | **FAMILLE, JEUNESSE, SPORT ET CULTURE**  |   |   |
+|  **700** | **Administration**  |   |   |
+|  700.3011.00 | Traitements | SFJSC | Se compense avec le compte 705.3011.01.  |
+|  700.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SFJSC | voir remarque sous 700.3011.00  |
+|  700.3040.00 | Caisse de retraite | SFJSC | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  700.3080.00 | Personnel intérim. facturé par des tiers | SFJSC | Civiliste remplacé par une stagiaire en réinsertion AI (pas de frais)  |
+|  700.4361.00 | Remboursements d'assurances | SFJSC | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **703** | **Réfectoires scolaires**  |   |   |
+|  703.3011.10 | Traitements - 6 réfectoires | SFJSC | Moins de ressources nécessaires en 2025  |
+|  703.3040.00 | Caisse de retraite | SFJSC | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  703.3131.01 | Achats de repas - Vassin | SFJSC | Fréquentation plus faible  |
+|  703.3131.02 | Achats de repas - Bel-Air | SFJSC | Fréquentation un peu plus faible et absences diverses des élèves.  |
+|  703.3131.05 | Achats de repas - La Cantoch' (ex-Atelier 56) | SFJSC | Absences diverses des élèves.  |
+|  703.3131.07 | Achats de repas - Les Mousquetaires | SFJSC | Absences diverses des élèves.  |
+|  703.3131.09 | Achats de repas - Les Marmitons (ex-7ème) | SFJSC | Absences diverses des élèves.  |
+|  703.3131.11 | Achats de repas - Le Ref | SFJSC | Absences diverses des élèves.  |
+|  703.4359.01 | Ventes de repas - Bel-Air | SFJSC | Fréquentation un peu plus faible  |
+|  703.4361.00 | Remboursements d'assurances | SFJSC | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  **705** | **Accueil familial de jour**  |   |   |
+|  705.3011.00 | Traitements coordinatrices | SFJSC | Comptes 2025 en adéquation avec le décompte Interfaje mais pas le budget.  |
+|  705.3011.01 | Traitements direction, RH et administration | SFJSC | Comptes 2025 en adéquation avec le décompte Interfaje mais pas le budget. Se compense avec le compte 700.3011.00.  |
+|  705.3011.02 | Traitements des accueillantes | SFJSC | Selon les heures effectives  |
+|  705.3030.00 | Cotisations AVS/AI/AC/APG/ALFA/PCFam | SFJSC | Diminution de la masse salariale des AMF  |
+|  705.3040.00 | Caisse de retraite | SFJSC | Davantage d'accueillantes en milieu familial affiliées à la CIP  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  705.3050.00 | Assurance maladie participation | SFJSC | Droit acquis 2 mois pour une collaboratrice  |
+|  705.3050.01 | Assurance maladie perte de gain | SFJSC | Ajustement des codes de soumission dans ProConcept-salaires  |
+|  705.3069.00 | Frais d'acquisition du revenu | SFJSC | Budget effectué sans tenir compte du plafond des frais d'acquisition à Fr. 6'000.- par AMF  |
+|  705.3069.01 | Frais repas, collations, déplacements, etc. | SFJSC | Seulement les 3'000 premières heures et non le tout.  |
+|  705.3069.03 | Taxe aux sacs | SFJSC | Montant effectif, contre-partie au compte 705.4362.01  |
+|  705.3069.04 | Frais pédagogiques annuels | SFJSC | Contre-partie compte 705.4362.03 Facturation frais pédagogiques annuels  |
+|  705.3091.00 | Frais de formation du personnel | SFJSC | Plus grande prise en charge financière par le canton + formations gratuites  |
+|  705.3161.00 | Loyers des locaux | SFJSC | Déménagement Entre-deux-villes  |
+|  705.3189.00 | Maintenance logiciel gestion | SFJSC | Module non facturé précédemment pour la séparation Vevey-LAC + facturation séparation ASICC. Refacturation aux réseaux.  |
+|  705.3189.01 | Fibre optique | SFJSC | installation nouveaux locaux  |
+|  705.3301.00 | Pertes sur débiteurs | SFJSC | Actes de défauts de bien  |
+|  705.3515.00 | Subv. FAJE correctif année précédente | SFJSC | Correctif sur l'effectif 2024. Mois d'heures de garde.  |
+|  705.3525.02 | Part. réseau VV - Solde année précédente | SFJSC | Correctif 2024  |
+|  705.3665.00 | Aides au démarrage | SFJSC | Pas de besoins en 2025  |
+|  705.3901.00 | Imputations internes - Frais pers. direction et coord. | SFJSC | Imputation interne plus nécessaire suite à la ventilation des charges patronales (comptes natures 30) dans les divisions.  |
+|  705.3901.01 | Imputations internes - Frais pers. administratif | SFJSC | Imputation interne plus nécessaire suite à la ventilation des charges patronales (comptes natures 30) dans les divisions.  |
+|  705.3901.02 | Imputations internes - Frais pers. accueillantes | SFJSC | Imputation interne plus nécessaire suite à la ventilation des charges patronales (comptes natures 30) dans les divisions.  |
+|  705.3902.00 | Imputations internes - Frais de port | SFJSC | Montant inférieur dans les comptes suite au déménagement de l'administration des AFJ hors de la Maison de Commune.  |
+|  705.4361.00 | Remboursements d'assurances | SFJSC | Budget global pour l'entier de l'administration communale dans le compte 130.4361.02  |
+|  705.4362.01 | Taxe aux sacs | SFJSC | Montant effectif, contre-partie au compte 705.3069.03  |
+|  705.4362.03 | Facturation frais pédagogiques annuels | SFJSC | Contre-partie au compte 705.3069.04 'Frais pédagogiques annuels'  |
+|  **710** | **Service social** |  |   |
+|  710.3170.01 | Cadeaux aux nonagénaires | SFJSC | Réédition du livre cadeau, montant non budgété  |
+|  710.3189.00 | Prestations administratives (AIL) | SFJSC | Dossiers simples, moins d'heures facturées  |
+|  710.3655.03 | Part. au redressement dentaire des enfants | SFJSC | Demande en hausse  |
+
+
+
+|  **No compte** | **Libellé du compte** | **Service** | **Commentaire**  |
+| --- | --- | --- | --- |
+|  710.3664.00 | Aides individuelles taxe déchets | SFJSC | Exonérations effectives selon liste PC/AI  |
+|  710.3664.02 | Aides individuelles au logement (AIL) | SFJSC | demande en hausse  |
+|  710.3665.00 | Aides complémentaire communale AVS/AI | SFJSC | Hausse de 5% des ayants droits  |
+|  710.4359.00 | Rétrocession Texaid | SFJSC | Nous ne percevons plus de contributions  |
+|  710.4514.02 | Part. Canton aides individuelles au logement (AIL) | SFJSC | Montant effectif, 50% du compte 710.3664.02  |
+|  **711** | **Interventions sociales** |  |   |
+|  711.3030.01 | Allocations familiales communales | SFJSC | Ouverture droit en 2025  |
+|  711.3040.00 | Caisse de retraite | SFJSC | Erreur de paramétrage du consultant lors de la mise en place de la ventilation par division au 01.01.2025 pour le calcul du budget. Les comptes 2025 sont toutefois corrects.  |
+|  711.3659.01 | Garde-meubles et logement de secours | SFJSC | Frai de garde-meuble moins élevés  |
+|  711.3659.03 | Aides et subventions casuelles | SFJSC | A Ton Tour, 2 suivis sur 5 budgetés.  |
+|  711.3665.00 | Aides individuelles communales | SFJSC | Demandes d'aides individuelles en baisse. Montant réévalué dès budget 2026  |
+|  711.4359.00 | Recettes diverses | SFJSC | Logements utilisés à 80%  |
+
+
+
+# CHARGES ET REVENUS PAR NATURES
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 | Budget 2025 (v3/CEB) | Comptes 2024  |
+| --- | --- | --- | --- | --- |
+|  **3** | **Charges** | **78'250'659.17** | **85'886'542** | **81'728'762.36**  |
+|  **30** | **Autorités et personnel** | **17'750'192.67** | **19'306'340** | **17'635'811.56**  |
+|  300 | Autorités et commissions | 440'709.70 | 392'800 | 369'527.53  |
+|  301 | Personnel administratif et d'exploitation | 12'806'234.15 | 13'320'700 | 12'470'420.48  |
+|  303 | Assurances sociales | 1'287'889.70 | 1'406'400 | 1'293'082.20  |
+|  304 | Caisses de pensions et de prévoyance | 1'804'427.14 | 2'230'600 | 1'772'174.14  |
+|  305 | Assurances accidents et maladie | 449'609.80 | 566'600 | 450'682.25  |
+|  306 | Indemnisations, remb. de frais | 619'827.53 | 926'140 | 850'365.48  |
+|  307 | Prestations complémentaires de prévoyance | 15'614.00 | 19'200 | 18'888.15  |
+|  308 | Personnel intérimaire | 38'155.12 | 76'500 | 101'976.25  |
+|  309 | Autres charges des autorités et du personnel | 287'725.53 | 367'400 | 308'695.08  |
+|  **31** | **Biens, services, marchandises** | **9'316'157.52** | **11'063'101** | **9'383'590.78**  |
+|  310 | Imprimés et fournitures de bureau | 383'591.39 | 485'561 | 384'809.34  |
+|  311 | Achats de mobilier, matériel, machines et véhicules | 708'795.38 | 907'050 | 686'837.75  |
+|  312 | Achats d'eau, d'énergie, de combustible | 1'109'925.69 | 1'206'050 | 1'144'680.07  |
+|  313 | Autres fournitures et marchandises | 569'437.29 | 712'150 | 604'882.14  |
+|  314 | Entretien des immeubles, routes et territoire | 2'189'193.66 | 2'847'250 | 2'304'431.77  |
+|  315 | Entretien d'objets mobiliers et d'installations | 258'241.41 | 416'000 | 302'714.95  |
+|  316 | Loyer, fermages et redevances d'utilisation | 89'118.10 | 99'950 | 129'074.86  |
+|  317 | Réceptions et manifestations | 203'958.89 | 255'700 | 199'581.56  |
+|  318 | Honoraires et prestations de services | 3'082'045.51 | 3'363'040 | 2'871'493.10  |
+|  319 | Impôts, taxes, cotisations et frais divers | 721'850.20 | 770'350 | 755'085.24  |
+|  **32** | **Intérêts passifs** | **459'685.83** | **616'750** | **490'744.63**  |
+|  321 | Intérêts | 2'353.89 | 10'000 | 591.10  |
+|  322 | Intérêts des dettes à moyen et long terme | 410'952.79 | 574'000 | 473'235.61  |
+|  329 | Autres intérêts | 46'379.15 | 32'750 | 16'917.92  |
+
+
+
+# CHARGES ET REVENUS PAR NATURES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 | Budget 2025 (v3/CEB) | Comptes 2024  |
+| --- | --- | --- | --- |
+|  **33 Amortissements** | **6'031'477.32** | **10'883'620** | **3'963'354.23**  |
+|  330 Amortissements du patrimoine financier | 5'361.65 | 25'100 | 25'544.15  |
+|  331 Amortissements obligatoires du patrimoine administratif | 721'792.75 | 721'720 | 721'720.00  |
+|  332 Autres amortissements du patrimoine administratif | 5'304'322.92 | 10'136'800 | 2'358'767.58  |
+|  333 Amortissements des déficits reportés | 0.00 | 0 | 857'322.50  |
+|  **35 Remboursements, participations et subventions à des collectivités publiques** | **34'941'858.88** | **34'803'800** | **41'073'545.30**  |
+|  351 Remboursements, participations à des charges cantonales | 15'484'400.25 | 14'841'500 | 16'297'981.85  |
+|  352 Remb., particip. à des charges d'autres communes et assoc. de communes | 19'457'458.63 | 19'962'300 | 24'775'563.45  |
+|  **36 Aides et subventions** | **6'018'285.09** | **6'283'256** | **5'830'025.48**  |
+|  365 Aides, subventions à des institutions privées | 4'960'681.70 | 5'093'834 | 4'846'089.14  |
+|  366 Aides individuelles | 1'057'603.39 | 1'189'422 | 983'936.34  |
+|  **38 Attributions aux fonds et aux financements spéciaux** | **3'112'939.49** | **2'238'525** | **2'244'939.23**  |
+|  380 Attributions aux fonds de réserve et de renouvellement | 2'157'648.80 | 1'353'600 | 1'254'388.60  |
+|  381 Attributions aux financements spéciaux | 955'290.69 | 884'925 | 990'550.63  |
+|  **39 Imputations internes** | **620'062.37** | **691'150** | **1'106'751.15**  |
+|  390 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15  |
+
+
+
+# CHARGES ET REVENUS PAR NATURES
+
+|  Ville de La Tour-de-Peilz |   | Comptes 2025 | Budget 2025 (v3/CEB) | Comptes 2024  |
+| --- | --- | --- | --- | --- |
+|  **4** | **Revenus** | **78'291'230.67** | **85'925'219** | **81'773'738.44**  |
+|  **40** | **Impôts** | **52'014'506.35** | **54'673'000** | **52'705'076.05**  |
+|  400 | Impôts sur le revenu, la fortune et impôt personnel | 36'638'983.15 | 39'820'000 | 34'298'709.45  |
+|  401 | Impôts sur le bénéfice net et le capital des personnes morales | 9'225'837.50 | 8'610'000 | 8'936'500.98  |
+|  402 | Impôt foncier | 3'546'471.85 | 3'420'000 | 3'370'826.35  |
+|  404 | Droits de mutation | 1'462'156.35 | 1'810'000 | 3'393'757.55  |
+|  405 | Impôts sur les successions et donations | 1'014'203.70 | 810'000 | 2'550'290.70  |
+|  406 | Impôts, taxes sur possession et dépense | 55'200.00 | 53'000 | 54'600.00  |
+|  409 | Impôts récupérés après défalcation | 71'653.80 | 150'000 | 100'391.02  |
+|  **41** | **Patentes, concessions** | **565'939.55** | **402'000** | **387'117.75**  |
+|  411 | Concessions | 565'939.55 | 402'000 | 387'117.75  |
+|  **42** | **Revenus du patrimoine** | **4'423'122.39** | **4'360'375** | **4'385'654.02**  |
+|  422 | Revenus des capitaux du patrimoine financier | 356'735.58 | 425'000 | 372'789.37  |
+|  423 | Revenus des immeubles du patrimoine financier | 2'638'054.71 | 2'642'300 | 2'644'650.96  |
+|  425 | Revenus des prêts et participations du patrimoine administratif | 498'000.00 | 366'300 | 401'662.00  |
+|  427 | Revenus des immeubles du patrimoine administratif | 930'332.10 | 926'775 | 966'551.69  |
+|  **43** | **Taxes, émoluments, produits des ventes** | **6'395'646.69** | **5'849'769** | **6'067'208.18**  |
+|  430 | Taxes légales de remplacement | 229'335.00 | 150'000 | 0.00  |
+|  431 | Emoluments | 434'403.54 | 269'500 | 298'870.52  |
+|  433 | Ecolage | 1'042'129.61 | 1'214'150 | 1'197'837.49  |
+|  434 | Taxes de raccordement et d'utilisation | 2'422'491.92 | 2'336'000 | 2'364'145.23  |
+|  435 | Ventes et prestations de service | 1'451'537.45 | 1'100'850 | 1'308'493.89  |
+|  436 | Remboursements de tiers | 597'464.25 | 593'069 | 673'669.99  |
+|  437 | Amendes | 3'181.45 | 2'000 | 2'805.20  |
+|  439 | Autres recettes | 215'103.47 | 184'200 | 221'385.86  |
+|  **44** | **Parts à des recettes cantonales** | **993'913.15** | **1'350'000** | **1'480'101.05**  |
+|  441 | Parts à des recettes cantonales | 993'913.15 | 1'350'000 | 1'480'101.05  |
+
+
+
+# CHARGES ET REVENUS PAR NATURES
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 | Budget 2025 (v3/CEB) | Comptes 2024  |
+| --- | --- | --- | --- |
+|  **45 Participations et remboursements de collectivités publiques** | **6'807'883.56** | **3'363'600** | **12'624'875.52**  |
+|  451 Participations et remboursements du canton | 1'931'131.56 | 1'527'400 | 2'026'582.17  |
+|  452 Participations de communes et d'associations de communes, remboursements | 4'876'752.00 | 1'836'200 | 10'598'293.35  |
+|  **46 Autres prestations et subventions** | **460'188.90** | **113'000** | **306'734.66**  |
+|  465 Participations et subventions de tiers | 439'288.90 | 93'800 | 240'108.90  |
+|  469 Dons et legs | 20'900.00 | 19'200 | 66'625.76  |
+|  **48 Prélèvements sur les fonds et financements spéciaux** | **6'009'967.71** | **15'122'325** | **2'710'220.06**  |
+|  480 Prélèvements sur les fonds de réserve et de renouvellement | 3'986'843.25 | 11'950'275 | 1'813'900.15  |
+|  481 Prélèvements sur les financements spéciaux | 2'023'124.46 | 3'172'050 | 896'319.91  |
+|  **49 Imputations internes** | **620'062.37** | **691'150** | **1'106'751.15**  |
+|  490 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15  |
+
+
+
+# AUTOFINANCEMENT
+
+|  Ville de La Tour-de-Peilz | Comptes 2025 | Budget 2025 | Comptes 2024 | Comptes 2023 | Comptes 2022 | Comptes 2021  |
+| --- | --- | --- | --- | --- | --- | --- |
+|  3 Total charges | 78'250'659.17 | 85'886'542 | 81'728'762.36 | 81'312'537.20 | 78'202'326.69 | 80'274'255.63  |
+|  33 Amortissements | 6'031'477.32 | 10'883'620 | 3'963'354.23 | 3'129'792.48 | 4'597'237.10 | 4'685'656.62  |
+|  38 Attributions aux fonds de réserve | 3'112'939.49 | 2'238'525 | 2'244'939.23 | 3'360'640.27 | 3'268'756.95 | 4'615'797.13  |
+|  39 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15 | 1'088'760.01 | 1'066'015.99 | 1'054'554.97  |
+|  **Charges nettes** | **68'486'179.99** | **72'073'247** | **74'413'717.75** | **73'733'344.44** | **69'270'316.65** | **69'918'246.91**  |
+|  4 Total revenus | 78'291'230.67 | 85'925'219 | 81'773'738.44 | 81'364'432.60 | 78'229'511.35 | 80'350'008.91  |
+|  48 Prélèvements sur fonds de réserve | 6'009'967.71 | 15'122'325 | 2'710'220.06 | 1'938'793.92 | 3'488'856.94 | 3'141'971.56  |
+|  49 Imputations internes | 620'062.37 | 691'150 | 1'106'751.15 | 1'088'760.01 | 1'066'015.99 | 1'054'554.97  |
+|  **Revenus nets** | **71'661'200.59** | **70'111'744** | **77'956'767.23** | **78'336'878.67** | **73'674'638.42** | **76'153'482.38**  |
+|  **Résultat exercice** | **40'571.50** | **38'677** | **44'976.08** | **51'895.40** | **27'184.66** | **75'753.28**  |
+|  **Marge d'autofinancement** | **3'175'020.60** | **-1'961'503** | **3'543'049.48** | **4'603'534.23** | **4'404'321.77** | **6'235'235.47**  |
+
+Marge d'autofinancement moyenne 2021-2025 4'392'232
+
+Impôts conjoncturels (mutations - successions - gains immobiliers) 3'273'580.50 3'750'000 7'363'570.25 3'044'784.65 4'417'514.50 3'820'761.50
+
+Impôts conjoncturels moyens 2021-2025 4'384'042
+
+
+
+Compte des investissements
+
+
+
+# PLAN DES DÉPENSES D'INVESTISSEMENT
+
+|  **5** | **DEPENSES** | **10'704'484.13**  |
+| --- | --- | --- |
+|  **50** | **Investissements** | **10'684'405.28**  |
+|  501 | Ouvrages de génie civil et d'assainissement | 2'076'259.72  |
+|  503 | Bâtiments et constructions | 8'043'770.12  |
+|  505 | Forêts | 0.00  |
+|  506 | Mobilier, machines, véhicules | 506'543.44  |
+|  507 | Marchandises et approvisionnements | 0.00  |
+|  509 | Autres biens | 57'832.00  |
+|  **52** | **Prêts et participations permanentes** | **0.00**  |
+|  522 | Communes et associations de communes | 0.00  |
+|  525 | Autres prêts et participation | 0.00  |
+|  **56** | **Subventions d'investissements** | **0.00**  |
+|  562 | Communes et association de communes | 0.00  |
+|  565 | Autres subventions | 0.00  |
+|  **58** | **Autres investissements** | **20'078.85**  |
+|  581 | Indemnités d'expropriation | 0.00  |
+|  589 | Autres dépenses d'investissement | 20'078.85  |
+|  **6** | **RECETTES** | **8'627'753.49**  |
+|  **60** | **Transferts au patrimoine financier** | **0.00**  |
+|  609 | Transferts au patrimoine financier | 0.00  |
+|  **61** | **Participation de tiers** | **250'030.77**  |
+|  619 | Participation de tiers | 250'030.77  |
+|  **62** | **Remboursement de prêts et participations** | **70'000.00**  |
+|  622 | Communes et associations de Communes | 0.00  |
+|  625 | Autres remboursement | 70'000.00  |
+|  **66** | **Subventions** | **2'281'607.05**  |
+|  661 | Canton | 2'281'607.05  |
+|  662 | Communes ou association de communes | 0.00  |
+|  669 | Autres subventions | 0.00  |
+|  **68** | **Reprise des amortissements et réserves** | **6'026'115.67**  |
+|  681 | Reprise des amortissements | 721'792.75  |
+|  689 | Reprise des réserves | 5'304'322.92  |
+|  **59** | **Diminution des investissements (chiffre 6 moins chiffre 5)** | **-**  |
+|  **69** | **Augmentation des investissements (chiffre 5 moins chiffre 6)** | **2'076'730.64**  |
+
+
+
+# DÉTAIL DES COMPTES D'INVESTISSEMENT
+
+|  Numéro | Objet | Nat. | Compte | Dépenses | Nat. | Compte | Recettes | Nat. | Compte | Amort.  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **OBJETS EN COURS**  |   |   |   |   |   |   |   |   |   |   |
+|  **914 - Investissements du patrimoine administratif**  |   |   |   |   |   |   |   |   |   |   |
+|  **9141 - Ouvrages génie civil et assainissement**  |   |   |   |   |   |   |   |   |   |   |
+|  9141.060.00 | Travaux - Route et éclairage public RC 780 EdV - Maladaire | 501 | 430.5010.26 | 108'932.05 | 661 | 430.6610.26 | 0.00 |  |  |   |
+|   |  | 501 | 460.5010.26 | 0.00 |  |  |  |  |  |   |
+|  9141.063.00 | Travaux - Avenue du Clos-d'Aubonne | 501 | 430.5010.29 | 12'271.30 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.29 | 7'292.95 |  |  |  |  |  |   |
+|  9141.068.00 | Travaux - Aménagements urbains Place des Anciens-Fossés | 501 | 440.5010.04 | 21'483.16 |  |  |  |  |  |   |
+|  9141.069.00 | Travaux - Boulevard d'Arcangier (vote 2024) | 501 | 430.5010.30 | 130'509.20 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.30 | 13'353.40 |  |  |  |  |  |   |
+|  9141.070.00 | Travaux - Zone 30 Bulesses-Béranges | 501 | 430.5010.31 | 561'642.85 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.31 | 34'246.69 |  |  |  |  |  |   |
+|  9141.071.00 | Travaux - Ass. bruit routier 30 km/h nuit | 501 | 430.5010.33 | 42'608.10 |  |  |  |  |  |   |
+|  9141.072.00 | Travaux - Aménagements urbains Place des Anciens-Fossés | 501 | 430.5010.32 | 28'853.20 |  |  |  |  |  |   |
+|  9141.073.00 | Travaux - Place de jeux Parc Fesquet | 501 | 440.5010.05 | 337'623.24 |  |  |  |  |  |   |
+|  9141.074.00 | Travaux - Ch. Bulesses, Baumes, Muraz et Levant | 501 | 430.5010.34 | 216'647.27 |  |  |  |  |  |   |
+|   |  | 501 | 450.5010.01 | 0.00 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.32 | 293'320.58 |  |  |  |  |  |   |
+|  9141.075.00 | Microforêt Vassin (P20/25) | 501 | 440.5010.06 | 1'762.21 |  |  |  |  |  |   |
+|  9141.077.00 | Travaux - Plage Maladaire | 501 | 450.5010.02 | 0.00 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.33 | 0.00 |  |  |  |  |  |   |
+|   |  | 501 | 471.5010.04 | 27'066.94 |  |  |  |  |  |   |
+|  9141.078.00 | Travaux - Ch. Bulesses, Baumes, Muraz et Levant | 501 | 430.5010.35 | 32'134.62 |  |  |  |  |  |   |
+|   |  | 501 | 450.5010.03 | 0.00 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.34 | 9'865.38 |  |  |  |  |  |   |
+|  9141.079.00 | Travaux - Av. de la Gare | 501 | 430.5010.36 | 22'979.42 |  |  |  |  |  |   |
+|   |  | 501 | 460.5010.35 | 2'496.66 |  |  |  |  |  |   |
+|  **9143 - Bâtiments et constructions à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  9143.090.00 | Travaux - Nouveau Collège Courbet (P11/19) | 503 | 501.5030.25 | 93'726.38 | 609 | 501.6090.25 | 0.00 |  |  |   |
+|   |  | 503 | 501.5030.26 | 0.00 | 619 | 501.6190.25 | 0.00 |  |  |   |
+|   |  |  |  |  | 661 | 501.6610.25 | 2'148'297.00 |  |  |   |
+|   |  |  |  |  | 669 | 501.6690.25 | 0.00 |  |  |   |
+|  9143.098.00 | Travaux - Extension photovoltaïque Collège Courbet | 503 | 501.5030.28 | 0.00 |  |  |  |  |  |   |
+|  9143.101.00 | Travaux - Rénovation mur nord et courtines Château | 503 | 350.5030.18 | 0.00 | 661 | 350.6610.18 | 0.00 |  |  |   |
+|  9143.102.00 | Travaux - Inst. photov. Baumes 22/24 et Béranges 74 | 503 | 340.5030.17 | 0.00 | 619 | 340.6190.01 | 49'545.60 |  |  |   |
+|  9143.103.00 | Travaux - Vestiaires séparés Béranges 111 | 503 | 350.5030.20 | 6'846.55 |  |  |  |  |  |   |
+|  9143.104.00 | Travaux - Rénovation Maison Charlemagne | 503 | 350.5030.21 | 1'151'502.29 |  |  |  |  |  |   |
+|  9143.105.00 | Travaux - Rénovation (suite) murs Château | 503 | 350.5030.22 | 84'922.15 |  |  |  |  |  |   |
+|  9143.106.00 | Travaux - Collège Marronniers - écrans interactifs | 503 | 501.5030.31 | 134'593.52 |  |  |  |  |  |   |
+|  9143.107.00 | Travaux - Garderie du Gregnolet | 503 | 350.5030.23 | 3'563'641.84 |  |  |  |  |  |   |
+|  9143.108.00 | Travaux - Collège Mousquetaires - Assainissement et extension | 503 | 501.5030.30 | 2'794'708.97 |  |  |  |  |  |   |
+|  9143.109.00 | Travaux - Entr. préventif/curatif vestiges Château | 503 | 350.5030.24 | 4'442.90 |  |  |  |  |  |   |
+|  **9146 - Mobilier, machines, véhicules à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  9146.021.00 | Solution gestion temps et frais Mobetime | 589 | 190.5890.05 | 0.00 |  |  |  |  |  |   |
+|  9146.025.00 | Travaux - Collège Mousquetaires – Ameublement et décoration | 506 | 501.5060.02 | 0.00 |  |  |  |  |  |   |
+|  9146.026.00 | Acquisition - Balayeuse Ravo E2-2025 | 506 | 430.5060.05 | 253'133.45 |  |  |  |  |  |   |
+|  9146.027.00 | Travaux - Remplacement éclairage bâtiments scolaires | 506 | 501.5060.03 | 140'075.77 |  |  |  |  |  |   |
+|  9146.028.00 | Travaux - Plateforme participative Climaxion | 506 | 190.5060.00 | 33'727.20 |  |  |  |  |  |   |
+|  9146.029.00 | Travaux - Renouvellement horodateurs | 506 | 431.5060.01 | 79'607.02 |  |  |  |  |  |   |
+|  **917 - Autres dépenses à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  **9170 - Autres dépenses à amortir (crédits d'études en cours)**  |   |   |   |   |   |   |   |   |   |   |
+|  9170.040.00 | Etude - Chemin pédestre en bordure du lac (P01/21) | 501 | 471.5017.00 | 13'481.10 | 661 | 471.6617.02 | 51'636.25 |  |  |   |
+|  9170.059.00 | Etude - Château de La Tour-de-Peilz (P01/15) | 503 | 350.5037.00 | 0.00 |  |  |  |  |  |   |
+|  9170.072.00 | Etude - Transf. et rénovation Château | 503 | 350.5037.02 | 120'077.35 |  |  |  |  |  |   |
+|  9170.074.00 | Etude - Ass. énergétique et technique Ch. de Béranges 111 | 503 | 350.5037.03 | 0.00 |  |  |  |  |  |   |
+|  9170.081.00 | Etude - Projet pilote GED conventions et contrats | 506 | 190.5067.00 | 0.00 |  |  |  |  |  |   |
+|  9170.091.00 | Etude - Remplacement éclairage scolaire | 503 | 501.5037.02 | 65'743.20 |  |  |  |  |  |   |
+|  9170.092.00 | Etude - Réaménagement et zone 30 km/h Vallon/Cèdre | 501 | 430.5017.04 | 21'615.95 |  |  |  |  |  |   |
+|  9170.095.00 | Etude - Jardins de l'Oyonne | 501 | 440.5017.00 | 0.00 |  |  |  |  |  |   |
+|  9170.096.00 | Etude - Voie verte intercommunale tronçon Est | 501 | 430.5017.07 | 538.90 |  |  |  |  |  |   |
+
+
+
+## DÉTAIL DES COMPTES D'INVESTISSEMENT
+
+|  Numéro | Objet | Nat. | Compte | Dépenses | Nat. | Compte | Recettes | Nat. | Compte | Amort.  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  9170.097.00 | Etude - Ville du Jeu | 509 | 150.5097.00 | 57'832.00 | 661 | 150.6617.00 | 54'000.00 |  |  |   |
+|  9170.098.00 | Etude - Réam. Av. des Alpes (prop 137/2023) | 501 | 430.5017.08 | 0.00 |  |  |  |  |  |   |
+|  9170.099.00 | Etude - Réam. Av. des Baumes (prop 137/2023) | 501 | 430.5017.09 | 0.00 |  |  |  |  |  |   |
+|  9170.100.00 | Etude - Réam. Grand-Rue (prop 137/2023) | 501 | 430.5017.10 | 0.00 |  |  |  |  |  |   |
+|  9170.101.00 | Etude - Renaturation embouchure Ognonnaz (prop 136/2023) | 501 | 471.5017.02 | 7'085.95 | 619 | 471.6197.01 | 3'543.00 |  |  |   |
+|   |  |  |  |  | 661 | 471.6617.00 | 0.00 |  |  |   |
+|  9170.105.00 | Etude - Réaménagement carrefour Chailly/Pérouge et Sully | 501 | 430.5017.12 | 43'220.95 | 661 | 430.6610.06 | 11'179.14 |  |  |   |
+|  9170.106.00 | Etude - Zone 30 km/h Edouard-Müller | 501 | 430.5017.11 | 4'700.00 |  |  |  |  |  |   |
+|  9170.107.00 | Etude - PA secteur Campagne Rossier | 501 | 400.5897.00 | 20'078.85 |  |  |  |  |  |   |
+|  9170.108.00 | Etude - Maison des Alnés | 501 | 352.5037.00 | 0.00 |  |  |  |  |  |   |
+|  9170.109.00 | Etude - Transformation et rénovation Béranges 111 | 501 | 350.5037.06 | 11'081.82 |  |  |  |  |  |   |
+|  9170.110.00 | Etude - Façades et mobilier CC Maison Hugonin | 501 | 350.5037.05 | 12'483.15 |  |  |  |  |  |   |
+|  **9170 - Autres dépenses à amortir (crédits d'études transférés vers crédits de réalisation)**  |   |   |   |   |   |   |   |   |   |   |
+|  9170.088.00 | Etude - Réaménagement Avenue de la Gare | 501 | 430.5017.03 | 0.00 | 619 | 430.6197.03 | 25'476.08 |  |  |   |
+|  9170.093.00 | Etude - Réaménagement Bulesses et séparatif Baumes 19-35 | 501 | 430.5017.05 | 10'001.05 | 619 | 430.6197.04 | 49'717.85 |  |  |   |
+|  9170.094.00 | Etude - Réaménagement et zone 30 km/h Vassin/Murs-Blancs | 501 | 430.5017.06 | 42'000.00 | 619 | 430.6197.05 | 42'000.00 |  |  |   |
+|  9170.102.00 | Etude - Renaturation grève Maladaire | 501 | 471.5017.03 | 28'526.60 | 619 | 471.6197.02 | 26'968.24 |  |  |   |
+|   |  |  |  |  | 661 | 471.6617.01 | 16'494.66 |  |  |   |
+|  **OBJETS TERMINÉS (AMORTISSEMENTS EN COURS)**  |   |   |   |   |   |   |   |   |   |   |
+|  **914 - Investissements du patrimoine administratif**  |   |   |   |   |   |   |   |   |   |   |
+|  **9141 - Ouvrages génie civil et assainissement**  |   |   |   |   |   |   |   |   |   |   |
+|  9141.056.00 | Travaux - Ass éclairage publ mercure (P10/19) [25] |  |  |  |  |  |  | 689 | 430.6890.33 | 619'422.20  |
+|  9141.058.00 | Travaux - Mise en conformité gare CFF (P20/19) [25] |  |  |  |  |  |  | 689 | 430.6890.34 | 232'310.55  |
+|   |  |  |  |  |  |  |  | 689 | 460.6890.29 | 264'481.59  |
+|  9141.061.00 | Travaux – Assainissement Bulesses - Croton |  |  |  |  |  |  | 689 | 430.6890.27 | 1'554'376.15  |
+|   |  |  |  |  |  |  |  | 689 | 460.6890.27 | 1'046'081.00  |
+|  9141.064.00 | Travaux - Réam. et sécu. Ch. du Gregnolet |  |  |  |  |  |  | 689 | 430.6890.32 | 588'159.56  |
+|   |  |  |  |  |  |  |  | 689 | 460.6890.28 | 290'738.75  |
+|  9141.065.00 | Travaux - Réam. ruisseau Sully (Rte de Chailly - Voies CFF) |  |  |  |  |  |  | 689 | 471.6890.03 | 151'090.78  |
+|  9141.066.00 | Travaux - Place de jeux du Château |  |  |  |  |  |  | 689 | 440.6890.04 | 320'152.20  |
+|  **9143 - Bâtiments et constructions à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  9143.061.00 | Parking Centre-Ville (P11/11) |  |  |  |  |  |  | 681 | 341.6810.00 | 46'672.75  |
+|  9143.063.00 | Travaux - Inst. photov. Mousquet. (P10/12) [14-33] |  |  |  |  |  |  | 681 | 501.6890.15 | 15'000.00  |
+|  9143.068.00 | Réaménagement du centre-ville (P11/13) [16-35] |  |  |  |  |  |  | 681 | 310.6810.00 | 290'000.00  |
+|  9143.072.00 | Travaux - Inst. photov. Remparts (P17/14) |  |  |  |  |  |  | 689 | 350.6890.07 | 6'206.20  |
+|  9143.075.00 | Transformation cuisine Croqu'Lune (P18/15) |  |  |  | 619 | 350.6190.03 | 52'780.00 |  |  |   |
+|  9143.079.00 | Travaux - Inst. photov. Coll. Bel-Air (P29/16) [19-28] |  |  |  |  |  |  | 689 | 501.6890.19 | 14'400.00  |
+|  9143.080.00 | Restauration Temple St-Théodule |  |  |  |  |  |  | 681 | 580.6810.00 | 96'800.00  |
+|  9143.083.00 | Installations techniques Mousquetaires |  |  |  |  |  |  | 681 | 501.6810.08 | 98'520.00  |
+|  9143.084.00 | Travaux - Rénovation Maison de Commune (P17/17) [22-41] |  |  |  |  |  |  | 681 | 350.6810.01 | 189'800.00  |
+|  9143.087.00 | Travaux - Inst. photov. MdC (p46/18) [22-31] |  |  |  |  |  |  | 689 | 350.6890.08 | 3'900.00  |
+|  9143.100.00 | Travaux - Pavillons UAPE Collège étape 3 |  |  |  |  |  |  | 689 | 350.6890.17 | 175'485.94  |
+|  **9146 - Mobilier, machines, véhicules à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  9146.024.00 | Travaux - Serrures Collège des Mousquetaires |  |  |  |  |  |  | 689 | 501.6890.25 | 22'518.00  |
+|  **916 - Subventions et participations à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  **9162 - Suventions et participations à des investissements à associations de communes**  |   |   |   |   |   |   |   |   |   |   |
+|  -  |   |   |   |   |   |   |   |   |   |   |
+|  **9165 - Autres subventions et participations à des investissements à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  9165.006.00 | Part. à la SA Parking Centre-Ville |  |  |  | 625 | 200.6250.00 | 70'000.00 |  |  |   |
+|  **917 - Autres dépenses à amortir**  |   |   |   |   |   |   |   |   |   |   |
+|  **9170 - Autres dépenses à amortir (crédits d'études)**  |   |   |   |   |   |   |   |   |   |   |
+|  -  |   |   |   |   |   |   |   |   |   |   |
+|  **TOTAUX** |   |  |  | **10'704'484.13** |  |  | **2'601'637.82** |  |  | **6'026'115.67**  |
+
+
+
+## DÉTAIL DES COMPTES D'INVESTISSEMENT
+
+|  Numéro | Objet | Nat. | Compte | Dépenses | Nat. | Compte | Recettes | Nat. | Compte | Amort.  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **RÉCAPITULATION**  |   |   |   |   |   |   |   |   |   |   |
+|   |  | 501 |  | 2'119'903.54 | 609 |  | 0.00 | 681 |  | 736'792.75  |
+|   |  | 503 |  | 8'020'205.15 | 619 |  | 250'030.77 | 689 |  | 5'289'322.92  |
+|   |  | 504 |  | 0.00 | 622 |  | 0.00 |  |  |   |
+|   |  | 505 |  | 0.00 | 625 |  | 70'000.00 |  |  |   |
+|   |  | 506 |  | 506'543.44 | 661 |  | 2'281'607.05 |  |  |   |
+|   |  | 507 |  | 0.00 | 662 |  | 0.00 |  |  |   |
+|   |  | 509 |  | 57'832.00 | 669 |  | 0.00 |  |  |   |
+|   |  | 522 |  | 0.00 |  |  |  |  |  |   |
+|   |  | 525 |  | 0.00 |  |  |  |  |  |   |
+|   |  | 562 |  | 0.00 |  |  |  |  |  |   |
+|   |  | 565 |  | 0.00 |  |  |  |  |  |   |
+|   |  | 581 |  | 0.00 |  |  |  |  |  |   |
+|   |  | 589 |  | 0.00 |  |  |  |  |  |   |
+|  **TOTAUX** |   |  |  | **10'704'484.13** |  |  | **2'601'637.82** |  |  | **6'026'115.67**  |
+|  Dépenses - recettes - amortissements = écart bilan |   |  |  | **2'076'730.64** |  |  |  |  |  |   |
+|  Contrôle bilan |   |  |  | **2025** |  |  | **2024** |  |  | **Ecart**  |
+|   |  | 914 |  | 53'970'170.11 |  |  | 52'000'891.12 |  |  | 1'969'278.99  |
+|   |  | 915 |  | 1'664'187.00 |  |  | 1'664'187.00 |  |  | 0.00  |
+|   |  | 916 |  | 2'620'000.00 |  |  | 2'690'000.00 |  |  | -70'000.00  |
+|   |  | 917 |  | 2'386'225.53 |  |  | 2'208'773.88 |  |  | 177'451.65  |
+|  **TOTAUX** |   |  |  | **60'640'582.64** |  |  | **58'563'852.00** |  |  | **2'076'730.64**  |
+
+
+
+Bilan
+
+
+
+# BILAN AU 31 DÉCEMBRE 2025
+
+|  91 | ACTIF | 2025 | 2024  |
+| --- | --- | --- | --- |
+|  **910** | **Disponibilités** | **3'293'442.33** | **6'068'389.95**  |
+|  9100 | Caisse | 28'911.90 | 12'463.50  |
+|  9101 | Chèques postaux | 778'302.83 | 1'015'771.23  |
+|  9102 | Banques | 2'486'227.60 | 5'040'155.22  |
+|  **911** | **Débiteurs et comptes-courants** | **15'612'268.40** | **16'281'313.81**  |
+|  9111 | Comptes-courants débiteurs | 602'803.24 | 145'880.70  |
+|  9112 | Impôts à encaisser | 10'485'494.60 | 11'269'007.88  |
+|  9114 | Participations et subventions à recevoir | 0.00 | 0.00  |
+|  9115 | Autres débiteurs | 4'228'513.57 | 4'541'300.65  |
+|  9119 | Autres créances | 295'456.99 | 325'124.58  |
+|  **912** | **Placements du patrimoine financier** | **26'657'799.92** | **25'082'707.78**  |
+|  9120 | Titres et placements | 17'226.35 | 1'330.00  |
+|  9122 | Prêts | 0.00 | 0.00  |
+|  9123 | Terrains et bâtiments | 26'592'355.27 | 25'016'864.53  |
+|  9129 | Autres biens du patrimoine financier | 48'218.30 | 64'513.25  |
+|  **913** | **Actifs transitoires** | **5'844'870.79** | **2'015'831.13**  |
+|  9139 | Transitoires | 5'844'870.79 | 2'015'831.13  |
+|  **914** | **Investissements du patrimoine administratif** | **53'970'170.11** | **52'000'891.12**  |
+|  9141 | Ouvrages de génie civil et d'assainissement à amortir | 7'527'949.39 | 10'689'672.95  |
+|  9143 | Bâtiments et constructions à amortir | 45'794'307.03 | 41'147'329.92  |
+|  9144 | Installations des services industriels | 1.00 | 1.00  |
+|  9145 | Forêts | 1.00 | 1.00  |
+|  9146 | Mobilier, machines et véhicules à amortir | 647'910.69 | 163'885.25  |
+|  9149 | Immeubles administratifs | 1.00 | 1.00  |
+|  **915** | **Prêts et capitaux de dotations** | **1'664'187.00** | **1'664'187.00**  |
+|  9152 | Prêts et capitaux de dotations sans obligation légale d'amortir | 2.00 | 2.00  |
+|  9153 | Titres et papiers valeur | 1'664'185.00 | 1'664'185.00  |
+|  **916** | **Subventions et participations à amortir** | **2'620'000.00** | **2'690'000.00**  |
+|  9162 | Subv. et part. invest. à assoc. Communes | 0.00 | 0.00  |
+|  9165 | Autres subv. et part. d'investissements amortissables | 2'620'000.00 | 2'690'000.00  |
+|  **917** | **Autres dépenses à amortir** | **2'386'225.53** | **2'208'773.88**  |
+|  9170 | Autres dépenses | 2'386'225.53 | 2'208'773.88  |
+|  **918** | **Avances aux financements spéciaux** | **0.00** | **0.00**  |
+|  9180 | Avances aux financements spéciaux | 0.00 | 0.00  |
+|  **919** | **Découvert** | **0.00** | **0.00**  |
+|  9190 | Découvert | 0.00 | 0.00  |
+|   | **TOTAL** | **112'048'964.08** | **108'012'094.67**  |
+
+
+
+|  **92** | **PASSIF** | **2025** | **2024**  |
+| --- | --- | --- | --- |
+|  **920** | **Engagements courants** | **5'469'638.86** | **5'645'914.83**  |
+|  9200 | Créanciers | 5'181'998.78 | 5'364'030.62  |
+|  9204 | Participations et subventions à verser | 0.00 | 0.00  |
+|  9206 | Comptes courants créanciers | 42'650.08 | 52'575.21  |
+|  9209 | Autres engagements courants | 244'990.00 | 229'309.00  |
+|  **921** | **Dettes à court terme** | **10'000'000.00** | **0.00**  |
+|  9210 | Dettes | 10'000'000.00 | 0.00  |
+|  **922** | **Emprunts à moyen et long terme** | **50'000'000.00** | **55'000'000.00**  |
+|  9221 | Emprunts | 50'000'000.00 | 55'000'000.00  |
+|  **923** | **Engagements propres établ. et fonds spéciaux** | **1'267'057.70** | **1'259'354.37**  |
+|  9233 | Fondations | 1'267'057.70 | 1'259'354.37  |
+|  **925** | **Passifs transitoires** | **6'036'221.50** | **3'974'322.73**  |
+|  9259 | Passifs transitoires | 6'036'221.50 | 3'974'322.73  |
+|  **928** | **Financements spéciaux et fonds de réserve** | **39'190'498.44** | **42'087'526.66**  |
+|  9280 | Fonds alimentés par des recettes affectées | 9'824'831.50 | 10'915'840.27  |
+|  9281 | Fonds de renouvellement et de rénovation | 8'788'133.01 | 8'118'049.98  |
+|  9282 | Fonds de réserve | 20'577'533.93 | 23'053'636.41  |
+|  **929** | **Capital** | **85'547.58** | **44'976.08**  |
+|  9290 | Capital | 85'547.58 | 44'976.08  |
+|   | **TOTAL** | **112'048'964.08** | **108'012'094.67**  |
+
+|  **CAUTIONNEMENTS** | **1'280'330.00** | **1'361'270.00**  |
+| --- | --- | --- |
+|  Domaine du Manoir de Ban SA - Musée Chaplin (préavis 22/2012, Fr. 1'140'000.--) | 780'330.00 | 861'270.00 (*)  |
+|  Fondation struct. accueil enfance LTDP et env. (préavis 15/2022, Fr. 500'000.--) | 500'000.00 | 500'000.00  |
+
+\* = Selon point de situation du 26.03.26 du Service de la promotion, de l'économie et de l'innovation (SPEI) du Canton
+
+
+
+# INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  91 | ACTIF | 2025  |
+| --- | --- | --- |
+|  **910** | **Disponibilités** | **3'293'442.33**  |
+|  **9100** | **Caisse** | **28'911.90**  |
+|  9100.001.00 | Caisse | 28'911.90  |
+|  **9101** | **Chèques postaux** | **778'302.83**  |
+|  9101.001.00 | Compte postal | 778'302.83  |
+|  **9102** | **Banques** | **2'486'227.60**  |
+|  9102.001.00 | BCV, u 0792.03.90 Fr. 12'500'000.-- | 2'479'970.60  |
+|  9102.011.00 | UBS SA, 255-880052.b1q | 6'257.00  |
+|  **911** | **Débiteurs et comptes-courants** | **15'612'268.40**  |
+|  9111 | Comptes-courants débiteurs | 602'803.24  |
+|  9112 | Impôts à encaisser | 10'485'494.60  |
+|  9115 | Autres débiteurs | 4'228'513.57  |
+|  9119 | Autres créances | 295'456.99  |
+|  **912** | **Placements du patrimoine financier** | **26'657'799.92**  |
+|  **9120** | **Titres et placements** | **17'226.35**  |
+|  9120.040.00 | Titres - Commune | 17'226.35  |
+|  **9122** | **Prêts** | **0.00**  |
+|  9122.002.00 | Sté coopérative du Manège de Villard | 0.00  |
+|  **9123** | **Terrains et bâtiments** | **26'592'355.27**  |
+|  9123.001.00 | Immeubles productifs | 23'078'000.00  |
+|  9123.004.00 | Valorisation Murs Blancs (P13/18) | 1'717'640.00  |
+|  9123.005.00 | Travaux - Crédit cadre rénovation patr fin (P22/22) | 1'529'379.87  |
+|  9123.006.00 | Travaux - Dépollution parcelle No 1116 (P15/24) | 267'335.40  |
+|  **9129** | **Autres biens du patrimoine financier** | **48'218.30**  |
+|  9129.640.09 | Stock mazout - Grand-Rue 50 | 4'457.40  |
+|  9129.640.14 | Stock mazout - Château 24 (gaz dès 02.25) | 0.00  |
+|  9129.640.17 | Stock mazout - Béranges 51 | 6'495.20  |
+|  9129.640.18 | Stock pelets - Béranges 53 | 2'614.65  |
+|  9129.640.19 | Stock mazout - Béranges 74 | 8'693.65  |
+|  9129.640.24 | Stock mazout - Perrausaz 2 | 4'107.55  |
+|  9129.640.60 | Stock mazout - Traménaz 24 | 5'900.90  |
+|  9129.640.64 | Stock mazout - Baumes 22 | 7'925.10  |
+|  9129.640.65 | Stock mazout - Baumes 24 | 8'023.85  |
+|  **913** | **Actifs transitoires** | **5'844'870.79**  |
+|  9139 | Transitoires | 5'844'870.79  |
+|  **914** | **Investissements du patrimoine administratif** | **53'970'170.11**  |
+|  **9141** | **Ouvrages de génie civil et d'assainissement à amortir** | **7'527'949.39**  |
+|  9141.060.00 | Travaux - RC780 EdV-Maladaire (P08/20) [26] | 3'678'502.03  |
+|  9141.063.00 | Travaux - Ass. Clos Aubonne-Gare-T (P03/22) [26] | 2'014'778.99  |
+|  9141.068.00 | Travaux - Aménag. urbains Pl Anciens.-Foss. (P13/24) [26-35] | 28'338.16  |
+|  9141.069.00 | Travaux – Boulevard d'Arcangier (P04/24) [26-65] | 158'067.45  |
+
+
+
+# INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  9141.070.00 | Travaux - Zone 30 Bulesses-Béranges (P17/24) [26-65] | 632'905.14  |
+| --- | --- | --- |
+|  9141.071.00 | Travaux - Ass. bruit routier 30 km/h nuit (P19/24) [26-65] | 42'608.10  |
+|  9141.072.00 | Travaux - Zone 30 Mousquetaires-Paix (P26/24) [26-65] | 28'853.20  |
+|  9141.073.00 | Travaux - Place de jeux Parc Fesquet (P38/24) [26-35] | 337'623.24  |
+|  9141.074.00 | Travaux - Ch. Bulesses, Baumes, Muraz et Levant (P14/25) | 509'967.85  |
+|  9141.075.00 | Travaux - Microforêt Vassin (P20/25) | 1'762.21  |
+|  9141.077.00 | Travaux - Plage Maladaire (P33/25) | 27'066.94  |
+|  9141.078.00 | Travaux - Ch. Murs-Blancs, Vassin, av. Perrausaz (P32/25) | 42'000.00  |
+|  9141.079.00 | Travaux - Av. de la Gare (P31/25) | 25'476.08  |
+|  **9143** | ***Bâtiments et constructions à amortir*** | **45'794'307.03**  |
+|  9143.063.00 | Travaux - Inst. photov. Mousquet. (P10/12) [14-33] | 120'000.00  |
+|  9143.068.00 | Réaménagement du centre-ville (P11/13) [16-35] | 2'892'050.51  |
+|  9143.079.00 | Travaux - Inst. photov. Coll. Bel-Air (P29/16) [19-28] | 43'157.14  |
+|  9143.080.00 | Restauration Temple Saint-Théodule (P27/16) [21-40] | 1'450'729.03  |
+|  9143.083.00 | Inst. techniques Mousquetaires (P06/17) [20-29] | 394'076.00  |
+|  9143.084.00 | Travaux - Rénovation Maison de Commune (P17/17) [22-41] | 3'036'276.09  |
+|  9143.087.00 | Travaux - Inst. photov. MdC (p46/18) [22-31] | 22'443.80  |
+|  9143.090.00 | Travaux - Nouveau Collège Courbet (P11/19) | 28'603'948.95  |
+|  9143.101.00 | Travaux - Rénov mur nord et courtines Château (P02/23) [26] | 415'827.05  |
+|  9143.102.00 | Travaux - Inst. photov. Baum. 22/24 Bér. 74 (P12/23) [26-35] | 193'211.80  |
+|  9143.103.00 | Travaux - Vestiaires séparés Béranges 111 (P02/24) | 149'619.64  |
+|  9143.104.00 | Travaux - Rénovation Maison Charlemagne (P14/24) | 1'245'104.07  |
+|  9143.105.00 | Travaux - Rénovation (suite) murs Château (P16/24) [26-55] | 300'227.30  |
+|  9143.106.00 | Travaux - Coll Marronniers écrans interact. (P25/24) [26-35] | 134'593.52  |
+|  9143.107.00 | Travaux - Garderie du Gregnolet (P24/24) | 3'920'756.01  |
+|  9143.108.00 | Travaux - Collège Mousquetaires - Ass. et ext. (P27/24a) | 2'867'843.22  |
+|  9143.109.00 | Travaux – Entr. préventif/curatif vestiges Château (P16/25) | 4'442.90  |
+|  **9144** | ***Installations des services industriels*** | **1.00**  |
+|  9144.001.00 | Réseau d'éclairage public | 1.00  |
+|  **9145** | ***Forêts*** | **1.00**  |
+|  9145.001.00 | Forêts | 1.00  |
+|  **9146** | ***Mobilier, machines et véhicules à amortir*** | **647'910.69**  |
+|  9146.001.00 | Mobilier et matériel | 1.00  |
+|  9146.021.00 | Travaux - Solution gestion temps et frais Mobatime (P05/21) | 50'966.25  |
+|  9146.024.00 | Travaux - Serrures Coll. des Mousquetaires (P03/24) [25-29] | 90'400.00  |
+|  9146.026.00 | Acquisition - Balayeuse Ravo E2-2025 (P36/24) [26-31] | 253'133.45  |
+|  9146.027.00 | Travaux - Remplacement éclairage bâtiments scolaires | 140'075.77  |
+|  9146.028.00 | Travaux - Plateforme participative Climaxion (P15/25) | 33'727.20  |
+|  9146.029.00 | Achat – Renouvellement horodateurs (P12/25) | 79'607.02  |
+|  **9149** | ***Immeubles administratifs*** | **1.00**  |
+|  9149.001.00 | Immeubles administratifs | 1.00  |
+|  **915** | ***Prêts et capitaux de dotations*** | **1'664'187.00**  |
+|  **9152** | ***Prêts et capitaux de dotations sans obligation légale d'amortir*** | **2.00**  |
+|  9152.264.00 | Fondation du Musée Suisse du Jeu (Fr. 50'000.--) | 1.00  |
+|  9152.265.00 | Fondation struct. accueil (Fr. 10'000.--) | 1.00  |
+
+
+
+# INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  **9153** | **Titres et papiers valeur** | **1'664'185.00**  |
+| --- | --- | --- |
+|  9153.001.00 | Titres - Administratif | 1'664'185.00  |
+|  **916** | **Subventions et participations à amortir** | **2'620'000.00**  |
+|  **9162** | **Subv. et part. invest. à assoc. Communes** | **0.00**  |
+|  9162.002.00 | Finances du stade d'athlétisme de la Saussaz | 0.00  |
+|  **9165** | **Autres subv. et part. d'investissements amortissables** | **2'620'000.00**  |
+|  9165.006.00 | Part. à la SA Parking Centre-Ville | 2'620'000.00  |
+|  **917** | **Autres dépenses à amortir** | **2'386'225.53**  |
+|  9170.040.00 | Etude - Chemin pédestre en bordure du lac (P01/21) | 220'421.48  |
+|  9170.059.00 | Etude - Château de La Tour-de-Peilz (P01/15) | 448'436.92  |
+|  9170.072.00 | Etude - Rénovation Château La Tour-de-Peilz (P28/17) | 1'278'373.50  |
+|  9170.074.00 | Etude - Ass. énergétique et technique Ch. de Béranges 111 | 45'693.10  |
+|  9170.081.00 | Etude - Projet pilot GED conventions et contrats (p08/21) | 39'933.10  |
+|  9170.091.00 | Etude - Remplacement éclairage scolaire (p44/23) | 96'920.95  |
+|  9170.092.00 | Etude - Réaménagement et zone 30 km/h Vallon/Cèdre (p141/23) | 48'166.15  |
+|  9170.095.00 | Etude - Jardins de l'Oyonne (p83/23) | 35'000.00  |
+|  9170.096.00 | Etude - Voie verte intercommunale tronçon Est (p152/23) | 24'588.95  |
+|  9170.097.00 | Etude - Ville du Jeu (P20/24) | 13'832.00  |
+|  9170.098.00 | Etude - Réam. Av. des Alpes (p137/23) | 7'835.50  |
+|  9170.099.00 | Etude - Réam. Av. des Baumes (p137/23) | 8'000.00  |
+|  9170.100.00 | Etude - Réam. Grand-Rue (p137/23) | 16'000.00  |
+|  9170.101.00 | Etude - Renaturation embouchure Ognonnaz (p136/23) | 17'663.95  |
+|  9170.105.00 | Etude - Réam carrefour Chailly/Pérouge et Sully (p123/24) | 32'041.81  |
+|  9170.106.00 | Etude - Zone 30 km/h Edouard-Müller (p39/24) | 9'674.30  |
+|  9170.107.00 | Etude - PA secteur Campagne Rossier (P21/23) | 20'078.85  |
+|  9170.109.00 | Etude - Transformation et rénovation Béranges 111 (p61/25) | 11'081.82  |
+|  9170.110.00 | Etude - Façades et mobilier CC Maison Hugonin (SDOM) | 12'483.15  |
+|  **918** | **Avances aux financements spéciaux** | **0.00**  |
+|  9180.001.00 | Affectés - Gestion des déchets | 0.00  |
+|  **919** | **Découvert** | **0.00**  |
+|  9190.001.00 | Découvert | 0.00  |
+|   | **TOTAL** | **112'048'964.08**  |
+
+
+
+# INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  92 | PASSIF | 2025  |
+| --- | --- | --- |
+|  **920** | **Engagements courants** | **5'469'638.86**  |
+|  9200 | Créanciers | 5'181'998.78  |
+|  9204 | Participations et subventions à verser | 0.00  |
+|  9206 | Comptes courants créanciers | 42'650.08  |
+|  9209 | Autres engagements courants | 244'990.00  |
+|  **921** | **Dettes à court terme** | **10'000'000.00**  |
+|  9210.001.00 | Avances à terme fixe | 10'000'000.00  |
+|  9210.002.00 | BCV, u 0792.03.90 Fr. 12'500'000.-- | 0.00  |
+|  9210.003.00 | UBS SA, 255-880052.b1q | 0.00  |
+|  **922** | **Emprunts à moyen et long terme** | **50'000'000.00**  |
+|  9221.017.00 | Vaudoise 2012-2027, Fr. 5'000'000.--, 1.63% | 5'000'000.00  |
+|  9221.018.00 | LUPK 2013-2025, Fr. 5'000'000.--, 1.58% | 0.00  |
+|  9221.020.00 | SUVA 2016-2028, Fr. 5'000'000.--, 0.36% | 5'000'000.00  |
+|  9221.021.00 | SUVA 2020-2026, Fr. 5'000'000.--, 0.10% | 5'000'000.00  |
+|  9221.022.00 | BCV 2020-2029, Fr. 5'000'000.--, 0.20% | 5'000'000.00  |
+|  9221.023.00 | AEIS 2021-2026, Fr. 5'000'000.--, 0.00% | 5'000'000.00  |
+|  9221.024.00 | BCV 2021-2031, Fr. 5'000'000.--, 0.45% | 5'000'000.00  |
+|  9221.025.00 | VZ Depotbank AG 2021-2030, Fr. 5'000'000.--, 0.40% | 5'000'000.00  |
+|  9221.026.00 | SIGE 2022-2027, Fr. 5'000'000.--, 0% | 5'000'000.00  |
+|  9221.027.00 | AEIS 2023-2029, Fr. 5'000'000.--, 2.35% | 5'000'000.00  |
+|  9221.028.00 | Postfinance 2024-2028, Fr. 5'000'000.--, 1.00% | 5'000'000.00  |
+|  **923** | **Fondations** | **1'267'057.70**  |
+|  9233.001.00 | Echenard Frieda | 4'270.80  |
+|  9233.002.00 | Bonnet Rosa | 7'111.08  |
+|  9233.003.00 | Echanges de classes | 12'741.23  |
+|  9233.004.00 | Echenard René | 5'050.39  |
+|  9233.005.00 | Grangier Clémence | 45'340.14  |
+|  9233.006.00 | Guex Jules | 8'066.70  |
+|  9233.007.00 | Hugonin Aloïs | 206'962.85  |
+|  9233.008.00 | Mercier Jean | 221'438.10  |
+|  9233.009.00 | Morier-Genoud Priscilla | 3'572.82  |
+|  9233.010.00 | Nash Alice | 75'303.57  |
+|  9233.011.00 | Nestlé, cuisines scolaires | 11'693.16  |
+|  9233.012.00 | Nestlé, garderies d'enfants | 8'648.88  |
+|  9233.013.00 | Quillet Pierre | 99'185.46  |
+|  9233.015.00 | Robin Emile A | 10'940.66  |
+|  9233.016.00 | Robin Emile B | 0.00  |
+|  9233.017.00 | Robin Emile C | 11'667.38  |
+|  9233.018.00 | Roussy E.-L., clinique dentaire | 4'295.98  |
+|  9233.019.00 | Roussy E.-L., secours | 5'324.39  |
+|  9233.020.00 | Roussy Gaston, secours | 63'347.16  |
+|  9233.022.00 | Bringolf Richard | 98'142.46  |
+|  9233.023.00 | Grodmann Johann, en faveur d'école | 5'750.31  |
+|  9233.024.00 | Guédon Marcel, entretien tombe | 7'396.40  |
+|  9233.025.00 | Guédon Marcel, soins et loisirs | 33'513.18  |
+|  9233.027.00 | Mayer Florence, entretien tombe | 6'507.74  |
+|  9233.028.00 | Colonies de vacances | 258'707.86  |
+
+
+
+# INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  9233.029.00 | Activités pédagogiques dévelop. durable | 10'798.55  |
+| --- | --- | --- |
+|  9233.030.00 | Famille Grodtmann, entretien tombe | 41'280.45  |
+|  **925** | **Passifs transitoires** | **6'036'221.50**  |
+|  9259.001.01 | Transitoires SADM | 21'318.80  |
+|  9259.001.02 | Transitoires SFIN | 4'723'410.60  |
+|  9259.001.03 | Transitoires SDOM | 14'078.85  |
+|  9259.001.07 | Transitoires SFJSC | 3'965.45  |
+|  9259.002.00 | Dépôts de garantie | 8'000.00  |
+|  9259.005.00 | Musée scolaire | 4'821.80  |
+|  9259.007.02 | Compte d'attente loyers | 171'957.05  |
+|  9259.007.03 | Compte d'attente salaires | 134'103.00  |
+|  9259.007.09 | Encaissements non attribués | 1'224.01  |
+|  9259.007.10 | Rejets paiements BVR (PCE) | -1'495.75  |
+|  9259.008.00 | Cantourelle - Choeur écoles primaires | 3'492.73  |
+|  9259.008.01 | Choeur des écoles secondaires | 105'659.32  |
+|  9259.011.00 | Echanges de classes | 67'236.45  |
+|  9259.014.00 | Après-midi sportifs | 139'868.31  |
+|  9259.021.00 | Fonds de secours pour interventions (Appartement Sully 48) | 152'145.71  |
+|  9259.022.00 | Fonds structure d'accueil petite enfance (Villa Jaman 13) | 421'047.30  |
+|  9259.024.00 | Fonds soutien apprentissage musique | 43'894.37  |
+|  9259.026.00 | Ecoles - Prix OCOM MITIC | 500.00  |
+|  9259.030.10 | Locations futures Remparts (151.4271.08) | 1'780.00  |
+|  9259.030.13 | Locations futures bâtiments locatifs (340.4231.08) | -50.00  |
+|  9259.030.15 | Locations futures bâtiments scolaires (501.4271.07) | 200.00  |
+|  9259.030.16 | Locations futures Centre de Vassin (157.4271.07) | 1'120.00  |
+|  9259.121.10 | Ecoles - Réserve camps 11èmes (2021) | 5'000.00  |
+|  9259.125.04 | Ecoles - Camp 11VP2 (2025) | 4'208.50  |
+|  9259.126.03 | Ecoles - Camp 11VP1 (2026) | 4'935.00  |
+|  9259.126.05 | Ecoles - Camp 11VP3 (2026) | 3'800.00  |
+|  **928** | **Financements spéciaux et fonds de réserve** | **39'190'498.44**  |
+|  **9280** | **Fonds alimentés par des recettes affectées** | **9'824'831.50**  |
+|  9280.002.00 | Affectés - Evacuation des eaux (FEE) | 8'002'390.17  |
+|  9280.003.00 | Affectés - Energies renouv. dévelop. dur. (FERDD) | 1'264'357.95  |
+|  9280.005.00 | Affectés - Part. taxe séjour subv. occasionnelles (FTS) | 5'052.85  |
+|  9280.004.00 | Affectés - Gestion des déchets (FGD) | 553'030.53  |
+|  **9281** | **Fonds de renouvellement et de rénovation** | **8'788'133.01**  |
+|  9281.001.00 | Entretien du port (FEP) | 434'700.16  |
+|  9281.003.00 | Fonds régulation péréquation (FRP) | 7'106'820.70  |
+|  9281.005.00 | Fonds primes de départ municipaux (FPDM) | 145'487.50  |
+|  9281.008.00 | Provision sur prêt parking Centre-Ville (FPPCV) | 1'000'000.00  |
+|  9281.016.00 | Fonds pour vandalisme (FPV) | 79'812.19  |
+|  9281.030.00 | Aides aux pers. en sit. de handicap (FAPSH) | 5'148.20  |
+|  9281.033.00 | Fonds pour acquisition d'oeuvres d'art (FAOA) | 16'164.26  |
+|  **9282** | **Fonds de réserve** | **20'577'533.93**  |
+|  9282.001.00 | Dépenses et investissements futurs (FDIF) | 12'668'092.48  |
+|  9282.002.00 | Fonds forestier (FF) | 169'699.30  |
+|  9282.003.00 | Dispenses d'abris privés PC (FDAPPC) | 0.00  |
+|  9282.004.00 | Dispenses places de parc (FDPP) | 44'598.20  |
+|  9282.005.00 | Fonds amortissement Nouveau Collège Courbet (FANCC) | 6'103'606.00  |
+
+
+
+## INVENTAIRE DES COMPTES FIGURANT AU BILAN
+
+|  9282.006.00 | Fonds taxes équipements communautaires (FTEC) | 1'419'595.50  |
+| --- | --- | --- |
+|  9282.998.00 | Débiteurs douteux ordinaires (FDDO) | 171'942.45  |
+|  **929** | **Capital** | **85'547.58**  |
+|  9290.001.00 | Capital | 85'547.58  |
+|   | **TOTAL** | **112'048'964.08**  |
+
+
+
+## DÉTAIL DES COMPTES FIGURANT AU BILAN - INVESTISSEMENTS, SUBVENTIONS, PARTICIPATIONS ET AUTRES DÉPENSES À AMORTIR
+
+|   | No Propos | No Préavis | Crédit date | Crédits accordés | Solde actif au 31.12.24 | Dépenses 2025 | Recettes 2025 | Amort. 2025 | Dépenses cumulées au 31.12.25 | Recettes cumulées au 31.12.25 | Dépenses nettes cum. au 31.12.25 | Amort. cumulés au 31.12.25 | Solde actif au 31.12.25  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **OBJETS EN COURS**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **912 - Placements du patrimoine financier**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **9123 - Terrains et bâtiments**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9123.005.00 Crédit-cadre rénovation patrimoine financier |  | 22/2022 | 07.12.22 | 9'680'000 | 189'668.27 | 1'357'631.60 | 17'920.00 |  | 1'547'299.87 | 17'920.00 | 1'529'379.87 |  | 1'529'379.87  |
+|  9123.006.00 Travaux - Dépollution parcelle No 1116 |  | 15/2024 | 26.06.24 | 295'000 | 31'556.26 | 235'779.14 | 0.00 |  | 267'335.40 | 0.00 | 267'335.40 |  | 267'335.40  |
+|  **Total 912** |  |  |  | **9'975'000** | **221'224.53** |  |  |  |  |  |  |  | **1'796'715.27**  |
+|  **914 - Investissements du patrimoine administratif**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **9141 - Ouvrages génie civil et assainissement**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9141.060.00 Travaux - Route et éclairage public RC 780 EdV - Maladaire |  | 08/2020 | 09.09.20 | 4'210'000 | 3'569'569.98 | 108'932.05 | 0.00 |  | 4'150'299.03 | 471'797.00 | 3'678'502.03 |  | 3'678'502.03  |
+|  9141.063.00 Travaux - Avenue du Clos-d'Aubonne |  | 03/2022 | 11.05.22 | 2'525'000 | 1'995'214.74 | 19'564.25 | 0.00 |  | 2'014'778.99 | 0.00 | 2'014'778.99 |  | 2'014'778.99  |
+|  9141.068.00 Travaux - Aménagements urbains Place des Anciens-Fossés |  | 13/2024 | 26.06.24 | 30'500 | 6'855.00 | 21'483.16 | 0.00 |  | 28'338.16 | 0.00 | 28'338.16 |  | 28'338.16  |
+|  9141.069.00 Travaux - Boulevard d'Arcanger |  | 04/2024 | 15.05.24 | 215'000 | 14'204.85 | 143'862.60 | 0.00 |  | 158'067.45 | 0.00 | 158'067.45 |  | 158'067.45  |
+|  9141.070.00 Travaux - Zone 30 Bulesses-Béranges |  | 17/2024 | 26.06.24 | 655'000 | 37'015.60 | 595'889.54 | 0.00 |  | 632'905.14 | 0.00 | 632'905.14 |  | 632'905.14  |
+|  9141.071.00 Travaux - Assainissement bruit routier 30 km/h de nuit |  | 19/2024 | 11.09.24 | 46'000 | 0.00 | 42'608.10 | 0.00 |  | 42'608.10 | 0.00 | 42'608.10 |  | 42'608.10  |
+|  9141.072.00 Travaux - Zone 30 Mousquetaires-Paix |  | 26/2024 | 30.10.24 | 52'000 | 0.00 | 28'853.20 | 0.00 |  | 28'853.20 | 0.00 | 28'853.20 |  | 28'853.20  |
+|  9141.073.00 Travaux - Place de jeux Parc Fesquet |  | 38/2024 | 05.02.25 | 379'000 | 0.00 | 337'623.24 | 0.00 |  | 337'623.24 | 0.00 | 337'623.24 |  | 337'623.24  |
+|  9141.074.00 Travaux - Ch. Bulesses, Baumes, Muraz et Levant |  | 14/2025 | 25.06.25 | 1'850'000 | 0.00 | 509'967.85 | 0.00 |  | 509'967.85 | 0.00 | 509'967.85 |  | 509'967.85  |
+|  9141.075.00 Travaux - Micro-forêt Vassin |  | 20/2025 | 10.09.25 | 62'000 | 0.00 | 1'762.21 | 0.00 |  | 1'762.21 | 0.00 | 1'762.21 |  | 1'762.21  |
+|  9141.077.00 Travaux - Plage Maladaire |  | 33/2025 | 10.12.25 | 864'000 | 0.00 | 27'066.94 | 0.00 |  | 27'066.94 | 0.00 | 27'066.94 |  | 27'066.94  |
+|  9141.078.00 Travaux - Ch. Murs-Blancs, Vassin, av. Perrausaz |  | 32/2025 | 10.12.25 | 3'660'000 | 0.00 | 42'000.00 | 0.00 |  | 42'000.00 | 0.00 | 42'000.00 |  | 42'000.00  |
+|  9141.079.00 Travaux - Av. de la Gare |  | 31/2025 | 10.12.25 | 3'500'000 | 0.00 | 25'476.08 | 0.00 |  | 25'476.08 | 0.00 | 25'476.08 |  | 25'476.08  |
+|  **9143 - Bâtiments et constructions à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9143.090.00 Travaux - Nouveau Collège Courbet |  | 11/2019 | 04.09.19 | 31'000'000 | 30'658'519.57 | 93'726.38 | 2'148'297.00 |  | 31'093'153.20 | 2'489'204.25 | 28'603'948.95 |  | 28'603'948.95  |
+|  9143.098.00 Travaux - Extension photovoltaïque Collège Courbet |  | 13/2021 | 15.09.21 | 190'000 | 0.00 | 0.00 | 0.00 |  | 0.00 | 0.00 | 0.00 |  | 0.00  |
+|  9143.101.00 Travaux - Rénovation mur nord et courtines Château |  | 02/2023 | 22.03.23 | 483'000 | 415'827.05 | 0.00 | 0.00 |  | 415'827.05 | 0.00 | 415'827.05 |  | 415'827.05  |
+|  9143.102.00 Travaux - Inst. photovoltaïque, Baumes 22/24 et Béranges 74 |  | 12/2023 | 01.11.23 | 260'000 | 242'757.40 | 0.00 | 49'545.60 |  | 242'757.40 | 49'545.60 | 193'211.80 |  | 193'211.80  |
+|  9143.103.00 Travaux - Vestaire séparés Béranges 111 |  | 02/2024 | 20.03.24 | 142'000 | 142'773.09 | 6'846.55 | 0.00 |  | 149'619.64 | 0.00 | 149'619.64 |  | 149'619.64  |
+|  9143.104.00 Travaux - Rénovation Maison Charlemagne |  | 14/2024 | 26.06.24 | 3'913'000 | 93'601.78 | 1'151'502.29 | 0.00 |  | 1'245'104.07 | 0.00 | 1'245'104.07 |  | 1'245'104.07  |
+|  9143.105.00 Travaux - Rénovation (suite) murs Château |  | 16/2024 | 26.06.24 | 360'000 | 215'305.15 | 84'922.15 | 0.00 |  | 300'227.30 | 0.00 | 300'227.30 |  | 300'227.30  |
+|  9143.106.00 Travaux - Collège des Marronniers - Ecrans interactifs |  | 25/2024 | 30.10.25 | 140'000 | 0.00 | 134'593.52 | 0.00 |  | 134'593.52 | 0.00 | 134'593.52 |  | 134'593.52  |
+|  9143.107.00 Travaux - Garderie du Gregnolet |  | 24/2024 | 30.10.24 | 4'500'000 | 357'114.17 | 3'563'641.84 | 0.00 |  | 3'920'756.01 | 0.00 | 3'920'756.01 |  | 3'920'756.01  |
+|  9143.108.00 Travaux - Collège des Mousquetaires - Assainissement et extension (9143/9146) |  | 27/2024 | 30.10.24 | 3'679'400 | 73'134.25 | 2'794'708.97 | 0.00 |  | 2'867'843.22 | 0.00 | 2'867'843.22 |  | 2'867'843.22  |
+|  9143.109.00 Travaux - Entretien préventif et curatif vestiges Château |  | 16/2025 | 25.06.25 | 256'000 | 0.00 | 4'442.90 | 0.00 |  | 4'442.90 | 0.00 | 4'442.90 |  | 4'442.90  |
+|  **9146 - Mobilier, machines, véhicules à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9146.021.00 Solution gestion temps et frais Mobitime |  | 05/2021 | 05.05.21 | 75'000 | 50'966.25 | 0.00 | 0.00 |  | 50'966.25 | 0.00 | 50'966.25 |  | 50'966.25  |
+|  9146.025.00 Travaux - Collège des Mousquetaires - Ameublement et décorations (9143/9146) |  | 27/2024 | 30.10.24 | 277'600 | 0.00 | 0.00 | 0.00 |  | 0.00 | 0.00 | 0.00 |  | 0.00  |
+|  9146.026.00 Acquisition - Balayeuse Ravo E2 - 2025 |  | 36/2024 | 05.02.25 | 257'000 | 0.00 | 253'133.45 | 0.00 |  | 253'133.45 | 0.00 | 253'133.45 |  | 253'133.45  |
+|  9146.027.00 Travaux - Remplacement éclairage bâtiments scolaires |  | 37/2024 | 05.02.25 | 650'000 | 0.00 | 140'075.77 | 0.00 |  | 140'075.77 | 0.00 | 140'075.77 |  | 140'075.77  |
+|  9146.028.00 Travaux - Plateforme participative CLIMARION |  | 15/2025 | 25.06.25 | 130'000 | 0.00 | 33'727.20 | 0.00 |  | 33'727.20 | 0.00 | 33'727.20 |  | 33'727.20  |
+|  9146.029.00 Achat - Renouvellement horodateurs |  | 12/2025 | 25.06.25 | 96'500 | 0.00 | 79'607.02 | 0.00 |  | 79'607.02 | 0.00 | 79'607.02 |  | 79'607.02  |
+|  **Total 914** |  |  |  | **73'348'000** | **37'872'859** |  |  |  |  |  |  |  | **45'921'034**  |
+
+
+
+## DÉTAIL DES COMPTES FIGURANT AU BILAN - INVESTISSEMENTS, SUBVENTIONS, PARTICIPATIONS ET AUTRES DÉPENSES À AMORTIR
+
+|   | No Propo | No Préavis | Crédit date | Crédit accordés | Solde actif au 31.12.24 | Dépenses 2025 | Recettes 2025 | Amort. 2025 | Dépenses cumulées au 31.12.25 | Recettes cumulées au 31.12.25 | Dépenses nettes cum. au 31.12.25 | Amort. cumulés au 31.12.25 | Solde actif au 31.12.25  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **916 - Subventions et participations à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9162 - Seventions et participations à des investissements à associations de communes  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **917 - Autres dépenses à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **9170 - Autres dépenses à amortir (crédits d'études en cours)**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9170.040.00 Etude - Ch. pédestre en bordure du lac |  | (1) | * | 420'400 | 258'576.63 | 13'481.10 | 51'636.25 |  | 158'127.38 | 51'636.25 | 106'491.13 |  | 220'421.48  |
+|  9170.059.00 Etude - Chateau de La Tour-de-Peilz |  | 01/2015 | 18.03.15 | 451'000 | 448'436.92 | 0.00 | 0.00 |  | 3'086.70 | 0.00 | 3'086.70 |  | 448'436.92  |
+|  9170.072.00 Etude - Transf. et rénovation Château |  | 28/2017 | 07.02.18 | 1'550'000 | 1'158'296.15 | 120'077.35 | 0.00 |  | 291'803.52 | 0.00 | 291'803.52 |  | 1'278'373.50  |
+|  9170.074.00 Etude - Ass. énergétique et technique Ch. de Béranges 111 | 36/2018 |  | 13.08.18 | 33'932 | 45'693.10 | 0.00 | 0.00 |  | 0.00 | 0.00 | 0.00 |  | 45'693.10  |
+|  9170.081.00 Etude - Projet pilote GED conventions et contrats | 08/2021 |  | 21.06.21 | 48'500 | 39'933.10 | 0.00 | 0.00 |  | 39'933.10 | 0.00 | 39'933.10 |  | 39'933.10  |
+|  9170.091.00 Etude - Remplacement éclairage scolaire | 44/2023 |  | 25.09.23 | 18'000 | 31'177.75 | 65'743.20 | 0.00 |  | 96'920.95 | 0.00 | 96'920.95 |  | 96'920.95  |
+|  9170.092.00 Etude - Réaménagement et zone 30 km/h Vallon/Cedre | 141/2023 |  | 27.11.23 | 50'000 | 26'550.20 | 21'615.95 | 0.00 |  | 48'166.15 | 0.00 | 48'166.15 |  | 48'166.15  |
+|  9170.095.00 Etude - Jardins de l'Oyonne | 83/2023 |  | 03.07.23 | 35'000 | 35'000.00 | 0.00 | 0.00 |  | 35'000.00 | 0.00 | 35'000.00 |  | 35'000.00  |
+|  9170.096.00 Etude - Voie verte intercommunale tronçon Est | 152/2023 |  | 18.12.23 | 30'000 | 24'050.05 | 538.90 | 0.00 |  | 24'588.95 | 0.00 | 24'588.95 |  | 24'588.95  |
+|  9170.097.00 Etude - Ville du Jeu (ancien 04/2024 retiré en Muni) |  | 20/2024 | 11.09.24 | 80'000 | 10'000.00 | 57'832.00 | 54'000.00 |  | 67'832.00 | 54'000.00 | 13'832.00 |  | 13'832.00  |
+|  9170.098.00 Etude - Réam. Av. des Alpes (prop 137/2023) | 137/2023 |  | 20.11.23 | 9'000 | 7'835.50 | 0.00 | 0.00 |  | 7'835.50 | 0.00 | 7'835.50 |  | 7'835.50  |
+|  9170.099.00 Etude - Réam. Av. des Baumes (prop 137/2023) | 137/2023 |  | 20.11.23 | 9'000 | 8'000.00 | 0.00 | 0.00 |  | 8'000.00 | 0.00 | 8'000.00 |  | 8'000.00  |
+|  9170.100.00 Etude - Réam. Grand-Rue (prop 137/2023) | 137/2023 |  | 20.11.23 | 16'000 | 16'000.00 | 0.00 | 0.00 |  | 16'000.00 | 0.00 | 16'000.00 |  | 16'000.00  |
+|  9170.101.00 Etude - Renaturation embouchure Ogronnaz (prop 136/2023) | 136/2023 |  | 20.11.23 | 50'000 | 14'121.00 | 7'085.95 | 3'543.00 |  | 62'241.45 | 44'577.50 | 17'663.95 |  | 17'663.95  |
+|  9170.105.00 Etude - Réaménag carrefour Chailly/Pérouse et remise à ciel ouvert Sully | 123/2024 |  | 25.11.24 | 50'000 | 0.00 | 43'220.95 | 11'179.14 |  | 43'220.95 | 11'179.14 | 32'041.81 |  | 32'041.81  |
+|  9170.106.00 Etude - Zone 30 km/h Edouard-Müller (prop 39/2024) | 39/2024 |  | 15.04.24 | 20'000 | 4'974.30 | 4'700.00 | 0.00 |  | 9'674.30 | 0.00 | 9'674.30 |  | 9'674.30  |
+|  9170.107.00 Etude - PA secteur Campagne Rossier | 21/2023 |  | 15.05.24 | 50'000 | 0.00 | 20'078.85 | 0.00 |  | 20'078.85 | 0.00 | 20'078.85 |  | 20'078.85  |
+|  9170.108.00 Etude - Maison des Alnès (P25/25) | 25/2025 | 25/2025 | 29.10.25 | 300'000 | 0.00 | 0.00 | 0.00 |  | 0.00 | 0.00 | 0.00 |  | 0.00  |
+|  9170.109.00 Etude - Transformation et rénovation Béranges 111 | 61/2025 | 61/2025 | 01.09.25 | 50'000 | 0.00 | 11'081.82 | 0.00 |  | 11'081.82 | 0.00 | 11'081.82 |  | 11'081.82  |
+|  9170.110.00 Etude - Façades et mobilier CC Maison Hugonin | 50/2024 |  | 03.09.25 | 20'000 | 0.00 | 12'483.15 | 0.00 |  | 12'483.15 | 0.00 | 12'483.15 |  | 12'483.15  |
+|  **9170 - Autres dépenses à amortir (crédits d'études transférés vers crédits de réalisation)**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9170.088.00 Etude - Réaménagement Avenue de la Gare | 21/2023 |  | 20.02.23 | 45'000 | 25'476.08 | 0.00 | 25'476.08 |  | 25'476.08 | 25'476.08 | 0.00 |  | 0.00  |
+|  9170.093.00 Etude - Réaménagement Bulesses et séparatif Baumes 19-35 | 144/2023 |  | 04.12.23 | 50'000 | 39'716.80 | 10'001.05 | 49'717.85 |  | 49'717.85 | 49'717.85 | 0.00 |  | 0.00  |
+|  9170.094.00 Etude - Réaménagement et zone 30 km/h Vassin/Murs-Blancs | 148/2023 |  | 11.12.23 | 50'000 | 0.00 | 42'000.00 | 42'000.00 |  | 42'000.00 | 42'000.00 | 0.00 |  | 0.00  |
+|  9170.102.00 Etude - Renaturation grève Maladaire | 58/2024 |  | 17.06.24 | 41'000 | 14'936.30 | 28'526.60 | 43'462.90 |  | 65'867.40 | 65'867.40 | 0.00 |  | 0.00  |
+|  **Total 917** |  |  |  | **3'476'832** | **2'208'774** |  |  |  |  |  |  |  | **2'386'226**  |
+|  **OBJETS TERMINÉS (AMORTISSEMENTS EN COURS)**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **914 - Investissements du patrimoine administratif**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  **9141 - Ouvrages génie civil et assainissement**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9141.056.00 Travaux - Ass. éclairage public au mercure |  | 10/2019 | 04.09.19 | 710'000 | 619'422.20 | 0.00 | 0.00 | 619'422.20 | 619'422.20 | 0.00 | 619'422.20 | 619'422.20 | 0.00  |
+|  9141.058.00 Travaux - Mise en conformité gare CFF |  | 20/2019 | 18.12.19 | 590'000 | 496'792.14 | 0.00 | 0.00 | 496'792.14 | 496'792.14 | 0.00 | 496'792.14 | 496'792.14 | 0.00  |
+|  9141.061.00 Travaux - Assainissement Bulesses - Croton |  | 10/2020 | 02.11.20 | 2'695'000 | 2'600'457.15 | 0.00 | 0.00 | 2'600'457.15 | 2'600'457.15 | 2'500.00 | 2'600'457.15 | 2'600'457.15 | 0.00  |
+|  9141.064.00 Travaux - Réam. et sécu. Ch. du Gregnolet |  | 10/2022 | 29.06.22 | 904'000 | 878'898.31 | 0.00 | 0.00 | 878'898.31 | 878'898.31 | 0.00 | 878'898.31 | 878'898.31 | 0.00  |
+|  9141.065.00 Travaux - Réam. ruisseau Sully (Rte de Chailly - Voies CFF) |  | 12/2022 | 14.09.22 | 487'500 | 151'090.78 | 0.00 | 0.00 | 151'090.78 | 365'689.63 | 214'598.85 | 151'090.78 | 151'090.78 | 0.00  |
+|  9141.066.00 Travaux - Place de jeux du Château |  | 04/2023 | 10.05.23 | 320'000 | 320'152.20 | 0.00 | 0.00 | 320'152.20 | 320'152.20 | 0.00 | 320'152.20 | 320'152.20 | 0.00  |
+
+
+
+## DÉTAIL DES COMPTES FIGURANT AU BILAN - INVESTISSEMENTS, SUBVENTIONS, PARTICIPATIONS ET AUTRES DÉPENSES À AMORTIR
+
+|   | No Propo | No Préavis | Crédit date | Crédits accordés | Solde actif au 31.12.24 | Dépenses 2025 | Recettes 2025 | Amort. 2025 | Dépenses cumulées au 31.12.25 | Recettes cumulées au 31.12.25 | Dépenses nettes cum. au 31.12.25 | Amort. cumulés au 31.12.25 | Solde actif au 31.12.25  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **9143 - Bâtiments et constructions à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9143.061.00 Parking centre ville |  | 11/2011 | 02.11.11 | 1'460'160 | 46'672.75 | 0.00 | 0.00 | 46'672.75 | 1'672'754.80 | 266'682.05 | 1'406'072.75 | 1'406'072.75 | 0.00  |
+|  9143.063.00 Instal. photovoltaïques - Mousquetaires |  | 10/2012 | 12.09.12 | 430'000 | 135'000.00 | 0.00 | 0.00 | 15'000.00 | 433'374.01 | 2'000.00 | 431'374.01 | 311'374.01 | 120'000.00  |
+|  9143.068.00 Réaménagement du centre-ville |  | 11/2013 | 11.09.13 | 5'800'000 | 3'182'050.51 | 0.00 | 0.00 | 290'000.00 | 5'816'425.51 | 24'375.00 | 5'792'050.51 | 2'900'000.00 | 2'892'050.51  |
+|  9143.072.00 Installation photovoltaïque S. Remparts |  | 17/2014 | 04.02.15 | 175'000 | 6'206.20 | 0.00 | 0.00 | 6'206.20 | 163'706.20 | 0.00 | 163'706.20 | 163'706.20 | 0.00  |
+|  9143.075.00 Transformation cuisine Croqu'Lune |  | 18/2015 | 09.12.15 | 140'000 | 52'780.00 | 0.00 | 52'780.00 | 0.00 | 113'100.00 | 113'100.00 | 0.00 | 0.00 | 0.00  |
+|  9143.079.00 Installations photovoltaïques collège Bel-Air |  | 29/2016 | 01.02.17 | 150'000 | 57'557.14 | 0.00 | 0.00 | 14'400.00 | 143'957.14 | 0.00 | 143'957.14 | 100'800.00 | 43'157.14  |
+|  9143.080.00 Restauration Temple St-Théodule |  | 27/2016 | 01.02.17 | 2'500'000 | 1'547'529.03 | 0.00 | 0.00 | 96'800.00 | 2'085'931.53 | 151'202.50 | 1'934'729.03 | 484'000.00 | 1'450'729.03  |
+|  9143.083.00 Installations techniques Mousquetaires |  | 06/2017 | 03.05.17 | 1'000'000 | 492'596.00 | 0.00 | 0.00 | 98'520.00 | 992'411.60 | 7'215.60 | 985'196.00 | 591'120.00 | 394'076.00  |
+|  9143.084.00 Rénovation Maison de Commune |  | 17/2017 | 13.09.17 | 3'800'000 | 3'226'076.09 | 0.00 | 0.00 | 189'800.00 | 3'805'428.59 | 9'952.50 | 3'795'476.09 | 759'200.00 | 3'036'276.09  |
+|  9143.087.00 Installation photovoltaïque Maison de Commune | 46/2018 |  | 24.10.18 | 44'540 | 26'343.80 | 0.00 | 0.00 | 3'900.00 | 42'633.80 | 4'590.00 | 38'043.80 | 15'600.00 | 22'443.80  |
+|  9143.100.00 Travaux - Pavillons UAPE Collège étape 3 |  | 23/2022 | 07.12.22 | 179'000 | 175'485.94 | 0.00 | 0.00 | 175'485.94 | 175'485.94 | 0.00 | 175'485.94 | 175'485.94 | 0.00  |
+|  **9146 - Mobilier, machines, véhicules à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  9146.024.00 Travaux - Serrues Collège des Mousquetaires |  | 03/2024 | 20.03.24 | 125'000 | 112'918.00 | 0.00 | 0.00 | 22'518.00 | 112'918.00 | 0.00 | 112'918.00 | 22'518.00 | 90'400.00  |
+|  **Total 914** |  |  |  | **21'510'200** | **14'128'028** |  |  |  |  |  |  |  | **8'049'133**  |
+
+### 916 - Subventions et participations à amortir
+
+#### 9162 - Suventions et participations à des investissements à associations de communes
+
+|  **9165 - Autres subventions et participations à des investissements à amortir**  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  9165.006.00 Prêt SA Parking Centre Ville |  | 11/2011 | 02.11.11 | 3'869'840 | 2'690'000.00 |  | 70'000.00 |  |  | 300'000.00 |  |  | 2'620'000.00  |
+
+### 917 - Autres dépenses à amortir
+
+#### 9170 - Autres dépenses à amortir (crédits d'études)
+
+|  (1) 01.10.07 Municipalité 7'000.-- / 13.10.08 Municipalité 12'000.-- / 05.09.11 Municipalité 29'400.-- / 09.02.15 Municipalité 35'000.-- / 22.03.17 préavis 28/2016 217'000.-- / 24.03.21 préavis 1/2021 120'000.--  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  (2) 01.10.12 Municipalité 49'000.-- compris dans crédit construction / 28.10.15 préavis 14/2015 Conseil communal 200'000.-- non compris dans crédit construction (total crédit construction 3'800'000.--)  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  (3) préavis 17/2011 70'000.-- / préavis 02/2015 409'000.-- / préavis 16/2017 1'955'000.-- / Préavis Cofin 18.06.18  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  (4) 01.12.14 proposition 55/2014 10'000.-- / proposition 04/2016 15'000.-- / préavis 07/2016 282'300.-- (comprenant les 25'000.--)  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  (5) proposition 06/16, compris dans crédit construction  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  (6) proposition 33/17 du 11.19.17  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|  (7) 18.02.19 proposition 22/2019 32'000.-- / 09.05.22 proposition 43/2022 12'000.--  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
+
+
+# DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  **9280 - Fonds alimentés par des recettes affectées**  |   |   |   |   |   |
+|  **9280.002.00 Affectés - Evacuation des eaux**  |   |   |   |   |   |
+|  Solde initial | 8'999'208.59 |  |  |  |   |
+|  Excédent de revenus du compte 460 |  |  | 604'482.92 |  |   |
+|  Amort 9141.058.00 Mise en conformité gare CFF (P20/19) / DF 30.10.24 |  | 264'481.59 |  |  |   |
+|  Amort 9141.064.00 Assainissement Ch. du Gregnolet (P10/22) / DF 26.06.24 |  | 290'738.75 |  |  |   |
+|  Amort 9141.061.00 Assainissement Bulesses - Croton (P10/20) / DF 11.12.24 |  | 1'046'081.00 |  |  |   |
+|  Soldes finaux | 8'999'208.59 | 1'601'301.34 | 604'482.92 | 8'002'390.17 |   |
+|  *Crédits engagés*  |   |   |   |   |   |
+|  9141.060.00 Travaux - Route et éclairage public RC 780 EdV - Maladaire (P08/20) / DF 10.12.25 |  |  |  |  | 273'748.75  |
+|  9141.063.00 Travaux - Avenue du Clos-d'Aubonne (P03/22) / DF 10.12.25 |  |  |  |  | 854'351.93  |
+|  9141.069.00 Travaux - Boulevard d'Arcangier (P04/24) / Voté 15.05.24, en cours |  |  |  |  | 27'000.00  |
+|  9141.070.00 Travaux - Zone 30 Bulesses-Béranges (P17/24) / Voté 26.06.24, en cours |  |  |  |  | 62'000.00  |
+|  9141.074.00 Travaux - Ch. Bulesses, Baumes, Muraz et Levant (P14/25) / Voté 25.06.25, en cours |  |  |  |  | 1'119'000.00  |
+|  9141.077.00 Travaux - Plage Maladaire (P33/25) / Voté 10.12.25, en cours |  |  |  |  | 177'500.00  |
+|  9141.078.00 Travaux - Ch. Murs-Blancs, Vassin, av. Perrausaz (P32/25) / Voté 10.12.25, en cours |  |  |  |  | 855'000.00  |
+|  9141.079.00 Travaux - Av. de la Gare (P31/25) / Voté 10.12.25, en cours |  |  |  |  | 343'000.00  |
+|  Total |  |  |  |  | 3'711'600.68  |
+|  **A disposition dans le fonds (solde au 31.12 - crédits engagés)** |  |  |  |  | **4'290'789.49**  |
+|  **9280.003.00 Affectés - Energies renouv. dévelop. dur.**  |   |   |   |   |   |
+|  Solde initial | 1'317'769.63 |  |  |  |   |
+|  Production énergie photovoltaïque |  |  | 92'010.47 |  |   |
+|  Taxes kWh et CO2 |  |  | 145'717.20 |  |   |
+|  Subventions (reçues) |  |  | 0.00 |  |   |
+|  Entretien installations photovoltaïques |  | 17'937.57 |  |  |   |
+|  Subventions (versées) |  | 233'695.58 |  |  |   |
+
+
+
+## DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  Amort 9143.063.00 Travaux - Installations photovoltaïques Mousquetaires (P10/12) / [14-33] |  | 15'000.00 |  |  |   |
+|  Amort 9143.072.00 Travaux - Installations photovoltaïques Remparts (P17/24) / Solde à amortir |  | 6'206.20 |  |  |   |
+|  Amort 9143.079.00 Travaux - Installations photovoltaïques Bel-Air (P29/16) / [19-28] |  | 14'400.00 |  |  |   |
+|  Amort 9143.087.00 Travaux - Installations photovoltaïques Maison de Commune (p46/18) / [22-31] |  | 3'900.00 |  |  |   |
+|  Soldes finaux | 1'317'769.63 | 291'139.35 | 237'727.67 | **1'264'357.95** | -1'264'357.95  |
+|  *Crédits engagés (amortissement en cours)*  |   |   |   |   |   |
+|  9143.063.00 Travaux - Installations photovoltaïques Mousquetaires (P10/12) / Solde à amortir |  |  |  |  | 120'000.00  |
+|  9143.079.00 Travaux - Installations photovoltaïques Bel-Air (P29/16) / Solde à amortir |  |  |  |  | 43'157.14  |
+|  9143.087.00 Travaux - Installations photovoltaïques Maison de Commune (p46/18) / Solde à amortir |  |  |  |  | 22'443.80  |
+|  *Crédits engagés (objets en cours)*  |   |   |   |   |   |
+|  9143.098.00 Travaux - Extension photovoltaïque Collège Courbet (P13/21) / Voté 15.09.21, en cours |  |  |  |  | 190'000.00  |
+|  9143.102.00 Travaux - Inst. photovoltaïque, Baumes 22/24, Béranges 74/111 (P10/23) / Voté 01.11.23, en cours |  |  |  |  | 260'000.00  |
+|  Total |  |  |  |  | 635'600.94  |
+|  **A disposition dans le fonds (solde au 31.12 - crédits engagés)** |  |  |  |  | **628'757.01**  |
+|  **9280.004.00 Affectés - Gestion des déchets**  |   |   |   |   |   |
+|  Solde initial | 595'762.05 |  |  |  |   |
+|  Excédent de charges du compte 450 |  | 130'683.77 |  |  |   |
+|  Excédent de revenus du compte 451 |  |  | 87'952.25 |  |   |
+|  Soldes finaux | 595'762.05 | 130'683.77 | 87'952.25 | 553'030.53 |   |
+|  *Crédits engagés (objets en cours)*  |   |   |   |   |   |
+|  9141.074.00 Travaux - Ch. Bulesses, Baumes, Muraz et Levant (P14/25) / Voté 25.06.25, en cours |  |  |  |  | 25'000.00  |
+|  9141.077.00 Travaux - Plage Maladaire (P33/25) / Voté 10.12.25, en cours |  |  |  |  | 33'500.00  |
+|  9141.078.00 Travaux - Ch. Murs-Blancs, Vassin, av. Perrausaz (P32/25) / Voté 10.12.25, en cours |  |  |  |  | 20'000.00  |
+|  Total |  |  |  |  | 78'500.00  |
+|  **A disposition dans le fonds (solde au 31.12 - crédits engagés)** |  |  |  |  | **474'530.53**  |
+
+
+
+# DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  **9280.005.00 Affectés - Part. taxe de séjour subv. occasionnelles** |  |  |  |  |   |
+|  Solde initial | 3'100.00 |  |  |  |   |
+|  Attribution solde non utilisé |  |  | 1'952.85 |  |   |
+|  Soldes finaux | 3'100.00 | 0.00 | 1'952.85 | 5'052.85 |   |
+|  **9281 - Fonds de renouvellement et de rénovation** |  |  |  |  |   |
+|  **9281.001.00 Entretien du port** |  |  |  |  |   |
+|  Solde initial | 449'654.29 |  |  |  |   |
+|  Excédent de dépenses du compte 470 |  | 14'954.13 |  |  |   |
+|  Soldes finaux | 449'654.29 | 14'954.13 | 0.00 | 434'700.16 |   |
+|  **9281.003.00 Fonds régulation péréquation** |  |  |  |  |   |
+|  Solde initial | 6'471'766.90 |  |  |  |   |
+|  Attribution solde péréquation directe 2024 |  |  | 510'807.00 |  |   |
+|  Attribution solde réforme policière 2024 |  |  | 10'882.00 |  |   |
+|  Attribution solde cohésion sociale 2024 |  |  | 0.00 |  |   |
+|  Dissolution partielle / attribution |  |  | 113'364.80 |  |   |
+|  Soldes finaux | 6'471'766.90 | 0.00 | 635'053.80 | 7'106'820.70 |   |
+|  **9281.005.00 Fonds primes de départ municipaux** |  |  |  |  |   |
+|  Solde initial | 122'312.50 |  |  |  |   |
+|  Attribution |  |  | 23'175.00 |  |   |
+|  Prélèvement |  |  |  |  |   |
+|  Soldes finaux | 122'312.50 | 0.00 | 23'175.00 | 145'487.50 |   |
+|  **9281.008.00 Provision sur prêt Parking Centre Ville** |  |  |  |  |   |
+|  Solde initial | 1'000'000.00 |  |  |  |   |
+|  Soldes finaux | 1'000'000.00 | 0.00 | 0.00 | 1'000'000.00 |   |
+|  **9281.016.00 Fonds pour vandalisme** |  |  |  |  |   |
+|  Solde initial | 56'995.33 |  |  |  |   |
+|  Attribution |  |  | 40'000.00 |  |   |
+|  Prélèvement |  | 17'183.14 |  |  |   |
+
+
+
+# DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  Soldes finaux | 56'995.33 | 17'183.14 | 40'000.00 | 79'812.19 |   |
+|  **9281.030.00 Aide aux personnes en situation de handicap**  |   |   |   |   |   |
+|  Solde initial | 6'128.20 |  |  |  |   |
+|  Attribution |  |  | 600.00 |  |   |
+|  Prélèvement |  | 1'580.00 |  |  |   |
+|  Soldes finaux | 6'128.20 | 1'580.00 | 600.00 | 5'148.20 |   |
+|  **9281.033.00 Fonds pour acquisition d'oeuvres d'art**  |   |   |   |   |   |
+|  Solde initial | 11'192.76 |  |  |  |   |
+|  Attribution |  |  | 5'000.00 |  |   |
+|  Prélèvement |  | 28.50 |  |  |   |
+|  Soldes finaux | 11'192.76 | 28.50 | 5'000.00 | 16'164.26 |   |
+|  **9282 - Fonds de réserve**  |   |   |   |   |   |
+|  **9282.001.00 Dépenses et investissements futurs**  |   |   |   |   |   |
+|  Solde initial | 16'181'607.86 |  |  |  |   |
+|  Amort 9143.100.00 Pavillons UAPE Collège étape 3 (P23/22) / DF 15.05.24 [unique] |  | 175'485.94 |  |  |   |
+|  Amort 9141.064.00 Assainissement Ch. du Gregnolet (P10/22) / DF 22.06.24 [unique] |  | 588'159.56 |  |  |   |
+|  Amort 9141.058.00 Mise en conformité gare CFF (P20/19) / DF 30.10.24 [unique] |  | 232'310.55 |  |  |   |
+|  Amort 9141.066.00 Place de jeux du Château (P04/23) / DF 11.12.24 [unique] |  | 320'152.20 |  |  |   |
+|  Amort 9141.056.00 Ass. éclairage public au mercure (P10/19) / DF 11.12.24 [unique] |  | 619'422.20 |  |  |   |
+|  Amort 9146.024.00 Serrures Collège des Mousquetaires (P03/24) / DF 11.12.24 [25-29] |  | 22'518.00 |  |  |   |
+|  Amort 9141.061.00 Assainissement Bulesses - Croton (P10/20) / DF 11.12.24 [unique] |  | 1'554'376.15 |  |  |   |
+|  Amort 9141.065.00 Réam. ruisseau Sully (Rte de Chailly - Voies CFF) (P12/22) / DF 11.12.24 [unique] |  | 151'090.78 |  |  |   |
+|  Soldes finaux | 16'181'607.86 | 3'663'515.38 | 0.00 | 12'518'092.48 |   |
+|  *Crédits engagés (amortissement en cours)*  |   |   |   |   |   |
+|  9146.024.00 Travaux - Serrures Collège des Mousquetaires (P03/24) / DF 11.12.24 [25-29] solde à amortir |  |  |  |  | 90'400.00  |
+|  *Crédits engagés (objets en cours)*  |   |   |   |   |   |
+|  9141.060.00 Travaux - Route et éclairage public RC 780 EdV - Maladaire (P08/20) / DF 10.12.25 [unique] |  |  |  |  | 3'404'753.28  |
+
+
+
+## DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  9141.063.00 Travaux - Avenue du Clos-d'Aubonne (P03/22) / DF 10.12.25 [unique] |  |  |  |  | 1'160'427.06  |
+|  9141.068.00 Travaux - Aménagements urbains Place des Anciens-Fossés (P13/24) / DF 25.06.25 [26-35] |  |  |  |  | 28'338.16  |
+|  9141.073.00 Travaux - Place de jeux Parc Fesquet (P38/24) / DF 10.12.25 [26-35] |  |  |  |  | 337'623.24  |
+|  9143.090.00 Travaux - Nouveau Collège Courbet (P11/19) / [amort selon préavis] |  |  |  |  | 31'000'000.00  |
+|  9143.090.00 Travaux - Nouveau Collège Courbet (P11/19) / [attribution selon impôt affecté dès 2020] |  |  |  |  | -31'000'000.00  |
+|  9143.101.00 Travaux - Rénovation mur nord et courtines Château (P02/23) / Voté 10.05.23, en cours |  |  |  |  | 483'000.00  |
+|  9143.103.00 Travaux - Vestiaires séparés Béranges 111 (P02/24) / Voté 20.03.24, en cours |  |  |  |  | 142'000.00  |
+|  9146.021.00 Travaux - Solution gestion temps et frais Mobatime (P05/21) / Voté 05.05.21, en cours |  |  |  |  | 75'000.00  |
+|  9146.026.00 Acquisition - Balayeuse Ravo E2 - 2025 (P36/24) / DF 29.10.25 [26-31] |  |  |  |  | 253'133.45  |
+|  Total |  |  |  |  | 5'974'675.19  |
+|  A disposition dans le fonds (solde au 31.12 - crédits engagés) |  |  |  |  | 6'543'417.29  |
+|  Réserve 1% inflation budget 2025 (230.4809.08) |  |  |  |  | 0.00  |
+|  Réserve 1% inflation budget 2026 (230.4809.09) |  |  |  |  | 840'000.00  |
+|  **Solde à disposition** |  |  |  |  | **5'703'417.29**  |
+|  **9282.002.00 Fonds forestier** |  |  |  |  |   |
+|  Solde initial | 169'699.30 |  |  |  |   |
+|  Soldes finaux | 169'699.30 | 0.00 | 0.00 | 169'699.30 |   |
+|  **9282.003.00 Dispenses d'abris privés PC** |  |  |  |  |   |
+|  Solde initial | 288'299.60 |  |  |  |   |
+|  Prélèvements (transfert à l'État de Vaud) |  | 288'299.60 |  |  |   |
+|  Soldes finaux | 288'299.60 | 288'299.60 | 0.00 | 0.00 |   |
+|  **9282.004.00 Dispenses places de parc** |  |  |  |  |   |
+|  Solde initial | 44'598.20 |  |  |  |   |
+|  Soldes finaux | 44'598.20 | 0.00 | 0.00 | 44'598.20 |   |
+|  **9282.005.00 Fonds Amort Nouveau Collège Courbet** |  |  |  |  |   |
+|  Solde initial | 5'035'946.00 |  |  |  |   |
+|  Attribution |  |  | 1'067'660.00 |  |   |
+|  Soldes finaux | 5'035'946.00 | 0.00 | 1'067'660.00 | 6'103'606.00 |   |
+
+
+
+# DÉTAIL DES COMPTES FIGURANT AU BILAN - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Solde au 31.12.2024 | Diminutions 2025 | Augmentations 2025 | Solde au 31.12.2025 | Crédits engagés  |
+| --- | --- | --- | --- | --- | --- |
+|  **9282.006.00 Fonds taxes équipements communautaires** |  |  |  |  |   |
+|  Solde initial | 1'190'260.50 |  |  |  |   |
+|  Attribution |  |  | 229'335.00 |  |   |
+|  Soldes finaux | 1'190'260.50 | 0.00 | 229'335.00 | 1'419'595.50 |   |
+|  **9282.998.00 Débiteurs douteux ordinaires** |  |  |  |  |   |
+|  Solde initial | 143'224.95 |  |  |  |   |
+|  Provision débiteurs |  | 1'282.50 | 30'000.00 |  |   |
+|  Soldes finaux | 143'224.95 | 1'282.50 | 30'000.00 | 171'942.45 |   |
+
+
+
+# Inventaires
+
+
+
+# INVENTAIRE DES AMORTISSEMENTS ET ATTRIBUTIONS
+
+|   |  | Comptes 2025 | Budget 2025 | Ecart  |
+| --- | --- | --- | --- | --- |
+|  **33 + 38** | **AMORTISSEMENTS ET ATTRIBUTIONS** | **9'144'416.81** | **13'122'145.00** | **-3'977'728.19**  |
+|  **33** | **AMORTISSEMENTS** | **6'031'477.32** | **10'883'620.00** | **-4'852'142.68**  |
+|  **330** | **Amortissements du patrimoine financier** | **5'361.65** | **25'100.00** | **-19'738.35**  |
+|  200.3301.00 | Pertes sur débiteurs | 1'282.50 | 25'000.00 | -23'717.50  |
+|  330.3301.00 | Pertes sur débiteurs vente de vin | 144.00 | 0.00 | 144.00  |
+|  340.3301.00 | Pertes sur débiteurs | 0.00 | 100.00 | -100.00  |
+|  703.3301.00 | Pertes sur débiteurs | 22.00 | 0.00 | 22.00  |
+|  705.3301.00 | Pertes sur débiteurs | 3'913.15 | 0.00 | 3'913.15  |
+|  **331** | **Amortissements obligatoires du patrimoine administratif** | **721'792.75** | **721'720.00** | **72.75**  |
+|  310.3312.00 | Amort. - Réaménagement du centre-ville (P11/13) [16-35] | 290'000.00 | 290'000.00 | 0.00  |
+|  341.3312.01 | Amort. - Parking 'Centre-Ville' (P11/11) [16-25] | 46'672.75 | 46'600.00 | 72.75  |
+|  350.3312.02 | Amort. - Rénovation Maison de Commune (P17/17) [22-41] | 189'800.00 | 189'800.00 | 0.00  |
+|  501.3312.11 | Amort. - Inst. techniques Mousquetaires (P06/17) [20-29] | 98'520.00 | 98'520.00 | 0.00  |
+|  580.3312.00 | Amort. - Temple Saint-Théodule (P27/16) [21-40] | 96'800.00 | 96'800.00 | 0.00  |
+|  **332** | **Autres amortissements du patrimoine administratif** | **5'304'322.92** | **10'136'800.00** | **-4'832'477.08**  |
+|  350.3321.00 | Amort. - Inst. photovolta. S. Remparts [16-25] | 6'206.20 | 17'500.00 | -11'293.80  |
+|  350.3321.03 | Amort. - Inst. photovolta. MdC (p46/18) [22-31] | 3'900.00 | 3'900.00 | 0.00  |
+|  350.3321.07 | Amort. - Pav UAPE Collège étape 3 (P23/22) [25] | 175'485.94 | 175'500.00 | -14.06  |
+|  430.3321.09 | Amort. - Réam. et sécu. Ch. Gregnolet (P10/22) [25] | 588'159.56 | 588'200.00 | -40.44  |
+|  430.3321.10 | Amort. - Ass éclairage publ mercure (P10/19) [25] | 619'422.20 | 710'000.00 | -90'577.80  |
+|  430.3321.11 | Amort. - Mise en conformité gare CFF (P20/19) [25] | 232'310.55 | 260'000.00 | -27'689.45  |
+|  430.3321.12 | Amort. - RC780 EdV-Maladaire (P08/20) [26] | 0.00 | 3'687'000.00 | -3'687'000.00  |
+|  430.3321.13 | Amort. - Ass. Bulesses-Crotton (P10/20) [25] | 1'554'376.15 | 1'507'000.00 | 47'376.15  |
+|  440.3321.01 | Amort. - Place de jeux du Château (P04/23) [25] | 320'152.20 | 320'000.00 | 152.20  |
+|  460.3321.06 | Amort. - Réam. et sécu. Ch. Gregnolet (P10/22) [25] | 290'738.75 | 290'800.00 | -61.25  |
+|  460.3321.07 | Amort. - Mise en conformité gare CFF (P20/19) [25] | 264'481.59 | 330'000.00 | -65'518.41  |
+|  460.3321.08 | Amort. - RC780 EdV-Maladaire (P08/20) [26] | 0.00 | 523'000.00 | -523'000.00  |
+|  460.3321.09 | Amort. - Ass. Bulesses-Crotton (P10/20) [25] | 1'046'081.00 | 1'188'000.00 | -141'919.00  |
+|  471.3321.03 | Amort. - Réam. ruisseau Sully (P12/22) [25] | 151'090.78 | 487'500.00 | -336'409.22  |
+|  501.3321.00 | Amort. - Inst. photovolta. Mousquet. (P10/12) [14-33] | 15'000.00 | 15'000.00 | 0.00  |
+|  501.3321.01 | Amort. - Inst. photovolta. Coll. Bel-Air (P29/16) [19-28] | 14'400.00 | 14'400.00 | 0.00  |
+|  501.3321.04 | Amort. - Ext. photovolta. Collège Courbet (P13/21) [10 ans] | 0.00 | 19'000.00 | -19'000.00  |
+|  501.3321.06 | Amort. - Serrures Coll. Mousqu. (P03/24) [25-29] | 22'518.00 | 0.00 | 22'518.00  |
+|  **333** | **Amortissement du découvert** | **0.00** | **0.00** | **0.00**  |
+|  230.3330.00 | Amortissements - Découvert | 0.00 | 0.00 | 0.00  |
+|  **38** | **ATTRIBUTIONS AUX FONDS ET FINANCEMENTS SPECIAUX** | **3'112'939.49** | **2'238'525.00** | **874'414.49**  |
+|  **380** | **Attributions aux fonds de réserve et de renouvellement** | **2'157'648.80** | **1'353'600.00** | **804'048.80**  |
+|  200.3809.00 | Attrib. - Prov. débiteurs douteux ordinaires | 30'000.00 | 30'000.00 | 0.00  |
+|  210.3809.00 | Attrib. - Impôt affecté NCC (1.5 point) | 1'067'660.00 | 1'128'000.00 | -60'340.00  |
+|  223.3809.00 | Attrib. fonds régul. pérég. (péréquation directe) | 510'807.00 | 0.00 | 510'807.00  |
+|  230.3809.01 | Dépenses et investissements futurs | 150'000.00 | 0.00 | 150'000.00  |
+|  230.3809.09 | Attrib. - Fonds pour vandalisme | 40'000.00 | 40'000.00 | 0.00  |
+|  350.3802.01 | Attrib. - Fonds acquisition oeuvres d'art | 5'000.00 | 5'000.00 | 0.00  |
+|  400.3809.00 | Attrib. - Fonds taxes équip. communautaires | 229'335.00 | 150'000.00 | 79'335.00  |
+|  600.3809.00 | Attrib. fonds régul. pérég. (réforme policière) | 10'882.00 | 0.00 | 10'882.00  |
+|  710.3809.14 | Attrib. FAPSH - Aides aux pers. en sit. de handic. | 600.00 | 600.00 | 0.00  |
+|  720.3809.00 | Attrib. fonds régul. pérég. (facture sociale) | 113'364.80 | 0.00 | 113'364.80  |
+|  **381** | **Attributions aux financements spéciaux** | **955'290.69** | **884'925.00** | **70'365.69**  |
+|  101.3819.00 | Attrib. - Fonds primes départ municipaux | 23'175.00 | 23'175.00 | 0.00  |
+|  150.3817.00 | Attrib. - Fonds part. taxe séjour subv. occ. | 1'952.85 | 0.00 | 1'952.85  |
+|  151.3818.00 | Attrib. FERDD - Prod. photovolta. (151.4351.00) | 15'294.64 | 15'000.00 | 294.64  |
+|  200.3818.00 | Attrib. FERDD - Taxes spéc et CO2 (200.4112.01/02) | 145'717.20 | 102'000.00 | 43'717.20  |
+|  340.3818.00 | Attrib. FERDD - Prod. photovolta. (Bau 22/24, Bér 74) | 17'483.55 | 13'000.00 | 4'483.55  |
+|  350.3818.00 | Attrib. FERDD - Prod. photovolta. (350.4351.xx) | 1'987.27 | 2'400.00 | -412.73  |
+
+
+
+## INVENTAIRE DES AMORTISSEMENTS ET ATTRIBUTIONS
+
+|  451.3812.00 | Attrib. fonds fin. spéc. - Elim. ordures mén. | 87'952.25 | 0.00 | 87'952.25  |
+| --- | --- | --- | --- | --- |
+|  460.3811.00 | Transfert au compte de réserve | 604'482.92 | 604'350.00 | 132.92  |
+|  501.3818.00 | Attrib. FERDD - Prod. photov. (501.4351.xx) | 57'245.01 | 125'000.00 | -67'754.99  |
+
+|  **48** | **PRÉLÈVEMENTS SUR FONDS ET FINANCEMENTS SPÉCIAUX** | **6'009'967.71** | **15'122'325.00** |   |
+| --- | --- | --- | --- | --- |
+
+|  **480** | **Prélèvements sur les fonds de réserve et de renouvellement** | **3'986'843.25** | **11'950'275.00** | **-5'949'451.46**  |
+| --- | --- | --- | --- | --- |
+|  200.4809.10 | Prél. - Prov. débiteurs douteux ordinaires | 1'282.50 | 25'000.00 | -23'717.50  |
+|  223.4809.00 | Prél. fonds régul. pérég. (péréquation directe) | 0.00 | 1'285'000.00 | -1'285'000.00  |
+|  230.4801.05 | Prél. - Fonds pour vandalisme | 17'183.14 | 40'000.00 | -22'816.86  |
+|  230.4809.08 | Prél. FDIF - 1% inflation B25 | 0.00 | 860'000.00 | -860'000.00  |
+|  350.4802.01 | Prél. - Fonds acquisition oeuvres d'art | 28.50 | 0.00 | 28.50  |
+|  350.4809.05 | Prél FDIF - Pav UAPE Collège étape 3 (P23/22) [25] | 175'485.94 | 175'500.00 | -14.06  |
+|  430.4809.09 | Prél FDIF - Réam et sécu Ch Gregnolet (P10/22) [25] | 588'159.56 | 588'200.00 | -40.44  |
+|  430.4809.10 | Prél FDIF - Ass éclaira. publ mercure (P10/19) [25] | 619'422.20 | 710'000.00 | -90'577.80  |
+|  430.4809.11 | Prél FDIF - Mise conformité gare CFF (P20/19) [25] | 232'310.55 | 260'000.00 | -27'689.45  |
+|  430.4809.12 | Prél FDIF - RC780 EdV-Maladaire (P08/20) [26] | 0.00 | 3'687'000.00 | -3'687'000.00  |
+|  430.4809.13 | Prél FDIF - Ass. Bulesses-Crotton (P10/20) [25] | 1'554'376.15 | 1'507'000.00 | 47'376.15  |
+|  440.4809.01 | Prél. FDIF - Place de jeux Château (P04/23) [25] | 320'152.20 | 320'000.00 | 152.20  |
+|  470.4803.03 | Prél. fond 'entretien du port' | 14'954.13 | 52'375.00 | -37'420.87  |
+|  471.4809.03 | Prél. FDIF - Réam. ruisseau Sully (P12/22) [25] | 151'090.78 | 487'500.00 | -336'409.22  |
+|  501.4809.03 | Prél FDIF - Serrures Coll. Mousqu. (P03/24) [25-29] | 22'518.00 | 0.00 | 22'518.00  |
+|  660.4809.00 | Prél. FDAPPC - Dispenses abris privés PC | 288'299.60 | 0.00 | 288'299.60  |
+|  710.4809.02 | Prél. FAPSH 'Aides aux pers. en sit. de handicap' | 1'580.00 | 1'700.00 | -120.00  |
+|  720.4809.00 | Prél. fonds régul. pérég. (facture sociale) | 0.00 | 1'951'000.00 | -1'951'000.00  |
+|  **481** | **Prélèvements sur les financements spéciaux** | **2'023'124.46** | **3'172'050.00** | **-1'124'617.26**  |
+|  151.4818.00 | Prél. FERDD - Entr. inst. photov. (151.3156.05) | 892.85 | 6'000.00 | -5'107.15  |
+|  300.4819.00 | Prél. FERDD - 300.3664.00 Subventions FERDD (SDOM) | 233'695.58 | 350'000.00 | -116'304.42  |
+|  350.4818.00 | Prél. FERDD - Entr. inst. photov. (350.3156.05) | 653.00 | 1'700.00 | -1'047.00  |
+|  350.4819.00 | Prél. FERDD - Inst. photov. S. Remp. (16-25) | 6'206.20 | 17'500.00 | -11'293.80  |
+|  350.4819.01 | Prél. FERDD - Inst. photov. MdC (p46/18) [22-31] | 3'900.00 | 3'900.00 | 0.00  |
+|  450.4812.00 | Prél. fonds fin. spéc. - Elim. ordures mén. | 130'683.77 | 356'350.00 | -225'666.23  |
+|  451.4812.00 | Prél. fonds fin. spéc. - Elim. ordures mén. | 0.00 | 34'700.00 | -34'700.00  |
+|  460.4811.07 | Prél FEE - Réam et sécu Ch Gregnolet (P10/22) [25] | 290'738.75 | 290'800.00 | -61.25  |
+|  460.4811.08 | Prél FEE - Mise conformité gare CFF (P20/19) [25] | 264'481.59 | 330'000.00 | -65'518.41  |
+|  460.4811.09 | Prél FEE - RC780 EdV-Maladaire (P08/20) [26] | 0.00 | 523'000.00 | -523'000.00  |
+|  460.4811.10 | Prél FEE - Ass. Bulesses-Crotton (P10/20) [25] | 1'046'081.00 | 1'188'000.00 | -141'919.00  |
+|  501.4818.00 | Prél. FERDD - Entr. inst. photov. (501.3156.05) | 16'391.72 | 21'700.00 | -5'308.28  |
+|  501.4819.00 | Prél. FERDD - Inst. photov. Mousquet. (P10/12) [14-33] | 15'000.00 | 15'000.00 | 0.00  |
+|  501.4819.01 | Prél. FERDD - Inst. photov. Coll. Bel-Air (P29/16) [19-28] | 14'400.00 | 14'400.00 | 0.00  |
+|  501.4819.02 | Prél. FERDD - Ext. photov. Collège Courbet (P13/21) [10 ans] | 0.00 | 19'000.00 | -19'000.00  |
+
+
+
+# INVENTAIRE DES TERRAINS ET BÂTIMENTS
+
+|  Commune | Parcelle | Désignation | Estimation fiscale | Bilan 31.12.2025  |
+| --- | --- | --- | --- | --- |
+|  **Patrimoine financier (9123.001.00 Immeubles productifs)**  |   |   |   |   |
+|  LTDP | 56 | Grand-Rue 56-58 | 880'000.00 | 880'000.00  |
+|  LTDP | 57 | Grand-Rue 50 | 1'420'000.00 | 1'420'000.00  |
+|  LTDP | 100 | Rue du Léman 7 | 1'000'000.00 | 1'000'000.00  |
+|  LTDP | 108 | Rue du Château 24 | 1'200'000.00 | 1'200'000.00  |
+|  LTDP | 143 | Grand-Rue 23 | 1'260'000.00 | 1'260'000.00  |
+|  LTDP | 183 | Rue du Port 3 | 260'000.00 | 260'000.00  |
+|  LTDP | 219 | Rue des Remparts 4 | 130'000.00 | 130'000.00  |
+|  LTDP | 250 | Rue du Collège 14 | 48'000.00 | 48'000.00  |
+|  LTDP | 251 | Avenue de Traménaz 10 | 82'000.00 | 82'000.00  |
+|  LTDP | 252 | Rue du Collège 12 | 36'000.00 | 36'000.00  |
+|  LTDP | 262 | Rue du Collège - Place des Anciens-Fossés 7 - Avenue des Mousquetaires - Rue des Terraux | 350'000.00 | 350'000.00  |
+|  LTDP | 301 | Avenue de Traménaz (plantage) | 275'000.00 | 275'000.00  |
+|  LTDP | 317 | Avenue de Traménaz (plantage) | 130'000.00 | 130'000.00  |
+|  LTDP | 318 | Avenue de Traménaz (garages et pavillon) | 110'000.00 | 110'000.00  |
+|  LTDP | 319 | Avenue de Traménaz 24 | 265'000.00 | 265'000.00  |
+|  LTDP | 321 | Avenue de la Paix - Avenue des Mousquetaires (garages) | 270'000.00 | 270'000.00  |
+|  LTDP | 499 | Route de Saint-Maurice (Camping de la Maladaire) | - | 50'000.00  |
+|  LTDP | 500 | Route de Saint-Maurice (Camping de la Maladaire) | - | 50'000.00  |
+|  LTDP | 580 | Avenue des Baumes 24 | 2'320'000.00 | 2'320'000.00  |
+|  LTDP | 602 | Chemin de Béranges 74 | 1'440'000.00 | 1'440'000.00  |
+|  LTDP | 643 | Avenue des Baumes 22 | 2'300'000.00 | 2'300'000.00  |
+|  LTDP | 686 | Avenue de Jaman 13 | 690'000.00 | 690'000.00  |
+|  LTDP | 768 | Avenue de Bel-Air (plantage) | 180'000.00 | 180'000.00  |
+|  LTDP | 808 | Chemin des Murs-Blancs 6 | 100'000.00 | 100'000.00  |
+|  LTDP | 810 | Avenue de la Perrausaz 2 | 890'000.00 | 890'000.00  |
+|  LTDP | 918 | Chemin de Béranges 53 | 780'000.00 | 780'000.00  |
+|  LTDP | 919 | Chemin de Béranges 51 | 1'050'000.00 | 1'050'000.00  |
+|  LTDP | 928 | En La Faraz (place) | 1'920'000.00 | 1'870'000.00  |
+|  LTDP | 1116 | En Béranges (ancien stand de tir) | 300'000.00 | 300'000.00  |
+|  LTDP | 1134 | La Côte-aux-Grives | 10'000.00 | 10'000.00  |
+|  LTDP | 1160 | Chemin de Gérénaz 7 | 500'000.00 | 500'000.00  |
+|  LTDP | 1345 | Avenue de Sully 48 | 145'000.00 | 145'000.00  |
+|  LTDP | 1384 | Au Croton | 82'000.00 | 82'000.00  |
+|  LTDP | 1387 | Au Pré-Long (vignes) | 80'000.00 | 80'000.00  |
+|  LTDP | 1392 | Au Pré-Long (vignes) | 30'000.00 | 30'000.00  |
+|  LTDP | 1395 | Au Pré-Long (vignes + prés et champs) | 40'000.00 | 40'000.00  |
+|  LTDP | 1400 | Au Pré-Long (vignes + places jardins) | 15'000.00 | 15'000.00  |
+|  LTDP | 1401 | Au Pré-Long (prés et champs) | 2'000.00 | 2'000.00  |
+|  LTDP | 1406 | Au Pré-Long (prés et champs) | 8'000.00 | 8'000.00  |
+|  LTDP | 1409 | En Villard (vignes) | 30'000.00 | 30'000.00  |
+|  LTDP | 2486 | Avenue du Clos-d'Aubonne 1 (Immeuble PTT - PPE 481‰) | 2'400'000.00 | 2'400'000.00  |
+|  **TOTAL** |   |   | **23'028'000.00** | **23'078'000.00**  |
+|  **Patrimoine financier (9123.004.00 Valorisation Murs-Blancs)**  |   |   |   |   |
+|  LTDP | 806 | Chemin des Murs-Blancs | - | 1'717'640.00  |
+|  **TOTAL** |   |   | **-** | **1'717'640.00**  |
+
+
+
+# INVENTAIRE DES TERRAINS ET BÂTIMENTS
+
+|  Commune | Parcelle | Désignation | Estimation fiscale | Bilan 31.12.2025  |
+| --- | --- | --- | --- | --- |
+|  **Patrimoine administratif (9145.001.00 Forêts)**  |   |   |   |   |
+|  Blonay | 8 | Petite-Bonnavau - Les Lyites - Grande-Bonnavau | 36'800.00 | 0.00  |
+|  Blonay | 11 | Fontanna-David - Montbrion | 28'000.00 | 0.00  |
+|  Blonay | 24 | Fontanna-David | 110'000.00 | 0.00  |
+|  Blonay | 26 | Fontanna-David | 50.00 | 0.00  |
+|  Blonay | 27 | Fontanna-David | 50.00 | 0.00  |
+|  Blonay | 28 | Fontanna-David | 28'000.00 | 0.00  |
+|  Blonay | 29 | Fontanna-David | 1'500.00 | 0.00  |
+|  Blonay | 31 | Fontanna-David | 5'000.00 | 0.00  |
+|  Blonay | 55 | L'Alliaz | 88'000.00 | 1.00  |
+|  Blonay | 56 | L'Alliaz | 1'500.00 | 0.00  |
+|  **TOTAL** |   |   | **298'900.00** | **1.00**  |
+|  **Patrimoine administratif (9149.001.00 Immeubles administratifs)**  |   |   |   |   |
+|  Ormonts-Dessous | 734 | Chemin de la Crétasse 2, La Comballaz (Es Saves) | 214'000.00 | 1.00  |
+|  **TOTAL** |   |   | **214'000.00** | **1.00**  |
+
+
+
+## INVENTAIRE DES TITRES
+
+|  Qté | Titres - inventaire au 31.12.2025 | Valeur nominale 1 titre | Valeur nominale totale | Valeur bilan au 31.12.2024 | Cours au 31.12.2025 | Valeur amortie ou remboursée | Valeur bilan au 31.12.2025 | Plus- ou moins-value | Rendement brut 2025  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  **9120.040,00 Titres du patrimoine financier** |   |  | **1'840,00** | **1'330,00** |  | **0,00** | **17'226,35** | **0,00** | **6'637,00**  |
+|  (rendement compte 221.4222,00) |   |  |  |  |  |  |  |  |   |
+|  **Titres dans portefeuille BCV**  |   |   |   |   |   |   |   |   |   |
+|  1'330 | Act. Banque Cantonale Vaudoise | 1,00 | 1'330,00 | 1'330,00 | 100,40 | 0,00 | 1'330,00 | 0,00 | 5'852,00  |
+|  100 | Act. nominative Nestlé SA (sans valeur nominale) | 0,10 | 10,00 | - | 78,74 | 0,00 | 5'979,20 | 0,00 | 305,00  |
+|  20 | Act. nominative Vaudoise Assurances Holding SA | 25,00 | 500,00 | - | 728,00 | 0,00 | 9'917,15 | 0,00 | 480,00  |
+|  **9153.001,00 Titres du patrimoine administratif** |   |  | **2'818'968,00** | **1'654'185,00** |  | **0,00** | **1'664'185,00** | **0,00** | **498'000,00**  |
+|  (rendement compte 221.4250,00) |   |  |  |  |  |  |  |  |   |
+|  **Titres non émis**  |   |   |   |   |   |   |   |   |   |
+|  1'583 | Act. SA Compost Chablais Riviera | 100,00 | 158'300,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  1'200 | Act. Sté du Parking des Remparts SA | 1'000,00 | 1'200'000,00 | 1'200'000,00 | 0,00 | 0,00 | 1'200'000,00 | 0,00 | 0,00  |
+|  5'940 | Act. VMCV S.A. | 100,00 | 594'000,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  **Titres dans portefeuille Banque cantonale vaudoise (BCV)**  |   |   |   |   |   |   |   |   |   |
+|  7'800 | Act. Compagnie du chemin de fer MOB | 10,00 | 78'000,00 | 0,00 | 4,15 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  853 | Act. Groupe CGN SA | 25,00 | 21'325,00 | 0,00 | 3,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  40 | Act. CRIDEC Centre de ramassage déchets | 1'000,00 | 40'000,00 | 0,00 | 0,00 | 0,00 | 10'000,00 | 0,00 | 780,00  |
+|  47'379 | Act. Holdinova SA Vevey | 10,00 | 473'790,00 | 377'110,00 | 145,00 | 0,00 | 377'110,00 | 0,00 | 379'032,00  |
+|  77'075 | Act. Romande Energie Holding SA | 1,00 | 77'075,00 | 77'075,00 | 43,40 | 0,00 | 77'075,00 | 0,00 | 110'988,00  |
+|  2'711 | Act. Transports Montreux-Vevey-Riviera | 10,00 | 27'110,00 | 0,00 | 0,25 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  120 | Act. Tunnel du Gd-St-Bernard S.A. | 500,00 | 60'000,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 7'200,00  |
+|  113 | Bons de jouissance Compagnie industrielle du gaz | SVN (*) | SVN (*) | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  182 | Part soc. LOGACOP Sté coop. Lausanne | 100,00 | 18'200,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+|  **Titres dans portefeuille Banque Cantonale du Valais (BCVs)**  |   |   |   |   |   |   |   |   |   |
+|  404 | Act. SATOM SA Monthey | 100,00 | 40'400,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00  |
+
+
+
+# INVENTAIRE DES TITRES
+
+|  Qté | Titres - inventaire au 31.12.2025 | Valeur nominale 1 titre | Valeur nominale totale | Valeur bilan au 31.12.2024 | Cours au 31.12.2025 | Valeur amortie ou remboursée | Valeur bilan au 31.12.2025 | Plus- ou moins-value | Rendement brut 2025  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|   | **Titres hors portefeuille banques** |  |  |  |  |  |  |  |   |
+|  5 | Act. BVA Holding Lausanne | 100.00 | 500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  5 | Act. Sky Event SA, Château-D'Oex | 1'000.00 | 5'000.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  368 | Act. Télé Leysin - Col des Mosses - La Lécherette SA | 1.00 | 368.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  6 | Obl. La Rame Vevey-La Tour | 25.00 | 150.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  18 | Part soc. 'La Forestière' | 250.00 | 4'500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  18 | Part soc. Ass. forestière vaudoise et du Bas-Valais | 250.00 | 4'500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  5 | Part soc. Coop. du théâtre de l'Equipe Lausanne | 10.00 | 50.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  70 | Part soc. Coop. Vaud. de cautionnement | 10.00 | 700.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  40 | Part soc. Coop. Vaud. de cautionnement Hyp. | 10.00 | 400.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  10 | Part soc. Coopérative des Pléiades | 300.00 | 3'000.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  1 | Part soc. Groupement vaudois industrie mécanique Lausanne (*) | 500.00 | 500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  1 | Part soc. Office des vins vaudois Lausanne | 5'000.00 | 5'000.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  1 | Part soc. Pinte vaudoise du Ballenberg | 500.00 | 500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  1 | Part soc. Sté coop. suisse aide aux bibliothèques | 500.00 | 500.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  2 | Part soc. Sté sauvetage St-Saphorin | 50.00 | 100.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+|  200 | Part soc. Tennis club Bellaria La Tour-de-Peilz | 25.00 | 5'000.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00  |
+
+
+
+# Statistiques
+
+
+
+# STATISTIQUES - FINANCEMENTS SPÉCIAUX ET FONDS DE RÉSERVE
+
+|   | Fonds alimentés par des recettes affectées (comptes 9280) | Fonds de renouvellement et de rénovation (comptes 9281) | Fonds de réserve (comptes 9282) | TOTAL  |
+| --- | --- | --- | --- | --- |
+|  2016 | 6'192'597 | 5'291'527 | 20'426'704 | 31'910'827  |
+|  2017 | 6'840'639 | 4'102'131 | 22'930'916 | 33'873'686  |
+|  2018 | 7'510'132 | 3'932'577 | 25'553'137 | 36'995'846  |
+|  2019 | 8'399'045 | 4'345'503 | 25'298'422 | 38'042'970  |
+|  2020 | 9'340'117 | 4'552'390 | 26'069'739 | 39'962'246  |
+|  2021 | 10'263'057 | 6'800'374 | 24'332'367 | 41'395'798  |
+|  2022 | 10'105'248 | 7'269'280 | 23'756'433 | 41'130'961  |
+|  2023 | 10'839'635 | 7'964'565 | 23'748'608 | 42'552'807  |
+|  2024 | 10'915'840 | 8'118'050 | 23'053'636 | 42'087'527  |
+|  2025 | 9'824'832 | 8'788'133 | 20'577'534 | 39'190'498  |
+
+
+
+# STATISTIQUES - CRÉDITS ENGAGÉS SUR FONDS DE RÉSERVE
+
+|   | Total des fonds de réserve | Dépenses affectées (comptes 9280) | Dépenses réservées (comptes 9282) | Solde des réserves  |
+| --- | --- | --- | --- | --- |
+|  2016 | 31'910'827 | 1'635'158 | 6'213'176 | 24'062'493  |
+|  2017 | 33'873'686 | 1'645'158 | 5'285'296 | 26'943'232  |
+|  2018 | 36'995'846 | 1'645'158 | 5'696'396 | 29'654'292  |
+|  2019 | 38'042'971 | 3'112'698 | 9'084'396 | 25'845'877  |
+|  2020 | 39'962'246 | 4'657'061 | 15'475'396 | 19'829'789  |
+|  2021 | 41'395'798 | 4'460'698 | 15'090'896 | 21'844'204  |
+|  2022 | 41'130'961 | 5'015'407 | 16'149'822 | 19'965'732  |
+|  2023 | 42'552'807 | 5'114'607 | 17'038'000 | 20'400'200  |
+|  2024 | 42'087'527 | 4'082'908 | 11'961'935 | 26'042'683  |
+|  2025 | 39'190'498 | 4'425'702 | 6'814'675 | 27'950'122  |
+
+
+
+Divers
+
+
+
+# DESTINATION DES FONDATIONS
+
+9233.001.00 - FONDS FRIEDA ECHENARD
+
+Mme Frieda Echenard, décédée le 12 septembre 1987, a légué à la Commune de La Tour-de-Peilz, la somme de Fr. 3'000.--. L'intérêt de ce capital servira à récompenser une bonne élève de « l'école ménagère ». Cette récompense portera le nom « Prix Frieda Echenard ».
+
+9233.002.00 - FONDS ROSA BONNET
+
+Ce fonds, constitué à fin 1964, résulte des dispositions testamentaires de Mme Rosa Bonnet qui a institué notre Commune comme unique héritière de tous ses biens en fixant que le capital disponible (de Fr. 12'500.-- en chiffre rond) « devra servir à développer l'action d'une infirmière ou sœur visitante, avant tout pour les familles modestes et pour les personnes seules habitant dans la Commune de La Tour-de-Peilz ».
+
+9233.003.00 - FONDS ÉCHANGE DE CLASSES
+
+En 1967 et 1976, M. Hans Rohrer à Vevey a fait aux écoles deux dons de Fr. 10'000.-- et Fr. 5'000.-- dont les intérêts doivent faciliter l'échange de classes entre la Commune de La Tour-de-Peilz et celle de Buchs, Commune d'origine du donateur.
+
+9233.004.00 - FONDS RENÉ ECHENARD
+
+M. René Echenard, décédé le 12 septembre 1974, a légué à la Commune de La Tour-de-Peilz la somme de Fr. 10'000.-- destinée aux classes terminales dès la 7ème année, montant dont les revenus annuels nets serviront à alimenter le fonds des concours des branches scolaires.
+
+Porteront la dénomination « Prix René Echenard-Zimmermann » les récompenses dont la valeur totale correspondra aux revenus nets de la somme précitée. Les revenus nets du fonds seront intégralement distribués chaque année, le montant de chaque prix étant limité à Fr. 100.-- maximum.
+
+9233.005.00 - SUCCESSION CLÉMENCE GRANGIER
+
+Cette succession est constituée par un legs de Fr. 6'500.-- fait par Mlle Clémence Grangier, décédée à La Tour-de-Peilz le 6 novembre 1925, legs dont les intérêts doivent servir :
+
+a) à maintenir à perpétuité les cases où reposent ses cendres et celles de son amie Mlle Louise Gaudin, ainsi qu'à renouveler la location à chaque fin de terme ;
+b) à entretenir constamment des fleurs fraîches sur ces deux cases.
+
+9233.006.00 - DONATION JULES GUEX
+
+Cette donation en capital de Fr. 15'000.-- est due à la générosité de feu M. Jules Guex, ancien banquier, bourgeois de La Tour-de-Peilz. Les intérêts alimenteront dès 1981 le fonds des concours scolaires. Porteront la dénomination « Prix Jules Guex » les récompenses dont la valeur totale correspondra aux revenus nets de la somme précitée. Les revenus nets seront intégralement distribués chaque année.
+
+9233.007.00 - DONATION ALOÏS HUGONIN
+
+Par lettre du 11 mai 1867, M. Aloïs Hugonin, Syndic et bourgeois de La Tour-de-Peilz, informait la Municipalité qu'en souvenir de ses deux fils, Alfred décédé en 1855 et Eugène, décédé en 1867, il faisait don à sa chère Commune d'une somme de Fr. 10'000.-- dont les revenus doivent être appliqués à payer des apprentissages à des combourgeois pauvres ou peu aisés et, de plus, s'ils y suffisent, à faciliter par un don le mariage de filles honnêtes également pauvres ou peu aisées de cette Commune. Le donateur a prévu que les revenus non utilisés seront ajoutés annuellement au capital pour l'augmenter.
+
+9233.008.00 - FONDATION MERCIER
+
+Elle est due à la générosité de « Spectable et Scavant Jean Mercier, vivant Pasteur à Vevey qui, par dispositions testamentaires homologuées les 22 mars et 2 avril 1710, a légué à la Noble Bourgeoisie de La Tour-de-Peilz, une somme d'environ 1'300 écus petits, afin que la rente en provenant soit appliquée à en faire étudier pour le Saint-Ministère un bourgeois de La Tour-de-Peilz, d'intention que les membres de la famille soient toujours préférés».
+
+
+
+### **9233.009.00 - DONATION PRISCILLA MORIER-GENOUD**
+
+Le fond intitulé « Donation Priscilla Morier-Genoud » est constitué par un capital initial de Fr. 14'250.--. Il est destiné à venir en aide aux enfants de familles à ressources modestes ayant des difficultés à suivre nos écoles (enfants dyslexiques, retardés, etc.) de même qu'à l'entretien de la tombe de Mlle Morier-Genoud, décédée le 9 avril 1959 et inhumée au cimetière communal de Vassin.
+
+### **9233.010.00 - SUCCESSION ALICE NASH**
+
+Cette succession est constituée par un legs de 5'000 dollars, fait par Mlle Alice Nash, décédée le 25 septembre 1957, legs dont les conditions d'utilisation sont :
+
+- a) entretien de la tombe de Mlle Alice Nash pour le temps de la concession qui vient à échéance le 11 octobre 1987 et pour une nouvelle période de 30 ans, y compris les frais de renouvellement de concession ;
+- b) entretien de la tombe de Mme Nash mère et renouvellement de la concession ;
+- c) la tombe de Mlle Nash, outre son entretien, sera régulièrement et agréablement fleurie et les frais de jardinier mis à la charge du legs ;
+- d) après 60 ans, c'est-à-dire après l'échéance de la concession de Mlle Alice Nash, le solde du legs pourra être utilisé d'une manière générale pour l'aménagement et l'entretien du cimetière de Vassin.
+
+### **9233.011.00 - FONDS NESTLÉ DES CUISINES SCOLAIRES**
+
+Ce fonds a été constitué par lettre que la Maison Nestlé a adressée le 18 décembre 1916 à la Municipalité, dont voici les termes :
+
+« Nous avons l'avantage de remettre à la Municipalité une obligation de Fr. 10'000.-- 5% du Crédit Foncier Vaudois, constituant un fonds Nestlé des cuisines scolaires dans votre localité et dont les intérêts sont à utiliser pour les dépenses courantes de cette œuvre.
+
+Nous désirons que ce capital de Fr. 10'000.-- soit incessible et inaliénable, de façon à assurer aux cuisines scolaire un revenu annuel.
+
+Lors du remboursement de ce titre, nous vous demandons que ce capital soit replacé en obligation du Crédit Foncier Vaudois ou, à défaut d'existence de telles obligations, en titres de même genre et présentant les mêmes garanties.
+
+Au cas où l'œuvre des cuisines scolaires viendrait à disparaître, ce capital serait à gérer par vous, au profit d'une autre œuvre pour l'enfance ».
+
+### **9233.012.00 - FONDS NESTLÉ – GARDERIE D'ENFANTS**
+
+Ce fonds a été constitué par lettre du 22 décembre 1917 à l'adresse de la Municipalité et dont suit la teneur :
+
+« Nous avons le plaisir de vous remettre sous ce pli :
+
+Fr. 5'000.-- en titres et Fr. 1'000.-- obligation 5% Commune de La Tour-de-Peilz constituant un « Fonds Nestlé, cure de soleil pour enfants ».
+
+Les intérêts de ce fonds sont à affecter aux dépenses courantes de l'œuvre du « solarium ».
+
+Nous désirons que ce capital de Fr. 5'000.-- soit incessible et inaliénable, de façon à assurer un revenu annuel.
+
+Lors du remboursement de ces titres, nous vous demandons de veiller à ce que ce capital soit replacé en fonds publics suisses.
+
+Au cas où l'œuvre précitée viendrait à disparaître, les intérêts annuels dudit fonds seraient à utiliser au profit d'une « œuvre pour l'enfance ».
+
+### **9233.013.00 - FONDS PIERRE QUILLET**
+
+Le fonds Pierre Quillet est constitué par un capital de Fr. 100'000.-- (cent mille francs), légué à la Commune de La Tour-de-Peilz par Monsieur Pierre Quillet, décédé le 15 mars 1998, architecte des première et deuxième étapes du Collège des Mousquetaires à La Tour-de-Peilz, en souvenir et en reconnaissance des excellentes relations entretenues alors avec les Autorités communales. Selon le vœu du défunt, les intérêts du capital doivent servir à récompenser chaque année un ou plusieurs élèves des deux sexes, de tous les collèges de la Commune, particulièrement doués pour le dessin, et toutes les formes que ce dernier peut revêtir, conformément au règlement établi à cet effet.
+
+
+
+# **9233.015.00 (a), 9233.016.00 (b), 9233.017.00 (c) - FONDS EMILE ROBIN**
+
+Cette fondation est constituée par un capital inaliénable de Fr. 41'000.-- dont les revenus doivent être affectés comme suit :
+
+a) avec les intérêts de Fr. 10'000.--, il est remis un don aux institutrices et maîtresses d'ouvrages en service dans la Commune le jour de Noël. Ce don doit être de Fr. 25.-- pour autant que le capital y suffise ; à défaut, les revenus sont à répartir entre les intéressées.
+b) avec les intérêts de Fr. 16'000.--, il est distribué la veille de Noël à chaque veuve pauvre ou infirme habitant la Commune de La Tour-de-Peilz, un kilo de café, une livre de sucre et une fascine, ceci sans distinction de nationalité.
+c) les intérêts de Fr. 15'000.--, enfin sont consacrés intégralement à une course scolaire offerte chaque année aux élèves des écoles primaires. Les capitaux affectés à ces différentes destinations font l'objet d'autant de comptes en banque.
+
+# **9233.018.00 - FONDS E.L. ROUSSY – CLINIQUE DENTAIRE**
+
+Les intérêts de ce fonds, au capital initial et inaliénable de Fr. 7'500.--, sont utilisés pour alléger d'autant les frais annuels d'exploitation de la clinique dentaire scolaire, ouverte en 1930.
+
+# **9233.019.00 - FONDS DE SECOURS E.L. ROUSSY**
+
+Les revenus de ce fonds, au capital initial et inaliénable de Fr. 3'500.--, servent à secourir, sans distinction de nationalité et de religion, les personnes pauvres domiciliées dans la Commune de La Tour-de-Peilz.
+
+# **9233.020.00 - FONDS DE SECOURS GASTON ROUSSY**
+
+Le fonds de secours Gaston Roussy est constitué par un capital initial de Fr. 10'000.--, il résulte d'une disposition testamentaire faite le 21 novembre 1933 par M. Gaston Roussy, décédé à La Tour-de-Peilz le 6 mars 1937. Les intérêts seront attribués au fonds « interventions sociales ».
+
+# **9233.022.00 - FONDS RICHARD BRINGOLF**
+
+Ce fonds a été constitué par la Municipalité de La Tour-de-Peilz le 6 février 1967. Le préavis à la Commission des finances demande de :
+
+« créer un "Fond Richard Bringolf" avec la somme de Fr. 15'000.-- prévue au budget 1967 pour la réception de M. Bringolf à l'occasion de son accession à la présidence du Grand-Conseil ».
+
+La somme de Fr. 20'000.-- est transférée en 1985 du compte « Bourse d'apprentissage ». Elle est portée en augmentation du capital initial. Ce fonds sera destiné à favoriser la formation professionnelle et le premier établissement des jeunes.
+
+# **9233.023.00 - FONDS JOHANN GRODTMANN**
+
+Une lettre du Juge de Paix du 5 juin 1968 nous apprend que M. Grodtmann, dans ses dispositions de dernières volontés a inséré la clause suivante :
+
+« Cinq mille francs suisses à la Commune de La Tour-de-Peilz en témoignage et reconnaissance pour le bon accueil que j'ai reçu lorsque les événements d'Allemagne m'ont obligé à quitté ce pays en mil neuf cent trente huit ».
+
+Cette somme constituera un fonds dont les revenus seront utilisés comme prix scolaires
+
+# **9233.024.00 - FONDS MARCEL GUÉDON - Entretien de la tombe**
+
+L'article sixième de son testament, fait à Vevey le 17 décembre 1979, précise :
+
+« Mon exécuteur testamentaire disposera d'une somme de quinze mille francs (Fr. 15'000.--) pour la pose d'un entourage sur la tombe dans laquelle mes cendres seront déposées et pour la création d'un fonds destiné à l'entretien floral de cette tombe et éventuellement au renouvellement de la concession, selon le solde disponible à l'échéance de ladite concession ».
+
+
+
+#### **9233.025.00 - FOND MARCEL GUÉDON – Soins et loisirs**
+
+L'article cinquième de son testament, fait à Vevey le 17 décembre 1979, précise :
+
+« J'institue héritière du surplus de mes biens la Commune de La Tour-de-Peilz, à charge pour elle de créer un fonds Marcel Guédon, dont les revenus seront affectés à couvrir les frais d'aide et de soins à domicile pour des personnes âgées de condition modeste et des frais résultant de l'organisation de loisirs propres aux personnes âgées de toute condition ».
+
+#### **9233.027.00 - FONDS FLORENCE MAYER**
+
+En date du 12 février 1985, Mme Florence Mayer nous a remis la somme de Fr. 5'000.--. Les intérêts doivent servir à fleurir les tombes 38 et 39 de la Terrasse n°4. A l'échéance de la concession, soit le 8 novembre 2027, le solde du capital sera utilisé pour une bonne œuvre de la Commune.
+
+#### **9233.028.00 - FONDS DES COLONIES DE VACANCES**
+
+Ce fonds a été créé en 1985 suite à une réorganisation de la gestion financière de la Direction des Ecoles. Le fonds « Colonies de vacances » a pour but de promouvoir les colonies ou d'acquérir du matériel à leur usage.
+
+#### **9233.029.00 - FONDS PRO EXPLORA**
+
+L'Association Pro Explora avait été fondée en 1994 pour créer et gérer le parc d'expositions temporaires consacrées aux sciences et à l'environnement, EXPLORA, qui, en parallèle avec les Cours Normaux suisses RIVIERA 94, avait accueilli à Vevey plus de 40'000 visiteurs.
+
+Faute de nouveaux projets conformes à ses statuts, Pro Explora a décidé sa dissolution et, dans le cadre de la répartition de son avoir restant, a attribué à notre Commune un montant de Fr. 10'000.-- qui a été porté en compte sous le N° 9233.029.00 « Activités pédagogiques dévolant. Durable ».
+
+Cette somme est à la libre disposition de nos Ecoles « afin de d'encourager des activités pédagogiques dans le domaine des sciences de l'environnement et du développement durable »
+
+#### **9233.030.00 - FONDS GRODTMANN - Entretien des tombes**
+
+Un montant de Fr. 59'247.80.-- a été remis à la Commune de La Tour-de-Peilz le 16 juin 2014 afin de financer l'entretien des tombes de la famille Grodtmann au cimetière de La Tour-de-Peilz.
+
+\* \* \* \* \*
+
+
+
+# COLLABORATIONS INTERCOMMUNALES
+
+Cette liste des collaborations intercommunales (ententes intercommunales et associations de communes) est établie selon la lettre 1f des Directives de révision édictées par le Département des institutions et de la sécurité (DIS) du Canton de Vaud, version de décembre 2017.
+
+## Ententes intercommunales
+
+La Ville de La Tour-de-Peilz participe aux ententes intercommunales suivantes :
+
+|  Raison sociale | Siège | Derniers comptes | Organe de révision  |
+| --- | --- | --- | --- |
+|  Commission intercommunale de la taxe de séjour de la Riviera et de Villeneuve (CITS) | Ville de Montreux, Montreux | 2025 | Fidinter SA, Lausanne  |
+|  Communauté intercommunale d'équipements du Haut-Léman (CIEHL) | SAI (*), Vevey | 2025 | PKF Fiduciaire SA, Vevey  |
+|  Fonds culturel Riviera (FCR) | SAI (*), Vevey | 2025 | PKF Fiduciaire SA, Vevey  |
+
+* Service des affaires intercommunales de la Riviera
+
+Selon la lettre 1e de ces Directives de révision du DIS, les comptes de chaque entente intercommunale doivent être présentés conjointement aux comptes communaux. Sachant que les comptes concernés ont été portés à la connaissance du Conseil communal, sont accessibles sur le site internet de la Ville de La Tour-de-Peilz à l'adresse https://www.la-tour-de-peilz.ch/politique/preavis-municipaux.php et par soucis d'écologie, il a été renoncé de les imprimer à nouveau et de les joindre à cette brochure.
+
+## Association de communes
+
+La Ville de La Tour-de-Peilz participe aux associations de communes suivantes :
+
+|  Raison sociale | Siège | Organe de révision  |
+| --- | --- | --- |
+|  Association régionale d'action sociale (ARAS) | Vevey | PKF Fiduciaire SA, Vevey  |
+|  Association Sécurité Riviera (ASR) | La Tour-de-Peilz | BDO SA, Epalinges  |
+|  Service intercommunal de gestion (SIGE) | Vevey | Multifiduciaire Léman SA, Montreux  |

@@ -13,3 +13,5 @@ audit-rapports-gestion/**/pdfs/*.pdf
 audit-rapports-gestion/**/ocr_comparison_*/**/*_batches/
 audit-rapports-gestion/**/ocr_comparison_*/*.json
 audit-rapports-comptes/**/pdfs/*.pdf
+audit-rapports-comptes/**/ocr_outputs/**/*_batches/
+audit-rapports-comptes/**/ocr_outputs/*.json

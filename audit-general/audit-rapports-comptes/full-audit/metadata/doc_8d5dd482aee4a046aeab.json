@@ -1,0 +1,61 @@
+{
+  "document_metadata": {
+    "document_id": "doc_8d5dd482aee4a046aeab",
+    "commune": "La Tour-de-Peilz",
+    "document_family": "financial_report",
+    "category": "rapport_comptes",
+    "document_role": "combined_preavis_credits_extra_budgetaires_preavis_rapport_comptes_compte_fonctionnement_compte_investissements_bilan_et_annexes",
+    "title": "Rapport des comptes 2024",
+    "source_title": "Rapport des comptes",
+    "source_page_url": "https://www.la-tour-de-peilz.ch/srch/",
+    "file_url": "https://www.la-tour-de-peilz.ch/doc_uploads/images/politique/municipalite/Rapport-des-comptes/2024-Rapport-des-comptes-LTDP.pdf",
+    "filename": "2024-Rapport-des-comptes-LTDP.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-14",
+    "content_hash": "871d9b34f2e4fee2b0ddae44ade1fac7e24e3fe151057965ccef0d020e49819b",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "audited"
+  },
+  "accounts_metadata": {
+    "fiscal_year": 2024,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "components": [
+      "preavis_credits_extra_budgetaires",
+      "preavis_rapport_comptes",
+      "compte_fonctionnement",
+      "compte_investissements",
+      "bilan_et_annexes"
+    ],
+    "total_charges": 80871439.86,
+    "total_revenues": 81773738.44,
+    "result_surplus_or_deficit": 902298.58
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 345585,
+      "text_available": true,
+      "needs_ocr": false,
+      "page_text_coverage": 1.0,
+      "low_text_image_pages": [
+        1,
+        13
+      ]
+    },
+    "header_footer_cleaning": {
+      "raw_words": 62447,
+      "clean_words": 61956,
+      "removed_blocks": 43,
+      "repeated_margin_candidates": [
+        "Les commentaires des comptes en gras figurent à la fin du dernier service.",
+        "## COMPTE DE FONCTIONNEMENT PAR SERVICE (AVEC COMMENTAIRES)"
+      ]
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 61956,
+      "native_pdf_words": 31160
+    }
+  }
+}

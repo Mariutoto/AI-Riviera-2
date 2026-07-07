@@ -68,7 +68,19 @@ title: Procès-verbal | N° 35 | de la séance du 6 mai 2026
 <tr><td><code>agenda_item_number</code></td><td class="no">Non : peu de sens sémantique</td><td class="yes">Oui</td></tr>
 </tbody></table></section>
 
-<section><h2>5. Vocabulaire commun des chunks</h2>
+<section><h2>5. Rapports de gestion</h2><pre>category: rapport_gestion
+title: Rapport de gestion 2024
+component: commission_report
+
+[texte du chunk]</pre><p><code>management_year</code> et <code>document_family</code> restent dans PostgreSQL : l'année figure déjà dans le titre et la catégorie identifie précisément la famille.</p></section>
+
+<section><h2>6. Rapports des comptes</h2><pre>category: rapport_comptes
+title: Rapport des comptes 2024
+component: compte_investissements
+
+[texte du chunk]</pre><p><code>fiscal_year</code>, les totaux financiers et <code>document_family</code> restent dans PostgreSQL. Les composants possibles sont les deux préavis, le compte de fonctionnement, le compte des investissements et le bilan avec ses annexes.</p></section>
+
+<section><h2>7. Vocabulaire commun des chunks</h2>
 <table><thead><tr><th>Champ</th><th>Signification</th><th>Exemples</th></tr></thead><tbody>
 <tr><td><code>category</code></td><td>Type du document complet.</td><td><code>motion</code>, <code>postulat</code>, <code>preavis_municipal</code>, <code>proces_verbal</code></td></tr>
 <tr><td><code>document_role</code></td><td>Composition du fichier complet.</td><td><code>motion_text</code>, <code>combined_preavis_report_decision</code>, <code>council_minutes</code></td></tr>
@@ -78,14 +90,14 @@ title: Procès-verbal | N° 35 | de la séance du 6 mai 2026
 </tbody></table>
 <p class="note"><strong>Convention :</strong> les noms de champs sont communs quand leur sens est commun. Les valeurs de <code>component</code> peuvent varier selon la famille documentaire. On ne renomme pas artificiellement un point de séance en <code>municipal_preavis</code> : le point peut discuter un préavis, mais sa nature structurelle dans le PV reste <code>agenda_item</code>.</p></section>
 
-<section><h2>6. Règles communes</h2><ul>
+<section><h2>8. Règles communes</h2><ul>
 <li>Le texte du chunk est toujours inclus.</li><li>La recette reste stable dans une même famille documentaire.</li>
 <li>Un numéro de page, un en-tête ou un pied de page isolé ne devient jamais un chunk.</li>
 <li>Les chemins locaux, hashes et informations OCR ne sont jamais injectés.</li>
 <li>Les valeurs utiles uniquement au filtrage restent dans les métadonnées JSON.</li>
 <li>Une nouvelle famille peut avoir sa propre recette si cela réduit le bruit.</li></ul></section>
 
-<section><h2>7. Recettes résumées</h2><pre>OBJET POLITIQUE
+<section><h2>9. Recettes résumées</h2><pre>OBJET POLITIQUE
 document_family + category + document_role + title + component + contenu
 
 RÈGLEMENT
@@ -95,6 +107,12 @@ PRÉAVIS MUNICIPAL
 category + preavis_number + title + component + contenu
 
 PROCÈS-VERBAL
-category + pv_number + title + contenu</pre>
+category + pv_number + title + contenu
+
+RAPPORT DE GESTION
+category + title + component + contenu
+
+RAPPORT DES COMPTES
+category + title + component + contenu</pre>
 <p><a href="audit-reglement-conseil/first-50/embeddings.html">Voir les embeddings tests du règlement</a></p></section>
 </main></body></html>

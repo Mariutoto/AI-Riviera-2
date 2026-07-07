@@ -287,7 +287,7 @@ def main() -> None:
                     elif family == "council_session":
                         specific = meta_entry["record"].get("minutes_metadata") or {}
                         embedding_input, fields, cleaning = council_minutes_input(base, specific, chunk)
-                    elif family == "annual_report":
+                    elif family in {"annual_report", "financial_report"}:
                         embedding_input, fields, cleaning = annual_report_input(base, chunk)
                     else:
                         embedding_input, fields, cleaning = political_input(base, chunk)
