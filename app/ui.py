@@ -546,19 +546,31 @@ def render_trace(trace: dict) -> None:
 
     if trace.get("verification_claims"):
         st.caption("✓ vérifié — une ou plusieurs affirmations non sourcées ont été corrigées avant affichage.")
+    if trace.get("budget_exceeded"):
+        st.caption("⏱️ Vérification sautée: le budget de temps de la recherche était déjà épuisé.")
 
-    if not any([trace.get("mode") == "multi", trace.get("relance"), trace.get("verification_claims")]):
+    if not any([
+        trace.get("mode") == "multi",
+        trace.get("relance"),
+        trace.get("verification_claims"),
+        trace.get("budget_exceeded"),
+    ]):
         return
 
     with st.expander("🔎 Comment cette réponse a été construite"):
         st.write(f"Complexité détectée: {trace.get('complexity', 'n/a')}")
         st.write(f"Mode de recherche: {trace.get('mode', 'n/a')}")
+        if trace.get("duration_seconds") is not None:
+            budget = trace.get("budget_seconds", "n/a")
+            st.write(f"Temps total: {trace['duration_seconds']}s (budget: {budget}s)")
         if trace.get("relance"):
             st.write("Une recherche complémentaire a été relancée car les premiers résultats étaient faibles.")
         if trace.get("cross_reference_authors"):
             st.write("Auteurs communs trouvés entre les sous-recherches: " + ", ".join(trace["cross_reference_authors"]))
         elif trace.get("mode") == "multi":
             st.write("Aucun auteur commun trouvé entre les sous-recherches.")
+        if trace.get("budget_exceeded"):
+            st.write("Le budget de temps était dépassé avant la vérification: elle a été sautée pour ne pas rallonger encore la réponse.")
         if trace.get("verification_claims"):
             st.write("Affirmations signalées puis corrigées avant affichage:")
             for claim in trace["verification_claims"]:

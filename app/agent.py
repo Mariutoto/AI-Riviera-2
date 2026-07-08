@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import time
+
 from app import retrieval
 from app.answer import (
     answer_from_sources,
     broaden_query_with_llm,
     classify_question_with_llm,
+    get_secret,
     rerank_results_with_llm,
     verify_and_revise_answer,
 )
@@ -13,6 +16,13 @@ from app.text_cleaning import strip_accents
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
+
+
+def time_budget_seconds() -> float:
+    try:
+        return float(get_secret("AGENT_TIME_BUDGET_SECONDS", "45"))
+    except (TypeError, ValueError):
+        return 45.0
 
 
 def classify_question(question: str) -> dict:
@@ -27,11 +37,17 @@ def _top_score(results: list[dict]) -> float:
     return max((result.get("_score", result.get("score", 0)) for result in results), default=0.0)
 
 
-def search_with_relance(query: str, limit: int = 50) -> tuple[list[dict], bool]:
-    """Run retrieval.search, retrying once with a broadened query if the first pass looks weak."""
+def search_with_relance(query: str, limit: int = 50, deadline: float | None = None) -> tuple[list[dict], bool]:
+    """Run retrieval.search, retrying once with a broadened query if the first pass looks weak.
+
+    Skips the retry (rather than failing) once `deadline` (a time.perf_counter()
+    value) has passed — the first-pass results are still returned.
+    """
     results = retrieval.search(query, limit=limit)
     is_weak = _unique_document_count(results) < WEAK_MIN_DOCUMENTS or _top_score(results) < WEAK_SCORE_THRESHOLD
     if not is_weak:
+        return results, False
+    if deadline is not None and time.perf_counter() > deadline:
         return results, False
 
     broadened = broaden_query_with_llm(query)
@@ -65,11 +81,11 @@ def _extract_author_years(result: dict) -> set[tuple[str, str]]:
     return pairs
 
 
-def merge_cross_reference(subqueries: list[dict], limit: int = 50) -> dict:
+def merge_cross_reference(subqueries: list[dict], limit: int = 50, deadline: float | None = None) -> dict:
     """Run one search per subquery and compute the real (author, year) overlap across them in code."""
     sub_results = []
     for sub in subqueries:
-        results, relanced = search_with_relance(sub["query"], limit=limit)
+        results, relanced = search_with_relance(sub["query"], limit=limit, deadline=deadline)
         sub_results.append({"label": sub.get("label") or sub["query"], "results": results, "relanced": relanced})
 
     matches_by_pair: dict[tuple[str, str], dict[str, list[dict]]] = {}
@@ -123,27 +139,45 @@ def _cross_reference_summary(overlap: dict) -> str:
 
 
 def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
-    trace: dict = {"complexity": "simple", "mode": "single", "relance": False, "verification_claims": []}
+    started_at = time.perf_counter()
+    budget = time_budget_seconds()
+    deadline = started_at + budget
+
+    trace: dict = {
+        "complexity": "simple",
+        "mode": "single",
+        "relance": False,
+        "verification_claims": [],
+        "budget_seconds": budget,
+        "budget_exceeded": False,
+    }
 
     classification = classify_question(question)
     trace["complexity"] = classification.get("complexity", "simple")
     trace["mode"] = classification.get("mode", "single")
 
     if classification.get("mode") == "multi" and classification.get("subqueries"):
-        cross = merge_cross_reference(classification["subqueries"], limit=50)
+        cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline)
         trace["relance"] = any(entry["relanced"] for entry in cross["sub_results"])
         trace["cross_reference_authors"] = sorted(f"{author} ({year})" for author, year in cross["overlap"])
         reranked = rerank_results_with_llm(question, cross["combined_results"], keep=20, max_candidates=30)
         summary_block = _cross_reference_summary(cross["overlap"])
         draft_answer = answer_from_sources(question, reranked, extra_context=summary_block)
     else:
-        results, relanced = search_with_relance(question, limit=50)
+        results, relanced = search_with_relance(question, limit=50, deadline=deadline)
         trace["relance"] = relanced
         reranked = rerank_results_with_llm(question, results, keep=20, max_candidates=30)
         draft_answer = answer_from_sources(question, reranked)
 
-    final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
+    if time.perf_counter() > deadline:
+        # Time budget already spent on search/decomposition/answer — skip the
+        # verification pass rather than risk running well past the budget.
+        trace["budget_exceeded"] = True
+        final_answer, claims = draft_answer, []
+    else:
+        final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
     trace["verification_claims"] = claims
+    trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
 
     record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
 

@@ -221,7 +221,14 @@ def answer_with_mistral(question: str, results: list[dict], extra_context: str =
         return f"Je n'ai pas pu appeler Mistral pour générer une synthèse: {exc}"
 
 
-def short_openai_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
+def short_openai_completion(
+    system_prompt: str,
+    user_content: str,
+    model_env: str,
+    max_tokens: int = 120,
+    default_model: str = "gpt-4.1-mini",
+    timeout: float = 20,
+) -> str | None:
     api_key = get_secret("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -229,9 +236,9 @@ def short_openai_completion(system_prompt: str, user_content: str, model_env: st
     try:
         from openai import OpenAI
 
-        client = OpenAI(api_key=api_key)
+        client = OpenAI(api_key=api_key, timeout=timeout)
         response = client.responses.create(
-            model=get_secret(model_env, get_secret("OPENAI_MODEL", "gpt-4.1-mini")),
+            model=get_secret(model_env, default_model),
             input=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content},
@@ -245,13 +252,20 @@ def short_openai_completion(system_prompt: str, user_content: str, model_env: st
         return None
 
 
-def short_mistral_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
+def short_mistral_completion(
+    system_prompt: str,
+    user_content: str,
+    model_env: str,
+    max_tokens: int = 120,
+    default_model: str = "mistral-small-latest",
+    timeout: float = 20,
+) -> str | None:
     api_key = get_secret("MISTRAL_API_KEY")
     if not api_key:
         return None
 
     try:
-        model = get_secret(model_env, get_secret("MISTRAL_MODEL", "mistral-small-latest"))
+        model = get_secret(model_env, default_model)
         response = requests.post(
             "https://api.mistral.ai/v1/chat/completions",
             headers={
@@ -267,7 +281,7 @@ def short_mistral_completion(system_prompt: str, user_content: str, model_env: s
                 "max_tokens": max_tokens,
                 "temperature": 0,
             },
-            timeout=20,
+            timeout=timeout,
         )
         response.raise_for_status()
         data = response.json()
@@ -305,18 +319,29 @@ def rewrite_query_with_llm(question: str) -> str | None:
     return rewritten
 
 
-def _llm_completion(system_prompt: str, user_content: str, mistral_model_env: str, openai_model_env: str, max_tokens: int = 180) -> str | None:
+def _llm_completion(
+    system_prompt: str,
+    user_content: str,
+    mistral_model_env: str,
+    openai_model_env: str,
+    max_tokens: int = 180,
+    default_mistral_model: str = "mistral-small-latest",
+    default_openai_model: str = "gpt-4.1-mini",
+    timeout: float = 20,
+) -> str | None:
     """Shared provider-fallback call for the short, structured LLM steps (classify, verify, broaden)."""
     provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
     if provider in {"none", "off", "extracts"}:
         return None
+    kwargs_mistral = dict(max_tokens=max_tokens, default_model=default_mistral_model, timeout=timeout)
+    kwargs_openai = dict(max_tokens=max_tokens, default_model=default_openai_model, timeout=timeout)
     if provider == "mistral":
-        return short_mistral_completion(system_prompt, user_content, mistral_model_env, max_tokens=max_tokens)
+        return short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
     if provider == "openai":
-        return short_openai_completion(system_prompt, user_content, openai_model_env, max_tokens=max_tokens)
+        return short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
     return (
-        short_mistral_completion(system_prompt, user_content, mistral_model_env, max_tokens=max_tokens)
-        or short_openai_completion(system_prompt, user_content, openai_model_env, max_tokens=max_tokens)
+        short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
+        or short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
     )
 
 
@@ -378,7 +403,16 @@ def verify_answer_against_sources(question: str, answer: str, results: list[dict
         f"Réponse à vérifier:\n{answer}\n\n"
         f"Extraits sources:\n{build_context(results)}"
     )
-    content = _llm_completion(VERIFICATION_PROMPT, user_content, "MISTRAL_VERIFY_MODEL", "OPENAI_VERIFY_MODEL", max_tokens=300)
+    content = _llm_completion(
+        VERIFICATION_PROMPT,
+        user_content,
+        "MISTRAL_VERIFY_MODEL",
+        "OPENAI_VERIFY_MODEL",
+        max_tokens=300,
+        default_mistral_model="mistral-large-latest",
+        default_openai_model="gpt-4.1",
+        timeout=35,
+    )
     if not content:
         return []
     claims = _parse_json_object(content).get("unsupported_claims")
@@ -395,7 +429,16 @@ def revise_answer_removing_claims(question: str, answer: str, results: list[dict
         f"Réponse initiale:\n{answer}\n\n"
         f"Extraits disponibles:\n{build_context(results)}"
     )
-    return _llm_completion(revision_system_prompt, user_content, "MISTRAL_MODEL", "OPENAI_MODEL", max_tokens=900)
+    return _llm_completion(
+        revision_system_prompt,
+        user_content,
+        "MISTRAL_VERIFY_MODEL",
+        "OPENAI_VERIFY_MODEL",
+        max_tokens=900,
+        default_mistral_model="mistral-large-latest",
+        default_openai_model="gpt-4.1",
+        timeout=35,
+    )
 
 
 def verification_enabled() -> bool:
