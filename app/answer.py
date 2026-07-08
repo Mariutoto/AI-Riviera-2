@@ -17,7 +17,8 @@ Quand une source est marquée "source canonique", utilise-la en priorité pour i
 
 QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
 Reformule la question en une seule requête de recherche autonome, en français.
-Garde les noms propres, dates, années, types de documents et mots-clés importants.
+Garde uniquement les noms propres, dates, années, types de documents et mots-clés déjà présents dans la question.
+N'invente et n'ajoute aucune date, année, lieu, pays ou fait qui n'est pas explicitement mentionné dans la question.
 Supprime les mots vagues ou conversationnels.
 Ne réponds pas à la question.
 Retourne seulement la requête reformulée, sans guillemets ni explication."""
