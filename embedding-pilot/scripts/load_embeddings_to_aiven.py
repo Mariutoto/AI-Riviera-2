@@ -127,7 +127,6 @@ def main() -> None:
                 "UPDATE embedding_runs SET status='completed', completed_at=now() WHERE run_id=%s",
                 (run_id,),
             )
-            cur.execute("CREATE INDEX IF NOT EXISTS chunks_embedding_hnsw ON chunks USING hnsw (embedding vector_cosine_ops)")
             cur.execute("ANALYZE documents")
             cur.execute("ANALYZE chunks")
         conn.commit()

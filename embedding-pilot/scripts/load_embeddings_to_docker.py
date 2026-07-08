@@ -107,7 +107,6 @@ def build_statements(inputs: list[dict], vectors: dict[str, dict], manifest: dic
         )
     yield f"UPDATE embedding_runs SET status='completed',completed_at=now() WHERE run_id={literal(run_id)}::uuid;\n"
     yield "COMMIT;\n"
-    yield "CREATE INDEX IF NOT EXISTS chunks_embedding_hnsw ON chunks USING hnsw (embedding vector_cosine_ops);\n"
     yield "ANALYZE documents; ANALYZE chunks;\n"
 
 
