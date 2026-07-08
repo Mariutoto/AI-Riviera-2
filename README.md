@@ -69,12 +69,9 @@ Avec `LLM_PROVIDER="auto"`, l'app essaie Mistral si `MISTRAL_API_KEY` existe, pu
 
 En cloud, les secrets peuvent être fournis comme variables d'environnement ou dans les secrets Streamlit. Les plus importants sont:
 
-- `POSTGRES_URL`: URL de la base Postgres, par exemple Aiven.
+- `POSTGRES_V2_URL`: URL du Postgres/pgvector du pilote (Aiven), voir `embedding-pilot/README.md`.
 - `LLM_PROVIDER`: `mistral`, `openai` ou `auto`.
 - `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: clé du fournisseur LLM choisi.
-- `OPENAI_API_KEY`: aussi utilisée si des embeddings OpenAI sont activés.
-
-Pour garder le déploiement simple, Postgres/Aiven suffit. OpenSearch ne doit être configuré que si vous disposez d'un service hébergé accessible depuis Streamlit Cloud.
 
 ## Données intégrées
 

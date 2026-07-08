@@ -62,3 +62,28 @@ def strip_accents(text: str) -> str:
     text = fix_mojibake(text)
     text = unicodedata.normalize("NFKD", text)
     return "".join(char for char in text if not unicodedata.combining(char))
+
+
+FRENCH_MONTHS = {
+    "01": "janvier",
+    "02": "février",
+    "03": "mars",
+    "04": "avril",
+    "05": "mai",
+    "06": "juin",
+    "07": "juillet",
+    "08": "août",
+    "09": "septembre",
+    "10": "octobre",
+    "11": "novembre",
+    "12": "décembre",
+}
+
+
+def format_date(value) -> str:
+    raw = str(value)[:10] if value else ""
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not match:
+        return raw
+    year, month, day = match.groups()
+    return f"{int(day)} {FRENCH_MONTHS.get(month, month)} {year}"

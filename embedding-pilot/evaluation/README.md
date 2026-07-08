@@ -1,17 +1,10 @@
 # Évaluation future
 
-## Benchmark comparatif
-
-```powershell
-python embedding-pilot/evaluation/compare_pipelines.py
-```
-
-Les deux côtés utilisent la même reformulation, le même reranker LLM et le
-même modèle de réponse. Seule la récupération change : pipeline actuel contre
-PostgreSQL/pgvector avec `mistral-embed`.
-
-Le rapport est généré dans `comparison_report.html`, avec les données complètes
-dans `comparison_results.json`.
+Cette branche ne contient plus que le pipeline V2 (Mistral embed + Aiven
+pgvector) — `compare_pipelines.py` comparait ce pipeline à l'ancien Postgres
+V1, retiré de cette branche, et a été supprimé avec lui. L'onglet Eval de
+l'application (`SHOW_ADMIN_TABS=1`) et `eval/eval_questions.json` couvrent
+désormais le suivi de la qualité de recherche.
 
 Les tests devront couvrir au minimum :
 

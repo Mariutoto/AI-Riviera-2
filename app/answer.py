@@ -16,20 +16,11 @@ SYSTEM_PROMPT += """
 Quand une source est marquée "source canonique", utilise-la en priorité pour identifier l'objet politique, son statut, ses auteurs et ses dates. Les sources marquées "document lié" servent seulement à compléter avec des détails de rapport, de commission ou de décision."""
 
 QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
-Les règles structurées de l'application n'ont pas su répondre directement.
 Reformule la question en une seule requête de recherche autonome, en français.
 Garde les noms propres, dates, années, types de documents et mots-clés importants.
 Supprime les mots vagues ou conversationnels.
 Ne réponds pas à la question.
 Retourne seulement la requête reformulée, sans guillemets ni explication."""
-
-INTENT_ROUTER_PROMPT = """Tu routes une question pour AI Riviera.
-Réponds uniquement par un seul mot: structured ou rag.
-
-structured = question factuelle simple sur une donnée structurée: qui a déposé, date de dépôt, statut, combien, liste par année/type, article précis du règlement, montant budgétaire précis.
-rag = question d'analyse, comparaison, redondance, synthèse, jugement, explication, contexte, similarité entre documents, ou question demandant de lire plusieurs extraits.
-
-Si la question demande "tu penses", "redondant", "par rapport à", "comparer", "similaire", "doublon", "pourquoi", réponds rag."""
 
 LLM_RERANK_PROMPT = """Tu rerankes des extraits documentaires pour AI Riviera.
 Choisis les extraits les plus utiles pour répondre précisément à la question.
@@ -269,36 +260,6 @@ def rewrite_query_with_llm(question: str) -> str | None:
     if not rewritten or len(rewritten) > 500:
         return None
     return rewritten
-
-
-def route_intent_with_openai(question: str) -> str | None:
-    return short_openai_completion(INTENT_ROUTER_PROMPT, question, "OPENAI_ROUTER_MODEL", max_tokens=8)
-
-
-def route_intent_with_mistral(question: str) -> str | None:
-    return short_mistral_completion(INTENT_ROUTER_PROMPT, question, "MISTRAL_ROUTER_MODEL", max_tokens=8)
-
-
-def route_intent_with_llm(question: str) -> str | None:
-    provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
-    if provider in {"none", "off", "extracts"}:
-        return None
-
-    if provider == "mistral":
-        route = route_intent_with_mistral(question)
-    elif provider == "openai":
-        route = route_intent_with_openai(question)
-    else:
-        route = route_intent_with_mistral(question) or route_intent_with_openai(question)
-
-    if not route:
-        return None
-    route = route.strip().lower()
-    if "rag" in route:
-        return "rag"
-    if "structured" in route:
-        return "structured"
-    return None
 
 
 def result_rerank_candidate(result: dict, candidate_id: str) -> dict:

@@ -18,7 +18,6 @@ def load_env() -> dict[str, str]:
         if line and not line.startswith("#") and "=" in line:
             key, value = line.split("=", 1)
             environment[key.strip()] = value.strip().strip('"').strip("'")
-    environment["RAG_VERSION"] = "v2"
     environment["LLM_PROVIDER"] = environment.get("LLM_PROVIDER", "mistral")
     environment["POSTGRES_V2_URL"] = environment.get(
         "POSTGRES_V2_URL",

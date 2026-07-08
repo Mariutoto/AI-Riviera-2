@@ -13,16 +13,12 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
-from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm, route_intent_with_llm
-from app.config import RAG_VERSION
+from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
-from app.opensearch_store import ready as opensearch_ready
-from app.postgres_store import ready as postgres_ready
 from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
-from app.structured import answer_structured_question, format_date
-from app.text_cleaning import fix_mojibake
+from app.text_cleaning import fix_mojibake, format_date
 
 SUGGESTED_QUESTIONS = [
     "Quelles interpellations ont reçu une réponse en 2025 ?",
@@ -70,8 +66,6 @@ def admin_tabs_enabled() -> bool:
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
-if RAG_VERSION == "v2":
-    st.caption("Mode local V2 · nouveaux chunks · Mistral Embed · PostgreSQL/pgvector Docker")
 st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
 
 st.markdown(
@@ -284,9 +278,7 @@ def contextualize_question(question: str, messages: list[dict]) -> str:
 
 
 def ensure_index_ready() -> bool:
-    if RAG_VERSION == "v2":
-        return pilot_v2_ready()
-    if opensearch_ready() or postgres_ready():
+    if pilot_v2_ready():
         return True
     st.warning(
         "La base AI Riviera n'est pas encore prête. Relance l'indexation "
@@ -529,52 +521,37 @@ else:
 
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
-def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], bool]:
-    if RAG_VERSION != "v2":
-        structured_answer = answer_structured_question(question)
-        if structured_answer:
-            return structured_answer, [], True
-
-    intent_route = route_intent_with_llm(question)
-    if RAG_VERSION != "v2" and intent_route != "rag":
-        structured_answer = answer_structured_question(question)
-        if structured_answer:
-            return structured_answer, [], True
-    if RAG_VERSION == "v2":
-        database_ready = pilot_v2_ready()
-    else:
-        database_ready = opensearch_ready() or postgres_ready()
-    if not database_ready:
-        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
+def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict]]:
+    if not pilot_v2_ready():
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", []
     retrieval_question = rewrite_query_with_llm(question) or question
     candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
     results = rerank_results_with_llm(question, candidates, keep=20, max_candidates=30)
-    return answer_from_sources(question, results), results, False
+    return answer_from_sources(question, results), results
 
 
-def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict], bool]:
+def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict]]:
     if not ensure_index_ready():
-        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], False
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", []
 
     effective_question = contextualize_question(question, messages or [])
     started_at = time.perf_counter()
     try:
-        answer, results, structured = cached_answer_question(effective_question, cacheable_filters(current_filters()))
+        answer, results = cached_answer_question(effective_question, cacheable_filters(current_filters()))
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_interaction(
             question,
             status="ok",
             duration_ms=duration_ms,
-            structured=structured,
             source_count=len(group_results_by_document(results)) if results else 0,
             answer_chars=len(answer),
         )
-        return answer, results, structured
+        return answer, results
     except Exception as exc:
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_diagnostic("ui", "Question answering failed", exc, question=question[:300])
         record_interaction(question, status="error", duration_ms=duration_ms, error=repr(exc))
-        return USER_ERROR_MESSAGE, [], False
+        return USER_ERROR_MESSAGE, []
 
 
 def queue_question(question: str) -> None:
@@ -650,7 +627,7 @@ with chat_tab:
             """,
             unsafe_allow_html=True,
         )
-        answer, results, _ = answer_question(pending_question, st.session_state.messages)
+        answer, results = answer_question(pending_question, st.session_state.messages)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
         st.session_state.pending_question = None
@@ -693,7 +670,7 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
             col_sources.metric("Sources moyennes", f"{avg_sources:.1f}")
     
         def run_eval_question(item: dict) -> None:
-            answer, results, structured = answer_question(item["question"])
+            answer, results = answer_question(item["question"])
             st.session_state.eval_runs.insert(
                 0,
                 {
@@ -703,8 +680,7 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
                     "expected_sources": item.get("expected_sources", []),
                     "answer": answer,
                     "results": results,
-                    "structured": structured,
-                    "retrieval_ok": structured or retrieval_hit(results, item.get("expected_sources", [])),
+                    "retrieval_ok": retrieval_hit(results, item.get("expected_sources", [])),
                 },
             )
     
