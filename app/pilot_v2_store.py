@@ -91,6 +91,9 @@ def _filter_clauses(filters: dict) -> tuple[list[str], list[object]]:
     if filters.get("year"):
         clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
         params.append(str(filters["year"]))
+    if filters.get("article_number"):
+        clauses.append("c.metadata->>'article_number' = %s")
+        params.append(str(filters["article_number"]))
     return clauses, params
 
 

@@ -103,6 +103,7 @@ def main() -> None:
                     vector = vectors[row["chunk_id"]]
                     chunk_metadata = {
                         "word_count": row.get("word_count"), "article_title": row.get("article_title"),
+                        "article_number": (row.get("embedding_fields") or {}).get("article_number"),
                         "response_number": row.get("response_number"), "source_chunk_file": row.get("source_chunk_file"),
                     }
                     cur.execute(
