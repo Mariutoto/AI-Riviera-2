@@ -1,15 +1,22 @@
 from __future__ import annotations
 
 import os
+import re
 from functools import lru_cache
 
 import requests
+
+from app.diagnostics import record_diagnostic
 
 
 POSTGRES_V2_URL = os.getenv(
     "POSTGRES_V2_URL",
     "postgresql://pilot:pilot_local_only@127.0.0.1:55432/ai_riviera_embedding_pilot",
 )
+
+
+def _masked_target() -> str:
+    return re.sub(r"://([^:/]+):[^@]*@", r"://\1:***@", POSTGRES_V2_URL)
 
 
 def _connect():
@@ -25,7 +32,8 @@ def ready() -> bool:
             cursor.execute("SELECT count(*) AS count FROM chunks WHERE embedding IS NOT NULL")
             row = cursor.fetchone()
             return bool(row and row["count"])
-    except Exception:
+    except Exception as exc:
+        record_diagnostic("pilot_v2", "Pilot V2 readiness check failed", exc, target=_masked_target())
         return False
 
 
