@@ -3,22 +3,16 @@ from __future__ import annotations
 import html
 import json
 import os
-import subprocess
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-
-import requests
 
 
 PILOT_ROOT = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = PILOT_ROOT.parent
 OUTPUT_JSON = PILOT_ROOT / "evaluation" / "comparison_results.json"
 OUTPUT_HTML = PILOT_ROOT / "evaluation" / "comparison_report.html"
-CONTAINER = "ai-riviera-embedding-pilot-db"
-DATABASE = "ai_riviera_embedding_pilot"
-USER = "pilot"
 
 QUESTIONS = [
     "Quelle motion de 2026 parle du remboursement des frais de garde ?",
@@ -49,49 +43,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm  # noqa: E402
 from app.retrieval import search as search_old  # noqa: E402
-
-
-def embed_query(query: str) -> list[float]:
-    response = requests.post(
-        "https://api.mistral.ai/v1/embeddings",
-        headers={"Authorization": f"Bearer {os.environ['MISTRAL_API_KEY']}"},
-        json={"model": "mistral-embed", "input": [query]}, timeout=60,
-    )
-    response.raise_for_status()
-    return response.json()["data"][0]["embedding"]
-
-
-def search_new(query: str, limit: int = 50) -> list[dict]:
-    vector = embed_query(query)
-    vector_text = "[" + ",".join(format(value, ".9g") for value in vector) + "]"
-    sql = f"""
-        SELECT json_build_object(
-            'chunk_id',c.chunk_id,'document_id',c.document_id,'chunk_index',c.chunk_index,
-            'component',c.component,'content',c.content,'title',d.title,'category',d.category,
-            'document_role',d.document_role,
-            'score',round((1-(c.embedding <=> '{vector_text}'::vector))::numeric,6),
-            'chunk_metadata',c.metadata,'document_metadata',d.metadata)
-        FROM chunks c JOIN documents d USING(document_id)
-        ORDER BY c.embedding <=> '{vector_text}'::vector LIMIT {limit};
-    """
-    process = subprocess.run(
-        ["docker", "exec", "-i", CONTAINER, "psql", "-X", "-A", "-t", "-U", USER, "-d", DATABASE],
-        input=sql, text=True, encoding="utf-8", capture_output=True, check=True, timeout=90,
-    )
-    results = []
-    for line in process.stdout.splitlines():
-        if not line.strip():
-            continue
-        row = json.loads(line)
-        metadata = {
-            **(row.pop("document_metadata") or {}), **(row.pop("chunk_metadata") or {}),
-            "title": row["title"], "category": row["category"], "doc_type": row["category"],
-            "document_id": row["document_id"], "component": row.get("component"), "canonical_object": True,
-        }
-        row.update({"id": row["chunk_id"], "text": row["content"], "metadata": metadata,
-                    "_score": float(row["score"]), "_search_source": "mistral_pgvector"})
-        results.append(row)
-    return results
+from app.pilot_v2_store import search as search_new  # noqa: E402
 
 
 def compact_result(result: dict) -> dict:
