@@ -14,6 +14,19 @@ POSTGRES_V2_URL = os.getenv(
     "postgresql://pilot:pilot_local_only@127.0.0.1:55432/ai_riviera_embedding_pilot",
 )
 
+CATEGORY_MAP = {
+    "motions": "motion",
+    "postulats": "postulat",
+    "interpellations": "interpellation",
+    "reglement-conseil-communal": "reglement_conseil_communal",
+}
+
+_QUOTE_PATTERNS = [
+    re.compile(r'"([^"]{3,200})"'),
+    re.compile(r'«\s*([^»]{3,200})\s*»'),
+    re.compile(r'“([^”]{3,200})”'),
+]
+
 
 def _masked_target() -> str:
     return re.sub(r"://([^:/]+):[^@]*@", r"://\1:***@", POSTGRES_V2_URL)
@@ -56,25 +69,48 @@ def _vector_literal(vector: list[float]) -> str:
     return "[" + ",".join(format(value, ".9g") for value in vector) + "]"
 
 
-def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
-    filters = dict(filters or {})
+def extract_quoted_phrases(query: str) -> list[str]:
+    """Pull out title-like phrases the user quoted, e.g. "Zone 50 ? Oui, ...".
+
+    Requires a bit of length and a space so a single quoted word doesn't
+    trigger a noisy title match.
+    """
+    phrases = []
+    for pattern in _QUOTE_PATTERNS:
+        phrases.extend(match.strip() for match in pattern.findall(query))
+    return [phrase for phrase in phrases if len(phrase) >= 6 and " " in phrase]
+
+
+def _filter_clauses(filters: dict) -> tuple[list[str], list[object]]:
     clauses = []
     params: list[object] = []
     doc_type = str(filters.get("doc_type") or "").lower()
-    category_map = {
-        "motions": "motion",
-        "postulats": "postulat",
-        "interpellations": "interpellation",
-        "reglement-conseil-communal": "reglement_conseil_communal",
-    }
-    if doc_type in category_map:
+    if doc_type in CATEGORY_MAP:
         clauses.append("d.category = %s")
-        params.append(category_map[doc_type])
+        params.append(CATEGORY_MAP[doc_type])
     if filters.get("year"):
         clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
         params.append(str(filters["year"]))
+    return clauses, params
+
+
+def _relaxed_filter_stages(filters: dict) -> list[dict]:
+    """Progressively drop filters: year first (most error-prone), then all."""
+    stages = []
+    if filters.get("year"):
+        stages.append({key: value for key, value in filters.items() if key != "year"})
+    if filters:
+        stages.append({})
+    deduped: list[dict] = []
+    for stage in stages:
+        if not deduped or deduped[-1] != stage:
+            deduped.append(stage)
+    return deduped
+
+
+def _run_vector_search(vector: str, limit: int, filters: dict) -> list[dict]:
+    clauses, params = _filter_clauses(filters)
     where_sql = "WHERE " + " AND ".join(clauses) if clauses else ""
-    vector = _vector_literal(embed_query(query))
     sql = f"""
         SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
                d.title, d.category, d.document_role, d.metadata,
@@ -86,8 +122,25 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
     """
     with _connect() as connection, connection.cursor() as cursor:
         cursor.execute(sql, [vector, *params, vector, limit])
-        rows = cursor.fetchall()
+        return cursor.fetchall()
 
+
+def _run_title_search(phrase: str, limit: int) -> list[dict]:
+    sql = """
+        SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
+               d.title, d.category, d.document_role, d.metadata,
+               1.0::float AS score
+        FROM documents d JOIN chunks c USING (document_id)
+        WHERE d.title ILIKE %s
+        ORDER BY d.document_id, c.chunk_index
+        LIMIT %s
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, [f"%{phrase}%", limit])
+        return cursor.fetchall()
+
+
+def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
     output = []
     for row in rows:
         metadata = dict(row["metadata"] or {})
@@ -115,6 +168,38 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
             "metadata": metadata,
             "score": round(float(row["score"]), 6),
             "_score": float(row["score"]),
-            "_search_source": "mistral_pgvector_v2",
+            "_search_source": search_source,
         })
     return output
+
+
+def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
+    filters = dict(filters or {})
+    vector = _vector_literal(embed_query(query))
+
+    rows = _run_vector_search(vector, limit, filters)
+    if not rows and filters:
+        for relaxed_filters in _relaxed_filter_stages(filters):
+            record_diagnostic(
+                "pilot_v2",
+                "Filtered search returned no rows, retrying with relaxed filters",
+                filters=filters,
+                relaxed_filters=relaxed_filters,
+            )
+            rows = _run_vector_search(vector, limit, relaxed_filters)
+            if rows:
+                break
+
+    title_rows: list[dict] = []
+    seen_chunk_ids = {row["chunk_id"] for row in rows}
+    for phrase in extract_quoted_phrases(query):
+        for row in _run_title_search(phrase, limit=15):
+            if row["chunk_id"] not in seen_chunk_ids:
+                title_rows.append(row)
+                seen_chunk_ids.add(row["chunk_id"])
+
+    results = _rows_to_results(rows, "mistral_pgvector_v2")
+    if title_rows:
+        results = _rows_to_results(title_rows, "title_match_v2") + results
+
+    return results[:limit]

@@ -31,6 +31,7 @@ Privilégie:
 - les extraits qui contiennent des faits vérifiables;
 - la diversité de documents quand la question demande comparaison ou synthèse.
 Écarte les documents seulement vaguement liés.
+Base ton choix uniquement sur les extraits fournis; n'invente et ne suppose aucun fait, date, lieu ou identifiant absent des candidats.
 
 Retourne uniquement un tableau JSON d'identifiants, par ordre de pertinence, par exemple: ["1", "4", "2"].
 Ne retourne aucun texte hors JSON."""
