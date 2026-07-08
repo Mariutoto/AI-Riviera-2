@@ -15,7 +15,7 @@ TARGETS = ["Postulat-Champier-Ombrage-Anciens-fosses.pdf"]
 
 
 def main() -> None:
-    env_path = PROJECT_ROOT / "ocr-extraction-test" / ".env"
+    env_path = PROJECT_ROOT / "embedding-pilot" / ".env"
     if env_path.exists():
         for line in env_path.read_text(encoding="utf-8").splitlines():
             if not line.strip() or line.lstrip().startswith("#") or "=" not in line:

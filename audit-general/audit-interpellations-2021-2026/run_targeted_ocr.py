@@ -29,7 +29,7 @@ TARGETS = [
 
 
 def main() -> None:
-    load_dotenv(ROOT.parent / "ocr-extraction-test" / ".env")
+    load_dotenv(ROOT.parents[1] / "embedding-pilot" / ".env")
     api_key = os.getenv("MISTRAL_API_KEY", "").strip()
     if not api_key:
         raise SystemExit("MISTRAL_API_KEY missing")

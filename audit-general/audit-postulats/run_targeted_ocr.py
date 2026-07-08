@@ -15,7 +15,7 @@ TARGETS = ["Postulat-Kaiser-Accueil_de_jour-Rap-Dec.pdf"]
 
 
 def load_local_env() -> None:
-    path = PROJECT_ROOT / "ocr-extraction-test" / ".env"
+    path = PROJECT_ROOT / "embedding-pilot" / ".env"
     if not path.exists():
         return
     for line in path.read_text(encoding="utf-8").splitlines():
