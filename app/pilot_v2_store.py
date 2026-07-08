@@ -176,6 +176,43 @@ def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
     return output
 
 
+def aggregate_authors(filters: dict | None = None) -> list[dict]:
+    """Real count/enumeration over author metadata (civility, party, category, year) —
+    a structured query, not a semantic search over chunk text. Use this for
+    "combien de ..." / "liste tous les ..." questions instead of relying on an
+    LLM to eyeball a limited set of retrieved passages.
+    """
+    filters = dict(filters or {})
+    clauses = ["category_meta.cat_value ? 'authors'"]
+    params: list[object] = []
+
+    doc_type = str(filters.get("doc_type") or "").lower()
+    if doc_type in CATEGORY_MAP:
+        clauses.append("d.category = %s")
+        params.append(CATEGORY_MAP[doc_type])
+    if filters.get("year"):
+        clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
+        params.append(str(filters["year"]))
+    if filters.get("civility"):
+        clauses.append("author->>'civility' = %s")
+        params.append(str(filters["civility"]))
+
+    where_sql = "WHERE " + " AND ".join(clauses)
+    sql = f"""
+        SELECT DISTINCT d.document_id, d.title, d.category, d.metadata,
+               author->>'name' AS author_name, author->>'civility' AS civility, author->>'party' AS party,
+               coalesce(d.metadata->>'listing_year', d.metadata->>'year') AS year
+        FROM documents d,
+             jsonb_each(d.metadata->'additional_metadata') AS category_meta(cat_key, cat_value),
+             jsonb_array_elements(category_meta.cat_value->'authors') AS author
+        {where_sql}
+        ORDER BY year DESC NULLS LAST, author_name
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, params)
+        return cursor.fetchall()
+
+
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
     filters = dict(filters or {})
     vector = _vector_literal(embed_query(query))

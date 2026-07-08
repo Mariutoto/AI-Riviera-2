@@ -12,10 +12,19 @@ from app.answer import (
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
+from app.pilot_v2_store import aggregate_authors
 from app.text_cleaning import strip_accents
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
+
+_CIVILITY_NOUN = {"Mme": "femmes", "M.": "hommes"}
+_DOC_TYPE_NOUN = {
+    "interpellations": "interpellations",
+    "postulats": "postulats",
+    "motions": "motions",
+    "reglement-conseil-communal": "documents du règlement",
+}
 
 
 def time_budget_seconds() -> float:
@@ -27,6 +36,66 @@ def time_budget_seconds() -> float:
 
 def classify_question(question: str) -> dict:
     return classify_question_with_llm(question)
+
+
+def _aggregate_result_row_to_result(row: dict) -> dict:
+    metadata = dict(row.get("metadata") or {})
+    metadata.update({
+        "title": row["title"],
+        "category": row["category"],
+        "doc_type": row["category"],
+        "document_id": row["document_id"],
+        "canonical_object": True,
+    })
+    source_url = metadata.get("file_url") or metadata.get("source_url") or metadata.get("source_page_url") or ""
+    return {
+        "id": f"{row['document_id']}#aggregate",
+        "chunk_id": f"{row['document_id']}#aggregate",
+        "document_id": row["document_id"],
+        "chunk_index": 0,
+        "component": "aggregate",
+        "content": "",
+        "text": "",
+        "title": row["title"],
+        "category": row["category"],
+        "doc_type": row["category"],
+        "source_url": source_url,
+        "metadata": metadata,
+        "score": 1.0,
+        "_score": 1.0,
+        "_search_source": "aggregate_v2",
+    }
+
+
+def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
+    """A real count/enumeration, computed in code from structured metadata —
+    no LLM involved, so there's no risk of it undercounting from a limited
+    passage sample the way semantic search + generation would.
+    """
+    rows = aggregate_authors(filters)
+
+    documents: dict[str, dict] = {}
+    for row in rows:
+        entry = documents.setdefault(row["document_id"], {"title": row["title"], "authors": set()})
+        entry["authors"].add(row["author_name"])
+
+    subject = _DOC_TYPE_NOUN.get(filters.get("doc_type"), "documents")
+    who = _CIVILITY_NOUN.get(filters.get("civility"))
+    qualifier = f" déposé(e)s par des {who}" if who else ""
+    year_note = f" en {filters['year']}" if filters.get("year") else ""
+
+    lines = [
+        f"Décompte exact sur les métadonnées de la base ({len(documents)} {subject}{qualifier}{year_note}) "
+        "— pas une estimation sur un échantillon de passages retrouvés."
+    ]
+    if documents:
+        lines.append("")
+        for info in sorted(documents.values(), key=lambda item: item["title"]):
+            lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
+
+    answer = "\n".join(lines)
+    results = [_aggregate_result_row_to_result(row) for row in rows]
+    return answer, results
 
 
 def _unique_document_count(results: list[dict]) -> int:
@@ -151,6 +220,17 @@ def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
         "budget_seconds": budget,
         "budget_exceeded": False,
     }
+
+    aggregate_filters = retrieval.detect_aggregate_query(question)
+    if aggregate_filters is not None:
+        # Deterministic count/enumeration over metadata — no LLM in the loop
+        # for the count itself, so no verification pass is needed either.
+        trace["mode"] = "aggregate"
+        trace["aggregate_filters"] = aggregate_filters
+        answer, results = run_aggregate_query(aggregate_filters)
+        trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
+        record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
+        return answer, results, trace
 
     classification = classify_question(question)
     trace["complexity"] = classification.get("complexity", "simple")

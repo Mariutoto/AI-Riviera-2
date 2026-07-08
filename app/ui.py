@@ -544,13 +544,15 @@ def render_trace(trace: dict) -> None:
     if not trace:
         return
 
+    if trace.get("mode") == "aggregate":
+        st.caption("🔢 Comptage exact sur les métadonnées de la base, pas une estimation sur des passages retrouvés.")
     if trace.get("verification_claims"):
         st.caption("✓ vérifié — une ou plusieurs affirmations non sourcées ont été corrigées avant affichage.")
     if trace.get("budget_exceeded"):
         st.caption("⏱️ Vérification sautée: le budget de temps de la recherche était déjà épuisé.")
 
     if not any([
-        trace.get("mode") == "multi",
+        trace.get("mode") in {"multi", "aggregate"},
         trace.get("relance"),
         trace.get("verification_claims"),
         trace.get("budget_exceeded"),
@@ -563,6 +565,12 @@ def render_trace(trace: dict) -> None:
         if trace.get("duration_seconds") is not None:
             budget = trace.get("budget_seconds", "n/a")
             st.write(f"Temps total: {trace['duration_seconds']}s (budget: {budget}s)")
+        if trace.get("mode") == "aggregate":
+            st.write(
+                "Détecté comme une question de comptage/énumération: réponse calculée directement "
+                "à partir des métadonnées (auteurs, année, type de document), sans passer par une "
+                "recherche sémantique ni un modèle de langage — donc pas de risque de sous-comptage."
+            )
         if trace.get("relance"):
             st.write("Une recherche complémentaire a été relancée car les premiers résultats étaient faibles.")
         if trace.get("cross_reference_authors"):
