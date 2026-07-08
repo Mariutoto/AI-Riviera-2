@@ -19,7 +19,6 @@ def _connect():
     return psycopg.connect(POSTGRES_V2_URL, row_factory=dict_row)
 
 
-@lru_cache(maxsize=1)
 def ready() -> bool:
     try:
         with _connect() as connection, connection.cursor() as cursor:
