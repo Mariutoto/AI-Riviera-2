@@ -475,7 +475,7 @@ def llm_status() -> dict:
 def answer_from_sources(question: str, results: list[dict]) -> str:
     ai_answer = answer_with_llm(question, results)
     if ai_answer:
-        return f"{fix_mojibake(ai_answer)}\n\n{_sources_section(results)}" if results else fix_mojibake(ai_answer)
+        return fix_mojibake(ai_answer)
 
     if not results:
         return "Je ne sais pas: je n'ai pas trouvé de source suffisamment pertinente dans les documents indexés."
@@ -491,23 +491,4 @@ def answer_from_sources(question: str, results: list[dict]) -> str:
         excerpt = fix_mojibake((result.get("text") or result.get("content", "")).strip().replace("\n", " "))
         lines.append(f"{index}. {filename} ({year})")
         lines.append(f"   {excerpt}")
-    lines.append("")
-    lines.append(_sources_section(results))
-    return "\n".join(lines)
-
-
-def _sources_section(results: list[dict]) -> str:
-    grouped = group_results_by_document(results)
-    if not grouped:
-        return "Sources utilisées: aucune source disponible."
-
-    lines = ["Sources utilisées:"]
-    for index, source in enumerate(grouped, start=1):
-        metadata = source["metadata"]
-        title = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
-        source_url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
-        label = f"{index}. {title}"
-        if source_url:
-            label = f"{label} - {source_url} (PDF)"
-        lines.append(label)
     return "\n".join(lines)
