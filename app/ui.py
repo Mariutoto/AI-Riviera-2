@@ -787,11 +787,7 @@ with chat_tab:
         pending_question = st.session_state.pending_question
         loading_placeholder = st.empty()
 
-        loading_started_at = time.perf_counter()
-
         def render_loading(text: str) -> None:
-            elapsed = int(time.perf_counter() - loading_started_at)
-            suffix = f" ({elapsed}s)" if elapsed >= 3 else ""
             loading_placeholder.markdown(
                 f"""
                 <div class="air-loading" aria-live="polite" aria-label="Recherche en cours">
@@ -800,7 +796,7 @@ with chat_tab:
                         <span class="air-loading-page"></span>
                         <span class="air-loading-page"></span>
                     </span>
-                    <span class="air-loading-text">{text}{suffix}</span>
+                    <span class="air-loading-text">{text}</span>
                 </div>
                 """,
                 unsafe_allow_html=True,
