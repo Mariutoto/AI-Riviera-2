@@ -334,6 +334,18 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
         _notify(on_stage, "Rédaction de la réponse...")
         draft_answer = answer_from_sources(question, reranked)
 
+    # Verification is the single slowest stage (runs on the stronger model,
+    # 4-6s) and its real value is catching cross-document/decomposed answers
+    # inventing an overlap that isn't really there — exactly what "complex"/
+    # "multi" mode produces. A "simple"/"single" question is answered from
+    # one document's own reranked passages with nothing to synthesize across,
+    # UNLESS the first-pass search was weak enough to need relance — a weak
+    # match is exactly when a model is more likely to compensate by inventing
+    # plausible-sounding detail, so that case still gets verified.
+    skip_verification = (
+        trace["complexity"] == "simple" and trace["mode"] == "single" and not trace.get("relance", False)
+    )
+
     # Source blurbs don't depend on the verified/revised answer, only on the
     # already-reranked source list — so run that LLM call on a background
     # thread while verification (the slower call, on the stronger model)
@@ -341,7 +353,10 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     with ThreadPoolExecutor(max_workers=1) as pool:
         blurbs_future = pool.submit(summarize_sources_with_llm, group_results_by_document(reranked))
 
-        if time.perf_counter() > deadline:
+        if skip_verification:
+            trace["verification_skipped"] = True
+            final_answer, claims = draft_answer, []
+        elif time.perf_counter() > deadline:
             # Time budget already spent on search/decomposition/answer — skip the
             # verification pass rather than risk running well past the budget.
             trace["budget_exceeded"] = True
