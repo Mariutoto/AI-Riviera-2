@@ -16,6 +16,8 @@ SYSTEM_PROMPT += """
 Quand une source est marquée "source canonique", utilise-la en priorité pour identifier l'objet politique, son statut, ses auteurs et ses dates. Les sources marquées "document lié" servent seulement à compléter avec des détails de rapport, de commission ou de décision."""
 SYSTEM_PROMPT += """
 N'invente jamais de noms de personnes, co-auteurs, dates, chiffres ou faits absents des extraits fournis. Si un auteur est identifié dans les extraits seulement comme un groupe ou un parti (sans nom propre), ne lui attribue pas de nom propre inventé."""
+SYSTEM_PROMPT += """
+Reste bref dans le corps de la réponse: une synthèse de quelques phrases suffit. Chaque source est déjà listée séparément avec son titre, son auteur, sa date et une courte description — ne recopie pas ces détails ni le contenu complet de chaque extrait dans le texte de la réponse."""
 
 QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
 Reformule la question en une seule requête de recherche autonome, en français.
@@ -64,6 +66,14 @@ BROADEN_QUERY_PROMPT = """Tu aides AI Riviera à relancer une recherche document
 Reformule la question en une requête de recherche plus large: garde les mots-clés essentiels mais enlève les contraintes les plus spécifiques (année précise, auteur précis, titre exact) qui pourraient limiter les résultats.
 Reste en français. Ne réponds pas à la question.
 Retourne seulement la requête élargie, sans guillemets ni explication."""
+
+SOURCE_SUMMARY_PROMPT = """Tu résumes des sources documentaires pour AI Riviera, une phrase par source.
+Pour chaque source fournie (titre + extrait), écris UNE SEULE phrase concise en français qui dit de quoi parle ce document.
+Reste factuel et base-toi uniquement sur l'extrait fourni: n'invente rien, ne suppose rien qui n'y figure pas.
+
+Retourne uniquement un objet JSON associant l'identifiant de chaque source à sa phrase, par exemple:
+{"1": "Ce postulat demande la création de jobs d'été pour les jeunes.", "2": "Cette interpellation questionne la sécurité du quai Roussy."}
+Ne retourne aucun texte hors JSON."""
 
 REVISION_INSTRUCTION_TEMPLATE = """Voici une réponse que tu as rédigée, et des affirmations qu'elle contient qui ne sont pas confirmées par les extraits sources:
 {claims}
@@ -393,6 +403,41 @@ def classify_question_with_llm(question: str) -> dict:
         complexity = "simple"
 
     return {"complexity": complexity, "mode": mode, "subqueries": subqueries}
+
+
+def summarize_sources_with_llm(grouped_sources: list[dict]) -> dict[str, str]:
+    """One short French sentence per source (what it's about), keyed by the
+    same 1-based index used when rendering the Sources list. One batched
+    call for all sources, not one call per source.
+    """
+    if not grouped_sources:
+        return {}
+
+    payload = {"sources": []}
+    for index, source in enumerate(grouped_sources, start=1):
+        metadata = source["metadata"]
+        title = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
+        passages = source.get("passages") or []
+        excerpt = ""
+        if passages:
+            excerpt = fix_mojibake(str(passages[0].get("text") or passages[0].get("content") or "")).strip()
+            excerpt = " ".join(excerpt.split())[:600]
+        payload["sources"].append({"id": str(index), "title": fix_mojibake(str(title)), "excerpt": excerpt})
+
+    content = _llm_completion(
+        SOURCE_SUMMARY_PROMPT,
+        json.dumps(payload, ensure_ascii=False),
+        "MISTRAL_SUMMARY_MODEL",
+        "OPENAI_SUMMARY_MODEL",
+        max_tokens=60 * len(grouped_sources) + 100,
+    )
+    if not content:
+        return {}
+
+    parsed = _parse_json_object(content)
+    if not isinstance(parsed, dict):
+        return {}
+    return {str(key): str(value).strip() for key, value in parsed.items() if str(value).strip()}
 
 
 def verify_answer_against_sources(question: str, answer: str, results: list[dict]) -> list[str]:

@@ -14,7 +14,7 @@ ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
 from app.agent import run_agentic_pipeline
-from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm
+from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, summarize_sources_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.feedback import record_feedback, recent_feedback
@@ -376,9 +376,11 @@ POLITICAL_STATUS_LABELS = {
 
 
 def compact_names(names: list[str]) -> str:
-    if len(names) <= 2:
-        return ", ".join(names)
-    return f"{', '.join(names[:2])} et {len(names) - 2} autres"
+    if not names:
+        return ""
+    if len(names) == 1:
+        return names[0]
+    return f"{names[0]} et autres"
 
 
 def status_label(status: str | None) -> str | None:
@@ -503,42 +505,31 @@ def link_source_mentions(text: str, message_index: int, source_count: int) -> st
     return re.sub(r"\bSource\s+(\d+)\b", replace, text)
 
 
-def render_sources(results: list[dict], message_index: int) -> None:
+def render_sources(results: list[dict], message_index: int, source_blurbs: dict[str, str] | None = None) -> None:
     grouped_sources = group_results_by_document(results)
     if not grouped_sources:
         return
+    source_blurbs = source_blurbs or {}
 
-    st.divider()
-    st.subheader("Sources")
-    st.markdown("Documents utilisés dans la réponse:")
-    source_lines = []
-    for index, source in enumerate(grouped_sources, start=1):
-        metadata = source["metadata"]
-        title = fix_mojibake(metadata.get("title") or metadata.get("filename") or source.get("relative_text_path", "document"))
-        citation_line = source_citation_line(metadata)
-        if citation_line is None:
-            year = metadata.get("year") or metadata.get("listing_year") or metadata.get("date", "")
-            category = metadata.get("category") or metadata.get("doc_type", "")
-            citation_line = " / ".join(str(part) for part in (year, category) if part)
-        pdf_link = source_link(metadata, "PDF")
-        summary_line = f"{citation_line} · {pdf_link}" if citation_line else pdf_link
-        source_lines.append(
-            f'<span id="source-{message_index}-{index}"></span>'
-            f"**{index}. {title}**<br>{summary_line}"
-        )
-    st.markdown("\n\n".join(source_lines), unsafe_allow_html=True)
-
-    with st.expander("Voir les passages retrouvés"):
+    with st.expander(f"Sources ({len(grouped_sources)})", expanded=False):
+        source_lines = []
         for index, source in enumerate(grouped_sources, start=1):
             metadata = source["metadata"]
-            filename = fix_mojibake(metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document"))
-            passages = source["passages"]
-            passage_label = "passage" if len(passages) == 1 else "passages"
-            st.markdown(f"**Source {index}. {filename}** ({len(passages)} {passage_label})")
-            for passage_index, passage in enumerate(passages[:3], start=1):
-                if len(passages) > 1:
-                    st.caption(f"Passage {passage_index}")
-                st.code(fix_mojibake(passage.get("text") or passage.get("content") or "")[:1800], language="text")
+            title = fix_mojibake(metadata.get("title") or metadata.get("filename") or source.get("relative_text_path", "document"))
+            citation_line = source_citation_line(metadata)
+            if citation_line is None:
+                year = metadata.get("year") or metadata.get("listing_year") or metadata.get("date", "")
+                category = metadata.get("category") or metadata.get("doc_type", "")
+                citation_line = " / ".join(str(part) for part in (year, category) if part)
+            pdf_link = source_link(metadata, "PDF")
+            summary_line = f"{citation_line} · {pdf_link}" if citation_line else pdf_link
+            blurb = fix_mojibake(source_blurbs.get(str(index), ""))
+            blurb_line = f"<br>{blurb}" if blurb else ""
+            source_lines.append(
+                f'<span id="source-{message_index}-{index}"></span>'
+                f"**{index}. {title}**<br>{summary_line}{blurb_line}"
+            )
+        st.markdown("\n\n".join(source_lines), unsafe_allow_html=True)
 
 
 @st.dialog("Votre avis sur cette réponse", dismissible=False)
@@ -576,15 +567,31 @@ def _latest_unrated_assistant_index() -> int | None:
     return None
 
 
+FEEDBACK_DIALOG_DELAY_SECONDS = 4
+
+
 def render_pending_feedback_dialog() -> None:
     """Shows at most one non-dismissible feedback dialog per rerun, for the
     most recent unrated answer — never inside the message loop, since
     calling more than one @st.dialog function in the same script run isn't
     supported.
+
+    Waits a few seconds before popping the dialog so there's time to read
+    the answer first. Streamlit has no background timer independent of a
+    rerun; since elements stream to the browser as the script executes, the
+    answer (rendered earlier in this same run, in the message loop above)
+    should already be visible while this sleeps. Only sleeps once per
+    message — the flag guards against a second full-script rerun landing
+    here before the dialog is resolved.
     """
     message_index = _latest_unrated_assistant_index()
     if message_index is None:
         return
+
+    delay_done_key = f"feedback-{message_index}-delay-done"
+    if not st.session_state.get(delay_done_key):
+        st.session_state[delay_done_key] = True
+        time.sleep(FEEDBACK_DIALOG_DELAY_SECONDS)
 
     messages = st.session_state.messages
     message = messages[message_index]
@@ -654,12 +661,18 @@ def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ..
 
     if agentic_pipeline_enabled():
         answer, results, trace = run_agentic_pipeline(question)
-        return answer, results, trace
+    else:
+        retrieval_question = rewrite_query_with_llm(question) or question
+        candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
+        results = rerank_results_with_llm(question, candidates, keep=30, max_candidates=30)
+        answer, trace = answer_from_sources(question, results), {}
 
-    retrieval_question = rewrite_query_with_llm(question) or question
-    candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
-    results = rerank_results_with_llm(question, candidates, keep=30, max_candidates=30)
-    return answer_from_sources(question, results), results, {}
+    if trace.get("mode") != "aggregate":
+        # Aggregate answers are synthetic rows with no real passage text —
+        # nothing meaningful to summarize, and they're already complete
+        # (authors shown inline) without a blurb.
+        trace["source_blurbs"] = summarize_sources_with_llm(group_results_by_document(results))
+    return answer, results, trace
 
 
 def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict], dict]:
@@ -741,8 +754,9 @@ with chat_tab:
             source_count = len(group_results_by_document(results)) if results else 0
             st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
             if message["role"] == "assistant":
-                render_sources(results, message_index)
-                render_trace(message.get("trace", {}))
+                trace = message.get("trace", {})
+                render_sources(results, message_index, trace.get("source_blurbs"))
+                render_trace(trace)
 
     render_pending_feedback_dialog()
 
