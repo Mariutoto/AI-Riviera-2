@@ -1,0 +1,24 @@
+name: Check La Tour-de-Peilz site for updates
+
+"on":
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  check-for-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install "psycopg[binary]" requests
+
+      - name: Run update check
+        env:
+          POSTGRES_V2_URL: ${{ secrets.POSTGRES_V2_URL }}
+        run: python embedding-pilot/scripts/check_for_updates.py
