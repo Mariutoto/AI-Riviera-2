@@ -16,6 +16,7 @@ LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
+from app.feedback import record_feedback, recent_feedback
 from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
 from app.text_cleaning import fix_mojibake, format_date
@@ -512,6 +513,34 @@ def render_sources(results: list[dict], message_index: int) -> None:
                 st.code(fix_mojibake(passage.get("text") or passage.get("content") or "")[:1800], language="text")
 
 
+def render_feedback(message_index: int) -> None:
+    messages = st.session_state.messages
+    if message_index == 0 or message_index >= len(messages):
+        return
+
+    message = messages[message_index]
+    answer = message.get("content", "")
+    if not answer:
+        return
+
+    preceding = messages[message_index - 1]
+    if preceding.get("role") != "user":
+        return
+    question = preceding.get("content", "")
+    if not question:
+        return
+
+    # st.feedback("thumbs") returns 0 for thumbs-down, 1 for thumbs-up, or
+    # None if nothing has been clicked yet.
+    selection = st.feedback("thumbs", key=f"feedback-{message_index}")
+    recorded_key = f"feedback-{message_index}-recorded"
+    if selection is not None and st.session_state.get(recorded_key) != selection:
+        rating = "up" if selection == 1 else "down"
+        source_count = len(group_results_by_document(message.get("results", [])))
+        record_feedback(question, answer, rating, source_count)
+        st.session_state[recorded_key] = selection
+
+
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
     chat_tab, eval_tab, about_tab = st.tabs(["Assistant", "Eval", "À propos"])
@@ -610,6 +639,7 @@ with chat_tab:
             st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
             if message["role"] == "assistant":
                 render_sources(results, message_index)
+                render_feedback(message_index)
 
     if st.session_state.pending_question:
         suggestions_slot.empty()
@@ -719,6 +749,31 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
                 st.code("\n".join(run["expected_sources"]) or "Aucune source attendue définie", language="text")
                 render_sources(run.get("results", []), 1000 + run_index)
     
+        st.subheader("Feedback des réponses")
+        feedback_rows = recent_feedback(100)
+        if feedback_rows:
+            up_count = sum(1 for row in feedback_rows if row["rating"] == "up")
+            down_count = sum(1 for row in feedback_rows if row["rating"] == "down")
+            col_up, col_down = st.columns(2)
+            col_up.metric("👍", up_count)
+            col_down.metric("👎", down_count)
+            st.dataframe(
+                [
+                    {
+                        "date": row["created_at"],
+                        "note": "👍" if row["rating"] == "up" else "👎",
+                        "question": fix_mojibake(row["question"]),
+                        "réponse": fix_mojibake(row["answer"])[:300],
+                        "sources": row["source_count"],
+                    }
+                    for row in feedback_rows
+                ],
+                width="stretch",
+                hide_index=True,
+            )
+        else:
+            st.caption("Aucun retour utilisateur pour l'instant.")
+
         st.subheader("Diagnostics")
         interactions = list(reversed(recent_interactions(12)))
         if interactions:
