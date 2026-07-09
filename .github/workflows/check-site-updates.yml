@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install "psycopg[binary]" requests
+        run: pip install "psycopg[binary]" requests "pymupdf>=1.27"
 
       - name: Run update check
         env:
