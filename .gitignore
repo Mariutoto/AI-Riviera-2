@@ -17,3 +17,7 @@ streamlit-*.err.log
 Thumbs.db
 .vscode/
 .claude/
+
+# Local scratch/experiment folders (not part of the app)
+ocr-extraction-test/
+pilot-interpellations/
