@@ -541,32 +541,57 @@ def render_sources(results: list[dict], message_index: int) -> None:
                 st.code(fix_mojibake(passage.get("text") or passage.get("content") or "")[:1800], language="text")
 
 
-def render_feedback(message_index: int) -> None:
-    messages = st.session_state.messages
-    if message_index == 0 or message_index >= len(messages):
-        return
+@st.dialog("Votre avis sur cette réponse", dismissible=False)
+def _feedback_dialog(message_index: int, question: str, answer: str, source_count: int) -> None:
+    st.write("Cette réponse vous a-t-elle été utile ?")
 
-    message = messages[message_index]
-    answer = message.get("content", "")
-    if not answer:
-        return
-
-    preceding = messages[message_index - 1]
-    if preceding.get("role") != "user":
-        return
-    question = preceding.get("content", "")
-    if not question:
-        return
-
-    # st.feedback("thumbs") returns 0 for thumbs-down, 1 for thumbs-up, or
-    # None if nothing has been clicked yet.
-    selection = st.feedback("thumbs", key=f"feedback-{message_index}")
-    recorded_key = f"feedback-{message_index}-recorded"
-    if selection is not None and st.session_state.get(recorded_key) != selection:
-        rating = "up" if selection == 1 else "down"
-        source_count = len(group_results_by_document(message.get("results", [])))
+    def submit(rating: str) -> None:
         record_feedback(question, answer, rating, source_count)
-        st.session_state[recorded_key] = selection
+        st.session_state[f"feedback-{message_index}-recorded"] = rating
+        st.rerun()
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        if st.button("👍👍 Très utile", key=f"feedback-{message_index}-double-up", width="stretch"):
+            submit("double_up")
+    with col2:
+        if st.button("👍 Utile", key=f"feedback-{message_index}-up", width="stretch"):
+            submit("up")
+    with col3:
+        if st.button("👎 Pas utile", key=f"feedback-{message_index}-down", width="stretch"):
+            submit("down")
+
+
+def _latest_unrated_assistant_index() -> int | None:
+    messages = st.session_state.messages
+    for index in range(len(messages) - 1, 0, -1):
+        message = messages[index]
+        if message.get("role") != "assistant" or not message.get("content"):
+            continue
+        if messages[index - 1].get("role") != "user":
+            continue
+        if st.session_state.get(f"feedback-{index}-recorded"):
+            continue
+        return index
+    return None
+
+
+def render_pending_feedback_dialog() -> None:
+    """Shows at most one non-dismissible feedback dialog per rerun, for the
+    most recent unrated answer — never inside the message loop, since
+    calling more than one @st.dialog function in the same script run isn't
+    supported.
+    """
+    message_index = _latest_unrated_assistant_index()
+    if message_index is None:
+        return
+
+    messages = st.session_state.messages
+    message = messages[message_index]
+    question = messages[message_index - 1].get("content", "")
+    answer = message.get("content", "")
+    source_count = len(group_results_by_document(message.get("results", [])))
+    _feedback_dialog(message_index, question, answer, source_count)
 
 
 def render_trace(trace: dict) -> None:
@@ -718,7 +743,8 @@ with chat_tab:
             if message["role"] == "assistant":
                 render_sources(results, message_index)
                 render_trace(message.get("trace", {}))
-                render_feedback(message_index)
+
+    render_pending_feedback_dialog()
 
     if st.session_state.pending_question:
         suggestions_slot.empty()
@@ -840,16 +866,19 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
         st.subheader("Feedback des réponses")
         feedback_rows = recent_feedback(100)
         if feedback_rows:
+            rating_emoji = {"double_up": "👍👍", "up": "👍", "down": "👎"}
+            double_up_count = sum(1 for row in feedback_rows if row["rating"] == "double_up")
             up_count = sum(1 for row in feedback_rows if row["rating"] == "up")
             down_count = sum(1 for row in feedback_rows if row["rating"] == "down")
-            col_up, col_down = st.columns(2)
+            col_double_up, col_up, col_down = st.columns(3)
+            col_double_up.metric("👍👍", double_up_count)
             col_up.metric("👍", up_count)
             col_down.metric("👎", down_count)
             st.dataframe(
                 [
                     {
                         "date": row["created_at"],
-                        "note": "👍" if row["rating"] == "up" else "👎",
+                        "note": rating_emoji.get(row["rating"], row["rating"]),
                         "question": fix_mojibake(row["question"]),
                         "réponse": fix_mojibake(row["answer"])[:300],
                         "sources": row["source_count"],
