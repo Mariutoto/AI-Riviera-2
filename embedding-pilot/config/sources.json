@@ -65,12 +65,20 @@
       "metadata_glob": "audit-general/audit-rapports-comptes/full-audit/metadata/*.json",
       "document_files": 5,
       "chunks": 831
+    },
+    {
+      "family": "annual_report",
+      "category": "budget",
+      "glob": "audit-general/audit-budgets/full-audit/chunks/*.json",
+      "metadata_glob": "audit-general/audit-budgets/full-audit/metadata/*.json",
+      "document_files": 6,
+      "chunks": 808
     }
   ],
   "totals": {
-    "document_files": 297,
-    "canonical_chunks": 7006,
-    "pilot_chunks_after_exclusions": 6994
+    "document_files": 303,
+    "canonical_chunks": 7814,
+    "pilot_chunks_after_exclusions": 7802
   },
   "excluded": [
     "pilot directories",
