@@ -24,6 +24,8 @@ def _detect_doc_type(query: str, normalized_query: str) -> str | None:
         return "postulats"
     if "motion" in normalized_query:
         return "motions"
+    if "budget" in normalized_query:
+        return "budget"
     if is_council_regulation_query(query):
         return "reglement-conseil-communal"
     return None
@@ -36,6 +38,14 @@ def _detect_year(normalized_query: str) -> str | None:
 
 _AGGREGATE_MARKERS = ("combien de", "combien d'", "liste tous", "liste toutes", "quel est le nombre de")
 _CIVILITY_MARKERS = {"femmes": "Mme", "femme": "Mme", "hommes": "M.", "homme": "M."}
+# Only these doc_types are "countable" in the sense this function means —
+# political objects with many instances to count/list by author. "budget" and
+# "reglement-conseil-communal" are also detected doc_types (for regular
+# retrieval filtering) but there's exactly one document per year/one
+# document total for those, so "combien de ..." near one of those keywords is
+# almost always a monetary or article-count question ("combien de charges",
+# "combien d'articles"), not a request to enumerate documents.
+_COUNTABLE_DOC_TYPES = {"interpellations", "postulats", "motions"}
 
 
 def detect_aggregate_query(query: str) -> dict | None:
@@ -57,8 +67,16 @@ def detect_aggregate_query(query: str) -> dict | None:
             break
 
     doc_type = _detect_doc_type(query, normalized_query)
-    if doc_type:
+    if doc_type in _COUNTABLE_DOC_TYPES:
         filters["doc_type"] = doc_type
+
+    if "civility" not in filters and "doc_type" not in filters:
+        # Without a recognized countable entity, "combien de/liste tous" is
+        # almost always a different kind of question (an amount, a
+        # percentage, an article count...) that a document-count/enumeration
+        # can't answer — fall through to normal search instead of silently
+        # counting every document that matches the year.
+        return None
 
     year = _detect_year(normalized_query)
     if year:

@@ -20,6 +20,7 @@ CATEGORY_MAP = {
     "postulats": "postulat",
     "interpellations": "interpellation",
     "reglement-conseil-communal": "reglement_conseil_communal",
+    "budget": "budget",
 }
 
 _QUOTE_PATTERNS = [
