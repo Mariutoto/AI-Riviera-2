@@ -296,13 +296,13 @@ def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
         cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline)
         trace["relance"] = any(entry["relanced"] for entry in cross["sub_results"])
         trace["cross_reference_authors"] = sorted(f"{author} ({year})" for author, year in cross["overlap"])
-        reranked = rerank_results_with_llm(question, cross["combined_results"], keep=20, max_candidates=30)
+        reranked = rerank_results_with_llm(question, cross["combined_results"], keep=30, max_candidates=30)
         summary_block = _cross_reference_summary(cross["overlap"])
         draft_answer = answer_from_sources(question, reranked, extra_context=summary_block)
     else:
         results, relanced = search_with_relance(question, limit=50, deadline=deadline)
         trace["relance"] = relanced
-        reranked = rerank_results_with_llm(question, results, keep=20, max_candidates=30)
+        reranked = rerank_results_with_llm(question, results, keep=30, max_candidates=30)
         draft_answer = answer_from_sources(question, reranked)
 
     if time.perf_counter() > deadline:

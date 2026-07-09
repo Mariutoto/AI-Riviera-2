@@ -7,6 +7,7 @@ from functools import lru_cache
 import requests
 
 from app.diagnostics import record_diagnostic
+from app.text_cleaning import strip_accents
 
 
 POSTGRES_V2_URL = os.getenv(
@@ -81,6 +82,38 @@ def extract_quoted_phrases(query: str) -> list[str]:
     return [phrase for phrase in phrases if len(phrase) >= 6 and " " in phrase]
 
 
+_COMMON_CAPITALIZED_WORDS = {
+    "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
+    "le", "la", "les", "un", "une", "des", "du", "de", "et", "ou", "a",
+    "que", "qui", "quoi", "quel", "quelle", "quels", "quelles",
+    "combien", "comment", "pourquoi", "quand", "est", "sont",
+}
+
+
+def extract_capitalized_keywords(query: str) -> list[str]:
+    """Pull out a bare proper-noun-looking word (e.g. a street or place name
+    mentioned without quotes, like "Roussy" in "quelles interpellations
+    parlent du Roussy ?"). A capitalized word can score low in pure vector
+    similarity when it's a minor detail rather than the query's main topic
+    ("Roussy" as one of three streets in a title about illegal camping) —
+    this is a cheap way to still surface it, on top of the exact-title-quote
+    match above.
+
+    A heuristic, not a gazetteer: skips the first word (sentence-initial
+    capitalization doesn't imply a proper noun) and a short list of common
+    French function words that sometimes get capitalized by habit.
+    """
+    words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ][\w\-']*", query)
+    keywords = []
+    for index, word in enumerate(words):
+        if index == 0 or not word[0].isupper() or len(word) < 4:
+            continue
+        if strip_accents(word).lower() in _COMMON_CAPITALIZED_WORDS:
+            continue
+        keywords.append(word)
+    return keywords
+
+
 def _filter_clauses(filters: dict) -> tuple[list[str], list[object]]:
     clauses = []
     params: list[object] = []
@@ -140,6 +173,46 @@ def _run_title_search(phrase: str, limit: int) -> list[dict]:
     """
     with _connect() as connection, connection.cursor() as cursor:
         cursor.execute(sql, [f"%{phrase}%", limit])
+        return cursor.fetchall()
+
+
+def _run_keyword_search(keyword: str, limit: int, filters: dict, max_chunks_per_document: int = 2) -> list[dict]:
+    """Title OR chunk-content match on a single bare keyword (e.g. a street
+    name mentioned without quotes) — a weaker signal than an exact quoted
+    title match, so it gets a lower synthetic score.
+
+    Applies the same doc_type/year filters as the main vector search — a
+    keyword search across the *whole* corpus is exactly the failure mode
+    this exists to fix (e.g. "Roussy" is mentioned in dozens of unrelated
+    reports; restricting to the already-detected "interpellations" category
+    narrows that from ~295 documents to ~50, which is what actually lets the
+    target survive the per-document cap below).
+
+    Caps chunks per document (window function, not just LIMIT) — otherwise a
+    single document that happens to repeat the keyword many times (e.g. a
+    long financial report mentioning a street name several times) eats the
+    whole limit budget before other, more relevant documents are ever seen.
+    """
+    extra_clauses, extra_params = _filter_clauses(filters)
+    where_sql = " AND (d.title ILIKE %s OR c.content ILIKE %s)"
+    if extra_clauses:
+        where_sql = " AND " + " AND ".join(extra_clauses) + where_sql
+    sql = f"""
+        SELECT chunk_id, document_id, chunk_index, component, content, title, category, document_role, metadata, score
+        FROM (
+            SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
+                   d.title, d.category, d.document_role, d.metadata,
+                   0.9::float AS score,
+                   row_number() OVER (PARTITION BY d.document_id ORDER BY c.chunk_index) AS rn
+            FROM documents d JOIN chunks c USING (document_id)
+            WHERE TRUE{where_sql}
+        ) ranked
+        WHERE rn <= %s
+        ORDER BY document_id, chunk_index
+        LIMIT %s
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, [*extra_params, f"%{keyword}%", f"%{keyword}%", max_chunks_per_document, limit])
         return cursor.fetchall()
 
 
@@ -264,7 +337,16 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
                 title_rows.append(row)
                 seen_chunk_ids.add(row["chunk_id"])
 
+    keyword_rows: list[dict] = []
+    for keyword in extract_capitalized_keywords(query):
+        for row in _run_keyword_search(keyword, limit=40, filters=filters):
+            if row["chunk_id"] not in seen_chunk_ids:
+                keyword_rows.append(row)
+                seen_chunk_ids.add(row["chunk_id"])
+
     results = _rows_to_results(rows, "mistral_pgvector_v2")
+    if keyword_rows:
+        results = _rows_to_results(keyword_rows, "keyword_match_v2") + results
     if title_rows:
         results = _rows_to_results(title_rows, "title_match_v2") + results
 

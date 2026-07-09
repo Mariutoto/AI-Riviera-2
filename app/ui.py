@@ -633,7 +633,7 @@ def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ..
 
     retrieval_question = rewrite_query_with_llm(question) or question
     candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
-    results = rerank_results_with_llm(question, candidates, keep=20, max_candidates=30)
+    results = rerank_results_with_llm(question, candidates, keep=30, max_candidates=30)
     return answer_from_sources(question, results), results, {}
 
 
