@@ -655,34 +655,56 @@ else:
 
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
-def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], dict]:
+def cached_answer_question(
+    question: str,
+    filters_key: tuple[tuple[str, str], ...],
+    _on_stage=None,
+) -> tuple[str, list[dict], dict]:
+    # _on_stage is prefixed with an underscore so st.cache_data excludes it
+    # from the cache key (a callback isn't hashable/meaningful for caching
+    # identity) — on a cache hit it's simply never called, which is fine
+    # since a hit returns near-instantly and needs no progress indicator.
     if not pilot_v2_ready():
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
 
     if agentic_pipeline_enabled():
-        answer, results, trace = run_agentic_pipeline(question)
+        answer, results, trace = run_agentic_pipeline(question, on_stage=_on_stage)
     else:
+        if _on_stage:
+            _on_stage("Reformulation de la question...")
         retrieval_question = rewrite_query_with_llm(question) or question
+        if _on_stage:
+            _on_stage("Recherche dans les documents...")
         candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
+        if _on_stage:
+            _on_stage("Sélection des passages les plus pertinents...")
         results = rerank_results_with_llm(question, candidates, keep=30, max_candidates=30)
+        if _on_stage:
+            _on_stage("Rédaction de la réponse...")
         answer, trace = answer_from_sources(question, results), {}
 
     if trace.get("mode") != "aggregate":
         # Aggregate answers are synthetic rows with no real passage text —
         # nothing meaningful to summarize, and they're already complete
         # (authors shown inline) without a blurb.
+        if _on_stage:
+            _on_stage("Résumé des sources...")
         trace["source_blurbs"] = summarize_sources_with_llm(group_results_by_document(results))
     return answer, results, trace
 
 
-def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict], dict]:
+def answer_question(
+    question: str,
+    messages: list[dict] | None = None,
+    on_stage=None,
+) -> tuple[str, list[dict], dict]:
     if not ensure_index_ready():
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
 
     effective_question = contextualize_question(question, messages or [])
     started_at = time.perf_counter()
     try:
-        answer, results, trace = cached_answer_question(effective_question, cacheable_filters(current_filters()))
+        answer, results, trace = cached_answer_question(effective_question, cacheable_filters(current_filters()), on_stage)
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_interaction(
             question,
@@ -765,7 +787,11 @@ with chat_tab:
         pending_question = st.session_state.pending_question
         loading_placeholder = st.empty()
 
+        loading_started_at = time.perf_counter()
+
         def render_loading(text: str) -> None:
+            elapsed = int(time.perf_counter() - loading_started_at)
+            suffix = f" ({elapsed}s)" if elapsed >= 3 else ""
             loading_placeholder.markdown(
                 f"""
                 <div class="air-loading" aria-live="polite" aria-label="Recherche en cours">
@@ -774,7 +800,7 @@ with chat_tab:
                         <span class="air-loading-page"></span>
                         <span class="air-loading-page"></span>
                     </span>
-                    <span class="air-loading-text">{text}</span>
+                    <span class="air-loading-text">{text}{suffix}</span>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -785,7 +811,11 @@ with chat_tab:
         else:
             render_loading("Lecture des sources...")
 
-        answer, results, trace = answer_question(pending_question, st.session_state.messages)
+        # Updated live as the pipeline actually progresses (see app/agent.py's
+        # on_stage callbacks) rather than a single static guess — so a
+        # genuinely harder question visibly *looks* like it's doing more,
+        # instead of leaving an unexplained long wait on the same message.
+        answer, results, trace = answer_question(pending_question, st.session_state.messages, on_stage=render_loading)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results, "trace": trace})
         st.session_state.pending_question = None

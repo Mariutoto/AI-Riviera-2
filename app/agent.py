@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from typing import Callable
 
 from app import retrieval
 from app.answer import (
@@ -35,6 +36,11 @@ _DOC_TYPE_NOUN = {
     "motions": "motions",
     "reglement-conseil-communal": "documents du règlement",
 }
+
+
+def _notify(on_stage: Callable[[str], None] | None, label: str) -> None:
+    if on_stage is not None:
+        on_stage(label)
 
 
 def time_budget_seconds() -> float:
@@ -165,7 +171,12 @@ def expand_small_documents(results: list[dict]) -> list[dict]:
     return expanded
 
 
-def search_with_relance(query: str, limit: int = 50, deadline: float | None = None) -> tuple[list[dict], bool]:
+def search_with_relance(
+    query: str,
+    limit: int = 50,
+    deadline: float | None = None,
+    on_stage: Callable[[str], None] | None = None,
+) -> tuple[list[dict], bool]:
     """Run retrieval.search, retrying once with a broadened query if the first pass looks weak.
 
     Skips the retry (rather than failing) once `deadline` (a time.perf_counter()
@@ -176,6 +187,7 @@ def search_with_relance(query: str, limit: int = 50, deadline: float | None = No
     results = retrieval.search(query, limit=limit)
     is_weak = _unique_document_count(results) < WEAK_MIN_DOCUMENTS or _top_score(results) < WEAK_SCORE_THRESHOLD
     if is_weak and not (deadline is not None and time.perf_counter() > deadline):
+        _notify(on_stage, "Résultats faibles, recherche élargie en cours...")
         broadened = broaden_query_with_llm(query)
         if broadened and broadened.strip().lower() != query.strip().lower():
             retried = retrieval.search(broadened, limit=limit)
@@ -206,11 +218,17 @@ def _extract_author_years(result: dict) -> set[tuple[str, str]]:
     return pairs
 
 
-def merge_cross_reference(subqueries: list[dict], limit: int = 50, deadline: float | None = None) -> dict:
+def merge_cross_reference(
+    subqueries: list[dict],
+    limit: int = 50,
+    deadline: float | None = None,
+    on_stage: Callable[[str], None] | None = None,
+) -> dict:
     """Run one search per subquery and compute the real (author, year) overlap across them in code."""
     sub_results = []
-    for sub in subqueries:
-        results, relanced = search_with_relance(sub["query"], limit=limit, deadline=deadline)
+    for index, sub in enumerate(subqueries, start=1):
+        _notify(on_stage, f"Recherche {index}/{len(subqueries)}: {sub.get('label') or sub['query']}")
+        results, relanced = search_with_relance(sub["query"], limit=limit, deadline=deadline, on_stage=on_stage)
         sub_results.append({"label": sub.get("label") or sub["query"], "results": results, "relanced": relanced})
 
     matches_by_pair: dict[tuple[str, str], dict[str, list[dict]]] = {}
@@ -263,7 +281,7 @@ def _cross_reference_summary(overlap: dict) -> str:
     return "\n".join(lines)
 
 
-def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
+def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None = None) -> tuple[str, list[dict], dict]:
     started_at = time.perf_counter()
     budget = time_budget_seconds()
     deadline = started_at + budget
@@ -277,12 +295,14 @@ def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
         "budget_exceeded": False,
     }
 
+    _notify(on_stage, "Analyse de la question...")
     aggregate_filters = retrieval.detect_aggregate_query(question)
     if aggregate_filters is not None:
         # Deterministic count/enumeration over metadata — no LLM in the loop
         # for the count itself, so no verification pass is needed either.
         trace["mode"] = "aggregate"
         trace["aggregate_filters"] = aggregate_filters
+        _notify(on_stage, "Comptage exact dans la base...")
         answer, results = run_aggregate_query(aggregate_filters)
         trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
         record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
@@ -293,16 +313,22 @@ def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
     trace["mode"] = classification.get("mode", "single")
 
     if classification.get("mode") == "multi" and classification.get("subqueries"):
-        cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline)
+        _notify(on_stage, "Question complexe détectée: recherche en plusieurs étapes...")
+        cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline, on_stage=on_stage)
         trace["relance"] = any(entry["relanced"] for entry in cross["sub_results"])
         trace["cross_reference_authors"] = sorted(f"{author} ({year})" for author, year in cross["overlap"])
+        _notify(on_stage, "Sélection des passages les plus pertinents...")
         reranked = rerank_results_with_llm(question, cross["combined_results"], keep=30, max_candidates=30)
         summary_block = _cross_reference_summary(cross["overlap"])
+        _notify(on_stage, "Rédaction de la réponse...")
         draft_answer = answer_from_sources(question, reranked, extra_context=summary_block)
     else:
-        results, relanced = search_with_relance(question, limit=50, deadline=deadline)
+        _notify(on_stage, "Recherche dans les documents...")
+        results, relanced = search_with_relance(question, limit=50, deadline=deadline, on_stage=on_stage)
         trace["relance"] = relanced
+        _notify(on_stage, "Sélection des passages les plus pertinents...")
         reranked = rerank_results_with_llm(question, results, keep=30, max_candidates=30)
+        _notify(on_stage, "Rédaction de la réponse...")
         draft_answer = answer_from_sources(question, reranked)
 
     if time.perf_counter() > deadline:
@@ -311,6 +337,7 @@ def run_agentic_pipeline(question: str) -> tuple[str, list[dict], dict]:
         trace["budget_exceeded"] = True
         final_answer, claims = draft_answer, []
     else:
+        _notify(on_stage, "Vérification de la réponse...")
         final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
     trace["verification_claims"] = claims
     trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
