@@ -691,10 +691,12 @@ def cached_answer_question(
             _on_stage("Rédaction de la réponse...")
         answer, trace = answer_from_sources(question, results), {}
 
-    if trace.get("mode") != "aggregate":
+    if trace.get("mode") != "aggregate" and "source_blurbs" not in trace:
         # Aggregate answers are synthetic rows with no real passage text —
         # nothing meaningful to summarize, and they're already complete
-        # (authors shown inline) without a blurb.
+        # (authors shown inline) without a blurb. The agentic path already
+        # computes source_blurbs itself (in parallel with verification), so
+        # this only runs for the non-agentic path.
         if _on_stage:
             _on_stage("Résumé des sources...")
         trace["source_blurbs"] = summarize_sources_with_llm(group_results_by_document(results))

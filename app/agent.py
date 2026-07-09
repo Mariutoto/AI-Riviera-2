@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from concurrent.futures import ThreadPoolExecutor
 from typing import Callable
 
 from app import retrieval
@@ -9,7 +10,9 @@ from app.answer import (
     broaden_query_with_llm,
     classify_question_with_llm,
     get_secret,
+    group_results_by_document,
     rerank_results_with_llm,
+    summarize_sources_with_llm,
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
@@ -331,14 +334,24 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
         _notify(on_stage, "Rédaction de la réponse...")
         draft_answer = answer_from_sources(question, reranked)
 
-    if time.perf_counter() > deadline:
-        # Time budget already spent on search/decomposition/answer — skip the
-        # verification pass rather than risk running well past the budget.
-        trace["budget_exceeded"] = True
-        final_answer, claims = draft_answer, []
-    else:
-        _notify(on_stage, "Vérification de la réponse...")
-        final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
+    # Source blurbs don't depend on the verified/revised answer, only on the
+    # already-reranked source list — so run that LLM call on a background
+    # thread while verification (the slower call, on the stronger model)
+    # runs on the main thread, instead of paying for both in sequence.
+    with ThreadPoolExecutor(max_workers=1) as pool:
+        blurbs_future = pool.submit(summarize_sources_with_llm, group_results_by_document(reranked))
+
+        if time.perf_counter() > deadline:
+            # Time budget already spent on search/decomposition/answer — skip the
+            # verification pass rather than risk running well past the budget.
+            trace["budget_exceeded"] = True
+            final_answer, claims = draft_answer, []
+        else:
+            _notify(on_stage, "Vérification de la réponse...")
+            final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
+
+        trace["source_blurbs"] = blurbs_future.result()
+
     trace["verification_claims"] = claims
     trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
 
