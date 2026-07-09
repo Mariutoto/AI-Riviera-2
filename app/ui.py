@@ -491,16 +491,24 @@ def source_citation_line(metadata: dict) -> str | None:
     return None
 
 
-def link_source_mentions(text: str, message_index: int, source_count: int) -> str:
-    if source_count == 0:
+def link_source_mentions(text: str, grouped_sources: list[dict]) -> str:
+    """Turn a "Source N" mention in the answer body into a link straight to
+    that source's actual PDF — not an anchor into the Sources expander,
+    since that's collapsed by default and an anchor into hidden content
+    wouldn't do anything useful.
+    """
+    if not grouped_sources:
         return text
 
     def replace(match: re.Match) -> str:
         number = int(match.group(1))
-        if number > source_count:
+        if number < 1 or number > len(grouped_sources):
             return match.group(0)
-        label = "PDF"
-        return f"[{label}](#source-{message_index}-{number})"
+        metadata = grouped_sources[number - 1]["metadata"]
+        url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
+        if not url:
+            return match.group(0)
+        return f"[PDF]({url})"
 
     return re.sub(r"\bSource\s+(\d+)\b", replace, text)
 
@@ -773,8 +781,8 @@ with chat_tab:
         avatar = ":material/person:" if message["role"] == "user" else ":material/find_in_page:"
         with st.chat_message(message["role"], avatar=avatar):
             results = message.get("results", [])
-            source_count = len(group_results_by_document(results)) if results else 0
-            st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
+            grouped_sources = group_results_by_document(results) if results else []
+            st.markdown(link_source_mentions(fix_mojibake(message["content"]), grouped_sources))
             if message["role"] == "assistant":
                 trace = message.get("trace", {})
                 render_sources(results, message_index, trace.get("source_blurbs"))
