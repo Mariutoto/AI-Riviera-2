@@ -143,6 +143,32 @@ def _run_title_search(phrase: str, limit: int) -> list[dict]:
         return cursor.fetchall()
 
 
+def fetch_document_chunks(document_id: str, score: float) -> list[dict]:
+    """Every chunk of a single document, in the same result shape as search().
+
+    Used to expand a small, already-identified document (e.g. an
+    interpellation) to its full text instead of relying on whichever chunks
+    happened to score highest against the query embedding — a chunk phrased
+    very differently from the question (e.g. the municipal response) can
+    otherwise be missed even though the document itself is clearly the right
+    one. `score` is the triggering chunk's score, assigned to every sibling
+    chunk so they rank sensibly rather than floating unscored.
+    """
+    sql = """
+        SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
+               d.title, d.category, d.document_role, d.metadata
+        FROM chunks c JOIN documents d USING (document_id)
+        WHERE c.document_id = %s
+        ORDER BY c.chunk_index
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, (document_id,))
+        rows = cursor.fetchall()
+    for row in rows:
+        row["score"] = score
+    return _rows_to_results(rows, "document_expansion_v2")
+
+
 def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
     output = []
     for row in rows:

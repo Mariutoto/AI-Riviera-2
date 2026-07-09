@@ -12,11 +12,21 @@ from app.answer import (
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
-from app.pilot_v2_store import aggregate_authors
+from app.pilot_v2_store import aggregate_authors, fetch_document_chunks
 from app.text_cleaning import strip_accents
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
+
+# Political-object documents are small (interpellations/postulats/motions
+# average 4-5 chunks, max 14 — confirmed against the real DB) — cheap enough
+# to pull in fully once identified, rather than trust that every relevant
+# chunk (e.g. the municipal response, phrased very differently from the
+# question) survived the embedding top-K. Capped to the best-scoring few
+# documents so this can't quietly balloon the candidate pool.
+EXPANDABLE_CATEGORIES = {"interpellation", "postulat", "motion"}
+MAX_EXPANDABLE_CHUNKS = 15
+MAX_EXPANDED_DOCUMENTS = 3
 
 _CIVILITY_NOUN = {"Mme": "femmes", "M.": "hommes"}
 _DOC_TYPE_NOUN = {
@@ -106,28 +116,74 @@ def _top_score(results: list[dict]) -> float:
     return max((result.get("_score", result.get("score", 0)) for result in results), default=0.0)
 
 
+def expand_small_documents(results: list[dict]) -> list[dict]:
+    """Pull in the rest of a small political-object document's chunks once any
+    one of its chunks is already in the candidate pool.
+
+    Deterministic (no confidence threshold to tune): eligibility is just
+    "small category, present in the pool", capped to the best-scoring
+    MAX_EXPANDED_DOCUMENTS so a handful of loosely-related documents can't
+    each contribute noise. New chunks inherit their triggering document's
+    best score (rather than floating unscored) and the whole list is
+    re-sorted, so they land at a sensible rank instead of risking silent
+    truncation by rerank_results_with_llm's max_candidates cutoff.
+    """
+    if not results:
+        return results
+
+    best_score_by_document: dict[str, float] = {}
+    category_by_document: dict[str, str] = {}
+    seen_chunk_ids: set[str] = set()
+    for result in results:
+        seen_chunk_ids.add(result["id"])
+        document_id = result.get("document_id")
+        if not document_id:
+            continue
+        category_by_document[document_id] = result.get("category", "")
+        score = result.get("_score", result.get("score", 0))
+        if score > best_score_by_document.get(document_id, -1):
+            best_score_by_document[document_id] = score
+
+    expandable_documents = [
+        document_id
+        for document_id, category in category_by_document.items()
+        if category in EXPANDABLE_CATEGORIES
+    ]
+    expandable_documents.sort(key=lambda document_id: best_score_by_document[document_id], reverse=True)
+
+    expanded = list(results)
+    for document_id in expandable_documents[:MAX_EXPANDED_DOCUMENTS]:
+        chunks = fetch_document_chunks(document_id, best_score_by_document[document_id])
+        if len(chunks) > MAX_EXPANDABLE_CHUNKS:
+            continue
+        for chunk in chunks:
+            if chunk["id"] not in seen_chunk_ids:
+                expanded.append(chunk)
+                seen_chunk_ids.add(chunk["id"])
+
+    expanded.sort(key=lambda result: result.get("_score", result.get("score", 0)), reverse=True)
+    return expanded
+
+
 def search_with_relance(query: str, limit: int = 50, deadline: float | None = None) -> tuple[list[dict], bool]:
     """Run retrieval.search, retrying once with a broadened query if the first pass looks weak.
 
     Skips the retry (rather than failing) once `deadline` (a time.perf_counter()
-    value) has passed — the first-pass results are still returned.
+    value) has passed — the first-pass results are still returned. Small
+    political-object documents are expanded to their full chunk set before
+    returning either way (see expand_small_documents).
     """
     results = retrieval.search(query, limit=limit)
     is_weak = _unique_document_count(results) < WEAK_MIN_DOCUMENTS or _top_score(results) < WEAK_SCORE_THRESHOLD
-    if not is_weak:
-        return results, False
-    if deadline is not None and time.perf_counter() > deadline:
-        return results, False
+    if is_weak and not (deadline is not None and time.perf_counter() > deadline):
+        broadened = broaden_query_with_llm(query)
+        if broadened and broadened.strip().lower() != query.strip().lower():
+            retried = retrieval.search(broadened, limit=limit)
+            if _top_score(retried) > _top_score(results):
+                record_diagnostic("agent", "Relance search improved results", query=query, broadened=broadened)
+                return expand_small_documents(retried), True
 
-    broadened = broaden_query_with_llm(query)
-    if not broadened or broadened.strip().lower() == query.strip().lower():
-        return results, False
-
-    retried = retrieval.search(broadened, limit=limit)
-    if _top_score(retried) > _top_score(results):
-        record_diagnostic("agent", "Relance search improved results", query=query, broadened=broadened)
-        return retried, True
-    return results, False
+    return expand_small_documents(results), False
 
 
 def _result_year(result: dict) -> str:
