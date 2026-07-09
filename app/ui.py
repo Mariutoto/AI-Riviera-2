@@ -13,7 +13,8 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
-from app.answer import answer_from_sources, rerank_results_with_llm, rewrite_query_with_llm
+from app.agent import run_agentic_pipeline
+from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.feedback import record_feedback, recent_feedback
@@ -288,6 +289,33 @@ def ensure_index_ready() -> bool:
     return False
 
 
+def agentic_pipeline_enabled() -> bool:
+    value = get_secret("ENABLE_AGENTIC_PIPELINE", "true")
+    return str(value).lower().strip() in {"1", "true", "yes", "on"}
+
+
+_COMPLEXITY_HINT_MARKERS = (
+    "a la fois",
+    "et aussi",
+    "les deux",
+    "compar",
+    "difference entre",
+    "et une motion",
+    "et un postulat",
+    "et une interpellation",
+)
+
+
+def guess_loading_complexity(question: str) -> str:
+    """Cheap local heuristic used only to pick the loading message before the
+    real (LLM-based) classification runs inside the cached pipeline — avoids
+    paying for a second classification call just for the progress text."""
+    normalized = normalize_follow_up_text(question)
+    if any(marker in normalized for marker in _COMPLEXITY_HINT_MARKERS):
+        return "complex"
+    return "simple"
+
+
 def group_results_by_document(results: list[dict]) -> list[dict]:
     grouped = {}
     for result in results:
@@ -541,6 +569,51 @@ def render_feedback(message_index: int) -> None:
         st.session_state[recorded_key] = selection
 
 
+def render_trace(trace: dict) -> None:
+    if not trace:
+        return
+
+    if trace.get("mode") == "aggregate":
+        st.caption("🔢 Comptage exact sur les métadonnées de la base, pas une estimation sur des passages retrouvés.")
+    if trace.get("verification_claims"):
+        st.caption("✓ vérifié — une ou plusieurs affirmations non sourcées ont été corrigées avant affichage.")
+    if trace.get("budget_exceeded"):
+        st.caption("⏱️ Vérification sautée: le budget de temps de la recherche était déjà épuisé.")
+
+    if not any([
+        trace.get("mode") in {"multi", "aggregate"},
+        trace.get("relance"),
+        trace.get("verification_claims"),
+        trace.get("budget_exceeded"),
+    ]):
+        return
+
+    with st.expander("🔎 Comment cette réponse a été construite"):
+        st.write(f"Complexité détectée: {trace.get('complexity', 'n/a')}")
+        st.write(f"Mode de recherche: {trace.get('mode', 'n/a')}")
+        if trace.get("duration_seconds") is not None:
+            budget = trace.get("budget_seconds", "n/a")
+            st.write(f"Temps total: {trace['duration_seconds']}s (budget: {budget}s)")
+        if trace.get("mode") == "aggregate":
+            st.write(
+                "Détecté comme une question de comptage/énumération: réponse calculée directement "
+                "à partir des métadonnées (auteurs, année, type de document), sans passer par une "
+                "recherche sémantique ni un modèle de langage — donc pas de risque de sous-comptage."
+            )
+        if trace.get("relance"):
+            st.write("Une recherche complémentaire a été relancée car les premiers résultats étaient faibles.")
+        if trace.get("cross_reference_authors"):
+            st.write("Auteurs communs trouvés entre les sous-recherches: " + ", ".join(trace["cross_reference_authors"]))
+        elif trace.get("mode") == "multi":
+            st.write("Aucun auteur commun trouvé entre les sous-recherches.")
+        if trace.get("budget_exceeded"):
+            st.write("Le budget de temps était dépassé avant la vérification: elle a été sautée pour ne pas rallonger encore la réponse.")
+        if trace.get("verification_claims"):
+            st.write("Affirmations signalées puis corrigées avant affichage:")
+            for claim in trace["verification_claims"]:
+                st.write(f"- {claim}")
+
+
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
     chat_tab, eval_tab, about_tab = st.tabs(["Assistant", "Eval", "À propos"])
@@ -550,23 +623,28 @@ else:
 
 
 @st.cache_data(ttl=900, max_entries=128, show_spinner=False)
-def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict]]:
+def cached_answer_question(question: str, filters_key: tuple[tuple[str, str], ...]) -> tuple[str, list[dict], dict]:
     if not pilot_v2_ready():
-        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", []
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
+
+    if agentic_pipeline_enabled():
+        answer, results, trace = run_agentic_pipeline(question)
+        return answer, results, trace
+
     retrieval_question = rewrite_query_with_llm(question) or question
     candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
     results = rerank_results_with_llm(question, candidates, keep=20, max_candidates=30)
-    return answer_from_sources(question, results), results
+    return answer_from_sources(question, results), results, {}
 
 
-def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict]]:
+def answer_question(question: str, messages: list[dict] | None = None) -> tuple[str, list[dict], dict]:
     if not ensure_index_ready():
-        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", []
+        return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
 
     effective_question = contextualize_question(question, messages or [])
     started_at = time.perf_counter()
     try:
-        answer, results = cached_answer_question(effective_question, cacheable_filters(current_filters()))
+        answer, results, trace = cached_answer_question(effective_question, cacheable_filters(current_filters()))
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_interaction(
             question,
@@ -575,12 +653,12 @@ def answer_question(question: str, messages: list[dict] | None = None) -> tuple[
             source_count=len(group_results_by_document(results)) if results else 0,
             answer_chars=len(answer),
         )
-        return answer, results
+        return answer, results, trace
     except Exception as exc:
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_diagnostic("ui", "Question answering failed", exc, question=question[:300])
         record_interaction(question, status="error", duration_ms=duration_ms, error=repr(exc))
-        return USER_ERROR_MESSAGE, []
+        return USER_ERROR_MESSAGE, [], {}
 
 
 def queue_question(question: str) -> None:
@@ -639,27 +717,37 @@ with chat_tab:
             st.markdown(link_source_mentions(fix_mojibake(message["content"]), message_index, source_count))
             if message["role"] == "assistant":
                 render_sources(results, message_index)
+                render_trace(message.get("trace", {}))
                 render_feedback(message_index)
 
     if st.session_state.pending_question:
         suggestions_slot.empty()
         pending_question = st.session_state.pending_question
-        st.markdown(
-            """
-            <div class="air-loading" aria-live="polite" aria-label="Recherche en cours">
-                <span class="air-loading-docs" aria-hidden="true">
-                    <span class="air-loading-page"></span>
-                    <span class="air-loading-page"></span>
-                    <span class="air-loading-page"></span>
-                </span>
-                <span class="air-loading-text">Lecture des sources...</span>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-        answer, results = answer_question(pending_question, st.session_state.messages)
+        loading_placeholder = st.empty()
 
-        st.session_state.messages.append({"role": "assistant", "content": answer, "results": results})
+        def render_loading(text: str) -> None:
+            loading_placeholder.markdown(
+                f"""
+                <div class="air-loading" aria-live="polite" aria-label="Recherche en cours">
+                    <span class="air-loading-docs" aria-hidden="true">
+                        <span class="air-loading-page"></span>
+                        <span class="air-loading-page"></span>
+                        <span class="air-loading-page"></span>
+                    </span>
+                    <span class="air-loading-text">{text}</span>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+        if agentic_pipeline_enabled() and guess_loading_complexity(pending_question) == "complex":
+            render_loading("Recherche approfondie, comparaison de plusieurs sources...")
+        else:
+            render_loading("Lecture des sources...")
+
+        answer, results, trace = answer_question(pending_question, st.session_state.messages)
+
+        st.session_state.messages.append({"role": "assistant", "content": answer, "results": results, "trace": trace})
         st.session_state.pending_question = None
         st.rerun()
 
@@ -700,7 +788,7 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
             col_sources.metric("Sources moyennes", f"{avg_sources:.1f}")
     
         def run_eval_question(item: dict) -> None:
-            answer, results = answer_question(item["question"])
+            answer, results, trace = answer_question(item["question"])
             st.session_state.eval_runs.insert(
                 0,
                 {

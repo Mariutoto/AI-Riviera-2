@@ -38,6 +38,38 @@ Base ton choix uniquement sur les extraits fournis; n'invente et ne suppose aucu
 Retourne uniquement un tableau JSON d'identifiants, par ordre de pertinence, par exemple: ["1", "4", "2"].
 Ne retourne aucun texte hors JSON."""
 
+CLASSIFY_PROMPT = """Tu classes une question pour AI Riviera avant de lancer la recherche documentaire.
+Détermine si la question porte sur un seul sujet, ou si elle demande explicitement de comparer ou de croiser deux éléments distincts (par exemple deux auteurs, deux types de documents, deux objets nommés, "à la fois X et Y").
+Choisis "complex" seulement quand la question demande vraiment ce croisement. Dans le doute, choisis "simple": une fausse "complex" fragmente une question simple pour rien, alors qu'une fausse "simple" se contente de lancer la recherche normale.
+Si "complex", propose exactement deux sous-requêtes de recherche autonomes en français, une par facette, sans guillemets ni explication dans chaque requête.
+
+Retourne uniquement un objet JSON, par exemple:
+{"complexity": "simple", "mode": "single"}
+ou
+{"complexity": "complex", "mode": "multi", "subqueries": [{"label": "...", "query": "..."}, {"label": "...", "query": "..."}]}
+Ne retourne aucun texte hors JSON."""
+
+VERIFICATION_PROMPT = """Tu vérifies une réponse d'AI Riviera avant qu'elle soit affichée à l'utilisateur.
+On te donne la question, la réponse rédigée, et les extraits sources sur lesquels elle devait se baser.
+Liste chaque affirmation de la réponse portant sur un nom de personne, un parti, une date, un chiffre ou un type de document qui n'est PAS directement confirmé par les extraits fournis.
+N'invente rien toi-même: si tu n'es pas certain qu'une affirmation soit non supportée, ne la liste pas.
+
+Retourne uniquement un objet JSON, par exemple:
+{"unsupported_claims": []}
+ou
+{"unsupported_claims": ["le co-auteur \\"Gabriel Chervet\\" n'apparaît dans aucun extrait"]}
+Ne retourne aucun texte hors JSON."""
+
+BROADEN_QUERY_PROMPT = """Tu aides AI Riviera à relancer une recherche documentaire qui a donné trop peu de résultats.
+Reformule la question en une requête de recherche plus large: garde les mots-clés essentiels mais enlève les contraintes les plus spécifiques (année précise, auteur précis, titre exact) qui pourraient limiter les résultats.
+Reste en français. Ne réponds pas à la question.
+Retourne seulement la requête élargie, sans guillemets ni explication."""
+
+REVISION_INSTRUCTION_TEMPLATE = """Voici une réponse que tu as rédigée, et des affirmations qu'elle contient qui ne sont pas confirmées par les extraits sources:
+{claims}
+
+Réécris la réponse en retirant ou en qualifiant clairement ces affirmations non confirmées (par exemple en indiquant que l'information n'est pas disponible dans les sources). Garde tout le reste de la réponse intact. Réponds uniquement avec la réponse corrigée, sans commentaire sur la correction elle-même."""
+
 
 def get_secret(name: str, default: str | None = None) -> str | None:
     value = os.getenv(name)
@@ -119,7 +151,14 @@ def build_context(results: list[dict]) -> str:
     return "\n\n---\n\n".join(blocks)
 
 
-def answer_with_openai(question: str, results: list[dict]) -> str | None:
+def _context_with_extra(results: list[dict], extra_context: str) -> str:
+    context_block = build_context(results)
+    if extra_context:
+        return f"{extra_context}\n\n---\n\n{context_block}"
+    return context_block
+
+
+def answer_with_openai(question: str, results: list[dict], extra_context: str = "") -> str | None:
     api_key = get_secret("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -136,7 +175,7 @@ def answer_with_openai(question: str, results: list[dict]) -> str | None:
                     "role": "user",
                     "content": (
                         f"Question:\n{question}\n\n"
-                        f"Extraits disponibles:\n{build_context(results)}"
+                        f"Extraits disponibles:\n{_context_with_extra(results, extra_context)}"
                     ),
                 },
             ],
@@ -146,7 +185,7 @@ def answer_with_openai(question: str, results: list[dict]) -> str | None:
         return f"Je n'ai pas pu appeler OpenAI pour générer une synthèse: {exc}"
 
 
-def answer_with_mistral(question: str, results: list[dict]) -> str | None:
+def answer_with_mistral(question: str, results: list[dict], extra_context: str = "") -> str | None:
     api_key = get_secret("MISTRAL_API_KEY")
     if not api_key:
         return None
@@ -167,7 +206,7 @@ def answer_with_mistral(question: str, results: list[dict]) -> str | None:
                         "role": "user",
                         "content": (
                             f"Question:\n{question}\n\n"
-                            f"Extraits disponibles:\n{build_context(results)}"
+                            f"Extraits disponibles:\n{_context_with_extra(results, extra_context)}"
                         ),
                     },
                 ],
@@ -182,7 +221,14 @@ def answer_with_mistral(question: str, results: list[dict]) -> str | None:
         return f"Je n'ai pas pu appeler Mistral pour générer une synthèse: {exc}"
 
 
-def short_openai_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
+def short_openai_completion(
+    system_prompt: str,
+    user_content: str,
+    model_env: str,
+    max_tokens: int = 120,
+    default_model: str = "gpt-4.1-mini",
+    timeout: float = 20,
+) -> str | None:
     api_key = get_secret("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -190,9 +236,9 @@ def short_openai_completion(system_prompt: str, user_content: str, model_env: st
     try:
         from openai import OpenAI
 
-        client = OpenAI(api_key=api_key)
+        client = OpenAI(api_key=api_key, timeout=timeout)
         response = client.responses.create(
-            model=get_secret(model_env, get_secret("OPENAI_MODEL", "gpt-4.1-mini")),
+            model=get_secret(model_env, default_model),
             input=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content},
@@ -206,13 +252,20 @@ def short_openai_completion(system_prompt: str, user_content: str, model_env: st
         return None
 
 
-def short_mistral_completion(system_prompt: str, user_content: str, model_env: str, max_tokens: int = 120) -> str | None:
+def short_mistral_completion(
+    system_prompt: str,
+    user_content: str,
+    model_env: str,
+    max_tokens: int = 120,
+    default_model: str = "mistral-small-latest",
+    timeout: float = 20,
+) -> str | None:
     api_key = get_secret("MISTRAL_API_KEY")
     if not api_key:
         return None
 
     try:
-        model = get_secret(model_env, get_secret("MISTRAL_MODEL", "mistral-small-latest"))
+        model = get_secret(model_env, default_model)
         response = requests.post(
             "https://api.mistral.ai/v1/chat/completions",
             headers={
@@ -228,7 +281,7 @@ def short_mistral_completion(system_prompt: str, user_content: str, model_env: s
                 "max_tokens": max_tokens,
                 "temperature": 0,
             },
-            timeout=20,
+            timeout=timeout,
         )
         response.raise_for_status()
         data = response.json()
@@ -264,6 +317,151 @@ def rewrite_query_with_llm(question: str) -> str | None:
     if not rewritten or len(rewritten) > 500:
         return None
     return rewritten
+
+
+def _llm_completion(
+    system_prompt: str,
+    user_content: str,
+    mistral_model_env: str,
+    openai_model_env: str,
+    max_tokens: int = 180,
+    default_mistral_model: str = "mistral-small-latest",
+    default_openai_model: str = "gpt-4.1-mini",
+    timeout: float = 20,
+) -> str | None:
+    """Shared provider-fallback call for the short, structured LLM steps (classify, verify, broaden)."""
+    provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
+    if provider in {"none", "off", "extracts"}:
+        return None
+    kwargs_mistral = dict(max_tokens=max_tokens, default_model=default_mistral_model, timeout=timeout)
+    kwargs_openai = dict(max_tokens=max_tokens, default_model=default_openai_model, timeout=timeout)
+    if provider == "mistral":
+        return short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
+    if provider == "openai":
+        return short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
+    return (
+        short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
+        or short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
+    )
+
+
+def _parse_json_object(content: str) -> dict:
+    content = content.strip()
+    if content.startswith("```"):
+        content = content.strip("`").strip()
+        if content.lower().startswith("json"):
+            content = content[4:].strip()
+    start = content.find("{")
+    end = content.rfind("}")
+    if start >= 0 and end > start:
+        content = content[start : end + 1]
+    try:
+        parsed = json.loads(content)
+    except json.JSONDecodeError:
+        return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
+def broaden_query_with_llm(question: str) -> str | None:
+    content = _llm_completion(BROADEN_QUERY_PROMPT, question, "MISTRAL_REWRITE_MODEL", "OPENAI_REWRITE_MODEL", max_tokens=120)
+    if not content:
+        return None
+    content = " ".join(content.split())
+    if not content or len(content) > 500:
+        return None
+    return content
+
+
+def classify_question_with_llm(question: str) -> dict:
+    default = {"complexity": "simple", "mode": "single", "subqueries": []}
+    content = _llm_completion(CLASSIFY_PROMPT, question, "MISTRAL_CLASSIFY_MODEL", "OPENAI_CLASSIFY_MODEL", max_tokens=220)
+    if not content:
+        return default
+
+    parsed = _parse_json_object(content)
+    complexity = parsed.get("complexity") if parsed.get("complexity") in {"simple", "complex"} else "simple"
+    mode = parsed.get("mode") if parsed.get("mode") in {"single", "multi"} else "single"
+
+    subqueries = []
+    for item in parsed.get("subqueries") or []:
+        if isinstance(item, dict) and item.get("query"):
+            subqueries.append({"label": str(item.get("label") or "")[:120], "query": str(item["query"])[:300]})
+
+    if mode == "multi" and len(subqueries) < 2:
+        mode = "single"
+        subqueries = []
+        complexity = "simple"
+
+    return {"complexity": complexity, "mode": mode, "subqueries": subqueries}
+
+
+def verify_answer_against_sources(question: str, answer: str, results: list[dict]) -> list[str]:
+    if not results or not answer:
+        return []
+    user_content = (
+        f"Question:\n{question}\n\n"
+        f"Réponse à vérifier:\n{answer}\n\n"
+        f"Extraits sources:\n{build_context(results)}"
+    )
+    content = _llm_completion(
+        VERIFICATION_PROMPT,
+        user_content,
+        "MISTRAL_VERIFY_MODEL",
+        "OPENAI_VERIFY_MODEL",
+        max_tokens=300,
+        default_mistral_model="mistral-large-latest",
+        default_openai_model="gpt-4.1",
+        timeout=35,
+    )
+    if not content:
+        return []
+    claims = _parse_json_object(content).get("unsupported_claims")
+    if not isinstance(claims, list):
+        return []
+    return [str(claim).strip() for claim in claims if str(claim).strip()][:8]
+
+
+def revise_answer_removing_claims(question: str, answer: str, results: list[dict], claims: list[str]) -> str | None:
+    claims_block = "\n".join(f"- {claim}" for claim in claims)
+    revision_system_prompt = SYSTEM_PROMPT + "\n\n" + REVISION_INSTRUCTION_TEMPLATE.format(claims=claims_block)
+    user_content = (
+        f"Question:\n{question}\n\n"
+        f"Réponse initiale:\n{answer}\n\n"
+        f"Extraits disponibles:\n{build_context(results)}"
+    )
+    return _llm_completion(
+        revision_system_prompt,
+        user_content,
+        "MISTRAL_VERIFY_MODEL",
+        "OPENAI_VERIFY_MODEL",
+        max_tokens=900,
+        default_mistral_model="mistral-large-latest",
+        default_openai_model="gpt-4.1",
+        timeout=35,
+    )
+
+
+def verification_enabled() -> bool:
+    return get_secret("ENABLE_ANSWER_VERIFICATION", "true").lower().strip() in {"1", "true", "yes", "on"}
+
+
+def verify_and_revise_answer(question: str, answer: str, results: list[dict]) -> tuple[str, list[str]]:
+    """Bounded self-check: at most one extra verification call, at most one revision call.
+
+    Returns (final_answer, flagged_claims). flagged_claims is reported even if the
+    revision call itself fails, so the caller can still log/surface what was caught.
+    """
+    if not verification_enabled():
+        return answer, []
+
+    claims = verify_answer_against_sources(question, answer, results)
+    if not claims:
+        return answer, []
+
+    revised = revise_answer_removing_claims(question, answer, results, claims)
+    if revised:
+        return fix_mojibake(revised), claims
+    return answer, claims
 
 
 def result_rerank_candidate(result: dict, candidate_id: str) -> dict:
@@ -394,19 +592,19 @@ def test_mistral_connection() -> tuple[bool, str]:
         return False, f"Erreur pendant le test Mistral: {exc}"
 
 
-def answer_with_llm(question: str, results: list[dict]) -> str | None:
+def answer_with_llm(question: str, results: list[dict], extra_context: str = "") -> str | None:
     provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
 
     if provider == "mistral":
-        return answer_with_mistral(question, results)
+        return answer_with_mistral(question, results, extra_context)
     if provider == "openai":
-        return answer_with_openai(question, results)
+        return answer_with_openai(question, results, extra_context)
     if provider in {"none", "off", "extracts"}:
         return None
 
     if get_secret("MISTRAL_API_KEY"):
-        return answer_with_mistral(question, results)
-    return answer_with_openai(question, results)
+        return answer_with_mistral(question, results, extra_context)
+    return answer_with_openai(question, results, extra_context)
 
 
 def llm_status() -> dict:
@@ -437,8 +635,8 @@ def llm_status() -> dict:
     }
 
 
-def answer_from_sources(question: str, results: list[dict]) -> str:
-    ai_answer = answer_with_llm(question, results)
+def answer_from_sources(question: str, results: list[dict], extra_context: str = "") -> str:
+    ai_answer = answer_with_llm(question, results, extra_context)
     if ai_answer:
         return fix_mojibake(ai_answer)
 

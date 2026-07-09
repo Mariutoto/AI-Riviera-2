@@ -143,6 +143,32 @@ def _run_title_search(phrase: str, limit: int) -> list[dict]:
         return cursor.fetchall()
 
 
+def fetch_document_chunks(document_id: str, score: float) -> list[dict]:
+    """Every chunk of a single document, in the same result shape as search().
+
+    Used to expand a small, already-identified document (e.g. an
+    interpellation) to its full text instead of relying on whichever chunks
+    happened to score highest against the query embedding — a chunk phrased
+    very differently from the question (e.g. the municipal response) can
+    otherwise be missed even though the document itself is clearly the right
+    one. `score` is the triggering chunk's score, assigned to every sibling
+    chunk so they rank sensibly rather than floating unscored.
+    """
+    sql = """
+        SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
+               d.title, d.category, d.document_role, d.metadata
+        FROM chunks c JOIN documents d USING (document_id)
+        WHERE c.document_id = %s
+        ORDER BY c.chunk_index
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, (document_id,))
+        rows = cursor.fetchall()
+    for row in rows:
+        row["score"] = score
+    return _rows_to_results(rows, "document_expansion_v2")
+
+
 def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
     output = []
     for row in rows:
@@ -174,6 +200,43 @@ def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
             "_search_source": search_source,
         })
     return output
+
+
+def aggregate_authors(filters: dict | None = None) -> list[dict]:
+    """Real count/enumeration over author metadata (civility, party, category, year) —
+    a structured query, not a semantic search over chunk text. Use this for
+    "combien de ..." / "liste tous les ..." questions instead of relying on an
+    LLM to eyeball a limited set of retrieved passages.
+    """
+    filters = dict(filters or {})
+    clauses = ["category_meta.cat_value ? 'authors'"]
+    params: list[object] = []
+
+    doc_type = str(filters.get("doc_type") or "").lower()
+    if doc_type in CATEGORY_MAP:
+        clauses.append("d.category = %s")
+        params.append(CATEGORY_MAP[doc_type])
+    if filters.get("year"):
+        clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
+        params.append(str(filters["year"]))
+    if filters.get("civility"):
+        clauses.append("author->>'civility' = %s")
+        params.append(str(filters["civility"]))
+
+    where_sql = "WHERE " + " AND ".join(clauses)
+    sql = f"""
+        SELECT DISTINCT d.document_id, d.title, d.category, d.metadata,
+               author->>'name' AS author_name, author->>'civility' AS civility, author->>'party' AS party,
+               coalesce(d.metadata->>'listing_year', d.metadata->>'year') AS year
+        FROM documents d,
+             jsonb_each(d.metadata->'additional_metadata') AS category_meta(cat_key, cat_value),
+             jsonb_array_elements(category_meta.cat_value->'authors') AS author
+        {where_sql}
+        ORDER BY year DESC NULLS LAST, author_name
+    """
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, params)
+        return cursor.fetchall()
 
 
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
