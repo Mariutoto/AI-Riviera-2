@@ -1,0 +1,53 @@
+import unittest
+
+from app.search_guard import filter_guard_message
+
+
+class SearchGuardTests(unittest.TestCase):
+    def guard(self, question, city="all", year="Toutes", document_type="Tous"):
+        return filter_guard_message(
+            question,
+            selected_city=city,
+            selected_year=year,
+            selected_document_type=document_type,
+        )
+
+    def test_blocks_conflicting_year(self):
+        warning = self.guard(
+            "Quelles interpellations ont reçu une réponse en 2025 ?",
+            year="2024",
+        )
+        self.assertIn("2025", warning)
+        self.assertIn("2024", warning)
+
+    def test_all_years_accepts_explicit_year(self):
+        self.assertIsNone(
+            self.guard("Quelles interpellations ont reçu une réponse en 2025 ?")
+        )
+
+    def test_blocks_conflicting_document_type(self):
+        warning = self.guard(
+            "Quelles interpellations ont reçu une réponse ?",
+            document_type="Postulats",
+        )
+        self.assertIn("Interpellations", warning)
+        self.assertIn("Postulats", warning)
+
+    def test_blocks_unavailable_city_even_when_all_is_selected(self):
+        warning = self.guard("Quels postulats ont été déposés à Vevey ?")
+        self.assertIn("Vevey", warning)
+        self.assertIn("pas encore disponibles", warning)
+
+    def test_matching_filters_are_accepted(self):
+        self.assertIsNone(
+            self.guard(
+                "Quelles interpellations ont reçu une réponse en 2025 à La Tour-de-Peilz ?",
+                city="La Tour-de-Peilz",
+                year="2025",
+                document_type="Interpellations",
+            )
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()

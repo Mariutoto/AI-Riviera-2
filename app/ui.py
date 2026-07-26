@@ -20,6 +20,7 @@ from app.eval_set import load_eval_questions, retrieval_hit
 from app.feedback import record_feedback, recent_feedback
 from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
+from app.search_guard import filter_guard_message
 from app.text_cleaning import fix_mojibake, format_date
 
 SUGGESTED_QUESTIONS = [
@@ -86,7 +87,7 @@ def admin_tabs_enabled() -> bool:
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
-st.caption("Assistant de recherche sur les documents publics de Riviera (législature 2021-2026) - projet à but non lucratif")
+st.caption("Assistant de recherche sur les documents publics de la Riviera (législature 2021-2026) - projet à but non lucratif")
 
 st.markdown(
     """
@@ -783,38 +784,80 @@ def answer_question(
 
 
 def queue_question(question: str) -> None:
+    warning = filter_guard_message(
+        question,
+        selected_city=st.session_state.get("search_city", "all"),
+        selected_year=st.session_state.get("search_year", ALL_YEARS),
+        selected_document_type=st.session_state.get(
+            "search_document_type", ALL_DOCUMENT_TYPES
+        ),
+    )
+    if warning:
+        st.session_state.filter_warning = warning
+        return
+    st.session_state.filter_warning = None
     st.session_state.messages.append({"role": "user", "content": question})
     st.session_state.pending_question = question
+
+
+def clear_filter_warning() -> None:
+    st.session_state.filter_warning = None
+
 
 with chat_tab:
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "pending_question" not in st.session_state:
         st.session_state.pending_question = None
+    if "filter_warning" not in st.session_state:
+        st.session_state.filter_warning = None
 
-    filter_columns = st.columns(3)
-    with filter_columns[0]:
-        selected_city = st.selectbox(
-            "Ville",
-            options=list(CITY_OPTIONS),
-            format_func=CITY_OPTIONS.get,
-            key="search_city",
-            disabled=st.session_state.pending_question is not None,
+    selected_city = st.session_state.get("search_city", "all")
+    selected_year = st.session_state.get("search_year", ALL_YEARS)
+    selected_document_type = st.session_state.get(
+        "search_document_type", ALL_DOCUMENT_TYPES
+    )
+    active_filter_labels = []
+    if selected_city != "all":
+        active_filter_labels.append(CITY_OPTIONS[selected_city])
+    if selected_year != ALL_YEARS:
+        active_filter_labels.append(selected_year)
+    if selected_document_type != ALL_DOCUMENT_TYPES:
+        active_filter_labels.append(selected_document_type)
+    filter_expander_label = "Affiner la recherche (facultatif)"
+    if active_filter_labels:
+        filter_expander_label += " — " + " · ".join(active_filter_labels)
+
+    with st.expander(filter_expander_label, expanded=False):
+        st.caption(
+            "Plus votre question et vos filtres sont précis, plus la recherche est rapide."
         )
-    with filter_columns[1]:
-        st.selectbox(
-            "Année",
-            options=YEAR_OPTIONS,
-            key="search_year",
-            disabled=st.session_state.pending_question is not None,
-        )
-    with filter_columns[2]:
-        st.selectbox(
-            "Type de document",
-            options=list(DOCUMENT_TYPE_OPTIONS),
-            key="search_document_type",
-            disabled=st.session_state.pending_question is not None,
-        )
+        filter_columns = st.columns(3)
+        with filter_columns[0]:
+            selected_city = st.selectbox(
+                "Ville",
+                options=list(CITY_OPTIONS),
+                format_func=CITY_OPTIONS.get,
+                key="search_city",
+                disabled=st.session_state.pending_question is not None,
+                on_change=clear_filter_warning,
+            )
+        with filter_columns[1]:
+            selected_year = st.selectbox(
+                "Année",
+                options=YEAR_OPTIONS,
+                key="search_year",
+                disabled=st.session_state.pending_question is not None,
+                on_change=clear_filter_warning,
+            )
+        with filter_columns[2]:
+            selected_document_type = st.selectbox(
+                "Type de document",
+                options=list(DOCUMENT_TYPE_OPTIONS),
+                key="search_document_type",
+                disabled=st.session_state.pending_question is not None,
+                on_change=clear_filter_warning,
+            )
 
     city_available = selected_city in {"all", "La Tour-de-Peilz"}
     if not city_available:
@@ -823,7 +866,8 @@ with chat_tab:
             "ou La Tour-de-Peilz pour lancer une recherche.*"
         )
 
-    st.caption("ℹ️ Plus votre question et vos filtres sont précis, plus la recherche est rapide.")
+    if st.session_state.filter_warning:
+        st.warning(st.session_state.filter_warning, icon="⚠️")
 
     suggestions_slot = st.empty()
     if not st.session_state.messages and st.session_state.pending_question is None:
