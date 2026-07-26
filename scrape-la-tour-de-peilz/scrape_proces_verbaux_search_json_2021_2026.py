@@ -5,6 +5,7 @@ import json
 import math
 import re
 import sys
+import time
 from datetime import date
 from pathlib import Path
 from urllib.parse import unquote
@@ -25,6 +26,7 @@ CATEGORY_ID = "8"
 PAGE_SIZE = 25
 YEARS = {str(year) for year in range(2021, 2027)}
 HEADERS = {"User-Agent": "AI-Riviera proces-verbaux faceted JSON importer"}
+FETCH_ATTEMPTS = 3
 
 ITEM_RE = re.compile(
     r'<div class="ik-callout-info[^>]*>[\s\S]*?'
@@ -104,27 +106,58 @@ def parse_result_html(result_html: str, years: set[str] = YEARS) -> list[dict]:
     return records
 
 
+def decode_json_text(text: str) -> dict:
+    """Decode the endpoint payload even when PHP warnings precede its JSON.
+
+    The town endpoint currently emits HTML-formatted ``Deprecated`` notices
+    before an otherwise valid JSON object. ``response.json()`` rejects that
+    prefix, so scan for the first decodable JSON object and still validate its
+    expected fields below. This remains strict when no valid object is present.
+    """
+    decoder = json.JSONDecoder()
+    for match in re.finditer(r"\{", text):
+        try:
+            payload, _end = decoder.raw_decode(text[match.start() :])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(payload, dict):
+            return payload
+    preview = " ".join(re.sub(r"<[^>]+>", " ", text).split())[:300]
+    raise ValueError(f"Réponse sans objet JSON valide: {preview or '<vide>'}")
+
+
 def fetch_page(page: int, session: requests.Session | None = None) -> dict:
     client = session or requests.Session()
-    response = client.get(
-        ENDPOINT,
-        params={
-            "searchdoc": "Procès-verbal",
-            "categories[]": CATEGORY_ID,
-            "sorting": "rang",
-            "direction": "DESC",
-            "page": page,
-            "qty": PAGE_SIZE,
-        },
-        headers=HEADERS,
-        timeout=30,
-    )
-    response.raise_for_status()
-    payload = response.json()
-    for field in ("result", "rows", "qty", "active"):
-        if field not in payload:
-            raise ValueError(f"Champ JSON absent: {field}")
-    return payload
+    last_error: Exception | None = None
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        try:
+            response = client.get(
+                ENDPOINT,
+                params={
+                    "searchdoc": "Procès-verbal",
+                    "categories[]": CATEGORY_ID,
+                    "sorting": "rang",
+                    "direction": "DESC",
+                    "page": page,
+                    "qty": PAGE_SIZE,
+                },
+                headers=HEADERS,
+                timeout=30,
+            )
+            response.raise_for_status()
+            payload = decode_json_text(response.text)
+            for field in ("result", "rows", "qty", "active"):
+                if field not in payload:
+                    raise ValueError(f"Champ JSON absent: {field}")
+            return payload
+        except (requests.RequestException, ValueError) as exc:
+            last_error = exc
+            if attempt < FETCH_ATTEMPTS:
+                time.sleep(attempt)
+
+    raise RuntimeError(
+        f"Échec de lecture de la page {page} après {FETCH_ATTEMPTS} tentatives: {last_error}"
+    ) from last_error
 
 
 def collect_items(session: requests.Session | None = None) -> tuple[list[dict], dict]:

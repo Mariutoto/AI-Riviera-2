@@ -209,12 +209,19 @@ def main() -> None:
     summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_path:
         with open(summary_path, "a", encoding="utf-8") as handle:
-            handle.write(f"## Verification La Tour-de-Peilz — {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n\n")
-            handle.write(f"{len(listing_items)} documents listes, {len(changes)} changement(s) detecte(s).\n\n")
+            status = "✅ Aucun changement détecté" if not changes else f"✅ {len(changes)} changement(s) détecté(s)"
+            handle.write(f"## Vérification La Tour-de-Peilz — {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n\n")
+            handle.write(f"**{status}.** La vérification des {len(listing_items)} documents s'est terminée correctement.\n\n")
             if changes:
-                handle.write("| Type | Categorie | URL |\n|---|---|---|\n")
+                handle.write("| Type | Catégorie | URL |\n|---|---|---|\n")
                 for change in changes:
                     handle.write(f"| {change['change_type']} | {change['category']} | {change['pdf_url']} |\n")
+
+    output_path = os.environ.get("GITHUB_OUTPUT")
+    if output_path:
+        with open(output_path, "a", encoding="utf-8") as handle:
+            handle.write(f"changes_count={len(changes)}\n")
+            handle.write(f"documents_count={len(listing_items)}\n")
 
 
 if __name__ == "__main__":

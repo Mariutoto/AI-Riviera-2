@@ -32,3 +32,20 @@ def test_ignore_other_legislature() -> None:
     <h4>Procès-verbal | N° 1 | de la séance du 30 juin 2011</h4></a>
     <div class="lssrchres"></div><div>Procès verbaux / Législature Législature 2011-2016</div></div>'''
     assert pv_search.parse_result_html(source) == []
+
+
+def test_decode_json_text_accepts_php_warnings_before_payload() -> None:
+    source = """<br><b>Deprecated</b>: strip_tags(): Passing null on line 74<br>
+    {"result": "<div>ok</div>", "rows": 1, "qty": "25", "active": "1"}"""
+    payload = pv_search.decode_json_text(source)
+    assert payload["rows"] == 1
+    assert payload["result"] == "<div>ok</div>"
+
+
+def test_decode_json_text_rejects_response_without_json() -> None:
+    try:
+        pv_search.decode_json_text("<html>Service unavailable</html>")
+    except ValueError as exc:
+        assert "Service unavailable" in str(exc)
+    else:
+        raise AssertionError("Expected invalid endpoint response to fail")
