@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import html
 import json
 import re
@@ -11,6 +10,14 @@ from pathlib import Path
 from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from municipal_pipeline.documents import municipal_document
+from municipal_pipeline.municipalities import VEVEY
+from municipal_pipeline.pdf_audit import audit_pdf_documents
 
 
 SOURCE_PAGE = (
@@ -111,22 +118,20 @@ def parse_teaser(block: str) -> dict:
     if not pdf_url:
         raise ValueError("Lien PDF absent d'un résultat Vevey")
 
-    return {
-        "city": "Vevey",
-        "commune": "Vevey",
-        "category": "interpellation",
-        "document_type": "interpellation",
-        "legislature": "2021-2026",
-        "listing_date": listing_date,
-        "listing_year": listing_date[:4],
-        "author": author,
-        "reference": reference,
-        "title": title,
-        "pdf_url": pdf_url,
-        "source_page": SOURCE_PAGE,
-        "source_collection": "vevey-council-documents",
-        "source_download_id": _download_id(pdf_url),
-    }
+    return municipal_document(
+        municipality=VEVEY,
+        category="interpellation",
+        title=title,
+        listing_year=listing_date[:4],
+        pdf_url=pdf_url,
+        source_page=SOURCE_PAGE,
+        legislature="2021-2026",
+        listing_date=listing_date,
+        author=author,
+        reference=reference,
+        source_collection="vevey-council-documents",
+        source_download_id=_download_id(pdf_url),
+    )
 
 
 def _ascii(value: str) -> str:
@@ -220,108 +225,14 @@ def download_audit(
     session: requests.Session | None = None,
     download_dir: Path | None = None,
 ) -> tuple[list[dict], dict]:
-    client = session or requests.Session()
-    by_hash: dict[str, dict] = {}
-    failed = []
-    for index, item in enumerate(items, start=1):
-        try:
-            response = client.get(item["pdf_url"], headers=HEADERS, timeout=45)
-            response.raise_for_status()
-            content = response.content
-            if not content.startswith(b"%PDF"):
-                raise ValueError("la réponse téléchargée n'est pas un PDF")
-            content_hash = hashlib.sha256(content).hexdigest()
-            is_new_document = content_hash not in by_hash
-            canonical = by_hash.setdefault(
-                content_hash,
-                {
-                    **item,
-                    "document_id": f"vevey_interpellation_{content_hash[:20]}",
-                    "content_hash": content_hash,
-                    "content_bytes": len(content),
-                    "listing_occurrences": [],
-                },
-            )
-            if is_new_document:
-                canonical["text_audit"] = inspect_pdf_text(content)
-            canonical["listing_occurrences"].append(
-                {
-                    key: item[key]
-                    for key in (
-                        "listing_date",
-                        "author",
-                        "reference",
-                        "title",
-                        "pdf_url",
-                        "source_download_id",
-                    )
-                }
-            )
-            if download_dir:
-                download_dir.mkdir(parents=True, exist_ok=True)
-                target = download_dir / f"{canonical['document_id']}.pdf"
-                if not target.exists():
-                    target.write_bytes(content)
-            print(f"{index}/{len(items)} {item['source_download_id']}", flush=True)
-        except Exception as exc:
-            failed.append(
-                {
-                    "pdf_url": item["pdf_url"],
-                    "source_download_id": item["source_download_id"],
-                    "listing_date": item["listing_date"],
-                    "title": item["title"],
-                    "error": repr(exc),
-                }
-            )
-
-    documents = sorted(by_hash.values(), key=lambda item: item["listing_date"], reverse=True)
-    document_by_title = {
-        _ascii(item["title"]): item["document_id"] for item in documents
-    }
-    for failure in failed:
-        replacement = document_by_title.get(_ascii(failure["title"]))
-        if replacement:
-            failure["equivalent_document_id"] = replacement
-    recoverable_failures = sum("equivalent_document_id" in item for item in failed)
-    diagnostics = {
-        "downloaded_occurrences": len(items) - len(failed),
-        "canonical_pdf_documents": len(documents),
-        "duplicate_listing_occurrences": sum(
-            max(0, len(item["listing_occurrences"]) - 1) for item in documents
-        ),
-        "documents_needing_ocr": sum(
-            bool((item.get("text_audit") or {}).get("needs_ocr")) for item in documents
-        ),
-        "recoverable_failed_downloads": recoverable_failures,
-        "failed_downloads": failed,
-        "complete": not failed,
-        "usable_complete": recoverable_failures == len(failed),
-    }
-    return documents, diagnostics
-
-
-def inspect_pdf_text(content: bytes) -> dict:
-    try:
-        import fitz
-
-        with fitz.open(stream=content, filetype="pdf") as document:
-            text = "\n".join(page.get_text("text") for page in document)
-            page_count = document.page_count
-        text_chars = len(text.strip())
-        return {
-            "page_count": page_count,
-            "text_chars": text_chars,
-            "text_words": len(re.findall(r"\S+", text)),
-            "needs_ocr": text_chars < max(200, page_count * 50),
-        }
-    except Exception as exc:
-        return {
-            "page_count": None,
-            "text_chars": 0,
-            "text_words": 0,
-            "needs_ocr": True,
-            "error": repr(exc),
-        }
+    return audit_pdf_documents(
+        items,
+        document_id_prefix=f"{VEVEY.key.replace('-', '_')}_interpellation",
+        session=session,
+        headers=HEADERS,
+        download_dir=download_dir,
+        normalize_title=_ascii,
+    )
 
 
 def main() -> None:

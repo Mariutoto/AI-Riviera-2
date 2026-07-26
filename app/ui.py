@@ -22,17 +22,28 @@ from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
 from app.search_guard import filter_guard_message
 from app.text_cleaning import fix_mojibake, format_date
+from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
     "Quelles interpellations ont reçu une réponse en 2025 ?",
     "Quels postulats ont été déposés en 2024 ?",
 ]
 
-CITY_OPTIONS = {
-    "all": "Toutes",
-    "La Tour-de-Peilz": "La Tour-de-Peilz",
-    "Vevey": "Vevey — à venir",
-    "Montreux": "Montreux — à venir",
+CITY_OPTIONS = {"all": "Toutes"}
+CITY_OPTIONS.update(
+    {
+        municipality.label: (
+            municipality.label
+            if municipality.search_enabled
+            else f"{municipality.label} — à venir"
+        )
+        for municipality in MUNICIPALITIES.values()
+    }
+)
+SEARCH_ENABLED_CITIES = {
+    municipality.label
+    for municipality in MUNICIPALITIES.values()
+    if municipality.search_enabled
 }
 ALL_YEARS = "Toutes"
 YEAR_OPTIONS = [ALL_YEARS, "2026", "2025", "2024", "2023", "2022", "2021"]
@@ -859,7 +870,7 @@ with chat_tab:
                 on_change=clear_filter_warning,
             )
 
-    city_available = selected_city in {"all", "La Tour-de-Peilz"}
+    city_available = selected_city == "all" or selected_city in SEARCH_ENABLED_CITIES
     if not city_available:
         st.caption(
             f"*{selected_city} sera disponible prochainement. Sélectionnez Toutes "
