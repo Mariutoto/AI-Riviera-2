@@ -540,9 +540,10 @@ def render_sources(results: list[dict], message_index: int, source_blurbs: dict[
         st.markdown("\n\n".join(source_lines), unsafe_allow_html=True)
 
 
-@st.dialog("Votre avis sur cette réponse", dismissible=False)
+@st.dialog("Votre avis sur cette réponse", dismissible=True)
 def _feedback_dialog(message_index: int, question: str, answer: str, source_count: int) -> None:
     st.write("Cette réponse vous a-t-elle été utile ?")
+    st.caption("Un clic suffit. Votre avis nous aide à améliorer les réponses.")
 
     def submit(rating: str) -> None:
         record_feedback(question, answer, rating, source_count)
@@ -560,27 +561,52 @@ def _feedback_dialog(message_index: int, question: str, answer: str, source_coun
         if st.button("👎 Pas utile", key=f"feedback-{message_index}-down", width="stretch"):
             submit("down")
 
+    if st.button(
+        "Fermer · Plus tard",
+        key=f"feedback-{message_index}-close",
+        width="stretch",
+        type="tertiary",
+    ):
+        st.session_state[f"feedback-{message_index}-dismissed"] = True
+        st.rerun()
 
-def _latest_unrated_assistant_index() -> int | None:
+
+def _pending_feedback_assistant_index() -> int | None:
+    """Return the latest answer only when this is a feedback turn.
+
+    Asking after every answer feels like a gate in front of the conversation.
+    Instead, ask after every second successful, sourced answer and never show
+    the same prompt twice, even if the user closes it with the dialog's X.
+    """
     messages = st.session_state.messages
-    for index in range(len(messages) - 1, 0, -1):
-        message = messages[index]
+    assistant_count = 0
+    candidate_index = None
+    for index, message in enumerate(messages):
         if message.get("role") != "assistant" or not message.get("content"):
             continue
-        if messages[index - 1].get("role") != "user":
+        if index == 0 or messages[index - 1].get("role") != "user":
             continue
-        if st.session_state.get(f"feedback-{index}-recorded"):
+        if not message.get("results"):
             continue
-        return index
-    return None
+        assistant_count += 1
+        candidate_index = index
+
+    if assistant_count == 0 or assistant_count % 2 != 0 or candidate_index is None:
+        return None
+
+    for state_suffix in ("recorded", "dismissed", "prompted"):
+        if st.session_state.get(f"feedback-{candidate_index}-{state_suffix}"):
+            return None
+
+    return candidate_index
 
 
-FEEDBACK_DIALOG_DELAY_SECONDS = 4
+FEEDBACK_DIALOG_DELAY_SECONDS = 8
 
 
 def render_pending_feedback_dialog() -> None:
-    """Shows at most one non-dismissible feedback dialog per rerun, for the
-    most recent unrated answer — never inside the message loop, since
+    """Shows at most one dismissible feedback dialog per rerun, for every
+    second successful answer — never inside the message loop, since
     calling more than one @st.dialog function in the same script run isn't
     supported.
 
@@ -592,14 +618,14 @@ def render_pending_feedback_dialog() -> None:
     message — the flag guards against a second full-script rerun landing
     here before the dialog is resolved.
     """
-    message_index = _latest_unrated_assistant_index()
+    message_index = _pending_feedback_assistant_index()
     if message_index is None:
         return
 
-    delay_done_key = f"feedback-{message_index}-delay-done"
-    if not st.session_state.get(delay_done_key):
-        st.session_state[delay_done_key] = True
-        time.sleep(FEEDBACK_DIALOG_DELAY_SECONDS)
+    time.sleep(FEEDBACK_DIALOG_DELAY_SECONDS)
+    # Mark it before opening: closing via the native X cannot run a callback,
+    # so this flag prevents the same prompt from returning on the next rerun.
+    st.session_state[f"feedback-{message_index}-prompted"] = True
 
     messages = st.session_state.messages
     message = messages[message_index]
