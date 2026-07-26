@@ -1081,9 +1081,9 @@ with about_tab:
     intro_col, image_col = st.columns([1.8, 1])
     with intro_col:
         st.write(
-            "AI Riviera aide à retrouver plus vite des informations dans les documents publics "
-            "de La Tour-de-Peilz. On peut poser une question en langage normal, par exemple sur "
-            "une interpellation, un article du règlement, un préavis ou un thème discuté au Conseil communal."
+            "AI Riviera aide à retrouver plus facilement des documents publics dans les communes "
+            "de la Riviera. Le projet commence avec La Tour-de-Peilz; d'autres communes de la "
+            "Riviera seront ajoutées progressivement."
         )
         st.write(
             "Le projet est à but non lucratif. Son rôle n'est pas de remplacer les documents officiels, "
@@ -1120,23 +1120,6 @@ with about_tab:
         </div>
         """,
         unsafe_allow_html=True,
-    )
-
-    st.subheader("Ce que contient la base")
-    st.write(
-        "La base couvre la législature 2021-2026 avec des documents publics comme les ordres du jour, "
-        "procès-verbaux, motions, postulats, interpellations, réponses, préavis municipaux, budgets, "
-        "comptes et rapports de gestion."
-    )
-
-    st.subheader("Ce que l'outil sait bien faire")
-    st.markdown(
-        """
-- retrouver ce que dit un article du règlement;
-- identifier qui a déposé une motion, un postulat ou une interpellation;
-- retrouver l'année, le titre et les sources d'un objet politique;
-- chercher des passages sur un thème comme la mobilité, les finances ou les travaux.
-"""
     )
 
     st.markdown(
