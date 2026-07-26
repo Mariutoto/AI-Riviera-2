@@ -18,6 +18,10 @@ CREATE TABLE IF NOT EXISTS documents (
     category text NOT NULL,
     document_role text,
     title text NOT NULL,
+    summary text,
+    summary_generated_at timestamptz,
+    summary_model text,
+    summary_content_hash text,
     metadata jsonb NOT NULL DEFAULT '{}'::jsonb
 );
 

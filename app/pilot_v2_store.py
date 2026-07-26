@@ -150,7 +150,7 @@ def _run_vector_search(vector: str, limit: int, filters: dict) -> list[dict]:
     where_sql = "WHERE " + " AND ".join(clauses) if clauses else ""
     sql = f"""
         SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
-               d.title, d.category, d.document_role, d.metadata,
+               d.title, d.category, d.document_role, d.summary, d.metadata,
                1 - (c.embedding <=> %s::vector) AS score
         FROM chunks c JOIN documents d USING (document_id)
         {where_sql}
@@ -165,7 +165,7 @@ def _run_vector_search(vector: str, limit: int, filters: dict) -> list[dict]:
 def _run_title_search(phrase: str, limit: int) -> list[dict]:
     sql = """
         SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
-               d.title, d.category, d.document_role, d.metadata,
+               d.title, d.category, d.document_role, d.summary, d.metadata,
                1.0::float AS score
         FROM documents d JOIN chunks c USING (document_id)
         WHERE d.title ILIKE %s
@@ -199,10 +199,10 @@ def _run_keyword_search(keyword: str, limit: int, filters: dict, max_chunks_per_
     if extra_clauses:
         where_sql = " AND " + " AND ".join(extra_clauses) + where_sql
     sql = f"""
-        SELECT chunk_id, document_id, chunk_index, component, content, title, category, document_role, metadata, score
+        SELECT chunk_id, document_id, chunk_index, component, content, title, category, document_role, summary, metadata, score
         FROM (
             SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
-                   d.title, d.category, d.document_role, d.metadata,
+                   d.title, d.category, d.document_role, d.summary, d.metadata,
                    0.9::float AS score,
                    row_number() OVER (PARTITION BY d.document_id ORDER BY c.chunk_index) AS rn
             FROM documents d JOIN chunks c USING (document_id)
@@ -230,7 +230,7 @@ def fetch_document_chunks(document_id: str, score: float) -> list[dict]:
     """
     sql = """
         SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
-               d.title, d.category, d.document_role, d.metadata
+               d.title, d.category, d.document_role, d.summary, d.metadata
         FROM chunks c JOIN documents d USING (document_id)
         WHERE c.document_id = %s
         ORDER BY c.chunk_index
@@ -255,6 +255,8 @@ def _rows_to_results(rows: list[dict], search_source: str) -> list[dict]:
             "component": row["component"],
             "canonical_object": True,
         })
+        if row.get("summary"):
+            metadata["summary"] = row["summary"]
         source_url = metadata.get("file_url") or metadata.get("source_url") or metadata.get("source_page_url") or ""
         output.append({
             "id": row["chunk_id"],
@@ -299,7 +301,7 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
 
     where_sql = "WHERE " + " AND ".join(clauses)
     sql = f"""
-        SELECT DISTINCT d.document_id, d.title, d.category, d.metadata,
+        SELECT DISTINCT d.document_id, d.title, d.category, d.summary, d.metadata,
                author->>'name' AS author_name, author->>'civility' AS civility, author->>'party' AS party,
                coalesce(d.metadata->>'listing_year', d.metadata->>'year') AS year
         FROM documents d,

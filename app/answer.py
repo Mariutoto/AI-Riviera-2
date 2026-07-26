@@ -440,6 +440,37 @@ def summarize_sources_with_llm(grouped_sources: list[dict]) -> dict[str, str]:
     return {str(key): str(value).strip() for key, value in parsed.items() if str(value).strip()}
 
 
+def source_blurbs_with_fallback(grouped_sources: list[dict]) -> dict[str, str]:
+    """Use persisted document summaries and generate only the missing ones.
+
+    The fallback keeps the UI complete while the database backfill is in
+    progress. Once every document has a stored summary, this function performs
+    no LLM call.
+    """
+    blurbs: dict[str, str] = {}
+    missing_sources = []
+    missing_original_ids = []
+
+    for index, source in enumerate(grouped_sources, start=1):
+        metadata = source.get("metadata") or {}
+        stored_summary = fix_mojibake(str(metadata.get("summary") or "")).strip()
+        if stored_summary:
+            blurbs[str(index)] = stored_summary
+        else:
+            missing_sources.append(source)
+            missing_original_ids.append(str(index))
+
+    if not missing_sources:
+        return blurbs
+
+    generated = summarize_sources_with_llm(missing_sources)
+    for fallback_index, original_id in enumerate(missing_original_ids, start=1):
+        value = generated.get(str(fallback_index), "").strip()
+        if value:
+            blurbs[original_id] = value
+    return blurbs
+
+
 def verify_answer_against_sources(question: str, answer: str, results: list[dict]) -> list[str]:
     if not results or not answer:
         return []
