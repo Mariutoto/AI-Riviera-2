@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor
 from typing import Callable
@@ -42,6 +43,19 @@ _DOC_TYPE_NOUN = {
     "motions": "motions",
     "reglement-conseil-communal": "documents du règlement",
 }
+_COMPLEX_QUESTION_MARKERS = (
+    "a la fois",
+    "ainsi que",
+    "compar",
+    "crois",
+    "difference",
+    "en commun",
+    "meme annee",
+    "respectivement",
+    "tous les deux",
+    "versus",
+)
+_QUOTED_TEXT_PATTERN = re.compile(r'"[^"]*"|«[^»]*»|“[^”]*”')
 
 
 def _notify(on_stage: Callable[[str], None] | None, label: str) -> None:
@@ -71,8 +85,41 @@ def time_budget_seconds() -> float:
         return 45.0
 
 
+def question_needs_llm_classification(question: str) -> bool:
+    """Keep the LLM classifier for questions that may require decomposition.
+
+    Most civic-document questions name one object, year, author, or topic and
+    are unambiguously single-search. Comparison markers, conjunctions outside
+    quoted titles, multiple quoted objects, or multiple years remain routed
+    through the LLM so the speed-up does not silently flatten complex queries.
+    """
+    normalized = strip_accents(question).lower()
+    if any(marker in normalized for marker in _COMPLEX_QUESTION_MARKERS):
+        return True
+
+    quoted_objects = _QUOTED_TEXT_PATTERN.findall(question)
+    if len(quoted_objects) >= 2:
+        return True
+
+    without_quoted_titles = _QUOTED_TEXT_PATTERN.sub(" ", normalized)
+    if re.search(r"\b(?:et|ou|entre|contre)\b", without_quoted_titles):
+        return True
+
+    if len(set(re.findall(r"\b20\d{2}\b", normalized))) >= 2:
+        return True
+    return False
+
+
 def classify_question(question: str) -> dict:
-    return classify_question_with_llm(question)
+    if not question_needs_llm_classification(question):
+        return {
+            "complexity": "simple",
+            "mode": "single",
+            "subqueries": [],
+            "classification_source": "deterministic",
+        }
+    classification = classify_question_with_llm(question)
+    return {**classification, "classification_source": "llm"}
 
 
 def _aggregate_result_row_to_result(row: dict) -> dict:
@@ -247,12 +294,27 @@ def merge_cross_reference(
     deadline: float | None = None,
     on_stage: Callable[[str], None] | None = None,
 ) -> dict:
-    """Run one search per subquery and compute the real (author, year) overlap across them in code."""
-    sub_results = []
+    """Run independent subqueries concurrently, then compute their real metadata overlap."""
     for index, sub in enumerate(subqueries, start=1):
         _notify(on_stage, f"Recherche {index}/{len(subqueries)}: {sub.get('label') or sub['query']}")
-        results, relanced = search_with_relance(sub["query"], limit=limit, deadline=deadline, on_stage=on_stage)
-        sub_results.append({"label": sub.get("label") or sub["query"], "results": results, "relanced": relanced})
+
+    def run_subquery(sub: dict) -> dict:
+        # Streamlit callbacks stay on the main thread; the worker only performs
+        # retrieval and returns data. executor.map preserves subquery order.
+        results, relanced = search_with_relance(
+            sub["query"],
+            limit=limit,
+            deadline=deadline,
+            on_stage=None,
+        )
+        return {
+            "label": sub.get("label") or sub["query"],
+            "results": results,
+            "relanced": relanced,
+        }
+
+    with ThreadPoolExecutor(max_workers=min(len(subqueries), 4)) as pool:
+        sub_results = list(pool.map(run_subquery, subqueries))
 
     matches_by_pair: dict[tuple[str, str], dict[str, list[dict]]] = {}
     for entry in sub_results:
@@ -344,6 +406,7 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     trace["timings_ms"]["classification"] = _elapsed_ms(stage_started_at)
     trace["complexity"] = classification.get("complexity", "simple")
     trace["mode"] = classification.get("mode", "single")
+    trace["classification_source"] = classification.get("classification_source", "llm")
 
     if classification.get("mode") == "multi" and classification.get("subqueries"):
         _notify(on_stage, "Question complexe détectée: recherche en plusieurs étapes...")
