@@ -18,6 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from municipal_pipeline.documents import municipal_document
 from municipal_pipeline.municipalities import VEVEY
 from municipal_pipeline.pdf_audit import audit_pdf_documents
+from municipal_pipeline.preindex_audit import audit_preindex, write_preindex_html
 
 
 SOURCE_PAGE = (
@@ -225,7 +226,7 @@ def download_audit(
     session: requests.Session | None = None,
     download_dir: Path | None = None,
 ) -> tuple[list[dict], dict]:
-    return audit_pdf_documents(
+    documents, diagnostics = audit_pdf_documents(
         items,
         document_id_prefix=f"{VEVEY.key.replace('-', '_')}_interpellation",
         session=session,
@@ -233,6 +234,23 @@ def download_audit(
         download_dir=download_dir,
         normalize_title=_ascii,
     )
+    classify_document_roles(documents)
+    return documents, diagnostics
+
+
+def classify_document_roles(documents: list[dict]) -> None:
+    for document in documents:
+        preview = str((document.get("text_audit") or {}).get("text_preview") or "")
+        normalized = _ascii(preview)
+        if re.search(r"\breponse a l['’ ]?interpellation\b", normalized):
+            document["document_role"] = "response"
+            reference_match = re.search(r"\bRI\s*(\d{1,3})\s*/\s*(20\d{2})\b", preview, re.I)
+            if reference_match:
+                document["reference"] = (
+                    f"{reference_match.group(2)}/RI{int(reference_match.group(1)):02d}"
+                )
+        else:
+            document["document_role"] = "political_object"
 
 
 def main() -> None:
@@ -240,6 +258,7 @@ def main() -> None:
         description="Pilote des interpellations de Vevey pour 2025-2026"
     )
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--html-output", type=Path)
     parser.add_argument("--download-dir", type=Path)
     parser.add_argument("--audit-downloads", action="store_true")
     args = parser.parse_args()
@@ -264,13 +283,32 @@ def main() -> None:
         )
         report["download_diagnostics"] = download_diagnostics
         report["canonical_documents"] = documents
+        report["preindex_audit"] = audit_preindex(
+            documents, download_diagnostics
+        )
+        if args.html_output:
+            write_preindex_html(
+                report["preindex_audit"],
+                args.html_output,
+                title="Audit avant indexation — interpellations de Vevey 2025–2026",
+            )
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(
             json.dumps(report, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-    summary = {key: value for key, value in report.items() if key not in {"listing_occurrences", "canonical_documents"}}
+    summary = {
+        key: value
+        for key, value in report.items()
+        if key not in {"listing_occurrences", "canonical_documents", "preindex_audit"}
+    }
+    if "preindex_audit" in report:
+        summary["preindex_audit"] = {
+            key: value
+            for key, value in report["preindex_audit"].items()
+            if key != "documents"
+        }
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 

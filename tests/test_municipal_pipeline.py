@@ -2,6 +2,7 @@ import unittest
 
 from municipal_pipeline.documents import municipal_document, validate_document
 from municipal_pipeline.municipalities import LA_TOUR_DE_PEILZ, VEVEY, get_municipality
+from municipal_pipeline.preindex_audit import audit_preindex
 
 
 class MunicipalityRegistryTests(unittest.TestCase):
@@ -43,6 +44,69 @@ class MunicipalDocumentTests(unittest.TestCase):
                     "source_page": "https://example.test",
                 }
             )
+
+
+class PreindexAuditTests(unittest.TestCase):
+    def document(self, **overrides):
+        document = {
+            "city": "Vevey",
+            "city_key": "vevey",
+            "category": "interpellation",
+            "document_type": "interpellation",
+            "title": "Une interpellation",
+            "listing_year": "2026",
+            "listing_date": "2026-05-07",
+            "author": "Jeanne Exemple",
+            "pdf_url": "https://example.test/document.pdf",
+            "source_page": "https://example.test/documents",
+            "document_id": "vevey_interpellation_test",
+            "document_role": "political_object",
+            "listing_occurrences": [{}],
+            "text_audit": {
+                "page_count": 2,
+                "text_chars": 2000,
+                "text_words": 300,
+                "empty_pages": 0,
+                "text_preview": "Texte extrait",
+                "needs_ocr": False,
+            },
+        }
+        document.update(overrides)
+        return document
+
+    def test_ready_document_has_no_findings(self):
+        report = audit_preindex([self.document()], {"failed_downloads": []})
+        self.assertEqual(report["status"], "ready")
+        self.assertEqual(report["summary"]["blockers"], 0)
+
+    def test_ocr_is_blocking(self):
+        document = self.document(
+            text_audit={
+                "page_count": 2,
+                "text_chars": 0,
+                "text_words": 0,
+                "empty_pages": 2,
+                "text_preview": "",
+                "needs_ocr": True,
+            }
+        )
+        report = audit_preindex([document], {"failed_downloads": []})
+        self.assertEqual(report["status"], "blocked")
+        self.assertEqual(report["summary"]["finding_codes"]["ocr_required"], 1)
+
+    def test_recovered_broken_link_is_only_a_warning(self):
+        diagnostics = {
+            "failed_downloads": [
+                {
+                    "pdf_url": "https://example.test/broken",
+                    "equivalent_document_id": "vevey_interpellation_test",
+                }
+            ],
+            "recoverable_failed_downloads": 1,
+        }
+        report = audit_preindex([self.document()], diagnostics)
+        self.assertEqual(report["status"], "ready_with_warnings")
+        self.assertEqual(report["summary"]["blockers"], 0)
 
 
 if __name__ == "__main__":

@@ -25,7 +25,8 @@ Audit des PDF, sans conserver les fichiers :
 ```powershell
 python scrape-vevey/scrape_interpellations_pilot.py `
   --audit-downloads `
-  --output audit-vevey/interpellations-pilot/inventory.json
+  --output audit-vevey/interpellations-pilot/inventory.json `
+  --html-output audit-vevey/interpellations-pilot/audit.html
 ```
 
 Pour conserver temporairement les PDF, ajouter

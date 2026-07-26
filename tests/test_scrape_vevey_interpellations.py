@@ -74,6 +74,21 @@ class VeveyInterpellationPilotTests(unittest.TestCase):
         self.assertEqual(diagnostics["documents_needing_ocr"], 1)
         self.assertTrue(diagnostics["complete"])
         self.assertTrue(diagnostics["usable_complete"])
+        self.assertEqual(documents[0]["document_role"], "political_object")
+
+    def test_classifies_municipal_response_and_reference(self):
+        documents = [
+            {
+                "text_audit": {
+                    "text_preview": (
+                        "RI 3/2026 Réponse à l’interpellation de Mme Exemple"
+                    )
+                }
+            }
+        ]
+        module.classify_document_roles(documents)
+        self.assertEqual(documents[0]["document_role"], "response")
+        self.assertEqual(documents[0]["reference"], "2026/RI03")
 
 
 if __name__ == "__main__":

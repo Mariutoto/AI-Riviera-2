@@ -15,13 +15,19 @@ def inspect_pdf_text(content: bytes) -> dict:
         import fitz
 
         with fitz.open(stream=content, filetype="pdf") as document:
-            text = "\n".join(page.get_text("text") for page in document)
+            page_texts = [page.get_text("text") for page in document]
+            text = "\n".join(page_texts)
             page_count = document.page_count
         text_chars = len(text.strip())
+        normalized_preview = re.sub(r"\s+", " ", text).strip()[:1000]
         return {
             "page_count": page_count,
             "text_chars": text_chars,
             "text_words": len(re.findall(r"\S+", text)),
+            "empty_pages": sum(not page_text.strip() for page_text in page_texts),
+            "page_text_chars": [len(page_text.strip()) for page_text in page_texts],
+            "text_preview": normalized_preview,
+            "text_hash": hashlib.sha256(text.encode("utf-8")).hexdigest(),
             "needs_ocr": text_chars < max(200, page_count * 50),
         }
     except Exception as exc:
@@ -29,6 +35,10 @@ def inspect_pdf_text(content: bytes) -> dict:
             "page_count": None,
             "text_chars": 0,
             "text_words": 0,
+            "empty_pages": None,
+            "page_text_chars": [],
+            "text_preview": "",
+            "text_hash": "",
             "needs_ocr": True,
             "error": repr(exc),
         }
