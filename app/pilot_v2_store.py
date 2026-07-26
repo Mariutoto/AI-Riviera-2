@@ -19,6 +19,10 @@ CATEGORY_MAP = {
     "motions": "motion",
     "postulats": "postulat",
     "interpellations": "interpellation",
+    "preavis-municipaux": "preavis_municipal",
+    "proces-verbaux": "proces_verbal",
+    "rapports-comptes": "rapport_comptes",
+    "rapports-gestion": "rapport_gestion",
     "reglement-conseil-communal": "reglement_conseil_communal",
     "budget": "budget",
 }

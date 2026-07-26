@@ -244,6 +244,7 @@ def expand_small_documents(results: list[dict]) -> list[dict]:
 def search_with_relance(
     query: str,
     limit: int = 50,
+    filters: dict | None = None,
     deadline: float | None = None,
     on_stage: Callable[[str], None] | None = None,
 ) -> tuple[list[dict], bool]:
@@ -254,13 +255,13 @@ def search_with_relance(
     political-object documents are expanded to their full chunk set before
     returning either way (see expand_small_documents).
     """
-    results = retrieval.search(query, limit=limit)
+    results = retrieval.search(query, limit=limit, filters=filters)
     is_weak = _unique_document_count(results) < WEAK_MIN_DOCUMENTS or _top_score(results) < WEAK_SCORE_THRESHOLD
     if is_weak and not (deadline is not None and time.perf_counter() > deadline):
         _notify(on_stage, "Résultats faibles, recherche élargie en cours...")
         broadened = broaden_query_with_llm(query)
         if broadened and broadened.strip().lower() != query.strip().lower():
-            retried = retrieval.search(broadened, limit=limit)
+            retried = retrieval.search(broadened, limit=limit, filters=filters)
             if _top_score(retried) > _top_score(results):
                 record_diagnostic("agent", "Relance search improved results", query=query, broadened=broadened)
                 return expand_small_documents(retried), True
@@ -291,6 +292,7 @@ def _extract_author_years(result: dict) -> set[tuple[str, str]]:
 def merge_cross_reference(
     subqueries: list[dict],
     limit: int = 50,
+    filters: dict | None = None,
     deadline: float | None = None,
     on_stage: Callable[[str], None] | None = None,
 ) -> dict:
@@ -304,6 +306,7 @@ def merge_cross_reference(
         results, relanced = search_with_relance(
             sub["query"],
             limit=limit,
+            filters=filters,
             deadline=deadline,
             on_stage=None,
         )
@@ -366,10 +369,15 @@ def _cross_reference_summary(overlap: dict) -> str:
     return "\n".join(lines)
 
 
-def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None = None) -> tuple[str, list[dict], dict]:
+def run_agentic_pipeline(
+    question: str,
+    filters: dict | None = None,
+    on_stage: Callable[[str], None] | None = None,
+) -> tuple[str, list[dict], dict]:
     started_at = time.perf_counter()
     budget = time_budget_seconds()
     deadline = started_at + budget
+    filters = dict(filters or {})
 
     trace: dict = {
         "complexity": "simple",
@@ -381,6 +389,7 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
         "budget_exceeded": False,
         "rerank_candidate_limit": RERANK_CANDIDATE_LIMIT,
         "generation_passage_limit": GENERATION_PASSAGE_LIMIT,
+        "filters": filters,
     }
 
     _notify(on_stage, "Analyse de la question...")
@@ -388,6 +397,7 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     aggregate_filters = retrieval.detect_aggregate_query(question)
     trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:
+        aggregate_filters = {**aggregate_filters, **filters}
         # Deterministic count/enumeration over metadata — no LLM in the loop
         # for the count itself, so no verification pass is needed either.
         trace["mode"] = "aggregate"
@@ -411,7 +421,13 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     if classification.get("mode") == "multi" and classification.get("subqueries"):
         _notify(on_stage, "Question complexe détectée: recherche en plusieurs étapes...")
         stage_started_at = time.perf_counter()
-        cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline, on_stage=on_stage)
+        cross = merge_cross_reference(
+            classification["subqueries"],
+            limit=50,
+            filters=filters,
+            deadline=deadline,
+            on_stage=on_stage,
+        )
         trace["timings_ms"]["retrieval"] = _elapsed_ms(stage_started_at)
         trace["relance"] = any(entry["relanced"] for entry in cross["sub_results"])
         trace["cross_reference_authors"] = sorted(f"{author} ({year})" for author, year in cross["overlap"])
@@ -433,7 +449,13 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     else:
         _notify(on_stage, "Recherche dans les documents...")
         stage_started_at = time.perf_counter()
-        results, relanced = search_with_relance(question, limit=50, deadline=deadline, on_stage=on_stage)
+        results, relanced = search_with_relance(
+            question,
+            limit=50,
+            filters=filters,
+            deadline=deadline,
+            on_stage=on_stage,
+        )
         trace["timings_ms"]["retrieval"] = _elapsed_ms(stage_started_at)
         trace["relance"] = relanced
         _notify(on_stage, "Sélection des passages les plus pertinents...")

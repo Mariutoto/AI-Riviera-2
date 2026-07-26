@@ -41,7 +41,11 @@ class AgentPerformanceLimitTests(unittest.TestCase):
         search.return_value = (retrieved, False)
         rerank.return_value = retrieved
 
-        final_answer, returned_results, trace = agent.run_agentic_pipeline("Question simple")
+        selected_filters = {"year": "2025", "doc_type": "interpellations"}
+        final_answer, returned_results, trace = agent.run_agentic_pipeline(
+            "Question simple",
+            filters=selected_filters,
+        )
 
         self.assertEqual(final_answer, "Réponse")
         self.assertEqual(returned_results, retrieved)
@@ -55,6 +59,8 @@ class AgentPerformanceLimitTests(unittest.TestCase):
         self.assertEqual(trace["rerank_candidate_limit"], 20)
         self.assertEqual(trace["generation_passage_limit"], 15)
         self.assertEqual(trace["generation_passages"], 15)
+        self.assertEqual(trace["filters"], selected_filters)
+        self.assertEqual(search.call_args.kwargs["filters"], selected_filters)
         for stage in (
             "routing",
             "classification",

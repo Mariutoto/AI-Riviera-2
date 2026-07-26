@@ -24,12 +24,30 @@ from app.text_cleaning import fix_mojibake, format_date
 
 SUGGESTED_QUESTIONS = [
     "Quelles interpellations ont reçu une réponse en 2025 ?",
-    "Quelle motion de 2026 a été renvoyée à la Municipalité ?",
-    "Quels objets politiques parlent de mobilité ou de bus dans cette législature ?",
     "Quels postulats ont été déposés en 2024 ?",
-    "Qui a déposé l'interpellation sur l'affichage politique en 2026 ?",
-    "Que dit l'article 96 du règlement du Conseil communal ?",
 ]
+
+CITY_OPTIONS = {
+    "all": "Toutes",
+    "La Tour-de-Peilz": "La Tour-de-Peilz",
+    "Vevey": "Vevey — à venir",
+    "Montreux": "Montreux — à venir",
+}
+ALL_YEARS = "Toutes"
+YEAR_OPTIONS = [ALL_YEARS, "2026", "2025", "2024", "2023", "2022", "2021"]
+ALL_DOCUMENT_TYPES = "Tous"
+DOCUMENT_TYPE_OPTIONS = {
+    ALL_DOCUMENT_TYPES: "",
+    "Interpellations": "interpellations",
+    "Postulats": "postulats",
+    "Motions": "motions",
+    "Préavis municipaux": "preavis-municipaux",
+    "Procès-verbaux": "proces-verbaux",
+    "Budgets": "budget",
+    "Rapports de gestion": "rapports-gestion",
+    "Rapports des comptes": "rapports-comptes",
+    "Règlement du Conseil communal": "reglement-conseil-communal",
+}
 
 USER_ERROR_MESSAGE = (
     "Désolé, la recherche a rencontré un problème technique. "
@@ -68,7 +86,7 @@ def admin_tabs_enabled() -> bool:
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
 st.title("AI Riviera")
-st.caption("Assistant de recherche sur les documents publics de La Tour-de-Peilz (législature 2021-2026) - projet à but non lucratif")
+st.caption("Assistant de recherche sur les documents publics de Riviera (législature 2021-2026) - projet à but non lucratif")
 
 st.markdown(
     """
@@ -150,21 +168,6 @@ st.markdown(
         line-height: 1.2;
     }
 
-    .air-guide {
-        background: #f7f8fa;
-        border: 1px solid #e2e6ec;
-        border-radius: 0.45rem;
-        color: #3e4652;
-        font-size: 0.92rem;
-        line-height: 1.55;
-        margin: 0.5rem 0 1rem;
-        padding: 0.75rem 0.95rem;
-    }
-
-    .air-guide strong {
-        color: #253247;
-    }
-
     .air-about-diagram {
         align-items: stretch;
         display: grid;
@@ -231,7 +234,15 @@ st.markdown(
 )
 
 def current_filters() -> dict | None:
-    return {"city": "La Tour-de-Peilz"}
+    filters = {}
+    year = st.session_state.get("search_year", ALL_YEARS)
+    if year != ALL_YEARS:
+        filters["year"] = year
+    document_type_label = st.session_state.get("search_document_type", ALL_DOCUMENT_TYPES)
+    document_type = DOCUMENT_TYPE_OPTIONS.get(document_type_label, "")
+    if document_type:
+        filters["doc_type"] = document_type
+    return filters
 
 
 def cacheable_filters(filters: dict | None) -> tuple[tuple[str, str], ...]:
@@ -702,7 +713,11 @@ def cached_answer_question(
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
 
     if agentic_pipeline_enabled():
-        answer, results, trace = run_agentic_pipeline(question, on_stage=_on_stage)
+        answer, results, trace = run_agentic_pipeline(
+            question,
+            filters=dict(filters_key),
+            on_stage=_on_stage,
+        )
     else:
         if _on_stage:
             _on_stage("Reformulation de la question...")
@@ -772,30 +787,43 @@ def queue_question(question: str) -> None:
     st.session_state.pending_question = question
 
 with chat_tab:
-    st.markdown(
-        "Pose une question et l'assistant cherche dans les documents publics "
-        "indexés, puis répond avec les sources utilisées."
-    )
-
-    st.markdown(
-        """
-        <div class="air-guide">
-            <strong>Conseils rapides</strong>:
-            mettez les titres exacts entre guillemets,
-            ajoutez l'ann&eacute;e si vous la connaissez,
-            et pr&eacute;cisez le type d'objet quand c'est utile
-            (motion, postulat, interpellation, pr&eacute;avis, article).
-            Exemple: Qui a d&eacute;pos&eacute; l'interpellation
-            "Que pr&eacute;voit la Poste pour Notre Poste" en 2024 ?
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "pending_question" not in st.session_state:
         st.session_state.pending_question = None
+
+    filter_columns = st.columns(3)
+    with filter_columns[0]:
+        selected_city = st.selectbox(
+            "Ville",
+            options=list(CITY_OPTIONS),
+            format_func=CITY_OPTIONS.get,
+            key="search_city",
+            disabled=st.session_state.pending_question is not None,
+        )
+    with filter_columns[1]:
+        st.selectbox(
+            "Année",
+            options=YEAR_OPTIONS,
+            key="search_year",
+            disabled=st.session_state.pending_question is not None,
+        )
+    with filter_columns[2]:
+        st.selectbox(
+            "Type de document",
+            options=list(DOCUMENT_TYPE_OPTIONS),
+            key="search_document_type",
+            disabled=st.session_state.pending_question is not None,
+        )
+
+    city_available = selected_city in {"all", "La Tour-de-Peilz"}
+    if not city_available:
+        st.caption(
+            f"*{selected_city} sera disponible prochainement. Sélectionnez Toutes "
+            "ou La Tour-de-Peilz pour lancer une recherche.*"
+        )
+
+    st.caption("ℹ️ Plus votre question et vos filtres sont précis, plus la recherche est rapide.")
 
     suggestions_slot = st.empty()
     if not st.session_state.messages and st.session_state.pending_question is None:
@@ -811,6 +839,7 @@ with chat_tab:
                             on_click=queue_question,
                             args=(question_example,),
                             width="stretch",
+                            disabled=not city_available,
                         )
     else:
         suggestions_slot.empty()
@@ -863,7 +892,10 @@ with chat_tab:
         st.session_state.pending_question = None
         st.rerun()
 
-    question = st.chat_input("Pose une question sur les documents...", disabled=st.session_state.pending_question is not None)
+    question = st.chat_input(
+        "Pose une question sur les documents...",
+        disabled=st.session_state.pending_question is not None or not city_available,
+    )
     if question and st.session_state.pending_question is None:
         queue_question(question)
         st.rerun()
