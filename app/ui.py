@@ -13,7 +13,7 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
-from app.agent import run_agentic_pipeline
+from app.agent import GENERATION_PASSAGE_LIMIT, RERANK_CANDIDATE_LIMIT, RERANK_KEEP_LIMIT, run_agentic_pipeline
 from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
@@ -686,10 +686,20 @@ def cached_answer_question(
         candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
         if _on_stage:
             _on_stage("Sélection des passages les plus pertinents...")
-        results = rerank_results_with_llm(question, candidates, keep=30, max_candidates=30)
+        results = rerank_results_with_llm(
+            question,
+            candidates,
+            keep=RERANK_KEEP_LIMIT,
+            max_candidates=RERANK_CANDIDATE_LIMIT,
+        )
         if _on_stage:
             _on_stage("Rédaction de la réponse...")
-        answer, trace = answer_from_sources(question, results), {}
+        answer, trace = answer_from_sources(question, results[:GENERATION_PASSAGE_LIMIT]), {
+            "rerank_candidate_limit": RERANK_CANDIDATE_LIMIT,
+            "generation_passage_limit": GENERATION_PASSAGE_LIMIT,
+            "generation_passages": min(len(results), GENERATION_PASSAGE_LIMIT),
+            "reranked_passages": len(results),
+        }
 
     if trace.get("mode") != "aggregate" and "source_blurbs" not in trace:
         # Aggregate answers are synthetic rows with no real passage text —

@@ -21,6 +21,9 @@ from app.text_cleaning import strip_accents
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
+RERANK_CANDIDATE_LIMIT = 20
+RERANK_KEEP_LIMIT = 30
+GENERATION_PASSAGE_LIMIT = 15
 
 # Political-object documents are small (interpellations/postulats/motions
 # average 4-5 chunks, max 14 — confirmed against the real DB) — cheap enough
@@ -44,6 +47,21 @@ _DOC_TYPE_NOUN = {
 def _notify(on_stage: Callable[[str], None] | None, label: str) -> None:
     if on_stage is not None:
         on_stage(label)
+
+
+def _elapsed_ms(started_at: float) -> int:
+    return round((time.perf_counter() - started_at) * 1000)
+
+
+def _generation_results(results: list[dict]) -> list[dict]:
+    """Bound the evidence sent to answer generation without hiding sources."""
+    return results[:GENERATION_PASSAGE_LIMIT]
+
+
+def _timed_source_blurbs(results: list[dict]) -> tuple[dict[str, str], int]:
+    started_at = time.perf_counter()
+    blurbs = source_blurbs_with_fallback(group_results_by_document(results))
+    return blurbs, _elapsed_ms(started_at)
 
 
 def time_budget_seconds() -> float:
@@ -296,45 +314,82 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
         "mode": "single",
         "relance": False,
         "verification_claims": [],
+        "timings_ms": {},
         "budget_seconds": budget,
         "budget_exceeded": False,
+        "rerank_candidate_limit": RERANK_CANDIDATE_LIMIT,
+        "generation_passage_limit": GENERATION_PASSAGE_LIMIT,
     }
 
     _notify(on_stage, "Analyse de la question...")
+    stage_started_at = time.perf_counter()
     aggregate_filters = retrieval.detect_aggregate_query(question)
+    trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:
         # Deterministic count/enumeration over metadata — no LLM in the loop
         # for the count itself, so no verification pass is needed either.
         trace["mode"] = "aggregate"
         trace["aggregate_filters"] = aggregate_filters
         _notify(on_stage, "Comptage exact dans la base...")
+        stage_started_at = time.perf_counter()
         answer, results = run_aggregate_query(aggregate_filters)
+        trace["timings_ms"]["aggregate_query"] = _elapsed_ms(stage_started_at)
         trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
         record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
         return answer, results, trace
 
+    stage_started_at = time.perf_counter()
     classification = classify_question(question)
+    trace["timings_ms"]["classification"] = _elapsed_ms(stage_started_at)
     trace["complexity"] = classification.get("complexity", "simple")
     trace["mode"] = classification.get("mode", "single")
 
     if classification.get("mode") == "multi" and classification.get("subqueries"):
         _notify(on_stage, "Question complexe détectée: recherche en plusieurs étapes...")
+        stage_started_at = time.perf_counter()
         cross = merge_cross_reference(classification["subqueries"], limit=50, deadline=deadline, on_stage=on_stage)
+        trace["timings_ms"]["retrieval"] = _elapsed_ms(stage_started_at)
         trace["relance"] = any(entry["relanced"] for entry in cross["sub_results"])
         trace["cross_reference_authors"] = sorted(f"{author} ({year})" for author, year in cross["overlap"])
         _notify(on_stage, "Sélection des passages les plus pertinents...")
-        reranked = rerank_results_with_llm(question, cross["combined_results"], keep=30, max_candidates=30)
+        stage_started_at = time.perf_counter()
+        reranked = rerank_results_with_llm(
+            question,
+            cross["combined_results"],
+            keep=RERANK_KEEP_LIMIT,
+            max_candidates=RERANK_CANDIDATE_LIMIT,
+        )
+        trace["timings_ms"]["reranking"] = _elapsed_ms(stage_started_at)
         summary_block = _cross_reference_summary(cross["overlap"])
         _notify(on_stage, "Rédaction de la réponse...")
-        draft_answer = answer_from_sources(question, reranked, extra_context=summary_block)
+        generation_results = _generation_results(reranked)
+        stage_started_at = time.perf_counter()
+        draft_answer = answer_from_sources(question, generation_results, extra_context=summary_block)
+        trace["timings_ms"]["generation"] = _elapsed_ms(stage_started_at)
     else:
         _notify(on_stage, "Recherche dans les documents...")
+        stage_started_at = time.perf_counter()
         results, relanced = search_with_relance(question, limit=50, deadline=deadline, on_stage=on_stage)
+        trace["timings_ms"]["retrieval"] = _elapsed_ms(stage_started_at)
         trace["relance"] = relanced
         _notify(on_stage, "Sélection des passages les plus pertinents...")
-        reranked = rerank_results_with_llm(question, results, keep=30, max_candidates=30)
+        stage_started_at = time.perf_counter()
+        reranked = rerank_results_with_llm(
+            question,
+            results,
+            keep=RERANK_KEEP_LIMIT,
+            max_candidates=RERANK_CANDIDATE_LIMIT,
+        )
+        trace["timings_ms"]["reranking"] = _elapsed_ms(stage_started_at)
         _notify(on_stage, "Rédaction de la réponse...")
-        draft_answer = answer_from_sources(question, reranked)
+        generation_results = _generation_results(reranked)
+        stage_started_at = time.perf_counter()
+        draft_answer = answer_from_sources(question, generation_results)
+        trace["timings_ms"]["generation"] = _elapsed_ms(stage_started_at)
+
+    trace["generation_passages"] = len(generation_results)
+    trace["reranked_passages"] = len(reranked)
 
     # Verification is the single slowest stage (runs on the stronger model,
     # 4-6s) and its real value is catching cross-document/decomposed answers
@@ -353,24 +408,29 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     # thread while verification (the slower call, on the stronger model)
     # runs on the main thread, instead of paying for both in sequence.
     with ThreadPoolExecutor(max_workers=1) as pool:
-        blurbs_future = pool.submit(source_blurbs_with_fallback, group_results_by_document(reranked))
+        blurbs_future = pool.submit(_timed_source_blurbs, reranked)
 
         if skip_verification:
             trace["verification_skipped"] = True
             final_answer, claims = draft_answer, []
+            trace["timings_ms"]["verification"] = 0
         elif time.perf_counter() > deadline:
             # Time budget already spent on search/decomposition/answer — skip the
             # verification pass rather than risk running well past the budget.
             trace["budget_exceeded"] = True
             final_answer, claims = draft_answer, []
+            trace["timings_ms"]["verification"] = 0
         else:
             _notify(on_stage, "Vérification de la réponse...")
-            final_answer, claims = verify_and_revise_answer(question, draft_answer, reranked)
+            stage_started_at = time.perf_counter()
+            final_answer, claims = verify_and_revise_answer(question, draft_answer, generation_results)
+            trace["timings_ms"]["verification"] = _elapsed_ms(stage_started_at)
 
-        trace["source_blurbs"] = blurbs_future.result()
+        trace["source_blurbs"], trace["timings_ms"]["source_blurbs"] = blurbs_future.result()
 
     trace["verification_claims"] = claims
     trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
+    trace["timings_ms"]["total"] = _elapsed_ms(started_at)
 
     record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
 
