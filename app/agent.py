@@ -12,7 +12,7 @@ from app.answer import (
     get_secret,
     group_results_by_document,
     rerank_results_with_llm,
-    summarize_sources_with_llm,
+    source_blurbs_with_fallback,
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
@@ -66,6 +66,8 @@ def _aggregate_result_row_to_result(row: dict) -> dict:
         "document_id": row["document_id"],
         "canonical_object": True,
     })
+    if row.get("summary"):
+        metadata["summary"] = row["summary"]
     source_url = metadata.get("file_url") or metadata.get("source_url") or metadata.get("source_page_url") or ""
     return {
         "id": f"{row['document_id']}#aggregate",
@@ -351,7 +353,7 @@ def run_agentic_pipeline(question: str, on_stage: Callable[[str], None] | None =
     # thread while verification (the slower call, on the stronger model)
     # runs on the main thread, instead of paying for both in sequence.
     with ThreadPoolExecutor(max_workers=1) as pool:
-        blurbs_future = pool.submit(summarize_sources_with_llm, group_results_by_document(reranked))
+        blurbs_future = pool.submit(source_blurbs_with_fallback, group_results_by_document(reranked))
 
         if skip_verification:
             trace["verification_skipped"] = True

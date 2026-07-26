@@ -39,3 +39,32 @@ python embedding-pilot/scripts/run_chatbot_v2.py
 Le lanceur démarre la base Docker si nécessaire puis ouvre le chatbot existant
 en mode V2 sur `http://localhost:8502`. La branche `main` et la base Aiven V1
 ne sont pas modifiées.
+
+## Résumés persistants des documents
+
+Les descriptions affichées dans la liste des sources peuvent être générées une
+fois puis stockées dans `documents`. Cette opération n'extrait pas les PDF à
+nouveau et ne recalcule aucun embedding.
+
+Tester d'abord sur dix documents sans écrire:
+
+```powershell
+python embedding-pilot/scripts/backfill_document_summaries.py --limit 10 --dry-run
+```
+
+Enregistrer dix résumés:
+
+```powershell
+python embedding-pilot/scripts/backfill_document_summaries.py --limit 10
+```
+
+Puis remplir tous les documents restants:
+
+```powershell
+python embedding-pilot/scripts/backfill_document_summaries.py
+```
+
+Le script ajoute lui-même les colonnes manquantes et ignore les documents déjà
+résumés. Il peut donc être interrompu et relancé. `POSTGRES_V2_URL` et
+`MISTRAL_API_KEY` doivent être configurés dans l'environnement,
+`embedding-pilot/.env` ou `.streamlit/secrets.toml`.

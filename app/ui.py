@@ -14,7 +14,7 @@ ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 
 from app.agent import run_agentic_pipeline
-from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, summarize_sources_with_llm
+from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.feedback import record_feedback, recent_feedback
@@ -699,7 +699,7 @@ def cached_answer_question(
         # this only runs for the non-agentic path.
         if _on_stage:
             _on_stage("Résumé des sources...")
-        trace["source_blurbs"] = summarize_sources_with_llm(group_results_by_document(results))
+        trace["source_blurbs"] = source_blurbs_with_fallback(group_results_by_document(results))
     return answer, results, trace
 
 
