@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_029ff94fd8231e14d2e7",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Comptes et études, éclaircir le brouillard…",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Comptes et études, éclaircir le brouillard… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5745",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-27",
+    "content_hash": "e0b0aa409f446947a0babf283421ab3c7fccdd422136398690fd1aaef34081fb",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "2/2025",
+        "response_date": "2025-03-27",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 15365,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2271,
+      "clean_words": 2271,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2271
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+    "score": 0.4411,
+    "second_score": 0.4366,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_029ff94fd8231e14d2e7"
+    ],
+    "official_reference": "2025/RI02"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "5745",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-03-27",
+        "author": "Patrick Bertschy",
+        "reference": "2025/RI02",
+        "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Comptes et études, éclaircir le brouillard… »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5745",
+        "source_download_id": "5745"
+      }
+    ]
+  }
+}

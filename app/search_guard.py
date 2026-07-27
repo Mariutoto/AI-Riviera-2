@@ -52,12 +52,16 @@ def filter_guard_message(
     }
     available_cities_text = " ou ".join(sorted(enabled_city_labels))
 
-    unavailable_cities = [
-        municipality.label
-        for municipality in MUNICIPALITIES.values()
-        if not municipality.search_enabled
-        and re.search(rf"\b{re.escape(_normalize(municipality.label))}\b", normalized)
-    ]
+    unavailable_cities = []
+    for municipality in MUNICIPALITIES.values():
+        if municipality.search_enabled:
+            continue
+        names = (municipality.label, *municipality.aliases)
+        if any(
+            re.search(rf"\b{re.escape(_normalize(name))}\b", normalized)
+            for name in names
+        ):
+            unavailable_cities.append(municipality.label)
     if unavailable_cities:
         city = unavailable_cities[0]
         return (

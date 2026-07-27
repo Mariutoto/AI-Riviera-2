@@ -34,8 +34,24 @@ class SearchGuardTests(unittest.TestCase):
         self.assertIn("Postulats", warning)
 
     def test_blocks_unavailable_city_even_when_all_is_selected(self):
-        warning = self.guard("Quels postulats ont été déposés à Vevey ?")
-        self.assertIn("Vevey", warning)
+        warning = self.guard("Quels postulats ont été déposés à Montreux ?")
+        self.assertIn("Montreux", warning)
+        self.assertIn("pas encore disponibles", warning)
+
+    def test_vevey_is_available(self):
+        self.assertIsNone(
+            self.guard(
+                "Quelles interpellations ont reçu une réponse en 2025 à Vevey ?",
+                city="Vevey",
+                year="2025",
+                document_type="Interpellations",
+            )
+        )
+
+    def test_blocks_asr_alias_while_it_is_upcoming(self):
+        warning = self.guard("Quels documents sont disponibles pour l’ASR ?")
+
+        self.assertIn("Association Sécurité Riviera", warning)
         self.assertIn("pas encore disponibles", warning)
 
     def test_matching_filters_are_accepted(self):

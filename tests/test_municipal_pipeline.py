@@ -1,14 +1,21 @@
 import unittest
 
 from municipal_pipeline.documents import municipal_document, validate_document
-from municipal_pipeline.municipalities import LA_TOUR_DE_PEILZ, VEVEY, get_municipality
+from municipal_pipeline.municipalities import (
+    ASSOCIATION_SECURITE_RIVIERA,
+    LA_TOUR_DE_PEILZ,
+    VEVEY,
+    get_municipality,
+)
 from municipal_pipeline.preindex_audit import audit_preindex
 
 
 class MunicipalityRegistryTests(unittest.TestCase):
-    def test_keeps_city_specific_configuration_out_of_the_pipeline(self):
+    def test_tracks_search_availability_per_city(self):
         self.assertTrue(LA_TOUR_DE_PEILZ.search_enabled)
-        self.assertFalse(VEVEY.search_enabled)
+        self.assertTrue(VEVEY.search_enabled)
+        self.assertEqual(VEVEY.search_scope, "interpellations uniquement")
+        self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
         self.assertEqual(get_municipality("vevey"), VEVEY)
 
     def test_unknown_city_is_rejected(self):

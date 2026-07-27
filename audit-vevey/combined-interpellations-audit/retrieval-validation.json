@@ -1,0 +1,492 @@
+{
+  "generated_at": "2026-07-27T20:43:46.928683+00:00",
+  "filters": {
+    "city": "Vevey",
+    "doc_type": "interpellations"
+  },
+  "passed": true,
+  "passed_cases": 8,
+  "total_cases": 8,
+  "cases": [
+    {
+      "name": "collection_planque_response",
+      "question": "Que répond la Municipalité de Vevey sur les conséquences financières de la collection Planque ?",
+      "expected_any": [
+        "vevey_interpellation_response_6ab9e130a30b822e4ce2"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+        "vevey_interpellation_00843ad0e8e6221402fc",
+        "vevey_interpellation_response_074d22aae8983495d2d7",
+        "vevey_interpellation_response_751f1ccdd768d241b9f2"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+          "title": " Collection Planque : quelles conséquences financières et stratégiques pour la Ville ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6001",
+          "score": 0.906238
+        },
+        {
+          "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+          "title": " Collection Planque : quelles conséquences financières et stratégiques pour la Ville ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6001",
+          "score": 0.903128
+        },
+        {
+          "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+          "title": " Collection Planque : quelles conséquences financières et stratégiques pour la Ville ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6001",
+          "score": 0.902753
+        },
+        {
+          "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+          "title": " Collection Planque : quelles conséquences financières et stratégiques pour la Ville ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6001",
+          "score": 0.898727
+        },
+        {
+          "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+          "title": " Collection Planque : quelles conséquences financières et stratégiques pour la Ville ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6001",
+          "score": 0.897819
+        }
+      ]
+    },
+    {
+      "name": "spark_response",
+      "question": "Quelle réponse a été donnée sur l'avenir du Spark et le projet pour les jeunes de la place Robin ?",
+      "expected_any": [
+        "vevey_interpellation_response_c61d12825ac0f48445a4"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_1bb6cb86a3e4f512f819",
+        "vevey_interpellation_response_a7cfc0978f545f7f2649",
+        "vevey_interpellation_response_074d22aae8983495d2d7",
+        "vevey_interpellation_response_5a46e0a7c76210a757fa",
+        "vevey_interpellation_response_d1446fb9da6967bc65dd",
+        "vevey_interpellation_response_c61d12825ac0f48445a4"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+          "title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5970",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_074d22aae8983495d2d7",
+          "title": " Quand les choix de la majorité municipale fragilisent les commerces de notre vieille-ville ! ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6108",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_5a46e0a7c76210a757fa",
+          "title": " Du sport pour tous pour passer du slogan à la réalité ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5827",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "name": "ai_regulation_response",
+      "question": "Que dit la réponse sur la réglementation de l'utilisation de l'intelligence artificielle dans l'administration communale veveysanne ?",
+      "expected_any": [
+        "vevey_interpellation_response_43a6a6cf3a3e844ed133"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+        "vevey_interpellation_3f273da6b58bb72bf673",
+        "vevey_interpellation_response_3443d627f680dab83893",
+        "vevey_interpellation_response_a700b02315400023eb9c"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+          "title": " Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+          "score": 0.926988
+        },
+        {
+          "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+          "title": " Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+          "score": 0.923848
+        },
+        {
+          "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+          "title": " Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+          "score": 0.922886
+        },
+        {
+          "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+          "title": " Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+          "score": 0.921836
+        },
+        {
+          "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+          "title": " Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+          "score": 0.921159
+        }
+      ]
+    },
+    {
+      "name": "stationnement_quais_response",
+      "question": "Quelle est la réponse concernant le stationnement sur les quais de la Veveyse et Maria Belgia ?",
+      "expected_any": [
+        "vevey_interpellation_response_751f1ccdd768d241b9f2"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_response_5a46e0a7c76210a757fa",
+        "vevey_interpellation_response_9642d101c5ea13a182c1",
+        "vevey_interpellation_response_d1446fb9da6967bc65dd",
+        "vevey_interpellation_response_b50213e17561b9298d0c",
+        "vevey_interpellation_response_751f1ccdd768d241b9f2",
+        "vevey_interpellation_e8f9632d26b160e166cc"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_response_5a46e0a7c76210a757fa",
+          "title": " Du sport pour tous pour passer du slogan à la réalité ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5827",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_9642d101c5ea13a182c1",
+          "title": " Un centre sportif régional loin de tout, en zone agricole, vraiment ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5942",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_9642d101c5ea13a182c1",
+          "title": " Un centre sportif régional loin de tout, en zone agricole, vraiment ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5942",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_d1446fb9da6967bc65dd",
+          "title": " Pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6170",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_d1446fb9da6967bc65dd",
+          "title": " Pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6170",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "name": "advertising_screens_response",
+      "question": "Que répond Vevey au sujet des écrans publicitaires et des risques pour la sécurité routière ?",
+      "expected_any": [
+        "vevey_interpellation_response_a7cfc0978f545f7f2649"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_response_a7cfc0978f545f7f2649",
+        "vevey_interpellation_1bb6cb86a3e4f512f819",
+        "vevey_interpellation_response_074d22aae8983495d2d7",
+        "vevey_interpellation_response_3443d627f680dab83893",
+        "vevey_interpellation_response_9642d101c5ea13a182c1",
+        "vevey_interpellation_response_751f1ccdd768d241b9f2"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.898911
+        },
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.8899
+        },
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.875061
+        },
+        {
+          "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+          "title": " Écrans publicitaires : risques pour la sécurité routière ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+          "score": 0.868356
+        },
+        {
+          "document_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+          "title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5970",
+          "score": 0.847129
+        }
+      ]
+    },
+    {
+      "name": "ocr_combined_document",
+      "question": "Que contient l'interpellation de Patrick Bertschy intitulée \"Un point de la situation actuelle et future est nécessaire\" ?",
+      "expected_any": [
+        "vevey_interpellation_cf6bd00e646d4f9a5413"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_fc18b9ae97efb48f338a",
+        "vevey_interpellation_response_9642d101c5ea13a182c1",
+        "vevey_interpellation_c43f92a895538a6550b4",
+        "vevey_interpellation_response_a700b02315400023eb9c",
+        "vevey_interpellation_cf6bd00e646d4f9a5413",
+        "vevey_interpellation_9061b9f90f4354208042",
+        "vevey_interpellation_c7d1c091f1578e7c5d17",
+        "vevey_interpellation_3aa9d65ae8bdfcb91a6a",
+        "vevey_interpellation_response_9eb5f74204ea59755e5a",
+        "vevey_interpellation_3cff4a34252294ebdebc"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_fc18b9ae97efb48f338a",
+          "title": "Int_2025-09-04_Christen-J-_Centre-sportif-r-gional_zone-agricole.pdf",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5891",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_9642d101c5ea13a182c1",
+          "title": " Un centre sportif régional loin de tout, en zone agricole, vraiment ? ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5942",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_c43f92a895538a6550b4",
+          "title": "Interpellation de M. Moïn Danai (UDC), intitulée « Introduction du logiciel « eSLegislative » pour la gestion des documents du Conseil communal de Vevey »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6099",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_response_a700b02315400023eb9c",
+          "title": " Introduction du logiciel « eS.Legislative ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6171",
+          "score": 0.9
+        },
+        {
+          "document_id": "vevey_interpellation_cf6bd00e646d4f9a5413",
+          "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Un point de la situation actuelle et future est nécessaire »",
+          "role": "combined_interpellation_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6051",
+          "score": 0.873961
+        }
+      ]
+    },
+    {
+      "name": "unanswered_30_kmh",
+      "question": "Quelle interpellation de Cyril Gros parle de l'engagement du 30 km/h à Vevey ?",
+      "expected_any": [
+        "vevey_interpellation_2125366919ee97beedb8"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_2125366919ee97beedb8",
+        "vevey_interpellation_response_3443d627f680dab83893",
+        "vevey_interpellation_response_9642d101c5ea13a182c1",
+        "vevey_interpellation_response_751f1ccdd768d241b9f2",
+        "vevey_interpellation_d76e6b8652ada86e74fe"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_2125366919ee97beedb8",
+          "title": "Interpellation de M. Cyril Gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6100",
+          "score": 0.887899
+        },
+        {
+          "document_id": "vevey_interpellation_2125366919ee97beedb8",
+          "title": "Interpellation de M. Cyril Gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6100",
+          "score": 0.881521
+        },
+        {
+          "document_id": "vevey_interpellation_2125366919ee97beedb8",
+          "title": "Interpellation de M. Cyril Gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6100",
+          "score": 0.873866
+        },
+        {
+          "document_id": "vevey_interpellation_response_3443d627f680dab83893",
+          "title": " La technologie embarquée comme aide à la conduite automobile ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5964",
+          "score": 0.837152
+        },
+        {
+          "document_id": "vevey_interpellation_response_3443d627f680dab83893",
+          "title": " La technologie embarquée comme aide à la conduite automobile ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5964",
+          "score": 0.833733
+        }
+      ]
+    },
+    {
+      "name": "city_isolation",
+      "question": "Existe-t-il à Vevey une interpellation intitulée \"Kiosques sur le quai Roussy\" ?",
+      "expected_any": [],
+      "forbidden_prefixes": [
+        "doc_"
+      ],
+      "passed": true,
+      "checks": {
+        "expected_document": true,
+        "forbidden_documents_absent": true,
+        "vevey_only": true,
+        "https_sources": true
+      },
+      "result_count": 12,
+      "document_ids": [
+        "vevey_interpellation_e8f9632d26b160e166cc",
+        "vevey_interpellation_response_751f1ccdd768d241b9f2",
+        "vevey_interpellation_d76e6b8652ada86e74fe",
+        "vevey_interpellation_26993b10e028eedb3360",
+        "vevey_interpellation_ab508a170cdff328434f",
+        "vevey_interpellation_f0e77f194d49284baff0"
+      ],
+      "top_results": [
+        {
+          "document_id": "vevey_interpellation_e8f9632d26b160e166cc",
+          "title": "Interpellation de M. Serge Ansermet (PS), intitulée « Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5688",
+          "score": 0.846698
+        },
+        {
+          "document_id": "vevey_interpellation_e8f9632d26b160e166cc",
+          "title": "Interpellation de M. Serge Ansermet (PS), intitulée « Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… »",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5688",
+          "score": 0.845631
+        },
+        {
+          "document_id": "vevey_interpellation_response_751f1ccdd768d241b9f2",
+          "title": " Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5798",
+          "score": 0.842375
+        },
+        {
+          "document_id": "vevey_interpellation_d76e6b8652ada86e74fe",
+          "title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Quai Perdonnet : Magnifique lieu de vie ou vélodrome dangereux !»",
+          "role": "interpellation_text",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5800",
+          "score": 0.842257
+        },
+        {
+          "document_id": "vevey_interpellation_response_751f1ccdd768d241b9f2",
+          "title": " Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… ",
+          "role": "municipal_response",
+          "source_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5798",
+          "score": 0.839353
+        }
+      ]
+    }
+  ]
+}

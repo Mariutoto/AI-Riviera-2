@@ -92,6 +92,7 @@ _COMMON_CAPITALIZED_WORDS = {
     "le", "la", "les", "un", "une", "des", "du", "de", "et", "ou", "a",
     "que", "qui", "quoi", "quel", "quelle", "quels", "quelles",
     "combien", "comment", "pourquoi", "quand", "est", "sont",
+    "commune", "municipalite", "ville",
 }
 
 
@@ -108,7 +109,7 @@ def extract_capitalized_keywords(query: str) -> list[str]:
     capitalization doesn't imply a proper noun) and a short list of common
     French function words that sometimes get capitalized by habit.
     """
-    words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ][\w\-']*", query)
+    words = re.findall(r"[^\W\d_][\w\-']*", query, flags=re.UNICODE)
     keywords = []
     for index, word in enumerate(words):
         if index == 0 or not word[0].isupper() or len(word) < 4:
@@ -122,6 +123,10 @@ def extract_capitalized_keywords(query: str) -> list[str]:
 def _filter_clauses(filters: dict) -> tuple[list[str], list[object]]:
     clauses = []
     params: list[object] = []
+    city = str(filters.get("city") or "").strip()
+    if city and city.lower() != "all":
+        clauses.append("d.metadata->>'commune' = %s")
+        params.append(city)
     doc_type = str(filters.get("doc_type") or "").lower()
     if doc_type in CATEGORY_MAP:
         clauses.append("d.category = %s")
@@ -136,12 +141,13 @@ def _filter_clauses(filters: dict) -> tuple[list[str], list[object]]:
 
 
 def _relaxed_filter_stages(filters: dict) -> list[dict]:
-    """Progressively drop filters: year first (most error-prone), then all."""
+    """Progressively drop optional filters while always preserving city scope."""
     stages = []
+    city_filter = {"city": filters["city"]} if filters.get("city") else {}
     if filters.get("year"):
         stages.append({key: value for key, value in filters.items() if key != "year"})
     if filters:
-        stages.append({})
+        stages.append(city_filter)
     deduped: list[dict] = []
     for stage in stages:
         if not deduped or deduped[-1] != stage:
@@ -166,18 +172,22 @@ def _run_vector_search(vector: str, limit: int, filters: dict) -> list[dict]:
         return cursor.fetchall()
 
 
-def _run_title_search(phrase: str, limit: int) -> list[dict]:
-    sql = """
+def _run_title_search(phrase: str, limit: int, filters: dict | None = None) -> list[dict]:
+    clauses, params = _filter_clauses(
+        {"city": filters["city"]} if filters and filters.get("city") else {}
+    )
+    city_sql = " AND " + " AND ".join(clauses) if clauses else ""
+    sql = f"""
         SELECT c.chunk_id, c.document_id, c.chunk_index, c.component, c.content,
                d.title, d.category, d.document_role, d.summary, d.metadata,
                1.0::float AS score
         FROM documents d JOIN chunks c USING (document_id)
-        WHERE d.title ILIKE %s
+        WHERE d.title ILIKE %s{city_sql}
         ORDER BY d.document_id, c.chunk_index
         LIMIT %s
     """
     with _connect() as connection, connection.cursor() as cursor:
-        cursor.execute(sql, [f"%{phrase}%", limit])
+        cursor.execute(sql, [f"%{phrase}%", *params, limit])
         return cursor.fetchall()
 
 
@@ -292,6 +302,11 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
     clauses = ["category_meta.cat_value ? 'authors'"]
     params: list[object] = []
 
+    city = str(filters.get("city") or "").strip()
+    if city and city.lower() != "all":
+        clauses.append("d.metadata->>'commune' = %s")
+        params.append(city)
+
     doc_type = str(filters.get("doc_type") or "").lower()
     if doc_type in CATEGORY_MAP:
         clauses.append("d.category = %s")
@@ -339,13 +354,23 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
     title_rows: list[dict] = []
     seen_chunk_ids = {row["chunk_id"] for row in rows}
     for phrase in extract_quoted_phrases(query):
-        for row in _run_title_search(phrase, limit=15):
+        for row in _run_title_search(phrase, limit=15, filters=filters):
             if row["chunk_id"] not in seen_chunk_ids:
                 title_rows.append(row)
                 seen_chunk_ids.add(row["chunk_id"])
 
     keyword_rows: list[dict] = []
+    city_words = {
+        strip_accents(word).lower()
+        for word in re.findall(
+            r"[^\W\d_][\w\-']*",
+            str(filters.get("city") or ""),
+            flags=re.UNICODE,
+        )
+    }
     for keyword in extract_capitalized_keywords(query):
+        if strip_accents(keyword).lower() in city_words:
+            continue
         for row in _run_keyword_search(keyword, limit=40, filters=filters):
             if row["chunk_id"] not in seen_chunk_ids:
                 keyword_rows.append(row)

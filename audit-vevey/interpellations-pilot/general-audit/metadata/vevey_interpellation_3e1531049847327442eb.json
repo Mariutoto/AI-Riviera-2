@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_3e1531049847327442eb",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Int_2026-06-11_Mollet-C_Sauvons-le-LIDO.pdf",
+    "source_title": "Int_2026-06-11_Mollet-C_Sauvons-le-LIDO.pdf",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6188",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-09",
+    "content_hash": "69dc2f3aaaff2258a2c25c37fd2b90d8df3bf6880e324a5e8e5460a3138b5417",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "filed",
+    "interpellation_date": "2026-06-09",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2839,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 438,
+      "clean_words": 438,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 438
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_3e1531049847327442eb",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "int_2026-06-11_mollet-c_sauvons-le-lido",
+      "author": null,
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2899
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2839,
+    "text_words": 438,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "b0ea995b1274819cf1a01a92d4b4646b6627954c443631e4f5f461bc51960bad"
+  }
+}

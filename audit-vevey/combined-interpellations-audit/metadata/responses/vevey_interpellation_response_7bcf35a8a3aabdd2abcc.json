@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_7bcf35a8a3aabdd2abcc",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Prévenir vaut mieux que …guérir, ou pas !",
+    "source_title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Prévenir vaut mieux que ... guérir (ou pas) ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5901",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-04",
+    "content_hash": "be3d7edd163ab4f22558306786ef608f6054cf6b42cbd9defe8e3c124bb49a67",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "7/2025",
+        "response_date": "2025-09-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 27655,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4274,
+      "clean_words": 4274,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4274
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_317d74e60dd161bad6ef",
+    "best_candidate_id": "vevey_interpellation_317d74e60dd161bad6ef",
+    "score": 1.0,
+    "second_score": 0.4918,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_7bcf35a8a3aabdd2abcc"
+    ],
+    "official_reference": "2025//RI07"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "5901",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-09-04",
+        "author": "Anna Iamartino",
+        "reference": "2025//RI07",
+        "title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Prévenir vaut mieux que ... guérir (ou pas) ! »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5901",
+        "source_download_id": "5901"
+      }
+    ]
+  }
+}

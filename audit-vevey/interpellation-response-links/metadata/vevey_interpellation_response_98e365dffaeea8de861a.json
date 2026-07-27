@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_98e365dffaeea8de861a",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " 90 ans de vie à Vevey… et plus de visite ? ",
+    "source_title": "Interpellation de Mme Giuliana de Regibus (PS), intitulée « 90 ans de vie à Vevey… et plus de visite ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6035",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": "4ed23df769e04b449042f0a7d19402a85f036893bdd93835ce0411f31dba1db2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "1/2026",
+        "response_date": "2026-02-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 11945,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1829,
+      "clean_words": 1829,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1829
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_26993b10e028eedb3360",
+    "best_candidate_id": "vevey_interpellation_26993b10e028eedb3360",
+    "score": 1.0,
+    "second_score": 0.5019,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_98e365dffaeea8de861a"
+    ],
+    "official_reference": "2026/RI01"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "6035",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-02-05",
+        "author": "Giuliana De Regibus",
+        "reference": "2026/RI01",
+        "title": "Interpellation de Mme Giuliana de Regibus (PS), intitulée « 90 ans de vie à Vevey… et plus de visite ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6035",
+        "source_download_id": "6035"
+      }
+    ]
+  }
+}

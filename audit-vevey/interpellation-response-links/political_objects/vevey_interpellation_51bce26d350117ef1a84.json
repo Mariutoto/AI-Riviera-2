@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_51bce26d350117ef1a84",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Jérôme Christen (VL), intitulée « Pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale »",
+    "source_title": "Interpellation de M. Jérôme Christen (VL), intitulée « Pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6098",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-07",
+    "content_hash": "9d76c9e428f052f39692f2d9bebb7b15d8765919db74dc2004fc24f3f7724e44",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-05-07",
+    "responses": [
+      {
+        "response_number": "12/2026",
+        "response_date": "2026-06-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4920,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 721,
+      "clean_words": 721,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 721
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_51bce26d350117ef1a84",
+    "response_document_ids": [
+      "vevey_interpellation_response_d1446fb9da6967bc65dd"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. jérôme christen (vl), intitulée « pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale »",
+      "author": "Jérôme Christen",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2412,
+      2506
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0,
+      0
+    ],
+    "text_chars": 4920,
+    "text_words": 721,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "ca3803b5c0fb8176b42ecb17ffd3dc1a5db38a442e4db90169a5f15aa40f26f2"
+  }
+}

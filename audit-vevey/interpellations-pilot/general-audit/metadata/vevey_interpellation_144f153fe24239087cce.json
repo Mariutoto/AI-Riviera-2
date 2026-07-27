@@ -1,0 +1,69 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_144f153fe24239087cce",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Jennyfer Vincent (Vert·e·s), intitulée « Confidentialité et confort acoustique aux guichets de l’Office de la population de Vevey »",
+    "source_title": "Interpellation de Mme Jennyfer Vincent (Vert·e·s), intitulée « Confidentialité et confort acoustique aux guichets de l’Office de la population de Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6075",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "content_hash": "0381abdfb155f28caaa6e2bc50577de7aa95f6b09c22a07b61369d04098a41de",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "filed",
+    "interpellation_date": "2026-03-19",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1374,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 214,
+      "clean_words": 214,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 214
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_144f153fe24239087cce",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme jennyfer vincent (vert·e·s), intitulée « confidentialité et confort acoustique aux guichets de l’office de la population de vevey »",
+      "author": null,
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1376
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 1374,
+    "text_words": 214,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "e531bd9df0e905c3c8a98d30a1ce6bb2964c364116fd95af413118991a582d4e"
+  }
+}

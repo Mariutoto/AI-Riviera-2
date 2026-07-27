@@ -10,6 +10,8 @@ class Municipality:
     source_domain: str
     documents_directory: str
     search_enabled: bool = False
+    search_scope: str = ""
+    aliases: tuple[str, ...] = ()
 
 
 LA_TOUR_DE_PEILZ = Municipality(
@@ -25,6 +27,8 @@ VEVEY = Municipality(
     label="Vevey",
     source_domain="www.vevey.ch",
     documents_directory="vevey",
+    search_enabled=True,
+    search_scope="interpellations uniquement",
 )
 
 MONTREUX = Municipality(
@@ -34,9 +38,22 @@ MONTREUX = Municipality(
     documents_directory="montreux",
 )
 
+ASSOCIATION_SECURITE_RIVIERA = Municipality(
+    key="association-securite-riviera",
+    label="ASR – Association Sécurité Riviera",
+    source_domain="www.securite-riviera.ch",
+    documents_directory="association-securite-riviera",
+    aliases=("ASR", "Association Sécurité Riviera"),
+)
+
 MUNICIPALITIES = {
     municipality.key: municipality
-    for municipality in (LA_TOUR_DE_PEILZ, VEVEY, MONTREUX)
+    for municipality in (
+        LA_TOUR_DE_PEILZ,
+        VEVEY,
+        MONTREUX,
+        ASSOCIATION_SECURITE_RIVIERA,
+    )
 }
 
 

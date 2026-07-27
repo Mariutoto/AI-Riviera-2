@@ -32,3 +32,32 @@ python scrape-vevey/scrape_interpellations_pilot.py `
 Pour conserver temporairement les PDF, ajouter
 `--download-dir <répertoire>`. Les fichiers téléchargés ne doivent pas être
 ajoutés au dépôt avant validation de leur volume et de leur qualité.
+
+## Annexes et réponses aux interpellations
+
+La collecte des Annexes reste séparée de celle des interpellations. Elle
+parcourt toute la rubrique pour contrôler sa complétude, puis télécharge
+uniquement les entrées `RI` ou explicitement décrites comme réponses.
+
+```powershell
+python scrape-vevey/scrape_annexes_pilot.py `
+  --audit-candidates `
+  --download-dir audit-vevey/annexes-pilot/pdfs `
+  --output audit-vevey/annexes-pilot/inventory.json `
+  --html-output audit-vevey/annexes-pilot/audit.html
+```
+
+Le rapprochement est une troisième étape indépendante :
+
+```powershell
+python scrape-vevey/link_interpellation_responses.py `
+  --interpellations audit-vevey/interpellations-pilot/inventory.json `
+  --annexes audit-vevey/annexes-pilot/inventory.json `
+  --interpellation-metadata-dir audit-vevey/interpellations-pilot/general-audit/metadata `
+  --output-dir audit-vevey/interpellation-response-links
+```
+
+Le rapprochement ne crée automatiquement un lien que pour une correspondance
+exacte ou probable. Les résultats ambigus gardent un meilleur candidat pour
+la revue, mais leur `political_object_id` reste vide afin d'éviter une fausse
+relation.

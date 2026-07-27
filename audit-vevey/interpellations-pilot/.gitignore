@@ -1,0 +1,5 @@
+# Official source PDFs are reproducible from inventory.json.
+pdfs/
+
+# Raw API responses are reproducible; normalized OCR Markdown is retained.
+ocr_overrides/*.json

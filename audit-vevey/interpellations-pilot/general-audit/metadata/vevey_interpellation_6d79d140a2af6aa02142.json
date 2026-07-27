@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_6d79d140a2af6aa02142",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Marché populaire ou marché sous pression ? »",
+    "source_title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Marché populaire ou marché sous pression ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6103",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-07",
+    "content_hash": "c21d8552a0ff6d9603f7e46bab59a13e715b1dbe1827e7f3d0ee322181a50bb3",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sandra Marques"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-05-07",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3733,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 554,
+      "clean_words": 554,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 554
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_6d79d140a2af6aa02142",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme sandra marques (plr), intitulée « marché populaire ou marché sous pression ? »",
+      "author": "Sandra Marques",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      3799
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 3733,
+    "text_words": 554,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "423a59a4c927cad46eacfe9d3b003bd283d527e0ffeedd45c6dd168ff63c105c"
+  }
+}
