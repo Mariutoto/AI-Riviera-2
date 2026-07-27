@@ -508,9 +508,24 @@ def link_source_mentions(text: str, grouped_sources: list[dict]) -> str:
     that source's actual PDF — not an anchor into the Sources expander,
     since that's collapsed by default and an anchor into hidden content
     wouldn't do anything useful.
+
+    Remove citation-only recap paragraphs before linking them. Otherwise a
+    model-generated ``(Source 1, Source 2)`` footer is rendered as the
+    unhelpful duplicate line ``(PDF, PDF)`` above the Sources expander.
     """
     if not grouped_sources:
         return text
+
+    citation_only = re.compile(
+        r"^\s*(?:[\(\[]\s*)?"
+        r"(?:[\(\[]?\s*Source\s+\d+\s*[\)\]]?\s*[,;]?\s*)+"
+        r"(?:[\)\]]\s*)?[.!]?\s*$",
+        flags=re.IGNORECASE,
+    )
+    text = "\n".join(
+        line for line in text.splitlines()
+        if not citation_only.fullmatch(line)
+    ).rstrip("\n")
 
     def replace(match: re.Match) -> str:
         number = int(match.group(1))
