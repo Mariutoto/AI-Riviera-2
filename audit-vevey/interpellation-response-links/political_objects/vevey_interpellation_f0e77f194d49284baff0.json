@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_f0e77f194d49284baff0",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Int_2025-09-04_Iamartino-A-_-Vevey-sculpte-son-nom.pdf",
+    "source_title": "Int_2025-09-04_Iamartino-A-_-Vevey-sculpte-son-nom.pdf",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5888",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-25",
+    "content_hash": "0ea7e73c06b0f6d52cb7b41851d0e10f50c96d0e886adce4de4ad9823add3de7",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": "2025-08-25",
+    "responses": [
+      {
+        "response_number": "14/2025",
+        "response_date": "2025-11-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3017,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 436,
+      "clean_words": 436,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 436
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_f0e77f194d49284baff0",
+    "response_document_ids": [
+      "vevey_interpellation_response_78ce564e78dcf0f5b9f9"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "int_2025-09-04_iamartino-a-_-vevey-sculpte-son-nom",
+      "author": null,
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2878,
+      189
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      2
+    ],
+    "text_chars": 3017,
+    "text_words": 436,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "1c0c596c5fa73105c0c5d9ae92842f2e1ebb8b76a7240c2722acaf60aa07800b"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_01ea835e1aac93004efb",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Jérôme Christen (VL/Interpartis), intitulée « Du sport pour tous » pour passer du slogan à la réalité",
+    "source_title": "Interpellation de M. Jérôme Christen (VL/Interpartis), intitulée « Du sport pour tous » pour passer du slogan à la réalité",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5700",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "content_hash": "975bcaca6d8ad91d3294f1082156bb61996d83b8e7b3bfdef1e98d25e3c8f6cf",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-02-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2166,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 362,
+      "clean_words": 362,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 362
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_01ea835e1aac93004efb",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. jérôme christen (vl/interpartis), intitulée « du sport pour tous » pour passer du slogan à la réalité",
+      "author": "Jérôme Christen",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2176
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 2166,
+    "text_words": 362,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "2b038a474f7c99447b116426dc0ef7d8770100b2f4bcf18a6a4a6b940add59eb"
+  }
+}

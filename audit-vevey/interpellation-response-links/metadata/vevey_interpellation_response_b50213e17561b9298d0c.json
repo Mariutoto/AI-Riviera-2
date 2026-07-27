@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_b50213e17561b9298d0c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Fin de l’affichage politique libre – Surfaces officielles et autres compensations – Des précisions s’imposent ",
+    "source_title": "Interpellation de Mme Sarah Tobler (PLR), intitulée « Fin de l’affichage politique libre – Surfaces officielles et autres compensations – Des précisions s’imposent »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5966",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "35b116bd55711043e4bb0b5af2035d6389a4abad188820f465fbc31b3e4e0fcb",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "13/2025",
+        "response_date": "2025-11-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 9655,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1443,
+      "clean_words": 1443,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1443
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_6cf72380d75e1747616e",
+    "best_candidate_id": "vevey_interpellation_6cf72380d75e1747616e",
+    "score": 1.0,
+    "second_score": 0.4379,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_b50213e17561b9298d0c"
+    ],
+    "official_reference": "2025/RI13"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "5966",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-11-13",
+        "author": "Sarah Tobler",
+        "reference": "2025/RI13",
+        "title": "Interpellation de Mme Sarah Tobler (PLR), intitulée « Fin de l’affichage politique libre – Surfaces officielles et autres compensations – Des précisions s’imposent »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5966",
+        "source_download_id": "5966"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_a700b02315400023eb9c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Introduction du logiciel « eS.Legislative ",
+    "source_title": "Réponse à l’interpellation de M. Moïn Danai (UDC), intitulée « Introduction du logiciel « eS.Legislative » pour la gestion des documents du Conseil communal de Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6171",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-11",
+    "content_hash": "bb180d29576514915c5d2a38310fe88e95441e18af716a61949fbdd800697693",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "11/2026",
+        "response_date": "2026-06-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 28145,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 4267,
+      "clean_words": 4267,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 4267
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_c43f92a895538a6550b4",
+    "best_candidate_id": "vevey_interpellation_c43f92a895538a6550b4",
+    "score": 1.0,
+    "second_score": 0.5714,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_a700b02315400023eb9c"
+    ],
+    "official_reference": "2026/RI11"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "6171",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-06-11",
+        "author": "Moïn Danai",
+        "reference": "2026/RI11",
+        "title": "Réponse à l’interpellation de M. Moïn Danai (UDC), intitulée « Introduction du logiciel « eS.Legislative » pour la gestion des documents du Conseil communal de Vevey »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6171",
+        "source_download_id": "6171"
+      }
+    ]
+  }
+}

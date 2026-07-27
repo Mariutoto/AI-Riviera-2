@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_9061b9f90f4354208042",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Plan-Dessus : avec ou sans les commerçants et les habitant(e)s ? »",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Plan-Dessus : avec ou sans les commerçants et les habitant(e)s ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5986",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "0e2f36eeacec150e067690c3b0a1f3abb804cc8b88c99e3cf8697a7f04b09c45",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-13",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2009,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 324,
+      "clean_words": 324,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 324
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_9061b9f90f4354208042",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « plan-dessus : avec ou sans les commerçants et les habitant(e)s ? »",
+      "author": "Patrick Bertschy",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2010
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2009,
+    "text_words": 324,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "f8396ca52ed0f3b8745e94588f67057505c88d74460681e1acb10e65aa730a95"
+  }
+}

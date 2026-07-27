@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_c61d12825ac0f48445a4",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Quel avenir pour le Spark, projet socio-culturel et sportif pour les jeunes à la place Robin ? ",
+    "source_title": "Interpellation de M. Eric Bays (VL) et consort, intitulée « Quel avenir pour le Spark, projet socioculturel et sportif pour les jeunes de la place Robin ?»",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6002",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-04",
+    "content_hash": "eda3bc67b02a1a509a12f544c52b0b46ad5b0fd29058a3f8518479ed431e2780",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "17/2025",
+        "response_date": "2025-12-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10690,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1660,
+      "clean_words": 1660,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1660
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2a8c5dd498346062d69f",
+    "best_candidate_id": "vevey_interpellation_2a8c5dd498346062d69f",
+    "score": 1.0,
+    "second_score": 0.4174,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_c61d12825ac0f48445a4"
+    ],
+    "official_reference": "2025/RI17"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "6002",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-12-04",
+        "author": "Eric Bays",
+        "reference": "2025/RI17",
+        "title": "Interpellation de M. Eric Bays (VL) et consort, intitulée « Quel avenir pour le Spark, projet socioculturel et sportif pour les jeunes de la place Robin ?»",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6002",
+        "source_download_id": "6002"
+      }
+    ]
+  }
+}

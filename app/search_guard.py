@@ -3,6 +3,8 @@ from __future__ import annotations
 import re
 import unicodedata
 
+from municipal_pipeline.municipalities import MUNICIPALITIES
+
 
 DOCUMENT_TYPE_KEYWORDS = {
     "Interpellations": ("interpellation", "interpellations"),
@@ -43,21 +45,34 @@ def filter_guard_message(
 ) -> str | None:
     """Return a user-facing warning when explicit question terms conflict with filters."""
     normalized = _normalize(question)
+    enabled_city_labels = {
+        municipality.label
+        for municipality in MUNICIPALITIES.values()
+        if municipality.search_enabled
+    }
+    available_cities_text = " ou ".join(sorted(enabled_city_labels))
 
-    unavailable_cities = [
-        city for city in ("Vevey", "Montreux") if re.search(rf"\b{city.lower()}\b", normalized)
-    ]
+    unavailable_cities = []
+    for municipality in MUNICIPALITIES.values():
+        if municipality.search_enabled:
+            continue
+        names = (municipality.label, *municipality.aliases)
+        if any(
+            re.search(rf"\b{re.escape(_normalize(name))}\b", normalized)
+            for name in names
+        ):
+            unavailable_cities.append(municipality.label)
     if unavailable_cities:
         city = unavailable_cities[0]
         return (
             f"Attention : votre question mentionne {city}, mais ses documents ne sont pas "
-            "encore disponibles. Pour l’instant, recherchez uniquement La Tour-de-Peilz."
+            f"encore disponibles. Pour l’instant, recherchez uniquement {available_cities_text}."
         )
 
-    if selected_city not in {"all", "La Tour-de-Peilz"}:
+    if selected_city != "all" and selected_city not in enabled_city_labels:
         return (
             f"Attention : {selected_city} n’est pas encore disponible. "
-            "Choisissez « Toutes » ou « La Tour-de-Peilz »."
+            f"Choisissez « Toutes » ou « {available_cities_text} »."
         )
 
     years = set(re.findall(r"\b20(?:21|22|23|24|25|26)\b", normalized))

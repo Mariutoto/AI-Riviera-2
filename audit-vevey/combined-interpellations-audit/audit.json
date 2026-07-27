@@ -1,0 +1,271 @@
+{
+  "schema_version": "vevey-combined-interpellations-audit-v1",
+  "summary": {
+    "interpellation_documents": 43,
+    "interpellation_chunks": 63,
+    "response_documents": 25,
+    "validated_responses": 21,
+    "responses_needing_review": 4,
+    "response_chunks": 111,
+    "embedding_chunks_total": 174,
+    "ocr_required": 0
+  },
+  "sources": {
+    "interpellation_chunks": "audit-vevey/interpellations-pilot/general-audit/chunks/*.json",
+    "interpellation_metadata": "audit-vevey/interpellation-response-links/political_objects/*.json",
+    "response_chunks": "audit-vevey/combined-interpellations-audit/chunks/responses/*.json",
+    "response_metadata": "audit-vevey/combined-interpellations-audit/metadata/responses/*.json"
+  },
+  "responses": [
+    {
+      "document_id": "vevey_interpellation_response_029ff94fd8231e14d2e7",
+      "reference": "2/2025",
+      "title": "Comptes et études, éclaircir le brouillard…",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.4411,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_074d22aae8983495d2d7",
+      "reference": "8/2026",
+      "title": "Quand les choix de la majorité municipale fragilisent les commerces de notre vieille-ville !",
+      "object_id": "vevey_interpellation_ab508a170cdff328434f",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_117375022bd93ee5fdff",
+      "reference": "10/2025",
+      "title": "Accès proactif aux documents publics de la Commune",
+      "object_id": "vevey_interpellation_f91b9a5c4910adb72fd5",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_310a8bcf5e9e55c48a31",
+      "reference": "2/2026",
+      "title": "Neutralité dans l’art subventionné",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.64,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_3443d627f680dab83893",
+      "reference": "11/2025",
+      "title": "La technologie embarquée comme aide à la conduite automobile",
+      "object_id": "vevey_interpellation_edca1ae7421294b2fc2f",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_43a6a6cf3a3e844ed133",
+      "reference": "7/2026",
+      "title": "Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ?",
+      "object_id": "vevey_interpellation_3f273da6b58bb72bf673",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_5a46e0a7c76210a757fa",
+      "reference": "4/2025",
+      "title": "Du sport pour tous pour passer du slogan à la réalité",
+      "object_id": "vevey_interpellation_01ea835e1aac93004efb",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 7,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_6ab9e130a30b822e4ce2",
+      "reference": "18/2025",
+      "title": "Collection Planque : quelles conséquences financières et stratégiques pour la Ville ?",
+      "object_id": "vevey_interpellation_00843ad0e8e6221402fc",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_751f1ccdd768d241b9f2",
+      "reference": "5/2025",
+      "title": "Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions…",
+      "object_id": "vevey_interpellation_e8f9632d26b160e166cc",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_78ce564e78dcf0f5b9f9",
+      "reference": "14/2025",
+      "title": "# VEVEY sculpte son nom",
+      "object_id": "vevey_interpellation_f0e77f194d49284baff0",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_7bcf35a8a3aabdd2abcc",
+      "reference": "7/2025",
+      "title": "Prévenir vaut mieux que …guérir, ou pas !",
+      "object_id": "vevey_interpellation_317d74e60dd161bad6ef",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 11,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_9642d101c5ea13a182c1",
+      "reference": "8/2025",
+      "title": "Un centre sportif régional loin de tout, en zone agricole, vraiment ?",
+      "object_id": "vevey_interpellation_fc18b9ae97efb48f338a",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 8,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_98e365dffaeea8de861a",
+      "reference": "1/2026",
+      "title": "90 ans de vie à Vevey… et plus de visite ?",
+      "object_id": "vevey_interpellation_26993b10e028eedb3360",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_9eb5f74204ea59755e5a",
+      "reference": "9/2025",
+      "title": "L’apprentissage en question",
+      "object_id": "vevey_interpellation_d7621f242a111477f6df",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_9ef2e3bc31ed26cd94ef",
+      "reference": "15/2025",
+      "title": "Neutralité institutionnelle de la Commune",
+      "object_id": "vevey_interpellation_7d0becfbde8d0cc43ab4",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_a700b02315400023eb9c",
+      "reference": "11/2026",
+      "title": "Introduction du logiciel « eS.Legislative",
+      "object_id": "vevey_interpellation_c43f92a895538a6550b4",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 11,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_a7cfc0978f545f7f2649",
+      "reference": "4/2026",
+      "title": "Écrans publicitaires : risques pour la sécurité routière",
+      "object_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_b50213e17561b9298d0c",
+      "reference": "13/2025",
+      "title": "Fin de l’affichage politique libre – Surfaces officielles et autres compensations – Des précisions s’imposent",
+      "object_id": "vevey_interpellation_6cf72380d75e1747616e",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c61d12825ac0f48445a4",
+      "reference": "17/2025",
+      "title": "Quel avenir pour le Spark, projet socio-culturel et sportif pour les jeunes à la place Robin ?",
+      "object_id": "vevey_interpellation_2a8c5dd498346062d69f",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_cd806fc27c9ff499ed0b",
+      "reference": "9/2026",
+      "title": "Les murs phoniques rendent-ils muets les porte-paroles",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.4564,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d1446fb9da6967bc65dd",
+      "reference": "12/2026",
+      "title": "Pour une meilleure cohérence, lisibilité et coordination de la politique alimentaire communale",
+      "object_id": "vevey_interpellation_51bce26d350117ef1a84",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 7,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e26091bf6a410b0bc934",
+      "reference": "8bis/2025",
+      "title": "Un centre sportif régional loin de tout, en zone agricole, vraiment ?",
+      "object_id": "vevey_interpellation_fc18b9ae97efb48f338a",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 1,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e2e93974d7481e698f33",
+      "reference": "6/2026",
+      "title": "Nul n'est censé ignorer la loi. Encore faut-il pouvoir y accéder",
+      "object_id": "vevey_interpellation_8744ca337a279b0b1f0e",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e54254b1d83cf69264be",
+      "reference": "12/2025",
+      "title": "Supprimer des places de stationnement, c’est fabriquer du chaos !",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.4636,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_f10c9af0b83bafb612cd",
+      "reference": "10/2026",
+      "title": "Marché populaire ou marché sous pression ?",
+      "object_id": "vevey_interpellation_6d79d140a2af6aa02142",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_cd806fc27c9ff499ed0b",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Les murs phoniques rendent-ils muets les porte-paroles",
+    "source_title": "Réponse à l’interpellation de M. Jacques Zaugg (PLR), intitulée « Les murs phoniques rendent-ils muets les porte-paroles »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6167",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-11",
+    "content_hash": "25267bde505c1ed9c47af1dbbbcf1a10a1f96d1d07e4c41a766ddc2be0c56792",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "9/2026",
+        "response_date": "2026-06-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6564,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1064,
+      "clean_words": 1064,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1064
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_73affc386e3a731d9459",
+    "score": 0.4564,
+    "second_score": 0.453,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_cd806fc27c9ff499ed0b"
+    ],
+    "official_reference": "2026/RI09"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "6167",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-06-11",
+        "author": "Jacques Zaugg",
+        "reference": "2026/RI09",
+        "title": "Réponse à l’interpellation de M. Jacques Zaugg (PLR), intitulée « Les murs phoniques rendent-ils muets les porte-paroles »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6167",
+        "source_download_id": "6167"
+      }
+    ]
+  }
+}

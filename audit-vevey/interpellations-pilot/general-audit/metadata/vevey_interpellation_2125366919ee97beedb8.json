@@ -1,0 +1,77 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2125366919ee97beedb8",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Cyril Gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+    "source_title": "Interpellation de M. Cyril Gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6100",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-07",
+    "content_hash": "519af3c6ba3f1a5d7f615fd1fd90d25bd5c23ad70d253ba451cbcb3724a90bd2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Cyril Gros"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-05-07",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6892,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1133,
+      "clean_words": 1133,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1133
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2125366919ee97beedb8",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. cyril gros (da.), intitulée « 30km/h : un engagement à mener à bien »",
+      "author": "Cyril Gros",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 3,
+    "page_text_chars": [
+      1895,
+      2889,
+      2227
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      2,
+      0,
+      0
+    ],
+    "text_chars": 6892,
+    "text_words": 1133,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "82328b725bd9d7eecb7aa5dcfd050ca9575cba608790148e694a8c2bc5983b79"
+  }
+}

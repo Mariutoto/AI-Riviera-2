@@ -22,17 +22,32 @@ from app.pilot_v2_store import ready as pilot_v2_ready
 from app.retrieval import search
 from app.search_guard import filter_guard_message
 from app.text_cleaning import fix_mojibake, format_date
+from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
     "Quelles interpellations ont reçu une réponse en 2025 ?",
     "Quels postulats ont été déposés en 2024 ?",
 ]
 
-CITY_OPTIONS = {
-    "all": "Toutes",
-    "La Tour-de-Peilz": "La Tour-de-Peilz",
-    "Vevey": "Vevey — à venir",
-    "Montreux": "Montreux — à venir",
+CITY_OPTIONS = {"all": "Toutes"}
+CITY_OPTIONS.update(
+    {
+        municipality.label: (
+            (
+                f"{municipality.label} — {municipality.search_scope}"
+                if municipality.search_scope
+                else municipality.label
+            )
+            if municipality.search_enabled
+            else f"{municipality.label} — à venir"
+        )
+        for municipality in MUNICIPALITIES.values()
+    }
+)
+SEARCH_ENABLED_CITIES = {
+    municipality.label
+    for municipality in MUNICIPALITIES.values()
+    if municipality.search_enabled
 }
 ALL_YEARS = "Toutes"
 YEAR_OPTIONS = [ALL_YEARS, "2026", "2025", "2024", "2023", "2022", "2021"]
@@ -236,6 +251,9 @@ st.markdown(
 
 def current_filters() -> dict | None:
     filters = {}
+    city = st.session_state.get("search_city", "all")
+    if city != "all":
+        filters["city"] = city
     year = st.session_state.get("search_year", ALL_YEARS)
     if year != ALL_YEARS:
         filters["year"] = year
@@ -850,13 +868,25 @@ with chat_tab:
         filter_columns = st.columns(3)
         with filter_columns[0]:
             selected_city = st.selectbox(
-                "Ville",
+                "Institution",
                 options=list(CITY_OPTIONS),
                 format_func=CITY_OPTIONS.get,
                 key="search_city",
                 disabled=st.session_state.pending_question is not None,
                 on_change=clear_filter_warning,
             )
+            selected_institution = next(
+                (
+                    municipality
+                    for municipality in MUNICIPALITIES.values()
+                    if municipality.label == selected_city
+                ),
+                None,
+            )
+            if selected_institution and selected_institution.search_scope:
+                st.caption(
+                    f"Périmètre actuel : {selected_institution.search_scope}."
+                )
         with filter_columns[1]:
             selected_year = st.selectbox(
                 "Année",
@@ -874,7 +904,7 @@ with chat_tab:
                 on_change=clear_filter_warning,
             )
 
-    city_available = selected_city in {"all", "La Tour-de-Peilz"}
+    city_available = selected_city == "all" or selected_city in SEARCH_ENABLED_CITIES
     if not city_available:
         st.caption(
             f"*{selected_city} sera disponible prochainement. Sélectionnez Toutes "

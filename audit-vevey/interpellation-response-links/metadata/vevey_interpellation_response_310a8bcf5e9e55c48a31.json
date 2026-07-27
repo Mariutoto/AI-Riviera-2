@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_310a8bcf5e9e55c48a31",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Neutralité dans l’art subventionné",
+    "source_title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Neutralité dans l’art subventionné »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6036",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": "8c48c6ef66b3e75fa4aec6ff691e087f2bb24419967c5899457b57152c8822c4",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "2/2026",
+        "response_date": "2026-02-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 12855,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1966,
+      "clean_words": 1966,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1966
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_7d0becfbde8d0cc43ab4",
+    "score": 0.64,
+    "second_score": 0.5,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_310a8bcf5e9e55c48a31"
+    ],
+    "official_reference": "2026/RI02"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-annexes",
+    "source_download_id": "6036",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-02-05",
+        "author": "Sarah Dohr",
+        "reference": "2026/RI02",
+        "title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Neutralité dans l’art subventionné »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6036",
+        "source_download_id": "6036"
+      }
+    ]
+  }
+}

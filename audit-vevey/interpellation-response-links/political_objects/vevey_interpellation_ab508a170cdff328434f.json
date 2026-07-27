@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_ab508a170cdff328434f",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Quand les choix de la majorité municipale fragilisent les commerces de notre Vieille-Ville »",
+    "source_title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Quand les choix de la majorité municipale fragilisent les commerces de notre Vieille-Ville »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6046",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": "45ab8e437494d7531886e4125cc7307d91235c596c7aa8e17ce9a64d0d3b20a2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anna Iamartino"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-02-05",
+    "responses": [
+      {
+        "response_number": "8/2026",
+        "response_date": "2026-02-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3240,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 495,
+      "clean_words": 495,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 495
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_ab508a170cdff328434f",
+    "response_document_ids": [
+      "vevey_interpellation_response_074d22aae8983495d2d7"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme anna iamartino (plr), intitulée « quand les choix de la majorité municipale fragilisent les commerces de notre vieille-ville »",
+      "author": "Anna Iamartino",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      3241
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 3240,
+    "text_words": 495,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "4b948af1555025c28c78b053135949e2ad63f915b2d4d4c8508be91813a17160"
+  }
+}
