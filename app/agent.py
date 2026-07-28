@@ -162,7 +162,32 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
 
     documents: dict[str, dict] = {}
     for row in rows:
-        entry = documents.setdefault(row["document_id"], {"title": row["title"], "authors": set()})
+        metadata = row.get("metadata") or {}
+        raw_communes = metadata.get("commune") or metadata.get("city")
+        if isinstance(raw_communes, (list, tuple, set)):
+            communes = tuple(
+                sorted(str(commune).strip() for commune in raw_communes if str(commune).strip())
+            )
+        elif raw_communes:
+            communes = (str(raw_communes).strip(),)
+        else:
+            communes = ()
+
+        if len(communes) > 1:
+            commune_group = "Plusieurs communes concernées"
+        elif communes:
+            commune_group = communes[0]
+        else:
+            commune_group = "Commune non précisée"
+
+        entry = documents.setdefault(
+            row["document_id"],
+            {
+                "title": row["title"],
+                "authors": set(),
+                "commune_group": commune_group,
+            },
+        )
         entry["authors"].add(row["author_name"])
 
     subject = _DOC_TYPE_NOUN.get(filters.get("doc_type"), "documents")
@@ -176,8 +201,21 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
     ]
     if documents:
         lines.append("")
-        for info in sorted(documents.values(), key=lambda item: item["title"]):
-            lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
+        commune_groups: dict[str, list[dict]] = {}
+        for info in documents.values():
+            commune_groups.setdefault(info["commune_group"], []).append(info)
+
+        if len(commune_groups) == 1:
+            only_group = next(iter(commune_groups.values()))
+            for info in sorted(only_group, key=lambda item: item["title"]):
+                lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
+        else:
+            for commune, group_documents in sorted(commune_groups.items()):
+                lines.append(f"### {commune}")
+                for info in sorted(group_documents, key=lambda item: item["title"]):
+                    lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
+                lines.append("")
+            lines.pop()
 
     answer = "\n".join(lines)
     results = [_aggregate_result_row_to_result(row) for row in rows]

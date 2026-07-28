@@ -17,6 +17,8 @@ Quand une source est marquée "source canonique", utilise-la en priorité pour i
 SYSTEM_PROMPT += """
 N'invente jamais de noms de personnes, co-auteurs, dates, chiffres ou faits absents des extraits fournis. Si un auteur est identifié dans les extraits seulement comme un groupe ou un parti (sans nom propre), ne lui attribue pas de nom propre inventé."""
 SYSTEM_PROMPT += """
+Lorsque les sources concernent plusieurs communes, organise par défaut la réponse dans une section distincte par commune, quel que soit le type de document. Ne mélange les résultats que si l'utilisateur le demande explicitement. Regroupe dans une section "Plusieurs communes concernées" les documents dont les métadonnées indiquent plusieurs communes."""
+SYSTEM_PROMPT += """
 Reste bref dans le corps de la réponse: une synthèse de quelques phrases suffit. Chaque source est déjà listée séparément avec son titre, son auteur, sa date et une courte description — ne recopie pas ces détails ni le contenu complet de chaque extrait dans le texte de la réponse."""
 
 QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
@@ -144,6 +146,7 @@ def build_context(results: list[dict]) -> str:
         title = metadata.get("filename") or metadata.get("title") or source.get("relative_text_path", "document")
         year = metadata.get("year") or metadata.get("date", "")
         category = metadata.get("category") or metadata.get("doc_type", "")
+        commune = metadata.get("commune") or metadata.get("city") or "commune non précisée"
         url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or ""
         source_kind = ""
         if metadata.get("canonical_object") is True:
@@ -155,7 +158,7 @@ def build_context(results: list[dict]) -> str:
             for passage_index, passage in enumerate(source["passages"], start=1)
         )
         blocks.append(
-            f"[Source {index}] {title} | {year} | {category}{source_kind} | {url}\n"
+            f"[Source {index}] {title} | Commune: {commune} | {year} | {category}{source_kind} | {url}\n"
             f"{passages}"
         )
     return "\n\n---\n\n".join(blocks)
