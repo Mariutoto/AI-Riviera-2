@@ -17,8 +17,12 @@ from app.answer import (
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
-from app.pilot_v2_store import aggregate_authors, fetch_document_chunks
-from app.text_cleaning import strip_accents
+from app.pilot_v2_store import (
+    aggregate_authors,
+    answered_political_objects,
+    fetch_document_chunks,
+)
+from app.text_cleaning import fix_mojibake, format_date, strip_accents
 from municipal_pipeline.municipalities import MUNICIPALITIES
 
 WEAK_SCORE_THRESHOLD = 0.75
@@ -272,6 +276,151 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
     answer = "\n".join(lines)
     results = [_aggregate_result_row_to_result(row) for row in rows]
     return answer, results
+
+
+def _answered_result_row_to_result(row: dict) -> dict:
+    metadata = dict(row.get("metadata") or {})
+    metadata.update({
+        "title": fix_mojibake(str(row["title"])).strip(),
+        "category": row["category"],
+        "doc_type": row["category"],
+        "document_id": row["document_id"],
+        "canonical_object": True,
+    })
+    if row.get("summary"):
+        metadata["summary"] = row["summary"]
+    source_url = (
+        metadata.get("file_url")
+        or metadata.get("source_url")
+        or metadata.get("source_page_url")
+        or ""
+    )
+    return {
+        "id": f"{row['document_id']}#answered",
+        "chunk_id": f"{row['document_id']}#answered",
+        "document_id": row["document_id"],
+        "chunk_index": 0,
+        "component": "answered_political",
+        "content": "",
+        "text": "",
+        "title": metadata["title"],
+        "category": row["category"],
+        "doc_type": row["category"],
+        "source_url": source_url,
+        "metadata": metadata,
+        "score": 1.0,
+        "_score": 1.0,
+        "_search_source": "answered_political_metadata",
+    }
+
+
+def _political_metadata(metadata: dict, category: str) -> dict:
+    additional = metadata.get("additional_metadata") or {}
+    return additional.get(f"{category}_metadata") or {}
+
+
+def _authors_for_answered_row(row: dict) -> list[dict]:
+    object_metadata = row.get("political_object_metadata") or row.get("metadata") or {}
+    authors = list(
+        _political_metadata(object_metadata, row["category"]).get("authors") or []
+    )
+    source_title = fix_mojibake(str((row.get("metadata") or {}).get("source_title") or ""))
+    title_match = re.search(
+        r"\b(?:de|par)\s+(?:M(?:me)?\.?\s+)?(.+?)\s+\(([^)]+)\)",
+        source_title,
+        flags=re.IGNORECASE,
+    )
+    if title_match:
+        parsed_name = title_match.group(1).strip()
+        parsed_party = title_match.group(2).strip()
+        if not authors:
+            authors = [{"name": parsed_name, "party": parsed_party}]
+        elif len(authors) == 1 and not authors[0].get("party"):
+            authors[0] = {**authors[0], "party": parsed_party}
+    return authors
+
+
+def _format_authors(authors: list[dict]) -> str:
+    formatted = []
+    for author in authors:
+        if not isinstance(author, dict) or not author.get("name"):
+            continue
+        name = fix_mojibake(str(author["name"])).strip()
+        party = fix_mojibake(str(author.get("party") or "")).strip()
+        formatted.append(f"{name} ({party})" if party else name)
+    return ", ".join(formatted)
+
+
+def run_answered_political_query(filters: dict) -> tuple[str, list[dict]]:
+    """Build an exact, consistently formatted list of confirmed responses."""
+    rows = answered_political_objects(filters)
+    results = [_answered_result_row_to_result(row) for row in rows]
+    source_number_by_document = {
+        result["document_id"]: index
+        for index, result in enumerate(results, start=1)
+    }
+
+    objects: dict[str, dict] = {}
+    for row in rows:
+        metadata = row.get("metadata") or {}
+        additional = metadata.get("additional_metadata") or {}
+        relationships = additional.get("relationships") or {}
+        object_id = relationships.get("political_object_id") or row["document_id"]
+        object_metadata = row.get("political_object_metadata") or metadata
+        political = _political_metadata(object_metadata, row["category"])
+        entry = objects.setdefault(
+            object_id,
+            {
+                "title": fix_mojibake(str(row["title"])).strip(),
+                "commune": fix_mojibake(str(metadata.get("commune") or "Commune non précisée")),
+                "authors": _authors_for_answered_row(row),
+                "deposit_date": political.get("interpellation_date")
+                or political.get("deposit_date"),
+                "responses": [],
+            },
+        )
+        for response in row.get("responses") or []:
+            entry["responses"].append({
+                **response,
+                "source_number": source_number_by_document[row["document_id"]],
+            })
+
+    by_commune: dict[str, list[dict]] = {}
+    for entry in objects.values():
+        by_commune.setdefault(entry["commune"], []).append(entry)
+
+    subject = _DOC_TYPE_NOUN.get(filters.get("doc_type"), "objets politiques")
+    response_year = filters.get("response_year") or filters.get("year")
+    year_note = f" en {response_year}" if response_year else ""
+    lines = [
+        f"{len(objects)} {subject} avec une réponse confirmée dans les métadonnées{year_note}."
+    ]
+    for commune, commune_objects in sorted(by_commune.items()):
+        lines.extend(["", f"### {commune}", ""])
+        for entry in sorted(commune_objects, key=lambda item: item["title"]):
+            parts = [f"- **« {entry['title']} »**"]
+            authors = _format_authors(entry["authors"])
+            if authors:
+                parts.append(f"Auteur : {authors}")
+            if entry.get("deposit_date"):
+                parts.append(f"Dépôt : {format_date(entry['deposit_date'])}")
+
+            response_parts = []
+            for response in sorted(
+                entry["responses"],
+                key=lambda item: str(item.get("response_date") or ""),
+            ):
+                number = response.get("response_number")
+                label = f"Réponse municipale n° {number}" if number else "Réponse municipale"
+                if response.get("response_date"):
+                    label += f" du {format_date(response['response_date'])}"
+                label += f" (Source {response['source_number']})"
+                response_parts.append(label)
+            if response_parts:
+                parts.append(" ; ".join(response_parts))
+            lines.append(" — ".join(parts) + ".")
+
+    return "\n".join(lines), results
 
 
 def _unique_document_count(results: list[dict]) -> int:
@@ -536,6 +685,19 @@ def run_agentic_pipeline(
 
     _notify(on_stage, "Analyse de la question...")
     stage_started_at = time.perf_counter()
+    answered_filters = retrieval.detect_answered_political_query(question)
+    if answered_filters is not None:
+        answered_filters = {**answered_filters, **filters}
+        trace["mode"] = "answered_political"
+        trace["answered_filters"] = answered_filters
+        _notify(on_stage, "Recherche des réponses confirmées...")
+        answer, results = run_answered_political_query(answered_filters)
+        trace["timings_ms"]["answered_query"] = _elapsed_ms(stage_started_at)
+        trace["duration_seconds"] = round(time.perf_counter() - started_at, 1)
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
+        record_diagnostic("agent", "Agentic pipeline trace", trace=trace, question=question[:200])
+        return answer, results, trace
+
     aggregate_filters = retrieval.detect_aggregate_query(question)
     trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:

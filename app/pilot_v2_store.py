@@ -334,6 +334,69 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
         return cursor.fetchall()
 
 
+def answered_political_objects(filters: dict | None = None) -> list[dict]:
+    """Return political-object response documents confirmed by metadata."""
+    filters = dict(filters or {})
+    clauses = [
+        "d.document_role IN ('municipal_response', 'combined_interpellation_response')"
+    ]
+    params: list[object] = []
+
+    city = str(filters.get("city") or "").strip()
+    if city and city.lower() != "all":
+        clauses.append("d.metadata->>'commune' = %s")
+        params.append(city)
+
+    doc_type = str(filters.get("doc_type") or "").lower()
+    if doc_type in CATEGORY_MAP:
+        clauses.append("d.category = %s")
+        params.append(CATEGORY_MAP[doc_type])
+
+    where_sql = "WHERE " + " AND ".join(clauses)
+    sql = f"""
+        SELECT d.document_id, d.title, d.category, d.document_role, d.summary, d.metadata,
+               original.metadata AS political_object_metadata
+        FROM documents d
+        LEFT JOIN documents original
+          ON original.document_id =
+             d.metadata #>> '{{additional_metadata,relationships,political_object_id}}'
+        {where_sql}
+        ORDER BY d.metadata->>'commune', d.metadata->>'document_date', d.title
+    """
+
+    response_year = str(filters.get("response_year") or filters.get("year") or "")
+    output: list[dict] = []
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, params)
+        for row in cursor.fetchall():
+            metadata = row.get("metadata") or {}
+            additional = metadata.get("additional_metadata") or {}
+            category_key = f"{row['category']}_metadata"
+            political_metadata = additional.get(category_key) or {}
+            responses = political_metadata.get("responses") or []
+            if not responses and metadata.get("document_date"):
+                responses = [{
+                    "response_date": metadata["document_date"],
+                    "response_type": "municipal_response",
+                    "response_number": None,
+                    "municipal_adoption_date": None,
+                }]
+
+            matched_responses = [
+                response
+                for response in responses
+                if not response_year
+                or str(response.get("response_date") or "").startswith(response_year)
+            ]
+            if not matched_responses:
+                continue
+
+            enriched = dict(row)
+            enriched["responses"] = matched_responses
+            output.append(enriched)
+    return output
+
+
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
     filters = dict(filters or {})
     vector = _vector_literal(embed_query(query))

@@ -712,6 +712,12 @@ def render_trace(trace: dict) -> None:
                 "à partir des métadonnées (auteurs, année, type de document), sans passer par une "
                 "recherche sémantique ni un modèle de langage — donc pas de risque de sous-comptage."
             )
+        elif trace.get("mode") == "answered_political":
+            st.write(
+                "Liste calculée directement à partir des documents de réponse et de leurs "
+                "métadonnées (date, numéro et objet politique lié), sans déduire le statut "
+                "depuis la similarité du texte."
+            )
         if trace.get("relance"):
             st.write("Une recherche complémentaire a été relancée car les premiers résultats étaient faibles.")
         if trace.get("cross_reference_authors"):
@@ -777,7 +783,7 @@ def cached_answer_question(
             "reranked_passages": len(results),
         }
 
-    if trace.get("mode") != "aggregate" and "source_blurbs" not in trace:
+    if trace.get("mode") not in {"aggregate", "answered_political"} and "source_blurbs" not in trace:
         # Aggregate answers are synthetic rows with no real passage text —
         # nothing meaningful to summarize, and they're already complete
         # (authors shown inline) without a blurb. The agentic path already

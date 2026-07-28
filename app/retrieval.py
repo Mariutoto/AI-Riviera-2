@@ -48,6 +48,39 @@ _CIVILITY_MARKERS = {"femmes": "Mme", "femme": "Mme", "hommes": "M.", "homme": "
 _COUNTABLE_DOC_TYPES = {"interpellations", "postulats", "motions"}
 
 
+def detect_answered_political_query(query: str) -> dict | None:
+    """Detect requests that enumerate political objects with an actual response.
+
+    These must be answered from response metadata, not semantic similarity:
+    retrieving an interpellation that merely asks for a response does not prove
+    that a response was later issued.
+    """
+    normalized_query = strip_accents(query).lower()
+    asks_for_list = (
+        re.search(
+            r"\bquel(?:le)?s?\s+(?:sont les\s+)?interpellations\b",
+            normalized_query,
+        )
+        or re.search(r"\bliste(?:r|z)?\b.*\binterpellations\b", normalized_query)
+    )
+    mentions_received_response = re.search(
+        r"\b(?:ont|ayant|avec)\s+rec(?:u|ue|us|ues)\s+(?:une|des)\s+reponses?\b",
+        normalized_query,
+    )
+    if not asks_for_list or not mentions_received_response:
+        return None
+
+    doc_type = _detect_doc_type(query, normalized_query)
+    if doc_type != "interpellations":
+        return None
+
+    filters = {"doc_type": doc_type, "answered_only": True}
+    year = _detect_year(normalized_query)
+    if year:
+        filters["response_year"] = year
+    return filters
+
+
 def detect_aggregate_query(query: str) -> dict | None:
     """Detect "combien de ..." / "liste tous les ..." questions that need a real
     count/enumeration over structured metadata rather than semantic search over

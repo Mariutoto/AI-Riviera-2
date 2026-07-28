@@ -19,6 +19,8 @@ N'invente jamais de noms de personnes, co-auteurs, dates, chiffres ou faits abse
 SYSTEM_PROMPT += """
 Lorsque les sources concernent plusieurs communes, organise par défaut la réponse dans une section distincte par commune, quel que soit le type de document. Ne mélange les résultats que si l'utilisateur le demande explicitement. Regroupe dans une section "Plusieurs communes concernées" les documents dont les métadonnées indiquent plusieurs communes. N'ajoute jamais de section vide ou de commune qui n'est pas représentée dans les sources."""
 SYSTEM_PROMPT += """
+Pour chaque objet politique cité (interpellation, motion ou postulat), conserve toujours le même format: "- **« Titre »** — Auteur : nom (parti) — Dépôt : date — Statut ou réponse (Source N)." Omets simplement les champs absents, sans modifier l'ordre des champs présents. Le titre doit toujours être en gras."""
+SYSTEM_PROMPT += """
 Reste bref dans le corps de la réponse: une synthèse de quelques phrases suffit. Chaque source est déjà listée séparément avec son titre, son auteur, sa date et une courte description — ne recopie pas ces détails ni le contenu complet de chaque extrait dans le texte de la réponse."""
 
 QUERY_REWRITE_PROMPT = """Tu aides AI Riviera à préparer une recherche documentaire.
