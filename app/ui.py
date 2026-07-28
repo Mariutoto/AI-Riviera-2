@@ -25,8 +25,8 @@ from app.text_cleaning import fix_mojibake, format_date
 from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
-    "Quelles interpellations ont reçu une réponse en 2025 ?",
-    "Quels postulats ont été déposés en 2024 ?",
+    "Quelles interpellations de 2025 ont reçu une réponse ?",
+    "Quels sont les sujets des postulats de La Tour-de-Peilz en 2024 ?",
 ]
 
 CITY_OPTIONS = {"all": "Toutes"}

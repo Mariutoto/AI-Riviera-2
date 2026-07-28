@@ -70,6 +70,20 @@ class AnsweredPoliticalQueryTests(unittest.TestCase):
             },
         )
 
+    def test_interpellations_of_year_filters_deposit_year(self):
+        filters = retrieval.detect_answered_political_query(
+            "Quelles interpellations de 2025 ont reçu une réponse ?"
+        )
+
+        self.assertEqual(
+            filters,
+            {
+                "doc_type": "interpellations",
+                "answered_only": True,
+                "year": "2025",
+            },
+        )
+
     def test_does_not_capture_question_about_one_named_response(self):
         self.assertIsNone(
             retrieval.detect_answered_political_query(

@@ -351,6 +351,9 @@ def answered_political_objects(filters: dict | None = None) -> list[dict]:
     if doc_type in CATEGORY_MAP:
         clauses.append("d.category = %s")
         params.append(CATEGORY_MAP[doc_type])
+    if filters.get("year"):
+        clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
+        params.append(str(filters["year"]))
 
     where_sql = "WHERE " + " AND ".join(clauses)
     sql = f"""
@@ -364,7 +367,7 @@ def answered_political_objects(filters: dict | None = None) -> list[dict]:
         ORDER BY d.metadata->>'commune', d.metadata->>'document_date', d.title
     """
 
-    response_year = str(filters.get("response_year") or filters.get("year") or "")
+    response_year = str(filters.get("response_year") or "")
     output: list[dict] = []
     with _connect() as connection, connection.cursor() as cursor:
         cursor.execute(sql, params)

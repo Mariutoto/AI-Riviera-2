@@ -36,6 +36,25 @@ SEARCH_ENABLED_CITY_LABELS = tuple(
     if municipality.search_enabled
 )
 
+
+def apply_question_city_scope(question: str, filters: dict) -> dict:
+    """Use one explicitly named enabled commune when the UI filter is Toutes."""
+    selected_city = str(filters.get("city") or "").strip()
+    if selected_city and selected_city.lower() != "all":
+        return filters
+
+    normalized_question = strip_accents(question).lower()
+    mentioned = []
+    for municipality in MUNICIPALITIES.values():
+        if not municipality.search_enabled:
+            continue
+        names = (municipality.label, *municipality.aliases)
+        if any(strip_accents(name).lower() in normalized_question for name in names):
+            mentioned.append(municipality.label)
+    if len(mentioned) == 1:
+        return {**filters, "city": mentioned[0]}
+    return filters
+
 # Political-object documents are small (interpellations/postulats/motions
 # average 4-5 chunks, max 14 — confirmed against the real DB) — cheap enough
 # to pull in fully once identified, rather than trust that every relevant
@@ -390,11 +409,23 @@ def run_answered_political_query(filters: dict) -> tuple[str, list[dict]]:
         by_commune.setdefault(entry["commune"], []).append(entry)
 
     subject = _DOC_TYPE_NOUN.get(filters.get("doc_type"), "objets politiques")
-    response_year = filters.get("response_year") or filters.get("year")
-    year_note = f" en {response_year}" if response_year else ""
-    lines = [
-        f"{len(objects)} {subject} avec une réponse confirmée dans les métadonnées{year_note}."
-    ]
+    listing_year = filters.get("year")
+    response_year = filters.get("response_year")
+    if listing_year:
+        summary_line = (
+            f"{len(objects)} {subject} déposées en {listing_year} "
+            "avec une réponse confirmée dans les métadonnées."
+        )
+    elif response_year:
+        summary_line = (
+            f"{len(objects)} {subject} avec une réponse confirmée datée de "
+            f"{response_year} dans les métadonnées."
+        )
+    else:
+        summary_line = (
+            f"{len(objects)} {subject} avec une réponse confirmée dans les métadonnées."
+        )
+    lines = [summary_line]
     for commune, commune_objects in sorted(by_commune.items()):
         lines.extend(["", f"### {commune}", ""])
         for entry in sorted(commune_objects, key=lambda item: item["title"]):
@@ -668,7 +699,7 @@ def run_agentic_pipeline(
     started_at = time.perf_counter()
     budget = time_budget_seconds()
     deadline = started_at + budget
-    filters = dict(filters or {})
+    filters = apply_question_city_scope(question, dict(filters or {}))
 
     trace: dict = {
         "complexity": "simple",

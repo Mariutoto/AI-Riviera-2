@@ -75,9 +75,18 @@ def detect_answered_political_query(query: str) -> dict | None:
         return None
 
     filters = {"doc_type": doc_type, "answered_only": True}
-    year = _detect_year(normalized_query)
-    if year:
-        filters["response_year"] = year
+    listing_year_match = re.search(
+        r"\binterpellations?\s+(?:de|deposees?\s+en)\s+(20\d{2})\b",
+        normalized_query,
+    )
+    response_year_match = re.search(
+        r"\breponses?\s+en\s+(20\d{2})\b",
+        normalized_query,
+    )
+    if listing_year_match:
+        filters["year"] = listing_year_match.group(1)
+    elif response_year_match:
+        filters["response_year"] = response_year_match.group(1)
     return filters
 
 

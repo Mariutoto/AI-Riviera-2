@@ -8,6 +8,22 @@ from app import agent
 
 
 class AgentRoutingTests(unittest.TestCase):
+    def test_named_city_overrides_all_city_scope(self):
+        filters = agent.apply_question_city_scope(
+            "Quels sont les sujets des postulats de La Tour-de-Peilz en 2024 ?",
+            {"city": "all"},
+        )
+
+        self.assertEqual(filters["city"], "La Tour-de-Peilz")
+
+    def test_two_named_cities_keep_all_scope(self):
+        filters = agent.apply_question_city_scope(
+            "Compare Vevey et La Tour-de-Peilz",
+            {"city": "all"},
+        )
+
+        self.assertEqual(filters["city"], "all")
+
     def test_obvious_single_object_question_skips_llm_classifier(self):
         with patch("app.agent.classify_question_with_llm") as classify:
             result = agent.classify_question("Quelle motion a été déposée en 2026 ?")
