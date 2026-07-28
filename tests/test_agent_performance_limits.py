@@ -20,6 +20,59 @@ class AgentPerformanceLimitTests(unittest.TestCase):
         results = [result(index) for index in range(25)]
         self.assertEqual(len(agent._generation_results(results)), 15)
 
+    def test_all_cities_generation_interleaves_communes(self):
+        results = []
+        for index in range(20):
+            item = result(index)
+            item["metadata"]["commune"] = "Vevey"
+            results.append(item)
+        for index in range(20, 24):
+            item = result(index)
+            item["metadata"]["commune"] = "La Tour-de-Peilz"
+            results.append(item)
+
+        selected = agent._generation_results_for_filters(results, {"city": "all"})
+
+        self.assertEqual(len(selected), 15)
+        self.assertEqual(
+            {item["metadata"]["commune"] for item in selected},
+            {"Vevey", "La Tour-de-Peilz"},
+        )
+        self.assertEqual(
+            [item["metadata"]["commune"] for item in selected[:4]],
+            ["La Tour-de-Peilz", "Vevey", "La Tour-de-Peilz", "Vevey"],
+        )
+
+    @patch("app.agent.search_with_relance")
+    def test_all_cities_searches_each_commune_and_interleaves(self, search):
+        def city_results(_query, **kwargs):
+            city = kwargs["filters"]["city"]
+            prefix = "vevey" if city == "Vevey" else "tour"
+            return (
+                [
+                    {
+                        "id": f"{prefix}-{index}",
+                        "metadata": {"commune": city},
+                    }
+                    for index in range(2)
+                ],
+                False,
+            )
+
+        search.side_effect = city_results
+
+        results, relanced = agent.search_with_city_balance(
+            "Question",
+            filters={"city": "all", "year": "2025"},
+        )
+
+        self.assertFalse(relanced)
+        self.assertEqual(search.call_count, 2)
+        self.assertEqual(
+            [item["metadata"]["commune"] for item in results],
+            ["La Tour-de-Peilz", "Vevey", "La Tour-de-Peilz", "Vevey"],
+        )
+
     @patch("app.agent.record_diagnostic")
     @patch("app.agent._timed_source_blurbs", return_value=({}, 1))
     @patch("app.agent.answer_from_sources", return_value="Réponse")
