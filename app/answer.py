@@ -17,7 +17,7 @@ Quand une source est marquée "source canonique", utilise-la en priorité pour i
 SYSTEM_PROMPT += """
 N'invente jamais de noms de personnes, co-auteurs, dates, chiffres ou faits absents des extraits fournis. Si un auteur est identifié dans les extraits seulement comme un groupe ou un parti (sans nom propre), ne lui attribue pas de nom propre inventé."""
 SYSTEM_PROMPT += """
-Lorsque les sources concernent plusieurs communes, organise par défaut la réponse dans une section distincte par commune, quel que soit le type de document. Ne mélange les résultats que si l'utilisateur le demande explicitement. Regroupe dans une section "Plusieurs communes concernées" les documents dont les métadonnées indiquent plusieurs communes."""
+Lorsque les sources concernent plusieurs communes, organise par défaut la réponse dans une section distincte par commune, quel que soit le type de document. Ne mélange les résultats que si l'utilisateur le demande explicitement. Regroupe dans une section "Plusieurs communes concernées" les documents dont les métadonnées indiquent plusieurs communes. N'ajoute jamais de section vide ou de commune qui n'est pas représentée dans les sources."""
 SYSTEM_PROMPT += """
 Reste bref dans le corps de la réponse: une synthèse de quelques phrases suffit. Chaque source est déjà listée séparément avec son titre, son auteur, sa date et une courte description — ne recopie pas ces détails ni le contenu complet de chaque extrait dans le texte de la réponse."""
 
@@ -36,6 +36,7 @@ Privilégie:
 - les sources canoniques et les documents au titre directement lié;
 - les extraits qui contiennent des faits vérifiables;
 - la diversité de documents quand la question demande comparaison ou synthèse.
+Quand les candidats pertinents concernent plusieurs communes, conserve des sources de chaque commune afin qu'une commune ne monopolise pas la sélection.
 Écarte les documents seulement vaguement liés.
 Base ton choix uniquement sur les extraits fournis; n'invente et ne suppose aucun fait, date, lieu ou identifiant absent des candidats.
 
@@ -548,6 +549,7 @@ def result_rerank_candidate(result: dict, candidate_id: str) -> dict:
     title = metadata.get("filename") or metadata.get("title") or result.get("title") or result.get("relative_text_path", "")
     year = metadata.get("year") or metadata.get("date") or result.get("date") or ""
     category = metadata.get("category") or metadata.get("doc_type") or result.get("doc_type") or ""
+    commune = metadata.get("commune") or metadata.get("city") or result.get("city") or ""
     source_kind = ""
     if metadata.get("canonical_object") is True:
         source_kind = "source canonique"
@@ -560,6 +562,7 @@ def result_rerank_candidate(result: dict, candidate_id: str) -> dict:
         "title": fix_mojibake(str(title)),
         "year": str(year),
         "category": str(category),
+        "commune": str(commune),
         "source_kind": source_kind,
         "excerpt": text,
     }

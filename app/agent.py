@@ -19,12 +19,18 @@ from app.answer import (
 from app.diagnostics import record_diagnostic
 from app.pilot_v2_store import aggregate_authors, fetch_document_chunks
 from app.text_cleaning import strip_accents
+from municipal_pipeline.municipalities import MUNICIPALITIES
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
 RERANK_CANDIDATE_LIMIT = 20
 RERANK_KEEP_LIMIT = 30
 GENERATION_PASSAGE_LIMIT = 15
+SEARCH_ENABLED_CITY_LABELS = tuple(
+    municipality.label
+    for municipality in MUNICIPALITIES.values()
+    if municipality.search_enabled
+)
 
 # Political-object documents are small (interpellations/postulats/motions
 # average 4-5 chunks, max 14 — confirmed against the real DB) — cheap enough
@@ -70,6 +76,52 @@ def _elapsed_ms(started_at: float) -> int:
 def _generation_results(results: list[dict]) -> list[dict]:
     """Bound the evidence sent to answer generation without hiding sources."""
     return results[:GENERATION_PASSAGE_LIMIT]
+
+
+def _result_commune(result: dict) -> str:
+    metadata = result.get("metadata") or {}
+    return str(metadata.get("commune") or metadata.get("city") or "").strip()
+
+
+def _interleave_result_groups(groups: list[list[dict]]) -> list[dict]:
+    """Round-robin result groups while preserving each group's ranking."""
+    combined: list[dict] = []
+    seen_ids: set[str] = set()
+    max_length = max((len(group) for group in groups), default=0)
+    for index in range(max_length):
+        for group in groups:
+            if index >= len(group):
+                continue
+            result = group[index]
+            result_id = result.get("id")
+            if result_id and result_id in seen_ids:
+                continue
+            combined.append(result)
+            if result_id:
+                seen_ids.add(result_id)
+    return combined
+
+
+def _generation_results_for_filters(results: list[dict], filters: dict) -> list[dict]:
+    """Keep evidence from every returned commune when "Toutes" is selected."""
+    if str(filters.get("city") or "").lower() != "all":
+        return _generation_results(results)
+
+    by_commune: dict[str, list[dict]] = {}
+    without_commune: list[dict] = []
+    for result in results:
+        commune = _result_commune(result)
+        if commune:
+            by_commune.setdefault(commune, []).append(result)
+        else:
+            without_commune.append(result)
+
+    groups = [by_commune[commune] for commune in sorted(by_commune)]
+    if without_commune:
+        groups.append(without_commune)
+    if len(groups) <= 1:
+        return _generation_results(results)
+    return _interleave_result_groups(groups)[:GENERATION_PASSAGE_LIMIT]
 
 
 def _timed_source_blurbs(results: list[dict]) -> tuple[dict[str, str], int]:
@@ -307,6 +359,58 @@ def search_with_relance(
     return expand_small_documents(results), False
 
 
+def search_with_city_balance(
+    query: str,
+    limit: int = 50,
+    filters: dict | None = None,
+    deadline: float | None = None,
+    on_stage: Callable[[str], None] | None = None,
+) -> tuple[list[dict], bool]:
+    """Search each enabled commune independently when the UI scope is "Toutes".
+
+    A single global top-K can otherwise be monopolized by the commune whose
+    documents happen to score slightly higher, leaving the answer generator
+    with no evidence at all from the other communes.
+    """
+    filters = dict(filters or {})
+    if str(filters.get("city") or "").lower() != "all":
+        return search_with_relance(
+            query,
+            limit=limit,
+            filters=filters,
+            deadline=deadline,
+            on_stage=on_stage,
+        )
+
+    city_labels = SEARCH_ENABLED_CITY_LABELS
+    if len(city_labels) <= 1:
+        return search_with_relance(
+            query,
+            limit=limit,
+            filters=filters,
+            deadline=deadline,
+            on_stage=on_stage,
+        )
+
+    _notify(on_stage, "Recherche équilibrée dans chaque commune...")
+    per_city_limit = max(1, limit // len(city_labels))
+
+    def search_city(city: str) -> tuple[list[dict], bool]:
+        return search_with_relance(
+            query,
+            limit=per_city_limit,
+            filters={**filters, "city": city},
+            deadline=deadline,
+            on_stage=None,
+        )
+
+    with ThreadPoolExecutor(max_workers=min(len(city_labels), 4)) as pool:
+        city_searches = list(pool.map(search_city, city_labels))
+
+    combined = _interleave_result_groups([results for results, _relanced in city_searches])
+    return combined, any(relanced for _results, relanced in city_searches)
+
+
 def _result_year(result: dict) -> str:
     metadata = result.get("metadata") or {}
     return str(metadata.get("listing_year") or metadata.get("year") or "")
@@ -341,7 +445,7 @@ def merge_cross_reference(
     def run_subquery(sub: dict) -> dict:
         # Streamlit callbacks stay on the main thread; the worker only performs
         # retrieval and returns data. executor.map preserves subquery order.
-        results, relanced = search_with_relance(
+        results, relanced = search_with_city_balance(
             sub["query"],
             limit=limit,
             filters=filters,
@@ -480,14 +584,14 @@ def run_agentic_pipeline(
         trace["timings_ms"]["reranking"] = _elapsed_ms(stage_started_at)
         summary_block = _cross_reference_summary(cross["overlap"])
         _notify(on_stage, "Rédaction de la réponse...")
-        generation_results = _generation_results(reranked)
+        generation_results = _generation_results_for_filters(reranked, filters)
         stage_started_at = time.perf_counter()
         draft_answer = answer_from_sources(question, generation_results, extra_context=summary_block)
         trace["timings_ms"]["generation"] = _elapsed_ms(stage_started_at)
     else:
         _notify(on_stage, "Recherche dans les documents...")
         stage_started_at = time.perf_counter()
-        results, relanced = search_with_relance(
+        results, relanced = search_with_city_balance(
             question,
             limit=50,
             filters=filters,
@@ -506,7 +610,7 @@ def run_agentic_pipeline(
         )
         trace["timings_ms"]["reranking"] = _elapsed_ms(stage_started_at)
         _notify(on_stage, "Rédaction de la réponse...")
-        generation_results = _generation_results(reranked)
+        generation_results = _generation_results_for_filters(reranked, filters)
         stage_started_at = time.perf_counter()
         draft_answer = answer_from_sources(question, generation_results)
         trace["timings_ms"]["generation"] = _elapsed_ms(stage_started_at)

@@ -252,8 +252,9 @@ st.markdown(
 def current_filters() -> dict | None:
     filters = {}
     city = st.session_state.get("search_city", "all")
-    if city != "all":
-        filters["city"] = city
+    # Keep the explicit "all" scope in the cache key and pipeline filters so
+    # retrieval can balance candidates across every enabled commune.
+    filters["city"] = city
     year = st.session_state.get("search_year", ALL_YEARS)
     if year != ALL_YEARS:
         filters["year"] = year
