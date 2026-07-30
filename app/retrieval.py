@@ -48,6 +48,47 @@ _CIVILITY_MARKERS = {"femmes": "Mme", "femme": "Mme", "hommes": "M.", "homme": "
 _COUNTABLE_DOC_TYPES = {"interpellations", "postulats", "motions"}
 
 
+def detect_answered_interpellations_query(query: str) -> dict | None:
+    """Detect an enumeration of interpellations that actually received a response.
+
+    This needs a structured relationship query, not semantic retrieval: a top-K
+    sample can contain unanswered interpellations and an LLM can attach the PDF
+    citation from one municipality to an object from another.
+
+    A year in this wording qualifies the response date (for example, "ont reçu
+    une réponse en 2025"), not merely the filing year of the interpellation.
+    """
+    normalized_query = strip_accents(query).lower()
+    enumeration = re.search(
+        r"\b(?:quelles?|liste(?:r)?|combien)\b.*\binterpellations?\b",
+        normalized_query,
+    )
+    answered = any(
+        marker in normalized_query
+        for marker in (
+            "ont recu une reponse",
+            "ayant recu une reponse",
+            "avec une reponse",
+            "avec reponse",
+            "reponse disponible",
+            "reponses disponibles",
+            "reponse fournie",
+            "reponses fournies",
+        )
+    )
+    if not enumeration or not answered:
+        return None
+
+    filters: dict = {
+        "doc_type": "interpellations",
+        "response_available": True,
+    }
+    year = _detect_year(normalized_query)
+    if year:
+        filters["response_year"] = year
+    return filters
+
+
 def detect_aggregate_query(query: str) -> dict | None:
     """Detect "combien de ..." / "liste tous les ..." questions that need a real
     count/enumeration over structured metadata rather than semantic search over
