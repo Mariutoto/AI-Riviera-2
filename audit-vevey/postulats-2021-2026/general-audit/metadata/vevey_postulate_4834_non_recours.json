@@ -1,0 +1,120 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4834_non_recours",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+    "source_title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-17",
+    "language": "fr",
+    "content_hash": "9c1f298a439bdfeffad56329532ac514a230dd02fa2003b7f9e60e965769d984",
+    "source_content_hash": "4c995fee03f0a4f40cf305ed38e4d485a4c7d1455f5b04231a7de10bb0ae4e10",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-non-recours",
+    "object_title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+    "authors": [
+      {
+        "name": "Sabrina Berrocal",
+        "civility": "Mme",
+        "party": "da./Interpartis",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-03-17",
+    "status_normalized": "answered",
+    "status": "Réponse 2025/RP17 disponible",
+    "response_date": "2025-05-15",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-non-recours",
+    "political_object_document_id": "vevey_postulate_4834_non_recours",
+    "related_document_ids": [
+      "vevey_postulate_5811_non_recours"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5811_non_recours"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4834",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-05-23",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 24,
+      "selected_pages": [
+        21,
+        22
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 5572,
+      "words_extracted": 822,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      21,
+      22
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

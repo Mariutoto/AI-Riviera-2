@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6076_proximite_centre_ville",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Choisissons la proximité pour garder un centre-ville vivant",
+    "source_title": "Choisissons la proximité pour garder un centre-ville vivant",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6076",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "a4a32aa7089d8a255223703c25b3ddf90bb09d5c3417c5404a0125ed5bfdf598",
+    "source_content_hash": "0ce98cbf4b0ea2a1f949dd219514a038f525e9de21e9a6f4c6280f6492884e3c",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-proximite-centre-ville",
+    "object_title": "Choisissons la proximité pour garder un centre-ville vivant",
+    "authors": [
+      {
+        "name": "Fabienne Despot",
+        "civility": "Mme",
+        "party": "UDC",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-03-19",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Déposé",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-proximite-centre-ville",
+    "political_object_document_id": "vevey_postulate_6076_proximite_centre_ville",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6076",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Choisissons la proximité pour garder un centre-ville vivant",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6076"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4535,
+      "words_extracted": 673,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

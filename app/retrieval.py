@@ -60,7 +60,7 @@ def detect_answered_interpellations_query(query: str) -> dict | None:
     """
     normalized_query = strip_accents(query).lower()
     enumeration = re.search(
-        r"\b(?:quelles?|liste(?:r)?|combien)\b.*\binterpellations?\b",
+        r"\b(?:quel(?:le)?s?|liste(?:r)?|combien)\b.*\binterpellations?\b",
         normalized_query,
     )
     answered = any(
@@ -81,6 +81,38 @@ def detect_answered_interpellations_query(query: str) -> dict | None:
 
     filters: dict = {
         "doc_type": "interpellations",
+        "response_available": True,
+    }
+    year = _detect_year(normalized_query)
+    if year:
+        filters["response_year"] = year
+    return filters
+
+
+def detect_answered_postulates_query(query: str) -> dict | None:
+    """Detect an enumeration of postulates with an actual linked response."""
+    normalized_query = strip_accents(query).lower()
+    enumeration = re.search(
+        r"\b(?:quel(?:le)?s?|liste(?:r)?|combien)\b.*\bpostulats?\b",
+        normalized_query,
+    )
+    answered = any(
+        marker in normalized_query
+        for marker in (
+            "ont recu une reponse",
+            "ayant recu une reponse",
+            "avec une reponse",
+            "avec reponse",
+            "reponse disponible",
+            "reponses disponibles",
+            "reponse fournie",
+            "reponses fournies",
+        )
+    )
+    if not enumeration or not answered:
+        return None
+    filters: dict = {
+        "doc_type": "postulats",
         "response_available": True,
     }
     year = _detect_year(normalized_query)

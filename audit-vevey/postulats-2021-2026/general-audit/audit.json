@@ -1,0 +1,1542 @@
+{
+  "schema_version": "vevey-postulates-general-audit-v1",
+  "scope": {
+    "city": "Vevey",
+    "category": "postulat",
+    "legislature": "2021-2026",
+    "from": "2021-07-01",
+    "to": "2026-06-30"
+  },
+  "source": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+  "summary": {
+    "documents": 44,
+    "chunks": 185,
+    "ocr_applied": 3,
+    "original_postulates": 30,
+    "political_objects": 30,
+    "objects_with_response": 5,
+    "objects_without_response": 25,
+    "municipal_responses": 5,
+    "consideration_reports": 9
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_recipe": "political_object",
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "object_key": "precarite-menstruelle",
+      "object_id": "vevey-postulate-2021-precarite-menstruelle",
+      "title": "Lutter contre la précarité menstruelle à Vevey",
+      "authors": [
+        {
+          "name": "Joëlle Minacci",
+          "civility": "Mme",
+          "party": "da.",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2021-10-07",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4736_precarite_menstruelle",
+          "object_id": "vevey-postulate-2021-precarite-menstruelle",
+          "title": "Lutter contre la précarité menstruelle à Vevey",
+          "role": "postulate_text",
+          "document_date": "2021-10-07",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4736",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "bienwenue-elargie",
+      "object_id": "vevey-postulate-2021-bienwenue-elargie",
+      "title": "Vers une « bienwenue » élargie",
+      "authors": [
+        {
+          "name": "Fabienne Despot",
+          "civility": "Mme",
+          "party": "UDC",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2021-11-11",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4766_bienwenue_elargie",
+          "object_id": "vevey-postulate-2021-bienwenue-elargie",
+          "title": "Vers une « bienwenue » élargie",
+          "role": "postulate_text",
+          "document_date": "2021-11-11",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "carte-citoyenne",
+      "object_id": "vevey-postulate-2021-carte-citoyenne",
+      "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+      "authors": [
+        {
+          "name": "Marion Houriet",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2021-11-11",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4766_carte_citoyenne",
+          "object_id": "vevey-postulate-2021-carte-citoyenne",
+          "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+          "role": "postulate_text",
+          "document_date": "2021-11-11",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "infrastructures-plan-dessus",
+      "object_id": "vevey-postulate-2022-infrastructures-plan-dessus",
+      "title": "Vision d’avenir pour les infrastructures sportives de Plan-Dessus",
+      "authors": [
+        {
+          "name": "Nicolas Bonjour",
+          "civility": "M.",
+          "party": "VL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-02-03",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4811_infrastructures_plan_dessus",
+          "object_id": "vevey-postulate-2022-infrastructures-plan-dessus",
+          "title": "Vision d’avenir pour les infrastructures sportives de Plan-Dessus",
+          "role": "postulate_text",
+          "document_date": "2022-02-03",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "subventions-sportives",
+      "object_id": "vevey-postulate-2022-subventions-sportives",
+      "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+      "authors": [
+        {
+          "name": "Nicolas Bonjour",
+          "civility": "M.",
+          "party": "VL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-02-03",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4811_subventions_sportives",
+          "object_id": "vevey-postulate-2022-subventions-sportives",
+          "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+          "role": "postulate_text",
+          "document_date": "2022-02-03",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "non-recours",
+      "object_id": "vevey-postulate-2022-non-recours",
+      "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+      "authors": [
+        {
+          "name": "Sabrina Berrocal",
+          "civility": "Mme",
+          "party": "da./Interpartis",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-03-17",
+      "status_normalized": "answered",
+      "status": "Réponse 2025/RP17 disponible",
+      "has_response": true,
+      "response_status": "dedicated_response_available",
+      "response_date": "2025-05-15",
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4834_non_recours",
+          "object_id": "vevey-postulate-2022-non-recours",
+          "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+          "role": "postulate_text",
+          "document_date": "2022-03-17",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5811_non_recours",
+          "object_id": "vevey-postulate-2022-non-recours",
+          "title": "Rapport-préavis en réponse au postulat de Mme Sabrina Berrocal (da.) et interpartis, intitulé « Pour que Vevey fasse sa part contre le non-recours aux prestations sociales »",
+          "role": "municipal_response",
+          "document_date": "2025-05-15",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5811",
+          "chunks": 27,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "insecurite-gare",
+      "object_id": "vevey-postulate-2022-insecurite-gare",
+      "title": "Insécurité à la Gare – impunité ou réactivité ?",
+      "authors": [
+        {
+          "name": "Anna Iamartino",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-05-19",
+      "status_normalized": "answered",
+      "status": "Réponse 2025/P03 disponible",
+      "has_response": true,
+      "response_status": "dedicated_response_available",
+      "response_date": "2025-02-06",
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4876_insecurite_gare",
+          "object_id": "vevey-postulate-2022-insecurite-gare",
+          "title": "Insécurité à la Gare – impunité ou réactivité ?",
+          "role": "postulate_text",
+          "document_date": "2022-05-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4876",
+          "chunks": 1,
+          "ocr_applied": true
+        },
+        {
+          "document_id": "vevey_postulate_5704_insecurite_gare",
+          "object_id": "vevey-postulate-2022-insecurite-gare",
+          "title": "Demande d’un crédit d’investissement de CHF 799'700.— pour l’installation d’un dispositif de vidéosurveillance, d’un crédit supplémentaire déjà dépensé au budget 2024 de CHF 96'600.— et d’accepter la mise en œuvre de mesures complémentaires - Réponse au postulat de Mme Anna Iamartino (PLR), intitulé « Insécurité à la Gare, impunité ou réactivité »",
+          "role": "municipal_response",
+          "document_date": "2025-02-06",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5704",
+          "chunks": 26,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "climat-preemption",
+      "object_id": "vevey-postulate-2022-climat-preemption",
+      "title": "Climat et préemption…",
+      "authors": [
+        {
+          "name": "Patrick Bertschy",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-06-23",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4894_climat_preemption",
+          "object_id": "vevey-postulate-2022-climat-preemption",
+          "title": "Climat et préemption…",
+          "role": "postulate_text",
+          "document_date": "2022-06-23",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894",
+          "chunks": 7,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "ville-images",
+      "object_id": "vevey-postulate-2022-ville-images",
+      "title": "Faire de Vevey une ville d’images au quotidien",
+      "authors": [
+        {
+          "name": "Mickael Bertschy",
+          "civility": "M.",
+          "party": "VL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2022-10-06",
+      "status_normalized": "answered",
+      "status": "Réponse 2024/RP34 disponible",
+      "has_response": true,
+      "response_status": "dedicated_response_available",
+      "response_date": "2024-11-14",
+      "documents": [
+        {
+          "document_id": "vevey_postulate_4970_ville_images",
+          "object_id": "vevey-postulate-2022-ville-images",
+          "title": "Faire de Vevey une ville d’images au quotidien",
+          "role": "postulate_text",
+          "document_date": "2022-10-06",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4970",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5612_ville_images",
+          "object_id": "vevey-postulate-2022-ville-images",
+          "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « Faire de Vevey une ville d’images au quotidien »",
+          "role": "municipal_response",
+          "document_date": "2024-11-14",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5612",
+          "chunks": 12,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "alimentation-durable",
+      "object_id": "vevey-postulate-2023-alimentation-durable",
+      "title": "Pour une ville exemplaire en matière d’alimentation durable",
+      "authors": [
+        {
+          "name": "Fabien Truffer",
+          "civility": "M.",
+          "party": "LCVL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2023-06-15",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2023/R23 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5151_alimentation_durable",
+          "object_id": "vevey-postulate-2023-alimentation-durable",
+          "title": "Pour une ville exemplaire en matière d’alimentation durable",
+          "role": "postulate_text",
+          "document_date": "2023-06-15",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5151",
+          "chunks": 4,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5240_alimentation_durable",
+          "object_id": "vevey-postulate-2023-alimentation-durable",
+          "title": "Prise en considération du postulat de M. Fabien Truffer (LCVL), intitulé « Pour une ville exemplaire en matière d’alimentation durable »",
+          "role": "consideration_report",
+          "document_date": "2023-11-16",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5240",
+          "chunks": 4,
+          "ocr_applied": true
+        }
+      ]
+    },
+    {
+      "object_key": "micro-forets",
+      "object_id": "vevey-postulate-2023-micro-forets",
+      "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+      "authors": [
+        {
+          "name": "Serge Ansermet",
+          "civility": "M.",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2023-12-07",
+      "status_normalized": "answered",
+      "status": "Réponse 2025/RP01 disponible",
+      "has_response": true,
+      "response_status": "dedicated_response_available",
+      "response_date": "2025-02-06",
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5289_micro_forets",
+          "object_id": "vevey-postulate-2023-micro-forets",
+          "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+          "role": "postulate_text",
+          "document_date": "2023-12-07",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5289",
+          "chunks": 1,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5681_micro_forets",
+          "object_id": "vevey-postulate-2023-micro-forets",
+          "title": "Rapport-préavis en réponse au postulat de M. Serge Ansermet (PS), intitulé « Réchauffement climatique : et si on créait des micro-forêts urbaines ? »",
+          "role": "municipal_response",
+          "document_date": "2025-02-06",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5681",
+          "chunks": 4,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "accueil-prescolaire",
+      "object_id": "vevey-postulate-2024-accueil-prescolaire",
+      "title": "La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+      "authors": [
+        {
+          "name": "Mickael Bertschy",
+          "civility": "M.",
+          "party": "VL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2024-03-14",
+      "status_normalized": "answered",
+      "status": "Réponse 2026/RP19 disponible",
+      "has_response": true,
+      "response_status": "dedicated_response_available",
+      "response_date": "2026-06-11",
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5412_accueil_prescolaire",
+          "object_id": "vevey-postulate-2024-accueil-prescolaire",
+          "title": "La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+          "role": "postulate_text",
+          "document_date": "2024-03-14",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5412",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6190_accueil_prescolaire",
+          "object_id": "vevey-postulate-2024-accueil-prescolaire",
+          "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+          "role": "municipal_response",
+          "document_date": "2026-06-11",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6190",
+          "chunks": 11,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "agir-sans-attendre",
+      "object_id": "vevey-postulate-2024-agir-sans-attendre",
+      "title": "Agir sans attendre pour notre bien… et pas seulement…",
+      "authors": [
+        {
+          "name": "Patrick Bertschy",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2024-09-05",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5580_agir_sans_attendre",
+          "object_id": "vevey-postulate-2024-agir-sans-attendre",
+          "title": "Agir sans attendre pour notre bien… et pas seulement…",
+          "role": "postulate_text",
+          "document_date": "2024-09-05",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5580",
+          "chunks": 1,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5660_agir_sans_attendre",
+          "object_id": "vevey-postulate-2024-agir-sans-attendre",
+          "title": "Prise en considération du postulat de M. Patrick Bertschy (PLR), intitulé « Agir sans attendre pour notre bien... et pas seulement... »",
+          "role": "consideration_report",
+          "document_date": "2024-12-05",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5660",
+          "chunks": 6,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "commission-evenementiel",
+      "object_id": "vevey-postulate-2024-commission-evenementiel",
+      "title": "Pour une commission de l’événementiel",
+      "authors": [
+        {
+          "name": "Hervé Queyranne",
+          "civility": "M.",
+          "party": "da.",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2024-12-12",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2025/R06 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5656_commission_evenementiel",
+          "object_id": "vevey-postulate-2024-commission-evenementiel",
+          "title": "Pour une commission de l’événementiel",
+          "role": "postulate_text",
+          "document_date": "2024-12-12",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5656",
+          "chunks": 1,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5725_commission_evenementiel",
+          "object_id": "vevey-postulate-2024-commission-evenementiel",
+          "title": "Prise en considération du postulat de M. Hervé Queyranne (da.), intitulé « Pour une commission de l’événementiel »",
+          "role": "consideration_report",
+          "document_date": "2025-03-27",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5725",
+          "chunks": 5,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "audit-services",
+      "object_id": "vevey-postulate-2024-audit-services",
+      "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+      "authors": [
+        {
+          "name": "Sandra Marques",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2024-12-12",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5657_audit_services",
+          "object_id": "vevey-postulate-2024-audit-services",
+          "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+          "role": "postulate_text",
+          "document_date": "2024-12-12",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5657",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "vevey-chef-lieu",
+      "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+      "title": "Vevey, ville indépendante ou chef-lieu du district de la Riviera ?",
+      "authors": [
+        {
+          "name": "Laurent Cornu",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-02-06",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2025/R16 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5693_vevey_chef_lieu",
+          "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+          "title": "Vevey, ville indépendante ou chef-lieu du district de la Riviera ?",
+          "role": "postulate_text",
+          "document_date": "2025-02-06",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5693",
+          "chunks": 1,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_5795_vevey_chef_lieu",
+          "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+          "title": "Prise en considération du postulat de M. Laurent Cornu (PLR), intitulé « Vevey, ville indépendante ou chef-lieu du district de la Riviera ? »",
+          "role": "consideration_report",
+          "document_date": "2025-05-15",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5795",
+          "chunks": 3,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "sans-abrisme",
+      "object_id": "vevey-postulate-2025-sans-abrisme",
+      "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+      "authors": [
+        {
+          "name": "Sabrina Berrocal",
+          "civility": "Mme",
+          "party": "da./Interpartis",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-03-27",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5741_sans_abrisme",
+          "object_id": "vevey-postulate-2025-sans-abrisme",
+          "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+          "role": "postulate_text",
+          "document_date": "2025-03-27",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5741",
+          "chunks": 4,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "hebergement-violences",
+      "object_id": "vevey-postulate-2025-hebergement-violences",
+      "title": "Un hébergement pour les victimes de violences domestiques",
+      "authors": [
+        {
+          "name": "Joëlle Minacci",
+          "civility": "Mme",
+          "party": "da.",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-09-04",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5887_hebergement_violences",
+          "object_id": "vevey-postulate-2025-hebergement-violences",
+          "title": "Un hébergement pour les victimes de violences domestiques",
+          "role": "postulate_text",
+          "document_date": "2025-09-04",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5887",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "securite-privee",
+      "object_id": "vevey-postulate-2025-securite-privee",
+      "title": "Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan",
+      "authors": [
+        {
+          "name": "Capy Boissard",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-11-13",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2025/R36 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5971_securite_privee",
+          "object_id": "vevey-postulate-2025-securite-privee",
+          "title": "Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan",
+          "role": "postulate_text",
+          "document_date": "2025-11-13",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5971",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6065_securite_privee",
+          "object_id": "vevey-postulate-2025-securite-privee",
+          "title": "Prise en considération du postulat de Mme Maria Boissard (PLR) « Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan »",
+          "role": "consideration_report",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6065",
+          "chunks": 12,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "trente-nuit",
+      "object_id": "vevey-postulate-2025-trente-nuit",
+      "title": "30 km/h de nuit : combien de décibels en moins ?",
+      "authors": [
+        {
+          "name": "Sandra Marques",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-11-13",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2025/R38 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5976_trente_nuit",
+          "object_id": "vevey-postulate-2025-trente-nuit",
+          "title": "30 km/h de nuit : combien de décibels en moins ?",
+          "role": "postulate_text",
+          "document_date": "2025-11-13",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5976",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6088_trente_nuit",
+          "object_id": "vevey-postulate-2025-trente-nuit",
+          "title": "Nomination d’une commission ad hoc pour la prise en considération du postulat de Mme Sandra Marques (PLR) « 30 km/h de nuit : combien de décibels en moins ? »",
+          "role": "consideration_report",
+          "document_date": "2025-12-04",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6088",
+          "chunks": 1,
+          "ocr_applied": true
+        }
+      ]
+    },
+    {
+      "object_key": "gare-urgence",
+      "object_id": "vevey-postulate-2025-gare-urgence",
+      "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+      "authors": [
+        {
+          "name": "Anna Iamartino",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-11-13",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2025/R37 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5984_gare_urgence",
+          "object_id": "vevey-postulate-2025-gare-urgence",
+          "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+          "role": "postulate_text",
+          "document_date": "2025-11-13",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5984",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6066_gare_urgence",
+          "object_id": "vevey-postulate-2025-gare-urgence",
+          "title": "Prise en considération du postulat de Mme Anna Iamartino (PLR) « Vevey en gare d'urgence, le deal doit dérailler ! »",
+          "role": "consideration_report",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6066",
+          "chunks": 7,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "vmcv-ecoute",
+      "object_id": "vevey-postulate-2025-vmcv-ecoute",
+      "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+      "authors": [
+        {
+          "name": "Florian Girardoz",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2025-12-04",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2026/R02 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_5996_vmcv_ecoute",
+          "object_id": "vevey-postulate-2025-vmcv-ecoute",
+          "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+          "role": "postulate_text",
+          "document_date": "2025-12-04",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5996",
+          "chunks": 1,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6068_vmcv_ecoute",
+          "object_id": "vevey-postulate-2025-vmcv-ecoute",
+          "title": "Prise en considération du postulat de M. Florian Girardoz (PLR) « Les VMCV à l’écoute des citoyens et citoyennes »",
+          "role": "consideration_report",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6068",
+          "chunks": 5,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "tourisme-train-velo",
+      "object_id": "vevey-postulate-2026-tourisme-train-velo",
+      "title": "Visiter la Riviera, c’est bien… en train ou en vélo, c’est mieux",
+      "authors": [
+        {
+          "name": "Diane Von Gunten",
+          "civility": "Mme",
+          "party": "Vert·e·s",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-02-05",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6042_tourisme_train_velo",
+          "object_id": "vevey-postulate-2026-tourisme-train-velo",
+          "title": "Visiter la Riviera, c’est bien… en train ou en vélo, c’est mieux",
+          "role": "postulate_text",
+          "document_date": "2026-02-05",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6042",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "vevey-loupe",
+      "object_id": "vevey-postulate-2026-vevey-loupe",
+      "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+      "authors": [
+        {
+          "name": "Philippe Herminjard",
+          "civility": "M.",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-02-05",
+      "status_normalized": "pending_or_unanswered",
+      "status": "En traitement",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6045_vevey_loupe",
+          "object_id": "vevey-postulate-2026-vevey-loupe",
+          "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+          "role": "postulate_text",
+          "document_date": "2026-02-05",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6045",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "potaclos",
+      "object_id": "vevey-postulate-2026-potaclos",
+      "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+      "authors": [
+        {
+          "name": "Martino Rizzello",
+          "civility": "M.",
+          "party": "LCVL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-02-05",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Rapport de prise en considération 2026/R03 disponible",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6048_potaclos",
+          "object_id": "vevey-postulate-2026-potaclos",
+          "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+          "role": "postulate_text",
+          "document_date": "2026-02-05",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6048",
+          "chunks": 2,
+          "ocr_applied": false
+        },
+        {
+          "document_id": "vevey_postulate_6116_potaclos",
+          "object_id": "vevey-postulate-2026-potaclos",
+          "title": "Prise en considération du postulat de M. Martino Rizzello (LCVL) et consort, intitulé « Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay »",
+          "role": "consideration_report",
+          "document_date": "2026-05-07",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6116",
+          "chunks": 7,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "logistique-urbaine",
+      "object_id": "vevey-postulate-2026-logistique-urbaine",
+      "title": "Stratégie de logistique urbaine",
+      "authors": [
+        {
+          "name": "Colin Wahli",
+          "civility": "M.",
+          "party": "Vert·e·s",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-03-19",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Déposé",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6073_logistique_urbaine",
+          "object_id": "vevey-postulate-2026-logistique-urbaine",
+          "title": "Stratégie de logistique urbaine",
+          "role": "postulate_text",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6073",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "feuilles-sol",
+      "object_id": "vevey-postulate-2026-feuilles-sol",
+      "title": "Des feuilles pour nourrir le sol",
+      "authors": [
+        {
+          "name": "Colin Wahli",
+          "civility": "M.",
+          "party": "Vert·e·s",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-03-19",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Déposé",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6074_feuilles_sol",
+          "object_id": "vevey-postulate-2026-feuilles-sol",
+          "title": "Des feuilles pour nourrir le sol",
+          "role": "postulate_text",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6074",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "proximite-centre-ville",
+      "object_id": "vevey-postulate-2026-proximite-centre-ville",
+      "title": "Choisissons la proximité pour garder un centre-ville vivant",
+      "authors": [
+        {
+          "name": "Fabienne Despot",
+          "civility": "Mme",
+          "party": "UDC",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-03-19",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Déposé",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6076_proximite_centre_ville",
+          "object_id": "vevey-postulate-2026-proximite-centre-ville",
+          "title": "Choisissons la proximité pour garder un centre-ville vivant",
+          "role": "postulate_text",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6076",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "mobilite-eleves",
+      "object_id": "vevey-postulate-2026-mobilite-eleves",
+      "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+      "authors": [
+        {
+          "name": "Sarah Dohr",
+          "civility": "Mme",
+          "party": "VL",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-03-19",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Déposé",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6078_mobilite_eleves",
+          "object_id": "vevey-postulate-2026-mobilite-eleves",
+          "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+          "role": "postulate_text",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6078",
+          "chunks": 2,
+          "ocr_applied": false
+        }
+      ]
+    },
+    {
+      "object_key": "rue-lausanne",
+      "object_id": "vevey-postulate-2026-rue-lausanne",
+      "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+      "authors": [
+        {
+          "name": "Anna Iamartino",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "deposit_date": "2026-03-19",
+      "status_normalized": "pending_or_unanswered",
+      "status": "Déposé",
+      "has_response": false,
+      "response_status": "no_response_available",
+      "response_date": null,
+      "documents": [
+        {
+          "document_id": "vevey_postulate_6079_rue_lausanne",
+          "object_id": "vevey-postulate-2026-rue-lausanne",
+          "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+          "role": "postulate_text",
+          "document_date": "2026-03-19",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6079",
+          "chunks": 1,
+          "ocr_applied": false
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "vevey_postulate_4736_precarite_menstruelle",
+      "object_id": "vevey-postulate-2021-precarite-menstruelle",
+      "title": "Lutter contre la précarité menstruelle à Vevey",
+      "role": "postulate_text",
+      "document_date": "2021-10-07",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4736",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4766_bienwenue_elargie",
+      "object_id": "vevey-postulate-2021-bienwenue-elargie",
+      "title": "Vers une « bienwenue » élargie",
+      "role": "postulate_text",
+      "document_date": "2021-11-11",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4766_carte_citoyenne",
+      "object_id": "vevey-postulate-2021-carte-citoyenne",
+      "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+      "role": "postulate_text",
+      "document_date": "2021-11-11",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4811_infrastructures_plan_dessus",
+      "object_id": "vevey-postulate-2022-infrastructures-plan-dessus",
+      "title": "Vision d’avenir pour les infrastructures sportives de Plan-Dessus",
+      "role": "postulate_text",
+      "document_date": "2022-02-03",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4811_subventions_sportives",
+      "object_id": "vevey-postulate-2022-subventions-sportives",
+      "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+      "role": "postulate_text",
+      "document_date": "2022-02-03",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4834_non_recours",
+      "object_id": "vevey-postulate-2022-non-recours",
+      "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+      "role": "postulate_text",
+      "document_date": "2022-03-17",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4894_climat_preemption",
+      "object_id": "vevey-postulate-2022-climat-preemption",
+      "title": "Climat et préemption…",
+      "role": "postulate_text",
+      "document_date": "2022-06-23",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894",
+      "chunks": 7,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4970_ville_images",
+      "object_id": "vevey-postulate-2022-ville-images",
+      "title": "Faire de Vevey une ville d’images au quotidien",
+      "role": "postulate_text",
+      "document_date": "2022-10-06",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4970",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_4876_insecurite_gare",
+      "object_id": "vevey-postulate-2022-insecurite-gare",
+      "title": "Insécurité à la Gare – impunité ou réactivité ?",
+      "role": "postulate_text",
+      "document_date": "2022-05-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4876",
+      "chunks": 1,
+      "ocr_applied": true
+    },
+    {
+      "document_id": "vevey_postulate_5151_alimentation_durable",
+      "object_id": "vevey-postulate-2023-alimentation-durable",
+      "title": "Pour une ville exemplaire en matière d’alimentation durable",
+      "role": "postulate_text",
+      "document_date": "2023-06-15",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5151",
+      "chunks": 4,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5289_micro_forets",
+      "object_id": "vevey-postulate-2023-micro-forets",
+      "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+      "role": "postulate_text",
+      "document_date": "2023-12-07",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5289",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5412_accueil_prescolaire",
+      "object_id": "vevey-postulate-2024-accueil-prescolaire",
+      "title": "La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+      "role": "postulate_text",
+      "document_date": "2024-03-14",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5412",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5580_agir_sans_attendre",
+      "object_id": "vevey-postulate-2024-agir-sans-attendre",
+      "title": "Agir sans attendre pour notre bien… et pas seulement…",
+      "role": "postulate_text",
+      "document_date": "2024-09-05",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5580",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5656_commission_evenementiel",
+      "object_id": "vevey-postulate-2024-commission-evenementiel",
+      "title": "Pour une commission de l’événementiel",
+      "role": "postulate_text",
+      "document_date": "2024-12-12",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5656",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5657_audit_services",
+      "object_id": "vevey-postulate-2024-audit-services",
+      "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+      "role": "postulate_text",
+      "document_date": "2024-12-12",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5657",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5693_vevey_chef_lieu",
+      "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+      "title": "Vevey, ville indépendante ou chef-lieu du district de la Riviera ?",
+      "role": "postulate_text",
+      "document_date": "2025-02-06",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5693",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5741_sans_abrisme",
+      "object_id": "vevey-postulate-2025-sans-abrisme",
+      "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+      "role": "postulate_text",
+      "document_date": "2025-03-27",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5741",
+      "chunks": 4,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5887_hebergement_violences",
+      "object_id": "vevey-postulate-2025-hebergement-violences",
+      "title": "Un hébergement pour les victimes de violences domestiques",
+      "role": "postulate_text",
+      "document_date": "2025-09-04",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5887",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5971_securite_privee",
+      "object_id": "vevey-postulate-2025-securite-privee",
+      "title": "Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan",
+      "role": "postulate_text",
+      "document_date": "2025-11-13",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5971",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5976_trente_nuit",
+      "object_id": "vevey-postulate-2025-trente-nuit",
+      "title": "30 km/h de nuit : combien de décibels en moins ?",
+      "role": "postulate_text",
+      "document_date": "2025-11-13",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5976",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5984_gare_urgence",
+      "object_id": "vevey-postulate-2025-gare-urgence",
+      "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+      "role": "postulate_text",
+      "document_date": "2025-11-13",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5984",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5996_vmcv_ecoute",
+      "object_id": "vevey-postulate-2025-vmcv-ecoute",
+      "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+      "role": "postulate_text",
+      "document_date": "2025-12-04",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5996",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6042_tourisme_train_velo",
+      "object_id": "vevey-postulate-2026-tourisme-train-velo",
+      "title": "Visiter la Riviera, c’est bien… en train ou en vélo, c’est mieux",
+      "role": "postulate_text",
+      "document_date": "2026-02-05",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6042",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6045_vevey_loupe",
+      "object_id": "vevey-postulate-2026-vevey-loupe",
+      "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+      "role": "postulate_text",
+      "document_date": "2026-02-05",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6045",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6048_potaclos",
+      "object_id": "vevey-postulate-2026-potaclos",
+      "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+      "role": "postulate_text",
+      "document_date": "2026-02-05",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6048",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6073_logistique_urbaine",
+      "object_id": "vevey-postulate-2026-logistique-urbaine",
+      "title": "Stratégie de logistique urbaine",
+      "role": "postulate_text",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6073",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6074_feuilles_sol",
+      "object_id": "vevey-postulate-2026-feuilles-sol",
+      "title": "Des feuilles pour nourrir le sol",
+      "role": "postulate_text",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6074",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6076_proximite_centre_ville",
+      "object_id": "vevey-postulate-2026-proximite-centre-ville",
+      "title": "Choisissons la proximité pour garder un centre-ville vivant",
+      "role": "postulate_text",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6076",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6078_mobilite_eleves",
+      "object_id": "vevey-postulate-2026-mobilite-eleves",
+      "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+      "role": "postulate_text",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6078",
+      "chunks": 2,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6079_rue_lausanne",
+      "object_id": "vevey-postulate-2026-rue-lausanne",
+      "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+      "role": "postulate_text",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6079",
+      "chunks": 1,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5811_non_recours",
+      "object_id": "vevey-postulate-2022-non-recours",
+      "title": "Rapport-préavis en réponse au postulat de Mme Sabrina Berrocal (da.) et interpartis, intitulé « Pour que Vevey fasse sa part contre le non-recours aux prestations sociales »",
+      "role": "municipal_response",
+      "document_date": "2025-05-15",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5811",
+      "chunks": 27,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5704_insecurite_gare",
+      "object_id": "vevey-postulate-2022-insecurite-gare",
+      "title": "Demande d’un crédit d’investissement de CHF 799'700.— pour l’installation d’un dispositif de vidéosurveillance, d’un crédit supplémentaire déjà dépensé au budget 2024 de CHF 96'600.— et d’accepter la mise en œuvre de mesures complémentaires - Réponse au postulat de Mme Anna Iamartino (PLR), intitulé « Insécurité à la Gare, impunité ou réactivité »",
+      "role": "municipal_response",
+      "document_date": "2025-02-06",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5704",
+      "chunks": 26,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5612_ville_images",
+      "object_id": "vevey-postulate-2022-ville-images",
+      "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « Faire de Vevey une ville d’images au quotidien »",
+      "role": "municipal_response",
+      "document_date": "2024-11-14",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5612",
+      "chunks": 12,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5681_micro_forets",
+      "object_id": "vevey-postulate-2023-micro-forets",
+      "title": "Rapport-préavis en réponse au postulat de M. Serge Ansermet (PS), intitulé « Réchauffement climatique : et si on créait des micro-forêts urbaines ? »",
+      "role": "municipal_response",
+      "document_date": "2025-02-06",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5681",
+      "chunks": 4,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6190_accueil_prescolaire",
+      "object_id": "vevey-postulate-2024-accueil-prescolaire",
+      "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+      "role": "municipal_response",
+      "document_date": "2026-06-11",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6190",
+      "chunks": 11,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5240_alimentation_durable",
+      "object_id": "vevey-postulate-2023-alimentation-durable",
+      "title": "Prise en considération du postulat de M. Fabien Truffer (LCVL), intitulé « Pour une ville exemplaire en matière d’alimentation durable »",
+      "role": "consideration_report",
+      "document_date": "2023-11-16",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5240",
+      "chunks": 4,
+      "ocr_applied": true
+    },
+    {
+      "document_id": "vevey_postulate_5660_agir_sans_attendre",
+      "object_id": "vevey-postulate-2024-agir-sans-attendre",
+      "title": "Prise en considération du postulat de M. Patrick Bertschy (PLR), intitulé « Agir sans attendre pour notre bien... et pas seulement... »",
+      "role": "consideration_report",
+      "document_date": "2024-12-05",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5660",
+      "chunks": 6,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5725_commission_evenementiel",
+      "object_id": "vevey-postulate-2024-commission-evenementiel",
+      "title": "Prise en considération du postulat de M. Hervé Queyranne (da.), intitulé « Pour une commission de l’événementiel »",
+      "role": "consideration_report",
+      "document_date": "2025-03-27",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5725",
+      "chunks": 5,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_5795_vevey_chef_lieu",
+      "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+      "title": "Prise en considération du postulat de M. Laurent Cornu (PLR), intitulé « Vevey, ville indépendante ou chef-lieu du district de la Riviera ? »",
+      "role": "consideration_report",
+      "document_date": "2025-05-15",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5795",
+      "chunks": 3,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6065_securite_privee",
+      "object_id": "vevey-postulate-2025-securite-privee",
+      "title": "Prise en considération du postulat de Mme Maria Boissard (PLR) « Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan »",
+      "role": "consideration_report",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6065",
+      "chunks": 12,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6088_trente_nuit",
+      "object_id": "vevey-postulate-2025-trente-nuit",
+      "title": "Nomination d’une commission ad hoc pour la prise en considération du postulat de Mme Sandra Marques (PLR) « 30 km/h de nuit : combien de décibels en moins ? »",
+      "role": "consideration_report",
+      "document_date": "2025-12-04",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6088",
+      "chunks": 1,
+      "ocr_applied": true
+    },
+    {
+      "document_id": "vevey_postulate_6066_gare_urgence",
+      "object_id": "vevey-postulate-2025-gare-urgence",
+      "title": "Prise en considération du postulat de Mme Anna Iamartino (PLR) « Vevey en gare d'urgence, le deal doit dérailler ! »",
+      "role": "consideration_report",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6066",
+      "chunks": 7,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6068_vmcv_ecoute",
+      "object_id": "vevey-postulate-2025-vmcv-ecoute",
+      "title": "Prise en considération du postulat de M. Florian Girardoz (PLR) « Les VMCV à l’écoute des citoyens et citoyennes »",
+      "role": "consideration_report",
+      "document_date": "2026-03-19",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6068",
+      "chunks": 5,
+      "ocr_applied": false
+    },
+    {
+      "document_id": "vevey_postulate_6116_potaclos",
+      "object_id": "vevey-postulate-2026-potaclos",
+      "title": "Prise en considération du postulat de M. Martino Rizzello (LCVL) et consort, intitulé « Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay »",
+      "role": "consideration_report",
+      "document_date": "2026-05-07",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6116",
+      "chunks": 7,
+      "ocr_applied": false
+    }
+  ]
+}

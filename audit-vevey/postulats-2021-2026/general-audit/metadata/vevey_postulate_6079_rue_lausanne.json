@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6079_rue_lausanne",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+    "source_title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6079",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "97f69eb3e88a8526ffa59c7fc04b9e6dc259df8a90dc6cc404f6de0dfc166830",
+    "source_content_hash": "5a86ec8cca9843cfcc5b16586e0f07386cd650e271c8f355e5a84a5f957b5dac",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-rue-lausanne",
+    "object_title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+    "authors": [
+      {
+        "name": "Anna Iamartino",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-03-19",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Déposé",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-rue-lausanne",
+    "political_object_document_id": "vevey_postulate_6079_rue_lausanne",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6079",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6079"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1717,
+      "words_extracted": 271,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

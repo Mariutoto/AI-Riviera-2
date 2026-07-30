@@ -20,6 +20,7 @@ from app.diagnostics import record_diagnostic
 from app.pilot_v2_store import (
     aggregate_authors,
     answered_interpellations,
+    answered_postulates,
     fetch_document_chunks,
 )
 from app.text_cleaning import fix_mojibake, strip_accents
@@ -605,6 +606,69 @@ def run_answered_interpellations_query(
     return "\n".join(lines).lstrip(), results
 
 
+def _answered_postulate_result(row: dict, rank: int) -> dict:
+    result = _answered_result(row, rank)
+    result["category"] = "postulat"
+    result["doc_type"] = "postulat"
+    result["_search_source"] = "answered_postulates_v2"
+    result["metadata"]["category"] = "postulat"
+    result["metadata"]["doc_type"] = "postulat"
+    return result
+
+
+def run_answered_postulates_query(
+    filters: dict,
+) -> tuple[str, list[dict]]:
+    """Build an exact answer from postulate-to-response relationships."""
+    rows = answered_postulates(filters)
+    results = [
+        _answered_postulate_result(row, rank)
+        for rank, row in enumerate(rows)
+    ]
+    year = str(filters.get("response_year") or "")
+    if not rows:
+        suffix = f" en {year}" if year else ""
+        return (
+            "Aucun postulat avec une réponse municipale effectivement "
+            f"fournie{suffix} n’a été trouvé dans les métadonnées indexées.",
+            [],
+        )
+
+    commune_count = len(
+        {
+            str(row.get("commune") or "").strip()
+            for row in rows
+            if str(row.get("commune") or "").strip()
+        }
+    )
+    lines: list[str] = []
+    current_commune = None
+    for row in rows:
+        commune = fix_mojibake(
+            str(row.get("commune") or "Commune inconnue")
+        )
+        if commune_count > 1 and commune != current_commune:
+            if lines:
+                lines.append("")
+            lines.append(f"**{commune}**")
+            current_commune = commune
+        lines.append(
+            _political_document_line(
+                category="postulat",
+                title=str(row.get("title") or "Postulat"),
+                authors=list(row.get("authors") or []),
+                political_date=str(row.get("political_date") or ""),
+                pdf_url=str(row.get("response_url") or ""),
+                response_reference=str(
+                    row.get("response_reference") or ""
+                ),
+                response_date=str(row.get("response_date") or ""),
+                commune=commune,
+            )
+        )
+    return "\n".join(lines).lstrip(), results
+
+
 def _unique_document_count(results: list[dict]) -> int:
     return len({result.get("document_id") for result in results if result.get("document_id")})
 
@@ -894,6 +958,49 @@ def run_agentic_pipeline(
         )
         trace["duration_seconds"] = round(
             time.perf_counter() - started_at, 1
+        )
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
+        record_diagnostic(
+            "agent",
+            "Agentic pipeline trace",
+            trace=trace,
+            question=question[:200],
+        )
+        return answer, results, trace
+
+    answered_postulate_filters = (
+        retrieval.detect_answered_postulates_query(question)
+    )
+    if answered_postulate_filters is not None:
+        ui_filters = dict(filters)
+        if (
+            ui_filters.get("year")
+            and not answered_postulate_filters.get("response_year")
+        ):
+            answered_postulate_filters["response_year"] = ui_filters.pop(
+                "year"
+            )
+        else:
+            ui_filters.pop("year", None)
+        answered_postulate_filters = {
+            **answered_postulate_filters,
+            **ui_filters,
+        }
+        trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
+        trace["mode"] = "aggregate"
+        trace["aggregate_kind"] = "answered_postulates"
+        trace["aggregate_filters"] = answered_postulate_filters
+        _notify(on_stage, "Vérification des réponses liées dans la base...")
+        stage_started_at = time.perf_counter()
+        answer, results = run_answered_postulates_query(
+            answered_postulate_filters
+        )
+        trace["timings_ms"]["aggregate_query"] = _elapsed_ms(
+            stage_started_at
+        )
+        trace["duration_seconds"] = round(
+            time.perf_counter() - started_at,
+            1,
         )
         trace["timings_ms"]["total"] = _elapsed_ms(started_at)
         record_diagnostic(

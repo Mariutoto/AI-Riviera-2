@@ -1,0 +1,99 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6068_vmcv_ecoute",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de M. Florian Girardoz (PLR) « Les VMCV à l’écoute des citoyens et citoyennes »",
+    "source_title": "Prise en considération du postulat de M. Florian Girardoz (PLR) « Les VMCV à l’écoute des citoyens et citoyennes »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6068",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "c215870e65c344c3f86e3c02790830cfe05ca89fbbac8c5099d6b88fbf8d1384",
+    "source_content_hash": "7af61d0167e47628fb954cda4813c6f7568c508373b392f122d7033083c5e5c1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-vmcv-ecoute",
+    "object_title": "Les VMCV à l’écoute des citoyens et citoyennes",
+    "authors": [
+      {
+        "name": "Florian Girardoz",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-12-04",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2026/R02 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-vmcv-ecoute",
+    "political_object_document_id": "vevey_postulate_5996_vmcv_ecoute",
+    "related_document_ids": [
+      "vevey_postulate_5996_vmcv_ecoute"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6068_vmcv_ecoute"
+    ],
+    "official_reference": "2026/R02"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6068",
+    "official_reference": "2026/R02",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Rapport",
+        "reference": "2026/R02",
+        "title": "Prise en considération du postulat de M. Florian Girardoz (PLR) « Les VMCV à l’écoute des citoyens et citoyennes »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6068"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 7,
+      "selected_pages": [
+        1,
+        7
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "characters_extracted": 11400,
+      "words_extracted": 1865,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

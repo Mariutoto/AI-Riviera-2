@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6065_securite_privee",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de Mme Maria Boissard (PLR) « Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan »",
+    "source_title": "Prise en considération du postulat de Mme Maria Boissard (PLR) « Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6065",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "186612f702d8575d63a7c8a4c145f82a20bbc52fbe53e4484529254e0d5495b0",
+    "source_content_hash": "1b994f08ee085e1944d21ea5c6510dee579e469b39f6fa4d343117e4445e2a13",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-securite-privee",
+    "object_title": "Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan",
+    "authors": [
+      {
+        "name": "Capy Boissard",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-11-13",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R36 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-securite-privee",
+    "political_object_document_id": "vevey_postulate_5971_securite_privee",
+    "related_document_ids": [
+      "vevey_postulate_5971_securite_privee"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6065_securite_privee"
+    ],
+    "official_reference": "2025/R36"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6065",
+    "official_reference": "2025/R36",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Rapport",
+        "reference": "2025/R36",
+        "title": "Prise en considération du postulat de Mme Maria Boissard (PLR) « Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6065"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 11,
+      "selected_pages": [
+        1,
+        11
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 28493,
+      "words_extracted": 4605,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

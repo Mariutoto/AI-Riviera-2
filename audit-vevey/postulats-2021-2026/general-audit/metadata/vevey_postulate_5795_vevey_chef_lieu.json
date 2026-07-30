@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5795_vevey_chef_lieu",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de M. Laurent Cornu (PLR), intitulé « Vevey, ville indépendante ou chef-lieu du district de la Riviera ? »",
+    "source_title": "Prise en considération du postulat de M. Laurent Cornu (PLR), intitulé « Vevey, ville indépendante ou chef-lieu du district de la Riviera ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5795",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-15",
+    "language": "fr",
+    "content_hash": "b63016387ccac1c22fe8c9f42abdcdc489ee18d6a0438e112ecab1939be87708",
+    "source_content_hash": "ecb42404b90a7f91910110393f601ca36c42fd17485526e83078dca7c284b032",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+    "object_title": "Vevey, ville indépendante ou chef-lieu du district de la Riviera ?",
+    "authors": [
+      {
+        "name": "Laurent Cornu",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-02-06",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R16 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-vevey-chef-lieu",
+    "political_object_document_id": "vevey_postulate_5693_vevey_chef_lieu",
+    "related_document_ids": [
+      "vevey_postulate_5693_vevey_chef_lieu"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5795_vevey_chef_lieu"
+    ],
+    "official_reference": "2025/R16"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5795",
+    "official_reference": "2025/R16",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-05-15",
+        "listing_author": "Laurent Cornu",
+        "displayed_type": "Rapport",
+        "reference": "2025/R16",
+        "title": "Prise en considération du postulat de M. Laurent Cornu (PLR), intitulé « Vevey, ville indépendante ou chef-lieu du district de la Riviera ? »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5795"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "selected_pages": [
+        1,
+        4
+      ],
+      "image_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "characters_extracted": 6054,
+      "words_extracted": 1025,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

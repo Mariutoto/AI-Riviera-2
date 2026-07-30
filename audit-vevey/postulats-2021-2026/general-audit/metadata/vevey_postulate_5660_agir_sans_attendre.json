@@ -1,0 +1,112 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5660_agir_sans_attendre",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de M. Patrick Bertschy (PLR), intitulé « Agir sans attendre pour notre bien... et pas seulement... »",
+    "source_title": "Prise en considération du postulat de M. Patrick Bertschy (PLR), intitulé « Agir sans attendre pour notre bien... et pas seulement... »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5660",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-05",
+    "language": "fr",
+    "content_hash": "8cccab40eb8bc664950b1262bcb3f817c22e9a28582adacaca55e15f5dcf1efc",
+    "source_content_hash": "617d842c4b9c07ff5651a7ed1c42dddcbe43fae3183cf72b4161cf4385787c42",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2024-agir-sans-attendre",
+    "object_title": "Agir sans attendre pour notre bien… et pas seulement…",
+    "authors": [
+      {
+        "name": "Patrick Bertschy",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-09-05",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2024-agir-sans-attendre",
+    "political_object_document_id": "vevey_postulate_5580_agir_sans_attendre",
+    "related_document_ids": [
+      "vevey_postulate_5580_agir_sans_attendre"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5660_agir_sans_attendre"
+    ],
+    "official_reference": "2024/R36"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5660",
+    "official_reference": "2024/R36",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-12-05",
+        "listing_author": "Patrick Bertschy",
+        "displayed_type": "Annexe",
+        "reference": "2024/R36",
+        "title": "Prise en considération du postulat de M. Patrick Bertschy (PLR), intitulé « Agir sans attendre pour notre bien... et pas seulement... »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5660"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 20,
+      "selected_pages": [
+        1,
+        20
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        3,
+        3,
+        5,
+        5,
+        13,
+        1,
+        10
+      ],
+      "characters_extracted": 14197,
+      "words_extracted": 2301,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

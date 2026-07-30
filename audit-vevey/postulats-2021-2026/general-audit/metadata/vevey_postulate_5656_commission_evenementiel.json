@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5656_commission_evenementiel",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Pour une commission de l’événementiel",
+    "source_title": "Pour une commission de l’événementiel",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5656",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-12",
+    "language": "fr",
+    "content_hash": "23bc2dc3b24195797b86ceaa54f41f341936e04d99907d556acc478b6df1978a",
+    "source_content_hash": "5f17b9c26ad82353de832aa35ceea1d671290e8015b1ffb104b950546e4d7423",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2024-commission-evenementiel",
+    "object_title": "Pour une commission de l’événementiel",
+    "authors": [
+      {
+        "name": "Hervé Queyranne",
+        "civility": "M.",
+        "party": "da.",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-12-12",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R06 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2024-commission-evenementiel",
+    "political_object_document_id": "vevey_postulate_5656_commission_evenementiel",
+    "related_document_ids": [
+      "vevey_postulate_5725_commission_evenementiel"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5725_commission_evenementiel"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5656",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-25",
+        "listing_author": "",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Pour une commission de l’événementiel",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5656"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        0
+      ],
+      "characters_extracted": 1448,
+      "words_extracted": 229,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

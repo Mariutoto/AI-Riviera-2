@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4736_precarite_menstruelle",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Lutter contre la précarité menstruelle à Vevey",
+    "source_title": "Lutter contre la précarité menstruelle à Vevey",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4736",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-07",
+    "language": "fr",
+    "content_hash": "cef281a9c8308e5eae15e5790efa8eda62a8ebdef511cc6d8a3ac7ac35c7052b",
+    "source_content_hash": "67e54b7c366abed97317c59cfafa26cbbbfe075b683955d48711809f8a686028",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2021-precarite-menstruelle",
+    "object_title": "Lutter contre la précarité menstruelle à Vevey",
+    "authors": [
+      {
+        "name": "Joëlle Minacci",
+        "civility": "Mme",
+        "party": "da.",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2021-10-07",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2021-precarite-menstruelle",
+    "political_object_document_id": "vevey_postulate_4736_precarite_menstruelle",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4736",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-11-12",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Lutter contre la précarité menstruelle à Vevey",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4736"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 18,
+      "selected_pages": [
+        15,
+        15
+      ],
+      "image_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 3505,
+      "words_extracted": 520,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      15,
+      15
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

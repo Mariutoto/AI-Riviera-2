@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 44,
+    "original_postulates": 30,
+    "chunks": 185,
+    "vectors": 185,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 30,
+    "objects_with_response": 5,
+    "objects_without_response": 25,
+    "broken_relationship_links": 0,
+    "aggregate_originals": 30,
+    "aggregate_2024": 4,
+    "answered_in_2025": 3,
+    "answered_2025_response_pdfs": 3
+  },
+  "objects": [
+    {
+      "object_id": "vevey-postulate-2021-bienwenue-elargie",
+      "title": "Vers une « bienwenue » élargie",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2021-carte-citoyenne",
+      "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2021-precarite-menstruelle",
+      "title": "Lutter contre la précarité menstruelle à Vevey",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2022-climat-preemption",
+      "title": "Climat et préemption…",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2022-infrastructures-plan-dessus",
+      "title": "Vision d’avenir pour les infrastructures sportives de Plan-Dessus",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2022-insecurite-gare",
+      "title": "Insécurité à la Gare – impunité ou réactivité ?",
+      "has_response": true
+    },
+    {
+      "object_id": "vevey-postulate-2022-non-recours",
+      "title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+      "has_response": true
+    },
+    {
+      "object_id": "vevey-postulate-2022-subventions-sportives",
+      "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2022-ville-images",
+      "title": "Faire de Vevey une ville d’images au quotidien",
+      "has_response": true
+    },
+    {
+      "object_id": "vevey-postulate-2023-alimentation-durable",
+      "title": "Pour une ville exemplaire en matière d’alimentation durable",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2023-micro-forets",
+      "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+      "has_response": true
+    },
+    {
+      "object_id": "vevey-postulate-2024-accueil-prescolaire",
+      "title": "La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+      "has_response": true
+    },
+    {
+      "object_id": "vevey-postulate-2024-agir-sans-attendre",
+      "title": "Agir sans attendre pour notre bien… et pas seulement…",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2024-audit-services",
+      "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2024-commission-evenementiel",
+      "title": "Pour une commission de l’événementiel",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-gare-urgence",
+      "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-hebergement-violences",
+      "title": "Un hébergement pour les victimes de violences domestiques",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-sans-abrisme",
+      "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-securite-privee",
+      "title": "Pour une étude sur l’opportunité de recourir à des agents de sécurité privés afin de renforcer le sentiment de sécurité sur le domaine public veveysan",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-trente-nuit",
+      "title": "30 km/h de nuit : combien de décibels en moins ?",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-vevey-chef-lieu",
+      "title": "Vevey, ville indépendante ou chef-lieu du district de la Riviera ?",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2025-vmcv-ecoute",
+      "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-feuilles-sol",
+      "title": "Des feuilles pour nourrir le sol",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-logistique-urbaine",
+      "title": "Stratégie de logistique urbaine",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-mobilite-eleves",
+      "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-potaclos",
+      "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-proximite-centre-ville",
+      "title": "Choisissons la proximité pour garder un centre-ville vivant",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-rue-lausanne",
+      "title": "Stop à l’impasse idéologique sur la rue de Lausanne !",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-tourisme-train-velo",
+      "title": "Visiter la Riviera, c’est bien… en train ou en vélo, c’est mieux",
+      "has_response": false
+    },
+    {
+      "object_id": "vevey-postulate-2026-vevey-loupe",
+      "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+      "has_response": false
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "précarité menstruelle protections réutilisables",
+      "expected_prefix": "vevey_postulate_4736_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_postulate_4736_precarite_menstruelle",
+        "vevey_postulate_4736_precarite_menstruelle",
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours"
+      ]
+    },
+    {
+      "query": "non-recours aux prestations sociales",
+      "expected_prefix": "vevey_postulate_4834_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours",
+        "vevey_postulate_5811_non_recours"
+      ]
+    },
+    {
+      "query": "micro-forêts urbaines réchauffement climatique",
+      "expected_prefix": "vevey_postulate_5289_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_postulate_5289_micro_forets",
+        "vevey_postulate_5681_micro_forets",
+        "vevey_postulate_5681_micro_forets",
+        "vevey_postulate_5681_micro_forets",
+        "vevey_postulate_5681_micro_forets"
+      ]
+    },
+    {
+      "query": "Potaclos pôle urbain Avenue de Blonay",
+      "expected_prefix": "vevey_postulate_6048_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_postulate_4894_climat_preemption",
+        "vevey_postulate_4970_ville_images",
+        "vevey_postulate_5580_agir_sans_attendre",
+        "vevey_postulate_5612_ville_images",
+        "vevey_postulate_5660_agir_sans_attendre"
+      ]
+    }
+  ],
+  "failures": []
+}

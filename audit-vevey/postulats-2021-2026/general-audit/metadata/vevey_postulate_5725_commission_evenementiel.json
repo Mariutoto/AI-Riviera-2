@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5725_commission_evenementiel",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de M. Hervé Queyranne (da.), intitulé « Pour une commission de l’événementiel »",
+    "source_title": "Prise en considération du postulat de M. Hervé Queyranne (da.), intitulé « Pour une commission de l’événementiel »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5725",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-27",
+    "language": "fr",
+    "content_hash": "4cd30b5bd9f0697cf1d9ef6303a968ff858f9a73562c58ffe917441d913fc5a2",
+    "source_content_hash": "012286c0b3c883089261d13d9c4908495c4bdb4c262e922ba74b49746a4b6cdc",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2024-commission-evenementiel",
+    "object_title": "Pour une commission de l’événementiel",
+    "authors": [
+      {
+        "name": "Hervé Queyranne",
+        "civility": "M.",
+        "party": "da.",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-12-12",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R06 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2024-commission-evenementiel",
+    "political_object_document_id": "vevey_postulate_5656_commission_evenementiel",
+    "related_document_ids": [
+      "vevey_postulate_5656_commission_evenementiel"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5725_commission_evenementiel"
+    ],
+    "official_reference": "2025/R06"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5725",
+    "official_reference": "2025/R06",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-03-27",
+        "listing_author": "Hervé Queyranne",
+        "displayed_type": "Rapport",
+        "reference": "2025/R06",
+        "title": "Prise en considération du postulat de M. Hervé Queyranne (da.), intitulé « Pour une commission de l’événementiel »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5725"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 9,
+      "selected_pages": [
+        1,
+        9
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 13108,
+      "words_extracted": 1964,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

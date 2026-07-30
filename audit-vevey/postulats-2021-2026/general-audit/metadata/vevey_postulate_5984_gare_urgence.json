@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5984_gare_urgence",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+    "source_title": "Vevey en gare d’urgence, le deal doit dérailler !",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5984",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "language": "fr",
+    "content_hash": "b5034a1f2e7d913383933a371878d103c6f779e918a924d25d205177f23828a4",
+    "source_content_hash": "108a9c63821075e89ad4b1521083c8aed6eb792cae95d58b2ee52c465709f936",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-gare-urgence",
+    "object_title": "Vevey en gare d’urgence, le deal doit dérailler !",
+    "authors": [
+      {
+        "name": "Anna Iamartino",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-11-13",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R37 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-gare-urgence",
+    "political_object_document_id": "vevey_postulate_5984_gare_urgence",
+    "related_document_ids": [
+      "vevey_postulate_6066_gare_urgence"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6066_gare_urgence"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5984",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-11-13",
+        "listing_author": "Anna Iamartino",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Vevey en gare d’urgence, le deal doit dérailler !",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5984"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3389,
+      "words_extracted": 529,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

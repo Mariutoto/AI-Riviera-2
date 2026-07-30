@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6048_potaclos",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+    "source_title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6048",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "language": "fr",
+    "content_hash": "8933d0f9a05f4b08e4d5131daaec6f0a4a64757bd1c3faa6199d7fad468dc7b7",
+    "source_content_hash": "e4abd5bc29e5f5d3ab215fc31e71d472f2d63cf56b3e59954daf091317a31c6e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-potaclos",
+    "object_title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+    "authors": [
+      {
+        "name": "Martino Rizzello",
+        "civility": "M.",
+        "party": "LCVL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-02-05",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2026/R03 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-potaclos",
+    "political_object_document_id": "vevey_postulate_6048_potaclos",
+    "related_document_ids": [
+      "vevey_postulate_6116_potaclos"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6116_potaclos"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6048",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-02-05",
+        "listing_author": "Martino Rizzello",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Potaclos – Pour un pôle urbain mixte et innovant à l'Avenue de Blonay",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6048"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        1,
+        3
+      ],
+      "characters_extracted": 3561,
+      "words_extracted": 541,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

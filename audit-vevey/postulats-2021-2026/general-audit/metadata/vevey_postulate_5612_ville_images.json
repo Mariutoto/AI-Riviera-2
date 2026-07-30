@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5612_ville_images",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « Faire de Vevey une ville d’images au quotidien »",
+    "source_title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « Faire de Vevey une ville d’images au quotidien »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5612",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-14",
+    "language": "fr",
+    "content_hash": "c09f38b2b65f75bee91f96e58ba278de4bbd9fbc1423b049f4b032beda6bc043",
+    "source_content_hash": "59cd3634104b44dcf6c34709ba4fbadb8d5e88e6a74b824d33af8b2813f17e08",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-ville-images",
+    "object_title": "Faire de Vevey une ville d’images au quotidien",
+    "authors": [
+      {
+        "name": "Mickael Bertschy",
+        "civility": "M.",
+        "party": "VL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-10-06",
+    "status_normalized": "answered",
+    "status": "Réponse 2024/RP34 disponible",
+    "response_date": "2024-11-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-ville-images",
+    "political_object_document_id": "vevey_postulate_4970_ville_images",
+    "related_document_ids": [
+      "vevey_postulate_4970_ville_images"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5612_ville_images"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": "2024/RP34"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5612",
+    "official_reference": "2024/RP34",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-14",
+        "listing_author": "",
+        "displayed_type": "Préavis",
+        "reference": "2024/RP34",
+        "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « Faire de Vevey une ville d’images au quotidien »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5612"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 16,
+      "selected_pages": [
+        1,
+        16
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        1,
+        2,
+        2,
+        3,
+        1,
+        1,
+        0
+      ],
+      "characters_extracted": 29981,
+      "words_extracted": 4713,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

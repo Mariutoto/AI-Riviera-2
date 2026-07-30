@@ -1,0 +1,139 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4970_ville_images",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Faire de Vevey une ville d’images au quotidien",
+    "source_title": "Faire de Vevey une ville d’images au quotidien",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4970",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-06",
+    "language": "fr",
+    "content_hash": "eea0a192d2221f5222af58a29fb7a3d44c76724bb5562216867f696c2301c4d4",
+    "source_content_hash": "63b91c796a6aa67912dc13581cd3a55e22bd7382e010e04ea2eeb0e71801c60d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-ville-images",
+    "object_title": "Faire de Vevey une ville d’images au quotidien",
+    "authors": [
+      {
+        "name": "Mickael Bertschy",
+        "civility": "M.",
+        "party": "VL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-10-06",
+    "status_normalized": "answered",
+    "status": "Réponse 2024/RP34 disponible",
+    "response_date": "2024-11-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-ville-images",
+    "political_object_document_id": "vevey_postulate_4970_ville_images",
+    "related_document_ids": [
+      "vevey_postulate_5612_ville_images"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5612_ville_images"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4970",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-11-18",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Faire de Vevey une ville d’images au quotidien",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4970"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 43,
+      "selected_pages": [
+        17,
+        18
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        0,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 5434,
+      "words_extracted": 807,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      17,
+      18
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

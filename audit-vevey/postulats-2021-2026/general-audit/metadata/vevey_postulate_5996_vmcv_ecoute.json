@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5996_vmcv_ecoute",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+    "source_title": "Les VMCV à l’écoute des citoyens et citoyennes",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5996",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-04",
+    "language": "fr",
+    "content_hash": "4bf2fe94da24cd4a37fba9c93dd6a9fb3bb297c625cbc71d5e0e511a5f4c4f10",
+    "source_content_hash": "36f335022701cee477c91e16aa7c43e54de89981a5e8aadd127d3f8b97e6dd91",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-vmcv-ecoute",
+    "object_title": "Les VMCV à l’écoute des citoyens et citoyennes",
+    "authors": [
+      {
+        "name": "Florian Girardoz",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-12-04",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2026/R02 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-vmcv-ecoute",
+    "political_object_document_id": "vevey_postulate_5996_vmcv_ecoute",
+    "related_document_ids": [
+      "vevey_postulate_6068_vmcv_ecoute"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6068_vmcv_ecoute"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5996",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-11-24",
+        "listing_author": "",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Les VMCV à l’écoute des citoyens et citoyennes",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5996"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1684,
+      "words_extracted": 272,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

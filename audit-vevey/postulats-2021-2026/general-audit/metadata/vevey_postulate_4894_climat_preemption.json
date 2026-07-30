@@ -1,0 +1,158 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4894_climat_preemption",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Climat et préemption…",
+    "source_title": "Climat et préemption…",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-23",
+    "language": "fr",
+    "content_hash": "84a64494bb189fd43605bb6a7d502e8c18ad82cea1792d8bd1f50bf8403e1624",
+    "source_content_hash": "14fcfe0159e2153f1a9fa7801b931d3855190a4a76ea90c00b06e4e525c6fd5b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-climat-preemption",
+    "object_title": "Climat et préemption…",
+    "authors": [
+      {
+        "name": "Patrick Bertschy",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-06-23",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-climat-preemption",
+    "political_object_document_id": "vevey_postulate_4894_climat_preemption",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4894",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-09-09",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Climat et préemption…",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 67,
+      "selected_pages": [
+        26,
+        28
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 15503,
+      "words_extracted": 2578,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      26,
+      28
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

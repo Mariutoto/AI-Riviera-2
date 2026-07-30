@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6045_vevey_loupe",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+    "source_title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6045",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "language": "fr",
+    "content_hash": "a270b888ae6ea901d726e74bc07c48a72d8d9ca8dd49a40a9f61727c5dd1c218",
+    "source_content_hash": "e790e468455b05203c4e693b35564a021171543309672457e4d1aa18252e37eb",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-vevey-loupe",
+    "object_title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+    "authors": [
+      {
+        "name": "Philippe Herminjard",
+        "civility": "M.",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-02-05",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-vevey-loupe",
+    "political_object_document_id": "vevey_postulate_6045_vevey_loupe",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6045",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-02-05",
+        "listing_author": "Philippe Herminjard",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Vevey sous la loupe : mesurer l’efficacité des mesures prises pour la satisfaction des usagers et des contribuables",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6045"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2914,
+      "words_extracted": 422,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

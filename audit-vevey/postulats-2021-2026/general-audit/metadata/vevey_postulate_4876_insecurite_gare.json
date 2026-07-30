@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4876_insecurite_gare",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Insécurité à la Gare – impunité ou réactivité ?",
+    "source_title": "Insécurité à la Gare – impunité ou réactivité ?",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4876",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-19",
+    "language": "fr",
+    "content_hash": "715dcb0766374c6e9fd961b0fdc9297408653ae2b92d3c31e0ccd1e367a2b57d",
+    "source_content_hash": "5e38144b34bbf31f76149d8e239a7193922717bfdeb085cf06b2b7809e7c6826",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-insecurite-gare",
+    "object_title": "Insécurité à la Gare – impunité ou réactivité ?",
+    "authors": [
+      {
+        "name": "Anna Iamartino",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-05-19",
+    "status_normalized": "answered",
+    "status": "Réponse 2025/P03 disponible",
+    "response_date": "2025-02-06",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-insecurite-gare",
+    "political_object_document_id": "vevey_postulate_4876_insecurite_gare",
+    "related_document_ids": [
+      "vevey_postulate_5704_insecurite_gare"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5704_insecurite_gare"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4876",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-06-24",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Insécurité à la Gare – impunité ou réactivité ?",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4876"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2518,
+      "words_extracted": 416,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

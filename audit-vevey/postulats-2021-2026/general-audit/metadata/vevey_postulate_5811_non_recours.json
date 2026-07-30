@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5811_non_recours",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Rapport-préavis en réponse au postulat de Mme Sabrina Berrocal (da.) et interpartis, intitulé « Pour que Vevey fasse sa part contre le non-recours aux prestations sociales »",
+    "source_title": "Rapport-préavis en réponse au postulat de Mme Sabrina Berrocal (da.) et interpartis, intitulé « Pour que Vevey fasse sa part contre le non-recours aux prestations sociales »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5811",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-15",
+    "language": "fr",
+    "content_hash": "07044498aba5ad7a1d743b3bba2f7e31365c4bb84ef856ce78f99e1133a6715f",
+    "source_content_hash": "2b9ab094bc4ad1ba16e13d741ecb023f8b5b8c8c8cd221078da722979cd91546",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-non-recours",
+    "object_title": "Pour que Vevey fasse sa part contre le non-recours aux prestations sociales",
+    "authors": [
+      {
+        "name": "Sabrina Berrocal",
+        "civility": "Mme",
+        "party": "da./Interpartis",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-03-17",
+    "status_normalized": "answered",
+    "status": "Réponse 2025/RP17 disponible",
+    "response_date": "2025-05-15",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-non-recours",
+    "political_object_document_id": "vevey_postulate_4834_non_recours",
+    "related_document_ids": [
+      "vevey_postulate_4834_non_recours"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5811_non_recours"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": "2025/RP17"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5811",
+    "official_reference": "2025/RP17",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-05-15",
+        "listing_author": "Sabrina Berrocal",
+        "displayed_type": "Annexe",
+        "reference": "2025/RP17",
+        "title": "Rapport-préavis en réponse au postulat de Mme Sabrina Berrocal (da.) et interpartis, intitulé « Pour que Vevey fasse sa part contre le non-recours aux prestations sociales »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5811"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 26,
+      "selected_pages": [
+        1,
+        26
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "characters_extracted": 68888,
+      "words_extracted": 10320,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

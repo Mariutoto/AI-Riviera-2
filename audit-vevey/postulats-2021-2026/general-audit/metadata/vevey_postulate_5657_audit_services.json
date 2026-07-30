@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5657_audit_services",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+    "source_title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5657",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-12",
+    "language": "fr",
+    "content_hash": "24b7d5333d1b4860fac1b3f41432f5e212ff98a9bd74ac7ac88838779fde18e8",
+    "source_content_hash": "da77a63cc1c9229dbaf7effcd3ec6b78484ccdc219ffa5d32025387c13a7e22d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2024-audit-services",
+    "object_title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+    "authors": [
+      {
+        "name": "Sandra Marques",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-12-12",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2024-audit-services",
+    "political_object_document_id": "vevey_postulate_5657_audit_services",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5657",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-25",
+        "listing_author": "",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Audit externe pour optimiser la gestion des services communaux et les conditions de travail des chefs et cheffes de service à Vevey",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5657"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2590,
+      "words_extracted": 392,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

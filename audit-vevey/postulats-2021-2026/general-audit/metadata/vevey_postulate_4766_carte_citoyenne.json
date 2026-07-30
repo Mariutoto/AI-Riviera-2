@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4766_carte_citoyenne",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+    "source_title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "language": "fr",
+    "content_hash": "5e0283c33db7b799e3921d013500009a77125503d0fdb4db333ed5abc5cce578",
+    "source_content_hash": "51110109b6837aa42196344be2cf04e0308f7273826efccdb5f24dd5c50fb7a9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2021-carte-citoyenne",
+    "object_title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+    "authors": [
+      {
+        "name": "Marion Houriet",
+        "civility": "Mme",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2021-11-11",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2021-carte-citoyenne",
+    "political_object_document_id": "vevey_postulate_4766_carte_citoyenne",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4766",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-12-03",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Une carte citoyenne pour développer l'intégration et le vivre ensemble",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 36,
+      "selected_pages": [
+        25,
+        26
+      ],
+      "image_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 2884,
+      "words_extracted": 448,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      25,
+      26
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

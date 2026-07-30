@@ -1,0 +1,103 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6190_accueil_prescolaire",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+    "source_title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6190",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-11",
+    "language": "fr",
+    "content_hash": "bc4c07ef1b00f32e0f9051f63d0e9cf1eeab7b0ac806c5630c1c0aec230903c0",
+    "source_content_hash": "ad19b013b79153fadeef19624ca568e0741e3be159b81788e4a765dd24947979",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2024-accueil-prescolaire",
+    "object_title": "La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+    "authors": [
+      {
+        "name": "Mickael Bertschy",
+        "civility": "M.",
+        "party": "VL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-03-14",
+    "status_normalized": "answered",
+    "status": "Réponse 2026/RP19 disponible",
+    "response_date": "2026-06-11",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2024-accueil-prescolaire",
+    "political_object_document_id": "vevey_postulate_5412_accueil_prescolaire",
+    "related_document_ids": [
+      "vevey_postulate_5412_accueil_prescolaire"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_6190_accueil_prescolaire"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": "2026/RP19"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6190",
+    "official_reference": "2026/RP19",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-06-11",
+        "listing_author": "Mickael Bertschy",
+        "displayed_type": "Préavis",
+        "reference": "2026/RP19",
+        "title": "Rapport-préavis en réponse au postulat de M. Mickael Bertschy (VL), intitulé « La complémentarité de l’offre publique-privée au service de l’accueil préscolaire",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6190"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 10,
+      "selected_pages": [
+        1,
+        10
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ],
+      "characters_extracted": 27671,
+      "words_extracted": 4056,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

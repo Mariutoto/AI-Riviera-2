@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5151_alimentation_durable",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Pour une ville exemplaire en matière d’alimentation durable",
+    "source_title": "Pour une ville exemplaire en matière d’alimentation durable",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5151",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-15",
+    "language": "fr",
+    "content_hash": "a8777a945c61827e311f7ac15ba0982feed229e74ee1f1b9eb6401b74b8f4854",
+    "source_content_hash": "d0f753ac0ffc142a27c48577f110ef6182f9b90dc15b439e8ad73c21fa93b600",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2023-alimentation-durable",
+    "object_title": "Pour une ville exemplaire en matière d’alimentation durable",
+    "authors": [
+      {
+        "name": "Fabien Truffer",
+        "civility": "M.",
+        "party": "LCVL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-06-15",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2023/R23 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2023-alimentation-durable",
+    "political_object_document_id": "vevey_postulate_5151_alimentation_durable",
+    "related_document_ids": [
+      "vevey_postulate_5240_alimentation_durable"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5240_alimentation_durable"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5151",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-06-02",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Pour une ville exemplaire en matière d’alimentation durable",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5151"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "selected_pages": [
+        1,
+        3
+      ],
+      "image_counts": [
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 8375,
+      "words_extracted": 1343,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

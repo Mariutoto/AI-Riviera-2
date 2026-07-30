@@ -1,0 +1,127 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4766_bienwenue_elargie",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Vers une « bienwenue » élargie",
+    "source_title": "Vers une « bienwenue » élargie",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "language": "fr",
+    "content_hash": "8d6fb3297f75d01adc82849af87550905632f1dbac7240d9944915f022c55d0b",
+    "source_content_hash": "51110109b6837aa42196344be2cf04e0308f7273826efccdb5f24dd5c50fb7a9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2021-bienwenue-elargie",
+    "object_title": "Vers une « bienwenue » élargie",
+    "authors": [
+      {
+        "name": "Fabienne Despot",
+        "civility": "Mme",
+        "party": "UDC",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2021-11-11",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2021-bienwenue-elargie",
+    "political_object_document_id": "vevey_postulate_4766_bienwenue_elargie",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4766",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-12-03",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Vers une « bienwenue » élargie",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 36,
+      "selected_pages": [
+        22,
+        22
+      ],
+      "image_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 2564,
+      "words_extracted": 410,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      22,
+      22
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5704_insecurite_gare",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Demande d’un crédit d’investissement de CHF 799'700.— pour l’installation d’un dispositif de vidéosurveillance, d’un crédit supplémentaire déjà dépensé au budget 2024 de CHF 96'600.— et d’accepter la mise en œuvre de mesures complémentaires - Réponse au postulat de Mme Anna Iamartino (PLR), intitulé « Insécurité à la Gare, impunité ou réactivité »",
+    "source_title": "Demande d’un crédit d’investissement de CHF 799'700.— pour l’installation d’un dispositif de vidéosurveillance, d’un crédit supplémentaire déjà dépensé au budget 2024 de CHF 96'600.— et d’accepter la mise en œuvre de mesures complémentaires - Réponse au postulat de Mme Anna Iamartino (PLR), intitulé « Insécurité à la Gare, impunité ou réactivité »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5704",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "language": "fr",
+    "content_hash": "3980f22ad606bc28dc1e587fa122d9ad74f127566f27ebf6d5b7ee8e77a520e9",
+    "source_content_hash": "15b3d622bde7c37d713d5d6a0d28d2aa0c48928f38a00f76b68c490fc40fe7f1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-insecurite-gare",
+    "object_title": "Insécurité à la Gare – impunité ou réactivité ?",
+    "authors": [
+      {
+        "name": "Anna Iamartino",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-05-19",
+    "status_normalized": "answered",
+    "status": "Réponse 2025/P03 disponible",
+    "response_date": "2025-02-06",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-insecurite-gare",
+    "political_object_document_id": "vevey_postulate_4876_insecurite_gare",
+    "related_document_ids": [
+      "vevey_postulate_4876_insecurite_gare"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5704_insecurite_gare"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": "2025/P03"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5704",
+    "official_reference": "2025/P03",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-02-06",
+        "listing_author": "Anna Iamartino",
+        "displayed_type": "Préavis",
+        "reference": "2025/P03",
+        "title": "Demande d’un crédit d’investissement de CHF 799'700.— pour l’installation d’un dispositif de vidéosurveillance, d’un crédit supplémentaire déjà dépensé au budget 2024 de CHF 96'600.— et d’accepter la mise en œuvre de mesures complémentaires - Réponse au postulat de Mme Anna Iamartino (PLR), intitulé « Insécurité à la Gare, impunité ou réactivité »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5704"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 31,
+      "selected_pages": [
+        1,
+        31
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 68707,
+      "words_extracted": 10131,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

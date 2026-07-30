@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6078_mobilite_eleves",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+    "source_title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6078",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "9c206438a31a832280146eb5f084ae37744d829b1c8b05f3b46df1797147e144",
+    "source_content_hash": "f66dba107feb9672b101b6528e5cd8d80e3dbf695b880c270d5e0057ff1225c3",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-mobilite-eleves",
+    "object_title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+    "authors": [
+      {
+        "name": "Sarah Dohr",
+        "civility": "Mme",
+        "party": "VL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-03-19",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Déposé",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-mobilite-eleves",
+    "political_object_document_id": "vevey_postulate_6078_mobilite_eleves",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6078",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Pour une mobilité durable et équitable : étude de la gratuité des transports publics pour les élèves de la scolarité obligatoire à Vevey",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6078"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4301,
+      "words_extracted": 649,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

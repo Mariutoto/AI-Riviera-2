@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5289_micro_forets",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+    "source_title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5289",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-12-07",
+    "language": "fr",
+    "content_hash": "e1b21b2475ed4cd6868105560100464cb341aba72a54a4780018a1c257b76383",
+    "source_content_hash": "38de1bf0fb4bd0c022ad3841c3716274d32c02809dddbd13e605f44043b6829e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2023-micro-forets",
+    "object_title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+    "authors": [
+      {
+        "name": "Serge Ansermet",
+        "civility": "M.",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-12-07",
+    "status_normalized": "answered",
+    "status": "Réponse 2025/RP01 disponible",
+    "response_date": "2025-02-06",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_response_available",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2023-micro-forets",
+    "political_object_document_id": "vevey_postulate_5289_micro_forets",
+    "related_document_ids": [
+      "vevey_postulate_5681_micro_forets"
+    ],
+    "response_document_ids": [
+      "vevey_postulate_5681_micro_forets"
+    ],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5289",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-12-07",
+        "listing_author": "Serge Ansermet",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Réchauffement climatique : et si on créait des micro-forêts urbaines ?",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5289"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2729,
+      "words_extracted": 431,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

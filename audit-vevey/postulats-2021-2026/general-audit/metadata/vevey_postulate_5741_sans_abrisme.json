@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5741_sans_abrisme",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+    "source_title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5741",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-27",
+    "language": "fr",
+    "content_hash": "cbaa9f678f5efd2e263d4cc5a4561d4dc8cd13df049b99ad36f472e6327056df",
+    "source_content_hash": "f730796fb78182111409e2180de390054e598e07511481332e778af94f4e965d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-sans-abrisme",
+    "object_title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+    "authors": [
+      {
+        "name": "Sabrina Berrocal",
+        "civility": "Mme",
+        "party": "da./Interpartis",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-27",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-sans-abrisme",
+    "political_object_document_id": "vevey_postulate_5741_sans_abrisme",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5741",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-03-27",
+        "listing_author": "Sabrina Berrocal",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Lutter pour la fin du sans-abrisme, un défi communal, cantonal et national : pour un état des lieux et une politique coordonnée et intercommunale des hébergements d'urgence",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5741"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "selected_pages": [
+        1,
+        3
+      ],
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 8712,
+      "words_extracted": 1256,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

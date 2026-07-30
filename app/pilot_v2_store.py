@@ -678,6 +678,116 @@ def answered_interpellations(filters: dict | None = None) -> list[dict]:
     )
 
 
+def answered_postulates(filters: dict | None = None) -> list[dict]:
+    """Enumerate postulates with a verified linked municipal response."""
+    filters = dict(filters or {})
+    requested_city = str(filters.get("city") or "").strip()
+    requested_year = str(filters.get("response_year") or "").strip()
+    clauses = [
+        "category = 'postulat'",
+        "document_role = 'postulate_text'",
+        "coalesce((metadata->'additional_metadata'->'postulate_metadata'"
+        "->>'has_response')::boolean, false)",
+    ]
+    params: list[object] = []
+    if requested_city and requested_city.lower() != "all":
+        clauses.append("metadata->>'commune' = %s")
+        params.append(requested_city)
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(
+            "SELECT document_id, title, category, document_role, summary, "
+            "metadata FROM documents WHERE " + " AND ".join(clauses),
+            params,
+        )
+        originals = cursor.fetchall()
+        linked_ids = sorted(
+            {
+                document_id
+                for original in originals
+                for document_id in _response_document_ids(
+                    original.get("metadata") or {}
+                )
+            }
+        )
+        response_documents: dict[str, dict] = {}
+        if linked_ids:
+            cursor.execute(
+                "SELECT document_id, title, category, document_role, summary, "
+                "metadata, coalesce(("
+                "SELECT string_agg(c.content, ' ' ORDER BY c.chunk_index) "
+                "FROM chunks c WHERE c.document_id = documents.document_id"
+                "), '') AS content "
+                "FROM documents WHERE document_id = ANY(%s)",
+                (linked_ids,),
+            )
+            response_documents = {
+                row["document_id"]: row for row in cursor.fetchall()
+            }
+
+    selected = []
+    for original in originals:
+        metadata = dict(original.get("metadata") or {})
+        additional = metadata.get("additional_metadata") or {}
+        specific = additional.get("postulate_metadata") or {}
+        relationships = additional.get("relationships") or {}
+        response_document = next(
+            (
+                response_documents[document_id]
+                for document_id in (
+                    relationships.get("response_document_ids") or []
+                )
+                if document_id in response_documents
+            ),
+            None,
+        )
+        if not response_document:
+            continue
+        response_date = (
+            _response_letter_date(response_document)
+            or str(specific.get("response_date") or "")
+        )
+        if requested_year and not response_date.startswith(requested_year):
+            continue
+        response_metadata = response_document.get("metadata") or {}
+        authors = [
+            _author_display(item)
+            for item in (specific.get("authors") or [])
+            if isinstance(item, dict) and _author_display(item)
+        ]
+        selected.append(
+            {
+                "document_id": original["document_id"],
+                "source_document_id": response_document["document_id"],
+                "title": original["title"],
+                "category": "postulat",
+                "document_role": original.get("document_role"),
+                "summary": original.get("summary"),
+                "metadata": metadata,
+                "commune": str(metadata.get("commune") or ""),
+                "authors": authors,
+                "response_reference": _response_reference(
+                    {},
+                    response_document,
+                ),
+                "political_date": str(specific.get("deposit_date") or ""),
+                "response_date": response_date,
+                "response_url": (
+                    response_metadata.get("file_url")
+                    or response_metadata.get("source_url")
+                    or ""
+                ),
+            }
+        )
+    return sorted(
+        selected,
+        key=lambda row: (
+            row.get("commune") or "",
+            row.get("response_date") or "",
+            row.get("title") or "",
+        ),
+    )
+
+
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
     filters = dict(filters or {})
     vector = _vector_literal(embed_query(query))
@@ -704,6 +814,7 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
                 seen_chunk_ids.add(row["chunk_id"])
 
     keyword_rows: list[dict] = []
+    keyword_document_ids: set[str] = set()
     city_words = {
         strip_accents(word).lower()
         for word in re.findall(
@@ -716,13 +827,24 @@ def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dic
         if strip_accents(keyword).lower() in city_words:
             continue
         for row in _run_keyword_search(keyword, limit=40, filters=filters):
-            if row["chunk_id"] not in seen_chunk_ids:
+            if (
+                row["chunk_id"] not in seen_chunk_ids
+                and row["document_id"] not in keyword_document_ids
+            ):
                 keyword_rows.append(row)
                 seen_chunk_ids.add(row["chunk_id"])
+                keyword_document_ids.add(row["document_id"])
 
     results = _rows_to_results(rows, "mistral_pgvector_v2")
     if keyword_rows:
-        results = _rows_to_results(keyword_rows, "keyword_match_v2") + results
+        # A query can contain several capitalized words (for example a title
+        # plus a street). Keep keyword recall without allowing generic terms
+        # such as "Avenue" to displace every semantic/title result.
+        keyword_cap = max(1, limit // 2)
+        results = (
+            _rows_to_results(keyword_rows[:keyword_cap], "keyword_match_v2")
+            + results
+        )
     if title_rows:
         results = _rows_to_results(title_rows, "title_match_v2") + results
 

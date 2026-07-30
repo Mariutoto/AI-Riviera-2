@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5976_trente_nuit",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "30 km/h de nuit : combien de décibels en moins ?",
+    "source_title": "30 km/h de nuit : combien de décibels en moins ?",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5976",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "language": "fr",
+    "content_hash": "d2f5569102953c12575a2bd2a38078ff8535ef3ace1aaa0605b13a459aa5bdcd",
+    "source_content_hash": "07e17eab31e15745f72984f29ba1d1d2f13dbbf11fbb5989b5b56d2b8880e0e9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-trente-nuit",
+    "object_title": "30 km/h de nuit : combien de décibels en moins ?",
+    "authors": [
+      {
+        "name": "Sandra Marques",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-11-13",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2025/R38 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-trente-nuit",
+    "political_object_document_id": "vevey_postulate_5976_trente_nuit",
+    "related_document_ids": [
+      "vevey_postulate_6088_trente_nuit"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_6088_trente_nuit"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5976",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-11-13",
+        "listing_author": "Sandra Marques",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "30 km/h de nuit : combien de décibels en moins ?",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5976"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "selected_pages": [
+        1,
+        1
+      ],
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 3122,
+      "words_extracted": 529,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

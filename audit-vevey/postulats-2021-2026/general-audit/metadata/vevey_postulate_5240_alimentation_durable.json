@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5240_alimentation_durable",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Prise en considération du postulat de M. Fabien Truffer (LCVL), intitulé « Pour une ville exemplaire en matière d’alimentation durable »",
+    "source_title": "Prise en considération du postulat de M. Fabien Truffer (LCVL), intitulé « Pour une ville exemplaire en matière d’alimentation durable »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5240",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-16",
+    "language": "fr",
+    "content_hash": "ca283471f023930174d6bfec060e6d90a63ce32a12e8a9f45f4f5db7c06eaa3c",
+    "source_content_hash": "31ec4958fccf1bb464a3fba0f6930a6dc55f0c1e93a5ad1516134d1c00e49e8f",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2023-alimentation-durable",
+    "object_title": "Pour une ville exemplaire en matière d’alimentation durable",
+    "authors": [
+      {
+        "name": "Fabien Truffer",
+        "civility": "M.",
+        "party": "LCVL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-06-15",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Rapport de prise en considération 2023/R23 disponible",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2023-alimentation-durable",
+    "political_object_document_id": "vevey_postulate_5151_alimentation_durable",
+    "related_document_ids": [
+      "vevey_postulate_5151_alimentation_durable"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "vevey_postulate_5240_alimentation_durable"
+    ],
+    "official_reference": "2023/R23"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5240",
+    "official_reference": "2023/R23",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-11-16",
+        "listing_author": "Fabien Truffer",
+        "displayed_type": "Rapport",
+        "reference": "2023/R23",
+        "title": "Prise en considération du postulat de M. Fabien Truffer (LCVL), intitulé « Pour une ville exemplaire en matière d’alimentation durable »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5240"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "selected_pages": [
+        1,
+        3
+      ],
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 7948,
+      "words_extracted": 1268,
+      "needs_ocr": false,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

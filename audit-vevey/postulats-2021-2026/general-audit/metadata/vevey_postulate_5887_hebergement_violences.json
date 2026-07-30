@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_5887_hebergement_violences",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Un hébergement pour les victimes de violences domestiques",
+    "source_title": "Un hébergement pour les victimes de violences domestiques",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5887",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-04",
+    "language": "fr",
+    "content_hash": "1cab8d0e383d226cbd95f21d12ad59404a2cfcda6df577af21a21884129f3e9d",
+    "source_content_hash": "b378663e73412b93d2595cc0ad635dd6ac77647bd1274cccb49064efe40fb222",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2025-hebergement-violences",
+    "object_title": "Un hébergement pour les victimes de violences domestiques",
+    "authors": [
+      {
+        "name": "Joëlle Minacci",
+        "civility": "Mme",
+        "party": "da.",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-09-04",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2025-hebergement-violences",
+    "political_object_document_id": "vevey_postulate_5887_hebergement_violences",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5887",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-08-25",
+        "listing_author": "",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Un hébergement pour les victimes de violences domestiques",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5887"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 3259,
+      "words_extracted": 485,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

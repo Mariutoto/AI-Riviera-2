@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_6074_feuilles_sol",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Des feuilles pour nourrir le sol",
+    "source_title": "Des feuilles pour nourrir le sol",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6074",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "language": "fr",
+    "content_hash": "8efbe0b90a9d60bb52522920d8d0f16fcccfd377ee6f83b1d37ea90e925f9960",
+    "source_content_hash": "4d2582cade048ed5d504ddc315caaba9cd3676f171645e53a45b4a816b4bf137",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2026-feuilles-sol",
+    "object_title": "Des feuilles pour nourrir le sol",
+    "authors": [
+      {
+        "name": "Colin Wahli",
+        "civility": "M.",
+        "party": "Vert·e·s",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-03-19",
+    "status_normalized": "pending_or_unanswered",
+    "status": "Déposé",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2026-feuilles-sol",
+    "political_object_document_id": "vevey_postulate_6074_feuilles_sol",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6074",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-19",
+        "listing_author": "",
+        "displayed_type": "Postulat",
+        "reference": "",
+        "title": "Des feuilles pour nourrir le sol",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6074"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "selected_pages": [
+        1,
+        2
+      ],
+      "image_counts": [
+        2,
+        2
+      ],
+      "characters_extracted": 2547,
+      "words_extracted": 409,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": null,
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

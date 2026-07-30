@@ -1,0 +1,126 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_postulate_4811_subventions_sportives",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+    "source_title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-03",
+    "language": "fr",
+    "content_hash": "ac60911d5fdd9dfb54f69078501a48ab5052da9b1550dbd8b009a2fdd7997c15",
+    "source_content_hash": "ffa413de35b3a4a77ca79ca371c69d2a34831b8fbb3cfc703186e2233c0bd0cf",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "vevey-postulate-2022-subventions-sportives",
+    "object_title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+    "authors": [
+      {
+        "name": "Nicolas Bonjour",
+        "civility": "M.",
+        "party": "VL",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-02-03",
+    "status_normalized": "pending_or_unanswered",
+    "status": "En traitement",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_available",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-postulate-2022-subventions-sportives",
+    "political_object_document_id": "vevey_postulate_4811_subventions_sportives",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "4811",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-03-24",
+        "listing_author": "",
+        "displayed_type": "Procès-verbal",
+        "reference": "",
+        "title": "Réflexion sur les subventions sportives et soutiens à nos associations sportives",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 35,
+      "selected_pages": [
+        10,
+        11
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        4,
+        11,
+        3,
+        5,
+        4,
+        11,
+        14,
+        3,
+        3,
+        4,
+        3,
+        2,
+        10,
+        2,
+        3,
+        4,
+        4,
+        3,
+        4,
+        2,
+        5,
+        3
+      ],
+      "characters_extracted": 5352,
+      "words_extracted": 834,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "selection_pages": [
+      10,
+      11
+    ],
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}
