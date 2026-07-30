@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5740_sandra_marques_conseil",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion de Mme Sandra Marques : « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+    "source_title": "Motion de Mme Sandra Marques (PLR), intitulée « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5740",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-27",
+    "language": "fr",
+    "content_hash": "67617c4e4538833541ce728c2a2d7067bfc21ef1afa713f12b43daa0ab48f2ab",
+    "source_content_hash": "fefea4b180c039589703950f1ff2ac3185076748ad4afa78e0e65371fa9702c7",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2025-sandra-marques-conseil",
+    "object_title": "Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal",
+    "authors": [
+      {
+        "name": "Sandra Marques",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2025-03-27",
+    "requested_action": "Réduire de 100 à 80 le nombre de membres du Conseil communal dès la législature débutant en juillet 2026.",
+    "status_normalized": "rejected",
+    "status": "Prise en considération refusée",
+    "decision_date": "2025-03-27",
+    "current_object_type": "motion",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_rejected_at_deposit",
+    "is_closed": true,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2025-sandra-marques-conseil",
+    "political_object_document_id": "vevey_motion_5740_sandra_marques_conseil",
+    "related_document_ids": [
+      "vevey_motion_5815_sandra_marques_conseil"
+    ],
+    "response_document_ids": [],
+    "decision_document_ids": [
+      "vevey_motion_5815_sandra_marques_conseil"
+    ],
+    "consideration_report_ids": [],
+    "status_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5740",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-03-27",
+        "listing_author": "Sandra Marques",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Motion de Mme Sandra Marques (PLR), intitulée « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5740"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "page_text_characters": [
+        3500
+      ],
+      "image_counts": [
+        1
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 3503,
+      "words_extracted": 552,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "whole_document",
+      "characters": 3503,
+      "words": 552
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

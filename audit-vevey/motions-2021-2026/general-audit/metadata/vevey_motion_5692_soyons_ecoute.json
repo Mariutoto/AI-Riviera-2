@@ -1,0 +1,122 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5692_soyons_ecoute",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion de M. Patrick Bertschy : « Soyons à l’écoute des veveysannes et des veveysans »",
+    "source_title": "Motion de M. Patrick Bertschy (PLR/Interpartis), intitulée « Soyons à l’écoute des veveysannes et des veveysans »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5692",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "language": "fr",
+    "content_hash": "f453911deb02b65e865f27836e9f3bec14b80ec3d7f1213c7ec019a54f75d89f",
+    "source_content_hash": "1e1209029a942e30e74b3d9297b9ce3b31e6fc031da73de9411c5c2ead26107a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2025-soyons-ecoute",
+    "object_title": "Soyons à l’écoute des veveysannes et des veveysans",
+    "authors": [
+      {
+        "name": "Patrick Bertschy",
+        "civility": "M.",
+        "party": "PLR/Interpartis",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2025-02-06",
+    "requested_action": "Modifier les horaires et jours de perception des taxes de stationnement en surface à Vevey.",
+    "status_normalized": "answered_and_closed",
+    "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+    "decision_date": "2025-06-19",
+    "response_date": "2026-04-20",
+    "current_object_type": "postulat",
+    "transformation": {
+      "from": "motion",
+      "to": "postulat",
+      "date": "2025-06-19"
+    },
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_report_preavis_available",
+    "is_closed": true,
+    "document_component_role": "motion_text",
+    "supporters": [
+      "Comité référendaire",
+      "PLR Vevey",
+      "Le Centre et Verts-Libéraux",
+      "UDC",
+      "En Avant Vevey",
+      "Vevey Libre"
+    ]
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2025-soyons-ecoute",
+    "political_object_document_id": "vevey_motion_5692_soyons_ecoute",
+    "related_document_ids": [
+      "vevey_motion_5794_soyons_ecoute",
+      "vevey_motion_5903_soyons_ecoute",
+      "vevey_motion_6189_soyons_ecoute"
+    ],
+    "response_document_ids": [
+      "vevey_motion_6189_soyons_ecoute"
+    ],
+    "decision_document_ids": [
+      "vevey_motion_5903_soyons_ecoute"
+    ],
+    "consideration_report_ids": [
+      "vevey_motion_5794_soyons_ecoute"
+    ],
+    "status_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5692",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-02-06",
+        "listing_author": "Patrick Bertschy",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Motion de M. Patrick Bertschy (PLR/Interpartis), intitulée « Soyons à l’écoute des veveysannes et des veveysans »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5692"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "page_text_characters": [
+        1396,
+        1488
+      ],
+      "image_counts": [
+        0,
+        0
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 2886,
+      "words_extracted": 468,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "whole_document",
+      "characters": 2886,
+      "words": 468
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

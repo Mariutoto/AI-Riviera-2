@@ -1,0 +1,168 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5815_sandra_marques_conseil",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "council_decision",
+    "title": "Décision sur la motion « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+    "source_title": "Décision sur la motion « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5815",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-27",
+    "language": "fr",
+    "content_hash": "32a29ea8f62301e3933998468047ff3fe89266e1b4ea5524b2ccda98488cb3a1",
+    "source_content_hash": "94098ee8c2c3ef03668d51b49dd929ba45585e1ab73c588a23e2cf2ce461e047",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2025-sandra-marques-conseil",
+    "object_title": "Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal",
+    "authors": [
+      {
+        "name": "Sandra Marques",
+        "civility": "Mme",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2025-03-27",
+    "requested_action": "Réduire de 100 à 80 le nombre de membres du Conseil communal dès la législature débutant en juillet 2026.",
+    "status_normalized": "rejected",
+    "status": "Prise en considération refusée",
+    "decision_date": "2025-03-27",
+    "current_object_type": "motion",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_rejected_at_deposit",
+    "is_closed": true,
+    "document_component_role": "council_decision"
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2025-sandra-marques-conseil",
+    "political_object_document_id": "vevey_motion_5740_sandra_marques_conseil",
+    "related_document_ids": [
+      "vevey_motion_5740_sandra_marques_conseil"
+    ],
+    "response_document_ids": [],
+    "decision_document_ids": [
+      "vevey_motion_5815_sandra_marques_conseil"
+    ],
+    "consideration_report_ids": [],
+    "status_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5815",
+    "official_reference": "PV 27.03.2025",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-03-27",
+        "listing_author": "",
+        "displayed_type": "",
+        "reference": "PV 27.03.2025",
+        "title": "Décision sur la motion « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5815"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 35,
+      "page_text_characters": [
+        2723,
+        4791,
+        4112,
+        3265,
+        2947,
+        2850,
+        3722,
+        2068,
+        1748,
+        3532,
+        5375,
+        6878,
+        6742,
+        6266,
+        6880,
+        6598,
+        5651,
+        6420,
+        6516,
+        6623,
+        4271,
+        3586,
+        5513,
+        5410,
+        5278,
+        4180,
+        2911,
+        2248,
+        2524,
+        1424,
+        3080,
+        2939,
+        2038,
+        1107,
+        1778
+      ],
+      "image_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 144063,
+      "words_extracted": 23628,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "sandra_decision",
+      "characters": 6322,
+      "words": 1050
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

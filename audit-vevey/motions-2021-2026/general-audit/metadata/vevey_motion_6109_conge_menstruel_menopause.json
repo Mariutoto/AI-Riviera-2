@@ -1,0 +1,129 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_6109_conge_menstruel_menopause",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "status_report",
+    "title": "État de la motion « Pour un congé menstruel et de ménopause intégré dans le règlement du personnel »",
+    "source_title": "État de la motion « Pour un congé menstruel et de ménopause intégré dans le règlement du personnel »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6109",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-07",
+    "language": "fr",
+    "content_hash": "a8e2618a2a59a03ef5a9b4e4745cfce7983cc3d78ba02af1288f25fbe30e6a72",
+    "source_content_hash": "4ef9376085fcf0b0864cbc670e6def0b4bebc9227052f2fb728caaf06ef902b0",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2024-conge-menstruel-menopause",
+    "object_title": "Pour un congé menstruel et de ménopause intégré dans le règlement du personnel",
+    "authors": [
+      {
+        "name": "Joëlle Minacci",
+        "civility": "Mme",
+        "party": "da.",
+        "role": "motionnaire"
+      },
+      {
+        "name": "Céline Amiguet",
+        "civility": "Mme",
+        "party": "PS",
+        "role": "cosignataire"
+      },
+      {
+        "name": "Emmanuelle Evéquoz",
+        "civility": "Mme",
+        "party": "Les Vert.e.s",
+        "role": "cosignataire"
+      }
+    ],
+    "deposit_date": "2024-06-20",
+    "requested_action": "Reconnaître un droit au congé menstruel et de ménopause dans le règlement du personnel, précédé si possible d'une phase test.",
+    "status_normalized": "pending",
+    "status": "En traitement",
+    "decision_date": "2024-06-20",
+    "current_deadline": "2027-03-31",
+    "current_object_type": "motion",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "no_response_pending",
+    "is_closed": false,
+    "document_component_role": "status_report"
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2024-conge-menstruel-menopause",
+    "political_object_document_id": "vevey_motion_5527_conge_menstruel_menopause",
+    "related_document_ids": [
+      "vevey_motion_5527_conge_menstruel_menopause"
+    ],
+    "response_document_ids": [],
+    "decision_document_ids": [],
+    "consideration_report_ids": [],
+    "status_report_ids": [
+      "vevey_motion_6109_conge_menstruel_menopause"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "6109",
+    "official_reference": "2026/P07",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-05-07",
+        "listing_author": "",
+        "displayed_type": "",
+        "reference": "2026/P07",
+        "title": "État de la motion « Pour un congé menstruel et de ménopause intégré dans le règlement du personnel »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6109"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 9,
+      "page_text_characters": [
+        219,
+        1550,
+        3257,
+        3477,
+        4324,
+        4006,
+        1416,
+        2021,
+        2638
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 22888,
+      "words_extracted": 3832,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "conge_status",
+      "characters": 590,
+      "words": 102
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

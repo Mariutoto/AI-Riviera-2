@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 10,
+    "original_motions": 4,
+    "chunks": 32,
+    "vectors": 32,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 4,
+    "objects_with_response": 2,
+    "objects_without_response": 2,
+    "broken_relationship_links": 0
+  },
+  "objects": [
+    {
+      "object_id": "vevey-motion-2023-precarite-energetique",
+      "title": "Précarité énergétique : urgence et responsabilité de notre commune",
+      "has_response": true,
+      "response_status": "answered_in_status_report"
+    },
+    {
+      "object_id": "vevey-motion-2024-conge-menstruel-menopause",
+      "title": "Pour un congé menstruel et de ménopause intégré dans le règlement du personnel",
+      "has_response": false,
+      "response_status": "no_response_pending"
+    },
+    {
+      "object_id": "vevey-motion-2025-sandra-marques-conseil",
+      "title": "Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal",
+      "has_response": false,
+      "response_status": "no_response_rejected_at_deposit"
+    },
+    {
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Soyons à l’écoute des veveysannes et des veveysans",
+      "has_response": true,
+      "response_status": "dedicated_report_preavis_available"
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "congé menstruel ménopause règlement du personnel",
+      "expected_prefix": "vevey_motion_5527_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_motion_5527_conge_menstruel_menopause",
+        "vevey_motion_5527_conge_menstruel_menopause",
+        "vevey_motion_6109_conge_menstruel_menopause",
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_5740_sandra_marques_conseil"
+      ]
+    },
+    {
+      "query": "diminuer le nombre d'élus du Conseil communal",
+      "expected_prefix": "vevey_motion_5740_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_motion_5815_sandra_marques_conseil",
+        "vevey_motion_5815_sandra_marques_conseil",
+        "vevey_motion_5740_sandra_marques_conseil",
+        "vevey_motion_5815_sandra_marques_conseil",
+        "vevey_motion_5740_sandra_marques_conseil"
+      ]
+    },
+    {
+      "query": "précarité énergétique locataires fonds d'urgence",
+      "expected_prefix": "vevey_motion_5063_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_motion_5063_precarite_energetique",
+        "vevey_motion_5793_precarite_energetique",
+        "vevey_motion_5527_conge_menstruel_menopause",
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_6189_soyons_ecoute"
+      ]
+    },
+    {
+      "query": "Soyons à l'écoute stationnement veveysans",
+      "expected_prefix": "vevey_motion_5692_",
+      "matched": true,
+      "top_document_ids": [
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_6189_soyons_ecoute",
+        "vevey_motion_6189_soyons_ecoute"
+      ]
+    }
+  ]
+}

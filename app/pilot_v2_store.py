@@ -92,7 +92,7 @@ _COMMON_CAPITALIZED_WORDS = {
     "le", "la", "les", "un", "une", "des", "du", "de", "et", "ou", "a",
     "que", "qui", "quoi", "quel", "quelle", "quels", "quelles",
     "combien", "comment", "pourquoi", "quand", "est", "sont",
-    "commune", "municipalite", "ville",
+    "commune", "municipalite", "ville", "conseil",
 }
 
 

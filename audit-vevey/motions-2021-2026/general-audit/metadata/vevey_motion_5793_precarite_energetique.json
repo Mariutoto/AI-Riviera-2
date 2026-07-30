@@ -1,0 +1,129 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5793_precarite_energetique",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "status_report",
+    "title": "Classement de la motion « Précarité énergétique : urgence et responsabilité de notre commune »",
+    "source_title": "Classement de la motion « Précarité énergétique : urgence et responsabilité de notre commune »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5793",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-15",
+    "language": "fr",
+    "content_hash": "a2a1e02f093d81e483e2dcaa97b4cae75d4b24815eaa41b027bf6604f923ca93",
+    "source_content_hash": "6b72571e18fe2fdd89999ede20a24551b7c84be8a9a7e0ae4f012f7eeeab972a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2023-precarite-energetique",
+    "object_title": "Précarité énergétique : urgence et responsabilité de notre commune",
+    "authors": [
+      {
+        "name": "Jimmy Schüler",
+        "civility": "M.",
+        "party": "da.",
+        "role": "présentateur selon le procès-verbal"
+      }
+    ],
+    "deposit_date": "2023-03-16",
+    "requested_action": "Mettre en place des aides urgentes pour les locataires touchés par la précarité énergétique et créer un compte d'aide dédié.",
+    "status_normalized": "closed_after_status_response",
+    "status": "Classée après réponse dans le rapport 2025/P13",
+    "decision_date": "2025-05-15",
+    "response_date": "2025-05-15",
+    "current_object_type": "motion",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "answered_in_status_report",
+    "is_closed": true,
+    "document_component_role": "status_report",
+    "author_attribution": {
+      "official_listing": "Alain Gonthier",
+      "council_minutes": "Jimmy Schüler",
+      "motion_text": "Groupe décroissance alternatives",
+      "conflict_reviewed": true
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2023-precarite-energetique",
+    "political_object_document_id": "vevey_motion_5063_precarite_energetique",
+    "related_document_ids": [
+      "vevey_motion_5063_precarite_energetique"
+    ],
+    "response_document_ids": [
+      "vevey_motion_5793_precarite_energetique"
+    ],
+    "decision_document_ids": [],
+    "consideration_report_ids": [],
+    "status_report_ids": [
+      "vevey_motion_5793_precarite_energetique"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5793",
+    "official_reference": "2025/P13",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-05-15",
+        "listing_author": "",
+        "displayed_type": "",
+        "reference": "2025/P13",
+        "title": "Classement de la motion « Précarité énergétique : urgence et responsabilité de notre commune »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5793"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 11,
+      "page_text_characters": [
+        221,
+        1542,
+        2422,
+        2614,
+        3596,
+        3330,
+        3462,
+        390,
+        1973,
+        2349,
+        660
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 22522,
+      "words_extracted": 3746,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "precarite_status",
+      "characters": 592,
+      "words": 95
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

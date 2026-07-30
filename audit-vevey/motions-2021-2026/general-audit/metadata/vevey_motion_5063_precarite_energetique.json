@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5063_precarite_energetique",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion de M. Jimmy Schüler : « Précarité énergétique : urgence et responsabilité de notre commune »",
+    "source_title": "Motion de M. Alain Gonthier (da.), intitulée « Précarité énergétique : urgence et responsabilité de notre commune »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5063",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-06",
+    "language": "fr",
+    "content_hash": "28cf1425b8d7fee4f08e6a6027d62fb1c0e5893eade803f8f2f862aeb0616edd",
+    "source_content_hash": "95140d547118c8fe8e5892850b09d8d05a927a596367aa2bb172b1d3cad807b9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2023-precarite-energetique",
+    "object_title": "Précarité énergétique : urgence et responsabilité de notre commune",
+    "authors": [
+      {
+        "name": "Jimmy Schüler",
+        "civility": "M.",
+        "party": "da.",
+        "role": "présentateur selon le procès-verbal"
+      }
+    ],
+    "deposit_date": "2023-03-16",
+    "requested_action": "Mettre en place des aides urgentes pour les locataires touchés par la précarité énergétique et créer un compte d'aide dédié.",
+    "status_normalized": "closed_after_status_response",
+    "status": "Classée après réponse dans le rapport 2025/P13",
+    "decision_date": "2025-05-15",
+    "response_date": "2025-05-15",
+    "current_object_type": "motion",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "answered_in_status_report",
+    "is_closed": true,
+    "document_component_role": "motion_text",
+    "author_attribution": {
+      "official_listing": "Alain Gonthier",
+      "council_minutes": "Jimmy Schüler",
+      "motion_text": "Groupe décroissance alternatives",
+      "conflict_reviewed": true
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2023-precarite-energetique",
+    "political_object_document_id": "vevey_motion_5063_precarite_energetique",
+    "related_document_ids": [
+      "vevey_motion_5793_precarite_energetique"
+    ],
+    "response_document_ids": [
+      "vevey_motion_5793_precarite_energetique"
+    ],
+    "decision_document_ids": [],
+    "consideration_report_ids": [],
+    "status_report_ids": [
+      "vevey_motion_5793_precarite_energetique"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5063",
+    "official_reference": "",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-03-06",
+        "listing_author": "Alain Gonthier",
+        "displayed_type": "Motion",
+        "reference": "",
+        "title": "Motion de M. Alain Gonthier (da.), intitulée « Précarité énergétique : urgence et responsabilité de notre commune »",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5063"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "page_text_characters": [
+        2455
+      ],
+      "image_counts": [
+        1
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 2455,
+      "words_extracted": 374,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "whole_document",
+      "characters": 2455,
+      "words": 374
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}

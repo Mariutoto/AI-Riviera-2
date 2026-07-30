@@ -1,0 +1,318 @@
+{
+  "schema_version": "vevey-motions-general-audit-v1",
+  "scope": {
+    "city": "Vevey",
+    "category": "motion",
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "legislature": "2021-2026"
+  },
+  "source": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+  "summary": {
+    "documents": 10,
+    "chunks": 32,
+    "ocr_required": 0,
+    "motion_texts": 4,
+    "political_objects": 4,
+    "objects_with_response": 2,
+    "objects_without_response": 2,
+    "dedicated_responses": 1,
+    "catalogue_false_positives": 14
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_recipe": "political_object",
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "object_key": "sandra-marques-conseil",
+      "object_id": "vevey-motion-2025-sandra-marques-conseil",
+      "title": "Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal",
+      "authors": [
+        {
+          "name": "Sandra Marques",
+          "civility": "Mme",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status_normalized": "rejected",
+      "status": "Prise en considération refusée",
+      "has_response": false,
+      "has_dedicated_response": false,
+      "response_status": "no_response_rejected_at_deposit",
+      "response_date": null,
+      "current_deadline": null,
+      "documents": [
+        {
+          "document_id": "vevey_motion_5740_sandra_marques_conseil",
+          "role": "motion_text",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5740"
+        },
+        {
+          "document_id": "vevey_motion_5815_sandra_marques_conseil",
+          "role": "council_decision",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5815"
+        }
+      ]
+    },
+    {
+      "object_key": "precarite-energetique",
+      "object_id": "vevey-motion-2023-precarite-energetique",
+      "title": "Précarité énergétique : urgence et responsabilité de notre commune",
+      "authors": [
+        {
+          "name": "Jimmy Schüler",
+          "civility": "M.",
+          "party": "da.",
+          "role": "présentateur selon le procès-verbal"
+        }
+      ],
+      "status_normalized": "closed_after_status_response",
+      "status": "Classée après réponse dans le rapport 2025/P13",
+      "has_response": true,
+      "has_dedicated_response": false,
+      "response_status": "answered_in_status_report",
+      "response_date": "2025-05-15",
+      "current_deadline": null,
+      "documents": [
+        {
+          "document_id": "vevey_motion_5063_precarite_energetique",
+          "role": "motion_text",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5063"
+        },
+        {
+          "document_id": "vevey_motion_5793_precarite_energetique",
+          "role": "status_report",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5793"
+        }
+      ]
+    },
+    {
+      "object_key": "conge-menstruel-menopause",
+      "object_id": "vevey-motion-2024-conge-menstruel-menopause",
+      "title": "Pour un congé menstruel et de ménopause intégré dans le règlement du personnel",
+      "authors": [
+        {
+          "name": "Joëlle Minacci",
+          "civility": "Mme",
+          "party": "da.",
+          "role": "motionnaire"
+        },
+        {
+          "name": "Céline Amiguet",
+          "civility": "Mme",
+          "party": "PS",
+          "role": "cosignataire"
+        },
+        {
+          "name": "Emmanuelle Evéquoz",
+          "civility": "Mme",
+          "party": "Les Vert.e.s",
+          "role": "cosignataire"
+        }
+      ],
+      "status_normalized": "pending",
+      "status": "En traitement",
+      "has_response": false,
+      "has_dedicated_response": false,
+      "response_status": "no_response_pending",
+      "response_date": null,
+      "current_deadline": "2027-03-31",
+      "documents": [
+        {
+          "document_id": "vevey_motion_5527_conge_menstruel_menopause",
+          "role": "motion_text",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5527"
+        },
+        {
+          "document_id": "vevey_motion_6109_conge_menstruel_menopause",
+          "role": "status_report",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6109"
+        }
+      ]
+    },
+    {
+      "object_key": "soyons-ecoute",
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Soyons à l’écoute des veveysannes et des veveysans",
+      "authors": [
+        {
+          "name": "Patrick Bertschy",
+          "civility": "M.",
+          "party": "PLR/Interpartis",
+          "role": "motionnaire"
+        }
+      ],
+      "status_normalized": "answered_and_closed",
+      "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+      "has_response": true,
+      "has_dedicated_response": true,
+      "response_status": "dedicated_report_preavis_available",
+      "response_date": "2026-04-20",
+      "current_deadline": null,
+      "documents": [
+        {
+          "document_id": "vevey_motion_5692_soyons_ecoute",
+          "role": "motion_text",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5692"
+        },
+        {
+          "document_id": "vevey_motion_5794_soyons_ecoute",
+          "role": "consideration_report",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5794"
+        },
+        {
+          "document_id": "vevey_motion_5903_soyons_ecoute",
+          "role": "council_decision",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5903"
+        },
+        {
+          "document_id": "vevey_motion_6189_soyons_ecoute",
+          "role": "municipal_response",
+          "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6189"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "vevey_motion_5063_precarite_energetique",
+      "object_id": "vevey-motion-2023-precarite-energetique",
+      "title": "Motion de M. Jimmy Schüler : « Précarité énergétique : urgence et responsabilité de notre commune »",
+      "role": "motion_text",
+      "document_date": "2023-03-06",
+      "has_response": true,
+      "response_status": "answered_in_status_report",
+      "status": "Classée après réponse dans le rapport 2025/P13",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5063",
+      "chunks": 1,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5527_conge_menstruel_menopause",
+      "object_id": "vevey-motion-2024-conge-menstruel-menopause",
+      "title": "Motion de Mme Joëlle Minacci : « Pour un congé menstruel et de ménopause intégré dans le règlement du personnel »",
+      "role": "motion_text",
+      "document_date": "2024-06-13",
+      "has_response": false,
+      "response_status": "no_response_pending",
+      "status": "En traitement",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5527",
+      "chunks": 2,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5692_soyons_ecoute",
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Motion de M. Patrick Bertschy : « Soyons à l’écoute des veveysannes et des veveysans »",
+      "role": "motion_text",
+      "document_date": "2025-02-06",
+      "has_response": true,
+      "response_status": "dedicated_report_preavis_available",
+      "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5692",
+      "chunks": 2,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5740_sandra_marques_conseil",
+      "object_id": "vevey-motion-2025-sandra-marques-conseil",
+      "title": "Motion de Mme Sandra Marques : « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+      "role": "motion_text",
+      "document_date": "2025-03-27",
+      "has_response": false,
+      "response_status": "no_response_rejected_at_deposit",
+      "status": "Prise en considération refusée",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5740",
+      "chunks": 2,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5815_sandra_marques_conseil",
+      "object_id": "vevey-motion-2025-sandra-marques-conseil",
+      "title": "Décision sur la motion « Diminuer le nombre d'élues/élus communaux pour permettre la rénovation de la salle du Conseil communal »",
+      "role": "council_decision",
+      "document_date": "2025-03-27",
+      "has_response": false,
+      "response_status": "no_response_rejected_at_deposit",
+      "status": "Prise en considération refusée",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5815",
+      "chunks": 3,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5793_precarite_energetique",
+      "object_id": "vevey-motion-2023-precarite-energetique",
+      "title": "Classement de la motion « Précarité énergétique : urgence et responsabilité de notre commune »",
+      "role": "status_report",
+      "document_date": "2025-05-15",
+      "has_response": true,
+      "response_status": "answered_in_status_report",
+      "status": "Classée après réponse dans le rapport 2025/P13",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5793",
+      "chunks": 1,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_6109_conge_menstruel_menopause",
+      "object_id": "vevey-motion-2024-conge-menstruel-menopause",
+      "title": "État de la motion « Pour un congé menstruel et de ménopause intégré dans le règlement du personnel »",
+      "role": "status_report",
+      "document_date": "2026-05-07",
+      "has_response": false,
+      "response_status": "no_response_pending",
+      "status": "En traitement",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6109",
+      "chunks": 1,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5794_soyons_ecoute",
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Prise en considération de la motion « Soyons à l’écoute des veveysannes et des veveysans »",
+      "role": "consideration_report",
+      "document_date": "2025-05-15",
+      "has_response": true,
+      "response_status": "dedicated_report_preavis_available",
+      "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5794",
+      "chunks": 8,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_5903_soyons_ecoute",
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Décision transformant la motion « Soyons à l’écoute des veveysannes et des veveysans » en postulat",
+      "role": "council_decision",
+      "document_date": "2025-06-19",
+      "has_response": true,
+      "response_status": "dedicated_report_preavis_available",
+      "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5903",
+      "chunks": 6,
+      "needs_ocr": false
+    },
+    {
+      "document_id": "vevey_motion_6189_soyons_ecoute",
+      "object_id": "vevey-motion-2025-soyons-ecoute",
+      "title": "Rapport-préavis en réponse à « Soyons à l’écoute des veveysannes et des veveysans »",
+      "role": "municipal_response",
+      "document_date": "2026-04-20",
+      "has_response": true,
+      "response_status": "dedicated_report_preavis_available",
+      "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+      "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6189",
+      "chunks": 6,
+      "needs_ocr": false
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_motion_5903_soyons_ecoute",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "council_decision",
+    "title": "Décision transformant la motion « Soyons à l’écoute des veveysannes et des veveysans » en postulat",
+    "source_title": "Décision transformant la motion « Soyons à l’écoute des veveysannes et des veveysans » en postulat",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5903",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-19",
+    "language": "fr",
+    "content_hash": "7a3897cbb4f2f845128c40feaf5208d08903669ffcc13b5e6c87cf767102de72",
+    "source_content_hash": "33b5867999ad650f9e3cfcf90d3375f699e8f0be18f9083ac872c5ea0e35e07e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "vevey-motion-2025-soyons-ecoute",
+    "object_title": "Soyons à l’écoute des veveysannes et des veveysans",
+    "authors": [
+      {
+        "name": "Patrick Bertschy",
+        "civility": "M.",
+        "party": "PLR/Interpartis",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2025-02-06",
+    "requested_action": "Modifier les horaires et jours de perception des taxes de stationnement en surface à Vevey.",
+    "status_normalized": "answered_and_closed",
+    "status": "Transformée en postulat, réponse 2026/RP18 disponible",
+    "decision_date": "2025-06-19",
+    "response_date": "2026-04-20",
+    "current_object_type": "postulat",
+    "transformation": {
+      "from": "motion",
+      "to": "postulat",
+      "date": "2025-06-19"
+    },
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "dedicated_report_preavis_available",
+    "is_closed": true,
+    "document_component_role": "council_decision",
+    "supporters": [
+      "Comité référendaire",
+      "PLR Vevey",
+      "Le Centre et Verts-Libéraux",
+      "UDC",
+      "En Avant Vevey",
+      "Vevey Libre"
+    ]
+  },
+  "relationships": {
+    "political_object_id": "vevey-motion-2025-soyons-ecoute",
+    "political_object_document_id": "vevey_motion_5692_soyons_ecoute",
+    "related_document_ids": [
+      "vevey_motion_5692_soyons_ecoute",
+      "vevey_motion_5794_soyons_ecoute",
+      "vevey_motion_6189_soyons_ecoute"
+    ],
+    "response_document_ids": [
+      "vevey_motion_6189_soyons_ecoute"
+    ],
+    "decision_document_ids": [
+      "vevey_motion_5903_soyons_ecoute"
+    ],
+    "consideration_report_ids": [
+      "vevey_motion_5794_soyons_ecoute"
+    ],
+    "status_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-documents",
+    "source_download_id": "5903",
+    "official_reference": "PV 19.06.2025",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-06-19",
+        "listing_author": "",
+        "displayed_type": "",
+        "reference": "PV 19.06.2025",
+        "title": "Décision transformant la motion « Soyons à l’écoute des veveysannes et des veveysans » en postulat",
+        "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5903"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 30,
+      "page_text_characters": [
+        2307,
+        3781,
+        3414,
+        2875,
+        6807,
+        5371,
+        4747,
+        5807,
+        6493,
+        5924,
+        6303,
+        3536,
+        1954,
+        5319,
+        3779,
+        5316,
+        4979,
+        5340,
+        6480,
+        6209,
+        5619,
+        4366,
+        3394,
+        4766,
+        3198,
+        5092,
+        5406,
+        5262,
+        5438,
+        878
+      ],
+      "image_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "empty_pages": 0,
+      "characters_extracted": 140218,
+      "words_extracted": 23012,
+      "needs_ocr": false,
+      "extraction_method": "native_pdf"
+    },
+    "selected_text": {
+      "method": "soyons_decision",
+      "characters": 13249,
+      "words": 2169
+    },
+    "ocr": {
+      "checked": true,
+      "required": false,
+      "provider": null
+    }
+  }
+}
