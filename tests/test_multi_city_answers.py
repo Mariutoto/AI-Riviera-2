@@ -95,6 +95,27 @@ class MultiCityAnswerTests(unittest.TestCase):
             answer,
         )
 
+    @patch("app.agent.aggregate_authors")
+    def test_aggregate_sources_are_unique_per_document(self, aggregate_authors):
+        base = {
+            "document_id": "motion-1",
+            "title": "Une motion cosignée",
+            "category": "motion",
+            "summary": "",
+            "metadata": {"commune": "Vevey"},
+        }
+        aggregate_authors.return_value = [
+            {**base, "author_name": "Alice"},
+            {**base, "author_name": "Bob"},
+        ]
+
+        answer, results = run_aggregate_query(
+            {"doc_type": "motions", "city": "Vevey"}
+        )
+
+        self.assertIn("Alice et Bob", answer)
+        self.assertEqual(len(results), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

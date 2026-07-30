@@ -299,7 +299,12 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
     LLM to eyeball a limited set of retrieved passages.
     """
     filters = dict(filters or {})
-    clauses = ["category_meta.cat_value ? 'authors'"]
+    clauses = [
+        "category_meta.cat_value ? 'authors'",
+        "coalesce(d.document_role, '') NOT IN "
+        "('municipal_response', 'response', 'status_report', "
+        "'council_decision', 'consideration_report', 'commission_report')",
+    ]
     params: list[object] = []
 
     city = str(filters.get("city") or "").strip()

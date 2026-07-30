@@ -280,7 +280,14 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
             )
 
     answer = "\n".join(lines)
-    results = [_aggregate_result_row_to_result(row) for row in rows]
+    results = []
+    seen_document_ids = set()
+    for row in rows:
+        document_id = row["document_id"]
+        if document_id in seen_document_ids:
+            continue
+        seen_document_ids.add(document_id)
+        results.append(_aggregate_result_row_to_result(row))
     return answer, results
 
 

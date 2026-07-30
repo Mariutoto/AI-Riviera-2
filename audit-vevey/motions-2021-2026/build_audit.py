@@ -345,8 +345,7 @@ def metadata_record(
     profile = OBJECTS[document["political_object_key"]]
     source_title = str(document.get("title") or "").strip()
     title = (
-        f"Motion de {profile['authors'][0]['civility']} "
-        f"{profile['authors'][0]['name']} : « {profile['object_title']} »"
+        profile["object_title"]
         if document["document_role"] == "motion_text"
         else source_title
     )
