@@ -17,8 +17,12 @@ from app.answer import (
     verify_and_revise_answer,
 )
 from app.diagnostics import record_diagnostic
-from app.pilot_v2_store import aggregate_authors, fetch_document_chunks
-from app.text_cleaning import strip_accents
+from app.pilot_v2_store import (
+    aggregate_authors,
+    answered_interpellations,
+    fetch_document_chunks,
+)
+from app.text_cleaning import fix_mojibake, strip_accents
 
 WEAK_SCORE_THRESHOLD = 0.75
 WEAK_MIN_DOCUMENTS = 2
@@ -182,6 +186,157 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
     answer = "\n".join(lines)
     results = [_aggregate_result_row_to_result(row) for row in rows]
     return answer, results
+
+
+_FRENCH_MONTHS = (
+    "",
+    "janvier",
+    "février",
+    "mars",
+    "avril",
+    "mai",
+    "juin",
+    "juillet",
+    "août",
+    "septembre",
+    "octobre",
+    "novembre",
+    "décembre",
+)
+
+
+def _format_french_date(value: str | None) -> str:
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", str(value or ""))
+    if not match:
+        return str(value or "")
+    year, month, day = (int(part) for part in match.groups())
+    return f"{day} {_FRENCH_MONTHS[month]} {year}"
+
+
+def _political_subject(title: str) -> str:
+    match = re.search(
+        r"\bintitul[ée]e?\s*[«\"](.+)[»\"]\s*$",
+        title,
+        re.IGNORECASE,
+    )
+    return match.group(1).strip() if match else title.strip()
+
+
+def _answered_result(row: dict, rank: int) -> dict:
+    metadata = dict(row.get("metadata") or {})
+    metadata.update(
+        {
+            "title": row["title"],
+            "category": "interpellation",
+            "doc_type": "interpellation",
+            "document_id": row["source_document_id"],
+            "commune": row["commune"],
+            "file_url": row["response_url"],
+            "source_url": row["response_url"],
+            "response_number": row.get("response_number"),
+            "response_date": row.get("response_date"),
+            "canonical_object": True,
+        }
+    )
+    score = 1.0 - rank * 0.000001
+    content = " | ".join(
+        part
+        for part in (
+            f"Commune: {row['commune']}",
+            (
+                f"Réponse municipale: {row.get('response_number')}"
+                if row.get("response_number")
+                else ""
+            ),
+            (
+                f"Date de réponse: {row.get('response_date')}"
+                if row.get("response_date")
+                else ""
+            ),
+        )
+        if part
+    )
+    return {
+        "id": f"{row['source_document_id']}#answered",
+        "chunk_id": f"{row['source_document_id']}#answered",
+        "document_id": row["source_document_id"],
+        "chunk_index": 0,
+        "component": "municipal_response",
+        "content": content,
+        "text": content,
+        "title": row["title"],
+        "category": "interpellation",
+        "doc_type": "interpellation",
+        "source_url": row["response_url"],
+        "metadata": metadata,
+        "score": score,
+        "_score": score,
+        "_search_source": "answered_interpellations_v2",
+    }
+
+
+def run_answered_interpellations_query(
+    filters: dict,
+) -> tuple[str, list[dict]]:
+    """Build an exact, citation-safe answer from response relationships."""
+    rows = answered_interpellations(filters)
+    results = [
+        _answered_result(row, rank)
+        for rank, row in enumerate(rows)
+    ]
+    year = str(filters.get("response_year") or "")
+    if not rows:
+        suffix = f" en {year}" if year else ""
+        return (
+            "Aucune interpellation avec une réponse municipale effectivement "
+            f"fournie{suffix} n’a été trouvée dans les métadonnées indexées.",
+            [],
+        )
+
+    lines = []
+    if year:
+        lines.append(
+            f"Interpellations dont la réponse municipale est datée de {year} :"
+        )
+    else:
+        lines.append("Interpellations avec une réponse municipale disponible :")
+
+    current_commune = None
+    for index, row in enumerate(rows, start=1):
+        commune = fix_mojibake(
+            str(row.get("commune") or "Commune inconnue")
+        )
+        if commune != current_commune:
+            lines.extend(["", f"**{commune}**"])
+            current_commune = commune
+        title = _political_subject(
+            fix_mojibake(
+                str(row.get("title") or "Interpellation")
+            )
+        )
+        authors = ", ".join(
+            fix_mojibake(str(author))
+            for author in row.get("authors") or []
+        )
+        response_number = fix_mojibake(
+            str(row.get("response_number") or "")
+        )
+        response_date = _format_french_date(row.get("response_date"))
+        details = [
+            (
+                f"réponse municipale {response_number}"
+                if response_number
+                else "réponse municipale fournie"
+            )
+        ]
+        if response_date:
+            details.append(f"du {response_date}")
+        author_note = f" — {authors}" if authors else ""
+        lines.append(
+            f"- {title}{author_note} — {', '.join(details)} "
+            f"(Source {index})."
+        )
+    return "\n".join(lines), results
 
 
 def _unique_document_count(results: list[dict]) -> int:
@@ -394,6 +549,43 @@ def run_agentic_pipeline(
 
     _notify(on_stage, "Analyse de la question...")
     stage_started_at = time.perf_counter()
+    answered_filters = retrieval.detect_answered_interpellations_query(
+        question
+    )
+    if answered_filters is not None:
+        ui_filters = dict(filters)
+        if (
+            ui_filters.get("year")
+            and not answered_filters.get("response_year")
+        ):
+            answered_filters["response_year"] = ui_filters.pop("year")
+        else:
+            ui_filters.pop("year", None)
+        answered_filters = {**answered_filters, **ui_filters}
+        trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
+        trace["mode"] = "aggregate"
+        trace["aggregate_kind"] = "answered_interpellations"
+        trace["aggregate_filters"] = answered_filters
+        _notify(on_stage, "Vérification des réponses liées dans la base...")
+        stage_started_at = time.perf_counter()
+        answer, results = run_answered_interpellations_query(
+            answered_filters
+        )
+        trace["timings_ms"]["aggregate_query"] = _elapsed_ms(
+            stage_started_at
+        )
+        trace["duration_seconds"] = round(
+            time.perf_counter() - started_at, 1
+        )
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
+        record_diagnostic(
+            "agent",
+            "Agentic pipeline trace",
+            trace=trace,
+            question=question[:200],
+        )
+        return answer, results, trace
+
     aggregate_filters = retrieval.detect_aggregate_query(question)
     trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:

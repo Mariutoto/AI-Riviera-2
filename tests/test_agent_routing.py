@@ -53,6 +53,44 @@ class AgentRoutingTests(unittest.TestCase):
         )
         self.assertEqual(len(set(worker_threads)), 2)
 
+    def test_answered_interpellations_use_structured_route(self):
+        rows = [
+            {
+                "document_id": "object-1",
+                "source_document_id": "response-1",
+                "title": "Interpellation test",
+                "category": "interpellation",
+                "document_role": "interpellation_text",
+                "summary": None,
+                "metadata": {},
+                "commune": "Vevey",
+                "authors": ["Mme Exemple"],
+                "response_number": "9/2025",
+                "response_date": "2025-10-02",
+                "response_url": "https://example.test/response.pdf",
+            }
+        ]
+        with patch(
+            "app.agent.answered_interpellations", return_value=rows
+        ) as query:
+            answer, results, trace = agent.run_agentic_pipeline(
+                "Quelles interpellations ont reçu une réponse en 2025 ?"
+            )
+
+        query.assert_called_once()
+        self.assertEqual(
+            query.call_args.args[0]["response_year"], "2025"
+        )
+        self.assertEqual(
+            trace["aggregate_kind"], "answered_interpellations"
+        )
+        self.assertIn("réponse municipale 9/2025", answer)
+        self.assertNotIn("attendue", answer)
+        self.assertEqual(
+            results[0]["source_url"],
+            "https://example.test/response.pdf",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

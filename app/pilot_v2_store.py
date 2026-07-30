@@ -334,6 +334,224 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
         return cursor.fetchall()
 
 
+def _response_entries(metadata: dict) -> list[dict]:
+    additional = metadata.get("additional_metadata") or {}
+    interpellation = additional.get("interpellation_metadata") or {}
+    return [
+        response
+        for response in (interpellation.get("responses") or [])
+        if isinstance(response, dict)
+    ]
+
+
+def _response_document_ids(metadata: dict) -> list[str]:
+    additional = metadata.get("additional_metadata") or {}
+    relationships = additional.get("relationships") or {}
+    return [
+        str(document_id)
+        for document_id in (relationships.get("response_document_ids") or [])
+        if document_id
+    ]
+
+
+def _response_year(response: dict, response_document: dict | None) -> str:
+    response_date = str(response.get("response_date") or "")
+    if re.match(r"^20\d{2}", response_date):
+        return response_date[:4]
+    if response_document:
+        metadata = response_document.get("metadata") or {}
+        document_date = str(
+            metadata.get("document_date")
+            or metadata.get("listing_date")
+            or ""
+        )
+        if re.match(r"^20\d{2}", document_date):
+            return document_date[:4]
+        listing_year = str(metadata.get("listing_year") or "")
+        if re.fullmatch(r"20\d{2}", listing_year):
+            return listing_year
+    number = str(response.get("response_number") or "")
+    match = re.search(r"\b(20\d{2})\b", number)
+    return match.group(1) if match else ""
+
+
+def select_answered_interpellations(
+    objects: list[dict],
+    response_documents: dict[str, dict],
+    filters: dict | None = None,
+) -> list[dict]:
+    """Return one canonical row per answered interpellation.
+
+    The political object remains in storage for provenance. For presentation,
+    the official response PDF is preferred when it is a separate linked
+    document (Vevey); a combined interpellation-response PDF remains the
+    canonical source when the municipality publishes one (La Tour-de-Peilz).
+    """
+    filters = dict(filters or {})
+    requested_city = str(filters.get("city") or "").strip()
+    requested_year = str(filters.get("response_year") or "").strip()
+    selected = []
+
+    for document in objects:
+        metadata = dict(document.get("metadata") or {})
+        commune = str(metadata.get("commune") or "")
+        if (
+            requested_city
+            and requested_city.lower() != "all"
+            and commune != requested_city
+        ):
+            continue
+
+        entries = _response_entries(metadata)
+        linked_ids = _response_document_ids(metadata)
+        linked_documents = [
+            response_documents[document_id]
+            for document_id in linked_ids
+            if document_id in response_documents
+        ]
+
+        # Some legacy objects have a linked response document but no copied
+        # response entry. Recover the entry from the response metadata.
+        if not entries:
+            for response_document in linked_documents:
+                entries.extend(
+                    _response_entries(response_document.get("metadata") or {})
+                )
+
+        matching_entries: list[tuple[dict, dict | None]] = []
+        for response in entries:
+            response_number = str(response.get("response_number") or "")
+            response_document = next(
+                (
+                    candidate
+                    for candidate in linked_documents
+                    if not response_number
+                    or any(
+                        str(item.get("response_number") or "")
+                        == response_number
+                        for item in _response_entries(
+                            candidate.get("metadata") or {}
+                        )
+                    )
+                ),
+                linked_documents[0] if len(linked_documents) == 1 else None,
+            )
+            if (
+                requested_year
+                and _response_year(response, response_document)
+                != requested_year
+            ):
+                continue
+            matching_entries.append((response, response_document))
+
+        if not matching_entries:
+            continue
+
+        response, response_document = matching_entries[0]
+        source_document = response_document or document
+        source_metadata = dict(source_document.get("metadata") or {})
+        title = str(document.get("title") or "")
+        response_title = str(
+            (response_document or {}).get("title") or ""
+        ).strip()
+        if (
+            response_title
+            and (
+                title.lower().endswith(".pdf")
+                or "_" in title
+                or title.lower().startswith(("int_", "interpellation_"))
+            )
+        ):
+            title = response_title
+        source_url = (
+            source_metadata.get("file_url")
+            or source_metadata.get("source_url")
+            or metadata.get("file_url")
+            or metadata.get("source_url")
+            or ""
+        )
+        additional = metadata.get("additional_metadata") or {}
+        interpellation = additional.get("interpellation_metadata") or {}
+        authors = [
+            str(author.get("name"))
+            for author in (interpellation.get("authors") or [])
+            if isinstance(author, dict) and author.get("name")
+        ]
+        if not authors and response_document:
+            response_additional = (
+                source_metadata.get("additional_metadata") or {}
+            )
+            source_tracking = (
+                response_additional.get("source_tracking") or {}
+            )
+            for occurrence in (
+                source_tracking.get("listing_occurrences") or []
+            ):
+                author = str(occurrence.get("author") or "").strip()
+                if author and author not in authors:
+                    authors.append(author)
+        selected.append(
+            {
+                "document_id": document["document_id"],
+                "source_document_id": source_document["document_id"],
+                "title": title,
+                "category": document["category"],
+                "document_role": document.get("document_role"),
+                "summary": document.get("summary"),
+                "metadata": metadata,
+                "commune": commune,
+                "authors": authors,
+                "response_number": response.get("response_number"),
+                "response_date": response.get("response_date"),
+                "response_url": source_url,
+            }
+        )
+
+    return sorted(
+        selected,
+        key=lambda row: (
+            row.get("commune") or "",
+            row.get("response_date") or "",
+            row.get("title") or "",
+        ),
+    )
+
+
+def answered_interpellations(filters: dict | None = None) -> list[dict]:
+    """Enumerate interpellations with a verified linked/combined response."""
+    filters = dict(filters or {})
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(
+            "SELECT document_id, title, category, document_role, summary, "
+            "metadata FROM documents "
+            "WHERE category = 'interpellation' "
+            "AND document_role <> 'municipal_response'"
+        )
+        objects = cursor.fetchall()
+        linked_ids = sorted(
+            {
+                document_id
+                for document in objects
+                for document_id in _response_document_ids(
+                    document.get("metadata") or {}
+                )
+            }
+        )
+        response_documents: dict[str, dict] = {}
+        if linked_ids:
+            cursor.execute(
+                "SELECT document_id, title, category, document_role, summary, "
+                "metadata FROM documents WHERE document_id = ANY(%s)",
+                (linked_ids,),
+            )
+            response_documents = {
+                row["document_id"]: row for row in cursor.fetchall()
+            }
+    return select_answered_interpellations(
+        objects, response_documents, filters
+    )
+
+
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
     filters = dict(filters or {})
     vector = _vector_literal(embed_query(query))
