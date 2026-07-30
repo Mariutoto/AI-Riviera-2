@@ -57,6 +57,14 @@ class AnsweredInterpellationsTests(unittest.TestCase):
             )
         )
 
+    def test_detects_general_political_document_enumeration(self):
+        self.assertEqual(
+            retrieval.detect_aggregate_query(
+                "Quels postulats ont été déposés en 2024 ?"
+            ),
+            {"doc_type": "postulats", "year": "2024"},
+        )
+
     def test_excludes_unanswered_and_wrong_response_year(self):
         objects = [
             {
@@ -114,10 +122,30 @@ class AnsweredInterpellationsTests(unittest.TestCase):
         self.assertEqual(selected, [])
 
     def test_prefers_response_pdf_without_crossing_municipalities(self):
+        vevey_response_metadata = metadata(
+            commune="Vevey",
+            file_url="https://example.test/vevey-response.pdf",
+            responses=[
+                {
+                    "response_number": "9/2025",
+                    "response_date": "2025-10-02",
+                }
+            ],
+        )
+        vevey_response_metadata["source_title"] = (
+            "Interpellation de Mme Giuliana de Regibus (PS), "
+            "intitulée « L’apprentissage en question »"
+        )
+        vevey_response_metadata["additional_metadata"]["relationships"][
+            "official_reference"
+        ] = "2025/ri09"
         objects = [
             {
                 "document_id": "vevey-object",
-                "title": "L’apprentissage en question",
+                "title": (
+                    "Int_2025-09-04_De-Regibus-G_"
+                    "Apprentissage-en-question.pdf"
+                ),
                 "category": "interpellation",
                 "document_role": "interpellation_text",
                 "summary": None,
@@ -154,16 +182,12 @@ class AnsweredInterpellationsTests(unittest.TestCase):
         response_documents = {
             "vevey-response": {
                 "document_id": "vevey-response",
-                "metadata": metadata(
-                    commune="Vevey",
-                    file_url="https://example.test/vevey-response.pdf",
-                    responses=[
-                        {
-                            "response_number": "9/2025",
-                            "response_date": "2025-10-02",
-                        }
-                    ],
+                "document_role": "municipal_response",
+                "content": (
+                    "RI 09/2025. Vevey, le 15 septembre 2025. "
+                    "Réponse à l’interpellation."
                 ),
+                "metadata": vevey_response_metadata,
             }
         }
 
@@ -178,6 +202,23 @@ class AnsweredInterpellationsTests(unittest.TestCase):
         self.assertEqual(
             by_city["Vevey"]["response_url"],
             "https://example.test/vevey-response.pdf",
+        )
+        self.assertEqual(
+            by_city["Vevey"]["title"],
+            "Interpellation de Mme Giuliana de Regibus (PS), "
+            "intitulée « L’apprentissage en question »",
+        )
+        self.assertEqual(
+            by_city["Vevey"]["political_date"],
+            "2025-09-04",
+        )
+        self.assertEqual(
+            by_city["Vevey"]["response_reference"],
+            "2025/ri09",
+        )
+        self.assertEqual(
+            by_city["Vevey"]["response_date"],
+            "2025-09-15",
         )
         self.assertEqual(
             by_city["La Tour-de-Peilz"]["response_url"],

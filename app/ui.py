@@ -70,6 +70,8 @@ USER_ERROR_MESSAGE = (
     "La question a été journalisée pour diagnostic; tu peux réessayer dans un instant."
 )
 
+ANSWER_CACHE_VERSION = "political-document-format-v2"
+
 FOLLOW_UP_HINTS = {
     "alors",
     "aussi",
@@ -738,8 +740,10 @@ else:
 def cached_answer_question(
     question: str,
     filters_key: tuple[tuple[str, str], ...],
+    cache_version: str,
     _on_stage=None,
 ) -> tuple[str, list[dict], dict]:
+    _ = cache_version
     # _on_stage is prefixed with an underscore so st.cache_data excludes it
     # from the cache key (a callback isn't hashable/meaningful for caching
     # identity) — on a cache hit it's simply never called, which is fine
@@ -800,7 +804,12 @@ def answer_question(
     effective_question = contextualize_question(question, messages or [])
     started_at = time.perf_counter()
     try:
-        answer, results, trace = cached_answer_question(effective_question, cacheable_filters(current_filters()), on_stage)
+        answer, results, trace = cached_answer_question(
+            effective_question,
+            cacheable_filters(current_filters()),
+            ANSWER_CACHE_VERSION,
+            _on_stage=on_stage,
+        )
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_interaction(
             question,

@@ -61,15 +61,15 @@ class MultiCityAnswerTests(unittest.TestCase):
 
         answer, _results = run_aggregate_query({"doc_type": "interpellations"})
 
-        self.assertIn("### La Tour-de-Peilz", answer)
-        self.assertIn("### Vevey", answer)
+        self.assertIn("**La Tour-de-Peilz**", answer)
+        self.assertIn("**Vevey**", answer)
         self.assertLess(
-            answer.index("### La Tour-de-Peilz"),
-            answer.index("- Interpellation La Tour"),
+            answer.index("**La Tour-de-Peilz**"),
+            answer.index("- Interpellation de Bob"),
         )
         self.assertLess(
-            answer.index("### Vevey"),
-            answer.index("- Interpellation Vevey"),
+            answer.index("**Vevey**"),
+            answer.index("- Interpellation de Alice"),
         )
 
     @patch("app.agent.aggregate_authors")
@@ -90,7 +90,10 @@ class MultiCityAnswerTests(unittest.TestCase):
         )
 
         self.assertNotIn("### Vevey", answer)
-        self.assertIn("- Interpellation Vevey — Alice", answer)
+        self.assertIn(
+            "- Interpellation de Alice : *« Vevey »*.",
+            answer,
+        )
 
 
 if __name__ == "__main__":

@@ -58,37 +58,79 @@ class AgentRoutingTests(unittest.TestCase):
             {
                 "document_id": "object-1",
                 "source_document_id": "response-1",
-                "title": "Interpellation test",
+                "title": (
+                    "Interpellation de Mme Giuliana de Regibus (PS), "
+                    "intitulée « L’apprentissage en question »"
+                ),
                 "category": "interpellation",
                 "document_role": "interpellation_text",
                 "summary": None,
                 "metadata": {},
                 "commune": "Vevey",
-                "authors": ["Mme Exemple"],
+                "authors": ["Mme Giuliana de Regibus (PS)"],
                 "response_number": "9/2025",
-                "response_date": "2025-10-02",
-                "response_url": "https://example.test/response.pdf",
-            }
+                "response_reference": "2025/ri09",
+                "political_date": "2025-09-04",
+                "response_date": "2025-09-15",
+                "response_url": "https://example.test/vevey-response.pdf",
+            },
+            {
+                "document_id": "object-2",
+                "source_document_id": "response-2",
+                "title": (
+                    "Interpellation de Mme Gabrielle Heller (LV), "
+                    "intitulée « Que contient l’assiette ? »"
+                ),
+                "category": "interpellation",
+                "document_role": "combined_interpellation_response",
+                "summary": None,
+                "metadata": {},
+                "commune": "La Tour-de-Peilz",
+                "authors": ["Mme Gabrielle Heller (LV)"],
+                "response_number": "2/2025",
+                "political_date": "2025-04-13",
+                "response_date": "2025-06-25",
+                "response_url": "https://example.test/tour-response.pdf",
+            },
         ]
         with patch(
             "app.agent.answered_interpellations", return_value=rows
-        ) as query:
+        ) as query, patch("app.agent.answer_from_sources") as llm_answer:
             answer, results, trace = agent.run_agentic_pipeline(
-                "Quelles interpellations ont reçu une réponse en 2025 ?"
+                "Quelles interpellations ont reçu une réponse en 2025 ?",
+                filters={"city": "all"},
             )
 
         query.assert_called_once()
         self.assertEqual(
             query.call_args.args[0]["response_year"], "2025"
         )
+        self.assertEqual(query.call_args.args[0]["city"], "all")
         self.assertEqual(
             trace["aggregate_kind"], "answered_interpellations"
         )
-        self.assertIn("réponse municipale 9/2025", answer)
-        self.assertNotIn("attendue", answer)
+        llm_answer.assert_not_called()
+        self.assertIn("**Vevey**", answer)
+        self.assertIn("**La Tour-de-Peilz**", answer)
+        self.assertIn(
+            "Interpellation de Mme Giuliana de Regibus (PS) : "
+            "*« L'apprentissage en question »* (4 septembre 2025) — "
+            "[*PDF*](https://example.test/vevey-response.pdf) "
+            "*(RI 09/2025, 15 septembre 2025)*.",
+            answer,
+        )
+        self.assertIn(
+            "Interpellation de Mme Gabrielle Heller (LV) : "
+            "*« Que contient l'assiette ? »* (13 avril 2025) — "
+            "[*PDF*](https://example.test/tour-response.pdf) "
+            "*(Réponse municipale n° 2/2025, 25 juin 2025)*.",
+            answer,
+        )
+        self.assertNotIn("réponse non visible", answer.lower())
+        self.assertNotIn("Source ", answer)
         self.assertEqual(
             results[0]["source_url"],
-            "https://example.test/response.pdf",
+            "https://example.test/vevey-response.pdf",
         )
 
 

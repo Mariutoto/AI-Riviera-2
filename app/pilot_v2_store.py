@@ -354,8 +354,67 @@ def _response_document_ids(metadata: dict) -> list[str]:
     ]
 
 
+_FRENCH_MONTH_NUMBERS = {
+    "janvier": 1,
+    "fevrier": 2,
+    "mars": 3,
+    "avril": 4,
+    "mai": 5,
+    "juin": 6,
+    "juillet": 7,
+    "aout": 8,
+    "septembre": 9,
+    "octobre": 10,
+    "novembre": 11,
+    "decembre": 12,
+}
+
+
+def _date_in_filename(title: str) -> str:
+    match = re.search(
+        r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)",
+        title,
+    )
+    return match.group(0) if match else ""
+
+
+def _response_letter_date(response_document: dict | None) -> str:
+    """Read the municipal letter date, not the later council/listing date."""
+    if not response_document:
+        return ""
+    if response_document.get("document_role") != "municipal_response":
+        return ""
+
+    text = strip_accents(str(response_document.get("content") or "")).lower()
+    header = " ".join(text[:1800].split())
+    match = re.search(
+        r"\b(?:vevey|la tour-de-peilz)\s*,?\s+le\s+"
+        r"(\d{1,2})\s+"
+        r"(janvier|fevrier|mars|avril|mai|juin|juillet|aout|"
+        r"septembre|octobre|novembre|decembre)\s+"
+        r"(20\d{2})\b",
+        header,
+    )
+    if not match:
+        return ""
+    day, month_name, year = match.groups()
+    month = _FRENCH_MONTH_NUMBERS[month_name]
+    return f"{year}-{month:02d}-{int(day):02d}"
+
+
+def _official_response_date(
+    response: dict,
+    response_document: dict | None,
+) -> str:
+    return (
+        _response_letter_date(response_document)
+        or str(response.get("municipal_adoption_date") or "")
+        or str(response.get("response_date") or "")
+    )
+
+
 def _response_year(response: dict, response_document: dict | None) -> str:
-    response_date = str(response.get("response_date") or "")
+    response_date = _official_response_date(response, response_document)
     if re.match(r"^20\d{2}", response_date):
         return response_date[:4]
     if response_document:
@@ -373,6 +432,50 @@ def _response_year(response: dict, response_document: dict | None) -> str:
     number = str(response.get("response_number") or "")
     match = re.search(r"\b(20\d{2})\b", number)
     return match.group(1) if match else ""
+
+
+def _political_object_date(metadata: dict, title: str) -> str:
+    additional = metadata.get("additional_metadata") or {}
+    interpellation = additional.get("interpellation_metadata") or {}
+    return (
+        _date_in_filename(title)
+        or str(interpellation.get("deposit_date") or "")
+        or str(interpellation.get("interpellation_date") or "")
+        or str(metadata.get("document_date") or "")
+        or str(metadata.get("listing_date") or "")
+    )
+
+
+def _author_display(author: dict) -> str:
+    name = str(author.get("name") or "").strip()
+    if not name:
+        return ""
+    civility = str(author.get("civility") or "").strip()
+    party = str(author.get("party") or "").strip()
+    display = name
+    if civility and not display.lower().startswith(civility.lower()):
+        display = f"{civility} {display}"
+    if party and f"({party})".lower() not in display.lower():
+        display = f"{display} ({party})"
+    return display
+
+
+def _response_reference(
+    response: dict,
+    response_document: dict | None,
+) -> str:
+    metadata = (response_document or {}).get("metadata") or {}
+    additional = metadata.get("additional_metadata") or {}
+    relationships = additional.get("relationships") or {}
+    official = str(relationships.get("official_reference") or "").strip()
+    if official:
+        return official
+    source_tracking = additional.get("source_tracking") or {}
+    for occurrence in source_tracking.get("listing_occurrences") or []:
+        reference = str(occurrence.get("reference") or "").strip()
+        if reference:
+            return reference
+    return str(response.get("response_number") or "").strip()
 
 
 def select_answered_interpellations(
@@ -450,9 +553,12 @@ def select_answered_interpellations(
         response, response_document = matching_entries[0]
         source_document = response_document or document
         source_metadata = dict(source_document.get("metadata") or {})
-        title = str(document.get("title") or "")
+        original_title = str(document.get("title") or "")
+        title = original_title
         response_title = str(
-            (response_document or {}).get("title") or ""
+            source_metadata.get("source_title")
+            or (response_document or {}).get("title")
+            or ""
         ).strip()
         if (
             response_title
@@ -473,9 +579,9 @@ def select_answered_interpellations(
         additional = metadata.get("additional_metadata") or {}
         interpellation = additional.get("interpellation_metadata") or {}
         authors = [
-            str(author.get("name"))
+            _author_display(author)
             for author in (interpellation.get("authors") or [])
-            if isinstance(author, dict) and author.get("name")
+            if isinstance(author, dict) and _author_display(author)
         ]
         if not authors and response_document:
             response_additional = (
@@ -502,7 +608,18 @@ def select_answered_interpellations(
                 "commune": commune,
                 "authors": authors,
                 "response_number": response.get("response_number"),
-                "response_date": response.get("response_date"),
+                "response_reference": _response_reference(
+                    response,
+                    response_document,
+                ),
+                "political_date": _political_object_date(
+                    metadata,
+                    original_title,
+                ),
+                "response_date": _official_response_date(
+                    response,
+                    response_document,
+                ),
                 "response_url": source_url,
             }
         )
@@ -541,7 +658,11 @@ def answered_interpellations(filters: dict | None = None) -> list[dict]:
         if linked_ids:
             cursor.execute(
                 "SELECT document_id, title, category, document_role, summary, "
-                "metadata FROM documents WHERE document_id = ANY(%s)",
+                "metadata, coalesce(("
+                "SELECT string_agg(c.content, ' ' ORDER BY c.chunk_index) "
+                "FROM chunks c WHERE c.document_id = documents.document_id"
+                "), '') AS content "
+                "FROM documents WHERE document_id = ANY(%s)",
                 (linked_ids,),
             )
             response_documents = {

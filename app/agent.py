@@ -46,13 +46,6 @@ EXPANDABLE_CATEGORIES = {"interpellation", "postulat", "motion"}
 MAX_EXPANDABLE_CHUNKS = 15
 MAX_EXPANDED_DOCUMENTS = 3
 
-_CIVILITY_NOUN = {"Mme": "femmes", "M.": "hommes"}
-_DOC_TYPE_NOUN = {
-    "interpellations": "interpellations",
-    "postulats": "postulats",
-    "motions": "motions",
-    "reglement-conseil-communal": "documents du règlement",
-}
 _COMPLEX_QUESTION_MARKERS = (
     "a la fois",
     "ainsi que",
@@ -242,36 +235,49 @@ def run_aggregate_query(filters: dict) -> tuple[str, list[dict]]:
                 "title": row["title"],
                 "authors": set(),
                 "commune_group": commune_group,
+                "category": row["category"],
+                "metadata": metadata,
+                "source_url": (
+                    metadata.get("file_url")
+                    or metadata.get("source_url")
+                    or metadata.get("source_page_url")
+                    or ""
+                ),
             },
         )
-        entry["authors"].add(row["author_name"])
+        author = _aggregate_author(row)
+        if author:
+            entry["authors"].add(author)
 
-    subject = _DOC_TYPE_NOUN.get(filters.get("doc_type"), "documents")
-    who = _CIVILITY_NOUN.get(filters.get("civility"))
-    qualifier = f" déposé(e)s par des {who}" if who else ""
-    year_note = f" en {filters['year']}" if filters.get("year") else ""
+    if not documents:
+        answer = "Aucun document politique correspondant n’a été trouvé."
+        return answer, []
 
-    lines = [
-        f"Décompte exact sur les métadonnées de la base ({len(documents)} {subject}{qualifier}{year_note}) "
-        "— pas une estimation sur un échantillon de passages retrouvés."
-    ]
-    if documents:
-        lines.append("")
-        commune_groups: dict[str, list[dict]] = {}
-        for info in documents.values():
-            commune_groups.setdefault(info["commune_group"], []).append(info)
+    commune_groups: dict[str, list[dict]] = {}
+    for info in documents.values():
+        commune_groups.setdefault(info["commune_group"], []).append(info)
 
-        if len(commune_groups) == 1:
-            only_group = next(iter(commune_groups.values()))
-            for info in sorted(only_group, key=lambda item: item["title"]):
-                lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
-        else:
-            for commune, group_documents in sorted(commune_groups.items()):
-                lines.append(f"### {commune}")
-                for info in sorted(group_documents, key=lambda item: item["title"]):
-                    lines.append(f"- {info['title']} — {', '.join(sorted(info['authors']))}")
+    lines: list[str] = []
+    show_communes = len(commune_groups) > 1
+    for commune, group_documents in sorted(commune_groups.items()):
+        if show_communes:
+            if lines:
                 lines.append("")
-            lines.pop()
+            lines.append(f"**{commune}**")
+        for info in sorted(group_documents, key=lambda item: item["title"]):
+            lines.append(
+                _political_document_line(
+                    category=info["category"],
+                    title=info["title"],
+                    authors=sorted(info["authors"]),
+                    political_date=_political_date_from_metadata(
+                        info["metadata"],
+                        info["title"],
+                        info["category"],
+                    ),
+                    pdf_url=info["source_url"],
+                )
+            )
 
     answer = "\n".join(lines)
     results = [_aggregate_result_row_to_result(row) for row in rows]
@@ -303,13 +309,166 @@ def _format_french_date(value: str | None) -> str:
     return f"{day} {_FRENCH_MONTHS[month]} {year}"
 
 
-def _political_subject(title: str) -> str:
-    match = re.search(
-        r"\bintitul[ée]e?\s*[«\"](.+)[»\"]\s*$",
-        title,
-        re.IGNORECASE,
+_POLITICAL_TYPE_LABELS = {
+    "interpellation": "Interpellation",
+    "motion": "Motion",
+    "postulat": "Postulat",
+}
+
+
+def _aggregate_author(row: dict) -> str:
+    name = fix_mojibake(str(row.get("author_name") or "")).strip()
+    if not name:
+        return ""
+    civility = fix_mojibake(str(row.get("civility") or "")).strip()
+    party = fix_mojibake(str(row.get("party") or "")).strip()
+    if civility and not name.lower().startswith(civility.lower()):
+        name = f"{civility} {name}"
+    if party and f"({party})".lower() not in name.lower():
+        name = f"{name} ({party})"
+    return name
+
+
+def _join_authors(authors: list[str]) -> str:
+    authors = [
+        fix_mojibake(str(author)).strip()
+        for author in authors
+        if str(author).strip()
+    ]
+    if len(authors) < 2:
+        return authors[0] if authors else ""
+    return ", ".join(authors[:-1]) + f" et {authors[-1]}"
+
+
+def _political_title_parts(
+    category: str,
+    title: str,
+    authors: list[str],
+) -> tuple[str, str, str]:
+    label = _POLITICAL_TYPE_LABELS.get(category, "Document")
+    clean_title = fix_mojibake(str(title or "")).strip()
+    full_title = re.match(
+        r"^(Interpellation|Motion|Postulat)\s+"
+        r"(?:de|du|des|d['’])\s+(.+?)"
+        r"(?:,\s*)?\s+(?:intitul[ée]e?|ayant pour titre)\s*"
+        r"[«\"]\s*(.+?)\s*[»\"]\s*$",
+        clean_title,
+        flags=re.IGNORECASE,
     )
-    return match.group(1).strip() if match else title.strip()
+    if full_title:
+        return (
+            full_title.group(1).capitalize(),
+            full_title.group(2).strip(" ,"),
+            full_title.group(3).strip(),
+        )
+
+    subject = clean_title
+    if clean_title.lower().endswith(".pdf"):
+        stem = clean_title[:-4]
+        subject = stem.split("_")[-1].replace("-", " ").strip()
+    subject = re.sub(
+        rf"^{re.escape(label)}\s*[:\-–—]?\s*",
+        "",
+        subject,
+        flags=re.IGNORECASE,
+    ).strip()
+    return label, _join_authors(authors), subject or clean_title
+
+
+def _political_date_from_metadata(
+    metadata: dict,
+    title: str,
+    category: str,
+) -> str:
+    filename_date = re.search(
+        r"(?<!\d)20\d{2}-\d{2}-\d{2}(?!\d)",
+        str(title or ""),
+    )
+    additional = metadata.get("additional_metadata") or {}
+    extra = additional.get(f"{category}_metadata") or {}
+    return (
+        filename_date.group(0)
+        if filename_date
+        else str(
+            extra.get("deposit_date")
+            or extra.get("interpellation_date")
+            or metadata.get("document_date")
+            or metadata.get("listing_date")
+            or ""
+        )
+    )
+
+
+def _normalized_response_reference(reference: str, commune: str) -> str:
+    clean = fix_mojibake(str(reference or "")).strip()
+    if not clean:
+        return ""
+    year_first = re.fullmatch(
+        r"(20\d{2})\s*/\s*ri\s*0*(\d+)",
+        clean,
+        flags=re.IGNORECASE,
+    )
+    if year_first:
+        return f"RI {int(year_first.group(2)):02d}/{year_first.group(1)}"
+    ri_first = re.fullmatch(
+        r"ri\s*0*(\d+)\s*/\s*(20\d{2})",
+        clean,
+        flags=re.IGNORECASE,
+    )
+    if ri_first:
+        return f"RI {int(ri_first.group(1)):02d}/{ri_first.group(2)}"
+    number = re.fullmatch(r"0*(\d+)\s*/\s*(20\d{2})", clean)
+    if number and commune == "Vevey":
+        return f"RI {int(number.group(1)):02d}/{number.group(2)}"
+    if number:
+        return (
+            f"Réponse municipale n° {int(number.group(1))}/"
+            f"{number.group(2)}"
+        )
+    return clean
+
+
+def _political_document_line(
+    *,
+    category: str,
+    title: str,
+    authors: list[str],
+    political_date: str,
+    pdf_url: str,
+    response_reference: str = "",
+    response_date: str = "",
+    commune: str = "",
+) -> str:
+    label, title_author, subject = _political_title_parts(
+        category,
+        title,
+        authors,
+    )
+    author_part = f" de {title_author}" if title_author else ""
+    date_part = (
+        f" ({_format_french_date(political_date)})"
+        if political_date
+        else ""
+    )
+    pdf_part = f" — [*PDF*]({pdf_url})" if pdf_url else ""
+    response_parts = []
+    normalized_reference = _normalized_response_reference(
+        response_reference,
+        commune,
+    )
+    if normalized_reference:
+        response_parts.append(normalized_reference)
+    if response_date:
+        response_parts.append(_format_french_date(response_date))
+    response_part = (
+        f" *({', '.join(response_parts)})*"
+        if response_parts
+        else ""
+    )
+    return (
+        f"- {label}{author_part} : *« {subject} »*"
+        f"{date_part}{pdf_part}{response_part}."
+    )
 
 
 def _answered_result(row: dict, rank: int) -> dict:
@@ -324,6 +483,8 @@ def _answered_result(row: dict, rank: int) -> dict:
             "file_url": row["response_url"],
             "source_url": row["response_url"],
             "response_number": row.get("response_number"),
+            "response_reference": row.get("response_reference"),
+            "political_date": row.get("political_date"),
             "response_date": row.get("response_date"),
             "canonical_object": True,
         }
@@ -383,50 +544,41 @@ def run_answered_interpellations_query(
             [],
         )
 
-    lines = []
-    if year:
-        lines.append(
-            f"Interpellations dont la réponse municipale est datée de {year} :"
-        )
-    else:
-        lines.append("Interpellations avec une réponse municipale disponible :")
-
+    commune_count = len(
+        {
+            str(row.get("commune") or "").strip()
+            for row in rows
+            if str(row.get("commune") or "").strip()
+        }
+    )
+    lines: list[str] = []
     current_commune = None
-    for index, row in enumerate(rows, start=1):
+    for row in rows:
         commune = fix_mojibake(
             str(row.get("commune") or "Commune inconnue")
         )
-        if commune != current_commune:
-            lines.extend(["", f"**{commune}**"])
+        if commune_count > 1 and commune != current_commune:
+            if lines:
+                lines.append("")
+            lines.append(f"**{commune}**")
             current_commune = commune
-        title = _political_subject(
-            fix_mojibake(
-                str(row.get("title") or "Interpellation")
-            )
-        )
-        authors = ", ".join(
-            fix_mojibake(str(author))
-            for author in row.get("authors") or []
-        )
-        response_number = fix_mojibake(
-            str(row.get("response_number") or "")
-        )
-        response_date = _format_french_date(row.get("response_date"))
-        details = [
-            (
-                f"réponse municipale {response_number}"
-                if response_number
-                else "réponse municipale fournie"
-            )
-        ]
-        if response_date:
-            details.append(f"du {response_date}")
-        author_note = f" — {authors}" if authors else ""
         lines.append(
-            f"- {title}{author_note} — {', '.join(details)} "
-            f"(Source {index})."
+            _political_document_line(
+                category="interpellation",
+                title=str(row.get("title") or "Interpellation"),
+                authors=list(row.get("authors") or []),
+                political_date=str(row.get("political_date") or ""),
+                pdf_url=str(row.get("response_url") or ""),
+                response_reference=str(
+                    row.get("response_reference")
+                    or row.get("response_number")
+                    or ""
+                ),
+                response_date=str(row.get("response_date") or ""),
+                commune=commune,
+            )
         )
-    return "\n".join(lines), results
+    return "\n".join(lines).lstrip(), results
 
 
 def _unique_document_count(results: list[dict]) -> int:

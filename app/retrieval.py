@@ -98,7 +98,15 @@ def detect_aggregate_query(query: str) -> dict | None:
     (doc_type/year/civility, whichever apply) for pilot_v2_store.aggregate_authors.
     """
     normalized_query = strip_accents(query).lower()
-    if not any(marker in normalized_query for marker in _AGGREGATE_MARKERS):
+    political_enumeration = re.search(
+        r"\b(?:quel|quels|quelle|quelles)\b.*"
+        r"\b(?:interpellations|postulats|motions)\b",
+        normalized_query,
+    )
+    if (
+        not any(marker in normalized_query for marker in _AGGREGATE_MARKERS)
+        and not political_enumeration
+    ):
         return None
 
     filters: dict = {}
