@@ -70,7 +70,7 @@ USER_ERROR_MESSAGE = (
     "La question a été journalisée pour diagnostic; tu peux réessayer dans un instant."
 )
 
-ANSWER_CACHE_VERSION = "political-document-format-v2"
+ANSWER_CACHE_VERSION = "political-document-format-v3"
 
 FOLLOW_UP_HINTS = {
     "alors",
@@ -683,51 +683,6 @@ def render_pending_feedback_dialog() -> None:
     _feedback_dialog(message_index, question, answer, source_count)
 
 
-def render_trace(trace: dict) -> None:
-    if not trace:
-        return
-
-    if trace.get("mode") == "aggregate":
-        st.caption("🔢 Comptage exact sur les métadonnées de la base, pas une estimation sur des passages retrouvés.")
-    if trace.get("verification_claims"):
-        st.caption("✓ vérifié — une ou plusieurs affirmations non sourcées ont été corrigées avant affichage.")
-    if trace.get("budget_exceeded"):
-        st.caption("⏱️ Vérification sautée: le budget de temps de la recherche était déjà épuisé.")
-
-    if not any([
-        trace.get("mode") in {"multi", "aggregate"},
-        trace.get("relance"),
-        trace.get("verification_claims"),
-        trace.get("budget_exceeded"),
-    ]):
-        return
-
-    with st.expander("🔎 Comment cette réponse a été construite"):
-        st.write(f"Complexité détectée: {trace.get('complexity', 'n/a')}")
-        st.write(f"Mode de recherche: {trace.get('mode', 'n/a')}")
-        if trace.get("duration_seconds") is not None:
-            budget = trace.get("budget_seconds", "n/a")
-            st.write(f"Temps total: {trace['duration_seconds']}s (budget: {budget}s)")
-        if trace.get("mode") == "aggregate":
-            st.write(
-                "Détecté comme une question de comptage/énumération: réponse calculée directement "
-                "à partir des métadonnées (auteurs, année, type de document), sans passer par une "
-                "recherche sémantique ni un modèle de langage — donc pas de risque de sous-comptage."
-            )
-        if trace.get("relance"):
-            st.write("Une recherche complémentaire a été relancée car les premiers résultats étaient faibles.")
-        if trace.get("cross_reference_authors"):
-            st.write("Auteurs communs trouvés entre les sous-recherches: " + ", ".join(trace["cross_reference_authors"]))
-        elif trace.get("mode") == "multi":
-            st.write("Aucun auteur commun trouvé entre les sous-recherches.")
-        if trace.get("budget_exceeded"):
-            st.write("Le budget de temps était dépassé avant la vérification: elle a été sautée pour ne pas rallonger encore la réponse.")
-        if trace.get("verification_claims"):
-            st.write("Affirmations signalées puis corrigées avant affichage:")
-            for claim in trace["verification_claims"]:
-                st.write(f"- {claim}")
-
-
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
     chat_tab, eval_tab, about_tab = st.tabs(["Assistant", "Eval", "À propos"])
@@ -952,7 +907,6 @@ with chat_tab:
             if message["role"] == "assistant":
                 trace = message.get("trace", {})
                 render_sources(results, message_index, trace.get("source_blurbs"))
-                render_trace(trace)
 
     render_pending_feedback_dialog()
 

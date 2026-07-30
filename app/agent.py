@@ -348,18 +348,28 @@ def _political_title_parts(
     label = _POLITICAL_TYPE_LABELS.get(category, "Document")
     clean_title = fix_mojibake(str(title or "")).strip()
     full_title = re.match(
-        r"^(Interpellation|Motion|Postulat)\s+"
+        r"^(?:(Interpellation|Motion|Postulat)|"
+        r"((?:Complément de )?réponse à l['’]interpellation))\s+"
         r"(?:de|du|des|d['’])\s+(.+?)"
         r"(?:,\s*)?\s+(?:intitul[ée]e?|ayant pour titre)\s*"
-        r"[«\"]\s*(.+?)\s*[»\"]\s*$",
+        r"[«\"]\s*(.+?)\s*[»\"]\s*(.*?)\s*$",
         clean_title,
         flags=re.IGNORECASE,
     )
     if full_title:
+        subject = " ".join(
+            part.strip()
+            for part in (full_title.group(4), full_title.group(5))
+            if part and part.strip()
+        )
         return (
-            full_title.group(1).capitalize(),
-            full_title.group(2).strip(" ,"),
-            full_title.group(3).strip(),
+            (
+                "Interpellation"
+                if full_title.group(2)
+                else full_title.group(1).capitalize()
+            ),
+            full_title.group(3).strip(" ,"),
+            subject,
         )
 
     subject = clean_title
@@ -404,19 +414,25 @@ def _normalized_response_reference(reference: str, commune: str) -> str:
     if not clean:
         return ""
     year_first = re.fullmatch(
-        r"(20\d{2})\s*/\s*ri\s*0*(\d+)",
+        r"(20\d{2})\s*/\s*ri\s*0*(\d+)([a-z]*)",
         clean,
         flags=re.IGNORECASE,
     )
     if year_first:
-        return f"RI {int(year_first.group(2)):02d}/{year_first.group(1)}"
+        return (
+            f"RI {int(year_first.group(2)):02d}"
+            f"{year_first.group(3).lower()}/{year_first.group(1)}"
+        )
     ri_first = re.fullmatch(
-        r"ri\s*0*(\d+)\s*/\s*(20\d{2})",
+        r"ri\s*0*(\d+)([a-z]*)\s*/\s*(20\d{2})",
         clean,
         flags=re.IGNORECASE,
     )
     if ri_first:
-        return f"RI {int(ri_first.group(1)):02d}/{ri_first.group(2)}"
+        return (
+            f"RI {int(ri_first.group(1)):02d}"
+            f"{ri_first.group(2).lower()}/{ri_first.group(3)}"
+        )
     number = re.fullmatch(r"0*(\d+)\s*/\s*(20\d{2})", clean)
     if number and commune == "Vevey":
         return f"RI {int(number.group(1)):02d}/{number.group(2)}"
@@ -445,17 +461,18 @@ def _political_document_line(
         authors,
     )
     author_part = f" de {title_author}" if title_author else ""
-    date_part = (
-        f" ({_format_french_date(political_date)})"
-        if political_date
-        else ""
-    )
-    pdf_part = f" — [*PDF*]({pdf_url})" if pdf_url else ""
-    response_parts = []
     normalized_reference = _normalized_response_reference(
         response_reference,
         commune,
     )
+    has_response_details = bool(normalized_reference or response_date)
+    date_part = (
+        f" ({_format_french_date(political_date)})"
+        if political_date and not has_response_details
+        else ""
+    )
+    pdf_part = f" — [*PDF*]({pdf_url})" if pdf_url else ""
+    response_parts = []
     if normalized_reference:
         response_parts.append(normalized_reference)
     if response_date:

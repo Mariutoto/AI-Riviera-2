@@ -114,14 +114,14 @@ class AgentRoutingTests(unittest.TestCase):
         self.assertIn("**La Tour-de-Peilz**", answer)
         self.assertIn(
             "Interpellation de Mme Giuliana de Regibus (PS) : "
-            "*« L'apprentissage en question »* (4 septembre 2025) — "
+            "*« L'apprentissage en question »* — "
             "[*PDF*](https://example.test/vevey-response.pdf) "
             "*(RI 09/2025, 15 septembre 2025)*.",
             answer,
         )
         self.assertIn(
             "Interpellation de Mme Gabrielle Heller (LV) : "
-            "*« Que contient l'assiette ? »* (13 avril 2025) — "
+            "*« Que contient l'assiette ? »* — "
             "[*PDF*](https://example.test/tour-response.pdf) "
             "*(Réponse municipale n° 2/2025, 25 juin 2025)*.",
             answer,
@@ -132,6 +132,67 @@ class AgentRoutingTests(unittest.TestCase):
             results[0]["source_url"],
             "https://example.test/vevey-response.pdf",
         )
+
+    def test_response_line_uses_only_response_date(self):
+        line = agent._political_document_line(
+            category="interpellation",
+            title=(
+                "Interpellation de M. Philippe Herminjard (PLR), "
+                "intitulée « La technologie embarquée comme aide à la "
+                "conduite automobile »"
+            ),
+            authors=["M. Philippe Herminjard (PLR)"],
+            political_date="2025-09-04",
+            pdf_url="https://example.test/response.pdf",
+            response_reference="2025/RI11",
+            response_date="2025-10-27",
+            commune="Vevey",
+        )
+
+        self.assertEqual(
+            line,
+            "- Interpellation de M. Philippe Herminjard (PLR) : "
+            "*« La technologie embarquée comme aide à la conduite "
+            "automobile »* — "
+            "[*PDF*](https://example.test/response.pdf) "
+            "*(RI 11/2025, 27 octobre 2025)*.",
+        )
+        self.assertNotIn("4 septembre 2025", line)
+
+    def test_unanswered_document_keeps_creation_date(self):
+        line = agent._political_document_line(
+            category="postulat",
+            title="Postulat de Mme Exemple, intitulé « Un titre »",
+            authors=["Mme Exemple"],
+            political_date="2024-12-11",
+            pdf_url="https://example.test/postulat.pdf",
+        )
+
+        self.assertIn("(11 décembre 2024)", line)
+
+    def test_response_wrapper_is_not_repeated_inside_title(self):
+        line = agent._political_document_line(
+            category="interpellation",
+            title=(
+                "Complément de réponse à l’interpellation de "
+                "M. Jérôme Christen (VL) et consorts, intitulée "
+                "« Un centre sportif régional loin de tout ? »"
+            ),
+            authors=["Jérôme Christen"],
+            political_date="2025-09-04",
+            pdf_url="https://example.test/response.pdf",
+            response_reference="2025/RI08bis",
+            response_date="2025-10-27",
+            commune="Vevey",
+        )
+
+        self.assertIn(
+            "Interpellation de M. Jérôme Christen (VL) et consorts : "
+            "*« Un centre sportif régional loin de tout ? »*",
+            line,
+        )
+        self.assertIn("*(RI 08bis/2025, 27 octobre 2025)*", line)
+        self.assertNotIn("Complément de réponse", line)
 
 
 if __name__ == "__main__":
