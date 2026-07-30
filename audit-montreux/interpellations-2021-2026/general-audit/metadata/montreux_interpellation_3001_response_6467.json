@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3001_response_6467",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Location à court terme de logements : appliquer le cadre légal »",
+    "source_title": "11_2_ReponseInterpellation_WermelingerE_LocationACourtTermeDeLogements_VFc.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3001",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6467",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-09",
+    "language": "fr",
+    "content_hash": "721f658f5028317cacb7241307c8758c90f04aa3c71a43d6429ff4b84f2da9a8",
+    "source_content_hash": "4a606075ce212470c2aaccb336b84786a44c6c18da951455952ea459b79787a0",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3001",
+    "object_title": "Location à court terme de logements : appliquer le cadre légal",
+    "authors": [
+      {
+        "name": "Elisabeth Wermelinger",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-05-10",
+    "interpellation_date": "2023-05-10",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-06-09",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-06-09",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-06-09"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 7,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3001",
+    "political_object_document_id": "montreux_interpellation_3001_text",
+    "related_document_ids": [
+      "montreux_interpellation_3001_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3001_response_6467"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3001,
+    "source_object_alias_ids": [],
+    "source_download_id": "6467",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2899",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-06-09",
+        "author": "Elisabeth Wermelinger",
+        "displayed_type": "Annexe",
+        "title": "11_2_ReponseInterpellation_WermelingerE_LocationACourtTermeDeLogements_VFc.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6467"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "page_text_characters": [
+        2630,
+        2996,
+        3400,
+        598,
+        2816
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 12500,
+      "words_extracted": 1949,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

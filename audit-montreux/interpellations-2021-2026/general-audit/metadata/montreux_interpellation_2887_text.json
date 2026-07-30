@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2887_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Quelles conséquences concrètes si l’initiative contre le projet des Grands-Prés était acceptée et qu’aucun projet immobilier ne se réalise à terme sur ce site ?",
+    "source_title": "Quelles conséquences concrètes si l’initiative contre le projet des Grands-Prés était acceptée et qu’aucun projet immobilier ne se réalise à terme sur ce site ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2887",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2887",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-12",
+    "language": "fr",
+    "content_hash": "be5fdbed7553288d2859b4d0724226f080fdf3cfade87ef2d9555f5384a6896e",
+    "source_content_hash": "be5fdbed7553288d2859b4d0724226f080fdf3cfade87ef2d9555f5384a6896e",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2887",
+    "object_title": "Quelles conséquences concrètes si l’initiative contre le projet des Grands-Prés était acceptée et qu’aucun projet immobilier ne se réalise à terme sur ce site ?",
+    "authors": [
+      {
+        "name": "Olivier Blanc",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-10-12",
+    "interpellation_date": "2022-10-12",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2022-12-02",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-12-02",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2022-12-02"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 6,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2887",
+    "political_object_document_id": "montreux_interpellation_2887_text",
+    "related_document_ids": [
+      "montreux_interpellation_2887_response_6311"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2887_response_6311"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2887,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-10-12",
+        "author": "Olivier Blanc",
+        "displayed_type": "",
+        "title": "Quelles conséquences concrètes si l’initiative contre le projet des Grands-Prés était acceptée et qu’aucun projet immobilier ne se réalise à terme sur ce site ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2887"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2650,
+      "words_extracted": 403,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

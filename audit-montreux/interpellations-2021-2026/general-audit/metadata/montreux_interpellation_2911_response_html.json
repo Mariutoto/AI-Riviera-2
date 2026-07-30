@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2911_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Extension de l’offre publics dans la commune de Montreux – quelles mesures de communication ? »",
+    "source_title": "Réponse à l'interpellation « Extension de l’offre publics dans la commune de Montreux – quelles mesures de communication ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2911",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2911",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-16",
+    "language": "fr",
+    "content_hash": "ee3cb8c6ea7236644cdccf5b777a0962520cf651d1138d63a4aee0ca0ff3d8dd",
+    "source_content_hash": "ee3cb8c6ea7236644cdccf5b777a0962520cf651d1138d63a4aee0ca0ff3d8dd",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2911",
+    "object_title": "Extension de l’offre publics dans la commune de Montreux – quelles mesures de communication ?",
+    "authors": [
+      {
+        "name": "Olivier Blanc",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-11-16",
+    "interpellation_date": "2022-11-16",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-11-16",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-11-16",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 15,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2911",
+    "political_object_document_id": "montreux_interpellation_2911_text",
+    "related_document_ids": [
+      "montreux_interpellation_2911_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2911_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2911,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-11-16",
+        "author": "Olivier Blanc",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Extension de l’offre publics dans la commune de Montreux – quelles mesures de communication ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2911"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2268,
+      "words_extracted": 363,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

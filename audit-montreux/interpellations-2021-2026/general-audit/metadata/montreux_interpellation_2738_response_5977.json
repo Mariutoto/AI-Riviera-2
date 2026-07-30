@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2738_response_5977",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Trafic sur l’Avenue des Alpes durant les week-ends de Marché de Noël »",
+    "source_title": "Reponse_Interpellation_JorgeJ_TraficAvenueDesAlpesDurantWeek-endsDeMarcheDeNoel_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2738",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5977",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-01-21",
+    "language": "fr",
+    "content_hash": "4872efe1b61d7d576fcd6d3d468ea8fdf932c4237d6a105379ae9b167e7147c6",
+    "source_content_hash": "cede322da5f005d0ec790475e8f98c2233636a1d38db521595ccc95f9f07ceb1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2738",
+    "object_title": "Trafic sur l’Avenue des Alpes durant les week-ends de Marché de Noël",
+    "authors": [
+      {
+        "name": "José Jorge",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-12-15",
+    "interpellation_date": "2021-12-15",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2022-01-21",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-01-21",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2022-01-21"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2738",
+    "political_object_document_id": "montreux_interpellation_2738_text",
+    "related_document_ids": [
+      "montreux_interpellation_2738_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2738_response_5977"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2738,
+    "source_object_alias_ids": [],
+    "source_download_id": "5977",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-01-21",
+        "author": "José Jorge",
+        "displayed_type": "Interpellation",
+        "title": "Reponse_Interpellation_JorgeJ_TraficAvenueDesAlpesDurantWeek-endsDeMarcheDeNoel_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5977"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1559,
+        3980,
+        2697
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 8260,
+      "words_extracted": 1278,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

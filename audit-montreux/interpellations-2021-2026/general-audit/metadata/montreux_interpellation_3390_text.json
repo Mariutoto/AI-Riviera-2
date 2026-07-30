@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3390_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Suppression de la desserte CGN du débarcadère de Territet sur les horaires 2026",
+    "source_title": "Suppression de la desserte CGN du débarcadère de Territet sur les horaires 2026",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3390",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3390",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-06",
+    "language": "fr",
+    "content_hash": "a31f5bd3aa8b25d112eed12a8ddc0cad229cee92331f138c02963ba8b00eee55",
+    "source_content_hash": "a31f5bd3aa8b25d112eed12a8ddc0cad229cee92331f138c02963ba8b00eee55",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3390",
+    "object_title": "Suppression de la desserte CGN du débarcadère de Territet sur les horaires 2026",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2026-05-06",
+    "interpellation_date": "2026-05-06",
+    "target_body": "Municipalité",
+    "status_normalized": "unanswered",
+    "political_status": "unanswered_or_unverified",
+    "status": "Aucune réponse publiée",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "responses": [],
+    "is_closed": false,
+    "contains_questions": true,
+    "question_count": 14,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "no_verified_response_source"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3390",
+    "political_object_document_id": "montreux_interpellation_3390_text",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3390,
+    "source_object_alias_ids": [
+      3391
+    ],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4308",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-05-06",
+        "author": "Nicolas Büchler",
+        "displayed_type": "",
+        "title": "Suppression de la desserte CGN du débarcadère de Territet sur les horaires 2026",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3390"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 4779,
+      "words_extracted": 756,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

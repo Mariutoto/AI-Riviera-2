@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3156_response_6809",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « appel à un geste de solidarité »",
+    "source_title": "10_2_ReponseInterpellation_LoupP_AppelAUnGesteDeSolidarite_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3156",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6809",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-01",
+    "language": "fr",
+    "content_hash": "ebb55b63685fe5aff4216d146de655e53623aa91265a608634cec26fd85dad0b",
+    "source_content_hash": "51a1d43df5a79a1db784db434a6c299d212767d2c5307642f505657f6579bdd8",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3156",
+    "object_title": "appel à un geste de solidarité",
+    "authors": [
+      {
+        "name": "Pierre Loup",
+        "party": "DA",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-10-09",
+    "interpellation_date": "2024-10-09",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-11-01",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-11-01",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-11-01"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3156",
+    "political_object_document_id": "montreux_interpellation_3156_text",
+    "related_document_ids": [
+      "montreux_interpellation_3156_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3156_response_6809"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3156,
+    "source_object_alias_ids": [],
+    "source_download_id": "6809",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4058",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-01",
+        "author": "Pierre Loup",
+        "displayed_type": "Annexe",
+        "title": "10_2_ReponseInterpellation_LoupP_AppelAUnGesteDeSolidarite_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6809"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1881,
+        3193,
+        430
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 5539,
+      "words_extracted": 891,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

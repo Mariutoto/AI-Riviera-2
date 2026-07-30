@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3080_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Rien ne sert de rouler vite, il faut partir à point",
+    "source_title": "Rien ne sert de rouler vite, il faut partir à point",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3080",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3080",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-28",
+    "language": "fr",
+    "content_hash": "ad6f093d39afe8c4592cf8660049f1cc0e83df43c0ee49773ef6ac95acb2f000",
+    "source_content_hash": "ad6f093d39afe8c4592cf8660049f1cc0e83df43c0ee49773ef6ac95acb2f000",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3080",
+    "object_title": "Rien ne sert de rouler vite, il faut partir à point",
+    "authors": [
+      {
+        "name": "Tanya Bonjour",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-02-28",
+    "interpellation_date": "2024-02-28",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-05-03",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-05-03",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-05-03"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3080",
+    "political_object_document_id": "montreux_interpellation_3080_text",
+    "related_document_ids": [
+      "montreux_interpellation_3080_response_6706"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3080_response_6706"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3080,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4015",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-02-28",
+        "author": "Tanya Bonjour",
+        "displayed_type": "",
+        "title": "Rien ne sert de rouler vite, il faut partir à point",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3080"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2444,
+      "words_extracted": 405,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

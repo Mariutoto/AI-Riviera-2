@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3182_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Changement d’horaires du 15 décembre 24 – qu’en est-il de la situation pour les écoliers de Glion et Caux ? »",
+    "source_title": "Réponse à l'interpellation « Changement d’horaires du 15 décembre 24 – qu’en est-il de la situation pour les écoliers de Glion et Caux ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3182",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3182",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-11",
+    "language": "fr",
+    "content_hash": "b912d68344242800f2d98cfd2564503a5d66357c17b4e2a83dbbb89382929f79",
+    "source_content_hash": "b912d68344242800f2d98cfd2564503a5d66357c17b4e2a83dbbb89382929f79",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3182",
+    "object_title": "Changement d’horaires du 15 décembre 24 – qu’en est-il de la situation pour les écoliers de Glion et Caux ?",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-12-11",
+    "interpellation_date": "2024-12-11",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2024-12-11",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-12-11",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3182",
+    "political_object_document_id": "montreux_interpellation_3182_text",
+    "related_document_ids": [
+      "montreux_interpellation_3182_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3182_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3182,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4060",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-12-11",
+        "author": "Nicolas Büchler",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Changement d’horaires du 15 décembre 24 – qu’en est-il de la situation pour les écoliers de Glion et Caux ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3182"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 3079,
+      "words_extracted": 483,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

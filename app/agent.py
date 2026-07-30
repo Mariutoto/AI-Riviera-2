@@ -389,7 +389,7 @@ def _political_title_parts(
         "",
         subject,
         flags=re.IGNORECASE,
-    ).strip()
+    ).strip().strip(" «»\"")
     return label, _join_authors(authors), subject or clean_title
 
 
@@ -479,7 +479,19 @@ def _political_document_line(
         if political_date and not has_response_details
         else ""
     )
-    pdf_part = f" — [*PDF*]({pdf_url})" if pdf_url else ""
+    source_label = (
+        "PDF"
+        if (
+            ".pdf" in pdf_url.lower()
+            or "download.asp" in pdf_url.lower()
+        )
+        else "Source officielle"
+    )
+    pdf_part = (
+        f" — [*{source_label}*]({pdf_url})"
+        if pdf_url
+        else ""
+    )
     response_parts = []
     if normalized_reference:
         response_parts.append(normalized_reference)

@@ -34,8 +34,10 @@ VEVEY = Municipality(
 MONTREUX = Municipality(
     key="montreux",
     label="Montreux",
-    source_domain="www.montreux.ch",
+    source_domain="www.conseilmontreux.ch",
     documents_directory="montreux",
+    search_enabled=True,
+    search_scope="interpellations uniquement",
 )
 
 ASSOCIATION_SECURITE_RIVIERA = Municipality(

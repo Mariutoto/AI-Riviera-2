@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from app import pilot_v2_store, retrieval
+from app import agent, pilot_v2_store, retrieval
 
 
 def metadata(
@@ -36,6 +36,20 @@ def metadata(
 
 
 class AnsweredInterpellationsTests(unittest.TestCase):
+    def test_html_response_is_not_presented_as_a_pdf(self):
+        line = agent._political_document_line(
+            category="interpellation",
+            title="Une réponse orale",
+            authors=["Mme Exemple"],
+            political_date="2025-01-01",
+            pdf_url="https://example.test/documents/recherche/?id=42",
+            response_date="2025-02-01",
+            commune="Montreux",
+        )
+
+        self.assertIn("[*Source officielle*]", line)
+        self.assertNotIn("[*PDF*]", line)
+
     def test_detects_response_enumeration_and_uses_response_year(self):
         filters = retrieval.detect_answered_interpellations_query(
             "Quelles interpellations ont reçu une réponse en 2025 ?"

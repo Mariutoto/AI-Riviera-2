@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3178_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Chemin du Bocherex - un passage piéton dangereux à Territet",
+    "source_title": "Chemin du Bocherex - un passage piéton dangereux à Territet",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3178",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3178",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-13",
+    "language": "fr",
+    "content_hash": "edf5467a781fbcd07c7929f5c6a14cc8acb3472c31535c42fa2a5489da330bf1",
+    "source_content_hash": "edf5467a781fbcd07c7929f5c6a14cc8acb3472c31535c42fa2a5489da330bf1",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3178",
+    "object_title": "Chemin du Bocherex - un passage piéton dangereux à Territet",
+    "authors": [
+      {
+        "name": "Pablo Menzi",
+        "party": "UDC",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-11-13",
+    "interpellation_date": "2024-11-13",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-11-29",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-11-29",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-11-29"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3178",
+    "political_object_document_id": "montreux_interpellation_3178_text",
+    "related_document_ids": [
+      "montreux_interpellation_3178_response_6860"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3178_response_6860"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3178,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4059",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-13",
+        "author": "Pablo Menzi",
+        "displayed_type": "",
+        "title": "Chemin du Bocherex - un passage piéton dangereux à Territet",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3178"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 1933,
+      "words_extracted": 308,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

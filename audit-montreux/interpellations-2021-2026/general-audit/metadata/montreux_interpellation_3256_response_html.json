@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3256_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « « Déclaration des villes suisses sur la situation humanitaire à Gaza » »",
+    "source_title": "Réponse à l'interpellation « « Déclaration des villes suisses sur la situation humanitaire à Gaza » »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3256",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3256",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-18",
+    "language": "fr",
+    "content_hash": "4b696b3862242708fb71b40434e5d77b2495f20cbdae417d0ff0cd1ea7297497",
+    "source_content_hash": "4b696b3862242708fb71b40434e5d77b2495f20cbdae417d0ff0cd1ea7297497",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3256",
+    "object_title": "« Déclaration des villes suisses sur la situation humanitaire à Gaza »",
+    "authors": [
+      {
+        "name": "Florian Manzini",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2025-06-18",
+    "interpellation_date": "2025-06-18",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2025-06-18",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2025-06-18",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3256",
+    "political_object_document_id": "montreux_interpellation_3256_text",
+    "related_document_ids": [
+      "montreux_interpellation_3256_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3256_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3256,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4152",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-06-18",
+        "author": "Florian Manzini",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « « Déclaration des villes suisses sur la situation humanitaire à Gaza » »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3256"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 5790,
+      "words_extracted": 931,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

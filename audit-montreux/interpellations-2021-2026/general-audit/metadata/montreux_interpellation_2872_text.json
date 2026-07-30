@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2872_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Le danger d’un mauvais placement des bandes cyclable",
+    "source_title": "Le danger d’un mauvais placement des bandes cyclable",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2872",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2872",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-14",
+    "language": "fr",
+    "content_hash": "34c40bfe7f1a392f6293ba249b3c014afee4f42d1bb3098c74c624afc2d91ad7",
+    "source_content_hash": "34c40bfe7f1a392f6293ba249b3c014afee4f42d1bb3098c74c624afc2d91ad7",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2872",
+    "object_title": "Le danger d’un mauvais placement des bandes cyclable",
+    "authors": [
+      {
+        "name": "Kelvin Kappeler",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-09-14",
+    "interpellation_date": "2022-09-14",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-09-14",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-09-14",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2872",
+    "political_object_document_id": "montreux_interpellation_2872_text",
+    "related_document_ids": [
+      "montreux_interpellation_2872_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2872_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2872,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-09-14",
+        "author": "Kelvin Kappeler",
+        "displayed_type": "",
+        "title": "Le danger d’un mauvais placement des bandes cyclable",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2872"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2238,
+      "words_extracted": 393,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

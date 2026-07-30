@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3367_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Qui pilote le PACom ?",
+    "source_title": "Qui pilote le PACom ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3367",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3367",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-01",
+    "language": "fr",
+    "content_hash": "ab10040cdccd86f41151e25957641dfcc98ae262527c7767602e43ef3bc0f42c",
+    "source_content_hash": "ab10040cdccd86f41151e25957641dfcc98ae262527c7767602e43ef3bc0f42c",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3367",
+    "object_title": "Qui pilote le PACom ?",
+    "authors": [
+      {
+        "name": "Mathieu Ehinger",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2026-04-01",
+    "interpellation_date": "2026-04-01",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2026-04-01",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2026-04-01",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 9,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3367",
+    "political_object_document_id": "montreux_interpellation_3367_text",
+    "related_document_ids": [
+      "montreux_interpellation_3367_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3367_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3367,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4307",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-04-01",
+        "author": "Mathieu Ehinger",
+        "displayed_type": "",
+        "title": "Qui pilote le PACom ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3367"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2006,
+      "words_extracted": 303,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

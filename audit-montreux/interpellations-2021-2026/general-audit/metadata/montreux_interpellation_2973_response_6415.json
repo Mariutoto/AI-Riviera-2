@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2973_response_6415",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Accueil préscolaire - Point de situation et perspectives »",
+    "source_title": "11_2_ReponseInterpellations_PilloudR_AccueilPrescolaire.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2973",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6415",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-04-28",
+    "language": "fr",
+    "content_hash": "cae8d5455ad35c6f88cce38bb4c7b055eec6a5ef7f4c139ff14f45e79e34f1fd",
+    "source_content_hash": "d43b04414e6fa7124524c18c3013b6a138ac77484c98d4a368ba0e693c331557",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2973",
+    "object_title": "Accueil préscolaire - Point de situation et perspectives",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-04-05",
+    "interpellation_date": "2023-04-05",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-04-28",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-04-28",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-04-28"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2973",
+    "political_object_document_id": "montreux_interpellation_2973_text",
+    "related_document_ids": [
+      "montreux_interpellation_2973_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2973_response_6415"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2973,
+    "source_object_alias_ids": [],
+    "source_download_id": "6415",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2897",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-04-28",
+        "author": "Romain Pilloud",
+        "displayed_type": "Réponse",
+        "title": "11_2_ReponseInterpellations_PilloudR_AccueilPrescolaire.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6415"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1807,
+        3187,
+        1521
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6543,
+      "words_extracted": 1027,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

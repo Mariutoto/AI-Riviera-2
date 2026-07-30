@@ -33,10 +33,14 @@ class SearchGuardTests(unittest.TestCase):
         self.assertIn("Interpellations", warning)
         self.assertIn("Postulats", warning)
 
-    def test_blocks_unavailable_city_even_when_all_is_selected(self):
-        warning = self.guard("Quels postulats ont été déposés à Montreux ?")
-        self.assertIn("Montreux", warning)
-        self.assertIn("pas encore disponibles", warning)
+    def test_montreux_interpellations_are_available(self):
+        self.assertIsNone(
+            self.guard(
+                "Quelles interpellations ont reçu une réponse à Montreux ?",
+                city="Montreux",
+                document_type="Interpellations",
+            )
+        )
 
     def test_vevey_is_available(self):
         self.assertIsNone(

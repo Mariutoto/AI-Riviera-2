@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2833_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Fan Zone à Montreux",
+    "source_title": "Fan Zone à Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2833",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2833",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-18",
+    "language": "fr",
+    "content_hash": "aca84d6d3e2ca3a03a678fc13d5e4006266c147fdcf6506c4d2ac78b1bb8f06d",
+    "source_content_hash": "aca84d6d3e2ca3a03a678fc13d5e4006266c147fdcf6506c4d2ac78b1bb8f06d",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2833",
+    "object_title": "Fan Zone à Montreux",
+    "authors": [
+      {
+        "name": "Florian Despond",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "interpellation_date": "2022-05-18",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-11-16",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-11-16",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2833",
+    "political_object_document_id": "montreux_interpellation_2833_text",
+    "related_document_ids": [
+      "montreux_interpellation_2833_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2833_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2833,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-05-18",
+        "author": "Florian Despond",
+        "displayed_type": "",
+        "title": "Fan Zone à Montreux",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2833"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 3555,
+      "words_extracted": 545,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

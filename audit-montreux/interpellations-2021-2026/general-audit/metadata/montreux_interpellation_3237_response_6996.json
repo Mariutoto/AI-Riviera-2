@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3237_response_6996",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Manque de stationnement pour les vélos autour du Cité Centre »",
+    "source_title": "12_2_ReponseMUN_Interpellation_SemonL_AbsenceStationnementVelos_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3237",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6996",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-09",
+    "language": "fr",
+    "content_hash": "0a4e386aaed780474ed35ad227d9f0e097299f0d53f84bf29f87aa350d74bc6d",
+    "source_content_hash": "8b1743b0dc784493c3e97a3680d25f36636c8ed82ebf01b73362e2c662205f81",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3237",
+    "object_title": "Manque de stationnement pour les vélos autour du Cité Centre",
+    "authors": [
+      {
+        "name": "Léo Sémon",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2025-04-30",
+    "interpellation_date": "2025-04-30",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2025-05-09",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2025-05-09",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2025-05-09"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3237",
+    "political_object_document_id": "montreux_interpellation_3237_text",
+    "related_document_ids": [
+      "montreux_interpellation_3237_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3237_response_6996"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3237,
+    "source_object_alias_ids": [],
+    "source_download_id": "6996",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4150",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-05-09",
+        "author": "Léo Sémon",
+        "displayed_type": "Annexe",
+        "title": "12_2_ReponseMUN_Interpellation_SemonL_AbsenceStationnementVelos_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6996"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1980,
+        2678,
+        479
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 5167,
+      "words_extracted": 787,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

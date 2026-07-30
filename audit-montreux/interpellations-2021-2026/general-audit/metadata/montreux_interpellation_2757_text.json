@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2757_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Éclaircissements sur la communication Municipale relative à la mise à jour des réserves en zones à bâtir",
+    "source_title": "Éclaircissements sur la communication Municipale relative à la mise à jour des réserves en zones à bâtir",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2757",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2757",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-02",
+    "language": "fr",
+    "content_hash": "1043fc214b5ca1991b8fbdbd14061e37305905d46ccfbad4e2128726b5d9e3f9",
+    "source_content_hash": "1043fc214b5ca1991b8fbdbd14061e37305905d46ccfbad4e2128726b5d9e3f9",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2757",
+    "object_title": "Éclaircissements sur la communication Municipale relative à la mise à jour des réserves en zones à bâtir",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "interpellation_date": "2022-02-02",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-02-02",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-02-02",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 10,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2757",
+    "political_object_document_id": "montreux_interpellation_2757_text",
+    "related_document_ids": [
+      "montreux_interpellation_2757_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2757_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2757,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-02-02",
+        "author": "Emmanuel Gétaz",
+        "displayed_type": "",
+        "title": "Éclaircissements sur la communication Municipale relative à la mise à jour des réserves en zones à bâtir",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2757"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 4150,
+      "words_extracted": 644,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3115_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Baisse d’impôt suite à la révision du règlement communal sur la gestion des déchets ?",
+    "source_title": "Baisse d’impôt suite à la révision du règlement communal sur la gestion des déchets ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3115",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3115",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-15",
+    "language": "fr",
+    "content_hash": "feae7686af395a8e95cd001fa9c1ca2cd7493031a3e941153a2024b26e3f0409",
+    "source_content_hash": "feae7686af395a8e95cd001fa9c1ca2cd7493031a3e941153a2024b26e3f0409",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3115",
+    "object_title": "Baisse d’impôt suite à la révision du règlement communal sur la gestion des déchets ?",
+    "authors": [
+      {
+        "name": "Samuel Roch",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-05-15",
+    "interpellation_date": "2024-05-15",
+    "target_body": "Municipalité",
+    "status_normalized": "empty_response_event_unverified",
+    "political_status": "unanswered_or_unverified",
+    "status": "Rubrique de réponse vide, réponse non vérifiée",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "empty_response_event_unverified",
+    "responses": [],
+    "is_closed": false,
+    "contains_questions": false,
+    "question_count": 0,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "no_verified_response_source"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3115",
+    "political_object_document_id": "montreux_interpellation_3115_text",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3115,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4017",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-05-15",
+        "author": "Samuel Roch",
+        "displayed_type": "",
+        "title": "Baisse d’impôt suite à la révision du règlement communal sur la gestion des déchets ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3115"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 158,
+      "words_extracted": 26,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

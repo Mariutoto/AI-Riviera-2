@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2695_response_5859",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Place de la Paix, feux de circulation, quel désordre, surtout pour la traversée des piétons ! »",
+    "source_title": "Reponse_Interpellation_HuysA_FeuxCarrefourPaix_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2695",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5859",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-15",
+    "language": "fr",
+    "content_hash": "ce7e22c64f39598c8402b51ffd48058316a248e613299b4e6db048fe008562c2",
+    "source_content_hash": "c45e1ad956915110c0086502eae9d565d1da3ad7ddd2664c291107d8dd69b423",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2695",
+    "object_title": "Place de la Paix, feux de circulation, quel désordre, surtout pour la traversée des piétons !",
+    "authors": [
+      {
+        "name": "Antony Huys",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-09-08",
+    "interpellation_date": "2021-09-08",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2021-10-15",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-15",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2021-10-15"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2695",
+    "political_object_document_id": "montreux_interpellation_2695_text",
+    "related_document_ids": [
+      "montreux_interpellation_2695_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2695_response_5859"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2695,
+    "source_object_alias_ids": [],
+    "source_download_id": "5859",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2701",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-10-15",
+        "author": "Antony Huys",
+        "displayed_type": "Annexe",
+        "title": "Reponse_Interpellation_HuysA_FeuxCarrefourPaix_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5859"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1472,
+        3033,
+        1996
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6536,
+      "words_extracted": 1064,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

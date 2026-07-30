@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3018_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Etat des lieux au Service de l’Urbanisme »",
+    "source_title": "Réponse à l'interpellation « Etat des lieux au Service de l’Urbanisme »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3018",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3018",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-06",
+    "language": "fr",
+    "content_hash": "7f313fc3fce2a286f90652838a8feef1f7da10c0bf8f7958c2d44dd118501518",
+    "source_content_hash": "7f313fc3fce2a286f90652838a8feef1f7da10c0bf8f7958c2d44dd118501518",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3018",
+    "object_title": "Etat des lieux au Service de l’Urbanisme",
+    "authors": [
+      {
+        "name": "Vincent Haldi",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-09-06",
+    "interpellation_date": "2023-09-06",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2023-09-06",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-09-06",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 10,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3018",
+    "political_object_document_id": "montreux_interpellation_3018_text",
+    "related_document_ids": [
+      "montreux_interpellation_3018_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3018_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3018,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2944",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-09-06",
+        "author": "Vincent Haldi",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Etat des lieux au Service de l’Urbanisme »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3018"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 1191,
+      "words_extracted": 175,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

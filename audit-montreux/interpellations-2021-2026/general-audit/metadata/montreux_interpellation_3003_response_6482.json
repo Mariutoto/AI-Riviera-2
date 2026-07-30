@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3003_response_6482",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « faudra-t-il attendre une génération entière pour enfin pouvoir se baigner au centre de Montreux ? »",
+    "source_title": "10_1_ReponseInterpellation_MullerO_PointsBaignade_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3003",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6482",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-08-28",
+    "language": "fr",
+    "content_hash": "b0d43f025b280a5b65a10090906b737adcbce28d991dd5b21175a4432f5505a1",
+    "source_content_hash": "32713533d526f60004ecaff8cdb04835a4e1ab1512e44dfccb406fe1ccb92919",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3003",
+    "object_title": "faudra-t-il attendre une génération entière pour enfin pouvoir se baigner au centre de Montreux ?",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-05-10",
+    "interpellation_date": "2023-05-10",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-08-28",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-08-28",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-08-28"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 10,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3003",
+    "political_object_document_id": "montreux_interpellation_3003_text",
+    "related_document_ids": [
+      "montreux_interpellation_3003_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3003_response_6482"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3003,
+    "source_object_alias_ids": [],
+    "source_download_id": "6482",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2898",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-08-28",
+        "author": "Olivier Müller",
+        "displayed_type": "Annexe",
+        "title": "10_1_ReponseInterpellation_MullerO_PointsBaignade_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6482"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "page_text_characters": [
+        2480,
+        3329,
+        4101,
+        3539,
+        976
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 14482,
+      "words_extracted": 2413,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

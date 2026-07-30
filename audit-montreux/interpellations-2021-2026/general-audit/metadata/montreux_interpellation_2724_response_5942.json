@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2724_response_5942",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Patinoire du marché de Noël »",
+    "source_title": "Reponse_Interpellation_TorchioG_PatinoireMarcheNoel_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2724",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5942",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-03",
+    "language": "fr",
+    "content_hash": "28d14f36689979eb2d3d433d4d2b0fc24d69618c59a615d69c3befc2ebdff297",
+    "source_content_hash": "3ef4d54a61eafd54408eb529444cf425f20f457865af741ed172da8cb79cd36a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2724",
+    "object_title": "Patinoire du marché de Noël",
+    "authors": [
+      {
+        "name": "Géraldine Torchio",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "interpellation_date": "2021-11-10",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2021-12-03",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-12-03",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2021-12-03"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2724",
+    "political_object_document_id": "montreux_interpellation_2724_text",
+    "related_document_ids": [
+      "montreux_interpellation_2724_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2724_response_5942"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2724,
+    "source_object_alias_ids": [],
+    "source_download_id": "5942",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-12-03",
+        "author": "Géraldine Torchio",
+        "displayed_type": "Réponse",
+        "title": "Reponse_Interpellation_TorchioG_PatinoireMarcheNoel_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5942"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1685,
+        3488,
+        1710
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6908,
+      "words_extracted": 1073,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

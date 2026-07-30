@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3116_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Fabrice Yerly et Quentin Talon « Fontaine, quand pourrai-je à nouveau boire de ton eau » ?",
+    "source_title": "Interpellation de M. Fabrice Yerly et Quentin Talon « Fontaine, quand pourrai-je à nouveau boire de ton eau » ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3116",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3116",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-15",
+    "language": "fr",
+    "content_hash": "abfa8f73c4ec4620bd0f4c4e15fe17019c3932034901a3e1ddb19b24e94b12c8",
+    "source_content_hash": "abfa8f73c4ec4620bd0f4c4e15fe17019c3932034901a3e1ddb19b24e94b12c8",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3116",
+    "object_title": "Interpellation de M. Fabrice Yerly et Quentin Talon « Fontaine, quand pourrai-je à nouveau boire de ton eau » ?",
+    "authors": [
+      {
+        "name": "Fabrice Yerly",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-05-15",
+    "interpellation_date": "2024-05-15",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-09-27",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-09-27",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-09-27"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 6,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3116",
+    "political_object_document_id": "montreux_interpellation_3116_text",
+    "related_document_ids": [
+      "montreux_interpellation_3116_response_6761"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3116_response_6761"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3116,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4017",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-05-15",
+        "author": "Fabrice Yerly",
+        "displayed_type": "",
+        "title": "Interpellation de M. Fabrice Yerly et Quentin Talon « Fontaine, quand pourrai-je à nouveau boire de ton eau » ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3116"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2376,
+      "words_extracted": 384,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

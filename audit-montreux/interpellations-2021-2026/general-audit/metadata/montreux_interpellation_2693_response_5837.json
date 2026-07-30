@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2693_response_5837",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Qu’en est-il de la cyberdéfense de notre commune ? »",
+    "source_title": "ReponseInterpellation_LuderT_CyberdefenseDeNotreCommune_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2693",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5837",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-24",
+    "language": "fr",
+    "content_hash": "cbfbacdc63841aee1f2cb0aa1099e67a825ec7ccdd030418f9cf6029303b7e35",
+    "source_content_hash": "75275e06f1c73b7ea0140d8803e5fa09b9302cffccab39411732cc05af718df6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2693",
+    "object_title": "Qu’en est-il de la cyberdéfense de notre commune ?",
+    "authors": [
+      {
+        "name": "Tal Luder",
+        "party": "UDC",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-09-08",
+    "interpellation_date": "2021-09-08",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2021-09-24",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-09-24",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2021-09-24"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 6,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2693",
+    "political_object_document_id": "montreux_interpellation_2693_text",
+    "related_document_ids": [
+      "montreux_interpellation_2693_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2693_response_5837"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2693,
+    "source_object_alias_ids": [],
+    "source_download_id": "5837",
+    "source_download_aliases": [
+      "5855"
+    ],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2746",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-09-24",
+        "author": "Tal Luder",
+        "displayed_type": "Annexe",
+        "title": "ReponseInterpellation_LuderT_CyberdefenseDeNotreCommune_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5837"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        1739,
+        2588,
+        2928,
+        1036
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 8333,
+      "words_extracted": 1255,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

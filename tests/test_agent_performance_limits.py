@@ -47,7 +47,11 @@ class AgentPerformanceLimitTests(unittest.TestCase):
     def test_all_cities_searches_each_commune_and_interleaves(self, search):
         def city_results(_query, **kwargs):
             city = kwargs["filters"]["city"]
-            prefix = "vevey" if city == "Vevey" else "tour"
+            prefix = {
+                "La Tour-de-Peilz": "tour",
+                "Vevey": "vevey",
+                "Montreux": "montreux",
+            }[city]
             return (
                 [
                     {
@@ -67,10 +71,17 @@ class AgentPerformanceLimitTests(unittest.TestCase):
         )
 
         self.assertFalse(relanced)
-        self.assertEqual(search.call_count, 2)
+        self.assertEqual(search.call_count, 3)
         self.assertEqual(
             [item["metadata"]["commune"] for item in results],
-            ["La Tour-de-Peilz", "Vevey", "La Tour-de-Peilz", "Vevey"],
+            [
+                "La Tour-de-Peilz",
+                "Vevey",
+                "Montreux",
+                "La Tour-de-Peilz",
+                "Vevey",
+                "Montreux",
+            ],
         )
 
     @patch("app.agent.record_diagnostic")

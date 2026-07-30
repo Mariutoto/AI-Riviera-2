@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3037_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Augmentation des tarifs de stationnement »",
+    "source_title": "Réponse à l'interpellation « Augmentation des tarifs de stationnement »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3037",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3037",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-11",
+    "language": "fr",
+    "content_hash": "f09defc45e511f57320ce62e55ae831ca0266d55bad6247c0976c9f8de9c47dc",
+    "source_content_hash": "f09defc45e511f57320ce62e55ae831ca0266d55bad6247c0976c9f8de9c47dc",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3037",
+    "object_title": "Augmentation des tarifs de stationnement",
+    "authors": [
+      {
+        "name": "Kelvin Kappeler",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-10-11",
+    "interpellation_date": "2023-10-11",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2023-10-11",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-10-11",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 10,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3037",
+    "political_object_document_id": "montreux_interpellation_3037_text",
+    "related_document_ids": [
+      "montreux_interpellation_3037_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3037_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3037,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2945",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-10-11",
+        "author": "Kelvin Kappeler",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Augmentation des tarifs de stationnement »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3037"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 22612,
+      "words_extracted": 3758,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

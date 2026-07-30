@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3139_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Fontanivent : un passage à niveau pas à niveau",
+    "source_title": "Fontanivent : un passage à niveau pas à niveau",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3139",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3139",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-04",
+    "language": "fr",
+    "content_hash": "0d9b45b31d330f36a4cea34e78c7d017637129f475f9020d3597926df599446b",
+    "source_content_hash": "0d9b45b31d330f36a4cea34e78c7d017637129f475f9020d3597926df599446b",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3139",
+    "object_title": "Fontanivent : un passage à niveau pas à niveau",
+    "authors": [
+      {
+        "name": "Lionel Winkler",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-09-04",
+    "interpellation_date": "2024-09-04",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-09-13",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-09-13",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-09-13"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 9,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3139",
+    "political_object_document_id": "montreux_interpellation_3139_text",
+    "related_document_ids": [
+      "montreux_interpellation_3139_response_6796"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3139_response_6796"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3139,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4057",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-09-04",
+        "author": "Lionel Winkler",
+        "displayed_type": "",
+        "title": "Fontanivent : un passage à niveau pas à niveau",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3139"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2943,
+      "words_extracted": 478,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2694_response_5838",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Règlementation des commission consultatives municipales »",
+    "source_title": "ReponseInterpellation_LuderT_CommissionsConsultativesMunicipales_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2694",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5838",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-24",
+    "language": "fr",
+    "content_hash": "c5c62b4154b6bb805b13e421eaf2f2ed9871509bcf646e557603db96fcac579e",
+    "source_content_hash": "ed2a4f2e154f0eb2ef4a677f77e981d0cc37c710cab008335520538a6d9b3df2",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2694",
+    "object_title": "Règlementation des commission consultatives municipales",
+    "authors": [
+      {
+        "name": "Tal Luder",
+        "party": "UDC",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-09-08",
+    "interpellation_date": "2021-09-08",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2021-09-24",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-09-24",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2021-09-24"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2694",
+    "political_object_document_id": "montreux_interpellation_2694_text",
+    "related_document_ids": [
+      "montreux_interpellation_2694_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2694_response_5838"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2694,
+    "source_object_alias_ids": [],
+    "source_download_id": "5838",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2746",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-09-24",
+        "author": "Tal Luder",
+        "displayed_type": "Annexe",
+        "title": "ReponseInterpellation_LuderT_CommissionsConsultativesMunicipales_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5838"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1250,
+        3358,
+        1908
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6545,
+      "words_extracted": 923,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

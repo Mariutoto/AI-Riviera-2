@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2723_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation au sujet de la location d’appartements pour des séjours de courte durée",
+    "source_title": "Interpellation au sujet de la location d’appartements pour des séjours de courte durée",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2723",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2723",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-10",
+    "language": "fr",
+    "content_hash": "42a7b0031fd7ddef991d04bef3df83dea7cb2cda5807185878887f5af5f50aef",
+    "source_content_hash": "42a7b0031fd7ddef991d04bef3df83dea7cb2cda5807185878887f5af5f50aef",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2723",
+    "object_title": "Interpellation au sujet de la location d’appartements pour des séjours de courte durée",
+    "authors": [
+      {
+        "name": "Ruth Bär",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "interpellation_date": "2021-11-10",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2022-01-21",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-01-21",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2022-01-21"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2723",
+    "political_object_document_id": "montreux_interpellation_2723_text",
+    "related_document_ids": [
+      "montreux_interpellation_2723_response_5978"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2723_response_5978"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2723,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-11-10",
+        "author": "Ruth Bär",
+        "displayed_type": "",
+        "title": "Interpellation au sujet de la location d’appartements pour des séjours de courte durée",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2723"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2781,
+      "words_extracted": 422,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

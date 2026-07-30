@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2832_response_6165",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Notre Centre des congrès 2m2c – un Centre multiusage déjà saturé ? »",
+    "source_title": "9_4_Reponse_Interpellation_LauberFurstS_2m2c_UnCentreMultiusageDejaSature_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2832",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6165",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-10",
+    "language": "fr",
+    "content_hash": "3875cc15258a5dd7c04dae09cc1beb5b3ab6901f9e796f4963066d67fa25a16a",
+    "source_content_hash": "49b4c7417e29893c6f8bdc92f7bda329e013fdd4a675698d321327254679087b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2832",
+    "object_title": "Notre Centre des congrès 2m2c – un Centre multiusage déjà saturé ?",
+    "authors": [
+      {
+        "name": "Susanne Lauber Fürst",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "interpellation_date": "2022-05-18",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2022-06-10",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-06-10",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2022-06-10"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2832",
+    "political_object_document_id": "montreux_interpellation_2832_text",
+    "related_document_ids": [
+      "montreux_interpellation_2832_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2832_response_6165"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2832,
+    "source_object_alias_ids": [],
+    "source_download_id": "6165",
+    "source_download_aliases": [
+      "6150"
+    ],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-06-10",
+        "author": "Susanne Lauber Fürst",
+        "displayed_type": "Réponse",
+        "title": "9_4_Reponse_Interpellation_LauberFurstS_2m2c_UnCentreMultiusageDejaSature_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6165"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        2081,
+        3435,
+        2691
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 8233,
+      "words_extracted": 1315,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

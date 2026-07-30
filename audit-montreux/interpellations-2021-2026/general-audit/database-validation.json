@@ -1,0 +1,849 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 307,
+    "original_interpellations": 155,
+    "response_documents": 152,
+    "response_pdfs": 66,
+    "chunks": 666,
+    "vectors": 666,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 155,
+    "objects_with_response": 152,
+    "objects_without_response": 3,
+    "broken_relationship_links": 0,
+    "aggregate_originals": 155,
+    "answered_interpellations": 152,
+    "answered_in_2025": 24,
+    "answered_with_source_url": 152
+  },
+  "objects": [
+    {
+      "object_id": "montreux-interpellation-2690",
+      "title": "Étirements de subvention pour un abonnement flexible",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2691",
+      "title": "Cybersécurité à Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2692",
+      "title": "Fusion Montreux-Veytaux, on en est où ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2693",
+      "title": "Qu’en est-il de la cyberdéfense de notre commune ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2694",
+      "title": "Règlementation des commission consultatives municipales",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2695",
+      "title": "Place de la Paix, feux de circulation, quel désordre, surtout pour la traversée des piétons !",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2705",
+      "title": "Avancement du projet de chauffage à distance à Montreux et à Clarens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2706",
+      "title": "Ascenseur Coteau-Muraz",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2707",
+      "title": "Quand l'ascenseur public rue Gambetta - avenue Rambert sera-t-il rouvert au public ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2722",
+      "title": "La valorisation de nos arbres fruitiers",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2723",
+      "title": "Interpellation au sujet de la location d’appartements pour des séjours de courte durée",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2724",
+      "title": "Patinoire du marché de Noël",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2725",
+      "title": "Utilisation des établissements scolaires durant les vacances",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2738",
+      "title": "Trafic sur l’Avenue des Alpes durant les week-ends de Marché de Noël",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2752",
+      "title": "Tourner à droite cycliste au feu rouge",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2753",
+      "title": "Devoirs surveillés",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2754",
+      "title": "Recyclage des briques",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2755",
+      "title": "Pollution massive de la Baye de Clarens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2757",
+      "title": "Éclaircissements sur la communication Municipale relative à la mise à jour des réserves en zones à bâtir",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2758",
+      "title": "Comm’PACom",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2776",
+      "title": "Notre nouvelle STEP Intercommunale -enjeux et délais",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2777",
+      "title": "Déroulement des cérémonies funèbres au cimetière de Clarens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2801",
+      "title": "Petits projets – Grands effets : ça avance ou pas ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2830",
+      "title": "Minicentrale hydro-électrique sur la Baie de Clarens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2831",
+      "title": "La politique des places de parc de car en ville de Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2832",
+      "title": "Notre Centre des congrès 2m2c – un Centre multiusage déjà saturé ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2833",
+      "title": "Fan Zone à Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2849",
+      "title": "La Municipalité reprend les rênes pour les travaux de sécurisation et de rénovation du Centre de congrès",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2850",
+      "title": "Potelets en folie",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2867",
+      "title": "Avancement du projet de refonte du règlement des rentes municipales",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2868",
+      "title": "Interpellation de Monsieur Romain Pilloud, Madame Jessica Ruedin et Monsieur Pierre Loup : « Comment éviter de débrancher la prise ? »",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2869",
+      "title": "Economies d'énergie : la Commune de Montreux se prépare-t-elle à mettre le couvercle sur la casserole ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2870",
+      "title": "Crise énergétique - quelles démarches de notre Municipalité ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2871",
+      "title": "Zones réservées et PACOM, suite du programme ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2872",
+      "title": "Le danger d’un mauvais placement des bandes cyclable",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2887",
+      "title": "Quelles conséquences concrètes si l’initiative contre le projet des Grands-Prés était acceptée et qu’aucun projet immobilier ne se réalise à terme sur ce site ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2888",
+      "title": "Des pellets montreusiens ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2889",
+      "title": "Protéger les piéton·nes sur les quais montreusiens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2890",
+      "title": "Qu’en est-il de l’Îlot Bar ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2891",
+      "title": "Communication concernant la protection de la population",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2892",
+      "title": "Coordination du service des travaux publics avec les services industriels",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2906",
+      "title": "Quel avenir pour la CMCSI ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2907",
+      "title": "Point d’impôt",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2908",
+      "title": "Prise en charge des écoliers ukrainiens",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2909",
+      "title": "Feu funiculaire Mont-Fleuri – une histoire sans fin",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2910",
+      "title": "Faut-il rester borné pour se parquer dans la cour du Collège de Montreux-Est",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2911",
+      "title": "Extension de l’offre publics dans la commune de Montreux – quelles mesures de communication ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2918",
+      "title": "Les projecteurs des installations sportives de la commune",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2926",
+      "title": "Parking au parquet ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2927",
+      "title": "MOB, désertion de la desserte",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2928",
+      "title": "Carrefour de la rue du Grammont et la rue du Lac",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2929",
+      "title": "Réalisation du réseau thermique communal jusqu’à la Maladaire ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2930",
+      "title": "Une plateforme menaçante pour les vélos en centre-ville",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2931",
+      "title": "Interpellation concernant la communication de la Municipalité relative à l’état des motions, postulats et pétitions en suspens au 31.12.2022",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2932",
+      "title": "Des trous et des potelets",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2933",
+      "title": "Inventaire du parc « logements » de la Commune de Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2934",
+      "title": "Quel délai pour débattre au conseil communal de l’initiative « Sauver les Grands-Prés ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2954",
+      "title": "Pour que la ligne 204 ne soit plus un pédibus",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2955",
+      "title": "Bâtiments du cimetière, est-ce que la situation a évolué ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2956",
+      "title": "Pour que le MOB reprenne la voie du service public",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2973",
+      "title": "Accueil préscolaire - Point de situation et perspectives",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2974",
+      "title": "Interpellation quant à l’état de l’esplanade de Territet",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2975",
+      "title": "Raisonner le combat contre les feuilles mortes.",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2976",
+      "title": "Que faire de nos 192 fourmis sans fourmilière de garde ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2981",
+      "title": "PACom : sait-on suffisamment où on va ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2995",
+      "title": "Y a-t-il encore un pilote au MOB ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-2996",
+      "title": "Smoke on the water : les mégots du MJF",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3001",
+      "title": "Location à court terme de logements : appliquer le cadre légal",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3002",
+      "title": "Limitation de la vitesse des véhicules à 30 km/h de nuit : la municipalité tiendra-t-elle compte des avis négatifs exprimés par la population et par les usagers ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3003",
+      "title": "faudra-t-il attendre une génération entière pour enfin pouvoir se baigner au centre de Montreux ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3004",
+      "title": "Livrélo",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3007",
+      "title": "Questions et précisions suite au communiqué de presse officiel du 18 juin sur l’initiative populaire communale \"sauver les Grands-Prés\"",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3018",
+      "title": "Etat des lieux au Service de l’Urbanisme",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3019",
+      "title": "Bouchons à Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3020",
+      "title": "Esplanade de Territet bis",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3021",
+      "title": "Avenir de Décal’Quai",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3026",
+      "title": "Interpellation de M. Quentin Talon et consorts \"Nouveau malaise aux VMCV, quelles mesures pour en sortir de manière durable ?\"",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3036",
+      "title": "Quel destin pour la parcelle communale de la Saussaz ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3037",
+      "title": "Augmentation des tarifs de stationnement",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3038",
+      "title": "Interpellation de M. Emmanuel Gétaz et de Mme Antoinette Loup « Quelle planification pour la mise en œuvre de l’initiative communale « Sauver les Grands-Prés » acceptée en votation ? »",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3043",
+      "title": "Des dangers financiers pour les transports publics ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3053",
+      "title": "le Père Noël a déjà son bureau aux Rochers-de-Naye, n’est-ce pas suffisant ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3054",
+      "title": "Reprendre et améliorer le PGA 2019 ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3055",
+      "title": "Des petits trous partout",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3056",
+      "title": "Economie d’énergie ou grands projets lumineux ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3066",
+      "title": "Dunk à la Ballallaz.",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3079",
+      "title": "Le Sentier de Bellevue – une autre histoire sans fin ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3080",
+      "title": "Rien ne sert de rouler vite, il faut partir à point",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3081",
+      "title": "recrutement du nouveau chef de service de l'urbanisme",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3085",
+      "title": "Pour une équité entre tous les arts sur la commune de Montreux.",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3093",
+      "title": "Bien-être dans les préaux des écoles de Montreux : un oubli ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3101",
+      "title": "Stress hydrique",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3115",
+      "title": "Baisse d’impôt suite à la révision du règlement communal sur la gestion des déchets ?",
+      "has_response": false
+    },
+    {
+      "object_id": "montreux-interpellation-3116",
+      "title": "Interpellation de M. Fabrice Yerly et Quentin Talon « Fontaine, quand pourrai-je à nouveau boire de ton eau » ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3117",
+      "title": "Streetworkout",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3125",
+      "title": "Situation de la Poste sur le territoire communal",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3126",
+      "title": "La Neige de Mai et le Futur : Comment le Nouveau Règlement Cantonal Pourrait Renforcer la Protection de nos Prés de Narcisses",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3133",
+      "title": "Des sociétés locales au 2M2c",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3135",
+      "title": "Veytaux, zone Mobilis",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3136",
+      "title": "Les étoiles filantes seront-elles visibles à Montreux ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3137",
+      "title": "Extinction de l'éclairage public nocturne, quel bilan ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3138",
+      "title": "PACom, qui est le groupe citoyen et quel est son rôle ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3139",
+      "title": "Fontanivent : un passage à niveau pas à niveau",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3152",
+      "title": "Favoriser le recrutement de cheffes de services",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3153",
+      "title": "Conventions avec la Commune de Veytaux, état des lieux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3154",
+      "title": "Malaise aux VMCV : où en est-on ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3155",
+      "title": "pour un développement de l’offre Taxibus sur le territoire communal",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3156",
+      "title": "appel à un geste de solidarité",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3173",
+      "title": "Décal’quai, une association et un patrimoine à sauver ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3174",
+      "title": "Un coup de pouce pour devenir championne de participation",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3175",
+      "title": "À pied, cheminer à Montreux, c’est comment ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3176",
+      "title": "Consommation d'eau potable des divers services de la Commune de Montreux et modification du tarif par le SIGE",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3177",
+      "title": "Quid de l'utilisation du site de l'hôpital par l'EVAM",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3178",
+      "title": "Chemin du Bocherex - un passage piéton dangereux à Territet",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3182",
+      "title": "Changement d’horaires du 15 décembre 24 – qu’en est-il de la situation pour les écoliers de Glion et Caux ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3183",
+      "title": "Concernant démarrage des travaux de rénovation du centre sportif de la Maladaire en 2025",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3196",
+      "title": "Le recyclage des déchets plastiques ménagers – le nouveau système Recybag",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3197",
+      "title": "Signalisation des chantiers à Montreux : ne tombez pas dans le panneau !",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3207",
+      "title": "Délégués aux délégués: Quid de la durabilité de la politique municipale en termes de ressources humaines?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3208",
+      "title": "Des polluants éternels sur le terrain des Fourches ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3223",
+      "title": "Lieux de mariage civil sur le territoire communal",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3224",
+      "title": "Règlement sur l'attribution des subventions communales: à quand sa mise à jour ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3225",
+      "title": "Des places de parc qui s’évaporent: quel avenir pour nos petits commerces ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3226",
+      "title": "Evolution du deal de rue suite aux nouvelles mesures prises dans le canton de Vaud et implications potentielles pour Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3237",
+      "title": "Manque de stationnement pour les vélos autour du Cité Centre",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3242",
+      "title": "PACom, n’oublions pas le Conseil Communal",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3256",
+      "title": "« Déclaration des villes suisses sur la situation humanitaire à Gaza »",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3264",
+      "title": "« Organiser l’accueil de jour sans désorganiser les familles ».",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3269",
+      "title": "Les Grands-Prés",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3270",
+      "title": "Célébration du 1er août à Montreux : le droit de Veytaux est-il encore légitime ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3271",
+      "title": "le MOB abandonne nos villages",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3272",
+      "title": "Quel calendrier de procédure suite à l’arrêt du Tribunal Fédéral concernant les Grands-Prés ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3288",
+      "title": "Interpellation de M. Olivier Raduljica et M. Mathieu Ehinger « Fermeture du passage à niveau piétonnier du sentier du Craux »",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3289",
+      "title": "Garderie du National : un gâchis",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3291",
+      "title": "au sujet du règlement des ports de la commune de Montreux",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3301",
+      "title": "Modifications d’ordonnances fédérales en matière de limitation de vitesse : quels effets sur les projets communaux et quel positionnement de la Commune de Montreux?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3302",
+      "title": "Interpellation au sujet des accès des hauts de Chernex",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3303",
+      "title": "Sécurité piétonnière : mobilité douce et trottoirs fictifs à Brent, Fontanivent et Chailly",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3304",
+      "title": "notre futur PACom sera-t-il équilibré et représentatif ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3305",
+      "title": "PACom, stratégie villageoise",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3315",
+      "title": "Quels développements possibles pour l’enfance à Territet ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3320",
+      "title": "Ancien Audiorama et Esplanade de Territet : Dans quel état se trouvent ses deux biens du patrimoine montreusien ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3321",
+      "title": "Concept de mobilité – est-ce que ça avance sans bouchons ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3322",
+      "title": "Concernant le pouvoir et l’obligation de la Commune de protéger le parc locatif",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3323",
+      "title": "Réalisations du délégué à la durabilité",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3343",
+      "title": "Atteinte directe à notre processus démocratique",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3344",
+      "title": "Objets rayés de la liste… mais pas des préoccupations",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3345",
+      "title": "Y’en a marre des mares",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3346",
+      "title": "Que de lumières, et l’économie ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3364",
+      "title": "Communauté électrique locale : situation et opportunités pour Montreux.",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3365",
+      "title": "1,2,4-triazole",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3366",
+      "title": "Glion – des voitures à gogo",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3367",
+      "title": "Qui pilote le PACom ?",
+      "has_response": true
+    },
+    {
+      "object_id": "montreux-interpellation-3390",
+      "title": "Suppression de la desserte CGN du débarcadère de Territet sur les horaires 2026",
+      "has_response": false
+    },
+    {
+      "object_id": "montreux-interpellation-3393",
+      "title": "Quels noms pour les entrées du Centre de Congrès ?",
+      "has_response": false
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "Ascenseur Coteau-Muraz",
+      "expected_prefix": "montreux_interpellation_2706_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_interpellation_2706_text",
+        "montreux_interpellation_2706_response_html",
+        "montreux_interpellation_2707_response_html",
+        "montreux_interpellation_2707_text",
+        "montreux_interpellation_3288_response_7188"
+      ]
+    },
+    {
+      "query": "projecteurs installations sportives",
+      "expected_prefix": "montreux_interpellation_2918_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_interpellation_2918_text",
+        "montreux_interpellation_2918_response_html",
+        "montreux_interpellation_3056_text",
+        "montreux_interpellation_3056_response_6568",
+        "montreux_interpellation_2724_text"
+      ]
+    },
+    {
+      "query": "giratoire de Brent accès mobilité",
+      "expected_prefix": "montreux_interpellation_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_interpellation_2755_text",
+        "montreux_interpellation_2830_text",
+        "montreux_interpellation_3019_response_html",
+        "montreux_interpellation_3019_text",
+        "montreux_interpellation_3139_response_6796"
+      ]
+    },
+    {
+      "query": "logement abordable Montreux",
+      "expected_prefix": "montreux_interpellation_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_interpellation_2933_response_6417",
+        "montreux_interpellation_2933_response_6417",
+        "montreux_interpellation_2933_response_6417",
+        "montreux_interpellation_3001_response_6467",
+        "montreux_interpellation_3001_response_6467"
+      ]
+    }
+  ],
+  "failures": []
+}

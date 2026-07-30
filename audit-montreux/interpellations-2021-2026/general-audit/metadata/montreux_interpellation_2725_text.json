@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2725_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Utilisation des établissements scolaires durant les vacances",
+    "source_title": "Utilisation des établissements scolaires durant les vacances",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2725",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2725",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-10",
+    "language": "fr",
+    "content_hash": "b6c64637d253c9ceccb6e5c1a592fa556b516a82bf3f8a5b71bfe9d42729bc89",
+    "source_content_hash": "b6c64637d253c9ceccb6e5c1a592fa556b516a82bf3f8a5b71bfe9d42729bc89",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2725",
+    "object_title": "Utilisation des établissements scolaires durant les vacances",
+    "authors": [
+      {
+        "name": "Samuel Roch",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "interpellation_date": "2021-11-10",
+    "target_body": "Municipalité",
+    "status_normalized": "response_confirmed_missing_source",
+    "political_status": "response_available",
+    "status": "Réponse confirmée par l'interpellateur, texte source absent",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "response_confirmed_missing_source",
+    "response_date": "2021-12-15",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-12-15",
+        "response_type": "response_confirmed_missing_source",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2725",
+    "political_object_document_id": "montreux_interpellation_2725_text",
+    "related_document_ids": [
+      "montreux_interpellation_2725_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2725_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2725,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-11-10",
+        "author": "Samuel Roch",
+        "displayed_type": "",
+        "title": "Utilisation des établissements scolaires durant les vacances",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2725"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2707,
+      "words_extracted": 408,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

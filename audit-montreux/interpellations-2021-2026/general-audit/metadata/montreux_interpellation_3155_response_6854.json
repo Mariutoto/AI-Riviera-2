@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3155_response_6854",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « pour un développement de l’offre Taxibus sur le territoire communal »",
+    "source_title": "10_2_ReponseMUN_Interpellation_BurkhartM_OffreTaxibus_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3155",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6854",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-22",
+    "language": "fr",
+    "content_hash": "28ab6c93d6206d8f648752f16620529974d9da470ea6b74b03fc748fab3a7210",
+    "source_content_hash": "16e7ce9334b45e056b0a98a5bd465acc8d22da95db5d81dc8320595459367600",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3155",
+    "object_title": "pour un développement de l’offre Taxibus sur le territoire communal",
+    "authors": [
+      {
+        "name": "Matthieu Burkhart",
+        "party": "ML",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-10-09",
+    "interpellation_date": "2024-10-09",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-11-22",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-11-22",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-11-22"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 9,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3155",
+    "political_object_document_id": "montreux_interpellation_3155_text",
+    "related_document_ids": [
+      "montreux_interpellation_3155_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3155_response_6854"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3155,
+    "source_object_alias_ids": [],
+    "source_download_id": "6854",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4058",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-22",
+        "author": "Matthieu Burkhart",
+        "displayed_type": "Réponse",
+        "title": "10_2_ReponseMUN_Interpellation_BurkhartM_OffreTaxibus_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6854"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        2336,
+        3366,
+        3871,
+        975
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 10587,
+      "words_extracted": 1576,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2871_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Zones réservées et PACOM, suite du programme ? »",
+    "source_title": "Réponse à l'interpellation « Zones réservées et PACOM, suite du programme ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2871",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2871",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-14",
+    "language": "fr",
+    "content_hash": "9d4be46af25dd4fbaf7426ad4c3afe153bfbf2c8ebe06c23c09e4e4db6d64f53",
+    "source_content_hash": "9d4be46af25dd4fbaf7426ad4c3afe153bfbf2c8ebe06c23c09e4e4db6d64f53",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2871",
+    "object_title": "Zones réservées et PACOM, suite du programme ?",
+    "authors": [
+      {
+        "name": "Mathieu Ehinger",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-09-14",
+    "interpellation_date": "2022-09-14",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-09-14",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-09-14",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 7,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2871",
+    "political_object_document_id": "montreux_interpellation_2871_text",
+    "related_document_ids": [
+      "montreux_interpellation_2871_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2871_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2871,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-09-14",
+        "author": "Mathieu Ehinger",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Zones réservées et PACOM, suite du programme ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2871"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 3063,
+      "words_extracted": 500,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

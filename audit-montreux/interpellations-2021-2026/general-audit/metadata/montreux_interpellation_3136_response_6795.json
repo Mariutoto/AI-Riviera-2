@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3136_response_6795",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Les étoiles filantes seront-elles visibles à Montreux ? »",
+    "source_title": "10_4_ReponseMUN_Interpellation_RimazR_LesEtoilesFilantesSerontEllesVisiblesAMontreux_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3136",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6795",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-27",
+    "language": "fr",
+    "content_hash": "1651c5df31db95c645a007bcd0783de0ecb6d9e4784c92185eaaa6ab30320e42",
+    "source_content_hash": "fef1349657959671685784f783c367e290bb7612205e8f074d5a0de0d7072904",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3136",
+    "object_title": "Les étoiles filantes seront-elles visibles à Montreux ?",
+    "authors": [
+      {
+        "name": "Roland Rimaz",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-09-04",
+    "interpellation_date": "2024-09-04",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-09-27",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-09-27",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-09-27"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3136",
+    "political_object_document_id": "montreux_interpellation_3136_text",
+    "related_document_ids": [
+      "montreux_interpellation_3136_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3136_response_6795"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3136,
+    "source_object_alias_ids": [],
+    "source_download_id": "6795",
+    "source_download_aliases": [
+      "6763"
+    ],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4057",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-09-27",
+        "author": "Roland Rimaz",
+        "displayed_type": "Réponse",
+        "title": "10_4_ReponseMUN_Interpellation_RimazR_LesEtoilesFilantesSerontEllesVisiblesAMontreux_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6795"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        2242,
+        4054,
+        1910
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 8242,
+      "words_extracted": 1296,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

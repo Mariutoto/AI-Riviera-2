@@ -393,7 +393,7 @@ def _response_letter_date(response_document: dict | None) -> str:
     text = strip_accents(str(response_document.get("content") or "")).lower()
     header = " ".join(text[:1800].split())
     match = re.search(
-        r"\b(?:vevey|la tour-de-peilz)\s*,?\s+le\s+"
+        r"\b(?:vevey|la tour-de-peilz|montreux)\s*,?\s+le\s+"
         r"(\d{1,2})\s+"
         r"(janvier|fevrier|mars|avril|mai|juin|juillet|aout|"
         r"septembre|octobre|novembre|decembre)\s+"

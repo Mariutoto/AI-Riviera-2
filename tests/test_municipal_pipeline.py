@@ -4,6 +4,7 @@ from municipal_pipeline.documents import municipal_document, validate_document
 from municipal_pipeline.municipalities import (
     ASSOCIATION_SECURITE_RIVIERA,
     LA_TOUR_DE_PEILZ,
+    MONTREUX,
     VEVEY,
     get_municipality,
 )
@@ -15,6 +16,13 @@ class MunicipalityRegistryTests(unittest.TestCase):
         self.assertTrue(LA_TOUR_DE_PEILZ.search_enabled)
         self.assertTrue(VEVEY.search_enabled)
         self.assertEqual(VEVEY.search_scope, "interpellations uniquement")
+        self.assertTrue(MONTREUX.search_enabled)
+        self.assertEqual(
+            MONTREUX.search_scope, "interpellations uniquement"
+        )
+        self.assertEqual(
+            MONTREUX.source_domain, "www.conseilmontreux.ch"
+        )
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
         self.assertEqual(get_municipality("vevey"), VEVEY)
 

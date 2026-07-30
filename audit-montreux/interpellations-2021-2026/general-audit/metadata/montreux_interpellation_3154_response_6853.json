@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3154_response_6853",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Malaise aux VMCV : où en est-on ? »",
+    "source_title": "10_1_ReponseMUN_Interpellation_BonjourT_MalaisesVMCV_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3154",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6853",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-29",
+    "language": "fr",
+    "content_hash": "bffb9dadcac568e50ad5e74bf6478100d1bf0ef917abfb791af10b735c971351",
+    "source_content_hash": "1067ab4c1beb96323a1c57bd8253bddf8835e3eb03ea6f5d92013a957eaef086",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3154",
+    "object_title": "Malaise aux VMCV : où en est-on ?",
+    "authors": [
+      {
+        "name": "Tanya Bonjour",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-10-09",
+    "interpellation_date": "2024-10-09",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-11-29",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-11-29",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-11-29"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3154",
+    "political_object_document_id": "montreux_interpellation_3154_text",
+    "related_document_ids": [
+      "montreux_interpellation_3154_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3154_response_6853"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3154,
+    "source_object_alias_ids": [],
+    "source_download_id": "6853",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4058",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-29",
+        "author": "Tanya Bonjour",
+        "displayed_type": "Réponse",
+        "title": "10_1_ReponseMUN_Interpellation_BonjourT_MalaisesVMCV_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6853"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 7,
+      "page_text_characters": [
+        2603,
+        3608,
+        3160,
+        4263,
+        3287,
+        2875,
+        441
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 20312,
+      "words_extracted": 3311,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

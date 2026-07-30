@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2831_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "La politique des places de parc de car en ville de Montreux",
+    "source_title": "La politique des places de parc de car en ville de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2831",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2831",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-18",
+    "language": "fr",
+    "content_hash": "8996765115275f42d4e9b48b9cec49993838ae7eeeaf6a0b39f4bc4e6e04baf5",
+    "source_content_hash": "8996765115275f42d4e9b48b9cec49993838ae7eeeaf6a0b39f4bc4e6e04baf5",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2831",
+    "object_title": "La politique des places de parc de car en ville de Montreux",
+    "authors": [
+      {
+        "name": "Philippe Morier-Genoud",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "interpellation_date": "2022-05-18",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2022-05-18",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-05-18",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2831",
+    "political_object_document_id": "montreux_interpellation_2831_text",
+    "related_document_ids": [
+      "montreux_interpellation_2831_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2831_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2831,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-05-18",
+        "author": "Philippe Morier-Genoud",
+        "displayed_type": "",
+        "title": "La politique des places de parc de car en ville de Montreux",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2831"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 1067,
+      "words_extracted": 170,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

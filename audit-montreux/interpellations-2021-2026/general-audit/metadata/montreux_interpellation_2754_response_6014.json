@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2754_response_6014",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Recyclage des briques »",
+    "source_title": "Reponse_Interpellation_PhMorierGenoud_RecyclageBriquesAlimentaires_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2754",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6014",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-18",
+    "language": "fr",
+    "content_hash": "996a778374fe8e3a5ccacf182ddf1f903f6a4eeacae06b5fc2c1f99ce9db6482",
+    "source_content_hash": "8778f6839479daa2749ac70fb06cfeb5149f7bf4d14bfa05fef82fa9ec3fb9e6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2754",
+    "object_title": "Recyclage des briques",
+    "authors": [
+      {
+        "name": "Philippe Morier-Genoud",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "interpellation_date": "2022-02-02",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2022-02-18",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-02-18",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2022-02-18"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2754",
+    "political_object_document_id": "montreux_interpellation_2754_text",
+    "related_document_ids": [
+      "montreux_interpellation_2754_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2754_response_6014"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2754,
+    "source_object_alias_ids": [],
+    "source_download_id": "6014",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-02-18",
+        "author": "Philippe Morier-Genoud",
+        "displayed_type": "Interpellation",
+        "title": "Reponse_Interpellation_PhMorierGenoud_RecyclageBriquesAlimentaires_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6014"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        1471,
+        3291,
+        3761,
+        2321
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 10879,
+      "words_extracted": 1700,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

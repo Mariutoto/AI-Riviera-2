@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3004_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Livrélo",
+    "source_title": "Livrélo",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3004",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3004",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-21",
+    "language": "fr",
+    "content_hash": "d837d4e8fd4e2ab8d3d4c3070ce524527629673354b46821f6b479d6999fe82f",
+    "source_content_hash": "d837d4e8fd4e2ab8d3d4c3070ce524527629673354b46821f6b479d6999fe82f",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3004",
+    "object_title": "Livrélo",
+    "authors": [
+      {
+        "name": "Kyong-Won Schärer",
+        "party": "DA",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-06-21",
+    "interpellation_date": "2023-06-21",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-08-25",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-08-25",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-08-25"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3004",
+    "political_object_document_id": "montreux_interpellation_3004_text",
+    "related_document_ids": [
+      "montreux_interpellation_3004_response_6483"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3004_response_6483"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3004,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2899",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-06-21",
+        "author": "Kyong-Won Schärer",
+        "displayed_type": "",
+        "title": "Livrélo",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3004"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 1253,
+      "words_extracted": 190,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

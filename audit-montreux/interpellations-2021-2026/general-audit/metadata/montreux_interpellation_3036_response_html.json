@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3036_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Quel destin pour la parcelle communale de la Saussaz ? »",
+    "source_title": "Réponse à l'interpellation « Quel destin pour la parcelle communale de la Saussaz ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3036",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3036",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-11",
+    "language": "fr",
+    "content_hash": "bcbe62a0c3f55aea88fbbba29a9a35a3c57ff8434e22fe04cbe3357cdf6f620c",
+    "source_content_hash": "bcbe62a0c3f55aea88fbbba29a9a35a3c57ff8434e22fe04cbe3357cdf6f620c",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3036",
+    "object_title": "Quel destin pour la parcelle communale de la Saussaz ?",
+    "authors": [
+      {
+        "name": "Fabrice Yerly",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-10-11",
+    "interpellation_date": "2023-10-11",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2023-10-11",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-10-11",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 10,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3036",
+    "political_object_document_id": "montreux_interpellation_3036_text",
+    "related_document_ids": [
+      "montreux_interpellation_3036_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3036_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3036,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2945",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-10-11",
+        "author": "Fabrice Yerly",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Quel destin pour la parcelle communale de la Saussaz ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3036"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 8930,
+      "words_extracted": 1435,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

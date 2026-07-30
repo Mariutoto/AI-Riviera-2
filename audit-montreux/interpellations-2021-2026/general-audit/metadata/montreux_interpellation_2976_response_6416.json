@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2976_response_6416",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Que faire de nos 192 fourmis sans fourmilière de garde ? »",
+    "source_title": "11_3_ReponseInterpellations_VetterJ_QueFaireDeNos192FourmisSansFourmillereDeGarde.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2976",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6416",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-04-28",
+    "language": "fr",
+    "content_hash": "0b36ba44cca05941786dd1b64bfb8edd8bb62a16eb88efb19caf7bd14fe2a96e",
+    "source_content_hash": "91500ed4c0cabb4713d379b6f2a67d65dc770514743c35f847456bd159c25668",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2976",
+    "object_title": "Que faire de nos 192 fourmis sans fourmilière de garde ?",
+    "authors": [
+      {
+        "name": "Johanne Vetter",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-04-05",
+    "interpellation_date": "2023-04-05",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-04-28",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-04-28",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-04-28"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 6,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2976",
+    "political_object_document_id": "montreux_interpellation_2976_text",
+    "related_document_ids": [
+      "montreux_interpellation_2976_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2976_response_6416"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2976,
+    "source_object_alias_ids": [],
+    "source_download_id": "6416",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2897",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-04-28",
+        "author": "Johanne Vetter",
+        "displayed_type": "Réponse",
+        "title": "11_3_ReponseInterpellations_VetterJ_QueFaireDeNos192FourmisSansFourmillereDeGarde.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6416"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        2863,
+        3346,
+        2358,
+        483
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 9078,
+      "words_extracted": 1464,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

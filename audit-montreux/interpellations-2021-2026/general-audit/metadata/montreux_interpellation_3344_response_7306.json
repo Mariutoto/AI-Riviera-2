@@ -1,0 +1,115 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3344_response_7306",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Objets rayés de la liste… mais pas des préoccupations »",
+    "source_title": "11_1_MUN_Reponse_Interpellation_MullerO_ObjetsRayesDeLaListe_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3344",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7306",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-20",
+    "language": "fr",
+    "content_hash": "3c40e373d045dff25712659e60ce1c713f400962ea485a6252f636950bf4052c",
+    "source_content_hash": "d7b3ecc684ae65e21e3eb734295a695dde29cfe0458ce5fb24e4546cf2434056",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3344",
+    "object_title": "Objets rayés de la liste… mais pas des préoccupations",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2026-02-25",
+    "interpellation_date": "2026-02-25",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2026-03-20",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2026-03-20",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2026-03-20"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3344",
+    "political_object_document_id": "montreux_interpellation_3344_text",
+    "related_document_ids": [
+      "montreux_interpellation_3344_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3344_response_7306"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3344,
+    "source_object_alias_ids": [],
+    "source_download_id": "7306",
+    "source_download_aliases": [
+      "7281"
+    ],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4306",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-03-20",
+        "author": "Olivier Müller",
+        "displayed_type": "Réponse",
+        "title": "11_1_MUN_Reponse_Interpellation_MullerO_ObjetsRayesDeLaListe_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7306"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        2079,
+        3529,
+        2902,
+        477
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 9018,
+      "words_extracted": 1419,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

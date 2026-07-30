@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3043_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Des dangers financiers pour les transports publics ?",
+    "source_title": "Des dangers financiers pour les transports publics ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3043",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3043",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-11",
+    "language": "fr",
+    "content_hash": "3c8c3520136dc7f46eece1d2c0643f1057149c0cd3b1ec17042865556bc45fec",
+    "source_content_hash": "3c8c3520136dc7f46eece1d2c0643f1057149c0cd3b1ec17042865556bc45fec",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3043",
+    "object_title": "Des dangers financiers pour les transports publics ?",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-10-11",
+    "interpellation_date": "2023-10-11",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2023-11-15",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-11-15",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3043",
+    "political_object_document_id": "montreux_interpellation_3043_text",
+    "related_document_ids": [
+      "montreux_interpellation_3043_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3043_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3043,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2945",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-10-11",
+        "author": "Romain Pilloud",
+        "displayed_type": "",
+        "title": "Des dangers financiers pour les transports publics ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3043"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2851,
+      "words_extracted": 442,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3093_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Bien-être dans les préaux des écoles de Montreux : un oubli ? »",
+    "source_title": "Réponse à l'interpellation « Bien-être dans les préaux des écoles de Montreux : un oubli ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3093",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3093",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-27",
+    "language": "fr",
+    "content_hash": "26b531ea47f4197cb555ef7c44c1eff04c0a3df78c8e5f13bd2e44f0f74fd6c4",
+    "source_content_hash": "26b531ea47f4197cb555ef7c44c1eff04c0a3df78c8e5f13bd2e44f0f74fd6c4",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3093",
+    "object_title": "Bien-être dans les préaux des écoles de Montreux : un oubli ?",
+    "authors": [
+      {
+        "name": "Stefania La Spada",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-03-27",
+    "interpellation_date": "2024-03-27",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2024-03-27",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-03-27",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 3,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3093",
+    "political_object_document_id": "montreux_interpellation_3093_text",
+    "related_document_ids": [
+      "montreux_interpellation_3093_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3093_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3093,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4016",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-03-27",
+        "author": "Stefania La Spada",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Bien-être dans les préaux des écoles de Montreux : un oubli ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3093"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2624,
+      "words_extracted": 417,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

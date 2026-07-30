@@ -1,0 +1,113 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3289_response_7150",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Garderie du National : un gâchis »",
+    "source_title": "12_2_MUN_Reponse_Interpellation_CrosetF_GarderieNational_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3289",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7150",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-31",
+    "language": "fr",
+    "content_hash": "4e3740dde7d4403a28fc1146198830dfa1e1e26761c36156b96a957f10d4d4b6",
+    "source_content_hash": "0955edadf25f801adf5afc43240acddfa51028e25d804cf8bfd453c330e6e9cc",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3289",
+    "object_title": "Garderie du National : un gâchis",
+    "authors": [
+      {
+        "name": "Frédéric Croset",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2025-10-08",
+    "interpellation_date": "2025-10-08",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2025-10-31",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2025-10-31",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2025-10-31"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3289",
+    "political_object_document_id": "montreux_interpellation_3289_text",
+    "related_document_ids": [
+      "montreux_interpellation_3289_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3289_response_7150"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3289,
+    "source_object_alias_ids": [],
+    "source_download_id": "7150",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4154",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-10-31",
+        "author": "Frédéric Croset",
+        "displayed_type": "Annexe",
+        "title": "12_2_MUN_Reponse_Interpellation_CrosetF_GarderieNational_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7150"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "page_text_characters": [
+        2419,
+        3944,
+        3636,
+        452
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 10472,
+      "words_extracted": 1653,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

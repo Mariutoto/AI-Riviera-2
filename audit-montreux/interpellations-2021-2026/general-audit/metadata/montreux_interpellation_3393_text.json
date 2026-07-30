@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3393_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Quels noms pour les entrées du Centre de Congrès ?",
+    "source_title": "Quels noms pour les entrées du Centre de Congrès ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3393",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3393",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-06",
+    "language": "fr",
+    "content_hash": "059c3fa2bfb6831cd998d5ac51bcbc2fec7c0934e47a2a5f7239f4cd249d6b6c",
+    "source_content_hash": "059c3fa2bfb6831cd998d5ac51bcbc2fec7c0934e47a2a5f7239f4cd249d6b6c",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3393",
+    "object_title": "Quels noms pour les entrées du Centre de Congrès ?",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2026-05-06",
+    "interpellation_date": "2026-05-06",
+    "target_body": "Municipalité",
+    "status_normalized": "unanswered",
+    "political_status": "unanswered_or_unverified",
+    "status": "Aucune réponse publiée",
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "responses": [],
+    "is_closed": false,
+    "contains_questions": true,
+    "question_count": 14,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "no_verified_response_source"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3393",
+    "political_object_document_id": "montreux_interpellation_3393_text",
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3393,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4308",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-05-06",
+        "author": "Emmanuel Gétaz",
+        "displayed_type": "",
+        "title": "Quels noms pour les entrées du Centre de Congrès ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3393"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 11158,
+      "words_extracted": 1783,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

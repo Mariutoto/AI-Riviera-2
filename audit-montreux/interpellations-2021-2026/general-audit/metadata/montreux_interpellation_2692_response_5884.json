@@ -1,0 +1,117 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2692_response_5884",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Fusion Montreux-Veytaux, on en est où ? »",
+    "source_title": "Reponse_Interpellation_MullerO_FusionMontreuxVeytauxOnEnEstOu_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2692",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5884",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-15",
+    "language": "fr",
+    "content_hash": "858317e6676b7e12eb7134fa16e396296a4ed74e8ebfde56968287069d975934",
+    "source_content_hash": "2f6980f889418e80481f823be239d18b8aac7c7a159378f01fe221d94ccd5f90",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2692",
+    "object_title": "Fusion Montreux-Veytaux, on en est où ?",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-09-08",
+    "interpellation_date": "2021-09-08",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2021-10-15",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-15",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2021-10-15"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2692",
+    "political_object_document_id": "montreux_interpellation_2692_text",
+    "related_document_ids": [
+      "montreux_interpellation_2692_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2692_response_5884"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2692,
+    "source_object_alias_ids": [],
+    "source_download_id": "5884",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2701",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-10-15",
+        "author": "Olivier Müller",
+        "displayed_type": "Annexe",
+        "title": "Reponse_Interpellation_MullerO_FusionMontreuxVeytauxOnEnEstOu_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5884"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 6,
+      "page_text_characters": [
+        2114,
+        3332,
+        3444,
+        2532,
+        2828,
+        545
+      ],
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 14848,
+      "words_extracted": 2376,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

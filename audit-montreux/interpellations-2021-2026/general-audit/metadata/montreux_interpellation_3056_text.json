@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3056_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Economie d’énergie ou grands projets lumineux ?",
+    "source_title": "Economie d’énergie ou grands projets lumineux ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3056",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3056",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-15",
+    "language": "fr",
+    "content_hash": "5cb66c0d6c163115508d1574b24bcde14302c8aa861fecf4f540a7e73138692f",
+    "source_content_hash": "5cb66c0d6c163115508d1574b24bcde14302c8aa861fecf4f540a7e73138692f",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3056",
+    "object_title": "Economie d’énergie ou grands projets lumineux ?",
+    "authors": [
+      {
+        "name": "Samuel Roch",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-11-15",
+    "interpellation_date": "2023-11-15",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2023-12-01",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-12-01",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2023-12-01"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3056",
+    "political_object_document_id": "montreux_interpellation_3056_text",
+    "related_document_ids": [
+      "montreux_interpellation_3056_response_6568"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3056_response_6568"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3056,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=2946",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-11-15",
+        "author": "Samuel Roch",
+        "displayed_type": "",
+        "title": "Economie d’énergie ou grands projets lumineux ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3056"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 3283,
+      "words_extracted": 507,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

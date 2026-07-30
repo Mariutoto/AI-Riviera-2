@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3270_response_7117",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Célébration du 1er août à Montreux : le droit de Veytaux est-il encore légitime ? »",
+    "source_title": "11_1_MUN_Reponse_Interpellation_MullerO_1erAout_DroitDeVeytaux_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3270",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7117",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-19",
+    "language": "fr",
+    "content_hash": "bad718b79a0ab912390881e603799d40cf06fc35939833a75a8c66d2d48a8163",
+    "source_content_hash": "5f968c509c0f2cca6e932d02a65d8db3602a64c9db4a30fddcf78df4691c0559",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3270",
+    "object_title": "Célébration du 1er août à Montreux : le droit de Veytaux est-il encore légitime ?",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2025-09-03",
+    "interpellation_date": "2025-09-03",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2025-09-19",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2025-09-19",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2025-09-19"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3270",
+    "political_object_document_id": "montreux_interpellation_3270_text",
+    "related_document_ids": [
+      "montreux_interpellation_3270_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3270_response_7117"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3270,
+    "source_object_alias_ids": [],
+    "source_download_id": "7117",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4153",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-09-19",
+        "author": "Olivier Müller",
+        "displayed_type": "Annexe",
+        "title": "11_1_MUN_Reponse_Interpellation_MullerO_1erAout_DroitDeVeytaux_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7117"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        1759,
+        4054,
+        539
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6383,
+      "words_extracted": 1008,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

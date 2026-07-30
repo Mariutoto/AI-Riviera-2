@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2707_response_html",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Quand l'ascenseur public rue Gambetta - avenue Rambert sera-t-il rouvert au public ? »",
+    "source_title": "Réponse à l'interpellation « Quand l'ascenseur public rue Gambetta - avenue Rambert sera-t-il rouvert au public ? »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2707",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2707",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-06",
+    "language": "fr",
+    "content_hash": "fe77f13e953297f55e0085dbd60fadad470b9bb704aecd0209354a1e893d1817",
+    "source_content_hash": "fe77f13e953297f55e0085dbd60fadad470b9bb704aecd0209354a1e893d1817",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2707",
+    "object_title": "Quand l'ascenseur public rue Gambetta - avenue Rambert sera-t-il rouvert au public ?",
+    "authors": [
+      {
+        "name": "Olivier Blanc",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2021-10-06",
+    "interpellation_date": "2021-10-06",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2021-10-06",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-06",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 2,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2707",
+    "political_object_document_id": "montreux_interpellation_2707_text",
+    "related_document_ids": [
+      "montreux_interpellation_2707_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2707_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2707,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_transcript",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-10-06",
+        "author": "Olivier Blanc",
+        "displayed_type": "Réponse à l'interpellation",
+        "title": "Réponse à l'interpellation « Quand l'ascenseur public rue Gambetta - avenue Rambert sera-t-il rouvert au public ? »",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2707"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 2868,
+      "words_extracted": 451,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

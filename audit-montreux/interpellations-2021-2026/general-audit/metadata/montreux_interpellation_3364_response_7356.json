@@ -1,0 +1,109 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3364_response_7356",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Communauté électrique locale : situation et opportunités pour Montreux. »",
+    "source_title": "11_1_Reponse_MUN_Interpellation_YerlyF_CommunauteElectriqueLocale-_SituationOpportunite_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3364",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7356",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-24",
+    "language": "fr",
+    "content_hash": "1b541f2f74d7446a60b8a81e648c6684f189913bb5494ab834d4965465eeacca",
+    "source_content_hash": "38d712405466ffaf4963930157e5127f1d2024cc482c764038b4448f74779a74",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3364",
+    "object_title": "Communauté électrique locale : situation et opportunités pour Montreux.",
+    "authors": [
+      {
+        "name": "Fabrice Yerly",
+        "party": "VER",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2026-04-01",
+    "interpellation_date": "2026-04-01",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2026-04-24",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2026-04-24",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2026-04-24"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 5,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3364",
+    "political_object_document_id": "montreux_interpellation_3364_text",
+    "related_document_ids": [
+      "montreux_interpellation_3364_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3364_response_7356"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3364,
+    "source_object_alias_ids": [],
+    "source_download_id": "7356",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4307",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-04-24",
+        "author": "Fabrice Yerly",
+        "displayed_type": "Annexe",
+        "title": "11_1_Reponse_MUN_Interpellation_YerlyF_CommunauteElectriqueLocale-_SituationOpportunite_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7356"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "page_text_characters": [
+        2216,
+        1852
+      ],
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 4088,
+      "words_extracted": 620,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

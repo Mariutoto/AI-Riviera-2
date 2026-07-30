@@ -1,0 +1,111 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_3080_response_6706",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l'interpellation « Rien ne sert de rouler vite, il faut partir à point »",
+    "source_title": "11_1_ReponseInterpellation_BonjourT_Zones30_20240503_VF.pdf",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3080",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6706",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-03",
+    "language": "fr",
+    "content_hash": "b9f5d553600af313d4fc973bb320646d6fa5b82c4d91e3bb24a7ba5a5b2a4849",
+    "source_content_hash": "e12c06951ada005ba23a63548c20d3123c5a2840682bbddd28fb9ddf3d8d8ab1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-3080",
+    "object_title": "Rien ne sert de rouler vite, il faut partir à point",
+    "authors": [
+      {
+        "name": "Tanya Bonjour",
+        "party": "PS",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2024-02-28",
+    "interpellation_date": "2024-02-28",
+    "target_body": "Municipalité",
+    "status_normalized": "written_response",
+    "political_status": "response_available",
+    "status": "Réponse écrite disponible",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "response_date": "2024-05-03",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-05-03",
+        "response_type": "written_pdf",
+        "municipal_adoption_date": "2024-05-03"
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 4,
+    "document_component_role": "municipal_response",
+    "response_source_quality": "official_pdf"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-3080",
+    "political_object_document_id": "montreux_interpellation_3080_text",
+    "related_document_ids": [
+      "montreux_interpellation_3080_text"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_3080_response_6706"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 3080,
+    "source_object_alias_ids": [],
+    "source_download_id": "6706",
+    "source_download_aliases": [],
+    "source_kind": "official_response_pdf",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=4015",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-05-03",
+        "author": "Tanya Bonjour",
+        "displayed_type": "Réponse",
+        "title": "11_1_ReponseInterpellation_BonjourT_Zones30_20240503_VF.pdf",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6706"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "page_text_characters": [
+        2705,
+        2889,
+        469
+      ],
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6094,
+      "words_extracted": 993,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

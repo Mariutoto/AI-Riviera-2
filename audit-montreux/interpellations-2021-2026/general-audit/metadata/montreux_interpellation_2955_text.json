@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_interpellation_2955_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Bâtiments du cimetière, est-ce que la situation a évolué ?",
+    "source_title": "Bâtiments du cimetière, est-ce que la situation a évolué ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2955",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2955",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-01",
+    "language": "fr",
+    "content_hash": "f06a84332896e7f580e6947a5b5e97fc1f56adde4b370b46c906f50ef12c7f98",
+    "source_content_hash": "f06a84332896e7f580e6947a5b5e97fc1f56adde4b370b46c906f50ef12c7f98",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "montreux-interpellation-2955",
+    "object_title": "Bâtiments du cimetière, est-ce que la situation a évolué ?",
+    "authors": [
+      {
+        "name": "Matthieu Burkhart",
+        "party": "ML",
+        "role": "interpellateur"
+      }
+    ],
+    "deposit_date": "2023-03-01",
+    "interpellation_date": "2023-03-01",
+    "target_body": "Municipalité",
+    "status_normalized": "oral_or_transcribed_response",
+    "political_status": "response_available",
+    "status": "Réponse orale ou transcrite sur la fiche officielle",
+    "has_response": true,
+    "has_dedicated_response": false,
+    "response_status": "oral_or_transcribed_response",
+    "response_date": "2023-03-01",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-03-01",
+        "response_type": "oral_or_transcribed_response",
+        "municipal_adoption_date": null
+      }
+    ],
+    "is_closed": true,
+    "contains_questions": true,
+    "question_count": 27,
+    "document_component_role": "interpellation_text",
+    "response_source_quality": "official_html_transcript"
+  },
+  "relationships": {
+    "political_object_id": "montreux-interpellation-2955",
+    "political_object_document_id": "montreux_interpellation_2955_text",
+    "related_document_ids": [
+      "montreux_interpellation_2955_response_html"
+    ],
+    "response_document_ids": [
+      "montreux_interpellation_2955_response_html"
+    ],
+    "official_reference": ""
+  },
+  "source_tracking": {
+    "source_collection": "montreux-council-public-search",
+    "source_object_id": 2955,
+    "source_object_alias_ids": [],
+    "source_download_id": "",
+    "source_download_aliases": [],
+    "source_kind": "official_html_deposit",
+    "session_url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?id=-1",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-03-01",
+        "author": "Matthieu Burkhart",
+        "displayed_type": "",
+        "title": "Bâtiments du cimetière, est-ce que la situation a évolué ?",
+        "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2955"
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 1441,
+      "words_extracted": 237,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}
