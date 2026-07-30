@@ -21,6 +21,18 @@ DOCUMENT_TYPE_KEYWORDS = {
     ),
 }
 
+DOCUMENT_TYPE_FILTER_VALUES = {
+    "Interpellations": "interpellations",
+    "Postulats": "postulats",
+    "Motions": "motions",
+    "Préavis municipaux": "preavis-municipaux",
+    "Procès-verbaux": "proces-verbaux",
+    "Budgets": "budget",
+    "Rapports de gestion": "rapports-gestion",
+    "Rapports des comptes": "rapports-comptes",
+    "Règlement du Conseil communal": "reglement-conseil-communal",
+}
+
 
 def _normalize(value: str) -> str:
     decomposed = unicodedata.normalize("NFKD", value)
@@ -73,6 +85,54 @@ def filter_guard_message(
         return (
             f"Attention : {selected_city} n’est pas encore disponible. "
             f"Choisissez « Toutes » ou « {available_cities_text} »."
+        )
+
+    mentioned_enabled_municipalities = []
+    for municipality in MUNICIPALITIES.values():
+        if not municipality.search_enabled:
+            continue
+        names = (municipality.label, *municipality.aliases)
+        if any(
+            re.search(rf"\b{re.escape(_normalize(name))}\b", normalized)
+            for name in names
+        ):
+            mentioned_enabled_municipalities.append(municipality)
+
+    selected_municipality = next(
+        (
+            municipality
+            for municipality in MUNICIPALITIES.values()
+            if municipality.label == selected_city
+            and municipality.search_enabled
+        ),
+        None,
+    )
+    scope_targets = (
+        [selected_municipality]
+        if selected_municipality
+        else mentioned_enabled_municipalities
+    )
+    requested_types = _mentioned_document_types(question)
+    if selected_document_type != "Tous":
+        requested_types.add(selected_document_type)
+    for municipality in scope_targets:
+        unsupported = sorted(
+            label
+            for label in requested_types
+            if DOCUMENT_TYPE_FILTER_VALUES.get(label)
+            not in municipality.document_types
+        )
+        if not unsupported:
+            continue
+        available = [
+            label
+            for label, value in DOCUMENT_TYPE_FILTER_VALUES.items()
+            if value in municipality.document_types
+        ]
+        return (
+            f"Attention : {' et '.join(unsupported)} ne sont pas encore "
+            f"disponibles pour {municipality.label}. "
+            f"Documents disponibles : {', '.join(available)}."
         )
 
     years = set(re.findall(r"\b20(?:21|22|23|24|25|26)\b", normalized))

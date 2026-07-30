@@ -11,6 +11,7 @@ class Municipality:
     documents_directory: str
     search_enabled: bool = False
     search_scope: str = ""
+    document_types: tuple[str, ...] = ()
     aliases: tuple[str, ...] = ()
 
 
@@ -20,6 +21,18 @@ LA_TOUR_DE_PEILZ = Municipality(
     source_domain="www.la-tour-de-peilz.ch",
     documents_directory="la-tour-de-peilz",
     search_enabled=True,
+    search_scope="tous les documents actuellement indexés",
+    document_types=(
+        "interpellations",
+        "postulats",
+        "motions",
+        "preavis-municipaux",
+        "proces-verbaux",
+        "budget",
+        "rapports-gestion",
+        "rapports-comptes",
+        "reglement-conseil-communal",
+    ),
 )
 
 VEVEY = Municipality(
@@ -28,7 +41,8 @@ VEVEY = Municipality(
     source_domain="www.vevey.ch",
     documents_directory="vevey",
     search_enabled=True,
-    search_scope="interpellations uniquement",
+    search_scope="interpellations, motions et postulats",
+    document_types=("interpellations", "motions", "postulats"),
 )
 
 MONTREUX = Municipality(
@@ -38,6 +52,7 @@ MONTREUX = Municipality(
     documents_directory="montreux",
     search_enabled=True,
     search_scope="interpellations uniquement",
+    document_types=("interpellations",),
 )
 
 ASSOCIATION_SECURITE_RIVIERA = Municipality(

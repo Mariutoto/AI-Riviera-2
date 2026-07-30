@@ -14,8 +14,18 @@ from municipal_pipeline.preindex_audit import audit_preindex
 class MunicipalityRegistryTests(unittest.TestCase):
     def test_tracks_search_availability_per_city(self):
         self.assertTrue(LA_TOUR_DE_PEILZ.search_enabled)
+        self.assertIn(
+            "preavis-municipaux", LA_TOUR_DE_PEILZ.document_types
+        )
         self.assertTrue(VEVEY.search_enabled)
-        self.assertEqual(VEVEY.search_scope, "interpellations uniquement")
+        self.assertEqual(
+            VEVEY.search_scope,
+            "interpellations, motions et postulats",
+        )
+        self.assertEqual(
+            set(VEVEY.document_types),
+            {"interpellations", "motions", "postulats"},
+        )
         self.assertTrue(MONTREUX.search_enabled)
         self.assertEqual(
             MONTREUX.search_scope, "interpellations uniquement"
@@ -23,6 +33,7 @@ class MunicipalityRegistryTests(unittest.TestCase):
         self.assertEqual(
             MONTREUX.source_domain, "www.conseilmontreux.ch"
         )
+        self.assertEqual(MONTREUX.document_types, ("interpellations",))
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
         self.assertEqual(get_municipality("vevey"), VEVEY)
 

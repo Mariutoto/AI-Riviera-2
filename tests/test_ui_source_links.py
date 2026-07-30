@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from app.ui import link_source_mentions
+from app.ui import available_document_type_labels, link_source_mentions
 
 
 def grouped_sources(count: int) -> list[dict]:
@@ -13,6 +13,20 @@ def grouped_sources(count: int) -> list[dict]:
 
 
 class LinkSourceMentionsTests(unittest.TestCase):
+    def test_document_filters_follow_each_available_corpus(self):
+        self.assertEqual(
+            available_document_type_labels("Montreux"),
+            ["Tous", "Interpellations"],
+        )
+        self.assertEqual(
+            available_document_type_labels("Vevey"),
+            ["Tous", "Interpellations", "Postulats", "Motions"],
+        )
+        self.assertIn(
+            "Préavis municipaux",
+            available_document_type_labels("La Tour-de-Peilz"),
+        )
+
     def test_removes_parenthesized_citation_only_line(self):
         answer = (
             "Les interpellations sont :\n\n"

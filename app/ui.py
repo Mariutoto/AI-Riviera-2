@@ -65,6 +65,32 @@ DOCUMENT_TYPE_OPTIONS = {
     "Règlement du Conseil communal": "reglement-conseil-communal",
 }
 
+
+def available_document_type_labels(city: str) -> list[str]:
+    """Return only document filters backed by the selected corpus."""
+    if city == "all":
+        available = {
+            document_type
+            for municipality in MUNICIPALITIES.values()
+            if municipality.search_enabled
+            for document_type in municipality.document_types
+        }
+    else:
+        municipality = next(
+            (
+                item
+                for item in MUNICIPALITIES.values()
+                if item.label == city and item.search_enabled
+            ),
+            None,
+        )
+        available = set(municipality.document_types) if municipality else set()
+    return [
+        label
+        for label, document_type in DOCUMENT_TYPE_OPTIONS.items()
+        if label == ALL_DOCUMENT_TYPES or document_type in available
+    ]
+
 USER_ERROR_MESSAGE = (
     "Désolé, la recherche a rencontré un problème technique. "
     "La question a été journalisée pour diagnostic; tu peux réessayer dans un instant."
@@ -226,14 +252,45 @@ st.markdown(
         padding: 0.8rem 0.95rem;
     }
 
+    .air-doc-grid {
+        display: grid;
+        gap: 0.85rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin: 1rem 0 1.25rem;
+    }
+
+    .air-doc-card {
+        background: #f7f9fc;
+        border: 1px solid #dce4ef;
+        border-radius: 0.55rem;
+        padding: 1rem;
+    }
+
+    .air-doc-card h3 {
+        color: #1f2d42;
+        font-size: 1.05rem;
+        margin: 0 0 0.65rem;
+    }
+
+    .air-doc-card p {
+        color: #526072;
+        font-size: 0.91rem;
+        line-height: 1.5;
+        margin: 0.35rem 0;
+    }
+
+    .air-doc-card strong {
+        color: #253247;
+    }
+
     @media (max-width: 900px) {
-        .air-about-diagram {
+        .air-about-diagram, .air-doc-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
 
     @media (max-width: 560px) {
-        .air-about-diagram {
+        .air-about-diagram, .air-doc-grid {
             grid-template-columns: 1fr;
         }
     }
@@ -685,9 +742,13 @@ def render_pending_feedback_dialog() -> None:
 
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
-    chat_tab, eval_tab, about_tab = st.tabs(["Assistant", "Eval", "À propos"])
+    chat_tab, eval_tab, documents_tab, about_tab = st.tabs(
+        ["Assistant", "Eval", "Documents disponibles", "À propos"]
+    )
 else:
-    chat_tab, about_tab = st.tabs(["Assistant", "À propos"])
+    chat_tab, documents_tab, about_tab = st.tabs(
+        ["Assistant", "Documents disponibles", "À propos"]
+    )
     eval_tab = None
 
 
@@ -861,9 +922,21 @@ with chat_tab:
                 on_change=clear_filter_warning,
             )
         with filter_columns[2]:
+            document_type_labels = available_document_type_labels(
+                selected_city
+            )
+            if (
+                st.session_state.get(
+                    "search_document_type", ALL_DOCUMENT_TYPES
+                )
+                not in document_type_labels
+            ):
+                st.session_state.search_document_type = (
+                    ALL_DOCUMENT_TYPES
+                )
             selected_document_type = st.selectbox(
                 "Type de document",
-                options=list(DOCUMENT_TYPE_OPTIONS),
+                options=document_type_labels,
                 key="search_document_type",
                 disabled=st.session_state.pending_question is not None,
                 on_change=clear_filter_warning,
@@ -1074,18 +1147,67 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
             with st.expander("Dernières erreurs techniques"):
                 st.dataframe(diagnostics, width="stretch", hide_index=True)
     
+with documents_tab:
+    st.subheader("Documents actuellement disponibles")
+    st.write(
+        "La couverture dépend de chaque commune. Le filtre « Type de document » "
+        "s’adapte automatiquement à l’institution choisie afin de ne proposer que "
+        "des catégories réellement indexées."
+    )
+    st.markdown(
+        """
+        <div class="air-doc-grid">
+            <div class="air-doc-card">
+                <h3>La Tour-de-Peilz</h3>
+                <p><strong>Objets politiques :</strong> 50 interpellations, 35 postulats et 10 motions.</p>
+                <p><strong>Autres documents :</strong> 153 préavis municipaux, 35 procès-verbaux, 6 budgets, 5 rapports de gestion, 5 rapports des comptes et le règlement du Conseil communal.</p>
+            </div>
+            <div class="air-doc-card">
+                <h3>Vevey</h3>
+                <p><strong>Objets politiques :</strong> 43 interpellations, 30 postulats et 4 motions.</p>
+                <p>Les réponses municipales, décisions et rapports associés sont reliés à l’objet politique lorsqu’une source officielle a pu être identifiée.</p>
+            </div>
+            <div class="air-doc-card">
+                <h3>Montreux</h3>
+                <p><strong>Objets politiques :</strong> 155 interpellations.</p>
+                <p>152 disposent d’une réponse vérifiable : 66 réponses en PDF et 86 réponses transcrites sur les fiches officielles.</p>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(
+        "Périmètre principal : législature 2021–2026. Les nombres indiquent "
+        "les objets principaux ; leurs réponses et documents de suivi peuvent "
+        "être enregistrés séparément dans la base."
+    )
+    st.markdown(
+        """
+        **Ce que signifient les principales catégories**
+
+        - **Interpellation** : questions adressées à la Municipalité, avec la réponse lorsqu’elle est publiée.
+        - **Postulat** : demande faite à la Municipalité d’étudier une mesure et de présenter un rapport.
+        - **Motion** : proposition demandant l’élaboration ou la modification d’un règlement ou d’un acte relevant du Conseil.
+        - **Préavis municipal** : proposition formelle de la Municipalité soumise au Conseil communal.
+        - **Procès-verbal** : compte rendu officiel d’une séance du Conseil.
+        - **Budgets et rapports** : documents financiers, rapports de gestion et rapports des comptes.
+        """
+    )
+
 with about_tab:
     st.subheader("À quoi sert AI Riviera ?")
     intro_col, image_col = st.columns([1.8, 1])
     with intro_col:
         st.write(
-            "AI Riviera aide à retrouver plus facilement des documents publics dans les communes "
-            "de la Riviera. Le projet commence avec La Tour-de-Peilz; d'autres communes de la "
-            "Riviera seront ajoutées progressivement."
+            "AI Riviera facilite la recherche dans les documents publics de "
+            "La Tour-de-Peilz, Vevey et Montreux. Une question en langage courant "
+            "permet de retrouver un objet politique, son auteur, sa date, son "
+            "éventuelle réponse et la source officielle correspondante."
         )
         st.write(
-            "Le projet est à but non lucratif. Son rôle n'est pas de remplacer les documents officiels, "
-            "mais de rendre leur consultation plus simple, plus rapide et plus vérifiable."
+            "Le projet est à but non lucratif. Il ne remplace ni les sites "
+            "officiels ni le travail des administrations : il rend les archives "
+            "plus faciles à explorer, à relier et à vérifier."
         )
         st.markdown(
             "Le code est open source et consultable sur "
@@ -1093,7 +1215,44 @@ with about_tab:
         )
     with image_col:
         if LANDSCAPE_IMAGE_PATH.exists():
-            st.image(str(LANDSCAPE_IMAGE_PATH), caption="La Riviera vaudoise", width=320)
+            st.image(
+                str(LANDSCAPE_IMAGE_PATH),
+                caption="La Riviera vaudoise",
+                width=320,
+            )
+
+    st.subheader("À qui cela peut être utile ?")
+    st.markdown(
+        """
+        <div class="air-about-diagram">
+            <div class="air-about-step">
+                <strong>Habitants et médias</strong>
+                <span>Poser une question sans connaître le nom exact du document et accéder directement aux sources.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>Conseillères et conseillers</strong>
+                <span>Retrouver les interventions précédentes, les engagements annoncés et les réponses déjà données.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>Administration communale</strong>
+                <span>Suivre les objets en attente et retrouver une réponse même lorsqu’elle arrive plusieurs années après le dépôt.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>Mémoire institutionnelle</strong>
+                <span>Relier une interpellation, un postulat ou une motion à ses réponses, rapports et décisions dans le temps.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>Sujets récurrents</strong>
+                <span>Repérer des titres proches, des doublons possibles ou des questions qui reviennent sous une autre formulation.</span>
+            </div>
+            <div class="air-about-step">
+                <strong>Contrôle et transparence</strong>
+                <span>Comparer les dates, vérifier si une réponse existe et ouvrir la publication officielle utilisée.</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     st.subheader("Comment ça marche ?")
     st.markdown(
@@ -1101,19 +1260,19 @@ with about_tab:
         <div class="air-about-diagram">
             <div class="air-about-step">
                 <strong>1. Question</strong>
-                <span>Vous écrivez une question simple, avec un titre ou une date si vous les connaissez.</span>
+                <span>Vous écrivez une question simple, avec un titre, un auteur ou une date si vous les connaissez.</span>
             </div>
             <div class="air-about-step">
                 <strong>2. Vérification</strong>
-                <span>L'application regarde d'abord les données fiables: articles, auteurs, dates, objets politiques.</span>
+                <span>L’application consulte les métadonnées fiables : commune, auteurs, dates, catégories et relations entre documents.</span>
             </div>
             <div class="air-about-step">
                 <strong>3. Recherche</strong>
-                <span>Si besoin, elle cherche ensuite les passages utiles dans les PDF et textes indexés.</span>
+                <span>Elle recherche ensuite les passages utiles dans les PDF et les transcriptions officielles indexées.</span>
             </div>
             <div class="air-about-step">
-                <strong>4. Réponse</strong>
-                <span>Elle rédige une réponse courte et affiche les sources pour pouvoir contrôler.</span>
+                <strong>4. Réponse sourcée</strong>
+                <span>Elle présente une réponse concise et les liens officiels nécessaires pour la contrôler.</span>
             </div>
         </div>
         """,
@@ -1123,9 +1282,11 @@ with about_tab:
     st.markdown(
         """
         <div class="air-about-note">
-            <strong>À garder en tête:</strong> AI Riviera est une aide à la recherche.
-            Pour une décision, une citation officielle ou une interprétation juridique,
-            il faut toujours vérifier le PDF source affiché dans la réponse.
+            <strong>À garder en tête :</strong> AI Riviera est une aide à la recherche.
+            Une absence de résultat ne prouve pas qu’un document n’existe pas, et deux
+            sujets proches ne sont pas forcément de vrais doublons. Pour une décision,
+            une citation officielle ou une interprétation juridique, il faut toujours
+            contrôler la source officielle affichée dans la réponse.
         </div>
         """,
         unsafe_allow_html=True,
