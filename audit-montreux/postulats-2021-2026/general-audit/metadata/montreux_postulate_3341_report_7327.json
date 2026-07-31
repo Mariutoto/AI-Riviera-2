@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3341_report_7327",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "2_Avis-DGAIC-postulat-Roch-Byrde-CC-1er-avril-26.pdf",
+    "source_title": "Postulat de M. Samuel Roch et Claude Byrde intitulé \"Le déroulement des mesures tests de l'extinction de l'éclairage nocturne est particulièrement obscure\"",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3341",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7327",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-27",
+    "language": "fr",
+    "content_hash": "6d4086fb2d46989c1537975a31a1fc1eaf473521a97d9253ff71f880483b8d05",
+    "source_content_hash": "a61e846211ae7e13e2ecb3deffe3821b89ae91c264d8183e31e3f43b5c23c1d6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3341",
+    "object_ids": [
+      "montreux-postulate-3341"
+    ],
+    "object_title": "Postulat de M. Samuel Roch et Claude Byrde intitulé \"Le déroulement des mesures tests de l'extinction de l'éclairage nocturne est particulièrement obscure\"",
+    "authors": [
+      {
+        "name": "Samuel Roch",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-02-25",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3341",
+    "political_object_ids": [
+      "montreux-postulate-3341"
+    ],
+    "political_object_document_id": "montreux_postulate_3341_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3341_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3341_report_7326",
+      "montreux_postulate_3341_report_7328",
+      "montreux_postulate_3341_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3341_report_7326",
+      "montreux_postulate_3341_report_7327",
+      "montreux_postulate_3341_report_7328"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7327",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        0,
+        1
+      ],
+      "characters_extracted": 3669,
+      "words_extracted": 557,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

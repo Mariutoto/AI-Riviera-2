@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3218_report_7037",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "1_Rapport-postulat-Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Piscine_18_21_50.pdf",
+    "source_title": "Etudions la possibilité de compléter l’efficience de l’enveloppe énergétique de la Piscine de la Maladaire",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3218",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7037",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-09",
+    "language": "fr",
+    "content_hash": "d72057394f64e1458a164e782213588129a07ec813ea7ecad8f6089352d1e976",
+    "source_content_hash": "e148b1ff7d013ae57f969eaf0f201bbd30d02d393886a7c835135a97bf8b6605",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3218",
+    "object_ids": [
+      "montreux-postulate-3218"
+    ],
+    "object_title": "Etudions la possibilité de compléter l’efficience de l’enveloppe énergétique de la Piscine de la Maladaire",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3218",
+    "political_object_ids": [
+      "montreux-postulate-3218"
+    ],
+    "political_object_document_id": "montreux_postulate_3218_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3218_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3218_report_7036",
+      "montreux_postulate_3218_report_7432",
+      "montreux_postulate_3218_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3218_report_7036",
+      "montreux_postulate_3218_report_7037",
+      "montreux_postulate_3218_report_7432"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7037",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 10011,
+      "words_extracted": 1568,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

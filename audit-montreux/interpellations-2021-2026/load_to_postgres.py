@@ -13,6 +13,10 @@ EMBEDDING_DIR = ROOT / "general-audit" / "embedding"
 INPUT_PATH = EMBEDDING_DIR / "embedding_inputs.jsonl"
 VECTOR_PATH = EMBEDDING_DIR / "mistral_embeddings.jsonl"
 MANIFEST_PATH = EMBEDDING_DIR / "manifest.json"
+DOCUMENT_PREFIX = "montreux_interpellation_"
+CATEGORY = "interpellation"
+SPECIFIC_METADATA_KEY = "interpellation_metadata"
+RECIPE_VERSION = "montreux-interpellations-v1"
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -44,12 +48,12 @@ def validate(inputs: list[dict], vectors: list[dict]) -> dict[str, dict]:
     if any(row.get("dimension") != 1024 for row in vectors):
         raise ValueError("Dimension Mistral inattendue")
     if any(
-        not row["document_id"].startswith("montreux_interpellation_")
+        not row["document_id"].startswith(DOCUMENT_PREFIX)
         for row in inputs
     ):
-        raise ValueError("Document hors périmètre Montreux/interpellation")
-    if any(row.get("category") != "interpellation" for row in inputs):
-        raise ValueError("Catégorie autre qu'interpellation")
+        raise ValueError(f"Document hors périmètre {DOCUMENT_PREFIX}")
+    if any(row.get("category") != CATEGORY for row in inputs):
+        raise ValueError(f"Catégorie autre que {CATEGORY}")
     return by_id
 
 
@@ -57,7 +61,7 @@ def document_metadata(row: dict, record: dict) -> dict:
     general = dict(record["document_metadata"])
     if (
         general.get("commune") != "Montreux"
-        or general.get("category") != "interpellation"
+        or general.get("category") != CATEGORY
         or general.get("document_id") != row["document_id"]
     ):
         raise ValueError(
@@ -143,14 +147,14 @@ def main() -> None:
                 (
                     run_id,
                     manifest["model"],
-                    "montreux-interpellations-v1",
+                    RECIPE_VERSION,
                     datetime.now(timezone.utc),
                     len(inputs),
                     int(manifest.get("tokens_reported_this_run", 0)),
                 ),
             )
             for row, metadata, record in documents.values():
-                specific = record["interpellation_metadata"]
+                specific = record[SPECIFIC_METADATA_KEY]
                 summary = specific["status"]
                 cursor.execute(
                     "INSERT INTO documents "
@@ -218,7 +222,7 @@ def main() -> None:
                                         "source_chunk_file"
                                     ],
                                     "commune": "Montreux",
-                                    "category": "interpellation",
+                                    "category": CATEGORY,
                                 },
                                 ensure_ascii=False,
                             ),
@@ -229,9 +233,9 @@ def main() -> None:
             cursor.execute(
                 "SELECT count(*) FROM documents "
                 "WHERE document_id = ANY(%s) "
-                "AND category='interpellation' "
+                "AND category=%s "
                 "AND metadata->>'commune'='Montreux'",
-                (document_ids,),
+                (document_ids, CATEGORY),
             )
             target_documents_after = cursor.fetchone()[0]
             cursor.execute(

@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2749_report_6020",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Une-croissance-infinie-est-une-folie_28-03-2022_5_57_38.pdf",
+    "source_title": "Une croissance infinie est une folie",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2749",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6020",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-28",
+    "language": "fr",
+    "content_hash": "197a64f10cc04410b057dccaf3303709bf2a779cc5c49bd0c37fc4390e10a5fe",
+    "source_content_hash": "41b9aae8ccfe35e63ae145d37d4470c0e34f08e457d33ec3adaaeb7e0cbf95ce",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2749",
+    "object_ids": [
+      "montreux-postulate-2749"
+    ],
+    "object_title": "Une croissance infinie est une folie",
+    "authors": [
+      {
+        "name": "Antoinette Loup",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2749",
+    "political_object_ids": [
+      "montreux-postulate-2749"
+    ],
+    "political_object_document_id": "montreux_postulate_2749_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2749_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2749_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2749_report_6020"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6020",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 15807,
+      "words_extracted": 2521,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

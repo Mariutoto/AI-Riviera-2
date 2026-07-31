@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2905_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Injecter l’ART sur les murs de la ville de Montreux",
+    "source_title": "Injecter l’ART sur les murs de la ville de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2905",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2905",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-16",
+    "language": "fr",
+    "content_hash": "91232ba9f1565eea0cec4ef52c90623fd2860e8743b665264fc33ab7f448d0dd",
+    "source_content_hash": "91232ba9f1565eea0cec4ef52c90623fd2860e8743b665264fc33ab7f448d0dd",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2905",
+    "object_ids": [
+      "montreux-postulate-2905"
+    ],
+    "object_title": "Injecter l’ART sur les murs de la ville de Montreux",
+    "authors": [
+      {
+        "name": "Stefania La Spada",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-11-16",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2905",
+    "political_object_ids": [
+      "montreux-postulate-2905"
+    ],
+    "political_object_document_id": "montreux_postulate_2905_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2905_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2905_report_6309",
+      "montreux_postulate_2905_report_7486"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2905_report_6309",
+      "montreux_postulate_2905_report_7486"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 281,
+      "words_extracted": 36,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

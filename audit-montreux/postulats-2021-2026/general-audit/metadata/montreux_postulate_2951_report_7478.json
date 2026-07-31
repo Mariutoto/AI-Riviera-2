@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2951_report_7478",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Emmanuel-Getaz-et-M.-Michel-Zulauf_Etude.pdf",
+    "source_title": "Postulat de MM. Emmanuel Gétaz et Michel Zulauf demandant à la Municipalité une étude visant à trouver sur le territoire communal un site susceptible d’accueillir un espace muséal sur l’histoire de la musique à Montreux.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2951",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7478",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "2a48859e02241dc4f60697f80afed3bf7fd71d5ceaa2286e9d4ca1165aa9b43a",
+    "source_content_hash": "07e1b3eb12a927f97eb6b430cf63f04fd9b043382db7e3ed04110166f6d50dbd",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2951",
+    "object_ids": [
+      "montreux-postulate-2951"
+    ],
+    "object_title": "Postulat de MM. Emmanuel Gétaz et Michel Zulauf demandant à la Municipalité une étude visant à trouver sur le territoire communal un site susceptible d’accueillir un espace muséal sur l’histoire de la musique à Montreux.",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-03-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2951",
+    "political_object_ids": [
+      "montreux-postulate-2951"
+    ],
+    "political_object_document_id": "montreux_postulate_2951_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2951_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2951_report_6443",
+      "montreux_postulate_2951_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2951_report_6443",
+      "montreux_postulate_2951_report_7478"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7478",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1128,
+      "words_extracted": 169,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

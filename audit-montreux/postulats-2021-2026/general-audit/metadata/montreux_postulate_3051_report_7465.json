@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3051_report_7465",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Florian-Manzini_Louer-plutot-qu-acheter-et-reparer-plutot-que-jeter.pdf",
+    "source_title": "Louer plutôt qu’acheter et réparer plutôt que jeter : quelles possibilités dans le sens d’une économie circulaire à Montreux ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3051",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7465",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "7c35bce85c827624f136b8333e22697367f4db9f82ba57d115c4b3bb8cd46bc4",
+    "source_content_hash": "0c99f265d0cabcf2fab32b072553f5e665b73cef011612bfda3e120432390165",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3051",
+    "object_ids": [
+      "montreux-postulate-3051"
+    ],
+    "object_title": "Louer plutôt qu’acheter et réparer plutôt que jeter : quelles possibilités dans le sens d’une économie circulaire à Montreux ?",
+    "authors": [
+      {
+        "name": "Florian Manzini",
+        "party": "VER",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-11-15",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3051",
+    "political_object_ids": [
+      "montreux-postulate-3051"
+    ],
+    "political_object_document_id": "montreux_postulate_3051_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3051_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3051_report_6577",
+      "montreux_postulate_3051_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3051_report_6577",
+      "montreux_postulate_3051_report_7465"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7465",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1082,
+      "words_extracted": 171,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

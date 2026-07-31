@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3250_report_7390",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-postulat-M.-Furst-developpement-bornes-recharge-vehicules-electriques.pdf",
+    "source_title": "Pour le développement du réseau de bornes de recharge pour véhicules électriques, notamment dans les villages du Haut de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3250",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7390",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "e7aa742f97a27b4637d94ceec998ed5ea8b46e83b6d51538517cabe7bc02b913",
+    "source_content_hash": "1b4be7657fbefe627e0df04e37afc8511bae042b47e4d9fc25045c9b9b15d280",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3250",
+    "object_ids": [
+      "montreux-postulate-3250"
+    ],
+    "object_title": "Pour le développement du réseau de bornes de recharge pour véhicules électriques, notamment dans les villages du Haut de Montreux",
+    "authors": [
+      {
+        "name": "Christian Fürst",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-05-21",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3250",
+    "political_object_ids": [
+      "montreux-postulate-3250"
+    ],
+    "political_object_document_id": "montreux_postulate_3250_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3250_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3250_report_7074",
+      "montreux_postulate_3250_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3250_report_7074",
+      "montreux_postulate_3250_report_7390"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7390",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1104,
+      "words_extracted": 170,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

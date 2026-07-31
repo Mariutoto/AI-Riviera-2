@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3217_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Pour une adaptation à la baisse du taux maximal de résidences secondaires sur le territoire communal », renommé « Pour l’identification et l’implémentation de mesures communales permettant de lutter contre les résidences secondaires ».",
+    "source_title": "Pour une adaptation à la baisse du taux maximal de résidences secondaires sur le territoire communal », renommé « Pour l’identification et l’implémentation de mesures communales permettant de lutter contre les résidences secondaires ».",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3217",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3217",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-03-26",
+    "language": "fr",
+    "content_hash": "cea025724c50593967b8d12a2d69866d40f283c3f2fa35563099d542c0f5b036",
+    "source_content_hash": "cea025724c50593967b8d12a2d69866d40f283c3f2fa35563099d542c0f5b036",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3217",
+    "object_ids": [
+      "montreux-postulate-3217"
+    ],
+    "object_title": "Pour une adaptation à la baisse du taux maximal de résidences secondaires sur le territoire communal », renommé « Pour l’identification et l’implémentation de mesures communales permettant de lutter contre les résidences secondaires ».",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3217",
+    "political_object_ids": [
+      "montreux-postulate-3217"
+    ],
+    "political_object_document_id": "montreux_postulate_3217_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3217_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3215_report_7081",
+      "montreux_postulate_3215_report_7082",
+      "montreux_postulate_3217_report_7086",
+      "montreux_postulate_3217_report_7389"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3215_report_7081",
+      "montreux_postulate_3215_report_7082",
+      "montreux_postulate_3217_report_7086",
+      "montreux_postulate_3217_report_7389"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 462,
+      "words_extracted": 59,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

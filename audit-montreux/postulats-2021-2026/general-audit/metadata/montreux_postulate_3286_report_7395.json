@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3286_report_7395",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-postulat-M.-Quartier-analyse-approfondie-evolution-future-cap-fiscale-MTX-et-consequences-strategiques.pdf",
+    "source_title": "Pour une analyse approfondie de l’évolution futur de la capacité fiscale de Montreux et de ses conséquences stratégiques",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3286",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7395",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "b36236eaa73232ac737295a6f0626505a7f54f210cd5afc69387d782b902c619",
+    "source_content_hash": "5c024fd5a1a0c5cc5c7f6b837d6ae439c901082290f07d51d01db3a0f40f6372",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3286",
+    "object_ids": [
+      "montreux-postulate-3286"
+    ],
+    "object_title": "Pour une analyse approfondie de l’évolution futur de la capacité fiscale de Montreux et de ses conséquences stratégiques",
+    "authors": [
+      {
+        "name": "Mathieu Quartier",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-10-08",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3286",
+    "political_object_ids": [
+      "montreux-postulate-3286"
+    ],
+    "political_object_document_id": "montreux_postulate_3286_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3286_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3286_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3286_report_7395"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7395",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1074,
+      "words_extracted": 163,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

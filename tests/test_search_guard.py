@@ -42,14 +42,14 @@ class SearchGuardTests(unittest.TestCase):
             )
         )
 
-    def test_blocks_document_type_not_available_for_montreux(self):
-        warning = self.guard(
-            "Quels postulats ont été déposés à Montreux ?"
+    def test_montreux_postulates_are_available(self):
+        self.assertIsNone(
+            self.guard(
+                "Quels postulats ont été déposés à Montreux ?",
+                city="Montreux",
+                document_type="Postulats",
+            )
         )
-
-        self.assertIn("Postulats", warning)
-        self.assertIn("Montreux", warning)
-        self.assertIn("Interpellations", warning)
 
     def test_vevey_motions_and_postulates_are_available(self):
         self.assertIsNone(

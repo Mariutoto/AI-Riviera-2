@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2750_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Harcèlement de rue à Montreux",
+    "source_title": "Harcèlement de rue à Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2750",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2750",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-02",
+    "language": "fr",
+    "content_hash": "ae6ea874a4703b738ccdd3c09261f32f3ee0831e68d03099d963d9e99cf92f33",
+    "source_content_hash": "ae6ea874a4703b738ccdd3c09261f32f3ee0831e68d03099d963d9e99cf92f33",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2750",
+    "object_ids": [
+      "montreux-postulate-2750"
+    ],
+    "object_title": "Harcèlement de rue à Montreux",
+    "authors": [
+      {
+        "name": "Anna Krenger",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2026-03-25",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2750",
+    "political_object_ids": [
+      "montreux-postulate-2750"
+    ],
+    "political_object_document_id": "montreux_postulate_2750_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2750_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2750_report_6022",
+      "montreux_postulate_response_3359_7275"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3359_7275"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2750_report_6022"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 254,
+      "words_extracted": 30,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3330_report_8587",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Nouvel-etat-des-lieux-de-la-politique-sportive-a-Montreux-et-des-enjeux-strategiques-_04-0_15_31_20.pdf",
+    "source_title": "Nouvel état des lieux de la politique sportive à Montreux et des enjeux stratégiques.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3330",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8587",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-04",
+    "language": "fr",
+    "content_hash": "4595be6df36bc57d0d09f73dcd3f8c948f9a7ddd86cbe81c8ee01da15c109ca0",
+    "source_content_hash": "4b167daa5b90d0223569eaa09c5caa0e783729685f6beb082b187575da1b4d5f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3330",
+    "object_ids": [
+      "montreux-postulate-3330"
+    ],
+    "object_title": "Nouvel état des lieux de la politique sportive à Montreux et des enjeux stratégiques.",
+    "authors": [
+      {
+        "name": "Benoît Ruchet",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-02-25",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3330",
+    "political_object_ids": [
+      "montreux-postulate-3330"
+    ],
+    "political_object_document_id": "montreux_postulate_3330_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3330_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3330_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3330_report_8587"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "8587",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 8181,
+      "words_extracted": 1280,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

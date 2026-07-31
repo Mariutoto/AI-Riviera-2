@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3342_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Étude de faisabilité pour la transformation de la chapelle de Chernex en local communautaire polyvalent",
+    "source_title": "Étude de faisabilité pour la transformation de la chapelle de Chernex en local communautaire polyvalent",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3342",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3342",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-25",
+    "language": "fr",
+    "content_hash": "e25c54533c4588c20216e614ad29176ed84837aa77d77566e21c23c9abddd86f",
+    "source_content_hash": "e25c54533c4588c20216e614ad29176ed84837aa77d77566e21c23c9abddd86f",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3342",
+    "object_ids": [
+      "montreux-postulate-3342"
+    ],
+    "object_title": "Étude de faisabilité pour la transformation de la chapelle de Chernex en local communautaire polyvalent",
+    "authors": [
+      {
+        "name": "Henri Rollier",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-02-25",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3342",
+    "political_object_ids": [
+      "montreux-postulate-3342"
+    ],
+    "political_object_document_id": "montreux_postulate_3342_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3342_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3342_report_8581",
+      "montreux_postulate_3342_report_8582"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3342_report_8581",
+      "montreux_postulate_3342_report_8582"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 347,
+      "words_extracted": 44,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

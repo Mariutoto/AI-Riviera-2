@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2829_report_6191",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Pour-la-mise-a-disposition-de-locaux-sur-l-ancien-site-de-l-hopital-a-des-fins-d-accueil-d_13_10_41.pdf",
+    "source_title": "Pour la mise à disposition de locaux sur l’ancien site de l’hôpital à des fins d’accueil d’urgence pour femmes et membres de la communauté LGBTIQ+",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2829",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6191",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-05",
+    "language": "fr",
+    "content_hash": "672df0e86baf8b33a955caf6d9eb66298f929e5b6f4eafa7c4a7f1316b1868d0",
+    "source_content_hash": "4515e20bba69b315c0f5af98f20ae6d413ef82cfe6f25eb89c6e60e14b89290d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2829",
+    "object_ids": [
+      "montreux-postulate-2829"
+    ],
+    "object_title": "Pour la mise à disposition de locaux sur l’ancien site de l’hôpital à des fins d’accueil d’urgence pour femmes et membres de la communauté LGBTIQ+",
+    "authors": [
+      {
+        "name": "Béatrice Tisserand",
+        "party": "VER",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2829",
+    "political_object_ids": [
+      "montreux-postulate-2829"
+    ],
+    "political_object_document_id": "montreux_postulate_2829_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2829_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2829_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2829_report_6191"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6191",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 5936,
+      "words_extracted": 949,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

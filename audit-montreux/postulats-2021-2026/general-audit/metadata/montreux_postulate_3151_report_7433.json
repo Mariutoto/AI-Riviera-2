@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3151_report_7433",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Quentin-Talon-Un-lieu-de-memoire.pdf",
+    "source_title": "« Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse » (anciennement « Rappelons-nous du 9 novembre 1932 »)",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3151",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7433",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "2eb9372124c093e3fac3f2284fa46f3f291b0162d3c232e70712136805b9dc8b",
+    "source_content_hash": "c697a7d2316050b66a3ebe73fcde5dd011d4208cbd5f493620c337a97eaaa6d0",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3151",
+    "object_ids": [
+      "montreux-postulate-3151"
+    ],
+    "object_title": "« Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse » (anciennement « Rappelons-nous du 9 novembre 1932 »)",
+    "authors": [
+      {
+        "name": "Quentin Talon",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-10-09",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3151",
+    "political_object_ids": [
+      "montreux-postulate-3151"
+    ],
+    "political_object_document_id": "montreux_postulate_3151_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3151_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3151_report_6870",
+      "montreux_postulate_3151_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3151_report_6870",
+      "montreux_postulate_3151_report_7433"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7433",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 815,
+      "words_extracted": 139,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

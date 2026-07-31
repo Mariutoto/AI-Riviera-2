@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2812_report_7483",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Olivier-Muller_Pour-une-modernisation-de-la-place-de-jeux-du-Vieux-Clarens.pdf",
+    "source_title": "Pour une modernisation de la place de jeux du Vieux-Clarens",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2812",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7483",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "c153f1fb9f541ac7b61ce783673849a42b61270c48e72ab0e1a75cef8996d608",
+    "source_content_hash": "df61142a6f0ed92100a95f52ab1692fc5beb9cf98941fad5c94be0059a3d3587",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2812",
+    "object_ids": [
+      "montreux-postulate-2812"
+    ],
+    "object_title": "Pour une modernisation de la place de jeux du Vieux-Clarens",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2812",
+    "political_object_ids": [
+      "montreux-postulate-2812"
+    ],
+    "political_object_document_id": "montreux_postulate_2812_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2812_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2812_report_6186",
+      "montreux_postulate_2812_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2812_report_6186",
+      "montreux_postulate_2812_report_7483"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7483",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 926,
+      "words_extracted": 141,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

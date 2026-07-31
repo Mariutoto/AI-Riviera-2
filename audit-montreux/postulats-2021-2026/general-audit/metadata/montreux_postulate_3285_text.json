@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3285_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "30 km/h de nuit : combien de décibels en moins ?",
+    "source_title": "30 km/h de nuit : combien de décibels en moins ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3285",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3285",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-08",
+    "language": "fr",
+    "content_hash": "18d6538e370398e1e404616ff704a334796f01b88b6d939bbe291fb2e0f0b124",
+    "source_content_hash": "18d6538e370398e1e404616ff704a334796f01b88b6d939bbe291fb2e0f0b124",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3285",
+    "object_ids": [
+      "montreux-postulate-3285"
+    ],
+    "object_title": "30 km/h de nuit : combien de décibels en moins ?",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-10-08",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": "2026-01-12",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3285",
+    "political_object_ids": [
+      "montreux-postulate-3285"
+    ],
+    "political_object_document_id": "montreux_postulate_3285_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3285_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3285_report_7194",
+      "montreux_postulate_3285_report_7203",
+      "montreux_postulate_3285_report_7394",
+      "montreux_postulate_3285_response_7202"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_3285_response_7202"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_3285_report_7194",
+      "montreux_postulate_3285_report_7203",
+      "montreux_postulate_3285_report_7394"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 275,
+      "words_extracted": 36,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

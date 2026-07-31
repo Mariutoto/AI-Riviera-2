@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3219_report_7393",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-postulat-M.-Mark-places-de-travail-a-Montreux-pour-eviter-de-penduler.pdf",
+    "source_title": "Des places de travail à Montreux pour éviter de penduler",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3219",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7393",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "9f2983691304aa0e4677eb1d578927dc146cf3ec13b0e2b7436a17fdddf1e2e1",
+    "source_content_hash": "0328906c225a0dd9e6bd62d624b5e5eb9f8a5c186d160971241d57fd6dfb3910",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3219",
+    "object_ids": [
+      "montreux-postulate-3219"
+    ],
+    "object_title": "Des places de travail à Montreux pour éviter de penduler",
+    "authors": [
+      {
+        "name": "Olivier Mark",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3219",
+    "political_object_ids": [
+      "montreux-postulate-3219"
+    ],
+    "political_object_document_id": "montreux_postulate_3219_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3219_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3219_report_7075",
+      "montreux_postulate_3219_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3219_report_7075",
+      "montreux_postulate_3219_report_7393"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7393",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 932,
+      "words_extracted": 153,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

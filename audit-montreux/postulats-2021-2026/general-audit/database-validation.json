@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 144,
+    "originals": 49,
+    "reports": 90,
+    "responses": 5,
+    "chunks": 512,
+    "vectors": 512,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "broken_relationship_links": 0,
+    "aggregate_originals": 49,
+    "answered_postulates": 7,
+    "answered_with_source_url": 7
+  },
+  "retrieval": [
+    {
+      "query": "Harcèlement de rue à Montreux",
+      "expected_prefix": "montreux_postulate_2750_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_postulate_response_3359_7275",
+        "montreux_postulate_2750_report_6022",
+        "montreux_postulate_response_3359_7275",
+        "montreux_postulate_response_3359_7275",
+        "montreux_postulate_response_3359_7275"
+      ]
+    },
+    {
+      "query": "inventaire numérique patrimoine Montreux",
+      "expected_prefix": "montreux_postulate_3287_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_postulate_3287_report_7221",
+        "montreux_postulate_3287_text",
+        "montreux_postulate_3287_report_7221",
+        "montreux_postulate_3287_report_7221",
+        "montreux_postulate_3287_report_7221"
+      ]
+    },
+    {
+      "query": "gestion prévisionnelle centralisée personnel communal",
+      "expected_prefix": "montreux_postulate_2923_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_postulate_response_3127_6732",
+        "montreux_postulate_2923_report_6382",
+        "montreux_postulate_response_3127_6732",
+        "montreux_postulate_response_3127_6732",
+        "montreux_postulate_response_3127_6732"
+      ]
+    }
+  ],
+  "failures": []
+}

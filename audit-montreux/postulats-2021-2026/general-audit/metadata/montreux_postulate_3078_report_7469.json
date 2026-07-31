@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3078_report_7469",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Olivier-Muller_Dezonage-coherent.pdf",
+    "source_title": "Pour un dézonage cohérent et socialement acceptable",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3078",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7469",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "e0b67e80d2f1b80c96b95fa211f547a37b591f5fa4f62c4e7eac2d095b0019d8",
+    "source_content_hash": "ae57ada9eff1fb5c71954422e7362957d8ea75db95a01b155d7deb014dc99af2",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3078",
+    "object_ids": [
+      "montreux-postulate-3078"
+    ],
+    "object_title": "Pour un dézonage cohérent et socialement acceptable",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-02-28",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3078",
+    "political_object_ids": [
+      "montreux-postulate-3078"
+    ],
+    "political_object_document_id": "montreux_postulate_3078_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3078_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3078_report_6699",
+      "montreux_postulate_3078_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3078_report_6699",
+      "montreux_postulate_3078_report_7469"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7469",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 929,
+      "words_extracted": 147,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

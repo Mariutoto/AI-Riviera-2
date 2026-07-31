@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3092_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Fluidifier le trafic routier pour préserver l’environnement",
+    "source_title": "Fluidifier le trafic routier pour préserver l’environnement",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3092",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3092",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-27",
+    "language": "fr",
+    "content_hash": "ba1a38c68c7c9528189f071aeaf1f0ebddeb87393850d7c5d5bee2e0ac447da1",
+    "source_content_hash": "ba1a38c68c7c9528189f071aeaf1f0ebddeb87393850d7c5d5bee2e0ac447da1",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3092",
+    "object_ids": [
+      "montreux-postulate-3092"
+    ],
+    "object_title": "Fluidifier le trafic routier pour préserver l’environnement",
+    "authors": [
+      {
+        "name": "Jean-Marc Forclaz",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-03-27",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3092",
+    "political_object_ids": [
+      "montreux-postulate-3092"
+    ],
+    "political_object_document_id": "montreux_postulate_3092_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3092_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3092_report_6730"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3092_report_6730"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 290,
+      "words_extracted": 32,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

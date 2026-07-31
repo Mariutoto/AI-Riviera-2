@@ -1,0 +1,4563 @@
+{
+  "schema_version": "montreux-postulates-general-audit-v1",
+  "scope": {
+    "commune": "Montreux",
+    "category": "postulat",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30"
+  },
+  "source": {
+    "institution": "Conseil communal de Montreux",
+    "search_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/",
+    "sessions_page": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/"
+  },
+  "summary": {
+    "political_objects": 49,
+    "documents": 144,
+    "original_postulates": 49,
+    "consideration_reports": 90,
+    "municipal_responses": 5,
+    "objects_with_response": 7,
+    "objects_without_response": 42,
+    "ocr_applied": 32,
+    "chunks": 512,
+    "status_counts": {
+      "accepted": 24,
+      "rejected": 14,
+      "pending": 11
+    }
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "source_object_id": 2721,
+      "object_id": "montreux-postulate-2721",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2721",
+      "title": "Pour un affichage politique identique sur l’ensemble du territoire communal",
+      "author_text": "Nicolas Büchler (PS)",
+      "authors": [
+        {
+          "name": "Nicolas Büchler",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2021-11-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2701"
+        },
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        }
+      ],
+      "deposit_date": "2021-11-10",
+      "consideration_date": "2022-02-02",
+      "attachments": [
+        {
+          "download_id": "5940",
+          "filename": "Rapport-postulat-Pour-un-affichage-politique-identique-sur-l-ensemble-du-territoire-communal_24-01-2022_7_52_59.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5940",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "24.01.2022",
+          "attachment_date": "2022-01-24"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_response_3234_6982"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_2721_report_5940"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-05"
+    },
+    {
+      "source_object_id": 2749,
+      "object_id": "montreux-postulate-2749",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2749",
+      "title": "Une croissance infinie est une folie",
+      "author_text": "Antoinette Loup (DA)",
+      "authors": [
+        {
+          "name": "Antoinette Loup",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        },
+        {
+          "date": "2022-04-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2751"
+        }
+      ],
+      "deposit_date": "2022-02-02",
+      "consideration_date": "2022-04-06",
+      "attachments": [
+        {
+          "download_id": "6020",
+          "filename": "Rapport-postulat-Une-croissance-infinie-est-une-folie_28-03-2022_5_57_38.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6020",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "28.03.2022",
+          "attachment_date": "2022-03-28"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2749_report_6020"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2750,
+      "object_id": "montreux-postulate-2750",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2750",
+      "title": "Harcèlement de rue à Montreux",
+      "author_text": "Anna Krenger (DA)",
+      "authors": [
+        {
+          "name": "Anna Krenger",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        },
+        {
+          "date": "2022-04-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2751"
+        }
+      ],
+      "deposit_date": "2022-02-02",
+      "consideration_date": "2022-04-06",
+      "attachments": [
+        {
+          "download_id": "6022",
+          "filename": "Rapport-postulat-Harcelement-de-rue-a-Montreux_28-03-2022_9_18_8.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6022",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "28.03.2022",
+          "attachment_date": "2022-03-28"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_response_3359_7275"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_2750_report_6022"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2026-03-25"
+    },
+    {
+      "source_object_id": 2751,
+      "object_id": "montreux-postulate-2751",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2751",
+      "title": "Pour un tri sélectif plus proche des habitants",
+      "author_text": "Lionel Moyard (VER)",
+      "authors": [
+        {
+          "name": "Lionel Moyard",
+          "party": "VER",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        },
+        {
+          "date": "2022-04-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2751"
+        }
+      ],
+      "deposit_date": "2022-02-02",
+      "consideration_date": "2022-04-06",
+      "attachments": [
+        {
+          "download_id": "6021",
+          "filename": "Rapport-postulat-Pour-un-tri-selectif-plus-proche-des-habitants_28-03-2022_8_50_15.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6021",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "28.03.2022",
+          "attachment_date": "2022-03-28"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2751_report_6021"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2774,
+      "object_id": "montreux-postulate-2774",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2774",
+      "title": "Places aux vélos",
+      "author_text": "Quentin Talon (DA)",
+      "authors": [
+        {
+          "name": "Quentin Talon",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-03-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2750"
+        },
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        }
+      ],
+      "deposit_date": "2022-03-02",
+      "consideration_date": "2022-05-18",
+      "attachments": [
+        {
+          "download_id": "6053",
+          "filename": "Complement-de-Enrico-Bergonzo.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6053",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "02.05.2022",
+          "attachment_date": "2022-05-02"
+        },
+        {
+          "download_id": "6070",
+          "filename": "Rapport-postulat-Places-aux-velos_09-05-2022_9_1_52.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6070",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.05.2022",
+          "attachment_date": "2022-05-09"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2774_report_6053",
+        "montreux_postulate_2774_report_6070"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2812,
+      "object_id": "montreux-postulate-2812",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2812",
+      "title": "Pour une modernisation de la place de jeux du Vieux-Clarens",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        },
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-09-14",
+      "attachments": [
+        {
+          "download_id": "6186",
+          "filename": "Rapport-motion-Pour-une-modernisation-de-la-place-de-jeux-du-Vieux-Clarens-_05-09-2022_8_39_7.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6186",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "05.09.2022",
+          "attachment_date": "2022-09-05"
+        },
+        {
+          "download_id": "7483",
+          "filename": "extrait-Postulat-M.-Olivier-Muller_Pour-une-modernisation-de-la-place-de-jeux-du-Vieux-Clarens.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7483",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2812_report_6186",
+        "montreux_postulate_2812_report_7483"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2829,
+      "object_id": "montreux-postulate-2829",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2829",
+      "title": "Pour la mise à disposition de locaux sur l’ancien site de l’hôpital à des fins d’accueil d’urgence pour femmes et membres de la communauté LGBTIQ+",
+      "author_text": "Béatrice Tisserand (VER)",
+      "authors": [
+        {
+          "name": "Béatrice Tisserand",
+          "party": "VER",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        },
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-09-14",
+      "attachments": [
+        {
+          "download_id": "6191",
+          "filename": "Rapport-postulat-Pour-la-mise-a-disposition-de-locaux-sur-l-ancien-site-de-l-hopital-a-des-fins-d-accueil-d_13_10_41.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6191",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "05.09.2022",
+          "attachment_date": "2022-09-05"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2829_report_6191"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2860,
+      "object_id": "montreux-postulate-2860",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2860",
+      "title": "« Pour un audit externe du service de l’urbanisme » POSTULAT",
+      "author_text": "Arnaud Grand (PLR)",
+      "authors": [
+        {
+          "name": "Arnaud Grand",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/",
+          "date_source": "audited_catalogue_override"
+        }
+      ],
+      "deposit_date": "2022-09-14",
+      "consideration_date": "2022-09-14",
+      "attachments": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2895,
+      "object_id": "montreux-postulate-2895",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2895",
+      "title": "Bureaux de vote : intégrons nos jeunes",
+      "author_text": "Johanne Vetter (PLR)",
+      "authors": [
+        {
+          "name": "Johanne Vetter",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2022-11-16",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2815"
+        },
+        {
+          "date": "2023-02-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2895"
+        }
+      ],
+      "deposit_date": "2022-11-16",
+      "consideration_date": "2023-02-01",
+      "attachments": [
+        {
+          "download_id": "6314",
+          "filename": "Rapport-postulat-Bureaux-de-vote-integrons-nos-jeunes_23-01-2023_16_5_6.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6314",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "23.01.2023",
+          "attachment_date": "2023-01-23"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2895_report_6314"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2905,
+      "object_id": "montreux-postulate-2905",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2905",
+      "title": "Injecter l’ART sur les murs de la ville de Montreux",
+      "author_text": "Stefania La Spada (PS)",
+      "authors": [
+        {
+          "name": "Stefania La Spada",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-11-16",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2815"
+        },
+        {
+          "date": "2023-02-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2895"
+        }
+      ],
+      "deposit_date": "2022-11-16",
+      "consideration_date": "2023-02-01",
+      "attachments": [
+        {
+          "download_id": "6309",
+          "filename": "Rapport-postulat-Injecter-l-ART-sur-les-murs-de-la-ville-de-Montreux_17-01-2023_9_35_50.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6309",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "17.01.2023",
+          "attachment_date": "2023-01-17"
+        },
+        {
+          "download_id": "7486",
+          "filename": "extrait-Postulat-Mme-Stefania-La-Spada_Injecter-l-ART-sur-les-murs-de-la-ville-de-Montreux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7486",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2905_report_6309",
+        "montreux_postulate_2905_report_7486"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2923,
+      "object_id": "montreux-postulate-2923",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2923",
+      "title": "Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+      "author_text": "Benoît Ruchet (PLR)",
+      "authors": [
+        {
+          "name": "Benoît Ruchet",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-02-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2895"
+        },
+        {
+          "date": "2023-05-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2898"
+        }
+      ],
+      "deposit_date": "2023-02-01",
+      "consideration_date": "2023-05-10",
+      "attachments": [
+        {
+          "download_id": "6382",
+          "filename": "Rapport-postulat-Postulat-de-MM-Benoit-Ruchet-et-Cedric-Blanc-Pour-une-gestion-previsionnelle-centralis_14_47_33.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6382",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "30.04.2023",
+          "attachment_date": "2023-04-30"
+        },
+        {
+          "download_id": "7477",
+          "filename": "extrait-Postulat-M.-Cedric-Blanc-et-M.-Benoit-Ruchet_Gestion-previsionnelle-centralisee.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7477",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_response_3127_6732"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_2923_report_6382",
+        "montreux_postulate_2923_report_7477"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2024-08-28"
+    },
+    {
+      "source_object_id": 2924,
+      "object_id": "montreux-postulate-2924",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2924",
+      "title": "Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\".",
+      "author_text": "Romain Pilloud (PS)",
+      "authors": [
+        {
+          "name": "Romain Pilloud",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-02-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2895"
+        },
+        {
+          "date": "2023-05-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2898"
+        }
+      ],
+      "deposit_date": "2023-02-01",
+      "consideration_date": "2023-05-10",
+      "attachments": [
+        {
+          "download_id": "6377",
+          "filename": "Mettre-la-Place-de-la-Gare-sur-les-bons-rails-developpement.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6377",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "23.04.2023",
+          "attachment_date": "2023-04-23"
+        },
+        {
+          "download_id": "6387",
+          "filename": "Rapport-postulat-Postulat-de-M-Romain-Pilloud-et-de-Mme-Stefania-La-Spada-Mettre-la-Place-de-la-Gare-su_23_0_10.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6387",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "30.04.2023",
+          "attachment_date": "2023-04-30"
+        },
+        {
+          "download_id": "6396",
+          "filename": "Perimetre-primaire.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6396",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.05.2023",
+          "attachment_date": "2023-05-01"
+        },
+        {
+          "download_id": "7485",
+          "filename": "extrait-Postulat-M.-Romain-Pilloud-et-Mme-Stefania-La-Spada_Mettre-la-Place-de-la-Gare-sur-les-bons-rails.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7485",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_response_3247_6993"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_2924_report_6377",
+        "montreux_postulate_2924_report_6387",
+        "montreux_postulate_2924_report_6396",
+        "montreux_postulate_2924_report_7485"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-14"
+    },
+    {
+      "source_object_id": 2925,
+      "object_id": "montreux-postulate-2925",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2925",
+      "title": "La citoyenneté à travers l'engagement politique des personnes d'origine étrangère à Montreux",
+      "author_text": "Mathias Ekah (PS)",
+      "authors": [
+        {
+          "name": "Mathias Ekah",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2023-02-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2895"
+        },
+        {
+          "date": "2023-04-05",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2897"
+        }
+      ],
+      "deposit_date": "2023-02-01",
+      "consideration_date": "2023-04-05",
+      "attachments": [
+        {
+          "download_id": "6360",
+          "filename": "Rapport-postulat-La-citoyennete-a-travers-l-engagement-politique-des-personnes-d-origine-etrangere-a-Montre_8_35_51.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6360",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "27.03.2023",
+          "attachment_date": "2023-03-27"
+        },
+        {
+          "download_id": "7479",
+          "filename": "extrait-Postulat-M.-Mathias-Ekah_La-citoyennete-a-travers-l-engagement-politique.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7479",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2925_report_6360",
+        "montreux_postulate_2925_report_7479"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2948,
+      "object_id": "montreux-postulate-2948",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2948",
+      "title": "Du béton plus durable à chaque fois que possible",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-03-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2896"
+        },
+        {
+          "date": "2023-05-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2898"
+        }
+      ],
+      "deposit_date": "2023-03-01",
+      "consideration_date": "2023-05-10",
+      "attachments": [
+        {
+          "download_id": "6391",
+          "filename": "Rapport-postulat-Du-beton-plus-durable-a-chaque-fois-que-possible_01-05-2023_7_58_15.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6391",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.05.2023",
+          "attachment_date": "2023-05-01"
+        },
+        {
+          "download_id": "7480",
+          "filename": "extrait-Postulat-M.-Olivier-Muller_Du-beton-plus-durable-a-chaque-fois-que-possible.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7480",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2948_report_6391",
+        "montreux_postulate_2948_report_7480"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2951,
+      "object_id": "montreux-postulate-2951",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2951",
+      "title": "Postulat de MM. Emmanuel Gétaz et Michel Zulauf demandant à la Municipalité une étude visant à trouver sur le territoire communal un site susceptible d’accueillir un espace muséal sur l’histoire de la musique à Montreux.",
+      "author_text": "Emmanuel Gétaz (ML)",
+      "authors": [
+        {
+          "name": "Emmanuel Gétaz",
+          "party": "ML",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-03-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2896"
+        },
+        {
+          "date": "2023-06-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2899"
+        }
+      ],
+      "deposit_date": "2023-03-01",
+      "consideration_date": "2023-06-21",
+      "attachments": [
+        {
+          "download_id": "6443",
+          "filename": "Rapport-postulat-Postulat-de-MM-Emmanuel-Getaz-et-Michel-Zulauf-demandant-a-la-Municipalite-une-etude-visa_3_30_20.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6443",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "11.06.2023",
+          "attachment_date": "2023-06-11"
+        },
+        {
+          "download_id": "7478",
+          "filename": "extrait-Postulat-M.-Emmanuel-Getaz-et-M.-Michel-Zulauf_Etude.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7478",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2951_report_6443",
+        "montreux_postulate_2951_report_7478"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2952,
+      "object_id": "montreux-postulate-2952",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2952",
+      "title": "Escaliers de JACOB",
+      "author_text": "Stefania La Spada (PS)",
+      "authors": [
+        {
+          "name": "Stefania La Spada",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-03-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2896"
+        },
+        {
+          "date": "2023-06-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2899"
+        },
+        {
+          "date": "2023-09-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2944"
+        }
+      ],
+      "deposit_date": "2023-03-01",
+      "consideration_date": "2023-09-06",
+      "attachments": [
+        {
+          "download_id": "6478",
+          "filename": "Rapport-postulat-Escaliers-de-JACOB_28-08-2023_8_10_43-2eme-version-VF.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6478",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "28.08.2023",
+          "attachment_date": "2023-08-28"
+        },
+        {
+          "download_id": "7471",
+          "filename": "extrait-Postulat-Mme-Stefania-La-Spada_Escaliers-de-JACOB.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7471",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_2952_report_6478",
+        "montreux_postulate_2952_report_7471"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3033,
+      "object_id": "montreux-postulate-3033",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3033",
+      "title": "Postulat de M. Fabien Willemin et consorts « Déclarer l'urgence climatique».",
+      "author_text": "Fabien Torchio (DA)",
+      "authors": [
+        {
+          "name": "Fabien Torchio",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2023-10-11",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2945"
+        },
+        {
+          "date": "2023-11-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2946"
+        },
+        {
+          "date": "2023-12-13",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2947"
+        }
+      ],
+      "deposit_date": "2023-10-11",
+      "consideration_date": "2023-12-13",
+      "attachments": [
+        {
+          "download_id": "6538",
+          "filename": "Rapport-postulat-Postulat-de-M-Fabien-Willemin-et-consorts--Declarer-l-urgence-climatique-_04-12-2023_7_24_20.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6538",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.12.2023",
+          "attachment_date": "2023-12-04"
+        },
+        {
+          "download_id": "7464",
+          "filename": "extrait-Postulat-M.-Fabien-Willemin_Declarer-l-urgence-climatique.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7464",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3033_report_6538",
+        "montreux_postulate_3033_report_7464"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3034,
+      "object_id": "montreux-postulate-3034",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3034",
+      "title": "Valoriser et préserver nos sentiers et nos paysages des hauts de la Commune",
+      "author_text": "Nicolas Büchler (PS)",
+      "authors": [
+        {
+          "name": "Nicolas Büchler",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-10-11",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2945"
+        },
+        {
+          "date": "2023-11-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2946"
+        },
+        {
+          "date": "2023-12-13",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2947"
+        }
+      ],
+      "deposit_date": "2023-10-11",
+      "consideration_date": "2023-12-13",
+      "attachments": [
+        {
+          "download_id": "6539",
+          "filename": "Rapport-postulat-Valoriser-et-preserver-nos-sentiers-et-nos-paysages-des-hauts-de-la-Commune_04-12-2023_7_26_47.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6539",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.12.2023",
+          "attachment_date": "2023-12-04"
+        },
+        {
+          "download_id": "7467",
+          "filename": "extrait-Postulat-M.-Nicolas-Buchler_Valoriser-et-preserver-nos-sentiers-et-nos-paysages-des-hauts-de-la-Commune.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7467",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3034_report_6539",
+        "montreux_postulate_3034_report_7467"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3051,
+      "object_id": "montreux-postulate-3051",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3051",
+      "title": "Louer plutôt qu’acheter et réparer plutôt que jeter : quelles possibilités dans le sens d’une économie circulaire à Montreux ?",
+      "author_text": "Florian Manzini (VER)",
+      "authors": [
+        {
+          "name": "Florian Manzini",
+          "party": "VER",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-11-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2946"
+        },
+        {
+          "date": "2023-12-13",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2947"
+        },
+        {
+          "date": "2024-02-28",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4015"
+        }
+      ],
+      "deposit_date": "2023-11-15",
+      "consideration_date": "2024-02-28",
+      "attachments": [
+        {
+          "download_id": "6577",
+          "filename": "Rapport-postulat-Louer-plutot-qu-acheter-et-reparer-plutot-que-jeter-quelles-possibilites-dans-le-sens-d_7_59_32.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6577",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "19.02.2024",
+          "attachment_date": "2024-02-19"
+        },
+        {
+          "download_id": "7465",
+          "filename": "extrait-Postulat-M.-Florian-Manzini_Louer-plutot-qu-acheter-et-reparer-plutot-que-jeter.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7465",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3051_report_6577",
+        "montreux_postulate_3051_report_7465"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3077,
+      "object_id": "montreux-postulate-3077",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3077",
+      "title": "Mais où peut-on réserver une salle à Montreux ?",
+      "author_text": "Romain Pilloud (PS)",
+      "authors": [
+        {
+          "name": "Romain Pilloud",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-02-28",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4015"
+        },
+        {
+          "date": "2024-03-27",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4016"
+        },
+        {
+          "date": "2024-05-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4017"
+        }
+      ],
+      "deposit_date": "2024-02-28",
+      "consideration_date": "2024-05-15",
+      "attachments": [
+        {
+          "download_id": "6639",
+          "filename": "Rapport-postulat-Mais-ou-peut-on-reserver-une-salle-a-Montreux-_05-05-2024_17_51_23.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6639",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "05.05.2024",
+          "attachment_date": "2024-05-05"
+        },
+        {
+          "download_id": "7470",
+          "filename": "extrait-Postulat-M.-Romain-Pilloud_Mais-ou-peut-on-reserver-une-salle-a-Montreux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7470",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3077_report_6639",
+        "montreux_postulate_3077_report_7470"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3078,
+      "object_id": "montreux-postulate-3078",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3078",
+      "title": "Pour un dézonage cohérent et socialement acceptable",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2024-02-28",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4015"
+        },
+        {
+          "date": "2024-03-27",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4016"
+        },
+        {
+          "date": "2024-06-19",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4018"
+        }
+      ],
+      "deposit_date": "2024-02-28",
+      "consideration_date": "2024-06-19",
+      "attachments": [
+        {
+          "download_id": "6699",
+          "filename": "Rapport-postulat-Pour-un-dezonage-coherent-et-socialement-acceptable_10-06-2024_9_29_50.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6699",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "10.06.2024",
+          "attachment_date": "2024-06-10"
+        },
+        {
+          "download_id": "7469",
+          "filename": "extrait-Postulat-M.-Olivier-Muller_Dezonage-coherent.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7469",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3078_report_6699",
+        "montreux_postulate_3078_report_7469"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3091,
+      "object_id": "montreux-postulate-3091",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3091",
+      "title": "Motion transformée en postulat « Protégeons la santé de nos enfants dans les espaces qui leur sont dédiés sans fumée plutôt qu’enfumés ».",
+      "author_text": "José Jorge (PS)",
+      "authors": [
+        {
+          "name": "José Jorge",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-03-27",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4016"
+        },
+        {
+          "date": "2024-05-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4017"
+        },
+        {
+          "date": "2024-06-19",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4018"
+        }
+      ],
+      "deposit_date": "2024-03-27",
+      "consideration_date": "2024-06-19",
+      "attachments": [
+        {
+          "download_id": "6715",
+          "filename": "Rapport-postulat-Motion-transformee-en-postulat--Protegeons-la-sante-de-nos-enfants-dans-les-espaces-qui-l_20_16_29.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6715",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "14.06.2024",
+          "attachment_date": "2024-06-14"
+        },
+        {
+          "download_id": "7466",
+          "filename": "extrait-Postulat-M.-Jose-Jorge_Protegeons-la-sante-de-nos-enfants.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7466",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3091_report_6715",
+        "montreux_postulate_3091_report_7466"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3092,
+      "object_id": "montreux-postulate-3092",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3092",
+      "title": "Fluidifier le trafic routier pour préserver l’environnement",
+      "author_text": "Jean-Marc Forclaz (PLR)",
+      "authors": [
+        {
+          "name": "Jean-Marc Forclaz",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-03-27",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4016"
+        },
+        {
+          "date": "2024-05-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4017"
+        },
+        {
+          "date": "2024-09-04",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4057"
+        }
+      ],
+      "deposit_date": "2024-03-27",
+      "consideration_date": "2024-09-04",
+      "attachments": [
+        {
+          "download_id": "6730",
+          "filename": "Rapport-postulat-Fluidifier-le-trafic-routier-pour-preserver-l-environnement_25-08-2024_20_13_42.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6730",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2024",
+          "attachment_date": "2024-08-25"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3092_report_6730"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3112,
+      "object_id": "montreux-postulate-3112",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3112",
+      "title": "Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+      "author_text": "Christian Fürst (PLR)",
+      "authors": [
+        {
+          "name": "Christian Fürst",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-05-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4017"
+        },
+        {
+          "date": "2024-06-19",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4018"
+        },
+        {
+          "date": "2024-09-04",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4057"
+        }
+      ],
+      "deposit_date": "2024-05-15",
+      "consideration_date": "2024-09-04",
+      "attachments": [
+        {
+          "download_id": "6711",
+          "filename": "Postulat-Christian-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-dans-la-commune-de-Montreux-pour-promouvoir-les-evenements-culturels-et-sportifs-loc.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6711",
+          "displayed_type": "Annexe au développement",
+          "attachment_date_text": "12.06.2024",
+          "attachment_date": "2024-06-12"
+        },
+        {
+          "download_id": "6727",
+          "filename": "Rapport-postulat-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-dans-la-commune-de-Montreux-pou_16_12_0.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6727",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2024",
+          "attachment_date": "2024-08-25"
+        },
+        {
+          "download_id": "7436",
+          "filename": "extrait-Postulat-M.Christine-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7436",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        },
+        {
+          "download_id": "7437",
+          "filename": "extrait-Postulat-M.Christine-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-2.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7437",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_response_3234_6982"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_3112_report_6711",
+        "montreux_postulate_3112_report_6727",
+        "montreux_postulate_3112_report_7436",
+        "montreux_postulate_3112_report_7437"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-05"
+    },
+    {
+      "source_object_id": 3151,
+      "object_id": "montreux-postulate-3151",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3151",
+      "title": "« Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse » (anciennement « Rappelons-nous du 9 novembre 1932 »)",
+      "author_text": "Quentin Talon (DA)",
+      "authors": [
+        {
+          "name": "Quentin Talon",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2024-10-09",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4058"
+        },
+        {
+          "date": "2024-11-13",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4059"
+        },
+        {
+          "date": "2025-01-29",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4147"
+        }
+      ],
+      "deposit_date": "2024-10-09",
+      "consideration_date": "2025-01-29",
+      "attachments": [
+        {
+          "download_id": "6870",
+          "filename": "Rapport-postulat-Rappelons-nous-du-9-novembre-1932_19-01-2025_21_21_38.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6870",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "19.01.2025",
+          "attachment_date": "2025-01-19"
+        },
+        {
+          "download_id": "7433",
+          "filename": "extrait-Postulat-M.-Quentin-Talon-Un-lieu-de-memoire.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7433",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3151_report_6870",
+        "montreux_postulate_3151_report_7433"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3162,
+      "object_id": "montreux-postulate-3162",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3162",
+      "title": "Les moyens à disposition des autorités communales pour atténuer l’augmentation des loyers dans la Commune de Montreux.",
+      "author_text": "Stefania La Spada (PS)",
+      "authors": [
+        {
+          "name": "Stefania La Spada",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2024-11-13",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4059"
+        },
+        {
+          "date": "2024-12-11",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4060"
+        },
+        {
+          "date": "2025-01-29",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4147"
+        }
+      ],
+      "deposit_date": "2024-11-13",
+      "consideration_date": "2025-01-29",
+      "attachments": [
+        {
+          "download_id": "6869",
+          "filename": "Rapport-postulat-Les-moyens-a-disposition-des-autorites-communales-pour-attenuer-l-augmentation-des-loyers_21_18_34.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6869",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "19.01.2025",
+          "attachment_date": "2025-01-19"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3162_report_6869"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3181,
+      "object_id": "montreux-postulate-3181",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3181",
+      "title": "Postulat intergroupes \"Pour une révision complète de toute forme de convention ou de collaboration entre les communes de Montreux et de Veytaux\"",
+      "author_text": "Nicolas Büchler (PS)",
+      "authors": [
+        {
+          "name": "Nicolas Büchler",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-12-11",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/",
+          "date_source": "audited_catalogue_override"
+        }
+      ],
+      "deposit_date": "2024-12-11",
+      "consideration_date": "2024-12-11",
+      "attachments": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3198,
+      "object_id": "montreux-postulate-3198",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3198",
+      "title": "Postulat interpartis : « Pour un soutien aux collaborateurs du Service de l’Urbanisme »",
+      "author_text": "Vincent Haldi (PLR)",
+      "authors": [
+        {
+          "name": "Vincent Haldi",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-01-29",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/",
+          "date_source": "audited_catalogue_override"
+        }
+      ],
+      "deposit_date": "2025-01-29",
+      "consideration_date": "2025-01-29",
+      "attachments": [],
+      "response_document_ids": [
+        "montreux_postulate_response_3247_6993"
+      ],
+      "consideration_document_ids": [],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-14"
+    },
+    {
+      "source_object_id": 3206,
+      "object_id": "montreux-postulate-3206",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3206",
+      "title": "Gratuité des TP le dimanche : Une mesure pour le pouvoir d’achat et propice à adoucir nos dimanches et jours fériés",
+      "author_text": "Romain Pilloud (PS)",
+      "authors": [
+        {
+          "name": "Romain Pilloud",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-02-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4148"
+        },
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        }
+      ],
+      "deposit_date": "2025-02-26",
+      "consideration_date": "2025-04-30",
+      "attachments": [
+        {
+          "download_id": "6918",
+          "filename": "E769-volution-relative-des-prix_cou770-ts-1990-2024-copie-2.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6918",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "14.04.2025",
+          "attachment_date": "2025-04-14"
+        },
+        {
+          "download_id": "6930",
+          "filename": "Rapport-postulat-Gratuite-des-TP-le-dimanche-Une-mesure-pour-le-pouvoir-d-achat-et-propice-a-adoucir-nos_9_32_32.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6930",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "21.04.2025",
+          "attachment_date": "2025-04-21"
+        },
+        {
+          "download_id": "7435",
+          "filename": "extrait-Postulat-M.-Romain-Pilloud-Gratuite-des-TP-le-dimanche.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7435",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3206_report_6918",
+        "montreux_postulate_3206_report_6930",
+        "montreux_postulate_3206_report_7435"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3215,
+      "object_id": "montreux-postulate-3215",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3215",
+      "title": "Suspension de l’attribution de résidence secondaire à Montreux jusqu’à l’entrée en vigueur du plan d’affectation",
+      "author_text": "Fabien Torchio (DA)",
+      "authors": [
+        {
+          "name": "Fabien Torchio",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7081",
+          "filename": "ResidencesSecondaires_AvisdeDroit_Montreux_TL.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7081",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        },
+        {
+          "download_id": "7082",
+          "filename": "statistiques.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7082",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        },
+        {
+          "download_id": "7085",
+          "filename": "Rapport-postulat-Suspension-de-l-attribution-de-residence-secondaire-a-Montreux-jusqu-a-l-entree-en-vigueur_7_44_52.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7085",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3215_report_7081",
+        "montreux_postulate_3215_report_7082",
+        "montreux_postulate_3215_report_7085"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3216,
+      "object_id": "montreux-postulate-3216",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3216",
+      "title": "Faire de l’attribution de locaux pour lutter contre le sans-abrisme une priorité absolue",
+      "author_text": "Fabien Torchio (DA)",
+      "authors": [
+        {
+          "name": "Fabien Torchio",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7084",
+          "filename": "Rapport-postulat-Faire-de-l-attribution-de-locaux-pour-lutter-contre-le-sans-abrisme-une-priorite-absolue_2_7_42_16.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7084",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        },
+        {
+          "download_id": "7396",
+          "filename": "extrait-postulat-M.-Torchio-attribuer-les-locaux-a-disposition-de-la-ville-a-une-association-pour-lutter-contre-sans-abrisme.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7396",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3216_report_7084",
+        "montreux_postulate_3216_report_7396"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3217,
+      "object_id": "montreux-postulate-3217",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3217",
+      "title": "Pour une adaptation à la baisse du taux maximal de résidences secondaires sur le territoire communal », renommé « Pour l’identification et l’implémentation de mesures communales permettant de lutter contre les résidences secondaires ».",
+      "author_text": "Nicolas Büchler (PS)",
+      "authors": [
+        {
+          "name": "Nicolas Büchler",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7065",
+          "filename": "ResidencesSecondaires_AvisdeDroit_Montreux_TL.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7065",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "19.08.2025",
+          "attachment_date": "2025-08-19"
+        },
+        {
+          "download_id": "7066",
+          "filename": "statistiques.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7066",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "19.08.2025",
+          "attachment_date": "2025-08-19"
+        },
+        {
+          "download_id": "7086",
+          "filename": "Rapport-postulat-Pour-une-adaptation-a-la-baisse-du-taux-maximal-de-residences-secondaires-sur-le-territoir_7_50_28.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7086",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        },
+        {
+          "download_id": "7389",
+          "filename": "extrait-postulat-M.-Buchler-identification-et-implementation-mesures-communales-lutter-contre-residences-secondaires.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7389",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3215_report_7081",
+        "montreux_postulate_3215_report_7082",
+        "montreux_postulate_3217_report_7086",
+        "montreux_postulate_3217_report_7389"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3218,
+      "object_id": "montreux-postulate-3218",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3218",
+      "title": "Etudions la possibilité de compléter l’efficience de l’enveloppe énergétique de la Piscine de la Maladaire",
+      "author_text": "Emmanuel Gétaz (ML)",
+      "authors": [
+        {
+          "name": "Emmanuel Gétaz",
+          "party": "ML",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-06-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4152"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-06-18",
+      "attachments": [
+        {
+          "download_id": "7036",
+          "filename": "2_Rapport-de-minorite_Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Piscine.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7036",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.06.2025",
+          "attachment_date": "2025-06-09"
+        },
+        {
+          "download_id": "7037",
+          "filename": "1_Rapport-postulat-Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Piscine_18_21_50.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7037",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.06.2025",
+          "attachment_date": "2025-06-09"
+        },
+        {
+          "download_id": "7432",
+          "filename": "extrait-Postulat-M.-Emmanuel-Getaz-Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Maladaire.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7432",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3218_report_7036",
+        "montreux_postulate_3218_report_7037",
+        "montreux_postulate_3218_report_7432"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3219,
+      "object_id": "montreux-postulate-3219",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3219",
+      "title": "Des places de travail à Montreux pour éviter de penduler",
+      "author_text": "Olivier Mark (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Mark",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-05-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4151"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7075",
+          "filename": "Rapport-postulat-Des-places-de-travail-a-Montreux-pour-eviter-de-penduler_24-08-2025_19_56_16.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7075",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "24.08.2025",
+          "attachment_date": "2025-08-24"
+        },
+        {
+          "download_id": "7393",
+          "filename": "extrait-postulat-M.-Mark-places-de-travail-a-Montreux-pour-eviter-de-penduler.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7393",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3219_report_7075",
+        "montreux_postulate_3219_report_7393"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3220,
+      "object_id": "montreux-postulate-3220",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3220",
+      "title": "La Maison de Quartier : très grand succès après 10 ans d’existence. Pourquoi pas une seconde sur notre Commune ?",
+      "author_text": "Tanya Bonjour (PS)",
+      "authors": [
+        {
+          "name": "Tanya Bonjour",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-03-26",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4149"
+        },
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-05-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4151"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-03-26",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7080",
+          "filename": "Rapport-postulat-La-Maison-de-Quartier-tres-grand-succes-apres-10-ans-d-existence-Pourquoi-pas-une-secon_6_40_13.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7080",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "25.08.2025",
+          "attachment_date": "2025-08-25"
+        },
+        {
+          "download_id": "7397",
+          "filename": "extrait-postulat-Mme-Bonjour-maison-de-quartier-pourquoi-pas-une-seconde-sur-notre-commune.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7397",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3220_report_7080",
+        "montreux_postulate_3220_report_7397"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3248,
+      "object_id": "montreux-postulate-3248",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3248",
+      "title": "Renforçons les liens intergénérationnels.",
+      "author_text": "Yanick Hess (PLR)",
+      "authors": [
+        {
+          "name": "Yanick Hess",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-04-30",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4150"
+        },
+        {
+          "date": "2025-05-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4151"
+        },
+        {
+          "date": "2025-06-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4152"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-04-30",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7069",
+          "filename": "Prestations_Senior_Mtx.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7069",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "23.08.2025",
+          "attachment_date": "2025-08-23"
+        },
+        {
+          "download_id": "7070",
+          "filename": "RADIX.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7070",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "23.08.2025",
+          "attachment_date": "2025-08-23"
+        },
+        {
+          "download_id": "7076",
+          "filename": "Rapport-postulat-Renforcons-les-liens-intergenerationnels-_24-08-2025_20_1_26.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7076",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "24.08.2025",
+          "attachment_date": "2025-08-24"
+        },
+        {
+          "download_id": "7391",
+          "filename": "extrait-postulat-M.-Hess-renforcons-les-liens-intergenerationnels.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7391",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3248_report_7069",
+        "montreux_postulate_3248_report_7070",
+        "montreux_postulate_3248_report_7076",
+        "montreux_postulate_3248_report_7391"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3250,
+      "object_id": "montreux-postulate-3250",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3250",
+      "title": "Pour le développement du réseau de bornes de recharge pour véhicules électriques, notamment dans les villages du Haut de Montreux",
+      "author_text": "Christian Fürst (PLR)",
+      "authors": [
+        {
+          "name": "Christian Fürst",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-05-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4151"
+        },
+        {
+          "date": "2025-06-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4152"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-05-21",
+      "consideration_date": "2025-09-03",
+      "attachments": [
+        {
+          "download_id": "7074",
+          "filename": "Rapport-postulat-Pour-le-developpement-du-reseau-de-bornes-de-recharge-pour-vehicules-electriques-notammen_19_48_1.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7074",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "24.08.2025",
+          "attachment_date": "2025-08-24"
+        },
+        {
+          "download_id": "7390",
+          "filename": "extrait-postulat-M.-Furst-developpement-bornes-recharge-vehicules-electriques.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7390",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3250_report_7074",
+        "montreux_postulate_3250_report_7390"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3268,
+      "object_id": "montreux-postulate-3268",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3268",
+      "title": "Un travailleur social hors-murs est-il suffisant ?",
+      "author_text": "Béatrice Tisserand (VER)",
+      "authors": [
+        {
+          "name": "Béatrice Tisserand",
+          "party": "VER",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/",
+          "date_source": "audited_catalogue_override"
+        }
+      ],
+      "deposit_date": "2025-09-03",
+      "consideration_date": "2025-09-03",
+      "attachments": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3285,
+      "object_id": "montreux-postulate-3285",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3285",
+      "title": "30 km/h de nuit : combien de décibels en moins ?",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-10-08",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4154"
+        },
+        {
+          "date": "2025-11-12",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4156"
+        },
+        {
+          "date": "2026-01-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4305"
+        }
+      ],
+      "deposit_date": "2025-10-08",
+      "consideration_date": "2026-01-21",
+      "attachments": [
+        {
+          "download_id": "7193",
+          "filename": "carte-Montreux-30-kmh-et-30-kmh-de-nuit.png",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7193",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "10.01.2026",
+          "attachment_date": "2026-01-10"
+        },
+        {
+          "download_id": "7194",
+          "filename": "RCB_341_002_Montreux_Rapport-PAB_V7.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7194",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "10.01.2026",
+          "attachment_date": "2026-01-10"
+        },
+        {
+          "download_id": "7202",
+          "filename": "Reponse-du-144-sur-le-30-km-h-de-nuit.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7202",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "12.01.2026",
+          "attachment_date": "2026-01-12"
+        },
+        {
+          "download_id": "7203",
+          "filename": "Rapport-postulat-30-km-h-de-nuit-combien-de-decibels-en-moins-_12-01-2026_13_59_48.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7203",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "12.01.2026",
+          "attachment_date": "2026-01-12"
+        },
+        {
+          "download_id": "7394",
+          "filename": "extrait-postulat-M.-Muller-30km-h-de-nuit-combien-decibels-en-moins.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7394",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_postulate_3285_response_7202"
+      ],
+      "consideration_document_ids": [
+        "montreux_postulate_3285_report_7194",
+        "montreux_postulate_3285_report_7203",
+        "montreux_postulate_3285_report_7394"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2026-01-12"
+    },
+    {
+      "source_object_id": 3286,
+      "object_id": "montreux-postulate-3286",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3286",
+      "title": "Pour une analyse approfondie de l’évolution futur de la capacité fiscale de Montreux et de ses conséquences stratégiques",
+      "author_text": "Mathieu Quartier (PLR)",
+      "authors": [
+        {
+          "name": "Mathieu Quartier",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-10-08",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4154"
+        },
+        {
+          "date": "2025-11-12",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4156"
+        },
+        {
+          "date": "2025-12-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4157"
+        },
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        }
+      ],
+      "deposit_date": "2025-10-08",
+      "consideration_date": "2026-04-01",
+      "attachments": [
+        {
+          "download_id": "7395",
+          "filename": "extrait-postulat-M.-Quartier-analyse-approfondie-evolution-future-cap-fiscale-MTX-et-consequences-strategiques.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7395",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3286_report_7395"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3287,
+      "object_id": "montreux-postulate-3287",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3287",
+      "title": "Pour un inventaire numérique ouvert à tous du patrimoine de Montreux",
+      "author_text": "Stefania La Spada (PS)",
+      "authors": [
+        {
+          "name": "Stefania La Spada",
+          "party": "PS",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-10-08",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4154"
+        },
+        {
+          "date": "2025-11-12",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4156"
+        },
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        }
+      ],
+      "deposit_date": "2025-10-08",
+      "consideration_date": "2026-02-25",
+      "attachments": [
+        {
+          "download_id": "7221",
+          "filename": "Rapport-postulat-Pour-un-inventaire-numerique-ouvert-a-tous-du-patrimoine-de-Montreux_09-02-2026_11_48_37.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7221",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.02.2026",
+          "attachment_date": "2026-02-09"
+        },
+        {
+          "download_id": "7224",
+          "filename": "Annexe-du-postulat-La-Spada_Pour-un-inventaire-numerique-ouvert-a-tous-du-patrimoine-de-Montreux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7224",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "16.02.2026",
+          "attachment_date": "2026-02-16"
+        },
+        {
+          "download_id": "7398",
+          "filename": "extrait-postulat-Mme-La-Spada-inventaire-numerique-patrimoine-de-MTX.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7398",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3287_report_7221",
+        "montreux_postulate_3287_report_7224",
+        "montreux_postulate_3287_report_7398"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3300,
+      "object_id": "montreux-postulate-3300",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3300",
+      "title": "Pour une étude de faisabilité de l’acquisition d’un appareil de nettoyage laser pour le domaine public communal",
+      "author_text": "Tal Luder (UDC)",
+      "authors": [
+        {
+          "name": "Tal Luder",
+          "party": "UDC",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2025-11-12",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4156"
+        },
+        {
+          "date": "2025-12-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4157"
+        },
+        {
+          "date": "2026-01-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4305"
+        }
+      ],
+      "deposit_date": "2025-11-12",
+      "consideration_date": "2026-01-21",
+      "attachments": [
+        {
+          "download_id": "7198",
+          "filename": "Rapport-postulat-Pour-une-etude-de-faisabilite-de-l-acquisition-d-un-appareil-de-nettoyage-laser-pour-le-do_6_22_57.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7198",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "12.01.2026",
+          "attachment_date": "2026-01-12"
+        },
+        {
+          "download_id": "7392",
+          "filename": "extrait-postulat-M.-Luder-acquisition-appareil-nettoyage-laser.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7392",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3300_report_7198",
+        "montreux_postulate_3300_report_7392"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3330,
+      "object_id": "montreux-postulate-3330",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3330",
+      "title": "Nouvel état des lieux de la politique sportive à Montreux et des enjeux stratégiques.",
+      "author_text": "Benoît Ruchet (PLR)",
+      "authors": [
+        {
+          "name": "Benoît Ruchet",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        },
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        },
+        {
+          "date": "2026-06-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4309"
+        }
+      ],
+      "deposit_date": "2026-02-25",
+      "consideration_date": "2026-06-10",
+      "attachments": [
+        {
+          "download_id": "8587",
+          "filename": "Rapport-postulat-Nouvel-etat-des-lieux-de-la-politique-sportive-a-Montreux-et-des-enjeux-strategiques-_04-0_15_31_20.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8587",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.06.2026",
+          "attachment_date": "2026-06-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3330_report_8587"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3337,
+      "object_id": "montreux-postulate-3337",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3337",
+      "title": "Pour un accès gratuit à la déchèterie pour le Galetas du CSP",
+      "author_text": "Pierre Loup (DA)",
+      "authors": [
+        {
+          "name": "Pierre Loup",
+          "party": "DA",
+          "role": "postulant"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2026-01-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4305"
+        },
+        {
+          "date": "2026-05-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4308"
+        }
+      ],
+      "deposit_date": "2026-01-21",
+      "consideration_date": "2026-05-06",
+      "attachments": [
+        {
+          "download_id": "7300",
+          "filename": "SEP_PU__DECH_Formulaire_d_apport_decheterie_20251002_VF.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7300",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "20.04.2026",
+          "attachment_date": "2026-04-20"
+        },
+        {
+          "download_id": "7316",
+          "filename": "Rapport-postulat-Pour-un-acces-gratuit-a-la-decheterie-pour-le-Galetas-du-CSP_26-04-2026_20_30_58.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7316",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "26.04.2026",
+          "attachment_date": "2026-04-26"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3337_report_7300",
+        "montreux_postulate_3337_report_7316"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3339,
+      "object_id": "montreux-postulate-3339",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3339",
+      "title": "Pérenniser nos finances, notre capacité d’investissement et l’évolution des conditions salariales de nos collaborateurs par un plafonnement de l’effectif communal lié à la démographie durant trois ans, de 2026 à 2028",
+      "author_text": "Samuel Roch (PLR)",
+      "authors": [
+        {
+          "name": "Samuel Roch",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2026-01-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4305"
+        },
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        },
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        },
+        {
+          "date": "2026-06-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4309"
+        }
+      ],
+      "deposit_date": "2026-01-21",
+      "consideration_date": "2026-06-10",
+      "attachments": [
+        {
+          "download_id": "8577",
+          "filename": "2.-Annexe-Evolution-EPT.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8577",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.06.2026",
+          "attachment_date": "2026-06-01"
+        },
+        {
+          "download_id": "8578",
+          "filename": "1.-Rapport-postulat-Perenniser-nos-finances-notre-capacite-d-investissement-et-l-evolution-des-conditions-sal_8_46_49.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8578",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.06.2026",
+          "attachment_date": "2026-06-01"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3339_report_8577",
+        "montreux_postulate_3339_report_8578"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3340,
+      "object_id": "montreux-postulate-3340",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3340",
+      "title": "Un fonds pour financer nos infrastructures-clé et nos investissements durables.",
+      "author_text": "Olivier Mark (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Mark",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2026-01-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4305"
+        },
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        },
+        {
+          "date": "2026-05-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4308"
+        }
+      ],
+      "deposit_date": "2026-01-21",
+      "consideration_date": "2026-05-06",
+      "attachments": [
+        {
+          "download_id": "7342",
+          "filename": "Annexe-extrait-MCH2-financements-speciaux-et-fonds.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7342",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "27.04.2026",
+          "attachment_date": "2026-04-27"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3340_report_7342"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3341,
+      "object_id": "montreux-postulate-3341",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3341",
+      "title": "Postulat de M. Samuel Roch et Claude Byrde intitulé \"Le déroulement des mesures tests de l'extinction de l'éclairage nocturne est particulièrement obscure\"",
+      "author_text": "Samuel Roch (PLR)",
+      "authors": [
+        {
+          "name": "Samuel Roch",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        },
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        },
+        {
+          "date": "2026-05-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4308"
+        }
+      ],
+      "deposit_date": "2026-02-25",
+      "consideration_date": "2026-05-06",
+      "attachments": [
+        {
+          "download_id": "7326",
+          "filename": "1_Rapport-postulat-Postulat-de-M-Samuel-Roch-et-Claude-Byrde-intitule-Le-deroulement-des-mesures-tests-de-l_22_19_39.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7326",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "27.04.2026",
+          "attachment_date": "2026-04-27"
+        },
+        {
+          "download_id": "7327",
+          "filename": "2_Avis-DGAIC-postulat-Roch-Byrde-CC-1er-avril-26.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7327",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "27.04.2026",
+          "attachment_date": "2026-04-27"
+        },
+        {
+          "download_id": "7328",
+          "filename": "3_version-modifiee-23-avril-2026-Le-deroulement-des-mesures-test-de-l-extinction-de-l-eclairage-nocturne-est-particulierement-obscure.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7328",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "27.04.2026",
+          "attachment_date": "2026-04-27"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3341_report_7326",
+        "montreux_postulate_3341_report_7327",
+        "montreux_postulate_3341_report_7328"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3342,
+      "object_id": "montreux-postulate-3342",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3342",
+      "title": "Étude de faisabilité pour la transformation de la chapelle de Chernex en local communautaire polyvalent",
+      "author_text": "Henri Rollier (PLR)",
+      "authors": [
+        {
+          "name": "Henri Rollier",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2026-02-25",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4306"
+        },
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        },
+        {
+          "date": "2026-06-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4309"
+        }
+      ],
+      "deposit_date": "2026-02-25",
+      "consideration_date": "2026-06-10",
+      "attachments": [
+        {
+          "download_id": "8581",
+          "filename": "1_Rapport-postulat-Etude-de-faisabilite-pour-la-transformation-de-la-chapelle-de-Chernex-en-local-communautai_12_15_33.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8581",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.06.2026",
+          "attachment_date": "2026-06-01"
+        },
+        {
+          "download_id": "8582",
+          "filename": "2_2026.04.23-postulat-Rollier-transformation-de-la-chapelle-de-Chernex-en-local-communautaire-polyvalent-v2.0-5-1.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8582",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.06.2026",
+          "attachment_date": "2026-06-01"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3342_report_8581",
+        "montreux_postulate_3342_report_8582"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3363,
+      "object_id": "montreux-postulate-3363",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3363",
+      "title": "Les balades à Montreux : Quelle vie de chien !",
+      "author_text": "Anne Guyaz (PLR)",
+      "authors": [
+        {
+          "name": "Anne Guyaz",
+          "party": "PLR",
+          "role": "postulant"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2026-04-01",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4307"
+        },
+        {
+          "date": "2026-05-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4308"
+        },
+        {
+          "date": "2026-06-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4309"
+        }
+      ],
+      "deposit_date": "2026-04-01",
+      "consideration_date": "2026-06-10",
+      "attachments": [
+        {
+          "download_id": "7548",
+          "filename": "Rapport-postulat-Les-balades-a-Montreux-Quelle-vie-de-chien-_28-05-2026_21_58_47.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7548",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "28.05.2026",
+          "attachment_date": "2026-05-28"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_postulate_3363_report_7548"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "montreux_postulate_2721_text",
+      "political_object_ids": [
+        "montreux-postulate-2721"
+      ],
+      "title": "Pour un affichage politique identique sur l’ensemble du territoire communal",
+      "role": "postulate_text",
+      "document_date": "2021-11-10",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2721",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2749_text",
+      "political_object_ids": [
+        "montreux-postulate-2749"
+      ],
+      "title": "Une croissance infinie est une folie",
+      "role": "postulate_text",
+      "document_date": "2022-02-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2749",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2750_text",
+      "political_object_ids": [
+        "montreux-postulate-2750"
+      ],
+      "title": "Harcèlement de rue à Montreux",
+      "role": "postulate_text",
+      "document_date": "2022-02-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2750",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2751_text",
+      "political_object_ids": [
+        "montreux-postulate-2751"
+      ],
+      "title": "Pour un tri sélectif plus proche des habitants",
+      "role": "postulate_text",
+      "document_date": "2022-02-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2751",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2774_text",
+      "political_object_ids": [
+        "montreux-postulate-2774"
+      ],
+      "title": "Places aux vélos",
+      "role": "postulate_text",
+      "document_date": "2022-03-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2774",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2812_text",
+      "political_object_ids": [
+        "montreux-postulate-2812"
+      ],
+      "title": "Pour une modernisation de la place de jeux du Vieux-Clarens",
+      "role": "postulate_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2812",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2829_text",
+      "political_object_ids": [
+        "montreux-postulate-2829"
+      ],
+      "title": "Pour la mise à disposition de locaux sur l’ancien site de l’hôpital à des fins d’accueil d’urgence pour femmes et membres de la communauté LGBTIQ+",
+      "role": "postulate_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2829",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2860_text",
+      "political_object_ids": [
+        "montreux-postulate-2860"
+      ],
+      "title": "« Pour un audit externe du service de l’urbanisme » POSTULAT",
+      "role": "postulate_text",
+      "document_date": "2022-09-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2860",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2895_text",
+      "political_object_ids": [
+        "montreux-postulate-2895"
+      ],
+      "title": "Bureaux de vote : intégrons nos jeunes",
+      "role": "postulate_text",
+      "document_date": "2022-11-16",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2895",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2905_text",
+      "political_object_ids": [
+        "montreux-postulate-2905"
+      ],
+      "title": "Injecter l’ART sur les murs de la ville de Montreux",
+      "role": "postulate_text",
+      "document_date": "2022-11-16",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2905",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2923_text",
+      "political_object_ids": [
+        "montreux-postulate-2923"
+      ],
+      "title": "Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+      "role": "postulate_text",
+      "document_date": "2023-02-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2923",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2924_text",
+      "political_object_ids": [
+        "montreux-postulate-2924"
+      ],
+      "title": "Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\".",
+      "role": "postulate_text",
+      "document_date": "2023-02-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2924",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2925_text",
+      "political_object_ids": [
+        "montreux-postulate-2925"
+      ],
+      "title": "La citoyenneté à travers l'engagement politique des personnes d'origine étrangère à Montreux",
+      "role": "postulate_text",
+      "document_date": "2023-02-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2925",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2948_text",
+      "political_object_ids": [
+        "montreux-postulate-2948"
+      ],
+      "title": "Du béton plus durable à chaque fois que possible",
+      "role": "postulate_text",
+      "document_date": "2023-03-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2948",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2951_text",
+      "political_object_ids": [
+        "montreux-postulate-2951"
+      ],
+      "title": "Postulat de MM. Emmanuel Gétaz et Michel Zulauf demandant à la Municipalité une étude visant à trouver sur le territoire communal un site susceptible d’accueillir un espace muséal sur l’histoire de la musique à Montreux.",
+      "role": "postulate_text",
+      "document_date": "2023-03-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2951",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2952_text",
+      "political_object_ids": [
+        "montreux-postulate-2952"
+      ],
+      "title": "Escaliers de JACOB",
+      "role": "postulate_text",
+      "document_date": "2023-03-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2952",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3033_text",
+      "political_object_ids": [
+        "montreux-postulate-3033"
+      ],
+      "title": "Postulat de M. Fabien Willemin et consorts « Déclarer l'urgence climatique».",
+      "role": "postulate_text",
+      "document_date": "2023-10-11",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3033",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3034_text",
+      "political_object_ids": [
+        "montreux-postulate-3034"
+      ],
+      "title": "Valoriser et préserver nos sentiers et nos paysages des hauts de la Commune",
+      "role": "postulate_text",
+      "document_date": "2023-10-11",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3034",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3051_text",
+      "political_object_ids": [
+        "montreux-postulate-3051"
+      ],
+      "title": "Louer plutôt qu’acheter et réparer plutôt que jeter : quelles possibilités dans le sens d’une économie circulaire à Montreux ?",
+      "role": "postulate_text",
+      "document_date": "2023-11-15",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3051",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3077_text",
+      "political_object_ids": [
+        "montreux-postulate-3077"
+      ],
+      "title": "Mais où peut-on réserver une salle à Montreux ?",
+      "role": "postulate_text",
+      "document_date": "2024-02-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3077",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3078_text",
+      "political_object_ids": [
+        "montreux-postulate-3078"
+      ],
+      "title": "Pour un dézonage cohérent et socialement acceptable",
+      "role": "postulate_text",
+      "document_date": "2024-02-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3078",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3091_text",
+      "political_object_ids": [
+        "montreux-postulate-3091"
+      ],
+      "title": "Motion transformée en postulat « Protégeons la santé de nos enfants dans les espaces qui leur sont dédiés sans fumée plutôt qu’enfumés ».",
+      "role": "postulate_text",
+      "document_date": "2024-03-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3091",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3092_text",
+      "political_object_ids": [
+        "montreux-postulate-3092"
+      ],
+      "title": "Fluidifier le trafic routier pour préserver l’environnement",
+      "role": "postulate_text",
+      "document_date": "2024-03-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3092",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3112_text",
+      "political_object_ids": [
+        "montreux-postulate-3112"
+      ],
+      "title": "Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+      "role": "postulate_text",
+      "document_date": "2024-05-15",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3112",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3151_text",
+      "political_object_ids": [
+        "montreux-postulate-3151"
+      ],
+      "title": "« Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse » (anciennement « Rappelons-nous du 9 novembre 1932 »)",
+      "role": "postulate_text",
+      "document_date": "2024-10-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3151",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3162_text",
+      "political_object_ids": [
+        "montreux-postulate-3162"
+      ],
+      "title": "Les moyens à disposition des autorités communales pour atténuer l’augmentation des loyers dans la Commune de Montreux.",
+      "role": "postulate_text",
+      "document_date": "2024-11-13",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3162",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3181_text",
+      "political_object_ids": [
+        "montreux-postulate-3181"
+      ],
+      "title": "Postulat intergroupes \"Pour une révision complète de toute forme de convention ou de collaboration entre les communes de Montreux et de Veytaux\"",
+      "role": "postulate_text",
+      "document_date": "2024-12-11",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3181",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3198_text",
+      "political_object_ids": [
+        "montreux-postulate-3198"
+      ],
+      "title": "Postulat interpartis : « Pour un soutien aux collaborateurs du Service de l’Urbanisme »",
+      "role": "postulate_text",
+      "document_date": "2025-01-29",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3198",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3206_text",
+      "political_object_ids": [
+        "montreux-postulate-3206"
+      ],
+      "title": "Gratuité des TP le dimanche : Une mesure pour le pouvoir d’achat et propice à adoucir nos dimanches et jours fériés",
+      "role": "postulate_text",
+      "document_date": "2025-02-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3206",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3215_text",
+      "political_object_ids": [
+        "montreux-postulate-3215"
+      ],
+      "title": "Suspension de l’attribution de résidence secondaire à Montreux jusqu’à l’entrée en vigueur du plan d’affectation",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3215",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3216_text",
+      "political_object_ids": [
+        "montreux-postulate-3216"
+      ],
+      "title": "Faire de l’attribution de locaux pour lutter contre le sans-abrisme une priorité absolue",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3216",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3217_text",
+      "political_object_ids": [
+        "montreux-postulate-3217"
+      ],
+      "title": "Pour une adaptation à la baisse du taux maximal de résidences secondaires sur le territoire communal », renommé « Pour l’identification et l’implémentation de mesures communales permettant de lutter contre les résidences secondaires ».",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3217",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3218_text",
+      "political_object_ids": [
+        "montreux-postulate-3218"
+      ],
+      "title": "Etudions la possibilité de compléter l’efficience de l’enveloppe énergétique de la Piscine de la Maladaire",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3218",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3219_text",
+      "political_object_ids": [
+        "montreux-postulate-3219"
+      ],
+      "title": "Des places de travail à Montreux pour éviter de penduler",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3219",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3220_text",
+      "political_object_ids": [
+        "montreux-postulate-3220"
+      ],
+      "title": "La Maison de Quartier : très grand succès après 10 ans d’existence. Pourquoi pas une seconde sur notre Commune ?",
+      "role": "postulate_text",
+      "document_date": "2025-03-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3220",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3248_text",
+      "political_object_ids": [
+        "montreux-postulate-3248"
+      ],
+      "title": "Renforçons les liens intergénérationnels.",
+      "role": "postulate_text",
+      "document_date": "2025-04-30",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3248",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3250_text",
+      "political_object_ids": [
+        "montreux-postulate-3250"
+      ],
+      "title": "Pour le développement du réseau de bornes de recharge pour véhicules électriques, notamment dans les villages du Haut de Montreux",
+      "role": "postulate_text",
+      "document_date": "2025-05-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3250",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3268_text",
+      "political_object_ids": [
+        "montreux-postulate-3268"
+      ],
+      "title": "Un travailleur social hors-murs est-il suffisant ?",
+      "role": "postulate_text",
+      "document_date": "2025-09-03",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3268",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3285_text",
+      "political_object_ids": [
+        "montreux-postulate-3285"
+      ],
+      "title": "30 km/h de nuit : combien de décibels en moins ?",
+      "role": "postulate_text",
+      "document_date": "2025-10-08",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3285",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3286_text",
+      "political_object_ids": [
+        "montreux-postulate-3286"
+      ],
+      "title": "Pour une analyse approfondie de l’évolution futur de la capacité fiscale de Montreux et de ses conséquences stratégiques",
+      "role": "postulate_text",
+      "document_date": "2025-10-08",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3286",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3287_text",
+      "political_object_ids": [
+        "montreux-postulate-3287"
+      ],
+      "title": "Pour un inventaire numérique ouvert à tous du patrimoine de Montreux",
+      "role": "postulate_text",
+      "document_date": "2025-10-08",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3287",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3300_text",
+      "political_object_ids": [
+        "montreux-postulate-3300"
+      ],
+      "title": "Pour une étude de faisabilité de l’acquisition d’un appareil de nettoyage laser pour le domaine public communal",
+      "role": "postulate_text",
+      "document_date": "2025-11-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3300",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3330_text",
+      "political_object_ids": [
+        "montreux-postulate-3330"
+      ],
+      "title": "Nouvel état des lieux de la politique sportive à Montreux et des enjeux stratégiques.",
+      "role": "postulate_text",
+      "document_date": "2026-02-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3330",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3337_text",
+      "political_object_ids": [
+        "montreux-postulate-3337"
+      ],
+      "title": "Pour un accès gratuit à la déchèterie pour le Galetas du CSP",
+      "role": "postulate_text",
+      "document_date": "2026-01-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3337",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3339_text",
+      "political_object_ids": [
+        "montreux-postulate-3339"
+      ],
+      "title": "Pérenniser nos finances, notre capacité d’investissement et l’évolution des conditions salariales de nos collaborateurs par un plafonnement de l’effectif communal lié à la démographie durant trois ans, de 2026 à 2028",
+      "role": "postulate_text",
+      "document_date": "2026-01-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3339",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3340_text",
+      "political_object_ids": [
+        "montreux-postulate-3340"
+      ],
+      "title": "Un fonds pour financer nos infrastructures-clé et nos investissements durables.",
+      "role": "postulate_text",
+      "document_date": "2026-01-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3340",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3341_text",
+      "political_object_ids": [
+        "montreux-postulate-3341"
+      ],
+      "title": "Postulat de M. Samuel Roch et Claude Byrde intitulé \"Le déroulement des mesures tests de l'extinction de l'éclairage nocturne est particulièrement obscure\"",
+      "role": "postulate_text",
+      "document_date": "2026-02-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3341",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3342_text",
+      "political_object_ids": [
+        "montreux-postulate-3342"
+      ],
+      "title": "Étude de faisabilité pour la transformation de la chapelle de Chernex en local communautaire polyvalent",
+      "role": "postulate_text",
+      "document_date": "2026-02-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3342",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_3363_text",
+      "political_object_ids": [
+        "montreux-postulate-3363"
+      ],
+      "title": "Les balades à Montreux : Quelle vie de chien !",
+      "role": "postulate_text",
+      "document_date": "2026-04-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3363",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_postulate_2721_report_5940",
+      "political_object_ids": [
+        "montreux-postulate-2721"
+      ],
+      "title": "Rapport-postulat-Pour-un-affichage-politique-identique-sur-l-ensemble-du-territoire-communal_24-01-2022_7_52_59.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-01-24",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5940",
+      "chunks": 6,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2749_report_6020",
+      "political_object_ids": [
+        "montreux-postulate-2749"
+      ],
+      "title": "Rapport-postulat-Une-croissance-infinie-est-une-folie_28-03-2022_5_57_38.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-03-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6020",
+      "chunks": 7,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2750_report_6022",
+      "political_object_ids": [
+        "montreux-postulate-2750"
+      ],
+      "title": "Rapport-postulat-Harcelement-de-rue-a-Montreux_28-03-2022_9_18_8.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-03-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6022",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2751_report_6021",
+      "political_object_ids": [
+        "montreux-postulate-2751"
+      ],
+      "title": "Rapport-postulat-Pour-un-tri-selectif-plus-proche-des-habitants_28-03-2022_8_50_15.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-03-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6021",
+      "chunks": 7,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2774_report_6053",
+      "political_object_ids": [
+        "montreux-postulate-2774"
+      ],
+      "title": "Complement-de-Enrico-Bergonzo.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6053",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2774_report_6070",
+      "political_object_ids": [
+        "montreux-postulate-2774"
+      ],
+      "title": "Rapport-postulat-Places-aux-velos_09-05-2022_9_1_52.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6070",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2812_report_6186",
+      "political_object_ids": [
+        "montreux-postulate-2812"
+      ],
+      "title": "Rapport-motion-Pour-une-modernisation-de-la-place-de-jeux-du-Vieux-Clarens-_05-09-2022_8_39_7.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-09-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6186",
+      "chunks": 12,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2812_report_7483",
+      "political_object_ids": [
+        "montreux-postulate-2812"
+      ],
+      "title": "extrait-Postulat-M.-Olivier-Muller_Pour-une-modernisation-de-la-place-de-jeux-du-Vieux-Clarens.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7483",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2829_report_6191",
+      "political_object_ids": [
+        "montreux-postulate-2829"
+      ],
+      "title": "Rapport-postulat-Pour-la-mise-a-disposition-de-locaux-sur-l-ancien-site-de-l-hopital-a-des-fins-d-accueil-d_13_10_41.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-09-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6191",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2895_report_6314",
+      "political_object_ids": [
+        "montreux-postulate-2895"
+      ],
+      "title": "Rapport-postulat-Bureaux-de-vote-integrons-nos-jeunes_23-01-2023_16_5_6.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-01-23",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6314",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2905_report_6309",
+      "political_object_ids": [
+        "montreux-postulate-2905"
+      ],
+      "title": "Rapport-postulat-Injecter-l-ART-sur-les-murs-de-la-ville-de-Montreux_17-01-2023_9_35_50.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-01-17",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6309",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2905_report_7486",
+      "political_object_ids": [
+        "montreux-postulate-2905"
+      ],
+      "title": "extrait-Postulat-Mme-Stefania-La-Spada_Injecter-l-ART-sur-les-murs-de-la-ville-de-Montreux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7486",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2923_report_6382",
+      "political_object_ids": [
+        "montreux-postulate-2923"
+      ],
+      "title": "Rapport-postulat-Postulat-de-MM-Benoit-Ruchet-et-Cedric-Blanc-Pour-une-gestion-previsionnelle-centralis_14_47_33.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-04-30",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6382",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2923_report_7477",
+      "political_object_ids": [
+        "montreux-postulate-2923"
+      ],
+      "title": "extrait-Postulat-M.-Cedric-Blanc-et-M.-Benoit-Ruchet_Gestion-previsionnelle-centralisee.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7477",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2924_report_6377",
+      "political_object_ids": [
+        "montreux-postulate-2924"
+      ],
+      "title": "Mettre-la-Place-de-la-Gare-sur-les-bons-rails-developpement.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-04-23",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6377",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2924_report_6387",
+      "political_object_ids": [
+        "montreux-postulate-2924"
+      ],
+      "title": "Rapport-postulat-Postulat-de-M-Romain-Pilloud-et-de-Mme-Stefania-La-Spada-Mettre-la-Place-de-la-Gare-su_23_0_10.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-04-30",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6387",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2924_report_6396",
+      "political_object_ids": [
+        "montreux-postulate-2924"
+      ],
+      "title": "Perimetre-primaire.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-05-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6396",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2924_report_7485",
+      "political_object_ids": [
+        "montreux-postulate-2924"
+      ],
+      "title": "extrait-Postulat-M.-Romain-Pilloud-et-Mme-Stefania-La-Spada_Mettre-la-Place-de-la-Gare-sur-les-bons-rails.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7485",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2925_report_6360",
+      "political_object_ids": [
+        "montreux-postulate-2925"
+      ],
+      "title": "Rapport-postulat-La-citoyennete-a-travers-l-engagement-politique-des-personnes-d-origine-etrangere-a-Montre_8_35_51.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-03-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6360",
+      "chunks": 6,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2925_report_7479",
+      "political_object_ids": [
+        "montreux-postulate-2925"
+      ],
+      "title": "extrait-Postulat-M.-Mathias-Ekah_La-citoyennete-a-travers-l-engagement-politique.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7479",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2948_report_6391",
+      "political_object_ids": [
+        "montreux-postulate-2948"
+      ],
+      "title": "Rapport-postulat-Du-beton-plus-durable-a-chaque-fois-que-possible_01-05-2023_7_58_15.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-05-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6391",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2948_report_7480",
+      "political_object_ids": [
+        "montreux-postulate-2948"
+      ],
+      "title": "extrait-Postulat-M.-Olivier-Muller_Du-beton-plus-durable-a-chaque-fois-que-possible.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7480",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2951_report_6443",
+      "political_object_ids": [
+        "montreux-postulate-2951"
+      ],
+      "title": "Rapport-postulat-Postulat-de-MM-Emmanuel-Getaz-et-Michel-Zulauf-demandant-a-la-Municipalite-une-etude-visa_3_30_20.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-06-11",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6443",
+      "chunks": 6,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2951_report_7478",
+      "political_object_ids": [
+        "montreux-postulate-2951"
+      ],
+      "title": "extrait-Postulat-M.-Emmanuel-Getaz-et-M.-Michel-Zulauf_Etude.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7478",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2952_report_6478",
+      "political_object_ids": [
+        "montreux-postulate-2952"
+      ],
+      "title": "Rapport-postulat-Escaliers-de-JACOB_28-08-2023_8_10_43-2eme-version-VF.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-08-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6478",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_2952_report_7471",
+      "political_object_ids": [
+        "montreux-postulate-2952"
+      ],
+      "title": "extrait-Postulat-Mme-Stefania-La-Spada_Escaliers-de-JACOB.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7471",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3033_report_6538",
+      "political_object_ids": [
+        "montreux-postulate-3033"
+      ],
+      "title": "Rapport-postulat-Postulat-de-M-Fabien-Willemin-et-consorts--Declarer-l-urgence-climatique-_04-12-2023_7_24_20.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-12-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6538",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3033_report_7464",
+      "political_object_ids": [
+        "montreux-postulate-3033"
+      ],
+      "title": "extrait-Postulat-M.-Fabien-Willemin_Declarer-l-urgence-climatique.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7464",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3034_report_6539",
+      "political_object_ids": [
+        "montreux-postulate-3034"
+      ],
+      "title": "Rapport-postulat-Valoriser-et-preserver-nos-sentiers-et-nos-paysages-des-hauts-de-la-Commune_04-12-2023_7_26_47.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-12-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6539",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3034_report_7467",
+      "political_object_ids": [
+        "montreux-postulate-3034"
+      ],
+      "title": "extrait-Postulat-M.-Nicolas-Buchler_Valoriser-et-preserver-nos-sentiers-et-nos-paysages-des-hauts-de-la-Commune.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7467",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3051_report_6577",
+      "political_object_ids": [
+        "montreux-postulate-3051"
+      ],
+      "title": "Rapport-postulat-Louer-plutot-qu-acheter-et-reparer-plutot-que-jeter-quelles-possibilites-dans-le-sens-d_7_59_32.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-02-19",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6577",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3051_report_7465",
+      "political_object_ids": [
+        "montreux-postulate-3051"
+      ],
+      "title": "extrait-Postulat-M.-Florian-Manzini_Louer-plutot-qu-acheter-et-reparer-plutot-que-jeter.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7465",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3077_report_6639",
+      "political_object_ids": [
+        "montreux-postulate-3077"
+      ],
+      "title": "Rapport-postulat-Mais-ou-peut-on-reserver-une-salle-a-Montreux-_05-05-2024_17_51_23.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-05-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6639",
+      "chunks": 6,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3077_report_7470",
+      "political_object_ids": [
+        "montreux-postulate-3077"
+      ],
+      "title": "extrait-Postulat-M.-Romain-Pilloud_Mais-ou-peut-on-reserver-une-salle-a-Montreux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7470",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3078_report_6699",
+      "political_object_ids": [
+        "montreux-postulate-3078"
+      ],
+      "title": "Rapport-postulat-Pour-un-dezonage-coherent-et-socialement-acceptable_10-06-2024_9_29_50.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-06-10",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6699",
+      "chunks": 8,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3078_report_7469",
+      "political_object_ids": [
+        "montreux-postulate-3078"
+      ],
+      "title": "extrait-Postulat-M.-Olivier-Muller_Dezonage-coherent.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7469",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3091_report_6715",
+      "political_object_ids": [
+        "montreux-postulate-3091"
+      ],
+      "title": "Rapport-postulat-Motion-transformee-en-postulat--Protegeons-la-sante-de-nos-enfants-dans-les-espaces-qui-l_20_16_29.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-06-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6715",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3091_report_7466",
+      "political_object_ids": [
+        "montreux-postulate-3091"
+      ],
+      "title": "extrait-Postulat-M.-Jose-Jorge_Protegeons-la-sante-de-nos-enfants.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7466",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3092_report_6730",
+      "political_object_ids": [
+        "montreux-postulate-3092"
+      ],
+      "title": "Rapport-postulat-Fluidifier-le-trafic-routier-pour-preserver-l-environnement_25-08-2024_20_13_42.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6730",
+      "chunks": 9,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3112_report_6711",
+      "political_object_ids": [
+        "montreux-postulate-3112"
+      ],
+      "title": "Postulat-Christian-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-dans-la-commune-de-Montreux-pour-promouvoir-les-evenements-culturels-et-sportifs-loc.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-06-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6711",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3112_report_6727",
+      "political_object_ids": [
+        "montreux-postulate-3112"
+      ],
+      "title": "Rapport-postulat-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-dans-la-commune-de-Montreux-pou_16_12_0.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6727",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3112_report_7436",
+      "political_object_ids": [
+        "montreux-postulate-3112"
+      ],
+      "title": "extrait-Postulat-M.Christine-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7436",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3112_report_7437",
+      "political_object_ids": [
+        "montreux-postulate-3112"
+      ],
+      "title": "extrait-Postulat-M.Christine-Furst-Offrir-des-emplacements-d-affichage-attractifs-et-gratuits-2.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7437",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3151_report_6870",
+      "political_object_ids": [
+        "montreux-postulate-3151"
+      ],
+      "title": "Rapport-postulat-Rappelons-nous-du-9-novembre-1932_19-01-2025_21_21_38.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-01-19",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6870",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3151_report_7433",
+      "political_object_ids": [
+        "montreux-postulate-3151"
+      ],
+      "title": "extrait-Postulat-M.-Quentin-Talon-Un-lieu-de-memoire.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7433",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3162_report_6869",
+      "political_object_ids": [
+        "montreux-postulate-3162"
+      ],
+      "title": "Rapport-postulat-Les-moyens-a-disposition-des-autorites-communales-pour-attenuer-l-augmentation-des-loyers_21_18_34.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-01-19",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6869",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3206_report_6918",
+      "political_object_ids": [
+        "montreux-postulate-3206"
+      ],
+      "title": "E769-volution-relative-des-prix_cou770-ts-1990-2024-copie-2.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-04-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6918",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3206_report_6930",
+      "political_object_ids": [
+        "montreux-postulate-3206"
+      ],
+      "title": "Rapport-postulat-Gratuite-des-TP-le-dimanche-Une-mesure-pour-le-pouvoir-d-achat-et-propice-a-adoucir-nos_9_32_32.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-04-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6930",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3206_report_7435",
+      "political_object_ids": [
+        "montreux-postulate-3206"
+      ],
+      "title": "extrait-Postulat-M.-Romain-Pilloud-Gratuite-des-TP-le-dimanche.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7435",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3215_report_7081",
+      "political_object_ids": [
+        "montreux-postulate-3215",
+        "montreux-postulate-3217"
+      ],
+      "title": "ResidencesSecondaires_AvisdeDroit_Montreux_TL.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7081",
+      "chunks": 28,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3215_report_7082",
+      "political_object_ids": [
+        "montreux-postulate-3215",
+        "montreux-postulate-3217"
+      ],
+      "title": "statistiques.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7082",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3215_report_7085",
+      "political_object_ids": [
+        "montreux-postulate-3215"
+      ],
+      "title": "Rapport-postulat-Suspension-de-l-attribution-de-residence-secondaire-a-Montreux-jusqu-a-l-entree-en-vigueur_7_44_52.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7085",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3216_report_7084",
+      "political_object_ids": [
+        "montreux-postulate-3216"
+      ],
+      "title": "Rapport-postulat-Faire-de-l-attribution-de-locaux-pour-lutter-contre-le-sans-abrisme-une-priorite-absolue_2_7_42_16.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7084",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3216_report_7396",
+      "political_object_ids": [
+        "montreux-postulate-3216"
+      ],
+      "title": "extrait-postulat-M.-Torchio-attribuer-les-locaux-a-disposition-de-la-ville-a-une-association-pour-lutter-contre-sans-abrisme.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7396",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3217_report_7086",
+      "political_object_ids": [
+        "montreux-postulate-3217"
+      ],
+      "title": "Rapport-postulat-Pour-une-adaptation-a-la-baisse-du-taux-maximal-de-residences-secondaires-sur-le-territoir_7_50_28.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7086",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3217_report_7389",
+      "political_object_ids": [
+        "montreux-postulate-3217"
+      ],
+      "title": "extrait-postulat-M.-Buchler-identification-et-implementation-mesures-communales-lutter-contre-residences-secondaires.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7389",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3218_report_7036",
+      "political_object_ids": [
+        "montreux-postulate-3218"
+      ],
+      "title": "2_Rapport-de-minorite_Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Piscine.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-06-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7036",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3218_report_7037",
+      "political_object_ids": [
+        "montreux-postulate-3218"
+      ],
+      "title": "1_Rapport-postulat-Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Piscine_18_21_50.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-06-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7037",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3218_report_7432",
+      "political_object_ids": [
+        "montreux-postulate-3218"
+      ],
+      "title": "extrait-Postulat-M.-Emmanuel-Getaz-Etudions-la-possibilite-de-completer-l-efficience-de-l-enveloppe-energetique-de-la-Maladaire.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7432",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3219_report_7075",
+      "political_object_ids": [
+        "montreux-postulate-3219"
+      ],
+      "title": "Rapport-postulat-Des-places-de-travail-a-Montreux-pour-eviter-de-penduler_24-08-2025_19_56_16.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-24",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7075",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3219_report_7393",
+      "political_object_ids": [
+        "montreux-postulate-3219"
+      ],
+      "title": "extrait-postulat-M.-Mark-places-de-travail-a-Montreux-pour-eviter-de-penduler.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7393",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3220_report_7080",
+      "political_object_ids": [
+        "montreux-postulate-3220"
+      ],
+      "title": "Rapport-postulat-La-Maison-de-Quartier-tres-grand-succes-apres-10-ans-d-existence-Pourquoi-pas-une-secon_6_40_13.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7080",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3220_report_7397",
+      "political_object_ids": [
+        "montreux-postulate-3220"
+      ],
+      "title": "extrait-postulat-Mme-Bonjour-maison-de-quartier-pourquoi-pas-une-seconde-sur-notre-commune.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7397",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3248_report_7069",
+      "political_object_ids": [
+        "montreux-postulate-3248"
+      ],
+      "title": "Prestations_Senior_Mtx.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-23",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7069",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3248_report_7070",
+      "political_object_ids": [
+        "montreux-postulate-3248"
+      ],
+      "title": "RADIX.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-23",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7070",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3248_report_7076",
+      "political_object_ids": [
+        "montreux-postulate-3248"
+      ],
+      "title": "Rapport-postulat-Renforcons-les-liens-intergenerationnels-_24-08-2025_20_1_26.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-24",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7076",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3248_report_7391",
+      "political_object_ids": [
+        "montreux-postulate-3248"
+      ],
+      "title": "extrait-postulat-M.-Hess-renforcons-les-liens-intergenerationnels.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7391",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3250_report_7074",
+      "political_object_ids": [
+        "montreux-postulate-3250"
+      ],
+      "title": "Rapport-postulat-Pour-le-developpement-du-reseau-de-bornes-de-recharge-pour-vehicules-electriques-notammen_19_48_1.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-08-24",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7074",
+      "chunks": 7,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3250_report_7390",
+      "political_object_ids": [
+        "montreux-postulate-3250"
+      ],
+      "title": "extrait-postulat-M.-Furst-developpement-bornes-recharge-vehicules-electriques.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7390",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3285_report_7194",
+      "political_object_ids": [
+        "montreux-postulate-3285"
+      ],
+      "title": "RCB_341_002_Montreux_Rapport-PAB_V7.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-01-10",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7194",
+      "chunks": 92,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3285_report_7203",
+      "political_object_ids": [
+        "montreux-postulate-3285"
+      ],
+      "title": "Rapport-postulat-30-km-h-de-nuit-combien-de-decibels-en-moins-_12-01-2026_13_59_48.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-01-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7203",
+      "chunks": 6,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3285_report_7394",
+      "political_object_ids": [
+        "montreux-postulate-3285"
+      ],
+      "title": "extrait-postulat-M.-Muller-30km-h-de-nuit-combien-decibels-en-moins.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7394",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3285_response_7202",
+      "political_object_ids": [
+        "montreux-postulate-3285"
+      ],
+      "title": "Réponse municipale — 30 km/h de nuit : combien de décibels en moins ?",
+      "role": "municipal_response",
+      "document_date": "2026-01-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7202",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3286_report_7395",
+      "political_object_ids": [
+        "montreux-postulate-3286"
+      ],
+      "title": "extrait-postulat-M.-Quartier-analyse-approfondie-evolution-future-cap-fiscale-MTX-et-consequences-strategiques.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7395",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3287_report_7221",
+      "political_object_ids": [
+        "montreux-postulate-3287"
+      ],
+      "title": "Rapport-postulat-Pour-un-inventaire-numerique-ouvert-a-tous-du-patrimoine-de-Montreux_09-02-2026_11_48_37.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-02-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7221",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3287_report_7224",
+      "political_object_ids": [
+        "montreux-postulate-3287"
+      ],
+      "title": "Annexe-du-postulat-La-Spada_Pour-un-inventaire-numerique-ouvert-a-tous-du-patrimoine-de-Montreux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-02-16",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7224",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3287_report_7398",
+      "political_object_ids": [
+        "montreux-postulate-3287"
+      ],
+      "title": "extrait-postulat-Mme-La-Spada-inventaire-numerique-patrimoine-de-MTX.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7398",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3300_report_7198",
+      "political_object_ids": [
+        "montreux-postulate-3300"
+      ],
+      "title": "Rapport-postulat-Pour-une-etude-de-faisabilite-de-l-acquisition-d-un-appareil-de-nettoyage-laser-pour-le-do_6_22_57.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-01-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7198",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3300_report_7392",
+      "political_object_ids": [
+        "montreux-postulate-3300"
+      ],
+      "title": "extrait-postulat-M.-Luder-acquisition-appareil-nettoyage-laser.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7392",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3330_report_8587",
+      "political_object_ids": [
+        "montreux-postulate-3330"
+      ],
+      "title": "Rapport-postulat-Nouvel-etat-des-lieux-de-la-politique-sportive-a-Montreux-et-des-enjeux-strategiques-_04-0_15_31_20.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8587",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3337_report_7300",
+      "political_object_ids": [
+        "montreux-postulate-3337"
+      ],
+      "title": "SEP_PU__DECH_Formulaire_d_apport_decheterie_20251002_VF.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-20",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7300",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3337_report_7316",
+      "political_object_ids": [
+        "montreux-postulate-3337"
+      ],
+      "title": "Rapport-postulat-Pour-un-acces-gratuit-a-la-decheterie-pour-le-Galetas-du-CSP_26-04-2026_20_30_58.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-26",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7316",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3339_report_8577",
+      "political_object_ids": [
+        "montreux-postulate-3339"
+      ],
+      "title": "2.-Annexe-Evolution-EPT.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8577",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3339_report_8578",
+      "political_object_ids": [
+        "montreux-postulate-3339"
+      ],
+      "title": "1.-Rapport-postulat-Perenniser-nos-finances-notre-capacite-d-investissement-et-l-evolution-des-conditions-sal_8_46_49.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8578",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3340_report_7342",
+      "political_object_ids": [
+        "montreux-postulate-3340"
+      ],
+      "title": "Annexe-extrait-MCH2-financements-speciaux-et-fonds.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7342",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3341_report_7326",
+      "political_object_ids": [
+        "montreux-postulate-3341"
+      ],
+      "title": "1_Rapport-postulat-Postulat-de-M-Samuel-Roch-et-Claude-Byrde-intitule-Le-deroulement-des-mesures-tests-de-l_22_19_39.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7326",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3341_report_7327",
+      "political_object_ids": [
+        "montreux-postulate-3341"
+      ],
+      "title": "2_Avis-DGAIC-postulat-Roch-Byrde-CC-1er-avril-26.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7327",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3341_report_7328",
+      "political_object_ids": [
+        "montreux-postulate-3341"
+      ],
+      "title": "3_version-modifiee-23-avril-2026-Le-deroulement-des-mesures-test-de-l-extinction-de-l-eclairage-nocturne-est-particulierement-obscure.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-04-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7328",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3342_report_8581",
+      "political_object_ids": [
+        "montreux-postulate-3342"
+      ],
+      "title": "1_Rapport-postulat-Etude-de-faisabilite-pour-la-transformation-de-la-chapelle-de-Chernex-en-local-communautai_12_15_33.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8581",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3342_report_8582",
+      "political_object_ids": [
+        "montreux-postulate-3342"
+      ],
+      "title": "2_2026.04.23-postulat-Rollier-transformation-de-la-chapelle-de-Chernex-en-local-communautaire-polyvalent-v2.0-5-1.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8582",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_3363_report_7548",
+      "political_object_ids": [
+        "montreux-postulate-3363"
+      ],
+      "title": "Rapport-postulat-Les-balades-a-Montreux-Quelle-vie-de-chien-_28-05-2026_21_58_47.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7548",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_response_3127_6732",
+      "political_object_ids": [
+        "montreux-postulate-2923"
+      ],
+      "title": "Réponse municipale — Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+      "role": "municipal_response",
+      "document_date": "2024-08-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6732",
+      "chunks": 14,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_response_3234_6982",
+      "political_object_ids": [
+        "montreux-postulate-2721",
+        "montreux-postulate-3112"
+      ],
+      "title": "Réponse municipale — Pour un affichage politique identique sur l’ensemble du territoire communal / Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+      "role": "municipal_response",
+      "document_date": "2025-05-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6982",
+      "chunks": 19,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_response_3247_6993",
+      "political_object_ids": [
+        "montreux-postulate-2924",
+        "montreux-postulate-3198"
+      ],
+      "title": "Réponse municipale — Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\". / Postulat interpartis : « Pour un soutien aux collaborateurs du Service de l’Urbanisme »",
+      "role": "municipal_response",
+      "document_date": "2025-05-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6993",
+      "chunks": 53,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_postulate_response_3359_7275",
+      "political_object_ids": [
+        "montreux-postulate-2750"
+      ],
+      "title": "Réponse municipale — Harcèlement de rue à Montreux",
+      "role": "municipal_response",
+      "document_date": "2026-03-25",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7275",
+      "chunks": 10,
+      "source_kind": "official_municipal_response_pdf"
+    }
+  ]
+}

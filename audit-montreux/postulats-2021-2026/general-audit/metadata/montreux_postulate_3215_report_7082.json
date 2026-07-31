@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3215_report_7082",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "statistiques.pdf",
+    "source_title": "Suspension de l’attribution de résidence secondaire à Montreux jusqu’à l’entrée en vigueur du plan d’affectation",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3215",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7082",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-25",
+    "language": "fr",
+    "content_hash": "d187e750aa402d25a3519013ff3b9ec041d7b9e361c313057d82a2a796bdd975",
+    "source_content_hash": "593daeaa2f6f6f0bea2a2c514fd092fd7b9e7eb9d88221e9e6f71baa80cefa5e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3215",
+    "object_ids": [
+      "montreux-postulate-3215",
+      "montreux-postulate-3217"
+    ],
+    "object_title": "Suspension de l’attribution de résidence secondaire à Montreux jusqu’à l’entrée en vigueur du plan d’affectation",
+    "authors": [
+      {
+        "name": "Fabien Torchio",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3215",
+    "political_object_ids": [
+      "montreux-postulate-3215",
+      "montreux-postulate-3217"
+    ],
+    "political_object_document_id": "montreux_postulate_3215_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3215_text",
+      "montreux_postulate_3217_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3215_report_7081",
+      "montreux_postulate_3215_report_7085",
+      "montreux_postulate_3215_text",
+      "montreux_postulate_3217_report_7086",
+      "montreux_postulate_3217_report_7389",
+      "montreux_postulate_3217_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3215_report_7081",
+      "montreux_postulate_3215_report_7082",
+      "montreux_postulate_3215_report_7085",
+      "montreux_postulate_3217_report_7086",
+      "montreux_postulate_3217_report_7389"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7082",
+    "source_download_aliases": [
+      "7066"
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        0
+      ],
+      "characters_extracted": 1940,
+      "words_extracted": 309,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

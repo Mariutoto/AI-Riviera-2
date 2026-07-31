@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3033_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat de M. Fabien Willemin et consorts « Déclarer l'urgence climatique».",
+    "source_title": "Postulat de M. Fabien Willemin et consorts « Déclarer l'urgence climatique».",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3033",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3033",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-11",
+    "language": "fr",
+    "content_hash": "2dd7fc46b76faa4d4c3ceb7d7850628599ebb6a377f5fda39a8588b408851f58",
+    "source_content_hash": "2dd7fc46b76faa4d4c3ceb7d7850628599ebb6a377f5fda39a8588b408851f58",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3033",
+    "object_ids": [
+      "montreux-postulate-3033"
+    ],
+    "object_title": "Postulat de M. Fabien Willemin et consorts « Déclarer l'urgence climatique».",
+    "authors": [
+      {
+        "name": "Fabien Torchio",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-10-11",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3033",
+    "political_object_ids": [
+      "montreux-postulate-3033"
+    ],
+    "political_object_document_id": "montreux_postulate_3033_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3033_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3033_report_6538",
+      "montreux_postulate_3033_report_7464"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3033_report_6538",
+      "montreux_postulate_3033_report_7464"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 302,
+      "words_extracted": 36,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3287_report_7398",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-postulat-Mme-La-Spada-inventaire-numerique-patrimoine-de-MTX.pdf",
+    "source_title": "Pour un inventaire numérique ouvert à tous du patrimoine de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3287",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7398",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "54f0dc0852e14134426919c69d6dddc246a1a3abbfe66c374fda4c69595b2378",
+    "source_content_hash": "35799036ee6791de5129e4b1b940b90fa2a6921d4de90a7b97fb30e20b446fa9",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3287",
+    "object_ids": [
+      "montreux-postulate-3287"
+    ],
+    "object_title": "Pour un inventaire numérique ouvert à tous du patrimoine de Montreux",
+    "authors": [
+      {
+        "name": "Stefania La Spada",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-10-08",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3287",
+    "political_object_ids": [
+      "montreux-postulate-3287"
+    ],
+    "political_object_document_id": "montreux_postulate_3287_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3287_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3287_report_7221",
+      "montreux_postulate_3287_report_7224",
+      "montreux_postulate_3287_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3287_report_7221",
+      "montreux_postulate_3287_report_7224",
+      "montreux_postulate_3287_report_7398"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7398",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1006,
+      "words_extracted": 155,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

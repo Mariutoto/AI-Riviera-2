@@ -1,0 +1,34 @@
+# EXTRAIT
+du registre des procès-verbaux des séances du
+Conseil communal de Montreux
+
+Séance du 21 janvier 2026
+
+Présidence : M. Lionel MOYARD
+Secrétaire : Mme Céline MORIER
+Les scrutateurs : M. Laurent GILLIARD
+M. Murat KARAKAS
+
+Objet : La prise en considération du postulat de M. Olivier Müller « 30 km/h de nuit : combien de décibels en moins ? ».
+
+Vu le rapport de la commission formée de Mme Stefania La Spada, Présidente
+
+Membres : Mmes Tanya Bonjour, Tina Fattet, Rodica Rosu Fridez
+MM. Yahya Berhili, Christian Bürki, Tal Luder, Olivier Müller, Michel Posternak,
+Pierangelo Rothenbühler
+
+après délibération, le Conseil communal de Montreux par 43 NON, 25 OUI et 16 abstentions, décide:
+
+De refuser la prise en considération du postulat de M. Olivier MÜLLER : « 30 km/h de nuit : combien de décibels en moins ? ».
+
+CONSEIL COMMUNAL DE MONTREUX
+
+Le Président :
+
+Lionel MOYARD
+
+![img-0.jpeg](img-0.jpeg)
+
+La secrétaire :
+
+Céline MORIER

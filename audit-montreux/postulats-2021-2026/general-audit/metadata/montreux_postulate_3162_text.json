@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3162_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Les moyens à disposition des autorités communales pour atténuer l’augmentation des loyers dans la Commune de Montreux.",
+    "source_title": "Les moyens à disposition des autorités communales pour atténuer l’augmentation des loyers dans la Commune de Montreux.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3162",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3162",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-13",
+    "language": "fr",
+    "content_hash": "188499808bc569146d8af095884526510dc3261e6c0592df6cae458b21c8e02d",
+    "source_content_hash": "188499808bc569146d8af095884526510dc3261e6c0592df6cae458b21c8e02d",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3162",
+    "object_ids": [
+      "montreux-postulate-3162"
+    ],
+    "object_title": "Les moyens à disposition des autorités communales pour atténuer l’augmentation des loyers dans la Commune de Montreux.",
+    "authors": [
+      {
+        "name": "Stefania La Spada",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-11-13",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3162",
+    "political_object_ids": [
+      "montreux-postulate-3162"
+    ],
+    "political_object_document_id": "montreux_postulate_3162_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3162_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3162_report_6869"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3162_report_6869"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 365,
+      "words_extracted": 47,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

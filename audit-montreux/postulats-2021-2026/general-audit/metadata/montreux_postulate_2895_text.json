@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2895_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Bureaux de vote : intégrons nos jeunes",
+    "source_title": "Bureaux de vote : intégrons nos jeunes",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2895",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2895",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-16",
+    "language": "fr",
+    "content_hash": "4eef56eafbc0f9fbd5d12f78440f87d80303b70ff67872e54646b7afbc8a7267",
+    "source_content_hash": "4eef56eafbc0f9fbd5d12f78440f87d80303b70ff67872e54646b7afbc8a7267",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2895",
+    "object_ids": [
+      "montreux-postulate-2895"
+    ],
+    "object_title": "Bureaux de vote : intégrons nos jeunes",
+    "authors": [
+      {
+        "name": "Johanne Vetter",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-11-16",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2895",
+    "political_object_ids": [
+      "montreux-postulate-2895"
+    ],
+    "political_object_document_id": "montreux_postulate_2895_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2895_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2895_report_6314"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2895_report_6314"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 283,
+      "words_extracted": 36,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

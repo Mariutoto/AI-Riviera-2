@@ -1,0 +1,33 @@
+# EXTRAIT
+du registre des procès-verbaux des séances du
+Conseil communal de Montreux
+
+Séance du 6 septembre 2023
+
+Présidence : M. Tal LUDER
+Secrétaire : Mme Céline MORIER
+Les scrutateurs : M. Ihab AL JUNDI
+: M. Kelvin KAPPELER
+
+Objet : La prise en considération ou non du postulat de Mme Stefania La Spada : « Escaliers de JACOB ».
+
+Vu le rapport de la commission formée de Mme Anne Saito, Présidente
+
+Membres : Mmes Stefania La Spada, Antoinette Loup
+MM. Eric Blazquez, Mathias Ekah, Vincent Haldi, Antony Huys, Kelvin Kappeler, Olivier Müller
+
+après délibération, le Conseil communal de Montreux par 66 OUI, 6 NON et 7 abstentions, décide:
+
+D'accepter la prise en considération du postulat de Mme Stefania LA SPADA : « Escaliers de JACOB ».
+
+CONSEIL COMMUNAL DE MONTREUX
+
+Le Président :
+
+Tal LUDER
+
+![img-0.jpeg](img-0.jpeg)
+
+La secrétaire :
+
+Céline MORIER

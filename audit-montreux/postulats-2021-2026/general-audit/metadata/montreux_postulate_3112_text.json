@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3112_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+    "source_title": "Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3112",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3112",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-15",
+    "language": "fr",
+    "content_hash": "e97e3d4d9834a2bc74bccbe7211b0d01a3700e08828cbe821759021ec30c1edd",
+    "source_content_hash": "e97e3d4d9834a2bc74bccbe7211b0d01a3700e08828cbe821759021ec30c1edd",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3112",
+    "object_ids": [
+      "montreux-postulate-3112"
+    ],
+    "object_title": "Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+    "authors": [
+      {
+        "name": "Christian Fürst",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-05-15",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-05",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3112",
+    "political_object_ids": [
+      "montreux-postulate-3112"
+    ],
+    "political_object_document_id": "montreux_postulate_3112_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3112_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3112_report_6711",
+      "montreux_postulate_3112_report_6727",
+      "montreux_postulate_3112_report_7436",
+      "montreux_postulate_3112_report_7437",
+      "montreux_postulate_response_3234_6982"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3234_6982"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_3112_report_6711",
+      "montreux_postulate_3112_report_6727",
+      "montreux_postulate_3112_report_7436",
+      "montreux_postulate_3112_report_7437"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 375,
+      "words_extracted": 45,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

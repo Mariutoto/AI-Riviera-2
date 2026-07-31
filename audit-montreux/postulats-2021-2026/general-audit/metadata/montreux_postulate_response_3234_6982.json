@@ -1,0 +1,123 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_response_3234_6982",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Pour un affichage politique identique sur l’ensemble du territoire communal / Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux",
+    "source_title": "relatif à l’adoption d’un règlement communal sur les procédés de réclame, à la réponse au postulat de M. Sébastien Giovanna « Pour une commune de Montreux sensible aux inégalités frappant les personnes handicapées », pris en considération le 16 décembre 2020, à la réponse à la motion de M. Tal Luder « Pour un règlement relatif à la gestion des procédés de réclame sur le territoire de la Commune de Montreux », prise en considération le 3 mars 2021, à la réponse au postulat de M. Nicolas Büchler « Pour un affichage politique identique sur l’ensemble du territoire communal », pris en considération le 2 février 2022, à la réponse au postulat de M. Christian Fürst « Offrir des emplacements d’affichage attractifs et gratuits dans la commune de Montreux pour promouvoir les événements culturels et sportifs locaux », pris en considération le 4 septembre 2024",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3234",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6982",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-05",
+    "language": "fr",
+    "content_hash": "57d2a52c25f8f9b7525fcf7a8e64458fca29af56e47689ded50c541f8ad6b031",
+    "source_content_hash": "1f5792308999d9b6a211ca15eb1f381174b6dcb58195a78d12c5d8b21b070aea",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2721",
+    "object_ids": [
+      "montreux-postulate-2721",
+      "montreux-postulate-3112"
+    ],
+    "object_title": "Pour un affichage politique identique sur l’ensemble du territoire communal",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-05",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2721",
+    "political_object_ids": [
+      "montreux-postulate-2721",
+      "montreux-postulate-3112"
+    ],
+    "political_object_document_id": "montreux_postulate_2721_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2721_text",
+      "montreux_postulate_3112_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2721_report_5940",
+      "montreux_postulate_2721_text",
+      "montreux_postulate_3112_report_6711",
+      "montreux_postulate_3112_report_6727",
+      "montreux_postulate_3112_report_7436",
+      "montreux_postulate_3112_report_7437",
+      "montreux_postulate_3112_text"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3234_6982"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2721_report_5940",
+      "montreux_postulate_3112_report_6711",
+      "montreux_postulate_3112_report_6727",
+      "montreux_postulate_3112_report_7436",
+      "montreux_postulate_3112_report_7437"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6982",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 22,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        5,
+        2,
+        1
+      ],
+      "characters_extracted": 46786,
+      "words_extracted": 7102,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

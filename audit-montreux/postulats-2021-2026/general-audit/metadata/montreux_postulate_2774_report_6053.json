@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2774_report_6053",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Complement-de-Enrico-Bergonzo.pdf",
+    "source_title": "Places aux vélos",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2774",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6053",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-02",
+    "language": "fr",
+    "content_hash": "9136e66c3ec1983cc4ec7012f306760ec999e64638767337ffbd0417d510523b",
+    "source_content_hash": "12fb35294945e6472b7e0d5db73e38933b4d47c7fc11830d964dcb24b52f6747",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2774",
+    "object_ids": [
+      "montreux-postulate-2774"
+    ],
+    "object_title": "Places aux vélos",
+    "authors": [
+      {
+        "name": "Quentin Talon",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-03-02",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2774",
+    "political_object_ids": [
+      "montreux-postulate-2774"
+    ],
+    "political_object_document_id": "montreux_postulate_2774_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2774_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2774_report_6070",
+      "montreux_postulate_2774_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2774_report_6053",
+      "montreux_postulate_2774_report_6070"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6053",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        2
+      ],
+      "characters_extracted": 1565,
+      "words_extracted": 195,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

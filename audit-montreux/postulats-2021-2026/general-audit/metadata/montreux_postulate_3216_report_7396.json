@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3216_report_7396",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-postulat-M.-Torchio-attribuer-les-locaux-a-disposition-de-la-ville-a-une-association-pour-lutter-contre-sans-abrisme.pdf",
+    "source_title": "Faire de l’attribution de locaux pour lutter contre le sans-abrisme une priorité absolue",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3216",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7396",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "1bf15b25b3b46dd0945c97b8d19cb674f9aa29178794c3a8bc513e15c3de468f",
+    "source_content_hash": "cfe7c36b84d3d66950b48134c10c263231cee0887c626ce19a9263fb32289f46",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3216",
+    "object_ids": [
+      "montreux-postulate-3216"
+    ],
+    "object_title": "Faire de l’attribution de locaux pour lutter contre le sans-abrisme une priorité absolue",
+    "authors": [
+      {
+        "name": "Fabien Torchio",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3216",
+    "political_object_ids": [
+      "montreux-postulate-3216"
+    ],
+    "political_object_document_id": "montreux_postulate_3216_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3216_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3216_report_7084",
+      "montreux_postulate_3216_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3216_report_7084",
+      "montreux_postulate_3216_report_7396"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7396",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1168,
+      "words_extracted": 188,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2925_report_6360",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-La-citoyennete-a-travers-l-engagement-politique-des-personnes-d-origine-etrangere-a-Montre_8_35_51.pdf",
+    "source_title": "La citoyenneté à travers l'engagement politique des personnes d'origine étrangère à Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2925",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6360",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-27",
+    "language": "fr",
+    "content_hash": "e5b5b18fc325c32459f400dd190ecb39279c39df067315f5a6a38208f51563f6",
+    "source_content_hash": "88577b5baa516b8ef97c1e5419c6b610ef10f7ea7de29528ff5afcdb6ff642fa",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2925",
+    "object_ids": [
+      "montreux-postulate-2925"
+    ],
+    "object_title": "La citoyenneté à travers l'engagement politique des personnes d'origine étrangère à Montreux",
+    "authors": [
+      {
+        "name": "Mathias Ekah",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-02-01",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2925",
+    "political_object_ids": [
+      "montreux-postulate-2925"
+    ],
+    "political_object_document_id": "montreux_postulate_2925_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2925_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2925_report_7479",
+      "montreux_postulate_2925_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2925_report_6360",
+      "montreux_postulate_2925_report_7479"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6360",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 12847,
+      "words_extracted": 2040,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

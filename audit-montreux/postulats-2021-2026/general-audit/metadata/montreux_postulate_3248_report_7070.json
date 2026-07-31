@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3248_report_7070",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "RADIX.pdf",
+    "source_title": "Renforçons les liens intergénérationnels.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3248",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7070",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-23",
+    "language": "fr",
+    "content_hash": "7274139ee514d20276e285ef2fb634dbc4ffdfe049b627d8592e4bd8032332ce",
+    "source_content_hash": "a4313cb7cd8b01c1fe54e6fd7e045c56faf14f3285b08635a6107bf6c3966e7e",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3248",
+    "object_ids": [
+      "montreux-postulate-3248"
+    ],
+    "object_title": "Renforçons les liens intergénérationnels.",
+    "authors": [
+      {
+        "name": "Yanick Hess",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-04-30",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3248",
+    "political_object_ids": [
+      "montreux-postulate-3248"
+    ],
+    "political_object_document_id": "montreux_postulate_3248_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3248_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3248_report_7069",
+      "montreux_postulate_3248_report_7076",
+      "montreux_postulate_3248_report_7391",
+      "montreux_postulate_3248_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3248_report_7069",
+      "montreux_postulate_3248_report_7070",
+      "montreux_postulate_3248_report_7076",
+      "montreux_postulate_3248_report_7391"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7070",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1556,
+      "words_extracted": 250,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

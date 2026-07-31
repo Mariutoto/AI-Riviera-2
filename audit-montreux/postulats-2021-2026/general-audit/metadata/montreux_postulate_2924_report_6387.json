@@ -1,0 +1,100 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2924_report_6387",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Postulat-de-M-Romain-Pilloud-et-de-Mme-Stefania-La-Spada-Mettre-la-Place-de-la-Gare-su_23_0_10.pdf",
+    "source_title": "Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\".",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2924",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6387",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-04-30",
+    "language": "fr",
+    "content_hash": "40e985c92a36a3fd10c7118e677230f910b5488cac4673635de3426cdffaf7df",
+    "source_content_hash": "8c8acd27fc58e0a9b4e8c1357ddd6fbef76359158d60c709db1b88d89e7e9999",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2924",
+    "object_ids": [
+      "montreux-postulate-2924"
+    ],
+    "object_title": "Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\".",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-02-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2924",
+    "political_object_ids": [
+      "montreux-postulate-2924"
+    ],
+    "political_object_document_id": "montreux_postulate_2924_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2924_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2924_report_6377",
+      "montreux_postulate_2924_report_6396",
+      "montreux_postulate_2924_report_7485",
+      "montreux_postulate_2924_text",
+      "montreux_postulate_response_3247_6993"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3247_6993"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2924_report_6377",
+      "montreux_postulate_2924_report_6387",
+      "montreux_postulate_2924_report_6396",
+      "montreux_postulate_2924_report_7485"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6387",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 11834,
+      "words_extracted": 1853,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

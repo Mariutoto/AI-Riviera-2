@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3339_report_8578",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "1.-Rapport-postulat-Perenniser-nos-finances-notre-capacite-d-investissement-et-l-evolution-des-conditions-sal_8_46_49.pdf",
+    "source_title": "Pérenniser nos finances, notre capacité d’investissement et l’évolution des conditions salariales de nos collaborateurs par un plafonnement de l’effectif communal lié à la démographie durant trois ans, de 2026 à 2028",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3339",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8578",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-01",
+    "language": "fr",
+    "content_hash": "8b9718aabf17bd6d1fe9883e8b54a2b9c3071ff65c4569cb6978b609641b30c4",
+    "source_content_hash": "84f011815a75bda7a0fd139c3f02bd9a2bbde57c70a9d7e2ea2eb52fe858597e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3339",
+    "object_ids": [
+      "montreux-postulate-3339"
+    ],
+    "object_title": "Pérenniser nos finances, notre capacité d’investissement et l’évolution des conditions salariales de nos collaborateurs par un plafonnement de l’effectif communal lié à la démographie durant trois ans, de 2026 à 2028",
+    "authors": [
+      {
+        "name": "Samuel Roch",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-01-21",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3339",
+    "political_object_ids": [
+      "montreux-postulate-3339"
+    ],
+    "political_object_document_id": "montreux_postulate_3339_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3339_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3339_report_8577",
+      "montreux_postulate_3339_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3339_report_8577",
+      "montreux_postulate_3339_report_8578"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "8578",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 10822,
+      "words_extracted": 1630,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

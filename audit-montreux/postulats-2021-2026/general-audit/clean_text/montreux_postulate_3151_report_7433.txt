@@ -1,0 +1,28 @@
+# EXTRAIT
+du registre des procès-verbaux des séances du
+Conseil communal de Montreux
+
+Séance du 29 janvier 2025
+
+Présidence : M. Olivier MÜLLER
+Secrétaire : Mme Céline MORIER
+Les scrutateurs : M. Antony HUYS
+: M. Pierre LOUP
+
+Objet : La prise en considération du postulat de M. Quentin Talon « Rappelons-nous du 9 novembre 1932 » renommé « Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse ».
+
+après délibération, avec 39 OUI, 39 NON et 2 abstentions, M. le Président du Conseil tranche en votant NON, le Conseil communal de Montreux décide:
+
+De refuser la prise en considération du postulat de M. Quentin Talon « Un lieu de mémoire dédié à la lutte contre le fascisme en Suisse ».
+
+CONSEIL COMMUNAL DE MONTREUX
+
+Le Président
+
+Olivier MÜLLER
+
+![img-0.jpeg](img-0.jpeg)
+
+La secrétaire :
+
+Céline MORIER

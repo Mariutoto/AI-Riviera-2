@@ -1,0 +1,146 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_response_3247_6993",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\". / Postulat interpartis : « Pour un soutien aux collaborateurs du Service de l’Urbanisme »",
+    "source_title": "relatif à la réorganisation du service de l’urbanisme, à l’attribution de ressources nécessaires à l’accomplissement de ses missions et à la réponse à deux motions et six postulats",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3247",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6993",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-05-14",
+    "language": "fr",
+    "content_hash": "06ed31877a4339b37fe7752ad120fad9f9ef29f1034456955b6266effb6f0ac6",
+    "source_content_hash": "e4dff3ea867c3eec949acd441ab8862f4d95246f30e3f196076095a313d99224",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2924",
+    "object_ids": [
+      "montreux-postulate-2924",
+      "montreux-postulate-3198"
+    ],
+    "object_title": "Postulat de M. Romain Pilloud et de Mme Stefania La Spada : \"Mettre la Place de la Gare sur les (bons) rails\".",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-02-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2924",
+    "political_object_ids": [
+      "montreux-postulate-2924",
+      "montreux-postulate-3198"
+    ],
+    "political_object_document_id": "montreux_postulate_2924_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2924_text",
+      "montreux_postulate_3198_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2924_report_6377",
+      "montreux_postulate_2924_report_6387",
+      "montreux_postulate_2924_report_6396",
+      "montreux_postulate_2924_report_7485",
+      "montreux_postulate_2924_text",
+      "montreux_postulate_3198_text"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3247_6993"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2924_report_6377",
+      "montreux_postulate_2924_report_6387",
+      "montreux_postulate_2924_report_6396",
+      "montreux_postulate_2924_report_7485"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6993",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 47,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 138569,
+      "words_extracted": 20564,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

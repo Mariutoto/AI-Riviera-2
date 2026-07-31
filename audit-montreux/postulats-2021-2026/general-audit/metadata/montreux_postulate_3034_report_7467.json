@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3034_report_7467",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Nicolas-Buchler_Valoriser-et-preserver-nos-sentiers-et-nos-paysages-des-hauts-de-la-Commune.pdf",
+    "source_title": "Valoriser et préserver nos sentiers et nos paysages des hauts de la Commune",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3034",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7467",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "aba12148ac3cf98453a0fbdfa2e950b386f4a27431e306e3928f97d7a5341e7a",
+    "source_content_hash": "b76b386908c4a6c94945544b98191d96b36d3a0cae2801aba6602156d94e1c65",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3034",
+    "object_ids": [
+      "montreux-postulate-3034"
+    ],
+    "object_title": "Valoriser et préserver nos sentiers et nos paysages des hauts de la Commune",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-10-11",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3034",
+    "political_object_ids": [
+      "montreux-postulate-3034"
+    ],
+    "political_object_document_id": "montreux_postulate_3034_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3034_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3034_report_6539",
+      "montreux_postulate_3034_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3034_report_6539",
+      "montreux_postulate_3034_report_7467"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7467",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 982,
+      "words_extracted": 158,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

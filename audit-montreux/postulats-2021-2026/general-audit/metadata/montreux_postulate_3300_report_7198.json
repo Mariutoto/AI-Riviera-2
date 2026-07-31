@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3300_report_7198",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Pour-une-etude-de-faisabilite-de-l-acquisition-d-un-appareil-de-nettoyage-laser-pour-le-do_6_22_57.pdf",
+    "source_title": "Pour une étude de faisabilité de l’acquisition d’un appareil de nettoyage laser pour le domaine public communal",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3300",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7198",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-01-12",
+    "language": "fr",
+    "content_hash": "7a42e784ab64937dafdf3b87975950eda051473893bbbec0e71a73ce0b280f75",
+    "source_content_hash": "bee88bcecf69c58b9c4c785adc3777c207531021fb284e5695fd5ce22d60107f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3300",
+    "object_ids": [
+      "montreux-postulate-3300"
+    ],
+    "object_title": "Pour une étude de faisabilité de l’acquisition d’un appareil de nettoyage laser pour le domaine public communal",
+    "authors": [
+      {
+        "name": "Tal Luder",
+        "party": "UDC",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-11-12",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3300",
+    "political_object_ids": [
+      "montreux-postulate-3300"
+    ],
+    "political_object_document_id": "montreux_postulate_3300_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3300_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3300_report_7392",
+      "montreux_postulate_3300_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3300_report_7198",
+      "montreux_postulate_3300_report_7392"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7198",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6777,
+      "words_extracted": 1017,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

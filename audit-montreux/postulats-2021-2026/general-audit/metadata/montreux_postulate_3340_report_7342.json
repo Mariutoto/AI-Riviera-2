@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3340_report_7342",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Annexe-extrait-MCH2-financements-speciaux-et-fonds.pdf",
+    "source_title": "Un fonds pour financer nos infrastructures-clé et nos investissements durables.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3340",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7342",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-27",
+    "language": "fr",
+    "content_hash": "ec4fd734c8079ef7b74d5ff41f98d21329e2e0756229b8e71b5a655940efd934",
+    "source_content_hash": "f334f5478a754a743f1bc3b829f4532ee8f5d40342b8629fa31ae9fa199386fe",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3340",
+    "object_ids": [
+      "montreux-postulate-3340"
+    ],
+    "object_title": "Un fonds pour financer nos infrastructures-clé et nos investissements durables.",
+    "authors": [
+      {
+        "name": "Olivier Mark",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-01-21",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3340",
+    "political_object_ids": [
+      "montreux-postulate-3340"
+    ],
+    "political_object_document_id": "montreux_postulate_3340_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3340_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3340_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3340_report_7342"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7342",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        0
+      ],
+      "characters_extracted": 1262,
+      "words_extracted": 195,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

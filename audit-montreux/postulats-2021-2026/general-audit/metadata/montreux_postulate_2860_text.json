@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2860_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "« Pour un audit externe du service de l’urbanisme » POSTULAT",
+    "source_title": "« Pour un audit externe du service de l’urbanisme » POSTULAT",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2860",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2860",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-14",
+    "language": "fr",
+    "content_hash": "7cea1a927de71cb5c13b3115880938b6d7cd3e53487271a4e1b0d93b7165fdac",
+    "source_content_hash": "7cea1a927de71cb5c13b3115880938b6d7cd3e53487271a4e1b0d93b7165fdac",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2860",
+    "object_ids": [
+      "montreux-postulate-2860"
+    ],
+    "object_title": "« Pour un audit externe du service de l’urbanisme » POSTULAT",
+    "authors": [
+      {
+        "name": "Arnaud Grand",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-09-14",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2860",
+    "political_object_ids": [
+      "montreux-postulate-2860"
+    ],
+    "political_object_document_id": "montreux_postulate_2860_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2860_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 303,
+      "words_extracted": 40,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

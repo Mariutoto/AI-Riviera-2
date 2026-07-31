@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2952_report_6478",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Escaliers-de-JACOB_28-08-2023_8_10_43-2eme-version-VF.pdf",
+    "source_title": "Escaliers de JACOB",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2952",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6478",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-08-28",
+    "language": "fr",
+    "content_hash": "d7d09559329e386d0e6c2cd7356fb08ea3091f66fa1fd7ae3f57296631f853ef",
+    "source_content_hash": "6e78a11db62a5c801e01401307cbf35d8ee01ac2bb48c885b5987ee3827d0dfc",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2952",
+    "object_ids": [
+      "montreux-postulate-2952"
+    ],
+    "object_title": "Escaliers de JACOB",
+    "authors": [
+      {
+        "name": "Stefania La Spada",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-03-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2952",
+    "political_object_ids": [
+      "montreux-postulate-2952"
+    ],
+    "political_object_document_id": "montreux_postulate_2952_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2952_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2952_report_7471",
+      "montreux_postulate_2952_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2952_report_6478",
+      "montreux_postulate_2952_report_7471"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6478",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 4895,
+      "words_extracted": 861,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

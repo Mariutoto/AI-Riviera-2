@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3206_report_6930",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Gratuite-des-TP-le-dimanche-Une-mesure-pour-le-pouvoir-d-achat-et-propice-a-adoucir-nos_9_32_32.pdf",
+    "source_title": "Gratuité des TP le dimanche : Une mesure pour le pouvoir d’achat et propice à adoucir nos dimanches et jours fériés",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3206",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6930",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-04-21",
+    "language": "fr",
+    "content_hash": "743e84909107dc2774aede077734040e399b03b24d557c084941518217c3826f",
+    "source_content_hash": "8c1cf3aa1aaa69ab2d9887abff124fae232db84e0a3a2e0ee45f44d8b642194a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3206",
+    "object_ids": [
+      "montreux-postulate-3206"
+    ],
+    "object_title": "Gratuité des TP le dimanche : Une mesure pour le pouvoir d’achat et propice à adoucir nos dimanches et jours fériés",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-02-26",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3206",
+    "political_object_ids": [
+      "montreux-postulate-3206"
+    ],
+    "political_object_document_id": "montreux_postulate_3206_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3206_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3206_report_6918",
+      "montreux_postulate_3206_report_7435",
+      "montreux_postulate_3206_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3206_report_6918",
+      "montreux_postulate_3206_report_6930",
+      "montreux_postulate_3206_report_7435"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6930",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 11162,
+      "words_extracted": 1727,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

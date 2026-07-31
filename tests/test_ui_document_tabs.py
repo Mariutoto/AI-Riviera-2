@@ -35,7 +35,7 @@ class UiDocumentTabsTests(unittest.TestCase):
         app.selectbox[0].set_value("Montreux").run()
         self.assertEqual(
             app.selectbox[2].options,
-            ["Tous", "Interpellations"],
+            ["Tous", "Interpellations", "Postulats"],
         )
         self.assertEqual(len(app.exception), 0)
 

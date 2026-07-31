@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3091_report_7466",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Jose-Jorge_Protegeons-la-sante-de-nos-enfants.pdf",
+    "source_title": "Motion transformée en postulat « Protégeons la santé de nos enfants dans les espaces qui leur sont dédiés sans fumée plutôt qu’enfumés ».",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3091",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7466",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "410a3fdb08f0fa9a45c29d03d219bf9dba290ddbbe0e32b9cbca1110253939e9",
+    "source_content_hash": "a4b70aa1ed8d9c097a48fe46345795c9bc0bfca6a55708cd9c5797ea3d309d74",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3091",
+    "object_ids": [
+      "montreux-postulate-3091"
+    ],
+    "object_title": "Motion transformée en postulat « Protégeons la santé de nos enfants dans les espaces qui leur sont dédiés sans fumée plutôt qu’enfumés ».",
+    "authors": [
+      {
+        "name": "José Jorge",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-03-27",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3091",
+    "political_object_ids": [
+      "montreux-postulate-3091"
+    ],
+    "political_object_document_id": "montreux_postulate_3091_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3091_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3091_report_6715",
+      "montreux_postulate_3091_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3091_report_6715",
+      "montreux_postulate_3091_report_7466"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7466",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1050,
+      "words_extracted": 165,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3337_report_7300",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "SEP_PU__DECH_Formulaire_d_apport_decheterie_20251002_VF.pdf",
+    "source_title": "Pour un accès gratuit à la déchèterie pour le Galetas du CSP",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3337",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7300",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-04-20",
+    "language": "fr",
+    "content_hash": "202be3b72ec584f852377b2b7573def51c26ed930fa6ab893660f940d0aff513",
+    "source_content_hash": "69964e57718eeed178158f77f4448834479642a2f097bbe9fc5ed2902cfcb10a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3337",
+    "object_ids": [
+      "montreux-postulate-3337"
+    ],
+    "object_title": "Pour un accès gratuit à la déchèterie pour le Galetas du CSP",
+    "authors": [
+      {
+        "name": "Pierre Loup",
+        "party": "DA",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-01-21",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3337",
+    "political_object_ids": [
+      "montreux-postulate-3337"
+    ],
+    "political_object_document_id": "montreux_postulate_3337_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3337_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3337_report_7316",
+      "montreux_postulate_3337_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3337_report_7300",
+      "montreux_postulate_3337_report_7316"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7300",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3493,
+      "words_extracted": 500,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -20,7 +20,7 @@ class LinkSourceMentionsTests(unittest.TestCase):
     def test_document_filters_follow_each_available_corpus(self):
         self.assertEqual(
             available_document_type_labels("Montreux"),
-            ["Tous", "Interpellations"],
+            ["Tous", "Interpellations", "Postulats"],
         )
         self.assertEqual(
             available_document_type_labels("Vevey"),

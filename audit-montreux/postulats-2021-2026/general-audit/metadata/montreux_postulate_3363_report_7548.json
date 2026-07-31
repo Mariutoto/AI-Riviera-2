@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3363_report_7548",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Les-balades-a-Montreux-Quelle-vie-de-chien-_28-05-2026_21_58_47.pdf",
+    "source_title": "Les balades à Montreux : Quelle vie de chien !",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3363",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7548",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-28",
+    "language": "fr",
+    "content_hash": "a49870a3d6dcbf6cf120b68a90d2ceb6d57d9c8931c69bd830c69b5523018ac9",
+    "source_content_hash": "e3c9de9d7d8d26b8a338a555071ffb25ce0cd76e802e20b1a416d48ea73eaa8d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3363",
+    "object_ids": [
+      "montreux-postulate-3363"
+    ],
+    "object_title": "Les balades à Montreux : Quelle vie de chien !",
+    "authors": [
+      {
+        "name": "Anne Guyaz",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2026-04-01",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3363",
+    "political_object_ids": [
+      "montreux-postulate-3363"
+    ],
+    "political_object_document_id": "montreux_postulate_3363_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3363_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3363_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3363_report_7548"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7548",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 6049,
+      "words_extracted": 951,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

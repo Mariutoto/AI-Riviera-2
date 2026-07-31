@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3220_report_7080",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-La-Maison-de-Quartier-tres-grand-succes-apres-10-ans-d-existence-Pourquoi-pas-une-secon_6_40_13.pdf",
+    "source_title": "La Maison de Quartier : très grand succès après 10 ans d’existence. Pourquoi pas une seconde sur notre Commune ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3220",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7080",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-25",
+    "language": "fr",
+    "content_hash": "38f452dd9915e936a92e75fec26775597a71a5c6fae3a1fe5e39d3cf528b59c2",
+    "source_content_hash": "57485abe59c20c61e219245cc04a37e9694c21e9da1a6f5af3824bf33b49f563",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3220",
+    "object_ids": [
+      "montreux-postulate-3220"
+    ],
+    "object_title": "La Maison de Quartier : très grand succès après 10 ans d’existence. Pourquoi pas une seconde sur notre Commune ?",
+    "authors": [
+      {
+        "name": "Tanya Bonjour",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2025-03-26",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3220",
+    "political_object_ids": [
+      "montreux-postulate-3220"
+    ],
+    "political_object_document_id": "montreux_postulate_3220_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3220_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3220_report_7397",
+      "montreux_postulate_3220_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3220_report_7080",
+      "montreux_postulate_3220_report_7397"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7080",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 9839,
+      "words_extracted": 1576,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

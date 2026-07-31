@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3077_report_7470",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Romain-Pilloud_Mais-ou-peut-on-reserver-une-salle-a-Montreux.pdf",
+    "source_title": "Mais où peut-on réserver une salle à Montreux ?",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3077",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7470",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "cfa5041af438260f9e5490b056f09bf3bf485c490f3f6f120918209d05acec2c",
+    "source_content_hash": "074799f2f4079165e5f71132133af4d584489d93d821456cae406c681c8f5e6a",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3077",
+    "object_ids": [
+      "montreux-postulate-3077"
+    ],
+    "object_title": "Mais où peut-on réserver une salle à Montreux ?",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-02-28",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3077",
+    "political_object_ids": [
+      "montreux-postulate-3077"
+    ],
+    "political_object_document_id": "montreux_postulate_3077_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3077_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_3077_report_6639",
+      "montreux_postulate_3077_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_3077_report_6639",
+      "montreux_postulate_3077_report_7470"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7470",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 918,
+      "words_extracted": 149,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

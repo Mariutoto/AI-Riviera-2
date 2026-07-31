@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2721_report_5940",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Pour-un-affichage-politique-identique-sur-l-ensemble-du-territoire-communal_24-01-2022_7_52_59.pdf",
+    "source_title": "Pour un affichage politique identique sur l’ensemble du territoire communal",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2721",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5940",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-01-24",
+    "language": "fr",
+    "content_hash": "5ef523a2785c08bd076968d8a6ac556ca7e78664f47993239fcf90886c1de993",
+    "source_content_hash": "d690e9dba53f401828da5964ba7512cda34a98caa1d9b9adefb41c031f54d0fc",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2721",
+    "object_ids": [
+      "montreux-postulate-2721"
+    ],
+    "object_title": "Pour un affichage politique identique sur l’ensemble du territoire communal",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-05",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2721",
+    "political_object_ids": [
+      "montreux-postulate-2721"
+    ],
+    "political_object_document_id": "montreux_postulate_2721_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2721_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2721_text",
+      "montreux_postulate_response_3234_6982"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3234_6982"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2721_report_5940"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "5940",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 13683,
+      "words_extracted": 2219,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

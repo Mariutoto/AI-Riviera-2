@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2923_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+    "source_title": "Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2923",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2923",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-01",
+    "language": "fr",
+    "content_hash": "848c23bff42eb027de6f616fc525d7f100e23afb00e912603f6b13d6bd4fee29",
+    "source_content_hash": "848c23bff42eb027de6f616fc525d7f100e23afb00e912603f6b13d6bd4fee29",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2923",
+    "object_ids": [
+      "montreux-postulate-2923"
+    ],
+    "object_title": "Postulat de MM. Benoît Ruchet et Cédric Blanc : \"Pour une gestion prévisionnelle centralisée du personnel communal et une analyse projective des besoins en ressources humaines, notamment dans un but de mutualisation des prestations\"",
+    "authors": [
+      {
+        "name": "Benoît Ruchet",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-02-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2024-08-28",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2923",
+    "political_object_ids": [
+      "montreux-postulate-2923"
+    ],
+    "political_object_document_id": "montreux_postulate_2923_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2923_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2923_report_6382",
+      "montreux_postulate_2923_report_7477",
+      "montreux_postulate_response_3127_6732"
+    ],
+    "response_document_ids": [
+      "montreux_postulate_response_3127_6732"
+    ],
+    "consideration_report_ids": [
+      "montreux_postulate_2923_report_6382",
+      "montreux_postulate_2923_report_7477"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 459,
+      "words_extracted": 59,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

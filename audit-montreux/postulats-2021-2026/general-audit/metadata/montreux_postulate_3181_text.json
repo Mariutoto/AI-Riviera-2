@@ -1,0 +1,80 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_3181_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat intergroupes \"Pour une révision complète de toute forme de convention ou de collaboration entre les communes de Montreux et de Veytaux\"",
+    "source_title": "Postulat intergroupes \"Pour une révision complète de toute forme de convention ou de collaboration entre les communes de Montreux et de Veytaux\"",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3181",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3181",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-11",
+    "language": "fr",
+    "content_hash": "4cbc990ad7dbb3b4d742971358a535196bcb0652c71d1c88c027a6d9c6181580",
+    "source_content_hash": "4cbc990ad7dbb3b4d742971358a535196bcb0652c71d1c88c027a6d9c6181580",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-3181",
+    "object_ids": [
+      "montreux-postulate-3181"
+    ],
+    "object_title": "Postulat intergroupes \"Pour une révision complète de toute forme de convention ou de collaboration entre les communes de Montreux et de Veytaux\"",
+    "authors": [
+      {
+        "name": "Nicolas Büchler",
+        "party": "PS",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2024-12-11",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-3181",
+    "political_object_ids": [
+      "montreux-postulate-3181"
+    ],
+    "political_object_document_id": "montreux_postulate_3181_text",
+    "political_object_document_ids": [
+      "montreux_postulate_3181_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 372,
+      "words_extracted": 47,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

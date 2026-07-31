@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2751_report_6021",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "Rapport-postulat-Pour-un-tri-selectif-plus-proche-des-habitants_28-03-2022_8_50_15.pdf",
+    "source_title": "Pour un tri sélectif plus proche des habitants",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2751",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6021",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-28",
+    "language": "fr",
+    "content_hash": "acc34928c55460c9b9a6576a2c4716e6d18523cb1e7488d37d44eb7780ba4e36",
+    "source_content_hash": "c25e04b292cf338643ce020466633aa84abb9496a190207061a7a6097aafa49f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2751",
+    "object_ids": [
+      "montreux-postulate-2751"
+    ],
+    "object_title": "Pour un tri sélectif plus proche des habitants",
+    "authors": [
+      {
+        "name": "Lionel Moyard",
+        "party": "VER",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2751",
+    "political_object_ids": [
+      "montreux-postulate-2751"
+    ],
+    "political_object_document_id": "montreux_postulate_2751_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2751_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2751_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2751_report_6021"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6021",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 6,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 15272,
+      "words_extracted": 2474,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

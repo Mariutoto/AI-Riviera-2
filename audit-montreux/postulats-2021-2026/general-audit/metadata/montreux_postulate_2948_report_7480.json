@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_postulate_2948_report_7480",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M.-Olivier-Muller_Du-beton-plus-durable-a-chaque-fois-que-possible.pdf",
+    "source_title": "Du béton plus durable à chaque fois que possible",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2948",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7480",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "c01ed22781ba3e9eb33b18e9b13a492f35914cd16f48e3d4ed228ffd132b0a8a",
+    "source_content_hash": "443b7ef7c3905c4e50cce7d750f34458e801b1dd54206e4e3521665d8cc88fd8",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "montreux-postulate-2948",
+    "object_ids": [
+      "montreux-postulate-2948"
+    ],
+    "object_title": "Du béton plus durable à chaque fois que possible",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "postulant"
+      }
+    ],
+    "deposit_date": "2023-03-01",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-postulate-2948",
+    "political_object_ids": [
+      "montreux-postulate-2948"
+    ],
+    "political_object_document_id": "montreux_postulate_2948_text",
+    "political_object_document_ids": [
+      "montreux_postulate_2948_text"
+    ],
+    "related_document_ids": [
+      "montreux_postulate_2948_report_6391",
+      "montreux_postulate_2948_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_postulate_2948_report_6391",
+      "montreux_postulate_2948_report_7480"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7480",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 841,
+      "words_extracted": 131,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}
