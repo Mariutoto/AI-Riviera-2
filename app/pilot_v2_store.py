@@ -42,7 +42,11 @@ def _connect():
     import psycopg
     from psycopg.rows import dict_row
 
-    return psycopg.connect(POSTGRES_V2_URL, row_factory=dict_row)
+    return psycopg.connect(
+        POSTGRES_V2_URL,
+        row_factory=dict_row,
+        connect_timeout=5,
+    )
 
 
 def ready() -> bool:
@@ -54,6 +58,137 @@ def ready() -> bool:
     except Exception as exc:
         record_diagnostic("pilot_v2", "Pilot V2 readiness check failed", exc, target=_masked_target())
         return False
+
+
+_BROWSER_EXCLUDED_ROLES = (
+    "municipal_response",
+    "response",
+    "status_report",
+    "council_decision",
+    "consideration_report",
+    "commission_report",
+)
+
+
+def _browser_document_authors(metadata: dict) -> list[str]:
+    additional = metadata.get("additional_metadata") or {}
+    authors: list[str] = []
+    for value in additional.values():
+        if not isinstance(value, dict):
+            continue
+        for author in value.get("authors") or []:
+            if isinstance(author, dict):
+                display = _author_display(author)
+            else:
+                display = str(author or "").strip()
+            if display and display not in authors:
+                authors.append(display)
+    return authors
+
+
+def _browser_document_row(row: dict) -> dict:
+    metadata = dict(row.get("metadata") or {})
+    document_date = str(
+        metadata.get("document_date")
+        or metadata.get("publication_date")
+        or metadata.get("listing_date")
+        or metadata.get("date")
+        or ""
+    )
+    year = str(
+        metadata.get("document_year")
+        or (document_date[:4] if re.match(r"^20\d{2}", document_date) else "")
+        or metadata.get("listing_year")
+        or metadata.get("year")
+        or ""
+    )
+    source_url = str(
+        metadata.get("file_url")
+        or metadata.get("pdf_url")
+        or metadata.get("source_url")
+        or metadata.get("source_page_url")
+        or metadata.get("source_page")
+        or ""
+    )
+    return {
+        "document_id": str(row.get("document_id") or ""),
+        "title": str(row.get("title") or metadata.get("title") or "Document"),
+        "category": str(row.get("category") or metadata.get("category") or ""),
+        "document_role": str(row.get("document_role") or ""),
+        "summary": str(row.get("summary") or metadata.get("summary") or ""),
+        "commune": str(metadata.get("commune") or metadata.get("city") or ""),
+        "year": year,
+        "document_date": document_date,
+        "authors": _browser_document_authors(metadata),
+        "source_url": source_url,
+    }
+
+
+def browse_documents(
+    *,
+    query: str = "",
+    cities: tuple[str, ...] = (),
+    categories: tuple[str, ...] = (),
+    year_from: str = "",
+    year_to: str = "",
+    limit: int = 1000,
+) -> list[dict]:
+    """List primary documents for the manual browser.
+
+    This is a metadata/title search, not an embedding search. Multiple cities
+    and categories can be combined, and the year bounds remain optional so the
+    browser automatically includes future or older archives.
+    """
+    clauses = [
+        "coalesce(document_role, '') <> ALL(%s)",
+        "coalesce(metadata->>'canonical_object', 'true') <> 'false'",
+    ]
+    params: list[object] = [list(_BROWSER_EXCLUDED_ROLES)]
+
+    if cities:
+        clauses.append("metadata->>'commune' = ANY(%s)")
+        params.append(list(cities))
+    if categories:
+        clauses.append("category = ANY(%s)")
+        params.append(list(categories))
+
+    year_expression = (
+        "coalesce("
+        "nullif(metadata->>'document_year', ''), "
+        "nullif(left(metadata->>'document_date', 4), ''), "
+        "nullif(metadata->>'listing_year', ''), "
+        "nullif(metadata->>'year', '')"
+        ")"
+    )
+    if year_from:
+        clauses.append(f"{year_expression} >= %s")
+        params.append(str(year_from))
+    if year_to:
+        clauses.append(f"{year_expression} <= %s")
+        params.append(str(year_to))
+
+    for keyword in str(query or "").split():
+        clauses.append(
+            "(title ILIKE %s OR coalesce(summary, '') ILIKE %s "
+            "OR metadata::text ILIKE %s)"
+        )
+        pattern = f"%{keyword}%"
+        params.extend([pattern, pattern, pattern])
+
+    sql = f"""
+        SELECT document_id, title, category, document_role, summary, metadata
+        FROM documents
+        WHERE {" AND ".join(clauses)}
+        ORDER BY {year_expression} DESC NULLS LAST,
+                 metadata->>'commune',
+                 title
+        LIMIT %s
+    """
+    params.append(max(1, min(int(limit), 2000)))
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(sql, params)
+        rows = cursor.fetchall()
+    return [_browser_document_row(row) for row in rows]
 
 
 @lru_cache(maxsize=128)

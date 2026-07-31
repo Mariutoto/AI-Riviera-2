@@ -1,5 +1,7 @@
 import sys
 import os
+import html
+import math
 from pathlib import Path
 import re
 import time
@@ -18,7 +20,7 @@ from app.answer import answer_from_sources, get_secret, rerank_results_with_llm,
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
 from app.feedback import record_feedback, recent_feedback
-from app.pilot_v2_store import ready as pilot_v2_ready
+from app.pilot_v2_store import CATEGORY_MAP, browse_documents, ready as pilot_v2_ready
 from app.retrieval import search
 from app.search_guard import filter_guard_message
 from app.text_cleaning import fix_mojibake, format_date
@@ -64,6 +66,11 @@ DOCUMENT_TYPE_OPTIONS = {
     "Rapports des comptes": "rapports-comptes",
     "Règlement du Conseil communal": "reglement-conseil-communal",
 }
+DOCUMENT_BROWSER_CATEGORY_LABELS = {
+    CATEGORY_MAP[document_type]: label
+    for label, document_type in DOCUMENT_TYPE_OPTIONS.items()
+    if document_type in CATEGORY_MAP
+}
 
 
 def available_document_type_labels(city: str) -> list[str]:
@@ -90,6 +97,29 @@ def available_document_type_labels(city: str) -> list[str]:
         for label, document_type in DOCUMENT_TYPE_OPTIONS.items()
         if label == ALL_DOCUMENT_TYPES or document_type in available
     ]
+
+
+def available_browser_document_type_labels(cities: list[str]) -> list[str]:
+    if not cities:
+        available = {
+            document_type
+            for municipality in MUNICIPALITIES.values()
+            if municipality.search_enabled
+            for document_type in municipality.document_types
+        }
+    else:
+        available = {
+            document_type
+            for municipality in MUNICIPALITIES.values()
+            if municipality.search_enabled and municipality.label in cities
+            for document_type in municipality.document_types
+        }
+    return [
+        label
+        for label, document_type in DOCUMENT_TYPE_OPTIONS.items()
+        if label != ALL_DOCUMENT_TYPES and document_type in available
+    ]
+
 
 USER_ERROR_MESSAGE = (
     "Désolé, la recherche a rencontré un problème technique. "
@@ -380,6 +410,31 @@ st.markdown(
         line-height: 1.45;
     }
 
+    .air-about-list {
+        color: var(--air-muted);
+        display: grid;
+        gap: 0.75rem 2rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        line-height: 1.5;
+        margin: 0.8rem 0 1.7rem;
+        padding-left: 1.25rem;
+    }
+
+    .air-about-list li {
+        padding-left: 0.2rem;
+    }
+
+    .air-about-list li::marker {
+        color: var(--air-accent);
+    }
+
+    .air-about-list strong {
+        color: var(--air-ink);
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.15rem;
+    }
+
     .air-about-note {
         background: #fff8ea;
         border: 1px solid #ead7a9;
@@ -420,6 +475,95 @@ st.markdown(
         color: var(--air-ink);
     }
 
+    .st-key-document-browser-search {
+        margin: 1rem 0 1.25rem;
+    }
+
+    .st-key-document-browser-search [data-testid="stTextInputRootElement"] {
+        background: #ffffff;
+        border-color: #bfcfd3;
+        border-radius: 0.65rem;
+        box-shadow: 0 0.35rem 1.2rem rgba(35, 49, 57, 0.05);
+        min-height: 3rem;
+    }
+
+    .st-key-document-browser-search [data-testid="stTextInputRootElement"]:focus-within {
+        border-color: var(--air-accent);
+        box-shadow: 0 0 0 1px var(--air-accent);
+    }
+
+    .st-key-document-browser-filters {
+        background: var(--air-soft);
+        border: 1px solid var(--air-line);
+        border-radius: 0.65rem;
+        padding: 0.85rem 0.9rem 0.45rem;
+    }
+
+    .st-key-document-browser-filters h3 {
+        color: var(--air-ink);
+        font-size: 1rem;
+        margin: 0 0 0.75rem;
+    }
+
+    .st-key-document-browser-filters [data-testid="stWidgetLabel"] {
+        color: var(--air-ink);
+        font-size: 0.82rem;
+    }
+
+    .st-key-document-browser-results {
+        min-width: 0;
+    }
+
+    .air-browser-result {
+        align-items: center;
+        border-bottom: 1px solid var(--air-line);
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: minmax(0, 1fr) auto;
+        padding: 0.95rem 0.2rem;
+    }
+
+    .air-browser-result:first-child {
+        border-top: 1px solid var(--air-line);
+    }
+
+    .air-browser-result p {
+        color: var(--air-accent-dark);
+        font-size: 0.72rem;
+        letter-spacing: 0.025em;
+        margin: 0 0 0.35rem;
+    }
+
+    .air-browser-result h3 {
+        color: var(--air-ink);
+        font-size: 0.95rem;
+        font-weight: 550;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .air-browser-result a {
+        background: #ffffff;
+        border: 1px solid var(--air-line);
+        border-radius: 0.45rem;
+        color: var(--air-accent-dark);
+        font-size: 0.78rem;
+        padding: 0.55rem 0.7rem;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+    .air-browser-result a:hover {
+        border-color: var(--air-accent);
+        color: var(--air-accent-dark);
+    }
+
+    .air-browser-no-link {
+        color: var(--air-muted);
+        font-size: 0.75rem;
+        white-space: nowrap;
+    }
+
     @media (max-width: 900px) {
         .air-about-diagram, .air-doc-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -447,7 +591,17 @@ st.markdown(
             margin-top: 2.75rem;
         }
 
-        .air-about-diagram, .air-doc-grid {
+        .air-browser-result {
+            align-items: start;
+            grid-template-columns: 1fr;
+        }
+
+        .air-browser-result a,
+        .air-browser-no-link {
+            justify-self: start;
+        }
+
+        .air-about-diagram, .air-doc-grid, .air-about-list {
             grid-template-columns: 1fr;
         }
     }
@@ -902,11 +1056,15 @@ def render_pending_feedback_dialog() -> None:
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
     chat_tab, eval_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Eval", "Documents", "À propos"]
+        ["Assistant", "Eval", "Documents", "À propos"],
+        key="main-navigation",
+        on_change="rerun",
     )
 else:
     chat_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Documents", "À propos"]
+        ["Assistant", "Documents", "À propos"],
+        key="main-navigation",
+        on_change="rerun",
     )
     eval_tab = None
 
@@ -968,6 +1126,28 @@ def cached_answer_question(
     return answer, results, trace
 
 
+@st.cache_data(ttl=120, show_spinner=False)
+def cached_index_ready() -> bool:
+    return pilot_v2_ready()
+
+
+@st.cache_data(ttl=300, max_entries=128, show_spinner=False)
+def cached_browse_documents(
+    query: str,
+    cities: tuple[str, ...],
+    categories: tuple[str, ...],
+    year_from: str,
+    year_to: str,
+) -> list[dict]:
+    return browse_documents(
+        query=query,
+        cities=cities,
+        categories=categories,
+        year_from=year_from,
+        year_to=year_to,
+    )
+
+
 def answer_question(
     question: str,
     messages: list[dict] | None = None,
@@ -1020,6 +1200,249 @@ def queue_question(question: str) -> None:
 
 def clear_filter_warning() -> None:
     st.session_state.filter_warning = None
+
+
+def reset_document_browser_page() -> None:
+    st.session_state.document_browser_page = 1
+
+
+def clear_document_browser_filters() -> None:
+    st.session_state.document_browser_query = ""
+    st.session_state.document_browser_cities = []
+    st.session_state.document_browser_types = []
+    st.session_state.document_browser_year_from = ""
+    st.session_state.document_browser_year_to = ""
+    st.session_state.document_browser_page = 1
+
+
+def document_browser_year(value: str) -> str | None:
+    value = str(value or "").strip()
+    if not value:
+        return ""
+    return value if re.fullmatch(r"\d{4}", value) else None
+
+
+def render_document_browser_result(document: dict) -> None:
+    title = html.escape(fix_mojibake(str(document.get("title") or "Document")))
+    commune = html.escape(
+        fix_mojibake(str(document.get("commune") or "Commune non précisée"))
+    )
+    category = DOCUMENT_BROWSER_CATEGORY_LABELS.get(
+        str(document.get("category") or ""),
+        str(document.get("category") or "Document").replace("_", " ").title(),
+    )
+    category = html.escape(fix_mojibake(category))
+    authors = [
+        fix_mojibake(str(author))
+        for author in (document.get("authors") or [])
+        if str(author).strip()
+    ]
+    date = str(document.get("document_date") or "").strip()
+    year = str(document.get("year") or "").strip()
+    details = [commune, category]
+    if authors:
+        details.append(html.escape(", ".join(authors)))
+    if date:
+        details.append(html.escape(format_date(date)))
+    elif year:
+        details.append(html.escape(year))
+
+    source_url = str(document.get("source_url") or "").strip()
+    if re.match(r"^https?://", source_url, flags=re.IGNORECASE):
+        link = (
+            f'<a href="{html.escape(source_url, quote=True)}" '
+            'target="_blank" rel="noopener noreferrer">PDF ↗</a>'
+        )
+    else:
+        link = '<span class="air-browser-no-link">Lien indisponible</span>'
+
+    st.markdown(
+        f"""
+        <article class="air-browser-result">
+            <div>
+                <p>{" · ".join(details)}</p>
+                <h3>{title}</h3>
+            </div>
+            {link}
+        </article>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def render_documents_browser() -> None:
+    st.subheader("Explorer les documents")
+    st.caption(
+        "Recherchez un titre, un auteur ou un mot-clé, puis combinez plusieurs "
+        "communes, types de documents et années."
+    )
+
+    with st.container(key="document-browser-search"):
+        browser_query = st.text_input(
+            "Recherche par mots-clés",
+            placeholder="Titre, auteur ou sujet…",
+            key="document_browser_query",
+            on_change=reset_document_browser_page,
+        )
+
+    filter_column, results_column = st.columns([1, 3], gap="large")
+    browser_filters_valid = True
+
+    with filter_column:
+        with st.container(key="document-browser-filters"):
+            st.markdown("### Filtres")
+            browser_city_options = [
+                municipality.label
+                for municipality in MUNICIPALITIES.values()
+                if municipality.search_enabled
+            ]
+            selected_browser_cities = st.multiselect(
+                "Communes",
+                options=browser_city_options,
+                placeholder="Toutes les communes",
+                key="document_browser_cities",
+                on_change=reset_document_browser_page,
+            )
+
+            browser_type_options = available_browser_document_type_labels(
+                selected_browser_cities
+            )
+            stored_browser_types = [
+                label
+                for label in st.session_state.get(
+                    "document_browser_types", []
+                )
+                if label in browser_type_options
+            ]
+            if stored_browser_types != st.session_state.get(
+                "document_browser_types", []
+            ):
+                st.session_state.document_browser_types = stored_browser_types
+            selected_browser_types = st.multiselect(
+                "Types de document",
+                options=browser_type_options,
+                placeholder="Tous les types",
+                key="document_browser_types",
+                on_change=reset_document_browser_page,
+            )
+
+            year_columns = st.columns(2)
+            with year_columns[0]:
+                raw_year_from = st.text_input(
+                    "De l’année",
+                    placeholder="2021",
+                    max_chars=4,
+                    key="document_browser_year_from",
+                    on_change=reset_document_browser_page,
+                )
+            with year_columns[1]:
+                raw_year_to = st.text_input(
+                    "À l’année",
+                    placeholder="2026",
+                    max_chars=4,
+                    key="document_browser_year_to",
+                    on_change=reset_document_browser_page,
+                )
+
+            year_from = document_browser_year(raw_year_from)
+            year_to = document_browser_year(raw_year_to)
+            if year_from is None or year_to is None:
+                st.error("Utilisez une année à quatre chiffres, par exemple 2025.")
+                browser_filters_valid = False
+            elif year_from and year_to and int(year_from) > int(year_to):
+                st.error("L’année de début doit précéder l’année de fin.")
+                browser_filters_valid = False
+
+            st.button(
+                "Effacer les filtres",
+                key="clear-document-browser-filters",
+                on_click=clear_document_browser_filters,
+                width="stretch",
+            )
+            st.caption(
+                "Laissez les années vides pour inclure toutes les archives."
+            )
+
+    browser_rows: list[dict] = []
+    browser_error = ""
+    index_is_ready = browser_filters_valid and cached_index_ready()
+    if index_is_ready:
+        selected_categories = tuple(
+            CATEGORY_MAP[DOCUMENT_TYPE_OPTIONS[label]]
+            for label in selected_browser_types
+        )
+        try:
+            browser_rows = cached_browse_documents(
+                browser_query.strip(),
+                tuple(selected_browser_cities),
+                selected_categories,
+                year_from or "",
+                year_to or "",
+            )
+        except Exception as exc:
+            record_diagnostic(
+                "document_browser",
+                "Manual document browser query failed",
+                exc,
+            )
+            browser_error = (
+                "La liste des documents est temporairement indisponible."
+            )
+
+    with results_column:
+        with st.container(key="document-browser-results"):
+            if not browser_filters_valid:
+                st.info("Corrigez la période pour afficher les documents.")
+            elif browser_error:
+                st.error(browser_error)
+            elif not index_is_ready:
+                st.info(
+                    "La base documentaire n’est pas disponible dans cet "
+                    "environnement."
+                )
+            else:
+                total_documents = len(browser_rows)
+                page_size = 25
+                page_count = max(1, math.ceil(total_documents / page_size))
+                current_page = min(
+                    int(st.session_state.get("document_browser_page", 1)),
+                    page_count,
+                )
+                st.session_state.document_browser_page = current_page
+
+                heading_columns = st.columns([3, 1])
+                with heading_columns[0]:
+                    st.markdown(
+                        f"**{total_documents} document"
+                        f"{'' if total_documents == 1 else 's'}**"
+                    )
+                with heading_columns[1]:
+                    if page_count > 1:
+                        current_page = int(
+                            st.number_input(
+                                "Page",
+                                min_value=1,
+                                max_value=page_count,
+                                step=1,
+                                key="document_browser_page",
+                            )
+                        )
+
+                page_start = (current_page - 1) * page_size
+                page_rows = browser_rows[
+                    page_start : page_start + page_size
+                ]
+                if not page_rows:
+                    st.info("Aucun document ne correspond à ces filtres.")
+                for browser_document in page_rows:
+                    render_document_browser_result(browser_document)
+
+                if total_documents:
+                    st.caption(
+                        f"Affichage {page_start + 1}–"
+                        f"{min(page_start + page_size, total_documents)} "
+                        f"sur {total_documents} documents principaux."
+                    )
 
 
 with chat_tab:
@@ -1338,66 +1761,27 @@ if SHOW_ADMIN_TABS and eval_tab is not None:
                 st.dataframe(diagnostics, width="stretch", hide_index=True)
     
 with documents_tab:
-    st.subheader("Documents actuellement disponibles")
-    st.write(
-        "La couverture dépend de chaque commune. Le filtre « Type de document » "
-        "s’adapte automatiquement à l’institution choisie afin de ne proposer que "
-        "des catégories réellement indexées."
-    )
-    st.markdown(
-        """
-        <div class="air-doc-grid">
-            <div class="air-doc-card">
-                <h3>La Tour-de-Peilz</h3>
-                <p><strong>Objets politiques :</strong> 50 interpellations, 35 postulats et 10 motions.</p>
-                <p><strong>Autres documents :</strong> 153 préavis municipaux, 35 procès-verbaux, 6 budgets, 5 rapports de gestion, 5 rapports des comptes et le règlement du Conseil communal.</p>
-            </div>
-            <div class="air-doc-card">
-                <h3>Vevey</h3>
-                <p><strong>Objets politiques :</strong> 43 interpellations, 30 postulats et 4 motions.</p>
-                <p>Les réponses municipales, décisions et rapports associés sont reliés à l’objet politique lorsqu’une source officielle a pu être identifiée.</p>
-            </div>
-            <div class="air-doc-card">
-                <h3>Montreux</h3>
-                <p><strong>Objets politiques :</strong> 155 interpellations.</p>
-                <p>152 disposent d’une réponse vérifiable : 66 réponses en PDF et 86 réponses transcrites sur les fiches officielles.</p>
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    st.caption(
-        "Périmètre principal : législature 2021–2026. Les nombres indiquent "
-        "les objets principaux ; leurs réponses et documents de suivi peuvent "
-        "être enregistrés séparément dans la base."
-    )
-    st.markdown(
-        """
-        **Ce que signifient les principales catégories**
-
-        - **Interpellation** : questions adressées à la Municipalité, avec la réponse lorsqu’elle est publiée.
-        - **Postulat** : demande faite à la Municipalité d’étudier une mesure et de présenter un rapport.
-        - **Motion** : proposition demandant l’élaboration ou la modification d’un règlement ou d’un acte relevant du Conseil.
-        - **Préavis municipal** : proposition formelle de la Municipalité soumise au Conseil communal.
-        - **Procès-verbal** : compte rendu officiel d’une séance du Conseil.
-        - **Budgets et rapports** : documents financiers, rapports de gestion et rapports des comptes.
-        """
-    )
+    if documents_tab.open:
+        render_documents_browser()
 
 with about_tab:
     st.subheader("À quoi sert AI Riviera ?")
     intro_col, image_col = st.columns([1.8, 1])
     with intro_col:
         st.write(
-            "AI Riviera facilite la recherche dans les documents publics de "
-            "La Tour-de-Peilz, Vevey et Montreux. Une question en langage courant "
-            "permet de retrouver un objet politique, son auteur, sa date, son "
-            "éventuelle réponse et la source officielle correspondante."
+            "AI Riviera facilite la recherche dans les documents publics de la "
+            "Riviera vaudoise, dont ceux de La Tour-de-Peilz, Vevey et Montreux. "
+            "Une question en langage courant permet de retrouver un objet politique, "
+            "son auteur, sa date, son éventuelle réponse et la source officielle "
+            "correspondante."
         )
         st.write(
             "Le projet est à but non lucratif. Il ne remplace ni les sites "
-            "officiels ni le travail des administrations : il rend les archives "
-            "plus faciles à explorer, à relier et à vérifier."
+            "officiels ni le travail des administrations : il propose un accès "
+            "régional centralisé aux fichiers publics et rend les archives plus "
+            "faciles à explorer, à relier et à vérifier. La mutualisation de "
+            "l'infrastructure et des méthodes permet également de réaliser des "
+            "économies d'échelle entre les communes."
         )
         st.markdown(
             "Le code est open source et consultable sur "
@@ -1414,32 +1798,40 @@ with about_tab:
     st.subheader("À qui cela peut être utile ?")
     st.markdown(
         """
-        <div class="air-about-diagram">
-            <div class="air-about-step">
+        <ul class="air-about-list">
+            <li>
                 <strong>Habitants et médias</strong>
-                <span>Poser une question sans connaître le nom exact du document et accéder directement aux sources.</span>
-            </div>
-            <div class="air-about-step">
+                Poser une question sans connaître le nom exact du document et accéder directement aux sources.
+            </li>
+            <li>
                 <strong>Conseillères et conseillers</strong>
-                <span>Retrouver les interventions précédentes, les engagements annoncés et les réponses déjà données.</span>
-            </div>
-            <div class="air-about-step">
+                Retrouver les interventions précédentes, les engagements annoncés et les réponses déjà données.
+            </li>
+            <li>
                 <strong>Administration communale</strong>
-                <span>Suivre les objets en attente et retrouver une réponse même lorsqu’elle arrive plusieurs années après le dépôt.</span>
-            </div>
-            <div class="air-about-step">
+                Suivre les objets en attente et retrouver une réponse même lorsqu’elle arrive plusieurs années après le dépôt.
+            </li>
+            <li>
                 <strong>Mémoire institutionnelle</strong>
-                <span>Relier une interpellation, un postulat ou une motion à ses réponses, rapports et décisions dans le temps.</span>
-            </div>
-            <div class="air-about-step">
+                Relier une interpellation, un postulat ou une motion à ses réponses, rapports et décisions dans le temps.
+            </li>
+            <li>
                 <strong>Sujets récurrents</strong>
-                <span>Repérer des titres proches, des doublons possibles ou des questions qui reviennent sous une autre formulation.</span>
-            </div>
-            <div class="air-about-step">
+                Repérer des titres proches, des doublons possibles ou des questions qui reviennent sous une autre formulation.
+            </li>
+            <li>
                 <strong>Contrôle et transparence</strong>
-                <span>Comparer les dates, vérifier si une réponse existe et ouvrir la publication officielle utilisée.</span>
-            </div>
-        </div>
+                Comparer les dates, vérifier si une réponse existe et ouvrir la publication officielle utilisée.
+            </li>
+            <li>
+                <strong>Accès régional centralisé</strong>
+                Consulter depuis un même site les fichiers publics disponibles dans plusieurs communes de la Riviera.
+            </li>
+            <li>
+                <strong>Économies d’échelle</strong>
+                Mutualiser l’indexation, la recherche et les outils techniques plutôt que de reproduire le même travail dans chaque commune.
+            </li>
+        </ul>
         """,
         unsafe_allow_html=True,
     )
@@ -1447,24 +1839,24 @@ with about_tab:
     st.subheader("Comment ça marche ?")
     st.markdown(
         """
-        <div class="air-about-diagram">
-            <div class="air-about-step">
+        <ul class="air-about-list">
+            <li>
                 <strong>1. Question</strong>
-                <span>Vous écrivez une question simple, avec un titre, un auteur ou une date si vous les connaissez.</span>
-            </div>
-            <div class="air-about-step">
+                Vous écrivez une question simple, avec un titre, un auteur ou une date si vous les connaissez.
+            </li>
+            <li>
                 <strong>2. Vérification</strong>
-                <span>L’application consulte les métadonnées fiables : commune, auteurs, dates, catégories et relations entre documents.</span>
-            </div>
-            <div class="air-about-step">
+                L’application consulte les métadonnées fiables : commune, auteurs, dates, catégories et relations entre documents.
+            </li>
+            <li>
                 <strong>3. Recherche</strong>
-                <span>Elle recherche ensuite les passages utiles dans les PDF et les transcriptions officielles indexées.</span>
-            </div>
-            <div class="air-about-step">
+                Elle recherche ensuite les passages utiles dans les PDF et les transcriptions officielles indexées.
+            </li>
+            <li>
                 <strong>4. Réponse sourcée</strong>
-                <span>Elle présente une réponse concise et les liens officiels nécessaires pour la contrôler.</span>
-            </div>
-        </div>
+                Elle présente une réponse concise et les liens officiels nécessaires pour la contrôler.
+            </li>
+        </ul>
         """,
         unsafe_allow_html=True,
     )
