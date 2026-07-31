@@ -47,7 +47,7 @@ class AnsweredInterpellationsTests(unittest.TestCase):
             commune="Montreux",
         )
 
-        self.assertIn("[*Source officielle*]", line)
+        self.assertIn("[*Lien officiel*]", line)
         self.assertNotIn("[*PDF*]", line)
 
     def test_detects_response_enumeration_and_uses_response_year(self):

@@ -485,7 +485,7 @@ def _political_document_line(
             ".pdf" in pdf_url.lower()
             or "download.asp" in pdf_url.lower()
         )
-        else "Source officielle"
+        else "Lien officiel"
     )
     pdf_part = (
         f" — [*{source_label}*]({pdf_url})"

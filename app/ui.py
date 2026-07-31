@@ -244,13 +244,6 @@ st.markdown(
         margin: 0;
     }
 
-    .air-home-hero p {
-        color: var(--air-muted);
-        font-size: 1rem;
-        line-height: 1.55;
-        margin: 0.85rem auto 0;
-    }
-
     .st-key-air-home-search,
     .st-key-air-search-filters {
         margin-left: auto;
@@ -293,8 +286,15 @@ st.markdown(
 
     .st-key-air-search-filters [data-testid="stExpander"] summary {
         color: var(--air-muted);
-        font-size: 0.82rem;
-        min-height: 2.65rem;
+        font-size: 0.76rem;
+        min-height: 1.9rem;
+        padding-bottom: 0.1rem;
+        padding-top: 0.1rem;
+    }
+
+    .st-key-air-search-filters [data-testid="stExpander"] summary p {
+        font-size: 0.76rem;
+        line-height: 1.2;
     }
 
     .st-key-air-search-filters [data-testid="stExpander"] summary:focus,
@@ -761,6 +761,20 @@ def source_link(metadata: dict, label: str) -> str:
     return f"[{label}]({url})"
 
 
+def source_link_label(metadata: dict) -> str:
+    """Describe the actual target instead of calling every source a PDF."""
+    url = str(
+        metadata.get("source_url")
+        or metadata.get("pdf_url")
+        or metadata.get("url")
+        or metadata.get("file_url")
+        or ""
+    ).lower()
+    if ".pdf" in url or "download.asp" in url:
+        return "PDF"
+    return "Lien officiel"
+
+
 POLITICAL_OBJECT_TYPE_LABELS = {"motion": "Motion", "postulat": "Postulat", "interpellation": "Interpellation"}
 
 POLITICAL_STATUS_LABELS = {
@@ -895,14 +909,15 @@ def source_citation_line(metadata: dict) -> str | None:
 
 
 def link_source_mentions(text: str, grouped_sources: list[dict]) -> str:
-    """Turn a "Source N" mention in the answer body into a link straight to
-    that source's actual PDF — not an anchor into the Sources expander,
+    """Turn a "Source N" mention in the answer body into a direct official link.
+
+    Link to the actual PDF or source page, not an anchor into the Sources expander,
     since that's collapsed by default and an anchor into hidden content
     wouldn't do anything useful.
 
     Remove citation-only recap paragraphs before linking them. Otherwise a
     model-generated ``(Source 1, Source 2)`` footer is rendered as the
-    unhelpful duplicate line ``(PDF, PDF)`` above the Sources expander.
+    duplicate link-only line above the Sources expander.
     """
     if not grouped_sources:
         return text
@@ -926,7 +941,7 @@ def link_source_mentions(text: str, grouped_sources: list[dict]) -> str:
         url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
         if not url:
             return match.group(0)
-        return f"[PDF]({url})"
+        return f"[{source_link_label(metadata)}]({url})"
 
     return re.sub(r"\bSource\s+(\d+)\b", replace, text)
 
@@ -947,8 +962,8 @@ def render_sources(results: list[dict], message_index: int, source_blurbs: dict[
                 year = metadata.get("year") or metadata.get("listing_year") or metadata.get("date", "")
                 category = metadata.get("category") or metadata.get("doc_type", "")
                 citation_line = " / ".join(str(part) for part in (year, category) if part)
-            pdf_link = source_link(metadata, "PDF")
-            summary_line = f"{citation_line} · {pdf_link}" if citation_line else pdf_link
+            official_link = source_link(metadata, source_link_label(metadata))
+            summary_line = f"{citation_line} · {official_link}" if citation_line else official_link
             blurb = fix_mojibake(source_blurbs.get(str(index), ""))
             blurb_line = f"<br>{blurb}" if blurb else ""
             source_lines.append(
@@ -1249,9 +1264,12 @@ def render_document_browser_result(document: dict) -> None:
 
     source_url = str(document.get("source_url") or "").strip()
     if re.match(r"^https?://", source_url, flags=re.IGNORECASE):
+        link_label = source_link_label(
+            {"source_url": source_url, "commune": document.get("commune", "")}
+        )
         link = (
             f'<a href="{html.escape(source_url, quote=True)}" '
-            'target="_blank" rel="noopener noreferrer">PDF ↗</a>'
+            f'target="_blank" rel="noopener noreferrer">{link_label} ↗</a>'
         )
     else:
         link = '<span class="air-browser-no-link">Lien indisponible</span>'
@@ -1482,14 +1500,13 @@ with chat_tab:
             """
             <div class="air-home-hero">
                 <h1>Que souhaitez-vous savoir&nbsp;?</h1>
-                <p>Posez une question sur les documents publics de la Riviera vaudoise.</p>
             </div>
             """,
             unsafe_allow_html=True,
         )
         with st.container(key="air-home-search"):
             question = st.chat_input(
-                "Posez une question sur les documents...",
+                "Posez une question sur les documents publics de la Riviera vaudoise.",
                 disabled=not city_available,
                 key="home-question-input",
             )
@@ -1628,7 +1645,7 @@ with chat_tab:
 
     if not is_home_view:
         question = st.chat_input(
-            "Posez une question sur les documents...",
+            "Posez une question sur les documents publics de la Riviera vaudoise.",
             disabled=(
                 st.session_state.pending_question is not None
                 or not city_available

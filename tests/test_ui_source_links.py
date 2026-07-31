@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import unittest
 
-from app.ui import available_document_type_labels, link_source_mentions
+from app.ui import (
+    available_document_type_labels,
+    link_source_mentions,
+    source_link_label,
+)
 
 
 def grouped_sources(count: int) -> list[dict]:
@@ -60,6 +64,35 @@ class LinkSourceMentionsTests(unittest.TestCase):
         self.assertIn("[PDF](https://example.test/document-1.pdf)", linked)
         self.assertIn("[PDF](https://example.test/document-2.pdf)", linked)
         self.assertIn("Un fait verifiable", linked)
+
+    def test_html_source_is_labeled_as_an_official_link(self):
+        metadata = {
+            "commune": "Montreux",
+            "source_url": "https://www.conseilmontreux.ch/documents/recherche/?id=42",
+        }
+
+        self.assertEqual(source_link_label(metadata), "Lien officiel")
+        linked = link_source_mentions(
+            "Reponse disponible (Source 1).",
+            [{"metadata": metadata}],
+        )
+        self.assertIn(
+            "[Lien officiel](https://www.conseilmontreux.ch/documents/recherche/?id=42)",
+            linked,
+        )
+
+    def test_download_endpoint_is_still_labeled_as_pdf(self):
+        self.assertEqual(
+            source_link_label(
+                {
+                    "source_url": (
+                        "https://conseil.vevey.ch/ConseilCommunal/"
+                        "download.asp?d=5981"
+                    )
+                }
+            ),
+            "PDF",
+        )
 
 
 if __name__ == "__main__":

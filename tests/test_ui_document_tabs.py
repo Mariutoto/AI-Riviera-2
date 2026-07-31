@@ -17,6 +17,14 @@ class UiDocumentTabsTests(unittest.TestCase):
             [tab.label for tab in app.tabs],
             ["Assistant", "Documents", "À propos"],
         )
+        self.assertEqual(
+            app.chat_input[0].placeholder,
+            "Posez une question sur les documents publics de la Riviera vaudoise.",
+        )
+        self.assertEqual(
+            app.expander[0].label,
+            "Affiner la recherche (facultatif)",
+        )
 
         app.selectbox[0].set_value("Vevey").run()
         self.assertEqual(
