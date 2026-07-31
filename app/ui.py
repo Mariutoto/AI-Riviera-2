@@ -129,36 +129,173 @@ def admin_tabs_enabled() -> bool:
 
 st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
 
-st.title("AI Riviera")
-st.caption("Assistant de recherche sur les documents publics de la Riviera (législature 2021-2026) - projet à but non lucratif")
-
 st.markdown(
     """
     <style>
+    :root {
+        --air-ink: #233139;
+        --air-muted: #6f7d83;
+        --air-line: #dbe4e6;
+        --air-soft: #f3f7f8;
+        --air-accent: #34788a;
+        --air-accent-dark: #285f6e;
+    }
+
+    html, body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    [data-testid="stAppViewContainer"] {
+        background: #ffffff;
+        color: var(--air-ink);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     [data-testid="stSidebar"], [data-testid="collapsedControl"] {
         display: none;
     }
 
+    [data-testid="stMainBlockContainer"] {
+        max-width: 1040px;
+        padding-bottom: 6rem;
+        padding-top: 2rem;
+    }
+
+    .air-site-brand {
+        color: var(--air-ink);
+        font-size: 1.18rem;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+        line-height: 2.6rem;
+        margin: 0;
+    }
+
+    [data-testid="stTabs"] {
+        position: relative;
+    }
+
+    [data-testid="stTabs"] [data-baseweb="tab-list"] {
+        border-bottom: 1px solid var(--air-line);
+        gap: 0.25rem;
+        justify-content: flex-end;
+        margin-top: -3.25rem;
+        min-height: 3.25rem;
+    }
+
+    [data-testid="stTabs"] button[data-baseweb="tab"] {
+        background: transparent;
+        color: var(--air-muted);
+        font-size: 0.88rem;
+        font-weight: 400;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    [data-testid="stTabs"] button[data-baseweb="tab"][aria-selected="true"] {
+        color: var(--air-ink);
+    }
+
+    [data-testid="stTabs"] div[data-baseweb="tab-highlight"] {
+        background: var(--air-accent);
+    }
+
+    .air-home-hero {
+        margin: 4.25rem auto 1.55rem;
+        max-width: 720px;
+        text-align: center;
+    }
+
+    .air-home-hero h1 {
+        color: var(--air-ink);
+        font-size: clamp(2rem, 4vw, 2.85rem);
+        font-weight: 500;
+        letter-spacing: -0.04em;
+        line-height: 1.08;
+        margin: 0;
+    }
+
+    .air-home-hero p {
+        color: var(--air-muted);
+        font-size: 1rem;
+        line-height: 1.55;
+        margin: 0.85rem auto 0;
+    }
+
+    .st-key-air-home-search,
+    .st-key-air-search-filters {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+
+    .st-key-air-home-search {
+        margin-bottom: 0.55rem;
+    }
+
+    .st-key-air-home-search [data-testid="stChatInput"] {
+        border: 1px solid #bfcfd3;
+        border-radius: 0.7rem;
+        box-shadow: 0 0.45rem 1.4rem rgba(35, 49, 57, 0.06);
+        position: relative;
+    }
+
+    [data-testid="stChatInput"] {
+        border-color: #bfcfd3;
+        border-radius: 0.7rem;
+    }
+
+    [data-testid="stChatInput"]:focus-within {
+        border-color: var(--air-accent);
+        box-shadow: 0 0 0 1px var(--air-accent);
+    }
+
+    [data-testid="stChatInput"] button {
+        color: var(--air-accent-dark);
+    }
+
+    .st-key-air-search-filters [data-testid="stExpander"] {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid var(--air-line);
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .st-key-air-search-filters [data-testid="stExpander"] summary {
+        color: var(--air-muted);
+        font-size: 0.82rem;
+        min-height: 2.65rem;
+    }
+
+    .st-key-air-search-filters [data-testid="stExpander"] summary:focus,
+    .st-key-air-search-filters [data-testid="stExpander"] summary:focus-visible {
+        box-shadow: none;
+        outline: 1px solid var(--air-accent);
+        outline-offset: -1px;
+    }
+
     div[data-testid="stButton"] > button {
-        background: #f3f7fd;
-        border: 1px solid #c9d8ef;
-        color: #253247;
-        min-height: 3rem;
+        background: #ffffff;
+        border: 1px solid var(--air-line);
+        border-radius: 0.55rem;
+        color: var(--air-ink);
+        font-weight: 400;
+        min-height: 2.75rem;
         text-align: left;
     }
 
     div[data-testid="stButton"] > button:hover {
-        background: #e8f1ff;
-        border-color: #8eb0df;
-        color: #1f2d42;
+        background: var(--air-soft);
+        border-color: #9eb8be;
+        color: var(--air-accent-dark);
     }
 
     .air-loading {
         align-items: center;
-        background: #f3f6fa;
-        border: 1px solid #e2e7ef;
+        background: var(--air-soft);
+        border: 1px solid var(--air-line);
         border-radius: 0.45rem;
-        color: #3f4652;
+        color: var(--air-ink);
         display: flex;
         gap: 0.75rem;
         justify-content: flex-start;
@@ -177,7 +314,7 @@ st.markdown(
 
     .air-loading-page {
         background: #ffffff;
-        border: 2px solid #3a8f6b;
+        border: 2px solid var(--air-accent);
         border-radius: 0.25rem;
         box-shadow: 0 0.12rem 0.3rem rgba(31, 41, 51, 0.08);
         height: 1.6rem;
@@ -221,23 +358,23 @@ st.markdown(
     }
 
     .air-about-step {
-        background: #f7f8fa;
-        border: 1px solid #dfe5ec;
+        background: var(--air-soft);
+        border: 1px solid var(--air-line);
         border-radius: 0.45rem;
-        color: #303846;
+        color: var(--air-ink);
         min-height: 7.2rem;
         padding: 0.85rem;
     }
 
     .air-about-step strong {
-        color: #1f2d42;
+        color: var(--air-ink);
         display: block;
         font-size: 0.98rem;
         margin-bottom: 0.35rem;
     }
 
     .air-about-step span {
-        color: #566171;
+        color: var(--air-muted);
         display: block;
         font-size: 0.9rem;
         line-height: 1.45;
@@ -260,27 +397,27 @@ st.markdown(
     }
 
     .air-doc-card {
-        background: #f7f9fc;
-        border: 1px solid #dce4ef;
+        background: var(--air-soft);
+        border: 1px solid var(--air-line);
         border-radius: 0.55rem;
         padding: 1rem;
     }
 
     .air-doc-card h3 {
-        color: #1f2d42;
+        color: var(--air-ink);
         font-size: 1.05rem;
         margin: 0 0 0.65rem;
     }
 
     .air-doc-card p {
-        color: #526072;
+        color: var(--air-muted);
         font-size: 0.91rem;
         line-height: 1.5;
         margin: 0.35rem 0;
     }
 
     .air-doc-card strong {
-        color: #253247;
+        color: var(--air-ink);
     }
 
     @media (max-width: 900px) {
@@ -290,6 +427,26 @@ st.markdown(
     }
 
     @media (max-width: 560px) {
+        [data-testid="stMainBlockContainer"] {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1rem;
+        }
+
+        .air-site-brand {
+            line-height: 2.25rem;
+        }
+
+        [data-testid="stTabs"] [data-baseweb="tab-list"] {
+            justify-content: flex-start;
+            margin-top: 0;
+            overflow-x: auto;
+        }
+
+        .air-home-hero {
+            margin-top: 2.75rem;
+        }
+
         .air-about-diagram, .air-doc-grid {
             grid-template-columns: 1fr;
         }
@@ -307,6 +464,8 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+st.markdown('<div class="air-site-brand">AI Riviera</div>', unsafe_allow_html=True)
 
 def current_filters() -> dict | None:
     filters = {}
@@ -743,11 +902,11 @@ def render_pending_feedback_dialog() -> None:
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
     chat_tab, eval_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Eval", "Documents disponibles", "À propos"]
+        ["Assistant", "Eval", "Documents", "À propos"]
     )
 else:
     chat_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Documents disponibles", "À propos"]
+        ["Assistant", "Documents", "À propos"]
     )
     eval_tab = None
 
@@ -871,6 +1030,10 @@ with chat_tab:
     if "filter_warning" not in st.session_state:
         st.session_state.filter_warning = None
 
+    is_home_view = (
+        not st.session_state.messages
+        and st.session_state.pending_question is None
+    )
     selected_city = st.session_state.get("search_city", "all")
     selected_year = st.session_state.get("search_year", ALL_YEARS)
     selected_document_type = st.session_state.get(
@@ -887,7 +1050,29 @@ with chat_tab:
     if active_filter_labels:
         filter_expander_label += " — " + " · ".join(active_filter_labels)
 
-    with st.expander(filter_expander_label, expanded=False):
+    city_available = (
+        selected_city == "all" or selected_city in SEARCH_ENABLED_CITIES
+    )
+    question = None
+    if is_home_view:
+        st.markdown(
+            """
+            <div class="air-home-hero">
+                <h1>Que souhaitez-vous savoir&nbsp;?</h1>
+                <p>Posez une question sur les documents publics de la Riviera vaudoise.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        with st.container(key="air-home-search"):
+            question = st.chat_input(
+                "Posez une question sur les documents...",
+                disabled=not city_available,
+                key="home-question-input",
+            )
+
+    filter_container = st.container(key="air-search-filters")
+    with filter_container.expander(filter_expander_label, expanded=False):
         st.caption(
             "Plus votre question et vos filtres sont précis, plus la recherche est rapide."
         )
@@ -1018,10 +1203,15 @@ with chat_tab:
         st.session_state.pending_question = None
         st.rerun()
 
-    question = st.chat_input(
-        "Pose une question sur les documents...",
-        disabled=st.session_state.pending_question is not None or not city_available,
-    )
+    if not is_home_view:
+        question = st.chat_input(
+            "Posez une question sur les documents...",
+            disabled=(
+                st.session_state.pending_question is not None
+                or not city_available
+            ),
+            key="conversation-question-input",
+        )
     if question and st.session_state.pending_question is None:
         queue_question(question)
         st.rerun()
