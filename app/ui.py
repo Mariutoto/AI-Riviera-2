@@ -31,6 +31,12 @@ SUGGESTED_QUESTIONS = [
     "Quels postulats ont été déposés en 2024 ?",
 ]
 
+CITY_FILTER_MUNICIPALITIES = tuple(
+    municipality
+    for municipality in MUNICIPALITIES.values()
+    if municipality.key != "association-securite-riviera"
+)
+
 CITY_OPTIONS = {"all": "Toutes"}
 CITY_OPTIONS.update(
     {
@@ -41,14 +47,32 @@ CITY_OPTIONS.update(
                 else municipality.label
             )
             if municipality.search_enabled
-            else f"{municipality.label} — à venir"
+            else f"{municipality.label} — prochainement"
         )
-        for municipality in MUNICIPALITIES.values()
+        for municipality in CITY_FILTER_MUNICIPALITIES
     }
 )
+DOCUMENT_CITY_OPTIONS = {
+    municipality.label: (
+        municipality.label
+        if municipality.search_enabled
+        else f"{municipality.label} — prochainement"
+    )
+    for municipality in CITY_FILTER_MUNICIPALITIES
+}
+
+
+def city_option_label(city: str) -> str:
+    return CITY_OPTIONS.get(city, str(city))
+
+
+def document_city_option_label(city: str) -> str:
+    return DOCUMENT_CITY_OPTIONS.get(city, str(city))
+
+
 SEARCH_ENABLED_CITIES = {
     municipality.label
-    for municipality in MUNICIPALITIES.values()
+    for municipality in CITY_FILTER_MUNICIPALITIES
     if municipality.search_enabled
 }
 ALL_YEARS = "Toutes"
@@ -1070,14 +1094,14 @@ def render_pending_feedback_dialog() -> None:
 
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
-    chat_tab, eval_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Eval", "Documents", "À propos"],
+    chat_tab, eval_tab, documents_tab, about_tab, contact_tab = st.tabs(
+        ["Assistant", "Eval", "Documents", "À propos", "Contact"],
         key="main-navigation",
         on_change="rerun",
     )
 else:
-    chat_tab, documents_tab, about_tab = st.tabs(
-        ["Assistant", "Documents", "À propos"],
+    chat_tab, documents_tab, about_tab, contact_tab = st.tabs(
+        ["Assistant", "Documents", "À propos", "Contact"],
         key="main-navigation",
         on_change="rerun",
     )
@@ -1309,18 +1333,29 @@ def render_documents_browser() -> None:
     with filter_column:
         with st.container(key="document-browser-filters"):
             st.markdown("### Filtres")
-            browser_city_options = [
-                municipality.label
-                for municipality in MUNICIPALITIES.values()
-                if municipality.search_enabled
-            ]
+            browser_city_options = list(DOCUMENT_CITY_OPTIONS)
             selected_browser_cities = st.multiselect(
                 "Communes",
                 options=browser_city_options,
+                format_func=document_city_option_label,
                 placeholder="Toutes les communes",
                 key="document_browser_cities",
                 on_change=reset_document_browser_page,
             )
+            upcoming_browser_cities = [
+                city
+                for city in selected_browser_cities
+                if city not in SEARCH_ENABLED_CITIES
+            ]
+            searchable_browser_cities = [
+                city
+                for city in selected_browser_cities
+                if city in SEARCH_ENABLED_CITIES
+            ]
+            if upcoming_browser_cities:
+                st.caption(
+                    "Prochainement : " + ", ".join(upcoming_browser_cities) + "."
+                )
 
             browser_type_options = available_browser_document_type_labels(
                 selected_browser_cities
@@ -1383,7 +1418,14 @@ def render_documents_browser() -> None:
 
     browser_rows: list[dict] = []
     browser_error = ""
-    index_is_ready = browser_filters_valid and cached_index_ready()
+    upcoming_cities_only = bool(
+        selected_browser_cities and not searchable_browser_cities
+    )
+    index_is_ready = (
+        browser_filters_valid
+        and not upcoming_cities_only
+        and cached_index_ready()
+    )
     if index_is_ready:
         selected_categories = tuple(
             CATEGORY_MAP[DOCUMENT_TYPE_OPTIONS[label]]
@@ -1392,7 +1434,7 @@ def render_documents_browser() -> None:
         try:
             browser_rows = cached_browse_documents(
                 browser_query.strip(),
-                tuple(selected_browser_cities),
+                tuple(searchable_browser_cities),
                 selected_categories,
                 year_from or "",
                 year_to or "",
@@ -1411,6 +1453,10 @@ def render_documents_browser() -> None:
         with st.container(key="document-browser-results"):
             if not browser_filters_valid:
                 st.info("Corrigez la période pour afficher les documents.")
+            elif upcoming_cities_only:
+                st.info(
+                    "Les documents de cette commune seront disponibles prochainement."
+                )
             elif browser_error:
                 st.error(browser_error)
             elif not index_is_ready:
@@ -1521,7 +1567,7 @@ with chat_tab:
             selected_city = st.selectbox(
                 "Institution",
                 options=list(CITY_OPTIONS),
-                format_func=CITY_OPTIONS.get,
+                format_func=city_option_label,
                 key="search_city",
                 disabled=st.session_state.pending_question is not None,
                 on_change=clear_filter_warning,
@@ -1570,8 +1616,8 @@ with chat_tab:
     city_available = selected_city == "all" or selected_city in SEARCH_ENABLED_CITIES
     if not city_available:
         st.caption(
-            f"*{selected_city} sera disponible prochainement. Sélectionnez Toutes "
-            "ou La Tour-de-Peilz pour lancer une recherche.*"
+            f"*{selected_city} sera disponible prochainement. Sélectionnez Toutes, "
+            "La Tour-de-Peilz, Vevey ou Montreux pour lancer une recherche.*"
         )
 
     if st.session_state.filter_warning:
@@ -1889,4 +1935,19 @@ with about_tab:
         </div>
         """,
         unsafe_allow_html=True,
+    )
+
+with contact_tab:
+    st.subheader("Contact")
+    st.write(
+        "Vous êtes intéressé·e par AI Riviera ? Vous avez une question, "
+        "souhaitez proposer une collaboration, signaler un document manquant "
+        "ou suggérer une nouvelle commune ou une amélioration ?"
+    )
+    st.markdown(
+        "[Écrivez-moi via GitHub](https://github.com/Mariutoto/AI-Riviera-2/issues/new)."
+    )
+    st.caption(
+        "Les demandes sont centralisées avec le projet afin de pouvoir les suivre "
+        "et y répondre plus facilement."
     )

@@ -15,7 +15,7 @@ class UiDocumentTabsTests(unittest.TestCase):
         self.assertEqual(len(app.exception), 0)
         self.assertEqual(
             [tab.label for tab in app.tabs],
-            ["Assistant", "Documents", "À propos"],
+            ["Assistant", "Documents", "À propos", "Contact"],
         )
         self.assertEqual(
             app.chat_input[0].placeholder,
@@ -39,6 +39,12 @@ class UiDocumentTabsTests(unittest.TestCase):
         )
         self.assertEqual(len(app.exception), 0)
 
+        self.assertIn(
+            "Blonay–Saint-Légier — prochainement",
+            app.selectbox[0].options,
+        )
+        self.assertIn("Villeneuve — prochainement", app.selectbox[0].options)
+
         content = "\n".join(
             str(element.value) for element in app.markdown
         )
@@ -60,6 +66,11 @@ class UiDocumentTabsTests(unittest.TestCase):
             [widget.label for widget in app.multiselect],
             ["Communes", "Types de document"],
         )
+        self.assertIn(
+            "Corsier-sur-Vevey — prochainement",
+            app.multiselect[0].options,
+        )
+        self.assertIn("Veytaux — prochainement", app.multiselect[0].options)
         text_input_labels = [widget.label for widget in app.text_input]
         self.assertIn("Recherche par mots-clés", text_input_labels)
         self.assertIn("De l’année", text_input_labels)

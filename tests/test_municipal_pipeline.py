@@ -3,6 +3,7 @@ import unittest
 from municipal_pipeline.documents import municipal_document, validate_document
 from municipal_pipeline.municipalities import (
     ASSOCIATION_SECURITE_RIVIERA,
+    BLONAY_SAINT_LEGIER,
     LA_TOUR_DE_PEILZ,
     MONTREUX,
     VEVEY,
@@ -35,6 +36,7 @@ class MunicipalityRegistryTests(unittest.TestCase):
         )
         self.assertEqual(MONTREUX.document_types, ("interpellations",))
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
+        self.assertFalse(BLONAY_SAINT_LEGIER.search_enabled)
         self.assertEqual(get_municipality("vevey"), VEVEY)
 
     def test_unknown_city_is_rejected(self):
