@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_43a6a6cf3a3e844ed133",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de Mme Valérie Zonca (Vert·e·s), intitulée « Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? »",
+    "source_title": "Interpellation de Mme Valérie Zonca (Vert·e·s), intitulée « Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6083",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Valérie Zonca"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-03-19",
+    "responses": [
+      {
+        "response_number": "2026/RI07",
+        "response_date": "2026-03-19",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2023,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_43a6a6cf3a3e844ed133",
+    "matching_keys": {
+      "official_reference": "2026/RI07",
+      "normalized_title": "interpellation de mme valérie zonca (vert·e·s), intitulée « quelle réglementation de l’utilisation des ia dans l’administration communale veveysanne ? »",
+      "author": "Valérie Zonca",
+      "year": "2026"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_3f273da6b58bb72bf673"
+  },
+  "pdf_audit": {
+    "page_count": 5,
+    "page_text_chars": [
+      2619,
+      3470,
+      3403,
+      826,
+      2961
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      3,
+      0
+    ],
+    "text_chars": 13225,
+    "text_words": 2023,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "9c6c6de7d6008e70307dfb9615c96f3a6f23404e4c58cff9ac56a5d835d02d01"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_un_peu_de_lumiere_sur_les_2_roues",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Patrick Bertschy (PLR) : « Un peu de lumière sur les 2 roues »",
+    "source_title": "Interpellation de Patrick Bertschy (PLR) : « Un peu de lumière sur les 2 roues »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4972",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-11-17",
+    "content_hash": "944665ca34fd1c9d623a108d77ceb9f06cd48b5fd94a5492554ecdf5d987f02e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-11-17",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1911,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 330,
+      "clean_words": 330,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 330
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_un_peu_de_lumiere_sur_les_2_roues",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de patrick bertschy (plr) : « un peu de lumière sur les 2 roues »",
+      "author": "Patrick Bertschy",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1911
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1911,
+    "text_words": 330,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "34ab56a28587b865496743f3b84782af2d03e5273c4263062162de1a6426dc60"
+  }
+}

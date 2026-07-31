@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e5bf9f8bbbe394b852b6",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Céline Amiguet (PS), intitulée « Adapter nos structures communales aux vagues de chaleur »",
+    "source_title": "Interpellation de Mme Céline Amiguet (PS), intitulée « Adapter nos structures communales aux vagues de chaleur »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6043",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": "1e0b39d470c5719ea7bcfc615b8405651aefdc63a84d3f3aa77f1203d0ef2014",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Céline Amiguet"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-02-05",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2397,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 358,
+      "clean_words": 358,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 358
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e5bf9f8bbbe394b852b6",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme céline amiguet (ps), intitulée « adapter nos structures communales aux vagues de chaleur »",
+      "author": "Céline Amiguet",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      1935,
+      460
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      0
+    ],
+    "text_chars": 2397,
+    "text_words": 358,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "da18851493ded34053d2fbb10697a6cb873847a9ba8cd8f2eade44ad11d8e96d"
+  }
+}

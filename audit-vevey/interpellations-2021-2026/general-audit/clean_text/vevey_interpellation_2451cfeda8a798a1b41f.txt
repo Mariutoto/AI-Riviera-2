@@ -1,0 +1,45 @@
+# Crise énergétique : encore quelques questions ...
+
+# Situation
+
+Le Grand Conseil vaudois a adopté 2 décrets urgents en lien avec la possible pénurie d'électricité ; l'un a pour but de réduire l'éclairage des bâtiments publics ainsi que des bureaux et des commerces (extinction de leur éclairage 1 heure après la fermeture) l'autre d'encourager les entreprises grosses consommatrices à revoir leur fonctionnement. Les communes sont chargées de la mise en œuvre et les préfets compétents pour amender.
+
+Par ailleurs, en cas de pénurie d'énergie le canton a confié aux communes de mettre en place des « points de rencontre ».
+
+Des villes se sont équipées en génératrices pour garantir le fonctionnement de certaines installations en cas de contingentement cet hiver ou le suivant (on pense ici au SIGE et à ses nombreuses pompes, voire au CAD de Gilamont).
+
+Malgré les problèmes techniques que cela pose, certaines villes (Moudon, Morges) éteignent carrément l'éclairage public entre 23 heures et 5 heures ou réduisent sensiblement son intensité (sauf sur les passages pour piétons).
+
+Ici, à Vevey, je constate (j'ai l'impression) que peu a été fait ; d'où deux questions par rapport aux constats ci-dessus :
+
+Qu'a entrepris la Municipalité ?
+
+Comment se positionne-t-elle par rapport aux différents constats cités ci-dessus ?
+
+A-elle-des contacts et échanges d'expériences avec d'autres villes ?
+
+# Quelques éléments plus techniques :
+
+Dans sa réponse à ma précédente interpellation (Conseil du 6.10.22) la Municipalité soulignait l'impossibilité de sortir du marché libre (de l'électricité) pour revenir au marché régulé (captif). Or, au 1er janvier de cette année l'ordonnance sur l'approvisionnement en électricité (OApEL) sur laquelle se fondait, avec raison, la Municipalité, a été modifiée (voir art. 11 §2bis) : elle permet un retour au marché régulé à certaines conditions, la principale étant qu'une partie de la consommation vienne d'une électricité d'origine renouvelable dans le cadre d'un « regroupement pour la consommation propre» (RCP) 1. Evidemment, faut-il encore que Romande Energie accepte.
+
+# Mes questions :
+
+La municipalité envisage-t-elle de recourir à cette possibilité ?
+
+Dans la négative, pourquoi ?
+
+De façon plus générale : quelle est la position de la Municipalité par rapport au « regroupement pour la consommation propre » ?
+
+1 Regroupement de plusieurs clients finaux, propriétaires ou locataires de maisons ou d'appartements, raccordés comme un seul et unique client auprès du Gestionnaire de Réseau de Distribution (GRD), dans notre commune Romande Energie. Concrètement, un ou plusieurs producteurs d'électricité peuvent ainsi partager l'énergie (photovoltaïque) qu'ils produisent avec d'autres consommateurs voisins, quel que soit leur lieu d'habitation.
+
+Je souhaite une réponse écrite et en remercie la Municipalité,
+
+Serge Ansermet
+
+Janvier 2023
+
+Potentiel PV : Planif. Énerget.territoriale p.27 (grde marge de progression), p.39 (autoconsomm.,
+
+Le SPDC (spac.energet@naz.ch) est destiné aux actions, aux communes et aux entreprises qui ne sont pas déjà en contact avec les services d'information habituels de la Confédération, ils notiennent ainsi les informations nécessaires via un service central. La hotline reste en place pour répondre aux questions de la population (0800 005 005 ou hotline@bsd.admin.ch), délégué à l'approvisionnement
+
+économique du pays. E-mail no-reply 11.1.23

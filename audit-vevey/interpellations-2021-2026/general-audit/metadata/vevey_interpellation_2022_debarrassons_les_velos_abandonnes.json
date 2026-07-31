@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_debarrassons_les_velos_abandonnes",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Fabien Truffer (LCVL) : « Débarrassons les vélos abandonnés »",
+    "source_title": "Interpellation de Fabien Truffer (LCVL) : « Débarrassons les vélos abandonnés »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-19",
+    "content_hash": "0e17dfe41f01d26d39c76444561a11464346929c05b1b18431db570d1fbf56be",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Fabien Truffer"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-05-19",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1618,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 259,
+      "clean_words": 259,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 259
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_debarrassons_les_velos_abandonnes",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de fabien truffer (lcvl) : « débarrassons les vélos abandonnés »",
+      "author": "Fabien Truffer",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1618
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1618,
+    "text_words": 259,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "3dc8841463fd2cd0bb635e5c7e8839d3fe9cc755e34e45cb4db3ee6a4d0ebfd4"
+  }
+}

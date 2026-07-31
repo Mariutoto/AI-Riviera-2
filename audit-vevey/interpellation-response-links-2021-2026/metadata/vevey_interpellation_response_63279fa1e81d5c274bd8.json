@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_63279fa1e81d5c274bd8",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Mesures rapides et effets significatifs en faveur du climat ",
+    "source_title": "Réponse à l’interpellation de M. Fabien Truffer (LCVL), intitulée « Mesures rapides et effets significatifs en faveur du climat »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5019",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-02",
+    "content_hash": "c0bafc241a1abb2f457e5443aefb44586d2eb0bfd5963754473acb43cd254012",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-02-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 16319,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2465,
+      "clean_words": 2465,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2465
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_mesures_rapides_et_effets_significatifs_en_faveur_du_climat",
+    "best_candidate_id": "vevey_interpellation_2022_mesures_rapides_et_effets_significatifs_en_faveur_du_climat",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_63279fa1e81d5c274bd8"
+    ],
+    "official_reference": "2023/C02"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5019",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-02-02",
+        "author": "Fabien Truffer",
+        "reference": "2023/C02",
+        "title": "Réponse à l’interpellation de M. Fabien Truffer (LCVL), intitulée « Mesures rapides et effets significatifs en faveur du climat »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5019",
+        "source_download_id": "5019"
+      }
+    ]
+  }
+}

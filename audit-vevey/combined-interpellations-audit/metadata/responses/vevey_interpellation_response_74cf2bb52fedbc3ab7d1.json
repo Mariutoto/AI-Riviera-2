@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_74cf2bb52fedbc3ab7d1",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Collège du cycle secondaire sur le terrain de Copet 3",
+    "source_title": "Réponse à l’interpellation de M. Jean-Marc Roduit « Collège du cycle secondaire sur le terrain de Copet 3 » - Reliquat",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4801",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-17",
+    "content_hash": "2491415f649ebeb994d59918c6ac8cbff9df30ce7e8ed0152d59caa2373e5b58",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-03-17",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10166,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1629,
+      "clean_words": 1629,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1629
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_college_du_cycle_secondaire_sur_le_terrain_copet_3",
+    "best_candidate_id": "vevey_interpellation_2021_college_du_cycle_secondaire_sur_le_terrain_copet_3",
+    "score": 1.0,
+    "second_score": 0.6179,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_74cf2bb52fedbc3ab7d1"
+    ],
+    "official_reference": "2022/C01"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4801",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-03-17",
+        "author": "Jean-Marc Roduit",
+        "reference": "2022/C01",
+        "title": "Réponse à l’interpellation de M. Jean-Marc Roduit « Collège du cycle secondaire sur le terrain de Copet 3 » - Reliquat",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4801",
+        "source_download_id": "4801"
+      },
+      {
+        "listing_date": "2022-02-03",
+        "author": "",
+        "reference": "2022/C01",
+        "title": "Réponse à l’interpellation de M. Jean-Marc Roduit « Collège du cycle secondaire sur le terrain de Copet 3 »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4775",
+        "source_download_id": "4775"
+      }
+    ]
+  }
+}

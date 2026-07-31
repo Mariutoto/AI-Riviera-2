@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_5113fc6d25166c391f34",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Vevey mange-t-elle du foin ",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Vevey mange-t-elle du foin … »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5562",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-05",
+    "content_hash": "c5cc22bdecba32d34fb606f28a0d0840d75c5f3314e6609314730b18437944c9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "6/2024",
+        "response_date": "2024-09-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6021,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 945,
+      "clean_words": 945,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 945
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e8e7061a18d712c9a831",
+    "best_candidate_id": "vevey_interpellation_e8e7061a18d712c9a831",
+    "score": 1.0,
+    "second_score": 0.519,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_5113fc6d25166c391f34"
+    ],
+    "official_reference": "2024/RI06"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5562",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-09-05",
+        "author": "Patrick Bertschy",
+        "reference": "2024/RI06",
+        "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Vevey mange-t-elle du foin … »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5562",
+        "source_download_id": "5562"
+      },
+      {
+        "listing_date": "2024-06-13",
+        "author": "Patrick Bertschy",
+        "reference": "2024/RI06",
+        "title": "Interpellation de M. Patrick Bertschy/PLR, intitulée « Vevey mange-t-elle du foin … »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5513",
+        "source_download_id": "5513"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_ce25885b64051265bd77",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Jennyfer Vincent (Vert·e·s), intitulée « Le Petit Poucet version mégot »",
+    "source_title": "Interpellation de Mme Jennyfer Vincent (Vert·e·s), intitulée « Le Petit Poucet version mégot »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5969",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "36d07d5e0e6572a8c516b9b9cfd27cce35179d5bd010b781c2c5180d000cacd5",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jennyfer Vincent"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-13",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1851,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 308,
+      "clean_words": 308,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 308
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_ce25885b64051265bd77",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme jennyfer vincent (vert·e·s), intitulée « le petit poucet version mégot »",
+      "author": "Jennyfer Vincent",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1852
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 1851,
+    "text_words": 308,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "9a4ff4acfdd1834945c40b17872b65c8201cab05ae162879076b09fc85f283c0"
+  }
+}

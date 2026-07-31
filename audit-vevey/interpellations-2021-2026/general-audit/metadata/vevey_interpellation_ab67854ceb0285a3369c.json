@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_ab67854ceb0285a3369c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Pierre Butty (PS), intitulée « Canton qui coupe, impôts qui baissent : qui paiera la facture à Vevey ? »",
+    "source_title": "Interpellation de M. Pierre Butty (PS), intitulée « Canton qui coupe, impôts qui baissent : qui paiera la facture à Vevey ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5989",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "93bf9d064950423b0d553368fdf40a6a8f48123224c3617587c5c10fdb31af91",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Pierre Butty"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-13",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3252,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 483,
+      "clean_words": 483,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 483
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_ab67854ceb0285a3369c",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. pierre butty (ps), intitulée « canton qui coupe, impôts qui baissent : qui paiera la facture à vevey ? »",
+      "author": "Pierre Butty",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      3307
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 3252,
+    "text_words": 483,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "3bef22d6c214b5973e00e30bbe277d9f088cbd5df7541b1e6dd3b4d4457a81a7"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_290109ec7db96540621c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Deuxième réponse à l’interpellation du 07 octobre 2021 de M. Mickael Bertschy (VL)?: «?Quid de la résolution de janvier à propos du Cabinet cantonal des estampes???» et réponse à la résolution du 28 janvier 2021 de M. Martino Rizzello (LCVL)",
+    "source_title": "Deuxième réponse à l’interpellation du 07 octobre 2021 de M. Mickael Bertschy (VL)?: «?Quid de la résolution de janvier à propos du Cabinet cantonal des estampes???» et réponse à la résolution du 28 janvier 2021 de M. Martino Rizzello (LCVL)",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5030",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-02",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": "2023-02-02",
+    "responses": [
+      {
+        "response_number": "2023/C06",
+        "response_date": "2023-02-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1620,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_290109ec7db96540621c",
+    "matching_keys": {
+      "official_reference": "2023/C06",
+      "normalized_title": "deuxième réponse à l’interpellation du 07 octobre 2021 de m. mickael bertschy (vl)?: «?quid de la résolution de janvier à propos du cabinet cantonal des estampes???» et réponse à la résolution du 28 janvier 2021 de m. martino rizzello (lcvl)",
+      "author": null,
+      "year": "2023"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_2021_quid_de_la_resolution_de_janvier_a_propos_du_cabinet_cantonal_de"
+  },
+  "pdf_audit": {
+    "page_count": 3,
+    "page_text_chars": [
+      2774,
+      4209,
+      3441
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      0,
+      3
+    ],
+    "text_chars": 10203,
+    "text_words": 1620,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "f68044f9def132df168b69661ea2b92a898284a497b075301893e3bbfb294714"
+  }
+}

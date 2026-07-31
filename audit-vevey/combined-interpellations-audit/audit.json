@@ -1,18 +1,18 @@
 {
   "schema_version": "vevey-combined-interpellations-audit-v1",
   "summary": {
-    "interpellation_documents": 43,
-    "interpellation_chunks": 63,
-    "response_documents": 25,
-    "validated_responses": 21,
-    "responses_needing_review": 4,
-    "response_chunks": 111,
-    "embedding_chunks_total": 174,
-    "ocr_required": 0
+    "interpellation_documents": 125,
+    "interpellation_chunks": 188,
+    "response_documents": 81,
+    "validated_responses": 75,
+    "responses_needing_review": 6,
+    "response_chunks": 340,
+    "embedding_chunks_total": 528,
+    "ocr_required": 1
   },
   "sources": {
-    "interpellation_chunks": "audit-vevey/interpellations-pilot/general-audit/chunks/*.json",
-    "interpellation_metadata": "audit-vevey/interpellation-response-links/political_objects/*.json",
+    "interpellation_chunks": "audit-vevey/interpellations-2021-2026/general-audit/chunks/*.json",
+    "interpellation_metadata": "audit-vevey/interpellation-response-links-2021-2026/political_objects/*.json",
     "response_chunks": "audit-vevey/combined-interpellations-audit/chunks/responses/*.json",
     "response_metadata": "audit-vevey/combined-interpellations-audit/metadata/responses/*.json"
   },
@@ -21,11 +21,41 @@
       "document_id": "vevey_interpellation_response_029ff94fd8231e14d2e7",
       "reference": "2/2025",
       "title": "Comptes et études, éclaircir le brouillard…",
+      "object_id": "vevey_interpellation_ed8822cac604aa994b12",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_0480e550111f883b78ad",
+      "reference": "1/2024",
+      "title": "Une mise à jour s’impose !",
+      "object_id": "vevey_interpellation_fe97fa96a9cb974a68c8",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_067a0900728c88cbe7bc",
+      "reference": null,
+      "title": "Et voilà la 5G !",
       "object_id": null,
       "confidence": "manual_review",
-      "score": 0.4411,
+      "score": 0.4615,
       "chunks": 0,
       "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_06edd59e1bc35c128b85",
+      "reference": null,
+      "title": "Retour de la mendicité dans nos rues",
+      "object_id": "vevey_interpellation_2021_retour_de_la_mendicite_dans_nos_rues",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
     },
     {
       "document_id": "vevey_interpellation_response_074d22aae8983495d2d7",
@@ -34,7 +64,47 @@
       "object_id": "vevey_interpellation_ab508a170cdff328434f",
       "confidence": "exact",
       "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_0b3af86fa15868d14903",
+      "reference": "11/2024",
+      "title": "Et alors elles rapportent combien ces bagnoles !!!",
+      "object_id": "vevey_interpellation_8fd5cd994cce54e5141a",
+      "confidence": "exact",
+      "score": 1.0,
       "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_0da83fc9d2fe1d1ee63b",
+      "reference": "6/2023",
+      "title": "Situation des places de parcs en surface !",
+      "object_id": "vevey_interpellation_0da83fc9d2fe1d1ee63b",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 8,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_0e13f86769b29fd9c2e7",
+      "reference": "9/2023",
+      "title": "La SPA du Haut-Léman, une association d’utilité publique qui est appréciée, mais aussi sous-estimée",
+      "object_id": "vevey_interpellation_0e13f86769b29fd9c2e7",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_0f9141e921d55664e10b",
+      "reference": "9/2024",
+      "title": "Diète postale à marche forcée – Stop !",
+      "object_id": "vevey_interpellation_0f9141e921d55664e10b",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
       "status": "ready"
     },
     {
@@ -44,6 +114,56 @@
       "object_id": "vevey_interpellation_f91b9a5c4910adb72fd5",
       "confidence": "exact",
       "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_14c80c7743a2cfa48880",
+      "reference": "19/2025",
+      "title": "Plan-Dessus : avec ou sans les commerçants et les habitant(e)s ?",
+      "object_id": "vevey_interpellation_9061b9f90f4354208042",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_27756fae1b92d5bed5fa",
+      "reference": null,
+      "title": "Excès de zèle à l’urbanisme ?",
+      "object_id": "vevey_interpellation_2021_exces_de_zele_a_l_urbanisme",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 9,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_282b3486f711f05e2e93",
+      "reference": null,
+      "title": "Etude sur les structures juridiques envisageables pour le projet d’autonomisation du Musée Jenisch Vevey et demande de crédit de CHF 100'000.—. Réponse à l’interpellation de Madame Sandra Marques (PLR), intitulée « Musée Jenisch, à quand un nouvel élan ?",
+      "object_id": "vevey_interpellation_282b3486f711f05e2e93",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_290109ec7db96540621c",
+      "reference": null,
+      "title": "Quid de la résolution de janvier à propos du Cabinet cantonal des estampes ?",
+      "object_id": "vevey_interpellation_2021_quid_de_la_resolution_de_janvier_a_propos_du_cabinet_cantonal_de",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_2cef639e01c11617f030",
+      "reference": "8/2023",
+      "title": "Les grandes oubliées des transformations urbaines de Vevey : le places de parking pour personnes à mobilité réduite",
+      "object_id": "vevey_interpellation_2cef639e01c11617f030",
+      "confidence": "exact",
+      "score": 1.0,
       "chunks": 5,
       "status": "ready"
     },
@@ -51,11 +171,11 @@
       "document_id": "vevey_interpellation_response_310a8bcf5e9e55c48a31",
       "reference": "2/2026",
       "title": "Neutralité dans l’art subventionné",
-      "object_id": null,
-      "confidence": "manual_review",
-      "score": 0.64,
-      "chunks": 0,
-      "status": "review"
+      "object_id": "vevey_interpellation_d467dc80e4f813e52433",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
     },
     {
       "document_id": "vevey_interpellation_response_3443d627f680dab83893",
@@ -64,7 +184,37 @@
       "object_id": "vevey_interpellation_edca1ae7421294b2fc2f",
       "confidence": "exact",
       "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_3654a94a1acb24281dd8",
+      "reference": "8/2024",
+      "title": "Violences domestiques: l'urgence d'agir",
+      "object_id": "vevey_interpellation_34085b26f647cae5e440",
+      "confidence": "exact",
+      "score": 1.0,
       "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_3bfb5ae11a5847fabdc1",
+      "reference": "7/2023",
+      "title": "Nouveau malaise aux VMCV, quelles mesures pour en sortir de manière durable ?",
+      "object_id": "vevey_interpellation_3bfb5ae11a5847fabdc1",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_407d28d33a20cff0e1e0",
+      "reference": "10/2024",
+      "title": "Situation d’urgence précaire Vevey – Riviera – Vaud",
+      "object_id": "vevey_interpellation_407d28d33a20cff0e1e0",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 8,
       "status": "ready"
     },
     {
@@ -72,6 +222,36 @@
       "reference": "7/2026",
       "title": "Quelle réglementation de l’utilisation des IA dans l’administration communale veveysanne ?",
       "object_id": "vevey_interpellation_3f273da6b58bb72bf673",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_44be344fb829ea72680e",
+      "reference": null,
+      "title": "Encourageons les marchands du marché de Vevey pour soutenir le développement de notre marché",
+      "object_id": "vevey_interpellation_2022_encourageons_les_marchands_du_marche_de_vevey_pour_soutenir_le_d",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_5113fc6d25166c391f34",
+      "reference": "6/2024",
+      "title": "Vevey mange-t-elle du foin",
+      "object_id": "vevey_interpellation_e8e7061a18d712c9a831",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_56732c8b58b9dde09c7a",
+      "reference": null,
+      "title": "Entre l’arrêt, l’abri de bus et les pavés …",
+      "object_id": "vevey_interpellation_2022_entre_l_arret_l_abri_de_bus_et_les_paves",
       "confidence": "exact",
       "score": 1.0,
       "chunks": 6,
@@ -84,7 +264,57 @@
       "object_id": "vevey_interpellation_01ea835e1aac93004efb",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 7,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_5da16ef9de6e6c2d8256",
+      "reference": null,
+      "title": "Débarrassons les vélos abandonnés",
+      "object_id": "vevey_interpellation_2022_debarrassons_les_velos_abandonnes",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_5ebcbbbf88cc6962d0e1",
+      "reference": null,
+      "title": "Musée Jenisch, à quand un nouvel élan ?",
+      "object_id": "vevey_interpellation_6c4dcc43586cb6246a41",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 15,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_63279fa1e81d5c274bd8",
+      "reference": null,
+      "title": "Mesures rapides et effets significatifs en faveur du climat",
+      "object_id": "vevey_interpellation_2022_mesures_rapides_et_effets_significatifs_en_faveur_du_climat",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_661b2748bd260246194b",
+      "reference": null,
+      "title": "Des chalands sans places et des places sans marchands",
+      "object_id": "vevey_interpellation_2021_des_chalands_sans_places_et_des_places_sans_marchands",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_67445913970ae10aa852",
+      "reference": null,
+      "title": "1er août, fête qui rassemble ou fête qui divise ?",
+      "object_id": "vevey_interpellation_2022_1er_aout_fete_qui_rassemble_ou_fete_qui_divise",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
       "status": "ready"
     },
     {
@@ -92,6 +322,16 @@
       "reference": "18/2025",
       "title": "Collection Planque : quelles conséquences financières et stratégiques pour la Ville ?",
       "object_id": "vevey_interpellation_00843ad0e8e6221402fc",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_74cf2bb52fedbc3ab7d1",
+      "reference": null,
+      "title": "Collège du cycle secondaire sur le terrain de Copet 3",
+      "object_id": "vevey_interpellation_2021_college_du_cycle_secondaire_sur_le_terrain_copet_3",
       "confidence": "exact",
       "score": 1.0,
       "chunks": 5,
@@ -108,13 +348,33 @@
       "status": "ready"
     },
     {
+      "document_id": "vevey_interpellation_response_76b31e53f0a2f947f9cf",
+      "reference": "1/2024",
+      "title": "Vevey-Riponne, drogues et toxicomanie, que fait ASR et la Municipalité ?",
+      "object_id": "vevey_interpellation_76b31e53f0a2f947f9cf",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 8,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_77b936350e0f08a8d63a",
+      "reference": "3/2023",
+      "title": "Vevey a mal à sa permanence médicale",
+      "object_id": "vevey_interpellation_2022_vevey_a_mal_a_sa_permanence_medicale",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
       "document_id": "vevey_interpellation_response_78ce564e78dcf0f5b9f9",
       "reference": "14/2025",
       "title": "# VEVEY sculpte son nom",
       "object_id": "vevey_interpellation_f0e77f194d49284baff0",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 4,
+      "chunks": 2,
       "status": "ready"
     },
     {
@@ -124,7 +384,67 @@
       "object_id": "vevey_interpellation_317d74e60dd161bad6ef",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 11,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_7bd139918aef1b051439",
+      "reference": "16/2025",
+      "title": "Quelles mesures rapides pour éviter aux VMCV des « sorties de route",
+      "object_id": "vevey_interpellation_7bd139918aef1b051439",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_81f26b723c4d163a15a7",
+      "reference": null,
+      "title": "Excès de zèle à l’urbanisme ?",
+      "object_id": "vevey_interpellation_2021_exces_de_zele_a_l_urbanisme",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 8,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_894a568514b17d8d5705",
+      "reference": null,
+      "title": "Bloquer des places de stationnement pendant le marché pour faire de la propagande politique ?",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.549,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_8b3898a8d551564b54b0",
+      "reference": null,
+      "title": "Festivalocal",
+      "object_id": "vevey_interpellation_2022_festivalocal",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_8c3eff7c669391e235b2",
+      "reference": "12/2024",
+      "title": "L’affichage commercial ne devrait-il pas permettre de financer l’affichage communal et associatif ?",
+      "object_id": "vevey_interpellation_53df490f09e1d2e3401e",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_8dba14c023f22fbff9ae",
+      "reference": "6/2025",
+      "title": "Quai Perdonnet : magnifique lieu de vie ou vélodrome dangereux !",
+      "object_id": "vevey_interpellation_d76e6b8652ada86e74fe",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
       "status": "ready"
     },
     {
@@ -134,7 +454,7 @@
       "object_id": "vevey_interpellation_fc18b9ae97efb48f338a",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 8,
+      "chunks": 1,
       "status": "ready"
     },
     {
@@ -154,7 +474,7 @@
       "object_id": "vevey_interpellation_d7621f242a111477f6df",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 3,
+      "chunks": 2,
       "status": "ready"
     },
     {
@@ -164,6 +484,16 @@
       "object_id": "vevey_interpellation_7d0becfbde8d0cc43ab4",
       "confidence": "exact",
       "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_a328ca21417e39bfcd3b",
+      "reference": null,
+      "title": "Bloquer des espaces piétons toute la semaine pour faire du tourisme motorisé ?",
+      "object_id": "vevey_interpellation_2021_bloquer_des_espaces_pietons_toute_la_semaine_pour_faire_du_touri",
+      "confidence": "exact",
+      "score": 1.0,
       "chunks": 3,
       "status": "ready"
     },
@@ -171,10 +501,10 @@
       "document_id": "vevey_interpellation_response_a700b02315400023eb9c",
       "reference": "11/2026",
       "title": "Introduction du logiciel « eS.Legislative",
-      "object_id": "vevey_interpellation_c43f92a895538a6550b4",
+      "object_id": "vevey_interpellation_a700b02315400023eb9c",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 11,
+      "chunks": 9,
       "status": "ready"
     },
     {
@@ -184,7 +514,17 @@
       "object_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 4,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_a9aaccdfd35f6a40b18a",
+      "reference": null,
+      "title": "Pourquoi une roulotte sur la Place du marché",
+      "object_id": "vevey_interpellation_2021_pourquoi_une_roulotte_a_la_place_du_marche",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
       "status": "ready"
     },
     {
@@ -194,7 +534,67 @@
       "object_id": "vevey_interpellation_6cf72380d75e1747616e",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 4,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_b6b620c5ed48d81eb8f7",
+      "reference": null,
+      "title": "Cyber - emmentaler !",
+      "object_id": "vevey_interpellation_2021_cyber_emmentaler",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_bd4007333ba48ac4135f",
+      "reference": "5/2023",
+      "title": "Quelles perspectives pour une réduction du temps d’attente des places en crèche ?",
+      "object_id": "vevey_interpellation_bd4007333ba48ac4135f",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c0aaf536bc78171cdeef",
+      "reference": null,
+      "title": "Une vision d’avenir pour le stade de Copet 3",
+      "object_id": "vevey_interpellation_2022_une_vision_d_avenir_pour_le_stade_de_copet_3",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c14fed01d288b993ccad",
+      "reference": "3/2025",
+      "title": "Réaménagement de la place du Marché, quand, délais, combien…",
+      "object_id": "vevey_interpellation_3aa9d65ae8bdfcb91a6a",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c2fcb2e5aaa3daf4c51c",
+      "reference": "7/2024",
+      "title": "Abattoirs de Clarens : n’abattons pas des filières de produits de proximité !",
+      "object_id": "vevey_interpellation_9b440d99699189885fce",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c3a56f68083ff2307545",
+      "reference": null,
+      "title": "Démarche participative : réelle prise de température auprès de la population ou blanc-seing pour la Municipalité",
+      "object_id": "vevey_interpellation_2022_demarche_participative_reelle_prise_de_temperature_aupres_de_la_",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
       "status": "ready"
     },
     {
@@ -204,7 +604,27 @@
       "object_id": "vevey_interpellation_2a8c5dd498346062d69f",
       "confidence": "exact",
       "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c677084bda5d9f54024b",
+      "reference": "4/2024",
+      "title": "Des bouteilles de vin lavables pour les Caves de la Ville de Vevey",
+      "object_id": "vevey_interpellation_55a44224b08e6e7166a1",
+      "confidence": "exact",
+      "score": 1.0,
       "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_c8d4ecdd4d2383995b7d",
+      "reference": "3/2024",
+      "title": "Estimations fiscales immobilières, pourquoi jouer à Arnold von Winkelried ?",
+      "object_id": "vevey_interpellation_8d7416ce983866e8f86d",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
       "status": "ready"
     },
     {
@@ -213,9 +633,19 @@
       "title": "Les murs phoniques rendent-ils muets les porte-paroles",
       "object_id": null,
       "confidence": "manual_review",
-      "score": 0.4564,
+      "score": 0.463,
       "chunks": 0,
       "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_cf6bd00e646d4f9a5413",
+      "reference": "3/2026",
+      "title": "Un point de la situation actuelle et future est nécessaire",
+      "object_id": "vevey_interpellation_cf6bd00e646d4f9a5413",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 7,
+      "status": "ready"
     },
     {
       "document_id": "vevey_interpellation_response_d1446fb9da6967bc65dd",
@@ -224,7 +654,67 @@
       "object_id": "vevey_interpellation_51bce26d350117ef1a84",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 7,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d5014296c6dc62f057de",
+      "reference": null,
+      "title": "Communiquer sans gaspiller",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.4394,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d592ee1214c6b1d4933b",
+      "reference": null,
+      "title": "Les bancs publics",
+      "object_id": "vevey_interpellation_2022_les_bancs_publics",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d69e31d42f083e126745",
+      "reference": "6/2026",
+      "title": "Le Donut de Vevey, à savourer ensemble avant de passer à l’action !",
+      "object_id": "vevey_interpellation_d69e31d42f083e126745",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d6ccb2107f41515a9eaa",
+      "reference": null,
+      "title": "Musée Jenisch, à quand un nouvel élan ?",
+      "object_id": "vevey_interpellation_6c4dcc43586cb6246a41",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 5,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_d8d58f1ff1bf6b6c3e8f",
+      "reference": "2/2023",
+      "title": "Crise énergétique : encore quelques questions …",
+      "object_id": "vevey_interpellation_2451cfeda8a798a1b41f",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 20,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e1a898ebcdaec07f48c9",
+      "reference": null,
+      "title": "Et si cela nous arrive ? Une cyberattaque vue sous l’angle de la communication",
+      "object_id": "vevey_interpellation_2021_et_si_cela_nous_arrive_une_cyberattaque_vue_sous_l_angle_de_la_c",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
       "status": "ready"
     },
     {
@@ -239,23 +729,63 @@
     },
     {
       "document_id": "vevey_interpellation_response_e2e93974d7481e698f33",
-      "reference": "6/2026",
+      "reference": "5/2026",
       "title": "Nul n'est censé ignorer la loi. Encore faut-il pouvoir y accéder",
       "object_id": "vevey_interpellation_8744ca337a279b0b1f0e",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 2,
+      "chunks": 1,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e337f259fb6eb34c8df8",
+      "reference": "13/2024",
+      "title": "Vevey… à la recherche du deal perdu ?",
+      "object_id": "vevey_interpellation_e7841545d1079e01c656",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 4,
       "status": "ready"
     },
     {
       "document_id": "vevey_interpellation_response_e54254b1d83cf69264be",
       "reference": "12/2025",
       "title": "Supprimer des places de stationnement, c’est fabriquer du chaos !",
-      "object_id": null,
-      "confidence": "manual_review",
-      "score": 0.4636,
-      "chunks": 0,
-      "status": "review"
+      "object_id": "vevey_interpellation_e54254b1d83cf69264be",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 3,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_e66966c4833316de3ba9",
+      "reference": null,
+      "title": "Amnésie à La Veyre",
+      "object_id": "vevey_interpellation_c35d6c552b911baa8e73",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 10,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_ef5c4539e8279119e6b1",
+      "reference": "2/2024",
+      "title": "Publicité commerciale et autres",
+      "object_id": "vevey_interpellation_eebbb7a5a632274c1872",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 6,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_f0c10fabd5160a8df039",
+      "reference": "5/2024",
+      "title": "Revenir à la raison et réaliser un centre sportif à La Veyre Derrey",
+      "object_id": "vevey_interpellation_c35d6c552b911baa8e73",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 1,
+      "status": "ready"
     },
     {
       "document_id": "vevey_interpellation_response_f10c9af0b83bafb612cd",
@@ -264,7 +794,37 @@
       "object_id": "vevey_interpellation_6d79d140a2af6aa02142",
       "confidence": "exact",
       "score": 1.0,
-      "chunks": 6,
+      "chunks": 4,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_f3cff631ede8533da04e",
+      "reference": "1/2023",
+      "title": "Des terrains de football naturels, pour rester (ou revenir) aux valeurs sûres !",
+      "object_id": "vevey_interpellation_2022_des_terrains_de_football_naturels_pour_rester_ou_revenir_aux_val",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 1,
+      "status": "ready"
+    },
+    {
+      "document_id": "vevey_interpellation_response_f8f1448b10d7aaa7ccb1",
+      "reference": null,
+      "title": "Des antennes dans nos clochers ?",
+      "object_id": null,
+      "confidence": "manual_review",
+      "score": 0.5958,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "document_id": "vevey_interpellation_response_f952ab2d9f0439bbd861",
+      "reference": "4/2023",
+      "title": "Le monde associatif face à la hausse du coût de la vie",
+      "object_id": "vevey_interpellation_2023_le_monde_associatif_face_a_la_hausse_du_cout_de_la_vie",
+      "confidence": "exact",
+      "score": 1.0,
+      "chunks": 2,
       "status": "ready"
     }
   ]

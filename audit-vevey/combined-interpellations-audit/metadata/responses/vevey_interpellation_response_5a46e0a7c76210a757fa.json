@@ -12,7 +12,7 @@
     "listing_year": 2025,
     "legislature": "2021-2026",
     "document_date": "2025-05-15",
-    "content_hash": "cafb5dab0c8d89cef5ef19389b7e04c14cc1f8e12025a770505a57ab5ef02a8d",
+    "content_hash": "125bf73be52e44df23c01690db7f171500c63356b303902f1be9042104c064c5",
     "extraction_method": "native_pdf",
     "processing_status": "validated"
   },
@@ -31,18 +31,18 @@
   },
   "processing": {
     "text_extraction_status": {
-      "characters_extracted": 15428,
+      "characters_extracted": 13209,
       "text_available": true,
       "needs_ocr": false
     },
     "header_footer_cleaning": {
-      "raw_words": 2477,
-      "clean_words": 2477,
+      "raw_words": 2113,
+      "clean_words": 2113,
       "removed_blocks": 0
     },
     "selected_text": {
       "method": "native_pdf",
-      "words": 2477
+      "words": 2113
     }
   },
   "relationships": {
@@ -58,7 +58,7 @@
     "official_reference": "2025/RI04"
   },
   "source_tracking": {
-    "source_collection": "vevey-council-annexes",
+    "source_collection": "vevey-council-interpellation-responses",
     "source_download_id": "5827",
     "listing_occurrences": [
       {
@@ -68,6 +68,14 @@
         "title": "Interpellation de M. Jérôme Christen (VL) et consorts, intitulée « « Du sport pour tous » pour passer du slogan à la réalité »",
         "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5827",
         "source_download_id": "5827"
+      },
+      {
+        "listing_date": "2025-05-15",
+        "author": "Jérôme Christen",
+        "reference": "2025/RI04",
+        "title": "Interpellation de M. Jérôme Christen (VL) et consorts, intitulée « « Du sport pour tous » pour passer du slogan à la réalité »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5797",
+        "source_download_id": "5797"
       }
     ]
   }

@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_3bfb5ae11a5847fabdc1",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de M. Jérôme Christen (VL/Interpartis), intitulée « Nouveau malaise aux VMCV, quelles mesures pour en sortir de manière durable ? »",
+    "source_title": "Interpellation de M. Jérôme Christen (VL/Interpartis), intitulée « Nouveau malaise aux VMCV, quelles mesures pour en sortir de manière durable ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5237",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-16",
+    "content_hash": "17788fdd9046999c6ec031b4d2b03fde4ba6e15e170da558b2044d50cb7d95b1",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-11-16",
+    "responses": [
+      {
+        "response_number": "7/2023",
+        "response_date": "2023-11-16",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3061,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1953,
+      "clean_words": 473,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 473
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_3bfb5ae11a5847fabdc1"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_3bfb5ae11a5847fabdc1",
+    "matching_keys": {
+      "official_reference": "2023/RI07",
+      "normalized_title": "interpellation de m. jérôme christen (vl/interpartis), intitulée « nouveau malaise aux vmcv, quelles mesures pour en sortir de manière durable ? »",
+      "author": "Jérôme Christen",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 5,
+    "page_text_chars": [
+      2749,
+      2788,
+      3165,
+      1132,
+      3119
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      3,
+      0
+    ],
+    "text_chars": 12641,
+    "text_words": 1953,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "933ebdd179e8b33c8adc074e0630bd3645d78139147fc0b802e53ae1cc1727da"
+  }
+}

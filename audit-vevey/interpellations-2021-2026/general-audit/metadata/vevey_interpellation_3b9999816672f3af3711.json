@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_3b9999816672f3af3711",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Sarah Dohr (VL), intitulée « La politique de drogues et l’observatoire des addictions à Vevey »",
+    "source_title": "Interpellation de Mme Sarah Dohr (VL), intitulée « La politique de drogues et l’observatoire des addictions à Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6077",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "content_hash": "49614b68a2b00c62f4cbed8ce871a937754ae68d53c2d5cd18ba21d97a1c10ef",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sarah Dohr"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-03-19",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1681,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 270,
+      "clean_words": 270,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 270
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_3b9999816672f3af3711",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme sarah dohr (vl), intitulée « la politique de drogues et l’observatoire des addictions à vevey »",
+      "author": "Sarah Dohr",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1692
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1681,
+    "text_words": 270,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "089481576b0362e721663bc56640e275fad66b0e2e65ec7c09a5eaeaa314f46d"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_d5014296c6dc62f057de",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Communiquer sans gaspiller",
+    "source_title": "Réponse à l’interpellation de M. Moin Danaï « Communiquer sans gaspiller »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4664",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "7283c17b7b83a0d1baea0023c1428a1501cadc4d8519f33fdb4e91f56c7f3e9c",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-09-09",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3384,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 538,
+      "clean_words": 538,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 538
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_2021_fourchouette_une_maison_sans_enfants",
+    "score": 0.4394,
+    "second_score": 0.4211,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_d5014296c6dc62f057de"
+    ],
+    "official_reference": "2021/C15"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4664",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-09-09",
+        "author": "",
+        "reference": "2021/C15",
+        "title": "Réponse à l’interpellation de M. Moin Danaï « Communiquer sans gaspiller »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4664",
+        "source_download_id": "4664"
+      }
+    ]
+  }
+}

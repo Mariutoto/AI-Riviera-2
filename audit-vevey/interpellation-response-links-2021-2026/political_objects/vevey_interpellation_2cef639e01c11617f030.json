@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2cef639e01c11617f030",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de Mme Anne-Francine Simonin (VL), intitulée « Les grandes oubliées des transformations urbaines de Vevey : les places de parking pour personnes à mobilité réduite »",
+    "source_title": "Interpellation de Mme Anne-Francine Simonin (VL), intitulée « Les grandes oubliées des transformations urbaines de Vevey : les places de parking pour personnes à mobilité réduite »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5282",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-12-07",
+    "content_hash": "89a84734b939a4488d67f042ca74e1b61699f225d4b33e840f7a7fd8e5c68439",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anne-Francine Simonin"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-12-07",
+    "responses": [
+      {
+        "response_number": "8/2023",
+        "response_date": "2023-12-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2592,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2161,
+      "clean_words": 426,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 426
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_2cef639e01c11617f030"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_2cef639e01c11617f030",
+    "matching_keys": {
+      "official_reference": "2023/RI08",
+      "normalized_title": "interpellation de mme anne-francine simonin (vl), intitulée « les grandes oubliées des transformations urbaines de vevey : les places de parking pour personnes à mobilité réduite »",
+      "author": "Anne-Francine Simonin",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 7,
+    "page_text_chars": [
+      2370,
+      2996,
+      3848,
+      1048,
+      298,
+      342,
+      2624
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      3,
+      3,
+      3,
+      1
+    ],
+    "text_chars": 13247,
+    "text_words": 2161,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "1553fef273b38f60836d153779d33322bce336b4e6a3525e47bec8a0801a34ea"
+  }
+}

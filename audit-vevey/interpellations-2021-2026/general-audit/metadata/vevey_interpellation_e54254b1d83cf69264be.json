@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e54254b1d83cf69264be",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Supprimer des places de stationnement, c’est fabriquer du chaos ! »",
+    "source_title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Supprimer des places de stationnement, c’est fabriquer du chaos ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5965",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "a4744f9199870a5a1f6a9635f6ba69b98c78c6c5fad4975c8d1ff115a3105c68",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anna Iamartino"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-11-13",
+    "responses": [
+      {
+        "response_number": "2025/RI12",
+        "response_date": "2025-11-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1984,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1235,
+      "clean_words": 297,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 297
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_e54254b1d83cf69264be",
+    "matching_keys": {
+      "official_reference": "2025/RI12",
+      "normalized_title": "interpellation de mme anna iamartino (plr), intitulée « supprimer des places de stationnement, c’est fabriquer du chaos ! »",
+      "author": "Anna Iamartino",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2072,
+      3342,
+      579,
+      2026
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      1,
+      1
+    ],
+    "text_chars": 7970,
+    "text_words": 1235,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a36a8513dbaf111c2813d317f6caddb6f3f371f354d9731918461a028b60401d"
+  }
+}

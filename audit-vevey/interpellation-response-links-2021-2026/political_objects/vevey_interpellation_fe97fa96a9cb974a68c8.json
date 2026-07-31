@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_fe97fa96a9cb974a68c8",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Une mise à jour s’impose ! »",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Une mise à jour s’impose ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5595",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-03",
+    "content_hash": "501d9638a17e492f1810ec3e6fe16112184aa4f84feb52252b577fa513fddfa8",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-10-03",
+    "responses": [
+      {
+        "response_number": "1/2024",
+        "response_date": "2025-02-06",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1538,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 258,
+      "clean_words": 258,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 258
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_fe97fa96a9cb974a68c8",
+    "response_document_ids": [
+      "vevey_interpellation_response_0480e550111f883b78ad"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « une mise à jour s’impose ! »",
+      "author": "Patrick Bertschy",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1603
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1538,
+    "text_words": 258,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "0910962253dc071cd43e2e02345561cfa55dea5bca4695f2be4fc804e503d79d"
+  }
+}

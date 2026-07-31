@@ -49,8 +49,8 @@
     "political_object_id": "vevey_interpellation_26993b10e028eedb3360",
     "best_candidate_id": "vevey_interpellation_26993b10e028eedb3360",
     "score": 1.0,
-    "second_score": 0.5019,
-    "matching_method": "normalized_title",
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
     "matching_confidence": "exact",
     "response_document_ids": [
       "vevey_interpellation_response_98e365dffaeea8de861a"
@@ -58,7 +58,7 @@
     "official_reference": "2026/RI01"
   },
   "source_tracking": {
-    "source_collection": "vevey-council-annexes",
+    "source_collection": "vevey-council-interpellation-responses",
     "source_download_id": "6035",
     "listing_occurrences": [
       {

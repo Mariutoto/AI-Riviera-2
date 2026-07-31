@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_pourquoi_une_roulotte_a_la_place_du_marche",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Loïc Brawand (PLR) : « Pourquoi une roulotte à la place du Marché »",
+    "source_title": "Interpellation de Loïc Brawand (PLR) : « Pourquoi une roulotte à la place du Marché »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4709",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "ab79c56c355653d25d1243150f766b985e0a836116b844d35da72b3f01938e35",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Loïc Brawand"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-09-09",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-11-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2090,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 336,
+      "clean_words": 336,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 336
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_pourquoi_une_roulotte_a_la_place_du_marche",
+    "response_document_ids": [
+      "vevey_interpellation_response_a9aaccdfd35f6a40b18a"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de loïc brawand (plr) : « pourquoi une roulotte à la place du marché »",
+      "author": "Loïc Brawand",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2090
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2090,
+    "text_words": 336,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "053d244abbeb5b955676773fb67b68e63ceb12d53514bffa8c7719e57475ff2d"
+  }
+}

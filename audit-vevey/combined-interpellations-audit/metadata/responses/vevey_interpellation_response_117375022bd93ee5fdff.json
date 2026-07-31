@@ -12,7 +12,7 @@
     "listing_year": 2025,
     "legislature": "2021-2026",
     "document_date": "2025-11-13",
-    "content_hash": "749a48633eec27bb383cc4defba7d82ccdfaf27f88256d1c931fe6e251696df4",
+    "content_hash": "e1579cb71057fb8fb167587b624fa151a0969d0087f0b4d611e30cf3dda920c1",
     "extraction_method": "native_pdf",
     "processing_status": "validated"
   },
@@ -31,26 +31,26 @@
   },
   "processing": {
     "text_extraction_status": {
-      "characters_extracted": 11641,
+      "characters_extracted": 8124,
       "text_available": true,
       "needs_ocr": false
     },
     "header_footer_cleaning": {
-      "raw_words": 1736,
-      "clean_words": 1736,
+      "raw_words": 1230,
+      "clean_words": 1230,
       "removed_blocks": 0
     },
     "selected_text": {
       "method": "native_pdf",
-      "words": 1736
+      "words": 1230
     }
   },
   "relationships": {
     "political_object_id": "vevey_interpellation_f91b9a5c4910adb72fd5",
     "best_candidate_id": "vevey_interpellation_f91b9a5c4910adb72fd5",
     "score": 1.0,
-    "second_score": 0.6055,
-    "matching_method": "normalized_title",
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
     "matching_confidence": "exact",
     "response_document_ids": [
       "vevey_interpellation_response_117375022bd93ee5fdff"
@@ -58,7 +58,7 @@
     "official_reference": "2025/RI10"
   },
   "source_tracking": {
-    "source_collection": "vevey-council-annexes",
+    "source_collection": "vevey-council-interpellation-responses",
     "source_download_id": "5963",
     "listing_occurrences": [
       {

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_0480e550111f883b78ad",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Une mise à jour s’impose !",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Une mise à jour s’impose ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5703",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "content_hash": "ef8813d38c73d1ac90e6f311d499f39293de99f5bbf3fe4800b69c7db996d8e7",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "1/2024",
+        "response_date": "2025-02-06",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 11082,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1907,
+      "clean_words": 1907,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1907
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_fe97fa96a9cb974a68c8",
+    "best_candidate_id": "vevey_interpellation_fe97fa96a9cb974a68c8",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_0480e550111f883b78ad"
+    ],
+    "official_reference": "2024/RI01"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5703",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-02-06",
+        "author": "Patrick Bertschy",
+        "reference": "2024/RI01",
+        "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Une mise à jour s’impose ! »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5703",
+        "source_download_id": "5703"
+      }
+    ]
+  }
+}

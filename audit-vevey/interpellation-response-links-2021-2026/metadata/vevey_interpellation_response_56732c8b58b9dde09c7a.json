@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_56732c8b58b9dde09c7a",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Entre l’arrêt, l’abri de bus et les pavés … ",
+    "source_title": "Réponse à l’interpellation de M. Patrick Bertschy (PLR), intitulée « Entre l’arrêt, l’abri de bus et les pavés… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4889",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "8669efd6710e96b6fb0d908d3e2ecad95d4d14d2a11d4c8ea40d6bc3e743bb9b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-09-08",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 17057,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2615,
+      "clean_words": 2615,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2615
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_entre_l_arret_l_abri_de_bus_et_les_paves",
+    "best_candidate_id": "vevey_interpellation_2022_entre_l_arret_l_abri_de_bus_et_les_paves",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_56732c8b58b9dde09c7a"
+    ],
+    "official_reference": "2022/C17"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4889",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-09-08",
+        "author": "Patrick Bertschy",
+        "reference": "2022/C17",
+        "title": "Réponse à l’interpellation de M. Patrick Bertschy (PLR), intitulée « Entre l’arrêt, l’abri de bus et les pavés… »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4889",
+        "source_download_id": "4889"
+      }
+    ]
+  }
+}

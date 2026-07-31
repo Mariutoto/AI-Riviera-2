@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_06359fda43e7b7de5d40",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Koya Hofstetter (Vert.e.s), intitulée « Protection de la santé visuelle »",
+    "source_title": "Interpellation de Mme Koya Hofstetter (Vert.e.s), intitulée « Protection de la santé visuelle »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5064",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-06",
+    "content_hash": "ba63fef47413c4a65d3b36a6133bc4f7bae5f786293bb4e52441205237cda2bf",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Koya Hofstetter"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2023-03-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3792,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 596,
+      "clean_words": 596,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 596
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_06359fda43e7b7de5d40",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme koya hofstetter (vert.e.s), intitulée « protection de la santé visuelle »",
+      "author": "Koya Hofstetter",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2634,
+      1225
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      0
+    ],
+    "text_chars": 3792,
+    "text_words": 596,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "606beac13d62f2ee49fbb894b0486d6c0fcf83ee16aee497973558973faa5dd0"
+  }
+}

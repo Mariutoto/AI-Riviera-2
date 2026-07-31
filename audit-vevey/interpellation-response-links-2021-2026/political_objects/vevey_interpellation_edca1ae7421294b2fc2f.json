@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_edca1ae7421294b2fc2f",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Philippe Herminjard : « La technologie embarquée comme aide à la conduite automobile »",
+    "source_title": "Interpellation de Philippe Herminjard : « La technologie embarquée comme aide à la conduite automobile »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5893",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-25",
+    "content_hash": "7a66838df9d0972fc3739447c48207e28c0e20cb1fefa53201616c12369578d4",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Philippe Herminjard"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-08-25",
+    "responses": [
+      {
+        "response_number": "11/2025",
+        "response_date": "2025-11-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2548,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 377,
+      "clean_words": 377,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 377
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_edca1ae7421294b2fc2f",
+    "response_document_ids": [
+      "vevey_interpellation_response_3443d627f680dab83893"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de philippe herminjard : « la technologie embarquée comme aide à la conduite automobile »",
+      "author": "Philippe Herminjard",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2592
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2548,
+    "text_words": 377,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "7e8f4f10ee13c962f90a95044c7875a277f8cb1675b4726b1dc92a301c518e9e"
+  }
+}

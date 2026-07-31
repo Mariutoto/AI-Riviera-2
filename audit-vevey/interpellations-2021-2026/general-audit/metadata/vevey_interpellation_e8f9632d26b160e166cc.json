@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e8f9632d26b160e166cc",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Serge Ansermet (PS), intitulée « Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… »",
+    "source_title": "Interpellation de M. Serge Ansermet (PS), intitulée « Stationnement sur les Quais de la Veveyse et Maria Belgia : des interrogations et des questions… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5688",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "content_hash": "68aa30b17bc65de2024b784af1fca58271b58433f241ee673ae858544460830a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Serge Ansermet"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-02-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3489,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 572,
+      "clean_words": 572,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 572
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e8f9632d26b160e166cc",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. serge ansermet (ps), intitulée « stationnement sur les quais de la veveyse et maria belgia : des interrogations et des questions… »",
+      "author": "Serge Ansermet",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      3560
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 3489,
+    "text_words": 572,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "997c4a94417530a23788625b6947c343e551cbf8a7820d0351312b1d51024f47"
+  }
+}

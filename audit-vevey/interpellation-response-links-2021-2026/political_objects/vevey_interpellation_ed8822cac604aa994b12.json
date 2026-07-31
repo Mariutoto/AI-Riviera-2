@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_ed8822cac604aa994b12",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Comptes et études, éclaircir le brouillard… »",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Comptes et études, éclaircir le brouillard… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5596",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-03",
+    "content_hash": "7bc4269ab9b91da716f0eebd79c16ec09027483ada045a9c4615937f0adde7cf",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-10-03",
+    "responses": [
+      {
+        "response_number": "2/2025",
+        "response_date": "2025-03-27",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 989,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 162,
+      "clean_words": 162,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 162
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_ed8822cac604aa994b12",
+    "response_document_ids": [
+      "vevey_interpellation_response_029ff94fd8231e14d2e7"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « comptes et études, éclaircir le brouillard… »",
+      "author": "Patrick Bertschy",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1040
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 989,
+    "text_words": 162,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "4e415984ff8faba709edcbd2f36a6ba7aa136bc9250b223b0261920c844b1338"
+  }
+}

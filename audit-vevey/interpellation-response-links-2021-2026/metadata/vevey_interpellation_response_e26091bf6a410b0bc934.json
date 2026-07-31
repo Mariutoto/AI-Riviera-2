@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_e26091bf6a410b0bc934",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Un centre sportif régional loin de tout, en zone agricole, vraiment ? ",
+    "source_title": "Complément de réponse à l’interpellation de M. Jérôme Christen (VL) et consorts , intitulée « Un centre sportif régional loin de tout, en zone agricole, vraiment?»",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5962",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "cfd4622fd3e23c64adbc5fe56fc240ea7d4ab811b544761dff2b7e9b3de2ecd5",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "8bis/2025",
+        "response_date": "2025-11-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2716,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 449,
+      "clean_words": 449,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 449
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_fc18b9ae97efb48f338a",
+    "best_candidate_id": "vevey_interpellation_fc18b9ae97efb48f338a",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_e26091bf6a410b0bc934"
+    ],
+    "official_reference": "2025/RI08bis"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5962",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-11-13",
+        "author": "Jérôme Christen",
+        "reference": "2025/RI08bis",
+        "title": "Complément de réponse à l’interpellation de M. Jérôme Christen (VL) et consorts , intitulée « Un centre sportif régional loin de tout, en zone agricole, vraiment?»",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5962",
+        "source_download_id": "5962"
+      }
+    ]
+  }
+}

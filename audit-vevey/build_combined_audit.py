@@ -4,6 +4,7 @@ import hashlib
 import html
 import json
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -12,9 +13,9 @@ import fitz
 
 ROOT = Path(__file__).resolve().parent
 PROJECT_ROOT = ROOT.parent
-OBJECT_AUDIT = ROOT / "interpellations-pilot" / "general-audit"
-LINK_AUDIT = ROOT / "interpellation-response-links"
-ANNEX_PDFS = ROOT / "annexes-pilot" / "pdfs"
+OBJECT_AUDIT = ROOT / "interpellations-2021-2026" / "general-audit"
+LINK_AUDIT = ROOT / "interpellation-response-links-2021-2026"
+ANNEX_PDFS = ROOT / "interpellation-responses-2021-2026" / "pdfs"
 OUTPUT = ROOT / "combined-interpellations-audit"
 RESPONSE_METADATA = OUTPUT / "metadata" / "responses"
 RESPONSE_CHUNKS = OUTPUT / "chunks" / "responses"
@@ -46,12 +47,42 @@ def clean_text(value: str) -> str:
     return "\n".join(lines).strip()
 
 
+def appended_interpellation_page(value: str) -> bool:
+    head = re.sub(r"\s+", " ", value).strip()[:500]
+    normalized_head = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", head.casefold())
+        if not unicodedata.combining(character)
+    )
+    normalized_head = re.sub(r"[^a-z0-9]+", " ", normalized_head).strip()
+    heading = re.search(r"\binterpellation\b", head, re.I)
+    return bool(
+        heading
+        and heading.start() < 220
+        and not re.search(
+            r"\breponses? (?:a|au|aux) l? ?interpellations?\b",
+            normalized_head,
+        )
+    )
+
+
 def extract_pdf(path: Path) -> tuple[str, dict]:
     with fitz.open(path) as pdf:
         page_texts = [page.get_text("text") for page in pdf]
-    text = clean_text("\n\n".join(page_texts))
+    appendix_start = next(
+        (
+            index
+            for index, page_text in enumerate(page_texts[1:], start=1)
+            if appended_interpellation_page(page_text)
+        ),
+        len(page_texts),
+    )
+    response_pages = page_texts[:appendix_start]
+    text = clean_text("\n\n".join(response_pages))
     stats = {
         "page_count": len(page_texts),
+        "response_page_count": len(response_pages),
+        "appended_interpellation_pages_excluded": len(page_texts) - len(response_pages),
         "page_text_characters": [
             len(page.strip()) for page in page_texts
         ],
@@ -216,6 +247,7 @@ def main() -> None:
         )
         status = "ready" if validated else "review"
         totals[status] += 1
+        totals["ocr_required"] += int(stats["needs_ocr"])
         totals["response_chunks"] += len(chunks)
         response_summaries.append({
             "document_id": document_id,
@@ -232,10 +264,12 @@ def main() -> None:
         })
 
     object_chunk_files = list((OBJECT_AUDIT / "chunks").glob("*.json"))
-    object_chunks = sum(
-        len(json.loads(path.read_text(encoding="utf-8")))
+    object_chunk_sets = [
+        json.loads(path.read_text(encoding="utf-8"))
         for path in object_chunk_files
-    )
+    ]
+    object_chunks = sum(len(chunks) for chunks in object_chunk_sets)
+    indexed_object_documents = sum(bool(chunks) for chunks in object_chunk_sets)
     rows = "".join(
         f"<tr class='{item['status']}'><td>{html.escape(str(item['reference'] or ''))}</td>"
         f"<td><a href='documents/responses/{item['document_id']}.html'>{html.escape(item['title'])}</a></td>"
@@ -244,14 +278,14 @@ def main() -> None:
         for item in response_summaries
     )
     summary = {
-        "interpellation_documents": len(object_chunk_files),
+        "interpellation_documents": indexed_object_documents,
         "interpellation_chunks": object_chunks,
         "response_documents": len(response_summaries),
         "validated_responses": totals["ready"],
         "responses_needing_review": totals["review"],
         "response_chunks": totals["response_chunks"],
         "embedding_chunks_total": object_chunks + totals["response_chunks"],
-        "ocr_required": 0,
+        "ocr_required": totals["ocr_required"],
     }
     write_json(OUTPUT / "audit.json", {
         "schema_version": "vevey-combined-interpellations-audit-v1",
@@ -279,7 +313,7 @@ def main() -> None:
     page = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <title>Audit combiné Vevey</title><style>{CSS}</style></head><body><main>
 <h1>Audit combiné - Interpellations et réponses de Vevey</h1>
-<p>Les interpellations et réponses utilisent le même contrat que La Tour-de-Peilz. Les quatre réponses ambiguës restent hors embeddings.</p>
+<p>Les interpellations et réponses utilisent le même contrat que La Tour-de-Peilz. Les réponses non rattachées à un objet de la législature restent hors embeddings.</p>
 <section class="stats">{stat_cards}</section>
 <table><thead><tr><th>Référence</th><th>Réponse</th><th>Interpellation liée</th><th>Confiance</th><th>Score</th><th>Chunks</th></tr></thead>
 <tbody>{rows}</tbody></table></main></body></html>"""

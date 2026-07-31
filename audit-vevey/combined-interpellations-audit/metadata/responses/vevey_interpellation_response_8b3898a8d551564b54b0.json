@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_8b3898a8d551564b54b0",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Festivalocal",
+    "source_title": "Réponse à l’interpellation de Mme Sarah Dohr - VL/Interpartis, intitulée « Festivalocal »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4904",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-06",
+    "content_hash": "4b8937aa1fe539df295e79a595b4163089d92d2fc1b1c62b1d9cf9a45959b680",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-10-06",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5702,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 888,
+      "clean_words": 888,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 888
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_festivalocal",
+    "best_candidate_id": "vevey_interpellation_2022_festivalocal",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_8b3898a8d551564b54b0"
+    ],
+    "official_reference": "2022/C19"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4904",
+    "listing_occurrences": [
+      {
+        "listing_date": "2022-10-06",
+        "author": "Sarah Dohr",
+        "reference": "2022/C19",
+        "title": "Réponse à l’interpellation de Mme Sarah Dohr - VL/Interpartis, intitulée « Festivalocal »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4904",
+        "source_download_id": "4904"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# Official source PDFs and provider payloads are reproducible.
+pdfs/
+ocr_overrides/*.json
+general-audit/embedding/mistral_embeddings.jsonl

@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_pour_eviter_le_delestage_il_faut_se_delester_de_notre_consommati",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Diane von Gunten et Valérie Zonca (Vert·e·s) : « Pour éviter le délestage, il faut se délester de notre consommation »",
+    "source_title": "Interpellation de Diane von Gunten et Valérie Zonca (Vert·e·s) : « Pour éviter le délestage, il faut se délester de notre consommation »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "a8844eee0c3466fa396240f59faae844bf06bd2c298d48975eda6830d11d48a6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Diane von Gunten et Valérie Zonca"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-09-08",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1942,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 298,
+      "clean_words": 298,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 298
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_pour_eviter_le_delestage_il_faut_se_delester_de_notre_consommati",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de diane von gunten et valérie zonca (vert·e·s) : « pour éviter le délestage, il faut se délester de notre consommation »",
+      "author": "Diane von Gunten et Valérie Zonca",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1942
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1942,
+    "text_words": 298,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "da41105afc4952dcfdcfcfcc65aaf1a20aad299b62f8e5062a195e435367311a"
+  }
+}

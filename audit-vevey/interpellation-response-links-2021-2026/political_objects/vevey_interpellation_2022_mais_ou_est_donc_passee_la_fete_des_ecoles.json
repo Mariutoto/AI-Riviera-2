@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_mais_ou_est_donc_passee_la_fete_des_ecoles",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Anna Iamartino (PLR) : « Mais où est donc passée la Fête des écoles ? »",
+    "source_title": "Interpellation de Anna Iamartino (PLR) : « Mais où est donc passée la Fête des écoles ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "d19c6bb39be0b1ceb49a42956fcfa8fabdafe3fd692a03b82cd91cac42a3a70b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anna Iamartino"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-09-08",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2536,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 421,
+      "clean_words": 421,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 421
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_mais_ou_est_donc_passee_la_fete_des_ecoles",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de anna iamartino (plr) : « mais où est donc passée la fête des écoles ? »",
+      "author": "Anna Iamartino",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2536
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2536,
+    "text_words": 421,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "8a9292a275b92bd46a24614bcac453c313361e1f7ad9768b75cadcac020b6ab1"
+  }
+}

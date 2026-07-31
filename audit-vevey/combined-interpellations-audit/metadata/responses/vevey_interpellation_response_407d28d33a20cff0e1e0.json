@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_407d28d33a20cff0e1e0",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Situation d’urgence précaire Vevey – Riviera – Vaud",
+    "source_title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Situation d'urgence précaire Vevey – Riviera – Vaud »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5624",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-14",
+    "content_hash": "5c4980db391c5d0ad12516bb143ce0703e5dcb7ffa8ec6530ba7f3a940ba3da6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "10/2024",
+        "response_date": "2024-11-14",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 20310,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3143,
+      "clean_words": 3143,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 3143
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_407d28d33a20cff0e1e0",
+    "best_candidate_id": "vevey_interpellation_407d28d33a20cff0e1e0",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_407d28d33a20cff0e1e0"
+    ],
+    "official_reference": "2024/RI10"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5624",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-11-14",
+        "author": "Sarah Dohr",
+        "reference": "2024/RI10",
+        "title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Situation d'urgence précaire Vevey – Riviera – Vaud »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5624",
+        "source_download_id": "5624"
+      }
+    ]
+  }
+}

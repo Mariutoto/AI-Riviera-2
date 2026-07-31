@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+    "source_title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5970",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "fd52ab6884e79a0116984e66afb402357029a337868ccb578a7ea9cd5e57c745",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Elliott Messeiller"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-13",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2529,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 388,
+      "clean_words": 388,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 388
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_1bb6cb86a3e4f512f819",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. elliott messeiller (da.), intitulée « ecrans publicitaires : risques pour la sécurité routière »",
+      "author": "Elliott Messeiller",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2562
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2529,
+    "text_words": 388,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "e11f9635544942527fc383b83df67b9d4dadbe860eba1a21f3e0e38a1e4b0584"
+  }
+}

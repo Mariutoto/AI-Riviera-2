@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_f8f1448b10d7aaa7ccb1",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Des antennes dans nos clochers ?",
+    "source_title": "Réponse à l’interpellation de M. Serge Ansermet (PS), Antoine Dormond (Les Vert.e.s) et Pascal Molliat (Vevey Libre), intitulée « Des antennes dans nos clochers ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4729",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "content_hash": "71663a0c955518d4e7862f3b926749bd07249e702db4eb7f800f8ac8455e5657",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-11-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5594,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 855,
+      "clean_words": 855,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 855
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_2021_retour_de_la_mendicite_dans_nos_rues",
+    "score": 0.5958,
+    "second_score": 0.459,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_f8f1448b10d7aaa7ccb1"
+    ],
+    "official_reference": "2021/C23"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4729",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-11-11",
+        "author": "",
+        "reference": "2021/C23",
+        "title": "Réponse à l’interpellation de M. Serge Ansermet (PS), Antoine Dormond (Les Vert.e.s) et Pascal Molliat (Vevey Libre), intitulée « Des antennes dans nos clochers ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4729",
+        "source_download_id": "4729"
+      }
+    ]
+  }
+}

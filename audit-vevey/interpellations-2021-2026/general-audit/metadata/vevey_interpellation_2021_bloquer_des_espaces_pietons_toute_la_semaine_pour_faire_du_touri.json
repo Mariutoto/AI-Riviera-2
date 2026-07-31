@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_bloquer_des_espaces_pietons_toute_la_semaine_pour_faire_du_touri",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Colin Wahli : « Bloquer des espaces piétons toute la semaine pour faire du tourisme motorisé ? »",
+    "source_title": "Interpellation de Colin Wahli : « Bloquer des espaces piétons toute la semaine pour faire du tourisme motorisé ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4791",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "content_hash": "3ea77b2032d9c981adeb946000b95711087a867aaff396adcba818b1d55ff1ea",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Colin Wahli"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-11-11",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1944,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 300,
+      "clean_words": 300,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 300
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_bloquer_des_espaces_pietons_toute_la_semaine_pour_faire_du_touri",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de colin wahli : « bloquer des espaces piétons toute la semaine pour faire du tourisme motorisé ? »",
+      "author": "Colin Wahli",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1944
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1944,
+    "text_words": 300,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "951509936a9494d3a62eba01b61dd5072b273fb4a7f2d605e4ce35fc30e1a2a6"
+  }
+}

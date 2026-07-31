@@ -1,0 +1,105 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_f0c10fabd5160a8df039",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de MM. Jérôme Christen et Serge Ansermet, intitulée « Revenir à la raison et réaliser un centre sportif à La Veyre Derrey »",
+    "source_title": "Interpellation de MM. Jérôme Christen et Serge Ansermet, intitulée « Revenir à la raison et réaliser un centre sportif à La Veyre Derrey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5450",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-02",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-05-02",
+    "responses": [
+      {
+        "response_number": "2024/RI05",
+        "response_date": "2024-05-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 5259,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_f0c10fabd5160a8df039",
+    "matching_keys": {
+      "official_reference": "2024/RI05",
+      "normalized_title": "interpellation de mm. jérôme christen et serge ansermet, intitulée « revenir à la raison et réaliser un centre sportif à la veyre derrey »",
+      "author": "Jérôme Christen",
+      "year": "2024"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_c35d6c552b911baa8e73"
+  },
+  "pdf_audit": {
+    "page_count": 13,
+    "page_text_chars": [
+      2312,
+      3299,
+      3662,
+      3688,
+      3272,
+      821,
+      2554,
+      2682,
+      2245,
+      1527,
+      2579,
+      3230,
+      2005
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "text_chars": 33220,
+    "text_words": 5259,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "dbc6205aa1692a0d2896f5d20cce435c315c9509fc36cf85d3f65c1612ef5cfd"
+  }
+}

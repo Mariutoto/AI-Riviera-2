@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_entre_l_arret_l_abri_de_bus_et_les_paves",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Patrick Bertschy (PLR) : « Entre l’arrêt, l’abri de bus et les pavés… »",
+    "source_title": "Interpellation de Patrick Bertschy (PLR) : « Entre l’arrêt, l’abri de bus et les pavés… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4867",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-19",
+    "content_hash": "541f4ff708c5fca528087c2b30de21b5bc473ed026dae998cccf5f92eb414329",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-05-19",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-09-08",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1687,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 277,
+      "clean_words": 277,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 277
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_entre_l_arret_l_abri_de_bus_et_les_paves",
+    "response_document_ids": [
+      "vevey_interpellation_response_56732c8b58b9dde09c7a"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de patrick bertschy (plr) : « entre l’arrêt, l’abri de bus et les pavés… »",
+      "author": "Patrick Bertschy",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1687
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1687,
+    "text_words": 277,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "102de41e8ddc2a5d90455b64ba916dd6236a13886138edb9a885ec46d65b1938"
+  }
+}

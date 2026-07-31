@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_urgence_climatique_et_energie_garder_le_cap_et_ne_pas_ceder_a_la",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Joëlle Minacci (da.) : « Urgence climatique et énergie : garder le cap et ne pas céder à la panique »",
+    "source_title": "Interpellation de Joëlle Minacci (da.) : « Urgence climatique et énergie : garder le cap et ne pas céder à la panique »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "4431e220a13b59acd10ba83fdc4031e9bcae0e2b0aa41b06d3205e94b6b4a4a6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Joëlle Minacci"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-09-08",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4099,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 635,
+      "clean_words": 635,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 635
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_urgence_climatique_et_energie_garder_le_cap_et_ne_pas_ceder_a_la",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de joëlle minacci (da.) : « urgence climatique et énergie : garder le cap et ne pas céder à la panique »",
+      "author": "Joëlle Minacci",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      4099
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 4099,
+    "text_words": 635,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "5472a4d1a14c1d3b0d85e7bb897ee834e3183c23d37724083c471bd4912eff8c"
+  }
+}

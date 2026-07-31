@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_des_terrains_de_football_naturels_pour_rester_ou_revenir_aux_val",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Jérôme Christen (VL) : « Des terrains de football naturels, pour rester (ou revenir) aux valeurs sûres ! »",
+    "source_title": "Interpellation de Jérôme Christen (VL) : « Des terrains de football naturels, pour rester (ou revenir) aux valeurs sûres ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-02/PV09-10_08-15%20d%C3%A9cembre%202022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-12-15",
+    "content_hash": "0898192b67812fdcc5fd010a77be80cd63eeeb9107c9b3e72c947a38bba1277c",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-12-15",
+    "responses": [
+      {
+        "response_number": "1/2023",
+        "response_date": "2023-03-06",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4191,
+      "text_available": true,
+      "needs_ocr": true
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 626,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 626
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_des_terrains_de_football_naturels_pour_rester_ou_revenir_aux_val",
+    "response_document_ids": [
+      "vevey_interpellation_response_f3cff631ede8533da04e"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de jérôme christen (vl) : « des terrains de football naturels, pour rester (ou revenir) aux valeurs sûres ! »",
+      "author": "Jérôme Christen",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 3,
+    "page_text_chars": [
+      0,
+      0,
+      0
+    ],
+    "empty_pages": 3,
+    "image_counts": [
+      1,
+      1,
+      1
+    ],
+    "text_chars": 0,
+    "text_words": 0,
+    "needs_ocr": true,
+    "extraction_method": "ocr_required",
+    "text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

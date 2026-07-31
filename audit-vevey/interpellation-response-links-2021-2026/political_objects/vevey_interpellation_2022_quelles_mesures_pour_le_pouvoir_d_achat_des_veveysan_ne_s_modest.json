@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_quelles_mesures_pour_le_pouvoir_d_achat_des_veveysan_ne_s_modest",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Pierre Butty (PS) : « Quelles mesures pour le pouvoir d’achat des Veveysan·ne·s modestes ? »",
+    "source_title": "Interpellation de Pierre Butty (PS) : « Quelles mesures pour le pouvoir d’achat des Veveysan·ne·s modestes ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "8246be35cb775ac488f8e6041553b682613054e531858316974371e3a9910c7f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Pierre Butty"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-09-08",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2783,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 429,
+      "clean_words": 429,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 429
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_quelles_mesures_pour_le_pouvoir_d_achat_des_veveysan_ne_s_modest",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de pierre butty (ps) : « quelles mesures pour le pouvoir d’achat des veveysan·ne·s modestes ? »",
+      "author": "Pierre Butty",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2783
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2783,
+    "text_words": 429,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "7532bccc6912a365955c42c8157630172fa00289ea77adfe2d820d57a2aab2b5"
+  }
+}

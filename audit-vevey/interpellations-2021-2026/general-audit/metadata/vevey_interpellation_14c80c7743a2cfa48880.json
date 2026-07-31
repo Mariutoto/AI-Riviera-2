@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_14c80c7743a2cfa48880",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Plan-Dessus : avec ou sans les commerçants et les habitant(e)s ? » (le document sera transmis ultérieurement)",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Plan-Dessus : avec ou sans les commerçants et les habitant(e)s ? » (le document sera transmis ultérieurement)",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6019",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-04",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-12-04",
+    "responses": [
+      {
+        "response_number": "2025/RI19",
+        "response_date": "2025-12-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1610,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_14c80c7743a2cfa48880",
+    "matching_keys": {
+      "official_reference": "2025/RI19",
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « plan-dessus : avec ou sans les commerçants et les habitant(e)s ? » (le document sera transmis ultérieurement)",
+      "author": "Patrick Bertschy",
+      "year": "2025"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_9061b9f90f4354208042"
+  },
+  "pdf_audit": {
+    "page_count": 5,
+    "page_text_chars": [
+      1766,
+      3737,
+      2603,
+      590,
+      2010
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      3,
+      1
+    ],
+    "text_chars": 10712,
+    "text_words": 1610,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "17f664f65c51a8828030bc581c9f6abe71bd30ced282828eff2bd10bf3bf9305"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e4b031910b14721f5244",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Diane von Gunten : « Soutenir le solaire Plug & Play »",
+    "source_title": "Interpellation de Diane von Gunten : « Soutenir le solaire Plug & Play »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5189",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-08-28",
+    "content_hash": "5009f0d815aef4c4bf52bd9e577c9bf84c91d3af3e740c76f27e3e0bf9449e0d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Diane von Gunten"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2023-08-28",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2359,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 348,
+      "clean_words": 348,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 348
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e4b031910b14721f5244",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de diane von gunten : « soutenir le solaire plug & play »",
+      "author": "Diane von Gunten",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2359
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2359,
+    "text_words": 348,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a2ab3a442d67acbe30e2e5d74a3ff09e7d8cbc9024010b9438c56dc7435b4cf2"
+  }
+}

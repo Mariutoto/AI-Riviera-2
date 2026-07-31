@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_8c3eff7c669391e235b2",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "L’affichage commercial ne devrait-il pas permettre de financer l’affichage communal et associatif ?",
+    "source_title": "Interpellation de M. Jérôme Christen (VL), intitulée « L’affichage commercial ne devrait-il pas permettre de financer l’affichage communal et associatif ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5702",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-05",
+    "content_hash": "c9cd6acca763944d8b20dc000cb94ee500adb6cb3f6f7f90bc90a8d68e482cd8",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "12/2024",
+        "response_date": "2024-12-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 10883,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1628,
+      "clean_words": 1628,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1628
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_53df490f09e1d2e3401e",
+    "best_candidate_id": "vevey_interpellation_53df490f09e1d2e3401e",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_8c3eff7c669391e235b2"
+    ],
+    "official_reference": "2024/RI12"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5702",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-12-05",
+        "author": "Jérôme Christen",
+        "reference": "2024/RI12",
+        "title": "Interpellation de M. Jérôme Christen (VL), intitulée « L’affichage commercial ne devrait-il pas permettre de financer l’affichage communal et associatif ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5702",
+        "source_download_id": "5702"
+      },
+      {
+        "listing_date": "2024-12-05",
+        "author": "Jérôme Christen",
+        "reference": "2024/RI12",
+        "title": "Interpellation de M. Jérôme Christen (VL), intitulée « L’affichage commercial ne devrait-il pas permettre de financer l’affichage communal et associatif ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5650",
+        "source_download_id": "5650"
+      }
+    ]
+  }
+}

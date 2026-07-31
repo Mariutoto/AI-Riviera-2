@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_d76e6b8652ada86e74fe",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Quai Perdonnet : Magnifique lieu de vie ou vélodrome dangereux ! »",
+    "source_title": "Interpellation de Mme Anna Iamartino (PLR), intitulée « Quai Perdonnet : Magnifique lieu de vie ou vélodrome dangereux ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5880",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-09-04",
+    "content_hash": "4b421219c451d6e67b27435a8f7bdc3d8baf71b3b06fed2b0d1589ee1a474184",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Anna Iamartino"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-09-04",
+    "responses": [
+      {
+        "response_number": "6/2025",
+        "response_date": "2025-09-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2051,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 298,
+      "clean_words": 298,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 298
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_d76e6b8652ada86e74fe",
+    "response_document_ids": [
+      "vevey_interpellation_response_8dba14c023f22fbff9ae"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": "2025/RI06",
+      "normalized_title": "interpellation de mme anna iamartino (plr), intitulée « quai perdonnet : magnifique lieu de vie ou vélodrome dangereux ! »",
+      "author": "Anna Iamartino",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2102
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2051,
+    "text_words": 298,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a97050a0235af115f7652d43d30b43174ce5c617d3e7c042eab7c2031c28a401"
+  }
+}

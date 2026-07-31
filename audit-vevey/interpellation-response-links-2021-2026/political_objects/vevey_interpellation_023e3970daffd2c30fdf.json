@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_023e3970daffd2c30fdf",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Dominique Besson (PS), intitulée « Annoncer son changement d'adresse au contrôle des habitants »",
+    "source_title": "Interpellation de M. Dominique Besson (PS), intitulée « Annoncer son changement d'adresse au contrôle des habitants »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5985",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "d1a4c0300a34691a42abd525fe5bf89684c326f20dfa6af1786066f4d2d4acbb",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Dominique Besson"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-13",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1488,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 181,
+      "clean_words": 181,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 181
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_023e3970daffd2c30fdf",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. dominique besson (ps), intitulée « annoncer son changement d'adresse au contrôle des habitants »",
+      "author": "Dominique Besson",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1515
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1488,
+    "text_words": 181,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "3bbbeb8b978d31cd7685050bfd981aee6b8c4a7d1b817b62e55e70c125e9d7bc"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_0f9141e921d55664e10b",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Diète postale à marche forcée – Stop !",
+    "source_title": "Interpellation de Mme Marion Houriet (PS), intitulée « Diète postale à marche forcée - Stop ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5565",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-05",
+    "content_hash": "a12f0f28a114bd75e147cc335dce0b97981b9c3b571478dc722e966ad489dbf0",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "9/2024",
+        "response_date": "2024-09-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6667,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1080,
+      "clean_words": 1080,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1080
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_0f9141e921d55664e10b",
+    "best_candidate_id": "vevey_interpellation_0f9141e921d55664e10b",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_0f9141e921d55664e10b"
+    ],
+    "official_reference": "2024/RI09"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5565",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-09-05",
+        "author": "Marion Houriet",
+        "reference": "2024/RI09",
+        "title": "Interpellation de Mme Marion Houriet (PS), intitulée « Diète postale à marche forcée - Stop ! »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5565",
+        "source_download_id": "5565"
+      }
+    ]
+  }
+}

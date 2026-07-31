@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_7f69f3c8f61be7d39966",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Patrick Bertschy : « Pour qui ? Pourquoi ? Par qui ? »",
+    "source_title": "Interpellation de Patrick Bertschy : « Pour qui ? Pourquoi ? Par qui ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5195",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-14",
+    "content_hash": "61948312b97701c3f5a45290501c9655355e8468f20731f7b4c2b225f9caaf10",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2023-09-14",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3088,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 480,
+      "clean_words": 480,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 480
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_7f69f3c8f61be7d39966",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de patrick bertschy : « pour qui ? pourquoi ? par qui ? »",
+      "author": "Patrick Bertschy",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2598,
+      597
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 3088,
+    "text_words": 480,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "982d5fdb9647da495c1dd2f7c08242205e4f2476a7f7782b235f994e037e7f03"
+  }
+}

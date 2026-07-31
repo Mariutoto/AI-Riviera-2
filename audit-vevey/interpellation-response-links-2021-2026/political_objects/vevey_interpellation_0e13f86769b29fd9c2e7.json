@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_0e13f86769b29fd9c2e7",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de Mme Sarah Dohr (VL), intitulée « La SPA du Haut-Léman, une association d’utilité publique qui est appréciée, mais aussi sous-estimée »",
+    "source_title": "Interpellation de Mme Sarah Dohr (VL), intitulée « La SPA du Haut-Léman, une association d’utilité publique qui est appréciée, mais aussi sous-estimée »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5283",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-12-07",
+    "content_hash": "4edf370e9ac61ba4bcfdf97dbdcbed17b11093e9002acf73561cc07c9d9b3407",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sarah Dohr"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-12-07",
+    "responses": [
+      {
+        "response_number": "9/2023",
+        "response_date": "2023-12-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3293,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1242,
+      "clean_words": 543,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 543
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_0e13f86769b29fd9c2e7"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_0e13f86769b29fd9c2e7",
+    "matching_keys": {
+      "official_reference": "2023/RI09",
+      "normalized_title": "interpellation de mme sarah dohr (vl), intitulée « la spa du haut-léman, une association d’utilité publique qui est appréciée, mais aussi sous-estimée »",
+      "author": "Sarah Dohr",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2113,
+      2205,
+      2750,
+      635
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "text_chars": 7468,
+    "text_words": 1242,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "9102e1b037bbe427c95feae7d1b1df507d9c10f7bcc52885d4df855e38efa612"
+  }
+}

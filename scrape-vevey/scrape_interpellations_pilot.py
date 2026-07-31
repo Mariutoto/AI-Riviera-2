@@ -241,8 +241,14 @@ def download_audit(
 def classify_document_roles(documents: list[dict]) -> None:
     for document in documents:
         preview = str((document.get("text_audit") or {}).get("text_preview") or "")
-        normalized = _ascii(preview)
-        if re.search(r"\breponse a l['’ ]?interpellation\b", normalized):
+        normalized = _ascii(f"{document.get('title', '')} {preview}")
+        if (
+            ("reponse" in _ascii(str(document.get("title") or "")) and "interpellation" in _ascii(str(document.get("title") or "")))
+            or re.search(
+                r"\breponses?\s+(?:a|aux?)\s+l?['’ ]*interpellations?\b",
+                normalized,
+            )
+        ):
             document["document_role"] = "response"
             reference_match = re.search(r"\bRI\s*(\d{1,3})\s*/\s*(20\d{2})\b", preview, re.I)
             if reference_match:

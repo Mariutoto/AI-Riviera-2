@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_77b936350e0f08a8d63a",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse à l’interpellation de M. Pierre Butty (PS), intitulée « Vevey a mal à sa permanence médicale »",
+    "source_title": "Réponse à l’interpellation de M. Pierre Butty (PS), intitulée « Vevey a mal à sa permanence médicale »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5052",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-06",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Pierre Butty"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-03-06",
+    "responses": [
+      {
+        "response_number": "2023/RI03",
+        "response_date": "2023-03-06",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1476,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_77b936350e0f08a8d63a",
+    "matching_keys": {
+      "official_reference": "2023/RI03",
+      "normalized_title": "réponse à l’interpellation de m. pierre butty (ps), intitulée « vevey a mal à sa permanence médicale »",
+      "author": "Pierre Butty",
+      "year": "2023"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_2022_vevey_a_mal_a_sa_permanence_medicale"
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2144,
+      3429,
+      1432,
+      2500
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      0,
+      3,
+      5
+    ],
+    "text_chars": 9238,
+    "text_words": 1476,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "f05e3efe4ca60a1986c27063e04f5ef3732f76484fc8a59139f3696df7674019"
+  }
+}

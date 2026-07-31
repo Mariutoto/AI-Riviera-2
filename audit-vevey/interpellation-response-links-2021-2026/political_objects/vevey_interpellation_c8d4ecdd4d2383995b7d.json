@@ -1,0 +1,85 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_c8d4ecdd4d2383995b7d",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de M. Philippe Herminjard (PLR), intitulée « Estimations fiscales immobilières, pourquoi jouer à Arnold von Winkelried »",
+    "source_title": "Interpellation de M. Philippe Herminjard (PLR), intitulée « Estimations fiscales immobilières, pourquoi jouer à Arnold von Winkelried »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5451",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-14",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Philippe Herminjard"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-03-14",
+    "responses": [
+      {
+        "response_number": "2024/RI03",
+        "response_date": "2024-03-14",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1227,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_c8d4ecdd4d2383995b7d",
+    "matching_keys": {
+      "official_reference": "2024/RI03",
+      "normalized_title": "interpellation de m. philippe herminjard (plr), intitulée « estimations fiscales immobilières, pourquoi jouer à arnold von winkelried »",
+      "author": "Philippe Herminjard",
+      "year": "2024"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_8d7416ce983866e8f86d"
+  },
+  "pdf_audit": {
+    "page_count": 3,
+    "page_text_chars": [
+      2970,
+      2737,
+      2487
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      3,
+      2
+    ],
+    "text_chars": 8013,
+    "text_words": 1227,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "45b9d9c7b929f5e9d14137ac36823f910cc3dc220950960a424f56ef2a65050f"
+  }
+}

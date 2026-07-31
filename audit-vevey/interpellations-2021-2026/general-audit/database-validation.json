@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 199,
+    "originals": 110,
+    "combined": 14,
+    "responses": 75,
+    "chunks": 516,
+    "vectors": 516,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "broken_relationships": 0
+  },
+  "objects_by_year": {
+    "2021": 18,
+    "2022": 21,
+    "2023": 19,
+    "2024": 17,
+    "2025": 30,
+    "2026": 19
+  },
+  "answered_by_year": {
+    "2021": 3,
+    "2022": 11,
+    "2023": 13,
+    "2024": 15,
+    "2025": 19,
+    "2026": 11
+  }
+}

@@ -1,0 +1,133 @@
+# Taux d'occupation et nombre de places libres l'après-midi en semaine en 2025 (09.09.2025)
+
+## Quadrant Nord-Ouest
+
+Taux d'occupation moyen 72% (74% en 2024)
+
+71 places libres en surface (62 en 2024)
+
+42 places libres en ouvrage (44 en 2024)
+
+74 places libres au parking Cour-aux-Marchandises (73 en 2024)
+
+**187 places libres au total (179 en 2024)**
+
+## Quadrant Nord-Est
+
+Taux d'occupation moyen 70% (70% en 2024)
+
+288 places libres en surface (300 en 2024)
+
+0 place libre en ouvrage (1 en 2024)
+
+**288 places libres au total (301 en 2024)**
+
+## Quadrant Sud-Ouest
+
+Taux d'occupation moyen 65% (63% en 2024)
+
+146 places libres en surface (154 en 2024)
+
+225 places libres en ouvrage (242 en 2024)
+
+**371 places libres au total (396 en 2024)**
+
+## Quadrant Sud-Est
+
+Taux d'occupation moyen 87% (86% en 2024)
+
+107 places libres en surface (171 en 2024)
+
+73 places libres en ouvrage (17 en 2024)
+
+**180 places libres au total (188 en 2024)**
+
+Taux d'occupation
+
+0 - 50%
+
+50 - 75%
+
+75 - 85%
+
+85 - 95%
+
+95 - 100%
+
+# Taux d'occupation et nombre de places libres la nuit en semaine en 2025 (09.09.2025)
+
+## Quadrant Nord-Ouest
+
+Taux d'occupation moyen 80% (78% en 2024)
+
+54 places libres en surface (66 en 2024)
+
+0 place libre en ouvrage (0 en 2024)
+
+79 places libres au parking Cour-aux-Marchandises (83 en 2024)
+
+**133 places libres au total (149 en 2024)**
+
+## Quadrant Nord-Est
+
+Taux d'occupation moyen 68% (69% en 2024)
+
+247 places libres en surface (256 en 2024)
+
+55 places libres en ouvrage (55 en 2024)
+
+**302 places libres au total (311 en 2024)**
+
+## Quadrant Sud-Ouest
+
+Taux d'occupation moyen 42% (42% en 2024)
+
+137 places libres en surface (149 en 2024)
+
+486 places libres en ouvrage (474 en 2024)
+
+**623 places libres au total (623 en 2024)**
+
+## Quadrant Sud-Est
+
+Taux d'occupation moyen 50% (58% en 2024)
+
+365 places libres en surface (296 en 2024)
+
+300 places libres en ouvrage (282 en 2024)
+
+**665 places libres au total (578 en 2024)**
+
+Taux d'occupation
+
+0 - 50%
+
+50 - 75%
+
+75 - 85%
+
+85 - 95%
+
+95 - 100%
+
+# Un point de la situation actuelle et future est nécessaire
+
+De nombreux réaménagements de rue et les suppressions de places de parcs qui l'accompagnent régulièrement ont eu lieu. Il est donc judicieux d'actualiser la situation.
+
+Après les deux premières interpellations et réponses de la Municipalité en septembre 2023 et octobre 2024, nous souhaitons avoir une vue globale et complète de la situation d'aujourd'hui et des développements qui vont suivre dans les prochains mois.
+
+Au nom du PLR.Vevey, je souhaite que la Municipalité nous informe en toute transparence sur ce sujet en prenant comme référence l'exemple de la communication très complète (02/2010) du 21 janvier 2010, concernant la situation des places de parc de notre ville. Elle faisait suite à une demande de Monsieur Pierre Clément.
+
+Dès lors, au nom du groupe PLR.Vevey je pose les questions suivantes à notre Municipalité tout en précisant que cela concerne aussi bien les deux-roues que les voitures et cars :
+
+1. Combien de places de parc ont ete crees depuis le 1er juillet 2021 et a quels endroits?
+2. Combien de places de parc ont ete supprimees depuis le 1er juillet 2021 et a quels endroits?
+3. Combien y a-t-il de macarons vendus et de places de parc par zone à ce jour ?
+4. Quel est le nombre actuel de places de parc en surface dans notre commune à ce jour?
+
+Je remercie la Municipalité pour une réponse écrite et circonstanciée.
+
+* * *
+
+Au nom du groupe PLR.Vevey
+Patrick Bertschy

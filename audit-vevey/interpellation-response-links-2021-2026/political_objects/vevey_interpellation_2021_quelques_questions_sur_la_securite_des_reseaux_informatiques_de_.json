@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_quelques_questions_sur_la_securite_des_reseaux_informatiques_de_",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Serge Ansermet (PS) : « Quelques questions sur la sécurité des réseaux informatiques de l’administration veveysanne »",
+    "source_title": "Interpellation de Serge Ansermet (PS) : « Quelques questions sur la sécurité des réseaux informatiques de l’administration veveysanne »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4709",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "06db511e9521e9fffb28d782d7b6fd93e876432b5b879545bd5955f685eae0d8",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Serge Ansermet"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-09-09",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1094,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 169,
+      "clean_words": 169,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 169
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_quelques_questions_sur_la_securite_des_reseaux_informatiques_de_",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de serge ansermet (ps) : « quelques questions sur la sécurité des réseaux informatiques de l’administration veveysanne »",
+      "author": "Serge Ansermet",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1094
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1094,
+    "text_words": 169,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "8928dd273a56014b120ad8fdf8498c17d7a6f240d363649fb091ebbfdf72d745"
+  }
+}

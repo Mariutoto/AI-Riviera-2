@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_55a44224b08e6e7166a1",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Valérie Zonca (Vert.es), intitulée « Des bouteilles de vin lavables pour les Caves de la Ville de Vevey »",
+    "source_title": "Interpellation de Mme Valérie Zonca (Vert.es), intitulée « Des bouteilles de vin lavables pour les Caves de la Ville de Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5375",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-14",
+    "content_hash": "cce2fb58c26178cab149800503446ed7f489ec2217f3bce672a417b9b4252a0a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Valérie Zonca"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2024-03-14",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1979,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 326,
+      "clean_words": 326,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 326
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_55a44224b08e6e7166a1",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme valérie zonca (vert.es), intitulée « des bouteilles de vin lavables pour les caves de la ville de vevey »",
+      "author": "Valérie Zonca",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2032
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1979,
+    "text_words": 326,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "66cd017c25221637cba5bf34c05d3058a5d6ff422def595c291fba038d9cd1c5"
+  }
+}

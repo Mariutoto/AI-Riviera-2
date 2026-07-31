@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_cyber_emmentaler",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Fabienne Despot (UDC) : « Cyber-emmentaler »",
+    "source_title": "Interpellation de Fabienne Despot (UDC) : « Cyber-emmentaler »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4709",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "efa8ea05e0fdee58073d3e8d30cfd41b66a2a463fb4d0fbc13bde4b3cee072de",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Fabienne Despot"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-09-09",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4004,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 574,
+      "clean_words": 574,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 574
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_cyber_emmentaler",
+    "response_document_ids": [
+      "vevey_interpellation_response_b6b620c5ed48d81eb8f7"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de fabienne despot (udc) : « cyber-emmentaler »",
+      "author": "Fabienne Despot",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2682,
+      1320
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 4004,
+    "text_words": 574,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "0c8911215ff66b1b4b3b1ab2f5d720093e2889d11be4f1cbfc607b5b00786da6"
+  }
+}

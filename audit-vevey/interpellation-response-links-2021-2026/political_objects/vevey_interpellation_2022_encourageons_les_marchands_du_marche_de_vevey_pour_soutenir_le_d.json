@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_encourageons_les_marchands_du_marche_de_vevey_pour_soutenir_le_d",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Philippe Herminjard (PLR) : « Encourageons les marchands du marché de Vevey pour soutenir le développement de notre marché »",
+    "source_title": "Interpellation de Philippe Herminjard (PLR) : « Encourageons les marchands du marché de Vevey pour soutenir le développement de notre marché »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4811",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-03",
+    "content_hash": "1341c8b28b8401e1dd0fefe909283ad0ebb92a75948cbe6d19552a0f4ab1989a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Philippe Herminjard"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-02-03",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-05-19",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1874,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 288,
+      "clean_words": 288,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 288
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_encourageons_les_marchands_du_marche_de_vevey_pour_soutenir_le_d",
+    "response_document_ids": [
+      "vevey_interpellation_response_44be344fb829ea72680e"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de philippe herminjard (plr) : « encourageons les marchands du marché de vevey pour soutenir le développement de notre marché »",
+      "author": "Philippe Herminjard",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1874
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1874,
+    "text_words": 288,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "3236cf3a8b010dafb8781737aad2c7b4cbc2ca8e1e7df319baf7e9249eab625d"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_7bd139918aef1b051439",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Quelles mesures rapides pour éviter aux VMCV des « sorties de route",
+    "source_title": "Interpellation de M. Jérôme Christen (VL), intitulée « Quelles mesures rapides pour éviter aux VMCV des « Sorties de route » et « des dérapages »?",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6004",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-12-04",
+    "content_hash": "b8e143852a2d3bb8454432457bc95aefc0aced819028e2678865a5adc711ecd6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "16/2025",
+        "response_date": "2025-12-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13080,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2058,
+      "clean_words": 2058,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2058
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_7bd139918aef1b051439",
+    "best_candidate_id": "vevey_interpellation_7bd139918aef1b051439",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_7bd139918aef1b051439"
+    ],
+    "official_reference": "2025/RI16"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "6004",
+    "listing_occurrences": [
+      {
+        "listing_date": "2025-12-04",
+        "author": "Jérôme Christen",
+        "reference": "2025/RI16",
+        "title": "Interpellation de M. Jérôme Christen (VL), intitulée « Quelles mesures rapides pour éviter aux VMCV des « Sorties de route » et « des dérapages »?",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6004",
+        "source_download_id": "6004"
+      }
+    ]
+  }
+}

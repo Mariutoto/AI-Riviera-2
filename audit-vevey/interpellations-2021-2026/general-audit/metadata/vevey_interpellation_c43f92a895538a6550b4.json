@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_c43f92a895538a6550b4",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Moïn Danai (UDC), intitulée « Introduction du logiciel « eSLegislative » pour la gestion des documents du Conseil communal de Vevey »",
+    "source_title": "Interpellation de M. Moïn Danai (UDC), intitulée « Introduction du logiciel « eSLegislative » pour la gestion des documents du Conseil communal de Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6099",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-07",
+    "content_hash": "5ffa621d6f4d43f4d0fd279442822f62ba748dc0c6e090d5170d21ab5532d3a3",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Moïn Danai"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-05-07",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5489,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 825,
+      "clean_words": 825,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 825
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_c43f92a895538a6550b4",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. moïn danai (udc), intitulée « introduction du logiciel « eslegislative » pour la gestion des documents du conseil communal de vevey »",
+      "author": "Moïn Danai",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2503,
+      688,
+      1640,
+      1037
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "text_chars": 5489,
+    "text_words": 825,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a9cad85fba8d44fdf35beed40a1162759ff69d3b9b689ad379e91d64ccb77315"
+  }
+}

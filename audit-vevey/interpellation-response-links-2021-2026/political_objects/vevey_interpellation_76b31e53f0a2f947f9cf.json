@@ -1,0 +1,94 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_76b31e53f0a2f947f9cf",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellations de Mesdames Sandra Marques (PLR), intitulée « Insécurité à la Place de la Gare et environs… Ça suffit ! » et Sarah Dohr (VL), intitulée « Vevey - Riponne, drogues et toxicomanie, que fait ASR et la Municipalité ? »",
+    "source_title": "Interpellations de Mesdames Sandra Marques (PLR), intitulée « Insécurité à la Place de la Gare et environs… Ça suffit ! » et Sarah Dohr (VL), intitulée « Vevey - Riponne, drogues et toxicomanie, que fait ASR et la Municipalité ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5351",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-01",
+    "content_hash": "b83fffe0ff6f5b7b429cb65cb56535954f530c7027e42d3c3e8da1d01529ba7d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": "2024-02-01",
+    "responses": [
+      {
+        "response_number": "1/2024",
+        "response_date": "2024-02-01",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5511,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3872,
+      "clean_words": 841,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 841
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_76b31e53f0a2f947f9cf"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_76b31e53f0a2f947f9cf",
+    "matching_keys": {
+      "official_reference": "2024/RI01",
+      "normalized_title": "interpellations de mesdames sandra marques (plr), intitulée « insécurité à la place de la gare et environs… ça suffit ! » et sarah dohr (vl), intitulée « vevey - riponne, drogues et toxicomanie, que fait asr et la municipalité ? »",
+      "author": null,
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 9,
+    "page_text_chars": [
+      2477,
+      3352,
+      4549,
+      3248,
+      3403,
+      3192,
+      2112,
+      2451,
+      1072
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1,
+      1,
+      0
+    ],
+    "text_chars": 25398,
+    "text_words": 3872,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "7f0802127c87be75e55db78c839516f975da98edad62fd2473cdbfdd3dda3f3f"
+  }
+}

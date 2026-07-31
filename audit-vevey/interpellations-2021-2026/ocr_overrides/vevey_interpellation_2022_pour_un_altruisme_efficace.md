@@ -1,0 +1,34 @@
+# Interpellation
+
+# « Pour un altruisme efficace »
+
+Mesdames, Messieurs,
+
+Chaque année, la Municipalité nous informe de l'utilisation des postes budgétaires « Aide humanitaire et en cas de catastrophe » et « Aide aux pays en voie de développement ».
+
+Ces dernières années, il s'agissait d'un montant total de CHF 100'000.- et nous l'avons aujourd'hui augmenté à CHF 125'000.-.
+
+À la lecture de ces communications, je suis toujours interloqué par le choix des différentes organisations qui bénéficient de ces montants de la part de la ville et me demande si les choix réalisés sont vraiment les plus pertinents en terme d'efficacité.
+
+En effet, la bonne volonté n'est pas suffisante pour aider au mieux le plus de personnes possibles et choisir les organisations qui nous touchent le plus émotionnellement n'est pas un bon moyen d'effectuer des choix pertinents.
+
+À titre d'exemple, une opération de la cataracte dans un pays pauvre coûte environ CHF 1'000.- et permettra à une personne de ne pas devenir aveugle alors que former un chien d'aveugle coûte environ 40 fois plus et ne bénéficiera qu'à une seule personne aveugle (souvent dans un pays riche).
+
+Autre exemple : distribuer pour CHF 7'500.- de moustiquaires contre la malaria permettra en moyenne de sauver la vie d'une personne dans un pays pauvre alors que dans nos pays riches, nous dépensons souvent des centaines de milliers de francs pour obtenir le même résultat.
+
+Choisir une action plutôt qu'autre peut signifier de laisser souffrir voire mourir un grand nombre de personnes que nous aurions pu aider si nous avions fait des choix plus éclairés.
+
+Nos questions à la Municipalité sont donc les suivantes :
+
+1. Comment la Municipalité choisi-t-elle les organisations qu'elle décide de soutenir financièrement et quels critères utilise-t-elle pour cela ?
+2. Combien de temps au total est investi dans le choix de ces organisations ?
+
+3. Pourquoi la Municipalité ne choisit-elle pas de se fier aux recommandations d'organisations comme GiveWell ou encore The Life You Can Save dont l'unique rôle est de faire ce travail d'analyse extrêmement compliqué pour finalement faire des recommandations éclairées ?
+
+En choisissant de se fier aux recommandations d'organisations expertes dans ce domaine, non seulement la Municipalité économisera du temps pour se concentrer sur des tâches bénéficiant aux personnes qui habitent Vevey mais elle nous permettra également d'être peut-être 100 voire 1'000 fois plus efficaces et d'aider d'autant plus de personnes à travers le monde.
+
+Si nous pouvons aider un plus grand nombre de personnes avec ces montants que nous choisissons de donner, alors nous avons l'obligation de le faire.
+
+Pour le groupe Vert'libéraux - Le Centre
+
+Fabien Truffer

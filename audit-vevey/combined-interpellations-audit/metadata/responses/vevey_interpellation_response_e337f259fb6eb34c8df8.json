@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_e337f259fb6eb34c8df8",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Vevey… à la recherche du deal perdu ?",
+    "source_title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Vevey... à la recherche du deal perdu? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5651",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-05",
+    "content_hash": "074eddcd1ea47bb2fde06562cd2737575aaf06cb93d08cf960c9bd7cbba1025e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "13/2024",
+        "response_date": "2024-12-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 8742,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1358,
+      "clean_words": 1358,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1358
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e7841545d1079e01c656",
+    "best_candidate_id": "vevey_interpellation_e7841545d1079e01c656",
+    "score": 1.0,
+    "second_score": 0.4867,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_e337f259fb6eb34c8df8"
+    ],
+    "official_reference": "2024/RI13"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5651",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-12-05",
+        "author": "Sandra Marques",
+        "reference": "2024/RI13",
+        "title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Vevey... à la recherche du deal perdu? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5651",
+        "source_download_id": "5651"
+      }
+    ]
+  }
+}

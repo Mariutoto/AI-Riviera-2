@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_c2fcb2e5aaa3daf4c51c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de M. Jérôme Christen (VL), intitulée « Abattoirs de Clarens : n’abattons pas des filières de produits de proximité ! »",
+    "source_title": "Interpellation de M. Jérôme Christen (VL), intitulée « Abattoirs de Clarens : n’abattons pas des filières de produits de proximité ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5563",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-05",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-09-05",
+    "responses": [
+      {
+        "response_number": "2024/RI07",
+        "response_date": "2024-09-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1961,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_c2fcb2e5aaa3daf4c51c",
+    "matching_keys": {
+      "official_reference": "2024/RI07",
+      "normalized_title": "interpellation de m. jérôme christen (vl), intitulée « abattoirs de clarens : n’abattons pas des filières de produits de proximité ! »",
+      "author": "Jérôme Christen",
+      "year": "2024"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_9b440d99699189885fce"
+  },
+  "pdf_audit": {
+    "page_count": 6,
+    "page_text_chars": [
+      2263,
+      2141,
+      2430,
+      2820,
+      2432,
+      865
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "text_chars": 12613,
+    "text_words": 1961,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "810c9e28bc700eaf826def3e4d6ece3152b5bdf80ccf3fce53d2ace895457ce5"
+  }
+}

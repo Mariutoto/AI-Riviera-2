@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_une_vision_d_avenir_pour_le_stade_de_copet_3",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Marianne Ghorayeb (EAV) : « Une vision d’avenir pour le stade de Copet 3 »",
+    "source_title": "Interpellation de Marianne Ghorayeb (EAV) : « Une vision d’avenir pour le stade de Copet 3 »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-17",
+    "content_hash": "19032a71f68858315a8055779a76cb18a00338dc9f73e338b79241f4370b83ac",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Marianne Ghorayeb"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-03-17",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3588,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 587,
+      "clean_words": 587,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 587
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_une_vision_d_avenir_pour_le_stade_de_copet_3",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de marianne ghorayeb (eav) : « une vision d’avenir pour le stade de copet 3 »",
+      "author": "Marianne Ghorayeb",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2533,
+      1053
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 3588,
+    "text_words": 587,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a8f7ddc85b2395fbc38d75eb1bfe018d51d971507cb7fd7a7be5a3fc039d9269"
+  }
+}

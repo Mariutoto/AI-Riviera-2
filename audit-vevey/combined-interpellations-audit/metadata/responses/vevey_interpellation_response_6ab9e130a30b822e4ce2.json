@@ -12,7 +12,7 @@
     "listing_year": 2025,
     "legislature": "2021-2026",
     "document_date": "2025-12-04",
-    "content_hash": "049c68a0cb22d3c5007e6c23decfe5ac54ce6a4e06637a4fbc4bcc903c837a01",
+    "content_hash": "af37ecf479a7c982d508e5ae22bddab14fd453271327505806a2131c18b45b67",
     "extraction_method": "native_pdf",
     "processing_status": "validated"
   },
@@ -31,18 +31,18 @@
   },
   "processing": {
     "text_extraction_status": {
-      "characters_extracted": 11298,
+      "characters_extracted": 9156,
       "text_available": true,
       "needs_ocr": false
     },
     "header_footer_cleaning": {
-      "raw_words": 1723,
-      "clean_words": 1723,
+      "raw_words": 1417,
+      "clean_words": 1417,
       "removed_blocks": 0
     },
     "selected_text": {
       "method": "native_pdf",
-      "words": 1723
+      "words": 1417
     }
   },
   "relationships": {
@@ -58,7 +58,7 @@
     "official_reference": "2025/RI18"
   },
   "source_tracking": {
-    "source_collection": "vevey-council-annexes",
+    "source_collection": "vevey-council-interpellation-responses",
     "source_download_id": "6001",
     "listing_occurrences": [
       {

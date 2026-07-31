@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_gratuite_des_places_de_parc_sur_la_place_du_marche",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Guillaume Pilloud (UDC) : « Gratuité des places de parc sur la place du Marché »",
+    "source_title": "Interpellation de Guillaume Pilloud (UDC) : « Gratuité des places de parc sur la place du Marché »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4834",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-17",
+    "content_hash": "7bafd8e8ba14142c321895b4aa66d0eb948781b1fe410dbf2b0468a0754d3e21",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Guillaume Pilloud"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-03-17",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1287,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 207,
+      "clean_words": 207,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 207
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_gratuite_des_places_de_parc_sur_la_place_du_marche",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de guillaume pilloud (udc) : « gratuité des places de parc sur la place du marché »",
+      "author": "Guillaume Pilloud",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1287
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1287,
+    "text_words": 207,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "98307d5b460003e658b1e88bc181f156361de1b36c20af63f3918ac9175bf8e8"
+  }
+}

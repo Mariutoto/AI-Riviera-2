@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_6c4dcc43586cb6246a41",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Sandra Marques/PLR, intitulée « Musée Jenisch, à quand un nouvel élan? »",
+    "source_title": "Interpellation de Mme Sandra Marques/PLR, intitulée « Musée Jenisch, à quand un nouvel élan? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5447",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-02",
+    "content_hash": "3f12e0b2b75618f75158856adcb409f46b020cff661ffe6de5b731874860deb4",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sandra Marques"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2024-05-02",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2673,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 397,
+      "clean_words": 397,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 397
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_6c4dcc43586cb6246a41",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme sandra marques/plr, intitulée « musée jenisch, à quand un nouvel élan? »",
+      "author": "Sandra Marques",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2725
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      2
+    ],
+    "text_chars": 2673,
+    "text_words": 397,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "077c3d47d3067174e691d479595a81da819c9e532dc324f26e93bde54b8af85c"
+  }
+}

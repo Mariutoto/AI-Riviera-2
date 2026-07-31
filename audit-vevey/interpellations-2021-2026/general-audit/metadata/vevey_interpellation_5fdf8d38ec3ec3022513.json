@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_5fdf8d38ec3ec3022513",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Sarah Dohr : « Fonctionnement et sécurité de l’hébergement d’urgence « Le Lien – Vevey » »",
+    "source_title": "Interpellation de Sarah Dohr : « Fonctionnement et sécurité de l’hébergement d’urgence « Le Lien – Vevey » »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6175",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-01",
+    "content_hash": "b6a0fb2967483ccf40cdb580d05361e995568bffc9617d426da42f23ece22f18",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sarah Dohr"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-06-01",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2482,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 386,
+      "clean_words": 386,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 386
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_5fdf8d38ec3ec3022513",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de sarah dohr : « fonctionnement et sécurité de l’hébergement d’urgence « le lien – vevey » »",
+      "author": "Sarah Dohr",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2494
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 2482,
+    "text_words": 386,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "867206d9e549ebb88fde50f7e9bffef722e486ff187c5e079c7bf1215cb74827"
+  }
+}

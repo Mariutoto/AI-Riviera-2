@@ -4,6 +4,7 @@ import hashlib
 import html
 import json
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -105,13 +106,50 @@ def is_interpellation_object(document: dict) -> bool:
     return document.get("document_role") == "political_object"
 
 
-def select_interpellation_text(document: dict, extraction: dict) -> tuple[str, str]:
+def subject_key(value: str) -> str | None:
+    quoted = re.findall(r"[«\"]([^»\"]{8,})[»\"]", value)
+    if len(quoted) != 1:
+        return None
+    folded = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", quoted[0].casefold())
+        if not unicodedata.combining(character)
+    )
+    return re.sub(r"[^a-z0-9]+", " ", folded).strip() or None
+
+
+def appended_interpellation_page(page: str) -> bool:
+    compact_page = compact(page)
+    head = compact_page[:500]
+    normalized_head = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", head.casefold())
+        if not unicodedata.combining(character)
+    )
+    normalized_head = re.sub(r"[^a-z0-9]+", " ", normalized_head).strip()
+    heading = re.search(r"\binterpellation\b", head, re.I)
+    return bool(
+        heading
+        and heading.start() < 220
+        and not re.search(
+            r"\breponses? (?:a|au|aux) l? ?interpellations?\b",
+            normalized_head,
+        )
+    )
+
+
+def select_interpellation_text(
+    document: dict,
+    extraction: dict,
+    duplicate_of: str | None = None,
+) -> tuple[str, str]:
     if is_interpellation_object(document):
         return extraction["text"], "whole_document"
+    if duplicate_of:
+        return "", "duplicate_of_standalone"
     page_texts = extraction.get("page_texts") or []
-    for index in range(len(page_texts) - 1, -1, -1):
-        page = page_texts[index]
-        if re.search(r"\binterpellation\s+d[ée]pos[ée]e?\b", page, re.I):
+    for index, page in enumerate(page_texts):
+        if appended_interpellation_page(page):
             return "\n\n".join(page_texts[index:]).strip(), "appended_interpellation"
     if not is_interpellation_object(document) and extraction.get("empty_pages"):
         return "", "appended_interpellation_scanned"
@@ -124,7 +162,10 @@ def general_metadata(
     selected_text: str,
     component_source: str,
 ) -> dict:
-    included = bool(selected_text) and not extraction["needs_ocr"]
+    included = bool(selected_text) and (
+        not extraction["needs_ocr"]
+        or component_source == "targeted_mistral_ocr"
+    )
     combined = (
         not is_interpellation_object(document)
         and (
@@ -167,7 +208,11 @@ def general_metadata(
             else extraction["extraction_method"]
         ),
         "processing_status": (
-            "validated" if included else "needs_review"
+            "validated"
+            if included
+            else "excluded_duplicate"
+            if component_source == "duplicate_of_standalone"
+            else "needs_review"
         ),
     }
 
@@ -320,6 +365,13 @@ def main() -> None:
     documents = inventory.get("canonical_documents") or []
     if not documents:
         raise SystemExit("inventory.json ne contient aucun document canonique")
+    standalone_by_subject = {
+        key: document["document_id"]
+        for document in documents
+        if is_interpellation_object(document)
+        for key in [subject_key(str(document.get("title") or ""))]
+        if key
+    }
     for directory in (METADATA_DIR, TEXT_DIR, CHUNKS_DIR, DETAIL_DIR):
         directory.mkdir(parents=True, exist_ok=True)
 
@@ -333,11 +385,19 @@ def main() -> None:
             missing_pdfs.append(str(pdf_path))
             continue
         extraction = extract_pdf(pdf_path)
+        duplicate_of = None
+        if not is_interpellation_object(document):
+            duplicate_of = standalone_by_subject.get(
+                subject_key(str(document.get("title") or "")) or ""
+            )
         selected_text, component_source = select_interpellation_text(
-            document, extraction
+            document, extraction, duplicate_of
         )
         ocr_override = OCR_DIR / f"{document_id}.md"
-        if ocr_override.exists():
+        if ocr_override.exists() and (
+            is_interpellation_object(document)
+            or component_source == "appended_interpellation_scanned"
+        ):
             selected_text = ocr_override.read_text(encoding="utf-8").strip()
             component_source = "targeted_mistral_ocr"
         base = general_metadata(
@@ -374,6 +434,8 @@ def main() -> None:
                 if key not in {"text", "page_texts"}
             },
         }
+        if duplicate_of:
+            record["relationships"]["duplicate_of_document_id"] = duplicate_of
         chunks = build_chunks(base, selected_text)
         write_json(METADATA_DIR / f"{document_id}.json", record)
         write_json(CHUNKS_DIR / f"{document_id}.json", chunks)

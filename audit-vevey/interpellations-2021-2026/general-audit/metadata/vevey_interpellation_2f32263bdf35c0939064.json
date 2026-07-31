@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2f32263bdf35c0939064",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Koya Hofstetter (Vert·e·s), intitulée « Les mesures après le drame de Crans-Montana »",
+    "source_title": "Interpellation de Mme Koya Hofstetter (Vert·e·s), intitulée « Les mesures après le drame de Crans-Montana »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6047",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": "f739dc96965030157721671c77176acb4af90d0b5cb4e45d1a663b870ae25c1d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Koya Hofstetter"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2026-02-05",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 4224,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 670,
+      "clean_words": 670,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 670
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2f32263bdf35c0939064",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme koya hofstetter (vert·e·s), intitulée « les mesures après le drame de crans-montana »",
+      "author": "Koya Hofstetter",
+      "year": "2026"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      2538,
+      1740
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      0
+    ],
+    "text_chars": 4224,
+    "text_words": 670,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "267f1b068e4b26df58e646e5c5d9cd4b51bb9dd6b04efb0659edab66255b2c28"
+  }
+}

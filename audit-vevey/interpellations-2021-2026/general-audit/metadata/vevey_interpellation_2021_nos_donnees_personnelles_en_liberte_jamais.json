@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_nos_donnees_personnelles_en_liberte_jamais",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Sandra Marques (PLR) : « Nos données personnelles en liberté… jamais ! »",
+    "source_title": "Interpellation de Sandra Marques (PLR) : « Nos données personnelles en liberté… jamais ! »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4709",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "73bdbae01223b031fb30f9266105da9121eceefefb3102811e8afe8c2ce4da33",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sandra Marques"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-09-09",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2745,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 433,
+      "clean_words": 433,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 433
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_nos_donnees_personnelles_en_liberte_jamais",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de sandra marques (plr) : « nos données personnelles en liberté… jamais ! »",
+      "author": "Sandra Marques",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2745
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2745,
+    "text_words": 433,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "7f45b7e877e545fe8b9310ae43a643f41f058538191c8d97e137aa6617ee811b"
+  }
+}

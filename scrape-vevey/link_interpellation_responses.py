@@ -87,6 +87,28 @@ def best_match(response: dict, objects: list[dict]) -> dict:
     response_titles = title_candidates(response)
     response_author = str(response.get("author") or "").casefold()
     response_year = str(response.get("listing_year") or "")
+    exact_subjects = [
+        document
+        for document in objects
+        if normalize(response_title) == normalize(document_title(document))
+    ]
+    preferred_exact_subjects = [
+        document
+        for document in exact_subjects
+        if document.get("document_role") == "political_object"
+    ]
+    if len(preferred_exact_subjects) == 1:
+        exact_subjects = preferred_exact_subjects
+    if len(exact_subjects) == 1:
+        document = exact_subjects[0]
+        return {
+            "political_object_id": document["document_id"],
+            "best_candidate_id": document["document_id"],
+            "score": 1.0,
+            "second_score": 0.0,
+            "matching_method": "exact_normalized_title",
+            "matching_confidence": "exact",
+        }
     for document in objects:
         score = max(
             title_similarity(response_value, object_value)
@@ -197,13 +219,24 @@ def homogeneous_response_record(response: dict, match: dict) -> dict:
 def build_links(
     interpellation_inventory: dict,
     annex_inventory: dict,
+    eligible_object_ids: set[str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     objects = [
         document
         for document in interpellation_inventory.get(
             "canonical_documents", []
         )
-        if document.get("document_role") == "political_object"
+        if (
+            document.get("document_role") == "political_object"
+            or (
+                eligible_object_ids is not None
+                and document.get("document_id") in eligible_object_ids
+            )
+        )
+        and (
+            eligible_object_ids is None
+            or document.get("document_id") in eligible_object_ids
+        )
     ]
     responses = annex_inventory.get("canonical_response_documents", [])
     links = []
@@ -288,7 +321,19 @@ def main() -> None:
         args.interpellations.read_text(encoding="utf-8")
     )
     annexes = json.loads(args.annexes.read_text(encoding="utf-8"))
-    links, records = build_links(interpellations, annexes)
+    eligible_object_ids = None
+    if args.interpellation_metadata_dir:
+        eligible_object_ids = {
+            record["document_metadata"]["document_id"]
+            for path in args.interpellation_metadata_dir.glob("*.json")
+            for record in [json.loads(path.read_text(encoding="utf-8"))]
+            if record["document_metadata"].get("processing_status") == "validated"
+        }
+    links, records = build_links(
+        interpellations,
+        annexes,
+        eligible_object_ids,
+    )
     args.output_dir.mkdir(parents=True, exist_ok=True)
     metadata_dir = args.output_dir / "metadata"
     metadata_dir.mkdir(parents=True, exist_ok=True)

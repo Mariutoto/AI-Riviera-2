@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_94f57cb77f768a915bfc",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Jérôme Christen : « Quelles mesures rapides pour éviter aux VMCV des sorties de route et des dérapages ? »",
+    "source_title": "Interpellation de Jérôme Christen : « Quelles mesures rapides pour éviter aux VMCV des sorties de route et des dérapages ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5892",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-25",
+    "content_hash": "66f6820f4c19f9a384498b712423c26cfcb53a76629bfa3f3f23305e17c87115",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Jérôme Christen"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-08-25",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 9499,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1509,
+      "clean_words": 1509,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1509
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_94f57cb77f768a915bfc",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de jérôme christen : « quelles mesures rapides pour éviter aux vmcv des sorties de route et des dérapages ? »",
+      "author": "Jérôme Christen",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 5,
+    "page_text_chars": [
+      1888,
+      2187,
+      2102,
+      1955,
+      1530
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "text_chars": 9499,
+    "text_words": 1509,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "5c3132ba086f109b769d38679e10d07232ec10aeab901700a28cab285ccf087a"
+  }
+}

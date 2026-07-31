@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_bd4007333ba48ac4135f",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de Mme Joëlle Minacci (da./Interpartis), intitulée « Quelles perspectives pour une réduction du temps d’attente des places en crèche »",
+    "source_title": "Interpellation de Mme Joëlle Minacci (da./Interpartis), intitulée « Quelles perspectives pour une réduction du temps d’attente des places en crèche »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5235",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-16",
+    "content_hash": "453daf7a9d9a5b17f2b182a018b5a5b7046ae9e2f5002a2f7331feeffdebbf11",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Joëlle Minacci"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-11-16",
+    "responses": [
+      {
+        "response_number": "5/2023",
+        "response_date": "2023-11-16",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3281,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2318,
+      "clean_words": 518,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 518
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_bd4007333ba48ac4135f"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_bd4007333ba48ac4135f",
+    "matching_keys": {
+      "official_reference": "2023/RI05",
+      "normalized_title": "interpellation de mme joëlle minacci (da./interpartis), intitulée « quelles perspectives pour une réduction du temps d’attente des places en crèche »",
+      "author": "Joëlle Minacci",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 5,
+    "page_text_chars": [
+      2415,
+      3561,
+      3508,
+      2012,
+      3291
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      0,
+      3,
+      0
+    ],
+    "text_chars": 14491,
+    "text_words": 2318,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "6a70b804e58130a330f20cc55c5c5f4a8390f2b0d5ab611903e5cd4e9cd5fc69"
+  }
+}

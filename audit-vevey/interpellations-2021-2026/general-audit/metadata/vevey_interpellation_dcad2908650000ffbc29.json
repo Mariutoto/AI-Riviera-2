@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_dcad2908650000ffbc29",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Philippe Herminjard : « La Municipalité actuelle appelée à respecter l’ancienne »",
+    "source_title": "Interpellation de Philippe Herminjard : « La Municipalité actuelle appelée à respecter l’ancienne »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5138",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-02",
+    "content_hash": "4dd6a8d2ad1d99eddbbaa6d510b8261523019b70e7dec28fa10d5285251e1692",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Philippe Herminjard"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2023-06-02",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2837,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 424,
+      "clean_words": 424,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 424
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_dcad2908650000ffbc29",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de philippe herminjard : « la municipalité actuelle appelée à respecter l’ancienne »",
+      "author": "Philippe Herminjard",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2904
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      2
+    ],
+    "text_chars": 2837,
+    "text_words": 424,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "ade6dc183ae23abb83b26fa22672abf4576b83ff1f46902d236a4f87a9e90b7b"
+  }
+}

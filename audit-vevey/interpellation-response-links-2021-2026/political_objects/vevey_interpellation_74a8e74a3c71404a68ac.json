@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_74a8e74a3c71404a68ac",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Alain Gonthier : « Les obscurs coûts d’une transparence limitée »",
+    "source_title": "Interpellation de Alain Gonthier : « Les obscurs coûts d’une transparence limitée »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5998",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-24",
+    "content_hash": "19b8f179d51d94b5c4d783426428b122b2559cdf0270b4bb5572f2b68b3a478e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Alain Gonthier"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2025-11-24",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2692,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 417,
+      "clean_words": 417,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 417
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_74a8e74a3c71404a68ac",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de alain gonthier : « les obscurs coûts d’une transparence limitée »",
+      "author": "Alain Gonthier",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2728
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2692,
+    "text_words": 417,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "5f337834bfc0df1f3eb32e0c2933be72f9cbdc880846f3e1c4d2c5a73352189f"
+  }
+}

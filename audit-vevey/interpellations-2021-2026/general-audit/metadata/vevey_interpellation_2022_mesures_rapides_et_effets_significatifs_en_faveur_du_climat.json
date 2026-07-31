@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_mesures_rapides_et_effets_significatifs_en_faveur_du_climat",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Fabien Truffer (LCVL) : « Mesures rapides et effets significatifs en faveur du climat »",
+    "source_title": "Interpellation de Fabien Truffer (LCVL) : « Mesures rapides et effets significatifs en faveur du climat »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-02/PV09-10_08-15%20d%C3%A9cembre%202022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-12-15",
+    "content_hash": "4e73a2b71eb0d5a2920392d5d11e34d035139366e64ddb5ad25d1858518500f0",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Fabien Truffer"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-12-15",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2378,
+      "text_available": true,
+      "needs_ocr": true
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 373,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 373
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_mesures_rapides_et_effets_significatifs_en_faveur_du_climat",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de fabien truffer (lcvl) : « mesures rapides et effets significatifs en faveur du climat »",
+      "author": "Fabien Truffer",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      0,
+      0
+    ],
+    "empty_pages": 2,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 0,
+    "text_words": 0,
+    "needs_ocr": true,
+    "extraction_method": "ocr_required",
+    "text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

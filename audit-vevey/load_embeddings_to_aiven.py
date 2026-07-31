@@ -58,6 +58,11 @@ def document_metadata(row: dict, record: dict) -> dict:
             f"Refusing non-Vevey document {row['document_id']}: "
             f"{general.get('commune')!r}"
         )
+    if general.get("category") != "interpellation":
+        raise ValueError(
+            f"Refusing non-interpellation document {row['document_id']}: "
+            f"{general.get('category')!r}"
+        )
     if general.get("document_id") != row["document_id"]:
         raise ValueError(f"Document ID mismatch for {row['document_id']}")
     return {
@@ -108,6 +113,47 @@ def main() -> None:
         if row["document_id"] not in documents:
             record = source_record(row)
             documents[row["document_id"]] = (row, document_metadata(row, record))
+    # Une copie d'un texte peut être dédupliquée au niveau des chunks tout en
+    # restant la cible officielle d'une relation réponse -> interpellation.
+    # Conserve alors sa fiche documentaire (sans dupliquer ses vecteurs).
+    linked_object_ids = {
+        str(
+            (source_record(row).get("relationships") or {}).get(
+                "political_object_id"
+            )
+            or ""
+        )
+        for row in inputs
+        if row.get("document_role") == "municipal_response"
+    }
+    for object_id in sorted(linked_object_ids - set(documents) - {""}):
+        metadata_path = (
+            PROJECT_ROOT
+            / "audit-vevey"
+            / "interpellation-response-links-2021-2026"
+            / "political_objects"
+            / f"{object_id}.json"
+        )
+        if not metadata_path.is_file():
+            raise ValueError(f"Missing linked political object: {object_id}")
+        record = json.loads(metadata_path.read_text(encoding="utf-8"))
+        base = record["document_metadata"]
+        synthetic_row = {
+            "document_id": object_id,
+            "document_family": base["document_family"],
+            "category": base["category"],
+            "document_role": base["document_role"],
+            "title": base["title"],
+            "embedding_recipe": "political_object",
+            "source_metadata_file": str(
+                metadata_path.relative_to(PROJECT_ROOT)
+            ).replace("\\", "/"),
+        }
+        documents[object_id] = (
+            synthetic_row,
+            document_metadata(synthetic_row, record),
+        )
+    target_document_ids = sorted(documents)
 
     run_id = str(uuid.uuid4())
     started_at = datetime.now(timezone.utc)
@@ -116,12 +162,14 @@ def main() -> None:
         with connection.cursor() as cursor:
             cursor.execute(
                 "SELECT count(*) FROM documents "
-                "WHERE document_id LIKE 'vevey_%%' "
-                "OR metadata->>'commune' = 'Vevey'"
+                "WHERE category='interpellation' "
+                "AND metadata->>'commune' = 'Vevey'"
             )
             before_documents = cursor.fetchone()[0]
             cursor.execute(
-                "SELECT count(*) FROM chunks WHERE document_id LIKE 'vevey_%%'"
+                "SELECT count(*) FROM chunks c JOIN documents d USING (document_id) "
+                "WHERE d.category='interpellation' "
+                "AND d.metadata->>'commune' = 'Vevey'"
             )
             before_chunks = cursor.fetchone()[0]
 
@@ -158,6 +206,30 @@ def main() -> None:
                         row["title"],
                         json.dumps(metadata, ensure_ascii=False),
                     ),
+                )
+
+            # Recharge exactement les chunks du corpus courant et retire les
+            # anciennes interpellations Vevey devenues doublons ou hors scope.
+            cursor.execute(
+                "DELETE FROM chunks WHERE document_id = ANY(%s)",
+                (target_document_ids,),
+            )
+            cursor.execute(
+                "SELECT document_id FROM documents "
+                "WHERE category='interpellation' "
+                "AND metadata->>'commune'='Vevey' "
+                "AND NOT (document_id = ANY(%s))",
+                (target_document_ids,),
+            )
+            stale_document_ids = [row[0] for row in cursor.fetchall()]
+            if stale_document_ids:
+                cursor.execute(
+                    "DELETE FROM chunks WHERE document_id = ANY(%s)",
+                    (stale_document_ids,),
+                )
+                cursor.execute(
+                    "DELETE FROM documents WHERE document_id = ANY(%s)",
+                    (stale_document_ids,),
                 )
 
             for offset in range(0, len(inputs), 100):
@@ -218,17 +290,21 @@ def main() -> None:
         with connection.cursor() as cursor:
             cursor.execute(
                 "SELECT count(*) FROM documents "
-                "WHERE document_id LIKE 'vevey_%%' "
+                "WHERE category='interpellation' "
                 "AND metadata->>'commune' = 'Vevey'"
             )
             after_documents = cursor.fetchone()[0]
             cursor.execute(
-                "SELECT count(*) FROM chunks WHERE document_id LIKE 'vevey_%%'"
+                "SELECT count(*) FROM chunks c JOIN documents d USING (document_id) "
+                "WHERE d.category='interpellation' "
+                "AND d.metadata->>'commune' = 'Vevey'"
             )
             after_chunks = cursor.fetchone()[0]
             cursor.execute(
-                "SELECT count(*) FROM chunks "
-                "WHERE document_id LIKE 'vevey_%%' AND embedding IS NOT NULL"
+                "SELECT count(*) FROM chunks c JOIN documents d USING (document_id) "
+                "WHERE d.category='interpellation' "
+                "AND d.metadata->>'commune' = 'Vevey' "
+                "AND c.embedding IS NOT NULL"
             )
             after_vectors = cursor.fetchone()[0]
 

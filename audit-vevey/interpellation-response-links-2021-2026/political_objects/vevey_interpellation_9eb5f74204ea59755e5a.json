@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_9eb5f74204ea59755e5a",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de Mme Giuliana De Regibus (PS), intitulée « L’apprentissage en question »",
+    "source_title": "Interpellation de Mme Giuliana De Regibus (PS), intitulée « L’apprentissage en question »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5945",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-02",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Giuliana De Regibus"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-10-02",
+    "responses": [
+      {
+        "response_number": "2025/RI09",
+        "response_date": "2025-10-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1128,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_9eb5f74204ea59755e5a",
+    "matching_keys": {
+      "official_reference": "2025/RI09",
+      "normalized_title": "interpellation de mme giuliana de regibus (ps), intitulée « l’apprentissage en question »",
+      "author": "Giuliana De Regibus",
+      "year": "2025"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_d7621f242a111477f6df"
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2017,
+      2895,
+      695,
+      2095
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      3,
+      1
+    ],
+    "text_chars": 7669,
+    "text_words": 1128,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "b1c9797a297d6d0e8ef73267005bb12b49b267902161e241bd5519a0463c41a6"
+  }
+}

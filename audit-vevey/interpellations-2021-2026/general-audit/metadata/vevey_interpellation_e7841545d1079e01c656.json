@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e7841545d1079e01c656",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Vevey... à la recherche du deal perdu? »",
+    "source_title": "Interpellation de Mme Sandra Marques (PLR), intitulée « Vevey... à la recherche du deal perdu? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5652",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-05",
+    "content_hash": "263bb4df9a3d11eb094754a2a99741e548d6c16a9645086a2a69efc07a63398f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sandra Marques"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2024-12-05",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3329,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 545,
+      "clean_words": 545,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 545
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_e7841545d1079e01c656",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": "2024/RI13",
+      "normalized_title": "interpellation de mme sandra marques (plr), intitulée « vevey... à la recherche du deal perdu? »",
+      "author": "Sandra Marques",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      3383
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 3329,
+    "text_words": 545,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "10465e88d504a67cb02c0efd0d07ea99ea30ef0e8206cf2fc7adaebfc313301b"
+  }
+}

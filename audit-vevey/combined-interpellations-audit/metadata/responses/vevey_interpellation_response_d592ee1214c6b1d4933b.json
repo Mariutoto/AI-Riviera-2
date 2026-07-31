@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_d592ee1214c6b1d4933b",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Les bancs publics",
+    "source_title": "Réponse à l’interpellation de Mme Sarah Dohr - VL/Interpartis, intitulée « Les bancs publics »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5018",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-02-02",
+    "content_hash": "45411fde33b15509941423c8dbe3aaf0311956c26eecdfce3d7812f988ec1b02",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-02-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5581,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 909,
+      "clean_words": 909,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 909
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_les_bancs_publics",
+    "best_candidate_id": "vevey_interpellation_2022_les_bancs_publics",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_d592ee1214c6b1d4933b"
+    ],
+    "official_reference": "2023/C01"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5018",
+    "listing_occurrences": [
+      {
+        "listing_date": "2023-02-02",
+        "author": "Sarah Dohr",
+        "reference": "2023/C01",
+        "title": "Réponse à l’interpellation de Mme Sarah Dohr - VL/Interpartis, intitulée « Les bancs publics »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5018",
+        "source_download_id": "5018"
+      }
+    ]
+  }
+}

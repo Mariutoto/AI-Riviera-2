@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_894a568514b17d8d5705",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Bloquer des places de stationnement pendant le marché pour faire de la propagande politique ? ",
+    "source_title": "Réponse à l’interpellation de M. Bastien Schobinger, intitulée, « Bloquer les places de stationnement pendant le marché pour faire de la propagande politique ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4701",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-07",
+    "content_hash": "56f32fd2fc2e10a20cc1dd04fc46d841e0de15f6bb625c22a0e115c0d036c3ce",
+    "extraction_method": "native_pdf",
+    "processing_status": "needs_review"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 7963,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1217,
+      "clean_words": 1217,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1217
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "best_candidate_id": "vevey_interpellation_e54254b1d83cf69264be",
+    "score": 0.549,
+    "second_score": 0.523,
+    "matching_method": "normalized_title",
+    "matching_confidence": "manual_review",
+    "response_document_ids": [
+      "vevey_interpellation_response_894a568514b17d8d5705"
+    ],
+    "official_reference": "2021/C18"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4701",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-10-07",
+        "author": "",
+        "reference": "2021/C18",
+        "title": "Réponse à l’interpellation de M. Bastien Schobinger, intitulée, « Bloquer les places de stationnement pendant le marché pour faire de la propagande politique ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4701",
+        "source_download_id": "4701"
+      },
+      {
+        "listing_date": "2021-10-07",
+        "author": "",
+        "reference": "",
+        "title": "Réponse à l’interpellation de M. Bastien Schobinger, intitulée, « Bloquer les places de stationnement pendant le marché pour faire de la propagande politique ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4699",
+        "source_download_id": "4699"
+      }
+    ]
+  }
+}

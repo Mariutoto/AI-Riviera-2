@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_c677084bda5d9f54024b",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Des bouteilles de vin lavables pour les Caves de la Ville de Vevey ",
+    "source_title": "Interpellation de Mme Valérie Zonca (Vert.es), intitulée « Des bouteilles de vin lavables pour les Caves de la Ville de Vevey »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5440",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-02",
+    "content_hash": "b276a59af0334539c330a6e87d227a9a95960c27823cee5fe36f818e32b79f43",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "4/2024",
+        "response_date": "2024-05-02",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 14175,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2263,
+      "clean_words": 2263,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2263
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_55a44224b08e6e7166a1",
+    "best_candidate_id": "vevey_interpellation_55a44224b08e6e7166a1",
+    "score": 1.0,
+    "second_score": 0.4909,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_c677084bda5d9f54024b"
+    ],
+    "official_reference": "2024/RI04"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "5440",
+    "listing_occurrences": [
+      {
+        "listing_date": "2024-05-02",
+        "author": "Valérie Zonca",
+        "reference": "2024/RI04",
+        "title": "Interpellation de Mme Valérie Zonca (Vert.es), intitulée « Des bouteilles de vin lavables pour les Caves de la Ville de Vevey »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5440",
+        "source_download_id": "5440"
+      }
+    ]
+  }
+}

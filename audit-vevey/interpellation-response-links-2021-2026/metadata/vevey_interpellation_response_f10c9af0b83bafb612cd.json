@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_f10c9af0b83bafb612cd",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Marché populaire ou marché sous pression ? ",
+    "source_title": "Réponse à l’interpellation de Mme Sandra Marques (PLR), intitulée « Marché populaire ou marché sous pression ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6168",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-11",
+    "content_hash": "832ffcf62ba483e31d6711ed64ea9dcc4c69f6b6cc52afd757f6052a44745ba9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": "10/2026",
+        "response_date": "2026-06-11",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 13574,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 2033,
+      "clean_words": 2033,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 2033
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_6d79d140a2af6aa02142",
+    "best_candidate_id": "vevey_interpellation_6d79d140a2af6aa02142",
+    "score": 1.0,
+    "second_score": 0.0,
+    "matching_method": "exact_normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_f10c9af0b83bafb612cd"
+    ],
+    "official_reference": "2026/RI10"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "6168",
+    "listing_occurrences": [
+      {
+        "listing_date": "2026-06-11",
+        "author": "Sandra Marques",
+        "reference": "2026/RI10",
+        "title": "Réponse à l’interpellation de Mme Sandra Marques (PLR), intitulée « Marché populaire ou marché sous pression ? »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6168",
+        "source_download_id": "6168"
+      }
+    ]
+  }
+}

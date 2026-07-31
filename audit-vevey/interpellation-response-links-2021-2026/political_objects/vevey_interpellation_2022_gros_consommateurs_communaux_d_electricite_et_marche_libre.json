@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_gros_consommateurs_communaux_d_electricite_et_marche_libre",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Serge Ansermet (PS) : « Gros consommateurs communaux d’électricité et marché libre »",
+    "source_title": "Interpellation de Serge Ansermet (PS) : « Gros consommateurs communaux d’électricité et marché libre »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4970",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-06",
+    "content_hash": "a92e4573cd02bb7d67689ea549f95880544d45e552631556bf96e8d7be918444",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Serge Ansermet"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-10-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1735,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 268,
+      "clean_words": 268,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 268
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_gros_consommateurs_communaux_d_electricite_et_marche_libre",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de serge ansermet (ps) : « gros consommateurs communaux d’électricité et marché libre »",
+      "author": "Serge Ansermet",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1735
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1735,
+    "text_words": 268,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "f6a669f4f85bf12231587b8a04227f20bbf77b48ae734cf801481f2a17b3f759"
+  }
+}

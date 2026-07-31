@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_21fe389a9c7af5d5551d",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Philippe Herminjard (PLR), intitulée « Immeubles de Charmontey : loyers bas et foyers froids »",
+    "source_title": "Interpellation de M. Philippe Herminjard (PLR), intitulée « Immeubles de Charmontey : loyers bas et foyers froids »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5066",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-06",
+    "content_hash": "979d0c4effd530350ddc775fba507d256683884374c2c200710b36bba514d020",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Philippe Herminjard"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2023-03-06",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2510,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 374,
+      "clean_words": 374,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 374
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_21fe389a9c7af5d5551d",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. philippe herminjard (plr), intitulée « immeubles de charmontey : loyers bas et foyers froids »",
+      "author": "Philippe Herminjard",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2581
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      2
+    ],
+    "text_chars": 2510,
+    "text_words": 374,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "d079fcfa0f4c5a943459cf81b22a433fe1a8e27eb4e32a4bce918e54e60527d1"
+  }
+}

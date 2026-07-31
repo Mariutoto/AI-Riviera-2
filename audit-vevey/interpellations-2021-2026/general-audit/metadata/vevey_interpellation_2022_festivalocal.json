@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_festivalocal",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Sarah Dohr (VL) : « Festivalocal »",
+    "source_title": "Interpellation de Sarah Dohr (VL) : « Festivalocal »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-06-23",
+    "content_hash": "e0fd67fa2ab7eaa7f61b76e6b606a001492953804b2f68844b111d21551509cb",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sarah Dohr"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-06-23",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1848,
+      "text_available": true,
+      "needs_ocr": true
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 289,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 289
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_festivalocal",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de sarah dohr (vl) : « festivalocal »",
+      "author": "Sarah Dohr",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      0
+    ],
+    "empty_pages": 1,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 0,
+    "text_words": 0,
+    "needs_ocr": true,
+    "extraction_method": "ocr_required",
+    "text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

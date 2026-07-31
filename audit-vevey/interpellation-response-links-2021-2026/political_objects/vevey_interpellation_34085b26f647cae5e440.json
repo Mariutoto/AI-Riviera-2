@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_34085b26f647cae5e440",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Valérie Zonca : « Violences domestiques : l’urgence d’agir »",
+    "source_title": "Interpellation de Valérie Zonca : « Violences domestiques : l’urgence d’agir »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5531",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-13",
+    "content_hash": "8fb0690ed78cd1a8cd448449765e9a7e6f9bb3299dbb996a40df40fe67ca7201",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Valérie Zonca"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-06-13",
+    "responses": [
+      {
+        "response_number": "8/2024",
+        "response_date": "2024-09-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2586,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 413,
+      "clean_words": 413,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 413
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_34085b26f647cae5e440",
+    "response_document_ids": [
+      "vevey_interpellation_response_3654a94a1acb24281dd8"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de valérie zonca : « violences domestiques : l’urgence d’agir »",
+      "author": "Valérie Zonca",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2667
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 2586,
+    "text_words": 413,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "3caedb50846fbe96250ecf1a71e198bc2c2cc27b1185a9bb20d2d38a5c3ca0d0"
+  }
+}

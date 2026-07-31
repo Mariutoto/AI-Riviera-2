@@ -96,16 +96,49 @@ def build_records(
     return records, skipped
 
 
+def deduplicate_content(records: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Conserve un seul chunk lorsque deux publications répètent le même texte."""
+    role_rank = {
+        "interpellation_text": 0,
+        "municipal_response": 1,
+        "combined_interpellation_response": 2,
+    }
+    grouped: dict[str, list[dict]] = {}
+    for record in records:
+        grouped.setdefault(record["content_hash"], []).append(record)
+    kept = []
+    dropped = []
+    for group in grouped.values():
+        group.sort(
+            key=lambda record: (
+                role_rank.get(record.get("document_role"), 9),
+                record["document_id"],
+                record["chunk_id"],
+            )
+        )
+        kept.append(group[0])
+        for duplicate in group[1:]:
+            dropped.append({
+                "chunk_id": duplicate["chunk_id"],
+                "duplicate_of_chunk_id": group[0]["chunk_id"],
+                "content_hash": duplicate["content_hash"],
+            })
+    kept.sort(key=lambda record: record["chunk_id"])
+    return kept, dropped
+
+
 def main() -> None:
     object_records, object_skipped = build_records(
-        ROOT / "interpellations-pilot" / "general-audit" / "chunks",
-        ROOT / "interpellation-response-links" / "political_objects",
+        ROOT / "interpellations-2021-2026" / "general-audit" / "chunks",
+        ROOT / "interpellation-response-links-2021-2026" / "political_objects",
     )
     response_records, response_skipped = build_records(
         COMBINED / "chunks" / "responses",
         COMBINED / "metadata" / "responses",
     )
-    records = object_records + response_records
+    records, deduplicated = deduplicate_content(
+        object_records + response_records
+    )
     id_counts = Counter(record["chunk_id"] for record in records)
     hash_counts = Counter(record["content_hash"] for record in records)
     for record in records:
@@ -132,11 +165,13 @@ def main() -> None:
             "documents": len({record["document_id"] for record in records}),
             "interpellation_documents": len({
                 record["document_id"]
-                for record in object_records
+                for record in records
+                if "/responses/" not in record["source_chunk_file"]
             }),
             "response_documents": len({
                 record["document_id"]
-                for record in response_records
+                for record in records
+                if "/responses/" in record["source_chunk_file"]
             }),
             "chunks": len(records),
             "valid": sum(
@@ -151,6 +186,7 @@ def main() -> None:
             "duplicate_content_hashes": sum(
                 count - 1 for count in hash_counts.values() if count > 1
             ),
+            "deduplicated_chunks": len(deduplicated),
         },
         "skipped_documents": object_skipped + response_skipped,
         "review_chunks": [
@@ -161,6 +197,7 @@ def main() -> None:
             for record in records
             if record["validation_issues"]
         ],
+        "deduplicated": deduplicated,
     }
     REPORT_PATH.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",

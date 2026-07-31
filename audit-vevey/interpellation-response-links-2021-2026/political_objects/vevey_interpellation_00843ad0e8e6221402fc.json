@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_00843ad0e8e6221402fc",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Karine Römer (IND.), intitulée « Collection Planque : quelles conséquences financières et quelle stratégie pour la Ville ? »",
+    "source_title": "Interpellation de Mme Karine Römer (IND.), intitulée « Collection Planque : quelles conséquences financières et quelle stratégie pour la Ville ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5979",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "1f2aa4c8127cb6677086056bcc26596154bf26bf59aefb66c1b1c084b255f08f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Karine Römer"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-11-13",
+    "responses": [
+      {
+        "response_number": "18/2025",
+        "response_date": "2025-12-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2125,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 306,
+      "clean_words": 306,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 306
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_00843ad0e8e6221402fc",
+    "response_document_ids": [
+      "vevey_interpellation_response_6ab9e130a30b822e4ce2"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme karine römer (ind.), intitulée « collection planque : quelles conséquences financières et quelle stratégie pour la ville ? »",
+      "author": "Karine Römer",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2172
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2125,
+    "text_words": 306,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "b934369a3a536ace6648a5708920c45430e3cffa9e6517edbb866cab525efea9"
+  }
+}

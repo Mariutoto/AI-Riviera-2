@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_282b3486f711f05e2e93",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Etude sur les structures juridiques envisageables pour le projet d’autonomisation du Musée Jenisch Vevey et demande de crédit de CHF 100'000.—. Réponse à l’interpellation de Madame Sandra Marques (PLR), intitulée « Musée Jenisch, à quand un nouvel élan ?",
+    "source_title": "Etude sur les structures juridiques envisageables pour le projet d’autonomisation du Musée Jenisch Vevey et demande de crédit de CHF 100'000.—. Réponse à l’interpellation de Madame Sandra Marques (PLR), intitulée « Musée Jenisch, à quand un nouvel élan ?",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5583",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-13",
+    "content_hash": "3ab577639ec37fc605b58e5506c56c9fadbd8b1d2cdd9252d3335aba33d83a45",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sandra Marques"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2024-06-13",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2024-06-13",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2246,
+      "text_available": true,
+      "needs_ocr": true
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 361,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 361
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [
+      "vevey_interpellation_response_282b3486f711f05e2e93"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_282b3486f711f05e2e93",
+    "matching_keys": {
+      "official_reference": "2024/P22",
+      "normalized_title": "etude sur les structures juridiques envisageables pour le projet d’autonomisation du musée jenisch vevey et demande de crédit de chf 100'000.—. réponse à l’interpellation de madame sandra marques (plr), intitulée « musée jenisch, à quand un nouvel élan ?",
+      "author": "Sandra Marques",
+      "year": "2024"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      0
+    ],
+    "empty_pages": 1,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 0,
+    "text_words": 0,
+    "needs_ocr": true,
+    "extraction_method": "ocr_required",
+    "text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_0da83fc9d2fe1d1ee63b",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "combined_interpellation_response",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Situation des parcs de places de parcs en surface »",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Situation des parcs de places de parcs en surface »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5236",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-11-16",
+    "content_hash": "0e4c94902729a7e137b49f3d4458349660c4447859b9e09a39d11c62531eebfe",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2023-11-16",
+    "responses": [
+      {
+        "response_number": "2023/RI06",
+        "response_date": "2023-11-16",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1469,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 3170,
+      "clean_words": 253,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 253
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_0da83fc9d2fe1d1ee63b",
+    "matching_keys": {
+      "official_reference": "2023/RI06",
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « situation des parcs de places de parcs en surface »",
+      "author": "Patrick Bertschy",
+      "year": "2023"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 9,
+    "page_text_chars": [
+      2442,
+      2114,
+      3352,
+      712,
+      3571,
+      2050,
+      2994,
+      2045,
+      1540
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      1,
+      0,
+      2,
+      0,
+      2,
+      0,
+      3,
+      1
+    ],
+    "text_chars": 20285,
+    "text_words": 3170,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "99b6431be28ad1414c91f8d4b4482f43c7de50ef396af96d29f1748cde06cd08"
+  }
+}

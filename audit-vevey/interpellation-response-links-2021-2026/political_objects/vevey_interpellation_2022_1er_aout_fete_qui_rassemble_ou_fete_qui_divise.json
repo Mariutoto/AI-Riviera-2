@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_1er_aout_fete_qui_rassemble_ou_fete_qui_divise",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Stéphane Molliat (VL) : « 1er août, fête qui rassemble ou fête qui divise ? »",
+    "source_title": "Interpellation de Stéphane Molliat (VL) : « 1er août, fête qui rassemble ou fête qui divise ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://www.vevey.ch/sites/default/files/council-meeting/minutes-session/2023-01/PV06_08.09.2022.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-08",
+    "content_hash": "8d6ae6fea5294dd98f667a8f4e18b1eb5217f9a8c86ad7509cad73a12040be04",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Stéphane Molliat"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2022-09-08",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2022-11-17",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2736,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 454,
+      "clean_words": 454,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 454
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_1er_aout_fete_qui_rassemble_ou_fete_qui_divise",
+    "response_document_ids": [
+      "vevey_interpellation_response_67445913970ae10aa852"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de stéphane molliat (vl) : « 1er août, fête qui rassemble ou fête qui divise ? »",
+      "author": "Stéphane Molliat",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2736
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2736,
+    "text_words": 454,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "bdebd0e412b5b992fa2b769b8d1cebd3d33412ca695f20f3b706ae9261d18f38"
+  }
+}

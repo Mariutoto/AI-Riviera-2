@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_et_si_cela_nous_arrive_une_cyberattaque_vue_sous_l_angle_de_la_c",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Vincent Matthys (PS) : « Et si cela nous arrive ? Une cyberattaque vue sous l’angle de la communication »",
+    "source_title": "Interpellation de Vincent Matthys (PS) : « Et si cela nous arrive ? Une cyberattaque vue sous l’angle de la communication »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4709",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-09",
+    "content_hash": "85a3642cd3ca2b7d26defc087f36646e050d0aa43a5a8b16bc29d30a9b50fa19",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Vincent Matthys"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-09-09",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1869,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 311,
+      "clean_words": 311,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 311
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_et_si_cela_nous_arrive_une_cyberattaque_vue_sous_l_angle_de_la_c",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de vincent matthys (ps) : « et si cela nous arrive ? une cyberattaque vue sous l’angle de la communication »",
+      "author": "Vincent Matthys",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1869
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1869,
+    "text_words": 311,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "12ae18ad4eaa653131e84d431d8d799da2c726fc6d56bf7406cb7c551e18bbc7"
+  }
+}

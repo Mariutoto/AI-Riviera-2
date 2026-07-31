@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_a7cfc0978f545f7f2649",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+    "source_title": "Interpellation de M. Elliott Messeiller (da.), intitulée « Ecrans publicitaires : risques pour la sécurité routière »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6038",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-05",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Elliott Messeiller"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-02-05",
+    "responses": [
+      {
+        "response_number": "2026/RI04",
+        "response_date": "2026-02-05",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1462,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_a7cfc0978f545f7f2649",
+    "matching_keys": {
+      "official_reference": "2026/RI04",
+      "normalized_title": "interpellation de m. elliott messeiller (da.), intitulée « ecrans publicitaires : risques pour la sécurité routière »",
+      "author": "Elliott Messeiller",
+      "year": "2026"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_1bb6cb86a3e4f512f819"
+  },
+  "pdf_audit": {
+    "page_count": 4,
+    "page_text_chars": [
+      2044,
+      3264,
+      1728,
+      2562
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      0,
+      3,
+      1
+    ],
+    "text_chars": 9569,
+    "text_words": 1462,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "9bde30042e4996909703ccd6d001dea8abc4169398b7873261d318ec86b813fc"
+  }
+}

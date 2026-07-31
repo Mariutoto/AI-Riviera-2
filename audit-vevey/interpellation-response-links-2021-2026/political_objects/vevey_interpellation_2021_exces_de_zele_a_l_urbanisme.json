@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_exces_de_zele_a_l_urbanisme",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Stéphane Molliat (VL) : « Excès de zèle à l’urbanisme ? »",
+    "source_title": "Interpellation de Stéphane Molliat (VL) : « Excès de zèle à l’urbanisme ? »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4791",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-12-09",
+    "content_hash": "7d71755086dcbecbdb01da8a0fce74a503f46c10760025e5b0f0e96f8cb50f51",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Stéphane Molliat"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2021-12-09",
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2023-06-15",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      },
+      {
+        "response_number": null,
+        "response_date": "2022-03-17",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 6000,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 1855,
+      "clean_words": 1855,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 1855
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_exces_de_zele_a_l_urbanisme",
+    "response_document_ids": [
+      "vevey_interpellation_response_81f26b723c4d163a15a7",
+      "vevey_interpellation_response_27756fae1b92d5bed5fa"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de stéphane molliat (vl) : « excès de zèle à l’urbanisme ? »",
+      "author": "Stéphane Molliat",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      4691,
+      1307
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 6000,
+    "text_words": 1855,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "b0e99d7178f48a7eb15b4b2a1f72fbef8da285b9919bb2ce6d8acd196a5ead0b"
+  }
+}

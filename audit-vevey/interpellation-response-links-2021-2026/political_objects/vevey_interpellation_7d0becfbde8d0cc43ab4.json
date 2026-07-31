@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_7d0becfbde8d0cc43ab4",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Neutralité institutionnelle de la Commune »",
+    "source_title": "Interpellation de Mme Sarah Dohr (VL), intitulée « Neutralité institutionnelle de la Commune »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5988",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-13",
+    "content_hash": "5fcd290c73cc13436f89f16f361faad11734c10641d51c01a51e907b89e07f6e",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Sarah Dohr"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-11-13",
+    "responses": [
+      {
+        "response_number": "15/2025",
+        "response_date": "2025-12-04",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2640,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 376,
+      "clean_words": 376,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 376
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_7d0becfbde8d0cc43ab4",
+    "response_document_ids": [
+      "vevey_interpellation_response_9ef2e3bc31ed26cd94ef"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de mme sarah dohr (vl), intitulée « neutralité institutionnelle de la commune »",
+      "author": "Sarah Dohr",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2691
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      0
+    ],
+    "text_chars": 2640,
+    "text_words": 376,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "d332ac39d744b9a515d0358a01270ecdb58f9965a8329e173076ed81f75f676d"
+  }
+}

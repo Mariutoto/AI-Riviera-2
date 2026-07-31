@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_response_e1a898ebcdaec07f48c9",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": " Et si cela nous arrive ? Une cyberattaque vue sous l’angle de la communication ",
+    "source_title": "Réponse à l’interpellation de M. Vincent Matthys – PS, intitulée, « Et si cela nous arrive ? Une cyberattaque vue sous l’angle de Ia communication »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4705",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-07",
+    "content_hash": "fc7cf348b017ee4cbf721a6996cb960d11696da6c874e42a0bda57dbd070454b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [],
+    "political_status": "response_available",
+    "interpellation_date": null,
+    "responses": [
+      {
+        "response_number": null,
+        "response_date": "2021-10-07",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 5859,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 909,
+      "clean_words": 909,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 909
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_et_si_cela_nous_arrive_une_cyberattaque_vue_sous_l_angle_de_la_c",
+    "best_candidate_id": "vevey_interpellation_2021_et_si_cela_nous_arrive_une_cyberattaque_vue_sous_l_angle_de_la_c",
+    "score": 1.0,
+    "second_score": 0.4396,
+    "matching_method": "normalized_title",
+    "matching_confidence": "exact",
+    "response_document_ids": [
+      "vevey_interpellation_response_e1a898ebcdaec07f48c9"
+    ],
+    "official_reference": "2021/C21"
+  },
+  "source_tracking": {
+    "source_collection": "vevey-council-interpellation-responses",
+    "source_download_id": "4705",
+    "listing_occurrences": [
+      {
+        "listing_date": "2021-10-07",
+        "author": "",
+        "reference": "2021/C21",
+        "title": "Réponse à l’interpellation de M. Vincent Matthys – PS, intitulée, « Et si cela nous arrive ? Une cyberattaque vue sous l’angle de Ia communication »",
+        "pdf_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4705",
+        "source_download_id": "4705"
+      }
+    ]
+  }
+}

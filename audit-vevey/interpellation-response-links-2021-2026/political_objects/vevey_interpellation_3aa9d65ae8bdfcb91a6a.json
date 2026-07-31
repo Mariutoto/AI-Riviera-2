@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_3aa9d65ae8bdfcb91a6a",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Réaménagement de la Place du Marché, quand, délais, combien… »",
+    "source_title": "Interpellation de M. Patrick Bertschy (PLR), intitulée « Réaménagement de la Place du Marché, quand, délais, combien… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=5689",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-06",
+    "content_hash": "96101f767614ccacbd7dee9f76ee5d2941ebcae84ab8dcb8a0b18f10b142fece",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Patrick Bertschy"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2025-02-06",
+    "responses": [
+      {
+        "response_number": "3/2025",
+        "response_date": "2025-05-15",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 1521,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 241,
+      "clean_words": 241,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 241
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_3aa9d65ae8bdfcb91a6a",
+    "response_document_ids": [
+      "vevey_interpellation_response_c14fed01d288b993ccad"
+    ],
+    "response_status": "response_available",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de m. patrick bertschy (plr), intitulée « réaménagement de la place du marché, quand, délais, combien… »",
+      "author": "Patrick Bertschy",
+      "year": "2025"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      1521
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 1521,
+    "text_words": 241,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "527b40a9160de694625e7210c1d0d7d5d50046aae52a0348d148a3dfbefc04a0"
+  }
+}

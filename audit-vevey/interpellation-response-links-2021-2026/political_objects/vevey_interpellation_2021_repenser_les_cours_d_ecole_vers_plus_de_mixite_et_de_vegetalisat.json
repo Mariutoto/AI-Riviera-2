@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_repenser_les_cours_d_ecole_vers_plus_de_mixite_et_de_vegetalisat",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Elise Carruzzo Evéquoz : « Repenser les cours d’école : vers plus de mixité et de végétalisation »",
+    "source_title": "Interpellation de Elise Carruzzo Evéquoz : « Repenser les cours d’école : vers plus de mixité et de végétalisation »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "content_hash": "6d5e6966225711a2b83a478bd22683b2a9043da64879e4ad04cc920c387fc43b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Elise Carruzzo Evéquoz"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-11-11",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 3952,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 617,
+      "clean_words": 617,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 617
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_repenser_les_cours_d_ecole_vers_plus_de_mixite_et_de_vegetalisat",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de elise carruzzo evéquoz : « repenser les cours d’école : vers plus de mixité et de végétalisation »",
+      "author": "Elise Carruzzo Evéquoz",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 2,
+    "page_text_chars": [
+      3339,
+      611
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1,
+      1
+    ],
+    "text_chars": 3952,
+    "text_words": 617,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "a254e0c595ab2a5c21f30f5b9a6a90a9393157f78740c298d1571be32685c751"
+  }
+}

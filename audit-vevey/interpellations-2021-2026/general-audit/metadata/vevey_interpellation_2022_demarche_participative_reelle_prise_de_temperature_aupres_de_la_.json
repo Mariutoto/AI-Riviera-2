@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2022_demarche_participative_reelle_prise_de_temperature_aupres_de_la_",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Pierre-Alexandre Fürst (PLR) : « Démarche participative : réelle prise de température auprès de la population ou blanc-seing pour la Municipalité… »",
+    "source_title": "Interpellation de Pierre-Alexandre Fürst (PLR) : « Démarche participative : réelle prise de température auprès de la population ou blanc-seing pour la Municipalité… »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4894",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-19",
+    "content_hash": "c4b86227190bc15ab8b5d0bcca525d06e287555fc4c38f72ba2dabb605f92efa",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Pierre-Alexandre Fürst"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2022-05-19",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2404,
+      "text_available": true,
+      "needs_ocr": true
+    },
+    "header_footer_cleaning": {
+      "raw_words": 0,
+      "clean_words": 381,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "mistral_ocr",
+      "words": 381
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2022_demarche_participative_reelle_prise_de_temperature_aupres_de_la_",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de pierre-alexandre fürst (plr) : « démarche participative : réelle prise de température auprès de la population ou blanc-seing pour la municipalité… »",
+      "author": "Pierre-Alexandre Fürst",
+      "year": "2022"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      0
+    ],
+    "empty_pages": 1,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 0,
+    "text_words": 0,
+    "needs_ocr": true,
+    "extraction_method": "ocr_required",
+    "text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

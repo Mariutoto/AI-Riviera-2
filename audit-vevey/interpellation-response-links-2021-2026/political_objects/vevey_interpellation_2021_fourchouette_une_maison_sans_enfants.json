@@ -1,0 +1,73 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_2021_fourchouette_une_maison_sans_enfants",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Elise Carruzzo Evéquoz : « Fourchouette : une maison sans enfants »",
+    "source_title": "Interpellation de Elise Carruzzo Evéquoz : « Fourchouette : une maison sans enfants »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=4766",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-11",
+    "content_hash": "54dd404746a7b8f4ff0f5dc5aa4105d48b626dde62fa4101d539ecd44efb768f",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Elise Carruzzo Evéquoz"
+      }
+    ],
+    "political_status": "filed",
+    "interpellation_date": "2021-11-11",
+    "responses": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 2254,
+      "text_available": true,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 357,
+      "clean_words": 357,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 357
+    }
+  },
+  "relationships": {
+    "political_object_id": "vevey_interpellation_2021_fourchouette_une_maison_sans_enfants",
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": null,
+    "matching_keys": {
+      "official_reference": null,
+      "normalized_title": "interpellation de elise carruzzo evéquoz : « fourchouette : une maison sans enfants »",
+      "author": "Elise Carruzzo Evéquoz",
+      "year": "2021"
+    }
+  },
+  "pdf_audit": {
+    "page_count": 1,
+    "page_text_chars": [
+      2254
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      1
+    ],
+    "text_chars": 2254,
+    "text_words": 357,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "76c66ccd4cee952ae128c04a681736ec659fc36350a650f99a7c1cfb26571bb6"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "document_metadata": {
+    "document_id": "vevey_interpellation_e2e93974d7481e698f33",
+    "commune": "Vevey",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Interpellation de M. Florian Girardoz (PLR), intitulée « Nul n’est censé ignorer la loi. Encore faut-il pouvoir y accéder »",
+    "source_title": "Interpellation de M. Florian Girardoz (PLR), intitulée « Nul n’est censé ignorer la loi. Encore faut-il pouvoir y accéder »",
+    "source_page_url": "https://www.vevey.ch/vie-politique/conseil-communal/documents-du-conseil-communal",
+    "file_url": "https://conseil.vevey.ch/ConseilCommunal/download.asp?d=6069",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-19",
+    "content_hash": null,
+    "extraction_method": "native_pdf",
+    "processing_status": "excluded_duplicate"
+  },
+  "interpellation_metadata": {
+    "authors": [
+      {
+        "name": "Florian Girardoz"
+      }
+    ],
+    "political_status": "response_available",
+    "interpellation_date": "2026-03-19",
+    "responses": [
+      {
+        "response_number": "2026/RI05",
+        "response_date": "2026-03-19",
+        "response_type": "municipal_response",
+        "municipal_adoption_date": null
+      }
+    ]
+  },
+  "processing": {
+    "text_extraction_status": {
+      "characters_extracted": 0,
+      "text_available": false,
+      "needs_ocr": false
+    },
+    "header_footer_cleaning": {
+      "raw_words": 623,
+      "clean_words": 0,
+      "removed_blocks": 0
+    },
+    "selected_text": {
+      "method": "native_pdf",
+      "words": 0
+    }
+  },
+  "relationships": {
+    "political_object_id": null,
+    "response_document_ids": [],
+    "response_status": "not_collected_yet",
+    "response_source_collection": "vevey-council-annexes",
+    "response_candidate_in_same_pdf": "vevey_interpellation_e2e93974d7481e698f33",
+    "matching_keys": {
+      "official_reference": "2026/RI05",
+      "normalized_title": "interpellation de m. florian girardoz (plr), intitulée « nul n’est censé ignorer la loi. encore faut-il pouvoir y accéder »",
+      "author": "Florian Girardoz",
+      "year": "2026"
+    },
+    "duplicate_of_document_id": "vevey_interpellation_8744ca337a279b0b1f0e"
+  },
+  "pdf_audit": {
+    "page_count": 3,
+    "page_text_chars": [
+      2024,
+      706,
+      1525
+    ],
+    "empty_pages": 0,
+    "image_counts": [
+      4,
+      3,
+      1
+    ],
+    "text_chars": 4207,
+    "text_words": 623,
+    "needs_ocr": false,
+    "extraction_method": "native_pdf",
+    "text_hash": "d808a90a891863f3c225c9c9ff659f56b87575e888eec0ac9ed348c312c515af"
+  }
+}
