@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_motion_2233933_decision_5257402",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "council_decision",
+    "title": "Décision du Conseil — Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+    "source_title": "Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2233933",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5257402",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-08-27",
+    "language": "fr",
+    "content_hash": "9d2404d9fabce68a54ef24f65432c5a5b5deb6967d25a48d7591add4d6e10e8b",
+    "source_content_hash": "6ab5dc545d52cd8c667099a8685cad0aabfddb39c43c4fe90b4cdb3952e1cf92",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "blonay-saint-legier-motion-2233933",
+    "object_ids": [
+      "blonay-saint-legier-motion-2233933"
+    ],
+    "object_title": "Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+    "authors": [
+      {
+        "name": "Salanon Alain",
+        "person_id": 270541,
+        "role": "Auteur/e",
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2024-08-27",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": true,
+    "document_component_role": "council_decision"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-motion-2233933",
+    "political_object_ids": [
+      "blonay-saint-legier-motion-2233933"
+    ],
+    "political_object_document_id": "blonay-saint-legier_motion_2233933_text_5257375",
+    "political_object_document_ids": [
+      "blonay-saint-legier_motion_2233933_text_5257375"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_motion_2233933_text_5257375"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "council_decision_ids": [
+      "blonay-saint-legier_motion_2233933_decision_5257402"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_council_decision_pdf",
+    "source_download_id": "5257402"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1024,
+      "words_extracted": 164,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

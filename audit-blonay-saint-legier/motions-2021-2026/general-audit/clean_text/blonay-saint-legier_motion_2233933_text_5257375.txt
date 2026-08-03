@@ -1,0 +1,26 @@
+Motion (art. 63 al. 2 du Règlement du Conseil communal)
+adressée à la Municipalité de Blonay – St-Légier, séance du CC du 27 août 2024
+
+# Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)
+
+Monsieur le Syndic,
+Mesdames les Municipales,
+Messieurs les Municipaux,
+
+Avant la fusion des communes de Blonay et de St-Légier-La Chiésaz, chaque commune disposait de son plan directeur communal (PDCom), établis en 2005 et 2003 respectivement. Comme ces documents représentent, dans les grandes lignes, la stratégie d'aménagement du territoire et les mesures de mise en œuvre de l'aménagement du territoire au niveau communal à un moment donné, on estime qu'ils ont une durée de vie limitée, selon l'art. 16 de la LATC. Passé un certain délai, ils doivent être réexaminés et révisés pour correspondre à nouveau aux circonstances présentes et visées pour l'avenir. Si cette mise à jour n'est pas réalisée, on peut considérer que le PDCom est obsolète bien qu'il reste juridiquement valable et contraignant. L'art. 21 de la LATC dit: Le plan directeur communal (...) est réexaminé au moins tous les 15 ans. Il est révisé lorsque les circonstances ont sensiblement changé.
+
+Suite à la fusion, ces documents ont été supprimés du site web de la commune, mais gardent force de loi jusqu'à leur unification et révision. Or, pour pouvoir élaborer de manière avisée et, surtout, aussi démocratique que possible, un Plan d'affectation communal (PACom, anciennement PGA), il est indispensable d'être en possession d'un PDCom à jour. L'article 17, al. 2 de la LATC précise : L'établissement d'un PDCom est obligatoire pour les communes qui se trouvent dans un périmètre compact d'agglomération (...). Comme nous l'avons appris le 5 mars 2024 lors de la présentation de la part des autorités cantonales compétentes, il est théoriquement possible d'élaborer un plan directeur au niveau intercommunal et de se passer d'un PDCom, mais le désavantage de cette option consiste dans le fait que sa construction reposera sur des compromis entre communes, qu'il sera dressé à grandes mailles et manquera par conséquent de finesse au niveau local et qu'il risquera par conséquent de ne pas tenir compte de certaines particularités communales importantes. Ce point est régi par l'article 17, al. 3 de la LATC : Un plan directeur intercommunal ou régional peut satisfaire à l'obligation de l'alinéa précédent à condition que la partie stratégique du plan intercommunal ou régional soit adopté par les conseils communaux ou généraux des communes concernées, la partie opérationnelle demeurant de la compétence des municipalités des communes concernées. Le plan est approuvé par le Conseil d'État. Il est contraignant pour les autorités cantonales et communales.
+
+La volonté populaire exprimée lors du référendum sur le Plan d'affectation «En Praz Grisoud» en septembre 2023 nous a convaincus du fait qu'il est désormais nécessaire de prendre des mesures afin de mieux écouter les besoins de la population de notre commune fusionnée. Pour ce faire, il est nécessaire d'ouvrir la procédure de mise à jour du PDCom. Celle-ci retardera inévitablement la présentation des PACom centre et hors centre, mais permettra non seulement d'être conformes au droit de l'aménagement du territoire, mais encore de nous assurer d'être en accord avec la volonté populaire.
+
+Par cette motion, nous demandons donc à la Municipalité de présenter un préavis pour financer le réexamen et la révision du PDCom qui permettra de donner une vision claire des lignes directrices de l'aménagement du territoire des quinze prochaines années.
+
+Je vous remercie de votre attention et demande le renvoi immédiat de cette motion à la Municipalité pour rédaction d'un préavis de budget pour l'actualisation du PDCom.
+
+Blonay-St-Légier, le 18 août 2024
+
+Le motionnaire et consorts
+
+Alain Salanon
+
+[tbl-0.md](tbl-0.md)

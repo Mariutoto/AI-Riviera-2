@@ -1,0 +1,85 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_motion_2351878_text_5546164",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion Y Kohli PLR - Etude Muni de 7 à 5 - 25.02.2025",
+    "source_title": "Motion de M. Yvan Kohli \"Etude de la réduction du nombre de conseillers municipaux de 7 à 5 dans la commune de Blonay - Saint-Légier\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2351878",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5546164",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-25",
+    "language": "fr",
+    "content_hash": "607dafd7cc51d88c1f8129afc42d5d70e70322f66399ff9e6676dff4989806ef",
+    "source_content_hash": "852942fc06fc058ff0656751de29267f2e7fff6ea21ffe60aeef9c736238b5e6",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "blonay-saint-legier-motion-2351878",
+    "object_ids": [
+      "blonay-saint-legier-motion-2351878"
+    ],
+    "object_title": "Motion de M. Yvan Kohli \"Etude de la réduction du nombre de conseillers municipaux de 7 à 5 dans la commune de Blonay - Saint-Légier\"",
+    "authors": [
+      {
+        "name": "Kohli Yvan",
+        "person_id": 270316,
+        "role": "Auteur/e",
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2025-02-25",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-motion-2351878",
+    "political_object_ids": [
+      "blonay-saint-legier-motion-2351878"
+    ],
+    "political_object_document_id": "blonay-saint-legier_motion_2351878_text_5546164",
+    "political_object_document_ids": [
+      "blonay-saint-legier_motion_2351878_text_5546164"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_motion_text_pdf",
+    "source_download_id": "5546164"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2678,
+      "words_extracted": 408,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_motion_2265628_text_5315401",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion de M. Claude Schwab et consorts",
+    "source_title": "Motion - Pour une densification raisonnée",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2265628",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5315401",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-24",
+    "language": "fr",
+    "content_hash": "fd42e32f3ac5bd630943e8589938f8a420160f734a4854761800065bab1a3a04",
+    "source_content_hash": "c779871b3e2761e1ad52083a351a731c21d606bbc3308f59cb5d8cf8c3260484",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "blonay-saint-legier-motion-2265628",
+    "object_ids": [
+      "blonay-saint-legier-motion-2265628"
+    ],
+    "object_title": "Motion - Pour une densification raisonnée",
+    "authors": [
+      {
+        "name": "Schwab Claude",
+        "person_id": 280157,
+        "role": "Auteur/e",
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2024-09-24",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-motion-2265628",
+    "political_object_ids": [
+      "blonay-saint-legier-motion-2265628"
+    ],
+    "political_object_document_id": "blonay-saint-legier_motion_2265628_text_5315401",
+    "political_object_document_ids": [
+      "blonay-saint-legier_motion_2265628_text_5315401"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_motion_2265628_response_5379754"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_motion_2265628_response_5379754"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_motion_text_pdf",
+    "source_download_id": "5315401"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 2787,
+      "words_extracted": 424,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

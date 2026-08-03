@@ -1,0 +1,190 @@
+{
+  "schema_version": "blonay-saint-legier-motions-general-audit-v1",
+  "scope": {
+    "commune": "Blonay–Saint-Légier",
+    "category": "motion",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30",
+    "note": "La commune est issue de la fusion de Blonay et St-Légier-La Chiésaz au 1er juillet 2023 ; aucune donnée n'existe avant cette date."
+  },
+  "source": {
+    "institution": "Conseil communal de Blonay–Saint-Légier",
+    "listing_page": "https://www.blonay-saint-legier.ch/objets-politiques"
+  },
+  "summary": {
+    "political_objects": 3,
+    "documents": 5,
+    "original_motions": 3,
+    "municipal_responses": 1,
+    "consideration_reports": 0,
+    "council_decisions": 1,
+    "committee_formations": 0,
+    "objects_with_response": 1,
+    "objects_without_response": 2,
+    "objects_with_synthetic_text": 0,
+    "ocr_applied": 3,
+    "chunks": 8,
+    "status_counts": {
+      "rejected": 1,
+      "answered": 2
+    }
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "source_object_id": 2233933,
+      "object_id": "blonay-saint-legier-motion-2233933",
+      "nummer": "2024-MO-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2233933",
+      "title": "Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "role": "Auteur/e",
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "deposit_date": "2024-08-27",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "decision_document_ids": [
+        "blonay-saint-legier_motion_2233933_decision_5257402"
+      ],
+      "has_motion_text": true,
+      "has_response": false,
+      "has_consideration_report": false,
+      "has_council_decision": true,
+      "is_closed": true,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2265628,
+      "object_id": "blonay-saint-legier-motion-2265628",
+      "nummer": "2024-MO-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2265628",
+      "title": "Motion - Pour une densification raisonnée",
+      "authors": [
+        {
+          "name": "Schwab Claude",
+          "person_id": 280157,
+          "role": "Auteur/e",
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-09-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_motion_2265628_response_5379754"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_motion_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2351878,
+      "object_id": "blonay-saint-legier-motion-2351878",
+      "nummer": "2025-MO-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351878",
+      "title": "Motion de M. Yvan Kohli \"Etude de la réduction du nombre de conseillers municipaux de 7 à 5 dans la commune de Blonay - Saint-Légier\"",
+      "authors": [
+        {
+          "name": "Kohli Yvan",
+          "person_id": 270316,
+          "role": "Auteur/e",
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-02-25",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_motion_text": true,
+      "has_response": false,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "blonay-saint-legier_motion_2233933_text_5257375",
+      "political_object_ids": [
+        "blonay-saint-legier-motion-2233933"
+      ],
+      "title": "Motion de M. Salanon",
+      "role": "motion_text",
+      "document_date": "2024-08-27",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5257375",
+      "chunks": 2,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_motion_2233933_decision_5257402",
+      "political_object_ids": [
+        "blonay-saint-legier-motion-2233933"
+      ],
+      "title": "Décision du Conseil — Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+      "role": "council_decision",
+      "document_date": "2024-08-27",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5257402",
+      "chunks": 1,
+      "source_kind": "official_council_decision_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_motion_2265628_text_5315401",
+      "political_object_ids": [
+        "blonay-saint-legier-motion-2265628"
+      ],
+      "title": "Motion de M. Claude Schwab et consorts",
+      "role": "motion_text",
+      "document_date": "2024-09-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5315401",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_motion_2265628_response_5379754",
+      "political_object_ids": [
+        "blonay-saint-legier-motion-2265628"
+      ],
+      "title": "Réponse municipale — Motion - Pour une densification raisonnée",
+      "role": "municipal_response",
+      "document_date": "2024-09-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5379754",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_motion_2351878_text_5546164",
+      "political_object_ids": [
+        "blonay-saint-legier-motion-2351878"
+      ],
+      "title": "Motion Y Kohli PLR - Etude Muni de 7 à 5 - 25.02.2025",
+      "role": "motion_text",
+      "document_date": "2025-02-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5546164",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    }
+  ]
+}

@@ -61,8 +61,8 @@ BLONAY_SAINT_LEGIER = Municipality(
     source_domain="www.blonay-saint-legier.ch",
     documents_directory="blonay-saint-legier",
     search_enabled=True,
-    search_scope="interpellations et postulats",
-    document_types=("interpellations", "postulats"),
+    search_scope="interpellations, motions et postulats",
+    document_types=("interpellations", "motions", "postulats"),
     aliases=("Blonay-Saint-Légier", "Blonay", "Saint-Légier"),
 )
 

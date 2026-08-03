@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 5,
+    "originals": 3,
+    "responses": 1,
+    "decisions": 1,
+    "chunks": 8,
+    "vectors": 8,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 3,
+    "objects_with_response": 1,
+    "objects_without_response": 2,
+    "broken_relationship_links": 0
+  },
+  "objects": [
+    {
+      "object_id": "blonay-saint-legier-motion-2233933",
+      "title": "Motion - Déposer un préavis pour le réexamen et la révision du Plan Directeur communal (PDCom)",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-motion-2265628",
+      "title": "Motion - Pour une densification raisonnée",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-motion-2351878",
+      "title": "Motion de M. Yvan Kohli \"Etude de la réduction du nombre de conseillers municipaux de 7 à 5 dans la commune de Blonay - Saint-Légier\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "réduction du nombre de conseillers municipaux de 7 à 5",
+      "expected_prefix": "blonay-saint-legier_motion_2351878_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_motion_2351878_text_5546164",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_text_5315401"
+      ]
+    },
+    {
+      "query": "densification raisonnée",
+      "expected_prefix": "blonay-saint-legier_motion_2265628_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_text_5315401",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2233933_text_5257375"
+      ]
+    },
+    {
+      "query": "révision du Plan Directeur communal",
+      "expected_prefix": "blonay-saint-legier_motion_2233933_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_motion_2233933_text_5257375",
+        "blonay-saint-legier_motion_2233933_decision_5257402",
+        "blonay-saint-legier_motion_2233933_text_5257375",
+        "blonay-saint-legier_motion_2265628_response_5379754",
+        "blonay-saint-legier_motion_2265628_response_5379754"
+      ]
+    }
+  ],
+  "failures": []
+}
