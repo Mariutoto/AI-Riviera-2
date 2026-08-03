@@ -14,7 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
-LOGO_MARK_SVG = (ASSETS_DIR / "logo-mark.svg").read_text(encoding="utf-8")
+LOGO_MARK_SVG = " ".join((ASSETS_DIR / "logo-mark.svg").read_text(encoding="utf-8").split())
 
 from app.agent import GENERATION_PASSAGE_LIMIT, RERANK_CANDIDATE_LIMIT, RERANK_KEEP_LIMIT, run_agentic_pipeline
 from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
