@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+    "source_title": "Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1750162854.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "666df606a5ea4c23a958b6e149548f3948285834315ffba490974947efb95518",
+    "source_content_hash": "40ee65d7fea934205bc8c4b205575b111224d49fb3424b19d32caf82f7908b57",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-m-1730801205",
+    "object_ids": [
+      "veytaux-motion-motion-m-1730801205"
+    ],
+    "object_title": "Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-m-1730801205",
+    "political_object_ids": [
+      "veytaux-motion-motion-m-1730801205"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-m-1730801205_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-m-1730801205_text"
+    ],
+    "related_document_ids": [
+      "veytaux_motion_motion-m-1730801205_text"
+    ],
+    "response_document_ids": [
+      "veytaux_motion_motion-m-1730801205_response_03-1750162854"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_municipal_response_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 12,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 11915,
+      "words_extracted": 1779,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

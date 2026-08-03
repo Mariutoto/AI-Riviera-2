@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_response_04-1635852648",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+    "source_title": "Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1635852648.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-10-11",
+    "language": "fr",
+    "content_hash": "c1cb1c33b0a87d73beee43479d3b7d54b4fedf38030bee4d75604267c45298a3",
+    "source_content_hash": "98f3fc81e32ceea65db2566609bcd63bca70b7cd468d8491bf300f609464bbbf",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-pour-un-controle-rigoureux-1633352596",
+    "object_ids": [
+      "veytaux-interpellation-pour-un-controle-rigoureux-1633352596"
+    ],
+    "object_title": "Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+    "authors": [],
+    "deposit_date": "2021-09-13",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-pour-un-controle-rigoureux-1633352596",
+    "political_object_ids": [
+      "veytaux-interpellation-pour-un-controle-rigoureux-1633352596"
+    ],
+    "political_object_document_id": "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_text"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_response_04-1635852648"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_municipal_response_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 6,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 17143,
+      "words_extracted": 2692,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

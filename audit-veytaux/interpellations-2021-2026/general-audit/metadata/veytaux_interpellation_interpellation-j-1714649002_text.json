@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-j-1714649002_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+    "source_title": "Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_J_1714649002.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-04-30",
+    "language": "fr",
+    "content_hash": "2b63e66e5853b2bd53b30bfff62849b152d786188ae1e4c48e199e65dee071df",
+    "source_content_hash": "5bac3f6c5d08fbda002d77ccfbdfc03e977adc67ab456ef470569250d300b6fa",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-j-1714649002",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-j-1714649002"
+    ],
+    "object_title": "Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+    "authors": [],
+    "deposit_date": "2024-04-30",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-j-1714649002",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-j-1714649002"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-j-1714649002_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-j-1714649002_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-j-1714649002_response_07-1718696395"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-j-1714649002_response_07-1718696395"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4346,
+      "words_extracted": 670,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

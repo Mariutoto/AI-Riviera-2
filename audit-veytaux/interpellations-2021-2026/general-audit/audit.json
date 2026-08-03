@@ -1,0 +1,712 @@
+{
+  "schema_version": "veytaux-interpellations-general-audit-v1",
+  "scope": {
+    "commune": "Veytaux",
+    "category": "interpellation",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30",
+    "note": "Page éditée manuellement par la commune (pas de base de données) : aucun identifiant d'objet, statut ou auteur structuré n'est publié — seuls le titre du lien, le regroupement par date de dépôt et l'ordre des documents sont exploitables de façon fiable."
+  },
+  "source": {
+    "institution": "Conseil communal de Veytaux",
+    "listing_page": "https://veytaux.ch/motions-postulats-interpellations"
+  },
+  "summary": {
+    "political_objects": 17,
+    "documents": 35,
+    "original_interpellations": 17,
+    "municipal_responses": 16,
+    "resolutions": 2,
+    "objects_with_response": 15,
+    "objects_without_response": 2,
+    "objects_with_resolution": 2,
+    "ocr_applied": 35,
+    "chunks": 90
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "object_id": "veytaux-interpellation-20251217140933738-1765977352",
+      "title": "Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+      "deposit_date": "2025-12-08",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-a-1750164523",
+      "title": "Interpellation A. Ramser \"demande de financement abonnement annuel des élèves veytausiens scolarisés à Montreux-Est – gare 33 Montreux \"",
+      "deposit_date": "2025-06-16",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_response": false,
+      "has_resolution": false,
+      "response_status": "unanswered",
+      "is_closed": false
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-j-1730801027",
+      "title": "Interpellation J.-F. Petignat \"pour un accès facilité aux subventions communales et une information mieux diffusée sur l'octroi des subventions\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-j-1730801027_response_03-1733817352"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-j-1730801014",
+      "title": "Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-j-1730801014_response_02-1741685124"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-a-1730800683",
+      "title": "Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-a-1730800683_response_04-1733817331"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-s-1730800669",
+      "title": "Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-s-1730800669_response_02-1733817308"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-20240507161114439-1715091179",
+      "title": "Interpellation relative à l'extinction de l'éclairage public durant la nuit",
+      "deposit_date": "2024-05-06",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-j-1714649002",
+      "title": "Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+      "deposit_date": "2024-04-30",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-j-1714649002_response_07-1718696395"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-m-1702632494",
+      "title": "Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+      "deposit_date": "2023-12-11",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-m-1702632494_response_reponse-de-la-municipalite-du-15-janvier-2024-1730812729"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-04-1681365761",
+      "title": "Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+      "deposit_date": "2023-03-27",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [
+        "veytaux_interpellation_04-1681365761_resolution_resolution-de-m-1687945000"
+      ],
+      "has_response": false,
+      "has_resolution": true,
+      "response_status": "unanswered",
+      "is_closed": false
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-thelin-clos-de-chillon-respect-des-perimetres",
+      "title": "\"Clos de Chillon, respect des périmètres d'implantation et des surfaces brutes de plancher!\"",
+      "deposit_date": "2022-10-31",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_02-1670934901",
+        "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_03-1681365675"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-emery-quelle-regle-pour-choix-des-locataires-",
+      "title": "\"Quelle règle la Municipalité veut appliquer pour le choix des futurs locataires du bâtiment multi-générationnel ?\"",
+      "deposit_date": "2022-10-31",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-emery-quelle-regle-pour-choix-des-locataires-_response_03-1670934938"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-14-1647338719",
+      "title": "Relative au plan de quartier et au rapport d'aménagement 47 OAT, ainsi que son règlement pour la réalisation d'un bâtiment multigénérationnel",
+      "deposit_date": "2022-03-14",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-14-1647338719_response_05-1651580369"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-14-1647338754",
+      "title": "Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+      "deposit_date": "2022-03-14",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-14-1647338754_response_04-1651580438"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546",
+      "title": "PGA - on en est où ?",
+      "deposit_date": "2021-09-13",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_response_03-1635852568"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525",
+      "title": "Fusion Montreux-Veytaux - on en est où ?",
+      "deposit_date": "2021-09-13",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_response_02-1635852614"
+      ],
+      "resolution_document_ids": [
+        "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_resolution_resolution-du-conseil-communal-du-01-1637583459"
+      ],
+      "has_response": true,
+      "has_resolution": true,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-interpellation-pour-un-controle-rigoureux-1633352596",
+      "title": "Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+      "deposit_date": "2021-09-13",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_response_04-1635852648"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "veytaux_interpellation_20251217140933738-1765977352_text",
+      "political_object_ids": [
+        "veytaux-interpellation-20251217140933738-1765977352"
+      ],
+      "title": "Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+      "role": "interpellation_text",
+      "document_date": "2025-12-08",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/20251217140933738_1765977352.pdf",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044",
+      "political_object_ids": [
+        "veytaux-interpellation-20251217140933738-1765977352"
+      ],
+      "title": "Réponse municipale — Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+      "role": "municipal_response",
+      "document_date": "2026-03-16",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1774356044.pdf",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-a-1750164523_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-a-1750164523"
+      ],
+      "title": "Interpellation A. Ramser \"demande de financement abonnement annuel des élèves veytausiens scolarisés à Montreux-Est – gare 33 Montreux \"",
+      "role": "interpellation_text",
+      "document_date": "2025-06-16",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_A_1750164523.pdf",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1730801027_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1730801027"
+      ],
+      "title": "Interpellation J.-F. Petignat \"pour un accès facilité aux subventions communales et une information mieux diffusée sur l'octroi des subventions\"",
+      "role": "interpellation_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_J_1730801027.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1730801027_response_03-1733817352",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1730801027"
+      ],
+      "title": "Réponse municipale — Interpellation J.-F. Petignat \"pour un accès facilité aux subventions communales et une information mieux diffusée sur l'octroi des subventions\"",
+      "role": "municipal_response",
+      "document_date": "2024-11-25",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1733817352.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1730801014_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1730801014"
+      ],
+      "title": "Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+      "role": "interpellation_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_J_1730801014.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1730801014_response_02-1741685124",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1730801014"
+      ],
+      "title": "Réponse municipale — Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+      "role": "municipal_response",
+      "document_date": "2025-02-10",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1741685124.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-a-1730800683_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-a-1730800683"
+      ],
+      "title": "Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+      "role": "interpellation_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_A_1730800683.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-a-1730800683_response_04-1733817331",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-a-1730800683"
+      ],
+      "title": "Réponse municipale — Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+      "role": "municipal_response",
+      "document_date": "2024-12-02",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1733817331.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-s-1730800669_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-s-1730800669"
+      ],
+      "title": "Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+      "role": "interpellation_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_S_1730800669.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-s-1730800669_response_02-1733817308",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-s-1730800669"
+      ],
+      "title": "Réponse municipale — Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+      "role": "municipal_response",
+      "document_date": "2024-12-02",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1733817308.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_20240507161114439-1715091179_text",
+      "political_object_ids": [
+        "veytaux-interpellation-20240507161114439-1715091179"
+      ],
+      "title": "Interpellation relative à l'extinction de l'éclairage public durant la nuit",
+      "role": "interpellation_text",
+      "document_date": "2024-05-06",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/20240507161114439_1715091179.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380",
+      "political_object_ids": [
+        "veytaux-interpellation-20240507161114439-1715091179"
+      ],
+      "title": "Réponse municipale — Interpellation relative à l'extinction de l'éclairage public durant la nuit",
+      "role": "municipal_response",
+      "document_date": "2024-06-03",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/06_1718696380.pdf",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1714649002_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1714649002"
+      ],
+      "title": "Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+      "role": "interpellation_text",
+      "document_date": "2024-04-30",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_J_1714649002.pdf",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-j-1714649002_response_07-1718696395",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-j-1714649002"
+      ],
+      "title": "Réponse municipale — Interpellation \"Fusion Montreux-Veytaux : Votation du 22 septembre. Position et informations de la Municipalité durant la campagne.\"",
+      "role": "municipal_response",
+      "document_date": "2024-06-17",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/07_1718696395.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-m-1702632494_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-m-1702632494"
+      ],
+      "title": "Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+      "role": "interpellation_text",
+      "document_date": "2023-12-11",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_M_1702632494.PDF",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-m-1702632494_response_reponse-de-la-municipalite-du-15-janvier-2024-1730812729",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-m-1702632494"
+      ],
+      "title": "Réponse municipale — Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+      "role": "municipal_response",
+      "document_date": "2024-01-15",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Reponse_de_la_Municipalite_du_15_janvier_2024_1730812729.pdf",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_04-1681365761_text",
+      "political_object_ids": [
+        "veytaux-interpellation-04-1681365761"
+      ],
+      "title": "Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+      "role": "interpellation_text",
+      "document_date": "2023-03-27",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1681365761.pdf",
+      "chunks": 4,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_04-1681365761_resolution_resolution-de-m-1687945000",
+      "political_object_ids": [
+        "veytaux-interpellation-04-1681365761"
+      ],
+      "title": "Résolution — Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+      "role": "resolution",
+      "document_date": "2023-03-27",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Resolution_de_M_1687945000.pdf",
+      "chunks": 1,
+      "source_kind": "official_resolution_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-thelin-clos-de-chillon-respect-des-perimetres"
+      ],
+      "title": "\"Clos de Chillon, respect des périmètres d'implantation et des surfaces brutes de plancher!\"",
+      "role": "interpellation_text",
+      "document_date": "2022-10-31",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_Thelin_Clos_de_Chillon_respect_des_perimetres_1667292268.pdf",
+      "chunks": 5,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_02-1670934901",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-thelin-clos-de-chillon-respect-des-perimetres"
+      ],
+      "title": "Réponse municipale — \"Clos de Chillon, respect des périmètres d'implantation et des surfaces brutes de plancher!\"",
+      "role": "municipal_response",
+      "document_date": "2022-11-28",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1670934901.pdf",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_03-1681365675",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-thelin-clos-de-chillon-respect-des-perimetres"
+      ],
+      "title": "Réponse municipale — \"Clos de Chillon, respect des périmètres d'implantation et des surfaces brutes de plancher!\"",
+      "role": "municipal_response",
+      "document_date": "2022-10-31",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1681365675.pdf",
+      "chunks": 8,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-emery-quelle-regle-pour-choix-des-locataires-_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-emery-quelle-regle-pour-choix-des-locataires-"
+      ],
+      "title": "\"Quelle règle la Municipalité veut appliquer pour le choix des futurs locataires du bâtiment multi-générationnel ?\"",
+      "role": "interpellation_text",
+      "document_date": "2022-10-31",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_Emery_Quelle_regle_pour_choix_des_locataires_du_BMG_1667292311.pdf",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-emery-quelle-regle-pour-choix-des-locataires-_response_03-1670934938",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-emery-quelle-regle-pour-choix-des-locataires-"
+      ],
+      "title": "Réponse municipale — \"Quelle règle la Municipalité veut appliquer pour le choix des futurs locataires du bâtiment multi-générationnel ?\"",
+      "role": "municipal_response",
+      "document_date": "2022-11-28",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1670934938.pdf",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-14-1647338719_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-14-1647338719"
+      ],
+      "title": "Relative au plan de quartier et au rapport d'aménagement 47 OAT, ainsi que son règlement pour la réalisation d'un bâtiment multigénérationnel",
+      "role": "interpellation_text",
+      "document_date": "2022-03-14",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_14_1647338719.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-14-1647338719_response_05-1651580369",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-14-1647338719"
+      ],
+      "title": "Réponse municipale — Relative au plan de quartier et au rapport d'aménagement 47 OAT, ainsi que son règlement pour la réalisation d'un bâtiment multigénérationnel",
+      "role": "municipal_response",
+      "document_date": "2022-04-11",
+      "file_url": "https://web-prod.o-i.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/05_1651580369.pdf",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-14-1647338754_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-14-1647338754"
+      ],
+      "title": "Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+      "role": "interpellation_text",
+      "document_date": "2022-03-14",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_14_1647338754.pdf",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-14-1647338754_response_04-1651580438",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-14-1647338754"
+      ],
+      "title": "Réponse municipale — Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+      "role": "municipal_response",
+      "document_date": "2022-04-11",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1651580438.pdf",
+      "chunks": 7,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546"
+      ],
+      "title": "PGA - on en est où ?",
+      "role": "interpellation_text",
+      "document_date": "2021-09-13",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_-_PGA__on_en_est_ou_1633352546.pdf",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_response_03-1635852568",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546"
+      ],
+      "title": "Réponse municipale — PGA - on en est où ?",
+      "role": "municipal_response",
+      "document_date": "2021-10-11",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1635852568.pdf",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_text",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525"
+      ],
+      "title": "Fusion Montreux-Veytaux - on en est où ?",
+      "role": "interpellation_text",
+      "document_date": "2021-09-13",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_-_Fusion_Montreux-Veytaux__on_en_est_ou_1633352567.pdf",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_response_02-1635852614",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525"
+      ],
+      "title": "Réponse municipale — Fusion Montreux-Veytaux - on en est où ?",
+      "role": "municipal_response",
+      "document_date": "2021-10-11",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1635852614.pdf",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_resolution_resolution-du-conseil-communal-du-01-1637583459",
+      "political_object_ids": [
+        "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525"
+      ],
+      "title": "Résolution — Fusion Montreux-Veytaux - on en est où ?",
+      "role": "resolution",
+      "document_date": "2021-11-01",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Resolution_du_Conseil_communal_du_01_1637583459.pdf",
+      "chunks": 1,
+      "source_kind": "official_resolution_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_text",
+      "political_object_ids": [
+        "veytaux-interpellation-pour-un-controle-rigoureux-1633352596"
+      ],
+      "title": "Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+      "role": "interpellation_text",
+      "document_date": "2021-09-13",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Pour_un_controle_rigoureux_1633352596.pdf",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "veytaux_interpellation_pour-un-controle-rigoureux-1633352596_response_04-1635852648",
+      "political_object_ids": [
+        "veytaux-interpellation-pour-un-controle-rigoureux-1633352596"
+      ],
+      "title": "Réponse municipale — Pour un contrôle rigoureux et un maintien des budgets de la construction du bâtiment multi-générationnel",
+      "role": "municipal_response",
+      "document_date": "2021-10-11",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1635852648.pdf",
+      "chunks": 7,
+      "source_kind": "official_municipal_response_pdf"
+    }
+  ]
+}

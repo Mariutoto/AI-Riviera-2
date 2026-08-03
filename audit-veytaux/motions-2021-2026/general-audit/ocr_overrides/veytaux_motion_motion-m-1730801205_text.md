@@ -1,0 +1,28 @@
+Motion
+
+OBJET : Établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires des enfants
+
+PRESENTEE PAR Marina Blagojevic
+
+DATE 04 novembre 2024
+
+Monsieur le Président, Madame la Syndique, Messieurs les Municipaux, Chères et Chers collègues,
+
+Considérant l'importance de la santé dentaire dans le développement et le bien-être des enfants, et les répercussions à long terme d'une mauvaise hygiène bucco-dentaire ; et considérant que ces soins peuvent être négligés en raison de leur cout, nous jugeons urgent et indispensable d'introduire un règlement permettant une subvention des soins dentaires et orthodontiques des enfants en âge de scolarité et d'apprentissage.
+
+Si un formulaire de demande est disponible sur le site de la Commune, il ne semble pas qu'un règlement conforme et accepté par le Conseil Communal ne règle les formalités d'octroi de ces subventions. Ce règlement permettra de légaliser l'octroi de la subvention proposée actuellement.
+
+Le règlement que souhaite étudier le Conseil Communal devrait se baser sur le modèle de subventions pour les soins dentaires des enfants déjà en vigueur dans la commune voisine de Montreux.
+
+La nécessité pour notre commune, dont les finances le permettent, est de mettre en place un cadre clair et pérenne régissant l'attribution de ces aides ;
+
+Le Conseil communal de Veytaux, par la présente motion, invite la Municipalité à :
+
+1. Élaborer un règlement communal concernant l'octroi de subventions pour les soins dentaires des enfants domiciliés à Veytaux, basé sur le modèle déjà en place à Montreux.
+2. Préciser les critères d'éligibilité des enfants aux subventions, qui pourront inclure l'âge, le domicile, et la fréquentation scolaire dans la commune, tout en tenant compte des ressources financières des familles.
+3. Assurer une couverture financière adaptée, en fixant les montants des subventions selon une échelle progressive en fonction des revenus des familles, mais au minimum égales aux subventions octroyées par la commune de Montreux.
+4. Promouvoir la sensibilisation et la prévention, afin de renforcer l'information sur l'importance de la santé dentaire dès le plus jeune âge et d'encourager les familles à bénéficier des subventions.
+
+Conclusion :
+
+Nous prions donc la Municipalité de prendre les mesures nécessaires pour répondre à cette motion et soumettre un projet de règlement dans les meilleurs délais.

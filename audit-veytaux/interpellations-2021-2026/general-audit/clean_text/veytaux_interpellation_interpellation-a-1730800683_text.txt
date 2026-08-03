@@ -1,0 +1,27 @@
+INTERPELLATION de Alexandre Koschevnikov, séance du Conseil Communal du 4 novembre 2024
+
+« Aménagement de la place de l'ancien hangar à bois »
+
+Monsieur le Président,
+
+Mesdames et messieurs les conseillères et conseillers,
+
+En juillet 2025, cela fera 10 ans que le hangar à bois a été détruit dans un incendie et que cette place présente une véritable verrue dans le paysage de notre Commune, appuyée en cela par la présence souvent débordante de l'ECO point dont l'aménagement semble plutôt avoir été improvisé.
+
+À la suite d'une interpellation déposée en 2022, voilà plus de deux ans, que nous attendons des avancées concrètes concernant des propositions d'aménagement sur cette parcelle
+
+Malgré plusieurs cas les réponses fournies par la Municipalité, force est de constater qu'aucune action tangible n'a été entreprise à ce jour.
+
+La Municipalité de Veytaux avait indiqué dans sa réponse du 2 mai 2022 que des discussions étaient en cours avec la Municipalité de Montreux, et que l'Office fédéral des routes (OFROU) avait exprimé certaines réserves concernant les conditions d'aménagement sous le viaduc de Chillon. Cependant, depuis ces réponses, il semble qu'aucune solution n'ait été trouvée pour l'aménagement de cette place, qui reste, à l'heure actuelle, une véritable verrue au cœur de notre village.
+
+Ainsi, au vu de l'inaction prolongée sur ce dossier, nous demandons aujourd'hui à la Municipalité de :
+
+1. Clarifier sa position sur l'avenir de cette parcelle : compte-t-elle toujours l'aménager en ECO point ? Si oui, quel est l'état des discussions avec la Municipalité de Montreux et l'OFROU ?
+2. Proposer un projet concret à soumettre au Conseil communal pour l'aménagement de cet espace, que ce soit en tant qu'ECO point ou dans une autre direction, afin de valoriser cet emplacement stratégique et le rendre plus attractif pour nos citoyens.
+3. Prendre en compte l'urgence d'agir, car laisser cette parcelle inutilisée nuit à l'image de notre village et constitue un manque de gestion efficace de l'espace communal.
+
+En tant qu'élus, il est de notre devoir de garantir que les projets nécessaires à l'amélioration de notre village soient menés à bien dans des délais raisonnables.
+
+Nous remercions la Municipalité d'apporter une réponse à cette interpellation accompagnée d'un calendrier d'action pour la prochaine séance ou pour 1ère séance du Conseil Communal 2025
+
+Interpellation soutenue par :

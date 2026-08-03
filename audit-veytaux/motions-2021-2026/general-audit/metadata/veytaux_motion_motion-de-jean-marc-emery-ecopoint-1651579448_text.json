@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+    "source_title": "Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_de_Jean-Marc_Emery_EcoPoint_1651579448.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-02",
+    "language": "fr",
+    "content_hash": "15f2753ac647fb2c9c26c2f9c312f93acad59def3afa847588399c7794130666",
+    "source_content_hash": "af46474650467309a484c727765a1db6c7d175faf6decfc8931d3772879e9f26",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448",
+    "object_ids": [
+      "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448"
+    ],
+    "object_title": "Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+    "authors": [],
+    "deposit_date": "2022-05-02",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448",
+    "political_object_ids": [
+      "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_text"
+    ],
+    "related_document_ids": [
+      "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192"
+    ],
+    "response_document_ids": [
+      "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_motion_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 2318,
+      "words_extracted": 361,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

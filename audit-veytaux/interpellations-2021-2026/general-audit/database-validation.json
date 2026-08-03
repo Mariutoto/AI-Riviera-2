@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 35,
+    "originals": 17,
+    "responses": 16,
+    "resolutions": 2,
+    "chunks": 90,
+    "vectors": 90,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 17,
+    "objects_with_response": 15,
+    "objects_without_response": 2,
+    "broken_relationship_links": 0
+  },
+  "retrieval": [
+    {
+      "query": "extinction de l'éclairage public durant la nuit",
+      "expected_prefix": "veytaux_interpellation_20240507161114439-1715091179_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380",
+        "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380",
+        "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380",
+        "veytaux_interpellation_20240507161114439-1715091179_text",
+        "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044"
+      ]
+    },
+    {
+      "query": "bornes de recharge pour véhicules électriques places publiques",
+      "expected_prefix": "veytaux_interpellation_interpellation-j-1730801014_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_interpellation_interpellation-j-1730801014_response_02-1741685124",
+        "veytaux_interpellation_interpellation-j-1730801014_text",
+        "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044",
+        "veytaux_interpellation_20240507161114439-1715091179_response_06-1718696380",
+        "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044"
+      ]
+    },
+    {
+      "query": "Clos de Chillon respect des périmètres d'implantation",
+      "expected_prefix": "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_interpellation_interpellation-a-1730800683_text",
+        "veytaux_interpellation_interpellation-s-1730800669_response_02-1733817308",
+        "veytaux_interpellation_interpellation-s-1730800669_text",
+        "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_02-1670934901",
+        "veytaux_interpellation_interpellation-thelin-clos-de-chillon-respect-des-perimetres_response_03-1681365675"
+      ]
+    }
+  ],
+  "failures": []
+}

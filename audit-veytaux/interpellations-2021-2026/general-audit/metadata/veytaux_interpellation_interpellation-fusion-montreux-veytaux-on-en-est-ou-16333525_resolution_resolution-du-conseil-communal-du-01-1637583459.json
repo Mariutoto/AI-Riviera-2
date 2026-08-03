@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_resolution_resolution-du-conseil-communal-du-01-1637583459",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "resolution",
+    "title": "Résolution — Fusion Montreux-Veytaux - on en est où ?",
+    "source_title": "Fusion Montreux-Veytaux - on en est où ?",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Resolution_du_Conseil_communal_du_01_1637583459.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-01",
+    "language": "fr",
+    "content_hash": "9cac90d8da4041aea43cfd855aa422363eacb83edfeede088c7af672c069f709",
+    "source_content_hash": "74484991e1b140899f2a56f45c7e951c5e2dd5ad8fef69ddab10995393dff58b",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525"
+    ],
+    "object_title": "Fusion Montreux-Veytaux - on en est où ?",
+    "authors": [],
+    "deposit_date": "2021-09-13",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": true,
+    "document_component_role": "resolution"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_response_02-1635852614",
+      "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_text"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_response_02-1635852614"
+    ],
+    "resolution_document_ids": [
+      "veytaux_interpellation_interpellation-fusion-montreux-veytaux-on-en-est-ou-16333525_resolution_resolution-du-conseil-communal-du-01-1637583459"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_resolution_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 280,
+      "words_extracted": 46,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

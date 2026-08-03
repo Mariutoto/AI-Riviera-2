@@ -1,0 +1,50 @@
+# INTERPELLATION
+
+# "Quelle règle la Municipalité veut appliquer pour le choix des futurs locataires du bâtiment multigénérationnel ?"
+
+Madame la Présidente,
+
+Mesdames et Messieurs les conseillères et conseillers,
+
+En page d'accueil sur le site de notre Commune, nous trouvons, bien en évidence le lien nous renvoyant auprès de la régie chargée de la mise en location des appartements du bâtiment multigénérationnel.
+
+On y lit juste un rappel du nombre d'appartement et des loyers pratiqués.
+
+Aucune allusion sur le fait que ces appartements sont à la base destinés, à des résidents en situations de fragilité, à mobilité réduite ou handicapés. (réf règlement du plan de quartier)
+
+Dans la réponse à mon interpellation du 13 septembre 2021, à la question 2.
+
+La Municipalité envisage-t-elle réellement d'ouvrir la location des appartements à des personnes ne rentrant pas dans le cadre des études proposées jusqu'à ce jour, voire de mettre en location des appartements ne rentrant pas dans le cadre du règlement du PQ ?
+
+La Municipalité précisait :
+
+Les logements en cours de construction sont tous adaptés et adaptables aux résidents décrits ci-dessus qui seront bien entendu prioritaires à la location, à l'exclusion de tout autre type de précarité. En revanche, une certaine souplesse est nécessaire afin d'éviter que des logements restent vides en l'absence de candidature ad hoc.
+
+Pourquoi cette information n'apparaît pas en évidence sur le site de notre Commune ?
+
+Je clique donc sur le lien "Veytaux location" et là, j'ai beau chercher, aucune indication n'est faite sur, ne serait-ce qu'une allusion aux personnes en situations de fragilité à mobilité réduite ou handicapées, ni au fait que plusieurs appartements répondent aux critères permettant l'accès aux personnes bénéficiaires de prestations complémentaires.
+
+Je clique plus loin et ouvre le lien de demande de location.
+
+Nom, prénom, salaire actuel, employeur, ... bref la fiche type qui va me décourager d'aller plus loin si je suis retraité avec ma seule rente AVS, ou AI, en situation de fragilité et bénéficiaire de prestations complémentaires.
+
+Cerise sur le gâteau, si malgré tout ma candidature serait retenue, je devrai payer 150.00 Fr à la signature du contrat. Somme qui peut être très importante pour les prioritaires à la location.
+
+Je suis rassuré en lisant que les axes autoroutiers pour Genève Berne et le Valais sont à moins de 10 minutes ! mais qu'aucune place de parc ne sera disponible en précisant que la Commune vend des macarons. Je suis par contre sceptique quand au respect de la norme VSS en dotation de places, les critères définis dans le plan de quartier n'étant plus applicables pour des appartements de type traditionnel. Le parcage dans ce secteur va devenir compliqué !
+
+Je me souviens des discussions que nous avions autour de la table de la Municipalité au début de ce projet, des visites que nous avions faites avec Madame la Syndique, des enseignements que nous avaient apportés les résidents d'appartements adaptés visités et que nous rêvions de mettre à disposition des Veytausiennes et Veytausiens en priorité mais en élargissant l'offre à la région.
+
+Je rappelle à la Municipalité que si elle a abandonné l'idée de confier la gestion de ces appartements à une fondation, elle a encore loisir de la confier à une commission d'attribution, selon les directives cantonales.
+
+L'interpellation déposée demande à la Municipalité de répondre aux questions suivantes :
+
+- Question 1 : la Municipalité va-t-elle modifier les sites de mise en location en y incluant les conditions prioritaires d'attribution à savoir aux résidents en situations de fragilité à mobilité réduite ou handicapés, particulièrement à des bénéficiaires de prestations complémentaires ?
+- Question 2 : La Municipalité envisage-t-elle de confier la gestion de ces appartements à une commission d'attribution, selon les directives cantonales ?
+- Question 3 : des appartements ont-ils déjà été attribués à des personnes dont les conditions prioritaires définies n'étaient pas avérées ?
+- Question 4 : Si la réponse à la question 3 est oui, s'agit -il d'appartements dont les loyers sont PC compatibles
+
+D'avance je remercie la Municipalité pour ses réponses par écrit lors du prochain conseil.
+
+Veytaux le 31 octobre 2022
+
+Interpellation soutenue par :

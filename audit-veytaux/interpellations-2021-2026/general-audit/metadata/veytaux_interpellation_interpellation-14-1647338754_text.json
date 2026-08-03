@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-14-1647338754_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+    "source_title": "Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_14_1647338754.pdf",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-14",
+    "language": "fr",
+    "content_hash": "6b7ab8e949e8faaa201c9ba2848704e9e3c57a0e8bb4cdde661899f62567d786",
+    "source_content_hash": "b5d8a774e12879c181cf260591ce3f89aed87230b56b28cab382a9928ed8115a",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-14-1647338754",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-14-1647338754"
+    ],
+    "object_title": "Pour plus de clarté sur la construction du bâtiment, son programme, son coût et son rendement",
+    "authors": [],
+    "deposit_date": "2022-03-14",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-14-1647338754",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-14-1647338754"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-14-1647338754_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-14-1647338754_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-14-1647338754_response_04-1651580438"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-14-1647338754_response_04-1651580438"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 5187,
+      "words_extracted": 822,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

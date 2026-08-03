@@ -1,0 +1,81 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_04-1681365761_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+    "source_title": "Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1681365761.pdf",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-03-27",
+    "language": "fr",
+    "content_hash": "03b9e0df2b636a133b96542d895cf1a952bcece53d1161d826a582f7e1022c16",
+    "source_content_hash": "02f6769ff60976cfbbcd55ddd12394b4516297920fc9a3571b1187b18942de06",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-04-1681365761",
+    "object_ids": [
+      "veytaux-interpellation-04-1681365761"
+    ],
+    "object_title": "Interpellation et réponse : \"Fusion Montreux-Veytaux: de communications en communications ... on avance à petits pas!\"",
+    "authors": [],
+    "deposit_date": "2023-03-27",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": true,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-04-1681365761",
+    "political_object_ids": [
+      "veytaux-interpellation-04-1681365761"
+    ],
+    "political_object_document_id": "veytaux_interpellation_04-1681365761_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_04-1681365761_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_04-1681365761_resolution_resolution-de-m-1687945000"
+    ],
+    "response_document_ids": [],
+    "resolution_document_ids": [
+      "veytaux_interpellation_04-1681365761_resolution_resolution-de-m-1687945000"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 7951,
+      "words_extracted": 1267,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

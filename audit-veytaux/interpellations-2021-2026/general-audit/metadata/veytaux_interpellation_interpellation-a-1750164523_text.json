@@ -1,0 +1,76 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-a-1750164523_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation A. Ramser \"demande de financement abonnement annuel des élèves veytausiens scolarisés à Montreux-Est – gare 33 Montreux \"",
+    "source_title": "Interpellation A. Ramser \"demande de financement abonnement annuel des élèves veytausiens scolarisés à Montreux-Est – gare 33 Montreux \"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_A_1750164523.pdf",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-06-16",
+    "language": "fr",
+    "content_hash": "a963da571b2615a727004e1a2523476eaf42e4e3889e2fc5882e12cbe5d7c2a5",
+    "source_content_hash": "5cc2fd7914e5f364d479f15605b843c12cab99089d2fe127b5d52646aa2497fc",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-a-1750164523",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-a-1750164523"
+    ],
+    "object_title": "Interpellation A. Ramser \"demande de financement abonnement annuel des élèves veytausiens scolarisés à Montreux-Est – gare 33 Montreux \"",
+    "authors": [],
+    "deposit_date": "2025-06-16",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-a-1750164523",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-a-1750164523"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-a-1750164523_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-a-1750164523_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 5978,
+      "words_extracted": 942,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

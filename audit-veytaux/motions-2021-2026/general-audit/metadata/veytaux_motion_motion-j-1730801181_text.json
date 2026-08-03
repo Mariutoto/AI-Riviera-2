@@ -1,0 +1,75 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-j-1730801181_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion J.-M. Emery \"Modification de l'article 3 du règlement sur le Fond pour le développement durable",
+    "source_title": "Motion J.-M. Emery \"Modification de l'article 3 du règlement sur le Fond pour le développement durable",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_J_1730801181.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "01f12b4733d85322ddcd291ad96ec908ed76b4c35fd073460ddab814abb916b6",
+    "source_content_hash": "ea2975dc23444d58660764a1eb30e044c3fb68695153fa89d708a5e91bc614b5",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-j-1730801181",
+    "object_ids": [
+      "veytaux-motion-motion-j-1730801181"
+    ],
+    "object_title": "Motion J.-M. Emery \"Modification de l'article 3 du règlement sur le Fond pour le développement durable",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-j-1730801181",
+    "political_object_ids": [
+      "veytaux-motion-motion-j-1730801181"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-j-1730801181_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-j-1730801181_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_motion_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3658,
+      "words_extracted": 564,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

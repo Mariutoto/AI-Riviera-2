@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-g-1730801217_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+    "source_title": "Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_G_1730801217.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "5e6a86fe356deea48f940636599ee4e7888ad568d0dac2a9d9d743e9b4bcb224",
+    "source_content_hash": "79312de24af4f56e9ed59209ab93ed1e396b7855cff6a13318da03d53f20a1c7",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-g-1730801217",
+    "object_ids": [
+      "veytaux-motion-motion-g-1730801217"
+    ],
+    "object_title": "Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-g-1730801217",
+    "political_object_ids": [
+      "veytaux-motion-motion-g-1730801217"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-g-1730801217_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-g-1730801217_text"
+    ],
+    "related_document_ids": [
+      "veytaux_motion_motion-g-1730801217_response_04-1750162874"
+    ],
+    "response_document_ids": [
+      "veytaux_motion_motion-g-1730801217_response_04-1750162874"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_motion_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1953,
+      "words_extracted": 291,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

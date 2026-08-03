@@ -1,0 +1,228 @@
+{
+  "schema_version": "veytaux-motions-general-audit-v1",
+  "scope": {
+    "commune": "Veytaux",
+    "category": "motion",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30",
+    "note": "Page éditée manuellement par la commune (pas de base de données) : aucun identifiant d'objet, statut ou auteur structuré n'est publié — seuls le titre du lien, le regroupement par date de dépôt et l'ordre des documents sont exploitables de façon fiable."
+  },
+  "source": {
+    "institution": "Conseil communal de Veytaux",
+    "listing_page": "https://veytaux.ch/motions-postulats-interpellations"
+  },
+  "summary": {
+    "political_objects": 6,
+    "documents": 9,
+    "original_motions": 6,
+    "municipal_responses": 3,
+    "resolutions": 0,
+    "objects_with_response": 3,
+    "objects_without_response": 3,
+    "objects_with_resolution": 0,
+    "ocr_applied": 9,
+    "chunks": 21
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "object_id": "veytaux-motion-motion-st-1730801230",
+      "title": "Motion St. Thélin \"subvention pour l'achat d'un abonnement annuel de transports publics\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_response": false,
+      "has_resolution": false,
+      "response_status": "unanswered",
+      "is_closed": false
+    },
+    {
+      "object_id": "veytaux-motion-motion-g-1730801217",
+      "title": "Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-motion-motion-m-1730801205",
+      "title": "Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    },
+    {
+      "object_id": "veytaux-motion-motion-p-1730801194",
+      "title": "Motion P. Y. Sauvageat \"établissement d'un règlement communal sur l'octroi de subventions pour l'aide au logement\"",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_response": false,
+      "has_resolution": false,
+      "response_status": "unanswered",
+      "is_closed": false
+    },
+    {
+      "object_id": "veytaux-motion-motion-j-1730801181",
+      "title": "Motion J.-M. Emery \"Modification de l'article 3 du règlement sur le Fond pour le développement durable",
+      "deposit_date": "2024-11-04",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_response": false,
+      "has_resolution": false,
+      "response_status": "unanswered",
+      "is_closed": false
+    },
+    {
+      "object_id": "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448",
+      "title": "Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+      "deposit_date": "2022-05-02",
+      "source_page": "https://veytaux.ch/motions-postulats-interpellations",
+      "authors": [],
+      "response_document_ids": [
+        "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192"
+      ],
+      "resolution_document_ids": [],
+      "has_response": true,
+      "has_resolution": false,
+      "response_status": "written_response",
+      "is_closed": true
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "veytaux_motion_motion-st-1730801230_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-st-1730801230"
+      ],
+      "title": "Motion St. Thélin \"subvention pour l'achat d'un abonnement annuel de transports publics\"",
+      "role": "motion_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_St_1730801230.pdf",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-g-1730801217_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-g-1730801217"
+      ],
+      "title": "Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+      "role": "motion_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_G_1730801217.pdf",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-g-1730801217_response_04-1750162874",
+      "political_object_ids": [
+        "veytaux-motion-motion-g-1730801217"
+      ],
+      "title": "Réponse municipale — Motion G. Taroni \"subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation\"",
+      "role": "municipal_response",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1750162874.pdf",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-m-1730801205_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-m-1730801205"
+      ],
+      "title": "Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+      "role": "motion_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_M_1730801205.pdf",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+      "political_object_ids": [
+        "veytaux-motion-motion-m-1730801205"
+      ],
+      "title": "Réponse municipale — Motion M. Blagojevic \"établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires\"",
+      "role": "municipal_response",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/03_1750162854.pdf",
+      "chunks": 5,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-p-1730801194_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-p-1730801194"
+      ],
+      "title": "Motion P. Y. Sauvageat \"établissement d'un règlement communal sur l'octroi de subventions pour l'aide au logement\"",
+      "role": "motion_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_P_1730801194.pdf",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-j-1730801181_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-j-1730801181"
+      ],
+      "title": "Motion J.-M. Emery \"Modification de l'article 3 du règlement sur le Fond pour le développement durable",
+      "role": "motion_text",
+      "document_date": "2024-11-04",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_J_1730801181.pdf",
+      "chunks": 2,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_text",
+      "political_object_ids": [
+        "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448"
+      ],
+      "title": "Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+      "role": "motion_text",
+      "document_date": "2022-05-02",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_de_Jean-Marc_Emery_EcoPoint_1651579448.pdf",
+      "chunks": 1,
+      "source_kind": "official_motion_text_pdf"
+    },
+    {
+      "document_id": "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192",
+      "political_object_ids": [
+        "veytaux-motion-motion-de-jean-marc-emery-ecopoint-1651579448"
+      ],
+      "title": "Réponse municipale — Pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage",
+      "role": "municipal_response",
+      "document_date": "2023-04-28",
+      "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/04_1683556192.pdf",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    }
+  ]
+}

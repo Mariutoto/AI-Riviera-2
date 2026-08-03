@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-a-1730800683_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+    "source_title": "Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_A_1730800683.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "4dce3a4091695fbd2dc1bce395f524887557a7f5a551806f20b1b87b9271cf06",
+    "source_content_hash": "256873fea9ff922f93ec545427e8c54fe9aca3b7439edd605cae02301ba9459c",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-a-1730800683",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-a-1730800683"
+    ],
+    "object_title": "Interpellation A. Koschevnikov \"aménagement de la place de l'ancien hangar à bois\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-a-1730800683",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-a-1730800683"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-a-1730800683_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-a-1730800683_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-a-1730800683_response_04-1733817331"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-a-1730800683_response_04-1733817331"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2416,
+      "words_extracted": 378,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "mistral-embed",
+  "created_at": "2026-08-03T15:59:51.092246+00:00",
+  "started_at": "2026-08-03T15:59:44.084779+00:00",
+  "input_chunks": 90,
+  "embedded_chunks": 90,
+  "reused_chunks": 0,
+  "new_chunks": 90,
+  "unique_chunk_ids": 90,
+  "dimensions": [
+    1024
+  ],
+  "tokens_reported_this_run": 72149,
+  "complete": true
+}

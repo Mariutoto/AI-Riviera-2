@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-p-1730801194_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion P. Y. Sauvageat \"établissement d'un règlement communal sur l'octroi de subventions pour l'aide au logement\"",
+    "source_title": "Motion P. Y. Sauvageat \"établissement d'un règlement communal sur l'octroi de subventions pour l'aide au logement\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_P_1730801194.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "69fea4b6432245c16674df57a5a1f4d88a8117389a620ae99865c319ffc3022c",
+    "source_content_hash": "adeaccce2af844ff9e1905d0aca69c94e6c3d1c0fd64bef3f12dd952805c4c33",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-p-1730801194",
+    "object_ids": [
+      "veytaux-motion-motion-p-1730801194"
+    ],
+    "object_title": "Motion P. Y. Sauvageat \"établissement d'un règlement communal sur l'octroi de subventions pour l'aide au logement\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-p-1730801194",
+    "political_object_ids": [
+      "veytaux-motion-motion-p-1730801194"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-p-1730801194_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-p-1730801194_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_motion_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2164,
+      "words_extracted": 332,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+INTERPELLATION de Jean Luc Puenzieux séance du Conseil Communal du 4 novembre 2024
+
+« Mise en œuvre de places publiques avec bornes de recharge pour véhicules électriques »
+
+Monsieur le Président,
+
+Mesdames et messieurs les conseillères et conseillers,
+
+Face au développement constant de la mobilité électrique et à la demande croissante pour des infrastructures de recharge, il devient essentiel que notre commune s'adapte à cette évolution.
+
+Afin de faciliter la transition énergétique et de répondre aux besoins des habitants, il est nécessaire de mettre en place des possibilités de recharge des véhicules électriques sur le territoire de Veytaux, y compris dans la zone de Grandchamp.
+
+Nous notons que le fonds de réserve dédié à la création de places de parc dispose actuellement d'un montant affecté de 90'000 CHF (à fin 2023). Cette somme pourrait être mobilisée pour financer la création de places de parc équipées de bornes de recharge pour véhicules électriques.
+
+À cet égard, nous posons les questions suivantes à la Municipalité :
+
+1. La Municipalité pense t'elle étudier rapidement la possibilité d'installer plusieurs places de parc publiques avec bornes de recharge pour véhicules électriques sur le territoire de Veytaux, en incluant la zone de Grandchamp ?
+2. La Municipalité pourrait-elle étudier la possibilité d'intégrer le financement de ces installations par le biais du fonds de réserve dédié à la création de places de parc ?
+3. Quelles modifications seraient nécessaires au règlement sur le stationnement pour permettre l'utilisation des places publiques avec bornes de recharge, et ce durant les heures de stationnement autorisées, sans prescription supplémentaire ni restriction particulière ?
+4. Cette démarche permettrait à la commune de Veytaux de soutenir activement la transition vers une mobilité plus durable, tout en utilisant de manière efficace les fonds déjà disponibles.
+
+Nous remercions la Municipalité d'apporter une réponse à cette interpellation accompagnée d'un calendrier d'action pour la prochaine séance ou pour 1ère séance du Conseil Communal 2025
+
+Interpellation soutenue par :
+
+S. Théli

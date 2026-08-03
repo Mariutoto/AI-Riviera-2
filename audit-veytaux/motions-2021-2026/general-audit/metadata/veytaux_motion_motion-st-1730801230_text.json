@@ -1,0 +1,74 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_motion_motion-st-1730801230_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Motion St. Thélin \"subvention pour l'achat d'un abonnement annuel de transports publics\"",
+    "source_title": "Motion St. Thélin \"subvention pour l'achat d'un abonnement annuel de transports publics\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Motion_St_1730801230.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "2844039836adc58b39392d64418ea275a7d560ad5adb3c65a13b9e62c5db311d",
+    "source_content_hash": "7f2d23f7ce902a6b51ddd0081bd1a60d12d56a80debd2e4ab263c4e8f32b4265",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "veytaux-motion-motion-st-1730801230",
+    "object_ids": [
+      "veytaux-motion-motion-st-1730801230"
+    ],
+    "object_title": "Motion St. Thélin \"subvention pour l'achat d'un abonnement annuel de transports publics\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-motion-motion-st-1730801230",
+    "political_object_ids": [
+      "veytaux-motion-motion-st-1730801230"
+    ],
+    "political_object_document_id": "veytaux_motion_motion-st-1730801230_text",
+    "political_object_document_ids": [
+      "veytaux_motion_motion-st-1730801230_text"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_motion_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2266,
+      "words_extracted": 347,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

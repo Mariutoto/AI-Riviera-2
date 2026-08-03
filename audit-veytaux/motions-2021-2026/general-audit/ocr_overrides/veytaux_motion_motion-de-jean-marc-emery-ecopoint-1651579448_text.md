@@ -1,0 +1,34 @@
+Motion déposée pour l'étude d'aménagement d'un ECO point sur la parcelle de l'ancien hangar à bois et place de lavage.
+
+9 juillet 2015.
+
+Voilà 7 ans que le hangar à bois a été détruit par un incendie. 7 ans que notre commune subit les stigmates de ce drame, cette place étant depuis inoccupée elle garde les souvenirs de cette nuit.
+
+La Municipalité a informé le Conseil Communal que l'idée de l'aménager en places de parc n'était pas envisageable.
+
+Il est temps d'imaginer une solution pour son aménagement et de lui apporter une fonction faisant oublier cette triste histoire.
+
+Il se trouve qu'à quelques mètres de cette parcelle l'ECO point aménagé se trouve être régulièrement débordé.
+
+Il se trouve aussi que la taxe de base d'évacuation des déchets prélevée annuellement est une taxe affectée destinée entre autres à des aménagements de récolte des déchets.
+
+La proposition contenue dans cette motion est l'aménagement d'un ECO point digne de ce nom, accueillant et fonctionnel.
+
+Je rappelle que la Commune à reçu une montant de 150'000.- en compensation de la destruction du bâtiment. Ce montant devrait être réinvesti dans cet aménagement. Ajouté à l'apport de la taxe de base, un bel aménagement semble possible.
+
+Une construction servant de ressourcerie pourrait être imaginée et construire par l'équipe des bucherons qui a déjà prouvé à maintes reprises sa capacité pour envisager de telles constructions. Ce travail pouvant alors rappeler l'affectation du bâtiment détruit
+
+Le croquis accompagnant la motion présente une possibilité d'aménagement.
+
+Il comprend également la possibilité d'inclure dans cette surface 3 voir 4 places de recharges publique pour véhicules électriques. Notre village n'en possède aucun et ces aménagements sont de plus en plus d'actualité.
+
+Concrètement, cette motion demande à la Municipalité de conduire une étude évaluant :
+
+La possibilité d'aménager un ECO point sur la parcelle de l'ancien hangar à bois
+La possibilité d'y creer au moins 3 places de recharge pour vehicules electriques
+D'etudier avec l'OFRO la possibilité d'un tel aménagement.
+D'etudier le financement d'un tel projet au moyen avec l'appui des taxes déchets et du fond reçu lors de l'incendie
+
+Je demande que cette motion soit renvoyée immédiatement à la Municipalité pour étude
+
+![img-0.jpeg](img-0.jpeg)

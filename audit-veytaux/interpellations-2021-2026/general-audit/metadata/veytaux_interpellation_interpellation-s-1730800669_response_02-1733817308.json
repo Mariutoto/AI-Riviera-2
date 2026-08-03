@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-s-1730800669_response_02-1733817308",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+    "source_title": "Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1733817308.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-12-02",
+    "language": "fr",
+    "content_hash": "d96cf15fe6f6f8d0ff4cb90c51c463b4e7b379d5557428685a048cf886d25a41",
+    "source_content_hash": "3088417954272dad0a97c3efc223ac6f79a13823f052e61214b8638f6b50f926",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-s-1730800669",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-s-1730800669"
+    ],
+    "object_title": "Interpellation S. Thélin \"Clos de Chillon, qu'est ce qui se cache derrière ce mur de vigne ?\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-s-1730800669",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-s-1730800669"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-s-1730800669_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-s-1730800669_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-s-1730800669_text"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-s-1730800669_response_02-1733817308"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_municipal_response_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1372,
+      "words_extracted": 223,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

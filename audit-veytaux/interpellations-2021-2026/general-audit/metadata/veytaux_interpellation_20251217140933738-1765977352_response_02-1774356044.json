@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+    "source_title": "Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/02_1774356044.pdf",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-16",
+    "language": "fr",
+    "content_hash": "fe3be82e16fb43c3438c737c707eb4c5f490732fc3a3e4c9e967cfeb0820146f",
+    "source_content_hash": "fb0f0d45c8d64fc262ddaf05bf45459a5bca7ef9274a446ca6773916aa83b433",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-20251217140933738-1765977352",
+    "object_ids": [
+      "veytaux-interpellation-20251217140933738-1765977352"
+    ],
+    "object_title": "Interpellation J.-F. Pétignat du 6 mai 2025, réactualisée au 8 décembre 2025",
+    "authors": [],
+    "deposit_date": "2025-12-08",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-20251217140933738-1765977352",
+    "political_object_ids": [
+      "veytaux-interpellation-20251217140933738-1765977352"
+    ],
+    "political_object_document_id": "veytaux_interpellation_20251217140933738-1765977352_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_20251217140933738-1765977352_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_20251217140933738-1765977352_text"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_20251217140933738-1765977352_response_02-1774356044"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_municipal_response_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 5216,
+      "words_extracted": 815,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

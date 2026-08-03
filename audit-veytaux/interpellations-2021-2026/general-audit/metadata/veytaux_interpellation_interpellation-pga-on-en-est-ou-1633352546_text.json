@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "PGA - on en est où ?",
+    "source_title": "PGA - on en est où ?",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_-_PGA__on_en_est_ou_1633352546.pdf",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-09-13",
+    "language": "fr",
+    "content_hash": "ac829c7e1d7e83b792fa180e36a4f91e763f4866f6fd8fddc8e9829f8a9ff1f7",
+    "source_content_hash": "de193c66b724ad9caf6757b03be03bb8ed7b107652a3bad7c048b6eb66b43e5b",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546"
+    ],
+    "object_title": "PGA - on en est où ?",
+    "authors": [],
+    "deposit_date": "2021-09-13",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-pga-on-en-est-ou-1633352546"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_response_03-1635852568"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-pga-on-en-est-ou-1633352546_response_03-1635852568"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1612,
+      "words_extracted": 254,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

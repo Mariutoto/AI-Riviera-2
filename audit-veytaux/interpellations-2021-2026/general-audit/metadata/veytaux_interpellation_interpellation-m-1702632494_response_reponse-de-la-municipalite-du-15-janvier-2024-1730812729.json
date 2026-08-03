@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-m-1702632494_response_reponse-de-la-municipalite-du-15-janvier-2024-1730812729",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+    "source_title": "Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Reponse_de_la_Municipalite_du_15_janvier_2024_1730812729.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-01-15",
+    "language": "fr",
+    "content_hash": "ba69aa1458773273ea5cb9311df9a90736b85b496ed2034fba40bd2beafbedfd",
+    "source_content_hash": "0d8ff8b255c9573ae3550bf46853be360a7717c022a5bfe69d8e99f07026d4a9",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-m-1702632494",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-m-1702632494"
+    ],
+    "object_title": "Interpellation relative à la position de la Municipalité sur la convention de fusion établie d'entente avec la Municipalité de Montreux",
+    "authors": [],
+    "deposit_date": "2023-12-11",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-m-1702632494",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-m-1702632494"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-m-1702632494_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-m-1702632494_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-m-1702632494_text"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-m-1702632494_response_reponse-de-la-municipalite-du-15-janvier-2024-1730812729"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_municipal_response_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 2775,
+      "words_extracted": 424,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

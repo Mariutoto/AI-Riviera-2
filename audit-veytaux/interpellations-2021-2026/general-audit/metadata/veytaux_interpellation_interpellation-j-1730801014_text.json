@@ -1,0 +1,78 @@
+{
+  "document_metadata": {
+    "document_id": "veytaux_interpellation_interpellation-j-1730801014_text",
+    "commune": "Veytaux",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+    "source_title": "Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+    "source_page_url": "https://veytaux.ch/motions-postulats-interpellations",
+    "file_url": "https://veytaux.ch/uploads/26c3b5aecb7be4adf973b0b883013a99/documents/Interpellation_J_1730801014.pdf",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-04",
+    "language": "fr",
+    "content_hash": "23d08be00b5a571d65199af9428212d1241ba5081e4f1bee5021777d4b256049",
+    "source_content_hash": "bc98edc3928fcf3a5b71e4076dc3b6589b6bbe5dbf7b1378b42e8fbe595c3df3",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "veytaux-interpellation-interpellation-j-1730801014",
+    "object_ids": [
+      "veytaux-interpellation-interpellation-j-1730801014"
+    ],
+    "object_title": "Interpellation J.-L. Puenzieux \"mise en œuvre des places publiques avec bornes de recharge pour véhicules électrique\"",
+    "authors": [],
+    "deposit_date": "2024-11-04",
+    "status_normalized": "unknown",
+    "status": "",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "veytaux-interpellation-interpellation-j-1730801014",
+    "political_object_ids": [
+      "veytaux-interpellation-interpellation-j-1730801014"
+    ],
+    "political_object_document_id": "veytaux_interpellation_interpellation-j-1730801014_text",
+    "political_object_document_ids": [
+      "veytaux_interpellation_interpellation-j-1730801014_text"
+    ],
+    "related_document_ids": [
+      "veytaux_interpellation_interpellation-j-1730801014_response_02-1741685124"
+    ],
+    "response_document_ids": [
+      "veytaux_interpellation_interpellation-j-1730801014_response_02-1741685124"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Veytaux",
+    "source_kind": "official_interpellation_text_pdf"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2137,
+      "words_extracted": 323,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

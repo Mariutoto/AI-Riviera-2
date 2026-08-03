@@ -1,0 +1,43 @@
+# Interpellation « Fusion Montreux-Veytaux : on en est où ? ».
+
+Monsieur le Président,
+
+Mesdames et messieurs les conseillères et conseillers,
+
+Le 25 novembre 2018, les veytausiennes et les veytausiens ont largement approuvé, par 213 voix contre 83 une initiative populaire communale demandant à la Municipalité de Veytaux d'approcher celle de Montreux pour préparer un projet de convention de fusion.
+
+C'était la première fois dans l'histoire du pays de Vaud que les citoyennes et citoyens d'une commune demandaient expressément à leurs autorités d'engager un processus de fusion avec une autre commune. Le message sorti des urnes était clair, il s'agissait même carrément d'un véritable plébiscite puisque près de 72% d'avis y étaient favorable, ce qui avait alors conforté la Syndique de Veytaux d'entamer sans tarder les discussions avec Montreux.
+
+C'était il y a bientôt 3 ans de cela.
+
+Depuis lors, un préavis déposé conjointement à fin 2019 dans les conseils communaux de Montreux et de Veytaux et accepté largement par les deux conseils prévoyait de mandater un bureau externe, dénommé BDO, pour accompagner les deux communes dans cette démarche avec un budget total de 80'000 CHF, soit 40'000 CHF à charge de la commune de Veytaux et 40'000 CHF à charge de la commune de Montreux.
+
+Le calendrier indiqué dans le préavis prévoyait que le projet de convention de fusion pourrait être remis au plus tard en décembre 2020, avec même dans la perspective la plus optimiste, l'éventualité d'une fusion effective au plus tard 6 mois après les élections de mars 2021, c'est-à-dire ce mois-ci.
+
+Une pandémie est passée par là, chamboulant quelque peu le calendrier. Néanmoins, plus de 20 mois se sont écoulés depuis les votes favorables des deux conseils communaux et le retard actuel de 6 à 9 mois pris par rapport au calendrier annoncé ne peut maintenant plus être mis entièrement sur le dos du covid. A ce jour, aucun livrable ou projet ou information tangible n'a été présentée devant l'un ou l'autre des deux conseils communaux de Montreux et de Veytaux.
+
+Cette situation dans laquelle notre village avance depuis bientôt 3 ans est source de discussion de tension et il serait bienvenu que la Municipalité aborde cette question en priorité et avec sagesse et diligence. Le nouveau Conseil élu lors des dernières élections s'est engagé dans ce sens, démontrant, si nécessaire, que la volonté des veytausiennes et des veytausiens d'engager le processus de fusion était demeurée intacte, voire s'était peut-être même encore accrue.
+
+La Municipalité de Veytaux mentionne dans ses communications vouloir organiser des "cafés participatifs
+
+Dans aucun préavis concernés, cette initiative n'est proposée. Il apparaît même évident qu'une telle organisation ne serait efficace que si un projet de convention serait mis à disposition.
+
+L'interpellation déposée ce soir demande à la Municipalité de répondre aux questions suivantes :
+
+- Question 1 : Où en est le mandataire BDO dans son étude ?
+- Question 2 : Quand est-ce que le ou les livrables seront disponibles et sous quelle forme seront-ils transmis aux conseillers communaux ?
+- Question 3 : La Municipalité, conjointement avec la Municipalité de Veytaux, peut-elle renseigner le conseil communal sur un calendrier réaliste de l'ensemble des actions à entreprendre et des principaux jalons menant au vote populaire des citoyennes et citoyens des deux communes ?
+- Question 4 : Dans la poursuite du processus de fusion, est-ce que la municipalité à l'intention d'élargir les groupes de travail également à des Conseillères et Conseillers Communaux des deux Communes ?
+- Question 5 : Est-ce que la Municipalité, ayant entendu M. Curchod, délégué du Conseil d'Etat aux fusions de Communes, à l'intention de le joindre au groupe de travail
+
+D'avance je remercie la Municipalité pour ses réponses par écrit lors du prochain conseil.
+
+Je vous informe qu'une interpellation très similaire a été déposée lors du Conseil Communal de Montreux lors de la séance du 08 septembre 2021.
+
+Je vous informe également qu'en fonction des réponses apportées, votre serviteur ainsi que son double montreusien se réservent le droit de proposer lors du prochain conseil une résolution afin que les conseils communaux soutiennent leurs Municipalité dans l'avancement du processus de fusion afin de permettre la tenue des votes populaires à l'horizon 2024.
+
+Veytaux le 13 septembre 2021
+
+Interpellation soutenue par :
+
+S. Thélie

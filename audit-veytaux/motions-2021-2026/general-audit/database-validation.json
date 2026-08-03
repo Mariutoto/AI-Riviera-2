@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 9,
+    "originals": 6,
+    "responses": 3,
+    "resolutions": 0,
+    "chunks": 21,
+    "vectors": 21,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 6,
+    "objects_with_response": 3,
+    "objects_without_response": 3,
+    "broken_relationship_links": 0
+  },
+  "retrieval": [
+    {
+      "query": "subvention pour la pratique d'une activité sportive des enfants",
+      "expected_prefix": "veytaux_motion_motion-g-1730801217_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874",
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874",
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874",
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874",
+        "veytaux_motion_motion-g-1730801217_response_04-1750162874"
+      ]
+    },
+    {
+      "query": "règlement participation soins dentaires et orthodontiques",
+      "expected_prefix": "veytaux_motion_motion-m-1730801205_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854",
+        "veytaux_motion_motion-m-1730801205_response_03-1750162854"
+      ]
+    },
+    {
+      "query": "ECO point ancien hangar à bois place de lavage",
+      "expected_prefix": "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_",
+      "matched": true,
+      "top_document_ids": [
+        "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_text",
+        "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192",
+        "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192",
+        "veytaux_motion_motion-de-jean-marc-emery-ecopoint-1651579448_response_04-1683556192",
+        "veytaux_motion_motion-j-1730801181_text"
+      ]
+    }
+  ],
+  "failures": []
+}

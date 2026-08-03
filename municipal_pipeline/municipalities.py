@@ -98,8 +98,11 @@ JONGNY = Municipality(
 VEYTAUX = Municipality(
     key="veytaux",
     label="Veytaux",
-    source_domain="",
+    source_domain="veytaux.ch",
     documents_directory="veytaux",
+    search_enabled=True,
+    search_scope="interpellations et motions",
+    document_types=("interpellations", "motions"),
 )
 
 VILLENEUVE = Municipality(

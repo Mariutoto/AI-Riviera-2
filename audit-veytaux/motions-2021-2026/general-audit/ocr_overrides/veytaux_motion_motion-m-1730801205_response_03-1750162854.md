@@ -1,0 +1,243 @@
+# PRÉAVIS No 07/2025
+
+PRESENTE PAR LA MUNICIPALITE
+
+AU CONSEIL COMMUNAL DANS SA SEANCE
+
+DU LUNDI 16 JUIN 2025
+
+relatif au
+
+# Règlement concernant la participation aux soins dentaires
+et orthodontiques
+(réalignement dentaire)
+
+Date de la commission : lundi 18 août 2025 à 18h00
+
+Salle du Conseil communal – Rue du They 1
+
+
+
+Monsieur le Président,
+Mesdames et Messieurs les Conseillers,
+
+## 1. OBJET DU PREAVIS
+
+Par le présent préavis, la Municipalité de Veytaux soumet à l'approbation du Conseil communal le Règlement concernant la participation aux soins dentaires et orthodontiques (réalignement dentaire). Cette réglementation fait suite au dépôt d'une motion par Mme M. Blagojevic, Conseillère communale, lors de la séance du Conseil communal du 4 novembre 2024. Cette motion demande à la Municipalité d'étudier la possibilité d'établir un Règlement communal sur l'octroi de subventions pour les soins dentaires des enfants.
+
+Dans le cadre de son analyse, la Municipalité a examiné les pratiques d'autres communes vaudoises qui ont mis en place des mécanismes similaires.
+
+## 2. CONSIDERATIONS GENERALES
+
+La santé bucco-dentaire constitue un facteur clé du bien-être général, en particulier pour les enfants. Le coût de certains traitements dentaires ou orthodontiques dépasse souvent la capacité contributive de certaines familles.
+
+Déjà en possession d'un règlement concernant les frais orthodontiques et dans une optique d'équité et d'égalité d'accès aux soins, la Municipalité estime justifié d'élargir ce Règlement communal à l'octroi de subventions pour les traitements dentaires.
+
+## 3. PROPOSITION DE REGLEMENT
+
+La Municipalité propose un règlement adapté aux spécificités de Veytaux. Le règlement prévoit notamment :
+
+- Les conditions d'éligibilité
+- Une subvention possible pour les traitements reconnus médicalement nécessaires
+- L'évaluation de la demande sur critères sociaux (revenu, situation familiale)
+- Les conditions d'octroi
+- Un barème d'octroi
+
+## 4. CONSEQUENCES FINANCIERES ET BUDGETAIRES
+
+À ce jour, aucune demande spécifique n'ayant été formulée, il n'est pas encore possible de mesurer l'impact financier exact.
+
+Toutefois, un montant provisoire de CHF 10'000.- sera inscrit au budget de 2026, et pourra être ajusté dans les années suivantes en fonction des demandes à venir.
+
+## 5. CONCLUSION
+
+En conclusion, nous vous prions, Monsieur le Président, Mesdames et Messieurs les Conseillers, de bien vouloir prendre les décisions suivantes :
+
+## LE CONSEIL COMMUNAL DE VEYTAUX
+
+**vu** le préavis No 07/2025 de la Municipalité du 26 mai 2025 relatif au Règlement concernant la participation aux soins dentaires et orthodontiques (réalignement dentaire),
+
+**ouï** le rapport de la commission nommée pour l'examen de cette affaire,
+
+considérant que cet objet a été porté à l'ordre du jour
+
+### **décide**
+
+1. d'adopter le Règlement concernant la participation aux soins dentaires et orthodontiques (réalignement dentaire) ;
+2. de fixer son entrée en vigueur dès son approbation par le Chef du Département de l'enseignement et de la formation professionnelle ;
+3. de considérer que la Municipalité a répondu à la motion de Madame Marina Blagojevic, Conseillère communale, déposée au Conseil communal dans sa séance du 4 novembre 2024.
+
+Ainsi adopté par la Municipalité le 26 mai 2025.
+
+AU NOM DE LA MUNICIPALITE
+
+La Syndique :
+
+C. Chevalley
+
+![img-0.jpeg](img-0.jpeg)
+
+La Secrétaire adjointe
+
+L. Dupertuis
+
+#### Annexes :
+
+Règlement concernant la participation aux soins dentaires et orthodontiques (réalignement dentaire)
+
+Copie de la motion de Mme Marina Blagojevic
+
+Déléguée municipale : Mme C. Chevalley, Syndique
+
+# Commune de Veytaux
+
+![img-1.jpeg](img-1.jpeg)
+
+Règlement concernant la participation aux soins dentaires et orthodontiques (réalignement dentaire)
+
+2025
+
+
+
+* Dans ce document, la forme masculine désigne, lorsqu'il y a lieu, aussi bien les femmes que les hommes. L'emploi du masculin a pour but de faciliter la lecture du texte.
+
+Article premier
+
+# CHAMP D'APPLICATION
+
+Le présent règlement fixe les conditions et les modalités d'octroi de subventions relatives aux frais des soins dentaires ou de traitement orthodontique par la commune.
+
+Article 2
+
+# AYANTS DROIT
+
+Les parents domiciliés à VEYTAUX depuis un an au moins et dont les enfants, en âge de scolarité obligatoire, doivent subir un traitement orthodontique (malposition dentaire) ou des soins dentaires, peuvent bénéficier d'un subside communal.
+
+Article 3
+
+# CONDITIONS
+
+Les conditions préalables au traitement sont :
+
+- De bons résultats prévisibles
+- Une denture ne présentant pas un nombre exagéré de caries
+- Une excellente hygiène dentaire
+- Une collaboration active du patient et des parents
+- Un traitement non pris en charge par un autre organisme
+
+Ce traitement, peut-être suite à un rendez-vous spontané ou recommandé par les dentistes mandatés par l'établissement scolaire pour le dépistage dans les écoles, doit être assuré par un dentiste/spécialiste de l'orthodontie de la Société suisse d'odontostomatologie (SSO) au bénéfice d'une autorisation de pratiquer dans le Canton de Vaud.
+
+La Municipalité ne prend en considération que les frais relatifs aux soins dentaires et aux malpositions dentaires traités par le spécialiste décrit ci-dessus (à l'exclusion de toute autre intervention). Ceux-ci doivent correspondre au tarif pour soins dentaires scolaires de la SSO et les devis seront soumis au médecin-dentiste conseil cantonal.
+
+Article 4
+
+# PARTICIPATION COMMUNALE
+
+La prise en charge par la commune d'une partie des frais de traitements orthodontiques sera déterminée selon le barème suivant (élément de la taxation fiscale : revenu annuel déterminant pour le taux, auquel s'ajoute 5 % de la fortune excédant Fr. 50'000.00).
+
+## BAREME
+
+[tbl-0.md](tbl-0.md)
+
+La Municipalité peut, en tout temps, modifier les éléments ci-dessus.
+
+Selon les circonstances, il sera tenu compte de la situation économique réelle et sur la facture présentée après d'éventuelles autres subventions. La Municipalité de Veytaux se réserve la possibilité de déroger à la tabelle pour des cas spéciaux (par exemple : optimisation fiscale).
+
+La participation financière de la Commune de Veytaux sera calculée sur la base d'un devis au début du traitement et le pourcentage pris en charge sera communiqué aux parents et au médecin dentiste ou orthodontiste traitant.
+
+Cette participation sera versée, sous réserve du respect des conditions d'octroi, après réalisation des vérifications nécessaires par la commune, sur présentation des factures acquittées et de la transmission des coordonnées bancaires complètes permettant le versement de la subvention.
+
+Si le requérant bénéficie d'une prise en charge partielle ou totale des frais de traitement orthodontique par l'assurance invalidité fédérale, par une assurance maladie ou toute autre institution publique ou privée, **il devra en informer immédiatement le Greffe municipal de Veytaux, sous peine de remboursement du montant avec effet rétroactif, majoré d'une sanction.**
+
+Dans tous les cas, le subside communal sera calculé selon le barème du présent règlement, il ne pourra excéder le montant laissé définitivement à la charge de l'assuré après l'intervention des institutions ci-dessus mentionnées.
+
+En cas de départ de la Commune de Veytaux en cours de traitement, la participation communale cesse au moment du changement de domicile.
+
+### Article 5
+
+## PROCEDURE
+
+Les parents intéressés ou le représentant légal de l'enfant seront informés de leur droit par le Service dentaire scolaire ou les dentistes mandatés par l'établissement scolaire pour le dépistage dans les écoles, qui leur remettront un exemplaire du présent règlement, ainsi qu'une formule de demande. Le Greffe municipal est à même également de renseigner et de remettre la documentation précitée.
+
+Dans tous les cas, il appartient aux parents ou au représentant légal de l'enfant de faire valoir eux-mêmes leur droit en la matière.
+
+En ce qui concerne les enfants adoptés ou en voie d'adoption, c'est le revenu des parents ou futurs parents adoptifs qui sera pris en considération. Les ayants droit présenteront leur demande au Greffe municipal **avant le début du traitement**. Si une demande est présentée après le début du traitement, le subside communal ne prendra effet qu'au premier mois durant lequel la demande aura été déposée. Il n'y a pas d'effet rétroactif.
+
+Une décision écrite avec moyen de droit sera notifiée.
+
+Article 6
+
+# AUTORITE DE RECOURS
+
+La Municipalité fonctionne comme autorité de recours pour ce qui concerne la participation financière de la commune. Ses décisions sont sans appel.
+
+Article 7
+
+# FINANCEMENT
+
+Chaque année, la somme nécessaire à l'application du présent règlement est prévue au budget du service concerné, lequel est soumis à l'approbation du Conseil communal.
+
+Article 8
+
+# APPLICATION
+
+Le Greffe est chargé d'appliquer le présent règlement avec la collaboration des dentistes mandatés par l'établissement scolaire pour le dépistage dans les écoles et le Service dentaire scolaire.
+
+Adopté par la Municipalité, dans sa séance du 26 mai 2025.
+
+AU NOM DE LA MUNICIPALITE
+
+La Syndique :
+
+C. Chevalley
+
+![img-2.jpeg](img-2.jpeg)
+
+La Secrétaire adjointe :
+
+L. Dupertuis
+
+Ainsi adopté par le Conseil communal dans sa séance du
+
+Le/la Président-e :
+
+Le/la Secrétaire :
+
+Approuvé par le Département compétent
+
+Le Chef du Département de l'enseignement et de la formation professionnelle :
+
+![img-3.jpeg](img-3.jpeg)
+
+Motion
+
+OBJET : Établissement d'un règlement communal sur l'octroi de subventions pour les soins dentaires des enfants
+
+PRESENTEE PAR Marina Blagojevic
+
+DATE 04 novembre 2024
+
+Monsieur le Président, Madame la Syndique, Messieurs les Municipaux, Chères et Chers collègues,
+
+Considérant l'importance de la santé dentaire dans le développement et le bien-être des enfants, et les répercussions à long terme d'une mauvaise hygiène bucco-dentaire ; et considérant que ces soins peuvent être négligés en raison de leur cout, nous jugeons urgent et indispensable d'introduire un règlement permettant une subvention des soins dentaires et orthodontiques des enfants en âge de scolarité et d'apprentissage.
+
+Si un formulaire de demande est disponible sur le site de la Commune, il ne semble pas qu'un règlement conforme et accepté par le Conseil Communal ne règle les formalités d'octroi de ces subventions. Ce règlement permettra de légaliser l'octroi de la subvention proposée actuellement.
+
+Le règlement que souhaite étudier le Conseil Communal devrait se baser sur le modèle de subventions pour les soins dentaires des enfants déjà en vigueur dans la commune voisine de Montreux.
+
+La nécessité pour notre commune, dont les finances le permettent, est de mettre en place un cadre clair et pérenne régissant l'attribution de ces aides ;
+
+Le Conseil communal de Veytaux, par la présente motion, invite la Municipalité à :
+
+1. Elaborer un règlement communal concernant l'octroi de subventions pour les soins dentaires des enfants domiciliés à Veytaux, basé sur le modele déjà en place à Montreux.
+2. Preciser les critères d'éligibilité des enfants aux subventions, qui pourront inclure l'âge, le domicile, et la fréquentation scolaire dans la commune, tout en tenant compte des ressources financières des familles.
+3. Assurer une couverture financière adaptée, en fixant les montants des subventions selon une échelle progressive en fonction des revenus des familles, mais au minimum égales aux subventions octroyées par la commune de Montreux.
+4. Promouvoir la sensibilisation et la prévention, afin de renforcer l'information sur l'importance de la santé dentaire des le plus jeune âge et d'encourager les familles à bénéficier des subventions.
+
+Conclusion :
+
+Nous prions donc la Municipalité de prendre les mesures nécessaires pour répondre à cette motion et soumettre un projet de règlement dans les meilleurs délais.
+
+![img-4.jpeg](img-4.jpeg)
+
+1

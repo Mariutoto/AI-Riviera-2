@@ -1,0 +1,358 @@
+# PRÉAVIS No 08/2025
+
+PRESENTE PAR LA MUNICIPALITE
+AU CONSEIL COMMUNAL DANS SA SEANCE
+DU LUNDI 16 JUIN 2025
+
+relatif au
+
+**Règlement concernant le subventionnement
+d'une activité sportive**
+
+Date de la commission : lundi 18 août 2025 à 19h00
+Salle du Conseil communal – Rue du They 1
+
+
+
+Monsieur le Président,
+Mesdames et Messieurs les Conseillers,
+
+# 1. OBJET DU PREAVIS
+
+Par le présent préavis, la Municipalité de Veytaux soumet à l'approbation du Conseil communal le Règlement concernant le subventionnement d'une activité sportive. Cette règlementation fait suite au dépôt d'une motion par M. Guy Taroni, Conseiller communal, lors de la séance du Conseil communal du 4 novembre 2024. Cette motion demande à la Municipalité de mettre en place une subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation.
+
+Dans le cadre de son analyse, la Municipalité a examiné les pratiques d'autres communes vaudoises qui ont mis en place des mécanismes similaires.
+
+Il est précisé que la Municipalité apporte, déjà actuellement, un soutien aux sociétés locales en leur mettant à disposition gratuitement les salles communales, sous-réserve des disponibilités de ces dernières.
+
+# 2. CONSIDERATIONS GENERALES
+
+Reconnaissant l'activité physique et sportive comme bénéfique, la Municipalité propose l'adoption d'un Règlement encadrant le subventionnement des activités sportives.
+
+# 3. PROPOSITION DE REGLEMENT
+
+La Municipalité propose un règlement adapté aux spécificités de Veytaux. Le règlement prévoit notamment :
+
+Article 1: Champ d'application
+Article 2: Bénéficiaires potentiels
+Article 3: Participation financière de la commune
+Article 4: Limites des subsides
+Article 5: Demande
+Article 6: Autorité de recours
+Article 7: Financement
+Article 8: Application
+
+Ce règlement vise à soutenir financièrement les activités sportives régulières des enfants et des jeunes domiciliés dans la commune depuis au moins un an, en complément des aides cantonales existantes.
+
+# 4. CONSEQUENCES FINANCIERES ET BUDGETAIRES
+
+À ce jour, aucune demande spécifique n'ayant été formulée, il n'est pas encore possible de mesurer l'impact financier exact.
+
+Toutefois, un montant provisoire de CHF 10'000.- sera inscrit au budget de 2026, et pourra être ajusté dans les années suivantes en fonction des demandes à venir.
+
+## 5. CONCLUSION
+
+En conclusion, nous vous prions, Monsieur le Président, Mesdames et Messieurs les Conseillers, de bien vouloir prendre les décisions suivantes :
+
+# LE CONSEIL COMMUNAL DE VEYTAUX
+
+**vu** le préavis No 08/2025 de la Municipalité du 26 mai 2025 relatif au Règlement concernant le subventionnement d'une activité sportive,
+
+**ouï** le rapport de la commission nommée pour l'examen de cette affaire,
+
+considérant que cet objet a été porté à l'ordre du jour
+
+# d é c i d e
+
+1. d'adopter le Règlement concernant le subventionnement d'une activité sportive ;
+2. de fixer son entrée en vigueur dès son approbation par le Chef du Département de l'enseignement et de la formation professionnelle ;
+3. de considérer que la Municipalité a répondu à la motion de Monsieur Guy Taroni, Conseiller communal, déposée au Conseil communal dans sa séance du 4 novembre 2024.
+
+Ainsi adopté par la Municipalité le 26 mai 2025.
+
+AU NOM DE LA MUNICIPALITE
+
+La Syndique :
+
+C. Chevalley
+
+![img-0.jpeg](img-0.jpeg)
+
+La Secrétaire adjointe
+
+L. Dupertuis
+
+# Annexes :
+
+- Règlement concernant le subventionnement d'une activité sportive
+- Copie de la motion de M. Guy Taroni
+
+Déléguée municipale : Mme C. Chevalley, Syndique
+
+# Commune de Veytaux
+
+![img-1.jpeg](img-1.jpeg)
+
+Règlement concernant le subventionnement d'une activité sportive
+
+2025
+
+
+
+* Dans ce document, la forme masculine désigne, lorsqu'il y a lieu, aussi bien les femmes que les hommes. L'emploi du masculin a pour but de faciliter la lecture du texte.
+
+## PREAMBULE
+
+Reconnaissant les bienfaits de la pratique d'une activité sportive et le contexte financier parfois difficile auquel les parents doivent faire face, en particulier les ménages aux revenus modestes, la Commune de Veytaux a décidé de soutenir la pratique d'une activité sportive par les enfants et les jeunes en formation, dans les limites d'âge admises par Jeunesse et Sport (J+S)$^{1}$.
+
+### Article premier CHAMP D'APPLICATION
+
+Le présent règlement fixe les conditions de possibilité d'octroi de subventions communales pour la pratique d'une activité sportive suivie par les enfants et les jeunes en formation, dans les limites d'âge admises par J+S.
+
+### Article 2 BENEFICIAIRES POTENTIELS
+
+La Municipalité décide de faire bénéficier d'un subside les parents domiciliés sur le territoire communal depuis un an au moins et dont les enfants, dont l'âge est compris dans les limites admises par J+S, pratiquent une activité sportive régulière au sein de l'une des associations sportives reconnues par la Commune ou par le Fonds intercommunal de soutien aux sociétés s'occupant de la formation des jeunes (liste annexée au présent règlement).
+
+En cas de départ de la Commune, la subvention cesse immédiatement, même si l'enfant continue la pratique de l'activité sportive.
+
+Une attestation de l'association sportive devra être remise, au début de chaque année, au Greffe Municipal, en précisant la discipline pratiquée et le coût annuel de la cotisation. Pour les jeunes en formation, une attestation d'apprentissage ou d'études devra également être remise.
+
+### Article 3 PARTICIPATION FINANCIERE DE LA COMMUNE
+
+La prise en charge par la commune d'une partie des frais de la pratique de l'activité sportive sera déterminée selon le barème admis par la Municipalité, sur la base du revenu brut mensuel des parents au moment du dépôt de la demande.
+
+Les limites de revenu total des parents prises en compte pour le dépôt d'une demande sont les suivantes :
+
+[tbl-0.md](tbl-0.md)
+
+La part de subvention est fixée en fonction du barème annexé au présent règlement.
+Le montant total alloué annuellement par bénéficiaire est plafonné à CHF 400.-.
+
+La Municipalité de Veytaux se réserve la possibilité de déroger à la tabelle pour des cas spéciaux (camps sportifs, sportifs d'élite, matériel, ...) ainsi qu'une analyse au cas par cas.
+
+Une participation d'au moins CHF 50.- par discipline sportive, par enfant et par année sera laissée à la charge des parents ou du représentant légal.
+
+Les normes ci-dessus peuvent être modifiées en tout temps par la Municipalité.
+
+En cas d'acceptation de la demande de subvention, la participation financière de la Commune sera versée aux parents ou au représentant légal sur présentation de la (des) facture(s), dûment acquittée(s), de la cotisation annuelle de membre auprès de l'une des associations sportives mentionnées à l'article 2, de la licence prise auprès d'une fédération sportive nationale ou d'une association sportive cantonale.
+
+### Article 4 LIMITES DES SUBSIDES
+
+En aucun cas les frais d'une licence ne pourront être subventionnés si le montant de cette dernière est déjà inclus dans la cotisation annuelle de l'association sportive ou si elle est payée par l'association sportive.
+
+### Article 5 DEMANDE
+
+Les parents intéressés ou le représentant légal de l'enfant seront informés de la possibilité de bénéficier d'un soutien de la Commune par l'association sportive qui leur remettra un exemplaire du présent règlement, ainsi que la formule de demande. La Commune est à même également de renseigner et de remettre la documentation précitée.
+
+Dans tous les cas il appartient aux parents ou au représentant légal de l'enfant de faire les démarches relatives à la demande d'une subvention communale.
+
+Les personnes souhaitant demander une subvention pour soutenir la pratique d'une activité sportive déposeront leur demande au Greffe municipal dans les trois mois suivant l'établissement de la facture par le club ou l'association sportive en joignant copies des décomptes de revenus de l'entier du ménage des trois derniers mois.
+
+## Article 6 AUTORITE DE RECOURS
+
+La Municipalité fonctionne comme autorité de recours uniquement pour ce qui concerne la participation financière de la Commune.
+
+## Article 7 FINANCEMENT
+
+Les moyens financiers nécessaires à l'application du présent règlement sont portés annuellement au budget de la Commune, sous réserve de son approbation.
+
+## Article 8 APPLICATION
+
+La Municipalité charge le Greffe municipal d'appliquer le présent règlement.
+
+Le présent règlement municipal entre en vigueur dès son approbation par le Chef du Département de l'enseignement et de la formation professionnelle et abroge toute autre disposition antérieure sur le même objet.
+
+Ainsi adopté en séance de Municipalité du 26 mai 2025.
+
+Au nom de la Municipalité
+La Syndique : La secrétaire adjointe :
+
+C. Chevalley
+
+Ainsi adopté par le Conseil communal dans sa séance du
+
+Le/la Président-e :
+
+Le/la Secrétaire :
+
+Approuvé par le Département compétent
+
+Le Chef du Département de l'enseignement et de la formation professionnelle :
+
+Annexes : - Barème de subventionnement
+- Liste des sports bénéficiaires reconnus
+
+Barème des subsides à la pratique d'une activité sportive accordés à la demande des parents
+
+[tbl-1.md](tbl-1.md)
+
+[tbl-2.md](tbl-2.md)
+
+# FONDS INTERCOMMUNAL DE SOUTIEN AUX SOCIETES SPORTIVES S'OCCUPANT DE LA FORMATION DES JEUNES LISTE DES SPORTS BENEFICIAIRES DU FONDS
+
+DISCIPLINES SPORTIVES RECONNUES J+S
+
+* = DISCIPLINES SUBVENTIONNEES PAR LE FONDS JUSQU'A CE JOUR
+
+Groupe d'utilisateurs 1
+
+* Athlétisme
+* Badminton
+
+Balle à la corbeille Balle au poing Baseball / Softball
+
+* Basketball
+* Course d'orientation Curling
+* Cyclisme
+
+- BMX
+- Cycle-balle
+- Cyclisme artistique
+- Cyclisme sur piste
+- Cyclisme sur route
+- Cyclo-cross
+- Trial
+- VTT
+
+* Danse sportive
+* Escrime
+* Football
+* Gymnastique
+
+- Gymnastique artistique
+- Gymnastique aux agrès
+- Gymnastique et danse
+- Gymnastique rythmique
+
+* Handball
+* Hockey sur gazon
+* Hockey sur glace
+* Jeux nationaux
+* Judo
+* Ju-Jitsu
+* Karaté
+* Lutte
+* Lutte Suisse
+* Patinage sur glace
+
+- Danse sur glace
+- Patinage artistique
+- Patinage synchronisé
+- Patinage de vitesse
+- Short Track
+
+Rhönrad
+
+* Rock'n'Roll
+* Rugby
+* Sports aquatiques
+
+- Natation
+- Natation de sauvetage
+- Natation synchronisée
+- Plongée libre
+- Plongeon
+- Water-polo
+
+* Sports équestres
+
+- Équitation
+- Voltige
+
+* Sports sur roulettes
+
+- Hockey inline
+- Patinage artistique
+- Patinage de vitesse
+- Rink-hockey
+
+Squash Street-hockey Tchoukball
+
+* Tennis
+* Tennis de table
+* Tir à l'arc Trampoline
+* Triathlon
+* Unihockey
+* Volleyball
+
+Groupe d'utilisateurs 2
+
+* Aviron Canoë-kayak
+
+- Eaux vives
+- Régate
+
+* Planche à voile
+* Sports de montage
+
+- Alpinisme
+- Escalade sportive
+- Excursion à ski
+
+* Sports de neige
+
+- Saut à ski
+- Snowboard
+- Ski
+- Ski de fond
+
+* Voile
+
+Groupe d'utilisateurs 3
+
+* Sport de camp / Trekking
+* Scoutisme
+
+Groupe d'utilisateurs 6
+
+Golf Hornuss
+
+* Tir sportif
+
+DISCIPLINES SPORTIVES NON RECONNUES J+S
+
+MAIS SUBVENTIONNEES PAR LE FONDS
+
+* Aikido
+* Boxe
+* Capoeira
+* Cirque
+* Football américain
+* Foot-tennis
+* Kick-boxing
+* Pétanque
+* Spéléologie
+* Ski nautique
+* Taekwondo
+* Vol libre
+* Vovinam Viet Vo Dao
+* Yoseikan Budo
+
+Motion
+
+OBJET : Subvention pour la pratique d'une activité sportive des enfants en âge de scolarité ou en formation.
+
+PRESENTEE PAR Guy Taroni
+
+DATE 04 novembre 2024
+
+Monsieur le Président, Madame la Syndique, Messieurs les Municipaux, Chères et Chers collègues,
+
+Reconnaissant les bienfaits de la pratique d'une activité sportive et le contexte financier parfois difficile auquel les parents doivent faire face, en particulier les ménages aux revenus modestes, notre commune se doit de soutenir la pratique d'une activité sportive pour les enfants et les jeunes en formation, dans les limites d'âge admises par Jeunesse et Sport (J+S).
+
+Destinée à aider les personnes concernées à financer les cotisations annuelles, respectivement frais d'inscriptions ou aide à l'achat du matériel ou équipement de base nécessaire à la pratique de l'activité sportive, cette subvention devrait être octroyée sur des bases de revenus admis par le règlement.
+
+Proposition :
+
+Le Conseil communal de Veytaux, conformément aux dispositions de la loi sur les communes, dépose la présente motion, demandant à la Municipalité de :
+
+1. Élaborer et soumettre à l'approbation du Conseil communal un règlement municipal destiné à octroyer une subvention aux familles à revenu modestes à fin d'inscription et/ou acquisition de matériel ou d'équipement nécessaires à la pratique de l'activité.
+2. D'élaborer ce règlement en alignant les prestations destinées aux familles veytausiennes sur celles équivalentes offertes par la Commune de Montreux.
+3. D'établir une liste des sociétés sportives concernées par cette subvention.
+4. Déterminer les conditions et modalités d'octroi de la subvention, notamment la preuve de domicile, la procédure de demande et les conditions d'attribution.
+
+Conclusion :
+
+Nous prions donc la Municipalité de prendre les mesures nécessaires pour répondre à cette motion et soumettre un projet de règlement dans les meilleurs délais.
+
+![img-2.jpeg](img-2.jpeg)

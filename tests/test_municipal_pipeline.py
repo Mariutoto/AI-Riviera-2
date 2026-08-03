@@ -7,6 +7,7 @@ from municipal_pipeline.municipalities import (
     LA_TOUR_DE_PEILZ,
     MONTREUX,
     VEVEY,
+    VEYTAUX,
     get_municipality,
 )
 from municipal_pipeline.preindex_audit import audit_preindex
@@ -55,6 +56,12 @@ class MunicipalityRegistryTests(unittest.TestCase):
         self.assertEqual(
             BLONAY_SAINT_LEGIER.source_domain, "www.blonay-saint-legier.ch"
         )
+        self.assertTrue(VEYTAUX.search_enabled)
+        self.assertEqual(VEYTAUX.search_scope, "interpellations et motions")
+        self.assertEqual(
+            VEYTAUX.document_types, ("interpellations", "motions")
+        )
+        self.assertEqual(VEYTAUX.source_domain, "veytaux.ch")
         self.assertEqual(get_municipality("vevey"), VEVEY)
 
     def test_unknown_city_is_rejected(self):

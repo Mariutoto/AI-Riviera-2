@@ -1,0 +1,23 @@
+INTERPELLATION de Jean-François Petignat, séance du Conseil Communal du 4 novembre 2024
+
+« Pour un accès facilité aux subventions communales et une information mieux diffusée sur l’octroi des subventions »
+
+Monsieur le Président,
+
+Mesdames et messieurs les conseillères et conseillers,
+
+Dans le cadre de la transparence et de l’accès aux services communaux, il est essentiel que les citoyens puissent facilement trouver les informations dont ils ont besoin, notamment celles concernant les subventions offertes par la commune.
+
+Actuellement, les liens et informations sur les subventions octroyées ne sont pas suffisamment mis en avant sur le site officiel de la commune, ce qui rend leur accès peu aisé pour les utilisateurs.
+
+Afin d’améliorer la visibilité et l’accessibilité de ces informations cruciales, nous demandons à la Municipalité de :
+
+1. Mettre en place un lien clair et bien visible sur la page d’accueil du site officiel de la commune, redirigeant directement les utilisateurs vers la page consacrée aux subventions octroyées (par exemple pour les soins dentaires, les activités culturelles, l’aide au développement durable etc.).
+2. Simplifier la navigation sur le site afin que les citoyens puissent facilement accéder aux formulaires de demande et aux informations détaillées concernant les subventions disponibles, les critères d’éligibilité, et les modalités de demande.
+3. Informer régulièrement la population de la mise à jour de ces informations, notamment via les canaux de communication habituels de la commune (bulletins municipaux, affichages publics, etc.).
+
+Nous sommes convaincus que cette initiative facilitera l’accès aux subventions pour l’ensemble des citoyens
+
+Interpellation soutenue par :
+
+A handwritten signature in blue ink, written in a cursive style. The signature appears to read 'A. Petignat' (A. P. Petignat), 'S. Thélien', and 'C. Caillo' (C. Caillo). The signature is stylized and fluid, with the first name 'A. Petignat' and the last name 'S. Thélien' clearly legible.

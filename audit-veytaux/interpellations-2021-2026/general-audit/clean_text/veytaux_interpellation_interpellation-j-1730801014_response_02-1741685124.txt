@@ -1,0 +1,28 @@
+# Réponse à l'interpellation de M. Jean-Luc Puenzieux, Conseiller communal, déposée dans la séance du Conseil communal du 4 novembre 2024
+
+Monsieur le Président,
+Mesdames, Messieurs les Conseillères et Conseillers communaux,
+
+Vous trouverez ci-après les réponses aux 3 questions de l'interpellation reçue de Monsieur le Conseiller communal Jean-Luc Puenzieux :
+
+1. La Municipalité pense-t-elle étudier rapidement la possibilité d'installer plusieurs places de parc publiques avec bornes de recharges pour véhicules électriques sur le territoire de Veytaux, en incluant la zone de Grandchamp ?
+
+Au vu du nombre de places de parc disponibles dans le village et l'usage qui en est fait, la Municipalité n'a pas, à moyen terme, de volonté d'installer des bornes de recharge.
+
+2. La Municipalité pourrait-elle étudier la possibilité d'intégrer le financement de ces installations par le biais du fonds de réserve dédié à la création de places de parc ?
+
+Si la Municipalité avait eu la volonté d'installer des bornes de recharge à moyen terme, elle aurait pu utiliser le fonds en question pour financer une partie de ces aménagements.
+
+3. Quelles modifications seraient nécessaires au règlement sur le stationnement pour permettre l'utilisation des places publiques avec bornes de recharge, et ce durant les heures de stationnement autorisées, sans prescription supplémentaire ni restriction particulière ?
+
+A priori, aucune modification du règlement sur le stationnement ne serait envisagée. Cependant un règlement particulier, indiquant les formalités de recharge, aurait dû être mis en place.
+
+Adopté par la Municipalité dans sa séance du 10 février 2025
+
+AU NOM DE LA MUNICIPALITE
+
+La Syndique :
+
+C. Chevalley
+
+V. Ramadani
