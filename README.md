@@ -87,6 +87,14 @@ En cloud, les secrets peuvent être fournis comme variables d'environnement ou d
 - `POSTGRES_V2_URL`: URL du Postgres/pgvector qui contient les documents indexés.
 - `LLM_PROVIDER`, `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: fournisseur LLM pour la synthèse.
 - `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `CONTACT_RECIPIENT`: formulaire de contact.
+- `GA_MEASUREMENT_ID`, `GOOGLE_SITE_VERIFICATION`: voir « Analytics et Search Console » ci-dessous.
+
+## Analytics et Search Console
+
+Streamlit ne permet pas d'éditer le `<head>` de la page normalement (pas de fichier HTML statique dans ce projet). `app/analytics.py` contourne ça en patchant le `static/index.html` du paquet `streamlit` installé, au démarrage de l'app — cela fonctionne sur Streamlit Cloud car le paquet est réinstallé à chaque déploiement, avant que l'app ne tourne.
+
+- `GA_MEASUREMENT_ID` (ex. `G-JT3WHS117T`): à définir dans les secrets Streamlit Cloud pour activer Google Analytics (gtag.js) en production. Ne pas la définir en local pour ne pas polluer les données avec du trafic de dev.
+- `GOOGLE_SITE_VERIFICATION`: optionnel, contenu de la balise meta si on vérifie Search Console par « balise HTML ». Comme `airiviera.org` est un domaine dont on contrôle le DNS, la méthode « propriété de domaine » (enregistrement TXT chez l'hébergeur DNS) est plus simple et n'a pas besoin de ce secret ni de redéploiement.
 
 ## Alimenter une commune (pipeline complet)
 
