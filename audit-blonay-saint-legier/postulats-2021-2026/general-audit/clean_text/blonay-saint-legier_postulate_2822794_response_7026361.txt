@@ -1,0 +1,75 @@
+Commune de
+
+Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# POSTULAT
+
+Blonay, le 26 mai 2026
+
+Réponse de la Municipalité au postulat de M. Sylvain Guillaume-Gentil « Arrêts de bus dans la commune de Blonay – Saint-Légier : quelle vision pour en améliorer confort et sécurité ? » déposé lors de la séance du Conseil communal du 31 mars 2026
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Conseillères et Conseillers communaux,
+
+En guise d’introduction la Municipalité précise que les VMCV ont présenté le nouvel horaire 2026 dans le cadre d’une soirée avec les Communes qui s’est déroulée à La Tour-de-Peilz courant 2025.
+
+D’une manière générale et synthétisée, il ressort de la présentation énoncée ci-dessus, les informations suivantes :
+
+[...] Principales connexions :
+
+- Les localités de Corseaux, Fenil et Corsier restent liées à la gare de Vevey. La Tour-de-Peilz, le quartier des Novalles et Chailly le sont désormais également.
+- Les villages de Blonay et de Brent sont désormais reliés directement au centre de Montreux. Cette liaison permet la création d'un lien fort de Blonay vers l'est de l'agglomération, et notamment l'hopital de Rennaz, via la ligne 201, et vers le Valais grâce à de bonnes correspondances en gare de Montreux.
+
+Deux lignes répondant à des besoins particuliers sont créées :
+
+- Entre la gare de Vevey et Nant : il s'agit de la (nouvelle) ligne 203 qui circulera une dizaine de fois par jour
+- Entre la gare de Blonay et le gymnase de Burier, via la gare de Fontanivent et Chailly : il s'agit de la (nouvelle) ligne 208 qui circulera 5 fois par jour, en début et fin de journée, afin d'assurer une desserte optimisée en fonction des horaires du gymnase et de rabattre les élèves du Pays-d'Enhaut (correspondance MOB en gare de Fontanivent).
+
+En ce qui concerne notre Commune, le détail de l’horaire 2026 et les impacts sur les arrêts supprimés, conservés, à adapter, à modifier ou à créer, ont été vus de concert avec les VMCV le 27 février 2025 ; et portaient sur les nouvelles lignes 208 et 211.
+
+S'en est suivi une analyse de chaque site (arrêt VMCV) concerné sur la localité de Blonay. Cette analyse, documentée en tenant compte des aspects sécuritaires, avec des propositions d'améliorations et/ou de modifications, a été transmise à l'autorité municipale et concernait les arrêts suivants : Novalles, Mon Désir, Antiquaire, Champsavaux, Champ-Dodo, Gare Blonay, Village, Portaz et Planaz.
+
+L'autorité municipale a décidé de prioriser certaines interventions en fonction de ce qui était demandé par les VMCV. La priorité a donc été donnée aux arrêts Antiquaire, Novalles et gare de de Blonay.
+
+Pour l'arrêt Antiquaire, la situation actuelle ne répond pas aux critères de la LHand, le passage pour piétons ne répond pas à ceux de la norme en vigueur, et les VMCV ont demandé un nouvel arrêt dans le sens descendant en direction de La Tour-de-Peilz.
+
+Pour l'arrêt Novalles nous trouvons la même problématique que pour l'arrêt Antiquaire, à la différence que les arrêts se font hors de l'axe principal. Là aussi les VMCV ont demandé un arrêt supplémentaire dans le sens descendant en direction de la Tour-de-Peilz.
+
+Pour l'arrêt Gare Blonay, attendu qu'il s'agit d'une jonction « stratégique » entre la gare de Blonay et le gymnase de Burier, via la gare de Fontanivent et Chailly, l'endroit situé devant la gare de Blonay ne permet pas de faire la liaison de 3 lignes en même temps (204, 208 et 211). Il a donc été décidé de rester au plus proche de la gare, avec la création d'un arrêt le long de la route des Oches.
+
+Il est facilement imaginable que les travaux en lien avec les trois arrêts précités nécessitent des travaux importants, et par conséquent différentes procédures administratives, procédures auxquelles l'autorité municipale ne peut échapper.
+
+Toutefois, afin de pouvoir répondre aux attentes des VMCV, nous avons sollicité l'autorisation auprès de la DGMR, de pouvoir effectuer des travaux provisoires en parallèle avec la procédure officielle. Notre demande s'est heurtée à une fin de non-recevoir attendu que la DGMR n'autorise le marquage d'aucun arrêt provisoire ne répondant pas aux critères de sécurité. De ce fait, le 17 juin 2025 la Municipalité a pris la décision de s'adjoindre les services d'un bureau d'ingénieurs (TBM), afin de traiter les trois arrêts ayant fait l'objet d'un choix prioritaire. Il y a lieu de préciser, qu'en parallèle, la commune a tout de même œuvré pour faciliter la tâche des VMCV qui n'avaient plus d'autre choix que de procéder à la matérialisation des nouveaux arrêts selon l'horaire 2026.
+
+A ce jour les offres d'honoraires ont été réceptionnées et validées par l'autorité. Les plans de réalisation sont actuellement en consultation à la DGMR pour avis et remarques avant enquête publique CAMAC. En l'état il n'est pas encore possible de présenter un planning précis, mais le projet avance activement.
+
+# Sujet No 1 : concept global d'équipement des arrêts / standard d'aménagement
+
+Dans le cadre du dossier lié à l'arrêt « Antiquaire » évoqué ci-dessus, il est prévu l'implantation d'un abribus avec des bancs. Dans la mesure du possible, les choix effectués seront utilisés comme standard d'équipement pour les autres arrêts de bus nécessitant une mise en conformité.
+
+# Sujet No 2 : analyse du traitement de tous les arrêts nécessitant une amélioration
+
+Comme évoqué en introduction une analyse des arrêts sur les lignes 208 et 211 a déjà été effectuée dans le cadre du nouvel horaire 2026. Sur ces deux lignes. Les arrêts nécessitant une amélioration et/ou une mise en conformité feront ensuite l'objet d'une décision municipale quant à leur priorisation. La même démarche sera effectuée pour la ligne 215.
+
+Au sujet de la ligne 215, nous pouvons ajouter que le chemin de la Veyre d'En-Haut a fait l'objet d'un dossier de mise à l'enquête (validée après retrait de l'opposition formulée) pour des travaux d'aménagement d'un trottoir. Le conseil communal a validé le préavis le 28 avril 2026. Les arrêts de bus qui se trouvent le long de l'emprise de ces travaux seront de facto mis en conformité. En l'état le planning précis de ces travaux n'est pas encore connu, mais nous avons bon espoir qu'ils puissent débuter encore cette année.
+
+# Sujet No 3 : détermination des priorités de traitement
+
+Ce point étant évoqué dans le sujet No 2 nous ne reviendrons pas dessus.
+
+# Sujet No 4 : planification grossière des interventions (calendrier et moyen)
+
+L'autorité espère que les travaux en lien avec les arrêts Antiquaire, Novalles et gare de Blonay, pourront encore débuter en 2026. Ce planning reste hypothétique attendu que ces projets doivent encore faire l'objet d'une mise à l'enquête, d'un préavis et doivent être approuvé par le conseil communal.
+
+Pour les autres arrêts concernés par une amélioration et/ou une mise en conformité la municipalité se prononcera dès 2027 sur leur priorisation et sur les investissements à prévoir. Dans la mesure du possible l'autorité tiendra compte des synergies avec d'autres projets en cours.
+
+Nous vous remercions, Monsieur le Président, Mesdames et Messieurs les Conseillères et Conseillers, de votre attention.
+
+AU NOM DE LA MUNICIPALITÉ
+
+![img-0.jpeg](img-0.jpeg)
+
+Délégation municipale : M. Thierry George

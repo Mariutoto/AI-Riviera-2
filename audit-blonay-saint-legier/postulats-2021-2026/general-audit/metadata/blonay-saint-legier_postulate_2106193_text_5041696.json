@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2106193_text_5041696",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat de M. C. Morard - Gouvernance ASR",
+    "source_title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2106193",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5041696",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-26",
+    "language": "fr",
+    "content_hash": "bfd3517259f2a0a0bb853c2e059445b8912ac419c261f3375b9166b92a336ac4",
+    "source_content_hash": "d26b2d52254ec31ef5df9a7c0d67cce66fe6b4c131def3d04ebfc95a962f3a3c",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2106193",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2106193"
+    ],
+    "object_title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+    "authors": [
+      {
+        "name": "Morard Charles",
+        "person_id": 270613,
+        "role": "Auteur/e",
+        "party": ""
+      }
+    ],
+    "deposit_date": "2024-03-26",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2106193",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2106193"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2106193_text_5041696",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2106193_text_5041696"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2106193_response_5068831"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_postulate_2106193_response_5068831"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_postulate_text_pdf",
+    "source_download_id": "5041696"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3724,
+      "words_extracted": 590,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

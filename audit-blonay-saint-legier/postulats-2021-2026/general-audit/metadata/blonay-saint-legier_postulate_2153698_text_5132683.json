@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2153698_text_5132683",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat du groupe PLR Blonay - Saint-Légier - Moratoire communal zone 30 km-h (28.05.2024)",
+    "source_title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2153698",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5132683",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-28",
+    "language": "fr",
+    "content_hash": "a6b1a704d188469ba481344bec835bebbb2d6e533916b2c7188fdb630cf83e7e",
+    "source_content_hash": "77638f2a67d80af11e153cbb6c3cf9d31cb39fb97c4947ce386caff19452bf97",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2153698",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2153698"
+    ],
+    "object_title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+    "authors": [
+      {
+        "name": "Stoeri Christoph",
+        "person_id": 270331,
+        "role": "Président(e) de commission",
+        "party": "PLR Blonay - Saint-Légier"
+      },
+      {
+        "name": "Schwab Claude",
+        "person_id": 280157,
+        "role": "Rapporteur",
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2024-05-28",
+    "status_normalized": "in_progress",
+    "status": "En traitement",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_consideration_report": true,
+    "has_council_decision": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2153698",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2153698"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2153698_text_5132683",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2153698_text_5132683"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2153698_report_5184151"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "blonay-saint-legier_postulate_2153698_report_5184151"
+    ],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_postulate_text_pdf",
+    "source_download_id": "5132683"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 3404,
+      "words_extracted": 536,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

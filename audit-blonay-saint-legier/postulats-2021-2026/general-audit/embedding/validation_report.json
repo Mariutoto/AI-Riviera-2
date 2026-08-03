@@ -1,0 +1,15 @@
+{
+  "status": "ready_for_embeddings",
+  "recipe": "political_object",
+  "model": "mistral-embed",
+  "summary": {
+    "documents": 16,
+    "political_objects": 7,
+    "chunks": 70,
+    "valid": 70,
+    "review": 0,
+    "duplicate_chunk_ids": 0,
+    "duplicate_content_hashes": 0
+  },
+  "review_chunks": []
+}

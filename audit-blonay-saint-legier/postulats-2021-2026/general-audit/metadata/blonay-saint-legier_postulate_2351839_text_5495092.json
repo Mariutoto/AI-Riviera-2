@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2351839_text_5495092",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat C. Schwab - PS - information communale",
+    "source_title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2351839",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5495092",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-01-28",
+    "language": "fr",
+    "content_hash": "194266e88c83ddb39b6c5559279639819302cacc6987c730a0f23e15225bb152",
+    "source_content_hash": "0aee5c65c3441a1b13e5fdfd1f749fed42b88667aad5ca45c6f9e83819cbcf98",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2351839",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2351839"
+    ],
+    "object_title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+    "authors": [
+      {
+        "name": "Schwab Claude",
+        "person_id": 280157,
+        "role": "Auteur/e",
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2025-01-28",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2351839",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2351839"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2351839_text_5495092",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2351839_text_5495092"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2351839_response_6056341"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_postulate_2351839_response_6056341"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_postulate_text_pdf",
+    "source_download_id": "5495092"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 2316,
+      "words_extracted": 346,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

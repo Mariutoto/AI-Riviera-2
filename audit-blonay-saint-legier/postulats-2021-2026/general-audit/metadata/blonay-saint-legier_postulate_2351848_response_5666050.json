@@ -1,0 +1,96 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2351848_response_5666050",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+    "source_title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2351848",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5666050",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-01-28",
+    "language": "fr",
+    "content_hash": "e81884624b1dd9ea80f0201ac980baba0cf7780c8b241d49921b4bcf2a65cdab",
+    "source_content_hash": "fe06b4e29b3fabddcc966600193948a2598827b06a5d3e35700ad786c251ea37",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2351848",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2351848"
+    ],
+    "object_title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+    "authors": [],
+    "deposit_date": "2025-01-28",
+    "status_normalized": "suspended",
+    "status": "Suspens législatif",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2351848",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2351848"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2351848_text_5495110",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2351848_text_5495110"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2351848_text_5495110"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_postulate_2351848_response_5666050"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5666050"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 15,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        2
+      ],
+      "characters_extracted": 36034,
+      "words_extracted": 5243,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

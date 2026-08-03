@@ -44,9 +44,12 @@ class MunicipalityRegistryTests(unittest.TestCase):
         )
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
         self.assertTrue(BLONAY_SAINT_LEGIER.search_enabled)
-        self.assertEqual(BLONAY_SAINT_LEGIER.search_scope, "interpellations")
         self.assertEqual(
-            BLONAY_SAINT_LEGIER.document_types, ("interpellations",)
+            BLONAY_SAINT_LEGIER.search_scope, "interpellations et postulats"
+        )
+        self.assertEqual(
+            BLONAY_SAINT_LEGIER.document_types,
+            ("interpellations", "postulats"),
         )
         self.assertEqual(
             BLONAY_SAINT_LEGIER.source_domain, "www.blonay-saint-legier.ch"

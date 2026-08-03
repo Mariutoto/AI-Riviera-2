@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2082673_decision_4996342",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "council_decision",
+    "title": "Décision du Conseil — Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+    "source_title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2082673",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4996342",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-29",
+    "language": "fr",
+    "content_hash": "c7d671aa3b7f096848a1826a3fe8248b78696c22ea07ec50844e65f7dda140cc",
+    "source_content_hash": "17313a244bc3ecfbcc3c6a92b7806e79a986bde83dd75100e6acda4f75a63a3d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2082673",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2082673"
+    ],
+    "object_title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+    "authors": [
+      {
+        "name": "Olgiati Pelet Mirta",
+        "person_id": 270544,
+        "role": "Auteur/e",
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2024-02-29",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": true,
+    "document_component_role": "council_decision"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2082673",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2082673"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2082673_text_4996339",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2082673_text_4996339"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2082673_text_4996339"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [],
+    "council_decision_ids": [
+      "blonay-saint-legier_postulate_2082673_decision_4996342"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_council_decision_pdf",
+    "source_download_id": "4996342"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1011,
+      "words_extracted": 153,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

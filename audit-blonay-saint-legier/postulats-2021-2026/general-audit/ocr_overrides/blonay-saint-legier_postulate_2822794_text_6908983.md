@@ -1,0 +1,12 @@
+# **Arrêts de bus dans la commune de Blonay-Saint-Légier : quelle vision pour en améliorer confort et sécurité ?**
+
+La commune de Blonay-Saint-Légier compte aujourd'hui 29 arrêts de bus, dont seule une petite minorité est pleinement satisfaisante du point de vue de sa sécurité, son confort et sa conformité aux lois aux critères d'accessibilité aux PMR (LHand). Certains de ces arrêts sont aujourd'hui notoirement dangereux.
+
+Je formule ainsi la demande que la Municipalité se penche sur cet objet et puisse formuler un plan d'actions pour améliorer progressivement ces équipements au gré des urgences, des exigences légales, des opportunités de réalisation et des moyens financiers de la commune.
+
+Pour cela, il me semble nécessaire d'établir :
+
+- Un concept global d'équipement des arrêts sur la commune qui définit notamment le standard d'aménagement à adopter selon le contexte.
+- Une analyse du traitement de tous les arrêts qui nécessitent aujourd'hui d'être améliorés, en fonction notamment de l'importance des éventuels problèmes constatés (danger, confort, conformité LHand, etc.).
+- Une détermination des priorités de traitement.
+- Une planification grossière des interventions, tant en termes de calendrier que de moyens à mettre en œuvre. Cette planification tiendra compte dans la mesure du possible des priorités établies et des synergies avec d'autres projets en cours.

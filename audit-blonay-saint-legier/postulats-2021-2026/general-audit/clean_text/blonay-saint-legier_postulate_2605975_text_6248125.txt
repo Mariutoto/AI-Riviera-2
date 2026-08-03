@@ -1,0 +1,44 @@
+Postulat adressé à la Municipalité de Blonay - St-Légier.
+
+# Postulat pour une déchèterie pragmatique
+
+Monsieur le Syndic
+
+Mesdames, messieurs les municipaux,
+
+Nous avons récemment reçu un courrier de Mme Valérie Jacquier qui agissait pour sa grand-mère citoyenne de notre commune de 98 ans. Celle-ci s'est plainte de la gestion de la déchèterie et en particulier du fait qu'il lui est interdit de faire une procuration pour qu'une tierce personne puisse disposer de ses déchets. Celle-ci a par ailleurs renvoyé un courriel à la municipalité et au bureau du Conseil communal le 13 octobre.
+
+Ce cas illustre un problème plus large. Plusieurs de nos concitoyens ont, à diverses reprises, exprimé leur mécontentement quant à une application jugée trop rigide des règles encadrant l'accès aux déchèteries communales. Le manque de souplesse dans certaines situations particulières (personnes âgées, à mobilité réduite, hospitalisées ou empêchées) entraîne une forme d'exclusion voir de discrimination de fait vis-à-vis d'un service public pourtant essentiel.
+
+Selon nos vérifications, l'article 5, paragraphe 3 de la Directive communale relative à la gestion des déchets 2025 semble être à l'origine de ces difficultés. La rigueur de cette disposition pourrait – et selon les postulants, devrait – être assouplie afin d'introduire davantage de pragmatisme et permettre une gestion plus humaine et équitable de l'accès à la déchèterie.
+
+Ces personnes ont souvent besoin de l'aide de notre Commune. Nous avons reçu cette lettre le 26 août 2025, par une personne qui demandait une telle aide de notre Conseil. Elle n'a pas reçu de décision (au sens de l'art. 3 LPA-VD), alors qu'une telle décision est nécessaire pour ouvrir les voies de droit ordinaires en cas de refus. En lieu et place, elle a simplement reçu une copie du règlement, sans réponse sur le fond de sa demande.
+
+Des solutions raisonnables et proportionnées peuvent être envisagées, telles que :
+
+1. L'établissement d'une liste de personnes autorisées (proches, employés, aides...) habilitées à utiliser la carte d'accès de certains citoyens, avec des conditions fixées par la Municipalité.
+2. La reconnaissance de procurations permettant aux citoyens d'autoriser une autre personne à effectuer des dépôts à la déchéterie en son nom.
+3. Prévoir des dérogations possibles à l'art. 5 du règlement, délivrées par la Municipalité, à la requête des administrés.
+
+Il est utile de rappeler qu'en droit suisse, une procuration peut être établie pour des actes juridiques, pour recevoir ou émettre des actes de poursuite, ou encore pour effectuer des opérations bancaires. Il paraît donc cohérent qu'une procuration puisse également être utilisée pour accéder à un service communal tel que la déchèterie.
+
+# **Conclusions :**
+
+Dès lors, et faisant suite à la lettre envoyée à notre Conseil le 26 août 2025, le conseil communal demande à la Municipalité ;
+
+Qu'il lui plaise d'établir un rapport examinant :
+
+1. La possibilité de réviser l'art. 5 par. 3 de la directive communale relative à la gestion des déchets 2025 afin d'y introduire davantage de pragmatisme.
+2. D'introduire une pratique administrative plus flexible par rapport aux usagers de nos déchèteries et centres de tris.
+
+Je vous remercie pour votre attention ainsi que votre considération et demande le renvoi immédiat de ce postulat à la Municipalité.
+
+Blonay – Saint-Légier, le 25 octobre 2025
+
+M. Joey FARES
+
+Groupe ELU.
+
+![img-0.jpeg](img-0.jpeg)
+
+En annexe, la lettre de Mme Valérie Jacquier du 26 août 2025

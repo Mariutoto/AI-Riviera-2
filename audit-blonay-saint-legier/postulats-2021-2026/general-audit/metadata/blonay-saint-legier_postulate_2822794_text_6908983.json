@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2822794_text_6908983",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "postulate_text",
+    "title": "Postulat S. Guillaume-Gentil",
+    "source_title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2822794",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6908983",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-31",
+    "language": "fr",
+    "content_hash": "d3e1e78a889d5e4ed2a55c4ccc596622a569e7e2d336ebfefb0a7310256c54c2",
+    "source_content_hash": "fa38daf2b0eebe41f19565ea7b0373c92e4bd23540f4a452a56718f144c5c43c",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2822794",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2822794"
+    ],
+    "object_title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+    "authors": [
+      {
+        "name": "Guillaume-Gentil Sylvain",
+        "person_id": 270271,
+        "role": "Auteur/e",
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2026-03-31",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": false,
+    "document_component_role": "postulate_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2822794",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2822794"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2822794_text_6908983",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2822794_text_6908983"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2822794_response_7026361"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_postulate_2822794_response_7026361"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_postulate_text_pdf",
+    "source_download_id": "6908983"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1385,
+      "words_extracted": 209,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

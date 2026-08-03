@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_postulate_2605975_response_6874531",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "postulat",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+    "source_title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2605975",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6874531",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-28",
+    "language": "fr",
+    "content_hash": "b25df43df5b3dcd84be5c82ff245d5692f6ada1fe4977806d1a33c93ce59b6f3",
+    "source_content_hash": "4e6f3538dfbd23ac8536250436ae9952b13681fd5f66eaf719cdb38258216bfe",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "postulate_metadata": {
+    "type": "postulat",
+    "object_id": "blonay-saint-legier-postulate-2605975",
+    "object_ids": [
+      "blonay-saint-legier-postulate-2605975"
+    ],
+    "object_title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+    "authors": [
+      {
+        "name": "Fares Joey",
+        "person_id": 270622,
+        "role": "Auteur/e",
+        "party": "UDC Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2025-10-28",
+    "status_normalized": "in_progress",
+    "status": "En traitement",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_consideration_report": false,
+    "has_council_decision": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-postulate-2605975",
+    "political_object_ids": [
+      "blonay-saint-legier-postulate-2605975"
+    ],
+    "political_object_document_id": "blonay-saint-legier_postulate_2605975_text_6248125",
+    "political_object_document_ids": [
+      "blonay-saint-legier_postulate_2605975_text_6248125"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_postulate_2605975_decision_6248839",
+      "blonay-saint-legier_postulate_2605975_text_6248125"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_postulate_2605975_response_6874531"
+    ],
+    "consideration_report_ids": [],
+    "council_decision_ids": [
+      "blonay-saint-legier_postulate_2605975_decision_6248839"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6874531"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 9923,
+      "words_extracted": 1555,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

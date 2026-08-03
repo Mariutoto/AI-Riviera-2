@@ -1,0 +1,830 @@
+{
+  "schema_version": "blonay-saint-legier-postulates-inventory-v1",
+  "generated_at": "2026-08-03T12:05:08.583799+00:00",
+  "source": {
+    "institution": "Conseil communal de Blonay–Saint-Légier",
+    "listing_page": "https://www.blonay-saint-legier.ch/objets-politiques"
+  },
+  "scope": {
+    "commune": "Blonay–Saint-Légier",
+    "category": "postulat",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30",
+    "note": "La commune est issue de la fusion de Blonay et St-Légier-La Chiésaz au 1er juillet 2023 ; aucune donnée n'existe avant cette date."
+  },
+  "automatic_detection_notes": {
+    "listing_source": "data-entities JSON embedded in /objets-politiques (client-side DataTable, no pagination)",
+    "response_linking": "self-contained: each object's own Document table carries its original text, any commission report, council decision, and municipal response — no separate response objects exist on this site",
+    "author_field": "the 'Auteur' field can list commission members (Président·e, Rapporteur) instead of, or alongside, the original depositor once a commission has been formed; each person's role label from the site is preserved as-is"
+  },
+  "diagnostics": {
+    "complete": true,
+    "total_site_entities": 288,
+    "legislature_postulates": 7,
+    "objects_missing_original_text": 0,
+    "documents_downloaded": 16,
+    "documents_by_role": {
+      "postulate_text": 7,
+      "council_decision": 2,
+      "municipal_response": 5,
+      "committee_formation": 1,
+      "consideration_report": 1
+    },
+    "objects_with_response": 5,
+    "objects_without_response": 2,
+    "documents_needing_ocr": 9,
+    "objects_with_cross_referenced_associations": 0
+  },
+  "objects": [
+    {
+      "source_object_id": 2082673,
+      "object_id": "blonay-saint-legier-postulate-2082673",
+      "nummer": "2024-PO-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2082673",
+      "title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+      "authors": [
+        {
+          "name": "Olgiati Pelet Mirta",
+          "person_id": 270544,
+          "role": "Auteur/e",
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "deposit_date": "2024-02-29",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [],
+      "decision_document_ids": [
+        "blonay-saint-legier_postulate_2082673_decision_4996342"
+      ],
+      "has_postulate_text": true,
+      "has_response": false,
+      "has_consideration_report": false,
+      "has_council_decision": true,
+      "is_closed": true,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2106193,
+      "object_id": "blonay-saint-legier-postulate-2106193",
+      "nummer": "2024-PO-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2106193",
+      "title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+      "authors": [
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "role": "Auteur/e",
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-03-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_postulate_2106193_response_5068831"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_postulate_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2153698,
+      "object_id": "blonay-saint-legier-postulate-2153698",
+      "nummer": "2024-PO-03",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2153698",
+      "title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+      "authors": [
+        {
+          "name": "Stoeri Christoph",
+          "person_id": 270331,
+          "role": "Président(e) de commission",
+          "party": "PLR Blonay - Saint-Légier"
+        },
+        {
+          "name": "Schwab Claude",
+          "person_id": 280157,
+          "role": "Rapporteur",
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2024-05-28",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "blonay-saint-legier_postulate_2153698_report_5184151"
+      ],
+      "decision_document_ids": [],
+      "has_postulate_text": true,
+      "has_response": false,
+      "has_consideration_report": true,
+      "has_council_decision": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2351839,
+      "object_id": "blonay-saint-legier-postulate-2351839",
+      "nummer": "2025-PO-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351839",
+      "title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+      "authors": [
+        {
+          "name": "Schwab Claude",
+          "person_id": 280157,
+          "role": "Auteur/e",
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-01-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_postulate_2351839_response_6056341"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_postulate_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2351848,
+      "object_id": "blonay-saint-legier-postulate-2351848",
+      "nummer": "2025-PO-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351848",
+      "title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+      "authors": [],
+      "status": "Suspens législatif",
+      "status_normalized": "suspended",
+      "deposit_date": "2025-01-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_postulate_2351848_response_5666050"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_postulate_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2605975,
+      "object_id": "blonay-saint-legier-postulate-2605975",
+      "nummer": "2025-PO-03",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605975",
+      "title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+      "authors": [
+        {
+          "name": "Fares Joey",
+          "person_id": 270622,
+          "role": "Auteur/e",
+          "party": "UDC Blonay - Saint-Légier"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2025-10-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_postulate_2605975_response_6874531"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [
+        "blonay-saint-legier_postulate_2605975_decision_6248839"
+      ],
+      "has_postulate_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": true,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2822794,
+      "object_id": "blonay-saint-legier-postulate-2822794",
+      "nummer": "2026-PO-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822794",
+      "title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+      "authors": [
+        {
+          "name": "Guillaume-Gentil Sylvain",
+          "person_id": 270271,
+          "role": "Auteur/e",
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-03-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_postulate_2822794_response_7026361"
+      ],
+      "consideration_document_ids": [],
+      "decision_document_ids": [],
+      "has_postulate_text": true,
+      "has_response": true,
+      "has_consideration_report": false,
+      "has_council_decision": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    }
+  ],
+  "documents": [
+    {
+      "title": "Postulat de Mirta Olgiati Pelet - Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale",
+      "download_id": "4996339",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/4996339",
+      "document_id": "blonay-saint-legier_postulate_2082673_text_4996339",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2082673"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2082673",
+      "source_title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+      "document_date": "2024-02-29",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2082673_text_4996339.pdf",
+      "sha256": "88cddf8fbc510beb1787a2cf7037ea2d6597c119949900d8f634cdd6bb82bf92",
+      "source_format": "converted_image",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          0
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 1,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Extrait de décision - Postulat refusé",
+      "download_id": "4996342",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/4996342",
+      "document_id": "blonay-saint-legier_postulate_2082673_decision_4996342",
+      "document_role": "council_decision",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2082673"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2082673",
+      "source_title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+      "document_date": "2024-02-29",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2082673_decision_4996342.pdf",
+      "sha256": "17313a244bc3ecfbcc3c6a92b7806e79a986bde83dd75100e6acda4f75a63a3d",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          1011
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 1011,
+        "text_words": 153,
+        "needs_ocr": false,
+        "text_preview": "Commune de Blonay - Saint-Légier CONSEIL COMMUNAL Blonay, le 28 février 2024 Postulât de Mme Mirta Olgiati Pelet, Les Vert.e.s « Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale » EXTRAIT Duprocès-verbaldelaséancedu Conseil communal de Blonay-Saint-Légier du 27 février 2024 présidée par Madame Marie-Galante Forestier, présidente. Le Conseil communal de Blonay - Saint-Légier, considérant que cet objet a été porté à l'ordre du jour, a refusé à la majorité ( 37 non, 25 oui et 5 abstentions ), la prise en considération du postulât : de Mme Mirta Olgiati Pelet, Les Vert.e.s « Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale ». Ainsi délibéré et voté en séance du Conseil communal du 27 février 2024. LE BUREAU DU CONSEIL COMMUNAL La présidente Marie-Galante Forestier La secrétaire suppléante Céline Marier Route du Village 45 | CP 12 | 1807 Blonay | 0788523339 | www.blonay-saint-legier.ch | secretaireduconseil@bstl.ch"
+      }
+    },
+    {
+      "title": "Postulat de M. C. Morard - Gouvernance ASR",
+      "download_id": "5041696",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5041696",
+      "document_id": "blonay-saint-legier_postulate_2106193_text_5041696",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2106193"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2106193",
+      "source_title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+      "document_date": "2024-03-26",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2106193_text_5041696.pdf",
+      "sha256": "d26b2d52254ec31ef5df9a7c0d67cce66fe6b4c131def3d04ebfc95a962f3a3c",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 2,
+        "page_text_characters": [
+          0,
+          0
+        ],
+        "image_counts": [
+          1,
+          1
+        ],
+        "empty_pages": 2,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Réponse de la Municipalité par la communication 15-2024",
+      "download_id": "5068831",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5068831",
+      "document_id": "blonay-saint-legier_postulate_2106193_response_5068831",
+      "document_role": "municipal_response",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2106193"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2106193",
+      "source_title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+      "document_date": "2024-03-26",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2106193_response_5068831.pdf",
+      "sha256": "5e71bf4d18542c1f4b4412742bdf9f9fda5268a7f2af58c4957a5bbd09e77a47",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          1545
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 1545,
+        "text_words": 258,
+        "needs_ocr": false,
+        "text_preview": "Commune de Blonay-Saint-Légier MUNICIPALITÉ COMMUNICATION DE LA MUNICIPALITE AU CONSEIL COMMUNAL N/réf. : 10.03.04_2024 No 15-2024 - Séance du 30 avril 2024 Postulât de M. Morard - dépôt lors de la séance du Conseil communal du 26 mars 2024 Madame la Présidente, Mesdames les Conseillères, Messieurs les Conseillers, La Municipalité a pris connaissance, lors de la séance du Conseil communal du 27 mars, du dépôt du postulât de M. Morard intitulé « postulât relatif aux graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs ». La Municipalité, sans se déterminer sur le bienfondé de ce postulât, n'y répondra pas. En effet, au sens de la Loi sur les communes, article 32, alinéa 4, lettres f, ni la Municipalité, ni le Conseil communal ne sont compétents entrer en matière, car ce sujet ne relève pas des attributions de l'autorité communale interpellée. Cette prise de position relève aussi des dispositions des articles 18 et 24 des statuts de l'ASR, du 18 avril 2013 ainsi que du règlement du Conseil intercommunal, à son article 23. Dès lors, ce postulât est classé, sans suite. Merci de votre attention. A. Blonay, le 16/23 avril 2024 Délégation munici"
+      }
+    },
+    {
+      "title": "Postulat du groupe PLR Blonay - Saint-Légier - Moratoire communal zone 30 km-h (28.05.2024)",
+      "download_id": "5132683",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5132683",
+      "document_id": "blonay-saint-legier_postulate_2153698_text_5132683",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2153698"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2153698",
+      "source_title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+      "document_date": "2024-05-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2153698_text_5132683.pdf",
+      "sha256": "77638f2a67d80af11e153cbb6c3cf9d31cb39fb97c4947ce386caff19452bf97",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          0
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 1,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Formation de la Commission",
+      "download_id": "5159191",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5159191",
+      "document_id": "blonay-saint-legier_postulate_2153698_committee_5159191",
+      "document_role": "committee_formation",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2153698"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2153698",
+      "source_title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+      "document_date": "2024-05-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2153698_committee_5159191.pdf",
+      "sha256": "264bd669a9b70ca5a7fa436cb5ccd9ea1b4ec8720f9b8c2e6a8b388bd0a9bc20",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          1010
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 1095,
+        "text_words": 162,
+        "needs_ocr": false,
+        "text_preview": "Route du Village 45 | CP 12 | 1807 Blonay | 078 852 33 39 | www.blonay-saint-legier.ch | secretaireduconseil@bstl.ch CONSEIL COMMUNAL Commune de Blonay - Saint-Légier Le 12 juin 2024 COMMISSION DU CONSEIL COMMUNAL Mesdames, Messieurs, La commission suivante a été désignée pour examiner le postulat de M. Yvan Kohli, PLR, déposé lors de la séance du Conseil communal du 28 mai 2024 et qui sera présenté lors de la séance du conseil communal du mardi – sera annoncé ultérieurement. Postulat A-2024 Concernant un moratoire communal sur l’introduction de nouvelles zones 30 km/h (28.05.2024) 1er membre (président) Christoph Stoeri PLR Secrétaire (rapporteur) Claude Schwab PS & Allié.e.s Membres Pascale Yoakim PLR Yvan Kohli PLR Jean-Christophe Zuchuat Les Vert.e.s Jacqueline Wassenberg GDI Romain Belotti ELU Observateur de la COFIN : - La commission ad hoc est convoquée le mercredi 19 juin 2024, à 18h30, à la salle de Municipalité à Blonay. Le municipal délégué est : M. Thierry George LE BUREAU DU CONSEIL"
+      }
+    },
+    {
+      "title": "Rapport de la commission ad hoc",
+      "download_id": "5184151",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5184151",
+      "document_id": "blonay-saint-legier_postulate_2153698_report_5184151",
+      "document_role": "consideration_report",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2153698"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2153698",
+      "source_title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+      "document_date": "2024-05-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2153698_report_5184151.pdf",
+      "sha256": "dccd7941a08caf2e35d3c228f43cf08db9eca74acfdcd346950535ec8cd09235",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 3,
+        "page_text_characters": [
+          1964,
+          3012,
+          1461
+        ],
+        "image_counts": [
+          1,
+          1,
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 6443,
+        "text_words": 1075,
+        "needs_ocr": false,
+        "text_preview": "Postulât A / 2024 Concernant le postulât de M. Yvan Kohli : Moratoire communal sur l'introduction de nouvelles zones 30 km/h Rapport de la Commission ad hoc Madame ta Présidente, Mesdames les Conseillères et Messieurs les Conseillers, La commission ad hoc dans le cadre du postulât A / 2024 s'est réunie le 19 juin 2024 de 18h30 à 19h40 et s'est constituée comme suit : Président : Christophe Stoeri Membres Claude Schwab (rapporteur) Pascale Yoakim Yvan Kohli Jean-Christophe Zuchuat Jacqueline Wassenberg Romain Belotti PLR PSetAllié.e.s PLR PLR Les Vert.e.s GDI ELU 19/06 18h30à 19h40 x x x x x x x Préambule Suite au dépôt du postulât de M. Yvan Kohli : Moratoire communal sur l'introduction de nouvelles zones 30 km/h lors de la séance du 28 mai 2024, le conseil communal a décidé de « renvoyer la proposition à une commission chargée de préaviser sur la prise en considération et le renvoi à la municipalité » (Art. 65 du règlement du conseil communal). La commission s'est réunie en présence de M. Thierry George, conseiller municipal. Le but de la séance est donc de préaviser quant à la décision du conseil. Quant à la forme, aucune disposition du postulât ne contredit le droit supérieur, d"
+      }
+    },
+    {
+      "title": "Postulat C. Schwab - PS - information communale",
+      "download_id": "5495092",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5495092",
+      "document_id": "blonay-saint-legier_postulate_2351839_text_5495092",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2351839"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351839",
+      "source_title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+      "document_date": "2025-01-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2351839_text_5495092.pdf",
+      "sha256": "0aee5c65c3441a1b13e5fdfd1f749fed42b88667aad5ca45c6f9e83819cbcf98",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 2,
+        "page_text_characters": [
+          1773,
+          541
+        ],
+        "image_counts": [
+          1,
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 2317,
+        "text_words": 346,
+        "needs_ocr": false,
+        "text_preview": "Postulât adressé à la Municipalité de Blonay - St-Légier, séance du CC du 26 novembre 2024 Postulât pour une politique de l'information communale Monsieur le Syndic/ Mesdames les Municipales/ Messieurs les Municipaux, Nos concitoyens, et en particulier les conseillers communaux, manquent d'une information régulière et transparente sur les affaires communales. Certes, il y a le Commun'info et récemment les habitants ont été consultés pour donner leur avis sur ce journal/ mais avec des questions qui ne touchent guère que la forme de cette publication/ en donnant peu de place aux questions de fond. La mission de ce périodique, qui n'est qu'un moyen de communication parmi d'autres, mérite d'être posée dans le cadre plus général d'une véritable politique de Hnformation. La taille de notre commune fusionnée et Félargissement de la palette des moyens de communication exigent une réflexion à frais nouveaux pour déterminer les objectifs d'une information communale et le choix des moyens à mettre en œuvre. C'est pourquoi nous demandons par ce postulât qu'il plaise à la Municipalité de présenter au Conseil communal un rapport répondant aux questions suivantes : • Q.uelle est la politique cTin"
+      }
+    },
+    {
+      "title": "Réponse de la Municipalité",
+      "download_id": "6056341",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/6056341",
+      "document_id": "blonay-saint-legier_postulate_2351839_response_6056341",
+      "document_role": "municipal_response",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2351839"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351839",
+      "source_title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+      "document_date": "2025-01-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2351839_response_6056341.pdf",
+      "sha256": "ec746a20200922c461119fda6d6a3039a5b2b22df1e8121000a2f816f67bce6d",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 24,
+        "page_text_characters": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "image_counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "empty_pages": 24,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Postulat COFIN - Actualisation traitement et indemnités Municipalité",
+      "download_id": "5495110",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5495110",
+      "document_id": "blonay-saint-legier_postulate_2351848_text_5495110",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2351848"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351848",
+      "source_title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+      "document_date": "2025-01-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2351848_text_5495110.pdf",
+      "sha256": "c89af29e5c1acba6a96a8123345e4af688ccfe7811537d3d49a9d4a5821cdf32",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 2,
+        "page_text_characters": [
+          1645,
+          228
+        ],
+        "image_counts": [
+          1,
+          1
+        ],
+        "empty_pages": 0,
+        "text_characters": 1876,
+        "text_words": 316,
+        "needs_ocr": false,
+        "text_preview": "Po:>kM; (art. 63 al. 1 du Règlement du Conseil communal) adressée à la Municipalité de Blonay - St-Légier par des membres de la COFIN, séance du CC du 26 novembre 2024 Dépôt d un préavis pour actualiser le traitement et les indemnités de la Municipalité Monsieur le Syndic, Mesdames les Municipales, Messieurs les Municipaux, Après la fusion des communes de Blonay et de St-Légier-La Chiésaz, le premier préavis (01- 2022) concernait le traitement et les indemnités de la Municipalité. Le nombre d'heures de vacations envisagé dans ce préavis a été très largement dépassé durant tous les exercices écoulés. Il y a un an, le rapport de la COFIN sur le préavis 27-2023 concernant le budget 2024 avait déjà soulevé ce point. La Municipalité s'était alors engagée à présenter à la COFIN au printemps 2024 une nouvelle proposition du nombre d'heures de vacations. Aucune proposition n'est parvenue à la COFIN à ce jour et le budget 2025 prévoit à nouveau un dépassement du montant des indemnités et vacations. Par ce [?os>Ki-U- , la COFIN demande à la Municipalité de présenter un préavis permettant d actualiser le traitement et les indemnités de la Municipalité et de renforcer ainsi la cohérence du bud"
+      }
+    },
+    {
+      "title": "Réponse de la Municipalité",
+      "download_id": "5666050",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/5666050",
+      "document_id": "blonay-saint-legier_postulate_2351848_response_5666050",
+      "document_role": "municipal_response",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2351848"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351848",
+      "source_title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+      "document_date": "2025-01-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2351848_response_5666050.pdf",
+      "sha256": "fe06b4e29b3fabddcc966600193948a2598827b06a5d3e35700ad786c251ea37",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 15,
+        "page_text_characters": [
+          414,
+          2637,
+          3309,
+          2247,
+          5275,
+          3656,
+          2771,
+          2925,
+          548,
+          453,
+          2706,
+          2343,
+          2667,
+          2401,
+          1640
+        ],
+        "image_counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          4,
+          4,
+          2
+        ],
+        "empty_pages": 0,
+        "text_characters": 36386,
+        "text_words": 5243,
+        "needs_ocr": false,
+        "text_preview": "Commune de Blonay - Saint-Légier LA MUNICIPALITÉ Blonay, le 29 avril 2025 Réponse de la Municipalité au postulât de la Commission des finances « Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité » déposé lors de la séance du Conseil communal du 28 janvier 2025 Route du Village 45 | CP 12 | 1807 Blonay | 021 564 02 00 1 www.blonay-saint-legier.ch | secretariatmunicipal@bstl.ch Table des matières l. PREAMBULE......................................................................................................................................3 2. POSTULAT.........................................................................................................................................3 3. CONTEXTE DU DEBUT DE LA LEGISLATURE....................................................................................3 3.1. Préavis municipal n° 01-2022 concernant le traitement et les indemnités de la Municipalité...... 3 3.2. Décision du Conseil communal du 1er mars 2022 - Préavis municipal n° 01-2022....................... 4 4. EVOLUTION DES TRAITEMENTS DE L'EXECUTIF DEPUIS LA FUSION................................................^ 5. ACTIVITE / DOTATION D"
+      }
+    },
+    {
+      "title": "Postulat Joey Fares - déchetterie pragmatique",
+      "download_id": "6248125",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/6248125",
+      "document_id": "blonay-saint-legier_postulate_2605975_text_6248125",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2605975"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605975",
+      "source_title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+      "document_date": "2025-10-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2605975_text_6248125.pdf",
+      "sha256": "7cbfc2523baba84318282a6fd69c15ec8b62f19e9d2f92037883a4359f94d045",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 2,
+        "page_text_characters": [
+          0,
+          0
+        ],
+        "image_counts": [
+          1,
+          1
+        ],
+        "empty_pages": 2,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Extrait de décision - Postulat accepté",
+      "download_id": "6248839",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/6248839",
+      "document_id": "blonay-saint-legier_postulate_2605975_decision_6248839",
+      "document_role": "council_decision",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2605975"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605975",
+      "source_title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+      "document_date": "2025-10-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2605975_decision_6248839.pdf",
+      "sha256": "b4f0e23a1b4d91dbbc39193e3cffae3a54eac436d03e06d237fae61ed7b60273",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          0
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 1,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Réponse de la Municipalité",
+      "download_id": "6874531",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/6874531",
+      "document_id": "blonay-saint-legier_postulate_2605975_response_6874531",
+      "document_role": "municipal_response",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2605975"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605975",
+      "source_title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+      "document_date": "2025-10-28",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2605975_response_6874531.pdf",
+      "sha256": "4e6f3538dfbd23ac8536250436ae9952b13681fd5f66eaf719cdb38258216bfe",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 4,
+        "page_text_characters": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "image_counts": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "empty_pages": 4,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Postulat S. Guillaume-Gentil",
+      "download_id": "6908983",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/6908983",
+      "document_id": "blonay-saint-legier_postulate_2822794_text_6908983",
+      "document_role": "postulate_text",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2822794"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822794",
+      "source_title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+      "document_date": "2026-03-31",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2822794_text_6908983.pdf",
+      "sha256": "fa38daf2b0eebe41f19565ea7b0373c92e4bd23540f4a452a56718f144c5c43c",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 1,
+        "page_text_characters": [
+          0
+        ],
+        "image_counts": [
+          1
+        ],
+        "empty_pages": 1,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    },
+    {
+      "title": "Réponse de la Municipalité",
+      "download_id": "7026361",
+      "pdf_url": "https://www.blonay-saint-legier.ch/_doc/7026361",
+      "document_id": "blonay-saint-legier_postulate_2822794_response_7026361",
+      "document_role": "municipal_response",
+      "political_object_ids": [
+        "blonay-saint-legier-postulate-2822794"
+      ],
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822794",
+      "source_title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+      "document_date": "2026-03-31",
+      "local_pdf": "audit-blonay-saint-legier/postulats-2021-2026/pdfs/blonay-saint-legier_postulate_2822794_response_7026361.pdf",
+      "sha256": "0576eace17add3a330859d639f3bfb21b23b5c2a1cb7d3fd07408645257d84d7",
+      "source_format": "native_pdf",
+      "text_audit": {
+        "page_count": 3,
+        "page_text_characters": [
+          0,
+          0,
+          0
+        ],
+        "image_counts": [
+          1,
+          1,
+          1
+        ],
+        "empty_pages": 3,
+        "text_characters": 0,
+        "text_words": 0,
+        "needs_ocr": true,
+        "text_preview": ""
+      }
+    }
+  ]
+}

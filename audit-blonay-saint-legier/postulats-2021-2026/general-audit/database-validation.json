@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 16,
+    "originals": 7,
+    "responses": 5,
+    "reports": 1,
+    "decisions": 2,
+    "committees": 1,
+    "chunks": 70,
+    "vectors": 70,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 7,
+    "objects_with_response": 5,
+    "objects_without_response": 2,
+    "broken_relationship_links": 0
+  },
+  "objects": [
+    {
+      "object_id": "blonay-saint-legier-postulate-2082673",
+      "title": "Postulat de Mirta Olgiati Pelet (Les Vert.e.s) \"Etudier la pertinence et la possibilité d'engager un juriste dans l'administration communale\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2106193",
+      "title": "Postulat de M. C. Morard \"Graves problèmes de gouvernance au sein de l'ASR et de leurs conséquences sur les collaborateurs de l'ASR\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2153698",
+      "title": "Postulat - Moratoire communal sur l'introduction de nouvelles zones 30 km/h.",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2351839",
+      "title": "Postulat de M. Claude Schwab, PS & Allié.e.s \"Pour une politique de l'information communale\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2351848",
+      "title": "Postulat de la COFIN \"Dépôt d'un préavis pour actualiser le traitement et les indemnités de la Municipalité\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2605975",
+      "title": "Postulat de M. Joey Fares, groupe ELU - Pour une déchetterie pragmatique",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-postulate-2822794",
+      "title": "Postulat de M. S. Guillaume-Gentil, UCBSL - \"Arrêts de bus dans la commune de Blonay - Saint-Légier : quelle vision pour en améliorer confort et sécurité ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "gouvernance ASR problèmes collaborateurs",
+      "expected_prefix": "blonay-saint-legier_postulate_2106193_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_postulate_2106193_text_5041696",
+        "blonay-saint-legier_postulate_2106193_text_5041696",
+        "blonay-saint-legier_postulate_2106193_response_5068831",
+        "blonay-saint-legier_postulate_2351839_response_6056341",
+        "blonay-saint-legier_postulate_2351848_response_5666050"
+      ]
+    },
+    {
+      "query": "moratoire zones 30 km-h",
+      "expected_prefix": "blonay-saint-legier_postulate_2153698_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_postulate_2153698_report_5184151",
+        "blonay-saint-legier_postulate_2153698_text_5132683",
+        "blonay-saint-legier_postulate_2153698_report_5184151",
+        "blonay-saint-legier_postulate_2153698_text_5132683",
+        "blonay-saint-legier_postulate_2153698_report_5184151"
+      ]
+    },
+    {
+      "query": "déchetterie pragmatique",
+      "expected_prefix": "blonay-saint-legier_postulate_2605975_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_postulate_2605975_text_6248125",
+        "blonay-saint-legier_postulate_2605975_decision_6248839",
+        "blonay-saint-legier_postulate_2605975_text_6248125",
+        "blonay-saint-legier_postulate_2605975_response_6874531",
+        "blonay-saint-legier_postulate_2605975_response_6874531"
+      ]
+    },
+    {
+      "query": "arrêts de bus confort sécurité",
+      "expected_prefix": "blonay-saint-legier_postulate_2822794_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_postulate_2822794_response_7026361",
+        "blonay-saint-legier_postulate_2822794_text_6908983",
+        "blonay-saint-legier_postulate_2822794_response_7026361",
+        "blonay-saint-legier_postulate_2822794_response_7026361",
+        "blonay-saint-legier_postulate_2153698_report_5184151"
+      ]
+    }
+  ],
+  "failures": []
+}
