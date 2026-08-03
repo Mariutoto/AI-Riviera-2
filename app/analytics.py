@@ -1,10 +1,10 @@
-"""Google Analytics / Search Console head injection.
+"""Google Analytics / Search Console head injection, and favicon fix.
 
-Streamlit does not expose a supported way to add tags to <head>; the
-accepted workaround is to patch the installed streamlit package's own
-static/index.html at startup. This is safe on Streamlit Cloud because the
-package is reinstalled fresh on every deploy, before the app (and this
-patch) runs.
+Streamlit does not expose a supported way to add tags to <head>, or to
+replace its default favicon.png; the accepted workaround is to patch the
+installed streamlit package's own static files at startup. This is safe on
+Streamlit Cloud/Render because the package is reinstalled fresh on every
+deploy, before the app (and this patch) runs.
 """
 
 from pathlib import Path
@@ -14,6 +14,7 @@ import streamlit as st
 from app.config import config_value
 
 _MARKER = "<!-- ai-riviera-analytics -->"
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 def inject_google_analytics() -> None:
@@ -48,5 +49,23 @@ def inject_google_analytics() -> None:
     patched = markup.replace("<head>", "<head>\n    " + "\n    ".join(tags), 1)
     try:
         index_path.write_text(patched, encoding="utf-8")
+    except Exception:
+        pass
+
+
+def use_custom_favicon() -> None:
+    """Serve assets/favicon.png at Streamlit's fixed /favicon.png route.
+
+    Crawlers (Google Search) read this file straight off disk and never run
+    the app's JS, so st.set_page_config(page_icon=...) alone never reaches
+    them — it only updates the browser tab icon after the app has loaded.
+    """
+    try:
+        source = _PROJECT_ROOT / "assets" / "favicon.png"
+        target = Path(st.__file__).resolve().parent / "static" / "favicon.png"
+        source_bytes = source.read_bytes()
+        if target.exists() and target.read_bytes() == source_bytes:
+            return
+        target.write_bytes(source_bytes)
     except Exception:
         pass

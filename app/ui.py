@@ -17,7 +17,7 @@ LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 LOGO_MARK_SVG = " ".join((ASSETS_DIR / "logo-mark.svg").read_text(encoding="utf-8").split())
 
 from app.agent import GENERATION_PASSAGE_LIMIT, RERANK_CANDIDATE_LIMIT, RERANK_KEEP_LIMIT, run_agentic_pipeline
-from app.analytics import inject_google_analytics
+from app.analytics import inject_google_analytics, use_custom_favicon
 from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
@@ -186,6 +186,7 @@ def admin_tabs_enabled() -> bool:
 st.set_page_config(page_title="AI Riviera", page_icon=str(ASSETS_DIR / "favicon.png"), layout="wide")
 
 inject_google_analytics()
+use_custom_favicon()
 
 st.markdown(
     """
