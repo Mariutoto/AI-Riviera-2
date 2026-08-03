@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 ASSETS_DIR = PROJECT_ROOT / "assets"
 LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
+LOGO_MARK_SVG = (ASSETS_DIR / "logo-mark.svg").read_text(encoding="utf-8")
 
 from app.agent import GENERATION_PASSAGE_LIMIT, RERANK_CANDIDATE_LIMIT, RERANK_KEEP_LIMIT, run_agentic_pipeline
 from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
@@ -241,6 +242,7 @@ st.markdown(
 
     .air-logo-badge svg {
         height: 16px;
+        stroke: white;
         width: 16px;
     }
 
@@ -686,14 +688,10 @@ st.markdown(
 )
 
 st.markdown(
-    """
+    f"""
     <div class="air-site-brand">
         <span class="air-logo-badge">
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 8c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
-                <path d="M2 13c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
-                <path d="M2 18c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
-            </svg>
+            {LOGO_MARK_SVG}
         </span>
         AI Riviera
     </div>
