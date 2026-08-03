@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2720_report_5939",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Mieux-proteger-le-personnel-de-la-vente-et-nos-petits-commerces-locaux-Pour-une-revision_7_51_0.pdf",
+    "source_title": "Mieux protéger le personnel de la vente et nos petits commerces locaux - Pour une révision partielle du règlement communal sur les jours et heures d'ouverture et de fermeture des magasins",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2720",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5939",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-01-24",
+    "language": "fr",
+    "content_hash": "208c12c309ed74e5af5a5b2151213d94594019e19112813b3b4e712e78cac7a7",
+    "source_content_hash": "58234799b966d439ca417aa0e881bad07436551729f1322e22547c7efeb82dc5",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2720",
+    "object_ids": [
+      "montreux-motion-2720"
+    ],
+    "object_title": "Mieux protéger le personnel de la vente et nos petits commerces locaux - Pour une révision partielle du règlement communal sur les jours et heures d'ouverture et de fermeture des magasins",
+    "authors": [
+      {
+        "name": "Romain Pilloud",
+        "party": "PS",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2720",
+    "political_object_ids": [
+      "montreux-motion-2720"
+    ],
+    "political_object_document_id": "montreux_motion_2720_text",
+    "political_object_document_ids": [
+      "montreux_motion_2720_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2720_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2720_report_5939"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "5939",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 9704,
+      "words_extracted": 1574,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2826_report_6187",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Pour-un-audit-externe-du-service-de-l-urbanisme_05-09-2022_8_41_29.pdf",
+    "source_title": "Pour un audit externe du service de l'urbanisme",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2826",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6187",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-09-05",
+    "language": "fr",
+    "content_hash": "9bd72e1c812390ffa787f8991d73df0eb9b0dcc9a31552f11be2c110a56579fb",
+    "source_content_hash": "b02a5f470d016bc8fb36debb523a41c4b13b375e80bbc24640743c6889bdd480",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2826",
+    "object_ids": [
+      "montreux-motion-2826"
+    ],
+    "object_title": "Pour un audit externe du service de l'urbanisme",
+    "authors": [
+      {
+        "name": "Arnaud Grand",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "pending",
+    "status": "",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2826",
+    "political_object_ids": [
+      "montreux-motion-2826"
+    ],
+    "political_object_document_id": "montreux_motion_2826_text",
+    "political_object_document_ids": [
+      "montreux_motion_2826_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2826_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2826_report_6187"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6187",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        0,
+        0
+      ],
+      "characters_extracted": 7279,
+      "words_extracted": 1182,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

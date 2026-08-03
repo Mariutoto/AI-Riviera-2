@@ -1,0 +1,1602 @@
+{
+  "schema_version": "montreux-motions-general-audit-v1",
+  "scope": {
+    "commune": "Montreux",
+    "category": "motion",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30"
+  },
+  "source": {
+    "institution": "Conseil communal de Montreux",
+    "search_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/",
+    "sessions_page": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/"
+  },
+  "summary": {
+    "political_objects": 17,
+    "documents": 52,
+    "original_motions": 17,
+    "consideration_reports": 31,
+    "municipal_responses": 4,
+    "objects_with_response": 5,
+    "objects_without_response": 12,
+    "ocr_applied": 8,
+    "chunks": 213,
+    "status_counts": {
+      "accepted": 13,
+      "rejected": 3,
+      "pending": 1
+    }
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "source_object_id": 2663,
+      "object_id": "montreux-motion-2663",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2663",
+      "title": "Pour une vision claire du développement des locaux administratifs communaux",
+      "author_text": "Cédric Blanc (PLR)",
+      "authors": [
+        {
+          "name": "Cédric Blanc",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2021-11-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2701"
+        }
+      ],
+      "deposit_date": "2021-11-10",
+      "consideration_date": "2021-11-10",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "5872",
+          "filename": "Rapport-motion-Pour-une-vision-claire-du-developpement-des-locaux-administratifs-communaux_01-11-2021_9_43_3.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5872",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.11.2021",
+          "attachment_date": "2021-11-01"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_motion_response_3247_6993"
+      ],
+      "consideration_document_ids": [
+        "montreux_motion_2663_report_5872"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-14"
+    },
+    {
+      "source_object_id": 2720,
+      "object_id": "montreux-motion-2720",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2720",
+      "title": "Mieux protéger le personnel de la vente et nos petits commerces locaux - Pour une révision partielle du règlement communal sur les jours et heures d'ouverture et de fermeture des magasins",
+      "author_text": "Romain Pilloud (PS)",
+      "authors": [
+        {
+          "name": "Romain Pilloud",
+          "party": "PS",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2021-11-10",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2701"
+        },
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        }
+      ],
+      "deposit_date": "2021-11-10",
+      "consideration_date": "2022-02-02",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "5939",
+          "filename": "Rapport-motion-Mieux-proteger-le-personnel-de-la-vente-et-nos-petits-commerces-locaux-Pour-une-revision_7_51_0.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5939",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "24.01.2022",
+          "attachment_date": "2022-01-24"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2720_report_5939"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2736,
+      "object_id": "montreux-motion-2736",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2736",
+      "title": "Des plans de mobilité pour les grandes manifestations montreusiennes",
+      "author_text": "Jessica Renel (VER)",
+      "authors": [
+        {
+          "name": "Jessica Renel",
+          "party": "VER",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2021-12-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2702"
+        },
+        {
+          "date": "2022-03-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2750"
+        }
+      ],
+      "deposit_date": "2021-12-15",
+      "consideration_date": "2022-03-02",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "5972",
+          "filename": "Rapport-motion-Des-plans-de-mobilite-pour-les-grandes-manifestations-montreusiennes_20-02-2022_18_42_23.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5972",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "20.02.2022",
+          "attachment_date": "2022-02-20"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_motion_response_2859_6202"
+      ],
+      "consideration_document_ids": [
+        "montreux_motion_2736_report_5972"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2022-09-07"
+    },
+    {
+      "source_object_id": 2748,
+      "object_id": "montreux-motion-2748",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2748",
+      "title": "Pour un vignoble de la Commune de Montreux en culture biologique",
+      "author_text": "Claudia Hischenhuber (VER)",
+      "authors": [
+        {
+          "name": "Claudia Hischenhuber",
+          "party": "VER",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-02-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2749"
+        },
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        }
+      ],
+      "deposit_date": "2022-02-02",
+      "consideration_date": "2022-05-18",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6076",
+          "filename": "Rapport-motion-Pour-un-vignoble-de-la-Commune-de-Montreux-en-culture-biologique_09-05-2022_10_34_14.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6076",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.05.2022",
+          "attachment_date": "2022-05-09"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2748_report_6076"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2763,
+      "object_id": "montreux-motion-2763",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2763",
+      "title": "Pour une étude de l’opportunité de densifier et d’étendre les fonctionnalités du Parking d'échange de Chailly-sur-Montreux »",
+      "author_text": "Tal Luder (UDC)",
+      "authors": [
+        {
+          "name": "Tal Luder",
+          "party": "UDC",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-03-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2750"
+        },
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        }
+      ],
+      "deposit_date": "2022-03-02",
+      "consideration_date": "2022-05-18",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6067",
+          "filename": "Rapport-motion-Pour-une-etude-de-l-opportunite-de-densifier-et-d-etendre-les-fonctionnalites-du-Parking-d_8_50_57.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6067",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.05.2022",
+          "attachment_date": "2022-05-09"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2763_report_6067"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2764,
+      "object_id": "montreux-motion-2764",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2764",
+      "title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+      "author_text": "Emmanuel Gétaz (ML)",
+      "authors": [
+        {
+          "name": "Emmanuel Gétaz",
+          "party": "ML",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-03-02",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2750"
+        },
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        }
+      ],
+      "deposit_date": "2022-03-02",
+      "consideration_date": "2022-05-18",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6068",
+          "filename": "Rapport-motion-Pour-un-moratoire-ou-un-abandon-du-projet-des-Grand-Pres_09-05-2022_8_54_23.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6068",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.05.2022",
+          "attachment_date": "2022-05-09"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2764_report_6068"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2775,
+      "object_id": "montreux-motion-2775",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2775",
+      "title": "Des mesures pour lutter contre les lits froids",
+      "author_text": "Emmanuel Gétaz (ML)",
+      "authors": [
+        {
+          "name": "Emmanuel Gétaz",
+          "party": "ML",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-05-18",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6069",
+          "filename": "Rapport-motion-Des-mesures-pour-lutter-contre-les-lits-froids_09-05-2022_8_57_44.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6069",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.05.2022",
+          "attachment_date": "2022-05-09"
+        },
+        {
+          "download_id": "6091",
+          "filename": "Rapport-de-minorite_Motion-Getaz-mesures-pour-lutter-contre-les-lits-froids_08.05.2022.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6091",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "12.05.2022",
+          "attachment_date": "2022-05-12"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2775_report_6069",
+        "montreux_motion_2775_report_6091"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2813,
+      "object_id": "montreux-motion-2813",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2813",
+      "title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        },
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-09-14",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6176",
+          "filename": "Rapport-motion-Pour-un-reamenagement-des-places-de-jeux-du-Marche-Couvert-et-de-la-Rouvenaz_02-09-2022_15_3_19.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6176",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "02.09.2022",
+          "attachment_date": "2022-09-02"
+        },
+        {
+          "download_id": "7472",
+          "filename": "extrait-Motion-M.-Olivier-Muller_Pour-un-reamenagement-des-places-de-jeux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7472",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_motion_response_3281_7113"
+      ],
+      "consideration_document_ids": [
+        "montreux_motion_2813_report_6176",
+        "montreux_motion_2813_report_7472"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-10-01"
+    },
+    {
+      "source_object_id": 2826,
+      "object_id": "montreux-motion-2826",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2826",
+      "title": "Pour un audit externe du service de l'urbanisme",
+      "author_text": "Arnaud Grand (PLR)",
+      "authors": [
+        {
+          "name": "Arnaud Grand",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "",
+      "status_normalized": "pending",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        },
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-09-14",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6187",
+          "filename": "Rapport-motion-Pour-un-audit-externe-du-service-de-l-urbanisme_05-09-2022_8_41_29.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6187",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "05.09.2022",
+          "attachment_date": "2022-09-05"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2826_report_6187"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2828,
+      "object_id": "montreux-motion-2828",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2828",
+      "title": "Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+      "author_text": "Lionel Winkler (PLR)",
+      "authors": [
+        {
+          "name": "Lionel Winkler",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-05-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2752"
+        },
+        {
+          "date": "2022-11-16",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2815"
+        }
+      ],
+      "deposit_date": "2022-05-18",
+      "consideration_date": "2022-11-16",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6212",
+          "filename": "Motion-WINKLER-Graphique-population-vehicules-1980-2020.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6212",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "01.10.2022",
+          "attachment_date": "2022-10-01"
+        },
+        {
+          "download_id": "6213",
+          "filename": "Motion-WINKLER-Developpement.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6213",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "01.10.2022",
+          "attachment_date": "2022-10-01"
+        },
+        {
+          "download_id": "6250",
+          "filename": "Avis-juridique-PC65_ARP_recusation.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6250",
+          "displayed_type": "Annexe Rapport",
+          "attachment_date_text": "27.10.2022",
+          "attachment_date": "2022-10-27"
+        },
+        {
+          "download_id": "6256",
+          "filename": "Rapport-motion-Pour-un-moratoire-sur-la-suppression-des-places-de-stationnement-sur-la-commune-de-Montreu_7_30_35.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6256",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "07.11.2022",
+          "attachment_date": "2022-11-07"
+        },
+        {
+          "download_id": "6260",
+          "filename": "Rapport_minorite769-_Pour-un-moratoire-sur-la-suppression-des-places-de-stationnement-sur-la-commune-de-Montreux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6260",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "07.11.2022",
+          "attachment_date": "2022-11-07"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_motion_response_2962_6373"
+      ],
+      "consideration_document_ids": [
+        "montreux_motion_2828_report_6212",
+        "montreux_motion_2828_report_6213",
+        "montreux_motion_2828_report_6250",
+        "montreux_motion_2828_report_6256",
+        "montreux_motion_2828_report_6260"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2023-03-29"
+    },
+    {
+      "source_object_id": 2864,
+      "object_id": "montreux-motion-2864",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2864",
+      "title": "Mise à disposition de locaux sur le territoire montreusien à des fins d’accueil d’urgence pour femmes et membres de la communauté LBTIQ+",
+      "author_text": "Béatrice Tisserand (VER)",
+      "authors": [
+        {
+          "name": "Béatrice Tisserand",
+          "party": "VER",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        },
+        {
+          "date": "2022-12-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2816"
+        }
+      ],
+      "deposit_date": "2022-09-14",
+      "consideration_date": "2022-12-14",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6276",
+          "filename": "Rapport-motion-Mise-a-disposition-de-locaux-sur-le-territoire-montreusien-a-des-fins-d-accueil-d-urgence_11_21_45.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6276",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "21.11.2022",
+          "attachment_date": "2022-11-21"
+        },
+        {
+          "download_id": "7474",
+          "filename": "extrait-Motion-Mme-Beatrice-Tisserand_Mise-a-disposition-de-locaux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7474",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2864_report_6276",
+        "montreux_motion_2864_report_7474"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 2865,
+      "object_id": "montreux-motion-2865",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2865",
+      "title": "Motion de MM. Arnaud Grand et Romain Pilloud « Modification du Fonds pour l’énergie et la durabilité en faveur du vélo sans assistance électrique et de l’économie locale",
+      "author_text": "Arnaud Grand (PLR)",
+      "authors": [
+        {
+          "name": "Arnaud Grand",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2022-09-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2813"
+        },
+        {
+          "date": "2022-12-14",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2816"
+        }
+      ],
+      "deposit_date": "2022-09-14",
+      "consideration_date": "2022-12-14",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6289",
+          "filename": "Rapport-motion-Motion-de-MM-Arnaud-Grand-et-Romain-Pilloud--Modification-du-Fonds-pour-l-energie-et-la_8_33_24.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6289",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "05.12.2022",
+          "attachment_date": "2022-12-05"
+        },
+        {
+          "download_id": "7476",
+          "filename": "extrait-Postulat-M-Arnaud-Grand-et-M.-Romain-Pilloud_Modification-du-Fonds-pour-l-energie-et-la-durabilite.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7476",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_2865_report_6289",
+        "montreux_motion_2865_report_7476"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3006,
+      "object_id": "montreux-motion-3006",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3006",
+      "title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+      "author_text": "Olivier Mark (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Mark",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-06-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2899"
+        },
+        {
+          "date": "2023-10-11",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2945"
+        }
+      ],
+      "deposit_date": "2023-06-21",
+      "consideration_date": "2023-10-11",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6499",
+          "filename": "Rapport-motion-Pour-que-le-Conseil-communal-reprenne-la-main-en-matiere-de-logements-a-Montreux-par-un-co_8_11_6.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6499",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "02.10.2023",
+          "attachment_date": "2023-10-02"
+        },
+        {
+          "download_id": "7468",
+          "filename": "extrait-Postulat-M.-Olivier-Mark_Conseil-Communal-reprenne-la-main-en-matiere-de-logements-a-Montreux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7468",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_3006_report_6499",
+        "montreux_motion_3006_report_7468"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3013,
+      "object_id": "montreux-motion-3013",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3013",
+      "title": "Verdir nos préaux",
+      "author_text": "Claudia Hischenhuber (VER)",
+      "authors": [
+        {
+          "name": "Claudia Hischenhuber",
+          "party": "VER",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-09-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2944"
+        },
+        {
+          "date": "2023-11-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2946"
+        }
+      ],
+      "deposit_date": "2023-09-06",
+      "consideration_date": "2023-11-15",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6515",
+          "filename": "Rapport-motion-Verdir-nos-preaux_06-11-2023_7_34_55.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6515",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "06.11.2023",
+          "attachment_date": "2023-11-06"
+        },
+        {
+          "download_id": "7463",
+          "filename": "extrait-Motion-Mme-Claudia-Hischenhuber_Verdir-nos-preaux.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7463",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_3013_report_6515",
+        "montreux_motion_3013_report_7463"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3024,
+      "object_id": "montreux-motion-3024",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3024",
+      "title": "Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+      "author_text": "Olivier Müller (PLR)",
+      "authors": [
+        {
+          "name": "Olivier Müller",
+          "party": "PLR",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2023-09-06",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2944"
+        },
+        {
+          "date": "2023-11-15",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=2946"
+        }
+      ],
+      "deposit_date": "2023-09-06",
+      "consideration_date": "2023-11-15",
+      "source_alias_ids": [
+        3362
+      ],
+      "attachments": [
+        {
+          "download_id": "6516",
+          "filename": "Rapport-motion-Amenager-sans-attendre-des-points-de-baignades-attractifs-entre-Territet-et-Clarens_06-11_8_50_50.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6516",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "06.11.2023",
+          "attachment_date": "2023-11-06"
+        },
+        {
+          "download_id": "7461",
+          "filename": "extrait-Motion-M.-Olivier-Muller_Amenager-sans-attendre-des-points-de-baignades-attractifs.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7461",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        },
+        {
+          "download_id": "8571",
+          "filename": "Rapport-motion-Amenager-sans-attendre-des-points-de-baignades-attractifs-entre-Territet-et-Clarens-motio_9_20_31.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8571",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "01.06.2026",
+          "attachment_date": "2026-06-01"
+        }
+      ],
+      "response_document_ids": [
+        "montreux_motion_response_3247_6993"
+      ],
+      "consideration_document_ids": [
+        "montreux_motion_3024_report_6516",
+        "montreux_motion_3024_report_7461",
+        "montreux_motion_3024_report_8571"
+      ],
+      "has_response": true,
+      "is_closed": true,
+      "response_status": "written_response",
+      "response_date": "2025-05-14"
+    },
+    {
+      "source_object_id": 3065,
+      "object_id": "montreux-motion-3065",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3065",
+      "title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+      "author_text": "Pierangelo Rothenbühler (VER)",
+      "authors": [
+        {
+          "name": "Pierangelo Rothenbühler",
+          "party": "VER",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Accepté",
+      "status_normalized": "accepted",
+      "session_occurrences": [
+        {
+          "date": "2024-02-28",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4015"
+        },
+        {
+          "date": "2024-03-27",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4016"
+        },
+        {
+          "date": "2024-06-19",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4018"
+        }
+      ],
+      "deposit_date": "2024-02-28",
+      "consideration_date": "2024-06-19",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "6677",
+          "filename": "Rapport-motion-Pour-un-Plan-d-Action-Climat-de-la-Commune-de-Montreux_09-06-2024_9_29_48.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6677",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "09.06.2024",
+          "attachment_date": "2024-06-09"
+        },
+        {
+          "download_id": "7462",
+          "filename": "extrait-Motion-M.-Pierangelo-Rothenbuhler_Plan-d-Action-Climat.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7462",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_3065_report_6677",
+        "montreux_motion_3065_report_7462"
+      ],
+      "has_response": false,
+      "is_closed": false,
+      "response_status": "unanswered",
+      "response_date": ""
+    },
+    {
+      "source_object_id": 3251,
+      "object_id": "montreux-motion-3251",
+      "source_page": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3251",
+      "title": "Motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally : « Pour l’introduction dans le règlement du personnel d’un congé menstruel et de ménopause ou pré-ménopause».",
+      "author_text": "Anna Krenger (DA)",
+      "authors": [
+        {
+          "name": "Anna Krenger",
+          "party": "DA",
+          "role": "motionnaire"
+        }
+      ],
+      "status": "Refusé",
+      "status_normalized": "rejected",
+      "session_occurrences": [
+        {
+          "date": "2025-05-21",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4151"
+        },
+        {
+          "date": "2025-06-18",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4152"
+        },
+        {
+          "date": "2025-09-03",
+          "url": "https://www.conseilmontreux.ch/conseilcommunal/public/ordredujour/?ID=4153"
+        }
+      ],
+      "deposit_date": "2025-05-21",
+      "consideration_date": "2025-09-03",
+      "source_alias_ids": [],
+      "attachments": [
+        {
+          "download_id": "7106",
+          "filename": "Rapport-motion-Motion-de-Mmes-Anna-Krenger-Tanya-Bonjour-et-Lauraine-Bally--Pour-l-introduction-dans_8_54_34.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7106",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "30.09.2025",
+          "attachment_date": "2025-09-30"
+        },
+        {
+          "download_id": "7388",
+          "filename": "extrait-motion-Mmes-Krenger-Bonjour-Bally-pour-intro-reglement-du-personnel-d-un-conge-menstruel-menopause-et-pre-menopause.pdf",
+          "pdf_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7388",
+          "displayed_type": "Rapport",
+          "attachment_date_text": "04.05.2026",
+          "attachment_date": "2026-05-04"
+        }
+      ],
+      "response_document_ids": [],
+      "consideration_document_ids": [
+        "montreux_motion_3251_report_7106",
+        "montreux_motion_3251_report_7388"
+      ],
+      "has_response": false,
+      "is_closed": true,
+      "response_status": "unanswered",
+      "response_date": ""
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "montreux_motion_2663_text",
+      "political_object_ids": [
+        "montreux-motion-2663"
+      ],
+      "title": "Pour une vision claire du développement des locaux administratifs communaux",
+      "role": "motion_text",
+      "document_date": "2021-11-10",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2663",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2720_text",
+      "political_object_ids": [
+        "montreux-motion-2720"
+      ],
+      "title": "Mieux protéger le personnel de la vente et nos petits commerces locaux - Pour une révision partielle du règlement communal sur les jours et heures d'ouverture et de fermeture des magasins",
+      "role": "motion_text",
+      "document_date": "2021-11-10",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2720",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2736_text",
+      "political_object_ids": [
+        "montreux-motion-2736"
+      ],
+      "title": "Des plans de mobilité pour les grandes manifestations montreusiennes",
+      "role": "motion_text",
+      "document_date": "2021-12-15",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2736",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2748_text",
+      "political_object_ids": [
+        "montreux-motion-2748"
+      ],
+      "title": "Pour un vignoble de la Commune de Montreux en culture biologique",
+      "role": "motion_text",
+      "document_date": "2022-02-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2748",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2763_text",
+      "political_object_ids": [
+        "montreux-motion-2763"
+      ],
+      "title": "Pour une étude de l’opportunité de densifier et d’étendre les fonctionnalités du Parking d'échange de Chailly-sur-Montreux »",
+      "role": "motion_text",
+      "document_date": "2022-03-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2763",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2764_text",
+      "political_object_ids": [
+        "montreux-motion-2764"
+      ],
+      "title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+      "role": "motion_text",
+      "document_date": "2022-03-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2764",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2775_text",
+      "political_object_ids": [
+        "montreux-motion-2775"
+      ],
+      "title": "Des mesures pour lutter contre les lits froids",
+      "role": "motion_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2775",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2813_text",
+      "political_object_ids": [
+        "montreux-motion-2813"
+      ],
+      "title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+      "role": "motion_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2813",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2826_text",
+      "political_object_ids": [
+        "montreux-motion-2826"
+      ],
+      "title": "Pour un audit externe du service de l'urbanisme",
+      "role": "motion_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2826",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2828_text",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+      "role": "motion_text",
+      "document_date": "2022-05-18",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2828",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2864_text",
+      "political_object_ids": [
+        "montreux-motion-2864"
+      ],
+      "title": "Mise à disposition de locaux sur le territoire montreusien à des fins d’accueil d’urgence pour femmes et membres de la communauté LBTIQ+",
+      "role": "motion_text",
+      "document_date": "2022-09-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2864",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2865_text",
+      "political_object_ids": [
+        "montreux-motion-2865"
+      ],
+      "title": "Motion de MM. Arnaud Grand et Romain Pilloud « Modification du Fonds pour l’énergie et la durabilité en faveur du vélo sans assistance électrique et de l’économie locale",
+      "role": "motion_text",
+      "document_date": "2022-09-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2865",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_3006_text",
+      "political_object_ids": [
+        "montreux-motion-3006"
+      ],
+      "title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+      "role": "motion_text",
+      "document_date": "2023-06-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3006",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_3013_text",
+      "political_object_ids": [
+        "montreux-motion-3013"
+      ],
+      "title": "Verdir nos préaux",
+      "role": "motion_text",
+      "document_date": "2023-09-06",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3013",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_3024_text",
+      "political_object_ids": [
+        "montreux-motion-3024"
+      ],
+      "title": "Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+      "role": "motion_text",
+      "document_date": "2023-09-06",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3024",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_3065_text",
+      "political_object_ids": [
+        "montreux-motion-3065"
+      ],
+      "title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+      "role": "motion_text",
+      "document_date": "2024-02-28",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3065",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_3251_text",
+      "political_object_ids": [
+        "montreux-motion-3251"
+      ],
+      "title": "Motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally : « Pour l’introduction dans le règlement du personnel d’un congé menstruel et de ménopause ou pré-ménopause».",
+      "role": "motion_text",
+      "document_date": "2025-05-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3251",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "montreux_motion_2663_report_5872",
+      "political_object_ids": [
+        "montreux-motion-2663"
+      ],
+      "title": "Rapport-motion-Pour-une-vision-claire-du-developpement-des-locaux-administratifs-communaux_01-11-2021_9_43_3.pdf",
+      "role": "consideration_report",
+      "document_date": "2021-11-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5872",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2720_report_5939",
+      "political_object_ids": [
+        "montreux-motion-2720"
+      ],
+      "title": "Rapport-motion-Mieux-proteger-le-personnel-de-la-vente-et-nos-petits-commerces-locaux-Pour-une-revision_7_51_0.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-01-24",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5939",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2736_report_5972",
+      "political_object_ids": [
+        "montreux-motion-2736"
+      ],
+      "title": "Rapport-motion-Des-plans-de-mobilite-pour-les-grandes-manifestations-montreusiennes_20-02-2022_18_42_23.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-02-20",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5972",
+      "chunks": 8,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2748_report_6076",
+      "political_object_ids": [
+        "montreux-motion-2748"
+      ],
+      "title": "Rapport-motion-Pour-un-vignoble-de-la-Commune-de-Montreux-en-culture-biologique_09-05-2022_10_34_14.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6076",
+      "chunks": 7,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2763_report_6067",
+      "political_object_ids": [
+        "montreux-motion-2763"
+      ],
+      "title": "Rapport-motion-Pour-une-etude-de-l-opportunite-de-densifier-et-d-etendre-les-fonctionnalites-du-Parking-d_8_50_57.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6067",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2764_report_6068",
+      "political_object_ids": [
+        "montreux-motion-2764"
+      ],
+      "title": "Rapport-motion-Pour-un-moratoire-ou-un-abandon-du-projet-des-Grand-Pres_09-05-2022_8_54_23.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6068",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2775_report_6069",
+      "political_object_ids": [
+        "montreux-motion-2775"
+      ],
+      "title": "Rapport-motion-Des-mesures-pour-lutter-contre-les-lits-froids_09-05-2022_8_57_44.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6069",
+      "chunks": 9,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2775_report_6091",
+      "political_object_ids": [
+        "montreux-motion-2775"
+      ],
+      "title": "Rapport-de-minorite_Motion-Getaz-mesures-pour-lutter-contre-les-lits-froids_08.05.2022.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-05-12",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6091",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2813_report_6176",
+      "political_object_ids": [
+        "montreux-motion-2813"
+      ],
+      "title": "Rapport-motion-Pour-un-reamenagement-des-places-de-jeux-du-Marche-Couvert-et-de-la-Rouvenaz_02-09-2022_15_3_19.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-09-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6176",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2813_report_7472",
+      "political_object_ids": [
+        "montreux-motion-2813"
+      ],
+      "title": "extrait-Motion-M.-Olivier-Muller_Pour-un-reamenagement-des-places-de-jeux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7472",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2826_report_6187",
+      "political_object_ids": [
+        "montreux-motion-2826"
+      ],
+      "title": "Rapport-motion-Pour-un-audit-externe-du-service-de-l-urbanisme_05-09-2022_8_41_29.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-09-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6187",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2828_report_6212",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Motion-WINKLER-Graphique-population-vehicules-1980-2020.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-10-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6212",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2828_report_6213",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Motion-WINKLER-Developpement.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-10-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6213",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2828_report_6250",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Avis-juridique-PC65_ARP_recusation.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-10-27",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6250",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2828_report_6256",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Rapport-motion-Pour-un-moratoire-sur-la-suppression-des-places-de-stationnement-sur-la-commune-de-Montreu_7_30_35.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-11-07",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6256",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2828_report_6260",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Rapport_minorite769-_Pour-un-moratoire-sur-la-suppression-des-places-de-stationnement-sur-la-commune-de-Montreux.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-11-07",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6260",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2864_report_6276",
+      "political_object_ids": [
+        "montreux-motion-2864"
+      ],
+      "title": "Rapport-motion-Mise-a-disposition-de-locaux-sur-le-territoire-montreusien-a-des-fins-d-accueil-d-urgence_11_21_45.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-11-21",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6276",
+      "chunks": 3,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2864_report_7474",
+      "political_object_ids": [
+        "montreux-motion-2864"
+      ],
+      "title": "extrait-Motion-Mme-Beatrice-Tisserand_Mise-a-disposition-de-locaux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7474",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2865_report_6289",
+      "political_object_ids": [
+        "montreux-motion-2865"
+      ],
+      "title": "Rapport-motion-Motion-de-MM-Arnaud-Grand-et-Romain-Pilloud--Modification-du-Fonds-pour-l-energie-et-la_8_33_24.pdf",
+      "role": "consideration_report",
+      "document_date": "2022-12-05",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6289",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_2865_report_7476",
+      "political_object_ids": [
+        "montreux-motion-2865"
+      ],
+      "title": "extrait-Postulat-M-Arnaud-Grand-et-M.-Romain-Pilloud_Modification-du-Fonds-pour-l-energie-et-la-durabilite.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7476",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3006_report_6499",
+      "political_object_ids": [
+        "montreux-motion-3006"
+      ],
+      "title": "Rapport-motion-Pour-que-le-Conseil-communal-reprenne-la-main-en-matiere-de-logements-a-Montreux-par-un-co_8_11_6.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-10-02",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6499",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3006_report_7468",
+      "political_object_ids": [
+        "montreux-motion-3006"
+      ],
+      "title": "extrait-Postulat-M.-Olivier-Mark_Conseil-Communal-reprenne-la-main-en-matiere-de-logements-a-Montreux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7468",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3013_report_6515",
+      "political_object_ids": [
+        "montreux-motion-3013"
+      ],
+      "title": "Rapport-motion-Verdir-nos-preaux_06-11-2023_7_34_55.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-11-06",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6515",
+      "chunks": 2,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3013_report_7463",
+      "political_object_ids": [
+        "montreux-motion-3013"
+      ],
+      "title": "extrait-Motion-Mme-Claudia-Hischenhuber_Verdir-nos-preaux.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7463",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3024_report_6516",
+      "political_object_ids": [
+        "montreux-motion-3024"
+      ],
+      "title": "Rapport-motion-Amenager-sans-attendre-des-points-de-baignades-attractifs-entre-Territet-et-Clarens_06-11_8_50_50.pdf",
+      "role": "consideration_report",
+      "document_date": "2023-11-06",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6516",
+      "chunks": 4,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3024_report_7461",
+      "political_object_ids": [
+        "montreux-motion-3024"
+      ],
+      "title": "extrait-Motion-M.-Olivier-Muller_Amenager-sans-attendre-des-points-de-baignades-attractifs.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7461",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3024_report_8571",
+      "political_object_ids": [
+        "montreux-motion-3024"
+      ],
+      "title": "Rapport-motion-Amenager-sans-attendre-des-points-de-baignades-attractifs-entre-Territet-et-Clarens-motio_9_20_31.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-06-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8571",
+      "chunks": 8,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3065_report_6677",
+      "political_object_ids": [
+        "montreux-motion-3065"
+      ],
+      "title": "Rapport-motion-Pour-un-Plan-d-Action-Climat-de-la-Commune-de-Montreux_09-06-2024_9_29_48.pdf",
+      "role": "consideration_report",
+      "document_date": "2024-06-09",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6677",
+      "chunks": 5,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3065_report_7462",
+      "political_object_ids": [
+        "montreux-motion-3065"
+      ],
+      "title": "extrait-Motion-M.-Pierangelo-Rothenbuhler_Plan-d-Action-Climat.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7462",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3251_report_7106",
+      "political_object_ids": [
+        "montreux-motion-3251"
+      ],
+      "title": "Rapport-motion-Motion-de-Mmes-Anna-Krenger-Tanya-Bonjour-et-Lauraine-Bally--Pour-l-introduction-dans_8_54_34.pdf",
+      "role": "consideration_report",
+      "document_date": "2025-09-30",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7106",
+      "chunks": 7,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_3251_report_7388",
+      "political_object_ids": [
+        "montreux-motion-3251"
+      ],
+      "title": "extrait-motion-Mmes-Krenger-Bonjour-Bally-pour-intro-reglement-du-personnel-d-un-conge-menstruel-menopause-et-pre-menopause.pdf",
+      "role": "consideration_report",
+      "document_date": "2026-05-04",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7388",
+      "chunks": 1,
+      "source_kind": "official_consideration_report_pdf"
+    },
+    {
+      "document_id": "montreux_motion_response_2859_6202",
+      "political_object_ids": [
+        "montreux-motion-2736"
+      ],
+      "title": "Réponse municipale — Des plans de mobilité pour les grandes manifestations montreusiennes",
+      "role": "municipal_response",
+      "document_date": "2022-09-07",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6202",
+      "chunks": 9,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_motion_response_2962_6373",
+      "political_object_ids": [
+        "montreux-motion-2828"
+      ],
+      "title": "Réponse municipale — Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+      "role": "municipal_response",
+      "document_date": "2023-03-29",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6373",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_motion_response_3247_6993",
+      "political_object_ids": [
+        "montreux-motion-2663",
+        "montreux-motion-3024"
+      ],
+      "title": "Réponse municipale — Pour une vision claire du développement des locaux administratifs communaux / Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+      "role": "municipal_response",
+      "document_date": "2025-05-14",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6993",
+      "chunks": 53,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "montreux_motion_response_3281_7113",
+      "political_object_ids": [
+        "montreux-motion-2813"
+      ],
+      "title": "Réponse municipale — Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+      "role": "municipal_response",
+      "document_date": "2025-10-01",
+      "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7113",
+      "chunks": 20,
+      "source_kind": "official_municipal_response_pdf"
+    }
+  ]
+}

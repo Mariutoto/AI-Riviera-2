@@ -1,0 +1,33 @@
+# EXTRAIT
+du registre des procès-verbaux des séances du
+Conseil communal de Montreux
+
+Séance du 15 novembre 2023
+
+Présidence : M. Tal LUDER
+Secrétaire : Mme Céline MORIER
+Les scrutateurs : M. Ihab AL JUNDI
+: M. Kelvin KAPPELER
+
+Objet : La prise en considération de la motion de M. Olivier MÜLLER « Aménager sans attendre des points de baignades attractifs entre Territet et Clarens »
+
+Vu le rapport de la commission formée de M. Lionel Moyard, Président
+
+Membres : Mme Christine Menzi
+MM. Ihab Al Jundi, Yvan Aubord, Vincent Haldi, Simon Lepêtre, Pierre Loup, Olivier Müller, Roland Rimaz
+
+après délibération, le Conseil communal de Montreux par 67 OUI, 2 NON et 5 abstentions, décide:
+
+D'accepter la prise en considération de la motion de M. Olivier MÜLLER « Aménager sans attendre des points de baignades attractifs entre Territet et Clarens »
+
+CONSEIL COMMUNAL DE MONTREUX
+
+Le Président :
+
+Tal LUDER
+
+![img-0.jpeg](img-0.jpeg)
+
+La secrétaire :
+
+Céline MORIER

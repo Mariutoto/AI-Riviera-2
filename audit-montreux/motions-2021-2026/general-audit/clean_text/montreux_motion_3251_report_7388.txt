@@ -1,0 +1,34 @@
+# EXTRAIT
+
+du registre des procès-verbaux des séances du
+
+Conseil communal de Montreux
+
+Séance du 3 septembre 2025
+
+Présidence : M. Lionel MOYARD
+Secrétaire : Mme Céline MORIER
+Les scrutateurs : M. Mathias EKAH
+M. Murat KARAKAS
+
+Objet : La prise en considération de la motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally intitulée « pour l'introduction dans le règlement du personnel d'un congé menstruel et de ménopause ou pré-ménopause ».
+
+Vu le rapport de la commission formée de M. Angelo Giuliano, Président
+
+Membres : Mmes Lauraine Bally, Tanya Bonjour, Susanne Cornaz, Maria Cvetanovski, Anne Duperret, Anna Krenger, Susanne Lauber Fürst, Catherine Morel Roberti, Laetitia Sivis
+
+après délibération, le Conseil communal de Montreux par 44 NON, 35 OUI, 1 abstention et 1 récusation, décide:
+
+De refuser la prise en considération de la motion de Mmes Anna KRENGER, Tanya BONJOUR et Lauraine BALLY intitulée « pour l'introduction dans le règlement du personnel d'un congé menstruel et de ménopause ou pré-ménopause ».
+
+CONSEIL COMMUNAL DE MONTREUX
+
+Le Président :
+
+Lionel MOYARD
+
+![img-0.jpeg](img-0.jpeg)
+
+La secrétaire :
+
+Céline MORIER

@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2663_report_5872",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Pour-une-vision-claire-du-developpement-des-locaux-administratifs-communaux_01-11-2021_9_43_3.pdf",
+    "source_title": "Pour une vision claire du développement des locaux administratifs communaux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2663",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5872",
+    "listing_year": 2021,
+    "legislature": "2021-2026",
+    "document_date": "2021-11-01",
+    "language": "fr",
+    "content_hash": "c6b9b28e0973a352065acfffa2d5e758e671daeb82b812b8534a71b5e0d321cd",
+    "source_content_hash": "f17749acf1d184d248aa8105a0483aba70c8662f6d3bfc3d32ce1dc5e98c219d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2663",
+    "object_ids": [
+      "montreux-motion-2663"
+    ],
+    "object_title": "Pour une vision claire du développement des locaux administratifs communaux",
+    "authors": [
+      {
+        "name": "Cédric Blanc",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2021-11-10",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2663",
+    "political_object_ids": [
+      "montreux-motion-2663"
+    ],
+    "political_object_document_id": "montreux_motion_2663_text",
+    "political_object_document_ids": [
+      "montreux_motion_2663_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2663_text",
+      "montreux_motion_response_3247_6993"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_3247_6993"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_2663_report_5872"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "5872",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 5861,
+      "words_extracted": 933,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

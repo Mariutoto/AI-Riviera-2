@@ -1,0 +1,110 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_response_3281_7113",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+    "source_title": "relatif à l’octroi d’un crédit d’investissement du patrimoine administratif de CHF 740'000.00 TTC au maximum pour le réaménagement et l’agrandissement de la place de jeux du Marché couvert à Montreux sur le thème de la musique et à la réponse au postulat de Monsieur Olivier Müller intitulé « Places de jeux : état des lieux et perspectives à court et moyen termes », pris en considération le 21 juin 2017, et à la motion de Monsieur Olivier Müller intitulée « Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz, prise en considération le 14 septembre 2022",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3281",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7113",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-01",
+    "language": "fr",
+    "content_hash": "fb0a363992f405290f88eb21ab4a01cf3e0f2d5af3f723e9ec48167c275ed1bd",
+    "source_content_hash": "2524c6dbfbf16cef9871a8e70408d4c4b37606b1343f0dd7d64409c0f64ec202",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2813",
+    "object_ids": [
+      "montreux-motion-2813"
+    ],
+    "object_title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-10-01",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2813",
+    "political_object_ids": [
+      "montreux-motion-2813"
+    ],
+    "political_object_document_id": "montreux_motion_2813_text",
+    "political_object_document_ids": [
+      "montreux_motion_2813_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2813_report_6176",
+      "montreux_motion_2813_report_7472",
+      "montreux_motion_2813_text"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_3281_7113"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_2813_report_6176",
+      "montreux_motion_2813_report_7472"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "7113",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 19,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        4,
+        4,
+        5,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        3
+      ],
+      "characters_extracted": 47947,
+      "words_extracted": 7485,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2864_report_7474",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "extrait-Motion-Mme-Beatrice-Tisserand_Mise-a-disposition-de-locaux.pdf",
+    "source_title": "Mise à disposition de locaux sur le territoire montreusien à des fins d’accueil d’urgence pour femmes et membres de la communauté LBTIQ+",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2864",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7474",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "1ceef1ca5dbbad2ff00536eda48fe51b45fee716383af62ab8e5e57a1918eca6",
+    "source_content_hash": "8cec8912acd039c5a92860198683b93115f131f54b6fd42af1cc69e72057f9fd",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2864",
+    "object_ids": [
+      "montreux-motion-2864"
+    ],
+    "object_title": "Mise à disposition de locaux sur le territoire montreusien à des fins d’accueil d’urgence pour femmes et membres de la communauté LBTIQ+",
+    "authors": [
+      {
+        "name": "Béatrice Tisserand",
+        "party": "VER",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-09-14",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2864",
+    "political_object_ids": [
+      "montreux-motion-2864"
+    ],
+    "political_object_document_id": "montreux_motion_2864_text",
+    "political_object_document_ids": [
+      "montreux_motion_2864_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2864_report_6276",
+      "montreux_motion_2864_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2864_report_6276",
+      "montreux_motion_2864_report_7474"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7474",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1025,
+      "words_extracted": 158,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

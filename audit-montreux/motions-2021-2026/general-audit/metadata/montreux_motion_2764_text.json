@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2764_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+    "source_title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2764",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2764",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-03-02",
+    "language": "fr",
+    "content_hash": "34362d7c89c3ea46a1c8ac60a272f2539368801c9aa12180ee12611d947b228a",
+    "source_content_hash": "34362d7c89c3ea46a1c8ac60a272f2539368801c9aa12180ee12611d947b228a",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2764",
+    "object_ids": [
+      "montreux-motion-2764"
+    ],
+    "object_title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-03-02",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2764",
+    "political_object_ids": [
+      "montreux-motion-2764"
+    ],
+    "political_object_document_id": "montreux_motion_2764_text",
+    "political_object_document_ids": [
+      "montreux_motion_2764_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2764_report_6068"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2764_report_6068"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 285,
+      "words_extracted": 36,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

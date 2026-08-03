@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 52,
+    "original_motions": 17,
+    "reports": 31,
+    "responses": 4,
+    "chunks": 213,
+    "vectors": 213,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 17,
+    "objects_with_response": 5,
+    "objects_without_response": 12,
+    "broken_relationship_links": 0
+  },
+  "objects": [
+    {
+      "object_id": "montreux-motion-2663",
+      "title": "Pour une vision claire du développement des locaux administratifs communaux",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "montreux-motion-2720",
+      "title": "Mieux protéger le personnel de la vente et nos petits commerces locaux - Pour une révision partielle du règlement communal sur les jours et heures d'ouverture et de fermeture des magasins",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2736",
+      "title": "Des plans de mobilité pour les grandes manifestations montreusiennes",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "montreux-motion-2748",
+      "title": "Pour un vignoble de la Commune de Montreux en culture biologique",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2763",
+      "title": "Pour une étude de l’opportunité de densifier et d’étendre les fonctionnalités du Parking d'échange de Chailly-sur-Montreux »",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2764",
+      "title": "Pour un moratoire (ou un abandon ?) du projet des Grand-Prés",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2775",
+      "title": "Des mesures pour lutter contre les lits froids",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2813",
+      "title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "montreux-motion-2826",
+      "title": "Pour un audit externe du service de l'urbanisme",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2828",
+      "title": "Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "montreux-motion-2864",
+      "title": "Mise à disposition de locaux sur le territoire montreusien à des fins d’accueil d’urgence pour femmes et membres de la communauté LBTIQ+",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-2865",
+      "title": "Motion de MM. Arnaud Grand et Romain Pilloud « Modification du Fonds pour l’énergie et la durabilité en faveur du vélo sans assistance électrique et de l’économie locale",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-3006",
+      "title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-3013",
+      "title": "Verdir nos préaux",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-3024",
+      "title": "Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "montreux-motion-3065",
+      "title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "montreux-motion-3251",
+      "title": "Motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally : « Pour l’introduction dans le règlement du personnel d’un congé menstruel et de ménopause ou pré-ménopause».",
+      "has_response": false,
+      "response_status": "unanswered"
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "Aménager des points de baignade entre Territet et Clarens",
+      "expected_prefix": "montreux_motion_3024_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_motion_3024_report_6516",
+        "montreux_motion_3024_report_7461",
+        "montreux_motion_3024_report_8571",
+        "montreux_motion_3024_text",
+        "montreux_motion_response_3247_6993"
+      ]
+    },
+    {
+      "query": "moratoire sur la suppression des places de stationnement",
+      "expected_prefix": "montreux_motion_2828_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_motion_response_2962_6373",
+        "montreux_motion_response_2962_6373",
+        "montreux_motion_response_2962_6373",
+        "montreux_motion_2828_report_6256",
+        "montreux_motion_response_2962_6373"
+      ]
+    },
+    {
+      "query": "Plan d'Action Climat de la Commune de Montreux",
+      "expected_prefix": "montreux_motion_3065_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_motion_2748_report_6076",
+        "montreux_motion_response_3247_6993",
+        "montreux_motion_response_3281_7113",
+        "montreux_motion_3065_text",
+        "montreux_motion_3065_report_6677"
+      ]
+    },
+    {
+      "query": "congé menstruel et de ménopause règlement du personnel",
+      "expected_prefix": "montreux_motion_3251_",
+      "matched": true,
+      "top_document_ids": [
+        "montreux_motion_3251_report_7388",
+        "montreux_motion_3251_report_7106",
+        "montreux_motion_3251_text",
+        "montreux_motion_3251_report_7106",
+        "montreux_motion_3251_report_7106"
+      ]
+    }
+  ],
+  "failures": []
+}

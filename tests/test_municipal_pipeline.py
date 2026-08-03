@@ -29,18 +29,18 @@ class MunicipalityRegistryTests(unittest.TestCase):
         )
         self.assertTrue(MONTREUX.search_enabled)
         self.assertEqual(
-            MONTREUX.search_scope, "interpellations et postulats"
+            MONTREUX.search_scope, "interpellations, motions et postulats"
         )
         self.assertEqual(
             set(MONTREUX.document_types),
-            {"interpellations", "postulats"},
+            {"interpellations", "motions", "postulats"},
         )
         self.assertEqual(
             MONTREUX.source_domain, "www.conseilmontreux.ch"
         )
         self.assertEqual(
             MONTREUX.document_types,
-            ("interpellations", "postulats"),
+            ("interpellations", "motions", "postulats"),
         )
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
         self.assertFalse(BLONAY_SAINT_LEGIER.search_enabled)

@@ -1,0 +1,92 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2813_report_7472",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "extrait-Motion-M.-Olivier-Muller_Pour-un-reamenagement-des-places-de-jeux.pdf",
+    "source_title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2813",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7472",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "1262937fba805821d5d9ab0c875ea3e43f6168539ed316efaa9a1dad560e1c7d",
+    "source_content_hash": "9576232111e6f3dcf064e1959bc40baefbca338645c0be37c01da0e85a3766e2",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2813",
+    "object_ids": [
+      "montreux-motion-2813"
+    ],
+    "object_title": "Pour un réaménagement des places de jeux du Marché Couvert et de la Rouvenaz",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-10-01",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2813",
+    "political_object_ids": [
+      "montreux-motion-2813"
+    ],
+    "political_object_document_id": "montreux_motion_2813_text",
+    "political_object_document_ids": [
+      "montreux_motion_2813_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2813_report_6176",
+      "montreux_motion_2813_text",
+      "montreux_motion_response_3281_7113"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_3281_7113"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_2813_report_6176",
+      "montreux_motion_2813_report_7472"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7472",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 928,
+      "words_extracted": 146,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

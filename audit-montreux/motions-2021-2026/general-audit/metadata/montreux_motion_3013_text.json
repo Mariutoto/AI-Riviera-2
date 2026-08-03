@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_3013_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Verdir nos préaux",
+    "source_title": "Verdir nos préaux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3013",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3013",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-06",
+    "language": "fr",
+    "content_hash": "b48c1c49570cfc2437b8c6f8eead5cfb1ef12d70463ebcb62fb99079e8d0a004",
+    "source_content_hash": "b48c1c49570cfc2437b8c6f8eead5cfb1ef12d70463ebcb62fb99079e8d0a004",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-3013",
+    "object_ids": [
+      "montreux-motion-3013"
+    ],
+    "object_title": "Verdir nos préaux",
+    "authors": [
+      {
+        "name": "Claudia Hischenhuber",
+        "party": "VER",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2023-09-06",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-3013",
+    "political_object_ids": [
+      "montreux-motion-3013"
+    ],
+    "political_object_document_id": "montreux_motion_3013_text",
+    "political_object_document_ids": [
+      "montreux_motion_3013_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_3013_report_6515",
+      "montreux_motion_3013_report_7463"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_3013_report_6515",
+      "montreux_motion_3013_report_7463"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 249,
+      "words_extracted": 28,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

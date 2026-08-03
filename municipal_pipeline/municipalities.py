@@ -51,8 +51,8 @@ MONTREUX = Municipality(
     source_domain="www.conseilmontreux.ch",
     documents_directory="montreux",
     search_enabled=True,
-    search_scope="interpellations et postulats",
-    document_types=("interpellations", "postulats"),
+    search_scope="interpellations, motions et postulats",
+    document_types=("interpellations", "motions", "postulats"),
 )
 
 BLONAY_SAINT_LEGIER = Municipality(

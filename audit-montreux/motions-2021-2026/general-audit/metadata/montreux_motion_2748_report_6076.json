@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2748_report_6076",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Pour-un-vignoble-de-la-Commune-de-Montreux-en-culture-biologique_09-05-2022_10_34_14.pdf",
+    "source_title": "Pour un vignoble de la Commune de Montreux en culture biologique",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2748",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6076",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-09",
+    "language": "fr",
+    "content_hash": "72da362f8207b9d7be5e9a82c9d78ccfef91490b2a7a614f06a88a5bb90fa00f",
+    "source_content_hash": "4ee99187e2dd9ee7824763deb40d1a70f5ac8ed0dc31b176aef20ba2223a4eb0",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2748",
+    "object_ids": [
+      "montreux-motion-2748"
+    ],
+    "object_title": "Pour un vignoble de la Commune de Montreux en culture biologique",
+    "authors": [
+      {
+        "name": "Claudia Hischenhuber",
+        "party": "VER",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-02-02",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2748",
+    "political_object_ids": [
+      "montreux-motion-2748"
+    ],
+    "political_object_document_id": "montreux_motion_2748_text",
+    "political_object_document_ids": [
+      "montreux_motion_2748_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2748_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2748_report_6076"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6076",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 15526,
+      "words_extracted": 2520,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

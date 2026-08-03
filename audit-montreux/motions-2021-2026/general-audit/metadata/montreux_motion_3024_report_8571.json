@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_3024_report_8571",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Amenager-sans-attendre-des-points-de-baignades-attractifs-entre-Territet-et-Clarens-motio_9_20_31.pdf",
+    "source_title": "Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3024",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=8571",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-01",
+    "language": "fr",
+    "content_hash": "a24555622de7538115057bc8defbfc138c1a5ec21fe19c8658ce5be24897ee73",
+    "source_content_hash": "fcba411533de3a3a106685e7f09dd421c678544a768112117367009cd2c7592d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-3024",
+    "object_ids": [
+      "montreux-motion-3024"
+    ],
+    "object_title": "Aménager sans attendre des points de baignades attractifs entre Territet et Clarens",
+    "authors": [
+      {
+        "name": "Olivier Müller",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2023-09-06",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2025-05-14",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-3024",
+    "political_object_ids": [
+      "montreux-motion-3024"
+    ],
+    "political_object_document_id": "montreux_motion_3024_text",
+    "political_object_document_ids": [
+      "montreux_motion_3024_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_3024_report_6516",
+      "montreux_motion_3024_report_7461",
+      "montreux_motion_3024_text",
+      "montreux_motion_response_3247_6993"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_3247_6993"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_3024_report_6516",
+      "montreux_motion_3024_report_7461",
+      "montreux_motion_3024_report_8571"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "8571",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 18310,
+      "words_extracted": 2953,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

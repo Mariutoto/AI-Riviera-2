@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2763_report_6067",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Pour-une-etude-de-l-opportunite-de-densifier-et-d-etendre-les-fonctionnalites-du-Parking-d_8_50_57.pdf",
+    "source_title": "Pour une étude de l’opportunité de densifier et d’étendre les fonctionnalités du Parking d'échange de Chailly-sur-Montreux »",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2763",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6067",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-09",
+    "language": "fr",
+    "content_hash": "bd7b45b6c57d671da1724add1a6797f2937967f20006b643a4e5499a033399aa",
+    "source_content_hash": "a71bd448a6b952b9e28c0e74f1ae1e1353d39bda39b410951472a9ddded4a47d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2763",
+    "object_ids": [
+      "montreux-motion-2763"
+    ],
+    "object_title": "Pour une étude de l’opportunité de densifier et d’étendre les fonctionnalités du Parking d'échange de Chailly-sur-Montreux »",
+    "authors": [
+      {
+        "name": "Tal Luder",
+        "party": "UDC",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-03-02",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2763",
+    "political_object_ids": [
+      "montreux-motion-2763"
+    ],
+    "political_object_document_id": "montreux_motion_2763_text",
+    "political_object_document_ids": [
+      "montreux_motion_2763_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2763_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2763_report_6067"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6067",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        0
+      ],
+      "characters_extracted": 3971,
+      "words_extracted": 617,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

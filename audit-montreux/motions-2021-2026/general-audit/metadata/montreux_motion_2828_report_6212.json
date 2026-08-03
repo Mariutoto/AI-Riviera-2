@@ -1,0 +1,98 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2828_report_6212",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Motion-WINKLER-Graphique-population-vehicules-1980-2020.pdf",
+    "source_title": "Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2828",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6212",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-10-01",
+    "language": "fr",
+    "content_hash": "27eea6123eda4308bb49e573458e7c84e07b1e56954fa98622c884a52719612a",
+    "source_content_hash": "0ed81d9c2fc8a0db1bb9d1eaccad1029b8a4b789a93323e63e447c60797f1e80",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2828",
+    "object_ids": [
+      "montreux-motion-2828"
+    ],
+    "object_title": "Pour un moratoire sur la suppression des places de stationnement sur la commune de Montreux",
+    "authors": [
+      {
+        "name": "Lionel Winkler",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2023-03-29",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2828",
+    "political_object_ids": [
+      "montreux-motion-2828"
+    ],
+    "political_object_document_id": "montreux_motion_2828_text",
+    "political_object_document_ids": [
+      "montreux_motion_2828_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2828_report_6213",
+      "montreux_motion_2828_report_6250",
+      "montreux_motion_2828_report_6256",
+      "montreux_motion_2828_report_6260",
+      "montreux_motion_2828_text",
+      "montreux_motion_response_2962_6373"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_2962_6373"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_2828_report_6212",
+      "montreux_motion_2828_report_6213",
+      "montreux_motion_2828_report_6250",
+      "montreux_motion_2828_report_6256",
+      "montreux_motion_2828_report_6260"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6212",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        0
+      ],
+      "characters_extracted": 1504,
+      "words_extracted": 390,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

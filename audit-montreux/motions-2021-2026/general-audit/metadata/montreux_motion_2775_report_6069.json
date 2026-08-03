@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2775_report_6069",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Des-mesures-pour-lutter-contre-les-lits-froids_09-05-2022_8_57_44.pdf",
+    "source_title": "Des mesures pour lutter contre les lits froids",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2775",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=6069",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-05-09",
+    "language": "fr",
+    "content_hash": "5d717150dfb8d2c7b51d37e1508637884083471c14cb98e79a57c4fd8aea598a",
+    "source_content_hash": "a6ee4a6cdddf2d37bf2bba866059113707c0749a9d970ed3678468586bcca8c3",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2775",
+    "object_ids": [
+      "montreux-motion-2775"
+    ],
+    "object_title": "Des mesures pour lutter contre les lits froids",
+    "authors": [
+      {
+        "name": "Emmanuel Gétaz",
+        "party": "ML",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-05-18",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2775",
+    "political_object_ids": [
+      "montreux-motion-2775"
+    ],
+    "political_object_document_id": "montreux_motion_2775_text",
+    "political_object_document_ids": [
+      "montreux_motion_2775_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2775_report_6091",
+      "montreux_motion_2775_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2775_report_6069",
+      "montreux_motion_2775_report_6091"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "6069",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 7,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 21047,
+      "words_extracted": 3528,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2865_report_7476",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "extrait-Postulat-M-Arnaud-Grand-et-M.-Romain-Pilloud_Modification-du-Fonds-pour-l-energie-et-la-durabilite.pdf",
+    "source_title": "Motion de MM. Arnaud Grand et Romain Pilloud « Modification du Fonds pour l’énergie et la durabilité en faveur du vélo sans assistance électrique et de l’économie locale",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2865",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7476",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "0ba9902e8a297dd7b4d20b91efcdafd865502ae61d41d66ad957c9fffcb2c8df",
+    "source_content_hash": "6991685d05708538c7cd1302b52a592d0b3e88f0e368f3d2539d4497cba129c3",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2865",
+    "object_ids": [
+      "montreux-motion-2865"
+    ],
+    "object_title": "Motion de MM. Arnaud Grand et Romain Pilloud « Modification du Fonds pour l’énergie et la durabilité en faveur du vélo sans assistance électrique et de l’économie locale",
+    "authors": [
+      {
+        "name": "Arnaud Grand",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2022-09-14",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2865",
+    "political_object_ids": [
+      "montreux-motion-2865"
+    ],
+    "political_object_document_id": "montreux_motion_2865_text",
+    "political_object_document_ids": [
+      "montreux_motion_2865_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2865_report_6289",
+      "montreux_motion_2865_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_2865_report_6289",
+      "montreux_motion_2865_report_7476"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7476",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1159,
+      "words_extracted": 184,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

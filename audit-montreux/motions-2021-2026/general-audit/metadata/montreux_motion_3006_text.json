@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_3006_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+    "source_title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3006",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3006",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-06-21",
+    "language": "fr",
+    "content_hash": "aab63926d6353b32a6c93766557f8a5cce460808aa770477387acfccc15fd991",
+    "source_content_hash": "aab63926d6353b32a6c93766557f8a5cce460808aa770477387acfccc15fd991",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-3006",
+    "object_ids": [
+      "montreux-motion-3006"
+    ],
+    "object_title": "Pour que le Conseil communal reprenne la main en matière de logements à Montreux par un contrôle serré du travail municipal.",
+    "authors": [
+      {
+        "name": "Olivier Mark",
+        "party": "PLR",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2023-06-21",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-3006",
+    "political_object_ids": [
+      "montreux-motion-3006"
+    ],
+    "political_object_document_id": "montreux_motion_3006_text",
+    "political_object_document_ids": [
+      "montreux_motion_3006_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_3006_report_6499",
+      "montreux_motion_3006_report_7468"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_3006_report_6499",
+      "montreux_motion_3006_report_7468"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 348,
+      "words_extracted": 46,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

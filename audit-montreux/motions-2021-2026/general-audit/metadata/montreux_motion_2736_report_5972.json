@@ -1,0 +1,95 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_2736_report_5972",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "Rapport-motion-Des-plans-de-mobilite-pour-les-grandes-manifestations-montreusiennes_20-02-2022_18_42_23.pdf",
+    "source_title": "Des plans de mobilité pour les grandes manifestations montreusiennes",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=2736",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=5972",
+    "listing_year": 2022,
+    "legislature": "2021-2026",
+    "document_date": "2022-02-20",
+    "language": "fr",
+    "content_hash": "583af91567b655185735413289c1eced3b602ae5a186e324511de2e44a50f544",
+    "source_content_hash": "06c4df33288df4860c0ffa90471509b02d451a53702aaa0488afb90e65281154",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-2736",
+    "object_ids": [
+      "montreux-motion-2736"
+    ],
+    "object_title": "Des plans de mobilité pour les grandes manifestations montreusiennes",
+    "authors": [
+      {
+        "name": "Jessica Renel",
+        "party": "VER",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2021-12-15",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": "2022-09-07",
+    "has_response": true,
+    "has_dedicated_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-2736",
+    "political_object_ids": [
+      "montreux-motion-2736"
+    ],
+    "political_object_document_id": "montreux_motion_2736_text",
+    "political_object_document_ids": [
+      "montreux_motion_2736_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_2736_text",
+      "montreux_motion_response_2859_6202"
+    ],
+    "response_document_ids": [
+      "montreux_motion_response_2859_6202"
+    ],
+    "consideration_report_ids": [
+      "montreux_motion_2736_report_5972"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "5972",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 6,
+      "image_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "characters_extracted": 19189,
+      "words_extracted": 3063,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

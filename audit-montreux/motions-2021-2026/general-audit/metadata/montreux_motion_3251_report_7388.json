@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_3251_report_7388",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "consideration_report",
+    "title": "extrait-motion-Mmes-Krenger-Bonjour-Bally-pour-intro-reglement-du-personnel-d-un-conge-menstruel-menopause-et-pre-menopause.pdf",
+    "source_title": "Motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally : « Pour l’introduction dans le règlement du personnel d’un congé menstruel et de ménopause ou pré-ménopause».",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3251",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/download.asp?d=7388",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-04",
+    "language": "fr",
+    "content_hash": "905c9bca0ace53f6fb34ccfe5347ac2e3d815793c1d44fa073caa131938120dd",
+    "source_content_hash": "f0b59d05a1ee571168904ae288131ed058d29be62557b0212539a1004cbf1c14",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-3251",
+    "object_ids": [
+      "montreux-motion-3251"
+    ],
+    "object_title": "Motion de Mmes Anna Krenger, Tanya Bonjour et Lauraine Bally : « Pour l’introduction dans le règlement du personnel d’un congé menstruel et de ménopause ou pré-ménopause».",
+    "authors": [
+      {
+        "name": "Anna Krenger",
+        "party": "DA",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2025-05-21",
+    "status_normalized": "rejected",
+    "status": "Refusé",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": true,
+    "document_component_role": "consideration_report"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-3251",
+    "political_object_ids": [
+      "montreux-motion-3251"
+    ],
+    "political_object_document_id": "montreux_motion_3251_text",
+    "political_object_document_ids": [
+      "montreux_motion_3251_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_3251_report_7106",
+      "montreux_motion_3251_text"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_3251_report_7106",
+      "montreux_motion_3251_report_7388"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_consideration_report_pdf",
+    "source_download_id": "7388",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1150,
+      "words_extracted": 177,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

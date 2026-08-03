@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "montreux_motion_3065_text",
+    "commune": "Montreux",
+    "document_family": "political_object",
+    "category": "motion",
+    "document_role": "motion_text",
+    "title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+    "source_title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+    "source_page_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3065",
+    "file_url": "https://www.conseilmontreux.ch/conseilcommunal/public/documents/recherche/?id=3065",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-28",
+    "language": "fr",
+    "content_hash": "f5dd4d3976c88451c219aa6493f86a867418046f78e95b908f35e2605dd2015c",
+    "source_content_hash": "f5dd4d3976c88451c219aa6493f86a867418046f78e95b908f35e2605dd2015c",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "motion_metadata": {
+    "type": "motion",
+    "object_id": "montreux-motion-3065",
+    "object_ids": [
+      "montreux-motion-3065"
+    ],
+    "object_title": "Pour un \"Plan d'Action Climat\" de la Commune de Montreux",
+    "authors": [
+      {
+        "name": "Pierangelo Rothenbühler",
+        "party": "VER",
+        "role": "motionnaire"
+      }
+    ],
+    "deposit_date": "2024-02-28",
+    "status_normalized": "accepted",
+    "status": "Accepté",
+    "response_date": null,
+    "has_response": false,
+    "has_dedicated_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "document_component_role": "motion_text"
+  },
+  "relationships": {
+    "political_object_id": "montreux-motion-3065",
+    "political_object_ids": [
+      "montreux-motion-3065"
+    ],
+    "political_object_document_id": "montreux_motion_3065_text",
+    "political_object_document_ids": [
+      "montreux_motion_3065_text"
+    ],
+    "related_document_ids": [
+      "montreux_motion_3065_report_6677",
+      "montreux_motion_3065_report_7462"
+    ],
+    "response_document_ids": [],
+    "consideration_report_ids": [
+      "montreux_motion_3065_report_6677",
+      "montreux_motion_3065_report_7462"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Montreux",
+    "source_kind": "official_object_page",
+    "source_download_id": "",
+    "source_download_aliases": []
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 291,
+      "words_extracted": 35,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}
