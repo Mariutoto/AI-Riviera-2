@@ -181,7 +181,7 @@ def admin_tabs_enabled() -> bool:
     return value.lower().strip() in {"1", "true", "yes", "on"}
 
 
-st.set_page_config(page_title="AI Riviera", page_icon="🏛️", layout="wide")
+st.set_page_config(page_title="AI Riviera", page_icon=str(ASSETS_DIR / "favicon.png"), layout="wide")
 
 st.markdown(
     """
@@ -216,12 +216,32 @@ st.markdown(
     }
 
     .air-site-brand {
+        align-items: center;
         color: var(--air-ink);
+        display: flex;
         font-size: 1.18rem;
         font-weight: 600;
+        gap: 0.55rem;
         letter-spacing: -0.025em;
         line-height: 2.6rem;
         margin: 0;
+    }
+
+    .air-logo-badge {
+        align-items: center;
+        background: linear-gradient(135deg, var(--air-accent), var(--air-accent-dark));
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(35, 49, 57, 0.25);
+        display: inline-flex;
+        flex: none;
+        height: 30px;
+        justify-content: center;
+        width: 30px;
+    }
+
+    .air-logo-badge svg {
+        height: 16px;
+        width: 16px;
     }
 
     [data-testid="stTabs"] {
@@ -643,7 +663,21 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="air-site-brand">AI Riviera</div>', unsafe_allow_html=True)
+st.markdown(
+    """
+    <div class="air-site-brand">
+        <span class="air-logo-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 8c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
+                <path d="M2 13c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
+                <path d="M2 18c1.5-1.6 3-1.6 4.5 0s3 1.6 4.5 0 3-1.6 4.5 0 3 1.6 4.5 0" />
+            </svg>
+        </span>
+        AI Riviera
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 def current_filters() -> dict | None:
     filters = {}
@@ -1944,10 +1978,33 @@ with contact_tab:
         "souhaitez proposer une collaboration, signaler un document manquant "
         "ou suggérer une nouvelle commune ou une amélioration ?"
     )
+
+    with st.form("contact_form", clear_on_submit=True):
+        contact_name = st.text_input("Nom")
+        contact_email = st.text_input("Email")
+        contact_subject = st.text_input("Sujet")
+        contact_message = st.text_area("Message", height=160)
+        contact_submitted = st.form_submit_button("Envoyer")
+
+    if contact_submitted:
+        if not contact_name.strip() or not contact_email.strip() or not contact_message.strip():
+            st.error("Merci de renseigner au moins le nom, l'email et le message.")
+        elif not re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", contact_email.strip()):
+            st.error("L'adresse email ne semble pas valide.")
+        else:
+            from app.contact import ContactSendError, send_contact_message
+
+            try:
+                send_contact_message(contact_name.strip(), contact_email.strip(), contact_subject.strip(), contact_message.strip())
+            except ContactSendError as exc:
+                st.error(str(exc))
+            else:
+                st.success("Message envoyé, merci ! Je réponds généralement sous quelques jours.")
+
     st.markdown(
-        "[Écrivez-moi via GitHub](https://github.com/Mariutoto/AI-Riviera-2/issues/new)."
+        "Vous pouvez aussi [écrire via GitHub](https://github.com/Mariutoto/AI-Riviera-2/issues/new)."
     )
     st.caption(
-        "Les demandes sont centralisées avec le projet afin de pouvoir les suivre "
+        "Les demandes GitHub sont centralisées avec le projet afin de pouvoir les suivre "
         "et y répondre plus facilement."
     )
