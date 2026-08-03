@@ -481,28 +481,6 @@ st.markdown(
         margin-bottom: 0.15rem;
     }
 
-    .air-about-audience {
-        color: var(--air-muted);
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 0.9rem;
-        gap: 0.5rem 0.75rem;
-        list-style: none;
-        margin: 0.6rem 0 1.5rem;
-        padding: 0;
-    }
-
-    .air-about-audience li {
-        background: var(--air-soft);
-        border-radius: 999px;
-        padding: 0.3rem 0.85rem;
-    }
-
-    .air-about-audience strong {
-        color: var(--air-ink);
-        font-weight: 600;
-    }
-
     .air-about-note {
         background: #fff8ea;
         border: 1px solid #ead7a9;
@@ -1946,30 +1924,27 @@ with about_tab:
         unsafe_allow_html=True,
     )
 
-    st.subheader("À qui ça s'adresse ?")
-    st.markdown(
-        """
-        <ul class="air-about-audience">
-            <li><strong>Habitantes, habitants</strong> et médias</li>
-            <li><strong>Conseillères et conseillers</strong> communaux</li>
-            <li><strong>Administrations</strong> communales</li>
-            <li><strong>Associations</strong> et chercheur·euse·s</li>
-        </ul>
-        """,
-        unsafe_allow_html=True,
-    )
-
     st.subheader("Communes et documents disponibles")
     available_municipalities = [
         municipality
         for municipality in MUNICIPALITIES.values()
         if municipality.search_enabled
     ]
+    upcoming_municipalities = [
+        municipality
+        for municipality in MUNICIPALITIES.values()
+        if not municipality.search_enabled
+    ]
     st.markdown(
         "\n".join(
             f"- **{municipality.label}** — {municipality.search_scope}"
             for municipality in available_municipalities
         )
+    )
+    st.markdown(
+        "*À venir : "
+        + ", ".join(municipality.label for municipality in upcoming_municipalities)
+        + ", SIGE*"
     )
 
     st.markdown(
