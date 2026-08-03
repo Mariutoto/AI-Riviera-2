@@ -1,0 +1,74 @@
+Commune de
+
+# Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# INTERPELLATION
+
+Blonay, le 11 novembre 2025
+
+Réponse de la Municipalité à l’interpellation de M. Yves Filippozzi déposée lors de la séance du Conseil communal de Blonay - Saint-Légier du 30 septembre 2025, intitulée « OUI à l’information, NON à la désinformation »
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Conseillères et Conseillers communaux,
+
+Lors de la séance du Conseil communal de Blonay - Saint-Légier du 28 janvier 2025, le délibérant a pris en considération l’interpellation de M. Yves Filippozzi intitulée « OUI à l’information, NON à la désinformation ».
+
+# Réponse de la Municipalité
+
+Tout d’abord, la Municipalité dresse un bref historique de la situation en termes d’aménagement du territoire car il est vrai que depuis longtemps, voire depuis très longtemps, les lois fixaient des règles pour le dimensionnement des zones à bâtir et la manière de les délimiter.
+
+Au niveau national, les débats débutent en 1963 : l’Union syndicale suisse et le Parti socialiste lancent une initiative populaire contre la spéculation foncière. Le Conseil fédéral propose un contre-projet qui a pour but de protéger le droit à la propriété privée menacé par l’initiative. Le contre-projet est finalement retiré et l’initiative largement refusée en votation populaire en 1967. Le 14 septembre 1969, une faible majorité du peuple suisse accepte en votation un article constitutionnel sur l’aménagement du territoire, qui démontre une volonté de remédier au gaspillage des terres et à l’urbanisation désordonnée. Le Conseil fédéral édicte en mars 1972 un arrêté fédéral urgent plaçant sous protection les sites naturels et lieux culturels d’importance nationale et régionale. Cette mesure vise à éviter le mitage du paysage et à préserver la qualité de la vie, dans l’attente de l’entrée en vigueur de la loi fédérale. En 1973, un second arrêté fédéral urgent impose la séparation entre milieu bâti et milieu agricole.
+
+En 1976, le premier projet de LAT (1974) est refusé par le peuple en référendum. La principale raison : une taxe sur la plus-value des terrains est déjà envisagée pour indemniser les expropriations autorisées par la loi !
+
+En 1980, la LAT entre en vigueur, mais elle ne contient plus de taxes sur la plus-value, ni d’exigence de dézonage des zones à bâtir en cas de surdimensionnement. Elle précise cependant à l’art. 15 que « les zones à bâtir comprennent les terrains propres à la construction qui sont déjà largement bâtis ou qui seront probablement nécessaires à la construction dans les quinze ans à venir (...) ». Comme le mentionnent Me Bovay, Didisheim, Sulliger et Thonney dans leur ouvrage « Droit fédéral et vaudois de la construction », la méthode des tendances est en général propre à déterminer le besoin en terrain à bâtir. Il n’est cependant pas exclu d’y déroger (...). En son temps, les Municipalités disposaient d’une grande liberté d’appréciation des besoins. A cette époque, s’il y avait des exigences pour l’extension des zones à bâtir, il n’y avait aucune exigence de redimensionnement ou de dézonage des zones à bâtir précédemment déterminées.
+
+Durant cette période, le Canton avait validé les plans des zones comme conformes aux exigences légales cantonales et fédérales :
+
+Le plan des zones de Blonay a ete approuve par le Conseil d'Etat le 14 mai 1976 et a ete signe par le Chancelier.
+- Celui de St-Légier-la Chiésaz a été approuvé par le Conseil d'Etat le 13 mai 1983 et a été signé par le Chancelier.
+
+Ces deux plans comprenaient des réserves très importantes en zone villas, qui ont été largement construites depuis. D'ailleurs, la population est passée de 5'800 à 12'400 habitants entre 1980 et 2024 en construisant ce qui était permis par ces plans d'affectations. Nous relevons que ces plans n'ont pas été utilisés 10 ans ou 15 ans, mais près de 45 ans !
+
+Il n'est donc pas tout à fait correct d'affirmer que depuis 1964, la réduction de la zone à bâtir s'impose. La réalité est plutôt que depuis 1964, la réduction fait débat, a été refusée plusieurs fois par le peuple et ce n'est qu'en 2013 que le peuple a adopté une modification de la LAT visant à réduire les zones à bâtir surdimensionnées.
+
+Et il faut également rappeler que, au moment de la votation de la LAT, Mme Leuthard, Conseillère fédérale en charge du Département fédéral de l'environnement, des transports, de l'énergie et de la communication entre 2010 et 2017, avait « rassuré » le Canton de Vaud pour donner suite aux craintes exprimées par le Conseil d'Etat, en lien avec les dézonages et mesures prévisionnelles. Personne donc ne mesurait vraiment les implications de la LAT.
+
+La LAT révisée est entrée en vigueur en janvier 2014. A ce moment-là, les communes se sont posées des questions sur les implications de la LAT, mais le Canton n'avait pas émis d'instructions particulières. Le Canton et les Communes étaient d'avis que le Plan directeur cantonal de 2008 avait déjà réglé l'essentiel des questions qui se posaient.
+
+A vrai dire, l'arrêt 1C_361/2011 du 28 juin 2012 du Tribunal fédéral (pour un cas à Montreux) a fait jurisprudence en considérant que les communes ne devaient plus donner de permis de construire dans les périmètres de plans d'affectation antérieurs à 1980, sans réviser les plans d'affectation. Cet arrêt n'a pas amené le Canton à exiger une révision des plans d'affectation antérieurs à 1980. Ce dernier estimait et estime toujours que la situation est à analyser au cas par cas. Peu de communes ont été informées de cette jurisprudence ou ont lancé des révisions immédiates, alors que la révision de la LAT faisait débat. Ceci concerne Blonay, mais pas St-Légier-La Chiésaz qui a un PGA de 1983.
+
+En 2016, le Canton a mis en consultation une adaptation du Plan directeur cantonal. Ce projet prévoyait 1% de croissance annuelle hors de centre, admettait un taux de saturation des constructions à 80% du potentiel total, etc. Il prévoyait également la possibilité d'une zone d'affectation différée remplaçant la zone intermédiaire et permettant, au lieu de dézoner, de reporter de 10 ou 15 ans les possibilités de construire.
+
+Les Communes de Blonay et de St-Légier-La Chiésaz se sont interrogées sur les conséquences de ces nouvelles dispositions sur leur territoire. A ce moment, il n'était donc pas question de limiter l'octroi des permis de construire, mais d'élaborer des visions communales, afin de clarifier les implications et traiter le surdimensionnement des zones à bâtir.
+
+La Commune de St-Légier-La Chiésaz avait par exemple établi une vision communale en 2016 et l'avait transmise à l'Etat. Seules des parcelles communales étaient dézonées, les autres passaient en zone d'affectation différée. Ceci permettait de remplir les exigences du Plan directeur cantonal qui avait été mis en consultation publique.
+
+Mais à fin 2016, le Canton a revu sa copie du Plan directeur cantonal à la suite de la consultation publique et aux échanges avec la Confédération. L'Etat a alors rendu public un projet de Plan directeur cantonal (toujours provisoire) qui prévoyait 0.75% de croissance annuelle hors de centre, n'admettait plus de taux de saturation des constructions à 80% du potentiel total, etc. En décembre 2016, l'Etat a donc rendu un préavis sur la vision communale de St-Légier-La Chiésaz, positif, mais avec la demande d'aller plus loin dans les dézonages sur la base de ces nouveaux chiffres. Le nouveau mot d'ordre du SDT : il ne sera pas exigé d'atteindre le nombre d'habitants prévus par le Plan directeur cantonal, mais tout ce qui pourra être raisonnablement dézoné devra l'être.
+
+En 2017, le Grand Conseil a adopté le Plan directeur cantonal adapté, mais en supprimant la possibilité de zones d'affectation différées. Le Conseil d'Etat a décidé de mettre en place des zones réservées cantonales pour empêcher les nouvelles constructions à la périphérie du milieu bâti dans les périmètres hors centre des communes surdimensionnées.
+
+Finalement, en 2018 le Plan directeur cantonal adapté a été approuvé par le Conseil Fédéral, qui est entré en vigueur.
+
+A partir de là, les Communes n'ont plus délivré de permis de construire à la périphérie du milieu bâti, dans les secteurs hors-centre. Elles ont continué à le faire à l'intérieur du milieu bâti (où il n'y a pas d'exigence de dézoner) et dans le centre (non surdimensionné).
+
+Dès lors et au vu de ce qui précède, la Municipalité estime que le municipal en charge de l'aménagement du territoire n'a semble-t-il pas « arrangé les faits » en citant « Je pense qu'en 2014, il fallait être bien malin pour savoir comment les droits des parcelles allaient être traités 10 ans plus tard ». D'autant plus que, comme lui-même l'indique dans l'article, il n'était pas le municipal en charge à cette époque. Il faut également rappeler que l'article relate la situation d'un propriétaire et que les propos extraits de ce texte concernaient précisément cette situation.
+
+En conclusion, et pour répondre à la question posée par l'interpellant, oui la Municipalité partage le souci d'une information conforme au droit ainsi qu'à la réalité territoriale. Néanmoins, il ne peut pas être nié que la situation concernant notamment les dézonages des parcelles, respectivement les principes à appliquer pour le redimensionnement de la zone à bâtir a, quoiqu'il en soit, fortement évoluée ces 10 dernières années.
+
+AU NOM DE LA MUNICIPALITE
+
+Le syndic
+
+A. Bovay
+
+La secrétaire adj.
+
+![img-0.jpeg](img-0.jpeg)
+
+E. Grandjean-Marie
+
+Délégation municipale : M. Thierry George

@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2106172_response_5068834",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+    "source_title": "Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2106172",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5068834",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-03-26",
+    "language": "fr",
+    "content_hash": "20bcd39e31cb2eb0cf98c9574e8c942f506ef4e5ee0102b22fc122a1e4081b60",
+    "source_content_hash": "e2326b8185237150116f4c58a831b0f307545aa8648c0b4835f8f69a06cd53ea",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2106172",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2106172"
+    ],
+    "object_title": "Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+    "authors": [
+      {
+        "name": "Perrelet Michèle",
+        "person_id": 270241,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2024-03-26",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2106172",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2106172"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2106172_text_5041681",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2106172_text_5041681"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2106172_text_5041681"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2106172_response_5068834"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5068834"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2312,
+      "words_extracted": 367,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

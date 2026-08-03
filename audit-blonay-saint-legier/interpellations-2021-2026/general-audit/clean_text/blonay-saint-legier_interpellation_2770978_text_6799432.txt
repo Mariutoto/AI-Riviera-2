@@ -1,0 +1,57 @@
+Interpellation au sens de l’article 66 du Règlement du Conseil communal
+
+# Highway to Veyre ou quand nos rues deviennent l’enfer des GPS.
+
+Monsieur le Président,
+
+Monsieur le Syndic,
+
+Mesdames les Municipales et Messieurs les Municipaux,
+
+Chères et chers collègues,
+
+Je vous rassure tout de suite je ne vais pas vous chanter le célèbre tube de ACDC, *Highway to Hell*, je vais laisser cette prouesse aux artistes. Mais je me présente à vous ce soir car, je ne suis pas la seule, je pense, à constater la forte circulation dans le village de Blonay en fin de semaine, et ce encore plus en hiver, quand les stations de ski du Valais tournent à plein régime. Nous pouvons aussi constater, à la vue des plaques d’immatriculation, qu’il y a peu de locaux dans ces files indiennes de véhicules. Ceci est dû au fait que notre Commune est devenue, sans l’avoir choisi, un itinéraire de choix pour Google Maps et autres GPS, afin de permettre aux vacancières et vacanciers et autres automobilistes, en route pour le Valais, d’éviter l’échangeur de la Veyre. Ce ballet incessant de véhicules, défilant dans nos rues étroites et peu adaptées à une telle circulation, ne sont pas sans conséquence sur notre village : bruit, pollution, insécurité pour les enfants qui sortent de l’école, et même une clientèle qui renonce à se rendre dans nos commerces locaux, effrayée par ces embouteillages, tel que l’ont relaté notre boucher et notre fromager lors du reportage du 19:30 du 8 février dernier sur la RTS.
+
+Et pourtant, des solutions existent. Certaines communes ont pu travailler, de concert avec le canton, afin d’éviter que leurs routes ne deviennent des itinéraires alternatifs aux heures de pointe. Par exemple, plusieurs villages du Chablais vaudois, confrontés aux mêmes problématiques que notre Commune, ont travaillé avec le canton de Vaud, les CFF et les acteurs touristiques pour trouver des solutions. Une déclaration d’intention a été signée en septembre 2025, incluant plusieurs mesures (offres tarifaires avantageuses pour les transports publics, étalement des vacances scolaires, contacts avec Google Maps). D’autres communes dans d’autres cantons ont pris des mesures plus radicales, par exemple en limitant l’accès à certaines routes aux seuls
+
+riveraines et riverains (Les Ponts-de-Martel à Neuchâtel), ou en fermant les sorties d'autoroutes durant les jours de forte affluence, ne laissant passer que les plaques d'immatriculation de leur canton (Rhâzüns et Bonaduz au Grisons). Une vitesse limitée, au centre du village, par exemple à 30km/h, rendrait également cet itinéraire beaucoup moins attractif pour les différents algorithmes. Je vous rappelle que cette limitation a été approuvée par la direction générale de la mobilité du canton (DGMR), et que le groupe des Ephémères a présenté, dans sa synthèse, les souhaits des habitantes et habitants pour une modération du trafic.
+
+Aussi, face à cette situation, plusieurs questions s'imposent à la Municipalité :
+
+1. Quelles démarches concrètes ont été entreprises auprès du canton et des éditeurs GPS (Google Maps, Waze), pour que notre Commune ne soit pas systématiquement proposée comme itinéraire alternatif ?
+2. Peut-on sensibiliser la population à la problématique en l'encourageant à signaler le problème aux différentes plateformes GPS (le nombre de signalements aurait une forte influence pour un changement de pratique pour ces plateformes) ?
+3. Peut-on mettre en place des mesures comme des limitations de vitesse ou des panneaux dissuasifs, rendant notre Commune moins attractive pour les algorithmes ?
+4. Un groupe de travail associant habitantes et habitants, commerçantes et commerçants, ainsi que des services cantonaux et communaux pourrait-il être créé afin de trouver des solutions durables à ce problème récurrent ?
+5. Enfin, nos rues ne sont pas des autoroutes. Que compte faire la municipalité pour nous les rendre ?
+
+Je remercie la Municipalité des réponses qui seront apportées à cette interpellation.
+
+Blonay – St-Légier, le 24 février 2026
+
+Judith Bass
+
+Signature de conseillères et conseillers qui appuient l'interpellation (au moins 5)
+
+[tbl-0.md](tbl-0.md)
+
+Nom
+
+Prénom
+
+SIGNATURE
+
+Algiati Relet
+
+Mister
+
+Christen
+
+Anan
+
+Bellia
+
+Louis
+
+Fugold
+
+Rolf

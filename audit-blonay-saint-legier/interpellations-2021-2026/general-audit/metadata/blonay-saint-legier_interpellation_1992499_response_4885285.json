@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1992499_response_4885285",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+    "source_title": "Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1992499",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4885285",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-31",
+    "language": "fr",
+    "content_hash": "5bf49477d09379ec56a8df289a5443e29682891791e3609461f4b933b38d6def",
+    "source_content_hash": "a8a75cace46564b2198fcf3c8c7ee6354cf3d580027c5cdb1ce8f37a78c7f803",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1992499",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1992499"
+    ],
+    "object_title": "Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+    "authors": [
+      {
+        "name": "Weill-Lévy Anne",
+        "person_id": 270532,
+        "party": ""
+      }
+    ],
+    "deposit_date": "2023-10-31",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1992499",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1992499"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1992499_text_4815139",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1992499_text_4815139"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1992499_text_4815139"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1992499_response_4885285"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "4885285"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3683,
+      "words_extracted": 578,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

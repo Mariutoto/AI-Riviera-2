@@ -58,8 +58,11 @@ MONTREUX = Municipality(
 BLONAY_SAINT_LEGIER = Municipality(
     key="blonay-saint-legier",
     label="Blonay–Saint-Légier",
-    source_domain="",
+    source_domain="www.blonay-saint-legier.ch",
     documents_directory="blonay-saint-legier",
+    search_enabled=True,
+    search_scope="interpellations",
+    document_types=("interpellations",),
     aliases=("Blonay-Saint-Légier", "Blonay", "Saint-Légier"),
 )
 

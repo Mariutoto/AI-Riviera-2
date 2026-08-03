@@ -1,0 +1,69 @@
+![img-0.jpeg](img-0.jpeg)
+
+Commune de
+
+# Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# INTERPELLATION
+
+Blonay, le 21 avril 2026
+
+Réponse de la Municipalité à l’interpellation de M. Barbey déposée lors de la séance du Conseil communal du 24 février 2026, intitulée « Création d’un poste de responsable du patrimoine arboré (80%) et engagement d’un garde forestier auxiliaire : quelle stratégie en matière de gestion des ressources et des finances communales ?»
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Conseillères et Conseillers communaux,
+
+Lors de la séance du Conseil communal de Blonay - Saint-Légier du 24 février 2026, le délibérant a pris en considération l’interpellation de M. Barbey intitulée " Création d’un poste de responsable du patrimoine arboré (80%) et engagement d’un garde forestier auxiliaire : quelle stratégie en matière de gestion des ressources et des finances communales ? ".
+
+# 1. Opportunité du poste et taux d’activité
+
+Le poste de responsable du patrimoine arboré ne constitue pas une création nouvelle, mais un renouvellement faisant suite au départ du titulaire précédent.
+
+Dans plusieurs communes voisines, des fonctions comparables existent ou sont en cours d’analyse. À Vevey, un poste de répondant du patrimoine arboré est en place à un taux d’activité de 100 %. À La Tour-de-Peilz et à Montreux, des fonctions similaires sont actuellement à l’étude.
+
+Il convient toutefois de relever que les cahiers des charges et la répartition du temps de travail varient sensiblement selon le contexte communal, rendant toute comparaison directe délicate.
+
+À Vevey, le nombre d’arbres situés sur le domaine public est particulièrement élevé (environ 3’000). Le suivi, le contrôle et la gestion du patrimoine arboré communal représentent donc une part prépondérante de l’activité du poste. En revanche, les demandes de dérogation au maintien du patrimoine arboré, qu’elles soient motivées par des raisons de sécurité ou liées à des projets de construction, restent relativement limitées, avec environ 30 dossiers par an.
+
+À l’inverse, sur le territoire de Blonay – Saint-Légier, le nombre d’arbres relevant du domaine public est nettement inférieur (environ 500). En contrepartie, le volume de demandes de dérogation au maintien du patrimoine arboré est plus important, avec près de 70 dossiers traités annuellement. Une part significative de ces demandes est liée à des projets de construction souvent complexes, concernant plusieurs arbres à la fois et nécessitant un traitement plus long que les dossiers liés à des motifs sécuritaires ou sanitaires. Sans oublier les contrôles et le suivi des compensations.
+
+Compte tenu de ces différences, les postes ne sont que difficilement comparables. À Blonay – Saint-Légier, la fonction comporte une dimension opérationnelle et pratique importante (soins aux arbres) en plus du travail administratif (gestion des demandes d’autorisation d’abattage et suivi des dossiers), conséquence de l’étendue du territoire urbanisé de notre Commune. Cela alors que dans des Communes comme Vevey ou celles du cercle régional, le poste revêt avant tout un caractère administratif. Le positionnement du poste dépend de la stratégie que souhaite suivre la Municipalité en termes d’arborisation du domaine public et privé communal. La qualité de vie des habitantes et des habitants en dépend.
+
+## 2. Externalisation : analyse de l'opportunité
+
+Une externalisation totale ou partielle de cette fonction n'apparaît pas opportune pour plusieurs raisons :
+
+- La charge de travail justifie pleinement l'existence d'un poste en interne ;
+- Le suivi rigoureux et continu des dossiers, notamment en lien avec les demandes de dérogation au maintien du patrimoine arboré, nécessite une connaissance fine du contexte communal ;
+- Le poste est transversal par nature et implique une collaboration régulière avec de nombreux services communaux, en particulier les espaces verts, le service de l'urbanisme et le service des bâtiments ce qui, pour un mandataire, peut rapidement faire monter les honoraires ;
+- Les impacts financiers ne sont pas négligeables. Une externalisation du poste devrait être évaluée budgétairement. Le poste existant n'alourdi pas les finances communales ;
+- Une externalisation de ces services devrait probablement faire l'objet d'appel d'offre selon la loi sur les marchés publics.
+
+Par ailleurs, les autres services communaux sont déjà fortement sollicités et ne disposent pas des ressources nécessaires pour assumer ces tâches supplémentaires. Le poste exige des compétences spécifiques, à la fois juridiques (connaissance de la législation en matière de protection des arbres) et techniques (connaissances dendrologiques).
+
+### L'engagement d'un garde forestier auxiliaire
+
+Ce poste ne complète pas la masse des ETP communaux puisque le garde forestier adjoint est engagé à 100% et supporté entièrement par le Groupement forestier de la Veveyse (GFV).
+
+Le GFV est une corporation de droit publique qui a la charge de l'application des tâches régaliennes et la gestion des dossiers forestiers de sept communes de la région correspondant aux délimitations du triage forestier T053 qui est en soi déjà une collaboration intercommunale. Depuis les années 1985, les comptes forestiers souffrent des baisses des recettes et de l'augmentation des charges, ce qui a poussé depuis plus de 40 ans les gestionnaires à développer des solutions efficientes pour continuer à maintenir l'équilibre des fonctions forestières sur l'ensemble du territoire.
+
+Le poste est conçu sur la durée, les charges de travail dans la gestion des patrimoines forestiers étant en augmentation. Les fonctions forestières que sont la production de bois, la protection contre les dangers naturels, la protection de la biodiversité et l'accueil du public sont soumises à de fortes pressions dues aux changements climatiques, à l'augmentation de la population, aux changements des besoins de la population et à la multiplication des constructions et des ouvrages (Liste non exhaustive). Il faut également relever la sous-exploitation des forêts privées du triage (qui relève des tâches étatiques) couplée à l'augmentation de la consommation de bois indigène tant dans le domaine de l'énergie que de la construction. Ce domaine nécessite des ressources humaines supplémentaires.
+
+Aujourd'hui grâce à une gestion financière rigoureuse et à ses activités, le GFV a pu augmenter son personnel en autofinancement. Aucun nouveau soutien communal n'est nécessaire. Mieux encore, les participations financières communales dans cette structure ont sensiblement baissé ces cinq dernières années.
+
+AU NOM DE LA MUNICIPALITE
+
+Le syndic
+
+A. Bovay
+
+![img-1.jpeg](img-1.jpeg)
+
+Le secrétaire
+
+J-M. Guex
+
+Délégation municipale : M. Jean-Marc Nicolet, municipal

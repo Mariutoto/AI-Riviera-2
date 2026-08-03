@@ -1,0 +1,84 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2886184_text_7023763",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation A Salanon, Les Vert.e.s, Simone transports, épisode 3",
+    "source_title": "Interpellation de M. A. Salanon : \"Simone utilise les transports\" - Episode 3",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2886184",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/7023763",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-27",
+    "language": "fr",
+    "content_hash": "0ed37d828351b21e4ec07ba90ff385ad92d1a5b098c82564a8f75a0b4e417265",
+    "source_content_hash": "999235dbc31fcee2b0ed15d738f6b47d5a37b767da229ce9e55957737be7339a",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2886184",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2886184"
+    ],
+    "object_title": "Interpellation de M. A. Salanon : \"Simone utilise les transports\" - Episode 3",
+    "authors": [
+      {
+        "name": "Salanon Alain",
+        "person_id": 270541,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2026-05-27",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2886184",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2886184"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2886184_text_7023763",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2886184_text_7023763"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "7023763"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 4677,
+      "words_extracted": 737,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

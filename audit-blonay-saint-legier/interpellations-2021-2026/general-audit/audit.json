@@ -1,0 +1,2519 @@
+{
+  "schema_version": "blonay-saint-legier-interpellations-general-audit-v1",
+  "scope": {
+    "commune": "Blonay–Saint-Légier",
+    "category": "interpellation",
+    "legislature": "2021-2026",
+    "start_date": "2021-07-01",
+    "end_date": "2026-06-30",
+    "note": "La commune est issue de la fusion de Blonay et St-Légier-La Chiésaz au 1er juillet 2023 ; aucune donnée n'existe avant cette date."
+  },
+  "source": {
+    "institution": "Conseil communal de Blonay–Saint-Légier",
+    "listing_page": "https://www.blonay-saint-legier.ch/objets-politiques"
+  },
+  "summary": {
+    "political_objects": 51,
+    "documents": 93,
+    "original_interpellations": 52,
+    "municipal_responses": 39,
+    "resolutions": 2,
+    "objects_with_response": 39,
+    "objects_without_response": 12,
+    "objects_with_resolution": 2,
+    "objects_with_synthetic_text": 1,
+    "ocr_applied": 63,
+    "chunks": 241,
+    "status_counts": {
+      "answered": 35,
+      "in_progress": 4,
+      "deposited": 12
+    }
+  },
+  "chunking": {
+    "max_words": 450,
+    "overlap_words": 60,
+    "embedding_model": "mistral-embed"
+  },
+  "political_objects": [
+    {
+      "source_object_id": 1944049,
+      "object_id": "blonay-saint-legier-interpellation-1944049",
+      "nummer": "2023-IN-04",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1944049",
+      "title": "Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+      "authors": [
+        {
+          "name": "Olgiati Pelet Mirta",
+          "person_id": 270544,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-08-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1944049_response_4967932"
+      ],
+      "resolution_document_ids": [
+        "blonay-saint-legier_interpellation_1944049_resolution_4994647"
+      ],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": true,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1944088,
+      "object_id": "blonay-saint-legier-interpellation-1944088",
+      "nummer": "2023-IN-05",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1944088",
+      "title": "Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2023-08-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1944088_response_7026355"
+      ],
+      "resolution_document_ids": [
+        "blonay-saint-legier_interpellation_1944088_resolution_7069351"
+      ],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": true,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1965697,
+      "object_id": "blonay-saint-legier-interpellation-1965697",
+      "nummer": "2023-IN-06",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1965697",
+      "title": "Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+      "authors": [
+        {
+          "name": "Monsieur Volet Philippe",
+          "person_id": 270334,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-09-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1965697_response_4801582"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1992484,
+      "object_id": "blonay-saint-legier-interpellation-1992484",
+      "nummer": "2023-IN-07",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1992484",
+      "title": "Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+      "authors": [
+        {
+          "name": "Chatelain Marc",
+          "person_id": 270421,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-10-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1992484_response_5725132"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1992499,
+      "object_id": "blonay-saint-legier-interpellation-1992499",
+      "nummer": "2023-IN-08",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1992499",
+      "title": "Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+      "authors": [
+        {
+          "name": "Weill-Lévy Anne",
+          "person_id": 270532,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-10-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1992499_response_4885285"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1992511,
+      "object_id": "blonay-saint-legier-interpellation-1992511",
+      "nummer": "2023-IN-09",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1992511",
+      "title": "Interpellation de Mme Carole Roulet et consorts \"charger la Municipalité de permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder aux deux déchetteries de la commune\"",
+      "authors": [
+        {
+          "name": "Roulet Carole",
+          "person_id": 270253,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-10-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1992511_response_4864000"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1992520,
+      "object_id": "blonay-saint-legier-interpellation-1992520",
+      "nummer": "2023-IN-10",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1992520",
+      "title": "Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+      "authors": [
+        {
+          "name": "Roulet Carole",
+          "person_id": 270253,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-10-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1992520_response_5657893"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 1992526,
+      "object_id": "blonay-saint-legier-interpellation-1992526",
+      "nummer": "2023-IN-11",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/1992526",
+      "title": "Interpellation de M. Claude Schwab et consorts \"Clarifier les bases légales pour l'aménagement de notre territoire\"",
+      "authors": [
+        {
+          "name": "Schwab Claude",
+          "person_id": 280157,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2023-10-31",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_1992526_response_4885279"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2059981,
+      "object_id": "blonay-saint-legier-interpellation-2059981",
+      "nummer": "2024-IN-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2059981",
+      "title": "Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+      "authors": [
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-01-30",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2059981_response_5022835"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2059999,
+      "object_id": "blonay-saint-legier-interpellation-2059999",
+      "nummer": "2024-IN-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2059999",
+      "title": "Interpellation de M. Yvan Kohli et consorts \"Règlement déchetterie\"",
+      "authors": [
+        {
+          "name": "Kohli Yvan",
+          "person_id": 270316,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-01-30",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2059999_response_5290900"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2081635,
+      "object_id": "blonay-saint-legier-interpellation-2081635",
+      "nummer": "2024-IN-03",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2081635",
+      "title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+      "authors": [
+        {
+          "name": "Gédet Dolores",
+          "person_id": 294731,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-02-29",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2081635_response_5131882"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": false,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2106172,
+      "object_id": "blonay-saint-legier-interpellation-2106172",
+      "nummer": "2024-IN-04",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2106172",
+      "title": "Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+      "authors": [
+        {
+          "name": "Perrelet Michèle",
+          "person_id": 270241,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-03-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2106172_response_5068834"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2106190,
+      "object_id": "blonay-saint-legier-interpellation-2106190",
+      "nummer": "2024-IN-05",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2106190",
+      "title": "Interpellation de M. A. Salanon \"Simone utilise les transports publics, épisode 2\"",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-03-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2106190_response_5131864"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2153704,
+      "object_id": "blonay-saint-legier-interpellation-2153704",
+      "nummer": "2024-IN-06",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2153704",
+      "title": "Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+      "authors": [
+        {
+          "name": "Perrelet Michèle",
+          "person_id": 270241,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-05-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2153704_response_5394145"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2187346,
+      "object_id": "blonay-saint-legier-interpellation-2187346",
+      "nummer": "2024-IN-07",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2187346",
+      "title": "Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+      "authors": [
+        {
+          "name": "Stoeri Christoph",
+          "person_id": 270331,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-06-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2187346_response_5291002"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2187349,
+      "object_id": "blonay-saint-legier-interpellation-2187349",
+      "nummer": "2024-IN-08",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2187349",
+      "title": "Interpellation de Mme Marion Brunschwig et consorts \"Les crottes de chien sur les chemins de la Commune, toute une sinécure !\"",
+      "authors": [
+        {
+          "name": "Brunschwig Marion",
+          "person_id": 332789,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-06-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2187349_response_5290897"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2258947,
+      "object_id": "blonay-saint-legier-interpellation-2258947",
+      "nummer": "2024-IN-09",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2258947",
+      "title": "Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+      "authors": [
+        {
+          "name": "Perrelet Michèle",
+          "person_id": 270241,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-09-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2258947_response_5334166"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2284093,
+      "object_id": "blonay-saint-legier-interpellation-2284093",
+      "nummer": "2024-IN-10",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2284093",
+      "title": "Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+      "authors": [
+        {
+          "name": "Balsiger Mathieu",
+          "person_id": 270406,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-10-30",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2284093_response_5657890"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2308615,
+      "object_id": "blonay-saint-legier-interpellation-2308615",
+      "nummer": "2025-IN-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2308615",
+      "title": "Interpellation de M. Alain Salanon, groupe Les Vert.e.s \"Wanted\"",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-01-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2308615_response_5532607"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2308618,
+      "object_id": "blonay-saint-legier-interpellation-2308618",
+      "nummer": "2024-IN-12",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2308618",
+      "title": "Interpellation de M. Y. Krebs \"Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?\"",
+      "authors": [
+        {
+          "name": "Yann Krebs",
+          "person_id": null
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-11-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2308618_response_5666053"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2351869,
+      "object_id": "blonay-saint-legier-interpellation-2351869",
+      "nummer": "2025-IN-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2351869",
+      "title": "Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+      "authors": [
+        {
+          "name": "Schwab Claude",
+          "person_id": 280157,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-01-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2351869_response_5532598"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2371366,
+      "object_id": "blonay-saint-legier-interpellation-2371366",
+      "nummer": "2024-IN-11",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2371366",
+      "title": "Interpellation de M. G. Singarella \"Chemin des Osches : rétablir d'urgence les horaires d'éclairage pour garantir la sécurité avant qu'un drame ne survienne\"",
+      "authors": [
+        {
+          "name": "Singarella Giuseppe",
+          "person_id": 280160,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2024-11-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2371366_response_5531140"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2375860,
+      "object_id": "blonay-saint-legier-interpellation-2375860",
+      "nummer": "2025-IN-03",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2375860",
+      "title": "Interpellation de M. Charles Morard , EBSL / Groupe Elu : Plus de transparence dans la gestion des \"communs\"",
+      "authors": [
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-02-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2375860_response_5589649"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2375869,
+      "object_id": "blonay-saint-legier-interpellation-2375869",
+      "nummer": "2025-IN-04",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2375869",
+      "title": "Interpellation de M. Pascal Gréverath et consorts : Pour une meilleure valorisation des déchets plastiques",
+      "authors": [
+        {
+          "name": "Gréverath Pascal",
+          "person_id": 363652,
+          "party": "Les Vert'libéraux Blonay - St-Légier (PVL-BSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-02-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2375869_response_5574016"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2400142,
+      "object_id": "blonay-saint-legier-interpellation-2400142",
+      "nummer": "2025-IN-05",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2400142",
+      "title": "Interpellation de M. Charles Morard et consorts : Coupe et élagage excessif des arbres dans la commune de Blonay - Saint-Légier",
+      "authors": [
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-03-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2400142_response_5829172"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2400151,
+      "object_id": "blonay-saint-legier-interpellation-2400151",
+      "nummer": "2025-IN-06",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2400151",
+      "title": "Interpellation de M. Tanguy Krebs et consorts : Cartoriviera 3D, un outil novateur, mais dans quel intérêt ?",
+      "authors": [
+        {
+          "name": "Krebs Tanguy",
+          "person_id": 270052,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-03-25",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2400151_response_5639725"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2430031,
+      "object_id": "blonay-saint-legier-interpellation-2430031",
+      "nummer": "2025-IN-07",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2430031",
+      "title": "Interpellation de M. Alain Salanon et consorts \"Droit au but - Activités sportives et de loisirs\"",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-04-29",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2430031_response_6008230"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2430040,
+      "object_id": "blonay-saint-legier-interpellation-2430040",
+      "nummer": "2025-IN-08",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2430040",
+      "title": "Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+      "authors": [
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-04-29",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2430040_response_5725129"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2430049,
+      "object_id": "blonay-saint-legier-interpellation-2430049",
+      "nummer": "2025-IN-09",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2430049",
+      "title": "Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+      "authors": [
+        {
+          "name": "Monsieur Wicky Michel",
+          "person_id": 380467,
+          "party": "Les Vert'libéraux Blonay - St-Légier (PVL-BSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-04-29",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2430049_response_6008206"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2430055,
+      "object_id": "blonay-saint-legier-interpellation-2430055",
+      "nummer": "2025-IN-10",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2430055",
+      "title": "Interpellation de Mme Catherine Herrero, Charles Morard et consorts \"Parcelles agricoles situées dans le secteur de Mottex\"",
+      "authors": [
+        {
+          "name": "Herrero Catherine",
+          "person_id": 280151,
+          "party": "Parti socialiste et Allié.e.s"
+        },
+        {
+          "name": "Morard Charles",
+          "person_id": 270613,
+          "party": ""
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-04-29",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2430055_response_6008203"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2546101,
+      "object_id": "blonay-saint-legier-interpellation-2546101",
+      "nummer": "2025-IN-11",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2546101",
+      "title": "Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+      "authors": [
+        {
+          "name": "Gullo-Ott Marisa",
+          "person_id": 270100,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2025-08-26",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2546101_response_6831112"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2580643,
+      "object_id": "blonay-saint-legier-interpellation-2580643",
+      "nummer": "2025-IN-12",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2580643",
+      "title": "Interpellation de M. Yves Filippozzi, Les Vert.e.s - OUI à l'information NON à la désinformation",
+      "authors": [
+        {
+          "name": "Filippozzi Yves",
+          "person_id": 270529,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2025-10-01",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2580643_response_6308995"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2605825,
+      "object_id": "blonay-saint-legier-interpellation-2605825",
+      "nummer": "2025-IN-13",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605825",
+      "title": "Interpellation de M. Alain Salanon, Les Vert.e.s - Droit au but, le retour",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2025-10-28",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2605825_response_6407762"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2605966,
+      "object_id": "blonay-saint-legier-interpellation-2605966",
+      "nummer": "2025-IN-14",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2605966",
+      "title": "Interpellation de M. Eric Boraley et consorts - Rétribution en vin local pour les dernières séances",
+      "authors": [
+        {
+          "name": "Boraley Eric",
+          "person_id": 270043,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "En traitement",
+      "status_normalized": "in_progress",
+      "deposit_date": "2025-10-28",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2652926,
+      "object_id": "blonay-saint-legier-interpellation-2652926",
+      "nummer": "2025-IN-15",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2652926",
+      "title": "Interpellation de Mme Mirta Olgiati Pelet - Quel soutien de notre commune pour un plan \"Grand-Froid\" ?",
+      "authors": [
+        {
+          "name": "Olgiati Pelet Mirta",
+          "person_id": 270544,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2025-11-25",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2742986,
+      "object_id": "blonay-saint-legier-interpellation-2742986",
+      "nummer": "2026-IN-01",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2742986",
+      "title": "Interpellation de M. Louis Bellier - \"On ne joue pas dans un parking !\"",
+      "authors": [
+        {
+          "name": "Bellier Louis",
+          "person_id": 428206,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-02-10",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2770969,
+      "object_id": "blonay-saint-legier-interpellation-2770969",
+      "nummer": "2026-IN-02",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2770969",
+      "title": "Interpellation de M. Alain Salanon, Groupe Les Vert.e.s - \"Vous avez dit intelligence ? IA\"",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2770969_response_6957625"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2770978,
+      "object_id": "blonay-saint-legier-interpellation-2770978",
+      "nummer": "2026-IN-03",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2770978",
+      "title": "Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+      "authors": [
+        {
+          "name": "Bass Judith",
+          "person_id": 394666,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2770978_response_7027438"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2770990,
+      "object_id": "blonay-saint-legier-interpellation-2770990",
+      "nummer": "2026-IN-04",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2770990",
+      "title": "Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+      "authors": [
+        {
+          "name": "Fares Joey",
+          "person_id": 270622,
+          "party": "UDC Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2770990_response_6899215"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2770993,
+      "object_id": "blonay-saint-legier-interpellation-2770993",
+      "nummer": "2026-IN-05",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2770993",
+      "title": "Interpellation de M. Mathieu Balsiger, PLR - \"Positionnement de la Municipalité sur l'écriture inclusive\"",
+      "authors": [
+        {
+          "name": "Balsiger Mathieu",
+          "person_id": 270406,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2770993_response_7014169"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2771005,
+      "object_id": "blonay-saint-legier-interpellation-2771005",
+      "nummer": "2026-IN-06",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2771005",
+      "title": "Interpellation de M. Pierre Barbey, PLR - \"Création d'un poste de responsable du patrimoine arboré (80 %) et engagement d'un garde forestier auxiliaire : Quelle stratégie en matière de gestion des ressources et des finances communales ?\"",
+      "authors": [
+        {
+          "name": "Barbey Pierre",
+          "person_id": 270289,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2771005_response_6945916"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2771014,
+      "object_id": "blonay-saint-legier-interpellation-2771014",
+      "nummer": "2026-IN-07",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2771014",
+      "title": "Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+      "authors": [
+        {
+          "name": "Guillaume-Gentil Sylvain",
+          "person_id": 270271,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Répondu",
+      "status_normalized": "answered",
+      "deposit_date": "2026-02-24",
+      "associated_object_ids": [],
+      "response_document_ids": [
+        "blonay-saint-legier_interpellation_2771014_response_6895618"
+      ],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": true,
+      "has_resolution": false,
+      "is_closed": true,
+      "response_status": "written_response"
+    },
+    {
+      "source_object_id": 2822758,
+      "object_id": "blonay-saint-legier-interpellation-2822758",
+      "nummer": "2026-IN-08",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822758",
+      "title": "Interpellation de M. C. Chabloz, PS & Allié.e.s - \"à plus dans le bus\"",
+      "authors": [
+        {
+          "name": "Chabloz Christian",
+          "person_id": 270121,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-03-31",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2822773,
+      "object_id": "blonay-saint-legier-interpellation-2822773",
+      "nummer": "2026-IN-09",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822773",
+      "title": "Interpellation de Mme M. Brunschwig, PLR - \"Eclairage au sentier de Bousse\"",
+      "authors": [
+        {
+          "name": "Brunschwig Marion",
+          "person_id": 332789,
+          "party": "PLR Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-03-31",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2822776,
+      "object_id": "blonay-saint-legier-interpellation-2822776",
+      "nummer": "2026-IN-10",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822776",
+      "title": "Interpellation de Mme M. Gullo-Ott, PS & Allié.e.s - Des toilettes publiques au parc de \"Mon Foyer\"",
+      "authors": [
+        {
+          "name": "Gullo-Ott Marisa",
+          "person_id": 270100,
+          "party": "Parti socialiste et Allié.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-03-31",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2822779,
+      "object_id": "blonay-saint-legier-interpellation-2822779",
+      "nummer": "2026-IN-11",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2822779",
+      "title": "Interpellation de M. Y. Filippozzi, Les Vert.e.s - \"ASR 2035\" et territoire communal",
+      "authors": [
+        {
+          "name": "Filippozzi Yves",
+          "person_id": 270529,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-03-31",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2886175,
+      "object_id": "blonay-saint-legier-interpellation-2886175",
+      "nummer": "2026-IN-12",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2886175",
+      "title": "Interpellation de M. T. Krebs \"Agression, vol et humiliation à Bahyse\"",
+      "authors": [
+        {
+          "name": "Krebs Tanguy",
+          "person_id": 270052,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-05-27",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2886184,
+      "object_id": "blonay-saint-legier-interpellation-2886184",
+      "nummer": "2026-IN-13",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2886184",
+      "title": "Interpellation de M. A. Salanon : \"Simone utilise les transports\" - Episode 3",
+      "authors": [
+        {
+          "name": "Salanon Alain",
+          "person_id": 270541,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-05-27",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2908576,
+      "object_id": "blonay-saint-legier-interpellation-2908576",
+      "nummer": "2026-IN-14",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2908576",
+      "title": "Interpellation de Mme Barbara Kool, UCBSL : \"Mon enfant n'a plus de place à la cantine à la rentrée : quelles solutions ?\"",
+      "authors": [
+        {
+          "name": "Kool Barbara",
+          "person_id": 270232,
+          "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-06-16",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2908591,
+      "object_id": "blonay-saint-legier-interpellation-2908591",
+      "nummer": "2026-IN-15",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2908591",
+      "title": "Interpellation de M. Louis Bellier, Les Vert.e.s : \"En selle Marcelle !\"",
+      "authors": [
+        {
+          "name": "Bellier Louis",
+          "person_id": 428206,
+          "party": "Les Vert.e.s"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-06-16",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    },
+    {
+      "source_object_id": 2908600,
+      "object_id": "blonay-saint-legier-interpellation-2908600",
+      "nummer": "2026-IN-16",
+      "source_page": "https://www.blonay-saint-legier.ch/objetspolitiques/2908600",
+      "title": "Interpellation de M. Romain Belotti concernant les violences aux collèges de Bahyse - Média",
+      "authors": [
+        {
+          "name": "Belotti Romain",
+          "person_id": 270067,
+          "party": "UDC Blonay - Saint-Légier"
+        }
+      ],
+      "status": "Déposé",
+      "status_normalized": "deposited",
+      "deposit_date": "2026-06-16",
+      "associated_object_ids": [],
+      "response_document_ids": [],
+      "resolution_document_ids": [],
+      "has_interpellation_text": true,
+      "has_response": false,
+      "has_resolution": false,
+      "is_closed": false,
+      "response_status": "unanswered"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "blonay-saint-legier_interpellation_2081635_text",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2081635"
+      ],
+      "title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+      "role": "interpellation_text",
+      "document_date": "2024-02-29",
+      "file_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2081635",
+      "chunks": 1,
+      "source_kind": "official_object_page"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944049_text_4679716",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944049"
+      ],
+      "title": "Interpellation de Mme M. Olgiati Pelet",
+      "role": "interpellation_text",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4679716",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944049_response_4967932",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944049"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+      "role": "municipal_response",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4967932",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944049_resolution_4994647",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944049"
+      ],
+      "title": "Résolution — Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+      "role": "resolution",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4994647",
+      "chunks": 1,
+      "source_kind": "official_resolution_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944088_text_4679797",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944088"
+      ],
+      "title": "Interpellation de M. A. Salanon",
+      "role": "interpellation_text",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4679797",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944088_response_7026355",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944088"
+      ],
+      "title": "Réponse municipale — Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+      "role": "municipal_response",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7026355",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1944088_resolution_7069351",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1944088"
+      ],
+      "title": "Résolution — Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+      "role": "resolution",
+      "document_date": "2023-08-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7069351",
+      "chunks": 2,
+      "source_kind": "official_resolution_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1965697_text_4736605",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1965697"
+      ],
+      "title": "Interpellation - Dépistage bucco-dentaire - P. Volet",
+      "role": "interpellation_text",
+      "document_date": "2023-09-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4736605",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1965697_response_4801582",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1965697"
+      ],
+      "title": "Réponse municipale — Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+      "role": "municipal_response",
+      "document_date": "2023-09-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4801582",
+      "chunks": 13,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992484_text_4815121",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992484"
+      ],
+      "title": "Interpellation - Rodéos urbains - Marc Chatelain",
+      "role": "interpellation_text",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4815121",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992484_response_5725132",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992484"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+      "role": "municipal_response",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5725132",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992499_text_4815139",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992499"
+      ],
+      "title": "Interpellation - Refus PA Praz Grisoud - quel aménagement de notre territoire- Anne Weill-Lévy",
+      "role": "interpellation_text",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4815139",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992499_response_4885285",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992499"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+      "role": "municipal_response",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4885285",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992511_text_4815148",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992511"
+      ],
+      "title": "Interpellation - Accès 2 déchetteries - Carole Roulet",
+      "role": "interpellation_text",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4815148",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992511_response_4864000",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992511"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Carole Roulet et consorts \"charger la Municipalité de permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder aux deux déchetteries de la commune\"",
+      "role": "municipal_response",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4864000",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992520_text_4815211",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992520"
+      ],
+      "title": "Interpellation - Accès chemins communaux - Carole Roulet",
+      "role": "interpellation_text",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4815211",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992520_response_5657893",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992520"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+      "role": "municipal_response",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5657893",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992526_text_4815217",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992526"
+      ],
+      "title": "Interpellation - Clarifier bases légales - aménagement territoire - Claude Schwab",
+      "role": "interpellation_text",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4815217",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_1992526_response_4885279",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-1992526"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Claude Schwab et consorts \"Clarifier les bases légales pour l'aménagement de notre territoire\"",
+      "role": "municipal_response",
+      "document_date": "2023-10-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4885279",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2059981_text_4956094",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2059981"
+      ],
+      "title": "Interpellation - Pouvoir prendre un ticket et connaître les horaires avant de prendre le train",
+      "role": "interpellation_text",
+      "document_date": "2024-01-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4956094",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2059981_response_5022835",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2059981"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+      "role": "municipal_response",
+      "document_date": "2024-01-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5022835",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2059999_text_4956121",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2059999"
+      ],
+      "title": "Interpellation - Règlement déchetterie - Yvan Kohli",
+      "role": "interpellation_text",
+      "document_date": "2024-01-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/4956121",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2059999_response_5290900",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2059999"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Yvan Kohli et consorts \"Règlement déchetterie\"",
+      "role": "municipal_response",
+      "document_date": "2024-01-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5290900",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2081635_response_5131882",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2081635"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+      "role": "municipal_response",
+      "document_date": "2024-02-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5131882",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2106172_text_5041681",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2106172"
+      ],
+      "title": "Interpellation de Mme M. Perrelet - Déchetterie de Blonay",
+      "role": "interpellation_text",
+      "document_date": "2024-03-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5041681",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2106172_response_5068834",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2106172"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+      "role": "municipal_response",
+      "document_date": "2024-03-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5068834",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2106190_text_5041690",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2106190"
+      ],
+      "title": "Interpellation de M. A. Salanon - Transports publics, épisode 2",
+      "role": "interpellation_text",
+      "document_date": "2024-03-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5041690",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2106190_response_5131864",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2106190"
+      ],
+      "title": "Réponse municipale — Interpellation de M. A. Salanon \"Simone utilise les transports publics, épisode 2\"",
+      "role": "municipal_response",
+      "document_date": "2024-03-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5131864",
+      "chunks": 5,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2153704_text_5132695",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2153704"
+      ],
+      "title": "Interpellation Mme M. Perrelet GdI - Rendre notre patrimoine visible et connu",
+      "role": "interpellation_text",
+      "document_date": "2024-05-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5132695",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2153704_response_5394145",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2153704"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+      "role": "municipal_response",
+      "document_date": "2024-05-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5394145",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2187346_text_5184715",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2187346"
+      ],
+      "title": "Interpellation PLR et Alliés - Pour une baisse d'impôts 2025",
+      "role": "interpellation_text",
+      "document_date": "2024-06-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5184715",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2187346_response_5291002",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2187346"
+      ],
+      "title": "Réponse municipale — Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+      "role": "municipal_response",
+      "document_date": "2024-06-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5291002",
+      "chunks": 11,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2187349_text_5184721",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2187349"
+      ],
+      "title": "Interpellation Marion Brunschwig - Crottes de chien sur les chemins de la Commune",
+      "role": "interpellation_text",
+      "document_date": "2024-06-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5184721",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2187349_response_5290897",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2187349"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Marion Brunschwig et consorts \"Les crottes de chien sur les chemins de la Commune, toute une sinécure !\"",
+      "role": "municipal_response",
+      "document_date": "2024-06-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5290897",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2258947_text_5303149",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2258947"
+      ],
+      "title": "Interpellation de Mme Michèle Perrelet - Place de Jeux aux Chevalleyres",
+      "role": "interpellation_text",
+      "document_date": "2024-09-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5303149",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2258947_response_5334166",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2258947"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+      "role": "municipal_response",
+      "document_date": "2024-09-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5334166",
+      "chunks": 5,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2284093_text_5353501",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2284093"
+      ],
+      "title": "Interpellation M Balsiger - Cohabitation VTT, randonneurs et agriculteurs sur les hauts de la Commune",
+      "role": "interpellation_text",
+      "document_date": "2024-10-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5353501",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2284093_response_5657890",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2284093"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+      "role": "municipal_response",
+      "document_date": "2024-10-30",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5657890",
+      "chunks": 5,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2308615_text_5495134",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2308615"
+      ],
+      "title": "Interpellation de M. A Salanon - Wanted",
+      "role": "interpellation_text",
+      "document_date": "2025-01-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5495134",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2308615_response_5532607",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2308615"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Alain Salanon, groupe Les Vert.e.s \"Wanted\"",
+      "role": "municipal_response",
+      "document_date": "2025-01-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5532607",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2308618_text_5405890",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2308618"
+      ],
+      "title": "Interpellation Yann Krebs, Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?",
+      "role": "interpellation_text",
+      "document_date": "2024-11-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5405890",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2308618_response_5666053",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2308618"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Y. Krebs \"Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?\"",
+      "role": "municipal_response",
+      "document_date": "2024-11-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5666053",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2351869_text_5495143",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2351869"
+      ],
+      "title": "Interpellation C. Schwab - Préparer les échéances - 28.01.2025",
+      "role": "interpellation_text",
+      "document_date": "2025-01-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5495143",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2351869_response_5532598",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2351869"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+      "role": "municipal_response",
+      "document_date": "2025-01-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5532598",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2371366_text_5531137",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2371366"
+      ],
+      "title": "Interpellation de M. G. Singarella",
+      "role": "interpellation_text",
+      "document_date": "2024-11-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5531137",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2371366_response_5531140",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2371366"
+      ],
+      "title": "Réponse municipale — Interpellation de M. G. Singarella \"Chemin des Osches : rétablir d'urgence les horaires d'éclairage pour garantir la sécurité avant qu'un drame ne survienne\"",
+      "role": "municipal_response",
+      "document_date": "2024-11-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5531140",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2375860_text_5540590",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2375860"
+      ],
+      "title": "Interpellation de M. Charles Morard",
+      "role": "interpellation_text",
+      "document_date": "2025-02-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5540590",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2375860_response_5589649",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2375860"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Charles Morard , EBSL / Groupe Elu : Plus de transparence dans la gestion des \"communs\"",
+      "role": "municipal_response",
+      "document_date": "2025-02-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5589649",
+      "chunks": 6,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2375869_text_5540593",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2375869"
+      ],
+      "title": "Interpellation de M. Pascal Gréverath",
+      "role": "interpellation_text",
+      "document_date": "2025-02-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5540593",
+      "chunks": 4,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2375869_response_5574016",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2375869"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Pascal Gréverath et consorts : Pour une meilleure valorisation des déchets plastiques",
+      "role": "municipal_response",
+      "document_date": "2025-02-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5574016",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2400142_text_5598601",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2400142"
+      ],
+      "title": "Interpellation de M. Charles Morard",
+      "role": "interpellation_text",
+      "document_date": "2025-03-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5598601",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2400142_response_5829172",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2400142"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Charles Morard et consorts : Coupe et élagage excessif des arbres dans la commune de Blonay - Saint-Légier",
+      "role": "municipal_response",
+      "document_date": "2025-03-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5829172",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2400151_text_5598610",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2400151"
+      ],
+      "title": "Interpellation Tanguy Krebs",
+      "role": "interpellation_text",
+      "document_date": "2025-03-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5598610",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2400151_response_5639725",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2400151"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Tanguy Krebs et consorts : Cartoriviera 3D, un outil novateur, mais dans quel intérêt ?",
+      "role": "municipal_response",
+      "document_date": "2025-03-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5639725",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430031_text_5664658",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430031"
+      ],
+      "title": "Interpellation A. Salanon - Droit au but",
+      "role": "interpellation_text",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5664658",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430031_response_6008230",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430031"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Alain Salanon et consorts \"Droit au but - Activités sportives et de loisirs\"",
+      "role": "municipal_response",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6008230",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430040_text_5664664",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430040"
+      ],
+      "title": "Interpellation Charles Morard - Commission des pétitions",
+      "role": "interpellation_text",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5664664",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430040_response_5725129",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430040"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+      "role": "municipal_response",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5725129",
+      "chunks": 1,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430049_text_5664670",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430049"
+      ],
+      "title": "Interpellation de M. Wicky - Equité traitement autorisation construire",
+      "role": "interpellation_text",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5664670",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430049_response_6008206",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430049"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+      "role": "municipal_response",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6008206",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430055_text_5664673",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430055"
+      ],
+      "title": "Interpellation C. Herrero et C. Morard - Parcelles agricoles secteur Mottex",
+      "role": "interpellation_text",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/5664673",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2430055_response_6008203",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2430055"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Catherine Herrero, Charles Morard et consorts \"Parcelles agricoles situées dans le secteur de Mottex\"",
+      "role": "municipal_response",
+      "document_date": "2025-04-29",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6008203",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2546101_text_6081691",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2546101"
+      ],
+      "title": "Interpellation de Mme Gullo Ott PS & Allié.e.s",
+      "role": "interpellation_text",
+      "document_date": "2025-08-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6081691",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2546101_response_6831112",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2546101"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+      "role": "municipal_response",
+      "document_date": "2025-08-26",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6831112",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2580643_text_6151585",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2580643"
+      ],
+      "title": "Interpellation de M. Y. Filippozzi - Oui à l'information, non à la désinformation - 30.09.2025",
+      "role": "interpellation_text",
+      "document_date": "2025-10-01",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6151585",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2580643_response_6308995",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2580643"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Yves Filippozzi, Les Vert.e.s - OUI à l'information NON à la désinformation",
+      "role": "municipal_response",
+      "document_date": "2025-10-01",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6308995",
+      "chunks": 4,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2605825_text_6247897",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2605825"
+      ],
+      "title": "Interpellation de M. Alain Salanon",
+      "role": "interpellation_text",
+      "document_date": "2025-10-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6247897",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2605825_response_6407762",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2605825"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Alain Salanon, Les Vert.e.s - Droit au but, le retour",
+      "role": "municipal_response",
+      "document_date": "2025-10-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6407762",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2605966_text_6248110",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2605966"
+      ],
+      "title": "Interpellation Eric Boraley",
+      "role": "interpellation_text",
+      "document_date": "2025-10-28",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6248110",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2652926_text_6369875",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2652926"
+      ],
+      "title": "Interpellation Mme Mirta Ogliati Pelet - Plan Grand Froid",
+      "role": "interpellation_text",
+      "document_date": "2025-11-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6369875",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2652926_text_6444281",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2652926"
+      ],
+      "title": "Communication municipale 46-2025 - Ouverture hébergement d'urgence Vevey",
+      "role": "interpellation_text",
+      "document_date": "2025-11-25",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6444281",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2742986_text_6722765",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2742986"
+      ],
+      "title": "Interpellation L Bellier, Vert.e.s - On ne joue pas dans un parking - 10.02.2026",
+      "role": "interpellation_text",
+      "document_date": "2026-02-10",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6722765",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770969_text_6799426",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770969"
+      ],
+      "title": "Interpellation A Salanon, Vert.e.s",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799426",
+      "chunks": 4,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770969_response_6957625",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770969"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Alain Salanon, Groupe Les Vert.e.s - \"Vous avez dit intelligence ? IA\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6957625",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770978_text_6799432",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770978"
+      ],
+      "title": "Interpellation J Bass, Vert.e.s",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799432",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770978_response_7027438",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770978"
+      ],
+      "title": "Réponse municipale — Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7027438",
+      "chunks": 2,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770990_text_6799459",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770990"
+      ],
+      "title": "Interpellation J. Fares, ELU",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799459",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770990_response_6899215",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770990"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6899215",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770993_text_6799462",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770993"
+      ],
+      "title": "Interpellation M. Balsiger, PLR",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799462",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2770993_response_7014169",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2770993"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Mathieu Balsiger, PLR - \"Positionnement de la Municipalité sur l'écriture inclusive\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7014169",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2771005_text_6799468",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2771005"
+      ],
+      "title": "Interpellation P Barbey, PLR",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799468",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2771005_response_6945916",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2771005"
+      ],
+      "title": "Réponse municipale — Interpellation de M. Pierre Barbey, PLR - \"Création d'un poste de responsable du patrimoine arboré (80 %) et engagement d'un garde forestier auxiliaire : Quelle stratégie en matière de gestion des ressources et des finances communales ?\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6945916",
+      "chunks": 3,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2771014_text_6799474",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2771014"
+      ],
+      "title": "Interpellation S Guillaume-Gentil, UCBSL",
+      "role": "interpellation_text",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6799474",
+      "chunks": 3,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2771014_response_6895618",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2771014"
+      ],
+      "title": "Réponse municipale — Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+      "role": "municipal_response",
+      "document_date": "2026-02-24",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6895618",
+      "chunks": 8,
+      "source_kind": "official_municipal_response_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2822758_text_6908944",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2822758"
+      ],
+      "title": "Interpellation de M. C. Chabloz",
+      "role": "interpellation_text",
+      "document_date": "2026-03-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6908944",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2822773_text_6908956",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2822773"
+      ],
+      "title": "Interpellation Mme M. Brunschwig",
+      "role": "interpellation_text",
+      "document_date": "2026-03-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6908956",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2822776_text_6908959",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2822776"
+      ],
+      "title": "Interpellation Mme M. Gullo-Ott",
+      "role": "interpellation_text",
+      "document_date": "2026-03-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6908959",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2822779_text_6908971",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2822779"
+      ],
+      "title": "Interpellation Y. Filippozzi",
+      "role": "interpellation_text",
+      "document_date": "2026-03-31",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/6908971",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2886175_text_7023754",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2886175"
+      ],
+      "title": "Interpellation de T. Krebs, ELU - Agression à Bahyse",
+      "role": "interpellation_text",
+      "document_date": "2026-05-27",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7023754",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2886184_text_7023763",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2886184"
+      ],
+      "title": "Interpellation A Salanon, Les Vert.e.s, Simone transports, épisode 3",
+      "role": "interpellation_text",
+      "document_date": "2026-05-27",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7023763",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2908576_text_7069333",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2908576"
+      ],
+      "title": "Interpellation de Mme B. Kool, UCBSL",
+      "role": "interpellation_text",
+      "document_date": "2026-06-16",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7069333",
+      "chunks": 2,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2908591_text_7069339",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2908591"
+      ],
+      "title": "Interpellation L. Bellier",
+      "role": "interpellation_text",
+      "document_date": "2026-06-16",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7069339",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    },
+    {
+      "document_id": "blonay-saint-legier_interpellation_2908600_text_7069342",
+      "political_object_ids": [
+        "blonay-saint-legier-interpellation-2908600"
+      ],
+      "title": "Interpellation R. Belotti",
+      "role": "interpellation_text",
+      "document_date": "2026-06-16",
+      "file_url": "https://www.blonay-saint-legier.ch/_doc/7069342",
+      "chunks": 1,
+      "source_kind": "official_interpellation_text_pdf"
+    }
+  ]
+}

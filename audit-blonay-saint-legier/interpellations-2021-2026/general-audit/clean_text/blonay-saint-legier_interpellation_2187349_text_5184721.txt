@@ -1,0 +1,83 @@
+# INTERPELLATION
+
+# Les crottes de chien sur les chemins de la Commune, toute une sinécure !
+
+Madame la Présidente,
+Mesdames, Messieurs Les Municipaux,
+Chers Collègues,
+
+J'ai été élue par les habitants de notre commune/ville de Blonay St-Légier pour être leur
+représentante et leur voix au sein du Conseil Communal. A ce titre, je me permets
+aujourd'hui de prendre la parole et d'interpeller la Municipalité sur un sujet qui peut
+sembler anodin, mais qui toutefois, pourrit la vie de nombreux utilisateurs de nos trottoirs et
+chemins pédestres et ceci sans compter les jardins des propriétaires privés.
+
+Nous aimons tous nos amis à 4 pattes, les chiens, mais il est à relever que si la majorité de
+leurs propriétaires les tiennent en laisse et ramassent leurs crottes, il y en a d'autres qui
+malheureusement n'adoptent pas ce comportement civilisé.
+
+C'est le cas sur le trajet de l'école entre la Route des Epélévoz et le collège de Clos Béguin où
+le nombre de déjections journalières sur le sol sont impressionnantes. N'empruntant pas ce
+chemin moi-même, j'ai été interpellée par un voisin, avec de nombreuses photos à l'appui,
+et ceci à plusieurs reprises, depuis des mois et des mois. Je précise que la route des Epélévoz
+est une allée très fréquentée par les propriétaires de chien qui profitent des vertes prairies
+pour lâcher leur animal dans la nature.
+
+Il est à noter que la même situation règne sur les quais de Montreux-Villeneuve où il faut
+regarder où l'on marche tout au long du parcours. Notre Commune n'est, de loin pas, la
+seule avec ce problème récurrent, fruit des incivilités de propriétaires canins négligents.
+
+Depuis la Place de Saint-Légier, il semblerait qu'il existe uniquement 2 poubelles avec
+distributeur de sachets à crottes. Celles-ci se trouvent au bas de la route du tirage (Pl. de
+Saint-Légier) et vers la fontaine de la route des Epélévoz. Je demande donc à la Municipalité
+de bien vouloir rajouter une poubelle vers l'emplacement de l'ancien « Molok » (croisement
+Ch. des Jaquerodes) et, surtout, de bien vouloir disposer des panneaux de mise en garde aux
+propriétaires de chien indélicats, en guise de rappel, aux endroits stratégiques (sur la route
+des Epélévoz, au bas de la route du tirage et aux abords de l'école), comme celui disposé au
+début du chemin des « noyers ». Il faudrait de plus, signifier clairement que les
+contrevenants seront amendés.
+
+Pour le surplus, le canton impose que les canidés soient tenus en laisse entre le 1er avril et le
+15 juillet afin de préserver le bétail, la faune sauvage et la flore. C'est une obligation qui
+n'est pas malheureusement pas toujours respectée. Il conviendrait de le signaler clairement
+sur les sentiers pédestres et de publier un article dans le « Commune Info » afin d'informer
+la partie de la population qui ignore cette loi.
+
+D'avance je remercie la Municipalité pour l'importance qu'elle accordera à ce sujet et pour
+les dispositions qu'elle prendra.
+
+Marion Brunschwig, Conseillère Communale
+
+Signatures :
+
+NOM
+
+DEJARDIN
+
+RUCHET
+
+Contreras
+
+DECOMBAZ
+
+Voll
+
+PRENOM
+
+Philippe
+
+Dominique
+
+Carlos
+
+Julien
+
+Philippe
+
+SIGNATURES
+
+P. Dejardin
+
+Carlos Contreras
+
+Voll

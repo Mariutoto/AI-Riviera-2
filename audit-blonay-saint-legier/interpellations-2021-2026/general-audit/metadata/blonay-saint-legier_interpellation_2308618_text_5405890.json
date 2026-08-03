@@ -1,0 +1,85 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2308618_text_5405890",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation Yann Krebs, Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?",
+    "source_title": "Interpellation de M. Y. Krebs \"Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2308618",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5405890",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-11-26",
+    "language": "fr",
+    "content_hash": "47acfddfba2793499c0e185d1b458a71c923fd95e48cd2257cc3fb3d4503dd9a",
+    "source_content_hash": "383ec93e7422ffe30a11c8cdaed94d72eb44c2ac82ea4707e67abe62e4f4f40e",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2308618",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2308618"
+    ],
+    "object_title": "Interpellation de M. Y. Krebs \"Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?\"",
+    "authors": [
+      {
+        "name": "Yann Krebs",
+        "person_id": null
+      }
+    ],
+    "deposit_date": "2024-11-26",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2308618",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2308618"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2308618_text_5405890",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2308618_text_5405890"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2308618_response_5666053"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2308618_response_5666053"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "5405890"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2602,
+      "words_extracted": 419,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2886175_text_7023754",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de T. Krebs, ELU - Agression à Bahyse",
+    "source_title": "Interpellation de M. T. Krebs \"Agression, vol et humiliation à Bahyse\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2886175",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/7023754",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-05-27",
+    "language": "fr",
+    "content_hash": "35615bf3ecf7f757c7435b84191a4ee4a2ac3568980c1a727d80d6a23c35f6cd",
+    "source_content_hash": "acb749082069660ea72162e9284f83add0573cb003c711f833314e01c2b32da6",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2886175",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2886175"
+    ],
+    "object_title": "Interpellation de M. T. Krebs \"Agression, vol et humiliation à Bahyse\"",
+    "authors": [
+      {
+        "name": "Krebs Tanguy",
+        "person_id": 270052,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2026-05-27",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2886175",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2886175"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2886175_text_7023754",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2886175_text_7023754"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "7023754"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 3816,
+      "words_extracted": 563,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

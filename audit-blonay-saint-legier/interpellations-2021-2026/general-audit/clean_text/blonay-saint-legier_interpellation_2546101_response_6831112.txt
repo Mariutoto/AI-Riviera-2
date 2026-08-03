@@ -1,0 +1,94 @@
+Commune de
+
+# Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# INTERPELLATION
+
+Blonay, le 3 mars 2026
+
+Réponse de la Municipalité à l’interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es, déposée lors de la séance du Conseil communal de Blonay - Saint-Légier du 26 août 2025, intitulée « Mesure d’austérité cantonale : Quel impact sur la population de Blonay – Saint-Légier »
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Conseillères et Conseillers communaux,
+
+Lors de la séance du Conseil communal de Blonay - Saint-Légier du 26 août 2025, le délibérant a pris en considération l’interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es intitulée « Mesure d’austérité cantonale : Quel impact sur la population de Blonay – Saint-Légier ».
+
+La Municipalité n’était pas en mesure de répondre plus tôt à l’interpellation, car elle attendait la finalisation du budget cantonal 2026. Les mesures d’assainissement ont été élaborées progressivement après le déficit 2024 et modifiées durant le long processus parlementaire, avec adoption seulement en décembre 2025. La Municipalité a attendu le texte final pour fournir une analyse fiable des impacts sur la population.
+
+Question 1 et 2 : La Municipalité s’est-elle positionnée par rapport aux annonces concernant Rive-Neuve ? La Municipalité a-t-elle accès aux critères ayant mené à ces décisions concernant Rive-Neuve ? Si oui, quels sont-ils ?
+
+En juillet 2025, le Canton annonçait des mesures d’économie sectorielles dont des économies attendues de 20 millions CHF pour 2026 dans le secteur de la santé.
+
+Dans ce cadre, la Fondation Rive-Neuve était menacée financièrement par les coupes annoncées par le canton, ce qui aurait pu compromettre ses activités.
+
+Le 13 août 2025, la Municipalité adressait un courrier au Conseil d’Etat pour lui faire part de sa plus vive inquiétude quant à la remise en question du soutien cantonal à la Fondation Rive-Neuve, institution pionnière en soins palliatifs spécialisés, via la suppression des Prestations d’Intérêt Générale (PIG). Dans son courrier, la Municipalité expliquait que la suppression des PIG mettait en danger sa mission et sa continuité. Elle constatait également que la fondation fonctionne à 50 % grâce à des dons privés et ne reçoit qu’un soutien de 1 million de francs, exclusivement dédié à sa mission spécialisée tandis que le CHUV bénéficie de plus de 120 millions sans affectation précise. Pour finir, elle évoquait que la transformation de la fondation en simple EMS détruirait son expertise et son efficacité régionale. En conclusion, elle priait le Conseil d’Etat de procéder à une pesée des intérêts qui tiennent compte de la mission spécialisée, de l’engagement philanthropique et, surtout, du besoin des patients et de leurs familles.
+
+Le DSAS précise que durant l’été, le Conseil d’État a effectué plusieurs rencontres pour comprendre les implications et enjeux des mesures budgétaires annoncées en juillet 2025 pour le système de santé et que la Direction générale de la santé (DGS) a également pu s’entretenir individuellement avec la Fondation Rive-Neuve afin de déterminer le meilleur chemin possible dans ce contexte.
+
+Ainsi, le Conseil d'État a souhaité revoir certaines mesures annoncées pour 2026, afin de donner plus de temps aux institutions pour effectuer les démarches et changements nécessaires à moyen et long terme.
+
+La Fondation Rive-Neuve a été informée le 24 septembre 2025 de la diminution des coupes la concernant pour 2026, sous réserve de la validation finale du budget 2026 par le Grand Conseil.
+
+Au cours de septembre 2025, le canton de Vaud a atténué les mesures d'économies qui auraient dû frapper lourdement le secteur de la santé dans le budget 2026. Les coupes annoncées dans l'été ont été recalibrées à des niveaux nettement inférieurs, ce qui a permis de réduire leur impact immédiat sur des institutions comme la Fondation Rive-Neuve (220'000 francs, contre 1,1 million).
+
+Question 3 : Pouvez-vous fournir un inventaire des services communaux et des domaines de compétence de la Commune et de la région qui dépendent directement de subventions cantonales (nature des subventions, montants 2024-2025, part du budget communal concernée) ? Si non, pourquoi ?
+
+Interrogée à ce sujet, l'Union des Communes Vaudoises nous a apporté les réponses suivantes :
+
+Les principales subventions cantonales susceptibles d'impacter la Commune concernent :
+
+1. Diminution subvention FAJE, impact sur la participation des communes
+
+La diminution de 10 millions de la subvention à la FAJE pour l'exercice 2026 n'a aucune incidence sur la subvention socle des réseaux par la FAJE. La mesure est donc indolore pour l'exercice 2026. En effet, le subventionnement aux réseaux, grâce à quelques adaptations des flux financiers Canton-FAJE et en raison des réserves comptables de la FAJE, n'est pas impacté pour l'exercice 2026. Cela ne dit rien de la variation dans les budgets communaux des charges de l'accueil de jour, mais ce n'est pas cette mesure cantonale à 10 millions qui aura un impact direct pour les communes en 2026. Lors des débats au Grand Conseil, cette mesure à 10 millions n'a pas été adoptée pour 2 exercices comme proposé par le Conseil d'Etat, mais uniquement pour 2026. Les débats repartiront donc pour le budget 2027.
+
+2. Diminution subvention transports publics
+
+Il n'y a pas d'entrée en vigueur, ou plutôt un report d'entrée en vigueur, d'une nouvelle subvention (pourtant annoncée depuis longtemps) qui allégerait certaines dépenses de certaines communes. Il s'agissait du subventionnement des abonnements de transport public pour les jeunes et la population AVS. Là aussi le débat s'annonce vif pour le budget 2027, respectivement le plan financier de retour à l'équilibre du Conseil d'Etat. La Commune de Blonay - Saint-Légier n'est pas concernée.
+
+3. Diminution subventions forestières
+
+L'impact dépend de vos projets de lutte contre le bostryche et de toutes les actions des propriétaires forestiers à ce sujet. Il est donc difficile à évaluer, car il s'agit d'une réduction du montant attribué à cette subvention, mais pas d'un abandon. A noter que cette mesure d'économie était déjà en vigueur pour l'exercice 2025 car elle a été prise en urgence à la clôture 2024.
+
+4. Report répartition gains immobiliers
+
+Cette mesure de répartition différente des gains immobiliers a été balayée tant par la COFIN que par le Grand Conseil en 1er débat... le travail a été fait côté UCV UCV - Détails actus accueil et nous pouvons légitimement être assez contents du résultat de nos actions.
+
+5. Répartition cohésion sociale
+
+L'augmentation de la cohésion sociale reste vertigineuse et donc la participation des communes à l'augmentation, bien que réduite à 17% contre 33% par le passé grâce à l'accord, reste importante. Cependant cette augmentation (répartie en Fr./ha) aurait été deux fois plus élevée sans l'accord et la mise en œuvre de la NPIV. A noter cependant qu'entre le décompte prévisionnel et le budget du Canton, il y a un écart. En prenant les chiffres avancés dans l'EMPL sur le budget, l'augmentation de la participation à la cohésion sociale des communes pour l'exercice 2026 se monterait à 25,5 millions alors que les chiffres du décompte prévisionnel avançaient 21 millions d'augmentation.
+
+6. Subventions rénovation énergétique des bâtiments communaux
+
+Dépend d'EMPD (projet de décret = les préavis d'investissement en langage cantonal) et du fond fédéral (programme bâtiment), donc le débat budgétaire n'a pas d'incidence directe.
+
+Question 4 : Qu'est-ce que la Municipalité compte mettre en place pour préserver la qualité des divers services de santé de la commune et de la région ?
+
+- ASANTE SANA a mis en place plusieurs actions pour optimiser ses ressources : réduction et optimisation des coûts de fonctionnement (interimaires, personnel, locaux, etc.), optimisation de l'efficience (organisation, planification, trajets, temps de support, etc.) augmentation de l'activité OPAS (soit l'activité prise en charge LAMAL et non par les subventions cantonales).
+- Les prestations de soins ne feront pas l'objet de suppression ni de baisse de qualité en conséquence de la réduction de la subvention cantonale.
+
+Questions 5 : La Municipalité a-t-elle réalisé ou prévu une analyse d'impact, avec des scénarios chiffrés des mesures d'austérité cantonales, sur notre budget 2026 et sur les prestations communales à la population ?
+
+Non, la Municipalité n'a pas réalisé ou prévu de réaliser une analyse d'impact, avec des scénarios chiffrés des mesures d'austérité cantonales, sur notre budget 2026 et sur les prestations communales à la population.
+
+Les informations à notre disposition sont les suivantes :
+
+L'impact total pour les communes initialement annoncé pour 2026 était de CHF 46 millions.
+- Àprous suppression de la contribution de solidarité, il est réduit à CHF 6,4 millions : CHF 5 millions pour les subventions aux routes en traversée de localité et CHF 1,4 million pour d'autres subventions (cours d'eau, fouilles préventives, patrimoine culturel immobilier).
+- Selon les projets communaux en cours dans ces domaines, l'impact possible pour 2026 n'est pas connu à ce jour.
+
+# Conclusions
+
+La Municipalité constate que les mesures cantonales prévues pour 2026 n'entraînent pas de perturbation significative des services communaux ni des prestations offertes à la population.
+
+Nous vous remercions, Monsieur le Président, Mesdames et Messieurs les Conseillères et Conseillers, de votre attention.
+
+AU NOM DE LA MUNICIPALITE
+
+![img-0.jpeg](img-0.jpeg)
+
+Délégation municipale : Mme Sarah Lisé, municipale
+
+Copie : Bureau du Conseil communal

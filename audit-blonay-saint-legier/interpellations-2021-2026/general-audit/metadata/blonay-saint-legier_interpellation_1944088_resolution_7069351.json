@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1944088_resolution_7069351",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "resolution",
+    "title": "Résolution — Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+    "source_title": "Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1944088",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/7069351",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-08-31",
+    "language": "fr",
+    "content_hash": "ea9567688d03f2b24fe11fc3b3ca59692f61593600cab892227b167c7fb603bc",
+    "source_content_hash": "4bb7675e0e6b05c3192ae542dea62157783b4d6e0ceb0ec6926f24541064ab80",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1944088",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1944088"
+    ],
+    "object_title": "Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+    "authors": [
+      {
+        "name": "Salanon Alain",
+        "person_id": 270541,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2023-08-31",
+    "status_normalized": "in_progress",
+    "status": "En traitement",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": true,
+    "document_component_role": "resolution"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1944088",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1944088"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1944088_text_4679797",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1944088_text_4679797"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1944088_response_7026355",
+      "blonay-saint-legier_interpellation_1944088_text_4679797"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1944088_response_7026355"
+    ],
+    "resolution_document_ids": [
+      "blonay-saint-legier_interpellation_1944088_resolution_7069351"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_resolution_pdf",
+    "source_download_id": "7069351"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4050,
+      "words_extracted": 644,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

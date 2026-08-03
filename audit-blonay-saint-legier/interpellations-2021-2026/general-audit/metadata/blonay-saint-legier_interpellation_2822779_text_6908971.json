@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2822779_text_6908971",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation Y. Filippozzi",
+    "source_title": "Interpellation de M. Y. Filippozzi, Les Vert.e.s - \"ASR 2035\" et territoire communal",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2822779",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6908971",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-31",
+    "language": "fr",
+    "content_hash": "2be05c2cf79a69c153980bdde8d3990419713e2b1e806ea5c15108bc6ccbe33f",
+    "source_content_hash": "0dd2ba5d6e01e272cf6b9e32678019d5c81fd83e1d4139b28769cf550f6458a7",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2822779",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2822779"
+    ],
+    "object_title": "Interpellation de M. Y. Filippozzi, Les Vert.e.s - \"ASR 2035\" et territoire communal",
+    "authors": [
+      {
+        "name": "Filippozzi Yves",
+        "person_id": 270529,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2026-03-31",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2822779",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2822779"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2822779_text_6908971",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2822779_text_6908971"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6908971"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3877,
+      "words_extracted": 631,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

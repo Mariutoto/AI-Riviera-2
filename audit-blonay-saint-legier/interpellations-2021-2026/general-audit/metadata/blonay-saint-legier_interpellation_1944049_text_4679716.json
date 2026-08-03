@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1944049_text_4679716",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme M. Olgiati Pelet",
+    "source_title": "Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1944049",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4679716",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-08-31",
+    "language": "fr",
+    "content_hash": "dc4ea0895b02ab206a37bc8d0bf627929c7527228778c44f329095dbfa8cae78",
+    "source_content_hash": "09f62a0c48a8a03071945611b9fd4cfd9d1c8b5a5132bc2dc6bcc076b91d5aa0",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1944049",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1944049"
+    ],
+    "object_title": "Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+    "authors": [
+      {
+        "name": "Olgiati Pelet Mirta",
+        "person_id": 270544,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2023-08-31",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": true,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1944049",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1944049"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1944049_text_4679716",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1944049_text_4679716"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1944049_resolution_4994647",
+      "blonay-saint-legier_interpellation_1944049_response_4967932"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1944049_response_4967932"
+    ],
+    "resolution_document_ids": [
+      "blonay-saint-legier_interpellation_1944049_resolution_4994647"
+    ]
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "4679716"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3714,
+      "words_extracted": 600,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

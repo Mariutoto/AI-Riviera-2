@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2375869_text_5540593",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de M. Pascal Gréverath",
+    "source_title": "Interpellation de M. Pascal Gréverath et consorts : Pour une meilleure valorisation des déchets plastiques",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2375869",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5540593",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-02-25",
+    "language": "fr",
+    "content_hash": "ec7fca9007483cdb515688d2f7205c407ed67b74d03d24da748ced5d455e350c",
+    "source_content_hash": "68ea2ccecbb64ed224b03f82aac1be7653dbf46a7e663e0fe92e07ed90224221",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2375869",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2375869"
+    ],
+    "object_title": "Interpellation de M. Pascal Gréverath et consorts : Pour une meilleure valorisation des déchets plastiques",
+    "authors": [
+      {
+        "name": "Gréverath Pascal",
+        "person_id": 363652,
+        "party": "Les Vert'libéraux Blonay - St-Légier (PVL-BSL)"
+      }
+    ],
+    "deposit_date": "2025-02-25",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2375869",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2375869"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2375869_text_5540593",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2375869_text_5540593"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2375869_response_5574016"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2375869_response_5574016"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "5540593"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 8666,
+      "words_extracted": 1284,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+![img-0.jpeg](img-0.jpeg)
+
+Commune de
+
+# Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# INTERPELLATION
+
+Blonay, le 2 décembre 2025
+
+Réponse de la Municipalité à l’interpellation de M. Alain Salanon et consorts déposée lors de la séance du Conseil communal de Blonay - Saint-Légier du 28 octobre 2025, intitulée « Droit au but, le retour »
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Conseillères et Conseillers communaux,
+
+Lors de la séance du Conseil communal de Blonay - Saint-Légier du 28 octobre 2025, le délibérant a pris en considération l’interpellation de M. Alain Salanon et consorts, intitulée « Droit au but, le retour ».
+
+Le 19 août dernier, la Municipalité répondait à l’interpellation « Droit au but » concernant le projet « Activités sportives et de loisirs ». Cette réponse a suscité des questions complémentaires de la part de l’interpellateur, pour le groupe Les Verts-e-s. La Municipalité y répond comme suit :
+
+Question 1 : pourquoi le rapport Bryois n’est-il pas disponible sur le site de notre Commune ?
+
+En 2015, les Communes de Blonay et de St-Légier-La Chiésaz avaient sans doute publié ce rapport dans le cadre de la réponse au postulat des Municipalités du district. Cela a probablement également été le cas dans les autres communes du district.
+
+Avec la fusion, uniquement les préavis des deux dernières législatures des deux communes ainsi que les objets politiques encore en suspens au 1er janvier 2022 sont publiés sur le site internet communal. Ce rapport est néanmoins disponible sur le site internet du service des affaires intercommunales, lien : https://www.sai-riviera.ch/INSTALLATIONSSPORTIVESrapport%C3%A9tudeetannexes.pdf
+
+Question 2 : M. Bryois a-t-il eu, oui ou non, connaissance en 2014–2015 du Plan directeur communal (PDCom) de St-Légier-La Chiésaz, prévoyant une zone sportive à la Veyre-Derrey ?
+
+Nous ne pouvons répondre à cette question par oui ou par non. Toutefois, le terrain de la Veyre-Derrey appartient à la Ville de Vevey et M. Jean-Marc Bryois était également délégué aux sports pour la Ville de Vevey.
+
+La Municipalité de St-Légier-La Chiésaz n’a pas été retenue pour l’implantation d’infrastructures régionales, ce qui s’explique par les enjeux identifiés dans le rapport. En effet, le rapport Bryois mettait en avant des infrastructures prioritaires situées dans les communes lacustres, comme stipulé : « Les seuls sites susceptibles d’accueillir un nouvel équipement sportif ayant des chances d’aboutir dans des délais raisonnables sur la Riviera sont présentés ci-après. Ils se situent sur un axe Nord–Sud qui comprend déjà un certain nombre d’installations sportives (le complexe sportif de la Saussaz, le CESSEV, la piscine de la Maladaire, la Place de l’Europe, la salle omnisports du Pierrier). »
+
+Ce rapport relevait en particulier le manque de lignes d’eau pour la natation. Les investissements prévus concernaient donc les sites de la Maladaire et de Vevey-Corseaux-Plage selon le tableau ci-dessous, qui synthétise les besoins en infrastructures.
+
+[tbl-0.md](tbl-0.md)
+
+Le montant estimé des investissements se situe dans une fourchette de Fr. 45.5 à Fr. 48.- mios.
+
+A ces installations, s'ajoutent les infrastructures souhaitées / demandées suivantes, moins prioritaires et qui nécessitent des compléments en termes d'opportunité / faisabilité :
+
+[tbl-1.md](tbl-1.md)
+
+En tenant compte de ces dernières, le montant total estimé des investissements se situerait dans une fourchette de Fr. 85.5 à Fr. 88 mios.
+
+Ces sites présentent en outre un intérêt sur le plan de la mobilité, tant en transports publics qu'en mobilité douce.
+
+Tous les Conseils communaux avaient validé ce postulat afin de soutenir les projets annoncés dans leurs communes respectives.
+
+Question 3 : est-il vrai qu'en 2019 des plans de piscine sous les terrains de tennis de la Veyre ont été présentés aux responsables du club de tennis par M. Epp, Municipal, et que celui-ci a affirmé en 2021 que le nouveau plan d'affectation permettrait la construction d'une piscine sous les tennis ?
+
+M. Pierre Volet, alors président de Vevey-Natation, a développé un avant-projet de faisabilité visant à implanter un bassin olympique sous les terrains de tennis, sans emprise sur les autres parcelles. Techniquement possible mais pas compatible avec l'affectation en vigueur. Toutefois, la Municipalité n'a pas engagé de démarche à ce sujet.
+
+Le club de tennis occupe aujourd'hui une parcelle en zone industrielle. Le changement d'affectation prévu dans le PA de la Veyre-Derrey pérennisera cette parcelle pour des activités sportives, ce qui pourrait en effet permettre l'implantation, par exemple, d'une piscine ou l'extension de court de tennis.
+
+La Ville de Vevey, propriétaire du terrain, est directement concernée en sa qualité de propriétaire. Nous ne préjugeons pas de l'opportunité.
+
+Mais faut-il réellement construire un bassin de natation à cet endroit, alors que ce sport se pratique déjà sur des sites situés au bord du lac ? L'étude qui sera faite par l'agglo Rivelac permettra de localiser l'implantation notamment de ces lignes d'eau.
+
+Question 4 : si la réponse au point précédent est affirmative, le Conseil communal de St-Légier-La Chiésaz en a-t-il été informé en son temps ?
+
+À ce stade des discussions, une information au Conseil communal n'avait pas de sens. Cet avant-projet n'a pas suscité d'entrée en matière de la part des communes du district.
+
+Question 5 : où en sont les projets de développement du sport (par exemple une piscine) et quel est le calendrier ?
+
+La construction d'une piscine répond à une attente régionale. Le rapport Bryois, élaboré en accord avec les communes concernées, avait clairement identifié les emplacements prioritaires (tableau ci-dessus). Dix ans plus tard, les Municipalités concernées n'ont pas avancé sur ce dossier.
+
+La Municipalité de Blonay-Saint-Légier s'est montrée très active pour obtenir la réalisation d'une nouvelle étude afin d'établir les besoins en infrastructures régionales et de vous faire part des dernières actions.
+
+- **Octobre 2024** : la Municipalité, par son syndic, exprime le besoin d'élaborer une vision à moyen et long terme et de lancer une démarche de planification à l'échelle de la Riviera. La nécessité d'un inventaire des terrains constructibles disponibles pour des infrastructures régionales et d'évaluer les besoins avec les clubs sportifs.
+- **Novembre 2024** : rencontre avec M. Cédric Bovey, chef du Service de l'éducation physique et du sport. Le canton demande désormais un plan stratégique d'importance régionale pour l'octroi de subventions, ce qui correspond précisément à la volonté de notre Municipalité. Il faut toutefois attendre les conclusions du projet pilote mené dans la région Lavaux-Oron avec le SEPS, attendues début 2026.
+- **Mars 2025** : la Municipalité, représentée par le syndic et le municipal délégué à l'Agglo Rivelac, informent de la nécessité de lancer l'étude sur les besoins régionaux en infrastructures sportives. La démarche est soutenue par la direction de la DGTL.
+- **Septembre 2025** : l'Agglo Rivelac valide l'étude, et un montant est inscrit au budget 2026.
+
+La Municipalité, par cette communication, a répondu à l'interpellation de M. Alain Salanon et consorts.
+
+Nous vous remercions, Monsieur le Président, Mesdames et Messieurs les Conseillères et Conseillers, de votre attention.
+
+AU NOM DE LA MUNICIPALITE
+
+Le syndic
+
+A. Bovay
+
+![img-1.jpeg](img-1.jpeg)
+
+Le secrétaire adj.
+
+J.-M. Guex
+
+Délégation municipale : M. Alain Bovay, syndic
+
+Copie : Bureau du Conseil communal

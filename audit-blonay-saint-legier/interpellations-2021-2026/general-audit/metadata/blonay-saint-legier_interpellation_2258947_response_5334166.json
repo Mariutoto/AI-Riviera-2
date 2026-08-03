@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2258947_response_5334166",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+    "source_title": "Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2258947",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5334166",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-09-24",
+    "language": "fr",
+    "content_hash": "2ddc39675fe47a7f765fdb27cf63fc95dc03414bdc76480a67364abc91c79ba1",
+    "source_content_hash": "5eb78229b17ac777393018efec776ab0a0d72e7b4a1b46d3f182dae02a14dbf8",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2258947",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2258947"
+    ],
+    "object_title": "Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+    "authors": [
+      {
+        "name": "Perrelet Michèle",
+        "person_id": 270241,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2024-09-24",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2258947",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2258947"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2258947_text_5303149",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2258947_text_5303149"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2258947_text_5303149"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2258947_response_5334166"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5334166"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 8,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 11440,
+      "words_extracted": 1906,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

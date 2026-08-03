@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2546101_response_6831112",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+    "source_title": "Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2546101",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6831112",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-08-26",
+    "language": "fr",
+    "content_hash": "d7b25375048096334b8af7da25aff6640d95141de014d40d63270be1a74d8678",
+    "source_content_hash": "e52ac22c6569ab57956ec3d7b3079c0559302aaebd6c1c3d66798d85cf921448",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2546101",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2546101"
+    ],
+    "object_title": "Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+    "authors": [
+      {
+        "name": "Gullo-Ott Marisa",
+        "person_id": 270100,
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2025-08-26",
+    "status_normalized": "in_progress",
+    "status": "En traitement",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2546101",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2546101"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2546101_text_6081691",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2546101_text_6081691"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2546101_text_6081691"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2546101_response_6831112"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6831112"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 9621,
+      "words_extracted": 1491,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2059999_text_4956121",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation - Règlement déchetterie - Yvan Kohli",
+    "source_title": "Interpellation de M. Yvan Kohli et consorts \"Règlement déchetterie\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2059999",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4956121",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-01-30",
+    "language": "fr",
+    "content_hash": "b6ee352c6d89a0d81c03ee93caf2f278087d875aecd033e9e34025786aac6506",
+    "source_content_hash": "e7f70809a2cf1534a1045b4db391d0bf3606fbc95c21436dffc6f75f736f256a",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2059999",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2059999"
+    ],
+    "object_title": "Interpellation de M. Yvan Kohli et consorts \"Règlement déchetterie\"",
+    "authors": [
+      {
+        "name": "Kohli Yvan",
+        "person_id": 270316,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2024-01-30",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2059999",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2059999"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2059999_text_4956121",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2059999_text_4956121"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2059999_response_5290900"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2059999_response_5290900"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "4956121"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 6121,
+      "words_extracted": 957,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

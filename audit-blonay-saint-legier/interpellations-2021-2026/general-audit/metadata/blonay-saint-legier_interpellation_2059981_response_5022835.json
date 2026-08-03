@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2059981_response_5022835",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+    "source_title": "Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2059981",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5022835",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-01-30",
+    "language": "fr",
+    "content_hash": "3c46af803ed89d4c9278f1ca2975e3a08e90641df07a114df65125cdeff40ff1",
+    "source_content_hash": "79027df7cc4bfe1a2df3f4afab0df9f0bbf349a786f5581dcf192130f0ee89ff",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2059981",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2059981"
+    ],
+    "object_title": "Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+    "authors": [
+      {
+        "name": "Morard Charles",
+        "person_id": 270613,
+        "party": ""
+      }
+    ],
+    "deposit_date": "2024-01-30",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2059981",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2059981"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2059981_text_4956094",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2059981_text_4956094"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2059981_text_4956094"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2059981_response_5022835"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5022835"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4637,
+      "words_extracted": 729,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

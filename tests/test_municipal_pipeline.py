@@ -43,7 +43,14 @@ class MunicipalityRegistryTests(unittest.TestCase):
             ("interpellations", "motions", "postulats"),
         )
         self.assertFalse(ASSOCIATION_SECURITE_RIVIERA.search_enabled)
-        self.assertFalse(BLONAY_SAINT_LEGIER.search_enabled)
+        self.assertTrue(BLONAY_SAINT_LEGIER.search_enabled)
+        self.assertEqual(BLONAY_SAINT_LEGIER.search_scope, "interpellations")
+        self.assertEqual(
+            BLONAY_SAINT_LEGIER.document_types, ("interpellations",)
+        )
+        self.assertEqual(
+            BLONAY_SAINT_LEGIER.source_domain, "www.blonay-saint-legier.ch"
+        )
         self.assertEqual(get_municipality("vevey"), VEVEY)
 
     def test_unknown_city_is_rejected(self):

@@ -1,0 +1,27 @@
+# Interpellation du groupe PS & Alliés « à plus dans le bus »
+
+Monsieur le Président,
+
+Mesdames et Messieurs les Municipaux,
+
+Chères Collègues,
+
+Sur le site de la commune on trouve un Minibus de 14 places, acquis par celle-ci grâce à la contribution d'annonceurs, et proposé à la location. Pour la somme très modique de 0,80 cts/km tout un chacun peut le louer à condition d'être âgé de 25 ans minimum et d'avoir un permis de conduire avec la catégorie D1 avant 2009 et D2 depuis cette date et seulement à titre privé.
+
+Ce service à la population est important pour une commune d'une dimension telle que la nôtre, ce d'autant plus que ce véhicule est très utilisé par la Maison Picson pour des activités avec les seniors, des sorties avec les enfants ainsi que pour les camps.
+
+Les écoles de même que les sociétés sportives et locales l'emploient régulièrement. De futures possibilités d'activités avec le service social, jeunes pairs de la commune, Espace Zen pourraient se développer.
+
+L'ayant loué récemment pour une sortie familiale j'ai pu constater que ce véhicule avait atteint maintenant les 160000 Km et 15 ans d'âge. Des questions de sécurité, de normes actuelles concernant les personnes à mobilité réduite et d'image pour la commune m'incite à poser les questions suivantes à la municipalité :
+
+1) Est-ce que la Municipalité a déjà entamé des réflexions sur le renouvellement du Minibus?
+2) Dansquelle mesure un minibus de 15 places se conduira dans le futur? (Privé/professionnel)
+3) Est-ce que la taille du nombre de places pourrait être réduite afin d'en faciliter la conduite tant par les privés que par les chauffeurs professionnels de la commune ?
+4) Est-ce qu'un modele électrique serait envisageable?
+5) Est-ce que le soutien de la Loterie Romande a ete envisage en cas d'achat?
+6) Est-ce que les sociétés sportives et locales pourraient l'employer plus régulièrement?
+7) Un service de transport handicap pourrait-il être apporté en renfort de l'aide déjà existante pour nos concitoyens?
+
+# Signature de conseillères et conseillers qui appuient l'interpellation (au moins 5)
+
+[tbl-0.md](tbl-0.md)

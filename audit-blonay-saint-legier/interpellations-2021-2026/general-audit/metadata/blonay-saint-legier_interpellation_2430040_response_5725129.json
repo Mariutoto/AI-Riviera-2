@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2430040_response_5725129",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+    "source_title": "Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2430040",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5725129",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-04-29",
+    "language": "fr",
+    "content_hash": "7d2a11c59625556743edb394eaea94bd2db475868406a6404598cd77ae528511",
+    "source_content_hash": "200cedfc8d58cb550886998613a49127368a4272561c0bce8d8f09d147e4c5c3",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2430040",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2430040"
+    ],
+    "object_title": "Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+    "authors": [
+      {
+        "name": "Morard Charles",
+        "person_id": 270613,
+        "party": ""
+      }
+    ],
+    "deposit_date": "2025-04-29",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2430040",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2430040"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2430040_text_5664664",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2430040_text_5664664"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2430040_text_5664664"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2430040_response_5725129"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5725129"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2338,
+      "words_extracted": 367,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

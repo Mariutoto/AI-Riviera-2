@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2652926_text_6369875",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation Mme Mirta Ogliati Pelet - Plan Grand Froid",
+    "source_title": "Interpellation de Mme Mirta Olgiati Pelet - Quel soutien de notre commune pour un plan \"Grand-Froid\" ?",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2652926",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6369875",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-11-25",
+    "language": "fr",
+    "content_hash": "a1fcf335771e6753f55f11804603e13482e2fa0d94b39e30f5e43684fdbccb40",
+    "source_content_hash": "eb002591cfee25f7d13a62be3636a038dca7cea4c0b5ff08f875bf177b7dec7d",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2652926",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2652926"
+    ],
+    "object_title": "Interpellation de Mme Mirta Olgiati Pelet - Quel soutien de notre commune pour un plan \"Grand-Froid\" ?",
+    "authors": [
+      {
+        "name": "Olgiati Pelet Mirta",
+        "person_id": 270544,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2025-11-25",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2652926",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2652926"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2652926_text_6369875",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2652926_text_6369875",
+      "blonay-saint-legier_interpellation_2652926_text_6444281"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2652926_text_6444281"
+    ],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6369875"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3464,
+      "words_extracted": 542,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2770969_text_6799426",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation A Salanon, Vert.e.s",
+    "source_title": "Interpellation de M. Alain Salanon, Groupe Les Vert.e.s - \"Vous avez dit intelligence ? IA\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2770969",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6799426",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-24",
+    "language": "fr",
+    "content_hash": "331eeb8c9b65d69c2f23d3243fe1a5f469a5cc8adf8866be2d73926105bab000",
+    "source_content_hash": "587127bae8bf703427621e332f52009e22249a646be3d06b7489f00307926a3c",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2770969",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2770969"
+    ],
+    "object_title": "Interpellation de M. Alain Salanon, Groupe Les Vert.e.s - \"Vous avez dit intelligence ? IA\"",
+    "authors": [
+      {
+        "name": "Salanon Alain",
+        "person_id": 270541,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2026-02-24",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2770969",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2770969"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2770969_text_6799426",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2770969_text_6799426"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2770969_response_6957625"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2770969_response_6957625"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6799426"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 9577,
+      "words_extracted": 1510,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

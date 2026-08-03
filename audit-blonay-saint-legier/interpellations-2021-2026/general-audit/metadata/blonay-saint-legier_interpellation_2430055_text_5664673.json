@@ -1,0 +1,93 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2430055_text_5664673",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation C. Herrero et C. Morard - Parcelles agricoles secteur Mottex",
+    "source_title": "Interpellation de Mme Catherine Herrero, Charles Morard et consorts \"Parcelles agricoles situées dans le secteur de Mottex\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2430055",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5664673",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-04-29",
+    "language": "fr",
+    "content_hash": "8dd6544ede6a8dec33fcb3305bf030e9e49a0e7285942f34fcb2d259303de693",
+    "source_content_hash": "abc2c7b14f0cee6b4c2b3a21139d3dd40efe187081f40c38900b148c3d16d8ae",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2430055",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2430055"
+    ],
+    "object_title": "Interpellation de Mme Catherine Herrero, Charles Morard et consorts \"Parcelles agricoles situées dans le secteur de Mottex\"",
+    "authors": [
+      {
+        "name": "Herrero Catherine",
+        "person_id": 280151,
+        "party": "Parti socialiste et Allié.e.s"
+      },
+      {
+        "name": "Morard Charles",
+        "person_id": 270613,
+        "party": ""
+      }
+    ],
+    "deposit_date": "2025-04-29",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2430055",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2430055"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2430055_text_5664673",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2430055_text_5664673"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2430055_response_6008203"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2430055_response_6008203"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "5664673"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 6195,
+      "words_extracted": 905,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2770990_response_6899215",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+    "source_title": "Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2770990",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6899215",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-24",
+    "language": "fr",
+    "content_hash": "db2aeaed007422b38b1703ab435fa6ab6e7deeaf260bd25c32d1b0c1158c2094",
+    "source_content_hash": "46d445bcddcca614fec1251bb2b6f2a053e3a1c07c4b06c059b513bae99a455b",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2770990",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2770990"
+    ],
+    "object_title": "Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+    "authors": [
+      {
+        "name": "Fares Joey",
+        "person_id": 270622,
+        "party": "UDC Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2026-02-24",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2770990",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2770990"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2770990_text_6799459",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2770990_text_6799459"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2770990_text_6799459"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2770990_response_6899215"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6899215"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 6528,
+      "words_extracted": 1006,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

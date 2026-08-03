@@ -1,0 +1,52 @@
+# Interpellation
+Règlement déchèterie
+
+Monsieur le municipal,
+
+Quelle magnifique occasion vous aviez avec la refonte du règlement de gestion des déchets !
+
+Occasion gâchée avec aucune vision, aucune participation des parties intéressées, aucune analyse sur les impacts environnementaux et au final un mécontentement quasi général des citoyennes, des citoyens et des entrepreneurs de notre commune.
+
+Aucune vision tout d'abord : à l'heure où certaines communes ont franchi le pas pour passer de la simple déchèterie à un centre d'Ecorecyclage. Le tri en est le maître mot. Les explications claires et les matériaux y sont valorisés (le verre y est trié, le carrelage et autres matériaux susceptibles d'avoir de l'amiante y sont sécurisés, etc.). Vision toujours, on entend que la déchèterie de la Veyre est trop petite. Pourquoi la Municipalité ne pourrait-elle pas réfléchir à deux centres d'Ecorecyclage ? Un pour les citoyennes et citoyens de la commune et un pour les entreprises de Blonay et de Saint-Légier.
+
+Participation ensuite : Monsieur le municipal, vous qui reprochiez aux municipalités précédentes le manque de concertations avec la population et les entreprises. Même si ce règlement est de compétences municipales, pourquoi diable ne pas le soumettre au conseil communal ? Cela aurait permis une discussion, d'éventuels amendements, des propositions, bref le rôle d'un législatif. Mais non, aucune volonté participative. Une précipitation étrange, sans consultation avec les entreprises ? Avez-vous pris contact avec les groupements des commerçants et artisans de Blonay et de Saint-Légier ? À ma connaissance vous ne l'avez pas fait.
+
+Certains professionnels, et je ne parle pas de l'exemple pas très judicieux que la presse nous à présenter la semaine dernière, donc certains professionnels vont payer un lourd tribu avec ce nouveau règlement. Que penser par exemple du vigneron qui devra apporter lui-même les filets de protection, les matériaux issus de la mise en bouteilles ainsi que les nombreux déchets jetés par les automobilistes dans les vignes (sans compter les morceaux de goudrons) ? Magnifique bilan en matière de CO2 que d'apporter le tout à la Satom à Monthey. Pire encore, proposer à ces derniers de mettre de bennes compacteurs en plein milieu du village. Quelle magnifique idée pour la beauté de nos villages ! Idem pour les déchets végétaux. Je pourrais encore parler de bien d'autres professionnels, dont les EMS qui ne savent plus comment gérer les déchets des résidents ou de notre paysagiste Stéphane Krebs qui vient d'ailleurs d'envoyer un courrier à ses clients les informant que les déchets seront transportés à Monthey. À moins que le propriétaire soit présent aux alentours de 15:30 pour aller avec les paysagistes à la déchèterie. Mais en quantité raisonnable. J'adore cette notion de « raisonnable » qui ne prête à aucune discussion.
+
+Vous allez me dire que je pourrais amener mes déchets de taille d'arbres ou de haie moi-même. Excellente idée. Je vais emprunter un bon vieux 4/4 à un ami et faire une dizaine de voyages avec les branches de mes arbres. Joli bilan écologique, sans compter que nous n'avons déjà pas assez de circulation dans notre commune. Avez-vous fait une matrice environnementale pour quantifier les impacts ? Je ne pense pas. Pourtant nous avons voté un nouveau délégué à la durabilité qui devrait pouvoir apporter ce genre d'analyse.
+
+Bref, monsieur le municipal, n'oubliez pas que les entreprises paient une taxe d'élimination des déchets. Elles sont en droit d'attendre une prestation de la part de notre commune de Blonay- Saint-Légier.
+
+Les citoyennes et citoyens paient aussi une taxe. Force est de constater que les prestations se sont dégradées depuis le début de l'année. Je ne comprends pas cette explication que tout ce qui rentre dans un bidon de 5 litres doit être mis dans les sacs taxés. Sur quelles base ou expérience vous basez-vous ? Pour avoir pris la bonne résolution de faire de l'ordre dans mon galetas et ma cave, je me rends bien compte de l'absurdité de cette règle (petit pot de fleurs, jeux pour enfants, tous autres objets, etc. Surtout que la Satom manque de certaines matières combustibles. Je vois encore ma femme rentrer de la déchèterie et m'expliquer qu'une personne est arrivée avec trois sacs de déchets. Les sacs étant noirs, les employés communaux (oui les..., car maintenant il en faut deux pour contrôler) lui ont refusé la possibilité de les déposer. La personne ne maitrisant pas le français (il aurait d'ailleurs été judicieux de voir avec la commission d'intégration s'il fallait mettre une signalétique en anglais). À juste titre ou à tort, je n'en sais rien, car elle n'a pas vu l'intérieur des sacs. Mais là où cela devient inquiétant, c'est que cette personne est allée directement les déposer dans les Molok au terrain de boules ferrées. Et je crains que cela ne devienne monnaie courante.
+
+Le principe pollueur-payeur est une bonne chose, mais le faire reposer sur le citoyen l'est nettement moins. J'ai déjà 8 bacs de tri à la maison. En ajouter un pour Migros, un pour Coop, Hornabch, Landi, etc., ça va devenir compliqué de ramener les emballages dans le magasin où le produit a été acheté.
+
+Par ailleurs, il serait intéressant d'avoir un tableau comparatif avec ce qui se fait sur les autres communes de la région. L'avez-vous fait ?
+
+En conclusion, Mesdames, Messieurs les membres de la Municipalité, je pense qu'il est nécessaire de reconnaître que ce règlement est un échec et qu'une nouvelle mouture devrait être soumise au conseil communal afin d'avoir un débat de qualité et surtout avec une vision à moyen et long terme.
+
+Au vu des nombreuses réactions, je demande à la Municipalité de sursoir à l'application de cette nouvelle directive jusqu'à des ajustements indispensables et raisonnés.
+
+Merci de votre écoute.
+
+![img-0.jpeg](img-0.jpeg)
+
+Yvan Kohli
+
+Conseiller communal
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+![img-3.jpeg](img-3.jpeg)
+
+![img-4.jpeg](img-4.jpeg)
+
+![img-5.jpeg](img-5.jpeg)
+
+![img-6.jpeg](img-6.jpeg)
+
+![img-7.jpeg](img-7.jpeg)
+
+![img-8.jpeg](img-8.jpeg)

@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2351869_response_5532598",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+    "source_title": "Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2351869",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5532598",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-01-28",
+    "language": "fr",
+    "content_hash": "6cb1c83de37e7e78e9c0efc46686b11bf0e6b49c5447c5e4182fd3ba31fd12d6",
+    "source_content_hash": "e457789eebfc07f182694b3eb1e8be8b2ae533c1695c36d5e48345113ed06744",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2351869",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2351869"
+    ],
+    "object_title": "Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+    "authors": [
+      {
+        "name": "Schwab Claude",
+        "person_id": 280157,
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2025-01-28",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2351869",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2351869"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2351869_text_5495143",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2351869_text_5495143"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2351869_text_5495143"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2351869_response_5532598"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5532598"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 8465,
+      "words_extracted": 1332,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

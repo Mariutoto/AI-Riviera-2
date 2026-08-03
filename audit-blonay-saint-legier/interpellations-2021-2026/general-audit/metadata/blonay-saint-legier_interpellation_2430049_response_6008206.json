@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2430049_response_6008206",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+    "source_title": "Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2430049",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6008206",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-04-29",
+    "language": "fr",
+    "content_hash": "6559d9fc48cbdce81ccd1c196017b4abec23a9d73aebef74df2d970dc27dd12e",
+    "source_content_hash": "cd6d81b303f51488b2fab203b2d020d3d85536d97c1302875817cfb264d4234e",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2430049",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2430049"
+    ],
+    "object_title": "Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+    "authors": [
+      {
+        "name": "Monsieur Wicky Michel",
+        "person_id": 380467,
+        "party": "Les Vert'libéraux Blonay - St-Légier (PVL-BSL)"
+      }
+    ],
+    "deposit_date": "2025-04-29",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2430049",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2430049"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2430049_text_5664670",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2430049_text_5664670"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2430049_text_5664670"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2430049_response_6008206"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6008206"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4126,
+      "words_extracted": 592,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

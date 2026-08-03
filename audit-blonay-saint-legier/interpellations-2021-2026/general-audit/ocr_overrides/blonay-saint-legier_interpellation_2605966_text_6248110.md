@@ -1,0 +1,29 @@
+Interpellation : Rétribution en vin local pour les dernières séances (Groupe ELU/EBSL)
+
+3
+
+Monsieur le Président, Mesdames et Messieurs les membres de la Municipalité, chers collègues.
+
+Depuis plusieurs années, les conseillers communaux reçoivent, lors de la dernière séance de la législature, une rétribution en nature équivalente à 50 francs, soit six bouteilles de vin.
+
+Cette pratique marque un soutien à nos vignerons et un plaisir pour nous autres, conseillers communaux.
+
+Or, la situation économique des vignerons s'est fortement détériorée, comme le relevait récemment 24 heures dans son article du 22 septembre 2025, « Les vignerons vaudois à la peine face à la chute des ventes et à la hausse des coûts ».
+
+Dans cet esprit, il serait opportun de porter la rétribution à douze bouteilles et de l'appliquer aux deux dernières séances de la législature, afin de renforcer notre soutien aux producteurs locaux.
+
+De ce fait, la Municipalité accepterait-elle d'étudier la possibilité d'étendre la rétribution en vin local, actuellement prévue pour la dernière séance de la législature, à l'avant-dernière séance également, et de porter la quantité totale à douze bouteilles par conseiller pour ces deux séances, en remplacement des indemnités financières correspondantes?
+
+Eric Boraley
+
+F. Schpeiter
+
+L. Valiez
+
+M. Valiez
+
+A. Gmaz
+
+A. Gmaz
+
+A. Gmaz

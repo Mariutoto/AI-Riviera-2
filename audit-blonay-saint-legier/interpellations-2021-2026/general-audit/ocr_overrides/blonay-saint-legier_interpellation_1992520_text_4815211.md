@@ -1,0 +1,50 @@
+# Interpellation
+
+Postulat déposé au Conseil communal de Blonay St-Légier
+le mardi 31 octobre 2023
+
+# Interpellation
+
+POSTULAT ayant pour objectif de charger la Municipalité de permettre à l'ensemble des habitants de la commune Blonay St-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal.
+
+- Madame la Présidente,
+
+- Mesdames les municipales,
+
+- Messieurs les municipaux,
+
+- Mesdames les Conseillères communales,
+
+- Messieurs les Conseillers communaux,
+
+Les chemins entretenus par le personnel communal doivent être libres d'accès sur leur totalité. Un privé ne peut pas interdire l'accès au milieu du chemin, sur quelques centaines de mètres. C'est malheureusement toujours le cas depuis deux ans sur le chemin de Praz Cagnard. La Municipalité a changé le panneau du début du chemin pour enfin légitimer les vélos et les piétons qui ne sont pas des riverains. Mais, au milieu du chemin, un panneau dans chaque sens indique une interdiction générale de circuler ce sur tronçon sous peine d'être dénoncé au juge.
+
+S'il semble que ces panneaux ne soient pas légitimes, il n'empêche que le propriétaire de la parcelle menace les cyclistes régulièrement. Sur demande de plusieurs d'entre eux, nous demandons à la Municipalité de nous donner des nouvelles sur ce dossier et surtout de tout faire pour rendre l'accès de l'entier de ce chemin aux piétons et aux cyclistes favorisant la mobilité douce pour monter et descendre aux Pléiades.
+
+Si d'autres secteurs ou chemins sont dans la même situation et qu'une partie de la population est empêchées d'accéder à des ouvrages publics, la Municipalité doit tout mettre en œuvre pour réduire le dommage et tenir informé le Conseil Communal des démarches en cours.
+
+Nous restons donc dans l'attente d'une prochaine réponse et surtout des changements demandés.
+
+En vous remerciant par avance.
+
+Les personnes déposant cette interpellation
+
+Carole Roulet
+
+CHK
+
+CHRISTIAN MORY
+
+Alain Salaman
+
+![img-0.jpeg](img-0.jpeg)
+
+![img-1.jpeg](img-1.jpeg)
+
+![img-2.jpeg](img-2.jpeg)
+
+![img-3.jpeg](img-3.jpeg)
+
+Christ Christ
+
+Lucille Perrot

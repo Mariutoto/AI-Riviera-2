@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2605966_text_6248110",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation Eric Boraley",
+    "source_title": "Interpellation de M. Eric Boraley et consorts - Rétribution en vin local pour les dernières séances",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2605966",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6248110",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-10-28",
+    "language": "fr",
+    "content_hash": "3fa4242b652ca8156b5a5d4c85acb27c6779398432683b80222f26105c139a3c",
+    "source_content_hash": "b00796b9683df81af36932f7b62d183c1eae6e4d0d26037449cef000383eeee5",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2605966",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2605966"
+    ],
+    "object_title": "Interpellation de M. Eric Boraley et consorts - Rétribution en vin local pour les dernières séances",
+    "authors": [
+      {
+        "name": "Boraley Eric",
+        "person_id": 270043,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2025-10-28",
+    "status_normalized": "in_progress",
+    "status": "En traitement",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2605966",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2605966"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2605966_text_6248110",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2605966_text_6248110"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6248110"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 1352,
+      "words_extracted": 206,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

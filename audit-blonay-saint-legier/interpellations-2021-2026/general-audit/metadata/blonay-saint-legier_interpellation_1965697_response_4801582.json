@@ -1,0 +1,101 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1965697_response_4801582",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+    "source_title": "Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1965697",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4801582",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-09-26",
+    "language": "fr",
+    "content_hash": "45c12f0dd18cc3e8bc6d8b65fb4f780daa3b83c69d64b91e72862881f88fc092",
+    "source_content_hash": "b9ef94e0a5728316bbf1d95316365f475ba8485a27a783f5611aa43b9fc01d40",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1965697",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1965697"
+    ],
+    "object_title": "Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+    "authors": [
+      {
+        "name": "Monsieur Volet Philippe",
+        "person_id": 270334,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2023-09-26",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1965697",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1965697"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1965697_text_4736605",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1965697_text_4736605"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1965697_text_4736605"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1965697_response_4801582"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "4801582"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 16,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 32541,
+      "words_extracted": 4942,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

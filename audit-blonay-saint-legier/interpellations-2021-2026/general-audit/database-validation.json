@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "database": {
+    "documents": 93,
+    "originals": 52,
+    "responses": 39,
+    "resolutions": 2,
+    "chunks": 241,
+    "vectors": 241,
+    "min_dimension": 1024,
+    "max_dimension": 1024,
+    "political_objects": 51,
+    "objects_with_response": 39,
+    "objects_without_response": 12,
+    "broken_relationship_links": 0
+  },
+  "objects": [
+    {
+      "object_id": "blonay-saint-legier-interpellation-1944049",
+      "title": "Interpellation de Mme M. Olgiati Pelet \"Les travaux réalisés à la place de Cojonnex respectent-ils le préavis 17-2023?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1944088",
+      "title": "Interpellation de M. A. Salanon - \"Le Père Ubu en train à Blonay - Saint-Légier\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1965697",
+      "title": "Interpellation de M. P. Volet - \"Dépistage bucco-dentaire ; L'Etat doit-il choisir notre esthétisme et la Commune payer la note ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1992484",
+      "title": "Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1992499",
+      "title": "Interpellation de Mme Anne Weill-Lévy et consorts \"Après le refus du PA \"en Praz Grisoud\", quel aménagement de notre territoire ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1992511",
+      "title": "Interpellation de Mme Carole Roulet et consorts \"charger la Municipalité de permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder aux deux déchetteries de la commune\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1992520",
+      "title": "Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-1992526",
+      "title": "Interpellation de M. Claude Schwab et consorts \"Clarifier les bases légales pour l'aménagement de notre territoire\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2059981",
+      "title": "Interpellation de M. Charles Morard et consorts \"de l'utilité de pouvoir prendre un ticket et connaître les horaires avant de prendre le train\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2059999",
+      "title": "Interpellation de M. Yvan Kohli et consorts \"Règlement déchetterie\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2081635",
+      "title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2106172",
+      "title": "Interpellation de Mme M. Perrelet : La \"Poutz\" du printemps et la sécurité à la déchetterie de Blonay",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2106190",
+      "title": "Interpellation de M. A. Salanon \"Simone utilise les transports publics, épisode 2\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2153704",
+      "title": "Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2187346",
+      "title": "Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2187349",
+      "title": "Interpellation de Mme Marion Brunschwig et consorts \"Les crottes de chien sur les chemins de la Commune, toute une sinécure !\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2258947",
+      "title": "Interpellation de Mme Michèle Perrelet \"Place de Jeux aux Chevalleyres\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2284093",
+      "title": "Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2308615",
+      "title": "Interpellation de M. Alain Salanon, groupe Les Vert.e.s \"Wanted\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2308618",
+      "title": "Interpellation de M. Y. Krebs \"Quelle coordination entre les réseaux d'accueil pour les enfants sur la Riviera ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2351869",
+      "title": "Interpellation de M. Claude Schwab et consorts \"Préparer les échéances\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2371366",
+      "title": "Interpellation de M. G. Singarella \"Chemin des Osches : rétablir d'urgence les horaires d'éclairage pour garantir la sécurité avant qu'un drame ne survienne\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2375860",
+      "title": "Interpellation de M. Charles Morard , EBSL / Groupe Elu : Plus de transparence dans la gestion des \"communs\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2375869",
+      "title": "Interpellation de M. Pascal Gréverath et consorts : Pour une meilleure valorisation des déchets plastiques",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2400142",
+      "title": "Interpellation de M. Charles Morard et consorts : Coupe et élagage excessif des arbres dans la commune de Blonay - Saint-Légier",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2400151",
+      "title": "Interpellation de M. Tanguy Krebs et consorts : Cartoriviera 3D, un outil novateur, mais dans quel intérêt ?",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2430031",
+      "title": "Interpellation de M. Alain Salanon et consorts \"Droit au but - Activités sportives et de loisirs\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2430040",
+      "title": "Interpellation de M. Charles Morard et consorts \"Commission des pétitions\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2430049",
+      "title": "Interpellation de M. Michel Wicky et consorts \"Equité de traitement des demandes d'autorisation de construire\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2430055",
+      "title": "Interpellation de Mme Catherine Herrero, Charles Morard et consorts \"Parcelles agricoles situées dans le secteur de Mottex\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2546101",
+      "title": "Interpellation de Mme Marisa Gullo-Ott, Groupe PS & Allié-es - Mesure d'austérité cantonale : Quel impact sur la population de Blonay - Saint-Légier",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2580643",
+      "title": "Interpellation de M. Yves Filippozzi, Les Vert.e.s - OUI à l'information NON à la désinformation",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2605825",
+      "title": "Interpellation de M. Alain Salanon, Les Vert.e.s - Droit au but, le retour",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2605966",
+      "title": "Interpellation de M. Eric Boraley et consorts - Rétribution en vin local pour les dernières séances",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2652926",
+      "title": "Interpellation de Mme Mirta Olgiati Pelet - Quel soutien de notre commune pour un plan \"Grand-Froid\" ?",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2742986",
+      "title": "Interpellation de M. Louis Bellier - \"On ne joue pas dans un parking !\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2770969",
+      "title": "Interpellation de M. Alain Salanon, Groupe Les Vert.e.s - \"Vous avez dit intelligence ? IA\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2770978",
+      "title": "Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2770990",
+      "title": "Interpellation de M. Joey Fares, Groupe ELU - \"Chantier Sur le Crêt - Mesures de régulation de l'impact sur la mobilité\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2770993",
+      "title": "Interpellation de M. Mathieu Balsiger, PLR - \"Positionnement de la Municipalité sur l'écriture inclusive\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2771005",
+      "title": "Interpellation de M. Pierre Barbey, PLR - \"Création d'un poste de responsable du patrimoine arboré (80 %) et engagement d'un garde forestier auxiliaire : Quelle stratégie en matière de gestion des ressources et des finances communales ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2771014",
+      "title": "Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+      "has_response": true,
+      "response_status": "written_response"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2822758",
+      "title": "Interpellation de M. C. Chabloz, PS & Allié.e.s - \"à plus dans le bus\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2822773",
+      "title": "Interpellation de Mme M. Brunschwig, PLR - \"Eclairage au sentier de Bousse\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2822776",
+      "title": "Interpellation de Mme M. Gullo-Ott, PS & Allié.e.s - Des toilettes publiques au parc de \"Mon Foyer\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2822779",
+      "title": "Interpellation de M. Y. Filippozzi, Les Vert.e.s - \"ASR 2035\" et territoire communal",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2886175",
+      "title": "Interpellation de M. T. Krebs \"Agression, vol et humiliation à Bahyse\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2886184",
+      "title": "Interpellation de M. A. Salanon : \"Simone utilise les transports\" - Episode 3",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2908576",
+      "title": "Interpellation de Mme Barbara Kool, UCBSL : \"Mon enfant n'a plus de place à la cantine à la rentrée : quelles solutions ?\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2908591",
+      "title": "Interpellation de M. Louis Bellier, Les Vert.e.s : \"En selle Marcelle !\"",
+      "has_response": false,
+      "response_status": "unanswered"
+    },
+    {
+      "object_id": "blonay-saint-legier-interpellation-2908600",
+      "title": "Interpellation de M. Romain Belotti concernant les violences aux collèges de Bahyse - Média",
+      "has_response": false,
+      "response_status": "unanswered"
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "bases légales pour l'aménagement du territoire",
+      "expected_prefix": "blonay-saint-legier_interpellation_1992526_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_interpellation_1992526_response_4885279",
+        "blonay-saint-legier_interpellation_1992526_response_4885279",
+        "blonay-saint-legier_interpellation_1992526_response_4885279",
+        "blonay-saint-legier_interpellation_1992526_text_4815217",
+        "blonay-saint-legier_interpellation_1992526_text_4815217"
+      ]
+    },
+    {
+      "query": "règlement déchetterie",
+      "expected_prefix": "blonay-saint-legier_interpellation_2059999_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_interpellation_2059999_response_5290900",
+        "blonay-saint-legier_interpellation_2059999_response_5290900",
+        "blonay-saint-legier_interpellation_2059999_response_5290900",
+        "blonay-saint-legier_interpellation_2059999_response_5290900",
+        "blonay-saint-legier_interpellation_2059999_response_5290900"
+      ]
+    },
+    {
+      "query": "coordination entre les réseaux d'accueil pour les enfants",
+      "expected_prefix": "blonay-saint-legier_interpellation_2308618_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_interpellation_2308618_response_5666053",
+        "blonay-saint-legier_interpellation_2308618_response_5666053",
+        "blonay-saint-legier_interpellation_2308618_response_5666053",
+        "blonay-saint-legier_interpellation_2308618_response_5666053",
+        "blonay-saint-legier_interpellation_2308618_text_5405890"
+      ]
+    },
+    {
+      "query": "ASR 2035 territoire communal",
+      "expected_prefix": "blonay-saint-legier_interpellation_2822779_",
+      "matched": true,
+      "top_document_ids": [
+        "blonay-saint-legier_interpellation_2081635_response_5131882",
+        "blonay-saint-legier_interpellation_2081635_response_5131882",
+        "blonay-saint-legier_interpellation_2081635_response_5131882",
+        "blonay-saint-legier_interpellation_1992499_response_4885285",
+        "blonay-saint-legier_interpellation_2822779_text_6908971"
+      ]
+    }
+  ],
+  "failures": []
+}

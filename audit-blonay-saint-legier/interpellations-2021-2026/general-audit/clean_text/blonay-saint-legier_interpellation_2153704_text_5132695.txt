@@ -1,0 +1,124 @@
+# Séance du Conseil Communal de Blonay du 28 mai 2024
+
+# Interpellation
+« Rendre notre patrimoine visible et connu »
+
+# Art. 66
+
+Interpellation
+(art. 34 LC)
+
+1 Chaque membre du conseil peut, par voie d'interpellation, demander a la municipalite une explication sur un fait de son administration.
+2 Il informe, par écrit ou par courriel, le président de l'objet de son interpellation au plus tard deux heures avant la séance du conseil. Si celle-ci est appuyée par cinq membres au moins, elle est développée seance tenante ou dans la prochaine seance.
+3 La municipalité répond immédiatement ou, au plus tard, dans la seance suivante.
+4 Selon la complexité des réponses à fournir, le conseil peut accorder un délambda supplémentaire à la municipalité.
+5 La discussion qui suit se termine par l'adoption d'une résolution, laquelle ne doit pas contentir d'injonction, ou par le passage à l'ordre du jour.
+
+# Comment rendre notre patrimoine accessible aux visiteurs d'ici et d'ailleurs ?
+
+Force est de constater, que nos différents sites d'intérêt, comme l'église de la Chiésaz, La chapelle Saint Antoine, le château de Blonay, nos vignes, etc... n'ont aucune information ou très peu sur l'historique ce ceux-ci. Notre ville de Blonay – Saint Légier et emplie de beaucoup de sites uniques et accessibles à pied. Nous avons eu et avons encore la chance de profiter des connaissances de Monsieur Gianni Ghiringhelli qui a « nourri » les archives de Blonay et Saint-Légier avec beaucoup d'informations sur les histoires de nos villages, dont certains écrits très anciens puisque datant du 12ème siècle.
+
+Cependant, celles-ci restent connues surtout des anciens de nos villages et/ou les personnes initiées. Pourquoi ne pas les faire connaître à nos visiteurs et toute notre population ? Les écoles pourraient certainement aussi en profiter.
+
+Il y a un mode très facile qui a été instauré par une jeune startup (Genius Loci SA) qui a gagné le prix Genilem en 2022 ainsi le prix public et la médaille d'or du Jury au 48ème Salon International des Inventions en 2023 à Genève, avec la pose de « médailles à QR-code » placées à proximité des centres d'intérêt à faire découvrir.
+
+Ces médailles ont déjà été installées dans la région du Nord Vaudois ainsi que dans le Val d'Hérens (VS) entre autres. Ce système permet d'apposer une petite médaille métallique (voir image), qui contient un code QR et sur lequel on peut appliquer le contenu des secrets de Blonay – Saint-Légier ainsi que des photos. Le logiciel est simple et donne plein de propositions afin d'ajouter les contenus ainsi que des photos sur chaque code des médailles individuelles. Il permet aussi d'analyser le nombre de visites sur celles-ci ainsi que d'autres données intéressantes et utiles. Les données sont hébergées et protégées en Suisse.
+
+Je n'ai personnellement aucun intérêt personnel sur la diffusion de ce système à part le fait que j'aurais le plaisir de consulter les différentes médailles lors de mes balades dans Blonay et Saint Légier, ma commune d'adoption !
+
+Ce système pourrait être installé très rapidement, si la Municipalité décide de l'acquérir, et les sociétés de développement de notre commune seraient certainement aussi partisanes à faire mieux connaître nos villages.
+
+La Municipalité est-elle ouverte à un système d'information par ces medailles?
+- Où pourrions-nous les apposer?
+- Qui pourrait en être l'administrateur?
+- Dansquel laps de temps pourrions-nous les utiliser?
+
+Blonay, le 21 mai 2024
+
+Michèle Perrelet
+
+Nom
+
+SALANON
+
+Velt
+
+Vicmet
+
+NANCHEN
+
+DROST
+
+Sonia
+
+KOOL
+
+Vouilly
+
+Krebs
+
+Mury
+
+Prénom
+
+Alain
+
+Philippe
+
+Pascal
+
+Bertrand
+
+Keike
+
+Gilbert
+
+Barbara
+
+Cecil
+
+Tanguy
+
+Christian
+
+Signature
+
+Alain
+
+Plebe
+
+Kip
+
+B. Dambou
+
+J. Drost
+
+Sonia
+
+B. Dambou
+
+Plebe
+
+Tanguy
+
+Christian
+
+Page 2
+
+Nom
+
+Roulet
+
+Wagenberg
+
+Prénom
+
+Carole
+
+Jagrebine
+
+Signature
+
+![img-0.jpeg](img-0.jpeg)
+
+![img-1.jpeg](img-1.jpeg)

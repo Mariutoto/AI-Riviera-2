@@ -1,0 +1,88 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1992520_response_5657893",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+    "source_title": "Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1992520",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5657893",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-31",
+    "language": "fr",
+    "content_hash": "276eb62a6b617442b80093f9d7a2b838ee56483d15f363a559fbc9a29b822a1b",
+    "source_content_hash": "ea72b2cd6edd94d4dced9c17e7f5656a63dd3fab886b87add691ccca6d83b14a",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1992520",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1992520"
+    ],
+    "object_title": "Interpellation de Mme Carole Roulet et consorts \"Permettre à l'ensemble des habitants de la commune de Blonay - Saint-Légier d'accéder sur tous les chemins, sentiers et routes entretenus par le personnel communal\"",
+    "authors": [
+      {
+        "name": "Roulet Carole",
+        "person_id": 270253,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2023-10-31",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1992520",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1992520"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1992520_text_4815211",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1992520_text_4815211"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1992520_text_4815211"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1992520_response_5657893"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5657893"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 3,
+      "image_counts": [
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 5999,
+      "words_extracted": 941,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

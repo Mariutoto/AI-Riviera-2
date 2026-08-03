@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2742986_text_6722765",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation L Bellier, Vert.e.s - On ne joue pas dans un parking - 10.02.2026",
+    "source_title": "Interpellation de M. Louis Bellier - \"On ne joue pas dans un parking !\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2742986",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6722765",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-10",
+    "language": "fr",
+    "content_hash": "192ee813720fd3112f4232dda7a432019700e76f1c1e9ca0abd32b8de1729f42",
+    "source_content_hash": "664725432b078dead17f70808e1d9079bec985c2690dba2b4907d4b94ad83f9e",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2742986",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2742986"
+    ],
+    "object_title": "Interpellation de M. Louis Bellier - \"On ne joue pas dans un parking !\"",
+    "authors": [
+      {
+        "name": "Bellier Louis",
+        "person_id": 428206,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2026-02-10",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2742986",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2742986"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2742986_text_6722765",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2742986_text_6722765"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6722765"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 2415,
+      "words_extracted": 384,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

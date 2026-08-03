@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2908576_text_7069333",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme B. Kool, UCBSL",
+    "source_title": "Interpellation de Mme Barbara Kool, UCBSL : \"Mon enfant n'a plus de place à la cantine à la rentrée : quelles solutions ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2908576",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/7069333",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-06-16",
+    "language": "fr",
+    "content_hash": "5981762f36262a3dc37e0ff5bd29129a981f5824d7e40d920b6389cccfc0e96d",
+    "source_content_hash": "bcac9b9fb4b100b655f8267aee8b15509ea24ac7b822f6e232c4520093579e2e",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2908576",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2908576"
+    ],
+    "object_title": "Interpellation de Mme Barbara Kool, UCBSL : \"Mon enfant n'a plus de place à la cantine à la rentrée : quelles solutions ?\"",
+    "authors": [
+      {
+        "name": "Kool Barbara",
+        "person_id": 270232,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2026-06-16",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2908576",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2908576"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2908576_text_7069333",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2908576_text_7069333"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "7069333"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 5087,
+      "words_extracted": 753,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

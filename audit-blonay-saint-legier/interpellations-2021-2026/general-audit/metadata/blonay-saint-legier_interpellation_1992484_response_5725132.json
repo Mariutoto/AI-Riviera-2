@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1992484_response_5725132",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+    "source_title": "Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1992484",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5725132",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-31",
+    "language": "fr",
+    "content_hash": "215aac507714b4850e7e06d2c4e4b4386260220d7c0985fc658e265ee511e4f0",
+    "source_content_hash": "b42c063ac253269e7572df9e1e331a26c6f010400d0eb96d12c08c4a6ff1919b",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1992484",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1992484"
+    ],
+    "object_title": "Interpellation de M. Marc Chatelain et consorts \"Rodéos urbains\"",
+    "authors": [
+      {
+        "name": "Chatelain Marc",
+        "person_id": 270421,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2023-10-31",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1992484",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1992484"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1992484_text_4815121",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1992484_text_4815121"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1992484_text_4815121"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1992484_response_5725132"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5725132"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 3242,
+      "words_extracted": 500,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

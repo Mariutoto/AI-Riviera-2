@@ -1,0 +1,91 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2430031_text_5664658",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation A. Salanon - Droit au but",
+    "source_title": "Interpellation de M. Alain Salanon et consorts \"Droit au but - Activités sportives et de loisirs\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2430031",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5664658",
+    "listing_year": 2025,
+    "legislature": "2021-2026",
+    "document_date": "2025-04-29",
+    "language": "fr",
+    "content_hash": "6506cae987122d5e1356c83fba5ae5f212eb5a335fd83ff353c20c9c28eadd80",
+    "source_content_hash": "675960d948bbd8995efc778bf503192dcc5fb2d7e5422919c64e4a72f2cb537d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2430031",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2430031"
+    ],
+    "object_title": "Interpellation de M. Alain Salanon et consorts \"Droit au but - Activités sportives et de loisirs\"",
+    "authors": [
+      {
+        "name": "Salanon Alain",
+        "person_id": 270541,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2025-04-29",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2430031",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2430031"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2430031_text_5664658",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2430031_text_5664658"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2430031_response_6008230"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2430031_response_6008230"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "5664658"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 6,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 6743,
+      "words_extracted": 1117,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

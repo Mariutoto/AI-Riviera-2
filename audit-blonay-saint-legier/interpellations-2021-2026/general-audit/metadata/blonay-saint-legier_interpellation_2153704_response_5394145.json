@@ -1,0 +1,86 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2153704_response_5394145",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+    "source_title": "Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2153704",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5394145",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-05-28",
+    "language": "fr",
+    "content_hash": "397eda1ab3b1bdd013ad4a3b008c6f4eefbe08d3dff440fa3065f7f6830f95a9",
+    "source_content_hash": "6ab64dead1c301805e6e7740898783dfe6288b903894932b71817703f420fca6",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2153704",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2153704"
+    ],
+    "object_title": "Interpellation de Mme Michèle Perrelet \"Rendre notre patrimoine visible et connu\"",
+    "authors": [
+      {
+        "name": "Perrelet Michèle",
+        "person_id": 270241,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2024-05-28",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2153704",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2153704"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2153704_text_5132695",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2153704_text_5132695"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2153704_text_5132695"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2153704_response_5394145"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5394145"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 3187,
+      "words_extracted": 489,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

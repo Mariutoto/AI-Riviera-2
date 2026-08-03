@@ -1,0 +1,89 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2284093_response_5657890",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+    "source_title": "Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2284093",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5657890",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-10-30",
+    "language": "fr",
+    "content_hash": "064ea45a8438ade111e78e5752e3621f5ec7f6eda4c7fc2694f0d73cf8d1e3be",
+    "source_content_hash": "b40570cacc356480914020659a43bf4c4ee1cd20840255352e09194c959ed5b9",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2284093",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2284093"
+    ],
+    "object_title": "Interpellation de M. Mathieu Balsiger - Cohabitation VTT, promeneurs et agriculteurs sur les hauts de la Commune",
+    "authors": [
+      {
+        "name": "Balsiger Mathieu",
+        "person_id": 270406,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2024-10-30",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2284093",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2284093"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2284093_text_5353501",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2284093_text_5353501"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2284093_text_5353501"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2284093_response_5657890"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5657890"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 4,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 13630,
+      "words_extracted": 1939,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

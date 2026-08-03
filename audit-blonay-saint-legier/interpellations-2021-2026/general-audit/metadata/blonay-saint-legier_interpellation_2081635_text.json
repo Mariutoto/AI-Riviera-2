@@ -1,0 +1,83 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2081635_text",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+    "source_title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2081635",
+    "file_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2081635",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-02-29",
+    "language": "fr",
+    "content_hash": "ee5ba1ccffe2152c7fa38ac015dfed67891579acc64772252494b6732176172c",
+    "source_content_hash": "ee5ba1ccffe2152c7fa38ac015dfed67891579acc64772252494b6732176172c",
+    "extraction_method": "official_html",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2081635",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2081635"
+    ],
+    "object_title": "Interpellation de Mme D. Gédet \"ASR - Maison de la Sécurité à tout prix ?\"",
+    "authors": [
+      {
+        "name": "Gédet Dolores",
+        "person_id": 294731,
+        "party": ""
+      }
+    ],
+    "deposit_date": "2024-02-29",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2081635",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2081635"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2081635_text",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2081635_text"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2081635_response_5131882"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2081635_response_5131882"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_object_page",
+    "source_download_id": ""
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 0,
+      "characters_extracted": 416,
+      "words_extracted": 62,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "official_html",
+      "source_format": "official_html"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2770978_response_7027438",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+    "source_title": "Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2770978",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/7027438",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-24",
+    "language": "fr",
+    "content_hash": "5bf838abb1c6c82815f7693f0252eb3fb19dfcedc2484789c80909eb2a104be7",
+    "source_content_hash": "efb262df2d8b7ad5a8f7a7e7e70b59ec03cf65c2528f5f919ff7d82cbd7d4784",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2770978",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2770978"
+    ],
+    "object_title": "Interpellation de Mme Judith Bass, Groupe Les Vert.e.s - \"Highway to Veyre ou quand nos rues deviennent l'enfer des GPS\"",
+    "authors": [
+      {
+        "name": "Bass Judith",
+        "person_id": 394666,
+        "party": "Les Vert.e.s"
+      }
+    ],
+    "deposit_date": "2026-02-24",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2770978",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2770978"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2770978_text_6799432",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2770978_text_6799432"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2770978_text_6799432"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2770978_response_7027438"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "7027438"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4369,
+      "words_extracted": 687,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

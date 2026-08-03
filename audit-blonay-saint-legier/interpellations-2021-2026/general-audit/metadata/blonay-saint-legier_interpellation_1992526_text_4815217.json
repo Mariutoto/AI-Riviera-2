@@ -1,0 +1,87 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_1992526_text_4815217",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation - Clarifier bases légales - aménagement territoire - Claude Schwab",
+    "source_title": "Interpellation de M. Claude Schwab et consorts \"Clarifier les bases légales pour l'aménagement de notre territoire\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/1992526",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/4815217",
+    "listing_year": 2023,
+    "legislature": "2021-2026",
+    "document_date": "2023-10-31",
+    "language": "fr",
+    "content_hash": "95ea009ca950b99bf61172fabf580438e11f9b0c14c4f09a5c321236db0be889",
+    "source_content_hash": "3caa1047c50ee854e7fb77ee51640d70476ccaeea4700e2e535bc8662cf542b5",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-1992526",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-1992526"
+    ],
+    "object_title": "Interpellation de M. Claude Schwab et consorts \"Clarifier les bases légales pour l'aménagement de notre territoire\"",
+    "authors": [
+      {
+        "name": "Schwab Claude",
+        "person_id": 280157,
+        "party": "Parti socialiste et Allié.e.s"
+      }
+    ],
+    "deposit_date": "2023-10-31",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-1992526",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-1992526"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_1992526_text_4815217",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_1992526_text_4815217"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_1992526_response_4885279"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_1992526_response_4885279"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "4815217"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 2,
+      "image_counts": [
+        1,
+        1
+      ],
+      "characters_extracted": 4277,
+      "words_extracted": 710,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

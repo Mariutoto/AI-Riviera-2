@@ -1,0 +1,97 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2187346_response_5291002",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+    "source_title": "Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2187346",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/5291002",
+    "listing_year": 2024,
+    "legislature": "2021-2026",
+    "document_date": "2024-06-25",
+    "language": "fr",
+    "content_hash": "b05b3784955238dddc7248b0dad4da5269b42406de3e211260391453ec434f1e",
+    "source_content_hash": "3114d0bf4e5627f5ca8106c27b21409c0d961b18be86e7e403547f1d3f566d3d",
+    "extraction_method": "native_pdf",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2187346",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2187346"
+    ],
+    "object_title": "Interpellation du groupe PLR et Alliés \"Pour une baisse d'impôts 2025\"",
+    "authors": [
+      {
+        "name": "Stoeri Christoph",
+        "person_id": 270331,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2024-06-25",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2187346",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2187346"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2187346_text_5184715",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2187346_text_5184715"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2187346_text_5184715"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2187346_response_5291002"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "5291002"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 12,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        4
+      ],
+      "characters_extracted": 25569,
+      "words_extracted": 4205,
+      "needs_ocr": false,
+      "ocr_applied": false,
+      "extraction_method": "native_pdf",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": false,
+      "provider": null
+    }
+  }
+}

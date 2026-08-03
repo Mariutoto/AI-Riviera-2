@@ -1,0 +1,50 @@
+# Interpellation concernant des parcelles agricoles situées dans le secteur de Mottex
+
+Charles Morard, Catherine Herrero ainsi que des conseillères et conseillers de divers groupes politiques
+
+# Contexte
+
+Comme l'ont rapporté plusieurs médias, notamment à travers une enquête fouillée du journal Blick, la cheffe du Département des finances Valérie Dittli a, en 2023, remis en question une vente de parcelles agricoles dans le canton de Vaud. Cette intervention a mis en lumière des tensions au sein du Conseil d'État et suscité de vives interrogations sur l'accès de promoteurs immobiliers à des terrains pourtant protégés par la loi.
+
+L'affaire s'inscrit dans un contexte plus large de critiques croissantes à l'égard de l'opacité entourant la commission foncière rurale, chargée de garantir que les terres agricoles demeurent dans des mains paysannes et qu'elles ne soient pas l'objet de spéculation — sauf exceptions légales. Le fait que le secrétariat de cette commission soit géré par l'association Prométerre alimente également les débats.
+
+Plus précisément, la vente a concerné trois parcelles agricoles situées à Blonay-Saint-Légier, dans le secteur de Mottex, qui ont été cédées à la société Orllati Real Estate pour un montant de 14 millions de francs par une fondation publique en liquidation. L'absence d'appel d'offres public et un manque manifeste de transparence dans cette opération ont conduit Valérie Dittli à signer un recours, motivé par la volonté de défendre le patrimoine agricole cantonal. Ce recours, cependant, a suscité des tensions, notamment en raison de projets déjà annoncés sur ces terrains, tels qu'un foyer pour requérants d'asile (EVAM) ou un centre de vie enfantine temporaire.
+
+L'élément préoccupant ne réside pas tant dans la vente elle-même — désormais actée — que dans les perspectives d'évolution de l'affectation de ces terrains. En effet, alors que la commune de Blonay-Saint-Légier est en train de réviser son plan d'affectation communal (PACom), le risque existe que ces parcelles agricoles soient reclassées, ce qui irait dans le sens des intérêts du groupe Orllati. Ce scénario est d'autant plus inquiétant que certaines de ces surfaces sont classées comme surfaces d'assolement, donc légalement inconstructibles.
+
+Des pratiques douteuses ont également été relevées. Toujours selon les informations médiatiques, plusieurs agriculteurs locaux avaient initialement manifesté leur intérêt pour ces parcelles, avant de retirer brusquement leurs offres. Ces retraits sont suspectés d'avoir été provoqués par des interventions directes ou indirectes du promoteur, sous forme de promesses, de pressions ou de compensations alternatives (comme la mise à disposition temporaire d'autres terrains). La commission foncière ne semble pas avoir approfondi ces éléments.
+
+Alors qu'Orllati a refusé de s'exprimer publiquement sur cette affaire, et que la cheffe du Département n'a pas donné de suite aux sollicitations médiatiques, des préoccupations légitimes demeurent quant à la protection des terres agricoles et à la transparence des processus fonciers. Dans ce contexte, soucieux de défendre l'intérêt public, plusieurs conseillères et conseillers communaux souhaitent poser à la Municipalité les questions suivantes :
+
+# **Questions adressées à la Municipalité :**
+
+- La Municipalité a-t-elle eu connaissance que des parcelles agricoles, situées dans le secteur de **Mottex à Blonay-Saint-Légier**, allaient être vendues à un **promoteur immobilier privé** (le groupe Orllati) ? Et si oui, quand en a-t-elle été informée ?
+- Quelle **influence** cette vente peut-elle exercer sur la **planification et le zonage du futur PACom** ?
+- La Municipalité est-elle disposée à **prendre un engagement clair et public** en faveur du **maintien du caractère agricole** de ces parcelles dans le cadre du PACom ?
+- Quels seraient les **risques juridiques, politiques ou d'image** pour la commune si celle-ci venait à faciliter un changement d'affectation de ces terrains ? La Municipalité est-elle consciente que cela pourrait être interprété comme une **forme de soutien — même involontaire — à une stratégie spéculative** ?
+- Quelle est la **cohérence** entre la volonté affichée d'implanter des infrastructures comme un centre de vie enfantine ou un foyer d'accueil pour migrants de l'EVAM sur ces terrains et les **besoins réels de la commune** ? Ces projets répondent-ils à une **utilité publique avérée**, ou pourraient-ils servir de **prétexte à une densification progressive** ?
+- Quelles mesures la Municipalité entend-elle prendre pour garantir la **transparence, l'indépendance et l'absence de conflit d'intérêts** dans la conduite du PACom, en particulier sur ce secteur stratégique ?
+- Par quels moyens la Municipalité prévoit-elle d'**informer et rassurer les habitantes et habitants** sur ce dossier et les **inquiétudes relayées dans la presse** ?
+
+# **Demandes des interpellants :**
+
+Les soussignées et soussignés demandent à la Municipalité de :
+
+- Fournir au Conseil communal un **rapport détaillé** sur l'avancement et les principes guidant l'élaboration du **PACom**, en particulier pour les parcelles concernées de Mottex ;
+- Clarifier les **relations passées et actuelles** entre la Municipalité et le groupe Orllati dans ce contexte ;
+- **Suspendre toute décision d'affectation ou d'orientation stratégique** sur ces parcelles tant qu'une **évaluation indépendante** n'aura pas éclairci les conditions de la vente et les implications légales ;
+- **Rendre publiques toutes les démarches, échanges ou intentions** concernant ce secteur, qu'il s'agisse de négociations, projets ou planifications internes ;
+- Mettre en place une **commission ad hoc**, représentative et indépendante, chargée d'**accompagner la révision du PACom** sur les volets fonciers sensibles ;
+- Prévoir une **consultation populaire renforcée** sur les grandes orientations du PACom, en particulier en ce qui concerne les **zones agricoles à fort enjeu** comme celle de Mottex.
+
+Les interpellants remercient d'avance la Municipalité pour ses réponses écrites.
+
+Charles Morard
+
+Catherine Herrero
+
+[tbl-0.md](tbl-0.md)
+
+Conseil communal du 29 avril 2025
+
+[tbl-1.md](tbl-1.md)

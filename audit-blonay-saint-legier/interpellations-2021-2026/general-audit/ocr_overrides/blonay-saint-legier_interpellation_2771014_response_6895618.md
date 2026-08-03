@@ -1,0 +1,164 @@
+Commune de
+
+# Blonay – Saint-Légier
+
+LA MUNICIPALITÉ
+
+# INTERPELLATION
+
+Blonay, le 24 mars 2026
+
+Réponse de la Municipalité à l’interpellation de M. Sylvain Guillaume-Gentil (UCBSL), déposée lors de la séance du Conseil communal de Blonay - Saint-Légier du 24 février 2026, intitulée « Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ? »
+
+Monsieur le Président,
+
+Mesdames les Conseillères, Messieurs les Conseillers,
+
+Lors de la séance du Conseil communal du 24 février 2026, le délibérant a pris en considération l’interpellation de M. Sylvain Guillaume-Gentil (UCBSL), intitulée « Les arrêts de bus à Blonay – Saint-Légier : peut-on espérer mieux ? ».
+
+En guise d’introduction, la Municipalité précise que les VMCV ont présenté le nouvel horaire 2026 dans le cadre d’une soirée avec les communes, qui s’est déroulée à La Tour-de-Peilz courant 2025.
+
+D’une manière générale et synthétisée, il ressort de la présentation énoncée ci-dessus les informations suivantes :
+
+[...] Principales connexions :
+
+- Les localités de Corseaux, Fenil et Corsier restent liées à la gare de Vevey. La Tour-de-Peilz, le quartier des Novalles et Chailly le sont désormais également.
+- Les villages de Blonay et de Brent sont désormais reliés directement au centre de Montreux. Cette liaison permet la création d'un lien fort de Blonay vers l'est de l'agglomération, et notamment l'hopital de Rennaz, via la ligne 201, et vers le Valais grâce à de bonnes correspondances en gare de Montreux.
+
+Deux lignes répondant à des besoins particuliers sont créées :
+
+- Entre la gare de Vevey et Nant : il s'agit de la (nouvelle) ligne 203 qui circulera une dizaine de fois par jour
+- Entre la gare de Blonay et le gymnase de Burier, via la gare de Fontanivent et Chailly : il s'agit de la (nouvelle) ligne 208 qui circulera 5 fois par jour, en début et fin de journée, afin d'assurer une desserte optimisée en fonction des horaires du gymnase et de rabattre les élèves du Pays-d'Enhaut (correspondance MOB en gare de Fontanivent).
+
+En ce qui concerne notre Commune, le détail de l’horaire 2026 et les impacts sur les arrêts supprimés, conservés, à adapter, à modifier ou à créer, ont été vus de concert avec les VMCV le 27 février 2025 ; et portaient sur la nouvelle ligne 208, et la 211.
+
+S’en est suivie une analyse de chaque site (arrêt VMCV) concerné sur la localité de Blonay. Cette analyse, documentée en tenant compte des aspects sécuritaires, avec des propositions d’améliorations et/ou de modifications, a été transmise à l’autorité municipale et concernait les arrêts suivants : Novalles, Mon Désir, Antiquaire, Champsavaux, Champ-Dodo, Gare Blonay, Village, Portaz et Planaz.
+
+L'autorité municipale a décidé de prioriser certaines interventions en fonction de ce qui était demandé par les VMCV. La priorité a donc été donnée aux arrêts Antiquaire, Novalles gare de Blonay.
+
+Pour l'arrêt Antiquaire, la situation actuelle ne répond pas aux critères de la LHand, le passage pour piétons ne répond pas à ceux de la norme en vigueur, et les VMCV ont demandé un nouvel arrêt dans le sens descendant en direction de La Tour-de-Peilz.
+
+Pour l'arrêt Novalles nous trouvons la même problématique que pour l'arrêt Antiquaire, à la différence que les arrêts se font hors de l'axe principal. Là aussi les VMCV ont demandé un arrêt supplémentaire dans le sens descendant en direction de La Tour-de-Peilz.
+
+Pour l'arrêt Gare Blonay, attendu qu'il s'agit d'une jonction « stratégique » entre la gare de Blonay et le gymnase de Burier, via la gare de Fontanivent et Chailly, l'endroit situé devant la gare de Blonay ne permet pas de faire la liaison de 3 lignes en même temps (204, 208 et 211). Il a donc été décidé de rester au plus proche de la gare, avec la création d'un arrêt le long de la route des Oches.
+
+Il est facilement imaginable que les travaux en lien avec les trois arrêts précités seront importants, avec par conséquent différentes procédures administratives, procédures auxquelles l'autorité municipale ne peut échapper.
+
+Toutefois, afin de pouvoir répondre aux attentes des VMCV, nous avons sollicité l'autorisation, auprès de la DGMR, de pouvoir effectuer des travaux provisoires en parallèle avec la procédure officielle. Notre demande s'est heurtée à une fin de non-recevoir attendu que la DGMR n'autorise le marquage d'aucun arrêt provisoire ne répondant pas aux critères de sécurité. De ce fait, le 17 juin 2025, la Municipalité a pris la décision de s'adjoindre les services d'un bureau d'ingénieurs (TBM), afin de traiter les trois arrêts ayant fait l'objet d'un choix prioritaire. Il y a lieu de préciser, qu'en parallèle, la Commune a tout de même œuvré pour faciliter la tâche des VMCV qui n'avaient plus d'autre choix que de procéder à la matérialisation des nouveaux arrêts selon l'horaire 2026. A ce jour, les offres d'honoraires ont été réceptionnées et validées par l'autorité. Les plans de réalisation de ces trois objets sont en cours de finalisation. Ces plans seront ensuite transmis à la DGMR pour avis et remarques avant enquête publique CAMAC. En l'état, il n'est pas encore possible de présenter un planning précis, mais le projet avance activement.
+
+Question 1 : « En sachant que c'est aux communes riveraines qu'incombe la responsabilité d'équiper les arrêts de bus, quelle est la vision de la Municipalité sur la qualité des arrêts ? Je pense notamment aux abris, qui semblent être des dispositifs inconnus à Blonay – Saint-Légier et pourtant assez courant ailleurs »
+
+Les explications mentionnées ci-dessus répondent partiellement à la question No 1.
+
+Les autres arrêts sur la localité de Blonay, concernés par des travaux : Champ Dodo, Portaz, Planaz, feront l'objet de la même attention dans une seconde étape.
+
+En ce qui concerne les arrêts Champsavaux et Mon Désir, ils ont été supprimés.
+
+L'arrêt Village, est quant à lui traité séparément. Cet arrêt étant lié à de futurs travaux de construction dans le secteur, il devra être déplacé. Afin de traiter au mieux cet objet, la Commune a, dans une première phase, collaboré avec les VMCV afin de prendre en considération leurs critères normatifs, tout en prenant en considération la problématique de la traversée piétonne à cet endroit. La commune s'étant vite rendues compte que certains de ces fameux critères normatifs seraient difficiles à respecter, nous avons impliqué dans le projet un bureau spécialisé en mobilité ; l'objectif visé étant de pouvoir prévoir l'implantation d'un passage pour piétons à proximité des arrêts de bus Village.
+
+La DGMR, ayant été approchée à ce sujet, nous a fait savoir que « [...] le marquage d'un nouveau passage pour piétons ne pourrait être admis lorsque la fréquentation de cette nouvelle traversée sera conforme aux exigences de la norme VSS. Ce ne sera probablement pas le cas avant la mise en service de la garderie prévu dans ce lotissement [...] »
+
+C'est malheureusement à ce moment que l'on mesure la difficulté de concilier simultanément la réalisation d'un projet privé et l'amélioration du domaine public. Si, en raison des travaux qui vont avoir lieu dans le secteur, le déplacement provisoire de l'arrêt de bus Village (sens de circulation Brent) sera bel et bien effectif. Le projet d'implantation d'un passage pour piétons ne pourra (selon la DGMR) être traité qu'après les travaux de construction (projet immobilier avec une crèche-garderie).
+
+Il ressort en effet que, hormis la norme VSS SN640241, la recommandation du BPA précise certaines conditions de mise en œuvre dont, notamment les conditions de visibilité, l'éclairage et le nombre de piétons. Pour qu'un passage pour piétons puisse être utilisé en toute sécurité, il doit être régulièrement emprunté par des piétons. Ainsi, un passage pour piétons doit être emprunté par au moins 100 piétons durant les 5 heures les plus fréquentées d'une journée moyenne. Dans le cas qui nous occupe, le principal problème se situe au niveau de la visibilité. Dans l'éventualité où le problème ne pourrait être résolut, la Commune se réserve la possibilité de faire une demande complémentaire de feux de signalisation routière au droit dudit passage pour piétons. Ce sujet sera également sensible, attendu que la DGMR fait référence aux recommandations du BPA, lesquelles précisent : au moins 500 traversées de piétons et plus de 10'000 véhicules par jour. En finalité, rien n'est gagné d'avance.
+
+Il est à noter que l'auteur de cette interpellation dispose d'un accès privilégié à l'ensemble des données techniques, le bureau Transitec pour lequel il travaille étant précisément le prestataire mandaté pour la réalisation de cette étude.
+
+Question 2 : « En sachant que la loi LHand exige une mise aux normes des arrêts, en tout cas les prioritaires (on peut penser notamment à ceux qui sont proches des EMS par exemple), quelle est l'ambition de notre commune à ce niveau ? A quoi vont servir les 2 fois CHF 500'000.- prévus aux investissements ? Seront-ils suffisants ? »
+
+Comme expliqué ci-dessus, les trois arrêts en cours de traitement prennent en compte la mise aux normes LHand. L'ambition de la Commune est bien une mise en conformité de l'ensemble des arrêts concernés.
+
+La position « arrêts de bus », dans le tableau des investissements, découle d'estimations, elle devra être revue et adaptée une fois connu les coûts des travaux des 3 arrêts actuellement en étude.
+
+Pour les travaux sur la ligne 215, ils seront intégrés dans les préavis, par exemple, 4/2026 concernant l'aménagement d'un trottoir et d'arrêts de bus ainsi que la mise en place de l'éclairage public sur le chemin de la Veyre-d'En-Haut, pour un montant de CHF 1'073'000.- et, par la suite, avec la dernière étape de la traversée du Village de St-Légier-La Chiésaz ainsi que ceux liés au réaménagement de la route de La Veyre, en lien au Plan d'affectation de la Veyre-Derrey.
+
+Question 3 : « Un EMPD cantonal a été voté à la quasi-unanimité le 3 février dernier par le Grand Conseil. Il alloue un crédit de près de 25 millions de CHF pour la mise aux normes des arrêts de bus dans notre canton. Sur ces 24.7 millions, 7.8 millions seront mis à disposition des communes pour qu'elles adaptent leurs arrêts, sous la forme de subventions, à concurrence de 30 % et CHF 15'000.- par quai. Sachant que tout cela a une durée de vie de 4 ans, est-ce que la Municipalité a pris les devants pour obtenir des crédits ? »
+
+Extrait : texte adopté par CE . Lhand – publié : 23_LEG_99 - EMPD (1er débat) crédit-cadre de CHF 16'900'000.-- pour financer la mise en conformité des arrêts de bus propriété du Canton selon la LHand / EMPD crédit-cadre de CHF 7'800'000.-- pour financer une subvention cantonale pour la mise en conformité des arrêts de bus propriété des Communes selon la LHand / Réponse du Conseil d'Etat à l'interpellation de Sylvie Podio et consorts - Le transfert modal pour tout le monde, ça devrait être pour 2024 selon la LHand, mais à moins d'un miracle pas en terre vaudoise? (22_INT_126) :
+
+[...] « b) Arrêts propriété des Communes
+
+Pour ce qui concerne les arrêts de responsabilité communale, le Conseil d'Etat souhaite, au travers d'un appui financier, inciter les Communes à se lancer dans des projets de mise en conformité, en ciblant les arrêts les plus prioritaires.
+
+Le Canton allouera son soutien pour la mise en conformité d'arrêts répondant aux critères suivants :
+
+L'arrêt comptabilise au moins 5 montées/jour.
+L'arrêt se situe à proximé d'un établissement accueillant des personnes à mobilité réduite (hôpital, centre de soin, EMS, etc.).
+L'arrêt figure sur une ligne de bus subventionnée par le Canton.
+L'arrêt figure sur une ligne de bus desservant une interface de transport.
+L'arrêt est accessible aux personnes à mobilité réduite depuis les abords immédiats.
+
+# 1.5.6 Montant de la subvention cantonale par arrêt
+
+Sur la base des mesures techniques envisageables et de l'estimation de leur coût par arrêt, plusieurs variantes ont été générées et évaluées. Les critères considérés pour choisir la variante proposée ci-dessous sont les suivants :
+
+- Viser une exemplarité cantonale, notamment sur le réseau des routes cantonales hors traversée de localité.
+- Soutenir les Communes dans cette démarche de manière proportionnée, en accord avec le droit fédéral.
+- Simplifier les procédures d'octroi de la subvention cantonale, tout en assurant la maîtrise du processus.
+Permettre au Canton d'avoir une vue d'ensemble sur tout le territoire cantonal.
+
+Sur la base de ces critères, la variante retenue consiste à prendre en charge l'entier des coûts de réalisation des arrêts situés sur une route cantonale hors traversée de localité et de proposer aux Communes une subvention cantonale de 30 % des coûts de réalisation, avec un plafond fixé à CHF 15'000.- par quai, pour les arrêts situés sur le réseau routier communal ou cantonal en traversée de localité. »
+
+[...] « Le Canton allouera son soutien dans l'ordre d'arrivée des dossiers, pour 250 arrêts, sous réserve du respect des critères du chapitre 1.5.5 et des fonds disponibles.
+
+Le processus de demande de subvention comporte les étapes principales suivantes :
+
+1. Prise de contact par la DGMR avec l'ensemble des Communes concernées
+
+Le Canton souhaite ainsi sensibiliser les Communes à la problématique, expliquer les obligations légales et la démarche de subventionnement, tout en offrant aux Communes un soutien technique.
+
+2. Étude de la mise en conformité par les Communes
+
+Afin de pouvoir bénéficier de la subvention cantonale, les Communes ont la responsabilité d'établir leur projet de mise en conformité en tenant compte de la priorisation définie au chapitre 1.5.5, éventuellement avec l'appui des entreprises de transport public concernées.
+
+3. Demande de subventionnement à la DGMR
+
+Les Communes adressent leur demande à la DGMR. Le dossier de demande comprend un descriptif des travaux, un devis détaillé et les plans d'exécution.
+
+4. Examen de la demande par la DGMR
+
+Si la demande est conforme aux critères du chapitre 1.5.5 b), le dossier est accepté, une convention de subventionnement sera établie, fixant les conditions et le plafond de subventionnement. Elle sera signée par l'Etat et la Commune.
+
+Le Canton ne considérera que les frais imputables aux mesures de mise en conformité LHand des arrêts de bus pour définir le montant de la subvention. Celle-ci sera de 30 % du coût de réalisation avec un plafond fixé à CHF 15'000.- par quai.
+
+En cas de quai partagé par plusieurs lignes simultanément, avec plusieurs zones d'arrêt en enfilade sur un seul quai de grande longueur, le plafond sera adapté en conséquence.
+
+5. Réalisation
+
+Les Communes soumettent le projet à l'enquête publique si nécessaire, puis exécutent les travaux, procèdent à la réception des travaux et établissent le décompte final.
+
+#### 6. Versement de la subvention par la DGMR
+
+Conformément à la convention signée, sur la base des factures finales relatives aux travaux réalisés, des preuves de paiement et du procès-verbal de réception des travaux transmis par les Communes, la DGMR verse la subvention et met à jour l'outil de suivi de la mise en conformité des arrêts.
+
+##### 1.5.8 Soutien technique
+
+Pour appuyer les communes dans les procédures de mise en conformité des arrêts de bus dont elles ont la responsabilité, la DGMR éditera à l'attention des Communes une brochure d'information technique pour aider à la planification et à la réalisation des travaux. Un guichet LHand fournira également des conseils, la porte d'entrée des Communes restant les voyers d'arrondissement à l'instar de ce qui se pratique aujourd'hui.
+
+Ces prestations cantonales qui sont inexistantes à ce jour pour la thématique LHand, nécessitent l'affectation de ressources supplémentaires, estimées à 2 ETP pour une durée de 4 ans. 1.5 ETP sont prévus pour les prestations liées à la mise en conformité des arrêts de bus propriété du Canton, et 0.5 ETP est prévu pour celles liées à la mise en conformité des arrêts propriété des Communes. Ces ETP font partie des présentes demandes de crédit et seront rattachés à la Division infrastructures de la DGMR (voir chapitre 3.4 et 4.4 ci-dessous).
+
+##### 1.6 Montant des crédits
+
+Les deux projets de décrets visent à donner à l'administration cantonale les moyens humains et financiers de réaliser la mise en conformité des arrêts de bus propriété du Canton et de soutenir les Communes pour la mise en conformité des arrêts de bus leur appartenant. »
+
+A ce jour, nous attendons les informations officielles de la DGMR. Une fois reçue, nous mettrons tout en œuvre pour les appliquer.
+
+**Question 4 : « Comme 2027, 2028 ou 2029, c'est encore très loin, qu'est-il prévu de faire à court terme pour les passagers qui empruntent les nouveaux arrêts de la ligne 211 qui sont aujourd'hui plus que discrets... ou qui sont franchement très dangereux ? »**
+
+Comme évoqué ci-dessus, les arrêts Novalles et Antiquaire font actuellement l'objet d'une étude dont le projet sera tout prochainement proposé à la DGMR.
+
+Les autres arrêts sur la localité de Blonay, concernés par des travaux : Champ Dodoz (ligne 211), Portaz et Planaz (lignes 204 et 208), feront l'objet de la même attention dans une seconde étape. Nous espérons pouvoir démarrer cette étape dès 2027.
+
+Merci de votre attention.
+
+AU NOM DE LA MUNICIPALITE
+
+Le vice-président
+
+La secrétaire adj.
+
+T. George
+
+Délégation municipale : M. Thierry George
+
+Copie au Bureau du Conseil communal

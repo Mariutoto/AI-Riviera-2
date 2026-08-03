@@ -17,6 +17,7 @@ DOCUMENT_PREFIX = "montreux_interpellation_"
 CATEGORY = "interpellation"
 SPECIFIC_METADATA_KEY = "interpellation_metadata"
 RECIPE_VERSION = "montreux-interpellations-v1"
+COMMUNE = "Montreux"
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -60,7 +61,7 @@ def validate(inputs: list[dict], vectors: list[dict]) -> dict[str, dict]:
 def document_metadata(row: dict, record: dict) -> dict:
     general = dict(record["document_metadata"])
     if (
-        general.get("commune") != "Montreux"
+        general.get("commune") != COMMUNE
         or general.get("category") != CATEGORY
         or general.get("document_id") != row["document_id"]
     ):
@@ -221,7 +222,7 @@ def main() -> None:
                                     "source_chunk_file": row[
                                         "source_chunk_file"
                                     ],
-                                    "commune": "Montreux",
+                                    "commune": COMMUNE,
                                     "category": CATEGORY,
                                 },
                                 ensure_ascii=False,
@@ -234,8 +235,8 @@ def main() -> None:
                 "SELECT count(*) FROM documents "
                 "WHERE document_id = ANY(%s) "
                 "AND category=%s "
-                "AND metadata->>'commune'='Montreux'",
-                (document_ids, CATEGORY),
+                "AND metadata->>'commune'=%s",
+                (document_ids, CATEGORY, COMMUNE),
             )
             target_documents_after = cursor.fetchone()[0]
             cursor.execute(

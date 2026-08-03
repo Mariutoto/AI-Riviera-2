@@ -1,0 +1,90 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2771014_response_6895618",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "municipal_response",
+    "title": "Réponse municipale — Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+    "source_title": "Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2771014",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6895618",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-02-24",
+    "language": "fr",
+    "content_hash": "fa407bda91e0ceb8818cbe0e9d4a543b9839494322a3349d8d019e7d740e41cd",
+    "source_content_hash": "afc124568a90fab2672d4a4ecd7d565681229fde8a553de8de6515cda56d7ef3",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2771014",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2771014"
+    ],
+    "object_title": "Interpellation de M. S. Guillaume-Gentil, UCBSL - \"Les arrêts de bus à Blonay - Saint-Légier : peut-on espérer mieux ?\"",
+    "authors": [
+      {
+        "name": "Guillaume-Gentil Sylvain",
+        "person_id": 270271,
+        "party": "Union Citoyenne Blonay - Saint-Légier (UCBSL)"
+      }
+    ],
+    "deposit_date": "2026-02-24",
+    "status_normalized": "answered",
+    "status": "Répondu",
+    "has_response": true,
+    "response_status": "written_response",
+    "is_closed": true,
+    "has_resolution": false,
+    "document_component_role": "municipal_response"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2771014",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2771014"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2771014_text_6799474",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2771014_text_6799474"
+    ],
+    "related_document_ids": [
+      "blonay-saint-legier_interpellation_2771014_text_6799474"
+    ],
+    "response_document_ids": [
+      "blonay-saint-legier_interpellation_2771014_response_6895618"
+    ],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_municipal_response_pdf",
+    "source_download_id": "6895618"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 5,
+      "image_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "characters_extracted": 17391,
+      "words_extracted": 2838,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}

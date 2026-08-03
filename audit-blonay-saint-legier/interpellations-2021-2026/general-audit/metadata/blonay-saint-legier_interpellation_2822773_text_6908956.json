@@ -1,0 +1,82 @@
+{
+  "document_metadata": {
+    "document_id": "blonay-saint-legier_interpellation_2822773_text_6908956",
+    "commune": "Blonay–Saint-Légier",
+    "document_family": "political_object",
+    "category": "interpellation",
+    "document_role": "interpellation_text",
+    "title": "Interpellation Mme M. Brunschwig",
+    "source_title": "Interpellation de Mme M. Brunschwig, PLR - \"Eclairage au sentier de Bousse\"",
+    "source_page_url": "https://www.blonay-saint-legier.ch/objetspolitiques/2822773",
+    "file_url": "https://www.blonay-saint-legier.ch/_doc/6908956",
+    "listing_year": 2026,
+    "legislature": "2021-2026",
+    "document_date": "2026-03-31",
+    "language": "fr",
+    "content_hash": "c75dbafd4318b0a947c07a1f7b707515d830661a283df3c4f2c49da137214101",
+    "source_content_hash": "24f9b9974990e0b6864d35bb507baebadad10f1ffd61de44392a2d773a6c15f2",
+    "extraction_method": "mistral_ocr",
+    "processing_status": "validated",
+    "canonical": true
+  },
+  "interpellation_metadata": {
+    "type": "interpellation",
+    "object_id": "blonay-saint-legier-interpellation-2822773",
+    "object_ids": [
+      "blonay-saint-legier-interpellation-2822773"
+    ],
+    "object_title": "Interpellation de Mme M. Brunschwig, PLR - \"Eclairage au sentier de Bousse\"",
+    "authors": [
+      {
+        "name": "Brunschwig Marion",
+        "person_id": 332789,
+        "party": "PLR Blonay - Saint-Légier"
+      }
+    ],
+    "deposit_date": "2026-03-31",
+    "status_normalized": "deposited",
+    "status": "Déposé",
+    "has_response": false,
+    "response_status": "unanswered",
+    "is_closed": false,
+    "has_resolution": false,
+    "document_component_role": "interpellation_text"
+  },
+  "relationships": {
+    "political_object_id": "blonay-saint-legier-interpellation-2822773",
+    "political_object_ids": [
+      "blonay-saint-legier-interpellation-2822773"
+    ],
+    "political_object_document_id": "blonay-saint-legier_interpellation_2822773_text_6908956",
+    "political_object_document_ids": [
+      "blonay-saint-legier_interpellation_2822773_text_6908956"
+    ],
+    "related_document_ids": [],
+    "response_document_ids": [],
+    "resolution_document_ids": []
+  },
+  "source_tracking": {
+    "source_collection": "Conseil communal de Blonay–Saint-Légier",
+    "source_kind": "official_interpellation_text_pdf",
+    "source_download_id": "6908956"
+  },
+  "processing": {
+    "text_extraction_status": {
+      "page_count": 1,
+      "image_counts": [
+        1
+      ],
+      "characters_extracted": 2131,
+      "words_extracted": 323,
+      "needs_ocr": true,
+      "ocr_applied": true,
+      "extraction_method": "mistral_ocr",
+      "source_format": "native_pdf"
+    },
+    "ocr": {
+      "checked": true,
+      "applied": true,
+      "provider": "mistral-ocr-latest"
+    }
+  }
+}
