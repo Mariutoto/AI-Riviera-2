@@ -479,6 +479,28 @@ st.markdown(
         margin-bottom: 0.15rem;
     }
 
+    .air-about-audience {
+        color: var(--air-muted);
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+        gap: 0.5rem 0.75rem;
+        list-style: none;
+        margin: 0.6rem 0 1.5rem;
+        padding: 0;
+    }
+
+    .air-about-audience li {
+        background: var(--air-soft);
+        border-radius: 999px;
+        padding: 0.3rem 0.85rem;
+    }
+
+    .air-about-audience strong {
+        color: var(--air-ink);
+        font-weight: 600;
+    }
+
     .air-about-note {
         background: #fff8ea;
         border: 1px solid #ead7a9;
@@ -677,6 +699,39 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True,
+)
+
+# Streamlit's selectbox doesn't expose a way to disable individual options,
+# and the dropdown items carry no attribute tying them back to their value
+# (only nested, auto-generated class names) — so the "à venir" communes can
+# only be greyed out by matching on their rendered text from the parent
+# document. components.v1.html's srcdoc iframe shares the page's origin,
+# which is what makes window.parent.document reachable here.
+st.components.v1.html(
+    """
+    <script>
+    (function () {
+        function muteComingSoonOptions() {
+            var doc = window.parent.document;
+            var options = doc.querySelectorAll('li[role="option"]');
+            options.forEach(function (option) {
+                if (option.textContent.indexOf('prochainement') !== -1) {
+                    option.style.opacity = '0.45';
+                    option.style.fontStyle = 'italic';
+                }
+            });
+        }
+        var target = window.parent.document.body;
+        if (!target) { return; }
+        new MutationObserver(muteComingSoonOptions).observe(target, {
+            childList: true,
+            subtree: true,
+        });
+        muteComingSoonOptions();
+    })();
+    </script>
+    """,
+    height=0,
 )
 
 def current_filters() -> dict | None:
@@ -1892,70 +1947,59 @@ with about_tab:
                 width=320,
             )
 
-    st.subheader("À qui cela peut être utile ?")
+    st.subheader("En quoi c'est utile ?")
     st.markdown(
         """
         <ul class="air-about-list">
             <li>
-                <strong>Habitants et médias</strong>
-                Poser une question sans connaître le nom exact du document et accéder directement aux sources.
+                <strong>Trouver une réponse même avec une question vague</strong>
+                Sans connaître le titre exact d’un document, citoyennes, citoyens et journalistes posent leur question avec leurs mots et accèdent directement aux sources officielles.
             </li>
             <li>
-                <strong>Conseillères et conseillers</strong>
-                Retrouver les interventions précédentes, les engagements annoncés et les réponses déjà données.
+                <strong>Suivre un sujet dans le temps et vérifier son état</strong>
+                Pour une interpellation, un postulat ou une motion : historique complet, réponse existante ou non, dates clés et ce qui reste en attente.
             </li>
             <li>
-                <strong>Administration communale</strong>
-                Suivre les objets en attente et retrouver une réponse même lorsqu’elle arrive plusieurs années après le dépôt.
+                <strong>Aider les communes à répondre plus vite</strong>
+                L’administration vérifie si un sujet a déjà été traité et réutilise ce qui existe déjà, pour gagner du temps.
             </li>
             <li>
-                <strong>Mémoire institutionnelle</strong>
-                Relier une interpellation, un postulat ou une motion à ses réponses, rapports et décisions dans le temps.
+                <strong>Repérer les sujets récurrents et les doublons</strong>
+                Le système repère les thèmes qui reviennent, les formulations proches et les doublons possibles, d’une commune à l’autre.
             </li>
             <li>
-                <strong>Sujets récurrents</strong>
-                Repérer des titres proches, des doublons possibles ou des questions qui reviennent sous une autre formulation.
-            </li>
-            <li>
-                <strong>Contrôle et transparence</strong>
-                Comparer les dates, vérifier si une réponse existe et ouvrir la publication officielle utilisée.
-            </li>
-            <li>
-                <strong>Accès régional centralisé</strong>
-                Consulter depuis un même site les fichiers publics disponibles dans plusieurs communes de la Riviera.
-            </li>
-            <li>
-                <strong>Économies d’échelle</strong>
-                Mutualiser l’indexation, la recherche et les outils techniques plutôt que de reproduire le même travail dans chaque commune.
+                <strong>Centraliser l’accès régional</strong>
+                Un seul site pour consulter les publications de plusieurs communes de la Riviera, avec des outils mutualisés.
             </li>
         </ul>
         """,
         unsafe_allow_html=True,
     )
 
-    st.subheader("Comment ça marche ?")
+    st.subheader("À qui ça s'adresse ?")
     st.markdown(
         """
-        <ul class="air-about-list">
-            <li>
-                <strong>1. Question</strong>
-                Vous écrivez une question simple, avec un titre, un auteur ou une date si vous les connaissez.
-            </li>
-            <li>
-                <strong>2. Vérification</strong>
-                L’application consulte les métadonnées fiables : commune, auteurs, dates, catégories et relations entre documents.
-            </li>
-            <li>
-                <strong>3. Recherche</strong>
-                Elle recherche ensuite les passages utiles dans les PDF et les transcriptions officielles indexées.
-            </li>
-            <li>
-                <strong>4. Réponse sourcée</strong>
-                Elle présente une réponse concise et les liens officiels nécessaires pour la contrôler.
-            </li>
+        <ul class="air-about-audience">
+            <li><strong>Habitantes, habitants</strong> et médias</li>
+            <li><strong>Conseillères et conseillers</strong> communaux</li>
+            <li><strong>Administrations</strong> communales</li>
+            <li><strong>Associations</strong> et chercheur·euse·s</li>
         </ul>
         """,
         unsafe_allow_html=True,
+    )
+
+    st.subheader("Communes et documents disponibles")
+    available_municipalities = [
+        municipality
+        for municipality in MUNICIPALITIES.values()
+        if municipality.search_enabled
+    ]
+    st.markdown(
+        "\n".join(
+            f"- **{municipality.label}** — {municipality.search_scope}"
+            for municipality in available_municipalities
+        )
     )
 
     st.markdown(
