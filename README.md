@@ -1,50 +1,61 @@
 # AI Riviera 2
 
-Prototype open source de chatbot pour interroger les documents publics de La Tour-de-Peilz.
+Chatbot open source pour interroger les documents publics des communes de la Riviera vaudoise.
 
-AI Riviera est un projet à but non lucratif. L'objectif est d'aider les citoyennes, citoyens, élus et personnes intéressées à retrouver plus facilement des informations dans les documents publics communaux, tout en gardant les sources visibles pour vérification.
+AI Riviera est un projet à but non lucratif. L'objectif est d'aider les citoyennes, citoyens, élus et personnes intéressées à retrouver plus facilement des informations dans les documents publics communaux (motions, postulats, interpellations et leurs réponses), tout en gardant les sources visibles pour vérification.
 
 Code source: https://github.com/Mariutoto/AI-Riviera-2
 
-La version actuelle utilise Postgres comme base principale: documents, passages, métadonnées, données structurées, articles du règlement, objets politiques et données financières. OpenSearch reste une intégration optionnelle pour tester une recherche hybride BM25 + vectorielle avec un service hébergé. Le JSON/SQLite reste disponible uniquement comme ancien mode d'export ou de compatibilité, désactivé par défaut dans l'application.
+## Communes couvertes
+
+| Commune | Documents indexés |
+|---|---|
+| La Tour-de-Peilz | Interpellations, postulats, motions, préavis municipaux, procès-verbaux, budgets, rapports de gestion, rapports des comptes, règlement du Conseil communal |
+| Vevey | Interpellations, motions, postulats |
+| Montreux | Interpellations, motions, postulats |
+| Blonay–Saint-Légier | Interpellations, motions, postulats |
+| Veytaux | Interpellations, motions |
+
+Cette liste vit dans `municipal_pipeline/municipalities.py` (`search_enabled=True`) et pilote à la fois les filtres de l'interface (`app/ui.py`) et le routage de la recherche (`app/agent.py`). D'autres communes de la Riviera (Corsier-sur-Vevey, Corseaux, Chardonne, Jongny, Villeneuve, ASR) apparaissent déjà dans le menu comme « prochainement », grisées, en attendant leur pipeline.
+
+## Architecture en bref
+
+- Chaque commune a un ou plusieurs scrapers dans `scrape-<commune>/`, qui téléchargent les PDF et construisent un `inventory.json` par catégorie de document.
+- L'OCR ciblé (`run_targeted_ocr.py`, API Mistral OCR) traite les PDF scannés qui n'ont pas de texte natif.
+- `build_audit.py` consolide l'inventaire et les textes en un audit vérifiable par catégorie.
+- `generate_embedding_inputs.py` puis `generate_embeddings.py` (moteur partagé dans `embedding-pilot/`) découpent les documents en passages et calculent les embeddings Mistral (`mistral-embed`, 1024 dimensions).
+- `load_to_postgres.py` charge documents, passages et métadonnées dans Postgres/pgvector (`POSTGRES_V2_URL`), puis `validate_database.py` vérifie le résultat.
+- L'application Streamlit (`app/ui.py`) interroge cette base via `app/pilot_v2_store.py`: `app/retrieval.py` détecte le type de document et l'année demandés dans la question, puis `app/agent.py` répartit la recherche entre communes et fusionne les résultats. `app/answer.py` génère une synthèse en français avec Mistral ou OpenAI si une clé API est configurée; sans clé, l'app affiche directement les meilleurs passages retrouvés avec leurs sources.
+
+Chaque commune suit la même convention de dossiers, par exemple pour Montreux:
+
+```text
+scrape-montreux/scrape_interpellations_2021_2026.py
+audit-montreux/interpellations-2021-2026/
+  inventory.json
+  run_targeted_ocr.py
+  build_audit.py
+  generate_embedding_inputs.py
+  generate_embeddings.py
+  load_to_postgres.py
+  validate_database.py
+  README.md
+```
+
+Les scripts d'une commune importent souvent ceux d'une autre commune déjà en place (via `importlib`) et surchargent quelques constantes (préfixe de document, catégorie, nom de la commune) plutôt que de dupliquer toute la logique: voir le `README.md` de chaque dossier `audit-<commune>/<categorie>/` pour le détail.
 
 ## Lancer le chatbot
 
 ```powershell
 python -m pip install -r requirements.txt
-python -m app.ingest
 python -m streamlit run app/ui.py
 ```
 
-L'application répond avec les passages les plus pertinents et leurs sources. Si une clé Mistral ou OpenAI est configurée, elle génère aussi une synthèse en français à partir des extraits retrouvés.
-
-Pour relancer l'ingestion manuellement ou via un job planifié:
-
-```powershell
-python -m app.ingestion_pipeline --trigger-name scheduled
-```
-
-`python -m app.ingest` alimente Postgres, et OpenSearch seulement s'il est configuré:
-
-- Postgres: stocke les villes, documents, chunks, hashes, statuts d'ingestion et logs.
-- Postgres: extrait aussi une couche financiere structuree pour les budgets communaux (`financial_summary_tables`, `financial_summary_rows`, `financial_account_lines`).
-- OpenSearch, si un service hébergé est configuré: indexe les chunks pour tester la recherche hybride et les filtres.
-
-Pour reconstruire l'ancien index JSON/SQLite explicitement:
-
-```powershell
-python -m app.ingest --legacy-json
-```
-
-Pour relancer uniquement l'extraction financiere des budgets deja ingeres:
-
-```powershell
-python -m app.financial_extraction
-```
+L'application lit directement depuis Postgres (`POSTGRES_V2_URL`); il n'y a pas d'étape d'ingestion à lancer pour simplement servir l'app, tant que la base est déjà peuplée (voir « Alimenter une commune » ci-dessous).
 
 ## Options LLM
 
-Sans clé API, l'app affiche les meilleurs extraits trouvés.
+Sans clé API, l'app affiche les meilleurs extraits trouvés, avec leurs sources.
 
 Avec Mistral:
 
@@ -63,109 +74,50 @@ $env:OPENAI_API_KEY="ta-cle"
 python -m streamlit run app/ui.py
 ```
 
-Avec `LLM_PROVIDER="auto"`, l'app essaie Mistral si `MISTRAL_API_KEY` existe, puis OpenAI si `OPENAI_API_KEY` existe.
+Avec `LLM_PROVIDER="auto"` (par défaut), l'app essaie Mistral si `MISTRAL_API_KEY` existe, puis OpenAI si `OPENAI_API_KEY` existe.
+
+## Formulaire de contact
+
+L'onglet Contact envoie un message par e-mail via SMTP (`app/contact.py`). Secrets nécessaires: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, et optionnellement `CONTACT_RECIPIENT` (adresse de destination, sinon `yannboulben@gmail.com` par défaut).
 
 ## Déploiement Streamlit Cloud
 
-En cloud, les secrets peuvent être fournis comme variables d'environnement ou dans les secrets Streamlit. Les plus importants sont:
+En cloud, les secrets peuvent être fournis comme variables d'environnement ou dans les secrets Streamlit (`.streamlit/secrets.toml` en local, jamais commité). Les plus importants:
 
-- `POSTGRES_V2_URL`: URL du Postgres/pgvector du pilote (Aiven), voir `embedding-pilot/README.md`.
-- `LLM_PROVIDER`: `mistral`, `openai` ou `auto`.
-- `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: clé du fournisseur LLM choisi.
+- `POSTGRES_V2_URL`: URL du Postgres/pgvector qui contient les documents indexés.
+- `LLM_PROVIDER`, `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: fournisseur LLM pour la synthèse.
+- `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `CONTACT_RECIPIENT`: formulaire de contact.
 
-## Données intégrées
+## Alimenter une commune (pipeline complet)
 
-Source principale: site officiel de La Tour-de-Peilz.
-
-Couverture actuelle:
-
-- Conseil communal, rubriques institutionnelles: admissions, bureau du conseil communal, compétences, liste des membres par parti, règlement du Conseil communal.
-- Ordres du jour, législature 2021-2026: séances du 15 septembre 2021 au 6 mai 2026, soit 34 séances indexées.
-- Procès-verbaux, législature 2021-2026: PV01 du 16 juin 2021 à PV34 du 25 mars 2026.
-- Motions, postulats, interpellations et réponses: rubrique officielle `motions-postulats`, années 2021 à 2026, avec catégories de documents séparées (`motions`, `postulats`, `interpellations`).
-- Objets divers: rubrique officielle affichée comme `Objets divers` sur le site, avec l'URL technique `informations-diverses.php`, années 2021 à 2026, soit 32 PDF indexés depuis la page dédiée.
-- Préavis municipaux: rubrique officielle `preavis-municipaux`, années 2021 à 2026, soit 150 PDF indexés depuis la page dédiée.
-- Rapports de gestion: exercices 2021 à 2024, avec rapport de la commission de gestion et réponse de la Municipalité, soit 4 gros rapports indexés depuis `rapport-comptes-budget.php`.
-- Rapports des comptes: exercices 2021 à 2024, soit 4 gros rapports financiers indexés depuis `rapport-comptes-budget.php`.
-- Budgets communaux: exercices 2021 à 2026, soit 6 gros rapports budgétaires indexés depuis `rapport-comptes-budget.php`.
-- Infos de la Municipalité: décisions mensuelles publiées dans la rubrique officielle `infos-muni`, de septembre 2021 à mars 2026, soit 55 pages HTML indexées.
-- Documents liés depuis les ordres du jour 2021-2026: préavis, rapports, communications municipales, motions, postulats, interpellations et réponses lorsque les PDF sont liés depuis les séances.
-- Collecte directe 2025-2026: motions, postulats, interpellations, préavis municipaux, communications municipales, informations diverses, budgets, ordres du jour et procès-verbaux.
-
-Limites volontaires:
-
-- La séance du 24 juin 2026 n'est pas indexée, car elle est future au moment de la collecte du 29 mai 2026.
-- La séance du 30 juin 2021 n'est pas incluse dans les ordres du jour 2021-2026, car elle apparaît dans l'onglet `Législature 2016-2021`.
-- La page `motions-postulats.php` est structurée par années et non par onglets de législature; l'import prend les rubriques 2021 à 2026 puis sépare les documents en `motions`, `postulats` et `interpellations`. Certains PDF peuvent avoir une année de fichier différente de l'année affichée sur la page, par exemple lorsqu'une réponse est publiée l'année suivante.
-- La page des `Objets divers` utilise l'URL technique `informations-diverses.php` et est aussi structurée par années; l'import prend les rubriques 2021 à 2026.
-- Les PDF ne sont pas versionnés dans Git pour éviter un dépôt trop lourd. Le dépôt garde les textes extraits et les métadonnées JSON.
-
-## Structure
-
-```text
-documents/la-tour-de-peilz/
-  2021/
-  2022/
-  2023/
-  2024/
-  2025/
-  2026/
-  institutionnel/
-
-data/sessions/la-tour-de-peilz/
-data/proces-verbaux/la-tour-de-peilz/
-data/institutionnel/la-tour-de-peilz/
-data/infos-municipalite/la-tour-de-peilz/
-data/structured/la-tour-de-peilz/
-data/index/
-```
-
-Les statistiques d'indexation locales sont créées ici:
-
-```text
-data/index/stats.json
-```
-
-Le dossier `data/index/` est généré localement et n'est pas versionné dans Git. Les anciens fichiers `chunks.jsonl` et `ai_riviera.sqlite` ne sont recréés que si l'option `--legacy-json` est utilisée.
-
-## Scrapers utiles
+Pour ajouter ou rafraîchir une commune, exécuter dans l'ordre, depuis le dossier de la commune concernée (exemple avec Montreux, catégorie interpellations):
 
 ```powershell
-python scrape-la-tour-de-peilz/scrape_ordres_du_jour_2025_2026.py
-python scrape-la-tour-de-peilz/scrape_proces_verbaux_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_motions_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_postulats_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_interpellations_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_informations_diverses_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_preavis_municipaux_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_rapport_gestion_2021_2024.py
-python scrape-la-tour-de-peilz/scrape_rapport_comptes_2021_2024.py
-python scrape-la-tour-de-peilz/scrape_budgets_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_infos_municipalite_2021_2026.py
-python scrape-la-tour-de-peilz/scrape_conseil_communal_institutionnel.py
-python scrape-la-tour-de-peilz/maintenance/clean_existing_text_data.py
-python scrape-la-tour-de-peilz/build_structured_data.py
-python -m app.ingest
+python scrape-montreux/scrape_interpellations_2021_2026.py
+python audit-montreux/interpellations-2021-2026/run_targeted_ocr.py
+python audit-montreux/interpellations-2021-2026/build_audit.py
+python audit-montreux/interpellations-2021-2026/generate_embedding_inputs.py
+python audit-montreux/interpellations-2021-2026/generate_embeddings.py
+python audit-montreux/interpellations-2021-2026/load_to_postgres.py
+python audit-montreux/interpellations-2021-2026/validate_database.py
 ```
 
-Le nom `scrape_ordres_du_jour_2025_2026.py` est historique; il couvre maintenant les ordres du jour de la législature 2021-2026.
-Le nom `scrape_informations_diverses_2021_2026.py` suit le slug technique du site, mais correspond à la rubrique affichée `Objets divers`.
+Une fois la commune chargée, ajouter son entrée dans `municipal_pipeline/municipalities.py` (`search_enabled=True`, `search_scope`, `document_types`) pour qu'elle apparaisse dans l'interface.
 
-## Données structurées
+Les scrapers historiques de La Tour-de-Peilz (préavis, procès-verbaux, budgets, rapports, ordres du jour...) restent dans `scrape-la-tour-de-peilz/`; leur convention de nommage est plus ancienne mais suit le même principe.
 
-Le dossier `data/structured/la-tour-de-peilz/` contient une vue plus exploitable par le chatbot:
+## Tests
 
-- `sessions.json`: séances indexées, dates, lieux, sources et nombre de documents liés.
-- `documents.json`: documents reliés aux séances.
-- `political_objects.json`: motions, postulats, interpellations, préavis, communications, rapports et réponses reliés aux points d'ordre du jour.
+```powershell
+python -m pytest
+```
 
-Cette couche permet de répondre sans deviner à des questions calculables comme `combien de dépôts à la dernière séance ?`. Le RAG reste utilisé pour les questions documentaires et les synthèses.
+## Dossier `legacy/`
+
+Le dossier `legacy/` regroupe le code archivé qui n'est plus utilisé par l'app ni par les pipelines (anciens guides, expérimentations ponctuelles). Voir `legacy/README.md` pour le détail.
 
 ## Prochaines étapes
 
-- Consolider la couche Postgres: ajouter plus de vues métier par séance, par objet politique et par document, puis garder le JSON uniquement comme format d'import/export.
-- Rendre le webscraping plus robuste: automatiser la mise à jour des nouvelles séances, détecter les nouveaux PDF, éviter les doublons, garder un journal des imports et vérifier quand une page officielle change de structure.
-- Évaluer ensuite `pgvector` dans Postgres si on veut rapatrier la recherche vectorielle directement dans SQL.
-- Garder des résultats rapides et fluides: pré-indexer les documents, mettre en cache les recherches fréquentes, séparer les métadonnées structurées des passages de texte, et limiter ce qui est envoyé au LLM à ce qui est vraiment pertinent.
-- Ajouter éventuellement un login: accès public pour les documents déjà publics, puis espace privé pour les élus ou l'administration avec des droits plus fins, historique de questions, favoris, annotations et documents internes si la commune veut les ajouter.
-- Préparer une version multi-communes Riviera: même structure de données, mais avec un champ `commune` clair pour comparer ou filtrer entre La Tour-de-Peilz, Vevey, Montreux, etc.
+- Automatiser le rafraîchissement des communes déjà indexées (détecter les nouveaux documents, éviter de tout retraiter).
+- Étendre la couverture aux communes encore grisées dans l'interface (Corsier-sur-Vevey, Corseaux, Chardonne, Jongny, Villeneuve, ASR).
+- Séparer les fonctions pures de `app/ui.py` du rendu de page, pour simplifier les tests automatisés (voir le commentaire dans `tests/test_ui_document_tabs.py`).

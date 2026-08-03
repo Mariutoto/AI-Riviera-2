@@ -701,39 +701,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Streamlit's selectbox doesn't expose a way to disable individual options,
-# and the dropdown items carry no attribute tying them back to their value
-# (only nested, auto-generated class names) — so the "à venir" communes can
-# only be greyed out by matching on their rendered text from the parent
-# document. components.v1.html's srcdoc iframe shares the page's origin,
-# which is what makes window.parent.document reachable here.
-st.components.v1.html(
-    """
-    <script>
-    (function () {
-        function muteComingSoonOptions() {
-            var doc = window.parent.document;
-            var options = doc.querySelectorAll('li[role="option"]');
-            options.forEach(function (option) {
-                if (option.textContent.indexOf('prochainement') !== -1) {
-                    option.style.opacity = '0.45';
-                    option.style.fontStyle = 'italic';
-                }
-            });
-        }
-        var target = window.parent.document.body;
-        if (!target) { return; }
-        new MutationObserver(muteComingSoonOptions).observe(target, {
-            childList: true,
-            subtree: true,
-        });
-        muteComingSoonOptions();
-    })();
-    </script>
-    """,
-    height=0,
-)
-
 def current_filters() -> dict | None:
     filters = {}
     city = st.session_state.get("search_city", "all")
@@ -867,11 +834,13 @@ def group_results_by_document(results: list[dict]) -> list[dict]:
 
 
 def source_link(metadata: dict, label: str) -> str:
-    label = fix_mojibake(label)
-    url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
-    if not url:
+    label = html.escape(fix_mojibake(label))
+    url = str(
+        metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
+    ).strip()
+    if not re.match(r"^https?://", url, flags=re.IGNORECASE):
         return label
-    return f"[{label}]({url})"
+    return f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{label}</a>'
 
 
 def source_link_label(metadata: dict) -> str:
@@ -1051,8 +1020,10 @@ def link_source_mentions(text: str, grouped_sources: list[dict]) -> str:
         if number < 1 or number > len(grouped_sources):
             return match.group(0)
         metadata = grouped_sources[number - 1]["metadata"]
-        url = metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
-        if not url:
+        url = str(
+            metadata.get("source_url") or metadata.get("pdf_url") or metadata.get("url") or metadata.get("file_url") or ""
+        ).strip()
+        if not re.match(r"^https?://", url, flags=re.IGNORECASE):
             return match.group(0)
         return f"[{source_link_label(metadata)}]({url})"
 
@@ -1069,15 +1040,16 @@ def render_sources(results: list[dict], message_index: int, source_blurbs: dict[
         source_lines = []
         for index, source in enumerate(grouped_sources, start=1):
             metadata = source["metadata"]
-            title = fix_mojibake(metadata.get("title") or metadata.get("filename") or source.get("relative_text_path", "document"))
+            title = html.escape(fix_mojibake(metadata.get("title") or metadata.get("filename") or source.get("relative_text_path", "document")))
             citation_line = source_citation_line(metadata)
             if citation_line is None:
                 year = metadata.get("year") or metadata.get("listing_year") or metadata.get("date", "")
                 category = metadata.get("category") or metadata.get("doc_type", "")
                 citation_line = " / ".join(str(part) for part in (year, category) if part)
+            citation_line = html.escape(citation_line) if citation_line else ""
             official_link = source_link(metadata, source_link_label(metadata))
             summary_line = f"{citation_line} · {official_link}" if citation_line else official_link
-            blurb = fix_mojibake(source_blurbs.get(str(index), ""))
+            blurb = html.escape(fix_mojibake(source_blurbs.get(str(index), "")))
             blurb_line = f"<br>{blurb}" if blurb else ""
             source_lines.append(
                 f'<span id="source-{message_index}-{index}"></span>'

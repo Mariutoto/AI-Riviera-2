@@ -45,17 +45,17 @@ class AgentPerformanceLimitTests(unittest.TestCase):
 
     @patch("app.agent.search_with_relance")
     def test_all_cities_searches_each_commune_and_interleaves(self, search):
+        # Derived from the live registry rather than hardcoded, so this test
+        # doesn't go stale every time a new commune gets search_enabled=True
+        # (it already has, twice, since this test was first written).
+        city_labels = agent.SEARCH_ENABLED_CITY_LABELS
+
         def city_results(_query, **kwargs):
             city = kwargs["filters"]["city"]
-            prefix = {
-                "La Tour-de-Peilz": "tour",
-                "Vevey": "vevey",
-                "Montreux": "montreux",
-            }[city]
             return (
                 [
                     {
-                        "id": f"{prefix}-{index}",
+                        "id": f"{city}-{index}",
                         "metadata": {"commune": city},
                     }
                     for index in range(2)
@@ -71,17 +71,10 @@ class AgentPerformanceLimitTests(unittest.TestCase):
         )
 
         self.assertFalse(relanced)
-        self.assertEqual(search.call_count, 3)
+        self.assertEqual(search.call_count, len(city_labels))
         self.assertEqual(
             [item["metadata"]["commune"] for item in results],
-            [
-                "La Tour-de-Peilz",
-                "Vevey",
-                "Montreux",
-                "La Tour-de-Peilz",
-                "Vevey",
-                "Montreux",
-            ],
+            list(city_labels) * 2,
         )
 
     @patch("app.agent.record_diagnostic")

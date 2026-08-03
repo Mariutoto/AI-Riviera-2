@@ -13,6 +13,13 @@ class ContactSendError(RuntimeError):
     """Raised when the contact form message could not be delivered."""
 
 
+def _single_line(value: str) -> str:
+    """Strip embedded CR/LF so a pasted multi-line value can't split or
+    inject extra email headers (EmailMessage rejects them outright, but
+    that raises outside the try/except below if left unguarded)."""
+    return " ".join(value.splitlines()).strip()
+
+
 def send_contact_message(name: str, email: str, subject: str, message: str) -> None:
     """Email a contact-form submission to the site owner.
 
@@ -31,14 +38,18 @@ def send_contact_message(name: str, email: str, subject: str, message: str) -> N
             "L'envoi d'e-mail n'est pas encore configuré sur ce site."
         )
 
-    email_msg = EmailMessage()
-    email_msg["Subject"] = f"[AI Riviera] {subject.strip()}" if subject.strip() else "[AI Riviera] Nouveau message de contact"
-    email_msg["From"] = smtp_user
-    email_msg["To"] = recipient
-    email_msg["Reply-To"] = email
-    email_msg.set_content(f"Nom : {name}\nEmail : {email}\n\n{message}")
+    name = _single_line(name)
+    email = _single_line(email)
+    subject = _single_line(subject)
 
     try:
+        email_msg = EmailMessage()
+        email_msg["Subject"] = f"[AI Riviera] {subject}" if subject else "[AI Riviera] Nouveau message de contact"
+        email_msg["From"] = smtp_user
+        email_msg["To"] = recipient
+        email_msg["Reply-To"] = email
+        email_msg.set_content(f"Nom : {name}\nEmail : {email}\n\n{message}")
+
         with smtplib.SMTP(smtp_host, smtp_port, timeout=10) as server:
             server.starttls()
             server.login(smtp_user, smtp_password)

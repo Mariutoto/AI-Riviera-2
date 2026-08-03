@@ -160,7 +160,17 @@ def collect_objects() -> list[dict]:
                         "title": title,
                         "pdf_url": href,
                         "document_date": response_date,
-                        "doc_key": slugify(Path(href).stem),
+                        # The filename stem alone isn't guaranteed unique (this
+                        # site has no download ids): two follow-up documents
+                        # could plausibly share a generic name like
+                        # "reponse.pdf" in different folders and silently
+                        # overwrite each other on disk, as already happened
+                        # once with a fixed per-role suffix. Hash the full URL
+                        # too so a stem collision can't collide the id.
+                        "doc_key": (
+                            f"{slugify(Path(href).stem)}-"
+                            f"{hashlib.sha1(href.encode()).hexdigest()[:8]}"
+                        ),
                     }
                 )
             objects.append(

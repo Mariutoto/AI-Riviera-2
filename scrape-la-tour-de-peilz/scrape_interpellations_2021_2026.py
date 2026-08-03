@@ -97,7 +97,7 @@ def parse_listing_status(label: str) -> tuple[str | None, str]:
 
 def parse_authors_from_listing(label: str) -> list[dict]:
     head = re.sub(r"^\s*Interpellation\s+(?:de\s+|du\s+|des\s+|d')", "", label, flags=re.I)
-    head = re.split(r"\s[-â€“]\s|\s\+\s", head, maxsplit=1)[0]
+    head = re.split(r"\s[-–]\s|\s\+\s", head, maxsplit=1)[0]
     group_match = re.search(r"\bgroupe\s+([A-Z0-9/+.-]{2,})\b", head, flags=re.I)
     if group_match:
         party = group_match.group(1).upper()

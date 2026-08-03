@@ -24,6 +24,7 @@ def main() -> None:
     module.CATEGORY = "motion"
     module.SPECIFIC_METADATA_KEY = "motion_metadata"
     module.RECIPE_VERSION = "montreux-motions-v1"
+    module.COMMUNE = "Montreux"
     module.main()
 
 

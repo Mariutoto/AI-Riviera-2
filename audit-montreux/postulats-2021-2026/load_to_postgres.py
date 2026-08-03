@@ -24,6 +24,7 @@ def main() -> None:
     module.CATEGORY = "postulat"
     module.SPECIFIC_METADATA_KEY = "postulate_metadata"
     module.RECIPE_VERSION = "montreux-postulates-v1"
+    module.COMMUNE = "Montreux"
     module.main()
 
 
