@@ -29,8 +29,10 @@ from app.text_cleaning import fix_mojibake, format_date
 from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
-    "Quelles interpellations ont reçu une réponse en 2025 ?",
-    "Quels postulats ont été déposés en 2024 ?",
+    "Quels préavis municipaux ont été déposés à La Tour-de-Peilz en 2024 ?",
+    "Quelles motions concernent la mobilité dans la Riviera ?",
+    "Quelles interpellations portent sur le logement ?",
+    "Quels sujets liés à la sécurité ont été traités à Montreux ?",
 ]
 
 CITY_FILTER_MUNICIPALITIES = tuple(
