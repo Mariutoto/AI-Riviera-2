@@ -1105,11 +1105,17 @@ def run_agentic_pipeline(
     trace["generation_passages"] = len(generation_results)
     trace["reranked_passages"] = len(reranked)
 
-    # Verification always runs against the sources before an answer is shown,
-    # regardless of how "simple" the question looked — a cheap classification
-    # step isn't a reliable enough signal that nothing was invented. The only
-    # exception is the hard time budget below, which is a safety net against
-    # runaway latency, not a routine shortcut.
+    # Verification is the single slowest stage (runs on the stronger model,
+    # 4-6s) and its real value is catching cross-document/decomposed answers
+    # inventing an overlap that isn't really there — exactly what "complex"/
+    # "multi" mode produces. A "simple"/"single" question is answered from
+    # one document's own reranked passages with nothing to synthesize across,
+    # UNLESS the first-pass search was weak enough to need relance — a weak
+    # match is exactly when a model is more likely to compensate by inventing
+    # plausible-sounding detail, so that case still gets verified.
+    skip_verification = (
+        trace["complexity"] == "simple" and trace["mode"] == "single" and not trace.get("relance", False)
+    )
 
     # Source blurbs don't depend on the verified/revised answer, only on the
     # already-reranked source list — so run that LLM call on a background
@@ -1118,7 +1124,11 @@ def run_agentic_pipeline(
     with ThreadPoolExecutor(max_workers=1) as pool:
         blurbs_future = pool.submit(_timed_source_blurbs, reranked)
 
-        if time.perf_counter() > deadline:
+        if skip_verification:
+            trace["verification_skipped"] = True
+            final_answer, claims = draft_answer, []
+            trace["timings_ms"]["verification"] = 0
+        elif time.perf_counter() > deadline:
             # Time budget already spent on search/decomposition/answer — skip the
             # verification pass rather than risk running well past the budget.
             trace["budget_exceeded"] = True
