@@ -318,12 +318,10 @@ def rewrite_query_with_llm(question: str) -> str | None:
     if provider in {"none", "off", "extracts"}:
         return None
 
-    if provider == "mistral":
-        rewritten = rewrite_query_with_mistral(question)
-    elif provider == "openai":
+    if provider == "openai":
         rewritten = rewrite_query_with_openai(question)
     else:
-        rewritten = rewrite_query_with_mistral(question) or rewrite_query_with_openai(question)
+        rewritten = rewrite_query_with_mistral(question)
 
     if not rewritten:
         return None
@@ -343,20 +341,19 @@ def _llm_completion(
     default_openai_model: str = "gpt-4.1-mini",
     timeout: float = 20,
 ) -> str | None:
-    """Shared provider-fallback call for the short, structured LLM steps (classify, verify, broaden)."""
+    """Provider call for the short, structured LLM steps (classify, verify, broaden).
+
+    No cross-provider fallback: each provider is called only when explicitly
+    selected, so a missing Mistral key never silently routes to OpenAI.
+    """
     provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
     if provider in {"none", "off", "extracts"}:
         return None
-    kwargs_mistral = dict(max_tokens=max_tokens, default_model=default_mistral_model, timeout=timeout)
-    kwargs_openai = dict(max_tokens=max_tokens, default_model=default_openai_model, timeout=timeout)
-    if provider == "mistral":
-        return short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
     if provider == "openai":
+        kwargs_openai = dict(max_tokens=max_tokens, default_model=default_openai_model, timeout=timeout)
         return short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
-    return (
-        short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
-        or short_openai_completion(system_prompt, user_content, openai_model_env, **kwargs_openai)
-    )
+    kwargs_mistral = dict(max_tokens=max_tokens, default_model=default_mistral_model, timeout=timeout)
+    return short_mistral_completion(system_prompt, user_content, mistral_model_env, **kwargs_mistral)
 
 
 def _parse_json_object(content: str) -> dict:
@@ -616,15 +613,10 @@ def rerank_results_with_llm(
     }
     user_content = json.dumps(payload, ensure_ascii=False)
 
-    if provider == "mistral":
-        content = short_mistral_completion(LLM_RERANK_PROMPT, user_content, "MISTRAL_RERANK_MODEL", max_tokens=180)
-    elif provider == "openai":
+    if provider == "openai":
         content = short_openai_completion(LLM_RERANK_PROMPT, user_content, "OPENAI_RERANK_MODEL", max_tokens=180)
     else:
-        content = (
-            short_mistral_completion(LLM_RERANK_PROMPT, user_content, "MISTRAL_RERANK_MODEL", max_tokens=180)
-            or short_openai_completion(LLM_RERANK_PROMPT, user_content, "OPENAI_RERANK_MODEL", max_tokens=180)
-        )
+        content = short_mistral_completion(LLM_RERANK_PROMPT, user_content, "MISTRAL_RERANK_MODEL", max_tokens=180)
     if not content:
         return results[:keep]
 
@@ -675,18 +667,15 @@ def test_mistral_connection() -> tuple[bool, str]:
 
 
 def answer_with_llm(question: str, results: list[dict], extra_context: str = "") -> str | None:
+    """No cross-provider fallback: OpenAI is only called when explicitly selected
+    via LLM_PROVIDER=openai, so a missing Mistral key never silently routes there."""
     provider = get_secret("LLM_PROVIDER", "auto").lower().strip()
 
-    if provider == "mistral":
-        return answer_with_mistral(question, results, extra_context)
     if provider == "openai":
         return answer_with_openai(question, results, extra_context)
     if provider in {"none", "off", "extracts"}:
         return None
-
-    if get_secret("MISTRAL_API_KEY"):
-        return answer_with_mistral(question, results, extra_context)
-    return answer_with_openai(question, results, extra_context)
+    return answer_with_mistral(question, results, extra_context)
 
 
 def llm_status() -> dict:
@@ -694,18 +683,12 @@ def llm_status() -> dict:
     has_mistral = bool(get_secret("MISTRAL_API_KEY"))
     has_openai = bool(get_secret("OPENAI_API_KEY"))
 
-    if provider == "mistral":
-        active = "mistral" if has_mistral else "missing MISTRAL_API_KEY"
-    elif provider == "openai":
+    if provider == "openai":
         active = "openai" if has_openai else "missing OPENAI_API_KEY"
     elif provider in {"none", "off", "extracts"}:
         active = "extracts only"
-    elif has_mistral:
-        active = "mistral"
-    elif has_openai:
-        active = "openai"
     else:
-        active = "extracts only"
+        active = "mistral" if has_mistral else "extracts only (missing MISTRAL_API_KEY)"
 
     return {
         "provider": provider,
