@@ -6,6 +6,7 @@ from functools import lru_cache
 
 import requests
 
+from app.answer import get_secret
 from app.diagnostics import record_diagnostic
 from app.text_cleaning import strip_accents
 
@@ -193,7 +194,7 @@ def browse_documents(
 
 @lru_cache(maxsize=128)
 def embed_query(query: str) -> list[float]:
-    api_key = os.getenv("MISTRAL_API_KEY", "")
+    api_key = get_secret("MISTRAL_API_KEY", "")
     if not api_key:
         raise RuntimeError("MISTRAL_API_KEY manque pour la recherche V2")
     response = requests.post(
