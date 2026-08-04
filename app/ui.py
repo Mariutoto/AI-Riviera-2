@@ -1912,6 +1912,13 @@ with about_tab:
             "Le code est open source et consultable sur "
             "[GitHub](https://github.com/Mariutoto/AI-Riviera-2)."
         )
+        st.write(
+            "AI Riviera s'appuie sur les modèles de Mistral AI, une entreprise "
+            "française. Si le projet confirme son intérêt, l'objectif est "
+            "d'explorer un hébergement entièrement suisse, voire des modèles "
+            "de langage suisses hébergés localement, pour renforcer encore la "
+            "protection des données."
+        )
     with image_col:
         if LANDSCAPE_IMAGE_PATH.exists():
             st.image(
