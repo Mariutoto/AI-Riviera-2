@@ -217,7 +217,7 @@ st.markdown(
     [data-testid="stMainBlockContainer"] {
         max-width: 1040px;
         padding-bottom: 6rem;
-        padding-top: 2rem;
+        padding-top: 3.5rem;
     }
 
     .air-site-brand {
@@ -543,16 +543,19 @@ st.markdown(
     }
 
     .st-key-document-browser-filters {
+        margin-bottom: 1rem;
+    }
+
+    .st-key-document-browser-filters [data-testid="stExpander"] {
         background: var(--air-soft);
         border: 1px solid var(--air-line);
         border-radius: 0.65rem;
-        padding: 0.85rem 0.9rem 0.45rem;
     }
 
-    .st-key-document-browser-filters h3 {
-        color: var(--air-ink);
-        font-size: 1rem;
-        margin: 0 0 0.75rem;
+    .st-key-document-browser-filters [data-testid="stExpander"] summary {
+        font-size: 0.85rem;
+        font-weight: 600;
+        min-height: 2.5rem;
     }
 
     .st-key-document-browser-filters [data-testid="stWidgetLabel"] {
@@ -624,7 +627,7 @@ st.markdown(
         [data-testid="stMainBlockContainer"] {
             padding-left: 1rem;
             padding-right: 1rem;
-            padding-top: 1rem;
+            padding-top: 3.25rem;
         }
 
         .air-site-brand {
@@ -1368,94 +1371,113 @@ def render_documents_browser() -> None:
             on_change=reset_document_browser_page,
         )
 
-    filter_column, results_column = st.columns([1, 3], gap="large")
     browser_filters_valid = True
 
-    with filter_column:
-        with st.container(key="document-browser-filters"):
-            st.markdown("### Filtres")
-            browser_city_options = list(DOCUMENT_CITY_OPTIONS)
-            selected_browser_cities = st.multiselect(
-                "Communes",
-                options=browser_city_options,
-                format_func=document_city_option_label,
-                placeholder="Toutes les communes",
-                key="document_browser_cities",
-                on_change=reset_document_browser_page,
+    stored_browser_cities_state = st.session_state.get("document_browser_cities", [])
+    stored_browser_types_state = st.session_state.get("document_browser_types", [])
+    stored_year_from_state = st.session_state.get("document_browser_year_from", "")
+    stored_year_to_state = st.session_state.get("document_browser_year_to", "")
+    active_browser_filter_labels = []
+    if stored_browser_cities_state:
+        active_browser_filter_labels.append(
+            ", ".join(
+                document_city_option_label(city) for city in stored_browser_cities_state
             )
-            upcoming_browser_cities = [
-                city
-                for city in selected_browser_cities
-                if city not in SEARCH_ENABLED_CITIES
-            ]
-            searchable_browser_cities = [
-                city
-                for city in selected_browser_cities
-                if city in SEARCH_ENABLED_CITIES
-            ]
-            if upcoming_browser_cities:
-                st.caption(
-                    "Prochainement : " + ", ".join(upcoming_browser_cities) + "."
-                )
+        )
+    if stored_browser_types_state:
+        active_browser_filter_labels.append(", ".join(stored_browser_types_state))
+    if stored_year_from_state or stored_year_to_state:
+        active_browser_filter_labels.append(
+            f"{stored_year_from_state or '…'}–{stored_year_to_state or '…'}"
+        )
+    filter_expander_label = "Filtres"
+    if active_browser_filter_labels:
+        filter_expander_label += " — " + " · ".join(active_browser_filter_labels)
 
-            browser_type_options = available_browser_document_type_labels(
-                selected_browser_cities
-            )
-            stored_browser_types = [
-                label
-                for label in st.session_state.get(
-                    "document_browser_types", []
-                )
-                if label in browser_type_options
-            ]
-            if stored_browser_types != st.session_state.get(
-                "document_browser_types", []
-            ):
-                st.session_state.document_browser_types = stored_browser_types
-            selected_browser_types = st.multiselect(
-                "Types de document",
-                options=browser_type_options,
-                placeholder="Tous les types",
-                key="document_browser_types",
-                on_change=reset_document_browser_page,
-            )
-
-            year_columns = st.columns(2)
-            with year_columns[0]:
-                raw_year_from = st.text_input(
-                    "De l’année",
-                    placeholder="2021",
-                    max_chars=4,
-                    key="document_browser_year_from",
-                    on_change=reset_document_browser_page,
-                )
-            with year_columns[1]:
-                raw_year_to = st.text_input(
-                    "À l’année",
-                    placeholder="2026",
-                    max_chars=4,
-                    key="document_browser_year_to",
-                    on_change=reset_document_browser_page,
-                )
-
-            year_from = document_browser_year(raw_year_from)
-            year_to = document_browser_year(raw_year_to)
-            if year_from is None or year_to is None:
-                st.error("Utilisez une année à quatre chiffres, par exemple 2025.")
-                browser_filters_valid = False
-            elif year_from and year_to and int(year_from) > int(year_to):
-                st.error("L’année de début doit précéder l’année de fin.")
-                browser_filters_valid = False
-
-            st.button(
-                "Effacer les filtres",
-                key="clear-document-browser-filters",
-                on_click=clear_document_browser_filters,
-                width="stretch",
-            )
+    filter_container = st.container(key="document-browser-filters")
+    with filter_container.expander(filter_expander_label, expanded=False):
+        browser_city_options = list(DOCUMENT_CITY_OPTIONS)
+        selected_browser_cities = st.multiselect(
+            "Communes",
+            options=browser_city_options,
+            format_func=document_city_option_label,
+            placeholder="Toutes les communes",
+            key="document_browser_cities",
+            on_change=reset_document_browser_page,
+        )
+        upcoming_browser_cities = [
+            city
+            for city in selected_browser_cities
+            if city not in SEARCH_ENABLED_CITIES
+        ]
+        searchable_browser_cities = [
+            city
+            for city in selected_browser_cities
+            if city in SEARCH_ENABLED_CITIES
+        ]
+        if upcoming_browser_cities:
             st.caption(
-                "Laissez les années vides pour inclure toutes les archives."
+                "Prochainement : " + ", ".join(upcoming_browser_cities) + "."
             )
+
+        browser_type_options = available_browser_document_type_labels(
+            selected_browser_cities
+        )
+        stored_browser_types = [
+            label
+            for label in st.session_state.get(
+                "document_browser_types", []
+            )
+            if label in browser_type_options
+        ]
+        if stored_browser_types != st.session_state.get(
+            "document_browser_types", []
+        ):
+            st.session_state.document_browser_types = stored_browser_types
+        selected_browser_types = st.multiselect(
+            "Types de document",
+            options=browser_type_options,
+            placeholder="Tous les types",
+            key="document_browser_types",
+            on_change=reset_document_browser_page,
+        )
+
+        year_columns = st.columns(2)
+        with year_columns[0]:
+            raw_year_from = st.text_input(
+                "De l’année",
+                placeholder="2021",
+                max_chars=4,
+                key="document_browser_year_from",
+                on_change=reset_document_browser_page,
+            )
+        with year_columns[1]:
+            raw_year_to = st.text_input(
+                "À l’année",
+                placeholder="2026",
+                max_chars=4,
+                key="document_browser_year_to",
+                on_change=reset_document_browser_page,
+            )
+
+        year_from = document_browser_year(raw_year_from)
+        year_to = document_browser_year(raw_year_to)
+        if year_from is None or year_to is None:
+            st.error("Utilisez une année à quatre chiffres, par exemple 2025.")
+            browser_filters_valid = False
+        elif year_from and year_to and int(year_from) > int(year_to):
+            st.error("L’année de début doit précéder l’année de fin.")
+            browser_filters_valid = False
+
+        st.button(
+            "Effacer les filtres",
+            key="clear-document-browser-filters",
+            on_click=clear_document_browser_filters,
+            width="stretch",
+        )
+        st.caption(
+            "Laissez les années vides pour inclure toutes les archives."
+        )
 
     browser_rows: list[dict] = []
     browser_error = ""
@@ -1490,64 +1512,63 @@ def render_documents_browser() -> None:
                 "La liste des documents est temporairement indisponible."
             )
 
-    with results_column:
-        with st.container(key="document-browser-results"):
-            if not browser_filters_valid:
-                st.info("Corrigez la période pour afficher les documents.")
-            elif upcoming_cities_only:
-                st.info(
-                    "Les documents de cette commune seront disponibles prochainement."
-                )
-            elif browser_error:
-                st.error(browser_error)
-            elif not index_is_ready:
-                st.info(
-                    "La base documentaire n’est pas disponible dans cet "
-                    "environnement."
-                )
-            else:
-                total_documents = len(browser_rows)
-                page_size = 25
-                page_count = max(1, math.ceil(total_documents / page_size))
-                current_page = min(
-                    int(st.session_state.get("document_browser_page", 1)),
-                    page_count,
-                )
-                st.session_state.document_browser_page = current_page
+    with st.container(key="document-browser-results"):
+        if not browser_filters_valid:
+            st.info("Corrigez la période pour afficher les documents.")
+        elif upcoming_cities_only:
+            st.info(
+                "Les documents de cette commune seront disponibles prochainement."
+            )
+        elif browser_error:
+            st.error(browser_error)
+        elif not index_is_ready:
+            st.info(
+                "La base documentaire n’est pas disponible dans cet "
+                "environnement."
+            )
+        else:
+            total_documents = len(browser_rows)
+            page_size = 25
+            page_count = max(1, math.ceil(total_documents / page_size))
+            current_page = min(
+                int(st.session_state.get("document_browser_page", 1)),
+                page_count,
+            )
+            st.session_state.document_browser_page = current_page
 
-                heading_columns = st.columns([3, 1])
-                with heading_columns[0]:
-                    st.markdown(
-                        f"**{total_documents} document"
-                        f"{'' if total_documents == 1 else 's'}**"
-                    )
-                with heading_columns[1]:
-                    if page_count > 1:
-                        current_page = int(
-                            st.number_input(
-                                "Page",
-                                min_value=1,
-                                max_value=page_count,
-                                step=1,
-                                key="document_browser_page",
-                            )
+            heading_columns = st.columns([3, 1])
+            with heading_columns[0]:
+                st.markdown(
+                    f"**{total_documents} document"
+                    f"{'' if total_documents == 1 else 's'}**"
+                )
+            with heading_columns[1]:
+                if page_count > 1:
+                    current_page = int(
+                        st.number_input(
+                            "Page",
+                            min_value=1,
+                            max_value=page_count,
+                            step=1,
+                            key="document_browser_page",
                         )
-
-                page_start = (current_page - 1) * page_size
-                page_rows = browser_rows[
-                    page_start : page_start + page_size
-                ]
-                if not page_rows:
-                    st.info("Aucun document ne correspond à ces filtres.")
-                for browser_document in page_rows:
-                    render_document_browser_result(browser_document)
-
-                if total_documents:
-                    st.caption(
-                        f"Affichage {page_start + 1}–"
-                        f"{min(page_start + page_size, total_documents)} "
-                        f"sur {total_documents} documents principaux."
                     )
+
+            page_start = (current_page - 1) * page_size
+            page_rows = browser_rows[
+                page_start : page_start + page_size
+            ]
+            if not page_rows:
+                st.info("Aucun document ne correspond à ces filtres.")
+            for browser_document in page_rows:
+                render_document_browser_result(browser_document)
+
+            if total_documents:
+                st.caption(
+                    f"Affichage {page_start + 1}–"
+                    f"{min(page_start + page_size, total_documents)} "
+                    f"sur {total_documents} documents principaux."
+                )
 
 
 with chat_tab:
