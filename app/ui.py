@@ -30,8 +30,8 @@ from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
     "Quels préavis municipaux ont été déposés à La Tour-de-Peilz en 2024 ?",
-    "Quelles motions concernent la mobilité dans la Riviera ?",
-    "Quelles interpellations portent sur le logement ?",
+    "Quelles motions ont été déposées sur la mobilité douce (vélos, piétons) dans la Riviera ?",
+    "Quelles interpellations portent sur la pénurie de logements dans la Riviera ?",
     "Quels sujets liés à la sécurité ont été traités à Montreux ?",
 ]
 
