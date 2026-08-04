@@ -29,10 +29,10 @@ from app.text_cleaning import fix_mojibake, format_date
 from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
-    "Quels préavis municipaux ont été déposés à La Tour-de-Peilz en 2024 ?",
-    "Quelles motions ont été déposées sur la mobilité douce (vélos, piétons) dans la Riviera ?",
-    "Quelles interpellations portent sur la pénurie de logements dans la Riviera ?",
-    "Quels sujets liés à la sécurité ont été traités à Montreux ?",
+    "Quels postulats ont été déposés à La Tour-de-Peilz en 2024 ?",
+    "Quelles interpellations n'ont pas reçu de réponse à ce jour à Montreux ?",
+    "Quelles motions ont été déposées à Vevey récemment ?",
+    "Quels sujets liés à l'environnement reviennent régulièrement dans la Riviera ?",
 ]
 
 CITY_FILTER_MUNICIPALITIES = tuple(
