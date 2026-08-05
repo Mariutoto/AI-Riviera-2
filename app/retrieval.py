@@ -2,6 +2,29 @@ import re
 
 from app.pilot_v2_store import search as search_pilot_v2
 from app.text_cleaning import strip_accents
+from municipal_pipeline.municipalities import MUNICIPALITIES
+
+# (normalized name, commune label) pairs, longest normalized name first so a
+# substring like "vevey" doesn't win over "corsier-sur-vevey" when both would
+# match. Built once from the municipality registry rather than hardcoded so
+# renamed/added communes stay in sync automatically.
+_CITY_NAME_LOOKUP = sorted(
+    (
+        (strip_accents(name).lower(), municipality.label)
+        for municipality in MUNICIPALITIES.values()
+        if municipality.search_enabled
+        for name in (municipality.label, *municipality.aliases)
+    ),
+    key=lambda pair: len(pair[0]),
+    reverse=True,
+)
+
+
+def _detect_city(normalized_query: str) -> str | None:
+    for normalized_name, label in _CITY_NAME_LOOKUP:
+        if re.search(rf"\b{re.escape(normalized_name)}\b", normalized_query):
+            return label
+    return None
 
 
 def is_council_regulation_query(query: str) -> bool:
@@ -86,6 +109,9 @@ def detect_answered_interpellations_query(query: str) -> dict | None:
     year = _detect_year(normalized_query)
     if year:
         filters["response_year"] = year
+    city = _detect_city(normalized_query)
+    if city:
+        filters["city"] = city
     return filters
 
 
@@ -118,6 +144,9 @@ def detect_answered_postulates_query(query: str) -> dict | None:
     year = _detect_year(normalized_query)
     if year:
         filters["response_year"] = year
+    city = _detect_city(normalized_query)
+    if city:
+        filters["city"] = city
     return filters
 
 
@@ -150,6 +179,10 @@ def detect_aggregate_query(query: str) -> dict | None:
     doc_type = _detect_doc_type(query, normalized_query)
     if doc_type in _COUNTABLE_DOC_TYPES:
         filters["doc_type"] = doc_type
+
+    city = _detect_city(normalized_query)
+    if city:
+        filters["city"] = city
 
     if "civility" not in filters and "doc_type" not in filters:
         # Without a recognized countable entity, "combien de/liste tous" is

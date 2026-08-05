@@ -71,6 +71,22 @@ def _elapsed_ms(started_at: float) -> int:
     return round((time.perf_counter() - started_at) * 1000)
 
 
+def _explicit_ui_filters(filters: dict) -> dict:
+    """UI filters minus a "city": "all" placeholder.
+
+    current_filters() in ui.py always sets "city" (even to the explicit "all"
+    default) so it stays part of the cache key. For aggregate/answered
+    queries that merge these UI filters on top of a city parsed directly out
+    of the question text ("... à Vevey ?"), that unconditional "all" would
+    silently overwrite the detected commune. Dropping it here lets a real UI
+    selection still win, while an unset one no longer clobbers detection.
+    """
+    ui_filters = dict(filters)
+    if str(ui_filters.get("city") or "").strip().lower() == "all":
+        ui_filters.pop("city", None)
+    return ui_filters
+
+
 def _generation_results(results: list[dict]) -> list[dict]:
     """Bound the evidence sent to answer generation without hiding sources."""
     return results[:GENERATION_PASSAGE_LIMIT]
@@ -947,7 +963,7 @@ def run_agentic_pipeline(
         question
     )
     if answered_filters is not None:
-        ui_filters = dict(filters)
+        ui_filters = _explicit_ui_filters(filters)
         if (
             ui_filters.get("year")
             and not answered_filters.get("response_year")
@@ -984,7 +1000,7 @@ def run_agentic_pipeline(
         retrieval.detect_answered_postulates_query(question)
     )
     if answered_postulate_filters is not None:
-        ui_filters = dict(filters)
+        ui_filters = _explicit_ui_filters(filters)
         if (
             ui_filters.get("year")
             and not answered_postulate_filters.get("response_year")
@@ -1026,7 +1042,7 @@ def run_agentic_pipeline(
     aggregate_filters = retrieval.detect_aggregate_query(question)
     trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:
-        aggregate_filters = {**aggregate_filters, **filters}
+        aggregate_filters = {**aggregate_filters, **_explicit_ui_filters(filters)}
         # Deterministic count/enumeration over metadata — no LLM in the loop
         # for the count itself, so no verification pass is needed either.
         trace["mode"] = "aggregate"
