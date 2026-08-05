@@ -5,7 +5,6 @@ import math
 from pathlib import Path
 import re
 import time
-from urllib.parse import quote
 
 import streamlit as st
 
@@ -28,8 +27,6 @@ from app.retrieval import search
 from app.search_guard import filter_guard_message
 from app.text_cleaning import fix_mojibake, format_date
 from municipal_pipeline.municipalities import MUNICIPALITIES
-
-BASE_URL = "https://airiviera.org"
 
 SUGGESTED_QUESTIONS = [
     "Quels postulats ont été déposés à La Tour-de-Peilz en 2024 ?",
@@ -1286,10 +1283,6 @@ def queue_question(question: str) -> None:
     st.session_state.pending_question = question
 
 
-def share_link_for_question(question: str) -> str:
-    return f"{BASE_URL}/?q={quote(question)}"
-
-
 def clear_filter_warning() -> None:
     st.session_state.filter_warning = None
 
@@ -1587,21 +1580,6 @@ with chat_tab:
         st.session_state.pending_question = None
     if "filter_warning" not in st.session_state:
         st.session_state.filter_warning = None
-    if "shared_question_loaded" not in st.session_state:
-        st.session_state.shared_question_loaded = False
-
-    # Support shareable links: a "?q=..." query param queues that question
-    # on first load, once per session, so a pasted link opens straight into
-    # the answer instead of the empty home screen.
-    shared_question = st.query_params.get("q", "")
-    if (
-        shared_question
-        and not st.session_state.shared_question_loaded
-        and not st.session_state.messages
-        and st.session_state.pending_question is None
-    ):
-        st.session_state.shared_question_loaded = True
-        queue_question(shared_question)
 
     is_home_view = (
         not st.session_state.messages
@@ -1737,15 +1715,6 @@ with chat_tab:
             if message["role"] == "assistant":
                 trace = message.get("trace", {})
                 render_sources(results, message_index, trace.get("source_blurbs"))
-                asked_question = (
-                    st.session_state.messages[message_index - 1].get("content", "")
-                    if message_index > 0
-                    else ""
-                )
-                if asked_question:
-                    with st.popover("🔗 Partager cette question"):
-                        st.caption("Copiez ce lien pour renvoyer directement à cette question.")
-                        st.code(share_link_for_question(asked_question), language=None)
 
     render_pending_feedback_dialog()
 
@@ -1796,40 +1765,6 @@ with chat_tab:
     if question and st.session_state.pending_question is None:
         queue_question(question)
         st.rerun()
-
-    with st.expander("📄 Signaler un document manquant"):
-        st.caption(
-            "Un document public de la Riviera vaudoise n'apparaît pas dans les réponses ? "
-            "Dites-nous où le trouver, on l'ajoute."
-        )
-        with st.form("missing_document_form", clear_on_submit=True):
-            missing_document_details = st.text_area(
-                "Lien ou description du document",
-                placeholder="URL du document, ou commune + titre + où le trouver…",
-                height=100,
-            )
-            missing_document_email = st.text_input(
-                "Votre email (facultatif, pour vous tenir au courant)"
-            )
-            missing_document_submitted = st.form_submit_button("Envoyer")
-
-        if missing_document_submitted:
-            if not missing_document_details.strip():
-                st.error("Merci de décrire le document ou d'indiquer son lien.")
-            else:
-                from app.contact import ContactSendError, send_contact_message
-
-                try:
-                    send_contact_message(
-                        "Visiteur AI Riviera",
-                        missing_document_email.strip() or "no-reply@airiviera.org",
-                        "Document manquant",
-                        missing_document_details.strip(),
-                    )
-                except ContactSendError as exc:
-                    st.error(str(exc))
-                else:
-                    st.success("Merci, signalement envoyé !")
 
 if SHOW_ADMIN_TABS and eval_tab is not None:
     with eval_tab:
