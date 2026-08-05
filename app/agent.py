@@ -22,6 +22,8 @@ from app.pilot_v2_store import (
     answered_interpellations,
     answered_postulates,
     fetch_document_chunks,
+    unanswered_interpellations,
+    unanswered_postulates,
 )
 from app.text_cleaning import fix_mojibake, strip_accents
 from municipal_pipeline.municipalities import MUNICIPALITIES
@@ -71,18 +73,27 @@ def _elapsed_ms(started_at: float) -> int:
     return round((time.perf_counter() - started_at) * 1000)
 
 
-def _explicit_ui_filters(filters: dict) -> dict:
-    """UI filters minus a "city": "all" placeholder.
+def _explicit_ui_filters(filters: dict, detected: dict | None = None) -> dict:
+    """UI filters, dropping a "city": "all" placeholder only when it would
+    clobber a commune already parsed from the question text.
 
     current_filters() in ui.py always sets "city" (even to the explicit "all"
-    default) so it stays part of the cache key. For aggregate/answered
-    queries that merge these UI filters on top of a city parsed directly out
-    of the question text ("... à Vevey ?"), that unconditional "all" would
-    silently overwrite the detected commune. Dropping it here lets a real UI
-    selection still win, while an unset one no longer clobbers detection.
+    default) so it stays part of the cache key, and callers (tests, other
+    call sites) may likewise pass city="all" on purpose as "no filter" — the
+    DB layer already treats "all" as unfiltered, so keeping it is harmless
+    and some callers rely on seeing it echoed back. The only case that needs
+    fixing is merging these UI filters on top of a city detect_*_query()
+    found directly in the question ("... à Vevey ?"): there, an unconditional
+    "all" would silently overwrite that detected commune. So the "all" is
+    only stripped when `detected` already has a city of its own.
     """
     ui_filters = dict(filters)
-    if str(ui_filters.get("city") or "").strip().lower() == "all":
+    detected_city = str((detected or {}).get("city") or "").strip()
+    if (
+        detected_city
+        and detected_city.lower() != "all"
+        and str(ui_filters.get("city") or "").strip().lower() == "all"
+    ):
         ui_filters.pop("city", None)
     return ui_filters
 
@@ -697,6 +708,100 @@ def run_answered_postulates_query(
     return "\n".join(lines).lstrip(), results
 
 
+def run_unanswered_interpellations_query(
+    filters: dict,
+) -> tuple[str, list[dict]]:
+    """Enumerate interpellations that have no verified linked response yet."""
+    rows = unanswered_interpellations(filters)
+    results = [_answered_result(row, rank) for rank, row in enumerate(rows)]
+    year = str(filters.get("year") or "")
+    if not rows:
+        suffix = f" déposée en {year}" if year else ""
+        return (
+            f"Toutes les interpellations{suffix} indexées ont une réponse "
+            "municipale liée dans les métadonnées — aucune n’est en attente.",
+            [],
+        )
+
+    commune_count = len(
+        {
+            str(row.get("commune") or "").strip()
+            for row in rows
+            if str(row.get("commune") or "").strip()
+        }
+    )
+    lines: list[str] = []
+    current_commune = None
+    for row in rows:
+        commune = fix_mojibake(str(row.get("commune") or "Commune inconnue"))
+        if commune_count > 1 and commune != current_commune:
+            if lines:
+                lines.append("")
+            lines.append(f"**{commune}**")
+            current_commune = commune
+        lines.append(
+            _political_document_line(
+                category="interpellation",
+                title=str(row.get("title") or "Interpellation"),
+                authors=list(row.get("authors") or []),
+                political_date=str(row.get("political_date") or ""),
+                pdf_url=str(row.get("response_url") or ""),
+                response_reference="",
+                response_date="",
+                commune=commune,
+            )
+        )
+    return "\n".join(lines).lstrip(), results
+
+
+def run_unanswered_postulates_query(
+    filters: dict,
+) -> tuple[str, list[dict]]:
+    """Enumerate postulates that have no verified linked response yet."""
+    rows = unanswered_postulates(filters)
+    results = [
+        _answered_postulate_result(row, rank) for rank, row in enumerate(rows)
+    ]
+    year = str(filters.get("year") or "")
+    if not rows:
+        suffix = f" déposé en {year}" if year else ""
+        return (
+            f"Tous les postulats{suffix} indexés ont une réponse municipale "
+            "liée dans les métadonnées — aucun n’est en attente.",
+            [],
+        )
+
+    commune_count = len(
+        {
+            str(row.get("commune") or "").strip()
+            for row in rows
+            if str(row.get("commune") or "").strip()
+        }
+    )
+    lines: list[str] = []
+    current_commune = None
+    for row in rows:
+        commune = fix_mojibake(str(row.get("commune") or "Commune inconnue"))
+        if commune_count > 1 and commune != current_commune:
+            if lines:
+                lines.append("")
+            lines.append(f"**{commune}**")
+            current_commune = commune
+        lines.append(
+            _political_document_line(
+                category="postulat",
+                title=str(row.get("title") or "Postulat"),
+                authors=list(row.get("authors") or []),
+                political_date=str(row.get("political_date") or ""),
+                pdf_url=str(row.get("response_url") or ""),
+                response_reference="",
+                response_date="",
+                commune=commune,
+            )
+        )
+    return "\n".join(lines).lstrip(), results
+
+
 def _unique_document_count(results: list[dict]) -> int:
     return len({result.get("document_id") for result in results if result.get("document_id")})
 
@@ -963,7 +1068,7 @@ def run_agentic_pipeline(
         question
     )
     if answered_filters is not None:
-        ui_filters = _explicit_ui_filters(filters)
+        ui_filters = _explicit_ui_filters(filters, answered_filters)
         if (
             ui_filters.get("year")
             and not answered_filters.get("response_year")
@@ -1000,7 +1105,7 @@ def run_agentic_pipeline(
         retrieval.detect_answered_postulates_query(question)
     )
     if answered_postulate_filters is not None:
-        ui_filters = _explicit_ui_filters(filters)
+        ui_filters = _explicit_ui_filters(filters, answered_postulate_filters)
         if (
             ui_filters.get("year")
             and not answered_postulate_filters.get("response_year")
@@ -1039,10 +1144,74 @@ def run_agentic_pipeline(
         )
         return answer, results, trace
 
+    unanswered_filters = retrieval.detect_unanswered_interpellations_query(
+        question
+    )
+    if unanswered_filters is not None:
+        unanswered_filters = {
+            **unanswered_filters,
+            **_explicit_ui_filters(filters, unanswered_filters),
+        }
+        trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
+        trace["mode"] = "aggregate"
+        trace["aggregate_kind"] = "unanswered_interpellations"
+        trace["aggregate_filters"] = unanswered_filters
+        _notify(on_stage, "Vérification des réponses liées dans la base...")
+        stage_started_at = time.perf_counter()
+        answer, results = run_unanswered_interpellations_query(
+            unanswered_filters
+        )
+        trace["timings_ms"]["aggregate_query"] = _elapsed_ms(
+            stage_started_at
+        )
+        trace["duration_seconds"] = round(
+            time.perf_counter() - started_at, 1
+        )
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
+        record_diagnostic(
+            "agent",
+            "Agentic pipeline trace",
+            trace=trace,
+            question=question[:200],
+        )
+        return answer, results, trace
+
+    unanswered_postulate_filters = (
+        retrieval.detect_unanswered_postulates_query(question)
+    )
+    if unanswered_postulate_filters is not None:
+        unanswered_postulate_filters = {
+            **unanswered_postulate_filters,
+            **_explicit_ui_filters(filters, unanswered_postulate_filters),
+        }
+        trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
+        trace["mode"] = "aggregate"
+        trace["aggregate_kind"] = "unanswered_postulates"
+        trace["aggregate_filters"] = unanswered_postulate_filters
+        _notify(on_stage, "Vérification des réponses liées dans la base...")
+        stage_started_at = time.perf_counter()
+        answer, results = run_unanswered_postulates_query(
+            unanswered_postulate_filters
+        )
+        trace["timings_ms"]["aggregate_query"] = _elapsed_ms(
+            stage_started_at
+        )
+        trace["duration_seconds"] = round(
+            time.perf_counter() - started_at, 1
+        )
+        trace["timings_ms"]["total"] = _elapsed_ms(started_at)
+        record_diagnostic(
+            "agent",
+            "Agentic pipeline trace",
+            trace=trace,
+            question=question[:200],
+        )
+        return answer, results, trace
+
     aggregate_filters = retrieval.detect_aggregate_query(question)
     trace["timings_ms"]["routing"] = _elapsed_ms(stage_started_at)
     if aggregate_filters is not None:
-        aggregate_filters = {**aggregate_filters, **_explicit_ui_filters(filters)}
+        aggregate_filters = {**aggregate_filters, **_explicit_ui_filters(filters, aggregate_filters)}
         # Deterministic count/enumeration over metadata — no LLM in the loop
         # for the count itself, so no verification pass is needed either.
         trace["mode"] = "aggregate"

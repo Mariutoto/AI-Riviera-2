@@ -924,6 +924,189 @@ def answered_postulates(filters: dict | None = None) -> list[dict]:
     )
 
 
+def _object_filing_year(metadata: dict, political_date: str) -> str:
+    if re.match(r"^20\d{2}", political_date):
+        return political_date[:4]
+    listing_year = str(metadata.get("listing_year") or metadata.get("year") or "")
+    return listing_year if re.fullmatch(r"20\d{2}", listing_year) else ""
+
+
+def select_unanswered_interpellations(
+    objects: list[dict],
+    response_documents: dict[str, dict],
+    filters: dict | None = None,
+) -> list[dict]:
+    """Return one row per interpellation with no verified linked response —
+    the complement of select_answered_interpellations, over the same object
+    set. An interpellation counts as unanswered when it has no response
+    entries at all, or none of its entries resolve to a linked response
+    document (a dangling/legacy relationship isn't a real answer)."""
+    filters = dict(filters or {})
+    requested_city = str(filters.get("city") or "").strip()
+    requested_year = str(filters.get("year") or "").strip()
+    selected = []
+
+    for document in objects:
+        metadata = dict(document.get("metadata") or {})
+        commune = str(metadata.get("commune") or "")
+        if (
+            requested_city
+            and requested_city.lower() != "all"
+            and commune != requested_city
+        ):
+            continue
+
+        entries = _response_entries(metadata)
+        linked_ids = _response_document_ids(metadata)
+        has_response = bool(linked_ids) and any(
+            document_id in response_documents for document_id in linked_ids
+        )
+        if not has_response and not entries:
+            has_response = False
+        if has_response:
+            continue
+
+        additional = metadata.get("additional_metadata") or {}
+        interpellation = additional.get("interpellation_metadata") or {}
+        authors = [
+            _author_display(author)
+            for author in (interpellation.get("authors") or [])
+            if isinstance(author, dict) and _author_display(author)
+        ]
+        political_date = _political_object_date(
+            metadata, str(document.get("title") or "")
+        )
+        if requested_year and _object_filing_year(
+            metadata, political_date
+        ) != requested_year:
+            continue
+        source_url = (
+            metadata.get("file_url") or metadata.get("source_url") or ""
+        )
+        selected.append(
+            {
+                "document_id": document["document_id"],
+                "source_document_id": document["document_id"],
+                "title": document.get("title"),
+                "category": document["category"],
+                "document_role": document.get("document_role"),
+                "summary": document.get("summary"),
+                "metadata": metadata,
+                "commune": commune,
+                "authors": authors,
+                "political_date": political_date,
+                "response_url": source_url,
+            }
+        )
+
+    return sorted(
+        selected,
+        key=lambda row: (
+            row.get("commune") or "",
+            row.get("political_date") or "",
+            row.get("title") or "",
+        ),
+    )
+
+
+def unanswered_interpellations(filters: dict | None = None) -> list[dict]:
+    """Enumerate interpellations that have not (yet) received a response."""
+    filters = dict(filters or {})
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(
+            "SELECT document_id, title, category, document_role, summary, "
+            "metadata FROM documents "
+            "WHERE category = 'interpellation' "
+            "AND document_role <> 'municipal_response'"
+        )
+        objects = cursor.fetchall()
+        linked_ids = sorted(
+            {
+                document_id
+                for document in objects
+                for document_id in _response_document_ids(
+                    document.get("metadata") or {}
+                )
+            }
+        )
+        response_documents: dict[str, dict] = {}
+        if linked_ids:
+            cursor.execute(
+                "SELECT document_id, title, category, document_role, summary, "
+                "metadata FROM documents WHERE document_id = ANY(%s)",
+                (linked_ids,),
+            )
+            response_documents = {
+                row["document_id"]: row for row in cursor.fetchall()
+            }
+    return select_unanswered_interpellations(objects, response_documents, filters)
+
+
+def unanswered_postulates(filters: dict | None = None) -> list[dict]:
+    """Enumerate postulates that have not (yet) received a response."""
+    filters = dict(filters or {})
+    requested_city = str(filters.get("city") or "").strip()
+    requested_year = str(filters.get("year") or "").strip()
+    clauses = [
+        "category = 'postulat'",
+        "document_role = 'postulate_text'",
+        "NOT coalesce((metadata->'additional_metadata'->'postulate_metadata'"
+        "->>'has_response')::boolean, false)",
+    ]
+    params: list[object] = []
+    if requested_city and requested_city.lower() != "all":
+        clauses.append("metadata->>'commune' = %s")
+        params.append(requested_city)
+    with _connect() as connection, connection.cursor() as cursor:
+        cursor.execute(
+            "SELECT document_id, title, category, document_role, summary, "
+            "metadata FROM documents WHERE " + " AND ".join(clauses),
+            params,
+        )
+        originals = cursor.fetchall()
+
+    selected = []
+    for original in originals:
+        metadata = dict(original.get("metadata") or {})
+        additional = metadata.get("additional_metadata") or {}
+        specific = additional.get("postulate_metadata") or {}
+        deposit_date = str(specific.get("deposit_date") or "")
+        if requested_year and _object_filing_year(
+            metadata, deposit_date
+        ) != requested_year:
+            continue
+        authors = [
+            _author_display(item)
+            for item in (specific.get("authors") or [])
+            if isinstance(item, dict) and _author_display(item)
+        ]
+        selected.append(
+            {
+                "document_id": original["document_id"],
+                "source_document_id": original["document_id"],
+                "title": original["title"],
+                "category": "postulat",
+                "document_role": original.get("document_role"),
+                "summary": original.get("summary"),
+                "metadata": metadata,
+                "commune": str(metadata.get("commune") or ""),
+                "authors": authors,
+                "political_date": deposit_date,
+                "response_url": (
+                    metadata.get("file_url") or metadata.get("source_url") or ""
+                ),
+            }
+        )
+    return sorted(
+        selected,
+        key=lambda row: (
+            row.get("commune") or "",
+            row.get("political_date") or "",
+            row.get("title") or "",
+        ),
+    )
+
+
 def search(query: str, limit: int = 50, filters: dict | None = None) -> list[dict]:
     filters = dict(filters or {})
     vector = _vector_literal(embed_query(query))

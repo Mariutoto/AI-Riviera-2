@@ -150,6 +150,86 @@ def detect_answered_postulates_query(query: str) -> dict | None:
     return filters
 
 
+_UNANSWERED_MARKERS = (
+    "n'ont pas recu",
+    "n'ont pas encore recu",
+    "n'a pas recu",
+    "n'a pas encore recu",
+    "n'ont pas obtenu",
+    "n'ayant pas recu",
+    "n'ayant pas encore recu",
+    "sans reponse",
+    "sans encore de reponse",
+    "pas encore recu de reponse",
+    "toujours pas de reponse",
+    "toujours sans reponse",
+    "en attente de reponse",
+    "restees sans reponse",
+    "reste sans reponse",
+    "non repondu",
+    "non repondues",
+    "n'ont toujours pas ete traitees",
+)
+
+
+def _has_unanswered_marker(normalized_query: str) -> bool:
+    # Accents are already stripped by the caller, but the apostrophe in
+    # markers like "n'ont pas recu" must match both straight (') and
+    # curly (’) apostrophes, so normalize that too before comparing.
+    text = normalized_query.replace("’", "'")
+    return any(marker in text for marker in _UNANSWERED_MARKERS)
+
+
+def detect_unanswered_interpellations_query(query: str) -> dict | None:
+    """Detect an enumeration of interpellations that have NOT received a
+    response yet ("n'ont pas reçu de réponse", "sans réponse à ce jour"...).
+
+    Mirrors detect_answered_interpellations_query but for the negative case —
+    needed as its own detector because listing "objects with no matching
+    response" is a different query (over the full object set) than listing
+    "objects with a matching response" (over the response relationships), and
+    because without it this phrasing fell through to the generic
+    enumeration in detect_aggregate_query, which lists every interpellation
+    regardless of response status.
+    """
+    normalized_query = strip_accents(query).lower()
+    enumeration = re.search(
+        r"\b(?:quel(?:le)?s?|liste(?:r)?|combien)\b.*\binterpellations?\b",
+        normalized_query,
+    )
+    if not enumeration or not _has_unanswered_marker(normalized_query):
+        return None
+
+    filters: dict = {"doc_type": "interpellations"}
+    year = _detect_year(normalized_query)
+    if year:
+        filters["year"] = year
+    city = _detect_city(normalized_query)
+    if city:
+        filters["city"] = city
+    return filters
+
+
+def detect_unanswered_postulates_query(query: str) -> dict | None:
+    """Detect an enumeration of postulates that have NOT received a response yet."""
+    normalized_query = strip_accents(query).lower()
+    enumeration = re.search(
+        r"\b(?:quel(?:le)?s?|liste(?:r)?|combien)\b.*\bpostulats?\b",
+        normalized_query,
+    )
+    if not enumeration or not _has_unanswered_marker(normalized_query):
+        return None
+
+    filters: dict = {"doc_type": "postulats"}
+    year = _detect_year(normalized_query)
+    if year:
+        filters["year"] = year
+    city = _detect_city(normalized_query)
+    if city:
+        filters["city"] = city
+    return filters
+
+
 def detect_aggregate_query(query: str) -> dict | None:
     """Detect "combien de ..." / "liste tous les ..." questions that need a real
     count/enumeration over structured metadata rather than semantic search over
