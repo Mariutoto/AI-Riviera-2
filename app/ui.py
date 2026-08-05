@@ -1715,6 +1715,8 @@ with chat_tab:
             if message["role"] == "assistant":
                 trace = message.get("trace", {})
                 render_sources(results, message_index, trace.get("source_blurbs"))
+                with st.popover("📋 Copier le texte"):
+                    st.code(fix_mojibake(message["content"]), language=None)
 
     render_pending_feedback_dialog()
 
