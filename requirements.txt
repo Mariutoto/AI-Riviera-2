@@ -1,4 +1,4 @@
-streamlit>=1.45
+streamlit>=1.45,<1.61
 openai>=1.80
 requests>=2.32
 lxml>=6.0
