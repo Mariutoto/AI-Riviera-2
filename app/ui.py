@@ -32,7 +32,7 @@ from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
     "Quels postulats ont été déposés à La Tour-de-Peilz en 2024 ?",
-    "Quelles interpellations de 2025 n'ont pas reçu de réponse à ce jour à Montreux ?",
+    "Quelles interpellations de 2026 n'ont pas reçu de réponse à ce jour à Montreux ?",
     "Quelles motions ont été déposées à Vevey entre 2023 et 2025 ?",
     "Quels sujets liés à l'environnement reviennent régulièrement dans la Riviera ?",
 ]
