@@ -1123,13 +1123,17 @@ def cached_answer_question(
     question: str,
     filters_key: tuple[tuple[str, str], ...],
     cache_version: str,
-    _on_stage=None,
 ) -> tuple[str, list[dict], dict]:
     _ = cache_version
-    # _on_stage is prefixed with an underscore so st.cache_data excludes it
-    # from the cache key (a callback isn't hashable/meaningful for caching
-    # identity) — on a cache hit it's simply never called, which is fine
-    # since a hit returns near-instantly and needs no progress indicator.
+    # No on_stage/progress callback is passed in here on purpose: st.cache_data
+    # records and replays whatever Streamlit elements a cached function
+    # renders, including ones triggered through a callback closure — and a
+    # closure bound to this run's placeholder (e.g. render_loading, bound to
+    # a specific st.empty()) isn't valid to replay in a different session,
+    # which raised a random, intermittent CacheReplayClosureError in
+    # production ("problème technique"). The two static render_loading(...)
+    # calls right before invoking this function (outside the cache boundary)
+    # are what the user actually sees while waiting.
     if not pilot_v2_ready():
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
 
@@ -1137,25 +1141,16 @@ def cached_answer_question(
         answer, results, trace = run_agentic_pipeline(
             question,
             filters=dict(filters_key),
-            on_stage=_on_stage,
         )
     else:
-        if _on_stage:
-            _on_stage("Reformulation de la question...")
         retrieval_question = rewrite_query_with_llm(question) or question
-        if _on_stage:
-            _on_stage("Recherche dans les documents...")
         candidates = search(retrieval_question, limit=50, filters=dict(filters_key))
-        if _on_stage:
-            _on_stage("Sélection des passages les plus pertinents...")
         results = rerank_results_with_llm(
             question,
             candidates,
             keep=RERANK_KEEP_LIMIT,
             max_candidates=RERANK_CANDIDATE_LIMIT,
         )
-        if _on_stage:
-            _on_stage("Rédaction de la réponse...")
         answer, trace = answer_from_sources(question, results[:GENERATION_PASSAGE_LIMIT]), {
             "rerank_candidate_limit": RERANK_CANDIDATE_LIMIT,
             "generation_passage_limit": GENERATION_PASSAGE_LIMIT,
@@ -1169,8 +1164,6 @@ def cached_answer_question(
         # (authors shown inline) without a blurb. The agentic path already
         # computes source_blurbs itself (in parallel with verification), so
         # this only runs for the non-agentic path.
-        if _on_stage:
-            _on_stage("Résumé des sources...")
         trace["source_blurbs"] = source_blurbs_with_fallback(group_results_by_document(results))
     return answer, results, trace
 
@@ -1200,7 +1193,6 @@ def cached_browse_documents(
 def answer_question(
     question: str,
     messages: list[dict] | None = None,
-    on_stage=None,
 ) -> tuple[str, list[dict], dict]:
     if not ensure_index_ready():
         return "La base AI Riviera n'est pas encore indexée. Relance l'indexation depuis l'environnement d'administration.", [], {}
@@ -1212,7 +1204,6 @@ def answer_question(
             effective_question,
             cacheable_filters(current_filters()),
             ANSWER_CACHE_VERSION,
-            _on_stage=on_stage,
         )
         duration_ms = int((time.perf_counter() - started_at) * 1000)
         record_interaction(
@@ -1716,11 +1707,7 @@ with chat_tab:
         else:
             render_loading("Lecture des sources...")
 
-        # Updated live as the pipeline actually progresses (see app/agent.py's
-        # on_stage callbacks) rather than a single static guess — so a
-        # genuinely harder question visibly *looks* like it's doing more,
-        # instead of leaving an unexplained long wait on the same message.
-        answer, results, trace = answer_question(pending_question, st.session_state.messages, on_stage=render_loading)
+        answer, results, trace = answer_question(pending_question, st.session_state.messages)
 
         st.session_state.messages.append({"role": "assistant", "content": answer, "results": results, "trace": trace})
         st.session_state.pending_question = None
