@@ -452,8 +452,13 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
     if doc_type in CATEGORY_MAP:
         clauses.append("d.category = %s")
         params.append(CATEGORY_MAP[doc_type])
-    if filters.get("year"):
-        clauses.append("coalesce(d.metadata->>'listing_year', d.metadata->>'year') = %s")
+    year_expression = "coalesce(d.metadata->>'listing_year', d.metadata->>'year')"
+    if filters.get("year_from") and filters.get("year_to"):
+        clauses.append(f"{year_expression} BETWEEN %s AND %s")
+        params.append(str(filters["year_from"]))
+        params.append(str(filters["year_to"]))
+    elif filters.get("year"):
+        clauses.append(f"{year_expression} = %s")
         params.append(str(filters["year"]))
     if filters.get("civility"):
         clauses.append("author->>'civility' = %s")
@@ -463,7 +468,8 @@ def aggregate_authors(filters: dict | None = None) -> list[dict]:
     sql = f"""
         SELECT DISTINCT d.document_id, d.title, d.category, d.summary, d.metadata,
                author->>'name' AS author_name, author->>'civility' AS civility, author->>'party' AS party,
-               coalesce(d.metadata->>'listing_year', d.metadata->>'year') AS year
+               category_meta.cat_value->'author_attribution'->>'official_listing' AS official_listing_author,
+               {year_expression} AS year
         FROM documents d,
              jsonb_each(d.metadata->'additional_metadata') AS category_meta(cat_key, cat_value),
              jsonb_array_elements(category_meta.cat_value->'authors') AS author

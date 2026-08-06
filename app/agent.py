@@ -352,7 +352,16 @@ _POLITICAL_TYPE_LABELS = {
 
 
 def _aggregate_author(row: dict) -> str:
-    name = fix_mojibake(str(row.get("author_name") or "")).strip()
+    # Some audited documents carry conflicting author attributions across
+    # sources (motion text vs. council minutes vs. the commune's own
+    # official listing) — official_listing_author, when present, is the
+    # one already resolved against the source commune's site and should
+    # win over whichever name happened to be recorded as the document's
+    # primary "authors" entry (e.g. a presenter named in the minutes,
+    # rather than the actual author on the commune's listing).
+    name = fix_mojibake(
+        str(row.get("official_listing_author") or row.get("author_name") or "")
+    ).strip()
     if not name:
         return ""
     civility = fix_mojibake(str(row.get("civility") or "")).strip()
@@ -431,13 +440,20 @@ def _political_date_from_metadata(
     )
     additional = metadata.get("additional_metadata") or {}
     extra = additional.get(f"{category}_metadata") or {}
+    # document_date comes from the same audited listing_occurrences pass
+    # that resolves author conflicts (see _aggregate_author) and matches
+    # the commune's own published date; extra.deposit_date/
+    # interpellation_date are sourced from council minutes, which have
+    # been seen to disagree with the official listing on the same
+    # document — prefer the resolved date first, minutes-derived dates
+    # only as a fallback when it's missing.
     return (
         filename_date.group(0)
         if filename_date
         else str(
-            extra.get("deposit_date")
+            metadata.get("document_date")
+            or extra.get("deposit_date")
             or extra.get("interpellation_date")
-            or metadata.get("document_date")
             or metadata.get("listing_date")
             or ""
         )

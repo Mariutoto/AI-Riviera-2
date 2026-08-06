@@ -59,6 +59,20 @@ def _detect_year(normalized_query: str) -> str | None:
     return year_match.group(1) if year_match else None
 
 
+def _detect_year_range(normalized_query: str) -> tuple[str, str] | None:
+    """"entre 2023 et 2025" -> ("2023", "2025"). Must run before
+    `_detect_year`, which only grabs the first year and would otherwise
+    silently drop everything after the lower bound (e.g. a 2024 document
+    when the question said "entre 2023 et 2025")."""
+    range_match = re.search(r"\bentre\s+(20\d{2})\s+et\s+(20\d{2})\b", normalized_query)
+    if not range_match:
+        range_match = re.search(r"\b(20\d{2})\s*[-–—]\s*(20\d{2})\b", normalized_query)
+    if not range_match:
+        return None
+    low, high = sorted((range_match.group(1), range_match.group(2)))
+    return low, high
+
+
 _AGGREGATE_MARKERS = ("combien de", "combien d'", "liste tous", "liste toutes", "quel est le nombre de")
 _CIVILITY_MARKERS = {"femmes": "Mme", "femme": "Mme", "hommes": "M.", "homme": "M."}
 # Only these doc_types are "countable" in the sense this function means —
@@ -272,9 +286,13 @@ def detect_aggregate_query(query: str) -> dict | None:
         # counting every document that matches the year.
         return None
 
-    year = _detect_year(normalized_query)
-    if year:
-        filters["year"] = year
+    year_range = _detect_year_range(normalized_query)
+    if year_range:
+        filters["year_from"], filters["year_to"] = year_range
+    else:
+        year = _detect_year(normalized_query)
+        if year:
+            filters["year"] = year
 
     return filters
 
