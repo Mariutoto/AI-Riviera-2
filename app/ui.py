@@ -1,12 +1,14 @@
 import sys
 import os
 import html
+import json
 import math
 from pathlib import Path
 import re
 import time
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
@@ -30,8 +32,8 @@ from municipal_pipeline.municipalities import MUNICIPALITIES
 
 SUGGESTED_QUESTIONS = [
     "Quels postulats ont été déposés à La Tour-de-Peilz en 2024 ?",
-    "Quelles interpellations n'ont pas reçu de réponse à ce jour à Montreux ?",
-    "Quelles motions ont été déposées à Vevey récemment ?",
+    "Quelles interpellations de 2025 n'ont pas reçu de réponse à ce jour à Montreux ?",
+    "Quelles motions ont été déposées à Vevey entre 2023 et 2025 ?",
     "Quels sujets liés à l'environnement reviennent régulièrement dans la Riviera ?",
 ]
 
@@ -1043,99 +1045,61 @@ def render_sources(results: list[dict], message_index: int, source_blurbs: dict[
         st.markdown("\n\n".join(source_lines), unsafe_allow_html=True)
 
 
-@st.dialog("Votre avis sur cette réponse", dismissible=True)
-def _feedback_dialog(message_index: int, question: str, answer: str, source_count: int) -> None:
-    st.write("Cette réponse vous a-t-elle été utile ?")
-    st.caption("Un clic suffit. Votre avis nous aide à améliorer les réponses.")
-
-    def submit(rating: str) -> None:
-        record_feedback(question, answer, rating, source_count)
-        st.session_state[f"feedback-{message_index}-recorded"] = rating
-        st.rerun()
-
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if st.button("👍👍 Très utile", key=f"feedback-{message_index}-double-up", width="stretch"):
-            submit("double_up")
-    with col2:
-        if st.button("👍 Utile", key=f"feedback-{message_index}-up", width="stretch"):
-            submit("up")
-    with col3:
-        if st.button("👎 Pas utile", key=f"feedback-{message_index}-down", width="stretch"):
-            submit("down")
-
-    if st.button(
-        "Fermer · Plus tard",
-        key=f"feedback-{message_index}-close",
-        width="stretch",
-        type="tertiary",
-    ):
-        st.session_state[f"feedback-{message_index}-dismissed"] = True
-        st.rerun()
+def render_copy_button(text: str, key: str) -> None:
+    """A single always-visible icon that copies `text` to the clipboard,
+    matching ChatGPT's copy button: one click, no popover, no rerun."""
+    payload = json.dumps(text)
+    components.html(
+        f"""
+        <button id="{key}" title="Copier le texte" style="
+            background:none;border:none;cursor:pointer;font-size:16px;
+            padding:2px 6px;line-height:1;color:inherit;">📋</button>
+        <script>
+          const btn = document.getElementById("{key}");
+          btn.addEventListener("click", async () => {{
+            try {{
+              await navigator.clipboard.writeText({payload});
+              btn.textContent = "✅";
+              setTimeout(() => {{ btn.textContent = "📋"; }}, 1500);
+            }} catch (e) {{
+              btn.textContent = "⚠️";
+            }}
+          }});
+        </script>
+        """,
+        height=30,
+    )
 
 
-def _pending_feedback_assistant_index() -> int | None:
-    """Return the latest answer only when this is a feedback turn.
-
-    Asking after every answer feels like a gate in front of the conversation.
-    Instead, ask after every second successful, sourced answer and never show
-    the same prompt twice, even if the user closes it with the dialog's X.
-    """
-    messages = st.session_state.messages
-    assistant_count = 0
-    candidate_index = None
-    for index, message in enumerate(messages):
-        if message.get("role") != "assistant" or not message.get("content"):
-            continue
-        if index == 0 or messages[index - 1].get("role") != "user":
-            continue
-        if not message.get("results"):
-            continue
-        assistant_count += 1
-        candidate_index = index
-
-    if assistant_count == 0 or assistant_count % 2 != 0 or candidate_index is None:
-        return None
-
-    for state_suffix in ("recorded", "dismissed", "prompted"):
-        if st.session_state.get(f"feedback-{candidate_index}-{state_suffix}"):
-            return None
-
-    return candidate_index
-
-
-FEEDBACK_DIALOG_DELAY_SECONDS = 8
-
-
-def render_pending_feedback_dialog() -> None:
-    """Shows at most one dismissible feedback dialog per rerun, for every
-    second successful answer — never inside the message loop, since
-    calling more than one @st.dialog function in the same script run isn't
-    supported.
-
-    Waits a few seconds before popping the dialog so there's time to read
-    the answer first. Streamlit has no background timer independent of a
-    rerun; since elements stream to the browser as the script executes, the
-    answer (rendered earlier in this same run, in the message loop above)
-    should already be visible while this sleeps. Only sleeps once per
-    message — the flag guards against a second full-script rerun landing
-    here before the dialog is resolved.
-    """
-    message_index = _pending_feedback_assistant_index()
-    if message_index is None:
-        return
-
-    time.sleep(FEEDBACK_DIALOG_DELAY_SECONDS)
-    # Mark it before opening: closing via the native X cannot run a callback,
-    # so this flag prevents the same prompt from returning on the next rerun.
-    st.session_state[f"feedback-{message_index}-prompted"] = True
-
-    messages = st.session_state.messages
-    message = messages[message_index]
-    question = messages[message_index - 1].get("content", "")
-    answer = message.get("content", "")
-    source_count = len(group_results_by_document(message.get("results", [])))
-    _feedback_dialog(message_index, question, answer, source_count)
+def render_message_actions(message_index: int, question: str, answer: str, source_count: int) -> None:
+    """Copy + thumbs up/down inline under an answer, ChatGPT-style: always
+    visible, one click, no delay and no dialog."""
+    recorded = st.session_state.get(f"feedback-{message_index}-recorded")
+    action_cols = st.columns([1, 1, 1, 9])
+    with action_cols[0]:
+        render_copy_button(answer, key=f"copy-{message_index}")
+    with action_cols[1]:
+        if st.button(
+            "👍",
+            key=f"feedback-{message_index}-up",
+            help="Bonne réponse",
+            disabled=recorded is not None,
+        ):
+            record_feedback(question, answer, "up", source_count)
+            st.session_state[f"feedback-{message_index}-recorded"] = "up"
+            st.rerun()
+    with action_cols[2]:
+        if st.button(
+            "👎",
+            key=f"feedback-{message_index}-down",
+            help="Mauvaise réponse",
+            disabled=recorded is not None,
+        ):
+            record_feedback(question, answer, "down", source_count)
+            st.session_state[f"feedback-{message_index}-recorded"] = "down"
+            st.rerun()
+    if recorded:
+        st.caption("Merci pour votre avis !")
 
 
 SHOW_ADMIN_TABS = admin_tabs_enabled()
@@ -1715,10 +1679,17 @@ with chat_tab:
             if message["role"] == "assistant":
                 trace = message.get("trace", {})
                 render_sources(results, message_index, trace.get("source_blurbs"))
-                with st.popover("📋 Copier le texte"):
-                    st.code(fix_mojibake(message["content"]), language=None)
-
-    render_pending_feedback_dialog()
+                question_text = (
+                    st.session_state.messages[message_index - 1].get("content", "")
+                    if message_index > 0
+                    else ""
+                )
+                render_message_actions(
+                    message_index,
+                    question_text,
+                    fix_mojibake(message["content"]),
+                    len(grouped_sources),
+                )
 
     if st.session_state.pending_question:
         suggestions_slot.empty()
