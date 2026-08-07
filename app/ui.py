@@ -300,14 +300,6 @@ st.markdown(
         margin: 0;
     }
 
-    .air-home-hero p {
-        color: var(--air-muted);
-        font-size: 1.05rem;
-        line-height: 1.55;
-        margin: 0.9rem auto 0;
-        max-width: 660px;
-    }
-
     .st-key-air-home-search,
     .st-key-air-search-filters {
         margin-left: auto;
@@ -1574,12 +1566,7 @@ with chat_tab:
         st.markdown(
             """
             <div class="air-home-hero">
-                <h1>AI Riviera</h1>
-                <p>
-                    Assistant de recherche dans les documents publics des communes
-                    de la Riviera vaudoise. Posez une question et consultez les
-                    sources officielles.
-                </p>
+                <h1>Que souhaitez-vous savoir&nbsp;?</h1>
             </div>
             """,
             unsafe_allow_html=True,
