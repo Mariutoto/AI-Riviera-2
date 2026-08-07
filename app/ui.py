@@ -19,7 +19,10 @@ LANDSCAPE_IMAGE_PATH = ASSETS_DIR / "riviera-vaudoise-landscape.jpg"
 LOGO_MARK_SVG = " ".join((ASSETS_DIR / "logo-mark.svg").read_text(encoding="utf-8").split())
 
 from app.agent import GENERATION_PASSAGE_LIMIT, RERANK_CANDIDATE_LIMIT, RERANK_KEEP_LIMIT, run_agentic_pipeline
-from app.analytics import inject_google_analytics, use_custom_favicon
+from app.analytics import (
+    SEO_TITLE,
+    prepare_static_assets,
+)
 from app.answer import answer_from_sources, get_secret, rerank_results_with_llm, rewrite_query_with_llm, source_blurbs_with_fallback
 from app.diagnostics import record_diagnostic, record_interaction, recent_diagnostics, recent_interactions
 from app.eval_set import load_eval_questions, retrieval_hit
@@ -187,10 +190,9 @@ def admin_tabs_enabled() -> bool:
     return value.lower().strip() in {"1", "true", "yes", "on"}
 
 
-st.set_page_config(page_title="AI Riviera", page_icon=str(ASSETS_DIR / "favicon.png"), layout="wide")
+st.set_page_config(page_title=SEO_TITLE, page_icon=str(ASSETS_DIR / "favicon.png"), layout="wide")
 
-inject_google_analytics()
-use_custom_favicon()
+prepare_static_assets()
 
 st.markdown(
     """
@@ -296,6 +298,14 @@ st.markdown(
         letter-spacing: -0.04em;
         line-height: 1.08;
         margin: 0;
+    }
+
+    .air-home-hero p {
+        color: var(--air-muted);
+        font-size: 1.05rem;
+        line-height: 1.55;
+        margin: 0.9rem auto 0;
+        max-width: 660px;
     }
 
     .st-key-air-home-search,
@@ -1564,7 +1574,12 @@ with chat_tab:
         st.markdown(
             """
             <div class="air-home-hero">
-                <h1>Que souhaitez-vous savoir&nbsp;?</h1>
+                <h1>AI Riviera</h1>
+                <p>
+                    Assistant de recherche dans les documents publics des communes
+                    de la Riviera vaudoise. Posez une question et consultez les
+                    sources officielles.
+                </p>
             </div>
             """,
             unsafe_allow_html=True,
