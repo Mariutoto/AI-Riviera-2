@@ -51,6 +51,14 @@ python -m pip install -r requirements.txt
 python -m streamlit run app/ui.py
 ```
 
+Pour le déploiement de production, utiliser le lanceur qui prépare les
+métadonnées SEO, le favicon, `robots.txt` et `sitemap.xml` avant la première
+requête HTTP :
+
+```powershell
+python run_app.py --server.port $env:PORT --server.headless true
+```
+
 L'application lit directement depuis Postgres (`POSTGRES_V2_URL`); il n'y a pas d'étape d'ingestion à lancer pour simplement servir l'app, tant que la base est déjà peuplée (voir « Alimenter une commune » ci-dessous).
 
 ## Options LLM
