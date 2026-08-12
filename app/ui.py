@@ -312,7 +312,7 @@ st.markdown(
         border-radius: 0.65rem;
         margin: 1.35rem auto 0;
         max-width: 700px;
-        padding: 0.65rem 0.85rem 0.45rem;
+        padding: 0.72rem 0.85rem;
     }
 
     .st-key-support-teaser-about {
@@ -338,6 +338,10 @@ st.markdown(
         display: block;
         font-size: 0.82rem;
         margin-bottom: 0.18rem;
+    }
+
+    .air-support-copy {
+        padding: 0.15rem 0 0.28rem;
     }
 
     .air-support-copy span {
@@ -779,7 +783,8 @@ def render_support_dialog() -> None:
 
     st.caption(
         "L’e-mail sert à éviter les soutiens en double. Il n’est conservé en clair "
-        "que si vous demandez à recevoir les nouvelles. Aucun nom n’est publié."
+        "que si vous demandez à recevoir les nouvelles. Aucun nom n’est publié. "
+        "Plus de détails dans l’onglet Confidentialité."
     )
 
     if not submitted:
@@ -1259,14 +1264,14 @@ def render_message_actions(message_index: int, question: str, answer: str, sourc
 
 SHOW_ADMIN_TABS = admin_tabs_enabled()
 if SHOW_ADMIN_TABS:
-    chat_tab, eval_tab, documents_tab, about_tab, contact_tab = st.tabs(
-        ["Assistant", "Eval", "Documents", "À propos", "Contact"],
+    chat_tab, eval_tab, documents_tab, about_tab, contact_tab, privacy_tab = st.tabs(
+        ["Assistant", "Eval", "Documents", "À propos", "Contact", "Confidentialité"],
         key="main-navigation",
         on_change="rerun",
     )
 else:
-    chat_tab, documents_tab, about_tab, contact_tab = st.tabs(
-        ["Assistant", "Documents", "À propos", "Contact"],
+    chat_tab, documents_tab, about_tab, contact_tab, privacy_tab = st.tabs(
+        ["Assistant", "Documents", "À propos", "Contact", "Confidentialité"],
         key="main-navigation",
         on_change="rerun",
     )
@@ -2148,4 +2153,75 @@ with contact_tab:
     st.caption(
         "Les demandes GitHub sont centralisées avec le projet afin de pouvoir les suivre "
         "et y répondre plus facilement."
+    )
+    st.caption(
+        "Le traitement des informations envoyées est décrit dans l’onglet Confidentialité."
+    )
+
+with privacy_tab:
+    st.subheader("Confidentialité")
+    st.caption("Dernière mise à jour : 12 août 2026")
+
+    st.write(
+        "AI Riviera cherche à limiter les données personnelles collectées et à expliquer "
+        "simplement comment elles sont utilisées. Cette page concerne le site "
+        "airiviera.org et ses formulaires."
+    )
+
+    st.markdown("### Responsable et contact")
+    st.markdown(
+        "Le responsable du traitement est **AI Riviera — Yann Boulben Meyer**. "
+        "Pour toute question, demande d’accès, de correction ou de suppression, "
+        "utilisez l’onglet **Contact** ou écrivez à "
+        "[yannboulben@gmail.com](mailto:yannboulben@gmail.com)."
+    )
+
+    st.markdown("### Données traitées")
+    st.markdown(
+        """
+- **Questions posées à l’assistant.** La question, les filtres choisis et des extraits de documents publics sont traités pour produire une réponse. Ils peuvent être transmis à Mistral AI ou à OpenAI selon le fournisseur configuré. La conversation reste dans la session du navigateur. Une copie temporaire peut exister dans le cache technique du serveur. En cas d’erreur, les 300 premiers caractères de la question peuvent être enregistrés pour le diagnostic.
+- **Avis sur une réponse.** Si vous choisissez 👍 ou 👎, la question, la réponse, la note et le nombre de sources sont enregistrés afin d’améliorer le service.
+- **Soutien au projet.** La commune, une empreinte cryptographique de l’adresse e-mail et le choix de recevoir ou non des nouvelles sont enregistrés. L’adresse e-mail n’est conservée en clair que si vous demandez les nouvelles du projet. Les soutiens ne sont pas publiés individuellement.
+- **Formulaire de contact.** Le nom, l’adresse e-mail, le sujet et le message sont envoyés par e-mail au responsable du projet. Ils ne sont pas ajoutés automatiquement à une liste de diffusion.
+- **Mesure d’audience.** Google Analytics peut traiter des informations techniques sur la visite, notamment le navigateur, l’appareil, les pages consultées et une localisation approximative. Vous pouvez bloquer ces mesures avec les réglages ou extensions de votre navigateur.
+        """
+    )
+
+    st.markdown("### Finalités et destinataires")
+    st.write(
+        "Ces données servent uniquement à faire fonctionner la recherche, corriger les "
+        "problèmes, mesurer l’utilité du projet, répondre aux messages et, avec votre "
+        "accord, communiquer occasionnellement des nouvelles. Elles ne sont pas vendues."
+    )
+    st.write(
+        "Les prestataires susceptibles de traiter des données sont Render pour "
+        "l’hébergement de l’application, Cloudflare pour l’acheminement et la protection "
+        "du trafic, le prestataire de base de données du projet, Mistral AI ou OpenAI "
+        "pour les fonctions d’intelligence artificielle, Google pour la mesure "
+        "d’audience et les prestataires de messagerie pour les contacts. Certains "
+        "traitements peuvent avoir lieu hors de Suisse selon le prestataire utilisé."
+    )
+
+    st.markdown("### Conservation et vos choix")
+    st.markdown(
+        """
+- Les données de soutien sont conservées tant que le projet mesure cet intérêt, ou jusqu’à une demande de retrait.
+- L’adresse utilisée pour recevoir des nouvelles est conservée jusqu’au retrait du consentement.
+- Les avis et diagnostics sont conservés uniquement aussi longtemps qu’ils restent utiles à l’amélioration et à la sécurité du service.
+- Les messages de contact peuvent rester dans les boîtes de messagerie le temps nécessaire au suivi de la demande.
+        """
+    )
+    st.write(
+        "Vous pouvez demander quelles données vous concernent, les faire corriger ou "
+        "supprimer, retirer votre soutien ou vous opposer aux nouvelles à tout moment "
+        "par l’onglet Contact."
+    )
+
+    st.markdown("### Documents publics")
+    st.write(
+        "AI Riviera indexe des documents publiés par les autorités communales. Ils peuvent "
+        "contenir des noms, fonctions ou coordonnées déjà rendus publics dans ce contexte. "
+        "Les sources officielles restent indiquées. Si une information vous concernant "
+        "semble incorrecte ou ne devrait plus apparaître, contactez le projet afin qu’elle "
+        "puisse être examinée."
     )
