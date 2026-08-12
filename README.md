@@ -95,6 +95,7 @@ En cloud, les secrets peuvent être fournis comme variables d'environnement ou d
 - `POSTGRES_V2_URL`: URL du Postgres/pgvector qui contient les documents indexés.
 - `LLM_PROVIDER`, `MISTRAL_API_KEY` ou `OPENAI_API_KEY`: fournisseur LLM pour la synthèse.
 - `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `CONTACT_RECIPIENT`: formulaire de contact.
+- `SUPPORT_HASH_SECRET`: secret aléatoire utilisé pour dédupliquer les soutiens sans conserver l'adresse e-mail en clair lorsque la personne ne demande pas les nouvelles du projet.
 - `GA_MEASUREMENT_ID`, `GOOGLE_SITE_VERIFICATION`: voir « Analytics et Search Console » ci-dessous.
 
 ## Analytics et Search Console

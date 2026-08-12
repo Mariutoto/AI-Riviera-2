@@ -30,6 +30,7 @@ from app.feedback import record_feedback, recent_feedback
 from app.pilot_v2_store import CATEGORY_MAP, browse_documents, ready as pilot_v2_ready
 from app.retrieval import search
 from app.search_guard import filter_guard_message
+from app.support import SupportRecordError, record_project_support, valid_email
 from app.text_cleaning import fix_mojibake, format_date
 from municipal_pipeline.municipalities import MUNICIPALITIES
 
@@ -45,6 +46,10 @@ CITY_FILTER_MUNICIPALITIES = tuple(
     for municipality in MUNICIPALITIES.values()
     if municipality.key != "association-securite-riviera"
 )
+
+SUPPORT_MUNICIPALITIES = [
+    municipality.label for municipality in CITY_FILTER_MUNICIPALITIES
+] + ["Autre commune"]
 
 CITY_OPTIONS = {"all": "Toutes"}
 CITY_OPTIONS.update(
@@ -298,6 +303,57 @@ st.markdown(
         letter-spacing: -0.04em;
         line-height: 1.08;
         margin: 0;
+    }
+
+    .st-key-support-teaser-home,
+    .st-key-support-teaser-about {
+        background: #ffffff;
+        border: 1px solid var(--air-line);
+        border-radius: 0.65rem;
+        margin: 1.35rem auto 0;
+        max-width: 700px;
+        padding: 0.65rem 0.85rem 0.45rem;
+    }
+
+    .st-key-support-teaser-about {
+        margin: 1.25rem 0 1.8rem;
+        max-width: none;
+    }
+
+    .air-support-heart {
+        align-items: center;
+        background: #edf5f6;
+        border-radius: 50%;
+        color: var(--air-accent);
+        display: flex;
+        font-size: 1.05rem;
+        height: 2.2rem;
+        justify-content: center;
+        margin-top: 0.15rem;
+        width: 2.2rem;
+    }
+
+    .air-support-copy strong {
+        color: var(--air-ink);
+        display: block;
+        font-size: 0.82rem;
+        margin-bottom: 0.18rem;
+    }
+
+    .air-support-copy span {
+        color: var(--air-muted);
+        display: block;
+        font-size: 0.72rem;
+        line-height: 1.4;
+    }
+
+    .st-key-support-teaser-home [data-testid="stButton"] button,
+    .st-key-support-teaser-about [data-testid="stButton"] button {
+        color: var(--air-accent-dark);
+        font-size: 0.72rem;
+        font-weight: 600;
+        min-height: 2.25rem;
+        white-space: nowrap;
     }
 
     .st-key-air-home-search,
@@ -689,6 +745,103 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+
+@st.dialog("Soutenir AI Riviera", width="small")
+def render_support_dialog() -> None:
+    if st.session_state.get("project_support_recorded"):
+        st.success("Merci pour votre soutien à AI Riviera.")
+        st.caption(
+            "Votre choix concernant les nouvelles du projet a bien été enregistré."
+        )
+        return
+
+    st.write(
+        "Vous aimeriez voir AI Riviera continuer ? Deux informations suffisent."
+    )
+    with st.form("project_support_form"):
+        municipality = st.selectbox(
+            "Votre commune",
+            options=[""] + SUPPORT_MUNICIPALITIES,
+            format_func=lambda value: value or "Choisir une commune",
+        )
+        email = st.text_input(
+            "Adresse e-mail",
+            placeholder="vous@exemple.ch",
+        )
+        newsletter_opt_in = st.checkbox(
+            "Je souhaite recevoir occasionnellement des nouvelles d’AI Riviera."
+        )
+        submitted = st.form_submit_button(
+            "Confirmer mon soutien",
+            width="stretch",
+        )
+
+    st.caption(
+        "L’e-mail sert à éviter les soutiens en double. Il n’est conservé en clair "
+        "que si vous demandez à recevoir les nouvelles. Aucun nom n’est publié."
+    )
+
+    if not submitted:
+        return
+    if not municipality:
+        st.error("Merci de sélectionner votre commune.")
+        return
+    if not valid_email(email):
+        st.error("L’adresse e-mail ne semble pas valide.")
+        return
+    try:
+        created = record_project_support(
+            email=email,
+            municipality=municipality,
+            newsletter_opt_in=newsletter_opt_in,
+        )
+    except SupportRecordError as exc:
+        st.error(str(exc))
+        return
+
+    st.session_state.project_support_recorded = True
+    if created:
+        st.success("Merci, votre soutien a bien été enregistré.")
+    else:
+        st.info("Ce soutien était déjà enregistré. Merci d’être toujours avec nous.")
+
+
+def render_support_teaser(location: str) -> None:
+    container_key = f"support-teaser-{location}"
+    with st.container(key=container_key):
+        icon_col, copy_col, action_col = st.columns(
+            [0.42, 3.8, 1.1],
+            vertical_alignment="center",
+        )
+        with icon_col:
+            st.markdown(
+                '<span class="air-support-heart" aria-hidden="true">♡</span>',
+                unsafe_allow_html=True,
+            )
+        with copy_col:
+            if st.session_state.get("project_support_recorded"):
+                copy = (
+                    "<strong>Merci pour votre soutien.</strong>"
+                    "<span>Vous contribuez à l’avenir d’AI Riviera.</span>"
+                )
+            else:
+                copy = (
+                    "<strong>Vous aimeriez voir AI Riviera continuer&nbsp;?</strong>"
+                    "<span>Faites-le-nous simplement savoir.</span>"
+                )
+            st.markdown(
+                f'<div class="air-support-copy">{copy}</div>',
+                unsafe_allow_html=True,
+            )
+        with action_col:
+            if not st.session_state.get("project_support_recorded"):
+                if st.button(
+                    "Je soutiens →",
+                    key=f"open-support-{location}",
+                    width="stretch",
+                ):
+                    render_support_dialog()
 
 def current_filters() -> dict | None:
     filters = {}
@@ -1660,6 +1813,7 @@ with chat_tab:
                             width="stretch",
                             disabled=not city_available,
                         )
+            render_support_teaser("home")
     else:
         suggestions_slot.empty()
 
@@ -1890,6 +2044,8 @@ with about_tab:
                 caption="La Riviera vaudoise",
                 width=320,
             )
+
+    render_support_teaser("about")
 
     st.subheader("En quoi c'est utile ?")
     st.markdown(
