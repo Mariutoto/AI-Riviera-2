@@ -34,7 +34,7 @@ class UiDocumentTabsTests(unittest.TestCase):
         self.assertEqual(len(app.exception), 0)
         self.assertEqual(
             [tab.label for tab in app.tabs],
-            ["Assistant", "Documents", "À propos", "Contact", "Confidentialité"],
+            ["Assistant", "Documents", "À propos", "Contact"],
         )
         self.assertEqual(
             app.chat_input[0].placeholder,
