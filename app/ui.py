@@ -653,7 +653,7 @@ st.markdown(
         margin: 0 0 0.35rem;
     }
 
-    .air-browser-result h3 {
+    .air-browser-result .air-browser-title {
         color: var(--air-ink);
         font-size: 0.95rem;
         font-weight: 550;
@@ -1463,7 +1463,7 @@ def render_document_browser_result(document: dict) -> None:
         <article class="air-browser-result">
             <div>
                 <p>{" · ".join(details)}</p>
-                <h3>{title}</h3>
+                <div class="air-browser-title" role="heading" aria-level="3">{title}</div>
             </div>
             {link}
         </article>
