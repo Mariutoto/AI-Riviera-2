@@ -1762,8 +1762,6 @@ with chat_tab:
                 st.caption(
                     f"Documents indexés : {selected_institution.search_scope}."
                 )
-                if selected_institution.search_period:
-                    st.caption(selected_institution.search_period + ".")
         with filter_columns[1]:
             selected_year = st.selectbox(
                 "Année",
@@ -2083,6 +2081,7 @@ with about_tab:
     )
 
     st.subheader("Communes et documents disponibles")
+    st.caption("Période principale : législature 2021–2026.")
     available_municipalities = [
         municipality
         for municipality in MUNICIPALITIES.values()
@@ -2095,14 +2094,7 @@ with about_tab:
     ]
     st.markdown(
         "\n".join(
-            (
-                f"- **{municipality.label}** — {municipality.search_scope}"
-                + (
-                    f"  \n  *{municipality.search_period}*"
-                    if municipality.search_period
-                    else ""
-                )
-            )
+            f"- **{municipality.label}** — {municipality.search_scope}"
             for municipality in available_municipalities
         )
     )

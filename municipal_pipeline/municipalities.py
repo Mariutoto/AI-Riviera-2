@@ -11,7 +11,6 @@ class Municipality:
     documents_directory: str
     search_enabled: bool = False
     search_scope: str = ""
-    search_period: str = ""
     document_types: tuple[str, ...] = ()
     aliases: tuple[str, ...] = ()
 
@@ -26,7 +25,6 @@ LA_TOUR_DE_PEILZ = Municipality(
         "procès-verbaux, interpellations, motions, postulats, préavis municipaux, "
         "budgets, rapports de gestion et des comptes, règlement du Conseil communal"
     ),
-    search_period="Période principale : législature 2021–2026",
     document_types=(
         "interpellations",
         "postulats",
