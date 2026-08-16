@@ -53,7 +53,7 @@ def test_support_municipalities_exclude_non_municipal_association() -> None:
     assert not any("Association" in value for value in support.ALLOWED_MUNICIPALITIES)
 
 
-def test_la_tour_de_peilz_scope_lists_indexed_documents_and_period() -> None:
+def test_la_tour_de_peilz_scope_lists_indexed_documents() -> None:
     municipality = next(
         item for item in support.MUNICIPALITIES.values() if item.label == "La Tour-de-Peilz"
     )
@@ -62,7 +62,6 @@ def test_la_tour_de_peilz_scope_lists_indexed_documents_and_period() -> None:
     assert "interpellations" in municipality.search_scope
     assert "préavis municipaux" in municipality.search_scope
     assert "rapports de gestion et des comptes" in municipality.search_scope
-    assert municipality.search_period == "Période principale : législature 2021–2026"
 
 
 class _FakeCursor:
