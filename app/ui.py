@@ -1760,8 +1760,10 @@ with chat_tab:
             )
             if selected_institution and selected_institution.search_scope:
                 st.caption(
-                    f"Périmètre actuel : {selected_institution.search_scope}."
+                    f"Documents indexés : {selected_institution.search_scope}."
                 )
+                if selected_institution.search_period:
+                    st.caption(selected_institution.search_period + ".")
         with filter_columns[1]:
             selected_year = st.selectbox(
                 "Année",
@@ -2093,7 +2095,14 @@ with about_tab:
     ]
     st.markdown(
         "\n".join(
-            f"- **{municipality.label}** — {municipality.search_scope}"
+            (
+                f"- **{municipality.label}** — {municipality.search_scope}"
+                + (
+                    f"  \n  *{municipality.search_period}*"
+                    if municipality.search_period
+                    else ""
+                )
+            )
             for municipality in available_municipalities
         )
     )
