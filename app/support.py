@@ -116,7 +116,6 @@ def record_project_support(
                     (normalized_email, municipality, fingerprint),
                 )
             connection.commit()
-            return created
     except SupportRecordError:
         raise
     except Exception as exc:
@@ -129,3 +128,23 @@ def record_project_support(
         raise SupportRecordError(
             "Le soutien n'a pas pu être enregistré. Merci de réessayer plus tard."
         ) from exc
+
+    if created:
+        try:
+            from app.contact import send_support_notification
+
+            send_support_notification(
+                municipality=municipality,
+                newsletter_opt_in=newsletter_opt_in,
+                contact_email=contact_email,
+            )
+        except Exception as exc:
+            # A notification problem must never undo or hide a saved support.
+            record_diagnostic(
+                "project_support_notification",
+                "Failed to send new-support notification",
+                exc,
+                municipality=municipality,
+            )
+
+    return created
